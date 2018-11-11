@@ -1,0 +1,649 @@
+Space Rogue General Walkthrough v1.01
+
+If you find any bugs or errors, or have any comments or anything to add
+(especially if there are any quests that you know of that's not listed here),
+please look for me on the Abandonia.com forums. This is written for the PC
+version of the game.
+
+This may be not be reproduced under any circumstances except for personal,
+private use. It may not be placed on any web site or otherwise distributed
+publicly without advance written permission. Use of this guide on any other web
+site or as a part of any public display is strictly prohibited, and a violation
+of copyright. If you want permission, look for me on Abandonia.com.
+
+BASICS
+------
+I'll assume that you already know the basics of moving through space, such as
+Newtonian Flight versus Cruise Flight. One thing that's nice is that the center
+key (S or 5 on the keypad) automatically stops your rotation. Some other things
+to note:
+
+Ship Upgrades:
+I've never found shields to be of much help, since they don't seem to work as
+advertised. I'll usually get the cargo pods and turbo thruster first, then the
+particle beam, then the rest as I get enough resources. The turbo thruster
+doubles your acceleration so it's pretty nice. Due to a bug in the game, when
+you buy an SM-1 missile, you will actually fire a Nova missile, and vice versa.
+Thus, you should never buy Nova missiles, since they're more expensive and
+you'll actually do less damage.
+
+Space Hazards:
+To avoid hazards, you can move backwards through space, since the game only
+generates them ahead of you. For nebulae, only the white ones will damage you.
+Some can be destroyed by shooting at them. You can also travel backward to a
+Malir gate so that you're not damaged, for the gates that are inside of
+nebulae.
+
+Docking:
+To dock, you must be traveling at 20 m/s or less, and contact certain locations
+of each type of base:
+Starbase: Contact the bright central pillar in the middle, or the top or bottom
+tip of the pyramidal halves
+Outpost: Contact any part of the arm which has a green/black door on the inside
+Carrier: Contact any part of the main deck, top or bottom, as long as you don't
+hit the island
+Station: Contact any part of a station
+Note that this is somewhat more expansive than what the manual told you about.
+For several reasons they may reject you when you dock (such as firing on the
+base). If this happens, travel around (via the navigation panel) until the next
+day and return.
+
+Ships List:
+This is the list of ships and their stats. The Sunracer is your ship, but you
+won't encounter other Sunracers.
+Name     Group    Armor   Laser  Missile    Systems Acc(m/s^2)
+Sunracer None     300-500 10-par none        f ebm  1.4
+Cruiser  Imperium 450     20     SM-1(100)  cfaebm  1.05
+Titan    Imperium 1000    par    Nova(250)  cfaebm  0.7
+Scow     Guild    210     10     none         aeb   0.7
+Tanker   Guild    360     15     SM-1(100)  cfaebm  0.7
+Dart     Pirate   245     10     SM-1(100)  cf ebm  1.4
+Corsair  Pirate   405     15     SM-1(100)  cfaebm  1.05
+Hunter   None     350     par    SM-1(100)   f ebm  2.1
+Wasp     Manchi   180     15     Plasma(75)    ebm  2.1
+Vulture  Manchi   480     20     Plasma(75)  faebm  1.05
+
+Group: This is the group that the ship belongs to, so your repute with them may
+decrease if you fight those ships. Manchi ships are always aggressive.
+
+Laser: Firing too often in too short of a time span will reduce the damage
+done. The beam auto-lock automatically fires at the maximum rate where each
+shot does maximum damage, which is nice.
+10 = garnet (10 damage/shot)
+15 = beryl (15 damage/shot)
+20 = sapphire (20 damage/shot)
+par = particle (20 damage/shot)
+
+Acc: This is based on actual testing. Note that there are basically only four
+acceleration rates, regardless of what the manual said. A turbo thruster will
+double your acceleration. Being fully loaded with (8 tons of) cargo will
+decrease your acceleration in half. These stats may come in handy should you
+choose to play as these ships (via save file editing or via OETA). By the way,
+note that no matter your acceleration, your max speed is 70 m/s (except when
+near a gravity well), while computer ships don't suffer this limit, so even a
+Titan can catch up to you when you're fleeing.
+
+When a ship appears, the percentage chance of which type it will be is below:
+Type     Karonus Deneb Gryphon Arcturus Nar'see Bassruti Sigure NedN27 Ja-Karn
+Hunter     10     10     10       10      10       10      10     10      0
+Pirate     10     10     20        5      20       30      25     20      0
+Merchant   45     45     40       45      40       35      30     35      0
+Imperium   30     30     25       35      20       10      10     10      0
+Manchi      5      5      5        5      10       15      25     25     100
+
+Repute and Relations:
+Repute and relations affect how different characters and different ships react
+to you. For example, you will not be able to proceed with the main plot until
+you reach a certain repute, and Flitch will not pay attention to you if you're
+disliked or hated by pirates, will charge you 25 credits to talk to him if
+you're neutral to pirates, and will talk to you freely if you're liked or ally
+to pirates. Some quests are easier to achieve depending on your relations
+toward whomever you're talking to. It's best to be neutral or better with
+everyone.
+
+If you are disliked or hated by any group, their ships will attack you on
+sight. If you are allied with them, then they will attack any third party
+sharing the same space with you, even if you're not attacking the third party.
+You may even see them attacking starbases.
+
+Your repute may increase when you kill a ship or force one to surrender its
+cargo. To increase your relation with one of the groups, get involved with
+fights between different groups. For example, if you come across a Dart
+fighting a Scow, and you help kill the Dart, your repute with the guild is
+likely to increase, while your repute with pirates is likely to decrease. Since
+the Manchi will hate you no matter what, you should always try helping to kill
+off the Manchi when there's other ships around. Similarly, since Hunters are
+not aligned with any group, if you come across a pirate fighting a Hunter, you
+should try to kill the Hunter, since your relations may improve with a group
+without having to worry about it decreasing with another group.
+
+Your repute and relations change when the kill (or surrender) is made, so this
+is something that can be load-and-saved.
+
+List of Ship Upgrade Items:
+Stealth Box - Reduces chance of detection by other ships (so that you're
+alerted to hostile ships rather than attacked by them, presumably).
+Beam Lock - Will automatically fire your lasers if a target is in front of you
+and if the laser will hit at full strength. Note that although the manual says
+it will fire only on the desired target, it will actually fire on any ship or
+base on front of you, including friendly targets, so be careful when using it.
+Also, this allows you to fire missiles while your laser is still firing on your
+target.
+Turbo Thruster - Doubles your acceleration. Can be bought on Hiathra or
+Denebprime.
+Repair Droid - Repairs your damaged components while travelling in interstellar
+space. Note that it does not repair armor.
+Null Damper - Counters the corrosive effect of traveling through Malir gates.
+
+TRADING AND MAKING MONEY
+------------------------
+The minimum prices for each type of cargo at each station are below:
+
+Cargo         Spoil? Hiath MiCI Deneb Ross ConVec MiCII Lagra FreeG Troch MiCIV
+X-rated holos   No    156   90   140   80    56     74    58    26    42    60
+explosives      No    234  135   210  120    84    111    87    39    63    90
+forged CRs      No    312  180   280  160   112    148   116    52    84   120
+anagathics     Yes    390  225   350  220   140    185   145    65   105   150
+shunt valves    No     34   42    30   48    70     94    72    64    74   126
+1GB RAMs        No     51   63    45   72   105    141   108    96   111   189
+antibiotics    Yes     68   84    60   96   140    188   144   128   148   252
+supercomputer   No     85  105    75  120   175    235   180   160   185   315
+methane         No     20   32    14   12     6      6     4    10    26     8
+titanium        No     30   48    21   18     9      9     6    15    39    12
+radioactives   Yes     40   64    28   24    12     12     8    20    52    16
+dilithium       No     50   80    35   30    15     15    10    25    65    20
+manure         Yes      8   10    20   36    10     12    60    24    38    14
+seaweed        Yes     12   15    30   54    15     18    90    36    57    21
+solvent grey    No     16   20    40   72    20     24   120    48    76    28
+hybrid grain   Yes     20   25    50   90    25     30   150    60    95    35
+souvenirs       No     16   18    14   22    34     50    36    90    66    52
+video games     No     24   27    21   33    51     75    54   135    99    78
+brandy          No     32   36    28   44    68    100    72   180   132   104
+exotic pets     No     40   45    35   55    85    125    90   225   165   130
+
+Note that although there are cargo prices for ISS Koth and Bassruti station,
+there are no merchants on those bases, so they're not accessible and thus not
+listed here.
+
+There are five types of cargo: Contraband, high-tech, raw materials,
+agriculture, and luxury goods. Each type (for example, high-tech) has one worth
+twice the base value (i.e. shunt valves), another worth 3x the base value (i.e.
+1GB RAMs), another worth 4x the base value (i.e. antibiotics), and another
+worth 5x the base value (i.e. supercomputer). They are listed above in this
+order. The base values are taken from the "MAPS" file, but if it is 16 or
+greater, the game will randomly roll it to be between the value and 110% of the
+value (rounded down), then multiply it by the appropriate multiplier for that
+cargo. So for example, Hiathra's base value for contraband is 78, so it will
+actually be randomly between 78 and 85 (inclusive), then multiplied by the
+proper amount depending on which type of contraband, for example 4x for forged
+CRs. Thus forged CRs on Hiathra will sell for between 312 and 340 credits, in
+increments of 4 (312, 316, 320, ..., 340).
+
+There will be between four and six cargo that you can buy. However, this is
+rolled randomly, so you can always use load-and-save. The same goes for whether
+or not you get caught with contraband, which is checked at Imperium bases.
+Forged cargo papers is supposed to decrease your chances of getting caught. As
+for spoilage, this occurs randomly as you travel between bases, so I usually
+just check and reload or save every five squares or so if I'm carrying cargo
+that may spoil.
+
+Contraband is cheapest on Free Guild and Trochal, and most expensive on Hiathra
+and Denebprime.
+High-tech is cheapest on Denebprime and Hiathra, and most expensive on MiCon II
+and MiCon IV.
+Raw materials are cheapest on Lagrange and MiCon II, and most expensive on
+Trochal and MiCon I. The range spread is not that big, though.
+Agriculture is cheapest on Hiathra and MiCon I or ConVecEast, and most
+expensive on Trochal and Lagrange.
+Luxury goods are cheapest on Denebprime and Hiathra, and most expensive on
+Trochal and Free Guild.
+
+The relative chance of each type of cargo appearing is below:
+Cargo Type    Hiath MiCI Deneb Ross ConVec MiCII Lagra FreeG Troch MiCIV
+Contraband      0    25    0    25    15    10    15    30    10    10
+High-tech      45    35   45    35    30    25    35    40    35    25
+Raw materials  60    60   60    85    85     5    80    55    50    85
+Agriculture    60    55   50    45    40    10    40    45    40    45
+Luxury goods   40    35   40    35    30    25    30    30    25    25
+
+As for which routes to use, I think the initial route that you're given
+(Hiathra and MiCon I) is a pretty good one. Trading between Denebprime and Ross
+is somewhat quicker, since Ross is closer to Denebprime than MiCon I is to
+Hiathra. I tend to not trade between star systems since I don't like to spend
+my time going through Malir gates, but you can also go between the Deneb,
+Nar'See, and Bassruti systems, since contraband is really cheap on Free Guild
+but expensive on Denebprime, high-tech and agriculture goods are cheap on
+Denebprime but expensive on Lagrange, and luxury goods are relatively cheap on
+Lagrange but expensive on Free Guild.
+
+Bounty Hunting:
+The bounty that you get from killing a Wasp or Vulture is fixed, but for a Dart
+or a Corsair, it's random. This can be load-and-saved.
+
+I usually stay neutral or above with pirates. Then, when I see a Dart, I'll
+launch an SM-1 (really a Nova) missile at it, without targeting it, since
+that'll kill it in one shot without it reacting. Then I'll load-and-save based
+on the number of credits earned, making sure that my relations with pirates do
+not decrease.
+
+Winning at HIVE!:
+You die if two or more Manchi are adjacent to you (including diagonally). To
+kill a mound, you have to be adjacent to it. When you are firing, the Manchi
+won't move. Although the game suggests going for the mound first, I usually
+kill the Manchi around the mound first so that I'm not killed by them as I go
+for the mound. The game will beep when a mound opens up, so try to get rid of a
+mound as soon as it comes out. The first mound always opens up around 3 seconds
+into the drop. For the earlier drops (1st through 7th), a new one opens up
+every 10-20 seconds or so. At higher levels (8th and above), multiple mounds
+may open within seconds of each other. Around the 8th to 16th drops, if it's a
+set of multiple mounds, they'll open within about 6 seconds between one and the
+next, while in between sets, there'll be about a 20 to 25 second time span,
+giving you some time to mop up. After that, mounds will open up randomly time-
+wise, as far as I could tell. While for the earlier drops, a new mound is
+opened every 16 seconds or so on average, at drop 19 one is opened every 5 or 6
+seconds on average, so while each drop takes about 7-8 minutes from drop 8 to
+drop 16, a drop only takes about 5 minutes at drop 19 and above, because
+although there are more mounds to destroy, mounds are being created every few
+seconds. Good luck.
+
+You can earn credits if you get to the 5th drop or above. The number of credits
+is:
+Drop Credits Cr/Hive
+  5       8    0.233
+  6      16    0.333
+  7      24    0.365
+  8      32    0.369
+  9      40    0.361
+ 10      48    0.348
+ 11      56    0.333
+ 12      64    0.318
+ 13      72    0.303
+ 14      80    0.289
+ 15      88    0.276
+ 16      96    0.264
+ 17     104    0.252
+ 18     112    0.242
+ 19     120    0.232
+ 20   65408  114.749
+ 21   65416  103.833
+ 22   65424   94.405
+
+Drop = which drop you died on
+Credits = how many credits you receive for dying on that drop
+Cr/Hive = number of credits earned per mound (total) destroyed (assuming you
+died without destroying any mounds on that drop, and subtracting the credit you
+put in to play the game)
+
+As you can see, there is a huge bonus if you can reach the 20th drop. Below
+that though, the best ratio for credits earned per mound destroyed is to die on
+the 8th drop. Since it takes a while to reach this many drops (it takes about
+25 minutes to reach the 8th drop, all for a measly net 31 credits), unless you
+can really reach the 20th drop, it's probably better to just trade or something
+to gain credits. On the other hand, reaching the 20th drop just once means
+you're pretty much set for the game. Note that 65408 credits puts you near the
+max of 65535 credits; in fact, it's the same progression of credits earned
+except you get an additional 255*256=65280 credits. Unfortunately, because of
+the multiple mounds opening at the later drops, it is unlikely you'll reach
+this many drops unless you alter the map (which I did to research this topic).
+By the way, it takes about 2 hours to reach level 20, depending on how long you
+took your breaks in between drops.
+
+CHARACTER LIST
+--------------
+Fixed characters (always on the base except for after certain RPG plots are
+fulfilled):
+Orellian (Hiathra, Karonus) - Imperium official, go to him for all your
+Imperium-related needs
+HAL9K (Hiathra, Karonus) - Repair droid for a titan
+Cebak (Hiathra, Karonus) - Teen with a twin sister on Lagrange
+Geul Barnet (MiCon I, Karonus) - Musician, can ask for information on people
+(Hiathra, Koth, Avenstar)
+Sir Eld (MiCon I, Karonus) - Merchant, had an "indiscretion" with Orellian's
+daughter
+Blutous (ConVecEast, Gryphon) - Miner, has some info on the Bassruti incident
+Omas Tyran (ConVecEast, Gryphon) - Malir disciple
+Insane man (MiCon II, Arcturus) - There's more than meets the eye
+Drak Stephons (MiCon II, Arcturus) - In charge of mining, but other than that,
+nothing in particular on him
+Janus (ISS Koth, Arcturus) - Introduces you to the carrier
+Imperial Trooper (ISS Koth, Arcturus) - One-legged soldier, can talk to for
+current events on the Manchi
+Vengor (Denebprime, Deneb) - Duchess Avenstar's bodyguard
+Duchess Avenstar (Denebprime, Deneb) - Leader of the Far Arm, she'll be driving
+the main plot
+Dr. Felsane (Denebprime, Deneb) - Alien anthropology professor looking for
+research on aliens
+Dr. Elanius Ferah (Ross, Deneb) - Blind cosmetic surgeon, can ask about people
+(Koth, Avenstar, Rayson)
+LUX-23A (Ross, Deneb) - Luxury robot looking for his lost girlfriend
+Borf (Lagrange, Nar'See) - A Sishaz, a reptilian philosopher and drinker
+Tiwa (Lagrange, Nar'See) - Teen with a twin sister on Hiathra
+Chi-Sha (Free Guild, Bassruti) - A woman that's always drinking but never seems
+to get drunk...
+Omar (Free Guild, Bassruti) - Lieutenant to Gut, checks all newcomers
+Sir Droughton Gut (Free Guild, Bassruti)- Leader of the Scarlet Brotherhood
+Monster (Bassruti Station, Bassruti) - Yes, there is a monster on Bassruti
+station
+Sister Nycene (Trochal, Sigure) - Acolyte of the Black Hand
+Priestess Vilanie (Trochal, Sigure) - Leader of the Black Hand
+Professor Prosk (MiCon IV, Zed N27) - A professor working on a warp drive
+Teb (MiCon IV, Zed N27) - A miner with a past
+
+Random characters (one from below will randomly be on a base (except Bassruti
+station) whenever you visit):
+Flitch - a pirate; to talk to him, you need to pay 25 credits if you're neutral
+to pirates, but free if you're liked or ally by pirates
+Ichiki - Baakili far trader, can ask him for information (Hiathra; Black Hand;
+Manchi or Chi-gonger - needs dilithium gem, statuette, malir artifact, or ruby
+cube; Targon - will refuse to give information on him)
+Kale - Bounty hunter, can get info on trading and pirates from him; will
+threaten you if you have 256 or higher bounty on you
+Robocrook - Can receive some special items from him (forged cargo papers; ruby
+cube; key card)
+Somar Tan - Exotic goods dealer, gives information on the Bassruti genetics lab
+Toom - Imperium Guard on leave, can get info on characters
+Veda - can get amoebic contact lenses (needed to get transmutation coil), and
+blog globe (purpose unknown)
+
+Characters will sometimes tell you to talk to them later, or some variation
+thereof. For example, if you've talked to Robocrook today already, he'll tell
+you that the guard's watching. In those cases, just come back the next day, and
+the counter for this will reset.
+
+WALKTHROUGH
+-----------
+Subquests:
+Pilot's License:
+Reward: Ability to buy weapons, shield, and ECM
+Talk to Orellian and answer the questions as follows:
+a) 3.26
+b) type O
+c) F = ma
+d) Imperium
+You'll receive a pilot's license which allows you to buy weapons, shields, and
+ECM units.
+
+Statuette:
+Reward: Stealth Box
+Notes: You must be liked or ally with merchants
+Talk to Sir Eld, and accept his statuette. Then talk to Orellian, and say that
+it is not a bribe. Return to Sir Eld, and he will give you advice and a stealth
+box in return. (If you told Orellian that it's a bribe, or talk to Sir Eld
+again before giving the statuette, then when you return to Sir Eld, he will say
+you failed and summon the guards, and your repute with guilds will decrease.
+However, you will still be able to talk and inspect before getting caught, so
+you will be able to loot the safe for credits.)
+
+Tiwa's letter:
+Reward: Key card
+Talk to Tiwa on Lagrange. She'll give you a letter to give to Cebak. Then go to
+Cebak and give her the letter. Return to Tiwa, and she'll tell you that one of
+the vacc suits in Cebak's room has a key card in it. Then go to Cebak's room
+and get the key card by inspecting the suit on the right. Of course, you can
+get the key card regardless of whether or not you've bothered with the letter.
+
+Omas Tyran's wife:
+Reward: Psionic shield
+Talk to Omas Tyran and say that you're lost. Then leave and talk to him again
+(you'll need to come back a day or more later). He'll tell you that he lost his
+wife to the Black Hand, and ask you to look for her. Then go to Sister Nycene
+and tell her of Omas. She'll say that he's dead to him now. Go back to Omas and
+tell him of this, and he'll give you his psionic shield.
+
+Koth tour:
+Reward: Information about the ISS Koth, most importantly the transmutation coil
+Notes: Must be neutral or better with Imperium to get a CRC-07
+Go to Orellian, and type "CRC-07" on the "Other..." line to receive your
+CRC-07. Then go to Janus, and you'll be able to take the daily tour to learn
+about the ISS Koth. The most important thing is that there's a transmutation
+coil onboard.
+
+Sishaz Research:
+Reward: Malir artifact
+Notes: If you do this quest too late (i.e. if you've already progressed quite
+far on the main quest), then Borf will eat you since he's really a member of
+the Black Hand. Therefore, do this quest before doing the main quest.
+Go to Dr. Felsane and offer to help. She'll tell you to go to Nar'See to drink
+with Borf, and say "Rakbit". Go there and do that (use the "Other..." option
+after drinking with him, rather than keeping on drinking). Then return to Dr.
+Felsane. She'll give you a Malir artifact.
+
+Warp Drive:
+Reward: Null Damper or Stealth Box
+Talk to Prosk and ask about his latest invention. He'll tell you that he's
+working on a warp drive but needs a transmutation coil to complete it. If you
+haven't done the Koth tour yet, there's a transmutation coil on the ISS Koth.
+To actually take it, however, you'll need to get amoebic contact lenses from
+Veda first. On Koth, go into the north room in the hallway, which you need a
+key card for (either from Cebak's room or from Robocrook), and stay on the
+right side as you move up toward the powerplant, since there's an alarm plate a
+couple of squares north of the entrance. Inspect the powerplant, and you'll be
+able to get the transmutation coil. Return to Prosk, and he'll let you take
+either a null damper or a stealth box. (Note: You can get the coil before
+talking to Prosk, in which case you can give him the coil as soon as he talks
+about his latest invention).
+
+Microchip:
+Reward: 100 credits and hint as to who Chi-Sha is
+Notes: Will need to pay 25 credits to Flitch if you're neutral to pirates, but
+is free if you're liked or ally to pirates, to talk to Flitch, and you won't be
+able to talk to him if you're disliked or hated by pirates; also, tell Chi-Sha
+you're a rogue or a merchant
+Talk to Flitch about getting a job. He'll give you a microchip to give to Chi-
+Sha. Go to Chi-Sha and give her the microchip (using the "Other..." command),
+and she'll give you 100 credits for it, and you'll find that it's an ID
+scrambler chip. Now why would Chi-Sha need an ID scrambler?
+
+LUX-23A:
+Reward: Repair droid
+Notes: You'll need to tell Chi-Sha you're a rogue or a merchant.
+Talk to LUX-23A and ask why he's so sad. He'll tell you about his female
+companion who ran away. Go to Chi-Sha and say "LUX-23A" on the "Other..." line.
+She'll offer to hide onboard as a repair droid, so accept the offer. Go back to
+LUX-23A and give her to him. Then go to HAL9K and he'll give you a repair
+droid. Or, after you give her back to LUX-23A, you can go to Free Guild and
+pick her up as a repair droid again!
+
+Burned by HAL9K:
+Not really a plot, but you can get burned by HAL9K. Veda will see it and offer
+to heal you.
+
+Bassruti incident:
+Notes: This isn't a quest per se, but many characters refer to the Bassruti
+incident, so I put it in its own section. See how to get what you need from the
+station in the main plot section.
+* Somar Tan: a goods dealer, he's looking for insurance people who aren't
+willing to pay for the Bassruti incident. He'll tell you about NSBs --
+Neurostabilizer Boosters -- which can temporarily calm crazy people, and are
+still on the station. He'll also tell you that there are monsters loose and
+that there was a miner who survived the incident.
+* Blutous: He'll also tell you about the Bassruti incident, that a miner told
+him what happened. Not much more than what Somar Tan will tell you.
+* Teb: He's the miner who survived. Say "Bassruti" in the "Other..." option and
+he'll tell you about it. The important detail is that the NSBs are next to a
+safe in a back room.
+* Bartender: They'll talk about it as well.
+
+Main plot:
+Reward: Win the game
+Notes: It is advised that you complete the subplots above before doing the main
+plot, since some of the characters will change once you start the main plot.
+The main plot starts when you talk to Duchess Avenstar. You'll get stopped by
+Vengor, Avenstar's bodyguard, but nothing special about that. When you first
+talk to the Duchess, it doesn't matter if you tell the truth or make up a
+story. What will matter though is your repute. For the plot to really begin,
+you need to be of repute fierce or higher. Otherwise she'll just say to come
+back when you've become "a seasoned warrior".
+
+When you're of repute fierce or higher, Avenstar will tell you about the
+previous owner of your ship, Captain Targon. He disguised himself as a pirate
+and took on the name of Rayson, in order to find out what Admiral Koth was
+really up to. The code name of the mission was "Ferret", and you are to
+continue with Targon's mission. You must first find out what happened to
+Targon. She'll give you a beam auto-lock.
+
+Note that various characters now change. For example, if you visit Janus,
+she'll ask if you're an associate of Avenstar's. If you say yes, she'll try to
+bribe you to not follow Avenstar. If you then say "forget it", your repute with
+the Imperium goes down, but if you say "Ok", then you get 250 credits. As far
+as I know, which option you choose doesn't change things, based on looking at
+the save files. Also, the trooper on Koth will say that some titans engaged
+some vultures near Sigure.
+
+Since Avenstar mentioned Targon disguised himself as a pirate, the Scarlet
+Brotherhood is a natural place to check. To get into the Scarlet Brotherhood,
+you'll need to talk to Omar first, and say you have to talk to Gut. If you're
+liked or ally to pirates, you can go ahead and talk to Gut. If you're neutral
+to pirates, you'll have to plunder a Scow or a Tanker (including getting it to
+surrender and taking its cargo) first. If you're disliked or hated by pirates,
+you'll have to kill a Titan first. Once you get in, you can ask Gut about
+"Rayson" (or "brotherhood"). He'll tell you that Rayson left for Trochal.
+
+What's really happened to Captain Targon is that he was driven mad by the Black
+Hand and now resides on MiCon II (he's the vagrant that you see in the halls).
+You can tell him "Vilanie" via the "Other..." command to see an interesting 
+response. To get to talk to him, however, you'll have to inject him with NSBs
+(Neurostabilizer boosters). Those can be found on Bassruti. However, there's a
+monster on Bassruti. To avoid the monster, when you land on the station, go to
+the lower room and stay on the right. Be on the lower right side of the rubble.
+The monster will enter and be on the lower left side of the rubble.  A diagram
+of this is below:
+
+....X...
+....XXX.
+...XXX..
+.XXXXX..
+...MX.O.
+
+X = rubble
+O = where you should go
+M = where monster will be
+
+Then go out the door you came in from, and go in the door on the west into the
+cantina area. This will trap the monster in the generator room that's to the
+northwest of the room that you guys were in. You can then go to the southwest
+room and retrieve the NSB, which is in the cabinet south of the safe. Might as
+well as get credits from the safe while you're there.
+
+Go to Captain Targon on MiCon II and inject him with the NSB (using the
+"Other..." command). Then tell him the name of his mission ("Ferret"). He'll
+tell you that he infiltrated the Scarlet Brotherhood, and found that the
+pirates were being paid by Vilanie for Manchi kills. This way the Manchi would
+be incited to declare war on Imperium, and Admiral Koth could ride in to be a
+war hero and replace Emperor Hiathra (an aging, almost senile emperor). Then
+he'll tell you go to go Gut and convince him to stop the raids.
+
+At this point, many changes occur. When you go back to Duchess Avenstar, you'll
+find that someone tried to assassinate her, so she's moved back to the Imperial
+homeworld. If you talk to Borf, he will reveal himself to be employed by the
+Black Hand, and kill you. If you talk to Vilanie without the psionic shield,
+she'll kill you (and even with the shield, she'll summon her guards who'll then
+kill you).
+
+From here, go to Gut and explain Koth's plot. He'll tell you that Vilanie paid
+him a lot for a Manchi egg, and ask you to find out more about it. If you
+haven't already, you'll need to ask Ichiki about the Manchi to find out more
+about them, but you need to give Ichiki a special item in exchange. Gut will
+tell you that there's gems on Ross. Aside from the dilithium gem on Ross, you
+can also use the statuette from Sir Eld, the Malir artifact from Dr. Felsane,
+or the ruby cube from Robocrook.
+
+Now, things get even more serious. The trooper on Koth will tell you that
+there's thousands of Manchi ships headed this way.
+
+Once you go back to Gut with information about the egg, he'll say you need to
+take it back from Vilanie. He'll attack the outpost while you go in; this means
+that the guards will be busy and not grab you. To get past Vilanie however
+you'll still need a psionic shield. Just keep it on so that she can't kill you.
+Then go to her back room and grab the egg, and might as well as get the credits
+from the safe.
+
+When you return to Gut, he'll tell you to look for a professor working on the
+warp drive. That's Professor Prosk in Zed N27. You'll have to do the
+transmutation coil quest first however. Tell Prosk about the egg, and he'll let
+you use the warp drive. You'll have to know the coordinates to the Manchi
+homeworld (GC 3409), from Ichiki. Make sure your ship is fully repaired and
+upgraded and has a full complement of weaponry, since there'll be no more bases
+after this. Once you make it to the Manchi star system, set a course for the
+inner planet, and land on it. Then you win the game!
+
+TIPS AND TRICKS
+---------------
+Alternate methods to acquire items:
+Null damper (Free Guild): There's a null damper in the room outside Gut's
+office. The door needs to be successfully picked, however, so either you can
+the credit loss (don't worry, you can just come back a day later to try again
+after the guards catch you) or just load-and-save it. There is an alarm plate
+two squares east of where you enter the room, and the null damper is northeast
+of it, so move clockwise around the room and inspect the bottom container for
+the null damper.
+
+Psionic shield (Zed N27): The northeast room on MiCon IV has a psionic shield.
+Again, the door needs to be successfully picked. There are alarm plates in the
+room, east of the door, two east of the door, and northeast of the door. The
+shield is in the bottom row of the green containers. Unfortunately, there is a
+bug in the game; when you are north of an alarm plate, it'll trigger the alarms
+(if this were intended, there would be no need to put the plate that's
+northeast of the door), preventing you from getting this shield. The version I
+uploaded onto Abandonia removes the yellow countertop thus allowing you to get
+this item; you can also use the ALL.DES method below to get around this bug.
+
+Manchi egg (Trochal): Before you learn of Koth's plot, Priestess Vilanie will
+only tell you to go away, but won't kill you. Thus, you can pick the door to
+her back room and grab the egg before telling Gut about Koth, and thus you
+won't have to deal with the shield or getting Gut to attack the base for you.
+
+Play as any ship:
+Delete (or better yet, rename for future use) the file OETA. When you create a
+new game, you will have zero armor, and most components will be damaged. Travel
+around using the navigation panel, and go to the cockpit view when you
+encounter a ship. You will become that ship, including armor, acceleration,
+etc. Then put OETA back into use.
+
+Unfortunately, I haven't been able to reproduce this in Windows XP nor Dosbox,
+though I used to do this regularly on my old computer. I've thus included the
+file oeta.sav on Abandonia.com which is already in this state. You will become
+the next ship you encounter.
+
+You will have whichever laser your ship is supposed to have, and upgrades won't
+change it. From the ships list above, note that the Hunter and the Wasp have
+the best acceleration; the Hunter has the best laser, however, so it is the
+best ship overall. Turbo thrusters won't work, unfortunately. However, cargo
+also doesn't weigh you down. So a Hunter accelerates faster than a fully-loaded
+Sunracer, but a turbo-boosted, empty Sunracer will still beat a Hunter (or a
+Wasp). Note that although your current armor will change to whatever armor the
+ship had, your max armor does not change, it will stay at 300-500 (depending on
+your upgrades).
+
+Additionally, you can change which ship you are by altering the save file; this
+will be covered in the file editing walkthrough.
+
+Remove obstacles:
+The file ALL.DES is what describes what's what. By deleting (or renaming) it,
+features such as nebulae, asteroids, etc. won't show up in cockpit view (nor
+will they slow you down), even though they'll still appear on the navigation
+panel. Also, walls and other objects will no longer hinder your movement when
+in top-down view on bases. This is one way to get the psionic shield and any
+other items on bases.
+
+The vertical strip to the left of the map seems to act like tape, where if any
+computer characters wander into it, they'll be stuck (and invisible). Also,
+moving to the square southwest of the southwest corner of the map will crash
+the game.
+
+Big furball:
+If you're interested in getting into a big fight, save the game when you're
+approaching a Malir gate. Then delete or rename MAPS, which contains the data
+for all the...maps. Reload the game and go through the Malir gate. You'll end
+up in an area with another Sunracer, a Wasp, a Dart, a Cruiser, and a Vulture.
+They'll all be attacking each other, so you can try to improve your repute and
+your relations with each group this way. Then save the game, and put the MAPS
+file back, so that you can travel. You'll be in the lower left corner of
+Karonus.
+
+For some reason, sometimes when you kill the Sunracer, you'll end up with -1
+Nova missiles. Since you can have at most 10 missiles (total) on your ship, you
+can then fire Nova missiles (unfortunately, they're really SM-1 missiles that
+do 100 damage) for free, and buy SM-1 missiles (really Nova missiles that do
+250 damage) so that the it sums arithmetically to 10. This allows you to have
+say 50 SM-1 missiles and -40 Nova missiles, etc.

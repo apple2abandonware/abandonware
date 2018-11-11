@@ -1,0 +1,111 @@
+
+A near solution to Hacker by Activision:
+
+	There's a trick here somewhere.  Everyone seems to agree that the 
+answer has to do with the test site in Australia.  I'm not sure if there's
+a secret path, or if you are supposed to take the document there 
+rather that to Washington.  The information below will get you to 
+Washington but time runs out before you can hit the up button.
+
+map:
+
+ . +---------------------+ . . . . . . +-----------------------------+---+ . .
+|. | . . . . . . . . . . | . . . . . . | . . . . . . . . . . . . . . | . | . .
+|. | . . . . . . . . . . +-------------N . . . . . . . . . . . . . . | . | . .
+|. | . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | . | . .
+|. | . . . . . . . . . . . . . . . . . . . . +---+ . +-----E-----+ . | . | . .
+|. | . . . . . . . . . . . . . . . . . . . . | . | . | . . . . . | . | . | . .
+|. +-C-+-----+ . . . . . . . +-S . . . W-----+ . | . +---+-- F . | G-+ . | . .
+|. . . | . . J . . . . . . . | . . . . . . . . . | . | . | . | . | . | . | . .
+|. . . | . . +---------------+-----+-------------+---+ . | . | . +-P-+ . +-I .
+|. . . | . . . . . . . . . . . . . | . . . . . . . . . . | . | . | . . . | . .
++------+ . +-----+ . +-------+ . . | . . A---------------+ . | . | . +---+ . .
+|. . . | . | . . | . | . . . | . . | . . | . . . . . . . . . | . | . | . . . .
+|. +---+---+-----+---+-------+-----+ . . | . +------------ . | . | . | . . . .
+|. | . | . | . . . . | . . . . . . . . . | . | . . . . . . . | . | . | . . . .
+|. +---+ . . . . . . +---+ . . . . . . . | . +-- X-----------+ . | . | . . . .
+|. . . | . . . . . . . . | . . . . . . . | . . . . . . . . . . . | . | . . . .
++------+-------------+ . +---------------+-----------------------+ . +---- . .
+
+N = NEW YORK         S = SAN FRANCISCO   F = PARIS         I = INDIA
+C = CHINA            A = ?               G = ATHENS        W = WASHINGTON
+J = JAPAN            E = LONDON          P = EGYPT         X = START
+    note: this map is off a couple of squares in the center, so it can't
+          be trusted after the lights go out.  A full map won't fit in 80 
+          columns.  You'll have to redraw on graph paper for the last
+          few trades.
+
+CHART:
+--------+--------------+-------------+----------------------------------------
+PLACE   | OFFER        | WILL TAKE   | WON'T TAKE
+--------+--------------+-------------+----------------------------------------
+Paris   | chronograph  | cash        |
+        | chalet       |             |
+--------+--------------+-------------+----------------------------------------
+London  | album        | chronograph | diamond, artifact, urn, star, lamp, jade
+        | jewels       | camera      | 49er, map, doubloons, scarab, pearls 
+--------+--------------+-------------+----------------------------------------
+Egypt   | scarab       | chronograph | album, doubloons, jewels, diamond, 
+        | statue       | chalet      | 49er, nuggets
+--------+--------------+-------------+----------------------------------------
+New     | stocks       | chalet      | artifact, urn, statue, album, lamp,
+York    | diamond      |             | chronograph, star
+--------+--------------+-------------+----------------------------------------
+South   | map          | chronograph | diamond, artifact, urn, nuggets, 49er
+America | doubloons    | jade        |
+--------+--------------+-------------+----------------------------------------
+Greece  | artifact     | scarab      | jewels, doubloons, map, diamond, star,
+        | urn          | statue      | lamp, nuggets, 49er
+--------+--------------+-------------+----------------------------------------
+India   | star         | chronograph | artifact, urn, statue, diamond, map,
+        | lamp         | scarab      | doubloons, chalet
+--------+--------------+-------------+----------------------------------------
+San     | nuggets      | camera      | chronograph, chalet, artifact, urn, 
+Fran    | 49er         | album       | diamond, star, lamp
+--------+--------------+-------------+----------------------------------------
+Japan   | pearls       | stocks      | star, chronograph, chalet, vase, jade,
+        | camera       |             | artifact, statue, urn, album, lamp, 
+        |              |             | diamond
+--------+--------------+-------------+----------------------------------------
+China   | vase         | stocks      | artifact, urn, statue, album, lamp,
+        | jade         | pearls      | chronograph, diamond, star, chalet,
+        |              |             | 49er, nuggets
+--------+--------------+-------------+----------------------------------------
+
+
+Path to follow:
+-----------------------------------------------------------
+Place                 Give              Get
+-----------------------------------------------------------
+1) Paris              Cash              Chalet, Chronograph
+2) Egypt              Chronograph       Scarab, Statue
+3) Greece             Statue
+4) India              Scarab
+5) NY                 Chalet            Stocks
+6) Japan              Stocks            Camera, Pearls
+7) China              Pearls            Jade
+   take the southern route, avoiding test site?
+8) S.American         Jade                      
+9) England            Camera            Beetles
+10) SF                Beetles
+11) Washington
+-----------------------------------------------------------
+this path got me all the way to Washington before the plug was pulled
+
+Passwords:
+
+To get into the game:
+AUSTRALIA
+
+To get past the satellites:
+1) MAGMA, LTD
+2) AX-03100479
+3) HYDRAULIC
+4) AUSTRALIA
+
+If you do solve this, please let me know:
+
+Jon LaCure                                                             
+Bitnet  : lacurej@iubacs                 
+Arpanet : lacurej@gold.bacs.indiana.edu  
+
