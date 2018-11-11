@@ -1,0 +1,111 @@
+Welcome to ADTPro!
+------------------
+
+Detailed setup instructions are available on the web:
+http://adtpro.sourceforge.net
+
+The ADTPro distribution comes as a single file named
+something similar to ADTPro-v.r.m with an extension
+particular to the target platform:
+ 
+  * ADTPro-v.r.m.tar.gz - Linux/Solaris
+  * ADTPro-v.r.m.dmg - Mac OSX
+  * ADTPro-v.r.m.zip - Windows/OS/2
+  
+Your distribution should contain most of these, depending on platform:
+
+ * ADTPro-v.r.m.app       - OSX server application for OSX 10.3 and above
+ * adtpro.command         - OSX server startup command file for OSX 10.2 and below
+ * adtpro.bat             - Windows server startup batch file
+ * adtpro.cmd             - OS/2 server startup batch file
+ * adtpro.sh              - Linux/Solaris server startup
+                            shell script
+ * LICENSE                - The GNU Public License file
+ * README                 - The info you're looking at now
+ * disks/ADTPro-v.r.m.dsk - ADTPro client-side software
+                            (an Apple 140K disk image)
+ * disks/ADTPro-v.r.m.po  - ADTPro client-side software
+                            (an Apple 800K disk image)
+ * disks/ADTvr.dsk        - An enhanced legacy Apple DOS ADT
+                            client, capable of running on the
+                            Super Serial hardware, the IIgs
+                            serial (modem) port, and the
+                            IIc/Laser 128 modem port
+ * lib/ADTPro-v.r.m.jar   - ADTPro server-side software
+                            (a Java .jar file)
+ * lib/rxtx/...           - Java serial library files
+
+In all cases above, v.r.m is replaced with the version, release 
+and modification numbers of the current distribution.
+
+To get started, you will need a Java installation you can call
+from the host computer's command line. This means that if you type
+the command "java -version" from a terminal window it ought to
+produce output other than complaints. One place to get a downloadable
+Java distribution is from Sun Microsystems: Sun JRE download. When
+you get there, look for a "Java Runtime Environment (JRE)" download
+for your platform and install it.
+
+After downloading the ADTPro distribution file to your desktop,
+unpack it using your operating system's native facilities. You can
+either run the server startup program from the command line or, in
+Windows and OSX, double-click on the icon of the startup program:
+
+Linux, Solaris: adtpro.sh
+OS/2:           adtpro.cmd
+OSX:            ADTPro-v.r.m.app or adtpro.command
+Windows:        adtpro.bat
+
+You can modify the startup program to suit your environment.
+Especially for the Unix variants - it may need a little tweaking to
+get the correct native serial library connected.
+
+When starting, you will see the following information echoed back
+on your console as the GUI is coming up:
+
+   ADTPro Server version v.r.m
+
+When the ADTPro GUI comes up, click one of the three connection
+buttons to choose your communications type.
+
+If you currently use the DOS ADT program, select the Serial button.
+You can transfer the ADTPro-v.r.m.dsk file to your apple using the
+DOS ADT client and ADTPro server. Reboot your Apple with the new
+ADTPro client diskette in the disk drive and you're ready to go!
+
+If you aren't already using DOS ADT, or if you don't have any
+software for your Apple yet, there's lots of help available. Start
+at ADTPro's bootstrapping page to get the software transferred to
+your Apple.
+
+Please report troubles, bugs, requests for help, etc. on the Help
+forum for ADTPro at SourceForge:
+
+http://sourceforge.net/apps/phpbb/adtpro/
+
+Good luck - and have fun!
+
+Unix RXTX Considerations
+------------------------
+
+The adtpro.sh file can be customized to suit your environment.
+The main thing to do is to choose your platform for RXTX support.
+You may need to tweak the check for what your operating system
+returns from the uname command, and connect that to the
+appropriate RXTX library directory.
+
+If you don't specify the right one, or if your platform is
+unsupported by RXTX, you will get an error similar to the one below
+on startup:
+
+java.lang.UnsatisfiedLinkError: Can't find library rxtxSerial
+  (librxtxSerial.so) in sun.boot.library.path or java.library.path
+sun.boot.library.path=/opt/IBMJava2-142/jre/bin
+java.library.path=/opt/IBMJava2-142/jre/bin:
+ /opt/IBMJava2-142/jre/bin/classic:/opt/IBMJava2-142/jre/bin:/usr/lib
+ thrown while loading gnu.io.RXTXCommDriver
+
+Keep working at your startup script or take a look at the RXTX install
+instructions in the rxtx directory. Remember, you can always ask for
+help in the ADTPro help forum:
+http://sourceforge.net/apps/phpbb/adtpro/

@@ -1,0 +1,3 @@
+Sample programs are from the books
+o "BASIC Computer Games" by David H. Ahl
+o "More BASIC Computer Games" by David H. Ahl
