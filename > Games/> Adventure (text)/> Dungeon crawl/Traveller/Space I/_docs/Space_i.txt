@@ -1,0 +1,624 @@
+[SPACE I - manual, and text from the back-cover of the software packaging.]
+
+Interactive Fantasies
+
+SPACE
+
+(c) 1979 Steven W. Pederson and Sherwin A. Steffin
+
+     This unique epic game series provides a multi-faceted simulation of
+human life in an interstellar environment. It is designed to represent many
+of the decisions which would be faced by a member of interstellar society
+interacting with his complex and demanding environment. Because of the
+complexity and length of the programs, it is likely that play will extend
+over several sessions. The six games comprising the series each generate
+text files which maintain a permanent record of the life of each character
+in the game.
+
+For Apple II and II-plus computers.
+Requires 48k RAM and Disk Drive.
+
+Developed exclusively by:
+
+Edu-Ware Services, Inc.
+28035 Dorothy Drive
+P.O.Box 22222
+Agoura, CA 91301
+(213) 706-0661
+
+(c) Copyright 1979. All Rights Reserved.
+
+Apple is the trademark of Apple Computer, Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+============
+
+     SPACE, the authors believe, is something rather unique to the field of
+Micro-Computers. What makes it unique? Here are some of the differences
+between SPACE, and many of the other fine games you have had an opportunity
+to play:
+
+1. SPACE is a multi scenario game.
+
+     Predicated on a projection of real life situations in a time in the
+far distant future, it develops, the authors believe, some plausible
+situations in which the user might conceivably find him/herself. To the
+degree allowed by the capabilities of the computer, and the skills of the
+authors, we have endeavored to make each of the scenarios contingent upon
+potentially real variations in human skills, and the impact of situations
+over which we have little knowledge, and even less control.
+
+2. The results of later games are contingent on earlier games.
+
+     Put another way, our past comes back to haunt us in unexpected ways.
+While not every variable impacts on every game, all variables come into
+play in one or more of the games. Variable development is cumulative
+throughout play of the games.
+
+3. Risk/Benefit is part of every game.
+
+     Just as in real life, we assess the decisions we make based upon our
+judgement of the risks and the benefits, so too, is this the case with each
+of the SPACE games. Players have a number of options which may be judged
+for both their positive values, and the risks they entail.
+
+4. Randomness is a part of every move.
+
+     While most of us believe that we have control over our own destinies,
+there are a few among us who assert that they have total control over their
+lives. Illness, accident, loss of income, are all a part of our lives over
+which we have little, if any, control. And, as this is the case in real
+life, so too, is randomness a determinant in each of the games of SPACE.
+
+5. Information is deliberately imprecise.
+
+     While it would certainly be possible to describe all of the games'
+possible permutations, we have chosen to leave much of this discovery to
+the player. After all, none of us have perfect information on which to base
+real life decisions, and yet we nonetheless are required to make them each
+day of our lives. The authors sought to replicate this condition within
+each of the games.
+
+6. Winning is in the eyes of the player.
+
+     In most games with which we are familiar, the goals of the game are
+explicit. Other than the goal of simply staying alive, other goals are set
+individually by the player; for some the gathering of wealth is central to
+the way the game is played; to others, showing their skills as warriors
+will be the reason for playing to a conclusion. Thoughtful construction of
+various characters, and their control throughout the games, as well as the
+sequence of games selected, will serve to enhance the achievement of
+individual goals.
+
+7. Exit points exist for some of the games.
+
+     Typically, a game has to be finished before the computer is powered
+down for the night. This is not the case with the SPACE series. Since some
+game outcomes are committed to text file, some of the games allow players
+to resume where they left off.
+
+
+Characters and Scenarios
+========================
+
+     The SPACE series relies on the creation of a number of characters by
+the player, which are then played through each of the scenarios, or games.
+Thus, the human player creates one or more characters which represent him
+throughout play. Each character created has a set of attributes. These
+attributes, over which the human player has some control, can be divided
+into several broad categories:
+
+1. Basic Attributes
+
+     All of us are born with, or grow into certain attributes which can
+serve to quantitatively describe our characteristics. Strength, endurance,
+dexterity, IQ, social status, and education all may be explicitly
+described. Yet in most cases are essentially beyond our direct control.
+
+2. Physical and Psychological Attributes
+
+     Having been endowed with some hereditary traits, our development
+throughout our lives depends upon both genetic makeup, and environmental
+setting. As is the case in real life, players have the opportunity to make
+some modifications in the physical, and psychological characteristics of
+their characters, attempting to maximize the characters' attributes for
+most effective coping with the requirements of the games in which they are
+participants.
+
+3. Skill Development
+
+     During their stay in the service, characters are given the opportunity
+to develop specific skills. Some of these are applicable only in context of
+military life while others are applied in civilian occupations. Players
+should give close attention to the skills developed for their characters,
+since these will impact on the character's performance within the games.
+
+4. Economic Factors
+
+     While one measure of the human condition is change, it also seems
+apparent that a constant of human society is out reliance on an economic
+framework to oil the societal machine. To the best of the authors' beliefs
+this condition will prevail into the distant future of man's spread
+throughout the galaxy. The acquisition of money, and its use is thus seen
+in each of the games, and is central in some.
+
+5. Interpreting Attribute, Skill, and Economic Variables
+
+A. Attributes are valued from 2 to 12. A "2" is indicative of an almost
+total absence of the quality being rated. A "12" implies the maximum
+possible for the attribute. An intelligence of "6" translates to an IQ of
+100. Each increment of intelligence by 1 equals 10 IQ points with the
+Standard Deviation of 1.5.
+
+B. There are 6 physical health variables which are calculated from other
+factors within the program. Narrative statements accompany each of these
+numeric quantities, which range from 1 (pathology of that system) to 4
+(system in good health).
+
+C. Personality attributes are calculated by the program, and are displayed
+as narrative statements within the program. These attributes have both
+direct and hidden effects within all of the programs. They are only
+indirectly modifiable by the player.
+
+D. Skill Ratings. On initial entry, characters are seen as not possessing
+any skills. All skills at entry are rated as a "0". A rating of "1" implies
+initial training having been completed. A "2" puts the character at
+readiness to instruct others in the skill. A "3" is a consultant to
+instructors, while a "4" and above is a Master at that skill.
+
+E. Financial Acquisitions. With the shift from an Earth-bound, to a
+galaxy-wide culture, money is now standardized to the Galactic Credit (GCR)
+being the normal unit of exchange. Players are cautioned not to attempt to
+equate the values of this form of exchange with the current U.S. Dollar,
+which totally collapsed in the Great Depression of 1996.
+
+F. Age. Characters initiate play at age 18. During various games, age
+increments a year at a time. Players should be aware that the average life
+span has been extended to well over 100 years, calculated Earth Standard.
+Rejuvenation after extensive aging and cloning after death are well
+established, if expensive, life extension methods.
+
+
+Scenario Notes
+==============
+
+
+CHARACTERS
+
+     Every Earth citizen, having reached age 18, faces a term of service in
+one of the Galactic Federation's Military Services. Citizens may attempt to
+enlist in the service of their choice, or failing that, will be drafted to
+that service having need for their abilities.
+
+     As the player develops the character throughout this game, there are
+many options for having a whole group of characters with different
+characteristics which best suit them for their roles in later games.
+
+     Many players of epoch games report that they become attached to
+characters they have created, even when those characters are somewhat
+inadequate for the tasks that face them. The authors have made provision
+for a wide range of attributes being carried forward by characters into the
+other games, but truly inadequate characters will be killed by the computer
+before much time is spent on developing them.
+
+     Since the rigors of combat training do pose real risks, players should
+be aware that continual exposure of the character to these risks may result
+in death or disabling injury to the character that the player has labored
+long to build.
+
+     At the end of this game, each character is committed to a permanent,
+locked, essentially unmodifiable (by the player), text file. This file is
+the basis for the action of the character throughout the rest of the games.
+File access is by inputting the name of the character when prompted.
+
+
+FIRST BLOOD
+
+     Having faced the rigors of training, the character now faces a real
+test of his/her abilities to survive in real world, fight-to-the-death
+combat. The player has a choice of one of three options for the conduct of
+this game:
+
+1. Solitaire
+
+     In this mode, the player selects any two of the characters, and plays
+them, one against the other. One of the characters will eventually die (and
+be subsequently from the text file), while the winning character recovers
+the money, and possessions of the now departed loser. Any two characters
+may be played, with the exception of 'Adversary' who is the computer's own
+character.
+
+2. Two Player Game
+
+     Any two players may participate, selecting any two characters that are
+available. A soon to be released version of this option will allow for play
+to be conducted, in this mode, via modem, over phone lines.
+
+3. Player -vs- 'Adversary'
+
+     When this option is selected the player has either a limited number of
+characters at his disposal, or feels confident that he can destroy the
+mighty computer generated 'Adversary,' and thus capture all of its
+possessions. Players should be aware that 'Adversary' is a mighty
+gladiator, and that only the fittest, and the brightest characters can hope
+to survive this encounter. While all of 'Adversary' material possessions,
+and money accrue to the winner, the character itself is immediately cloned
+after being killed, and is thus immortal.
+
+     As is the case with all of the games, there is no specific requirement
+that this game be played in any pre-determined sequence. The risks to a
+character are very high, since only 1 in 2 will survive, with indeterminant
+benefit. These are a function of the money carried by the losing character,
+his possessions, (which can be very large), and some intangibles which are
+only discoverable during play of the game.
+
+
+DEFEND
+
+     A character is assigned as the Administrator on a world in a
+star-system long distant from the Earth. Since the world is many light
+years from home, dependent families are housed, and live out their lives on
+the planet. The calm of day to day life on the planet is suddenly ended
+with the detection of hostile invaders, who are soon to attack and plunder
+the colony.
+
+     The Administrator is faced with making one of four basic decisions.
+
+1. To mobilize the colony for evacuation.
+
+     This decision, while it is relatively low in risk and would serve to
+maximize the potential for all to escape unharmed, also leaves the entire
+investment in the planet in the hands of the invaders - no small cost to
+pay for safety.
+
+2. To mobilize the base to fight the invaders.
+
+     This choice is fraught with risk; many may die, including innocent
+children. From the perspective of the Federation, this is the best choice,
+for which they will well reward the Administrator, should he be successful
+in his efforts.
+
+3. Surrender to the invaders.
+
+     If this option is adopted by the Administrator, he has the opportunity
+to minimize risks to himself, while accepting indeterminant benefits in
+terms of job continuation with a new employer. Players may assess the costs
+in terms of ethics, making whatever appear to be appropriate judgements.
+(After all, who will ever know? - Or will they!)
+
+4. Personal escape.
+
+     The Administrator simply leaves the colony to the mercy (sic!) of the
+invaders. Such behavior, of course, will evoke revulsion in the society of
+the Federation, and be held in contempt, but then, of course, the survival
+of the character is at stake. This can be an interesting option!
+
+Console Display
+---------------
+
+     Play of the game begins with a display of the current status of the
+     colony, which is at peace. Suddenly, without any warning, attackers are
+detected. During the entire attack, display changes are very rapid, and
+require real time, high pressure decisions to be made by the player,
+through his character. As soon as the player can make a judgement about the
+status of the situation, he should immediately go into the Command Mode
+which allows changes in the capabilities of the colony to respond to the
+invaders.
+
+Console Data
+------------
+
+     The console data provides the player with a basis to make appropriate
+decisions. It consists of:
+
+1. Sensors - used by the base to detect the presence of the attackers,
+their strength, as well as providing input data relative to the status of
+the rest of the data provided by the console. In the event the sensors are
+destroyed, the Administrator is "flying blind," in making good judgements
+about further actions to take.
+
+2. Defenses - report on the status of the defensive screens, force shields,
+etc. available to protect the base from attack.
+
+3. Starport - provides information about the ability of the starport
+facilities to expedite an evacuation, should this option be elected.
+
+4. Residences and Population - the status of the physical condition of the
+population housing is shown, as well as the number of colonists remaining
+alive at the end of each attack.
+
+5. Control Center - it is from this point that all control of the choices,
+and actions are distributed to various weapons systems, defenses, etc. If
+the Control Center is destroyed, an automatic switchover to secondary
+computer takes place. This computer manages the remaining conduct of the
+battle, but the Administrator no longer can issue commands.
+
+     In the event that both residences, and Control Center are destroyed,
+the Administrator is presumed dead, since he could only have been in one of
+those two locations during the attack. The program will execute the Death
+and Delete routine for the character.
+
+6. Status/Mode - tells the current status of the colony, and the mode in
+which the colony is responding.
+
+7. Energy Bank - provides the energy required for all of the options,
+including evacuation. If disabled, no additional energy is produced, and
+after the current energy is expended, the colony is helpless.
+
+8. Hits and Misses - are shown using the flash mode over a stricken
+facility for a hit, and a cross for a miss.
+
+9. Action Conditions
+
+A. Green - normal standard operating procedure.
+B. Yellow - minimal damage done by attack.
+C. Red - severe damage done to installation, imminent danger of
+   disablement.
+D. Blue - facility is destroyed.
+
+Operating Commands
+------------------
+
+     After entering the Command Mode, the player has six command options at
+his disposal:
+
+1. EV - Change evacuation status.
+2. DS - Change energy defensive shields.
+3. WE - Change energy to offensive weapons.
+4. SX - Surrender.
+5. PE - Attempt personal escape.
+6. NN - No command - return to display.
+
+Some General Considerations in Playing Defend
+---------------------------------------------
+
+     While randomness is certainly a part of this game, as it is in all of
+the SPACE series, players should be aware that character attributes have a
+profound effect on the outcome of the game. This is true to a far larger
+extent than is the randomness within the game. Thus players should have
+intimate knowledge of their characters, before selecting one of them for
+this demanding game!
+
+
+HIGH FINANCE
+
+     This fast moving and demanding game of financial manipulation extends
+the familiar mechanism of stock sales to the far reaches of the galaxy.
+Eleven stocks are provided in portfolio form to the player. Extensive
+prompting is available for the conduct of transactions, and the
+interpretation of the results. As in any financial endeavor, the object of
+the game is to maximize the character's net worth, through rational
+economic decision making.
+
+     The scenario presumes galaxy-wide investment opportunities for the
+character who has amassed major levels of wealth during his adventures in
+earlier games. While this game may be selected at any time during the
+course of play, players are advised that minimum investment requirements
+will, in all likelihood, require them to play their characters through some
+of the more lucrative games to acquire the wealth required.
+
+     After callup of the game, the player is presented with three
+categories of selections available to him.
+
+1. Stock ticker listing for all available stocks.
+2. Confidential portfolio information.
+3. Proceeds to the next investment quarter, executes transactions, and
+   provides extra-market data.
+
+     Transactions in the game are always initiated from the stock ticker
+routine. These include buying and selling of stocks, and ending the game,
+with the payoff of all loans.
+
+     Player net worth, Loan obligation, and Cash on Hand are all available
+to the player during the viewing of the display.
+
+     The confidential portfolio display is provided as in-depth
+informational review to help the player to assess the relative merits of
+each of the stocks, and the risks he may be assuming in undertaking the
+purchase of these securities.
+
+     When the "Lock in of Investments" routine is called, a variety of
+information is provided to the player, relative to stock splits, as well as
+galactic news effecting the financial community. (For those so inclined,
+this service might be considered the "Wall Street Journal of Space.")
+
+     While the program does not put the same kind of real time pressures on
+the player as do games like Defend, and in the normal course of events, the
+character is not required to demonstrate his combat prowess, there are
+nonetheless real risks to the character. He may, for example, be subject to
+illness, and death during the game. Moreover, there are probabilities that
+the character can be bankrupted by inappropriate investment of the player.
+
+     Yet, the potentials for massive acquisition of wealth are indeed
+there, and this game is capable of providing much in acquisitive
+satisfaction to the player with money-making inclinations.
+
+
+EXPLORE
+
+     Perhaps the measure of man is his consistent need to seek out new
+challenges for himself, in the acquisition of goods and services, but even
+beyond that that, in the search for the ever receding siren call of the
+frontier. Explore is the authors' attempt to meet that need. It presumes an
+exploration force, seeking new worlds to exploit for valuable minerals.
+Players receive limited information about conditions as they exist on three
+worlds, which are generated by the computer. Based on this information, the
+player sends his character on an exploration trip to the planet which
+appears to have the best risk/benefit mix, given the planetary parameters,
+and the attributes of the character, which the player believes are most
+likely to be of importance in achieving survival, and success of the
+mission.
+
+     Play begins with the presentation of the three planets for
+consideration by the player. As indicated above, the data is incomplete,
+relative to each planet, but the player must choose, given the information
+that is available. Such factors as the presence or absence of animal life,
+climate, the nature of the population living on the planet, and the
+availability of fuel, and the probability of finding minerals are all part
+of the data the player must sift through.
+
+     Having landed on the planet, players determine the amount of fuel
+supply they will expend for the acquisition of minerals, and the mode they
+will employ to leave the planet. Players must be mindful that if fuel
+supplies drop below 50, the exploration party is marooned on the planet,
+either until rescue arrives, or until new fuel sources are found.
+
+
+TRADER
+
+     After all is said and done the motivation for man moving out to space
+has been, and the authors believe will continue to be, the motivation for
+wealth and power. After minerals, drugs, technology, and all the other
+trappings of civilization have been identified, and exploited, there still
+is the need to move those goods and services from one place to the other.
+This, the second oldest profession in the galaxy is what this game is all
+about.
+
+     Characters, have, by this point in their careers moved freely through
+a number of professions. They have tested their skills in combat; they have
+had the chance to administer and defend an important colony far from home;
+some have enjoyed the rigors, and the opportunities inherent in the
+exploration of new worlds, waiting for exploitation, and plunder. Now comes
+the opportunity for the player to create the Horatio Alger myth of old --
+the opportunity to be a trader in the vast emptiness of the shipping lanes
+of space.
+
+     The game presumes the need for the acquisition of a ship, with all
+that this entails. Financing, acquiring, and preparing the ship are
+demanding tasks of the player and his by now, well familiar character
+surrogate.
+
+     Once having acquired the ship, the character must hire a crew, and, on
+the planet Xenon-12, buy weapons, and electronic equipment for later sale.
+At the same time, he tries to fill the passenger space of his ship with the
+best mix of passengers to maximize his economic gains from the difficult
+passage.
+
+     Passenger accommodations must be negotiated for the ship, while in
+flight, to provide the best mix of high passage and low passage passengers.
+High passage passengers are those with stateroom facilities on board ship.
+Low passage passengers are placed in cyrogenic containers for the length of
+the journey.
+
+     During the month long journey through space, the character lives (or
+in some cases dies) through many experiences, but because of the technology
+employed, he is essentially unable to control the events which take place.
+
+     Once having landed on the planet Y4732A, the Trader sells his goods,
+pays off the crew, and has the opportunity, if he wishes, to buy drugs and
+valuable crystals for use as raw materials by the electronics industry. It
+should be noted that the two planets exist in a symbiotic relationship to
+one another. Xenon-12 is the high technology, mineral poor planet, while
+Y732A is a low technology, raw material rich planet.
+
+     The play of the game is rich with prompts, and unacceptable inputs are
+clearly rejected by the computer.
+
+
+Getting Into SPACE
+==================
+
+     For all of its complexity, SPACE is an extraordinarily easy game to
+initiate. To play simply boot the game disk and follow the screen prompts
+which appear in inverse.
+
+     There are a couple of logistical facts which you should know:
+
+1. In order to accommodate players without Applesoft ROM cards or II+
+computers, disk Applesoft is included with the SPACE game. This leaves room
+remaining for only a couple of character files. Those who do not need the
+diskette Applesoft should delete it from the disk.
+
+2. Because of the limited space for character storage, players will find it
+advantageous to store their many characters on a separate diskette. (This
+is a must for those without the ROM.)
+
+3. Using a separate disk for character files is fairly straightforward if
+these procedures are used. In Characters, leave the game disk in the drive
+until the character is "ready to enter civilian life". Then insert the
+character file disk. (Characters is actually four games chained together.)
+In each of the other scenarios, run the game from the game disk until you
+are asked to input the character's name. At this point, insert the
+character disk.
+
+4. In First Blood, both characters must be on the same disk.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Back-cover]
+
+SPACE
+
+     Venture into the far distant future...A strangely altered society
+populates this galactic expanse, and penetrates to the dim edges of the
+Universe. SPACE, an Interactive Fantasy, takes you there.
+
+     This unique system provides multi-faceted simulations of human life in
+an interstellar environment, both perilous and baffling.
+
+     The player first constructs several characters, giving each a distinct
+physical and psychological make-up. The computer will display personality
+traits as narrative, while skills and physiology are scaled numerically.
+The player generates a permanent, locked text file which forms the locus of
+a character's actions throughout the scenarios. Careful selection of game
+sequence and characters will prove rewarding. But remember, randomness is a
+prime determinant. You may see myriad options before you, but can you
+assess the benefits and risks wisely?
+
+     Six intricate scenarios comprise SPACE:
+
+CHARACTERS
+
+FIRST BLOOD - Now the Game is life-and-death.
+
+DEFEND - On a small planet in a distant solar system, a character
+administrates a colony...Suddenly, it is plundered. Do you evacuate,
+mobilize, surrender, or abandon the citizens?
+
+TRADER - Recreate the Horatio Alger myth...exploit the vast emptiness of
+the galaxy's shipping lanes. EXPLORE - On the edge of an ever receding
+frontier, a lone character searches out valuable mineral deposits.
+
+HIGH FINANCE - Galaxy-wide investment opportunities are available for the
+character who has amassed great wealth during earlier escapades. Your
+computer supplies a portfolio. Manipulate to your heart's content.
+
+     Enjoy. This system's complexity allows play to extend over several
+sessions.
+

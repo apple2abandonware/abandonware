@@ -1,0 +1,1574 @@
+[STARCRYSTAL, EPISODE I - MERTACTOR: THE VOLENTINE GAMBIT - manual,
+instruction sheet, 1st edition errata, and text from the back cover of the
+software box.]
+
+STARCRYSTAL Episode I - Mertactor: The Volentine Gambit
+
+Science Fiction Adventure in the Far Future.
+Approved For Use With TRAVELLER.
+
+Written by Jim Long.
+
+Program and System Design: Terry Gray and Jeff Billings.
+
+Continuity and Physical Systems: Ken Maniscalco.
+
+Copyright 1985 by Ba'Rac Limited. All Rights Reserved.
+Printed in the United States of America. No part of this book may be
+reproduced without permission in writing from Ba'Rac Limited.
+
+Ba'Rac Limited
+P.O. Box 21830
+Shreveport, LA 71120-1830
+
+TRAVELLER was conceived and written by Marc Miller and published by Games
+Designers' Workshop in 1977.
+
+Copyright Notice
+
+     STARCRYSTAL is Ba'Rac Limited's registered trademark for its computer
+text adventure games and products based on the TRAVELLER science fiction
+role-playing game system and adventuring universe. All rights reserved.
+TRAVELLER is Game Designers' Workshop's registered trademark for its
+science fiction role-playing game and adventuring universe set in the far
+future. The TRAVELLER name and concepts are herein used with the permission
+of and under exclusive license from Game Designers' Workshop. All rights
+not specifically delegated by the terms of the licensing agreement are
+retained by Game Designers' Workshop. This STARCRYSTAL product and the
+accompanying documentation are copyrighted by Ba'Rac Limited, 1985. All
+rights reserved. No portion of this software product or accompanying
+documentation may be reproduced or copied in any form or manner whatsoever,
+or rendered into any electronic or machine-readable format without express
+permission in writing from Ba'Rac Limited. The original purchaser only of
+this software product is hereby granted a limited license to transfer the
+program from its medium into the memory of a computer solely for the
+purpose of executing the program. Any other use of this software product is
+an infringement of the Ba'Rac Limited copyright.
+
+Copyright (c) 1985 by Ba'Rac Limited.
+
+
+
+
+
+Table of Contents
+=================
+
+INTRODUCTION.............................................................03
+
+     Standards and Assumptions...........................................03
+
+     Characters..........................................................04
+
+     Scoring.............................................................06
+
+
+THE JOB OPPORTUNITY
+
+     Far Trader..........................................................06
+
+     Far Trader Down.....................................................07
+
+     Scout on the Ropes..................................................08
+
+     The Baron...........................................................08
+
+     The Baron's Proposition.............................................09
+
+     The Police Report...................................................10
+
+     Preparations........................................................11
+
+
+ANIMALS..................................................................12
+
+
+MERTACTOR................................................................13
+
+
+THE DARRIAN EXPEDITION...................................................16
+
+
+THE CAT HAT..............................................................17
+
+
+APPENDICES
+
+     A: Introduction to TRAVELLER........................................18
+
+     B: Character Skills.................................................19
+
+     C: Interfacing STARCRYSTAL..........................................21
+
+LIBRARY DATA.............................................................21
+
+MAP......................................................................25
+
+                               INTRODUCTION
+                               ============
+
+     This booklet and the accompanying computer software contains one
+complete TRAVELLER adventure designed to be played solitaire. The computer
+serves as a referee. No additional materials are necessary to successfully
+resolve this adventure. A knowledge of Basic TRAVELLER is useful but not
+required.
+
+     "Mertactor: The Volentine Gambit" is the first episode of the
+STARCRYSTAL Campaign, a complete set of Traveller adventures in District
+268 of the Spinward Marches. Each episode is playable independently or as
+part of a campaign, where the consequences of your performance in prior
+episodes carries over into the next.
+
+     For those who are not familiar with TRAVELLER, basic mechanics are
+presented in the Appendix. It is sufficient to understand that TRAVELLER is
+an internally consistant science fiction universe which has been developed
+and detailed since Game Designers' Workshop published the first set of
+TRAVELLER books in 1977. Contact with the system will teach most of what
+you need to know. Study the background and documentation contained in this
+booklet. You are at no greater disadvantage than anybody who has ever
+started their first game of TRAVELLER.
+
+                         STANDARDS AND ASSUMPTIONS
+                         -------------------------
+
+     Dates: Dates used in this adventure correspond to the Imperial
+Calendar, which counts years from the founding of the Imperium. Dates are
+further expressed by the consecutive numbering of days within the year. For
+example, the first day of the year 1107 is 001-1107, while the last day is
+365-1107. The adventure begins on 117-1112, the day after the Far Trader
+"Arax House" makes planetfall at Mertactor Down Starport.
+
+     Place: The adventure takes place on Mertactor (0707-B262732-B), which
+is situated at the trailing edge of the District 268 Subsector, which in
+turn is a rimward region of the Spinward Marches Sector, which is located
+at the spinward fringe of the Imperium.
+
+     The Planet: Mertactor is a small world with a turbulent but otherwise
+satisfactory atmosphere, relatively light gravity, and very great mass.
+About 20% of the world's surface is covered by shallow oceans and coastal
+wetlands. Ridges, forested and jungle areas rimming the oceans account for
+8% of the surface. The rest of Mertactor is a self-perpetuating desolation
+known as the "drisk."
+
+     The human population numbers under fifteen millions, virtually all of
+whom live in and around the contiguous underground and surface complexes at
+Rassad, Wind Harbor, and Mertactor Down Starport. The Class B starport
+includes an orbital facility of extraordinary design and efficiency.
+
+     A technological level of B prevails on Mertactor. This level is
+typical for the Imperium, but high for a frontier location.
+
+     Except for a brief period of anarchy followed by a religious
+dictatorship, Mertactor has been governed since its colonial era by a
+stable, self-perpetuating oligarchy. Few laws are codified on Mertactor,
+but an elaborate system of custom is in place. Offworlders leaving the
+starport are advised to behave in the most civilized and conservative
+manner possible.
+
+                                CHARACTERS
+                                ----------
+
+     This adventure is designed to be played with a single TRAVELLER
+character who occupies the narrative point of view of the player. This
+player-character may be the ex-Scout character supplied with the adventure,
+or a character created on the CITIZENS character generator program and
+transferred to this adventure according to the instructions contained in
+CITIZENS. A different character and equipment set with different skills and
+a different profession can significantly alter the course of play, though
+not necessarily for the better.
+
+     Skills: No specific skills are required for success in this episode of
+the STARCRYSTAL Campaign, but expertise in one or more personal weapons is
+desirable. Other skills which may be useful include Brawling, Computer,
+Electronics, Hunting, Mechanical, Recon, and Survival.
+
+     Air/raft skill is necessary for the character to travel from the
+starport area to where the investigation begins. If the character does not
+have Air/raft or Grav Vehicle skill then the system will arbitrarily assign
+Air/raft-0, indicating a minimum proficiency which will help the character
+get airborne, perhaps navigate well enough to reach the destination, and
+maybe get back to civilization without being killed in a traffic accident.
+Since the air/raft is the only available transportation, characters without
+air/raft skill begin with a handicap.
+
+     Gender: Whether a character is male or female necessarily matters, but
+is not crucial to the course of play except in local cultural
+circumstances, which do not occur on Mertactor. Any character is playable
+as either sex, except for the tendency for starship pilots and gunners to
+be female. (Note, however, that this impression may be an artifact of
+faulty observation rather than a statistical event.)
+
+     Pre-Generated Character: A suitable character is supplied with the
+adventure and described below. An explanation of the character's skills and
+characteristics and how they relate to the game is presented in the
+appendix.
+
+     1. (Player Character) ex-Scout, 78B977, Age 38, 5 terms, Cr3000.
+     Electronics-3, Pilot-1, Air/raft-1, Vacc Suit-1, Mechanical-1, SMG-1,
+     Jack-of-All-Trades-2. SMG, blade.
+
+          The ex-Scout owns a submachine gun and ammunition, a blade, cloth
+     armor, and miscellaneous personal belongings. A 4mm Gauss pistol is
+     among the ex-Scout's possessions, but is not owned.
+
+     Non-Player Characters: During the course of the adventure one or more
+of these non-player characters (NPC) may be encountered by the
+player-character (PC) as patrons, adversaries, allies, or neutrals,
+according to the story line and the context within which the NPC appears.
+These descriptions are a rough guide. An NPC will not necessarily be
+encountered during a given adventure.
+
+     2. Jamal Ito - Bureaucrat, 577BAA, Age 87, Cr unknown.
+     Administration-5, Leader-2, Liason-2, Instruction-1.
+
+          Represents the Ito family on Mertactor's ruling council. Director
+     of Mines and mineral projects for DerBonne Merchants, L.I.C., on
+     Mertactor.
+
+     3. Sandra Nakura Warren - Merchant Captain, 869877, Age 47, Cr40000.
+     Pilot-1, Navigation-2, Engineering-1, Ship's Tactics-2, Gunnery-1,
+     Leader-1, Forgery-1, Cutlass-2, Snub Pistol-2, Brawling-1.
+
+          Captain Warren is the owner of the Type A2 Far Trader "Arax
+     House."
+
+     4. Cyrano Wedge Nakura - Diplomat, 558965, Age 42, Cr unknown.
+     Liason-3, Interrogation-2, Carousing-2, Carbine-1, Computer-1,
+     Dagger-1.
+
+          Very little is known about this man. He tends to little bits of
+     business for various corporations and interests as a freelance
+     representative.
+
+     5. Rosco Thacker, a.k.a. "Thumper" - ex-Marine, A97576, Age 38,
+     5 terms, Cr minimal.
+     Blade-5, Rifle-1, Brawling-1, Cutlass-1.
+
+          Mr. Thacker is an employee of DerBonne Security Services.
+
+     6. Kaitlin Kai Nakura - Other, 687AA6, Age 34, Cr12000.
+     Computer-1, Auto Pistol-2, Brawling-1,Demolition-1, Streetwise-2,
+     Leader-1, Dagger-0.
+
+          She is a native Mertactan employed as a public relations
+     specialist by DerBonne Merchants, primarily to interact with the
+     Nakura Family.
+
+     7. Dwir Anastocia - ex-Marine Lt. Colonel, A8EA8C, Age 33, 3 terms,
+     Cr30000.
+     Gauss Pistol-3, Gauss Rifle-2, Streetwise-2, Interrogation-2, Blade-2,
+     Forgery-1, Bribery-1, Brawling-1, Recon-1, Vacc Suit-1, Battle
+     Dress-1, Demolition-1, Instruction-1, Computer-1.
+
+          No Awards or decorations. No military record.
+
+
+                                  SCORING
+                                  -------
+
+     Episodic Goals: Do the job for baron Edkos Volentine, get paid for
+high passage off Mertactor, and go home. You don't have to actually recover
+the artifact. All you have to do is look around. You could waste the entire
+weekend poking around the DerBonne facility, enjoying the scenery, and
+visiting the nearby Sephir Temple, once a minor tourist attraction and not
+without points of interest. Nobody is going to travel all the way out from
+Rassad just to hassle you or to discover whether your search is
+enthusiastic or indifferent. Right? Silly you.
+
+     When you're ready to leave the adventure, get into the air/raft and
+head back to Rassad. However, be aware that returning to Rassad much in
+advance of three standard days without tangible results would be bad form,
+incompetence at best, and possibly criminal, depending on the equipment and
+services Baron Volentine had made available or you had used. There are 72
+hours before you are due back at the "Arax House." Use them.
+
+     For campaign purposes, the bottom line is to take possession of the
+artifact known as the Star Crystal and escape with it in the air/raft back
+toward Rassad, but without wounds or disease requiring medical attention.
+Episode 2 begins before Episode 1 ends, so it is important to gather useful
+information and equipment. Figure out what has happened on Mertactor, and
+what is about to happen. Objects taken in this episode are portable to the
+next episode, but within realistic constraints of weight and displacement.
+
+     Points are awarded for certain objects taken into the character's
+possession and the discovery of vital information. Points for information
+are awarded if the character encounters that information, regardless of
+whether the player recognizes the discovery as important.
+
+                            The Job Opportunity
+                            ===================
+
+                                FAR TRADER
+                                ----------
+
+     The "Arax House" is a thirty-three year old 200-ton type A2 Far Trader
+presenting Imperial registry out of Glisten/Glisten. This ship is owned by
+Captain Sandra Nakura Warren, a native and resident of
+Mertactor/District 268, and for the last twelve years has been operated
+under exclusive contract to DerBonne Merchants, L.I.C. of New Rome/Glisten.
+Capable of jump-2, "Arax House" has seen extensive service coreward into
+the Sword Worlds, in addition to common carrier duty on the Spinward Main
+and connecting Mertactor and Glisten. Cargo capacity is 61 tons. Each of
+her two hardpoints mounts a triple turret heterogeneously fitted with beam
+laser, missile rack, and sandcaster.
+
+     Pressed into Naval courier service from a distant coreward leg of her
+route during the Fifth Frontier War, "Arax House" served in Regina and
+Jewell Subsectors and eventually participated in the relief of Lanth,
+delivering under fire a crucial resupply for the third battalion of the
+Rassad Lift Regiment, a native Mertactan unit. Enormous attrition among
+Scout/Courier vessels required that "Arax House" be committed to
+communications duty. She successfully avoided interception with a fighting
+withdrawal on two occasions, and supported Patrol Cruiser "Dunbar Glows" in
+a boarding engagement near Forboldn, during which she sustained a 12-meter
+laser strike across the ventral port aspect while the PC was lost with all
+hands.
+
+     The breached cargo bay was patched inside a fleet tender at Naval
+expense. "Arax House" was released from duty and sent homeward with a
+commendation and a service code appended to her identification beacon,
+along with the first news that the Fifth Frontier War had been stalemated
+and Mertactan units would be among the first to stand down. The DerBonne
+Marketing Department suggested that the laser strike not be painted over
+until the patriotic evidence had been displayed throughout the DerBonne
+service area.
+
+     DerBonne Merchants has great confidence in the performance and
+enduring profitability of this vessel and crew. Her service record has been
+consistently satisfactory. Passenger accommodations are above average for a
+Far Trader. The cuisine is excellent, typical of Mertactan service. Two of
+the crew can actually cook. The ship has earned a reputation worth
+protecting and preserving.
+
+     Consequently, when Captain Warren announced the unexpected layover on
+Mertactor, the delay was accepted as unfortunate but unavoidable.
+
+                              FAR TRADER DOWN
+                              ---------------
+
+     Reportedly the last annual inspection and overhaul somehow failed to
+expose the imminent and now present failure of magnetic couplings
+throughout the maneuver drives and gravitics. Replacement parts are
+available in Rassad, but the service personnel and facilities of Mertactor
+Down Starport are fully occupied for the next nine days. Engineers employed
+by DerBonne Merchants will be shuttled from Mertactor Orbital Starport to
+do the job, which should take two or three days.
+
+     The ship is unable to lift, not even in an emergency. Normally, she
+would be tugged underground, but the parking and service bays are full, and
+attempts to bribe some space open have failed. "Arax House" must remain
+immobile in a surface revetment. On Mertactor, this condition engages a
+tangle of laws and customs, and triggers an astonishing bump in insurance
+premiums.
+
+     Passengers are expected to disembark and not reoccupy their staterooms
+until notified. Crew members whose presence is not required during repairs
+are asked to vacate the ship. Passengers will be contacted on the PIG when
+repairs are completed, when liftoff is rescheduled, and at hourly intervals
+until liftoff is achieved.
+
+     Until then, have a nice weekend.
+
+                            SCOUT ON THE ROPES
+                            ------------------
+
+     Astonishing. It's raining rocks on Mertactor, just like the ship's
+Library Program said it might. The rocks aren't much, just dust and grit
+and the occasional pebble, but they are coming from the advertised
+direction. The near horizon over the mountains surrounding Wind Harbor
+Basin and the starport is black and red and orange and impossibly active.
+Somewhere on the other side of this small planet a drisk storm is dying
+out. The residue is falling here. Few of the thousands of people in the
+starport are entertained by the rain, but for you at least the layover on
+Mertactor is no longer a total loss. You have seen something new.
+
+     Mertactor Down Starport is jammed with people. The transportation and
+communications overload created by the Fifth Frontier War two sectors
+coreward has reached Mertactor. The port authority is crowded. The public
+transportation ramps are crowded. The bars and hotels and wonderful
+restaurants are crowded. Sullen, unhappy people are lined up twenty deep
+for a chance at the freshers. Customs is impossible. They are digging
+through every bit of gear presented, searching for weapons and contraband.
+People back in the lines are falling asleep.
+
+     Half the people in the starport are trying to leave the
+extraterritorial boundaries and go home. The other half are trying to secure
+outsystem passage and continue towards home. You might try to get a room
+and meal, but everybody else has the same idea. You don't have any money to
+spare anyway, and it's a cinch you'll have to come up with the extra Cr2000
+to convert your middle passage on "Arax House" to high passage, either that
+or get bumped from outgoing flights for the next month. The square meter of
+pavement you staked out next to a retaining wall will no doubt seem to
+shrink as the weekend wears on.
+
+     Just when you are beginning to think things couldn't get worse, they
+do. Here comes a pair of goons in combat armor, swaggering through the
+crowd, armed and curious but not in a hurry. The short one spots you. She
+taps the side of her helmet and gestures for you to stay put, as if there
+was someplace else you could get to.
+
+     The tall one does the talking. "If you're the Scout who came in
+yesterday on that A2 what tossed her couplers, then Baron Edkos Volentine
+requests that you attend a personal audience. Would you care to store your
+gear and come with us?"
+
+     Both are armed with automatic shotguns, just the thing for crowd
+control in a bust starport. The request is not much of a request. You're
+off to see the Baron.
+
+                                 THE BARON
+                                 ---------
+
+     The news is not entirely bad. You shared passage with Baron Volentine
+since Glisten. He is a corporate director of DerBonne Merchants. The man is
+gregarious, educated, and entertaining. He had been good company on the
+trip, having a good time, traveling to Mertactor to meet his brother,
+another Baron Volentine. They were going to do something important,
+although the Baron never explained what. If people in combat armor come
+around to pick you up, then better on behalf of someone you know isn't
+already mad at you.
+
+     The goons are wearing insignia of DerBonne Security Service. Starport
+customs waves the group through without a second glance. Outside, and
+air/raft is waiting to whisk you over the congested ground traffic to
+DerBonne's Rassad offices. The driver has to be a lunatic. He doesn't even
+notice the rain.
+
+                          THE BARON'S PROPOSITION
+                          -----------------------
+
+     "My brother, Baron Aramis Volentine, was murdered. His body was found
+on the landing zone serving the environmental shelter where he was working,
+about a hundred kilometers north of here. DerBonne employees discovered the
+body during a weekly supply mission. That, plus several other reasons I
+cannot discuss, prevent me from fully thrusting the staff available to me
+locally."
+
+     "Aramis was an ethnologist. He had a professional interest in the
+Sephir Temple, near where he was killed, and -in several religions
+practiced in that area from time to time during Mertactor's... ah...
+sometimes obscure history. My family is native to Mertactor, though Aramis
+and I were born on New Rome, so he could maintain a dispassionate interest
+in the sometimes fanatic behaviors of our ancestors. Mertactor has always
+had a share of lunatics which seem to have been more unbalanced than those
+found elsewhere. Religion is a delicate matter. I'm sure you are familiar
+with the situation on Pavabid. Mertactor was once controlled by a group
+known as the Sendi Mai, as vicious a group of extremists as you can
+possibly imagine."
+
+     "Aramis had a curious idea - that fanatic or cultist religious
+movements in the Imperium have tended to originate on worlds with a
+hydrographic percentage of less than 30%. Perhaps something about a desert
+or a desolation plucks a murderous chord somewhere deep within us,
+somewhere very basic and very human. I rather tend to agree with Aramis'
+hypothesis - probably something about being dirty and thirsty all the
+time."
+
+     "Be that as it may, several months ago I received an xboat message and
+image transmission from him. requesting that we meet on Mertactor to take
+possession of an artifact in which my family has had a passing interest for
+several generations. During the course of his ethnological studies, Aramis
+either located the artifact or actually took possession of it. I rather
+suspect the former, as the image transmitted was indistinct, as if recorded
+from a photograph. The object is associated in oral history and family
+traditions with the Sendi Mai religion I mentioned a moment ago. The Sendi
+Mai followers were wiped out over a hundred years ago. There was no hope of
+locating anything of theirs on the drisk, but something could have been
+preserved in the jungle, as was the Sephir Temple site."
+
+     "The artifact is known as the STARCRYSTAL. Of course, I don't know
+whether it is actually a crystal, or a jewel, or what... but it is
+definitely an example of early Mertactan craftmanship and art. A number of
+chains support the crystal, a necklace or headband sort of affair. As I
+said, the image was indistinct. As you have no doubt seen or read by now,
+the people here are marvelous jewelers and metalworkers. There's no way to
+determine the historical or monetary value of this piece without actually
+recovering it. Now that it is known to exist, I feel that the effort is
+worthwhile. Aramis certainly thought so."
+
+     "Your value is that you are an offworlder with no ties to Mertactor.
+Mertactor natives can be trusted absolutely, but only regarding each other.
+During our brief travel together, I found you to be a competent individual.
+I have no particular reason to trust you, but neither do I have any reason
+to distrust you. I know that the ship we arrived on is undergoing repairs
+which will last a couple of days, enough time for you to go out to the
+shelter where my brother's body was discovered and to have a look around.
+See if you can pick up the trail on which Aramis was interrupted. Find the
+STARCRYSTAL if you can. Get it back to me here in Rassad. In return, I will
+pay Cr20,000 and provide the high passage on "Arax House" you will need to
+continue your trip home."
+
+     "Are we agreed?"
+
+     Without a high passage ticket, you realize you'll be stuck on
+Mertactor for months, being bumped off every ship leaving port by every
+person willing to pay extra just to keep going. Securing passage the rest
+of the way home would be a fine reward for working three days which were
+going to be wasted anyway. Furthermore, a Baron is always a useful person
+to make happy. What could go wrong? Of course, you'll have to spend three
+days in the boondocks because it would be bad form to come back early and
+empty-handed, but a pressurized shelter is a good place to rest and the
+Sephir Temple is probably an interesting place to see, a real tourist
+attraction. And who knows what the Baron might pay if you turned up with
+the STARCRYSTAL? And if the Baron would pay that much, who knows how much
+somebody else would pay? You don't have any reason to cheat the Baron - yet
+- but it's an option to consider. Of course you agree.
+
+     Baron Edkos Volentine smiles. "Welcome to Mertactor."
+
+                             THE POLICE REPORT
+                             -----------------
+
+     Subject Baron Aramis Volentine, an ethnologist representing a noble
+family with established economic and cultural ties to Mertactor, was
+discovered on the landing zone of a DerBonne Merchants pressurized shelter
+located in the jungle immediately southwest of the Sephir Temple at the
+base of North Ridge. Subject had been stabbed 32 times. Wounds in chest and
+abdomen arranged in concentric circles. Tendons of arms and legs severed by
+deep laceration. Time of death estimated in the neighborhood of 108-1112.
+
+     Subject was discovered by occupants of a DerBonne air/raft delivering
+supplies. These native Mertactans must remain under minimal suspicion. They
+individually attest to the honor of the other. Of course, if all were Sendi
+Mai then they would not be able to fail such oaths. In passing, note that
+the ritual aspects of this murder must not be exposed to public
+speculation. Any reference to the resurgent practice of Sendi Mai or to any
+of the similar murders within the last several years must be avoided.
+
+     These are the DerBonne employees involved. Kaitlin Kai Nakura is a
+public relations specialist who states that she accompanied the others to
+enjoy the ride and visit the Sephir Temple for the first time.
+
+     Cyrano Wedge Nakura is employed by DerBonne Operations Group, through
+which offices the resupply of the DerBonne shelter would have normally been
+arranged.
+
+     Rosco Thacker is employed by DerBonne Security Services, and offered
+no explanation for his presence in the air/raft. Naturally, DerBonne would
+not be expected to comment on their security requirements in this area. Mr.
+Thacker is also known to this office as "Thumper."
+
+     It is worth noting that subject's youngest sister, Alesia Lai
+Volentine, was killed three years ago leading the rescue attempt mounted
+from M.O.S. when the Subsidized Liner "Sharron Dale" fell from parking
+orbit and suffered catastrophic reentry into the atmosphere. Volentines
+have lived here for a very long time. It is not in our interest to acquire
+a reputation for allowing Volentines to be killed here as well.
+
+                               PREPARATIONS
+                               ------------
+
+     Baron Volentine arranges for your personal gear and weapons to be
+delivered from storage at the starport. In addition, he supplies a Gauss
+pistol, a large scale map of the general area, and a copy of the police
+report concerning his brother's death. You are given formal permission to
+use food supplies and any equipment found at the shelter, including the
+computer. Unfortunately, the computer's key was not among Aramis' personal
+effects recovered from the body and returned by the police. Baron Volentine
+is certain the computer files will contain Aramis' field notes and perhaps
+a clue to the motivation behind his murder. It is not impossible that his
+work had somehow given unintentional but nevertheless mortal offense.
+
+     Ordinarily, a military fire team from DerBonne Security Services would
+accompany a jungle or forest investigation, but Baron Volentine cannot
+entirely trust his local employees. He has been gone from Mertactor too
+long to absolutely rely upon family loyalties. Natural trust may have been
+Aramis' fatal error, or it could have been unnatural distrust. Aramis had
+had neither bodyguard nor colleagues nor companions.
+
+     Furthermore, the Baron has hired transportation for the trip of
+approximately 100 kilometers out to the shelter site. You are to take an
+air/raft from Fast Eddie's Rassad Rentals, instead of attracting attention
+by using a DerBonne air/raft without a DerBonne pilot. Each pilot is
+responsible for their vehicle, almost to the point of personal property.
+Even a noble would give serious offense by merely suggesting, much less
+insisting, that a pilot relinquish their vehicle to an offworlder. In the
+course of such things, the pilot would naturally obtain satisfaction from
+the stranger, a headache anybody could live without and few would be likely
+to continue living with for very long.
+
+     While Fast Eddy's crew moves an air/raft out to his seedy, dusty LZ
+you take the opportunity to browse a nearby PIG terminal and spend a
+handful of credits for hardcopy of useful screens. Then down into the
+revetment. A hot breeze whistles around in the revetment well, stirring up
+dirt and litter.
+
+     Time to go to work.
+
+                                  ANIMALS
+                                  =======
+
+     Animals are described and ordinarily identified in terms of behavior,
+weight, and modes of interaction with adventurers. A 4-kilogram flying
+gatherer on Mertactor (any of several thousand Tiziar species) little
+resembles Terran flying gatherers (Ducks, for example) but both organisms
+exhibit similar behaviors and are thus equivalent in game terms. The Andrax
+is Mertactor's 100-kilogram killer which behaves like a big killer on
+Terra, but does not in any other way resemble a shark, being in fact a
+bipedal quasi-arboreal semi-intelligent creature suggestive of genetic
+interaction between a striped leopard and - because of a rather unique jaw
+structure - a chainsaw. However, the interaction of andrax and sharks with
+adventurers is as equivalent as ducks and tiziari.
+
+     Beck's Beast is an important facet of Mertactor's history. The animal
+is a genetically engineered Terran hippopotamus, a food factory, designed
+to eat Mertactor's mineral and metal packed vegetation and turn it into
+forms easily digested by humans. Beck's Beast is acknowledged as an Ancient
+artifact, and circumstantial proof that a human colony had been
+transplanted to Mertactor by the Ancients, though no evidence of that
+colony exists.
+
+     The animal contains glands specifically adapted to removing minerals
+and trace elements from vegetable matter, and isolating those materials from
+the animal's musculature. The animal's droppings are of such high metallic
+content that they are actually worth harvesting.
+
+     Terran cats are extinct on Mertactor, but Terran rats have thrived.
+Over thousands of generations on this low gravity world, they have
+developed into remarkably intelligent creatures averaging twenty kilograms
+in size. Wild rats can be dangerous, but occupy an important part of the
+forest food chain. Trained rats are herded down jungle trails eaten or
+bruised through the root systems by Beck's Beasts and used by hunters to
+trigger a Scylitha ambush. If the rat pack starts dwindling then danger is
+at hand. Rats are an important feature of the remarkable Mertactan cuisine.
+
+     The Tilok Lizard is another curious facet of Mertactor wildlife. These
+are small (under 1kg each) carnivore/scavengers which swarm throughout the
+root systems of the jungle and forest, rapidly consuming any dead animal
+matter which hits the ground. Tiloks can be found in enormous quantities
+anywhere other animals are found. Hunters are fond of providing a
+spectacular show for tourists by killing a rat and throwing it as far as
+possible down a trail to trigger the Tilok swarm which engulfs the corpse
+moments after it hits the ground. The Tilok feeding frenzy can be observed
+from very close range, as the creatures simply will not bite humans, alive
+or dead, unless someone is silly enough to stick a hand into a feeding
+mass.
+
+     Animals on Mertactor are much more intelligent than usual. There are
+very few major species, all contending for similar resources and all
+territorial in the extreme. The food chain is simple and uncomplicated, and
+thus vulnerable. All wildlife on Mertactor are protected by law and by
+custom. Only licensed hunters may take Beck's Beast for food. Andrax may be
+killed in self-defense, but as far as is known, this has never been
+successfully accomplished.
+
+     Scylitha are specially protected because of the extraordinarily
+beautiful horn masks covering their face. Scylitha masks have found
+extensive ceremonial use since the colonial era, and are collective
+treasures owned by Family. Ideally, the Scylitha can be taken only in
+self-defense, but licensed hunters will trigger an ambush attempting to get
+a flank shot. The mask is so important that native Mertactan hunters have
+died defending against a frontal attack rather than deface the mask,
+through which the animal is vulnerable only to a rifle shot or arrow placed
+through an eye socket. About twenty years ago, an albino Scylitha was taken
+with a laser carbine equipped with electronic sights and boresighted down a
+trail known to be part of the animal's territory. One hunter died in the
+ambush and two others were killed leading the creature into the carbine's
+fire line. The albino mask was sent to the Emperor as a token from the
+people of Mertactor.
+
+     Biologists have not been able to reconcile Mertactor's narrow
+ecosystem with the geological age of the planet. There simply has not been
+enough time for what convincingly appears to be native wildlife to have
+evolved naturally, yet except for Beck's Beast there is no evidence of
+engineering or transplantation from other worlds. Similarly, the passive
+plant life is too complicated for the timespan involved, and the
+territorial, aggressive plant life is too complicated for any time span.
+Mertactan trees seem to spend most of their time trying to kill each other,
+while Mertactan animals seem to be consciously balancing each other's
+populations. However, the lack of an obvious or accessible explanation does
+not mean that an explanation does not exist. It does mean that biologists
+have been slow to generalize from the Darrian contention about Mertactor's
+geology and origins to a similar explanation of Mertactor's flora and
+fauna.
+
+                                 MERTACTOR
+                                 =========
+
+     Colonies were first established on Mertactor between -2000 and -1750
+by Terran traders, Solomani immigrants, and light fleet elements following
+up the defeat of the First Imperium by the Terran Confederation. The small
+population almost perished during the collapse of interstellar commerce and
+communication during the Long Night, and endured regular attrition by
+Mertactor's environment until the colony remnant was securely established
+in the Wind Harbor Basin and Rassad's growing underground residential
+areas. A small segment of the population followed a nomadic existence out
+on the drisk, but did not participate in the mainstream of Mertactor
+history.
+
+     Modern Mertactor society is rooted in the colonial hardships. The
+people lived close together in the safest place on the planet, rather than
+following the normal colonial practice of dispersing the population to
+prevent destruction by a single disaster. Extensive, detailed geneologies
+were set up and maintained, originally to diminish the genetic casualties
+inevitable to intermarriages among a small, isolated population, then later
+as an enduring institution of unity. Everybody on Mertactor seems to know
+each other. Cousins are acknowledged so far out that a native could choose
+to be associated with literally half the families on the planet.
+
+     Internal affairs are handled entirely by family representatives. The
+few laws codified on Mertactor deal with extreme behaviors, such as murder,
+and with protecting animal life. Property, marriage, manners, and other
+civil matters are handled through the family. The most unusual example is
+the provision made by the Imperium for Mertactor natives serving in the
+Imperial armed forces. Instead of being assigned to whatever unit needs
+replacements, a Mertactan volunteer is automatically assigned to the Rassad
+Lift Infantry/Mertactor's Own Imperial, regardless of where that unit
+happens to be in action. The regiment is 100% native Mertactan. Its battle
+record is phenomenal, but the few times it has been caught in a disaster
+have been planetary tragedies on Mertactor, as heavy casualties repeatedly
+touch every family. A battalion being rotated home is cause for widespread
+celebration, bordering on anarchy.
+
+     External affairs are handled by a self-perpetuating Council. Concerned
+mainly with the starport, offworlders, commerce, the disposition of the
+Rassad Lift Infantry, and with interstellar relations, the Council meets
+when an occasion arises and constitutes what amounts to the planetary
+government. Membership on the Council is entirely voluntary. A native who
+feels so moved can ordinarily obtain a seat upon petition to one of the
+families. Seats change hands when a member hands the seat over to another
+native. A Council member may retire out of boredom, or a desire to do
+something else, or to give honor to a friend or relative. There are many
+examples of children sitting in Council, as well as natives given a seat on
+their deathbed and then immediately returning it, a last token of honor and
+respect.
+
+     Mertactor is known for many things, but to the ordinary Imperial
+citizen it is renowned for a truly remarkable cuisine. Fully 3% of the
+chefs serving the Imperial Household are native Mertactans. The rather high
+mineral and metallic content of the native plant and animal life led to the
+development of light and heavy sauces of every imaginable nuance to
+accentuate or obscure flavors as called for by the occasion and the chef's
+inclinations. Heavy marinades were developed which, in effect, predigested
+meat otherwise difficult for humans to use. The closeness of extended
+families in fact living near each other and in practice enjoying each
+other's company created many occasions for feasting and partying. When a
+family banquet could reasonably expect to seat 3000 people, food management
+and preparation became a subject of much attention. Children start learning
+to cook as soon as they are able to wield a knife. Mertactan natives grow
+up with an unnatural familiarity with edged tools and weapons - knives,
+cleavers, boning blades - everything associated with butchery and cutlery.
+
+     The strategic importance of Mertactor has been obvious since the
+publication of the First Survey in 420. The original measurements were
+discounted as erroneous, but they were correct. Mertactor is a very small
+world, about 3200 kilometers in diameter, with a gravity of .82, holding a
+light but standard atmosphere, and rotating once every 14 hours. The bottom
+line is enormous mass. Mertactor is made of abnormal concentrations of
+metals and heavy elements. Most importantly, the geological age of the
+world appears to be about 325,000 years, far to short a period to account
+for atmosphere, plant life, animal life, or anything. Yet the dating is not
+wrong. Something else about Mertactor is wrong.
+
+     If it were not for the drisk storms, Mertactor would have long ago
+been developed into the largest open pit mine in the Imperium. The
+apparently random and regular occurrence of these storms has so far
+rendered economic exploitation of Mertactor's surface economically marginal
+at best.
+
+     It is worth noting that neither District 268 nor Mertactor are members
+of the Imperium, yet most Imperial maps are charts are gerrymandered to
+include Mertactor within the Imperial borders. The xboat route from
+Glisten/Glisten terminates at Mertactor, but there is every reason to
+believe that an uncharted, unpublicized route continues from Mertactor
+across District 268 and into the rimward regions of Five Sisters Subsector
+and the many naval bases maintained there. The only other xboat route into
+Iderati/Five Sisters and the core/trailing corner of Five Sisters makes a
+stop in Sword Worlds territory, no doubt an inconvience to both parties. A
+deepsite meson gun dedicated to planetary defense is located somewhere
+within the Rassad Ridgeline. The Imperial Scout Service base at Mertactor
+Down Starport ordinarily maintains a dozen scout/courier ships. A company
+of Imperial Marines is stationed at the starport. The Imperium is prepared
+to defend Mertactor, although the last military action in the system was
+fought nearly 500 years ago.
+
+     After the Second Frontier War and the following Civil Wars, the
+Imperium occupied several Sword Worlds systems. In the Battle of Narsil's
+(628), after the wholesale destruction of Narsil's armed forces, a Sword
+Worlds admiral escaped with several squadrons of new ships and took up
+commerce raiding against the Imperium. Years later, his squadrons were
+cornered by an Imperial fleet covering Mertactor and defeated in what is
+called the Battle of Mertactor. The only reason the Sword Worlds squadrons
+were caught was that they happened to jump into the Mertactor system, where
+the Imperials had been waiting - not to catch a bunch of commerce raiders
+but rather to protect Mertactor. So far, the Imperium has been subtle in
+its regard for Mertactor, but as soon as the problem of the drisk storms is
+solved the benign neglect will end. The Navy can be expected to take
+Mertactor apart layer by layer, transport it across District 268 to the
+shipyards at Iderati, and turn the planet into battle squadrons.
+
+                         THE DARRIAN EXPEDITION
+                         ======================
+
+     After the First Frontier War, around 611, the Darrians obtained
+permission to establish a research station on Mertactor to investigate the
+nature of the drisk storms in particular and the planet and its star in
+general. Permission was granted by the Council on the condition that the
+Darrian findings be published first on Mertactor, and that the Darrian base
+be supplied by native Mertactor corporations. Since the Darrians had
+carefully chosen representatives descended from Solomani traders, just as
+were the native Mertactans, an agreement was quickly reached. While
+Imperial scientists were studying the First Survey, scratching their heads,
+and wondering how Mertactor could be so dense and be only 300,000 years
+old, the Darrians had already gone to work.
+
+     The mission was headed by a Darrian Navy Lt. Commander named Sisera
+Barak, who established the research station and maintained good relations
+with the natives through the services of a bright young merchant named Wadi
+de Edkos. The men were well matched in ambition, intellect, and ancestry
+(mostly Terran), while dissimilar enough to entertain and inform each
+other. They became close friends.
+
+     Barak verified that Mertactor was a very young planet. He discovered
+some of the highest concentrations of minerals and heavy elements in the
+Spinward Marches. He concluded that the concentration should have been
+greater, but that drisk storms had reduced the planet's surface. Analysis
+of the drisk failed to revel heavy elements in the predicted quantities.
+Either the elements weren't there, or they had been removed. Baral's
+discovery of the role played by the drisk storms was directly related to
+stories about colonial M\Mertactor told to him by Wadi de Edkos. Most
+importantly, the storms never struck the jungle and forested areas behind
+the ridgelines, only rarely struck the Elotal Sea, and occasionally reached
+into the populated areas of the Wind Harbor Basin. This was curious. Out on
+the drisk, the appearance of storms appeared to be entirely random, without
+meteorological precursors. One moment a column of the atmosphere was
+normal, then the next moment it was turbulent, then the next moment there
+was a storm.
+
+     Barak contended that the entire planet of Mertactor was an Ancient
+artifact, an example of planetary engineering. The Ancients were perfectly
+capable of undertaking such an experiment just to see if it could be done.
+Barak proposed that they tugged a core into orbit, then coalesced material
+literally sucked from Mertactor's star in order to quickly create a
+concentration of heavy elements which could be easily mined and exploited.
+The event, if it happened that way, was either natural or induced. Either
+the Ancients were able to time the third nova of Mertactor's star and be
+ready to take advantage of the opportunity, or the star was put to work
+when the Ancients were ready to build Mertactor. Both explanations were so
+ridiculous that Barak was confident his findings could be published
+anywhere in the Imperium and be totally disregarded, except of course among
+the Darrians.
+
+     The drisk storms, Barak proposed, were created artificially by a
+deepsite Ancient base which used gravitics to create the storms, and that
+the storms were a method of strip mining the entire surface of the planet.
+That storms never strike the jungle and only rarely hit the ocean or
+populated mountain regions suggests that the Ancients did not want to
+jeopardize transplanted humans more than necessary. The present day
+survival of Beck's Beast has long been a hint of Ancient intervention on
+Mertactor, but Barak's hypothesis was so improbable that it was filed away
+and forgotten, just as Barak had expected.
+
+     The young merchant, Wadi de Edkos, was the only person on Mertactor
+who noticed the timing of Barak's report to Mire/Darrian. About 614, a
+Darrian Scout/Courier arrived to take Sisera Barak and his research back
+home as quickly as possible. The rest of the Darrian Expedition dismantled
+the base and were transported home within the year.
+
+     By 615, the Second Frontier War had begun and the Zhodani were
+advancing through Querion Subsector toward Darrian. Wadi de Edkos and the
+corporation which eventually became DerBonne Merchants became wealthy
+during this period. By 619, the Zhodani were voluntarily withdrawing from
+Querion without a fight. The Darrians had come up with something very
+dangerous and very impressive. Wadi de Edkos made the correct connection
+that it had something to do with Mertactor.
+
+     Wadi de Edkos and Sisera Barak remained friends, though older now,
+hardened and scarred by war, did business together, prospered, and could
+trust each other when it came time to store some fragile merchandise. Some
+eight to ten years after the Second Frontier War, Wadi de Edkos returned to
+his native Mertactor. He brought a message. He would be back. In about five
+hundred years. Everybody he talked with took him very very seriously. They
+believed, and they began to wait. So did the Darrians, although in time the
+Darrians almost forgot why. The native Mertactans, however, the people of
+Sendia, the Sendi Mai, knew why they were waiting.
+
+                               THE CAT HAT
+                               ===========
+
+     Developed by Ling-Standard as an inexpensive alternative to the
+dedicated computer interface implant, the CAT HAT is a recent product which
+has most often been used by the Imperial Scout Service and various
+scientific disciplines to assist in making field observations and transmit
+those files to a dedicated computer. CAT HAT itself is an acronym for
+"Cybernetic Assisted Thought, Heuristic Analog Transmitter," one of those
+rare designations with favorable marketing consequences.
+
+     The CAT HAT is a useful compromise, giving up the surgical implant's
+performance, expense, and psychological hazards while providing more
+flexible access than voice or keyboard. The CAT HAT is based on a theory of
+consciousness rather than neuroanatonmy. This theory holds that the engram,
+the basic unit of human memory, is very large rather than very small, that
+memory is not a matter of storage but rather recreated on the spot by
+immediate stimuli (which may be a memory), and that changes in the
+neurological and - to a very limited extent - electrochemical composition
+of the brain can be detected by sensors sited over the frontal lobes, over
+Wernicke's Area, and over Broca's Area. The use of certain drugs can
+enhance CAT HAT performance by decreasing the chemical variability in the
+brain to within narrower parameters, but the side effects are not worth the
+benefit.
+
+     Only one person at a time can use the CAT HAT dedicated to a given
+computer. Before another person can use the CAT HAT, a calibration program
+must be run while wearing the CAT HAT to adapt the device as much as
+possible to the electrochemical nature of the person's mind being
+calibrated.
+
+     The most basic CAT HAT operation is to open files created with the CAT
+HAT. There is a natural associative lock on such files, so that another
+person using the CAT HAT cannot open the files unless after having
+recreated the experience of the individual who created the original files.
+In one sense, this lock is very secure. In another, it is not. Any user can
+obtain a directory by wearing a calibrated CAT HAT and thinking or saying
+"ACCESS COMPUTER DIRECTORY."
+
+     CAT HATS used in field observations are ordinarily equipped with a
+camera which allows a SCAN function. The user observes an object, requests
+a SCAN, and the computer transmits a close estimate of the objects
+dimensions and mass.
+
+     The device is well suited to recording or transmitting leisurely
+observations, a daydreaming situation which leaves the consciousness free
+to interact with the CAT HAT. If the activity is unfamiliar, stressful, or
+complicated, then performance will quickly degrade. The first loss will be
+the ability to communicate with the computer. Next will be the loss of the
+computer's ability to communicate with the user.
+
+     The operating range of a CAT HAT is about five kilometers, although
+proficiency quickly degrades within that parameter. Less than two
+kilometers is a reliable distance. Most users will find themselves treating
+the CAT HAT as a household appliance, doing their computer work while
+wandering around tending to idle chores and doing computer work without
+actually having to be in front of the computer.
+
+                   APPENDIX A: INTRODUCTION TO TRAVELLER
+                   =====================================
+
+     Assumptions: As science fiction, TRAVELLER posits some basic notions
+which define the universe in which it takes place. First are the practical
+realities of fusion energy and faster-than-light travel. The speed of
+interstellar communications is therefore limited to the speed of travel.
+Consequently, enlightened feudalism is a viable structure to maintain the
+fabric of an interstellar government and society, depending much upon
+personal loyalties and initiatives to carry out and defend that society
+over distances which prevent consultation with or direct supervision by
+higher authority. The Third Imperium exists as a generally benevolent,
+tolerant government which promulgates few specific policies, maintains
+trade, communications, and cultural exchange among worlds, and actively
+controls the space between worlds rather than controlling the worlds
+themselves.
+
+     Perhaps the most basic TRAVELLER assumption is that human behavior has
+been consistent and is likely to remain so. Ordinary citizens will remain
+ordinary, being no more influenced by interstellar travel than modern
+Americans are by intercontinental travel. Inevitably, however, there will
+emerge a new kind of citizen, one who will take advantage of the
+opportunity to indulge an inclination so basic and so human that it cannot
+be distinguished from the myriad hearts in which it has risen since the
+dawn of time - to become starfarers, to travel in a universe which was made
+for us to discover.
+
+     Universal Personality Profile: The basic characteristics of a
+TRAVELLER character are expressed in a specific sequence using hexadecimal
+(base 16) numbers. The values 0 through 9 are represented by normal arabic
+numbers; values between 10 through 15 are represented by the letters A
+through F, respectively. Listed as a string of six values, these
+characters always refer to a TRAVELLER character's strength, dexterity,
+endurance, intelligence, education, and social standing.
+
+     Damage absorbed by a character as a result of combat or environmental
+attrition is recorded by decrementing the first three (physical) values of
+the UPP. Damage is inflicted in the same units in which the UPP
+characteristics is reduced to zero, the character is unconscious. When two
+are reduced to zero, the character is seriously injured and requires
+medical attention. When all three physical characteristics are reduced to
+zero the character is dead.
+
+                       APPENDIX B: CHARACTER SKILLS
+                       ============================
+
+     A summary of skills excerpted from Traveller Book 1, and how those
+skills may relate to the course of play with the ex-Scout character in the
+STARCRYSTAL Campaign.
+
+     Electronics-3: "The individual has skill in the use, operation, and
+repair of electronic devices. The person is considered handy in this field,
+with the equivalent of a green thumb talent. This skill includes the repair
+of energy weapons. Generally, the skill is applied in an attempt to
+understand, repair, assemble, or operate electronic items. Complex
+electronic items may also require a certain level of education of a very
+high intelligence; many devices also require some degree of dexterity."
+
+     Level-3 is a high measure of any skill, and in the campaign will prove
+most useful in attempts to repair broken or malfunctioning electronic
+equipment. This skill will also help in the recognition of electronic
+equipment for what it is and what it does.
+
+     Mechanical-1: "The individual has skill in the use, operation, and
+repair of mechanical devices. The person is considered to be handy in this
+field. This skill is specifically excludes the field of engineering; it
+does include non-energy weapon repair. Mechanical expertise allows a
+character the ability to operate mechanical devices easily, as well as to
+repair them quickly and efficiently. Success in any mechanical enterprise
+is also affected by such variables as tool availability, personal strength
+and dexterity, education, and the situation."
+
+     Mechanical skill will often be useful to repair non-functioning
+objects or equipment, and in ease of identifying machines and making them
+work. The ability to repair weapons may be useful.
+
+     Pilot-1: "The individual has training and experience in the operation
+of starships and large interplanetary ships. This skill encompasses both
+the interplanetary and interstellar aspects of large ship operation."
+
+     As Pilot skill applies only to space travel, it will not be used while
+adventuring on Mertactor. However, Pilot skill will prove handy when it
+comes time to leave Mertactor, especially if it has to be done in a hurry.
+
+     Vacc Suit-1: "The individual has basic skill and training in the use
+of the standard vacuum suit (space suit), including suits for use on
+various planetary surfaces in the presence of exotic, corrosive, or
+insidious atmospheres."
+
+     Mertactor's breathable atmosphere won't be leaving any time soon. Vacc
+Suit skill is not used in this episode.
+
+     Air/raft-1: "The individual is skilled in the use of the air/raft
+vehicle, in its safe and efficient operation, and to some extent its
+maintenance."
+
+     An air/raft is the only means of transportation from Rassad to the
+DerBonne shelter where the investigation begins, and the only way to get
+out of the jungle and back to civilization.
+
+     SMG-1: "The individual is skilled in the use of a submachine gun as a
+personal weapon, the maintenance and repair of this weapon, and its safe
+handling."
+
+     The submachine gun is comparable to contemporary models such as the
+Israeli Uzi. Skill in a weapon increases the chances of hitting a target,
+enables more efficient handling, and avoids the many disadvantages
+associated with attempting to use an unfamiliar weapon. During the course
+of an episode, a character may have the opportunity to acquire a variety of
+different weapons. Personal skill has to be a consideration in when or
+whether to use those weapons.
+
+     Jack of All Trades-2: "The individual is proven capable of handling a
+wide variety of situations, and is resourceful in finding solutions and
+remedies. This skill is a general ability which may be applied to nearly
+any endeavor, allowing the character to at least attempt activities which
+would ordinarily be impossible due to lack of skill or expertise."
+
+     The referee has some latitude in deciding which actions a character
+may attempt with at least a token chance of success. The absence of a
+creative human referee to actively participate in the course of play is
+partially compensated for by a character with this skill at this level,
+which allows the character a legitimate attempt at the broadest possible
+variety of activities. The skill contributes little toward actual chances
+for success. There are many human activities which the uninformed
+individual literally has no idea how to even begin. This skill at least
+confers the opportunity to try within the rules, and was arbitrarily
+assigned to the ex-Scout character is an attempt to balance a complicated
+environment against a limited set of skills.
+
+ APPENDIX C: INTERFACING THE STARSRYSTAL EPISODE WITH AN ONGOING CAMPAIGN
+ ========================================================================
+
+     The STARCRYSTAL Campaign is completely playable as a standard
+TRAVELLER adventure without the computer. Mertactor is an interesting place
+to visit (and will soon become more so), with many opportunities for
+employment and intrigue for a group of adventurers knocking around District
+268 with nothing better to do.
+
+     Exploration and development of the drisk's mineral wealth is a
+dangerous assignment but one which pays often and well. Companies are
+always looking for teams willing to undertake missions onto the drisk.
+Newcomers are often assigned to rescue attempts.
+
+     The underground sections of Rassad have been under construction since
+the colonial era. Remodeling and new construction is always uncovering
+"lost" areas which require surveying and exploration before work can
+proceed. Natives don't care for the work, so offworlders are welcome.
+
+     Offworlders leaving the starport are encouraged to behave in the most
+civilized and conservative manner possible. Breaking Mertactor law is
+difficult because the few codified laws address only the extremes of
+behavior, but intricate family and cultural customs provide ample
+opportunity to produce deadly friction.
+
+     Several Broadsword class mercenary cruisers operate out of Mertactor
+Orbital, and may be a source of employment for a group which can provide
+references from a native or from a Family Center.
+
+     An interesting job always available to offworlders is wandering
+through the forest and harvesting Beck's Beast droppings. Local refineries
+pay well, but only by the ton. When your grandchildren ask "What did you do
+in the Fifth Frontier War?" you can say "I shoveled dung on Mertactor."
+
+                               LIBRARY DATA
+                               ============
+
+     Air/Raft: A small, open flying vehicle which uses solid state
+gravitics for lift and propulsion. Cruising speed is about 100 kph, but is
+vulnerable to wind effects. The craft weighs about four tons, has a low
+load capacity, and handles poorly. Simple controls cause the craft to
+hover, land, and move. Basic instrumentation indicates speed and direction.
+
+     Ancients: Collective name given to a race of intelligent, non-human
+beings who inhabited locations throughout this portion of the galaxy about
+300,000 years ago. Archaeological evidence suggests that the Ancients
+destroyed their own civilization during a war which lasted about 2000
+years.
+
+     The Ancients are regarded as responsible for the dissemination of
+Humaniti when they transplanted genetic stock from Terra to at least 40
+worlds across a span of 360 parsecs. Many other Terran plant and animal
+forms were transported at the same time. There are no clear explanations
+for this practice, but much of what the Ancients did appears strange.
+
+     Directions, Galactic: Familiar conventions of direction do not easily
+apply to descriptions of locations within a galaxy. North, South, East, and
+West are not descriptive of the relationships among stars lying within the
+galactic plane. Instead, the following concepts have come into widespread
+use: Toward the galactic core is coreward. Away from the core is rimward.
+The direction in which the galaxy rotates is spinward, while the opposite
+direction, against the galaxy's rotation, is trailing.
+
+     District 268: Subsector N of the Spinward Marches Sector. Contains 32
+worlds with a population of 2.4 billion. Created in 810 as an Imperial
+Protectorate. Membership in the Imperium is pending. The Imperial
+bureaucracy is present on Mertactor, and the Scout Service maintains
+several bases throughout the subsector.
+
+     Drisk: Vernacular, meaning "without worth" or "value beyond
+measuring," depending on context. Alternately, the self-perpetuating
+desolation which covers most of the surface of Mertactor.
+
+     Ethnology: The study of the classifications and subdivisions of
+Humaniti, their origins, characteristics, distribution, and linguistic and
+physical classification.
+
+     Fifth Frontier War: The most recent of the border wars which have
+erupted at irregular intervals ever since the Imperium name contact with
+the expanding Zhodani Consulate. Sword Worlds forces coordinated with the
+opening Zhodani attacks achieved initial gains before suffering major
+reversals at Lanth. Following the pattern of previous Frontier Wars,
+Imperial and local forces fought a protracted holding action before the
+arrival of major Imperial fleet elements enabled a sustained
+counter-offensive which re-established the status quo.
+
+     Gram Munitions: The primary contractor for ordinance and military
+equipment (especially grav and tracked armor) used by combined Sword Worlds
+forces. Ordinarily, each world in a Sword Worlds alliance raises and equips
+its own units then places them under a unified command. Gram Munitions
+produces equipment to fill out depleted or understrength units, for export
+to client states, and trade for strategic materials and services which
+benefit the Sword Worlds as a whole. Gram Munitions is seen as a step
+toward the permanent unification of the Sword Worlds Subsector.
+
+     Lanthanum: A rare earth element, the first of the inner transition
+metals. Vital to the construction of the inner coils of interstellar jump
+drive units, and thus of enormous strategic importance. For years, the
+Imperium has attempted to control the discovery and distribution of
+Lanthanum, as well as the price. The presence of Lanthanum on Mertactor in
+abnormal concentrations is a continuing influence of Imperial policy in
+District 268.
+
+     Mertactor: (0707-B262732-B) Nominal subsector capital of District 268.
+Not actually a member of the Imperium, although for decades Imperial maps
+and charts have depicted the gerrymandered border which includes Mertactor
+within the Imperium. Mertactor has been the object of considerable
+scientific and political interest ever since the First Survey was published
+in 420.
+
+     PIG: Originally an acronym for the Planetary Information Grid common
+to high tech worlds (especially those with a dispersed population) where
+global communications and access to common information are a necessary
+facet of society. PIG has entered the vernacular to describe any public
+database of broad utility, especially the dumb terminals maintained by the
+Traveller's Aid Society at Class A and Class B starports.
+
+     The Mertactor PIG is a commercial utility supported by families,
+donations, subscribers, and providers of services. There is a charge for
+access, and additional charges for hardcopy. However, a regularly updated
+News Service is broadcast without charge from Mertactor Orbital Starport or
+via landlines to personal computers capable of reception.
+
+     Prancer Foil: An aerodynamic embellishment to parking revetments at
+Mertactor Down Starport. On the occasions when drisk storms reach into Wind
+Harbor, starships caught in a surface revetment are partially protected by
+the prancer foil, which helps vector storm winds and debris away from the
+horizontal and maintains a high pressure area above the hull which helps
+prevent the ship from being lifted from the revetment and blown away by the
+storm.
+
+     Repatriation Bond: The employer of mercenary units deposits sufficient
+funds in offworld escrow accounts to pay for middle passage (including
+medical care when necessary) for each hired trooper to leave the world in
+case the employer's cause is lost. Repatriation Bonds do not include heavy
+equipment, although personal weapons are allowed against the middle passage
+baggage allowance.
+
+     The Repatriation Bond is the core of a system which works well. The
+Imperium encourages the hiring of mercenaries because the introduction of
+high technological military units into a local conflict tends to produce a
+quick decision which limits the economic disruption of a long war. Locals
+have no reason to slaughter mercenaries who will logically surrender if
+caught in an untenable situation. Mercenaries will not inflict atrocities
+which will dishonor the unit or jeopardize the repatriation bond. Opposing
+mercenary units will, if possible, maneuver to capture prisoners and
+destroy equipment, rather than inflict unnecessary casualties.
+
+     Sendi Mai: An obscure religion practiced from about 650 to 850 by
+Mertactor families inhabiting forest areas along North Ridgeline. Adherents
+claim to have seen the Gates of Heaven. Sendi Mai is extinct.
+
+     Sendi Mai Suppressions: From 848 to 850, civil and family authorities
+acted to eliminate the practice of the Sendi Mai religion from Mertactor
+society, in response to violence, torture, and mayhem perpetrated by the
+Sendi Mai. The suppression was successful. Sendi Mai ceased to present a
+threat to society.
+
+     Solomani Hypothesis: The widely accepted theory that all Humaniti
+originated on Terra, and that all human races native to other worlds in
+fact arise from stock transported there by the Ancients, for reasons
+unknown. The theory explains the large number of independent human races
+within the Imperium without recourse to the far-fetched concept of "parallel
+evolution."
+
+     Space Gas: Idiomatic expression for the oral traditions and stories
+which offer plausible, sometimes obscene, and not necessarily accurate
+explanations of how certain aspects of how the universe came to be a
+certain way. Space Gas has acquired status as a performing art, a form of
+popular entertainment traditionally presented aboard starships to pass some
+of the time spent in jump space. A popular Space Gas story in the Spinward
+Marches is "How the Scylitha Got a Mask."
+
+     Strephon: Forty-third emperor of the Imperium. Born 1049. Coronation
+1071. (UPP 768ABF)
+
+     Sword Worlds: A loose interstellar confederation of worlds settled
+between -400 and -200 by Solomani exiles and Terran traders and colonists.
+The region has always been at odds with the Imperium, and during the five
+frontier wars has allied with the Zhodani against the Imperium, uniformly
+to the Sword Worlds' detriment. The present government was established in
+852 on Gram, and survives by according individual worlds independence
+regarding internal affairs and expecting cooperation regarding interstellar
+affairs which affect the region as a whole. The Sword Worlds are so-called
+because most of the systems in that subsector were named after famous edged
+weapons from Terran history and mythology.
+
+     Tiziar: A 4-kilogram flying gatherer native to the coastal wetlands of
+Mertactor/District 268. Nearly a thousand subspecies have been noted and
+more are presumed. Tiziari move freely about the planet, even over the
+desolation of the drisk, yet still exhibit the extreme territorial
+behaviors which characterize all life on Mertactor.
+
+     Volentine Hypothesis: An ethnological contention that religious or
+cultic practices or extreme or fanatic persuasion, in general, tend to
+originate on worlds with a hydrographic percentage of 20% or less. For
+purposes of the hypothesis, fanatic behavior is narrowly defined as the
+willingness to do murder or torture on behalf of one's beliefs. The
+Volentine Hypothesis has not gained broad acceptance among ethnologists and
+cultural psychologists, but neither is it regarded as without merit.
+Further research is necessary to verify the hypothesis or expose it as
+erroneous.
+
+     Wind Harbor: The second largest population center on
+Mertactor/District 268. So named since the colonial era for the
+conveniently positioned ridgelines and basin which shelter the area from
+drisk storms for most of the year, and which helped the original colonists
+to survive long enough to move underground into the Rassad facilities.
+Application has been made for Imperial assistance in closing off the
+remaining 15 kilometers of open terrain exposing Wind Harbor to the
+hazardous facets of Mertactor's environment.
+
+     Windslide: An environmental event encountered on Mertactor and
+associated with drisk storms. The combination of low gravity, high velocity
+winds, and highly variable pressure systems creates storms often
+accompanied by an avalanche moving horizontal to the terrain. Most of the
+destructive force of a drisk storm is contained in the windslide, and has
+much to do with the self-perpetuating nature of the drisk desolation.
+
+                                    MAP
+                                    ===
+MERTACTOR/DISTRICT 268
+IISS Catalog# P67E88V3356-L
+UPP: B262732-B-S
+RECORD# 0025788-338-72
+ORBITAL DISTANCE 1278.93 Kmet
+
+     North                          /       |      |
+       |                           |        |      |
+ West--|--East                    /         |      |
+       |                        /  North  _/      /
+     South        DRISK       /  Ridge  /      /
+                            /          /       |
+                          /           /        /
+           * DerBonne   / Sephir     /         |     Elotal Sea
+             Site 12   | Mountains /          /
+                      /         * Sephir   /
+                    /         /   Temple   |     _____
+                  /       __/                \___/     \_________________
+     DRISK       |      _/           ____
+                  \    |      ______/     \______        ______
+                   |    \____/     * Rassad      \______/      \_________
+            Stone   \____       * Wind Harbor      RASSAD MOUNTAINS
+            Fields        \_________________         ____________________
+                                             \______/
+
+                                        DRISK
+
+     ASTRO-TOPOGRAPHICAL COMPUTER ENHANCEMENT by TUKERA LINES
+     SURVEY DATE: 109-1042
+     SURVEYOR: ETKO ITO (IISS)
+
+[Instructions Sheet]
+
+OPERATING INSTRUCTIONS FOR APPLE COMPUTER SYSTEMS:
+
+     1. Components: The game box should contain a Program Disk, a Data
+Disk, a TRAVELLER adventure book, and this instruction sheet. Depending on
+which edition of the game is represented in this package, there may also be
+various inserts, feedback cards, or advertising materials which are
+irrelevant to the course of play.
+
+     2. The first thing to do is make a backup copy of the Data Disk. Play
+the game with the backup copy. The Data Disk gets enormous workout during
+the course of play.
+
+     3. Insert Program Disk into the disk drive and turn computer on. The
+STARCRYSTAL Program will automatically load.
+
+     4. A brief title display is followed by a menu:
+          1. START A NEW GAME
+          2. RESTART A SAVED GAME
+          3. SAVE GAME IN PROGRESS
+          4. SAVE CHARACTER TO TRANSFER DISK
+          5. FORMAT A BLANK DISK
+          6. RESUME GAME
+
+     Type the number of the activity you want the system to do. When
+further steps are necessary to complete a choice, then prompts will be
+presented until the process is complete.
+
+     5. After the menu choices have been made, the system will display
+"ENTER A NEW CHARACTER (Y/N)." Unless you have the "CITIZENS" Character
+Generator program which creates new characters which can be entered into
+this adventure, then enter "N" and press RETURN. If you press "Y" and
+RETURN and don't have a CITIZENS character disk, then you'll have to reboot
+the entire program by turning the computer off then back on, or pressing
+CONTROL/Open Apple/RESET.
+
+     6. This version of STARCRYSTAL is playable on the Apple-IIe,
+Apple-IIc, and Apple-II+ with language card. An 80 column display is
+preferred, but not necessary.
+
+COMMUNICATING WITH STARCRYSTAL
+
+     1. "Mertactor: The Volentine Gambit" is a text adventure. The screen
+display presents written descriptions of the environment, objects,
+characters, and actions which comprise the course of play. The player
+participates in the text environment by typing ordinary English sentences
+describing a course of action to be made in response to the situation
+described in the screen display. The computer processes the instructions,
+updates the screen display according to the results of those instructions,
+then waits for the player's next commands.
+
+     2. The screen display is divided into two parts by a horizontal line.
+The top part of the display contains a description of the character's
+surroundings, visible objects, visible animals, and other visible
+characters. The bottom part of the display contains commands entered by the
+player and the system's responses to those commands.
+
+     It is important to note that the system will not call your attention
+every time it changes something in the top display, nor does it require
+input to make changes. Depending upon the circumstances, the system does
+not always remain static, waiting for your next command.
+
+     3. Basically, to enter a command you type a sentence in plain, simple
+English describing what you want your character to do.
+
+     4. A single entry of commands and sentences can be a maximum of any
+160 characters and spaces.
+
+     5. STARCRYSTAL will accept multiple sentences (under 160 characters in
+length) in a single command as long as the sentences are ended with a
+period. An alternate method of accomplishing the same thing is to use the
+word "THEN."
+
+     For example, "Get the shotgun. Put the meal in the oven. Open the
+pantry." is the same as "Get the shotgun then put the meal in the oven then
+open the pantry."
+
+     6. STARCRYSTAL accepts multiple direct objects conjuncted with the
+word "AND" or with commas. For example, "Get the shotgun, the shotgun
+magazine, and the blade."
+
+     7. It is important to distinguish among objects by using the
+adjectives the system uses with those objects, especially when multiple
+examples of similar objects are within reach. If the system calls an object
+for example, "RED HAT," it is to distinguish this hat from other hats.
+
+     Be careful about using adjectives to distinguish among objects. It is
+not difficult to remove an empty clip from a weapon, and then reload the
+weapon with the same empty clip.
+
+     Similarly, the system treats READ and EXAMINE commands differently.
+EXAMINE (with a specified object) will tell you what the object looks like,
+and maybe what it does. READ (with a specified object) will tell you what
+any writing on the object says.
+
+     For example, "EXAMINE THE SHOTGUN." The system replies, "THE SHOTGUN
+IS A DRUM-FED AUTOMATIC WEAPON LOADED WITH TEN ALTERNATING ROUNDS OF SHOT
+AND SHELL, AND CAPABLE OF BLOWING AWAY ANYTHING THAT GETS CLOSE."
+
+     Similarly, "READ THE SHOTGUN." The system replies, "MADE IN HONG
+KONG."
+
+MOVEMENT COMMANDS:
+
+     1. Movement can be within a location or between locations.
+
+     2. Movement within a location is accomplished by entering the
+direction you want the character to move: North, Northeast, East,
+Southeast, South, Southwest, West, Northwest, Up, or Down. (These direction
+commands may be abbreviated N, NE, E, SE, S, SW, W, NW, U, or D.)
+
+     3. Movement between locations is accomplished with the commands "EXIT"
+or "ENTER," along with a specified direction. For example, "EXIT NORTH."
+Movement between locations also occurs when the character is next to an
+exit and is given a simple movement command in the direction of the exit.
+
+     Use EXIT to move quickly. Use directional commands to wander around
+within a location to examine things in detail or take advantage of range or
+cover in combat.
+
+     If you want to quickly reach an object without having to wander around
+trying to get close enough to pick it up, then use the command GO TO THE
+(specified object). For example, "GO TO THE SHOTGUN."
+
+GENERAL COMMANDS:
+
+     1. QUIT. Returns you to the top menu. Use this command when you want
+to save a game position. Up to five positions can be saved on the disk.
+
+     2. INVENTORY. Lists all visible objects upon the character's person,
+but will not list objects which are inside pockets or holsters or scabbards
+(unless the object is visible within those holders).
+
+     3. STATUS. Displays the character's current Universal Personality
+Profile (UPP), as explained in the adventure booklet (manual).
+
+     4. TIME. If the character has access to a timekeeping device, such as
+a wristwatch or wallclock, the TIME command will display the elapsed number
+of Standard hours since the adventure began. The last two digits are
+minutes. Preceding digits represent hours.
+
+COMPUTER COMMANDS:
+
+     1. The commands ACCESS, CALIBRATE, and SCAN are used with the computer
+functioning as an object within the game. These commands must ordinarily be
+followed by the name of the object or computer file to which the command is
+meant to apply. For example, ACCESS PHONE NUMBERS.
+
+COMBAT COMMANDS:
+
+     1. The commands DRAW or READY along with the name of the weapon you
+want drawn or readied will initiate the combat system. If you don't specify
+a weapon, the system will READY the weapon in your hand. For example,
+"READY SMG," or "READY SHOTGUN" are legitimate commands.
+
+     2. The command RUN (with a specified direction) is an attempt by the
+character to break off from combat and run away. For example, "RUN NORTH."
+
+     3. The command EVADE is an attempt to open the range between the
+character and the opponent. A direction may be specified but is not
+necessary. EVADE assumes that the character is rational and will use all
+available cover. The system recognizes cover within a location. EVADE down
+a corridor is much more dangerous than EVADE on a jungle trail.
+
+     4. The command ADVANCE is an attempt to close the range between the
+character and the adversary. A direction may be specified, but is not
+necessary. ADVANCE works like EVADE, assuming that the character will use
+cover.
+
+     5. The command ATTACK initiates or continues hand to hand fighting.
+The ATTACK command will use as a club any object which happens to be in the
+character's hand. Sometimes this is necessary, but on other occasions it is
+a good way to wreck a delicate weapon.
+
+     6. The command SNAPSHOT (with a specified target) is a quick, unaimed
+shot or burst fired without regard for accuracy. A READY weapon must be in
+hand before a SNAPSHOT can be executed. The example which immediately come
+to mind is "DRAW. SNAPHOT."
+
+     7. The command FIRE (with a specified target) is a deliberate, aimed
+shot or burst which sacrifices quickness for accuracy, even to the point of
+tracking a moving target. A READY weapon must be in hand before a FIRE can
+be executed.
+
+[ERRATA]
+
+ADDENDUM to First Edition STARCRYSTAL:
+
+     Operating Instructions for Apple systems: The "CAPS LOCK" key must be
+engaged for the program to process properly. Before inserting the program
+disk and turning the power ON, press the CAPS LOCK key. Leave the CAPS LOCK
+key engaged while running the STARCRYSTAL program.
+
+     The Police Report in the documentation (manual) fails to mention that
+a monel rod found on the body of Aramis Volentine was returned to his
+brother, the Baron Edkos Volentine, and was made available to the Imperial
+Scout hired to investigate the younger Volentine's untimely demise.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Back Cover from Software Packaging]
+
+STARCRYSTAL, Episode I - Mertactor: The Volentine Gambit
+
+     The planet is Mertactor/District 268 of the Spinward Marches, located
+at the fringe of the Imperium. The assignment is simple and profitable -
+recover a flashy artifact recently taken from a representative of DerBonne
+Merchants, L.I.C., and return it to Baron Edkos Volentine, a corporate
+director. You've got two days before your passage home, the Far Trader
+"Arax House," is loaded with cargo and ready to leave. There's not really
+enough time, but it couldn't hurt to look around - the Mertactor out back
+is supposed to be fairly scenic, and you might get lucky. Baron Volentine
+could be a useful man to make happy.
+
+     "Gambit" is a term from chess, an ancient Solomani pastime, describing
+the early sacrifice of a pawn in exchange for a long term positional
+advantage. Baron Edkos Volentine had many pawns on Mertactor to choose
+from, but guess who got the job?
+
+     Welcome to Mertactor.
+
+     STARCRYSTAL is a solitaire text adventure series based on the
+TRAVELLER science fiction role-playing game system. Each episode is
+playable separately or in sequence as a solitaire TRAVELLER campaign.
+"Mertactor - The Volentine Gambit" features five non-player characters, 200
+locations, 380 interactive objects, and incidental graphic support. Playing
+time is 10 to 50 hours. The package contains a program disk, a data disk,
+and a booklet of documentation and TRAVELLER background information. The
+game is absolutely playable by those who are not familiar with the
+TRAVELLER system.
+
+     TRAVELLER is FarFuture's registered trademark for its science-fiction
+role-playing game set in the far future. Used by permission.
+
+     Software by Ba'Rac Limited.
+
+[End of documentation.]

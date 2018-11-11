@@ -1,0 +1,1819 @@
+                     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                             SwordThrust (Apple II)
+                     
+                                Walkthrough
+                     _____________________________________
+                     ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+
+                              October 18, 2013
+                                  Version 0.8
+
+                        Written by:  Chester Bolingbroke
+                             Email:  crpgaddict@gmail.com
+                                     crpgaddict.blogspot.com
+
+                  Use this subject:  SwordThrust v. 0.8
+
+This walkthrough is best viewed with a monospaced font, like Courier.
+Walkthrough format stolen from Dan Simpson's "Baldur's Gate II" walkthrough.
+
+-------------------------------------------------------------------------------
+                              Table of Contents:
+-------------------------------------------------------------------------------
+
+    To navigate quickly, double click the code, press CTRL-C, then CTRL-F,
+    CTRL-V and ENTER!
+
+  I.        [ABTSWT]  About SwordThrust
+  II.       [EMUFIL]  Emulators and Files
+  III.      [COMBEX]  Explanation of Combat
+  IV.       [CHARCR]  Character Creation and the Guild
+  V.        [ADVWLK]  Walkthroughs for the Adventures  
+    V.1     [STADV1]    The King's Testing Ground
+    V.2     [STADV2]    The Vampyre Caves
+    V.3     [STADV3]    The Kidnappers Cove
+    V.4     [STADV4]    The Case of the Sultan's Pearl
+    V.5     [STADV5]    The Green Plague
+    V.6     [STADV6]    The Eternal Curse
+    V.7     [STADV7]    The Hall of Alchemie
+  VI.       [SPLLST]  Spell List and Comments
+  VII.      [CHZEAT]  Cheating
+
+
+-------------------------------------------------------------------------------
+  I.        [ABTSWT]  About SwordThrust
+-------------------------------------------------------------------------------
+
+"SwordThrust" is a commercialized version of "Eamon," a modular freeware
+gaming system created by Donald Brown in 1980. Eamon was unique for its era
+for several reasons:
+
+1. It combined a text-based adventure interface, as in "Zork," with role-
+   playing mechanics seen in few contemporary games.
+
+2. It offered a persistent hero who the player could lead through multiple
+   adventures.
+
+3. It set up a basic rules framework for the game but encouraged other
+   enthusiasts to develop new modules. Dozens of Eamon modules have been
+   developed over the years and are still developed today.
+
+4. It was commercial-quality yet still freely traded.
+
+SwordThrust never achieved quite the fame and longevity of Eamon, perhaps
+because it offered essentially the same gameplay experience as Eamon yet cost
+a considerable amount of money. Each of the seven adventures retailed for
+$29.95; the entire set would set you back $209.65--over $500 in 2013 dollars.
+
+Nonetheless, SwordThrust has some good features that don't appear in Eamon,
+including the ability to dual-wield weapons, an interface that keeps the
+character's status and location at the top of the screen, the ability to
+change armor from the initial purchase, and a bar where you can get hints as
+to your next adventure. Perhaps more importantly, the seven SwordThrust
+adventures are of a higher quality than all but the best Eamon modules.
+
+Perhaps the most important thing to understand about SwordThrust at the
+outset is that death is permanent. The game will save your character in
+between adventures, but if you die during any adventure, the character is
+erased from the disk. Thus, care and caution must be the watchwords for any
+successful adventurer.
+
+
+-------------------------------------------------------------------------------
+  II.       [EMUFIL]  Emulators and Files
+-------------------------------------------------------------------------------
+
+SwordThrust was released only for the Apple II, so an Apple II emulator is
+required to play it. I played using AppleWin.
+
+Two sets of files were released, one set unprotected, the other protected.
+Disks are not interchangeable, so you cannot (for instance) load the main
+disk in unprotected format and then switch to an adventure in the
+protected format.
+
+I have only been able to find the complete set of adventures in the
+protected (.nib) format. I thus recommend that you seek .nib versions of the
+game and its adventures rather than .dsk versions. As of September 20, 2013,
+a full set was available at:
+
+ftp.apple.asimov.net/pub/apple_II/images/games/rpg/misc/swordthrust-all.zip
+
+To play any adventure, you must first load the main disk (adventure1), load
+or create your character, choose to go (A)dventuring, and then swap in the
+disk file containing the chosen adventure. At the end of the adventure, you
+must return to the main disk to save your progress.
+
+
+-------------------------------------------------------------------------------
+  III.      [COMBEX]  Explanation of Combat
+-------------------------------------------------------------------------------
+
+Combat is a big part of SwordThrust, and it remains difficult and deadly
+throughout all of the adventures, so it's worth understanding all of its
+intricacies. There are several important factors to consider. These are the
+same no matter whether you are attacking and the enemy is defending or vice
+versa, though I couch the description below in terms of the character, since
+you cannot see the enemy's statistics.
+
+1. WHETHER YOU HIT THE ENEMY. The formula to calculate your chances of
+striking a successful blow with your right hand is:
+
+(A*2+W+S-X-Z+E)*C*F
+
+Where:
+
+A=Your agility
+W=The weapon complexity
+S=Your skill with the chosen weapon
+X=The penalty associated with the armor you're wearing
+Z=The penalty associated with the shield you're carrying
+E=Your armor experience
+C=Your encumbrance multiplier. When lightly encumbered, it's 1.
+F=Your fatigue multiplier. When fully rested, it's 1.
+
+So a character with an agility of 15, wielding a weapon with a complexity
+of 10 with which he has a skill of 16, wearing leather armor (10%) and
+carrying a small shield (5%) with an armor experience of 6%, lightly
+encumbered but weary, has a chance of hitting of:
+
+(15*2+10+16-10-5+6)*1*0.875 = 41.125%
+
+If you choose to wield a weapon in your left hand, the formula is the same
+as above but multiplied by your "left hand" statistic, a value always lower
+than 100%.
+
+When you strike successful blows, there's a chance your expertise with that
+weapon expertise or armor expertise will increase.
+
+Fortunately, you don't need to do all of these calculations yourself. When
+you view your character in the guild, you can see the percentile odds of
+hitting with each weapon in your inventory. You only need to mentally 
+account for the fatigue and encumbrance.
+
+Other factors related to the enemy can also affect your ability to hit him,
+but these are hidden from you so not worth considering.
+
+The computer rolls a number from 1 to 100 to determine if you hit, and if so,
+what else happens.
+
+2a. WHAT HAPPENS IF YOU MISS. Generally nothing, but if the roll is greater
+than 90+ one-tenth of your "to hit" score, or 100, you will "fumble" the
+attack. This generates a separate roll that may cause you to drop your weapon,
+break your weapon, or hit yourself for varying amounts of damage.
+
+2b. WHAT HAPPENS IF YOU HIT. Several things are possible:
+
+-You may score a critical hit, with odds equal to one-tenth your "to hit"
+score, though you always strike a criitical hit on a 1. Critical hits ignore
+the enemy's armor.
+-You may gain expertise with your chocsen weapon
+-You may gain armor expertise
+-If striking with your left hand, your left hand rating may increase
+-The enemy may parry the attack, equal to his "parrying" skill. If this
+happens, his parrying skill may increase
+-Assuming there are no fumbles or parries, you do normal damage to the enemy
+based on your weapon's "damage" statistic, though this can be blunted by
+armor or shields. If the damage roll is below the armor's protective rating,
+the attack will be blocked entirely.
+
+In no case do you see the enemy's or the PC's hit points. Instead, you get a
+textual description on the following scale:
+
+-In good shape
+-Slightly hurt
+-In pain
+-Badly wounded
+-At death's door
+-Dead ("drops to the ground" in the case of enemies)
+
+COMBAT STRATEGY
+Given all of these different variables, there are a few things to keep in
+mind before entering combat
+
+1. Try to maintain low encumbrance. If you're wandering around with high
+encumbrance, you can always drop items before beginning battle.
+
+2. Try to be fully rested. You can't help becoming weary or tired in combat,
+but between combats, be sure to use the REST command to return yourself to 
+fully rested status.
+
+3. Always buy the best type of weapon available. They don't cost much more
+than shoddier versions.
+
+4. Try to maintain a "to hit" rating of at least 50%. If you can achieve that,
+focus on damage next.
+
+If you want to build skills with new types of weapons, the game offers
+precious few opportunities for "grinding," but the walkthroughs below
+indicate what enemies you can spend some time on, and how you can make short
+paths through adventures you've already explored.
+
+
+-------------------------------------------------------------------------------
+  IV.       [CHARCR]  Character Creation and the Guild
+-------------------------------------------------------------------------------
+
+CHARACTER CREATION
+
+You have previous few options during character creation. The game will ask you
+a name and sex and then will randomly roll your hardiness, agility, and 
+charisma statistics (all between 3 and 24), and your left-hand ability
+(between 24 and 99). If your combined attribute rolls come to less than 39,
+you'll be given the option to "commit suicide" and try again. In such cases,
+you'd have to be crazy, or up for a significant challenge, to continue with
+that character.
+
+HARDINESS affects how much you can carry, your hit points, and how long you
+can hold your breath underwater.
+
+AGILITY affects your "to hit" roll and your likelihood of escaping traps.
+
+CHARISMA affects the buying and selling prices of items in town and the
+reactions of certain monsters and NPCs during the adventures.
+
+All of the statistics play a major role in your success during the game.
+Characters with low hardiness will die quickly; characters with low agility
+will rarely strike a blow in combat; and characters with low charisma may
+not be able to purchase a full set of equipment and will have to fight
+everything they meet in the dungeons.
+
+Although theoretically, the game rolls between 3 and 24 for each character,
+it must use some maximum value for the combined total of the rows, because
+I've rarely gotten a statistic over 20, and when that has happened, it's
+always been at the expense of low statistics in the other categories.
+
+Once you accept the character, you'll be given the option to trade two
+points from one attribute for one point in another. This is a bad deal with
+the exception of the "left hand" statistic. If you don't plan to dual-wield
+during the game (or to wait to develop that skill until later), it's a good
+idea to trade out the available blocks in that statistic for better
+hardiness, agility, and charisma.
+
+Since you have no options to reload during gameplay, and death is permanent,
+I think it's forgivable to spend some time creating a character with decent
+statistics. I recommend that you only continue with a character with ALL
+statistics at least 15, two statistics at least 18, and one statistic at
+least 20. This may take some significant re-rolling. If you do engage in
+such "start-scumming," be aware that:
+
+1. The game generates the random numbers used for the statistics when it
+first boots, so you can't use your emulator to create a "save state" during
+the character creation process and keep re-loading; you have to re-boot.
+
+2. The game stores the character to disk the moment you accept him or her.
+At that point, you'll have to go to the utilty option during startup and
+delete the character if you want to reclaim the space.
+
+Once you're satisfied with the character, you'll be given a chance to
+
+THE GUILD
+
+The guild has several areas that you'll visit repeatedly between adventures.
+The guild is completely safe, and when you return here between adventures,
+you will be completely healed. The guild is the only place that yu can view
+your character attributes and buy and sell equipment.
+
+The guild has the following options:
+
+1. Weapon Shop: The weapon shop sells axes, bows, maces, spears, swords,
+armor, and shields.
+
+2. Training: To increase your skills with a particular weapon.
+
+3. "Hokas," a magic shop.
+
+4. A bank, to store gold in between adventures so you don't lose it in
+the caves. The manual suggests you might want to hold onto some gold for
+bribing, but I never ran into any place where that was necessary.
+
+5. Examine your character.
+
+6. Get drinks at the bar. This only helps after the first adventure.
+Each drink that you buy carries a random chance of giving you a tip for
+the next adventure. If you order at least four drinks, you're almost
+certain to get the tip. But you don't see it until you actually begin the
+adventure. Note that each drink saps your fatigue and has a chance of 
+starting you tired on your next adventure.
+
+7. The "leave" command simply stores your character and ends the game.
+
+
+HAGGLING
+
+Every time you buy something, the shopkeeper will give you a base price
+base on the item's quality and your charisma. You can then engage in a
+process of "haggling" to lower the price.
+
+If your offer is less than 1/3 of the original asking price (this may vary
+based on charisma), the shopkeeper will immediately reject it and kick
+you out.
+
+Otherwise, the shopkeeper will start to come down slowly. If you engage in
+maximum haggling, each time increasing your offer by 1 gold piece, you'll
+end up paying a price about halfway in the middle of your original offer
+and the shopkeeper's original asking price, or about 2/3 of the original
+value. You can save yourself a lot of time by just offering that price at
+the outset.
+
+Offering 0 cancels the haggle.
+
+
+FIRST STEPS
+
+You'll want to take the following steps after character creation, in this
+order:
+
+1. Buy a weapon. Every character starts the game with a spear skill of 20,
+a club skill of 15, an axe skill of 5, a sword skill of 0, and a bow skill of
+-10. Not surprisingly, these statistics are in rough ASCENDING order of the
+damage that they do. Thus, while it may be tempting to buy a spear, if you
+have a high enough base agility, it may be worth it to start with an axe
+or sword to take advantage of the greater damage and to start building skill
+as soon as possible. Always buy a "good" quality weapon.
+
+2. Buy armor. If your agility is already low, go with leather and a small
+shield, which provides a 15% penalty, instead of chain, which provides a 20%
+penalty. If you plan to dual-wield, consider going directly to chain.
+Leather is enough to get you through the first adventure.
+
+3. If you still have gold left, buy a second weapon. There's only one
+additional weapon to find in the first adventure, and a useful NPC has to
+die for you to get it. If your primary weapon breaks, you don't want to 
+end up with nothing.
+
+4. If you STILL have gold left (unlikely unless you have a high charisma),
+go to the (T)raining school and enroll in the "beginner" course for your
+chosen weapon.
+
+ON EACH RETURN
+
+When you return from your first and subsequent adventures, you'll find
+yourself in a much better financial situation than when you started out.
+Depending on your statistics and available funds, do the following in between
+sorties:
+
+1. Upgrade weapons and armor
+2. Buy spells
+3. Visit the bar and buy a couple of drinks
+4. Train yourself in your chosen weapon
+5. Store any gold you don't want to carry in the bank.
+
+When you're ready to leave, hit (A) to begin the adventure!
+
+-------------------------------------------------------------------------------
+  V.        [ADVWLK]  Walkthroughs for the Adventures
+-------------------------------------------------------------------------------
+
+Important information about all adventures:
+
+1. Once an adventure is begun, try not to return until victory conditions have
+   been met. Otherwise, you may face a penalty or even die.
+
+2. Each module has a standard set of commands, like LOOK and ATTACK, which you
+   can see by typing ? at the prompt. Some scenarios have special commands,
+   which do unique things in that scenario. I've identified them below with
+   the abbreviaton "SC."
+
+3. It's worth repeating some scenarios multiple times for gold and experience.
+
+4. When you return, if you have more than four weapons in your inventory, you
+   will be prompted to sell excess ones before you can even get back to the
+   main hall.
+
+5. You absolutely want to get the HEAL spell after the first scenario.
+
+6. When you start an adventure, make sure you READY your preferred weapon.
+
+
+
+-------------------------------------------------------------------------------
+  V.1       [STADV1]  The King's Testing Ground
+-------------------------------------------------------------------------------
+
+SETUP: A cave to help the beginning adventurer develop his skills and
+       finances. Though listed as "easy," it can be anything but if you're
+       not careful.
+
+COND:  None
+
+SC:    Open, Swallow
+
+HINTS: Someone gives you a vision of a two-handed sword and says to "Remember
+       Royalty!"
+
+This adventure is unique in that you can only do it once. If you screw
+something up and have to depart, you'll never be able to return unless you
+roll a new character. Hence, to get the maximum value out of it, pay careful
+attention to the walkthrough below. You especially want to get out of this
+level with the sword Excalibur, the gold statue, the bag of gold, and the
+crown, which together make up the primary treasure.
+
+The map of the adventure is as follows. Lettered locations are explained below.
+Asterisks are just generic rooms or corridors.
+
+      A
+      |
+      *
+      |
+D-*   B 
+  |   |
+  *-*-*-*-*-C
+      |
+      E-*-*-G-H
+      | |
+   *  F *
+ /    | |
+J-*-*-*-I-*-*-K-L
+                 \
+                  \
+                   \ 
+                    * 
+                     \ 
+           N-O        |
+           |          |
+           *          |
+           |          |
+       R-*-*-*-Q      | 
+           |          | 
+   *       *          |
+    \      |          |
+   U-T-*-*-M-*-*      |
+            \         |
+       S-*-*-*        |
+              \       \
+                *--*-*-P             Y
+                        \          /
+                         V        X
+                          \     /
+                           W-*-*-*.....
+
+
+A. This is the starting point. Go north from here to return to the guild.
+
+B. North/south corridor with large black spider. This is the first enemy
+   you face in the game. It is always hostile but generally dies in a few
+   hits. The spider has nothing on its body.
+
+C. Small chamber. An NPC named Richard is here, and he is friendly to all
+   but the lowest-charisma PCs. Once you enter the room, Richard will
+   follow you for the rest of the adventure unless he is seriously wounded
+   or killed. He carries a high-quality axe and wears low-quality scale
+   armor. There is also a healing potion in the chamber; it's best to save
+   this until you're at least "badly wounded," because it heals you fully.
+   There's also a packet of food.
+
+D. A small chamber with a mimic taking the form of a chest. There's no way
+   to expose the mimic without opening or attacking the chest; it's better
+   to just immediately attack and get the first blow. The fight is much
+   easier with Richard from Point C. The mimic has nothing and is too heavy
+   to carry.
+
+E. A north/south passage. LOOKing reveals a passage to the east. You have to
+   go this way to get around the knight at point F.
+
+F. The passageway is guarded by a knight in armor. He is hostile even to
+   characters with high charisma, and he is quite hard to kill, even with
+   Richard's assistance. Killing him yields a high-quality sword, a sack
+   with 1,000 gold pieces, some cloth armour, and a large shield.
+
+G. A wolf blcks this corridor. If killed, he has nothing. You can calm him
+   by giving him the food from Chamber C, at which point he'll leave you
+   alone.
+
+H. This small chamber has a small white pill that will allow you to breathe
+   underwater.
+
+I. An east-west passage. If you didn't come here from the north, you can
+   LOOK to discover the secret door.
+
+J. "Below a hole." Climbing up takes you to a small area from which you can
+   go north to return to the main hall, or south to climb down.
+
+K. A chamber next to a lake.  A giant plant is here but will ignore
+   characters with a high constitution. A small box here contains a magic
+   crown, but it's not clear what the magic does.
+
+L. Floating on top of the lake. The only way from here is DOWN, which
+   requires either holding your breath (a risky proposition) or SWALLOWing
+   the pill from Point H. Going down from here twice leads to Point P.
+
+M. Entrance to a temple.
+
+N. Chapel. There is a man worshipping an idol. The idol has jewels for eyes
+   and there is a separate bottle of rare spices. The worshipper will be
+   hostile. When killed, he has a mace and a suit of leather armour.
+
+O. Bedroom. A priest is in here, along with a book with a picture of a fish
+   and a gold statue of a mermaid. The priest is hostile. When killed, he
+   leaves a morning star and a suit of chain armor. Do not read the book.
+   It turns you into a fish. The statue, though made of gold, will be very
+   hard to get out because it causes encumbrance and prevents you from
+   returning to the surface of the lake. Take it to point X, drop it
+   temporarily, swim up to get the magic rod, swim back to it, pick it
+   up again, and use the magic rod.
+
+P. In the middle of the lake. You can keep going down or down a passage to
+   the west.
+
+Q. Small chamber with four huge rats. All are fairly easy and make good
+   sword fodder.
+
+R. A small chamber where "Excalibur" is stuck in a stone. You can pull it
+   out. It is a two-handed weapon, so wielding it unreadies your shield.
+
+S. By this opint, you can no longer return to the east. There's an
+   octopus here. If killed, it has nothing.
+
+T. Your last chance to exit here is up to a small landing, where you'll
+   be above Point J. If you keep going west to Y...
+
+U. You go over the falls and die.
+
+V. A merman approaches you here. He is hostile. When killed, he leaves a
+   trident.
+
+W. This route features an extremely long east-west tunnel from which you 
+   cannot return. Eventually, you can go UP to a water-filled shaft to V.
+
+X. Water-filled shaft. An eel is hostile. It carries nothing. If you have
+   the gold statue, you'll have to drop it here to coninue to W.
+
+Y. A small chamber containing a rod labled "EMOH." Invoking it with
+   "SAY EMOH" will return you to point K. Take it back to where you
+   dropped the heavy gold statue to get the statue and return with it.
+
+
+Leaving this dungeon with all of the available treasure should give you
+between 4,000 and 4,500 gold pieces.
+
+QUICKEST PATH TO VICTORY:
+N/A. There are no victory conditions.
+
+
+-------------------------------------------------------------------------------
+  V.2       [STADV2]  The Vampyre Caves
+-------------------------------------------------------------------------------
+
+SETUP: Some villagers hire you to kill a vampire in nearby caves. The moment
+       you enter, you're jumped by a vampire. You wake up in a tomb, having
+       been turned into a vampire yourself!
+
+COND:  You must cure your vampirism before you try to leave the caves.
+
+SC:    Hit
+
+HINTS:  A great, powerful, good spirit also resides in the caves.
+
+
+
+    U
+    |
+    T
+    |
+  S-*-*
+      |
+      *
+      |
+      A-*-*-B
+      |
+      *
+      |
+      *   F
+      |   |
+E-D-*-C-*-*
+          |
+          *
+          |
+          *
+          |
+          *   H
+          |   |
+      G-*-*-*-*-*
+                |
+                *
+                |
+            J   *
+            |   |
+      L-K-*-*-I-*     M
+            |   |     |
+            J   *     *
+                |     |
+                *-*-*-*
+                |     |
+                *     R
+                |     |
+                *     R
+                |     |
+                V     N
+                      |
+                      *
+                      |
+                      O
+                      |
+                      P
+                      |
+                      Q
+                      |
+                      V
+
+
+
+
+
+A. Your tomb. You wake up here. It's best to rest a few turns before leaving.
+
+B. The vampyre's lair. You'll need to kill him to take the body to C as one
+   step on the path of getting cured. It might be easiest to do this at the
+   beginning while you're still hale. He's quite tough to beat for anyone
+   who didn't fully complete the first adventure and/or have good statistics,
+   skills, and items. Once "killed," he will come back to life unless you're
+   carrying him, so get him to C quickly because walking around with him
+   saps your endurance. He has nothing on him.
+
+C. LOOK at this bend to find the western secret door.
+
+D. Great spirit's outer chamber. There's a silver cross, a Star of David,
+   and a copy of the Koran here. If you try to pick up any of them while
+   still a vampire, they will injure you severely. Even after you get
+   cured, you don't want to pick them up, as the great spirit will turn
+   you into a vampire again, with no hope of a cure.
+
+E. The great spirit offers to cure you of vampirism if you bring him the
+   vampyre from Point B, desecrate the temple of Kali at Point L, and find
+   the goddess Victory at Point Q.
+
+F. Chamber of a wolf. The wolf has nothing on his body.
+
+G. This small chamber has a wooden stake. You can presumably use it to kill
+   the vampyre at B permamently, though I haven't verified this.
+
+H. Room with a large black spider. The spider has nothing and there is
+   nothing else in the room.
+
+I. A worshipper of Kali (Worshipper1) blocks the passage. He is hostile.
+   He carries no items.
+
+J. A chamber with four worshippers. If you FLEE out of the chamber, not
+   all of them will follow, making it easier to divide and conquer. None
+   of them carry anything useful, so you could just bypass them, too.
+
+K. Temple's outer chamber. There are three worshippers, two priests,
+   and a maiden named Zara about to be sacrificed. Treasure is a vial of
+   rare spices and an ancient death mask. It's tough to flee this one
+   because more than likely you'll flee into the inner chamber (L) and
+   make things worse. Zara will join you, but she'll probably die in the
+   first round. Each priest has a jeweled dagger, a morning star, and a
+   suit of high-quality chain armour.
+
+L. Temple's inner chamber. When you enter, a guardian statue will activate
+   and attack. The guardian is a tough customer, so be fully healed and
+   rested before you take him on. HIT the idol when he's dead and GET
+   the eye, then return to E to get last quest.
+
+M. LOOKing in this chamber reveals a secret button hidden behind a stone.
+   HIT it to turn off the water separating the two Points R.
+
+N. You get a message that "light flashes from nowhere." Every time you
+   cross this location, a clone gets created in Point O.
+
+O. Clone chamber. You'll encounter a clone of yourself created at Point N.
+   You can theoretically "farm" this location for endless combats.
+
+P. A "lion chamber" holds two lions. Neither has anything.
+
+Q. An inner chamber where two guards and the goddess Victory standing
+   over an unconscious old woman. All are hostile. Both guards carry 
+   high-quality swords. Victory carries a magic spear and magic shield.
+   DO NOT try to kill Victory directly; she's extremely tough, and if you
+   kill her, you can't win the level. Instead, kill the unconscious old
+   woman. This will make Victory fall unconscious, and you can pick up
+   her body and take her to E (loot her stuff first).
+   
+R. These two rooms are separated by uncrossable water until you hit the
+   button in Point M.
+
+S. Chamber with five rats, none particularly tough, none with anything.
+
+T. In this entry chamber are several characters from "Dracula": Van Helsing,
+   Lord Arthur Godalming, Jack Seward, Jonathan Harker, and Mina Harker.
+   All but Mina will be hostile while you're still a vampire; all are
+   friendly if you've been restored at E. All of the NPCs carry high-
+   quality maces. 
+
+U. Cave entrance. If you go north while still a vampire, you'll die.
+
+V. Going south from Q teleports you to the otherwise plain chamber V.
+
+QUICKEST PATH TO VICTORY:
+
+E. E. ATTACK VAMPYRE (repeat until dead). GET VAMPYRE. W. W. W. S. S. S. LOOK.
+W. W. W. Y. E. E. E. E. S. S. S. S. E. E. E. S. S. S. S. S. E. E. E. N. N.
+LOOK. HIT BUTTON. S. S. S. S. S. S. S. ATTACK CLONE (repeat until dead). S.
+ATTACK LION (repeat until both are dead). S. ATTACK OLD WOMAN. ATTACK GUARD
+(repeat until both are dead). GET VICTORY. S. N. N. N. N. N. DROP VICTORY. W.
+ATTACK WORSHIPPER (repeat until dead). W. W. W. ATTACK PRIEST (repeat until
+dead). ATTACK WORSHIPPER (repeat until all are dead). W. ATTACK GUARDIAN
+(repeat until dead). HIT STATUE. GET EYE. E. E. E. E. E. GET VICTORY. N. N. N.
+W. W. W. N. N. N. N. W. W. W. W. W. (Get cured). E. E. E. N. N. N. N. N. W. N.
+N. N. N.
+
+-------------------------------------------------------------------------------
+  V.3       [STADV3]  Kidnapper's Cove
+-------------------------------------------------------------------------------
+
+SETUP: You're visiting a friend, Baron Gustav Greenleaf, along with the
+       Count of Manchiu. At some point, the count's 16-year-old son, Harold,
+       is kidnapped, and a ransom note demands 10,000 gold pieces. Little do
+       the kidnappers know that Harold has a disease that requires him to
+       take medication every 6 hours or die. The kidnappers have been
+       traced to some caves in the hills. You've been given the ransom.
+       Your mission is to get Harold out alive before he dies.
+
+COND:  If you leave without saving Harold, you forfeit half your gold.
+       A timer appears in the status window. You have 2 hours.
+       If you get out without paying ther ransom, you get to keep it.
+
+SC:    Swallow
+
+HINTS:  Kidnapper's name is probably "Thora," who suffers from aquaphobia.
+        Great and powerful magic where you're going, with a "female aura."
+
+The timer on this one isn't hard to beat.
+
+It's also fairly easy to literally "win" the scenario. You just keep going
+north from the entrance, drop your equipment (except the drugs and ransom)
+at point M, climb the cliff, give Harold the drugs, and lead him back to the
+beginning.
+
+This is a good adventure to revisit frequently for experience and gold. As
+long as you deposit most of your gold in the bank before entering the scenario,
+you can enter and exit freely, "failing" if you'd like, and you won't suffer
+much of a penalty.
+
+I don't know of any way to win the scenario while still retaining the gold
+except to enter with a very well-equipped character and refuse to drop your
+equipment at Point M, but I don't think it's possible to survive the trip
+forward. I also don't know if the dragon has anything useful, as I was never
+able to defeat him.
+
+Map of the area (starts at bottom):
+
+
+MAIN CAVES
+
+       N---* *-*
+       |   | | |
+      -@-  * * *
+       |   | | |
+           * * *   S
+           | | |   |
+           *-* M   R
+               |   |
+               L-*-*
+               |   |
+               *   Q
+               |
+               K
+               |
+               *
+               |
+     D-C-*-*-*-*-*-O-P
+    /          |
+   1           *
+               |
+               *
+               |
+               B
+               |
+               A
+
+
+
+UNDERWATER SHAFT
+
+
+      1 
+     /
+    *
+   /
+  2
+
+
+SUNKEN TUNNELS
+
+     G 3
+     |/
+   J-F-*-*....
+  /  |
+ 4   E 2
+     |/
+     *
+
+
+SEA AND BEACH
+
+
+  ...*-G-*...
+      /|
+     3 |
+       |
+       |
+...*-I-H-*...
+     | |
+...*-*-Z-*...
+     | |
+     *-Z-*
+       |
+    -Z-Z-*
+       |
+       * 
+
+SUNKEN SHIP, LEVEL 1
+
+
+    W
+    |
+  *-*-V
+    |
+    | 4
+    |/
+  *-*-*
+   /|
+  5 |
+    |
+  *-*-*
+    |
+    U
+
+
+SUNKEN SHIP, LEVEL 2
+
+
+
+   * 5
+   |/
+   X
+   |
+   Y
+
+A. Entrance to the cave. Go south to exit.
+
+B. LOOK to see a thin wire stretched across the entrance. Once you find it,
+   you'll avoid it automatically. If you fail to find it and trip it, the
+   passage out at A is blocked.
+
+C. Edge of a pool of sea water.
+
+D. Top of the pool. Be careful from the moment you enter the pool, because
+   you can easily run out of air and die. The water will wash off the
+   poisonous dust from Point P.
+
+E. A triton guards the passage. He is hostile and quite difficult. When
+   killed, his body has a high-quality spear.
+
+F. On a ledge, just beneath the surface of the sea.
+
+G. In the sea. You can go up, down, north, east, and west here, but you'll
+   just get generic messages about the sea. All "roads" lead to the beach
+   (on the surface) or back to F (beneath).
+
+H. Beach. Small bottle has a note chastising the player for screwing around
+   on the beach instead of helping free the kidnapping victim. You can go
+   east or west from here, but all paths "south" will eventually lead to
+   the forest south of this point.
+
+I. Beach. Giant crab is here. It carries nothing.
+
+J. A ledge of the sea with the hull of an old ship downward.
+
+K. A cougar charges and attacks. He's pretty hard even for experienced
+   characters. Be ready to flee and heal.
+
+L. A bend in the corridor. Search here to find a secret passage north.
+
+M. Bottom of a cliff. A voice will demand you drop everything else and
+   bring the ransom up the cliff. If you proceed forward with anything but
+   the ransom and drugs, they'll shoot at you. It's almost impossible to
+   make it to the top of the cliff alive, as they get a volley every step.
+
+N. Top of the cliff. Female leader and five thieves. If you show up with
+   the ransom, they'll give Harold to you and tell you to "go away and
+   never come back" and push you one space to the east. You should immediately
+   GIVE DRUGS to Harold and then lead him back to the entrance.
+
+O. Large chamber. Shadowy form to east.
+
+P. Large chamber with some "clinging dust" that automatically causes
+   petrification--fortunately, the PC holds his breath. A statue of a woman
+   has a large diamond and a "golden bra." The golden dust continues to
+   cling to you when you leave; you must rush to Point D to wash it off.
+
+Q. A small chamber with a glowing sword called "Soul Sapper." If you pick it
+   up, it automatically attaches to your hand and you can't wield anything
+   else for the duration of the adventure.
+
+R. Huge chamber containing fire-breathing dragon. The dragon is essentially
+   undefeatable and is perfectly capable of killing the PC in one hit.
+
+S. Small chamber with water breathing pill.
+
+T. A road through the forest will take you back to the main hall passing
+   some silly signs inspired by "Burma Shave." This is the only way to get
+   back to the hall with the gold statue from Point J.
+
+U. Ship's brig.
+
+V. Small room containing a locker. OPENing the locker causes a skeleton to
+   jump out and attack. The skeleton has a high-quality sword.
+
+W. Bridge of the ship.
+
+X. Ship's cargo hold.
+
+Y. Aft Cargo hold. A squid immediately attacks but isn't tough. The prize
+   here is a gold statue. With it in your possession, you cannot return via
+   the shaft at (1). If you go to (G) with the statue in your possession,
+   you'll be dragged inescapably down and will have to abandon it.
+
+Z. Forest path with a series of signs that riff on "Burma Shave" ads. Going
+   west after the final "Z" returns you to the main hall.
+
+@  Chamber has a flawless red opal and a flawless yellow opal. The only way
+   I've arrived here is by fleeing pursuing thieves, so I haven't been able
+   to do much.
+
+
+QUICKEST PATH TO VICTORY:
+
+N. LOOK. N. N. N. N. N. ATTACK COUGAR (repeat until dead or fled). N. N. LOOK.
+N. DROP ALL (Y).  GET DRUGS. GET GOLD SACK. N. N. N. W. S. S. S. W. N. N. N. W.
+GIVE DRUGS TO HAROLD. S. S. S. E. N. N. N. E. S. S. S. GET ALL. (READY and
+WEAR whatever). S. S. S. S. S. S. S. S.
+
+
+-------------------------------------------------------------------------------
+  V.4       [STADV4]  The Case of the Sultan's Pearl
+-------------------------------------------------------------------------------
+
+SETUP: The scenario casts you in the role of a medieval private investigator,
+       complete with film noir-style dialogue. You attend a party at a
+       sultan's castle where you meet his three sons, Abdul, Ishmael, and
+       Harry, as well as the powerful Count Rajash. You are awakened in the
+       middle of the night and ushered to the sultan's room, where a guard
+       is dead and the sultan's white pearl is missing. The rule of the
+       kingdom is that whoever holds the white pearl at midnight becomes
+       sultan.
+
+COND:  You must solve the case by midnight or you'll be executed by the new
+       sultan. Leaving the castle before solving the case will reduce your
+       charisma. Killing any NPC in the castle will result in your execution
+       within a few turns.
+
+       There isn't much treasure in this scenario, so you'll want to make
+       sure you solve it before leaving. Fortunately, it's pretty easy,
+       meaning that it's a good one for getting rich, with the exception of
+       the "walking dead" possibility outlined at the end of the walkthrough.
+
+SC:    Interrogate
+
+HINTS  Rajash keeps a rattlesnake in a suitcase to guard against thieves.
+
+As you explore the area, assassins will attack you in a random locations.
+They are dressed all in black with a small red skull on the chest. If you
+kill them, they each leave a "small, incredibly sharp dagger."
+
+All guards carry high-quality swords, but the only way to get them is to let
+one of the tigers kill them.
+
+  
+
+SULTAN'S CHAMBERS
+
+*---*-*-*-*---*---* 
+|   |     |    \  |
+|   E     |     4 |
+|   |     |       |
+*-F-D-----C       |
+|   |     |       |
+|   G     |       |
+|   |     |       |
+*---*     *----*--I
+|         |    |
+|       B-A    *
+|         |     \
+*---*--*--*--H   1
+
+
+BEDROOMS
+            4
+           /
+*-*-*-*-*-*
+| |   |   |\
+* J   M   T 3
+| |   |   |
+* *---*---* 1
+| |   |   |/
+* K   L   *
+| |   |    \  
+*-*-*-*     2
+
+
+CASTLE FIRST FLOOR
+
+   
+ *----*--*--*--*
+ |             | 
+ |         3   |
+ |          \  |
+ | *-*-*-*-*-* |
+ | |         | |
+ | |         R P
+ | |         | |
+ *-*-----O---N-Q
+ | |     |   | |
+ | |     | 2 | |
+ | |     |  \| |
+ | *     |   * |   
+ * |     |     *
+ | *-----S     |
+ |       |     |
+ *-------*-*-*-*
+
+A. The sultan's study. As you begin, a guard's body lies on the ground.
+   LOOKing reveals a secret door to the south. LOOK GUARD indicates black
+   threads under the dead guard's fingernails. GET them. INTERROGATE
+   Guard 6. The combination to the vault door is 666.
+
+B. The vault. When you enter, two tigers attack. The vault holds the
+   blueprints to thee castle with signature of the architect, "Jeeves."
+   The tigers are nearly impossible unless you FLEE and lead them back to
+   guards.
+
+C. Sultan's room. Sultan (Gen-Harouk) and his butler, Jeeves, is here,
+   along with two guards. A bible on a stand is open to Revelations.
+   INTERROGATE the Butler to learn that the guard was alive at 18:00.
+   INTERROGATE the guards to learn the dead guard's name (Sam) along with
+   some nice testimonials about him.
+
+D. Enunuch's room. Entering this room causes the Eunuch to attack and kill
+   you. Approach the bedrooms from the secret corridor to the north instead.
+
+E. Bedroom. Harem Girl3 is in here. INTERROGATE her to learn that the
+   sultan's butler visits frequently and treats the girls better than the
+   sultan.
+
+F. Bedroom. Harem Girl2 simply tells you to go away.
+
+G. Bedroom. Harem Girl1 simply says that you're cute.
+
+H. Eat end of secret corridor. Someone has scratched "Kilroy was here!"
+   in the dirt.
+
+I. The butler's room. LOOKing a couple of times reveals a diary written 
+   by someone who lead an unsuccessful revolution against the sultan's father.
+   He was executed and his family banished. LOOKing further at the diary
+   reveals a symbol of a red skull--the same as the assassins wear.
+
+J. Abdul's room. There's a desk in the room containing a book of poetry,
+   written by Abdul, about freedom from responsibility. LOOKing reveals a
+   secret door to the north.
+
+K. Count Rajash's room. Guard10, if INTERROGATEd, refuses to help with the
+   investigation. His briefcase contains a note pledging his support to the
+   sultan and also a deadly scorpion.
+
+L. Your guest room.
+
+M. Ishmael's room. LOOKing at the desk will reveal a map of the sultanship
+   with the name suspciously changed to "Ishmaelia."
+
+N. Castle entrance. GUARD3 and GUARD4 verify that no one has come or gone all
+   night.
+
+O. Sultan's mail hall. Count Rajash, Ishamael, Boy2, Girl3, and Guard 8 are
+   all here. Guard 8 won't talk. Guard 9 tells you that he's been hearing
+   mysterious voices outside the castle while he's on sentry duty. Girl3 and
+   Boy2 are no help. Ishmael says it's his family's destiny to rule the land.
+   Count Rajash just says he's been there all day. LOOK to find the secret
+   door to the west.
+
+P. Outside the castle. Guard5 just says it's been quiet lately.
+
+Q. Outside the castle. Going east from here takes you back to the main hall.
+
+R. Coat closet. Abdul is here molesting a servant girl (Girl4). Abdul says he
+   doesn't know anything about the theft and the girl gives him an alibi.
+
+S. Kitchen. Five people are here: Cook, Boy1, Girl1, Girl2, and Guard7. None
+   of them have anything useful to say.
+
+T. Harry's room. Home of the black sheep of the family. INTERROGATing him
+   reveals his belief that Ishmael is the culprit. LOOKing in Harry's desk
+   produces a threatening note from his bookie.
+
+
+The discovery of the diary at (I) proves that the butler is the thief and
+employer of the assassins, trying to right a family wrong. There's no way
+to "accuse" the butler except to attack him at (C). If he doesn't die in a
+single hit, he will "disappear." From this point, the sultan and his two
+guards will follow you and assist you in combat. However, I don't know how you
+can win the game at this point, because it appears that the butler never shows
+up again.
+
+If he dies right away, LOOK at his body to find the pearl and then GET it.
+The scenario will immediately end and you get 5,000 gold pieces.
+
+QUICKEST PATH TO VICTORY:
+
+N. N. ATTACK BUTLER. LOOK BUTLER. GET SULTAN'S PEARL.
+
+-------------------------------------------------------------------------------
+  V.5       [STADV5]  THE GREEN PLAGUE
+-------------------------------------------------------------------------------
+
+SETUP: A plague is affecting Diurla that kills its victims after turning them
+       green. A psychic named Yastarda Ram managed to figure out that the
+       source of the plague was in Tsylma before dying herself. The player has
+       found Tsylma castle but has fallen into a long shaft and has woken up
+       with green skin.
+
+COND:  You have only about 3 hours to cure yourself before dying of the
+       plague. Fortunately, it isn't that hard.
+
+SC:    Hit, Dig, Read, Rub
+
+HINTS: The plague may be the work of the followers of Krypia.
+
+
+
+MAIN LEVEL
+
+
+      A
+      |
+      *
+      |
+      B-C
+      |
+      *
+      |
+E-D-*-*-*-H-*-*
+      |       |
+      *       *
+      |       |
+    G-F       *-L-M
+              |   |
+              *   N
+              | 
+              *
+              |
+        J-*-*-I
+          |
+          *
+          |
+          K
+          |
+          O
+          |\
+          | P
+          |
+        *-*
+       /  |
+      1   *-X-X-X-X-Y
+          |
+          *
+          |
+          *
+          |
+          *-W
+          |
+          *
+          |
+          T-U
+          |
+          V
+
+SECOND LEVEL
+
+  R   1
+  |  /
+Q-P-*
+  |
+  S
+
+
+
+
+A. Bottom of a deep well. This is where you start. If you get the rope ladder
+   from (C) and say "GLADIA" here, the ladder will go upright and allow you
+   to climb out.
+
+B. North/south corridor. LOOKing reveals a passage to the east.
+
+C. Secret closet. Get the rope ladder here.
+
+D. Former kitchen. Three rats to defeat. The notes say the door to the west
+   is covered with frost.
+
+E. Freezer. There's a frozen rogue here who looks familiar. I never found
+   anything useful to do here.
+
+F. Study. Two skeletons attack when you enter. There is a red book titled "Of
+   Golems and Artifact Magick" which suggests to destroy a golem, you should
+   just say, "I destroy the [whatever] golem." A second book, "Ringwold
+   Engineers," does nothing but burn two hours of time, which is usually
+   fatal if you haven't cured yourself at (M) yet.
+
+G. Bathroom. Contains a tube of "Vanishing Cream." Once you have it, you can
+   use the RUB command to make enemies or objects disappear.
+
+H. Collapsed east-west tunnel. GET a small shovel here and DIG to move on to
+   the east.
+
+I. Square room. A diamond golem attacks. I can say "I destroy the diamond
+   golem" to kill it instantly or just kill it through normal combat. It
+   leaves several diamonds behind.
+
+J. Lab. Scientific apparatuses. Dead body, wearing a lab coat, is bright
+   green. An evil glowing rock is the source of the plague. To destroy it,
+   drop it into the fountain at (M).
+
+K. North/south corridor. A wraith blocks the path. I don't think there's
+   any way to defeat him. Every attack causes a fumble. However, you can
+   just walk by him.
+
+L. Wide room. A giant beetle attacks when you enter. 
+
+M. Round room. LOOKing reveals a secret door to the south. There is a dry
+   fountain with "Vitae" inscribed; you can climb down into it. Turning the
+   valve at (N) fills it. Going DOWN into the fountain after it's full will
+   cure the plague. DROPping the rock from (J) in the fountain causes it to
+   explode.
+
+N. Valve room. A giant spider must be defeated before you can HIT the valve
+   and fill the fountain at (M).
+
+O. North/south corridor. There's a valuable painting signed by the famous
+   elven artist Graybeard, but GETting the painting causes a trap door to
+   open and you'll fall into the spike room at (P).
+
+P. Spike room. The dead body of a monk (early plague) has an orange wand with
+   "Tim" written on it. I didn't find a use for it.
+
+Q. Small room contains two hostile tigers.
+
+R. Small room contains two hostile bears.
+
+S. Small room contains two hostile lions.
+
+T. Outer chamber of a chapel. There are 4 worshippers of Krypia and a priest
+   here. It might be best to FLEE and let a couple follow and pick them off
+   in smaller groups. The worshippers have high-quality axes; the priest has
+   a two-handed battleaxe. Two treasures lie on the floor: a bag of rare spices
+   and a candlestick.
+
+U. Priest's chambers. Three colored opals are on the ground.
+
+V. Inner chamber. Krypia, the Evil One, is here with three golems--stone,
+   clay, and iron. Each golem can be destroyed easily by SAYing, "I destroy
+   the [substance] golem," at which point Krypia vanishes.
+
+W. Small chamber with a goblin, an orc, and a dog, all hostile. The orc just
+   has a club, but the goblin has a spear made of solid gold.
+
+X. East/west corridors. Scribblings on the walls spell out a poem: "Go where
+   thou shall goest, and be where thee must be, but don't disturb the
+   wildlife, unless it attacketh thee."
+
+Y. Small room. The root of a tangler tree attacks.
+
+
+When you leave the scenario by using the magical rope ladder at (A), you'll
+get varying points depending on whether you cured yourself, destroyed the
+source of the plague, and banished Krypia. Your score is compared to that
+of "Gerald of Denver" in the 1981  Worldcon tournament, who got 3,898. I
+haven't been able to get that high, suggesting there's something I'm missing,
+I suspect with the wraith, the rogue, the painting, or the wand.
+
+QUICKEST PATH TO VICTORY (requires you to at least cure yourself):
+
+S. S. LOOK. E. GET ROPE LADDER. W. S. S. E. E. GET SHOVEL. DIG. E. E. S. S. E.
+ATTACK GIANT BEETLE (repeat until dead). E. LOOK. S. ATTACK SPIDER
+(repeat until dead). HIT VALVE. N. D. U. W. W. N. N. W. W. W. W. W. N. N. N. N.
+SAY GLADIA. U.
+
+
+
+
+
+-------------------------------------------------------------------------------
+  V.6       [STADV6]  THE ETERNAL CURSE
+-------------------------------------------------------------------------------
+
+SETUP: The PC is awakened one night by a ball of light that turns out to be
+       the spirit of a wizard trapped in Tyme Castle. He begs the PC to come
+       rescue him. Tyme castle is rumored to be inhabited by a family of
+       sorcerers who preyed on townspeople.
+
+COND:  None
+
+SC:    Burn
+
+HINTS: The Tymes used to be well-regarded, but a dark castle suddenly appeared
+       in the middle of their land, and everything went south after that.
+
+
+Because it's easy to leave this one without penalty, the scenario offers a
+good grinding opportunity. Try out different weapons and spells on the guards
+near the entrance or the dagger at D. If you're strong enough to get the gold
+at (I), you can make $5,000 pretty quickly.
+
+
+MAIN FLOOR.
+
+      2
+     /
+    *
+    |
+  H-*-I
+    |
+G-*-*
+ \  |
+  1 |   
+    |
+  D-*-E
+    | |
+    * F
+    |
+    C
+    |
+    B
+    |
+    A
+
+
+DUNGEON
+
+
+L-*-*   M
+    |   |
+    * 1 *
+    |/  |
+*-*-J-*-*
+|   |
+*   *
+|   |
+K   *-*-N
+        |
+      O-*-*
+        |
+      *-*-P
+        |
+      Q-*-*
+
+
+UPPER FLOOR
+
+  *
+ /|
+2 R-V
+  |
+S-*-U
+  |
+W-T
+|
+X
+
+
+A. Path south ofthe castle. You can go south here at any point to leave.
+   An olive branch lies in the path.
+
+B. Castle entrance. Guard1 and Guard2 attack. When slain, you can loot their
+   bodies for high-quality maces.
+
+C. Fyer of the castle. Guards 3 and 4.
+
+D. Meeting hall. LOOK at the suit of armour to find a dagger and an emerald.
+   If you try to GET the dagger, it comes alive and you'll have to kill it.
+   It will keep coming alive every time you try to pick it up.
+
+E. Gymnasium. Guards 5, 6, and 7.
+
+F. Store room. There's a barbell of solid gold here, but it's too heavy to
+   lift.
+
+G. LOOKing at the end of the corridor reveals a trap door down.
+
+H. Kitchen. An automaton cook is here, but he'll probably ignore you.
+
+I. Guard room. Guards 8, 9, 10, 11, and 12 guard 5,000 gold pieces in a bag.
+   FLEE to lead them out in smaller groups.
+
+J. Four-way pathway below a trap door. GET the torch to see your way.
+
+K. Pool room. Go DOWN to enter, but DROP the torch first or it will
+   disintegrate. LOOK while in the pool to find a jade statue.
+
+L. Snake's room. Two snakes attack. Nothing else of value here.
+
+M. Spider's room. A sticky web theoretically makes the battle with the giant
+   spider more difficult. You can BURN it with the torch from (J).
+
+N. Guard's station. Guards 14 and 15 are here along with a deck of marked
+   cards.
+
+O. Jail cell. A dwarf NPC named Kori Irontooth, apparently also summoned by
+   the spirit and captured, joins you.
+
+P. An NPC rogue named Howard joins you.
+
+Q. A beautiful NPC roue named Cynthia.
+
+R. Passageway. Guard13.
+
+S. Den. Bookshelf contains a valuable book called "Ages and Ages." LOOK at
+   the fireplace to find the remains of a diary.
+
+T. Baron's outer chambers.
+
+U. Art gallery has paintings of women. You can BURN them with the torch from
+   (J).
+
+V. Guest room
+
+W. Baron's inner chambers. "Baron" turns out to be an evil wizard who tricks
+   people into coming to his castle with his sendings. When you first enter,
+   a "guardian" whisks you to the "Plains of War" for a battle--made much
+   easier with the NPCs from the dungeon. The second time, you fight a similar
+   battle in the "Fire Pits," and for some reason the NPCs turn on you, so
+   you may want to kill them first.
+
+   The third time you enter, you'll be taken to the "Lands of Despair" for a
+   fight with another guardian. This is brutal because the Lands continually
+   sap your fatigue. However, if you FLEE at any point, for whatever reason
+   you'll be returned to "rested" though still in the same place. You can't
+   hit the guardian directly. Instead, OPEN the box and fight "Pain," "Fear,"
+   and "Hunger" in succession. They're very hard. As soon as you get wounded
+   at all, it's best to SAY HEAL and then FLEE to restore your fatigue.
+   Eventually, "Hope" will appear and banish the guardian.
+
+   When you return to the inner chambers after the third battle, Baron Tyme
+   is there alone with his painting. BURN the painting to kill Baron Tyme
+   (shades of Dorian Gray!). Then LOOK to find a secret door to the south.
+
+X. Treasury. A bag of jewels.
+
+
+If you dealt with Tyme, his apparition will appear to you after you leave the
+castle, guiding you to a treasure of an extra $1000.
+
+
+-------------------------------------------------------------------------------
+  V.7       [STADV7]  THE HALL OF ALCHEMIE
+-------------------------------------------------------------------------------
+
+SETUP: The game goofs on "Mission: Impossible" by having the player answer a
+       ringing phone. The voice on the other end, thinking that the PC is
+       someone named "Jim," says that a Master Alchemist has just perfected
+       a "Philosopher's Stone," which turns any object into pure gold. The
+       Alchemist plans to use the funds to raise an army and conquer the
+       world. The PC vows to kill the Master Alchemist and destroy the stone.
+       Upon entry to the alchemist's hall, the player trips over a wire and
+       traps himself in the entryway.
+
+COND:  Not 100% sure. The game doesn't let you leave until you've at least
+       confronted the master alchemist. 
+
+SC:    Swallow, Read
+
+HINTS: The architect used the theories of Stephen Hawkings in desgining the
+       hall.
+
+I'm still working on this one. It's a very confusing and difficult scenario.
+The manual calls it the "most difficult dungeon ever designed."
+
+From what I can gather, there are four beasts that you need to defeat before
+you can challenge the Master Alchemist: a giant bear, a griffin, a
+salamander, and a giant black scorpion. As far as I can tell, they're
+impossible to defeat in melee combat, and some clues suggest that a way to
+defeat them involves the various items and ingredients that you pick up
+around the facility. Unfortunately, I can't figure out how to combine them or
+use them against the creatures; there just aren't enough commands in the game
+to support anything very complex.
+
+Adding to the difficulty, you cannot leave the scenario until you find the
+Master Alchemist.
+
+As a side note, I suspect that the Master Alchemist's halls are based on a
+real institution somewhere. The layout is very precise and many of the
+descriptions seem to be in-jokes of some sort.
+
+For the first time, the map below uses > to indicate a one-way door. The
+colon : indicates passages that twist as you move through them, so (for
+instance) an exit from Room A to Room B that goes east might turn into a
+north passage from Room B back to Room A.
+
+Because the scenario has so many rooms I've consolidated some letters and
+have not offered a description for some named rooms if there was nothing
+to find there.
+
+
+
+      *-B
+        ^
+        |
+    A---:
+    |    
+    C 
+    |
+    C
+    |
+  D-C-D
+  | | |   1<--*-->2       
+  * E *   |   ^   |
+    |     |   |   |
+    F     | *-Y-Z |
+    |     |   |   |
+    F     :-->*   |
+    |         |   |
+    F     W   *<--:
+    |     |   |
+    F--W--W-*-T--:
+    |     |   ^  |
+    *-*---*   |  |    *---:
+    | |   |   X--X    |   |
+  G-* J-V-*-*     *-6-*-* 7-9
+    | | |   |     |   |   |
+    *-I-K---S-U   *   8---:
+    | | |   |     |
+  *-H-*-*---R-*-T-*-*-@-*-#-
+    |   |   |     |
+    G L-*---*   4-3-*
+      | |   |     |
+    *-M-*---R   5-*-*
+      | |   |     |
+  *-*-*-*---*     *-*
+    | | |   |
+  *-N-N-*---Q
+      | |   |
+      O-*---*
+        |
+        P
+
+A. Entryway. The passage back is blocked with a marble slab. with writing on
+   it that says "Don't give up till you're dead." LOOK to find a secret
+   passage to the east. You can SAY the password given in  (F) to bypass
+   the djinn guardians to the south.
+
+B. Dusty secret passage. Two diamonds are here. The entry from (A) is one
+   way, so I'm not technically sure that it twists north. But whatever the
+   case, when you leave, you automatically get teleported to the first
+   djinn at (F). Thus, if you want to get through the djinns without losing
+   any equipment, go to this room last.
+
+C. Various rooms in a hall. They contain, in order from north to south, a
+   fly trapped in amber, a rubber ball, and a gold-embossed playing card.
+   The northernmost room has a picture of an alchemist with a caption below
+   it. READ the caption to get a clue for solving the djinn riddles.
+
+D. Rooms to the east and west of the southern end of the hall contain two
+   sapphires (west) and two catseye gems (east). Both have secret doors to
+   the south, but they automatically teleport you to the encounters at (F).
+
+E. Passageway. Pile of whale excrement (Abergris) and an ace of diamonds and
+   a jack of spades glued together (blackjack).
+
+F. A series of rooms with guardian djinns. The first demands "<A>"; the
+   second demands "<B>"; the third demands "<C>"; and the fourth wants all
+   three. Satisfy them by giving them, in order, a sapphire, a catseye, and
+   a diamond. (And one of each to the fourth.) When you finish dealing with
+   the fourth djinn, he'll tell you that you can SAY MERLIN back at A (or
+   any of the passages before the djinn rooms) to dispiel the djinns and skip
+   the puzzle (this also makes the gemtones disappear).
+
+   If you're curious what those gemstones have to do with the letters, I think
+   it has to do with their chemical compositions. A sapphire is an (A)luminum
+   oxide; a cat's eye is a (B)eryllium based gemstone; and of course diamonds
+   are composed of (C)arbon. Heady stuff for an RPG player to know without
+   Wikipedia, but you could figure it out through trial and error.
+
+   If you try to give the wrong item three times in a row, the djinn will
+   take an item from your inventory and kick you back to (A). You'll later
+   find the item at (P).
+
+G. Restrooms. The one to the north is the men's room and the one to the south
+   is the womens' room. Characters cannot enter the opposite gender's room.
+   There doesn't seem to be anything to do here in any event.
+
+H. Great hall. You'll encounter "Jim" here, an NPC who was supposed to get
+   the mission. He's useful to have as an ally, but he has no weapons and
+   armor, so GIVE him your spares or whatever you find in the dungeon. The
+   "empty room" to the west allows you to go W forever, but the moment you hit
+   E, you'll end up back here.
+
+I. The main library contains a crystal sphere.
+
+J. Smeltry. A salamander asks for something to help it warm up. I've tried
+   a few things, but nothing seems to work. He does not seem defeatable via
+   regular combat. There's a pair of tongs here.
+
+K. Specimen room. A "raging grizzly bear" (Ursus Horribilis) guards an 
+   adventurer, the Great Marduk, in a cage. The bear is a tough but not
+   impossible fight. Notably, he doesn't follow you if you FLEE from the
+   room, so you can run, heal, rest, and come back to finish him off. When
+   you've killed him, SAY MARDUK to free the adventurer and get a new ally.
+   Marduk comes with plate armour, a shield, and a high-quality long sword,
+   so you don't have to worry about equpping him.
+
+L. Adept's lab. Defeat Adept1 and Adept2. They each have a set of chain mail,
+   a small shield, and a short sword. There's a brass wand in the room.
+
+M. Adept's lounge contains a brazier and an athanor (a portable furnace).
+   The adept's library to the west has a hole in the north wall that would
+   allow them to look into the women's restroom. I suspect that the brazier
+   and athanor are somehow key to solving the level, but I don't yet know how.
+
+N. Lecturer's office (west) has Adept4 (chain mail, shield, spear) and a copper
+   wand. Lecture hall (east) has Adept3 with the same items.
+
+O. Glassblower's shoppe. Bowl of mercury on the ground.
+
+P. Stockroom. Items stolen by djinns at (F) end up here.
+
+Q. Apprentice's laboratory. Apprentice3, hostile, has leather armour, a small
+   shield, and a hand axe. You'll find five items here: an ebony sceptre, a
+   ball of beeswax, saltpetre, sal ammoniac, and incense.
+
+R. Apprentices are found in these two rooms. Both have leather armour and a
+   small shield. One has a mace, the other a hand axe. Nothing else is in
+   these rooms.
+
+S. A large auditorium. A janitor attacks you. He has only a broomstick,
+   which could be used as a club if you're that desperate. The blackboard in
+   this room, which you should READ, gives some hints as to how to deal with
+   the tougher creatures in this area. You use various "tools" to control
+   elemental creatures represented by color: earth (black), water (white),
+   fire (red), and air (yellow).
+
+T. Guard's stations. Guards of various numbers attack. They have various
+   weapons, such as a short pike and a small mace.
+
+U. Furnace room. There's a large bellows here.
+
+V. Laboratory. There's a griffin here guarding an ivory sceptre and a vial
+   labeled "extract of coal tar."
+
+W. Treasury. Guard 51, with a steel broadsword, stands guard over a vial of
+   "aqua-regia." The vault to the north has a pearl. The anteroom to the west
+   has a scrap of gold on the floor.
+
+X. Guards' kitchen and dining room. The kitchen has a butcher knife. Watch
+   The corridors here. The one going from the dining room back up to the
+   guard post is one-way.
+
+Y. Guards' dormitory. Guard53 attacks with a long-handled battleaxe.
+
+Z. Janitor's closet has a ceremonial gold sword.
+
+1. Guard's dressing room has a gold-studded shield.
+
+2. Dressing room two. Has a jeweled scabbard.
+
+3. Empty room. Apprentice4 has leather armour, a small shield, and a hand axe.
+
+4. Ice house. Room filled with block of ice.
+
+5. Kitchen. Extremely difficult kobold who I have not been able to defeat.
+
+6. Chapel in habited by a Loup Garou (werewolf). He's well-armored but
+   doesn't do much damage, so you should be able to defeat him in a long
+   fight.
+
+7. A water sprite (nixie) guards the barbican. She's not very hard.
+
+8. There's a crux ansata (ankh) at the guard's station.
+
+9. The drawbridge back to the Main Hall, but the Master Alchemist won't let
+   you leave until you see him.
+
+@. Master's laboratory, guarded by a giant black scorpion. A mandrake root,
+   a silver knife with a black onyx hilt, and a silver sphere on a walnut rod
+   are all on the floor. I have not been able to defeat the scorpion.
+
+#. Master's lounge. The Master Alchemist is here along with a small vial
+   labeled "Elixer Vitae." I've only ever reached her by fleeing the scorpion,
+   so I don't know how it plays out. There's an exit to the east that I have
+   not yet been able to map.
+
+
+-------------------------------------------------------------------------------
+  VI.       [SPLLST]  Spell List and Comments
+-------------------------------------------------------------------------------
+
+All spells are available from Hoka's. The amount given is the base cost; it
+varies based on the character's charsima. 
+
+All spells are invoked with the SAY command during the adventure. For
+instance, to cast the "Heal" spell, type SAY HEAL. There is no limit or "cost"
+to the spells except in fatigue, so be prepared to REST after casting.
+
+Each spell has a hidden "knowledge" attribute associated with it, from 25 to
+75, indicating the probability of casting the spell successfully. Every time
+you successfully cast a spell, this number may increase. Thus, it is a good
+idea to practice spells in non-time-limit scenarios or on easy creatures.
+
+This also means that it's a bad idea to test out a spell when an enemy is
+attacking you. If it fails, you'll end up exhausted while getting attacked.
+
+I didn't find many of the spells useful except HEAL.
+
+BLAST ($3000)
+Does 1d8 damage. Not worth it. A regular attack has a better chance of
+success.
+
+HEAL ($1000)
+Heals yourself and NPCs. An absolute necessity. Buy it with the proceeds of
+Beginner's Cave. It has a very low fatigue cost, so you can generally use it
+in combat without trouble.
+
+SPEED ($5000)
+Doubles agility attribute for 5-15 minutes. A potentially useful spell for a
+single combat, but the fatigue cost is considerable.
+
+POWER ($100)
+The effects of this spell are random. I've had it heal me, turn me to stone,
+and cast any of the other spells. It's not worth the risk.
+
+CHARM ($6000)
+Attempts to improve an enemy's disposition and make him an ally, but has a
+chance of turning an ally into an enemy.
+
+FEAR ($6000)
+Causes monsters to make a morale check at half the normal level. If they fail,
+they flee. The spell eventually wears off.
+
+DEATHSPELL ($10000)
+A weird spell. It deals damage to both PC and enemy equal to the OPPONENT'S
+current hit point total. Thus, it may end up killing the enemy, the caster, or
+both. It also has a huge fatigue cost that will leave almost every PC
+unconscious. Generally too risky to use, especially since a failed casting
+will leave the PC unconscious with nothing to show for it.
+
+FARSEE ($20000)
+Allows you to venture through up to three rooms in mind only. Very useful for
+when you want to explore a potentially instant-death location. But the fatigue
+cost is very high, and there's a small danger of getting "stuck" in farsee
+mode.
+
+TELEPORT ($30000)
+When successful, 75% of the time it returns you to the Main Hall. 25% of the
+time, nothing happens. 5% of the time, you're teleported into solid stone and
+die. 
+
+THICKSKIN ($8000)
+Increases armor protection for 5-15 minutes.
+
+
+
+-------------------------------------------------------------------------------
+  VII.      [CHZEAT]  Cheating
+-------------------------------------------------------------------------------
+
+If you're playing with an Apple emulator, there are a few ways to cheat.
+Cheating in this game involves understanding both the random combat rolls and
+its process for saving your character.
+
+When you load your character in the main hall and head out on an adventure,
+the game deletes the character from the main disk. So one easy way to cheat is
+to copy Disk 1 before loading the character. That way, if the character dies,
+you can simply restore him.
+
+An even easier way to cheat is to use save states in your emulator. As long as
+you can bring a character into active memory, the game will happily let you
+play with him and will save him upon return to the main hall. Thus, if you
+die, just reload a save state.
+
+(Note that save states may not work well in the first scenario, since it's on
+the same disk as the character file. I've had the game crash when I died and
+reloaded a save state on Disk 1.)
+
+Save states can also help in combat--though not as easily as you might like,
+since the game generates its random number rolls well ahead of the combat
+itself. Reloading a save state in the middle of combat and doing the same
+thing will produce the same result.
+
+Thus, you've got to break the pattern. Walk around a little. Flee and re-
+engage. Cast a spell where you attacked before. Get the actions attached to
+a new random number sequence, and you may enjoy different results.
+
+
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+This document is Copyright 2013 by Chester Bolingbroke
+SwordThrust is Copyright 1981 by Donald Brown
+
+I am not affiliated with Donald Brown anyone who had anything to do with
+the creation of this game.  This FAQ may be posted on any site so long
+as nothing is changed.
