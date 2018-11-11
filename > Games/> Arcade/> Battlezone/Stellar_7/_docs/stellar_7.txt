@@ -1,0 +1,101 @@
+ 
+ STELLAR 7 
+
+ DILEMMA 
+
+	Gir draxon, supreme overlord of the arcturan empire, has openly declared war on the terran federation.  The high council of earth has sent forth the entire terran fleet to intercept the imperial arcturan armada.  With the terran fleet half-way to arcturus, terran intelligence discovers that gir draxon's declaration of war was a cunning ruse designed to draw terran defenses away from earth.  Unknown to earth, arcturan scientists had discovered the existence of a strange phenomenon, the warplink.  Matter can be instantly transferred from one warplink to another.  Too late did a terran expedition on titan, saturn's largest satellite, discover the existence of a warplink.  Too late did the High council realize that gir draxon intended to transport an arcturan ground assault force to titan, and from titan to launch a massive attack on a now unprotected earth.  The terran fleet is light years away, there is little hope...Yet, earth still has one desperate chance ---raven, an experimental armoured vehicle replete with antigrav pods, An inviso cloak, protonic shields, and a biphasal thunder cannon.  Can raven travel the seven warplinks from titan to arcturus, destroying all arcturans that bar the way?  A seemingly impossible mission, one raven against so many arcturans.  But, it is earth's only hope.
+
+
+GAME PLAY
+
+	Your mission is to reach the arcturan star system and destroy the supreme overlord of the arcturan empire, the infamous gir draxon.  You will have to face arcturan forces on seven unique star systems.  On each of the star systems, if you are able to survive the enemy assault, a warplink will appear. Colliding with this warplink will transport
+ you to the next star system.
+
+The raven is equipped with:
+
+		Biphasal thunder cannon which fires a volley of two nuclear shells
+		Gravitic scope to locate enemies
+		Inviso cloak to confuse enemies
+		Protonic shields which provide protection from enemy fire
+
+The raven is utterly destroyed when either the shields or energy reserves are totally depleted.
+
+
+ SCREEN 
+			 INVISO
+			INSTRUMENT
+	_________	 |            __________     _________
+ |  SCORE  |  \\ | _8_   //  |  SYSTEM  |   | .    .  |___GRAVITIC
+ |  00180  |   >>///V\\\<<   |    SOL   |   |    :   .|   SCOPE
+ |_________|		 /M\       |__________|   |_________|
+ _________________________________________   ___   ___
+|								.			             .		| | _ | | _ |
+|	.							  :			    .   .	 .  | | _ | | _ |___ENERGY
+|						.				.		| | _ | | E |   LEVEL
+|/\							/\			            .   / \	| | _ | | E |
+|__\_____/__\_______[____]_________/___\__| | E | | E |
+|			___					[    ]		| | E | | E |
+|	  {_*_}						| | E | | E |
+|				~ \						| | E | | E |
+|								\					| | E | | E |
+|_________________________________________| |_E_| |_E_| /		    /
+VIEW WINDOW /                PROTONIC / SHIELDS
+ RAVEN CONTROL 
+FORWARD		FORWARD  FORWARD
+ LEFT							 RIGHT
+				\			  !		/
+					U		  I	 O
+							\  |  /		              
+								\ ! /
+ROTATE J----K----L ROTATE
+ LEFT					 /|\			RIGHT
+								/ | \
+						M   ,	.
+					/		  |	 \
+REVERSE		REVERSE  REVERSE
+ LEFT		  RIGHT
+
+
+[Space  Bar]  Or Button 0...Fire Thunder Cannon (2 Shots At A Time) 
+
+[Return]	Or Button 1...Inviso Cloak Activate (Turn Invisible, Uses 
+		Energy)
+
+[Z]  Zoom Lens Toggle (See Enemy Closer)
+
+[F]  Fine Scope Toggle (Shells Appear On Scope)
+
+
+
+SPECIAL KEYS
+ 
+Esc......Stops/Starts Play
+Ctrl-K...Select Keyboard Mode
+Ctrl-J...Select Joystick Mode
+Ctrl-A...Select Atari-Type Joystick
+Ctrl-S...Sound On/Off
+
+
+
+HINTS 
+
+	Study the briefing;  there are important hints there!  Never ever sit still! The best strategy is guerrilla tactics; hit and run, never stalking the enemy, and never facing them off in a duel (you don't have enough shields to take all the hits the arcturans will dish out)!  Make liberal use of the radar, zoom and fine scopic views for sighting and aiming, as well as dodging incoming fire. The best way to dodge is to back away from the fire at an angle, but watch out for obstacles and enemy vehicles!  Get used to the 3-d effect, shooting ahead of a moving target, especially hover and air-craft (radar can really help in this department).  Don't refuel until you are desperate, or have chalked up enough points to have already conjured up the next warplink.  Don't use the inviso-cloak unless you are nearly out of shield energy. Going invisible makes you relatively safe from the enemy, but uses up fuel fast enough to self-destruct, remember that even without the cloak the raven uses up fuel. There are seven progressively more difficult (impossible?) Levels:
+
+			1..Sol
+			2..Antares
+			3..Rigel
+			4..Deneb
+			5..Sirius
+			6..Regulus
+			7..Arcturus
+
+	Levels 4 and 6 contain enemy fuel bays you can siphon, you can't miss them. They also contain the unscouted enemy weapon, so get briefed, and beware! Gir draxon lives on level 7, the final chapter.
+
+
+CHEATS 
+
+Infinate Fuel
+Change track 4, sector 4, byte DC from 8D FE 81 to EA EA EA
+
+Infinate Shields
+Change track 4, sector 4, byte 99 from 8D FC 81 to EA EA EA
