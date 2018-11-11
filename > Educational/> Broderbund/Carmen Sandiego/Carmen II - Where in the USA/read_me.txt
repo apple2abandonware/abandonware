@@ -1,0 +1,1 @@
+This re-release on 3 sides is dated 26-APR-1989 according to ProDOS file metadata.
