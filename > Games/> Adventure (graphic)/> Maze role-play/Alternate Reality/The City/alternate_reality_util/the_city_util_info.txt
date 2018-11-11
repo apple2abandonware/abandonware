@@ -1,0 +1,62 @@
+AR-City Character Disk Conversion
+(for char Xfer to the Dungeon)
+
+
+If you have played AR-City using deprotected copies of the
+game disks (i.e. not using the original game diskettes),
+then, you will probably need to convert your character Save
+disk in order to transfer your character to the Dungeon.
+
+You can do the conversion using the COPYA.AR program on
+the ARC_Util.dsk.
+
+
+What You Need
+
+o- Your AR-City character Save disk
+
+o- A diskette or, on an emulator, a .nib disk image
+   to become the New Save disk (The disk does not have
+   to be blank.)
+
+
+
+Doing the Conversion
+
+o- First, just in case something goes wrong, make a copy
+   of your character Save disk.
+
+o- Boot the ARC_Utils disk.
+
+o- Press "I" to do a disk INIT. Put your New Save disk
+   into Drive 2. Follow prompts: select Drive 2 for the
+   INIT and enter 253 for the Volume Number.
+
+o- Once the New Save disk is INITed and you are back to
+   the main menu display, select (highlight) the "COPYA.AR"
+   choice. Press Return to start the copy/conversion program.
+
+o- Follow the program prompts (accept the defaults for Original
+   and New Copy disks).  When the program tells you to
+   insert disks, be sure ...
+
+   Your AR-City character Save disk ("Original") is in Drive 1
+   The recently INITed New Save disk ("New Copy") is in Drive 2
+
+o- Let the program do the copy. Say No ("N") when asked if you
+   want to make further copies.
+
+o- Remove the disks and label the copy (target) something like
+  "ARC New Save Disk" (or, on an emu, exit the emulator and rename
+   the target .nib disk to something like "ARC_NewSave.nib").
+
+
+Now, you should be able to start AR-Dungeon and transfer your
+AR-City characters from your New Save disk.
+
+
+
+Rubywand
+amdg 2001
+
+

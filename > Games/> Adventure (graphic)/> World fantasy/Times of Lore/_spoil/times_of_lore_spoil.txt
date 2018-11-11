@@ -1,0 +1,588 @@
+Times of Lore(PC) FAQ/Walkthrough
+version 1.0.0 by schultw.andrez@sbcglobal.net(anti spam spoonerism)
+
+Please do not reproduce for profit without my consent. You won't be getting 
+much profit anyway, but that's not the point. This took time and effort, and 
+I just wanted to save a memory of an old game and the odd solutions any way I 
+could. Please send me an email referring to me and this guide by name if 
+you'd like to post it on your site.
+
+Maps should be available with the guide proper on GameFAQs. So if you found 
+this somewhere besides GameFAQs, pop on over there, too.
+
+================================
+
+            OUTLINE
+
+  1. INTRODUCTION
+
+  2. CONTROLS
+
+  3. MONSTERS, STRATEGIES AND MAPS
+
+  4. WALKTHROUGH
+
+  5. CHEATING
+
+  6. VERSIONS
+
+  7. CREDITS
+
+================================
+
+  1. INTRODUCTION
+
+I first found out about Times of Lore reading about the history of Ultima. 
+Most people reading this guide probably realize it was a precursor to Ultima 
+VI. Each game had a really big outside map, accomplished by chunking bigger 
+meta-maps on smaller maps. This made for an intimidatingly large world which, 
+when coupled with the small screen and the repetition, made starting 
+difficult. The FAQ on GameFAQs helped with what to do to solve the game, but 
+due to the saving mechanism(you must return to a town and pay for a night at 
+the inn) I found myself perpetually getting stuck and killed.
+
+Thankfully Shay Addams's Quest for Clues came to the rescue, describing where 
+the valuable items were. And then I found Paul Senzee's maps of ToL on the 
+web. From there, the game started clicking for me, and it really is not too 
+bad if you remember to stockpile resources and figure out what the potions 
+and scrolls do. You will always have a problem with random monsters popping 
+up all at once after stretches of nobody appearing, and that is just life in 
+Times of Lore. Then there is one thing you need to take advantage of that the 
+manual mentions--and it is sitting around and waiting! So find a fun game to 
+play while waiting on your guy to heal, and this game will go okay.
+
+Paul's detailed maps are at:
+senzee.blogspot.com/2007/12/times-of-lore-maps.html
+
+I felt for pure solving purposes that a less detailed map might work better, 
+and my maps are on GameFAQs as well. They would probably not have been 
+possible without a ready-made LZW decompressor program. Nodling Dragon had 
+one that I used. You can visit his site for Ultima VI and other Ultima game 
+utilities(I consider Times of Lore to be Ultima 5.5--it has many of the same 
+file formats) at:
+
+http://www.geocities.com/nodling/ultima/ultima.html
+
+One other site I would recommend to Ultima fans who maybe want to see Ultima 
+VI mapped is
+
+http://reenigne.org/computer/u6maps/index.html
+
+Andrew at reenigne.org was very helpful in getting me started with Times of 
+Lore. It just took me a long time to figure things out.
+
+For those interested in mapping, WORLDMAP is the biggest-scale map, then you 
+have 64BLOCK, 256BLOCK and TOL.CH as files that describe how the chunks break 
+down. You may need an LZW decompressor(u6decode.cpp) to make some of the 
+files readable. For making a world map, 64BLOCK is necessary to decompress. 
+I'm not sure what order the files should be in, but I figured out enough to 
+scratch up a rough map. If you can figure out more, I'd love to know.
+
+But for now, I think this FAQ coupled with the map to the game should take 
+care of the major obstacles in your way. Once I had a map, everything 
+clicked. You will probably have a few instances where you try to do too much 
+and get stuck between several monsters and get killed. But then you'll get a 
+feel for what you can do. And then maybe you can get through the game 
+smoothly as in the original walkthrough.
+
+Or maybe not. Times of Lore is an okay game, even without the innovative 
+moral themes or humor of other Origin games. Its interface is innovative but 
+flawed, and while it's big, the landscape can get awfully repetitive.
+
+Then there's the end, with those crazy dungeons to navigate. I felt like a 
+lab rat in a maze near the end, in the last two dungeons where you basically 
+have to avoid monsters and get better at memorizing how to get through. There 
+are too many random encounters to watch for, and it's not worth the time 
+spent to try to get through the mazes. The mazes are placed just far enough 
+from an inn to frustrate you. I guess you shouldn't be spoon fed, but it's a 
+bit sad you can't get a FEW breaks and that the first quest is rather 
+difficult. That, and you can get beaten up on the way back from solving a 
+tough quest by what is pretty much an unlucky roll of the dice, with monsters 
+suddenly coming in waves.
+
+  2. CONTROLS
+
+Use the mouse to select a new game or start an old game. Then move it left or 
+right to select the knight, barbarian or valkyrie. It doesn't really matter 
+what you choose, but the knight has good balance, and the valkyrie can flee 
+handily early on when you are just finding items. This doesn't seem to matter 
+once you get powerful weapons.
+
+Using the mouse is very good for long stretches when you will not be injured. 
+However, for close combat, you will want to use the arrows. Have the number 
+lock turned off. Be prepared to hit enter a lot and swing around. There's not 
+much you can do in combat other than time it. Monsters will often make a 
+right turn, and you will want to make one to anticipate them.
+
+However, in town you may have initial trouble with the controls. You can see 
+it was something very new for the late eighties, using non-keyboard controls 
+to move your player, but at first I wound up attacking townsmen a bunch, 
+which is not cool, and it doesn't even get you any silly meaningless game 
+points if you kill them.
+
+I prefer to use the keyboard for NPC and item interactions. You need to get 
+the hang of pushing the space bar(brings up the red arrow,) using the arrows 
+and hitting return. If you use one option, it is the default next time you 
+hit the space bar. Unfortunately the menu doesn't allow you to push up to get 
+to the bottom, which is a problem when you get a lot of items, so be warned 
+that is not a shortcut. The options are, in a row,
+
+Mouth(talking to someone): you must be facing them and they must be close by. 
+It can be frustrating getting close enough, but fortunately it won't be 
+urgent to talk to someone, as monsters should not be near, either.
+
+Eyeball(examining items) doesn't give much information and even misspells 
+"mirky potion."
+
+Closed hand = taking items. If there is an item nearby, you will take it, but 
+not automatically in combat. If there are two, you get a choice. In that 
+case, just push this twice, and you will get them both. Do not use this if 
+enemies are attacking you after others dropped their loot. This is the choice 
+I often have as default when exploring and fighting the occasional enemies. 
+That allows me to pick items up quickly and move on. However, if I need to 
+use a healing item, I shuffle the hand to the holding icon.
+
+Open hand = drop items. You will rarely have to use this. However, when you 
+do use it on an item you no longer need, it frees up an inventory space so 
+you do not have to scroll so much while using an item with monsters attacking 
+you. That can be a life saver. Then, at the end, your inventory may be too 
+full.
+
+Hand, palm up = give item. This is for people who have given you a quest to 
+return them an item.
+
+Hand, holding item = use item. This is for using items such as potions and 
+scrolls. You cannot use weapons with this command. Use return for that. You 
+will want to use your boots when you leave an inn to get their speed bonus. 
+These will be pushed to the top of the inventory, so they are no problem. But 
+the stuff you use most often is constantly tacked on to the BOTTOM, which 
+really isn't very realistic--putting the most recent item you found in the 
+bottom of your pocket--or user friendly. You need a buffer of time to pull an 
+item out.
+
+Computer = special options. You can find your score(which is useless,) load a 
+game(if you messed up) or pause the game(leaving the game unattended without 
+this will probably cause you to starve to death or be attacked by monsters 
+outside. However, you can heal slightly in dungeons without anyone new coming 
+at you. Outdoors, it's better to find an inn.)
+
+  3. MONSTERS, STRATEGIES AND MAPS
+
+First, what potions do:
+
+--the red scroll kills all monsters
+--the blue scroll freezes all monsters
+--the blue potion heals partially
+--the green potion heals fully
+--the red potion, found later, allows you to run in one direction, invisible, 
+til you run into something. This is moderately useful but not critical.
+
+You can only hold one potion at a time, so the green potion should always be 
+used when you have a break and need to heal a bit. You'll get a new one. It 
+seems to be as common as the blue, which should be used in emergencies if you 
+aren't able to find a green with your regular fights. You can use the red and 
+the blue scrolls to wipe out or leave behind huge pockets of monsters, and 
+the blue can freeze guards in areas with a hidden item. Blue can function as 
+red against a very tough monster you can whale on. You can also get potions 
+back after wiping out a bunch of monsters with scrolls, so you have a bit of 
+a treadmill once you get started. You may not get levels in the game, but you 
+can have security against damage.
+
+It takes time to move the mouse/fiddle in your pack to use the potion, so use 
+a potion when you are close to 1/4 alive. You can also use the blue scroll, 
+kill whoever is there, and then use the red scroll if necessary, before using 
+a potion. But I am guessing from what I saw that the computer randomly sees 
+if you get any item from a monster and then randomly picks which item. If 
+there's only one item to choose, you get it.
+
+There are ways to use your boomerang axe(an item you get later) to kill an 
+enemy from behind or on the return blow, and this always does serious damage. 
+You also may wish to run from undeads because they have no treasure. If you 
+are low on energy, your best bet is to run horizontally to a nearby town(you 
+can see more in that direction) and duck vertically if an enemy is in the 
+way. Try to zigzag so you don't get too far off course.
+
+  4. WALKTHROUGH
+
+Let's start with the inn. It is a good place to practice non-fighting 
+actions, and if you wind up attacking someone, it's no big deal to reload. 
+You can go down the stairs(walk into them) and talk to the bartender. He may 
+tell you about the orcs if you ask about rumors. If not, don't worry. The 
+woodsman will. You can also talk to the old man to the left who may have 
+information, and the prior in the southwest will ask you to go on a quest. 
+Say yes. You will hear a tone whenever you have the option to ask something 
+new.
+
+The first active thing to do is to get your feet exploring NE of Eralan. The 
+path is pretty straight, and if you keep to the left and north of it, you'll 
+see a woodman's hut. At this point I would just run through monsters and hit 
+them and pick up what they get. You need to learn to alternate the mouse and 
+keypad, and the fights should not be too hard. Get used to picking items up. 
+I would recommend having the hand over the "pick up" icon for when you have 
+the space bar, so you can pick up whatever is in the way. You should get 
+enough gold/food to offset the gold/food you used up.
+
+The woodsman may be wandering a small way outside his hut depending on the 
+time of the day. Go into his hut and pick up the dagger. You will want to 
+talk to him, so if he wasn't in there or in the way as you entered the hut, 
+look around outside. He will tell you about the orcs, and you can keep asking 
+questions until you find how to get to their hideout.
+
+There's a small chance a random enemy nearby will attack the woodsman instead 
+of you, if he is in your way, and if that kills him before you talk to him, 
+you will have to restart. Reloading is a nuisance but is easy enough, and you 
+may have a few false trails even with a map. But if things work out, then run 
+back--you can kill the enemies on the way, firing the dagger at those who 
+shoot arrows at you. Be sure to pick up the dagger after you strike an enemy, 
+although without your dagger you can still hack with your sword. You can run 
+around enemies if you gained 20 gold(with 1 food = 10 gold,) as you generally 
+want to stay above the 78 gold/3 food you have to start, but between healing 
+potions with no enemies around and the dagger to pick off long range enemies, 
+it shouldn't be too hard to get through. Save at the inn. That is your first 
+dry run.
+
+You may wish to get your food back up to 6 units and your gold to 100+ before 
+the next part. Technically, you probably need only 80 gold for the next bit, 
+as you will pick up a lot in fights along the way, but a little repetition to 
+get used to fights and various monsters will be useful for when they get 
+tougher. I also recommend 20 gold for the inn.
+
+With scrolls you could probably conquer the orcs, but with some random 
+exploring you can find some neat stuff. This walkthrough's first order of 
+business is to get the axe in SW Lankwell, which is jumping the gun a bit. 
+But it makes the rest of the game a lot easier. There, you will get an axe 
+for 95 gold, and it is like a dagger, only it comes back to you.
+
+Lankwell is to the south of Eralan. If you pass the bridge south of Eralan, 
+you will get to a 3-way intersection. Take the south way, and it will bend E 
+S. Now you can cut across south until you see another path, or you can go E S 
+W. Either way, Lankwell is west of the path. You may have to deal with 
+enemies nearby Lankwell, so be prepared. You may also wish to spend time in 
+the inn, which is north of the first building you will see. There's a 
+possibility of silly accidents, and you don't want to make any big mistakes. 
+The axe is in the northwest house, and you need to enter the main town square 
+from the south. A serf will ask you if you want to buy it.
+
+Once you get the axe, go back to the inn, drop the dagger(inventory 
+space/convenience) and buy lodging to save the game immediately. You may want 
+to buy food if you are low and have money. This may seem like a waste of 10 
+gold, but the axe is so valuable that you want to make sure you don't have to 
+pick it up again. It doesn't make you invincible, and you will probably still 
+have slips where you try to do too much, but they will be fewer, because you 
+can just mow monsters down from long range. Use the arrow keys/number pad and 
+kill whoever's there and pick up the gold. You will want to get to at least 
+90 gold for the next bit. You are headed to Treela next to get boots.
+
+Treela is in the center-east of the map, and you need to go east from 
+Lankwell and, when the path turns north, go that way. When it turns west, go 
+east. You will hook up with the path to Hampton and Ganestor, but actually 
+when you get to Hampton, go back north and follow the mountains to the west 
+until you find an entry to the forest.
+
+The forest path is pretty one-way, and the dead ends are recognizable, at 
+least until you get to a 4-way intersection. Once you do, follow the path 
+east and voila, Treela! Enter the inn(UL of the 4 buildings, just up from 
+where you enter) and buy a pair of boots from the serf. Then check in and get 
+provisions. There are a lot of fights in Treela, so you really do want to 
+save, although you will have plenty of opportunity to beat up enemies and get 
+gold enough for maximum rations(9). A little more fighting and you may be 
+able to avoid enemies for a long time with the boots. You do have to use 
+them, though, and they can wear out unless you use them again--usually if you 
+stay the night, you have to reuse the boots. But the enemies are noticeably 
+slower once you use them even if townspeople are not.
+
+You're set for gold now and can probably use a lot--you just need gold to 
+save the game and replenish your food. And you might not even need it for the 
+second, as monsters will probably drop enough. You'll find there's enough 
+gold for saving purposes as you fight enemies on the way home, and you really 
+only need to save the game a few times. The missions may take several times 
+to work, but there aren't really that many.
+
+Retreat back to Eralan. The path leading west and north will bring you back. 
+Now go north and east from Eralan along the path you saw before. Stay on the 
+south and east this time. You'll eventually see a lake. Go north from it. Now 
+a long winding path leads to the orcs. My map says
+
+U R U L U L D L D L U R U R U L U L D L U L D R D leads to the clearing. 
+Basically, take any of these directions and if you hit a dead end, back up. 
+Put the cursor over the "use" icon before entering the clearing, use the 
+boots to make sure you are going fast, and beat up the lesser enemies. If you 
+see a blue orc, or several enemies, use the red scroll. Use the blue scroll 
+to freeze enemies. After that, run from more than one enemy and look for the 
+grey orc. Kill him and a purple urn will appear. You may wish to outrun 
+enemies and come back for the purple urn. Use all items available and early, 
+as some items may pop back up again in your fights. You can run away and 
+return. I found a good pattern was to comb left to right and move down.
+
+Now work your way back and return to Eralan. Offer the urn to the prior and 
+you get 150 gold or so. You can now meet the Regent in the big building. He 
+will tell you to get the tablet. It is in Ganestor, in the southeast. There 
+are many was to get there but the quickest is to follow the path south, east 
+at the inn, S E S and then all the way east over the desert til you hit a 
+road south. Follow it. Ganestor is there. Now you can just take the stairs 
+behind the bartender(save the game first as this is a tough quest) or ask 
+around and learn about Barton, then the tunnel(Barton is in the south house,) 
+and then talk to the bartender about the tunnel. He'll give you the clue 
+about the lever on the north wall of the northeast room downstairs.
+
+In general for this quest, use the mouse til you need to go through a narrow 
+wall. If a guard touches you, you die. In this first area, go south, east and 
+north and up the stairs. You shouldn't have to avoid guards here.
+
+On this level, go to the NE and W and there is a hall below. Here you need to 
+get the guard stuck there to follow you and loop around him somehow. I never 
+had the time to use a blue or red scroll, so I resorted to trickery. You can 
+enter the room to the south and circle clockwise as he follows, then align 
+yourself so you can go west into the side room. I forgot to check if I could 
+use the blue scroll before I got the tablet, but it could not hurt. Once you 
+have the tablet, you can't use another item, so just get out quickly(mouse, 
+then arrows) and return as you came. Talk and ask the tablet about the High 
+King for a nice clue, but it is not vital with this walkthrough. (Some clues 
+reveal other clues to ask, but none trigger a game-important event.) Save at 
+the inn again. Return to Eralan. You can cut across the desert after the 
+second bend west, then follow the path north. The regent will reward you 
+handsomely.
+
+Now to find the assassin. He is in the south, SW of Lankwell. Follow the path 
+south of Eralan and when it bends back west, go a bit east, then south and 
+east along the river and south to the area with the hut. Ask him about the 
+High King(finally get rid of that option!) and he gives you a scroll. Head 
+north over the bridge and all the way east--hook N E to get to the road to 
+Ganestor(S) and save at the inn and run the castle gauntlet again, only this 
+time, instead of getting the tablet, go to the NW and up, S E N to talk to 
+the Warden, and offer him the scroll. You probably found the tip about the 
+spy already. Now's a chance to take him out. You can leave and enter the 
+castle freely now, so if you haven't, talk to the serf in the left house and 
+the innkeeper, then go to Barton in the south house and ask about spying. 
+You'll have plenty of time to get back and just wait to the side of the 
+entrance, and in the afternoon you'll see someone walking out. That's the 
+spy. Run after him and talk to him about spying, and he'll get mad and attack 
+you. He is easy to beat. You will get a note off him. Return it to the 
+Warden.
+
+The next quest is pretty easy. N W N W N and E at the turn and north. A guard 
+at the entrance has a green key. He is easy to beat. Find the stair in the NW 
+behind him, go up, kill another guard and the prince is in the south center. 
+Just run into the door and he will tell you about Irial. Go west to Hampton 
+and the inn and follow the path to the Last Hope Inn W S W and S at the T-
+intersection.
+
+Talk to people there to learn about holy water, and then go back to Eralan 
+and NE to Rhyder, beyond the pool below the orcs' hideout. The Friar is in 
+the first building you will see. Talk to him about holy water and "buy the 
+holy water" when you talk again. It costs $25, but you probably have more 
+than that now. Stop off at the inn south of the Friar. Then go back to Last 
+Hope and save.
+
+The next part is not strictly necessary until after you've completed the 
+Ruins dungeon. So I'll present it and then describe the Ruins below.
+
+W N all the way and go around the forest when past the hunter's hut. W N W N 
+E N E N E and at the path go up. There's a tower to the north. That's Irial's 
+place. There are no monsters to go past.
+
+You need to make 2 trips through the ruins unless you are much better at all 
+this than I am. The first time, you will hit some switches, and the second, 
+you will hit the rest. If you know what to expect, it is easier. You need to 
+move smoothly, as slimes take away your hit points and other enemies block 
+you. They don't do too much damage but allow other enemies to chase you, and 
+that can pile up. Along the way if you are at 1/3 strength, heal immediately, 
+and realize that sometimes you may just have bad luck and get sapped of a lot 
+of damage. So be it. You also can't save in the middle, as the dungeon resets 
+at day's end.
+
+Go south and when you see a dot to the left, step on it. That opens a wall to 
+the west, and you can go through that, down the center and touch the second 
+dot.  Back up and right through the small door and go up and right again in 
+the wide corridor. Go down when you can and left and up into the small room 
+that is now open. Step on the dot there. Go to the DR and use a red scroll. 
+Then exit this area and go R U L and back through the small door. There is 
+another one behind it. Go 2 paces from the left wall and up. Step on the dot 
+and go down. There'll be a bridge below. Go right to get on it and all the 
+way down. A dot below is a teleport to the next bit.
+
+Go down a bit and left. If an enemy blocks you, swerve up and left. Whatever 
+you do, you will need to go up when the passage turns up to hit a dot in the 
+center of that dead end. Then go down and right to where you can see the 
+right wall, and then go down all the way to hit another dot. This is another 
+teleport, and circle D L U R along the wall and touch that dot. Now double 
+back left and go U and UR to another dot, which teleports you to the stairs. 
+Go up, beat up monsters to heal and get another blue/green potion and (if 
+it's there) red scroll and go back down.
+
+Getting back to where you were is easier, because you don't have all that 
+zigzagging. D L L D to the teleport, D to the next teleport. D L U R all the 
+way and go up the center. Weave around any non-slime, and touch the dot at 
+top. Go along the very top past a dot to the right, down on the 2nd dot, and 
+left. An arrow will come up. Go down to avoid it and then right at the bridge 
+and down. When the space opens up, go right til you can see the right edge of 
+the big room, then down to step on the dot, then U L U and retreat to the 
+top, then L D L and U through the narrow door. Instead of entering the UR 
+dot, enter the room to the UR. Use a red scroll here if a lot of enemies are 
+around, and be prepared to use the holy water. The Lyche's throne is up and a 
+little right of the entrance. Use a blue scroll to leave, if you need to. The 
+exit isn't far, so load up on the healing and get out. Get the red potion as 
+well. It's kind of handy, zipping you along in whatever direction you want to 
+go before you hit something.
+
+You need to go back to Irial now, so stop off at the Last Hope Inn and then 
+follow the instructions above, skirting the forest to go to Irial. Talk to 
+him, and he will see you have defeated the Lyche. He will give you the key to 
+the Blasted Spot dungeon, and you can go back to the Last Hope Inn. From 
+there, go west to the Crater and enter it, and you have an even more 
+circuitous dungeon than before. Sadly there is a lot you have to memorize, 
+but on the bright side, you probably know how to pop out and back in by now. 
+After every few knobs you step on, you can resurface, and you will eventually 
+win that way. But you probably want the details. So here goes.
+
+Go along the top wall: E S E N W. This opens a door to the east. Go that way. 
+The door opens north, and you need to go into the NW corner to touch the 
+second switch. Exit the room and go E S W along the wall below to get to a 
+new room. Trip that switch and now you may wish to leave, or you can stretch 
+things out to hit the teleport--W S W N through a new door, and hit the dot 
+above and a bit to the right. Then go N W N along the west wall, then E 
+through the door and S E S W N W and out.
+
+Go back to Irial and he will give you a key to get to the Blasted Spot. To 
+get there, go to the Last Hope Inn and go all the way west, then turn up when 
+you are at a west-south fork in the road. Go north now. There will be a door 
+where you can enter another dungeon. This is even worse than the other 
+because you have more space you have to run through. You may wish to reload 
+the game if you get hit too often en route to the dungeon. You can 
+conceivably get the hit points back bashing enemies just outside, so if you 
+are below half energy, use the green potion and wait for enemies to arrive 
+and hopefully you can get a new green.
+
+This area is the Blasted Spot, and it is obnoxious. You may have to stay in 
+it for 3 game-days. It's necessary to note you can't get through by brute 
+force. And going back up halfway through to get more potions in fights is 
+iffy, as in "if you get it, you're luckier than I was 20 times in arow." You 
+need to sit around and wait a lot when you're in a safe spot. Monsters come 
+at you only when you move.
+
+Inching around doesn't work--more monsters may come that way. Get through a 
+lot, take a break and get through a lot more. Be sure to use the boots after 
+a long break and before you start running again. You also want to have 9 food 
+since the dungeon can reset if you leave it, but if you stay inside, it stays 
+as is. Be patient, and only recharge with potion when nobody else is around. 
+Don't save it for too long, but if you get below 1/4 strength the first time, 
+definitely use the green potion. Save the blue for emergencies.
+
+The red potion could really help here, running through a tough group of 
+monsters, even if you are at full strength. Be prepared to plow past a 
+skeleton or ghost when going along a long stretch. It's not how much you 
+kill, and it will save a lot of time. Your best bet is to rest in the room 
+with the 7-8-9 as I did when I went through the game. It will heal you up, 
+and you will be able to make it from there a lot more easily.
+
+So here are the instructions. Tap down to start, then go east along the wall, 
+S E and N along the wall, then W til you see the wall and N. Step on the 
+first knob. Go E, ducking the next knob if you see it, S E and then go up 
+through the door. You want to get to the NW corner of this place, then get 
+back out. Go south of the door, E S W and N into the inner area. Step on the 
+next knob. You'll probably have to either wait around or use a potion here. 
+Go south--one screen below the door--and west, then north through the door 
+above and east and, when you see a wall on the east, north.
+
+Now you are teleported to a new area. Go north and then, when you can, go 
+west til you see a wall to the west. Go north to touch another knob and E S--
+roughly the same of each--to touch another knob. E to the wall and N and now 
+exit the door and go along the wall to the south. Again, stop the first 
+corner if you need, to recharge. Follow the path E S W and then go N across a 
+bridge. Shoot monsters before crossing. Go N and W and pass the first turn S 
+but hit the 2nd, going down the center. A knob there teleports you to a 
+solitary room. Go up one side, touch the knob, and go down a bit. Wait before 
+touching the other knob to recharge again.
+
+The teleport on the other knob sends you back near the start. Follow the path 
+you did before over the bridge, but turn right before touching knob number 7, 
+so you go into a side room. There should be a knob near the right edge to 
+step on. Do so and go back W N E and enter the door that has opened N. The 
+chimes are here.
+
+Now you may have trouble getting back across the bridge. However, it is just 
+as easy to return to knob number 7 in the SW and then step on 9 and be right 
+near the stairs when you exit. Again, if you want, wait til you're healed til 
+you leave--you may want to wait til it's light, too. Keep track of your food, 
+though. You want it to be at 1.
+
+You can leave the same way you came: south to a road, then east. Jiggle 
+around if you have to, but the Last Hope Inn is a good place to return.
+
+Now you need to go back to Treela. Go east, turn up at the desert, and go NE 
+as needed to get around the lake. Enter the forrest: N E N W N W S W then at 
+the 4way intersection, N, then E at the next one. Enter the Treela inn and 
+save the game.
+
+Exit to the north side and N W N E S E and go N at the 4 way intersection. Go 
+E to the mountains and N along the narrow passage. Then go N til you hit a 
+river, E til you hit water, S a bit and E. You can go NE when the lake turns 
+NE and when it pulls back NW, go E. This leads to the temple, your final 
+destination.
+
+The temple seems tricky, but it is not really so bad. Outside it, stay so 
+that you can fire an axe left and right just above the fire inside the stone 
+squares. You can gun enemies down and get stuff to heal you.
+
+Now if you enter wrong, skeletons will appear randomly and wipe you out, so 
+enter on the very left side of the door. Run straight up and then left. Fire 
+down immediately once you enter the roof. Then go S E N and be prepared to 
+use a red scroll on the blue mage. I'm not sure if you can just go to the 
+bedroom now, or you need to check the prisoner. But checking the prisoner is 
+nearly risk free.
+
+Get the blue mage's white key, use a potion if you are low, and retreat to 
+the start--except go left instead of exiting. Fire north when you see the 
+white monk, then push the lever behind him. Go down the stairs. Open the door 
+on the right and talk to the prisoner. Answer YES. He will tell you about the 
+sphere. Go back to the top, and go S E N E S and you'll see a bed. 
+Look(command) at the foot of the bed, and a sphere will appear. Drop an item 
+you don't need any more(either key) as your inventory may be full. Get the 
+sphere and go down the stairs. Go E then south a few squares and at the first 
+turn, go E. Approach the priest--he won't harm you. Use the sphere. Then get 
+the medallion and enjoy the ending and the sense of relief for solving this 
+game.
+
+  5. CHEATING
+
+You shouldn't need to cheat, but if you want to get a bunch of gold and food, 
+or if you left yourself short handed, the bytes to edit are pretty easy to 
+find. Unfortunately, these cheats don't do much good except for early on, as 
+the main barrier to progress is losing health quickly during combat. There is 
+no way to upgrade your maximum health, since there are no levels.
+
+0x15c = gold low byte
+0x15d = gold hi byte
+0x162 = food byte
+
+End of FAQ Proper
+
+================================
+
+  6. VERSIONS
+
+1.0.0: sent to GameFAQs 1/28/2008, complete. I would like to replay the Apple 
+and NES versions later.
+0.9.5: sent to GameFAQs 12/26/2007, almost complete, except for the blasted 
+area dungeon. Maybe I'll write the NES version later.
+
+  7. CREDITS
+
+Thanks to the usual GameFAQs gang, current and emeritus. They know who they 
+are, and you should, too, because they get/got some SERIOUS writing done. 
+Good people too--bloomer, falsehead, Sashanan, Masters, Retro, Snow 
+Dragon/Brui5ed Ego, ZoopSoul, War Doc, Brian Sulpher, AdamL, odino, JDog and 
+others I forgot. OK, even Hydrophant in his current not-yet-banned message 
+board incarnation. I am not part of his gang, but I want him to be part of 
+mine.
+Thanks to odino and falsehead for listening and encouragement.
+Thanks to the NES completion project people for keeping it going strong 
+enough that I could explore these side passages like a PC game eventually 
+ported to the NES and then come back later.
+
+People who helped with tackling parts of this game, directly and indirectly:
+Shay Addams for the solution in Quest for Clues II
+Andrew at reenigne.org
+Nodling Dragon for the LZW Decompression routine
+Paul Senzee at:
+http://senzee.blogspot.com/2007/12/times-of-lore-maps.html 

@@ -1,0 +1,3110 @@
+                           Wasteland FAQ
+                       Last Updated 03-31-96
+
+This FAQ may be freely uploaded and distributed provided that no
+information is changed and no fees beyond those associated with
+transmission and duplication are charged for its use.
+
+Choose a display so that the asterisks fit on a single line and all
+the lines are the same length.
+
+Hints: Try text mode, or use a uniform sized font such as Courier New
+or Monaco.
+
+*********************************************************************|
+.....................................................................|
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii|
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO|
+
+Created by Stephen Sedmak <sedmaks@odo.msoe.edu>
+Assisted by Chris Baer <chbaer@cris.com>
+
+The rest came from gracious people around the world :)
+
+****************************************************************
+This version targeted specifically toward the Apple // version.
+Input from users of other versions would be greatly appreciated
+so I can make this FAQ comprehensive.
+****************************************************************
+
+*This FAQ is also being stored on WWW at:
+
+	http://www.cris.com/~chbaer/wasteland.txt
+
+Please send any revisions or updates to:
+
+        Chris Baer <chbaer@cris.com> as well.
+
+We have come to the conclusion that the effort to change this FAQ
+into an HTML document is not worth the effort.  If you'd like to
+try feel free, but we've got better things to do with our time.
+
+Table of Contents
+
+0. Generally Important Stuff
+        0.1 README IF YOU HAVEN'T YET (It's not too long :)
+
+                This section was created to eliminate any confusion
+                over the purpose of this document and its content.
+
+                If you want to use this FAQ properly, read it.
+
+        0.2 Updating this FAQ
+        0.3 Disk usage problems
+                0.3.1 Saving Progress
+                0.3.2 Apple // version won't boot
+                0.3.3 I/O error on Apple // version of Wasteland
+                0.3.4 Disk Copying
+                0.3.5 IMPORTANT WARNING - you can damage the disks
+                        and forever lose your party!
+1. Newbie Stuff (still might hold wisdom for all you Post-Apocalyptic
+        veterans out there)
+        1.0 Instructions
+                1.0.1 Ranger Center
+                1.0.2 Command Summary
+        1.1 Attributes
+                1.1.1 Attribute Descriptions
+                1.1.2 Attribute Hints
+        1.2 Equipment
+                1.2.1 Items
+                1.2.2 Weapons
+                1.2.3 Armor
+        1.3 Skills
+        1.4 General Hints
+        1.5 Big Map
+2. Early Stuff (If you have never seen a Scorpitron, go here)
+        2.1 Equipment
+                2.1.1 Items
+                2.1.2 Weapons
+                2.1.3 Armor
+        2.2 Skills
+        2.3 Highpool
+        2.4 Agriculture Center
+        2.5 Nomads' Camp
+        2.6 Mine
+        2.7 Quartz
+                2.7.1 Courthouse
+                2.7.2 Ugly's Hideout
+        2.8 Needles
+                2.8.1 Temple of Blood
+3. Las Vegas Stuff (Speaks for itself, don't it?)
+        3.1 Equipment
+                3.1.1 Items
+                3.1.2 Weapons
+                3.1.3 Armor
+        3.2 Skills
+        3.3 Las Vegas Misc.
+        3.4 Faran Brygo
+        3.5 Temple of the Mushroom Cloud
+        3.6 Sewers
+4. Post-Vegas stuff (If you're friends with Max or the Junkmaster,
+       go here)
+        4.1 Equipment
+                4.1.1 Items
+                4.1.2 Weapons
+                4.1.3 Armor
+        4.2 Skills
+        4.3 Sleeper Base
+        4.4 Darwin City
+        4.5 Guardian Citadel
+        4.6 Savage Village
+        4.7 Base Cochise
+5. Which Paragraphs are Real (mostly complete)
+6. Cheating
+	6.1 Disk Switching
+	6.2 Negative Skill Point Cheat
+	6.3 Infinite Money
+        6.4 Apple // Supercharacter Walk-Through
+        6.5 Super Loot Bag Cheat
+7. Revision History
+8. In Planning for Future Versions
+9. Additional Legal Fine Print Which Does Apply To You.
+
+
+
+0. Generally Important Stuff
+
+        0.1 README IF YOU HAVEN'T YET (It's not too long :)
+
+                First, this is an FAQ.  The style is to provide hints
+                to solutions for common problems people face playing
+                the game.  As opposed to the walk-throughs floating
+                around the 'Net, this FAQ does not do all the
+                thinking for you, nor if used properly will it spoil
+                the plot development!
+
+                Earlier versions of this FAQ were criticized for
+                giving away too much info to newbies and ruining the
+                surprise of the game.  So in this version the FAQ is
+                split into 4 parts: newbie stuff, early stuff, Vegas
+                stuff, and Post-Vegas stuff.  It is recommended that
+                if you have not solved the game yet, only read the
+                parts up to where you have played.
+
+                I have tried to place the information in the order
+                most people will encounter it.  The programmers left
+                the game fairly open so the order in which tasks are
+                solved is not carved in stone.  People may disagree
+                with my ordering of events, but frankly I don't care.
+
+                I recommend only looking at the equipment/skills
+                sections if you find something that you cannot
+                identify correctly.  Otherwise it might give away
+                some secrets.
+
+                Feel free to read the "Hints" sections BEFORE you
+                enter the areas.  They give nothing away, but do
+                point you in the correct direction to start.
+
+                In the Q&A sections, only read the answers to
+                questions that you currently need help solving.  To
+                do otherwise would spoil the game.
+
+                If you have already solved the game, go wild and read
+                every letter we typed.  You're likely to find
+                something new.
+
+                The masculine pronoun is used throughout
+                this document.  As gender is a moot point in the game
+                (except for the restrooms in Scott's Bar), no
+                exclusivity is implied.
+
+                Also note that this FAQ is specifically targeted
+                toward the APPLE // version of Wasteland.  Most of
+                the FAQ should be accurate for other versions, but
+                this is not guaranteed.
+
+                I'd like responses from users of other versions so as
+                to make this FAQ completely comprehensive.
+
+        0.2 Updating this FAQ
+
+                Unless some important new information surfaces, this
+                will likely be the FINAL release of this FAQ.
+
+                If you do happen to have some important new
+                information send any comments/questions/answers
+                /complaints to the following e-mail addresses:
+
+                        Stephen Sedmak <sedmaks@odo.msoe.edu>
+                        Chris Baer <chbaer@cris.com>
+
+                Please be *specific*.
+
+        0.3 Disk Usage problems
+
+            0.3.1 Saving Progress
+
+                Wasteland modifies ALL of the disks.  You need to
+                keep backup copies of the original.  Whenever you
+                exit an area, Wasteland saves EVERYTHING you modified
+                since you entered.
+
+                *Some emulators (such as STM for the Mac) force you
+                to manually save the changes to disks, so when
+                leaving an area which you have cleared or finished,
+                be certain to save the changes, else you might have
+                to do it all over again.
+
+            0.3.2 Apple // version will not boot
+
+		You must boot with Wastboot.dsk.  Wastmst1.dsk is the
+		first scenario disk.  It will not boot
+
+            0.3.3 I/O error on Apple // version of Wasteland
+
+                Many people using the Apple // version of Wasteland
+                experience an I/O error when they attempt to run it.
+                There is a very minor flaw in the disk images that
+                causes the program to crash if you do not continue
+                your last saved game.  To circumvent this problem
+                when you are asked to continue the last saved game
+                always answer "YES".  The original images are saved
+                at the beginning of the game, so you start in the
+                same place anyway.
+
+           0.3.4 Disk Copying
+
+                Screw the Utilities menu and just just use the
+                typical software you use to copy the disks.
+
+                The only exception would be if you have the original
+                master floppies, then use Utilities to make a set of
+                scenario disks.  THEN you can use your normal copy
+                software to duplicate the scenario disks.  Much
+                faster and easier.  Plus you can make backups :)
+
+            0.3.5 IMPORTANT WARNING - you can damage the disks
+                                      and forever lose your party!
+
+                If you have the emulator change the disk before the
+                drive in use light goes off you WILL damage the
+                image.  This makes one or more maps on that disk
+                image invalid.  When you enter that map the game will
+                not only crash, but as soon as you enter you will be
+                saved on that map.  When you reboot and try again you
+                will be in the same location
+
+                In other words, your party has been irrevocably
+                destroyed.  There is no hope -- it's the end of the
+                road for your party.
+
+                The *only* solution is to have a recent backup of
+                your Wasteland disk 1, or a recent saved memory
+                image (very easy and fast with ApplePC).
+
+                I don't think this will be a problem with STM because
+                it doesn't automatically save to the disk.  But users
+                of other emulators should beware.
+
+                Keeping a backup of your party is no big deal.  I did
+                it all the time with RPGs on my Apple //c.
+
+
+
+        1.0 Instructions
+
+*********************************************************************
+                Would someone with a scanner PLEASE scan the
+                instruction manual and post it?  It's kinda fun
+                to read.  The programming crew did a good job on it.
+*********************************************************************
+
+                If you're using the cracked Apple // version, then
+                the only valid thing to do is to select "Start"
+                "Resume Last Saved Game - Yes".  If you've got
+                an emulator it would be useful to save the booted
+                state at this point.  Then whenever you want to
+                reboot Wasteland, just load the state and put your
+                scenario disk 1 in drive 1.
+
+           1.0.1 Ranger Center
+
+                The following passage taken from the instruction manual:
+
+                "Wasteland is a post-nuclear holocaust adventure.
+                Your party, the famed Desert Rangers, have been
+                assigned to investigate a series of disturbances in
+                the desert.  After several strategy meetings, you've
+                decided to search for clues in Highpool, the
+                Agricultural Center, and the Rail Nomads' Camp, all
+                of which are located to the West  of Ranger Center."
+
+                You start out in the "Ranger Center", Wasteland's
+                equivalent of the Adventurer's Guild or Inn.
+
+                The Ranger Center used to be a prison, but after the
+                war all the criminals were kicked out to fend for
+                themselves in the desert.  The Desert Rangers
+                converted the prison into their headquarters.
+
+                The party can have a maximum of 7 character, 4 of
+                which you can create.  The other 3 are typically
+                hired Non-Player-Characters (NPCs).  If you create
+                less than 4 characters (not recommended) you can have
+                even more NPCs in your party.
+
+                The game starts with 4 pre-made characters, who are
+                fair.  They're not horrid, but they're not great
+                either.  You can probably make better ones yourself.
+
+                See sections 1.1, 1.2, and 1.3 to find out about
+                Attributes, Equipment, and Skills respectively.
+
+                Examine them by pressing the number keys 1, 2, 3,
+                and 4.  Press <space> to see the next page.  Press
+                <ESC> to see the previous page.  'P' Pools the money
+                and 'D' divides the selected characters money over
+                the entire party.
+
+                Use the arrow keys and <ENTER> to Create a new
+                character, Delete old ones, or Exit.
+
+           1.0.2 Command Summary
+
+                Most of the commands available are displayed
+                on-screen, but if you want to find the others check
+                out below.
+
+                There's a few <CTRL> commands most people wouldn't
+                figure out on their own, but they're not needed to
+                play the game.
+
+                The clock is in the upper-right hand corner.
+                Military time of course.
+
+                Note: Each map varies in time and scale.
+
+                Non-Combat
+
+                        <ESC> - pass time
+                        I - North
+                        J - West
+                        K - South
+                        L - East
+                        <space> - Display party roster.
+                        1 through 7 - Display Stats of that character
+                        U - Use and Item, Attribute, or Skill
+                        E - Encounter, enter Combat mode.  Useful for
+                                reloading your party after a big
+                                fight.
+                        O - Select a new marching order
+                        D - Disband - Breaks the party up into 2+
+                                groups (Maximum 4).  Also lets you
+                                bury the dead and kick out unwanted
+                                NPCs.
+
+                                Don't forget about it -- you NEED to
+                                use it on a few occasions.
+                        V - View switches the view between parties
+                        S - Save the game.  You can do it in ANY
+                                non-combat situation as long as you
+                                have control.
+                        R - Radio.  Gives you promotions (raises
+                                experience level) if you have enough
+                                experience.
+                        <shift>-# - Shortcut for Use character number
+                        <CTRL>-S - Uses the first skill for the first
+                                character in your party.  Useful for
+                                Perception, Picklock, or Climb.
+                        <CTRL>-R - Re-orders a characters skills or
+                                possessions.  Helpful in combination
+                                with changing the marching order to
+                                have <CTRL>-S do a specific thing.
+
+                   Note: You can also select actions with the arrow
+                        keys and <ENTER>
+
+                Combat
+
+                        <ESC> - Undo
+                        R - Run.  Lets the whole party or a single
+                                character move during combat.  Can
+                                be used to flee by running around
+                                corners, or to enter melee combat.
+                                VERY useful!
+
+                                Note: Run Single is the same as
+                                   non-combat Disband.
+
+                                Note: Keep in mind that when you
+                                   attempt to run your running speed
+                                   is determined by the Slowest speed
+                                   in the party you want to move,
+                                   discounting unconscious members.
+                        U - Use. Works EXACTLY the same as it does in
+                                non-combat situations.  Mainly useful
+                                for healing during combat.
+                        H - Hire an NPC.  NPCs typically will not
+                                attack unless you attack them, but
+                                sometimes they will be included
+                                in an Encounter when true enemies
+                                are involved.  Be careful not to
+                                kill NPCs.
+
+                                Note: There are several humans
+                                        in the game which will not
+                                        attack you, but only a few of
+                                        them are actually NPCs.  The
+                                        rest are usually Civilians or
+                                        Guards.
+                        E - Evade.  Attempts to avoid enemy attacks.
+                                Can also be used as a "do nothing".
+                        A - Attack.  The most basic element of combat
+                                Enemies frequently come in separate
+                                groups and you must select which
+                                group to attack.  There are also
+                                several basic types of weapons:
+
+                                Single - Only attacks 1 thing
+                                Group - Explosives hurts everyone in
+                                        a group
+                                Brawling - This skill gives you
+                                        multiple melee attacks.  If
+                                        you kill the original target
+                                        remaining attacks will harm
+                                        enemies remaining in the same
+                                        group.
+                                Burst - Fires exactly 3 shots at the
+                                        group.
+                                Auto - Empties the remainder of the
+                                        clip.  Requires at least 4
+                                        ammo.
+                           Note: If you have melee weapons equipped
+                                you will not be able to attack
+                                enemies more than 14' away, but they
+                                can still attack you if they've got
+                                guns.  Either Run at them or ready
+                                some ranged weapons.
+                        W - Weapon select.  Selects armor too.
+                                Selecting the weapon/armor you
+                                currently have equipped will ready
+                                FISTS/no armor.
+                        L - Load or unjam weapon.  When ammo reaches
+                                0 the weapon becomes a melee weapon.
+                                Damage is determined by your skill
+                                using the particular weapon equipped
+                                -- NOT pugilism!  Brawling still
+                                works no matter what melee weapon is
+                                used.
+                        <CTRL>-A - Shows a list of enemy groups; only
+                                works if the enemies are in range and
+                                you're not using an NPC.
+                        Up Arrow or <CTRL>-K - Increases message
+                                scroll speed.
+                        Down Arrow or <CTRL>-J - Decreases message
+                                scroll speed.
+                           Note: Default is full speed, so you might
+                                want to drag it down a few notches.
+
+                Viewing Characters
+
+                        1 through 7 - Displays the Status of that
+                                character.
+
+                     First Screen
+
+                        P - Pool cash to character you're viewing.
+                        D - Divides the character's cash among
+                                everyone.
+
+                     Inventory
+
+                        1 through 9 - Equip/Unequip/drop/reload/unjam
+                                or trade the selected item
+                        <CTRL>-R - Reorder the Inventory
+
+                     Skill Screen
+
+                        <CTRL>-R - Re-order the skills.  Useful for
+                                using <CTRL>-S.
+
+
+        1.1 Attributes
+
+           1.1.1 Attribute Descriptions
+
+                Strength (ST) - Lets you break down doors and force
+                        objects.  Adds roughly 1 damage to melee
+                        attacks per 2 ST.  It doesn't make too much
+                        of a difference.  Better to spend your points
+                        on Luck or Agility if you want a melee
+                        warrior.
+
+
+                Intelligence (IQ) - Without doubt the most important
+                        skill in the game.  It gives you skill points
+                        to learn new skills and gives you a wider
+                        selection of skills to select.
+
+                Luck (LK) - Influences every part of the game where a
+                        random number is involved.  Combat, traps,
+                        using skills, etc...  Second only to IQ in
+                        importance!  It does all the following:
+                        improves accuracy, makes you harder to hurt,
+                        and even causes a significant increase in
+                        damage inflicted.
+
+                Speed (SP) - Determines the order you act in combat.
+                        The sooner you act the less time enemies have
+                        to react.
+
+                        Becomes sort of useless when guns are
+                        involved -- everyone shoots at the same time.
+                        It does help you run during combat.
+
+                Agility (AGL) - How quick you move (could have
+                        combined speed with this, but they didn't).
+                        Influences likelihood of hitting in melee.
+                        Also determines whether you'll be injured or
+                        not in all situations.  It's devastating
+                        to have a low Agility, but once you get
+                        it up to 15 there's not too much benefit
+                        in going any higher.  20 tops.  Concentrate
+                        on Luck instead.
+
+                Dexterity (DEX) - How steady your aim with ranged
+                        weapons is.  3rd most important attribute
+                        just behind Luck.  When using Autofire
+                        a high DEX/Luck combination, almost every
+                        shot will hit.  Needless to say, this can
+                        inflict a TREMENDOUS amount of damage!
+
+                        Note: With typical characters only 4 or 5
+                                shots actually hit when burning a
+                                35 shot clip!
+
+		Charisma (CHR) - How personable you are.  Pretty
+                        useless.  The only symptoms of low charisma
+                        are NPCs who don't want to trade items or
+                        use things all the time.  Just keep trying
+                        until you succeed.  Attribute points are too
+			important to waste here.
+
+                Skill Points (SKP) - Determines how many skills you
+                        can learn.  When you Radio to go up levels
+                        increasing IQ gives you the same number of
+                        Skill Points.  Use skill points in libraries.
+                        Caution:  no 2 libraries carry all the same
+                        skills.  If you want a skill and have enough
+                        IQ you still won't be offered it if the
+                        Library doesn't carry the books.  The library
+                        in North-West Needles carries basic skills.
+
+                Rank - Just a fancy indicator of experience level.
+
+                MAXCON / CON - Your hit maximum and current hit
+                        points.  You heal over time.  Time passes
+                        fastest on the main land map.  Unconscious
+                        and worse off characters usually cannot be
+                        hit during combat.  Traps can still mess
+                        them up.
+
+                        If your CON is still a number but highlighted
+                        in white, then your character is diseased and
+                        will not heal.  In the sewers the whole party
+                        is diseased.  If they all go unconscious,
+                        your party is dead.  Only hospitals can heal
+                        diseases.
+
+                        UNC - Unconscious.  Give him time and he'll
+                                recover.
+                        SER - Serious.  He needs a medic, if not
+                                he'll deteriorate.
+                        CRT - Critical.  This is about the limit
+                                Medic will work on.
+                        MRT - Mortally wounded.  He needs help!
+                        COM - Comatose.  This character will die
+                                soon.
+
+                                If you have no doctor make sure you
+                                find a nice grave site.
+
+                        skull symbol - Dead.  This ain't Bard's Tale.
+                                There's no magic, no resurrect.  Dead
+                                is dead.  Disband the character.
+
+                AC (Armor Class) - Indicator of how much damage the
+                        character's armor will absorb when hit.
+                        A 1 is infinitely better than a 0.
+
+                Sex - Only affects what bathrooms you can go in.
+
+                Nationality - affects nothing.
+
+                $ - The amount of cash he's toting.
+
+           1.1.2 Attribute Hints
+
+                At the start of the game spend almost all points on
+                raising IQ until you hit about 28.
+
+                Important attributes are: Luck, Dexterity, and
+                Agility.  Strength is moderately useful, but don't
+                concentrate on it.  Charisma is useless.
+
+                After Luck, Dexterity, and Agility get in the 20s
+                you'd be best off putting your points into
+                Constitution.
+
+                I will not accept a character with less that 17 IQ
+                unless they've got extraordinary Luck, Dexterity,
+                and Agility.
+
+                Constitution is moderately important at the start.
+                There's not really much difference between a 25 and a
+                35.  If something's going to kill a character with 25
+                CON, chances are it'd do likewise to someone with 35
+                CON.  Only worry about Constitution if it's real low.
+
+		A good IQ will more than make up for a low MaxCon.
+
+                Plus you can always raise MaxCon by going up levels
+                Harder to do without good skills or ability to
+                inflict damage.
+
+        1.2. Equipment
+
+                Price - The price you buy things from stores.  Sale
+                price is almost always 1/2 buying price.
+
+                        * Cannot buy anywhere (PRICE represents resale)
+                        # Can only buy in Darwin City
+
+           1.2.1 Items
+
+                Canteen - Need it to avoid dehydration.  EVERYONE
+                        needs one.
+                        PRICE   $10
+
+                Hand Mirror - Useless.  Sell them.
+                        PRICE   $10
+
+                Gas Mask - Only used once in the game and even then
+                        it's not needed.  Sell them when you find
+                        them.
+                        PRICE   $150
+
+                Match - Useless.  Sell them.
+                        PRICE   $10
+
+                Rope - Lets you climb over things.  VERY useful!
+                        Always 3 on-hand and sell the rest.
+                        PRICE   $25
+
+                TNT - use this for low-end demolitions.  If in doubt,
+                        blow it up!  There are a few things TNT can't
+                        blow up, but heavier ordinance can.
+
+                        Also a weapon.
+                        PRICE   $50
+
+                Ax - Can use to hack apart some doors and weak walls.
+
+                        Also a weapon.
+                        PRICE   $25
+
+                Shovel - Used to dig stuff up and dig through weak
+                        walls.  Keep 1 on hand at all times.
+                        PRICE   $15
+
+                Snake Squeezin - Give them to bums and they'll either
+                        get out of your way or give you useful info.
+                        Sell them when you find them; buy them back
+                        when you find a bum.
+                        PRICE   $10
+
+                Clay pot - Useless.
+                        PRICE   $15
+
+                Fruit - Used late in the game and then you only use 2
+                        Sell them at the Agriculture Center when you
+                        find them for extra money.  Buy them back
+                        when you want to use them.
+                        PRICE   $30 (sells for $23 at the Ag Center)
+
+                Jewelry - Useless.  Sell them at the Ag Center
+                        PRICE   $100 (sells for $75 at the Ag Center)
+
+                Crowbar - Not too useful.
+                        PRICE   $15
+
+                Sledge Hammer - Not too useful.  Might smash some
+                        stuff up, I don't know.
+                        PRICE   $25
+
+                Jug - Used VERY late in the game.  Don't even bother
+                        picking them up until you need them.  The
+                        selling price isn't worth the effort to carry
+                        them.
+                        PRICE   $1
+
+                Geiger Counter - Detects radiation.  VERY important!
+                        Ever wonder what those 8 squares are on the
+                        right side of the screen?  They're the geiger
+                        counter reading.  When 6 squares are red,
+                        you'd better get Rad Suits or turn back the
+                        way you came.  If you wait until night
+                        (18:00 to 6:00) you can see the radiation and
+                        walk around it.  Get 1 per party.
+                        PRICE   $300
+
+
+
+           1.2.2 Weapons
+
+                Range - An approximation.  Give it + or - 10'
+
+                Armor - For projectile weapons, armor piercing tends
+                        to be more important than raw damage
+                        inflicted because most enemies have armor
+
+                        From best to worst:
+                        Excellent (near full damage to well armored)
+                        Very Good
+                        Good
+                        Decent
+                        Fair
+                        Poor      (less damage to even light armor)
+
+
+                Damage - Approximation based on unarmored enemies.
+                         An average if it doesn't vary much.
+                         A range if it does.
+
+                        With high skill levels, damage inflicted by
+                        melee weapons can by far exceed any other
+                        weapons in the game.  With Level 6 Brawling
+                        and 10 Strength, an Ax can do 145 damage per
+                        round!  And that is by no means an upper
+                        limit :)
+
+                        Damage is also heavily influenced by Luck.
+
+                        NOTE: All damages were inflicted by
+                        characters with *very* high luck.  So the
+                        damages will seem quite high.  But the damage
+                        trends between weapons still hold.
+
+
+                Reload - For single-use weapons, reload time is
+                        vital.  With AT Weapons you only get to
+                        attack every other round, but with
+                        Demolitions you can attack every round.
+
+
+                FISTS - Can't beat the price :)
+                        With high pugilism FISTS be a devastating.
+                        RANGE   Melee
+                        ATTACKS 1 + Brawling/2
+                        ARMOR   Very Good        Very Good
+                        DAMAGE  4.4 Pugilism   +   ST/2
+                        SKILL   Pugilism
+                        PRICE   I certainly HOPE they're free
+
+                Ax - A decent melee weapon.
+                        RANGE   Melee
+                        ATTACKS 1 + Brawling/2
+                        ARMOR   Fair      Very Good      Very Good
+                        DAMAGE  8   +   3.9 Brawling   +   ST/2
+                        SKILL   Brawling
+                        PRICE   $25
+
+                Club - Very similar to the Ax.
+                        RANGE   Melee
+                        ATTACKS 1 + Brawling/2
+                        ARMOR   Fair      Very Good      Very Good
+                        DAMAGE  8   +   3.9 Brawling   +   ST/2
+                        SKILL   Brawling
+                        PRICE   $15
+
+                Knife - Waste of Skill Points and an Inventory space
+                        RANGE   Melee
+                        ATTACKS 1 + Brawling/2
+                        ARMOR   Fair        Very Good       Very Good
+                        DAMAGE  7   +   4.2 Knife Fighting  +  ST/2
+                        SKILL   Knife Fighting
+                        PRICE   $20
+
+                VP91Z 9mm pistol - It beats the M1911A1 because it
+                                holds more bullets
+                        RANGE   42'
+                        ATTACKS 1
+                        ARMOR   Fair
+                        DAMAGE  30
+                        SKILL   Clip Pistol
+                        PRICE   $150
+                        AMMO    9mm clip
+                        SHOTS   18
+
+                M1911A1 45 pistol - It stinks
+                        RANGE   42'
+                        ATTACKS 1
+                        ARMOR   Fair
+                        DAMAGE  33
+                        SKILL   Clip Pistol
+                        PRICE   $150
+                        AMMO    45 clip
+                        SHOTS   7
+
+                TNT - Inefficent in combat compared with similar
+                                weapons.
+                        RANGE   64'
+                        ATTACKS Group
+                        ARMOR   Poor
+                        DAMAGE  10-20
+                        SKILL   Demolitions
+                        PRICE   $50
+                        RELOAD  Auto
+
+                Throwing Knife - Practically useless.  Sell them
+                                when you find them.  Don't waste
+                                your skill points on them.
+                        RANGE   45'
+                        ATTACKS 1
+                        ARMOR   Very Good
+                        DAMAGE  26
+                        SKILL   Knife Throwing
+                        PRICE   $20
+                        RELOAD  1 Round
+
+                45 Clip - Used in the M1989A1 and MAC-15
+                        PRICE   $25
+
+                9mm clip - Used in the VP91Z and Uzi
+                        PRICE   $30
+
+           NOTE: equip explosives to use them in combat.
+
+        1.2.3 Armor
+
+                Leather Jackets - at the start put them on people who
+                        are hurt.  Some armor is infinitely better
+                        than none at all.
+                        AC      1
+                        PRICE   $200
+
+
+                Bullet Proof Shirt - At least it not the worst
+                        AC      2
+                        PRICE   $500
+
+        1.3 Skills
+
+                The Heart of Wasteland.  This is what separates it
+                from other RPGs.
+
+                You can gain skills in Libraries.
+
+                Numbers in brackets are base Skill Points Required.
+                IQ is required.  I only added the ones I've actually
+                found a real use for somewhere in the game.
+
+                Check if your NPCs already have the skills before
+                spending SKP on your characters.
+
+                For each skill I STRONGLY recommend you get the
+                starting skill level I state.  Getting less would be
+                detrimental to your party's health.  Getting more
+                would be a waste of Skill Points.
+
+            Note:  With the exception of character creation in the
+                Ranger Center, you can NEVER get a skill level higher
+                than the character's experience level.  If you ever
+                get to a point when you use skills frequently, but
+                they never raise levels, try to get some promotions.
+
+             Ex: A level 3 character cannot get level 4 brawling no
+                matter how hard you try.  Keep that in mind.
+
+            Note:  When it takes "255" SKP to go up a level, that is
+                the highest you can ever possibly get by using the
+                skill.  In other words, it is impossible to get more
+                than level 8 in ANY skill by using it.  Skills that
+                take 2 or 3 SKP for level 1 are stuck at level 7.
+
+                You must use the Negative Skill Point Cheat to get
+                higher than a Level 8 in any skill.
+
+
+            IQ 3
+
+		Brawling (1) - Gives an extra melee attack for every
+			2 levels.  Everyone needs this.  Start with
+			level 2.
+
+                Climb (1) - Self-explanatory.  Try climbing on things
+                        like tables and fences in addition to the
+                        obvious.  Only one per party needs it.  Start
+                        with level 1.
+
+		Pugilism (1) - Increases damage done with FISTS.
+			Everyone needs this.  Start with level 2.
+
+                Swim (1) - Obvious.  It can be helpful, but not
+                        required, for everyone.  Start with level 1
+                        if at all.  Raise it by taking a leap in
+                        the river.
+
+                *Clip Pistol (1) - DON'T GET IT!  You get 1/2 the XP
+                        of melee combat and pistols suck anyway.
+                        Sell your pistols in Quartz first thing.
+
+            IQ 6
+
+                Perception (1) - Lets you see things that are hidden.
+                        Only 2 people per party need it.  1 if he's
+                        really good.  A level 4 or 5 perception
+                        should cover the game.  Start with Level 1.
+
+		Assault Rifle (1) - Lets you hit with them.  Everyone
+                        needs it, but don't get it until Needles.
+                        Start with Level 1 or 2.
+
+                *AT Weapon (1) - I know I used to encourage this
+                        skill, but I now realize it is not vitally
+                        important.  It can still be somewhat useful
+                         -- Spears are cheap AT Weapons that can do a
+                        LOT of damage in the hands of a strong
+                        person.  All AT Weapons are disposable.
+			Start with level 2 if at all.
+
+                SMG (1) - Lets you hit with them.  Everyone needs
+                        this, but don't get it until Needles.  Start
+                        with Level 1.
+
+            IQ 10
+
+                Acrobat (1) - Only need 1 per party.  I don't know if
+                        any NPCs have it.  Start with level 1.
+
+                Picklock (1) - Of utmost importance.  You'll need it
+                        a lot.  Only 1 per party.  Start with
+                        Level 2.
+
+                Silent Movement (1) - Not quite sure how useful it
+                        is.  Never was able to get a high level in
+                        it.  Maybe if you did you could walk right
+                        through the Citadel.  Never tried it.
+
+                Gambling (1) - You can make a heck of a lot of money
+                        early on with gambling.  Gambling also raises
+                        in skill level VERY rapidly.  Most useful on
+                        characters with high luck.  Start with
+                        Level 1.
+
+            IQ 13
+
+		Demolition (1) - Fire, Fire, Fire!!! Huh, huh, huh.
+                        Without it you'll blow yourself up with TNT
+                        etc... (Works in combat too)
+			Only 1 person needs it.  Start with level 1.
+
+			If in doubt, blow it up!
+
+            IQ 15
+
+                Bomb Disarm (2) - Bomb traps are the deadliest things
+                        you'll encounter in the game.  Save before
+                        using it.  (ApplePC save state works well)
+			Only 1 person needs it.  Start with Level 2+.
+
+                Medic (2) - Very important, but hesitate to give it
+                        to all characters.  Once you get an IQ in
+                        the low 20s go to Las Vegas's library and
+                        give everyone Doctor 1.  Doctor 1 can heal
+                        Comatose people, Medic 40 cannot.  Level 1
+                        Medic is completely useless.  Start with
+			2 level 2 Medics.
+
+                Safecrack (2) - Like picklock for big doors.  Only 1
+                        person needs it.  Start with Level 1.
+
+            IQ 16
+
+                Cryptology (2) - Lets you decode messages/passwords.
+			Only one person needs it.  Don't get it until
+			Las Vegas.  Start with Level 1.
+
+            IQ 17
+
+                Metallurgy (2) - OK, it's not really a useful skill.
+                        But it allows you to find the 2 silver veins
+                        in the mine. (yawn)  Start with Level 1 on 1
+                        person if at all.
+
+            Doubtful skills:
+			Knife fighting (3/1)
+			Rifle (3/1)
+			Knife Throwing (6/1)
+			Confidence (11/1)
+			Sleight of Hand (12/1)
+			Forgery (13/1)
+			Alarm Disarm (14/1)
+			Bureaucracy (14/1)
+
+            The tougher the problem is that you use a skill on, the
+            more likely you are to raise the skill level.  Example:
+            You're more likely to raise Assault Rifle skill by
+            ripping a clip on a Guardian than on a rabbit.
+
+            A good way to raise brawling is to equip yourself with a
+            non-weapon, such as a match and fight something tough.
+            Works with pugilism too.
+
+
+        1.4 General Hints
+
+                Don't drop anything you can sell.  I have amassed
+                quite a fortune early on in the game by simply
+                selling everything I find.
+
+                Use melee combat whenever you can.  Ammo can get
+                expensive.  Plus you get DOUBLE experience for melee
+                combat.
+
+                You can only see radiation at night, presumably it
+                glows.  If your geiger counter goes wild wait
+                until nighttime before proceeding.
+
+                Demolitions weapons do damage to an entire group of
+                enemies.  Don't waste them on singular enemies.
+
+                If you ever get tied up, use Dexterity to free
+                yourself.
+
+                It is indeed true that low level characters can go
+                up a few levels by simply evading during combat,
+                but progess is much slower than simply killing the
+                enemies.
+
+                It's generally a good idea to back up your party in
+                case they get saved in a place where they're stuck.
+
+                If you're using an emulator, save the state before
+                you do something risky.
+
+           Enemy Morale:  Depending on how the battle's going, some
+                enemies may try to run away.  There are basic rules
+                you can use to determine the morale of an enemy.
+
+                1) Animals and Robots almost NEVER run away.  They
+                        fight to the death.
+
+		2) Cornered enemies cannot flee.  Enemies will NEVER
+			try to run around you into the open so they
+			can get away.
+
+                3) If a humanoid doesn't hurt you in 3 or 4 rounds,
+                        he might run away.
+
+                4) If a humanoid in a group is seriously injured
+                        he'll run away.
+
+                5) If a group of humans has taken multiple
+                        casualties, the group may run away.  
+
+                6) If your party can kill the enemy several times
+                        over, he'll probably run away.
+
+                7) If enough time passes, the enemy may come back
+                        for more.
+
+		8) Enemies with long range attacks often run to their
+			maximum range and shoot you from afar.
+
+                9) If enemies are fleeing, you can sometimes corner
+                        them into a wall and pound the crud out of
+                        them.
+
+           With that said I never have to touch the morale issue
+                again.
+
+           There is typically no direct indication that a particular
+           "opponent" is an NPC other than that NPCs will not attack
+           unless you attack them.  Try not to kill your allies too
+           often -- NPCs can be useful.
+
+                Note:  There are several non-NPC people in the game
+                        which will not attack, but that doesn't mean
+                        that they're NPCs, or even friendly.
+
+
+           Q: Which NPCs should I keep?
+
+           A: It depends what stage in the game you're on.
+
+                Radio often to see if your characters have gone up
+                levels.  Remember, Radio also saves your game so
+                don't Radio if you're in a sticky situation.
+
+                Most of the early NPCs waste your ammo and don't do
+                anything useful.  Use them as bullet catchers if you
+                want.  They won't mind :)
+
+                NPC's in this class include Jackie (in Highpool),
+                Mayor Pedros (in Quartz), Ralf (in Needles), and
+                Felicia (in Quartz)
+
+                You'll know 'em when you see 'em.
+
+                Drop 'em when they're dead or badly hurt if you don't
+                have Medics/Doctors.
+
+                Generally, when you find a new NPC, save the game.
+                (ApplePC Save State works well)
+
+                Hire the NPC (disband an old one if you have to) and
+                see if he/she is any better than one of your current
+                NPCs.  If so, keep the NPC.
+
+                Criteria:
+
+                        IQ - How many levels do they need before
+                                they're useful.
+
+                        CHR - How obedient they are.
+
+                        MAXCON - Any NPC with less than 20 MAXCON is
+                                probably a loser.
+
+                        Equipment - 'Nuff said.
+
+                        Skills - Do they have anything really useful?
+                                Or are they worthless?
+
+                        SKP - Most NPCs have some free Skill Points.
+
+                        Rank - The LOWER the better.  If a low level
+                                character is as good as a high
+                                level character, 10,000 XP from now
+                                the low level character will eat the
+                                high level one for breakfast.  It's
+                                easier to make lower level characters
+                                powerful because they go up levels
+                                much quicker.
+
+
+           Q: There's lots of walls that look weak.  What do I do to
+                them?
+
+           A: Blow 'em up with TNT.  Works on doors too.  Some
+                walls/doors are stronger than others and require more
+                powerful ordinance.
+
+                NOTE: Try picklock and safecrack on doors before you
+                        blast 'em.  Try shovel, pick ax, ax, and
+                        strength on walls first too.
+
+
+        1.5 Big Map
+
+           Hints:
+
+                Be careful where you step.
+
+                Don't fall in the river unless you are purposely
+                trying to raise swimming.  
+
+                Don't walk into the desert without canteens on
+                everyone.
+
+                Don't head East of the Ranger Center unless it's
+                nighttime (18:00 until 6:00).  You'll see why.
+
+
+                Q: My whole party suddenly got diseased with
+                   something and died!  What happened.
+
+                A: See above.  Wait until 18:00 and do it again.
+                   You'll find out rather quickly.
+
+
+                Q: My character died, how to I bring him back to
+                   life?
+
+                A: As I said before, this isn't a Fantasy RPG.
+                   There's no magic.
+                   Bury the character and make a new one.
+
+
+                Q: How do I fix the jeep.
+
+                A: You can't.  Only Ace (an NPC) can fix the jeep.
+                   And then it's a waste of time -- it just drops
+                   you in Las Vegas and gets stolen!
+
+                   One of the larger disappointments in the game.
+
+                   It can be seen as a method of advancing the plot
+                   of the game, though.
+
+
+2. Early Stuff (If you have never seen a Scorpitron, go here)
+        2.1 Equipment
+           2.1.1 Items
+
+                Plastic Explosives - A little more kick than TNT.
+                        Quite expensive, so only use them when TNT
+                        won't do the trick.
+                        PRICE   #$300
+
+                Chemical - You won't need it for a LONG time.  Just
+                        let it sit there until you need it later on.
+                        You cannot sell it, so it would just waste
+                        a space in your inventory.
+
+                Book - Does nothing
+                        PRICE   $10
+
+                Map - Useless.  Sell them.
+                        PRICE   $50
+
+                Pick Ax - Used to dig silver in the mine.
+                        PRICE   $25
+
+                Howitzer Shell - Yes, they ARE functional.
+                        PRICE   #$50
+
+
+           2.1.2 Weapons
+
+                M17 carbine - Don't buy it
+                        RANGE   All
+                        ATTACKS 1
+                        ARMOR   Good
+                        DAMAGE  39
+                        SKILL   Rifle
+                        PRICE   $250
+                        AMMO    7.62mm clip
+                        SHOTS   10
+
+                M19 Rifle - Don't buy it
+                        RANGE   All
+                        ATTACKS 1
+                        ARMOR   Good
+                        DAMAGE  36
+                        SKILL   Rifle
+                        PRICE   $350
+                        AMMO    7.62mm clip
+                        SHOTS   8
+
+                Mac 17 SMG - OK.  Uzi is better
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Fair
+                        DAMAGE  31
+                         Burst  28-103
+                         Auto   300-700
+                        SKILL   SMG
+                        PRICE   #$500
+                        AMMO    45 clip
+                        SHOTS   30
+
+                Uzi SMG Mark 27 - Good all around weapon
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Fair
+                        DAMAGE  32
+                         Burst  29-102
+                         Auto   400-900
+                        SKILL   SMG
+                        PRICE   #$750
+                        AMMO    9mm clip
+                        SHOTS   40
+
+                AK97 assault rifle - Similar to the M1989A1, but
+                                with 5 less bullets per clip.
+                                Pierces armor slightly better.
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Decent
+                        DAMAGE  40
+                         Burst  35-140
+                         Auto   500-800
+                        SKILL   Assault Rifle
+                        PRICE   #$1300
+                        AMMO    7.62mm clip
+                        SHOTS   30
+
+                M1989A1 Nato assault rifle - Best projectile weapon
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Decent
+                        DAMAGE  40
+                         Burst  35-140
+                         Auto   600-900
+                        SKILL   Assault Rifle
+                        PRICE   #$1500
+                        AMMO    7.62mm clip
+                        SHOTS   35
+
+                Grenade - Use them when you find them
+                                Demolitions punch of TNT
+                        RANGE   64'
+                        ATTACKS Group
+                        ARMOR   Fair
+                        DAMAGE  27
+                        SKILL   Demolitions (I think)
+                        PRICE   $150
+                        RELOAD  Auto
+
+                Plastic Explosives - It does lots of damage, but it's
+                                too expensive to use in combat
+                        RANGE   57'
+                        ATTACKS Auto
+                        ARMOR   Good
+                        DAMAGE  31
+                        SKILL   Demolitions
+                        PRICE   #$300
+                        RELOAD  Auto
+
+                Spear - A low end AT Weapon.  Seriously!
+                        RANGE   All
+                        ATTACKS 1
+                        ARMOR   Good
+                        DAMAGE  36
+                        SKILL   AT Weapons
+                        PRICE   $35
+                        RELOAD  1 Round
+
+                Flamethrower - With a high Energy Weapons,
+                        Flamethrowers can make a cheap substitute
+                        for AT Weapons at $50 per shot.  Otherwise
+                        they're useless.
+
+                    Hint: Sell them back when they run out of ammo
+                                for a $1500 refund!
+
+                        RANGE   64'
+                        ATTACKS 1
+                        ARMOR   Fair to Excellent depending on skill
+                        DAMAGE  58
+                        SKILL   Energy Weapons
+                        PRICE   $3000
+                        AMMO    *Cannot reload*
+                        SHOTS   60
+
+                Mangler - Don't waste them on wimpy enemies
+                        RANGE   All
+                        ATTACKS 1
+                        ARMOR   Excellent
+                        DAMAGE  40-60
+                        SKILL   AT Weapons
+                        PRICE   #$500
+                        RELOAD  1 Round
+
+                Sabot Rocket - Don't waste them on wimpy enemies
+                        RANGE   All
+                        ATTACKS 1
+                        ARMOR   Excellent
+                        DAMAGE  55-75
+                        SKILL   AT Weapons
+                        PRICE   #$1100
+                        RELOAD  1 Round
+
+                LAW Rocket - Don't waste them on wimpy enemies
+                        RANGE   All
+                        ATTACKS 1
+                        ARMOR   Excellent
+                        DAMAGE  75-95
+                        SKILL   AT Weapons
+                        PRICE   $2500
+                        RELOAD  1 Round
+
+                7.62mm clip - Standard Rifle ammo
+                        PRICE   $30
+
+                Power Pack - The Universal ammo for all Energy
+                        Weapons.  No store stocks them, so use
+                        only when necessary.
+
+                        Sell them to a store for now.  Buy them
+                        back when you need them later.  No reason
+                        to waste inventory space.
+                        PRICE   *$75
+
+           2.1.3 Armor
+
+                Robe - Lets you walk through the Temple of Blood
+                        AC      1
+                        PRICE   #$250
+
+                Kevlar Suit - The best you'll have for a long period
+                        AC      6
+                        PRICE   #$1750
+
+                Rad Suit - RADIATION PROOF suit
+                        AC      5
+                        PRICE   #$1350
+
+                Kevlar Vest - OK
+                        AC      4
+                        PRICE   #$1000
+
+        2.2 Skills
+        2.3 Highpool
+
+           Hints:
+
+                Search all the buildings carefully.
+
+                The juvies in the Camp by the store are sitting
+                on a decent weapon.  Nothing bad happens if you kill
+                the kids :)
+
+                Talk to the Kid in the SW corner and ask him:
+
+                        Jackie
+                        Cave
+
+
+                Q: Where's the cave?
+
+                A: Directly North of the boy there's a pair of
+                   trees (?) separated by 1 space.  Use perception
+                   there.  Bring a rope too.
+
+
+                Q: How do I get past the boulders in the cave?
+
+                A: Use Climb skill.  Level 3+ helps immensely, but
+                   isn't required.
+
+
+                Q: I'm in the cave, but I can't find Jackie.  Where
+                   is he?
+
+                A: Kill Rex (see below).  Follow the tunnel North
+                   and past some boulders.
+
+
+                Q: Is there any way to avoid killing Rex?
+
+                A: Despite popular myth, there is.  But I don't
+                   recommend it.  Rex'll start a fight, but don't
+                   attack.  Run Party North.  Then use Climb North.
+                   Disband West a character with Climb and have him
+                   rescue Jackie.  Keep evading with the other party.
+                   Return the party with Jackie to the rest of the
+                   party.  Then leave.  The dog is untouched.  And
+                   unless you've got some good armor, your party is
+                   trashed.  But you've got Jackie and Rex lives!
+
+                   To tell the truth, just beat the snot out of Rex,
+                   it doesn't matter.  I just wanted to prove that
+                   it IS possible to save Jackie without killing the
+                   dog.
+
+
+                Q: Is there any hidden treasure in Highpool?
+
+                A: Search under the beds.  That's a general rule
+                   throughout all of Wasteland.  Also, fix the pump
+                   with an engine.  You can buy one from the Trading
+                   Car in the Nomad's camp.
+
+
+                Q: How can I see something cool in Highpool?
+
+                A: Become the Grim Reaper.  The juvies' time has come
+                   (sinister laughing)
+
+                   Seriously, cool stuff happens if you ruthlessly
+                   slaughter everyone in Highpool.  To get everything
+                   started, slip on the rocks by walking back and
+                   forth across the river (not the bridge) Hate it
+                   when people laugh at you?  Get your revenge!
+
+                   You might want to avoid saving after doing so, though.
+
+        2.4 Agriculture Center
+
+           Hints:
+
+                Before you kill Harry, walk next to the walls and get
+                pelted by tomatoes.  Eventually your perception will
+                rise, but it doesn't work too well.
+
+                Jewelry and fruit sell for the highest prices in the
+                Ag Center's store.  If you find any fruit or jewelry
+                any time in the game -- sell it there.
+
+
+                Q: What are fruit good for?
+
+                A: For now, sell them.  You use them much, much later
+                   Don't worry about it :)
+
+
+                Q: Where's Harry the Bunny Master?
+
+                A: Just scan all the rows of vegetables and you'll
+                   find him.
+
+
+                Q: What use is the root cellar?
+
+                A: Not much.  There's usually a few things hidden in
+                   the boxes.  Use Perception on the table 2nd from
+                   the bottom.
+
+
+                Q: Is there any hidden treasure in the Agriculture
+                   Center?
+
+                A: Yes.  You can use picklock to get at the treasure
+                   hidden behind the doors.  Also check out the SW
+                   corner of the Ag Center.  There's a hidden tunnel
+                   with some goodies in it.
+
+
+
+        2.5 Nomads' Camp
+
+           Hints:
+
+                Go see the Brakeman.
+
+                The Nomad's Camp is an *EXCELLENT* place to get
+                experience.  The battles are easy and the experience
+                is high.  USE MELEE WEAPONS ONLY!  You get double
+                the experience, and you don't need to waste ammo on
+                these wimps.
+
+                The casino car is very useful.  It is a low-stakes
+                place to gamble.  As such it is an excellent place
+                to raise gambling skill.  With decent luck, you can
+                get gambling up to Level 8 in 5-10 minutes and lose
+                less than $1000.
+
+                Then take a trip to Vegas and watch the money roll in!
+
+                Notice: remember that no skill level can ever be higher
+			than the character's experience level.  If you
+			have a level 4 character you can only have a
+			maximum of level 4 gambling.  The only exception
+			to this rule is character creation in the Ranger
+			Center.
+
+
+                Q: What do I do with that stinking bum?
+
+                A: Give him something to drink.  Maybe he's not just a
+                   stinking bum.  (Hint hint)
+
+
+                Q: Is anything hidden in the Nomad's Camp.
+
+                A: Besides the mini-quest, I assume.  Yes.  Try using
+                   the Atchison's password on the other 2 tents and
+                   see what happens :)
+
+
+        2.6 Mine
+
+           Hints:
+
+                Bring a pick ax.
+
+                Q: In the mine there are places where the wall has
+                   been chipped and the rock looks strange.  Is it
+                   any use?
+
+                A: There's silver deposits there.  You need
+                   Metallurgy to find the silver veins and a pick ax
+                   to extract the silver.  To tell the truth, you get
+                   a pitiful amount of money for the effort.  Your
+                   Skill Points are better used elsewhere.
+
+
+                Q: What are Gas Masks for?
+
+                A: They are only used once in the entire game, and
+                   even then aren't necessary.  Sell them.
+
+
+        2.7 Quartz
+
+           Hints:
+
+                Use the manhole covers for some safe, quick transport
+
+                There's a store in the SW corner of the city.
+
+                The Bar is to the SouthEast, just West of the
+                graveyard.
+
+                The Courthouse is 2 blocks directly North of the Bar.
+
+                The Inn is West of the Courthouse and 1 building to
+                the North.
+
+                In the Bar, go in the bathroom and talk to the person
+                Say CHAT.
+
+                If you give snake squeezins to a bum, he'll let you
+                pass.
+
+
+                Q: What do I do with Head Crusher?
+
+                A: Go see the Brakeman in Nomad's Camp first.
+
+
+                Q: OK, now how do I show him the Visa Card?
+
+                A: Use it on yourself or the table, I forgot which.
+
+
+                Q: What do I say to the Riddler?
+
+                A: The first Answer is TOAST.  The second is R.  For
+                   the 3rd answer talk to the Barkeep.
+
+
+                Q: Is anything hidden in Quartz?
+
+                A: Check out the graveyard.  Nothing real valuable,
+                   but the tombstones are cool.  Also explore ALL the
+                   rooms in the Inn.  Also in the Inn Climb over the
+                   counter and raid the vault.  Be careful.  Jump on
+                   the stage in the Bar and check out the Jukebox.
+                   Shove the punks around.
+
+
+             2.7.1 Courthouse
+
+               Hints:
+
+                Make sure you *finish* Scott's Bar and Stagecoach
+                Inn before you come to the Courthouse.
+
+                It's your choice whether you want to come in fighting
+                or sneak in.
+
+
+                Q: What's the Password?
+
+                A: What's the matter?  Don't like a fight?
+
+                        MUERTE
+
+
+                Q: Danny Citrine's dead!  What do I do?
+
+                A: When you entered and woke Louie he sounded the
+                   alarm and Citrine was executed.  Try again until
+                   Louie stays asleep and you knock him out.  Then
+                   enter the room again and roast the enemies.
+
+
+                Q: What do I do with Danny Citrine?
+
+                A: First, to revive him give him a drink from your
+                   canteen.  Then have him join your party and head
+                   upstairs.  The SE jail cell holds Citrine's
+                   father.  Bring Citrine in and step on the bed.
+
+                        Moola!
+
+                   Info courtesy:  Chris Baer
+                                   chbaer@cris.com
+
+
+                Q: I found Hewie and Dewey.  Where's Louie?
+
+                A: I assume you didn't wake the guard and knocked him
+                   out.  He was Louie.  You read Louie's bracelet,
+                   remember? (P-107)
+
+
+                Q: And what do I do with the Mayor once I have him?
+
+                A: As far as I know, use him as a beast of burden
+                   until someone better comes along, then disband
+                   him forever.
+
+
+                Q: And how about the other prisoners that I release?
+
+                A: Doesn't matter.
+
+
+           2.7.2 Ugly's Hideout
+
+              Hints:
+
+                Walking along the glass in the secret entrance can
+                raise Perception, but it's a real pain to get it
+                any higher than Level 2.
+
+
+                Q: Where's the secret entrance to Ugly's hideout?
+
+                A: Directly North of the Courthouse there's 2
+                   buildings separated by 1 space.  The building to
+                   the East is Ugly's hideout.  Notice the black
+                   square directly SouthWest of the hideout?  That's
+                   the secret entrance.  Carefully examine the walls.
+
+
+                Q: What's the code for the vault?
+
+                A: Use the numbers from the bracelets in the
+                   Courthouse.  Note that the order of the numbers
+                   is important.
+
+
+                Q: Should I let Ugly John go?
+
+                A: He does tell the truth and you do save Felicia.
+                   But if you have a decent bomb disarm it's a
+                   pretty simple trap.  You get some goodies for
+                   killing Ugly John.  Other than that, it doesn't
+                   matter.
+
+
+                Q: Where the heck's this Ace NPC I keep hearing about?
+
+                A: In the basement of Ugly's hideout.  Get to it by
+                   way of stairs hidden behind a counter along the
+                   East wall.  He's in a jail cell.  Try Picklock
+                   and Safecrack.  Be patient, the doors WILL open.
+
+
+        2.8 Needles
+
+           Hints:
+
+                Head to the Police Station first to find out what the
+                heck is going on.
+
+                There are several Bloodstaffs.  Only 1 is real.
+
+                Check out the Ammo dump in NE Needles.
+
+                Check out the trash pit in SW Needles.  Bring some
+                TNT.  You'll be very glad you did.
+
+                Leyroy's Place is also a decent weapons store.
+
+                The shifting hills in Southern Needles can raise
+                Climb.
+
+                Search all buildings in Needles carefully.  Watch out
+                for radiation.
+
+                Hire the Uzi-toting female in the alley of downtown
+                Needles.
+
+                Needles is a poor place to gain experience.  For low
+                level characters the fights are hard and the XP is
+                terrible.  Do your business, then leave.
+
+
+                Q: Are the shifting hills good for anything else?
+
+                A: Disband a character with climb skill and have him
+                   walk over the hills.  Check out the tops of the
+                   hills.  It works best if you disband 1 character
+                   to look (he must have Climb or Acrobat)
+
+
+                Q: What can I do in the garage?
+
+                A: Find Ace in Quartz, then have him check out the
+                   jeep North of Quartz.
+
+
+                Q: How do I disable the alarm in the Police Station?
+
+                A: The Communications Center is near the center
+                   Southern wall.  In the NE corner of the room
+                   there's a panel.  Press Button 0.  Then get the
+                   FREE SMGs and ammo to the East.
+
+                   Courtesy: Chris Baer <chbaer@cris.com>
+
+                Q: What do I do with the Ruby Ring?
+
+                A: Show it to the priest in the building in SE
+                   Needles.  Then toss it.
+
+
+                Q: What do I do with the Bloodstaff?
+
+                A: Give it to the priest in the building to the SE
+                   of Needles
+
+
+                Q: How do I get in the building in SE downtown
+                   Needles?  I can't blow the door down.
+
+                A: There are two drunks in a room nearby.  Give one
+                   of them several snake squeezins and they'll tell
+                   you the name of the club they got wasted at.  The
+                   name of the club is also the Password.
+
+                   This hint courtesy:  Stephen Lee
+                                        sl14@cornell.edu
+
+
+                Q: Is anything hidden in Needles?
+
+                A: There's a gang meeting going on behind some rubble
+                   in downtown Needles.  You can get in a decent
+                   fight back there and pick up some assault rifles
+                   early on in the game.  Use howitzer shells on the
+                   howitzer in downtown Needles.  You need
+                   Demolitions or AT weapons.
+
+           2.8.1 Temple of Blood
+
+             Hints:
+
+                If you wear Robes on everyone when you enter, very
+                few enemies will fight you.  Put your regular armor
+                back on when you're on the chess board.
+
+                The electric chair is fully functional.  BZZZT!
+
+                Don't step on the pressure plates.  It brings out
+                one of the tougher enemies in the game.
+
+
+                Q: How do I open all those doors?
+
+                A: Picklock works wonders.
+
+
+                Q: What's the solution to the Chess Puzzle?
+
+                A: Come on, that's a fun one to solve.  Here's how to
+                   do it: take a step.  If you just move and nothing
+                   happens it's correct.  It's helpful to make a
+                   little map of the Chess Board and put an X at
+                   every correct step.  For the final question, if
+                   you're certain you're right, but you're wrong try
+                   increasing/decreasing the answer by 1.  It depends
+                   how you count.
+
+                Q: What's the launch code for the Nuclear Missile?
+
+                A: If you really can't figure it out, it's MOTEKIM.
+
+
+3. Las Vegas Stuff (Speaks for itself, don't it?)
+        3.1 Equipment
+           3.1.1 Items
+
+                Antitoxin - Just let it sit there for now, you brute.
+                        You won't use it for a while yet.  No it
+                        cannot heal diseased party members.
+
+                Rockets - Function like Plastic Explosives for
+                        demolition purposes.  Only a last resort when
+                        you're out of everything else -- rockets are
+                        worth a fortune!
+
+           3.1.2 Weapons
+
+                RPG-7 - The most powerful AT Weapon
+                        RANGE   All
+                        ATTACKS 1
+                        ARMOR   Excellent
+                        DAMAGE  105-125
+                        SKILL   AT Weapons
+                        PRICE   $5000
+                        RELOAD  1 Round
+
+                Laser Pistol - Use the ammo in them, then sell them
+                                Assault Rifles are just about as
+                                powerful but don't waste precious
+                                Power Packs.  Laser Pistols have the
+                                greatest damage inflicting potential
+                                of ANY weapon.  Keep that in mind.
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Good
+                        DAMAGE  40
+                         Burst  36-135
+                         Auto   800-1300
+                        SKILL   Energy Weapons
+                        PRICE   *$8000
+                        AMMO    Power Pack
+                        SHOTS   40
+
+                Laser Carbine - Use them in the Sewers, then sell
+                                them like Laser Pistols
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Good
+                        DAMAGE  52
+                         Burst  43-171
+                         Auto   700-1000
+                        SKILL   Energy Weapons
+                        PRICE   *$11500
+                        AMMO    Power Pack
+                        SHOTS   30
+
+                Laser Rifle - The mainstay weapon later in the game
+                                Use Single shots unless you're in
+                                deep trouble.
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Very Good
+                        DAMAGE  55-80
+                         Burst  55-240
+                         Auto   400-900
+                        SKILL   Energy Weapons
+                        PRICE   *$13000
+                        AMMO    Power Pack
+                        SHOTS   20
+
+                Chainsaw - A good melee weapon.
+                        RANGE   Melee
+                        ATTACKS 1 + Brawling/2
+                        ARMOR   Decent     Very Good      Very Good
+                        DAMAGE  18   +   3.9 Brawling   +   ST/2
+                        SKILL   Brawling
+                        PRICE   #$500
+
+                Proton Ax - The best melee weapon.
+                        RANGE   Melee
+                        ATTACKS 1 + Brawling/2
+                        ARMOR   Very Good  Very Good     Very Good
+                        DAMAGE  45   +   4.5 Brawling   +   ST/2
+                        SKILL   Brawling
+                        PRICE   $10000
+
+                Chainsaw - Rules in combination with brawling; don't
+                        be surprised to inflict 100 damage per round
+                        with this lethal combination.  They never run
+                        out of ammo.  A temporary fix for characters
+                        without pugilism.  Once you get pugilism
+                        level 3 forget all other melee weapons and
+                        concentrate on raising pugilism.
+
+
+           3.1.3 Armor
+        3.2 Skills
+
+            IQ 20
+
+                Electronics (3) - Lets you fix a few things.  Get
+                        Level 1 on 1 person.
+
+            IQ 21
+
+		Doctor (3) - Similar to, but much better than Medic.
+			Level 1 Doctor can heal COMATOSE pretty well!
+			Everyone needs Doctor.  Start with Level 1.
+
+            IQ 23
+
+                Energy Weapons (3) - Lets you use them.  Everyone
+                        needs it.  Very easy to raise in skill level.
+                        Start with Level 1.
+
+        3.3 Las Vegas Misc.
+
+           Hints:
+
+                Watch out for land mines.
+
+                There's a library in the SE corner -- check it out!
+
+                There's a bum in the 2nd building West of the Library
+		Give him some money and ask the following:
+
+			CHAT
+			FAT FREDDY
+			FARAN BRYGO
+			ROBOTS
+			MAX
+
+                    Courtesy:       Chris Baer
+                                    chbaer@cris.com
+
+
+                There's a hospital on the 2nd Southernmost block, 4th
+                building from the West on the North side of the
+                street. (Wouldn't addresses have helped?)
+
+                        3rd building West of Las Vegas Blvd and
+                        Flamingo Ave.
+
+                Temple of the Mushroom Cloud is at the very Eastern
+                part of Las Vegas set off the road midway North/South
+
+                The Casinos and golf course are in the center West
+
+                The Jail is in the NE corner.  Check it out, but be
+                careful.
+
+                Talk to Fat Freddy.  Say "Yes" to his offer.  If you
+                say "No" make sure you've got Gas Masks.
+
+                The best place to gamble is at Fat Freddy's.  For
+                lower stakes, 3-Card Monty at Spade's is pretty good.
+
+                Q: Where the heck's the Sonic Key?
+
+                A: Go to the very North end of the golf course.  You
+                   should see 4 flags arranged in a somewhat
+                   misshapen diamond.  There's a cactus in the center
+                   The Sonic Key is buried 2 squares East of the
+                   cactus. (Use a shovel to dig it up)
+
+                   There's another one guarded by 10 Cyborg Commandos
+                   a few squares SW of the Jail (NE corner).
+
+
+                Q: Are there any hidden items in Las Vegas?
+
+                A: Yes.  There's some ammo and a Proton Ax hidden in
+                   the second building East of Scorpitron on the
+                   South side of the street.
+
+
+                Q: What's the password for Fat Freddy?
+
+                A: Talk to the bum (see Hints)
+
+
+                Q: Where's Covenant?
+
+                A: In the jail in NE Las Vegas.
+
+
+
+        3.4 Faran Brygo
+
+           Hints:
+
+
+                Faran Brygo's hideout is the second building West of
+                Scorpitron on the North side of the street.  When you
+                try to enter it says "Entering a small beat up
+                building".  Don't worry -- it's really Faran Brygo.
+
+                Once you press the button, you cannot come back!
+
+
+                Q: What's the password for Faran Brygo?
+
+                A: Go to Spade's Casino and walk up to the bar.
+
+
+                Q: What can I do with the strange wall in Faran
+                   Brygo's Place?
+
+                A: Use Cryptology on it.  You'll be glad you did!
+
+
+                Q: I killed Faran Brygo.  What useful stuff does he
+                   have to say?
+
+                A: Paragraph 7
+
+
+                Q: I didn't kill Faran Brygo.  How can I get Fat
+                   Freddy's reward?
+
+                A: If you take out the Guardian Citadel, give Fat
+                   Freddy the Onyx Ring contained within.
+
+        3.5 Temple of the Mushroom Cloud
+
+           Hints:
+
+                Don't play around with the radioactive waste.
+                There's nothing of value over there.
+
+
+                Q: What's the password to get into the Temple of the
+                   Mushroom Cloud?
+
+                A: Look at the walls.
+
+
+                Q: What do I say to Charmaine?
+
+                A: Didn't Faran Brygo send you to see her?
+
+
+                Q: How do I open the secret door?
+
+                A: Use the Sonic Key.  Or else talk to Charmaine.
+
+
+
+        3.6 Sewers
+
+           Hints:
+
+                Use ropes to cross the river and chasm.  Swimming
+                works too, but ropes are much much easier.
+
+                        Courtesy: Marc Sira
+                                  <toh@freenet.victoria.bc.ca>
+
+                Use a shovel to break through all the hollow walls.
+                Explosives work too, but that's kind of wasteful.
+
+                If your party is injured or low on ammo, feel free
+                to leave and come back later after you freshen up.
+
+                Go wild with your conventional ammunition.  After
+                you finish the Sewers SMGs are almost useless and
+                Assualt Rifle ammo is fairly cheap.
+
+                If your weapon is empty you'll use it as a melee
+                weapon.  If you don't have pugilism but you do have
+                a high energy weapons, keep an empty Energy Weapon
+                (likely a laser pistol) on hand.  When you strike
+                with it it'll use your energy weapons skill in
+                determining damage -- not pugilism.  Granted it won't
+                do as much damage as fists and level 6 pugilism, but
+                it'll still do about 40-70 damage per blow with a
+                decent skill level.  Brawling still works no matter
+                what melee weapon you're using.
+
+
+                Q: What do I do with the Servo Motor? the Fusion
+                   Cell? the ROM Board? the Android Head? the Power
+                   Converter? etc...
+
+                A: Save every one of the above that you can find.
+                   They are necessary later on.
+
+
+                Q: What do I do with the table?
+
+                A: Run diagnostics on each section.  You'll find the
+                   necessary parts strewn all over the sewers.  Don't
+                   worry, they're all down there.  Just look.  Make
+                   sure you open up every single passage with your
+                   shovel.
+
+4. Post-Vegas stuff (If you're friends with Max or the Junkmaster,
+   go here)
+        4.1 Equipment
+           4.1.1 Items
+
+                Antitoxin - Can only be used for 1 purpose and 1
+                        purpose only.  Check out the Darwin City bar.
+
+           4.1.2 Weapons
+
+                Ion Beamer - A very powerful weapon.  More economical
+                                on weaker enemies than the Meson
+                                Cannon because it gets 20 shots per
+                                valuable Power Pack.
+                                Use Single shot unless you're in
+                                deep trouble.
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Very Good
+                        DAMAGE  50-80
+                         Burst  50-240
+                         Auto   700-1100
+                        SKILL   Energy Weapons
+                        PRICE   *$17000
+                        AMMO    Power Pack
+                        SHOTS   20
+
+                Meson Cannon - The most powerful weapon in the game.
+                                Always use single shot unless you're
+                                in deep trouble.
+                        RANGE   All
+                        ATTACKS Single/Burst/Auto
+                        ARMOR   Excellent
+                        DAMAGE  80-100
+                         Burst  80-300
+                         Auto   200-700
+                        SKILL   Energy Weapons
+                        PRICE   *$18000
+                        AMMO    Power Pack
+                        SHOTS   10
+                
+
+           4.1.3 Armor
+
+                Pseudo-chitin Armor - 2nd best
+                        AC      10
+                        PRICE   *$5000
+
+                Power Armor - Kicks butt!
+                        AC      14
+                        PRICE   *$30000
+
+
+        4.2 Skills
+
+            IQ 19
+
+		Helicopter Pilot (3) - Hmmm.  I wonder.  Not really
+			useful.  Get Level 1 on	1 person if at all.
+
+            IQ 20
+
+                Toaster Repair (3) - Lets you fix toasters in the
+                        Citadel.  You get some stuff inside the
+                        toasters.  Throw the fixed toaster away -
+                        you can't use it and can't sell it.  Get
+                        Level 1 on 1 person if at all.
+
+            IQ 22
+
+                Clone Tech (3) - Lets you fix the chemical levels in
+                        the cloning machine.  Get Level 1 on 1
+                        person if you're interested in Cloning.
+
+            IQ 24
+
+                Cyborg Tech (3) - Lets you hook up an Android head
+                        to a Virtual Reality machine.  Get Level 1
+                        on 1 person if at all.
+
+        4.3 Sleeper Base
+
+           Hints:
+
+                There's no random encounters, so take all the time
+                you want.
+
+                There's not much fighting at all in Sleeper Base.
+
+
+                Q: Where is Sleeper Base?
+
+                A: You need to either revive Max or befriend the
+                   Junkmaster to find Sleeper Base.  Sleeper Base is
+                   in the NorthEast corner of the Big Map near the
+                   source of the river.
+
+
+                Q: Where do I find all the Secpasses?
+
+                A: Secpass 1 - Pile of debris in the room just
+                        West of the entrance on Level 1.
+
+                   Secpass 3 - Pile of debris in one of the little
+                        rooms South of the main entrance on Level 1.
+
+                   Secpass 7 - On level 3 in a locked desk.
+
+                   Secpass A - Use perception on a desk in the center
+                        North of Level 2.
+
+                   Secpass B - Guardian Citadel or Finster in
+                        Darwin City.
+
+
+                Q: What Secpass do I use to open door x?
+
+                A: There's many doors in Sleeper Base and I'm not
+                   going to mention every single one.  Just try all
+                   the Secpasses you've got.  If it won't open come
+                   back when you find a new Secpass.
+
+
+                Q: How do I break the crystalline wall guarding the
+                   big suits of armor?
+
+                A: Despite what the game says, just blow it up with
+                   Plastic Explosives.  It takes 4, I think.
+
+
+                Q: How do I get past the shiny floor, electricity,
+                   and dead doors without getting roasted?
+
+                A: Disband 1 member of the party to the power
+                   control room.  Turn power off to walk safely past
+                   the electricity.  Turn power on to open doors.
+                   Switch parties with 'v'.
+
+
+                Q: How do I open "The most secure safe door you've
+                   ever laid eyes on"?
+
+                A: Picklock.  Safecrack might work too.
+
+
+                Q: How do I fix the Helicopter Simulator?
+
+                A: Use a ROM board on it.
+
+
+                Q: How do I get in the Helicopter Simulator?
+
+                A: Send 1 person at a time.  High dexterity helps.
+
+
+                Q: How do I make clones?
+
+                A: Go to level 2.  Use a Power Converter on the
+                   broken generator in the NE corner.  Then head to
+                   the room South of the room with the crystalline
+                   walls.  Go to the machine and run Diagnostics.
+                   Use Clone Tech skill (available on level 1) on the
+                   machine. If it didn't work run diagnostics again
+                   and repeat.
+
+                   If it did work select 3) Install manual drainage.
+                   Then use a jug on the machine.  Get the Clone
+                   Fluid and give it to the character you want to
+                   clone.
+
+                   Send the character you want to clone alone into
+                   one of the cloning chambers.  It takes a while to
+                   incubate the clones.  I'm still not sure exactly
+                   how long it takes.
+
+                   When the clone's done release it and you'll get to
+                   name it.  Make sure you've cleared an empty spot
+                   in your party.
+
+                   You can incubate up to 4 different clones at once.
+
+
+        4.4 Darwin City
+
+           Hints:
+
+                Go to the Black Market.  I have no idea what the
+                password is.  Kick their butts and grab their Uzis.
+                Now enter the store and buy any conventional weapon
+                your heart desires.
+
+*********************************************************************
+                Has anyone found the password for the Black Market?
+                Where?
+*********************************************************************
+
+                You need Cyborg Tech to use the android head Virtual
+                Reality gizmo with the android's head.
+
+
+                Q: Can I finally do something with all that **** fruit?
+
+                A: Yes.  Go to the little shack in the middle of the
+                   city.  Find the little table.  Use fruit,
+                   chemical, and Doctor on it to make Antitoxin.
+
+
+                Q: Where can I get chemicals?
+
+                A: There is one chemical in Housekeeping in the
+                   Stagecoach Inn and there are three chemicals on a
+                   table in Ugly's hideout.
+
+                   If you're a meanie, you can also find some
+                   chemicals and even an entire Antitoxin in Spade's
+                   Casino.  Just massacre everyone and search what's
+                   left.
+
+
+                Q: That's great.  Now what do I use Antitoxin for?
+
+                A: Check out the Darwin City bar.
+
+
+                Q: Can I do anything else with Antitoxin?
+
+                A: No, you cannot.
+
+
+                Q: I have Cyborg Tech, but the android's head still
+                   keeps exploding!
+
+                A: You're using the wrong android's head.  Go see
+                   Finster next door.  Then head to the lower level
+                   and free the prisoners.  There's 2 ways to do this:
+
+                        1) Enter Finster's desert world of the future
+                           and leave through the cliff on the West.
+                           Then unlock/destroy the door South of the
+                           elevator.
+
+                        2) Take the elevator to the lower floor.  If
+                           you don't know the password, you'll be
+                           bound and gagged.  Simply use Dexterity to
+                           wriggle out.  Then leave.
+
+                           To find the password, examine the SW cell
+                           in the Quartz Jail.
+
+                   Or else head down to Finster's "future" desert and
+                   kill all his "pets".  Climb up the mounds and open
+                   the hatches with Strength.
+
+                   After that go and see Finster again.  He'll be
+                   pretty pissed :)
+
+
+                Q: I have Cyborg Tech.  I used the correct head, but
+                   I still didn't log on!
+
+                A: Try again.
+
+
+                Q: OK.  I'm in the Virtual Reality place.  But I'm
+                   stuck!
+
+                A: Have no fear, the FAQ is here!
+
+                   DO NOT READ THIS IF YOU WANT TO FIGURE OUT THE
+                   HARDEST PUZZLES IN ALL OF WASTELAND BY YOURSELF!
+
+                   I though you'd still be here :)
+
+                   32
+                   512
+                   You don't need to kill the Night Terror, but he's
+                        a lot of free experience.  Take as much time
+                        as you like to kill him -- he won't hit you!
+                   20
+                   Walk around until you're in the NW corner.  Then
+                        use IQ on yourself until you're in the SW
+                        corner.  Then head East.
+                   FINSTER
+                   Kill the spider
+                   Use IQ on the Web
+                   NOTHING
+                   Next you have to play baseball.  I always hit
+                        homeruns so I don't know what to do if you
+                        fail.  I've heard you can use Luck and
+                        Charisma to get out of the showers, but I
+                        have not been able to verify it.  Save
+                        before entering.
+                        (Save State under ApplePC works great)
+                   Use STRENGTH to break the fragile wall
+                   Kill the dude
+                   Take his stuff
+                   Use STRENGTH to break the next fragile wall
+                   Walk around the room
+                   Take the Head
+                   ICEBERG
+                   Go left.  (I don't think it matters)
+                   Use IQ on yourself 3 times
+                   Thrash Finster Leviathan
+                   Take Secpass B
+                   Jump down the hole
+
+
+                Q: I entered the Virtual Reality part and I realize
+                   I'm not prepared to solve it.  Can I leave and
+                   come back?
+
+                A: You can if you haven't gotten too far yet.  I
+                   suppose I'd recommend just saving before you enter
+                   (ApplePC save state works well)
+
+
+        4.5 Guardian Citadel
+
+           Hints:
+
+                The Citadel is a LOT LOT easier if you take out the
+                Sewer and Sleeper Base first.  Don't say I didn't
+                warn you.
+
+                If you have high enough Luck and Dexterity (25+) you
+                can conquer the Citadel with Assault Rifles alone!
+                Just go full-auto every round and you'll roast
+                everything in 1 or 2 rounds.  More than 50% of the
+                battles can be resolved with one 7.62mm clip if
+                you've got a very good marksman.  If you sell 1 RPG-7
+                you can buy 83 clips -- more than enough to conquer
+                the entire Citadel.  If your aim's not THAT good, you
+                can still do considerable damage with assault rifles
+                and finish the job with an Energy Weapon or 2.  Save
+                those power packs.
+
+                Many Guardians rely solely on armor to survive; they
+                have surprisingly low Hit Points once you pierce
+                their armor.  I've killed some of them by doing only
+                7 damage!
+
+                Beware that the Guardians on the 3rd level are
+                significantly more powerful than the rest.
+
+                There are NO RANDOM ENCOUNTERS in the Citadel!  Feel
+                free to leave any time to get healed/stock up on ammo
+
+                You can only obtain power packs by finding them.  You
+                cannot make them nor buy them anywhere in the game.
+                (see cheats)
+
+                You can sell power packs and buy them back later.
+                (see cheats)
+
+                Make sure you get all 4 special keys: Pulsar, Quasar,
+                Blackstar, and Nova.
+
+                Use perception on anything that looks suspect.
+
+
+                Q: How do I open the vault in the first section?
+
+                A: Safecrack.  Level 1 works just fine :)
+
+                   Picklock will work too, but with a high level the
+                   probability is still pretty low.
+
+
+                Q: How can I avoid the traps in the vault?
+
+                A: Leave at least 1 item in each treasure bag.  I
+                   suggest a 7.72mm Clip or a Power Pack.
+
+
+                Q: How do I open the display cases in the museum?
+
+                A: Picklock.
+
+
+                Q: How do I open the portcullus as the top of the
+                   stairs?
+
+                A: Just West of the stairs there's a door.  Go in the
+                   door and use Strength on the wheel/chain.  A 20+
+                   Strength helps a lot.  18 Strength will work, but
+                   it's a pain.
+
+
+                Q: How do I board the helicopter?
+
+                A: You need someone with Helicopter Pilot skill from
+                   Sleeper Base.
+
+
+                Q: Is anything hidden in the Citadel?
+
+                A: Look carefully through the 2nd room West of the
+                   stairs.  Lots of useful stuff.  Use Perception on
+                   the desks.
+
+
+                Q: How do I open the vault upstairs?
+
+                A: Look carefully at all the beds in the Inner
+                   Sanctum.  Or else search the desk 2 rooms to the
+                   West.
+
+                
+                Q: Where's the Blackstar Key?
+
+                A: Use perception on the Altar in the Inner Sanctum.
+
+
+        4.6 Savage Village
+
+           Hints:
+
+                There are 2 possible ways to use Savage Village:
+
+                        1) Early on in the game slaughter everyone
+                           and get a load of assault rifles/ammo.
+
+                        2) After the Citadel use it to reveal Sleeper
+                           Base and Base Cochise instead of using the
+                           Sewers.
+
+                           Then you can kill everyone :)
+		
+                Personally, I prefer method 1.  The Sewers work just
+                fine plus give you your first taste of decent energy
+                weapons, Laser Rifles.  Then you can build strength
+                in Sleeper Base before cracking the Citadel.
+
+                You don't need Redhawk to please the Junkmaster.
+                He'll accept the Grazer Bat Fetish too.  (it's in the
+                museum)
+
+
+                Q: What's the password?
+
+                A: REDHAWK is all the passwords.
+
+
+                Q: Should I drop my weapons?
+
+                A: Yes, they're just checking.  They don't really
+                   take your weapons.
+
+
+                Q: How do I get out of the well?
+
+                A: Doh!  Climb skill.
+
+
+                Q: Is anything hidden in Savage Village?
+
+                A: Not really.  Everything's pretty much out in the
+                   open.
+
+
+        4.7 Base Cochise
+
+           Hints:
+
+                To find Base Cochise either use the Helicopter in the
+                Citadel or search for a map in Sleeper Base (tells
+                you to read a paragraph).  The map is referring to
+                location relative to *Sleeper Base*, NOT Darwin City.
+
+                If you enter Base Cochise via Helicopter make certain
+                you have Secpass B and take a rope with you.  Also
+                when you enter via helicopter it kills almost all the
+                enemies outside the base.  Personally, I prefer
+                getting the experience from the fights.  Plus when
+                you enter by helicopter it shows the wrong location
+                on the Big Map to purposely mislead you.  When you
+                exit Base Cochise you exit from a different place.
+
+                Personally, I walk and kick some tail! (You still
+                need Secpass B)
+
+                Take a large amount of powerful explosives with you.
+
+                Again, if your Luck and Dexterity are high enough you
+                can even defeat Base Cochise with assault rifles
+                alone.  By now those 7.62mm clips should seem cheap
+                as dirt, so don't worry about wasting money on them.
+
+                Wait for nighttime (18:00 to 6:00) before solving
+                Level 5.  You know what that means!
+
+
+                Q: How do I get past the Southernmost door at the
+                   perimeter of Base Cochise?
+
+                A: Good old fashioned Boom Boom. (Explosives, for the
+                   clueless)
+
+
+                Q: I entered via Helicopter.  I can't go anywhere!
+
+                A: Blast open one of the partially retracted thingies
+                   (the round things at the center).  Then toss down
+                   a rope and use Climb.
+
+                   Take the treasure before you leave.
+
+
+                Q: What should I type into the computer past the
+                   escalators?
+
+                A: Whatever you do, don't type BREAK.  It'll put you
+                   in a very bad position to cross a pit.
+
+
+                Q: After the escalators, where can I go?
+
+                A: Search the Eastern wall very carefully.
+
+
+                Q: OK, I got to the 4th level. What do I do?
+
+                A: Go in each one of the "Vaults" and complete the
+                   little quest.  The pipes and the weather work best
+                   if you only send in 1 character.  They're all
+                   pretty easy.
+
+
+                Q: How do I open the 4 doors on the lower level?
+
+                A: No keys work.  Blast 'em.  Use Plastic Explosives
+                   or Rockets.
+
+
+                Q: How do I get past the "indestructible" walls on
+                   level 5?
+
+                A: Send someone to fix the machine in the NW corner.
+                   He'll need explosives and a power coupler.
+
+
+                Q: How do I get past the conveyor belt on level 5?
+
+                A: Destroy the fragile machinery in the Northern part
+                   of the room.
+
+
+                Q: I got to the 4 corners but I can't seem to get any
+                   farther.
+
+                A: You must disband 4 parties -- 1 to each corner.
+
+
+                Q: Which keys go where and in what order do I press
+                   the buttons?
+
+                A: Did you think I was going to solve the WHOLE game
+                   for you?
+
+                   It's pretty easy to figure out which keys go
+                   where -- trial and error.
+
+                   Also it's pretty easy to figure out the
+                   destruction sequence.  I'll give you these clues:
+
+                        1) The game TELLS you what colors to use, if
+                           you paid attention.
+
+                        2) The order is not circular.
+
+
+                Q: OK, I've got a live nuclear weapon sitting under
+                   my nose.  How the heck do I get out without
+                   becoming part of the stratosphere?
+                   (It looks pretty cool, by the way.  You should try
+                   it sometime)
+
+                A: Time is very important.  Combine your 4 parties as
+                   efficiently as you can.  Then head for an escape
+                   pod a few squares North of the center ladder.
+
+
+                Q: Is anything hidden in Base Cochise?
+
+                A: On the 3rd Level (after escalators, before vaults)
+                   send the platform across the radioactive pit.
+                   Then head across to a room with a bunch of robot
+                   generators.  Pick the locks.  One of them should
+                   say "BREAK IN PROGRAM >".  Type "RUN" and select
+                   type admin.  This will create VAX, far and away
+                   the best NPC in the game.  Hire him, don't kill
+
+	After you solve the game, Radio for a pleasant surprise.
+
+
+5. Which Paragraphs are Real (mostly complete)
+
+		Ag. Center: 6,56,84
+
+		Nomad Camp: 2, 3, 28, 39, 43, 46, 54, 56, 110, 117,
+			128, 141, 152, 156, 160
+
+                Quartz: 10, 23, 26, 35, 49, 57, 107, 109, 126, 147,
+                        155
+
+		Needles: 29, 37, 60, 61, 66, 77, 103, 104, 111, 112,
+			124, 127, 136, 150, 158
+
+		Las Vegas: 7, 15, 21, 65, 71, 76, 83, 96, 99, 129
+
+		Sleeper Base: 40, 52, 63, 70, 90, 91, 100, 101
+
+		Darwin City: 14, 80
+
+		Savage Village: 30
+
+		Citadel: 20, 85, 162
+
+		Base Cochise: 47, 79, 118, 130
+
+6. Cheating
+
+        You really thought there was such a thing as a CRPG you can't
+        cheat at?  Not a chance.  You just need to be a little
+        creative for Wasteland because the programmers did a good job
+        trying to stop people from cheating.
+
+        This section makes the game a little too easy, so I'd
+        recommend against it the first time you play.  It'd just
+        defeat the fun of the wonderful game.
+
+	However after you solve the game, go wild the next time!
+
+
+	6.1 Disk Switching
+
+                Enter an area with a copy of the original disk, then
+                place another copy in the drive after the area is
+                loaded.  Do what you want, take all the treasure you
+                want, hire whoever you want, kill whomever you want,
+                then leave.  The stuff will be saved as modified on
+                the disk you placed in the drive BUT THE FIRST DISK
+                WILL BE UNCHANGED.
+
+                You can just place the first disk in the drive and
+                repeat the process.  An easy way to rack up items,
+                cash, allies, and experience.
+
+                It saves what you buy and sell too.  The stores
+                rarely run out of things they're originally stocked
+                with, but if you sell them 2 power packs they only
+                have 2 power packs in stock for you to buy again
+                later.
+
+                But if you are creative with the disk-switching
+                technique you can work around this too.
+
+	6.2 Negative Skill Point Cheat
+
+                If you go to a library and a skill requires 255 SKP
+                for the next level, there's a bug in the program that
+                treats it as a NEGATIVE 1!
+
+                Just hit the key as if you were trying to get level 1
+                It'll raise your skill level by 1 and give you a
+                skill point in return.
+
+                So you gain a skill point for getting a skill level!
+
+                Note: You need to have at least as many SKP as it
+                        takes to get level 1 in the skill for this
+                        to work.  Always keep 3 SKP on hand and it's
+                        not a problem.
+
+                Note: Your skill level can never be higher than your
+                        experience level, so there is a limit on how
+                        high you can go.  Conversely, remember to
+                        take a trip to the Library after you get
+                        a few promotions.  VERY important thing to
+                        keep in mind when using low level characters.
+
+                Note: Because this bug likely comes from a problem
+                        with signed vs. unsigned arithmetic, when you
+                        have 127 SKP the computer thinks you actually
+                        have -1 SKP which is less than the
+                        requirement for level 1, so the cheat stops
+                        working until you spend some SKP.  If you
+                        want to raise a skill that takes 128 or 192
+                        SKP you need to get the skill points by
+                        getting some promotions and raising IQ.
+
+                I'll use energy weapons as my example.  Level 1 takes
+                3 skill points.  Every level doubles the previous
+                requirement, so level 2 takes 6, 3 takes 12, etc...
+                But what if you want level 8 Energy Weapons?  It
+                would take 384 skill points, but the Apple // can't
+                count that high on one register.  You can achieve
+                Level 7 by fighting and using the skill, but not Level 8.
+
+                To get level 8 go to a Library.  It'll say you need
+                255 Skill Points to go up another level.  It's lying.
+                If you try to increase your level the register loops
+                around to a negative and you actually GET ANOTHER
+                SKILL POINT FOR GOING UP A LEVEL.  Your skill level
+                can never be higher than your experience level so
+                don't be frightened when the process stops.  Just go
+                kill some more, radio, then try again.
+
+                It's very hard to get Pugilism and Brawling to
+                Level 8.  You might just want to spend the Skill
+                Points.
+
+                Note: You can raise Brawling/Pugilism to Level 8 on
+                        Level 5 of Base Cochise with all those little
+                        Robots popping out of the floor.  But it's
+                        tricky.  It checks Brawling first, then
+                        Pugilism.  If you've got good Brawling, it
+                        will never even test Pugilism.
+
+                Also you might want to get some useless skills that
+                are easy to raise in level so you can spend negative
+                skill points in the library on them :)
+
+                One use of a Laser Pistol is to fight a powerful
+                enemy and keep going full auto at it with the Laser
+                Pistol.  You won't hurt it, but it will raise your
+                Energy Weapons.
+
+                You can start the Negative Skill Points Cheat early
+                on as soon as you get Level 9 characters.  Go to
+                Fat Freddy and get a quick $1000 by offering your
+                services.  He doesn't know that you won't make good
+                on your promise for some time.  Go to a Library and
+                get Gambling Level 1 on a lucky character.  Then head
+                for Nomad's Camp and go to the Casino Car.  Keep
+                betting until you've got Level 8 Gambling.  Then go
+                to a library and the process has started.
+
+
+	6.3 Infinite Money
+
+                At the start of the game each character starts with
+                piddly cash and some cheap equipment.  For a head-
+                start make a bunch of characters and trade the
+                pistols to the first guy and have him P)ool cash.
+                Then delete the losers and do it over again.  When
+                the first guy's inventory is full of pistols save the
+                game and create a band of some more losers to take
+                with him.  You can use a similar technique on each
+                one to rake in even more cash if you've got the time.
+                Then make a mad dash to Quartz.  There's a store in
+                the South-West corner.
+
+		Sell EVERYTHING.
+
+                P)ool all cash to one character then return to the
+                Ranger Center.  Don't worry if one of them dies.
+
+                Delete all the characters except the one with the
+                dough, then make your first REAL character.  Give him
+                all the money and delete the old guy.  Then create
+                the rest of your party.  Not an immense boost but
+                it'll give you about $10,000 each repetition.
+
+                Later on you can use the disk-swapping method to
+                bring in major money with expensive equipment.
+
+        6.4 Apple // Supercharacter walk-through
+
+                To get XP I used to go through the Citadel.
+
+                The perimeter of Base Cochise works much better.
+
+                But here's my secret: Night Terror.  Just use disk
+                switching and kill him over and over again.  Each
+                time is 64,000 XP, more than slaughtering the
+                entire Citadel.
+
+                However to do it efficiently you need to almost have
+                solved the game.  On the bottom level of Base Cochise
+                there's a room with robots in the floor that
+                challange your brawling first, pugilism second if
+                brawling fails.
+
+                You can get level 8 in both if you do it enough
+                times.  I highly recommend having at least level 6
+                before trying it.  Get pugilism by killing everything
+                in the Citadel with your fists.  Get brawling by
+                doing likewise with a chainsaw.  Always use the
+                lowest skill level characters to do it.
+
+                If you don't the high level ones will always kill the
+                enemy before the lower level guys have a chance to
+                raise their levels.
+
+                Once you go to a library and see a skill require 255
+                skp to go up a level you're home free.  If you've got
+                enough skp to get level 1 in that skill (3 for energy
+                weapons) then you can raise the skill up levels until
+                it reaches your experience level, each time getting a
+                skill point in return.
+
+                An example.  Get level 7 Energy weapons by torching
+                Brother Goliath (the first guardian) with laser
+                pistols repeatedly.  He'll likely never get hurt.
+                Go full-auto on him over and over again until you hit
+                level 7.  Then give the next character a try.
+
+                OK.  Now head to a library.  The next level should
+                take 384 skp, but only 1 byte is used to represent it
+                so it maxes out at 255.  Suppose you have 0 skp and
+                experience level 14.  Select the skill and it will
+                say "Not Enough Skill Points"
+
+                Get that character up 2 levels and give him 3 IQ.
+                Now he's level 16.
+
+                Now go back to the library and try again.  You'll
+                get level 8 Energy Weapons and have *4* skp.  Keep
+                doing it and you'll end with level 16 energy weapons
+                and *12* skp.
+
+                You can do this with any skill.  The trick is finding
+                a skill that can be raised to the critical level this
+                way.  I have found 4.  In order of ease to do it:
+                gambling, energy weapons, brawling, and pugilism.
+
+                You could probably also do it with Assault weapons
+                and SMG.
+
+                Gambling is REALLY easy to do this with, but it'll
+                cost you about $1000 depending on your Luck.
+
+                Get gambling level 1.  Go to the Nomad's camp.  Find
+                the casino car and enter it (in the back).  Keep
+                gambling until you hit level 8.  It took my
+                characters about 2 minutes a piece, but they had 40
+                luck at the time.
+
+                Anyway, after you get level 8 brawling, raise it as
+                high as it can go.  Then equip a chainsaw, or
+                preferably a proton ax.  If you have Level 8+
+                pugilism screw weapons and use your fists.  Now
+                you'll hurt that darn Night Terror pretty good!
+                (And just about anything else in the game as well)
+
+        6.5 Super Loot Bag Cheat
+
+                The Super Loot Bag cheat is a method where you can
+                supposedly get a loot bag containing a great number
+                of every item in the game.  Included in the bag are
+                a Red Ryder Rifle that does tremendous damage and
+                an armor that has an AC127.
+
+                It is quite possible indeed that this cheat does
+                exist.  Unfortunately I have been unable to verify
+                its existance, personally.  You are free to try and
+                I would be very interested if it works.
+
+                This definitely does SOMETHING, and I feel I've
+                almost gotten it to work.  I think I'm just missing
+                a single step.
+
+                Here's the cheat to the best of my knowledge:
+
+                        1) Go to either the Acapulco Club in Needles
+                           or Fat Freddy's in Las Vegas.
+
+                        2) Disband a single character and gamble
+                           until he/she wins, but do NOT pick up
+                           the cash.
+
+                        3) Move the character to another seat and
+                           gamble again until you win, but don't take
+                           the cash.
+
+                        4) Go back to the first loot bag and take the
+                           money.
+
+                        5) Drop an item.  It can be anything; try a
+                           clip of ammo.
+
+                        6) Walk over to the other bag and when it
+                           locks up press down and then hit escape.
+
+                        7) If the cheat worked, the previously empty
+                           loot bag is filled with goodies.
+
+                Obviously I'm having trouble with step 7 :(
+
+                At step 6 the bag appears just like a normal loot bag
+                with the sole exception that there is absolutely
+                nothing in it.
+
+                So hitting down and escape does nothing.
+
+************************************************************
+I'd welcome any help in getting this cheat to work properly!
+************************************************************
+
+
+7. Revision History
+
+        12-16-1995, by Stephen Sedmak <sedmaks@odo.msoe.edu>
+                Hey!  It exists!
+
+        01-10-1996, by Chris Baer <chbaer@cris.com>
+                Doubled the Q&A section, added several comments,
+                introduced a partial account of real paragraphs,
+                and introduced the "Legal Fine Print" section.
+
+        02-25-1996, by Stephen Sedmak <sedmaks@odo.msoe.edu>
+                A total rework of the entire FAQ.  Split into
+                multiple sections and multiplied several times
+                the total amount of Wasteland-related info.
+
+        02-27-1996, by Chris Baer <chbaer@cris.com>
+                A maintenance release available only via WWW.
+                Mainly corrected some errors in the 02-25-1996
+                version of the FAQ.
+
+        03-31-1996, by Stephen Sedmak <sedmaks@odo.msoe.edu>
+                A semi-major revision, mainly adding statistics
+                for all the weapons and armor.  Also decided
+                to add the Supercharacter Walk-Through I created
+                in 1/96.  This is NOT an update to the 02-27-1996
+                version, rather the 02-25-1996 version.  Changes
+                from the 02-27-1996 version were added indirectly.
+                Some e-mail comments by Chris Baer were pasted
+                into the FAQ.
+
+8. In planning for future versions
+
+        We don't really have any more changes in mind at this time.
+
+        I started gathering stats on the enemies but it was far too
+        time consuming.  Hey, I *do* have a life beyond Wasteland,
+        you know :)
+
+        If something comes up we may find the time to do a small
+        revision in the future.
+
+9. Additional Legal Fine Print Which Does Apply To You.
+
+	THIS DOCUMENT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND
+EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED 
+WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE 
+ENTIRE RISK AS TO THE RESULTS AND PERFORMANCE OF THIS DOCUMENT IS 
+ASSUMED BY YOU.
+
+	ALL COPYRIGHTS CONTAINED HEREIN ARE THE PROPERTY OF THEIR 
+RESPECTIVE OWNERS.
+
+	HAVE A NICE DAY.
+
+This FAQ may be freely uploaded and distributed provided that no
+information is changed and no fees beyond those associated with
+transmission and duplication are charged for its use.
+
+
