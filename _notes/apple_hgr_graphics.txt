@@ -1,0 +1,31 @@
+			APPLE HGR GRAPHCS
+
+------------------------------------------------------------------------------
+
+Clear and show the high resolution graphics (HGR) page
+HGR 
+
+Clear and show the HGR2 graphics page
+HGR2 
+
+To show show the HGR page withut clearing 
+POKE -16297,0: POKE -16302,0: POKE -16304,0: POKE -16300,0
+
+To save the HGR screen, starting at memory location $2000, for a length of $1FF8
+BSAVE <filename>, A$2000, L$1FF8
+
+To BSAVE the HGR2 screen, starting at memory location $4000, for a length of $1FF8
+BSAVE <filename>, A$4000, L$1FF8
+
+$L2000  Length $2000  ?
+
+To show HGR picture
+HGR
+POKE -16302,0
+BLOAD <filename>, A$2000
+
+To create a negative of HGR
+FOR I = 8192 TO 16383: POKE I, 255 - PEEK(I): NEXT I
+
+To create a negative of HGR2
+FOR I = 16384 TO 24575: POKE I, 255 - PEEK(I): NEXT I
