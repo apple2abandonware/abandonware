@@ -13,10 +13,11 @@ http://mirrors.apple2.org.za/ftp.apple.asimov.net/emulators/rom_images/apple2_ro
 2) Software download (and upload)
 
 Best sites for disk image download are:
-http://apple2online.com
-http://www.virtualapple.org
 https://archive.org/details/apple_ii_library_4am
 https://archive.org/details/softwarelibrary_apple
+http://www.virtualapple.org
+http://apple2online.com
+https://www.myabandonware.com
 
 The grandaddy of Apple ][ image sites, and still the definitive:
 http://mirrors.apple2.org.za/ftp.apple.asimov.net/
@@ -30,6 +31,7 @@ Open anonymous FTP connection to ftp.apple.asimov.net, then upload to pub/apple_
 Best sites for software art and documentation are:
 https://www.mocagh.org/
 https://www.mobygames.com/
+http://www.applearchives.com
 
 
 4) For owners of actual Apple ][
