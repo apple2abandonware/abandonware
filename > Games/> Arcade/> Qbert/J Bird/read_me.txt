@@ -1,0 +1,1 @@
+with J-Bird, you must press RESET to begin game.
