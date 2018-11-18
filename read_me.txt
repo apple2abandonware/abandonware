@@ -10,7 +10,7 @@ You will need Apple ][ ROMs, which can be found on Asimov here:
 http://mirrors.apple2.org.za/ftp.apple.asimov.net/emulators/rom_images/apple2_roms.zip
 
 
-2) Software download (and upload)
+2) Software download
 
 Best sites for disk image download are:
 https://archive.org/details/apple_ii_library_4am
@@ -24,6 +24,9 @@ http://mirrors.apple2.org.za/ftp.apple.asimov.net/
 
 To upload disk images to Asimov:
 Open anonymous FTP connection to ftp.apple.asimov.net, then upload to pub/apple_II/incoming
+
+
+Special thanks to 4AM, San Inc, and Clean Crack
 
 
 3) Documentation
