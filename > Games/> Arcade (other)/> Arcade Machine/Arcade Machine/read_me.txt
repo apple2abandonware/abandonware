@@ -1,1 +1,2 @@
-use ctrl-m to get to main menu for arcade editing
+Krakowicz Arcade Machine Crack. Unlike other cracks this one allows to
+create brunnable versions of the game.
