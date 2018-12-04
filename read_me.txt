@@ -26,7 +26,7 @@ To upload disk images to Asimov:
 Open anonymous FTP connection to ftp.apple.asimov.net, then upload to pub/apple_II/incoming
 
 
-Special thanks to 4AM, San Inc, and Clean Crack
+Special thanks to 4AM, San Inc, 3D0G Knight, and Clean Crack.
 
 
 3) Documentation
@@ -48,5 +48,5 @@ https://www.reactivemicro.com/shop/
 https://www.ultimateapple2.com
 https://www.ebluejay.com/store/Apple2OnlineStore
 
-As for your cables, here:
+For your cables, try here:
 http://iec.net/?s=Apple&post_type=product
