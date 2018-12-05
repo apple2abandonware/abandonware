@@ -25,8 +25,15 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Miscellaneous/hello_binary.dsk
 ./> Miscellaneous/bootstrap.dsk
 ./> Miscellaneous/soft_seventy.dsk
-./> Text/The Anarchist Cookbook/anarchist_cookbook.dsk
-./> Text/The Alchemist's Handbook/alchemist_handbook.dsk
+./> Text/Anarchist Cookbook/anarchist_cookbook.dsk
+./> Text/Solar System Database/solar_system_database_1b.dsk
+./> Text/Solar System Database/solar_system_database_1a.dsk
+./> Text/Bush Ranger Database/bush_rangers_database_1.dsk
+./> Text/Bush Ranger Database/bush_rangers_database_3.dsk
+./> Text/Bush Ranger Database/bush_rangers_database_2.dsk
+./> Text/Alchemist's Handbook/alchemist_handbook.dsk
+./> Text/Explorer Database/explorer_database_1b.dsk
+./> Text/Explorer Database/explorer_database_1a.dsk
 ./> Personality/Brain Game/brain_game_1b.dsk
 ./> Personality/Brain Game/brain_game_1a.dsk
 ./> Personality/Mind Prober/mind_prober_1a.dsk
@@ -76,83 +83,95 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Fighting/Prince of Persia/prince_of_persia_1a.dsk
 ./> Games/> Fighting/Prince of Persia/prince_of_persia_1b.dsk
 ./> Games/> Fighting/Karate Championship/karate_championship.dsk
+./> Games/> Fighting/Karate Champ/karate_champ.dsk
 ./> Games/> Fighting/Kung Fu Master/kung_fu_master.dsk
 ./> Games/> Fighting/Death Sword/death_sword.dsk
 ./> Games/> Fighting/Law of the West/law_of_the_west.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Mines of Titan/mines_of_titan_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Mines of Titan/mines_of_titan_1b_player.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Centauri Alliance/centauri_alliance_2a_scenario_1.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Centauri Alliance/centauri_alliance_3b_scenario_4.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Centauri Alliance/centauri_alliance_3a_scenario_3.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Centauri Alliance/centauri_alliance_2b_scenario_2.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Centauri Alliance/centauri_alliance_1b_roster.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Centauri Alliance/centauri_alliance_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dragon Wars/dragon_wars_1b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dragon Wars/dragon_wars_1a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dragon Wars/dragon_wars_3b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dragon Wars/dragon_wars_3a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dragon Wars/dragon_wars_2a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dragon Wars/dragon_wars_2b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry I - Proving Grounds/wizardry_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry I - Proving Grounds/wizardry_1b_scenario.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylgamyn_1b_scenario.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylgamyn_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry II - Knight of Diamonds/knight_of_diamonds_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry II - Knight of Diamonds/knight_of_diamonds_1b_scenario.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_2a_disk_c.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_1a_disk_a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_3b_disk_f.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_4b_disk_h.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_4a_disk_g.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_3a_disk_e.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_1b_disk_b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_5_disk_i.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_2b_disk_d.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Might and Magic/might_and_magic_1a_side_a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Might and Magic/might_and_magic_2a_side_c.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Might and Magic/might_and_magic_2b_side_d.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Might and Magic/might_and_magic_1b_side_b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dark Heart of Uukrul/dark_heart_of_uukrul_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dark Heart of Uukrul/dark_heart_of_uukrul_1b_archive.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dark Heart of Uukrul/dark_heart_of_uukrul_2b_scenario_b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Dark Heart of Uukrul/dark_heart_of_uukrul_2a_scenario_a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_2a_side_3.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_4b_side_8.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_4a_side_7.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_1a_side_1.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_3b_side_6.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_3a_side_5.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_1b_side_2.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_save.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_2b_side_4.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_3a_side_3.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_4b_side_6.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_2b_side_2.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_1b_save.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_2a_side_1.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_3b_side_4.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_4a_side_5.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_1a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_1b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_2b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_2a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_2_dungeon.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1b_blank_character.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1b_character.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_1a_boot.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_2b_dungeon_b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_2a_dungeon_a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_1b_character.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Alternate Reality/The City/> Utilities/the_city_util.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Alternate Reality/The City/the_city_char.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Alternate Reality/The City/the_city_1b.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Alternate Reality/The City/the_city_1a.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Legacy of the Ancients/legacy_of_the_ancients_2b_side4.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Legacy of the Ancients/legacy_of_the_ancients_1a_side1.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Legacy of the Ancients/legacy_of_the_ancients_1b_side2.dsk
-./> Games/> Adventure (graphic)/> Maze role-play/Legacy of the Ancients/legacy_of_the_ancients_2a_side3.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Creator/adventure_creator.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Master/adventure_master_1a.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Master/adventure_master_1b.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Construction Set/adventure_construction_set_2a.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Construction Set/adventures/land_of_adventuria.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Construction Set/adventures/escape_from_reality.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Construction Set/adventures/rivers_of_light.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Construction Set/adventures/quick_death.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Construction Set/adventure_construction_set_2b.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Construction Set/adventure_construction_set_1b.dsk
+./> Games/> Adventure (graphic)/> Adventure creation/Adventure Construction Set/adventure_construction_set_1a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Mines of Titan/mines_of_titan_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Mines of Titan/mines_of_titan_1b_player.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_2a_scenario_1.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_3b_scenario_4.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_3a_scenario_3.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_2b_scenario_2.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_1b_roster.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dragon Wars/dragon_wars_1b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dragon Wars/dragon_wars_1a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dragon Wars/dragon_wars_3b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dragon Wars/dragon_wars_3a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dragon Wars/dragon_wars_2a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dragon Wars/dragon_wars_2b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry I - Proving Grounds/wizardry_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry I - Proving Grounds/wizardry_1b_scenario.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylgamyn_1b_scenario.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylgamyn_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry II - Knight of Diamonds/knight_of_diamonds_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry II - Knight of Diamonds/knight_of_diamonds_1b_scenario.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_2a_disk_c.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_1a_disk_a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_3b_disk_f.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_4b_disk_h.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_4a_disk_g.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_3a_disk_e.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_1b_disk_b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_5_disk_i.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Wizardry/Wizardry IV - Heart of Maelstrom/heart_of_maelstrom_2b_disk_d.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Might and Magic/might_and_magic_1a_side_a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Might and Magic/might_and_magic_2a_side_c.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Might and Magic/might_and_magic_2b_side_d.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Might and Magic/might_and_magic_1b_side_b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dark Heart of Uukrul/dark_heart_of_uukrul_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dark Heart of Uukrul/dark_heart_of_uukrul_1b_archive.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dark Heart of Uukrul/dark_heart_of_uukrul_2b_scenario_b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Dark Heart of Uukrul/dark_heart_of_uukrul_2a_scenario_a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_2a_side_3.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_4b_side_8.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_4a_side_7.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_1a_side_1.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_3b_side_6.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_3a_side_5.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_1b_side_2.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_save.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_2b_side_4.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_3a_side_3.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_4b_side_6.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_2b_side_2.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_1b_save.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_2a_side_1.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_3b_side_4.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_4a_side_5.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_1a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_1b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_2b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_2a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_2_dungeon.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1b_blank_character.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1b_character.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_1a_boot.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_2b_dungeon_b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_2a_dungeon_a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_1b_character.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Alternate Reality/The City/> Utilities/the_city_util.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Alternate Reality/The City/the_city_char.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Alternate Reality/The City/the_city_1b.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Alternate Reality/The City/the_city_1a.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Legacy of the Ancients/legacy_of_the_ancients_2b_side4.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Legacy of the Ancients/legacy_of_the_ancients_1a_side1.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Legacy of the Ancients/legacy_of_the_ancients_1b_side2.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Legacy of the Ancients/legacy_of_the_ancients_2a_side3.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/AD 2400/ad_2400_1b_player_blank.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/AD 2400/ad_2400_1a_game.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/AD 2400/ad_2400_1b_player.dsk
@@ -164,6 +183,10 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Adventure (graphic)/> World fantasy/Wasteland/wasteland_2a_side1.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Expedition Amazon/expedition_amazon_1b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Expedition Amazon/expedition_amazon_1a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Legend of Blacksilver/legend_of_blacksilver_2b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Legend of Blacksilver/legend_of_blacksilver_2a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Legend of Blacksilver/legend_of_blacksilver_1a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Legend of Blacksilver/legend_of_blacksilver_1b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Eternal Dagger/eternal_dagger_1a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Eternal Dagger/eternal_dagger_1b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Odyssey/odyssey.dsk
@@ -210,6 +233,12 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Adventure (graphic)/> World fantasy/Moebius/Moebius I/moebius_2d.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Moebius/Moebius I/moebius_1a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Moebius/Moebius I/moebius_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Shard of Spring/Shard of Spring I/shard_of_spring_v1.1_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Shard of Spring/Shard of Spring I/shard_of_spring_v1.1_1a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Shard of Spring/Shard of Spring II - Demon's Winter /demons_winter_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Shard of Spring/Shard of Spring II - Demon's Winter /demons_winter_1a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Shard of Spring/Shard of Spring II - Demon's Winter /demons_winter_2a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Shard of Spring/Shard of Spring II - Demon's Winter /demons_winter_2b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Questron/Questron I/questron_i_2_disk_2.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Questron/Questron I/questron_i_1b_disk_1.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Questron/Questron I/questron_i_1a_disk_0_boot.dsk
@@ -220,6 +249,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Adventure (graphic)/> World fantasy/Knights of Legend/knights_of_legend_4b_a6.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Knights of Legend/knights_of_legend_3a_a3.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Knights of Legend/knights_of_legend_1a_master_disk_ma.dsk
+./> Games/> Adventure (graphic)/> World fantasy/Knights of Legend/knights_of_legend_empty_character.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Knights of Legend/knights_of_legend_1b_master_disk_mb.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Knights of Legend/knights_of_legend_4a_a5.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Knights of Legend/knights_of_legend_2b_a2.dsk
@@ -227,47 +257,39 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Adventure (graphic)/> World fantasy/Times of Lore/times_of_lore_1a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Times of Lore/times_of_lore_1b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/Fortress of the Witch King/fortress_of_the_witch_king.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest III - Morloc's Tower/morlocs_tower.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest V - Sorcerer of Siva/sorcerer_of_siva.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/> Expansions/Expansion I - Upper Reaches of Apshai/upper_reaches_of_apshai.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/temple_of_apshai.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Temple of Apshai - 2nd Release/temple_of_apshai_r2.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest IV - Hellfire Warrior/> Expansions/Expansions II - Danger in Drindisti/danger_in_drindisti.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest IV - Hellfire Warrior/> Expansions/Expansion I - Keys of Acheron/keys_of_acheron.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest IV - Hellfire Warrior/hellfire_warrior.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest II - Datestones of Ryn/datestones_of_ryn.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest VI - Temple of Apshai Trilogy/temple_of_apshai_trilogy.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/>> Compilations/temple_of_apshai+datestones_of_ryn+morlocs_tower.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/>> Compilations/hellfire_warrior+sorcerer_of_siva.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Starquest/Starquest I - Rescue at Rigel/Rescue at Rigel/rescue_at_rigel.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Starquest/Starquest II - Star Warrior/star_warrior.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Starquest/>> Compilations/rescue_at_rigel+star_warrior.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Age of Adventure/Ali Baba/ali_baba.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Age of Adventure/Return of Heracles/return_of_heracles.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Sword of Kadash/sword_of_kadash_1b_master_character.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Sword of Kadash/sword_of_kadash_1a_program.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Wreck of the Pandora/wreck_of_the_pandora.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Telengard/telengard_v1.12.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras IV - Ziggurat/warrior_of_ras_iv_ziggurat.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras II - Kaiv/warrior_of_ras_ii_kaiv.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras I - Dunzhin/warrior_of_ras_i_dunzhin.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras III - Wylde/warrior_of_ras_iii_wylde.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/gemstone_warrior.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Castles of Darkness/castles_of_darkness.dsk
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Wizard/Wizard I - Oldorf/oldorf.dsk
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Wizard/Wizard II - Tarturian/tarturian.dsk
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Escape from Rungistan/escape_from_rungistan.dsk
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Queen of Phobos/queen_of_phobos.dsk
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Akalabeth/akalabeth.dsk
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Mystery House/mystery_house.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Creator/adventure_creator.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Construction Set/adventure_construction_set_2a.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Construction Set/adventures/land_of_adventuria.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Construction Set/adventures/escape_from_reality.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Construction Set/adventures/rivers_of_light.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Construction Set/adventures/quick_death.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Construction Set/adventure_construction_set_2b.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Construction Set/adventure_construction_set_1b.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/> Adventure creation/Adventure Construction Set/adventure_construction_set_1a.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest III - Morloc's Tower/morlocs_tower.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest V - Sorcerer of Siva/sorcerer_of_siva.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/> Expansions/Expansion I - Upper Reaches of Apshai/upper_reaches_of_apshai.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/temple_of_apshai.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Temple of Apshai - 2nd Release/temple_of_apshai_r2.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest IV - Hellfire Warrior/> Expansions/Expansions II - Danger in Drindisti/danger_in_drindisti.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest IV - Hellfire Warrior/> Expansions/Expansion I - Keys of Acheron/keys_of_acheron.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest IV - Hellfire Warrior/hellfire_warrior.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest II - Datestones of Ryn/datestones_of_ryn.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/> Compilations/temple_of_apshai+datestones_of_ryn+morlocs_tower.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/> Compilations/hellfire_warrior+sorcerer_of_siva.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Dunjonquest/Dunjonquest VI - Temple of Apshai Trilogy/temple_of_apshai_trilogy.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Starquest/Starquest I - Rescue at Rigel/Rescue at Rigel/rescue_at_rigel.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Starquest/> Compilations/rescue_at_rigel+star_warrior.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Dunjonquest/Starquest/Starquest II - Star Warrior/star_warrior.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Age of Adventure/Ali Baba/ali_baba.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Age of Adventure/Return of Heracles/return_of_heracles.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Sword of Kadash/sword_of_kadash_1b_master_character.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Sword of Kadash/sword_of_kadash_1a_program.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Wreck of the Pandora/wreck_of_the_pandora.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Warriors of Ras/Warriors of Ras IV - Ziggurat/warrior_of_ras_iv_ziggurat.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Warriors of Ras/Warriors of Ras II - Kaiv/warrior_of_ras_ii_kaiv.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Warriors of Ras/Warriors of Ras I - Dunzhin/warrior_of_ras_i_dunzhin.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Warriors of Ras/Warriors of Ras III - Wylde/warrior_of_ras_iii_wylde.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Gemstone Warrior/gemstone_warrior.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl/Castles of Darkness/castles_of_darkness.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania II - Crimson Crown/crimson_crown_1b.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania II - Crimson Crown/crimson_crown_1a.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania I - Rewrite/transylvania_i_rewrite_1b.dsk
@@ -366,6 +388,8 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Lucasfilm/Maniac Mansion/maniac_mansion_1b_game.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Lucasfilm/Labyrinth/labyrinth_1a.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Lucasfilm/Labyrinth/labyrinth_1b.dsk
+./> Games/> Adventure (graphic)/> Interactive fiction/> Sirius/Gruds in Space/gruds_in_space_1b.dsk
+./> Games/> Adventure (graphic)/> Interactive fiction/> Sirius/Gruds in Space/gruds_in_space_1a.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Sierra/Leisure Suit Larry/leisure_suit_larry_2b.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Sierra/Leisure Suit Larry/leisure_suit_larry_2a.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Sierra/Leisure Suit Larry/leisure_suit_larry_3.dsk
@@ -470,9 +494,9 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Resource/Galactic Saga/galactic_saga_i-iii.dsk
 ./> Games/> Resource/Sundog/sundog_1b.dsk
 ./> Games/> Resource/Sundog/sundog_1a.dsk
-./> Games/> Resource/> Compilations/three_mile_island+imhotep+city_of_sumer.dsk
-./> Games/> Resource/> Compilations/santa_paravia+taipan+lemonade_stand.dsk
 ./> Games/> Resource/Three Mile Island/three_mile_island.dsk
+./> Games/> Resource/>> Compilations/santa_paravia+taipan+lemonade_stand.dsk
+./> Games/> Resource/>> Compilations/three_mile_island+imhotep+city_of_sumer+dukedom.dsk
 ./> Games/> Sex/Sex Cartoons/Erotica Slide Show/erotica_slide_show.dsk
 ./> Games/> Sex/Sex Cartoons/French Postcards/Postcards II/postcards_ii_1a.dsk
 ./> Games/> Sex/Sex Cartoons/French Postcards/Postcards II/postcards_ii_1b_slide_show.dsk
@@ -491,19 +515,21 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Sex/Strip Poker/> Expansions/candi_marlena.dsk
 ./> Games/> Sex/Strip Poker/> Expansions/melissa_suzi.dsk
 ./> Games/> Sex/Strip Poker/strip_poker.dsk
+./> Games/> Pinball/Pinball Construction Set/pinball_construction_set.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Totally Tubular+Midnight Madness+Pinball Panic+Blackout/totally_tubular+midnight_madness+pinball_panic+blackout.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Gotcha!+Pirate's Ball+Livewire+Black Flame/gotcha+pirates_ball+Livewire+black_flame.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Love Machine+Boom-R Angle+Bombs Away+Dayton Dinger/love_machine+boomr_angle+bombs_away+dayton_dinger.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Illusion+Flash+Messy/illusion+flash+messy.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Mark Spaeth Pinball 1-6/mark_spaeth_pinball_i+ii+iii.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Mark Spaeth Pinball 1-6/mark_spaeth_pinball_iv+v+vi.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Maxx Machine+Flip It+Maxx's Madness+Super Blast/maxx_machine+flip_it+Maxxs_madness+super_blast.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Ball Blaster+Twilight+Hunters Forest+Super Blast/ball_blaster+twilight+hunters_forest+super_blast.dsk
+./> Games/> Pinball/Pinball Construction Set/>> Compilations/Rolley Polley+Nightmare+Hearts+Flipper/rolley_polley+nightmare+hearts+flipper.dsk
 ./> Games/> Pinball/Midnight Magic/midnight_magic.dsk
-./> Games/> Pinball/> Pinball construction/Pinball Construction Set/pinball_construction_set.dsk
-./> Games/> Pinball/> Pinball construction/> Pinballs/Gotcha!+Pirate's Ball+Livewire+Black Flame/gotcha+pirates_ball+Livewire+black_flame.dsk
-./> Games/> Pinball/> Pinball construction/> Pinballs/Love Machine+Boom-R Angle+Bombs Away+Dayton Dinger/love_machine+boomr_angle+bombs_away+dayton_dinger.dsk
-./> Games/> Pinball/> Pinball construction/> Pinballs/Mark Spaeth Pinballs/Mark Spaeth 1-6/mark_spaeth_pinball_i+ii+iii.dsk
-./> Games/> Pinball/> Pinball construction/> Pinballs/Mark Spaeth Pinballs/Mark Spaeth 1-6/mark_spaeth_pinball_iv+v+vi.dsk
-./> Games/> Pinball/> Pinball construction/> Pinballs/Mark Spaeth Pinballs/Totally Tubular+Midnight Madness+Pinball Panic+Blackout/totally_tubular+midnight_madness+pinball_panic+blackout.dsk
-./> Games/> Pinball/> Pinball construction/> Pinballs/Ball Blaster+Twilight+Hunters Forest+Super Blast/ball_blaster+twilight+hunters_forest+super_blast.dsk
-./> Games/> Pinball/> Pinball construction/> Pinballs/Rolley Polley+Nightmare+Hearts+Flipper/rolley_polley+nightmare+hearts+flipper.dsk
 ./> Games/> Pinball/Raster Blaster/raster_blaster.dsk
 ./> Games/> Pinball/Queen of Hearts/queen_of_hearts.dsk
-./> Games/> Pinball/> Compilations/night_mission+raster_blaster+midnight_magic.dsk
 ./> Games/> Pinball/Night Mission/night_mission.dsk
+./> Games/> Pinball/>> Compilations/night_mission+raster_blaster+midnight_magic.dsk
 ./> Games/> Driving/Up'n Down/up_n_down.dsk
 ./> Games/> Driving/Autobahn/autobahn.dsk
 ./> Games/> Driving/Top Fuel Eliminator/top_fuel_eliminator.dsk
@@ -512,27 +538,27 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Driving/Test Drive/test_drive_1b.dsk
 ./> Games/> Driving/Test Drive/test_drive_1a.dsk
 ./> Games/> Driving/Injured Engine/injured_engine.dsk
-./> Games/> Driving/> Compilations/gran_prix+formula1+spy_hunter+autobahn.dsk
+./> Games/> Driving/>> Compilations/gran_prix+formula1+spy_hunter+autobahn.dsk
 ./> Games/> Driving/Spy Hunter/spy_hunter.dsk
 ./> Games/> Driving/Gran Prix/gran_prix_v1981.dsk
 ./> Games/> Driving/Gran Prix/gran_prix_v1982.dsk
 ./> Games/> Driving/Pitstop II/pitstop_ii.dsk
 ./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/arcade_machine_1b.dsk
 ./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/arcade_machine_1a.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/D-Day+Shark Bait+Westward Ho!/d-day+shark_bait+westward_ho!.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/Tomb of Doom+Revengeful Rabbit+Bee Crunch/tomb_of_doom+revengeful_rabbit+bee_crunch.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/Space Raiders+Beach Party+Poacher Wars/space_raiders+beach_party+poacher_wars.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/Zulu Raid/zulu_raid.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/Ocean Night+Burgertron+Big-Mac Attack/ocean_night+burgertron+big-mac_attack.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/Arcade Insanity/arcade_insanity.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/Fire Ground+Silent Night+King Tut's Revenge/fire_ground+silent_night+king_tuts_revenge.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/Ice Cave/Ice_cave.dsk
+./> Games/> Arcade (other)/> Arcade creation/Arcade Machine/>> Compilations/Alien Clonepure/alien_clonepure.dsk
 ./> Games/> Arcade (other)/> Arcade creation/Garry Kitchen's GameMaker/gamemaker_1b.dsk
 ./> Games/> Arcade (other)/> Arcade creation/Garry Kitchen's GameMaker/gamemaker_1a.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/D-Day+Shark Bait+Westward Ho!/d-day+shark_bait+westward_ho!.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/Tomb of Doom+Revengeful Rabbit+Bee Crunch/tomb_of_doom+revengeful_rabbit+bee_crunch.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/Space Raiders+Beach Party+Poacher Wars/space_raiders+beach_party+poacher_wars.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/Zulu Raid/zulu_raid.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/Ocean Night+Burgertron+Big-Mac Attack/ocean_night+burgertron+big-mac_attack.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/Arcade Insanity/arcade_insanity.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/Fire Ground+Silent Night+King Tut's Revenge/fire_ground+silent_night+king_tuts_revenge.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/Ice Cave/Ice_cave.dsk
-./> Games/> Arcade (other)/> Arcade creation/> Arcades/Alien Clonepure/alien_clonepure.dsk
 ./> Games/> Arcade (other)/> Maze 1st Person/Eidolon/eidolon.dsk
-./> Games/> Arcade (other)/> Maze 1st Person/> Compilations/escape+death_maze.dsk
 ./> Games/> Arcade (other)/> Maze 1st Person/Way Out/way_out.dsk
+./> Games/> Arcade (other)/> Maze 1st Person/>> Compilations/escape+death_maze.dsk
 ./> Games/> Arcade (other)/> Scroller/Wings of Fury/wings_of_fury_1b.dsk
 ./> Games/> Arcade (other)/> Scroller/Wings of Fury/wings_of_fury_1a.dsk
 ./> Games/> Arcade (other)/> Scroller/Pegasus II/pegasus_ii.dsk
@@ -546,9 +572,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (other)/> Scroller/Drol/drol.dsk
 ./> Games/> Arcade (other)/> Scroller/Cavern Creatures/cavern_creatures.dsk
 ./> Games/> Arcade (other)/> Scroller/Plasmania/plasmania.dsk
-./> Games/> Arcade (other)/> Scroller/> Compilations/choplifter+star_blazer+moon_patrol.dsk
-./> Games/> Arcade (other)/> Scroller/> Compilations/subnodule+syzygy+lunar_leeper.dsk
-./> Games/> Arcade (other)/> Scroller/> Compilations/night_flight+plasmania+neptune.dsk
 ./> Games/> Arcade (other)/> Scroller/Zaxxon/Zaxxon - 128k/zaxxon_128k.dsk
 ./> Games/> Arcade (other)/> Scroller/Zaxxon/zaxxon_48k.dsk
 ./> Games/> Arcade (other)/> Scroller/Xevious/xevious.dsk
@@ -558,6 +581,9 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (other)/> Scroller/Captain Goodnight/captain_goodnight_1a.dsk
 ./> Games/> Arcade (other)/> Scroller/Captain Goodnight/captain_goodnight_1b.dsk
 ./> Games/> Arcade (other)/> Scroller/Subnodule/subnodule.dsk
+./> Games/> Arcade (other)/> Scroller/>> Compilations/choplifter+star_blazer+moon_patrol.dsk
+./> Games/> Arcade (other)/> Scroller/>> Compilations/subnodule+syzygy+lunar_leeper.dsk
+./> Games/> Arcade (other)/> Scroller/>> Compilations/night_flight+plasmania+neptune.dsk
 ./> Games/> Arcade (other)/> Scroller/Night Flight/night_flight.dsk
 ./> Games/> Arcade (other)/> Maze/Maze Craze/maze_craze_1a.dsk
 ./> Games/> Arcade (other)/> Maze/Maze Craze/maze_craze_1b.dsk
@@ -571,12 +597,13 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (other)/> Maze/Night Stalker/night_stalker.dsk
 ./> Games/> Arcade (other)/> Maze/Nibbler/nibbler.dsk
 ./> Games/> Arcade (other)/> Maze/Ardy The Aardvark/ardy_the_aardvark.dsk
-./> Games/> Arcade (other)/> Maze/> Compilations/serpentine+lady_tut+bubble-head.dsk
-./> Games/> Arcade (other)/> Maze/> Compilations/spindizzy+drelbs+labyrinth+creepy.dsk
-./> Games/> Arcade (other)/> Maze/> Compilations/maze_craze+c'est_la_vie+minotaur+speed_maze.dsk
 ./> Games/> Arcade (other)/> Maze/Bubble-head/bubble-head.dsk
+./> Games/> Arcade (other)/> Maze/O'Riley's Mine/o_rileys_mine.dsk
 ./> Games/> Arcade (other)/> Maze/C'est La Vie/c'est_la_vie.dsk
 ./> Games/> Arcade (other)/> Maze/Labyrinth/labyrinth.dsk
+./> Games/> Arcade (other)/> Maze/>> Compilations/serpentine+lady_tut+bubble-head.dsk
+./> Games/> Arcade (other)/> Maze/>> Compilations/spindizzy+drelbs+labyrinth+creepy.dsk
+./> Games/> Arcade (other)/> Maze/>> Compilations/maze_craze+c'est_la_vie+minotaur+speed_maze.dsk
 ./> Games/> Arcade (other)/> Maze/Lady Tut/lady_tut.dsk
 ./> Games/> Arcade (other)/> Run and gun/Alcazar/alcazar.dsk
 ./> Games/> Arcade (other)/> Run and gun/Shamus/shamus.dsk
@@ -584,7 +611,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (other)/> Run and gun/Ikari Warriors/ikari_warriors_1a.dsk
 ./> Games/> Arcade (other)/> Run and gun/Vorpal/vorpal.dsk
 ./> Games/> Arcade (other)/> Run and gun/Berzap/berzap_v2.1.dsk
-./> Games/> Arcade (other)/> Run and gun/> Compilations/alcazar+gremlins+vorpal.dsk
 ./> Games/> Arcade (other)/> Run and gun/Electro Arena/electro_arena.dsk
 ./> Games/> Arcade (other)/> Run and gun/Marauder/marauder.dsk
 ./> Games/> Arcade (other)/> Run and gun/Force7/force7.dsk
@@ -593,6 +619,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (other)/> Run and gun/Castle Wolfenstein/Castle Wolfenstein II - Beyond/beyond_castle_wolfenstein.dsk
 ./> Games/> Arcade (other)/> Run and gun/Castle Wolfenstein/Castle Wolfenstein I/castle_wolfenstein.dsk
 ./> Games/> Arcade (other)/> Run and gun/Gremlins/gremlins.dsk
+./> Games/> Arcade (other)/> Run and gun/>> Compilations/alcazar+gremlins+vorpal.dsk
 ./> Games/> Arcade (other)/> Platformer/Crisis Mountain/crisis_mountain.dsk
 ./> Games/> Arcade (other)/> Platformer/Jumpman/jumpman_1a.dsk
 ./> Games/> Arcade (other)/> Platformer/Jumpman/jumpman_1b.dsk
@@ -621,20 +648,23 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (other)/> Platformer/Thexder/thexder_1b.dsk
 ./> Games/> Arcade (other)/> Platformer/Congo Congo/congo_bongo.dsk
 ./> Games/> Arcade (other)/> Platformer/Black Magic/black_magic.dsk
+./> Games/> Arcade (other)/> Platformer/Dino Eggs/Dino Eggs.dsk
 ./> Games/> Arcade (other)/> Platformer/Zorro/zorro.dsk
 ./> Games/> Arcade (other)/> Platformer/Sammy Lightfoot/sammy_lightfoot.dsk
 ./> Games/> Arcade (other)/> Platformer/Conan/conan_1a.dsk
 ./> Games/> Arcade (other)/> Platformer/Conan/conan_1b.dsk
-./> Games/> Arcade (other)/> Platformer/> Compilations/mr_robot+gadgetz+vopper.dsk
-./> Games/> Arcade (other)/> Platformer/> Compilations/hard_hat_mack+montazumas_revenge+mario_bros.dsk
 ./> Games/> Arcade (other)/> Platformer/Hero/hero.dsk
 ./> Games/> Arcade (other)/> Platformer/Floppy/floppy.dsk
 ./> Games/> Arcade (other)/> Platformer/Goonies/goonies.dsk
 ./> Games/> Arcade (other)/> Platformer/Apple Cider Spider/apple_cider_spider.dsk
+./> Games/> Arcade (other)/> Platformer/>> Compilations/mr_robot+gadgetz+vopper.dsk
+./> Games/> Arcade (other)/> Platformer/>> Compilations/hard_hat_mack+montazumas_revenge+mario_bros.dsk
 ./> Games/> Arcade (other)/> Platformer/Gadgetz/gadgetz.dsk
 ./> Games/> Arcade (other)/> Platformer/Bubble Bobble/bubble_bobble_1a.dsk
 ./> Games/> Arcade (other)/> Platformer/Bubble Bobble/bubble_bobble_1b.dsk
 ./> Games/> Various/Juggler/juggler.dsk
+./> Games/> Various/Quest of the Gem/quest_of_the_gem_1a.dsk
+./> Games/> Various/Quest of the Gem/quest_of_the_gem_1b.dsk
 ./> Games/> Various/Outpost/outpost.dsk
 ./> Games/> Various/County Fair/county_fair.dsk
 ./> Games/> Various/Airheart/airheart.dsk
@@ -670,14 +700,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Various/Marble Madness/marble_madness_1b.dsk
 ./> Games/> Various/Gumball/gumball.dsk
 ./> Games/> Various/Starblaster/starblaster.dsk
-./> Games/> Various/> Compilations/bill_budge+lunar_lander+quasar+blitzkrieg+dogfight+mini_golf+escape.dsk
-./> Games/> Various/> Compilations/teri_tory+pengo+genesis+pooyan.dsk
-./> Games/> Various/> Compilations/hyper_head_on+bloody_murder+bloodsuckers+firebird.dsk
-./> Games/> Various/> Compilations/pentapuss+starblaster+bc_quest_for_tires+sam_talk.dsk
-./> Games/> Various/> Compilations/twerps+zytro_war+county_fair.dsk
-./> Games/> Various/> Compilations/shoot_out+crossfire+outworld+roundout.dsk
-./> Games/> Various/> Compilations/spys_demise+spy_strikes_back+crystal_castles+money_munchers+bongos_bash.dsk
-./> Games/> Various/> Compilations/master_of_the_lamps+sabotage+cyclod+red_alert.dsk
 ./> Games/> Various/Argos/argos.dsk
 ./> Games/> Various/Ghost Busters/ghost_busters.dsk
 ./> Games/> Various/BC's Quest for Tires/bc_quest_for_tires.dsk
@@ -687,8 +709,18 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Various/Hacker/Hacker I/hacker.dsk
 ./> Games/> Various/Hacker/Hacker II/hacker_ii.dsk
 ./> Games/> Various/Crystal Castles/crystal_castles.dsk
+./> Games/> Various/Randamn/randamn.dsk
 ./> Games/> Various/Rampage/rampage.dsk
 ./> Games/> Various/Zytro War/zytro_war.dsk
+./> Games/> Various/>> Compilations/bill_budge+lunar_lander+quasar+blitzkrieg+dogfight+mini_golf+escape.dsk
+./> Games/> Various/>> Compilations/teri_tory+pengo+genesis+pooyan.dsk
+./> Games/> Various/>> Compilations/hyper_head_on+bloody_murder+bloodsuckers+firebird.dsk
+./> Games/> Various/>> Compilations/pentapuss+starblaster+bc_quest_for_tires+sam_talk.dsk
+./> Games/> Various/>> Compilations/twerps+zytro_war+county_fair.dsk
+./> Games/> Various/>> Compilations/shoot_out+crossfire+outworld+roundout.dsk
+./> Games/> Various/>> Compilations/spys_demise+spy_strikes_back+crystal_castles+money_munchers+bongos_bash.dsk
+./> Games/> Various/>> Compilations/master_of_the_lamps+sabotage+cyclod+red_alert.dsk
+./> Games/> Various/>> Compilations/dogfight_i+dogfight_ii+worm_wall.dsk
 ./> Games/> Various/Firebird/firebird.dsk
 ./> Games/> Sports/California Games/california_games_1a.dsk
 ./> Games/> Sports/California Games/california_games_1b.dsk
@@ -710,51 +742,51 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (classic)/> Centipede/Geopede/geopede.dsk
 ./> Games/> Arcade (classic)/> Centipede/Centipede/centipede.dsk
 ./> Games/> Arcade (classic)/> Centipede/Bug Battle/bug_battle.dsk
-./> Games/> Arcade (classic)/> Centipede/> Compilations/millipede+photar+bug_battle+geopede.dsk
-./> Games/> Arcade (classic)/> Centipede/> Compilations/night_crawler+centipede+bug_attack+nightmare_gallery.dsk
 ./> Games/> Arcade (classic)/> Centipede/Photar/photar.dsk
 ./> Games/> Arcade (classic)/> Centipede/Bug Attack/bug_attack.dsk
+./> Games/> Arcade (classic)/> Centipede/>> Compilations/millipede+photar+bug_battle+geopede.dsk
+./> Games/> Arcade (classic)/> Centipede/>> Compilations/night_crawler+centipede+bug_attack+nightmare_gallery.dsk
 ./> Games/> Arcade (classic)/> Jungle Hunt/Pitfall II/pitfall_ii.dsk
 ./> Games/> Arcade (classic)/> Jungle Hunt/Jungle Hunt/jungle_hunt.dsk
 ./> Games/> Arcade (classic)/> Breakout/Chipout/chipout.dsk
 ./> Games/> Arcade (classic)/> Breakout/Arkanoid/arkanoid.dsk
 ./> Games/> Arcade (classic)/> Breakout/Super Trick Out/super_trick_out.dsk
-./> Games/> Arcade (classic)/> Breakout/> Compilations/littlle_brick_out+chipout+breakthru+super_trick_out.dsk
 ./> Games/> Arcade (classic)/> Breakout/Littlle Brick Out/littlle_brick_out.dsk
+./> Games/> Arcade (classic)/> Breakout/>> Compilations/littlle_brick_out+chipout+breakthru+super_trick_out.dsk
 ./> Games/> Arcade (classic)/> Robotron/Vindicator/vindicator.dsk
 ./> Games/> Arcade (classic)/> Robotron/Lost Tomb/lost_tomb.dsk
 ./> Games/> Arcade (classic)/> Robotron/Robot Battle/robot_battle.dsk
 ./> Games/> Arcade (classic)/> Robotron/Robotron/robotron.dsk
-./> Games/> Arcade (classic)/> Robotron/> Compilations/robotron+vindicator+lost_tomb+shamus.dsk
+./> Games/> Arcade (classic)/> Robotron/>> Compilations/robotron+vindicator+lost_tomb+shamus.dsk
 ./> Games/> Arcade (classic)/> Missile Command/ABM/abm.dsk
 ./> Games/> Arcade (classic)/> Missile Command/Missile Defense/missile_defense.dsk
-./> Games/> Arcade (classic)/> Missile Command/> Compilations/norad+rocket_command+abm+missile_defense+planet_protector+surprise_attack.dsk
 ./> Games/> Arcade (classic)/> Missile Command/Rocket Command/rocket_command.dsk
 ./> Games/> Arcade (classic)/> Missile Command/Surprise Attack!/surprise_attack.dsk
 ./> Games/> Arcade (classic)/> Missile Command/Norad/norad.dsk
+./> Games/> Arcade (classic)/> Missile Command/>> Compilations/norad+rocket_command+abm+missile_defense+planet_protector+surprise_attack.dsk
 ./> Games/> Arcade (classic)/> Battlezone/Arcticfox/arctic_fox.dsk
 ./> Games/> Arcade (classic)/> Battlezone/Stellar 7/stellar_7.dsk
 ./> Games/> Arcade (classic)/> Battlezone/Pill Box/pill_box.dsk
 ./> Games/> Arcade (classic)/> Battlezone/Battlezone/battlezone.dsk
 ./> Games/> Arcade (classic)/> Tempest/Tubeway/tubeway.dsk
 ./> Games/> Arcade (classic)/> Tempest/Axis Assassin/axis_assassin.dsk
-./> Games/> Arcade (classic)/> Tempest/> Compilations/tubeway+axis_assassin+hell_storm.dsk
 ./> Games/> Arcade (classic)/> Tempest/Hell Storm/hell_storm.dsk
 ./> Games/> Arcade (classic)/> Tempest/Genesis/genesis.dsk
+./> Games/> Arcade (classic)/> Tempest/>> Compilations/tubeway+axis_assassin+hell_storm.dsk
 ./> Games/> Arcade (classic)/> Depth Charge/Seafox/seafox.dsk
 ./> Games/> Arcade (classic)/> Depth Charge/Depth Charge/depth_charge.dsk
-./> Games/> Arcade (classic)/> Depth Charge/> Compilations/depth_charge+seafox+kamikaze+fathom.dsk
 ./> Games/> Arcade (classic)/> Depth Charge/Kamikaze/kamikaze.dsk
+./> Games/> Arcade (classic)/> Depth Charge/>> Compilations/depth_charge+seafox+kamikaze+fathom.dsk
 ./> Games/> Arcade (classic)/> Donkey Kong/Cannonball Blitz/cannonball_blitz.dsk
 ./> Games/> Arcade (classic)/> Donkey Kong/Donkey Kong/donkey_kong.dsk
 ./> Games/> Arcade (classic)/> Defender/Repton/repton.dsk
 ./> Games/> Arcade (classic)/> Defender/Eliminator/eliminator.dsk
 ./> Games/> Arcade (classic)/> Defender/Aquatron/aquatron.dsk
 ./> Games/> Arcade (classic)/> Defender/Stargate/stargate.dsk
-./> Games/> Arcade (classic)/> Defender/> Compilations/aquatron+repton+gorgon.dsk
-./> Games/> Arcade (classic)/> Defender/> Compilations/eliminator+keypunch_defender+torax.dsk
 ./> Games/> Arcade (classic)/> Defender/Gorgon/gorgon.dsk
 ./> Games/> Arcade (classic)/> Defender/Defender/defender.dsk
+./> Games/> Arcade (classic)/> Defender/>> Compilations/rear_guard+torax+eliminator.dsk
+./> Games/> Arcade (classic)/> Defender/>> Compilations/aquatron+repton+gorgon.dsk
 ./> Games/> Arcade (classic)/> Defender/Defender (Joe Holt)/defender_joe_holt.dsk
 ./> Games/> Arcade (classic)/> Qix/Qix/qix.dsk
 ./> Games/> Arcade (classic)/> Qix/Teri Tory/teri_tory.dsk
@@ -765,26 +797,26 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (classic)/> Pac-man/Taxman/Taxman II/taxman_ii.dsk
 ./> Games/> Arcade (classic)/> Pac-man/Lock 'n Chase/lock_n_chase.dsk
 ./> Games/> Arcade (classic)/> Pac-man/Nibbler/nibbler.dsk
-./> Games/> Arcade (classic)/> Pac-man/> Compilations/taxman+pac_man+ms_pac+nibbler+dung_beetles.dsk
 ./> Games/> Arcade (classic)/> Pac-man/Pac-man/pac-man.dsk
 ./> Games/> Arcade (classic)/> Pac-man/Dung Beetles/dung_beetles.dsk
+./> Games/> Arcade (classic)/> Pac-man/>> Compilations/taxman+pac_man+ms_pac+nibbler+dung_beetles.dsk
 ./> Games/> Arcade (classic)/> Joust/Talon/talon.dsk
 ./> Games/> Arcade (classic)/> Joust/Joust/joust.dsk
 ./> Games/> Arcade (classic)/> Joust/Jouster/jouster.dsk
-./> Games/> Arcade (classic)/> Joust/> Compilations/joust+jouster.dsk
+./> Games/> Arcade (classic)/> Joust/>> Compilations/joust+jouster.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Asteroid/asteroid.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Star Maze/star_maze.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Raiders of the Lost Ring/raiders_of_the_lost_ring.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Apple-Oids/apple-oids.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Asteroid Field/asteroid_field.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Asteroids in Space/asteroids_in_space.dsk
-./> Games/> Arcade (classic)/> Asteroids/> Compilations/asteroid_field+asteroids_in_space+asteroid+planetoid+star_maze+galaxy_gates+apple-oids.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Sanitron/sanitron.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Galaxy Gates/galaxy_gates.dsk
+./> Games/> Arcade (classic)/> Asteroids/>> Compilations/asteroid_field+asteroids_in_space+asteroid+planetoid+star_maze+galaxy_gates+apple-oids.dsk
 ./> Games/> Arcade (classic)/> Qbert/Cubit/cubit.dsk
 ./> Games/> Arcade (classic)/> Qbert/Mr. Cool/mr_cool.dsk
 ./> Games/> Arcade (classic)/> Qbert/J Bird/j_bird.dsk
-./> Games/> Arcade (classic)/> Qbert/> Compilations/qbit+mr_cool.dsk
+./> Games/> Arcade (classic)/> Qbert/>> Compilations/qbit+mr_cool.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Star Cruiser/star_cruiser.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Sputnik Attack/sputnik_attack.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Pest Patrol/pest_patrol.dsk
@@ -792,42 +824,43 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Arcade (classic)/> Galaxian/Bandits/bandits_modified_controls.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/alien_typhoon.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/apple_galaxian.dsk
-./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/> Compilations/apple_galaxian+alien_rain+alien_typhoon.dsk
+./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/>> Compilations/apple_galaxian+alien_rain+alien_typhoon.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Galaxian/galaxian.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Space Quarks/space_quarks.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Threshold/threshold.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Wavy Navy/wavy_navy.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Falcons/falcons.dsk
-./> Games/> Arcade (classic)/> Galaxian/> Compilations/pest_patrol+buzzard_bait+space_quarks.dsk
-./> Games/> Arcade (classic)/> Galaxian/> Compilations/galaxian+falcons+alien_typhoon.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Mutant/mutant.dsk
+./> Games/> Arcade (classic)/> Galaxian/>> Compilations/pest_patrol+buzzard_bait+space_quarks.dsk
+./> Games/> Arcade (classic)/> Galaxian/>> Compilations/galaxian+falcons+alien_typhoon.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Gamma Goblins/gamma_goblins.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Buzzard Bait/buzzard_bait.dsk
 ./> Games/> Arcade (classic)/> Dig Dug/Boulder Dash/Boulder Dash/boulder_dash.dsk
 ./> Games/> Arcade (classic)/> Dig Dug/Boulder Dash/Boulder Dash Construction Kit/boulder_dash_construction_kit.dsk
 ./> Games/> Arcade (classic)/> Dig Dug/Mr. Do!/mr_do!.dsk
 ./> Games/> Arcade (classic)/> Dig Dug/Dig Dug/dig_dug.dsk
-./> Games/> Arcade (classic)/> Dig Dug/> Compilations/boulder_dash+o_rileys_mine+dig_dug.dsk
-./> Games/> Arcade (classic)/> Dig Dug/O'Riley's Mine/o_rileys_mine.dsk
+./> Games/> Arcade (classic)/> Dig Dug/>> Compilations/boulder_dash+o_rileys_mine+dig_dug.dsk
 ./> Games/> Arcade (classic)/> Frogger/Ribbit/ribbit.dsk
 ./> Games/> Arcade (classic)/> Frogger/Frogger/Frogger II - Three Deep/three_deep.dsk
 ./> Games/> Arcade (classic)/> Frogger/Frogger/Frogger I/frogger.dsk
-./> Games/> Arcade (classic)/> Frogger/> Compilations/frogger+ribbit+road_pizza+brainteaser_blvd.dsk
 ./> Games/> Arcade (classic)/> Frogger/Super Bunny/super_bunny.dsk
 ./> Games/> Arcade (classic)/> Frogger/Brainteaser Blvd/brainteaser_blvd.dsk
+./> Games/> Arcade (classic)/> Frogger/>> Compilations/frogger+ribbit+road_pizza+brainteaser_blvd.dsk
 ./> Games/> Arcade (classic)/> Invaders/Stellar Invaders/stellar_invaders.dsk
 ./> Games/> Arcade (classic)/> Invaders/Gemini/gemini.dsk
 ./> Games/> Arcade (classic)/> Invaders/Alien Ambush/alien_ambush.dsk
 ./> Games/> Arcade (classic)/> Invaders/Ceiling Zero/ceiling_zero.dsk
 ./> Games/> Arcade (classic)/> Invaders/Super Invader/super_invader.dsk
-./> Games/> Arcade (classic)/> Invaders/> Compilations/gemini+gamma_goblins+quibbles_revenge+time_tunnels.dsk
-./> Games/> Arcade (classic)/> Invaders/> Compilations/super_invader+apple_invaders+stellar_invaders+side_invaders+galaxy_wars.dsk
-./> Games/> Arcade (classic)/> Invaders/> Compilations/space_eggs+ceiling_zero+alien_ambush+blister_ball.dsk
 ./> Games/> Arcade (classic)/> Invaders/Side Invaders/side_invaders.dsk
 ./> Games/> Arcade (classic)/> Invaders/Apple Invaders/apple_invaders.dsk
 ./> Games/> Arcade (classic)/> Invaders/Space Eggs/space_eggs.dsk
 ./> Games/> Arcade (classic)/> Invaders/Tharolian Tunnels/tharolian_tunnels.dsk
+./> Games/> Arcade (classic)/> Invaders/>> Compilations/gemini+gamma_goblins+quibbles_revenge+time_tunnels.dsk
+./> Games/> Arcade (classic)/> Invaders/>> Compilations/super_invader+apple_invaders+stellar_invaders+side_invaders+galaxy_wars.dsk
+./> Games/> Arcade (classic)/> Invaders/>> Compilations/space_eggs+ceiling_zero+alien_ambush+blister_ball.dsk
 ./> Games/> Casual/Shuffleboard/shuffleboard.dsk
+./> Games/> Casual/Soko-Ban/soko-ban_1b.dsk
+./> Games/> Casual/Soko-Ban/soko-ban_1a.dsk
 ./> Games/> Casual/Shanghai/Shanghai I/shanghai.dsk
 ./> Games/> Casual/Tetrad/tetrad.dsk
 ./> Games/> Casual/Tetris/tetris_48k.dsk
@@ -837,17 +870,14 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Casual/Snake Byte/snake_byte.dsk
 ./> Games/> Casual/How About a Nice Game of Chess?/a_nice_game_of_chess.dsk
 ./> Games/> Casual/Cyclod/cyclod.dsk
-./> Games/> Casual/> Compilations/tetris+pipe_dream+othello+checkers+gammon+chess+go+poker+tetrad.dsk
-./> Games/> Casual/> Compilations/snake_byte+quasar+air_cars.dsk
 ./> Games/> Casual/Bridge Baron/bridge_baron.dsk
 ./> Games/> Casual/Pool/pool.dsk
 ./> Games/> Casual/Draw Poker/draw_poker.dsk
+./> Games/> Casual/>> Compilations/tetris+pipe_dream+othello+checkers+gammon+chess+go+poker+tetrad.dsk
+./> Games/> Casual/>> Compilations/snake_byte+quasar+air_cars.dsk
 ./> Games/> Casual/Fishies/fishies.dsk
 ./> Games/> Casual/Pipe Dream/pipedream.dsk
 ./> Games/> Casual/NY Times Crossword/ny_times_crossword.dsk
-./> Games/> Casual/Sokoban/sokoban_1a.dsk
-./> Games/> Casual/Sokoban/sokoban_1b.dsk
-./> Games/> Adventure (text)/> Dungeon crawl/Telengard/telengard_v1.12.dsk
 ./> Games/> Adventure (text)/> Dungeon crawl/Bronze Dragon/Bronze Dragon II - Twisted Speare/twisted_speare_1a.dsk
 ./> Games/> Adventure (text)/> Dungeon crawl/Bronze Dragon/Bronze Dragon II - Twisted Speare/twisted_speare_1b_dragon.dsk
 ./> Games/> Adventure (text)/> Dungeon crawl/Bronze Dragon/Bronze Dragon I - Conquest of Infinity/bronze_dragon_1a_bronze.dsk
@@ -913,11 +943,14 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/Enchanter/Enchanter I/enchanter_r29.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/Enchanter/Enchanter II - Sorcerer/sorcerer_r18.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/Enchanter/Enchanter III - Spellbreaker/spellbreaker_r63.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Phoenix/Birth of the Phoenix/birth_of_the_phoenix.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Sir-tech/Mines of Qyntarr/mines_of_qyntarr.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Electronic Arts/Amnesia/amnesia_1b.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Electronic Arts/Amnesia/amnesia_1a.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Electronic Arts/Amnesia/amnesia_2a.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Electronic Arts/Amnesia/amnesia_2b.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Micro Lab/Mad Venture/mad_venture.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Micro Lab/Palace in Thunderland/palace_in_thunderland.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Dragons of Hong Kong/dragons_of_hong_kong.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 4 - Voodoo Castle/adventure_4_voodoo_castle.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 9 - Ghost Town/adventure_9_ghost_town.dsk
@@ -927,12 +960,13 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 2 - Pirate Adventure/adventure_2_pirate_adventure.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 10 - Savage Island I/adventure_10_savage_island_i.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 7 - Mystery Fun House/adventure_7_mystery_fun_house.dsk
-./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/> Compilations/scott_adams_1a_adventures_1-6_.dsk
-./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/> Compilations/scott_adams_1b_adventures_7-12.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 5 - The Count/adventure_5_the_count.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 11 - Savage Island II/adventure_11_savage_island_ii.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 12 - Golden Voyage/adventure_12_golden_voyage.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/>> Compilations/scott_adams_1a_adventures_1-6_.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/>> Compilations/scott_adams_1b_adventures_7-12.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Adventure International/Scott Adams Adventures/Adventure 6 - Strange Odyssey/adventure_6_strange_odyssey.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Avalon Hill/Empire of the Overmind/empire_of_the_overmind.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Rainbird/Knight Orc/knight_orc.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Broderbund/Essex/essex_1b.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Broderbund/Essex/essex_1a.dsk
@@ -947,7 +981,8 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Games/> Adventure (text)/> Interactive fiction/> Edu-Ware/Prisoner II/prisoner_ii.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Edu-Ware/Prisoner I/prisoner.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Sierra/Softporn Adventure/softporn_adventure.dsk
-./> Games/> Adventure (text)/> Interactive fiction/> Other/Palace in Thunderland+Empire of the Overmind+Lost Dutchman+Birth of the Phoenix/palace_in_thunderland+empire_of_the_overmind+lost_dutchman+birth_of_the_phoenix.dsk
+./> Games/> Adventure (text)/> Interactive fiction/>> Compilations/Star Wars+Sorcery+Clouseau+Within the Earth+Adventure Caves/star_wars+sorcery+clouseau+within_the_earth+adventure_caves.dsk
+./> Games/> Adventure (text)/> Interactive fiction/>> Compilations/Palace in Thunderland+Empire of the Overmind+Lost Dutchman+Birth of the Phoenix/palace_in_thunderland+empire_of_the_overmind+lost_dutchman+birth_of_the_phoenix.dsk
 ./> Copy programs/Copy II Plus/Copy II Plus v8.2/copy_ii_plus_v8.2_1988.dsk
 ./> Copy programs/Copy II Plus/Copy II Plus v8.4/copy_ii_plus_v8.4_1989.dsk
 ./> Copy programs/Copy II Plus/Copy II Plus v9.1/copy_ii_plus_v9.1_1a_1990.dsk
@@ -956,11 +991,12 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Copy programs/Copy II Plus/Copy II Plus v7.1/copy_ii_plus_v7.1_1984.dsk
 ./> Copy programs/Copy II Plus/Copy II Plus v5.5/copy_ii_plus_v5.5_1982.dsk
 ./> Copy programs/Nibbles Away II+Copy II Plus v5.0+Fast Copy v7.0+Super Disk Copy v3.7+Disk Muncher v1.1+Demuffin/nibbles_away_ii+copy_ii_plus_v5.0+fast_copy_v7.0+super_disk_copy_v3.7+disk_muncher_v1.1+demuffin.dsk
-./> Copy programs/Lock Smith/locksmith_v6_1b_param.dsk
-./> Copy programs/Lock Smith/locksmith_v6_1a_1986.dsk
-./> Copy programs/Lock Smith/locksmith_v7_1987.dsk
 ./> Copy programs/Passport/passport_v2017_11_14.dsk
 ./> Copy programs/EDD/edd_v4.9.1.dsk
+./> Copy programs/Locksmith/locksmith_v6_1b_param.dsk
+./> Copy programs/Locksmith/locksmith_v6_1a_1986.dsk
+./> Copy programs/Locksmith/locksmith_v5_rF_1983.dsk
+./> Copy programs/Locksmith/locksmith_v7_1987.dsk
 ./> Copy programs/Nibbles Away III/nibbles_away_iii_1985.dsk
 ./> Graphics/Graphics Magician/Graphics Magician/graphics_magician.dsk
 ./> Graphics/Graphics Magician/Graphics Magician - Picture Painter/picture_painter_dblres.dsk
@@ -980,6 +1016,8 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> Graphics/Fantavision/fantavision_1b.dsk
 ./> Graphics/Beagle Graphics/beagle_graphics_1b_prodos.dsk
 ./> Graphics/Beagle Graphics/beagle_graphics_1a_dos.dsk
+./> Graphics/Mr. Pixel's Paint Set/Mr_pixels_paint_set.dsk
+./> Graphics/Mr. Pixel's Paint Set/Mr_pixels_paint_set copy.dsk
 ./> Graphics/Grafx Filer/grafx_filer.dsk
 ./> Graphics/Koala Micro Illustrator/koala_micro_illustrator.dsk
 ./> Disk diagnostics/Computer Inspector MECC/computer_inspector_mecc_1988.dsk
@@ -1082,14 +1120,14 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*2mg"
 ./> System/DOS/DOS v3.2/dos_v3.2.1.nib
 ./> System/DOS/DOS v3.1/dos_v3.1.1.nib
 ./> System/DOS/DOS v3.1/dos_v3.1_1978.nib
-./> Games/> Adventure (graphic)/> Maze role-play/Tangled Tales/tangled_tales_1b_adv3.nib
-./> Games/> Adventure (graphic)/> Maze role-play/Tangled Tales/tangled_tales_2a_adv1.nib
-./> Games/> Adventure (graphic)/> Maze role-play/Tangled Tales/tangled_tales_1a_boot.nib
-./> Games/> Adventure (graphic)/> Maze role-play/Tangled Tales/tangled_tales_2b_adv2.nib
-./> Games/> Adventure (graphic)/> Maze role-play/Alternate Reality/The Dungeon/the_dungeon_1a.nib
-./> Games/> Adventure (graphic)/> Maze role-play/Alternate Reality/The Dungeon/the_dungeon_1b.nib
-./> Games/> Adventure (graphic)/> Maze role-play/Alternate Reality/The Dungeon/the_dungeon_char.nib
-./> Games/> Adventure (graphic)/> Maze role-play/Alternate Reality/The Dungeon/the_dungeon_2.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Tangled Tales/tangled_tales_1b_adv3.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Tangled Tales/tangled_tales_2a_adv1.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Tangled Tales/tangled_tales_1a_boot.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Tangled Tales/tangled_tales_2b_adv2.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Alternate Reality/The Dungeon/the_dungeon_1a.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Alternate Reality/The Dungeon/the_dungeon_1b.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Alternate Reality/The Dungeon/the_dungeon_char.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Alternate Reality/The Dungeon/the_dungeon_2.nib
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Riddle of the Crown Jewels/riddle_of_the_crown_jewels_1b.nib
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Telarium/Amazon/amazon_2b_side4.nib
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Telarium/Amazon/amazon_1a_side1.nib
