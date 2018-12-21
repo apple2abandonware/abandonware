@@ -27,21 +27,6 @@ Trivia
 
 Batavia is the old Dutch name for present-day Jakarta. 
 
-
-
-Suggested Reading
-
-"Taipan: A Historical Adventure for the Apple Computer", Art Canfil, Jim McClenahan, & Karl Albrecht, 1986 
-Publisher: Sams (1 March 1986)
-Language: English
-ISBN-10: 081046764X
-ISBN-13: 978-0810467644
-
-"Tai-Pan", James Clavell, 1966 
-
-
-
-
 see http://www.taipangame.com
 
 
