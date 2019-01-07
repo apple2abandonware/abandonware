@@ -1,0 +1,2132 @@
+Demon's Winter FAQ/Walkthrough
+Version 2.0.0
+by Andrew Schultz schultza@earthlink.net
+
+Please do not copy for profit without my written consent.  However, a 
+written e-mail addressing me by my first name will probably meet a 
+positive response.
+
+**AD SPACE**
+
+My home page:
+http://www.geocities.com/SoHo/Exhibit/2762
+
+My Apple games page:
+http://www.geocities.com/SoHo/Exhibit/2762/games/games.htmn
+
+My Demon's Winter color maps:
+http://members.fortunecity.com/cartographics
+
+**************************
+
+OUTLINE
+
+  ABOUT YOUR CHARACTERS
+    GAME START ROLLING
+    MOVEMENT
+    SEA COMBAT
+    EXPERIENCE CHART
+    SKILLS LIST[ANNOTATED]
+    APPENDICES FROM THE MANUAL
+    WHAT THE GODS DO[IF THEY LISTEN]
+
+  THE BIG MAP
+
+  OVERLAND CO-ORDINATES
+
+  WHAT'S UNDERGROUND
+
+  BY-COLLEGE/CHURCH LIST
+
+  LONG WALKTHROUGH(WITH SIDE TRIPS)
+
+  TEXT MAPS
+
+  SPECIAL ITEMS
+
+  VERY BRIEF WALKTHROUGH
+
+  MONSTER LIST
+
+  EVERYDAY ITEMS AND SUCH
+
+  MONTHS
+
+  TAVERN TALK
+
+  WINNING ENDGAME STUFF
+
+  CHEATING
+
+  VERSIONS/CREDITS
+
+**************************
+
+  ABOUT YOUR CHARACTERS
+
+    Much of this is taken from the manual at theunderdogs.org.  In the 
+interest of [relative] brevity I only included stuff of major interest.
+
+    GAME START ROLLING
+
+ RACE           BONUS SKILL           RACIAL MODIFIERS
+
+ HUMAN          none                  none
+ ELF            Sense magic           -2 Str, +2 Int, -1 End
+ DWARF          See in dark           -1 Spd, +1 Str, -2 Int
+ DARK ELF       Power Leech           -2 Str, +2 Int, -1 End,
+                                     -1 Skill
+ TROLL          Regeneration          -1 Str, -3 Int, +2 End
+[Interesting!  I thought trolls were stronger than humans as a general 
+rule.]
+
+    SEA COMBAT
+
+MOVEMENT POINTS:  Since it's easier to keep going in one direction on
+a ship than to turn, the following adjustments are made:
+
+KEY                  ACTION                  MOVEMENT POINTS
+Return               Move forward            1
+>                    Turn clockwise          2
+<                    Turn counter-clockwise  2
+/                    Turn around             3
+I,J,K,M              Fire cannonball         3
+?                    Tells hull strength     0
+
+    MOVEMENT
+
+Characters and monsters move in an order determined by their speed
+ratings, from highest to lowest.  Each character has movements points
+equal to their speed, which they can spend on the following actions:
+
+KEY                  ACTION                  MOVEMENT POINTS
+Return               Move forward            2
+<                    Turn clockwise
+<                    Turn counter-clockwise  1
+/                    Turn around             1
+A                    Attack                  3
+C                    Cast a spell            3*
+U                    Use an item             3*
+T                    Turn undead             3*
+D                    Dodge                   special
+?                    Examine                 0
+S                    Sound                   0
+P                    Pray (deity call)       3*
+L                    Power leech             3*
+ESC                  End turn                *
+*Ends character's turn
+
+    EXPERIENCE CHART
+
+ LEVEL       EXPERIENCE
+ 1           300
+ 2           700
+ 3           1,100
+ 4           1,800
+ 5           2,800
+ 6           4,600
+ 7           7,500
+ 8           12,600
+ 9           21,600
+ 10          37,700
+ 11          66,400
+ 12          118,000
+ 13          210,800
+ 14          377,600
+ 15          677,600
+ 16          1,217,500
+ 17          2,189,300
+ 18          3,938,200
+ 19          7,086,100
+ 20          12,752,200
+
+Note FWIW this approximately follows the formula L(x-1)+L(x-2)+L(x-
+3)>L(x)>L(x-1)+L(x-2).
+
+    SKILLS LIST[ANNOTATED]
+
+      WEAPON SKILLS
+
+Each of these skills represents the training required to use a weapon
+of that type.  Characters without the appropriate skill for a weapon
+may not use it.  Daggers require no skill.  See Appendix F for a
+complete list.
+
+AXE:  Use of the small axe and the dreaded battle axe.
+
+KARATE:  Use of the hands as a weapon.  When a character has this
+skill and "equips" (see the section on Camp) with his hands, he does
+damage dependent on his Skill Trait.  A skillful warrior with karate
+can do as much damage as the mightiest sword.
+
+MACE:  Use of the mace and morningstar.
+
+SWORD:  Use of the short sword, broadsword, or the mighty two-handed
+sword.
+
+
+      OTHER COMBAT SKILLS
+
+ARMORED SKIN  This skill will give you the tough skin of a veteran
+warrior, adding the protection of leather armor to whatever armor you
+may be wearing.
+
+BERSERKING:  The ability to go beserk in combat, giving the character
+a 25% chance of doing critical damage instead of the normal 10%
+chance.
+
+FENCING:  Advanced swordplay that gives the character an additional
+10% bonus to hit and an additional 8% chance to do critical damage.
+
+KUNG-FU:  Advanced karate that gives the character a chance of
+stunning his opponent when attacking with his hands.  The stunned foe
+is motionless for one round for each critical hit.  In this state the
+foe is easier to hit.  Karate is not necessary to learn kung fu, but
+it is helpful.
+
+TACTICS:  Allows the character to know who each monster is planning to
+attack before it does, which is helpful in deciding what to do.
+[Seems pretty darned useless.]
+
+
+      RUNE MAGIC
+[Note:  If you don't start the game with these, the places to learn them 
+are not easy to find.
+
+FIRE RUNES:  Six spell dealing with fire, an element of destruction.
+
+METAL RUNES:  Seven spells dealing with metal, an element of weapons and 
+binding.
+
+WIND RUNES:  Seven spells dealing with the wind, an element of speed, 
+movement, and subtle power.
+
+ICE RUNES:  Six spells dealing with ice, an element of confinement and 
+damage.
+
+SPIRIT RUNES:  Nine spells dealing with the spirit, an element of life 
+forces, mental powers, and resurrection.
+
+[Note:  there are also the God Runes, which cast Uncurse(for the three 
+glyphs, 50 points) and Imprison(for Malifon, 100 points.)
+
+      CHANTS
+[None of these seem terribly useful.]
+
+ILLUSION:  Allows the caster to conjure an illusionary ally who will 
+fight until killed or is disbelieved.
+
+SUMMON:  Allows the caster to conjure a true summoned being who will 
+follow the summoner's orders until killed.  Costs twice as much as an 
+illusion.
+
+POSSESSION:  A very powerful chant that allows the caster to take 
+control of one of his foes and command him.  See "Possession".
+
+
+      VISIONARY SKILLS
+
+VIEW LAND:  allows the user to get a bird's eye view of his surrounding 
+outdoors, even at night.
+[I've got maps up, making this less useful.  Still, in a pinch, it's 
+nice, since you can see 100 squares away vertically AND horizontally!  
+Since it costs so much for a non-visionary, you might want to leave it.]
+
+VIEW ROOM:  Allows the user to look forward into a room or passage and 
+see what's there without danger.
+[Not too useful--SAVE THE GAME BEFORE ENTERING :)]
+
+VIEW MIND:  Used to detect if a merchant is lying about an item for 
+sale.
+[Can be handy.]
+
+      LORE
+[These are all expensive ones to pick up, unless you have an IMO 
+otherwise worthless Scholar.  You can have weapons shops ID them for 
+free by saving the game, entering a town, ID'ing at the marketplace, and 
+then rebooting.]
+
+WEAPON LORE:  Knowledge of various weapons and armaments.
+
+POTION LORE:  Knowledge of vials and salves.
+
+ITEM LORE:  Knowledge of miscellaneous magic items.
+
+MONSTER LORE:  Knowledge of wandering monsters and their abilities.
+
+
+      MISCELLANEOUS SKILLS
+
+DETECT TRAPS:  The ability to check the passage in front of you for 
+traps.
+
+DISARM TRAPS:  Allows you to disarm traps found with Detect Traps.
+
+HUNTING:  The ability to hunt for food while outdoors;  if the party is 
+on a ship, this skill applies to fishing.
+
+PERSUASIVENESS:  Improves the party's ability to haggle with merchants 
+for a decent price.
+
+PRIESTHOOD:  Allows the character choose a deity from the Priestly gods.  
+See "Religion".
+
+SHAMAN:  Allows the character to choose a deity from the Shaman gods.  
+See "Religion".
+
+
+    APPENDICES FROM THE MANUAL
+
+I couldn't think of any better way to include this relatively important 
+information, so I contained it below.
+
+SKILL POINT COSTS BY CLASS
+
+SKILL          1    2    3    4    5    6    7    8    9    10
+----------------------------------------------------------------------
+Axe            3    5    1    6    10   3    9    8    8    8
+Armored Skin   5    6    4    6    10   10   10   10   10   10
+Berserking     4    6    2    4    5    4    9    9    8    8
+Detect Traps   3    4    3    3    4    1    6    6    5    6
+Disarm Traps   6    7    7    7    8    3    9    9    9    8
+Fencing        4    3    5    10   8    6    10   10   7    7
+Fire Runes     10   10   10   9    8    10   5    10   10   9
+Hunting        1    4    2    4    5    4    7    9    7    6
+Ice Runes      10   10   6    9    8    10   4    10   9    9
+Illusion       9    9    10   8    7    8    10   3    5    9
+Item Lore      9    10   10   6    10   10   6    7    7    4
+Karate         3    6    5    1    3    2    6    6    4    4
+Kung Fu        6    8    8    3    5    5    8    8    7    7
+Mace           2    4    1    4    2    1    6    6    5    5
+Metal Runes    10   10   10   9    8    10   4    10   9    9
+Monster Lore   2    4    5    4    5    5    5    5    4    2
+Persuasiveness 4    2    7    5    2    4    5    7    6    7
+Possession     10   10   10   9    8    10   10   5    7    10
+Potion Lore    8    10   10   4    8    10   3    4    8    2
+Priesthood     5    2    9    4    3    9    5    7    4    8
+Shaman         5    8    5    4    3    9    7    5    4    8
+Spirit Runes   10   7    10   9    6    10   4    10   7    9
+Summoning      10   10   10   10   9    10   10   5    8    10
+Sword          3    2    4    6    10   3    8    7    6    6
+Tactics        3    2    5    4    4    4    6    6    4    1
+View Items     10   10   10   10   8    10   10   10   2    8
+View Land      10   10   10   10   10   10   10   10   3    7
+View Mind      9    2    10   8    4    5    8    8    2    10
+View Room      10   10   10   9    10   9    10   10   4    10
+Weapon Lore    7    7    7    8    10   7    9    9    8    3
+Wind Runes     6    10   10   9    8    8    5    10   10   9
+------------------------------------------------------------------
+1=Ranger, 2=Paladin, 3=Barbarian, 4=Monk, 5=Cleric, 6=Thief,
+7=Wizard, 8=Sorcerer, 9=Visionary, 10=Scholar
+
+[This is not from the manual:  you can buy a skill from a college.  The 
+cost depends solely on how many intellect points you need for the skill 
+and is calculated as follows:
+
+Cost = 5x(x+5).  So it comes to something like this(note the difference 
+in cost per intellect point increases by ten as you go up:)
+
+Pts needed  |  Cost
+------------+--------
+1           |   30
+2           |   70
+3           |   120
+4           |   180
+5           |   250
+6           |   330
+7           |   420
+8           |   520
+9           |   630
+10          |   750
+
+
+APPENDIX B:  RACIAL TRAIT MAXIMA
+
+TRAIT       HUMAN     ELF     DWARF     DARK ELF     TROLL
+------------------------------------------------------------------
+Speed       20        20      15        22           14
+Strength    24        15      30        14           24
+Intellect   32        40      24        40           20
+Endurance   22        15      25        15           30
+Skill       21        20      22        17           18
+-------------------------------------------------------------------
+
+
+APPENDIX C:  MAGIC ITEMS
+
+WEAPONS:  May be enchanted with Invoked, Dormant, and Constant powers.
+For Invoked powers, they may have a wide variety of spells such as
+damage spells, storm spells, healing, light spells, death spells, and
+chants. Invoked spells must be of the "usable x times per day" type;
+no charges or breakable weapons.
+
+ARMOR:  May contain Invoked or Constant powers.  The only invoked
+powers found on armor are such spells as Flame Shield and Ice Shield.
+Like weapons, Invoked spells must be of the "usable x times per day"
+type; no charges or breakable weapons.
+
+CROWN:  Not found in breakable form or with charges.  Crowns possess
+powers dealing with death, summoning, illusions, magic power
+transference, and armor spells such as sanctuary.
+
+VIAL:  All vials are breakable (100% chance), yielding only one use.
+They contain useful spells like Heal, Wings, Strength, Cure Poison, or
+Transference.  Don't drink them without knowing their contents,
+because vials of Weakness, Slow, Clumsiness, and Withering exist.
+
+RING:  Can have any form of power (breakable, charges, etc.).  They
+can cast just about any spell except Resurrection and Wind Walking.
+
+WAND:  All wands work on the charge system.  They can possess spells
+for increasing and decreasing traits (Strength, Slow) and conjuring.
+
+STAFF:  Also has charges.  Staves are much more powerful than wands,
+and possess death spells, damage spells, armor spells, and
+occasionally healing spells.
+
+ROD:  Rods possess freezing and unfreezing spells, damage, healing
+spells, and Cure POison.  They also use charges.
+
+GEM:  Magical gems can use charges, be usable x times per day, or be
+breakable.  Different gems are used to gain strength, magical power,
+light, and conjuring.
+
+AMULET:  Amulets may have any type of power, including armor spells,
+cure poison, and rarely Resurrection.
+
+MEDALLION:  Medallions only exist in the "x times per day" form.  They
+can contain damage and mass damage spells as well as Heal, Wings of
+Victory, Chill, and Clumsiness.
+
+TALISMAN:  A talisman will always work on the charge system.  They are
+very powerful and often contain spells such as Flame Strike, Spirit
+Wrack, Freeze, Strength, Weaken, and Possession.
+
+FIGURINE:  Figurines may be of any form of power (charges, breakable,
+etc.).  They appear in the shape of an animal or creature, and this is
+the creature they conjure.  They are only used for summoning or
+illusions.
+
+SALVE:  Salves are like vials, but have more than one use.  They work
+with charges. While salves can heal, be careful to identify them
+first, for they may also Wither, Flame, or even slice up the victim.
+
+
+                                 RUNES
+
+                       MINIMUM SPELL POINT COSTS
+----------------------------------------------------------------------
+FIRE RUNES:                        METAL RUNES:
+Column of Fire     1               Armor             2
+Fire Storm         10              Break Bonds       11
+Flame Shield       4               Chains            10
+Flame Strike       16              Death Blade       15
+Magic Torch        3               Rust Armor        3
+Melt               11              Strength          1
+                                   Sword             2
+
+
+ICE RUNES:                         WIND RUNES:
+Chill              1               Breath of Life    5
+Crystalight        2               Freedom           13
+Freeze             9               Still Air         11
+Hail Storm         7               Tempest           6
+Ice Shield         3               Wind Walk         10
+Slow               3               Wings             4
+                                   Wings of Victory  1
+
+
+SPIRIT RUNES:
+Clumsiness         2
+Cure Poison        9
+Heal               1
+Resurrect          25
+Sanctuary          3
+Spirit Wrack       20
+Transference       3
+Weaken             1
+Wither Strike      15
+
+
+                                 CHANTS
+
+CREATURE              ILLUSION SP COST             SUMMONED SP COST
+----------------------------------------------------------------------
+Coyote                         2                            4
+Zombie                         4                            8
+Brown Bear                     6                            12
+Small Dragon                   8                            16
+Ogre                           10                           20
+Evil Spirit                    14                           28
+Fire Demon                     18                           36
+Fire Elemental                 20                           40
+Metal Elemental                20                           40
+Wind Elemental                 20                           40
+Ice Elemental                  20                           40
+Spirit Elemental               20                           40
+
+
+APPENDIX E: STANDARD EQUIPMENT LIST
+
+WEAPONS:
+
+WEAPON             MINIMUM DAMAGE        STRENGTH        SKILL
+----------------------------------------------------------------------
+Dagger             1-3                   N/A             N/A
+Small Axe          1-4                   N/A             Axe
+Short Sword        1-6                   6               Sword
+Mace               1-6                   7               Mace
+Morning Star       1-7                   11              Mace
+Broad Sword        1-8                   13              Sword
+Battle Axe         1-10                  16              Axe
+2-Handed Sword     1-12                  18              Sword
+----------------------------------------------------------------------
+
+ARMOR:
+
+ARMOR    PROTECTION  RAN  PAL  BAR  MON  CLE  THF  WIZ  SOR  VIS  SCH
+----------------------------------------------------------------------
+Cloth    1           X    X    X    X    X    X    X    X    X    X
+Leather  2           X    X    X    X    X    X              X    X
+Chain    3           X    X    X         X    X              X
+Scale    4           X    X    X
+Plate    5                X    X
+
+[Summarized from the manual:  There are five each of shaman and priest 
+gods.  They're listed below with what they do when you pray to them and 
+they hear.]
+
+      WHAT THE GODS DO[IF THEY LISTEN]
+
+    ****SHAMAN GODS****
+    Omizeh = resurrect
+    Gamur = kill opponents
+    Acisc = add weapons skill
+    Volobews = add speed
+    Theryni = add magic power
+
+    ****PRIEST GODS****
+    Balmur = wither foes
+    Vemarkn = add magic power
+    Maldorath = fiery death
+    Illo = resurrect
+    Camear = flee combat
+
+  WHO I HANG WITH
+
+    This is not the definitive guide to a party, although hopefully my 
+detailing the advantages and disadvantages will allow you to make a more 
+calculated choice.  The classes' main difference is the relative 
+intelligence needed to pick up a skill.  There's a lot of variety to 
+skills, and some are more useful than others(and some of those "others" 
+are a LOT less useful!)  There's no purge ability as in other games, so 
+you need to plan skill-gaining carefully.
+    Out of all classes, the following seem like they can be eliminated:
+--Barbarian:  great fighters, which usually means they give dwindling 
+returns as the game goes on.
+--Thief:  best at checking for traps, which aren't too prevalent and 
+really don't hurt you much anyway.  And they're too hard to look for 
+even if you do have the skills.
+--Cleric:  wimpy version of a Monk.  Does some things a little better 
+than a Monk, but not enough.
+--Sorcerer:  only really good for casting illusions and summoning.
+--Visionary:  not up to much.  "View" skills are pretty worthless.
+--Scholar:  knows how to ID items, but that costs a lot of intellect 
+anyway.  Just cough up the cash after you save a game.  The game seems a 
+bit unfair against you, why not see if two wrongs make a right?  They'll 
+certainly waste less time.
+    So there are four classes left, and there are five slots.  I'd 
+probably go with two paladins, since they seem the most versatile.  Here 
+are all the recommended classes and what is so great about them:
+--Ranger:  hunting is easy to get.  Don't get it right away--there's a 
+college of hunting east of Elbarat.  He works best with a mace or an 
+axe.
+--Paladin:  should use a sword.  Note that he can elect for priesthood 
+easily as well, but take another skill first.  In fact, since sword is 
+easy to find, don't start off with that, either.  Consider starting with 
+fencing.  A paladin may acquire hunting skills, and two hunters mean 
+you'll never have to buy food, useful for dungeon expeditions.
+--Monk:  start with kung fu and karate, since they are not in mainland 
+colleges.  Easy instant offense with more long-term potential than the 
+barbarian.
+--Wizard:  get the ice runes and another type of runes(NOT fire, because 
+you can pick that up two other places.  Ice runes are the toughest to 
+find.)  My suggestion is metal runes.
+  In general, don't pick up a skill with a college close to where you 
+begin the game.  If you start with a lot of skills that are hard to 
+find, the easy ones will fall into place after you've built up your bank 
+from a few battles.
+    Having Illo as a deity helps you not have to pay if a party member 
+dies(oh, yeah.  You can always use the "save trick" to give your party 
+member a 100% instead of a 20% chance of resurrection.)  Shamanism 
+doesn't seem to be worth it and is really too expensive.  As for races, 
+I'd make one party member a dwarf so you can see at night.  Trolls' 
+regenerative powers don't make up for their other deficiencies unless 
+you cheat your characters :), but otherwise humans and elves are safe 
+choices even if it's been done before.
+
+  THE BIG MAP
+
+    The map of Demon's Winter is divided by disk into seven 64x64 
+sections.  Each one overlaps any adjacent ones by a width/height of 8 
+squares so that when you are on a border between sections, you can view 
+the other side.  The world of Demon's Winter is flat and not round, and 
+your crew won't sail beyond the boundaries.  So there are 64*7-6*8=400 
+units to a side.  The world of Demon's Winter has 160000 squares, more 
+than double the Ultima V outerworld--this is due to the compression 
+used, which works roughly as follows:
+[read a.  read b.  if (a&0x80) put a&0x7f out b times, unless b=0, then 
+put it out x100 times.]
+For instance, the bytes x94 x13 say that you put out 0x14 0x13 times, 
+and 0x94 0x00 says put out 0x14 0x100 times.  It's a lot like Deathlord 
+and although it may save a bit more space it doesn't allow for as many 
+special squares(127 possible icons in DW, 255 in Deathlord.)  It's neat 
+to know that the disk will load on the Apple when you change sectors, 
+which allows you to keep track of where you are even when you think 
+you're lost.  But as they said in Spinal Tap, enough of my yackin'.  
+Let's boogie.
+
+    ****HOW THE 56x56 sections are divided up****
+
+Brief note:  blank=all water
+
+       A       B       C       D       E       F       G
+   +-------+-------+-------+-------+-------+-------+-------+
+   |       |       |       | DESERT|DESERT+|       |       |
+ 1 |       |DUNGEON|       |       |DUNGEON|       |       |
+   |       | (ICE) |       |       |       |       |       |
+   +-------+-------+-------+-------+-------+-------+-------+
+   |       |       |       |       |       |       |       |
+ 2 | KUDZU | KUDZU |       |       | DESERT|       |       |
+   |       |       |       |       |       |       |       |
+   +-------+-------+-------+-------+-------+-------+-------+
+   |       |       |       |       |       |       |       |
+ 3 | KUDZU | KUDZU | YMROS | YMROS |       |       |       |
+   |       |       |       |       |       |       |       |
+   +-------+-------+-------+-------+-------+-------+-------+
+   |       |       |       |       |       |  HUT  |       |
+ 4 |       |       | YMROS | YMROS |  POOL | INLET |       |
+   |       |       |       |       |       |       |       |
+   +-------+-------+-------+-------+-------+-------+-------+
+   |       | FIRE  | WOOD  |   3   |       |       |       |
+ 5 |       |ISLAND | ISLE  | ISLES |MALIFON|       |       |
+   |       |       |       |       |       |       |       |
+   +-------+-------+-------+-------+-------+-------+-------+
+   |       |       |   1   |       |MALIFON|       |       |
+ 6 |       |       | ISLE  |       |DUNGEON|MALIFON|       |
+   |       |       |       |       |       |       |       |
+   +-------+-------+-------+-------+-------+-------+-------+
+   |       |       |       |       |       |       |       |
+ 7 |       |       |       |       |       |       |       |
+   |       |       |       |       |       |       |       |
+   +-------+-------+-------+-------+-------+-------+-------+
+
+  OVERLAND CO-ORDINATES
+
+A2:
+
+  MAINLAND(KUDZU)
+(23,33) Ynoth
+  Church of Theryni
+  College of Potion Lore, College of View Land
+  Inn:  32/night
+  Pub:  food=3
+
+A3:
+  MAINLAND(KUDZU)
+(37,7) Land's Edge
+  Church of Camear
+  College of Item Lore
+  Docks:  600/ship
+  Guild
+  Healers:  120/resurrect
+  Pub:  food=2
+(35,15) Lumisle Island
+  Church of Vemarkn
+  College of Persuasiveness
+  Guild
+  Inn:  27/night
+
+B1:
+
+  SOUTHWEST ISLE
+(10,29) Aurora
+  College of Monster Lore
+  College of Item Lore
+  Guild
+  Healers 220/resurrect
+  Inn:  44/night
+
+  NORTHWEST ISLE
+(12,51) Ruined Temple Dungeon
+
+  EASTERN ISLE
+(45,51) Ice Dragon's Caves
+
+B2:
+
+  MAINLAND(KUDZU)
+(4,4)   Dwarves' dungeon dungeon(non-kudzu path to it from Ynoth)
+(45,48) Temple of Balmur(NE of the land)
+
+B3:
+
+  MAINLAND(KUDZU)
+(17,6) Mojured
+  College of Weapon Lore
+  Inn:  16/night
+
+  ISLAND EAST OF MOJURED
+(47,15) Loven
+  College of Mace, College of Axe
+  Inn:  20/night
+(41,10) College of Hunting
+
+  ISLAND NORTH OF LOVEN
+(40,25) College of Summoning
+
+B5:
+
+  FIERY ISLAND
+(14,26) College of Fire Runes
+
+C3:
+
+  NORTHWEST YMROS MAINLAND
+(14,33) Temple of Theryni
+(44,29) Temple of Volobews
+(40,27) Iris
+  Church of Balmur
+  Healers:  110/resurrect
+  Inn:  22/night
+(46,17) Temple of Maldorath
+(47,19) Dragontooth
+  College of Axe
+  College of Mace
+  Docks:  Ship=670
+  Healers:  200/resurrect
+  Inn:  40/night
+  Pub:  food=4
+(29,21) Chandris
+  Church of Omizeh
+  College of Persuasiveness
+  Healers:  139/resurrect
+  Pub:  food=2
+(36,4) Urlock
+  Church of Acisc
+  Inn:  25/night
+(40,8) Temple of Omizeh
+(9,5) College of Monster Lore
+
+  ACCESSIBLE BY BRIDGE
+(10,22) College of Sword
+(19,23) College of Weapon Lore
+
+  ISLE TO NORTH
+(20,44) Temple of Balmur
+
+C4:
+
+(5,34) Temple of Illo
+(33,36) Alynhawk
+  College of Detect Traps
+  College of Sword
+  Inn:  24/night
+(51,41) (51,43) Double dungeon
+(29,26) Temple of Camear
+(41,25) Akistu
+  Church of Acisc
+  College of Axe
+  College of Mace
+  College of Tactics
+  Healers:  110/resurrect
+  Inn:  22/night
+  Pub:  food=2
+(45,19) College of Hunting
+(42,14) Elbarat
+  Church of Illo
+  College of Potion Lore
+  Healers:  89/resurrect
+  Inn:  17/night
+(27,14) Seaside
+  Church of Camear
+  Healers 100/resurrect
+  Pub:  food=2
+(14,11) College of Sword
+(41,9) Kobold Camp
+(25,9) Ruins of Ildryn(where you start)
+
+  ACROSS A BRIDGE
+(42,52) College of View Land
+
+  THROUGH THE DUNGEON
+(51,51) Temple of Gamur
+
+  SMALL ISLE IN INLET
+(38,23) Temple of Vemarkn
+
+  NORTHWEST ISLE
+(4,50) College of View Room
+
+C5:
+
+  SOUTH OF YMROS
+(6,23) Idlewood
+  College of Disarm Traps
+  Church of Omizeh
+  Inn:  34/night
+  Pub:  food=3
+(15,30) College of Hunting
+(33,22) Temple of Gamur
+(18,6) Temple of Volobews
+(21,1) College of Metal Runes
+(41,44) Temple of Acisc
+(22,50) Woodhaven
+  Church of Illo
+  College of Sword
+  College of Potion Lore
+  College of Tactics
+  Guild
+  Healers 150/resurrect
+  Inn:  30/night
+(37,53) Temple of Camear
+
+  ON AN ISLAND IN THE MIDDLE OF THE CONTINENT
+(33,40) College of Wind Runes
+
+D1:
+
+  MAINLAND
+(47,33) Temple of Volobews
+
+  NORTHERNMOST OF WESTERN ISLES
+(17,48) College of Possession
+
+  EASTERNMOST OF WESTERN ISLES
+(24,29) College of Illusion
+
+D3:
+
+  MAINLAND
+(41,44) Irondome(town, but only with marketplace)
+(50,39) College of Karate
+(24,34) College of Axe
+(17,27) College of Mace
+(35,20) Asaht
+  Docks:  ship=680
+  Church of ????? [Ancient One]
+  Guild
+  College of Potion Lore
+  Healers:  89/resurrect
+  Inn:  17/night
+  Pub:  food=1
+
+  SOUTHWEST OF MAINLAND
+(13,21) College of Illusion
+
+D4:
+
+(28,7) Pirates' Cove
+(53,37) Janthrin
+  Inn:  20/night
+  Pub:  food=?
+  Docks:  570/ship
+(36,34) College of Item Lore
+(21,35) Erguard
+  Church of Illo
+  Guild
+(30,48) New Gleon
+  Docks:  ship=610
+  Guild
+(6,43) Temple of Camear
+(6,20) Paladine
+  Inn:  16/night
+  Pub:  food=1
+(47,19) Temple of Vemarkn
+
+
+  FAR NORTHEAST ISLE
+(41,53) College of Berserking
+(53,51) Myrquacid
+  Church of Vemarkn
+  College of View Room
+  Guild
+  Healers:  100/resurrect
+  Inn:  20/night
+
+  NEAR NORTHEAST ISLE
+(38,42) Temple of Maldorath
+
+  EASTERN ISLE
+(49,23) College of Karate
+
+  INLET TO SOUTH, WESTERN ISLE
+(11,16) College of Armored Skin
+
+  INLET TO SOUTH, EASTERN ISLE
+(16,13) College of View Items
+(19,17) College of View Mind
+
+E1:
+
+(10,44) Temple of Gamur
+(41,51) Dungeon:  Knights' tomb
+(48,30) College of View Mind
+(25,20) College of Kung Fu
+(30,36) College of Spirit Runes
+
+E2:
+
+(18,28) Terlabba
+  Church of Acisc
+  College of Detect Traps
+  Guild
+  Healers:  250/resurrect
+  Inn:  50/night
+(25,22) College of Fencing
+(32,20) College of Armored Skin
+
+E5:
+
+(43,37)  Glyph
+
+E6:
+
+(16,14) Glyph
+(39,42) (41,42) Double-dungeon(to Malifon)
+(36,25) Dungeon(Dark Chapel)
+
+F4:
+
+(21,11) Building dungeon, with Bellkeeper's place and Malifon's temple 
+behind it
+(24,22) Old woman's hut dungeon
+
+Other stuff of note:
+
+--Ymros is much like Ymros in Shard of Spring.  Many of the same cities 
+in the south, but up north there are a few added on.  Of course the 
+dungeons are in different places and Islanda is gone as well.
+--Don't ask me why they have the entire east and south waters landless.  
+Ah well....
+
+SPECIAL PLACES BELOW GROUND
+
+  ICE DRAGON'S CAVE
+    College of Ice Runes:  NW part of caves(go N, then W)
+
+  PIRATES' COVE
+    Pirates' Cove(town):(across river)
+      Guild
+      Inn:  22/night
+      Pub: 1/food
+    College of Disarm Traps:(south branch)
+    College of Detect Traps:(north branch)
+
+  BY-COLLEGE/CHURCH LIST
+
+You can search through the document for the discipline you want and find 
+it.  But this seems to have its own use, so I included it below.
+
+College of Axe:
+  Loven B3(47,15), Dragontooth C3(47,19), Akistu C4(41,25), D3(21,34)
+
+College of Armored Skin:
+  D4(11,16), E2(32,20)
+
+College of Berserking:
+  D4(41,53)
+
+College of Detect Traps:
+  Alynhawk C4(33,36), E2(18,28), Pirates' Cove D4(28,7) below ground, 
+north branch
+
+College of Disarm Traps:
+  Idlewood C5(6,23), Pirates' Cove D4(28,7) below ground, south branch
+
+College of Fencing:
+  E2(25,22)
+
+College of Fire Runes:
+  B5(14,26)
+
+College of Hunting:
+  B3(41,10), C4(45,19), C5(15,30)
+
+College of Ice Runes:
+  North and West of the entrance to the Ice Dragon's Lair
+
+College of Illusion:
+  D1(24,29), D3(13,21)
+
+College of Item Lore:
+  D4(36,34), Land's Edge A3(37,7), B1(10,29)
+
+College of Karate:
+  D3(50,39), D4(49,23)
+
+College of Kung Fu:
+  E1(25,20)
+
+College of Mace:
+  Loven B3(47,15), Dragontooth C3(47,19), Akistu C4(41,25), D3(17,27)
+
+College of Metal Runes:
+  C5(21,1)
+
+College of Monster Lore:
+  Aurora B1(10,29), C3(9,5)
+
+College of Persuasion:
+  Lumisle Island A3(35,15), Chandris C3(29,21)
+
+College of Possession:
+  D1(17,48)
+
+College of Potion Lore:
+  Asaht D3(35,20), Ynoth A2(23,33), Elbarat C4(42,14), Woodhaven 
+C5(22,50)
+
+College of Priesthood:
+  [NONE.  You need to convert at a church.]
+
+College of Shaman:
+  [NONE.  You need to convert at a temple.]
+
+College of Spirit Runes:
+  E1(30,36)
+
+College of Summoning:
+  B3(40,25)
+
+College of Sword:
+  C3(10,22), Alynhawk C4(33,36), C4(14,11) Woodhaven C5(22,50)
+
+College of Tactics:
+  Akistu C4(41,25), Woodhaven C5(22,50)
+
+College of View Item:
+  D4(16,13)
+
+College of View Land:
+  Ynoth A2(23,33), C4(42,52)
+
+College of View Mind:
+  D4(19,17), E1(48,30)
+
+College of View Room:
+  C4(4,50), D4(53,51)
+
+College of Weapon Lore:
+  Mojured B3(17,6), C3(19,23)
+
+College of Wind Runes:
+  C3(33,40)
+
+Temple of Omizeh:
+  Chandris C3(29,21), C3(40,8), Idlewood C5(22,50)
+
+Temple of Gamur:
+  C4(51,51), C5(33,22), E1(10,44)
+
+Temple of Acisc:
+  Urlock C3(36,4), Akistu C4(41,25), C5(41,44), Terlabba E2(18,28)
+
+Temple of Volobews:
+  C3(44,29), C5(18,6), D1(47,33)
+
+Temple of Theryni:
+  Ynoth A2(23,33), C3(14,33)
+
+Church of Balmur:
+  B2(45,48), Iris C3(40,27), C3(20,44)
+
+Church of Vemarkn:
+  Lumisle Island A3(35,15), C3(38,23), D4(47,19), Myrquacid D4(53,51)
+
+Church of Maldorath:
+  C3(46,17), D4(38,42)
+
+Church of Illo:
+  C4(5,34), Elbarat C4(42,14), Woodhaven C5(22,50), Erguard D4(21,35)
+
+Church of Camear:
+  Land's Edge A3(37,7), C4(29,26), Seaside C5(27,14), C5(37,53), 
+D4(6,43)
+
+  LONG WALKTHROUGH(WITH SIDE TRIPS)
+
+  You can actually skip a lot of Demon's Winter, but the story isn't as 
+filled-out.  For instance, if you restart a party you know the clue from 
+Uffuspgot's and can proceed from there as if you knew it.  Note:  to 
+find what you can skip, search for the next occurrence of "xyzzy."
+  The general technique for walking through a dungeon is as follows:  
+use the "I" key to see where items are(usually in a room with a 
+description,) "E" on that square, try to T/Take or M/Move the object.  
+Also try to U/Use every object you find on that square.  This trial-and-
+error should get you through the puzzle part of the game.
+
+    ****UFFUSPGOT'S****
+
+  This is a smash-and-grab expedition requiring no ingenuity whatsoever.  
+It's just an open square space with a bunch of tents and campfires.  
+I'll list below all the relevant locations.  Monster roll calls indicate 
+a fight:
+
+  4W, 3S:  tent with 4 kobolds
+  3W, 6S:  note
+  3E, 4S:  note
+  7E, 2S:  4 kobolds
+  11S:  4 kobolds
+  13S:  Uffuspgot, 2 orcs, 2 kobolds
+  12S, 3W:  woman held captive
+
+    ****TUNNEL TO GAMUR'S TEMPLE****
+
+  This, due north of the bridge northeast of the College of hunting, 
+doesn't have much besides a guy saying the person you seek is a puppet.  
+This comes into play near the end, but it may be a confusing clue for 
+now.
+
+    ****GAMUR'S TEMPLE****
+
+  From the kobold camp, you know the password.  Actually, it's a pass-
+letter.  "-x-" should be x.  Type it, and you are welcomed.  This is the 
+first "real" dungeon in Demon's Winter.  There are a lot of items to 
+find, and there are even puzzles with clues.
+  There are two areas, beyond the secret door maze and before it.  
+Before it, you find, when you go west from the stairs, a hallway.  To 
+the north, west and south is a room with a bed and an IRON KEY which you 
+can take.  Back to the hallway, if you go south, there is a SCROLL that 
+tells you about Qoorik in the room to the south.  There's also a MAN IN 
+THE GLASS CASE that you'll have to come back for.  Back in the hallway, 
+follow it to a lab.  Two south of the entry is a CAGE.  Use the iron key 
+to get wind of a secret passage.  Then two west of entry are a RED SERUM 
+and BLUE SERUM.  You'll only need the blue stuff.  Go through the secret 
+passage in the west wall.  Turning south, take a detour to pick up the 
+mallet(north center of the side room) and then back in the main passage 
+move the altar to reveal a secret passage.  You can go there, but you 
+haven't found the information on what to do.  That's past the maze.  So 
+return to the start and stop off by the MAN IN THE GLASS CASE.  Use the 
+mallet on it, and then use the blue serum.  He'll tell you where to find 
+Qoorik.  You can leave now or complete the dungeon entirely.
+  Now go north and east to see the corridor you missed before.  The 
+second door south has a room with a secret wall to the east.  There's 
+also a desultory encounter with two hill giants.  The pattern through 
+the maze is 4E 3N 3E 5S 3E 3S 5W S 2W 2N 2W N 6W and the full map is in 
+my text map section.  Beyond that, there are some skeletons and skeleton 
+mages to fight.  To the south you'll find a clue, and to the west and 
+east are two rooms each with a valuable item.  You will find a dagger, a 
+mace, chain mail, and a short sword to the side.  Retreat to the 
+entrance and go back past the altar room.  Save first, follow the secret 
+passage, and eventually you'll see a message that you hear machinery.  
+Only 3E S will let you survive.  After that there is a fight with a 
+hobgoblin.  Then you will fight Remondadin.  There's a back-door exit 
+you'll have to take to get out.
+
+    ****QOORIK****
+
+  Oo, this one's fun.  South of the main continent, there's a town 
+called Idlewood.  Three north and four west is the Demon City of Qoorik, 
+invisible 'til you step in it.  Yeah, there's some **** going down in 
+that place, too, but at least you can't smell it.
+
+xyzzy
+
+NOTE:  You didn't actually have to go through any of the previous 
+dungeons.  The following ones are pretty necessary.
+
+
+    ****ICE DRAGON'S****
+
+  This is north of the kudzu continent, just south of the northern edge 
+of the world, and 80 squares east from the west edge.  It's also known 
+as the crystal cave.  To the north, you find the ice dragon, and west of 
+there is a path to the College of Ice Runes.  Going back to the "lobby" 
+you can go south(the west passage, as the east passage exits) and fight 
+a yeti to pick up the ICICLE, the first item in the game you'll actually 
+need.  Not much else to do.
+
+    ****ICE CATHEDRAL****
+
+  This is just a bit west of the Ice Dragon's.  Your first time around, 
+find the scroll(northwest corner) and Jesric(to the east of that.)  
+Beating Jesric in combat gets you the HEAVY AMULET.  While you're at it 
+there's an area that can't be mapped, south of Jesric.  There's a secret 
+door on the west side, and you'll find the DEMON CRYSTAL there.  Then 
+just use the icicle(southwest part) to get to the ALTAR.  Use the PRAYER 
+SCROLL at the altar.  You'll be given a mission.  You'll also be told to 
+convert to the ancient god's religion, but that's not necessary.
+
+    ****KALEK-ZIN'S****
+
+  IMPORTANT:  You may want to improve your party before going on this.  
+If you want to read more, see below.
+  Go east a while, and you'll find an island with desert and mountains.  
+The inlet will lead you to Kalek-Zin's.  Go north, and in the room 
+there's a secret door in the north wall.  In the fire room there are 
+secret doors in the west and east walls.  Visit Kalek-Zin's ghost for 
+kicks and then go through one of the doors.  To be "worthy" you must 
+visit all ten locations and they are laid out as follows(order doesn't 
+matter:)
+
+      0   1   2
+      |   |   |
+      |   |   |
+      3   4   5
+      |   |   |
+      |   |   |
+    +-+---+---+-+
+    |           |
+  6-+-S-------S-+-7
+      |       |
+  8---+       +---9
+
+In each one, if you have a member of a certain class, they are given a 
+task--or not.
+0=scholar.  No fight, just a message with a clue--the words "use faceted 
+mirror in dark chapel" are in code.
+1=sorcerer.  You must fight a stalker.
+2=barbarian.  You must fight a large dragon.
+3=cleric.  You must fight 5 zombies, 2 ghosts.
+4=thief.  There are traps before this room, but you're still worthy even 
+if they're set off.
+5=ranger.  You must fight a cave bear.
+6=visionary.  You are told "to lead the way."  Worthless advice, but no 
+fight.
+7=monk.  You must fight a karate master.
+8=paladin.  You must fight an evil spirit.
+6=wizard.  You must fight an imp.
+
+  After going through these, return to Kalek-Zin's(the north niche of 
+the room) to get the ORB OF EVERTIME.  Back to the Ice Cathedral.
+
+    ****[Guy Smiley voice]NEWS FLASH![/Guy Smiley voice]****
+
+  The first time you rest after getting the Orb, Malifon will start 
+talking trash.  The next time, he kinda trashes all the towns.  Be 
+forewarned that there's no turning back once you get the Orb.  You can't 
+repair your ship, get food, etc.
+
+    ****RETURN TO THE ICE CATHEDRAL****
+
+  Back at the altar(use your icicle to get in,) use the prayer scroll 
+and get one of your guys the God Runes.  And now for a light-hearted 
+break.  You may want to get better weapons to fight Malifon.  A good 
+method is listed below.
+
+    ****SIDE TRIP:  DWARVES' PLACE****
+
+  On the kudzu continent(west of Ymros, south of the Ice Cathedral) 
+there is an obvious path between Ynoth and some dungeon or other.  Time 
+to explore this place.  There is not too much to do here(but stuff is 
+done for you), although you must watch out for some traps.  The dwarves 
+are in the northeast corner.
+  You are charged approximately 550 gold times the enchantment for each 
+"+" you add you your armor.  So to enchant something from +2 to +6, you 
+would need to pay 1650+2200+2750+3300=9900 gold.  After the towns are 
+destroyed, it's the only place besides colleges(and temples--an apparent 
+bug!) where your gold is worth a plug nickel.
+
+    ****ISLAND EAST OF SOUTHERN YMROS****
+
+  Well, that title explains where to go next.  This island(not the one 
+with the healing pool) boasts two dungeons.  A mountain path leads to an 
+old lady's hut.  Sleep there and go to the buildings(follow the mountain 
+range that goes off to the north to where it curves south) and then in 
+the dungeon, go east, south, across the bridge, and when you enter the 
+barrow, go west.  Ring the bell.  The runes before it say "ring bell at 
+midnight" and you just did, if you made it in time(if the screen said 
+"The sun is rising," try again.)  You can also take out the bellkeeper 
+and his dog in separate rooms if you'd like.
+  Now go to the west side of the lake and fight the titans and mountain 
+giant.  Go southeast with the ship and through the gate.  Go south and 
+you'll be asked your name.  Respond JESRIC.  Following the path to a 
+room teleports you.  From there you go east, and at the crossroads, 
+going north shows you the runes "AT COMETFALL CAST THE SPELL TO BREAK MY 
+BINDING" but going south and walking around the room teleports you to an 
+anteroom--across the bridge to the north and south are teleport rooms.  
+Once you exit the room you are teleported to, don't go east--that's a 
+teleport back.  Instead go north(or west and north, depending which you 
+went to) and you'll be asked to show evidence you belong.  Use the HEAVY 
+AMULET.  Go all the way north, east and then north and you'll be in a 
+small room.  Go east through the secret wall, north, and the second door 
+on the west leads to a winding trail and eventually Eregore.  Respond as 
+follows to the questions:  "You cannot harm us..." and "He was the 
+greatest..." and "If he plans."  If not, no big deal.  You just have to 
+fight Eregore.  At the north is the Facet Mirror.  Take it.  Then get 
+out by going to the east teleport room you avoided before--the teleport 
+in the center, followed by taking the past east, leads you back to where 
+you answered "Jesric."
+
+    ****DU COTE DE CHEZ MALIFON****
+
+  He's not quite in the southeast corner of the world.  But if you go 
+northwest from there,  you'll find his island.  It's also directly south 
+of the temple.  Find the glyphs on the island, walk over to them, camp 
+and cast UNCURSE.  There's one in each of the three arms of the island.  
+When you're done with that, make sure to bide time until your God Runes 
+person's spell points are over 100(so he can cast imprison) and go 
+between the two bottom arms to find the dark chapel.  Enter it, and at 
+the center, use the Facet Mirror.  Then go north, answer the 
+puzzle(there are runes, and the chanters say "Power, Spirit, Divinity."  
+You can find the fourth set of runes's meaning from the first three.
+
+[filler to avoid spoiler of a neat puzzle]
+
+
+
+
+  After you answer "Void" go north until you see stairs.  You're 
+outside, but inside the mountain.  Go west two and the two-part maze is 
+not difficult.  In the meantime note the demon crystal, once glowing 
+dimly, is now purple.  Just push east and you'll hit a teleport.  Push 
+east again, and after a while you must go north(the demon crystal turns 
+red here) and after crossing a nastily guarded bridge keep going north.  
+Enter the tent in the replica of Ymros, just like you entered the 
+kobolds' tent.  Then go through the replica of Malifon's temple and find 
+your way to the replica of the old lady's hut, noting that the crystal 
+has turned orange.  Then before you enter the dragon's cave, note that 
+the crystal is white.  Cast imprison, and you'll have won the game.  But 
+DON'T step in the dragon's cave.
+
+  I think you need the Demon's Crystal to win the game, but I'm not 
+sure.  It's one of the cases I didn't check.  
+
+  VERY BRIEF WALKTHROUGH
+
+  The *very brief* walkthrough is as follows:
+
+  1.  Kobold Camp(not necessary)--attack Uffuspgot, win the fight.
+    You get the info that "-x-" is the code word for the temple of 
+Gamur.
+  2.  Temple of Gamur, D4(not necessary)--find Remondadin, and kill him.
+  3.  Qoorik(not necessary)--ancient demon city NW of Idlewood in C5--  
+3N4W of Idlewood--kill Xeres in big fight.
+  4.  Ice Dragon's Cave(B1)--kill the dragon and get the icicle.
+  5.  Ice Cathedral(B1)--behind a secret door, you find the Demon 
+Crystal.  A fight with Jesric is here(get the medallion.)  Use icicle to 
+enter the altar room.
+ 6a.  Improve your characters and stock up, as the towns will all be 
+destroyed after the next step.
+  6.  White Knights(D1)--complete the class-specific quest and get the 
+orb from Kalek-Zin
+  7.  Ice Cathedral(B1)--back to the altar room.  Get the orb blessed, 
+and one character learns God Runes too.
+  8.  Old lady's hut(F4)--accept her offer to sleep there.
+  9.  Buildings(F4)--move quickly to accomplish your mission before 
+daybreak.  To the east and south of the entrance is an island with the 
+Bellkeeper's Tower on it.  Go forward to ring the bell, then get out.  
+Back around to the left, take the boat across to the temple.  Use the 
+medallion and identify yourself as "JESRIC."  To avoid fighting Eregore, 
+you must choose the dialog "You cannot harm us..." and "He was the 
+greatest..." and "If he plans."
+ 10.  Malifon's (E5, F5, F6)--cast UNCURSE on each glyph.  You'll need 
+50 spell points each, or a total of 150.  Enter the dungeon below in E6.  
+It comes back up inside the mountains.
+ 11.  Answer "void" at the center of the temple.  Go north and through 
+the maze.  When you get to the place that looks like the Ice Dragon's 
+cavern, camp and cast Imprison.  You'll have won the game.
+
+  TEXT MAPS
+
+The text maps may not be *100* percent accurate(see the tombstones, for 
+instance) and they are collated a bit, but they seemed to be worthy 
+enough to include here.
+
+Key:
+! = special event
+X = walls
+S = secret door
+F = fire(can't pass through)
+' = forest terrain
+. = normal terrain
+H = bridge
+* = tent
+v = dwelling/new location
+^ = stairs(up/down)
+
+         ****Text map for Malifon's Temple, some endgame,
+                 and many beginning dungeons****
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXFFFFFX
+XXXXXXXX~~XXXXXXXXXXX..............XXXXXXXXXXHXXXXXXXXXXXFFF!FFF
+XXXXXXXX~~XXXXXXXXXXX.XXXXXXXXXXXXXX....XXXX...XXXXXXXXXXFF...FF
+X#.XXX~~~XXXXXXXXXXXX.XXXXXXXXXXXXXX....XXXX...XXXXXXXXXXFF...FF
+X....~~XXXX...!.XXXXX.XXXXXXXXXXXXXX~\...XXXX+XXXXXXXXXXXFFF!FFF
+XX....~X....XXX..XXXX.XXX.XXX...XXXX~~\..XXXX!...XXXXXXXXXFF.FFX
+XXX.~H~~.XXXXXXX..XXX.XX...XX..!XXXX~~~..XXXX....XXXXXXXXXXX.XXX
+XX.~~H~...XXXXXXX.XXX.X.....XXX+XXXX\~~..XXXXX...XXXXXXXXXXX.XXX
+X~~~~.....!^X...X.XXX.X..B!!.......+!.H..X~~~~XX~~~~~XXXXXXX.XXX
+X~XX..X...XXX!X.X#XXX.X.....XX+XXXXX/~~..X~~~~~~~~~~~X.......XXX
+X~XXXXXXX.XXX.X!XXXXX.XX...XXX!.XXXX~/...X~~~~~~~~~~~X.XXXXXXXXX
+XXXXXXXXX.....X.XXXXX.XXX.XXXX..XXXX/....X~~~~~~~~~~~X.XXXXX...X
+XXXXXXXXXXXXXXX....#X.XXXXXXXXXXXXXX.....X~~~~~~~~~~~X.X/..X...X
+XXXXXXXXXXXXXXXXXXXXX.X.....XXXXXXXXXXXXXXXXXXXXXXXXXX.+..!+...X
+XXXXXXXXXXXXXXXXXXXXX.XXXXXXXXXXXXXXXXXXSSSXXXXX/..\XXXX/..X...X
+XXXXXXXXXXXXXXXXXXXXX............XXXXXXXSXSXXXX/.......XXXXX...X
+XXXXXXXX..XX...XXXXXXXXXXXXXXXXXXXSSSSXXSXSXXXX.......!+.F.X...X
+XXXXXXXX.!.!..!..!.!.............XXXXSSSSXXXXXX/.......X..!+...X
+XX^XXXXX..XX...XXXXX.XXXXX+XXX+XXXXSXSXXSXXSSSSX/..\XXXXFF.X...X
+XX!XXXXXXXXXX.XXXXXX.XXX....X.!..XXSXSXXSXXXXXSXXXXXXXXXXXXX...X
+XX.XXXXXXXXXX.XXXXXX...X....X....SSSSSXXSXSSXXSXSSSXXXXXXXXX...X
+XX.XXXXXXXXX.!.XXXXX.X^X....X....XXXXXXXSXXSXXSSSXSXXXXXXX!X/.\X
+XX.XXXXXXXXX...XXXXX!XXXXXXXXXXXXXSXXSSSSSSSXXSXSXSXXXXXXXSXX.XX
+XX..XXXXXXXXXXXXXXXX!XXXXXXX.SSSSSSXXXXXSXXSXXSXSXSXXXXXX/.\XSXX
+XXX.XXXXXXXXXXX......XXXXXXX.XXXXXSSSXXXXXXSSSSXSXXXXXX!S.!.S.XX
+XXX.XXXXXXXXXXX.XXXX+XXXXXXX+XXXXXXXSXSSSSSSXXXXSSSXXXXXX/.\XXXX
+XXX....X..XXX..!.XX.!.X....X!X....XXSSSXXXXSSSSXXXXXXXXXXX.XXXXX
+XXX.XX.X.!..S....XX...X!..X...X..!XXXXSXXXXXXXXXXXXXXXXXXX+XXXXX
+XX...X.XX.XXX....XX...X.XX.....XX.XXXXXXXXXXXXXXXXXXXXXXX...XXXX
+XX...X!.X.XXXXXXXXXX.XX.+.......+.XXXXXXXXXXXXXXXXXXXXXXX...XXXX
+XX.!.X..X.....!..XX.!.X.XX.....XX.XXXXXXXXXXXXXXXXXXXXXXX...XXXX
+XXX.XXXXX+XXXX...XX...X!..X...X..!XXXXXXXXXXXXXXXXXXXXXXX...XXXX
+XXX^XXX..!..XXXXXXX...X....X.X....XXXXXXXXXXXXXXXXXXXXXXX...XXXX
+XXXXXXX.....XXXXXXX...XXXXXX+XXXXXXXXXXXXXXXXXXXXXXXXXXXX...XXXX
+XXXXXXX.....XXXXXXXXXXXXXXXX.X...X.....XXXXXXXXXXXXXXXXX/...\/XX
+XXXXXXX.....XXXX......XX..!......X.....X.....................\/X
+XXXXXXXXXXXXXXXX!.....XX...XXXXXXX....!+......................XX
+XXXXXXXXX.XXXXXX!!!...XXXXXX...XXX.....X......................XX
+XXMMMMMMX......!.!!!!.+!..!+!..XXX.....XXXX/...\XXXXXXXXXX/...XX
+MMM...MMXXXXXXXX!!!...XXXXXX...XXXXXXXXXXXXX...XXXX/!!\XXXX...XX
+MM.....MMXXXXXXX!.....XXXXXXX.XXMMMXXXXXXXXX...X~~~....~~~X...XX
+M..M..v~MMXXXXXX......XXXXXXX^XMM.MMXXXXXXXX...X~........~X...XX
+M..MM~~~MMXXXXXXXXXXXXXXXXXXXXXMM..MXXXXXXXX...X~........~X...XX
+M.MM~~~~MMMMMMMMMMXM.MXMMMMMMMMM...MMXXXXXXX...X~.\/..\/.~X...XX
+M.MM~MMMM......MMXXM.MXMMM..........MXXXXXXX...X~.\/..\/.~X...XX
+M.M~MMMM........MXXM.MXMM.../~~\....MMXXXXXX...X~........~X...XX
+M.MMMM..........MMXM.MMM.../~~~~\....MXXXXXX...X~........~X...XX
+M.MM.............MMMHMMM../~~~~~~....MXXXXXX...X~.\/..\/.~X...XX
+M.M......./~~~~\...M.MM../~~/.\~~...MMXXXXXX...X~.\/..\/.~X...XX
+M......../~~~~~~\........~~/.v..H...MXXXXXXX...X~........~X...XX
+M......./~~~~~~~~\....../~~\../~~...MXXXXXXX/!\X~.......!~X...XX
+MM......~~~~~"~~~~.../~~~~~~~~~/...MMXXXXXXXX.XX~.\/..\/.~X..\/X
+MMM.....~~~~/.\~~~\./~~~~~~~~~/....MXXXXXXXXX.XX~.\/..\/.H+.\/XX
+MMMMM...\~~/...~~~~~~~~~~~~~~~....MMXXXXXXXXXfXX~~~~~~~~~~XXXXXX
+MMMMMMM....!../~~~~~~~~~~~~~~~\..MMXXXXXXXXXX!XXXXXXXXXXXXXXXXXX
+MMMXXXMMMM~~~~~~~~~~~~~~~~~~~~~~MMXX...XXXXX...XXXXX...XXXXXXXXX
+MXMMMXXXMMMMM~~~~~/..\~\~~~~~~MMMXXX.................?.XXXXXXXXX
+XXXXMMMMMMMMMMMM~~......\~~MMMMXXXXX...XXXXXXXXX.XXX...XXXXXXXXX
+XXXXXXXMMMXMMMMMMMM.....MMMMXXXXXXXXXXXXXXXXXXX..XXXXXXXXXXXXXXX
+XXXXXXXXXMMXXXXXMMMMMHMMMXXXXXXXXXXXXXXXXXXXXXX.XXXXXXXXXXXXXXXX
+XXXXXXXXXXMMXXXXXMMMM!MXXXXXXXXXXXXXXXXXXXXXXXF.FXXXXXXXXXXXXXXX
+XXXXXXXXXXXMMMMXXXXXM.MXXXXXXXXXXXXXXXXXXXXXXXF..XXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXM.MXXXXXXXXXXXXXXXXXXXXXXXF.FXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXM.MXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+                   ****Text Map for Endgame****
+
+.........XF.FX.........XXXXXXXXXXX..~~~~~MMM~~~~~FFFFFFFX.XFFFFF
+.........XF.FX.........X...X^X.FFX..~~~~MMMMM~~~~FFFFFFXX.XXFFFF
+.........XF.FX.........X.......FFX..~~~~MMvMM~~~~FFFFFFXX.XXFFFF
+.........XF.FX.........X.......FFX..~~~~MM..M~~~~FFFFFFXX..XFFFF
+.........XF!FX.........X..F.!.FFFX..~~~~M....~~~~FFFFFFX....FFFF
+.........XF.FX.........X.FFF.FFFFX..~~~......~~~~FFFFF......FFFF
+.........XF.FX.........XFFXF.FXFFX..~~.......~~~~FFFF.......FFFF
+.........XF.FX.......FFFFFXF.FXFFFFF~~......~~~~~FFFF......FFFFF
+.........XF.FX.......FFFFFXF.FXFFFFFX.......~~~~~FFF.......FFFFF
+.........XF.FX.......FFFFFXF.FXFFFFFX.......~~~~~FFF.......FFFFF
+.........XF.FX.......FFFFFXF.FXFFFFFX........~~~~FFF........FFFF
+.........XF.FX............XF.FXFFFFFXXXXXXXXXXXXXFXXFF......FFFF
+.........XF.FX............XF.FX..................FXXXFF......FF.
+.........XF.FX............XF.FX.......XXXXXXXXXXXXX!XXFF......F.
+.........XF.FX............XF.FX...''MMM'''''.XXXXXXSXXXFF.....F.
+.........XF.FX............XF.FX...'MMMMMM'''.XXXXX/.\XSXF.....F.
+.........XF.FX............XF.FX...'MMM...''''XXX!S...S?XF.....F.
+.........XF.FX............XF.FX...MMM..MMM'''XXXXX/.\XXXFFFFFFF.
+.........XXXXX............XF.FX...MMM.MMMMM..XXXXXX.XXXXX.FF....
+.........XX.XX............XF.FX...MM...MMMMM.XXXXXX+XXXXXFFX.XFF
+F...XXXXXX.!.XXXXXX.......XF.FX...'Mv.MMM~MM.XXXXX...XXXXFXX.XXF
+FXXXX.............XXXX....XF.FX...'MMMM~~~~~~XXXXX...XXXXFX...XF
+FX...................X....XF.FXXXXXXXXXXXXXX~~XXXX...XXXXFX...XF
+FX..XX...........XX..XX...XF.FX~\....''''''.~~XXXX...XXXXFX....F
+F.!.XX.F.......F.XX.!.X...XF.FX~~\....''''..~~XXXX...XXXXF.....F
+XX.....F.......F.....XX...XF.FX~~~~\..'*''..~~XXXX...XXXXF.....F
+.X.....F..X.X..F.....X....XF.FX~~~~/..'''...XXXXX/...\/XXFFFFFFF
+.X..XX.F...!...F.XX..X....XF.FX~~/....''....XX........\/X.......
+.X..XX.F..X.X..F.XX..X....XF.FX\/.....''....XXX........XX.......
+.X.....F.......F.....X....XF.FX......'''....XXX........XX.......
+XX.....F.......F.....XX...XF.FX......''.....X.XXXXX/...XX.......
+X.!.XX.F.......F.XX.!.X...XF.FX\....'''.....X.!.XXXX...XX.......
+XX..XX...........XX..XX...XF.FX~\...'''.....XXX.XXXX...XX.......
+.X...................X....XF.FX~~~~\.''.....XXf.fffXX..X........
+.X...................X....XF.FX~~~~~~~~~~~~~~Xf..ffXXXXX........
+.X...................X....XF.FX~~~~~~~~~~~~~~Xf?..fX............
+.X.........!.........X....XF.FXXXXXXXXXXXXXXXXf!f.fXFFFFFFFFFFFX
+.XXXXXXXXXXHXXXXXXXXXX....XF.FX..FFFXFF..X..XFF..XFF.F.F..FXF..X
+..........................XF.FX.FF....FF..X....F..F.XXXFXFFXF.XX
+..........................XF.FX...F..F.F.F..XXFF............FFFX
+..........................XF.FX....FFXX.FF.X.....FFFFFX...F.X..X
+..........fff.............XF.FX.X.F...X..FXFFFFFFFFFFF..XXX....X
+.........ff.ff............XF.FX.X.FXFXF..FFF..FFFFFFFFHFXXFFF.FX
+....ffffff...ffffff.......XF.FX.FFFF.XX..X..F..FFFFFFFHFF...XFFX
+.ffff.............ffff....XF.FXFF.FXFXFX.X.FFX..FFFFFFHFX..FX.XX
+.f...................f....XF.FXF...XFF...FFF....X..FFFHF..FF.FXX
+ff..ff...........ff..ff...XF.FXF.F.X.X.F.X...XFFF...FF!..XF.XFFX
+f...ff.F.......F.ff...f...XF.FX.....X.FFX......X....XF..FX..X..X
+ff.....F.......F.....ff...XF.FXX.F.....X......XX.XFF..F.....F.FX
+.f.....F..f!f..F.....f....XF.FX.F.FX.....F.FX.FF.XF.FFF..F..FX.X
+.f..ff.F..!!!..F.ff..f....XF.FX.FFFX.X.F...XFXXF......F..X...F.X
+.f..ff.F..f!f..F.ff..f....XF.FXFXX...FXF..XXXF.XF..FXFFF.XF.X..X
+.f.....F.......F.....f....XF.FXF...FXX.........FFF..FF....F..FFX
+ff.....F.......F.....ff...XF.FXFXXF..F.FX..F...F.F.F..F.XFXF.FXX
+f...ff.F.......F.ff...f...XF.FX......FXF..XFFF.F...FXFFFXXXF.FXX
+ff..ff...........ff..ff...XF.FX.XF.F..FFX..FF.........F.FXX...FX
+.f...................f....XF.FX..XFF.FFXF..XFX.XF..F......XF.X.X
+.f...................f....XF.FX..........X.FF.FFF..XXF.FF....F.X
+.f...................f....XF.FX...FX.FF.FFFX...FFF..F..FFFFF.FFX
+.f.........!.........f....XF!FXXF^FX.XFFX....F....XF.FFFX..FX..X
+.ffffffffffHffffffffff....XF.FXFFX........X..FX.XFF..F..F.FXXFFX
+..........................XF.FX.F...F.F...F.................X.XX
+..........................XF.FX.XF..XFFF.XF.F.FXF....FX..FX...?X
+..........................XF.FXFXXXXXXXXXXFXXXXXXXXXXXXXXXXXXXXX
+
+You enter at the southwest.  From there you go to the center of that 
+location, answer the riddle, jump to the other, use the mirror.  Then 
+there's a long corridor to the north(there's a teleport at the top that 
+goes to the bottom of this map.)  The left-hand dungeon after you climb 
+out stars in the lower right.  There's a teleporter in the lower right 
+corner.
+
+
+                  ****Text Map for Qoorik****
+
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.
+FFFFF.................FFFFFFFFFFF...FFF...FFFFFFFFF...........F.
+FFFF.........................FFF...FF^FF......FFF.............F.
+FFF...........................FF...F...F...............FFFFF..F.
+FFF....F+FF....................F...F.F.F.................!....F.
+FFF....F..F.............FFFFFF.FF..F.!.F...............FFFFF..F.
+FF.....F..F.^..FFFFFF...F....F.FFF.FF.FF.....FFFFFFFFF........F.
+F......FFFF....F..^FF...F...!+.FFF..F.F......F..F^FFFF........F.
+F.......FF.....+...FF...F....F.FF............F..F.F..F........F.
+F..............F...FF...FFFFFF.F.............F..F.+..F........F.
+~~~.....F...F..FFF+FF..........F.............F!.F.F..F........F.
+F.~~....F...F....F..F..........F.............FFFF+FFFF..FF+FF.F.
+F..~~~~.FF!FF....F..F..........F.............F...!...F..F...F.F.
+F...~~~.F...F....+!.F...FFFF...FFFFFFFFF+FF..F.......F..F...F.F.
+F...~~~.F...F....F..F...F..+...FF.!+.F....F..F.......F..FFFFF.F.
+F................F..F...F..F...FF..F.+!...F..F.......F........F.
+F..............FFFF+F...FFFF...FFFFF.FFFFFF..FFFFFFFFF........F.
+F..............F...!F.........FFFFFF.F..FFF...................F.
+F..............F....F.......FFFFF..F.F....F....F......FFFFF...F.
+FFFFFFFFF......F....F......FFFFFF.!+.FFFFFF...FFFF......!.....F.
+FFFFFF..F......FFFFFF......FFFFFF..F.FFFFFF...FFFF....FFFFF...F.
+FF...F..FF..................FFFFFFFF.FF...F...FFF.............F.
+FF...F+FFF....................FFFFFF+FF...F...FFF.............F.
+FF....!+!!.....................FF^........F...FF..FFFFFFFF+F..F.
+FF...F+FFF............FFFFFF...FFFFFFFFFFFF...FF..F......F.F..F.
+FF...F..FF............F....F...F.FFFFFF......FF...F......F.F..F.
+FFFFFF.^F.........!...+!..FF..FF.F....FF.....FF...F......F.F..F.
+FFFFFFFFF........F.F..F....F..FF.F...FFFFF...FF...F......+.F..F.
+F................F.F..FFFFFF..FF.F..!...!....FF...FFFFFFFFFF..F.
+FF............F..F.F.........FFF.F...FFFFF...FF..............FF.
+FFFF.........FFF.F.F........FFFF.F....FF.....FF..............FF.
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFF!ttt............t...FFFFF............FFF
+FF.F..F.F..F..FFFF.....F...t........t.............t..........tFF
+F..F..F.+..F..FFFF.t.t.F~~.!....t............t........t.......FF
+F..F..F.FFFF..FFFF.....F.~tt.............ttt...............t...F
+F..FF+F.......FFFFt!...F.~~~~~~.......F.ttvtt.F.....t..........F
+F...........FFFFFFF.FFFF......~.......Ftt...ttF................F
+XXXXXXXXXX..FFF^FFF..FFF....t.~.......FF..!..FF................F
+XXXXX..XXX..FFF.FFF..FFF.....~~........FFF.FFF.................F
+X....!.XXX..FFF.FFF....F....~~..t.................t.......t....F
+X.XXXXXXXX.............F~~..~........t..................t......F
+X.XXXX...X.............F.~~~~.................................FF
+X.X..+...XXXXXXXXXXX...F....~~~~~~..........t...t.............FF
+X!X.XX...X~~~~~~~~~X..FF.t.......~~~~~.............t........t..F
+X.X.XXXXXX.........X!FFF.............~~~~~.....................F
+X.X.+....X.''...''.X..FF.................~~~~...............~~~~
+X.XXX....X.''...''.X..FF...t.....t..........~~~~~.....~~~~~~~..F
+X...X...!+!...O....X...F..............t.........~~~~~~~.!......F
+XXXXX....X.''...''.X...F.t......t............................t.F
+X.X.+....X.''...''.S...F....................t.............t....F
+X.X.XXXXXX.........X...F.....t.....................t.........FFF
+X.X.XX...X~~~~~~~~~X...Ft....................................FFF
+X.X..+...XXXXXXXXXXX..FF.............t.......................FFF
+XXXXXX...X.!..........FF..................t..............t...F.F
+FFFFFXXXXXFFFFFFFFFFFFFF......!..............................F.F
+FFFFFFFFFFFFFFFFFFFFFFFFtttttt.t...................t.........F!F
+F..................t.......t...t....t.......t................F.F
+F......t....t......t....!......t.........tt..................F.F
+F...t.........!....t..........tt.......................t.....F!F
+F.......t...........!.......!..t......................t......F.F
+F.....t......t.....t...........t......t....F..t................F
+F..t...............t...........t.........FFFF........F.........F
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
+First level NW, second NE, third SW.
+
+              ****Map for Amber Vault/Ice places****
+
+IIIIIIIIIIIIIIIIIIIII.I...........IIIIIIIIIIIIIIIIIIIIIIIIIIIII.
+..I.....!..I..I..I..I....I........IIIIIIIIIIIIIIIIIIIIIIIIIIIII'
+.!..IIIII..I..I..I..I..I..........IIIIIIIIIIIIIIIIIIIIIIIIIIIII~
+II.II...II.+!!.!..!.I..III........IIIIIIIIIIIIIIIIIIIIIIIIIIIII~
+...I..!..I.I..I..I..I.I...........IIIIIIIIIIIIII..#III..IIIIIII~
+...I.....I.I..I..I..I.......FFFF..IIIIIIIIIIIIII...IIII.IIIIIII~
+.I.S.....I..IIIIIIIII.I....FF..FF.IIIIIIIIIIIIII.IIIIII...IIIII~
+.I.II...II...I........I...FF....FFIIIIIIIIIIIIII..........IIIII~
+.I..II.II....I.II....I...FF......FFIIIIIIIIIIIIIII.IIII.!.IIIII~
+.I...III...I.I.I.I......FF....^...FFIIIIIIIIIIIIII.IIIII.IIIIII~
+.....I!I..II.I.........FF..........FFIIIIIIIII..II.II.II.IIIIII~
+.I...I.I.....I........FF............FFIIIIIIII..II....II.IIIIII~
+.I.........!I........FF....F.........FFIIIIIIII....IIIII.IIIIII~
+..I....I...H........FF....FF..........FFIIIIIIIIIIIIIII....IIII~
+..!.......I........FF.....F.....FF.....FFIIIIIIIIIIIIII....IIII~
+.III.IIIII........FF............FF......FFIIIIIIIII..II.II.IIII~
+II!III...........FF....F.................FFIIIIIIII.!II.II.IIII~
+..!..I..I.......FF..F................F....FFIIIIIIII....II.IIII~
+.....I.I.......FF..........................FFIIIIIIIIIIIII.IIII~
+.....I........FF............................FFIIIIIIIIIIII.IIII~
+IIIIII.......FF....FFFFFFFFFFFFFFFFFFFFF.....FFIIIIIIIIIII!IIII~
+............FF.....FF.FF..FFFFFF.......F......FFIIIIIIIIII^IIII~
+.II........FF......FF.FF.FF......FFFFF.F.......FFIIIIIIIIIIIIII~
+.I........FF...FF..FF.FF.FF.FFFF.FFFFF.F..FF....FFIIIIIIIIIIIII~
+.I.......FF........FF.FF.FF.FFFF.....F.F..F......FFIIIIIIIIIIII~
+........FF.........FF....FF.FFFFFFFF.F.F..........FFIIIIIIIIIII~
+.......FF...F...F..FFFFF.FF.FF...F...F.F...........FF..........~
+......FF...F.......FF.FF.FF.F..F.FFFFF.F......F.....FF.........~
+.....FF...F!.......FF.FF.FF.F!FF.......F.............FF........~
+....FF.....F.......F.....FF.F.FFFFFFFF.F.........FF...FF.MHM...~
+....F....F..F......F.FFF.FF.FHF........F..........F....F.M.M...~
+....FF.............F.FFF....FFFFFFFFFFFF.F...F........FF.M.M...~
+.....FF......F.....F.FFFFFFFF.F.......FF.............FF..M.M...~
+......FF....FF.....F.FFFFFFFF.F.FFFFF.FF......FF....FFMM.M!MMMM~
+.......FF..........F..........F.FFFFF.FF......FF...FF.M.MM.MM.M~
+........FF....F....FFFFFF.FF.FF.F.FFF.FF..F...F...FF...M.....MM~
+.........FF........FFFFFF.FF..F.F.FFF.FF..F......FF....M.....M.~
+....?.....FF.......FFFFFF.FFFFF.F.FFF.FF........FF.....M....MM.~
+...........FF....F.FFF......FFFFF.FFF.FF.......FF.....M.M....M.~
+...?........FF.....FFF.FFFF...........FF.FF...FF......MMMX!XMM.~
+.............FF....FFF!FFFFFFFFFFFFFFFFF.....FF......XXXXX.XX..~
+..............FF............................FF.......XXXXX..X..~
+...............FF..................F.......FF........X...XX.X..~
+................FF.......FF......F....F...FF.........X......X..~
+....XXXXX........FF......FF..............FF..........X!..XXXXXX~
+....X...X.........FF....................FF...........XXXXXXFFFX~
+....X...X..........FF..........F.......FF...........XX.....!.?X~
+....X...X...........FF.............F..FF..........XXX~.XXXXFFFX~
+....X.!.X............FF..............FF...XXXXX..XX..~H~~XXXXXX~
+....XX.XX.............FF............FF....X...XXXX...~H~~~X....~
+XXXX.X.X...............FFXXXXXXSXXXFF.....X.........HHH~~~X....~
+...XXX.XXXXXXXX....XXXXXFFF....!.FFF......X...XXXX...~H~~XX....~
+.............OX....XXXXXXFFF....FFF.......XXXXX..XX..~H~~X.....~
+...XXX.XXXXX..X....XXXXXXXFFF..FFF................XXXX.XXX.....~
+XXXX.X.X...XXXX....XX..XXX.FFFFFF....................X.X.......~
+.....X.X...........X....XX..FFFF.....................X.X.......~
+....XX.XX..........X..*..X...FF....................XXX.XXX.....~
+....X.!.X..........?!...XX.........................XIX.XIX.....~
+....X...X..........X....XX.........................XI.!.IX.....~
+....X.!.X..........X...XXX.........................XI...IX.....~
+....XXXXX..........XX..XXX.........................XI.?.IX.....~
+...................XXXXXXX.........................XIIIIIX.....~
+...................XXXXXXX.........................XXXXXXX.....~
+...................XXXXXXX.....................................~
+
+Ice Cathedral in NW, Ice Dragon's in NE, bottom of Qoorik in center.  
+The old lady's hut is at the bottom, and parts of Malifon's temple 
+dungeon are also here.
+
+         ****Map for Kalek-Zin's and Dwarves' Lair****
+
+..XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.XXXXX..XXXXX..XXXXX...........
+..XXXXXX...!..........XXX......XXXX...XXXX...XXXX...XX..........
+..XXXXXX.XXXXX.XXXXXX.XX.......XXX.....XX.....XX.....X..........
+..XXXXXX.XXX...XXXXXX.XX.......XXX.....XX.....XX.....X..........
+..X......XXX.XXX..!...XXX......XXX.....XX.....XX.....X..........
+..X.XXXX.XXX.XXX.XXXXXXXXX...!XXXXX.!.XXXX.!.XXXX.!.XX..........
+..X.XXXX.....XXX.XXXXXXXXXXXX.XXX.XX.XX..XX.XX..XX.XX...........
+..X.XXXX.XXXXXXX.XX...........XXX.XX.XX...X.X...XX.XX...........
+..X..!...XXXXX...XX.XXX.XXXXXXXXXXX...XX.XX.XX.XX...XX..........
+..X.XXXX.XXXXX.XXXX.XXX!XXXXXXXXXX.....XXX...XXX.....X..........
+..X.XXXX.XX....XXXX.XXX.XXXXXXXX.X.....XX.....XX.....X..........
+..X.XXXX.XX.XX.XXXX.XXX.XXXX.....X.....XX.....XX.....X..........
+..X......XX!XX.XXXX........X.....XX.!.XXX.....XXX.!.XX..........
+..XXXXXX.XX.XX.XXXXXXXX.XX.XXX....XX.XX.XX.!.XX.XX.XX...........
+..XXXXXX.XX.XX.XXXXX....XX...XX....X.X...XX!XX...X.X............
+..XXXX.......X...!...XXXXX.X..X....X.X....X.X....X.X............
+..XXXX.XXXXX.XXXXXXXXXXXXX.XX.X....X.X....X.X....X.X............
+..XXXX.XXXXX.XXXXXXXXXXXXX.XX.X....X.X..XXX.XXX..X.X............
+..XXXX.XX...........XXX....XX!X.XXXX.XXXX.....XXXX.XXXX.........
+..^....XX.XXXX.XXXX.XXX.XX.XX.X.X..........!..........X.........
+..XX.XXXX.XXXX.XXXX.XX.!XX.XX.X.X.XXXXXXX.....XXXXXXX.X.........
+..XX.XXXX.XXXX.XXXX.X...XX.XX.X.X.X.....XXXXXXX.....X.X.........
+..XX.XX...XXXX......X..~XX.X..X.X.X.................X.X.........
+..XX....XXXXXXXXX.X.XXXXXX...XX.X.X.................X.X.........
+..XXXXX...........X........XXXX.X.X....FFFFFFFFF....X.X.........
+.\XXXXXXXXXXXXXXXXXXXXXXXXXXXX..X.XFFFFFFFFFFFFFFFFFX.X.........
+................................X.XFFFFFFFFFFFFFFFFFX.X.........
+................................X.XFFFFFFFFFFFFFFFFFX.X.........
+.........................XXXXX..X.XFFFFFFFF!FFFFFFFFX.X..XXXXX..
+........................XX...XX.X.XFFFF.........FFFFX.X.XX...XX.
+.......................XX.....XXX.XXXXXX.......XXXXXX.XXX.....XX
+.......................X.....!..........S.....S..........!.....X
+.......................XX.....XXXXXXXXXX.X.!.X.XXXXXXXXXX.....XX
+........................XX...XX........X.XX.XX.X........XX...XX.
+.........................XXXXX..XXXXX..X.XX.XX.X..XXXXX..XXXXX..
+...............................XX...XX.X.XX.XX.X.XX...XX........
+..............................XX.....XXX.XX.XX.XXX.....XX.......
+..............................X.....!....XX.XX....!.....X.......
+..............................XX.....XXXXXX.XXXXXX.....XX.......
+...............................XX...XX....X.X....XX...XX........
+................................XXXXX.....X.X.....XXXXX.........
+..........................................X.X...................
+..........................................X.X...................
+..........................................X.X...................
+....XXXXXXXHXXXXXXXXX.....................X.X...................
+....X...............X...............XXXXXXXSXXX.................
+....X...............X...............X.........X.................
+....X..........*..*.X...............X....O....X.................
+....X..*............X...............X.........X.................
+....X....*.*..*.*...X...............XXXX.!.XXXX.................
+....X...............X..................XX.XX....................
+....X...*...........X..................MM+MM....................
+....X..*.....*......X............M....MM...MM...................
+....X...............X............M....M.....MM..................
+....X...............X...........MM...MM......MM.................
+....X......*.../\...X.........MMM..MMM........MMM...............
+....X.''*.*.../~~...X........MM...MM............M...............
+....X.''...*..\~/'..X........M....M.............MM..............
+....X.........''''..X.............M..............M..............
+....X...............X......~...~~~~~~~~~~"~~~~~~~~~~~...........
+....XXXXXXXXXXXXXXXXX......~...~~~~~~~~~~~~~~~~~~~~~~...........
+...........................~...~~~~~~~~~~~~~~~~~~~~~~...........
+...........................~...~~~~~~~~~~~~~~~~~~~~~~...........
+...............................~~~~~~~~~~~~~~~~~~~~~~...........
+
+
+Kalek-Zin and friends are in the east, Uffuspgot's is southwest, and the 
+upper left is the dwarves' hideout.
+
+  SPECIAL ITEMS
+
+****Items beneath Gamur's Temple****
+Iron key
+Bed-Just wood with a straw mattress
+Bookcase
+Scroll-It is about the mythical demon city of Qoorik that lies beneath 
+the earth
+Cage-There are rats locked in it
+  (use Iron key:)One of the rats runs out and through a secret door in 
+the middle of the west wall
+Blue serum-A glass vial filled with clear blue liquid
+Red serum-A glass vial filled with a clear reddish liquid
+Mallet-Good for pounding things. Or breaking them
+Anvil-Work has been done here
+Fireplace-Ashes
+Charcoal fire-Its coals glow orange
+Red candle-Tall thin candle. Half burnt
+Wooden altar-It is made of black wood.
+Man in glass-A man has been sealed inside a glass case here. He appears 
+to be in a trance
+  (use Mallet:) [he becomes Man in trance]
+Man in trance-He stares off into space and cannot be spoken to.
+  (use Blue serum:)He comes out of the trance and speaks- 'Qoorik! I've 
+seen it! They tried to shut me up but I've seen it! Its entrance is 
+hidden in the forest to the northwest of Idlewood.'
+
+****Items in Qoorik****
+Bag-Empty
+Red dust-Red powder
+  (try to take without bag: It slips through your fingers)
+  (use Bag:) [becomes Bag/red dust]
+Bag/red dust
+Censer-Residue of red stuff
+  (try to take: Its anchored to the floor)
+  (use Bag/red dust:) A demon appears and speaks- 'The father of demons 
+sees all. Only those who possess the demon crystal can escape his sight'
+Magic circle-Mystic markings
+  (try to take:  It is drawn on the ground)
+Ancient tome-It is written in an unknown language
+  (use Spectacles:)  Through the spectacles you can now read the book. 
+It tells of gods called the Ancients who created everything and then 
+died out many eons ago before Man ever walked the earth
+Spectacles-Wearing them makes you feel smarter
+Silver pen-The barrel is empty
+  (use Unicorn blood:  becomes Glowing pen)
+Papyrus-It is blank
+  (use Glowing pen:)  The pen takes control of your hand and writes in 
+glowing letters- 'Asaht is the Holy City of the Ancients'
+Glowing pen-It seems to guide your hand
+Unicorn blood-A transparent silver fluid
+Goblin blood-A greenish ooze
+Serpent pillar-The pillar is a statue of a serpent with its mouth open. 
+Its mouth is filled with oil
+  (use Jade torch:  Open passage to west)
+Jade torch-It burns with magic green flame
+Ouiji board-It has the alphabet on it and is used by the gypsy for 
+spiritual messages
+  (use Scryer:)The scryer guides your hand to letters spelling out 'Walk 
+along river Styx until you find Ferryman'
+Microscope-Looking through it makes tiny things seem larger
+  [try to take:Its kind of bulky]
+  (use Tiny scroll:) Reading the tiny writing reveals that the ruins of 
+the Ice Temple of the Ancients lies in the tundra far to the north
+Scryer-It is wooden with a circular glass window and used by psychics to 
+interpret psychic messages
+Black wand-It is made of black metal
+Black archway-Made of a curious black metal and carved with runes
+  (Black wand: teleports you to the southwest area otherwise 
+inaccessible)
+Old bookcase-It is dusty
+  (move it: passage opens to north)
+Altar-It has demonic references to the demon Xeres
+Black coins-Ominous black coins with a picture of a scythe
+Ferryman-A skeletal figure with a black cloak and a scythe. He is on a 
+raft and holds his skeletal hand out palm up
+  [try to take:]  He dodges you
+  (use Black coins:  go 2 north across river)
+Tomb door-it is carved with pictures of skeletons and has a keyhole
+  (use Skeleton key:  teleports you to the southwest corner and the tomb 
+maze)
+Skeleton key-A key made of white bone
+Bed-Just a straw mattress
+Tiny scroll-Its print is too small to read
+
+****Items for Ice Cathedral****
+Prayer scroll-It contains an ancient prayer
+Ice altar-It has a blue glow
+  (use Prayer scroll:)  [You are told of your mission.]
+Ice door-It has a round hole in it
+  (use Icicle:  teleports you two south through the "door")
+Icicle-A large round icicle
+Heavy amulet-It signifies Jesric as a high priest of Malifon
+
+****Items for Malifon's Temple****
+Crystal eye-It seems to be a scanner of sorts
+  (use Heavy amulet:  destroys barrier in front)
+Facet mirror-Multifaceted mirror
+Circle light-A blinding circle of light
+  (use Facet mirror:  Dialogue with Eregore)
+
+  MONSTER LIST
+
+The monsters are very similar to what you see in Shard of Spring.  The 
+main difference may be the inclusion of a type.  The types are 
+abbreviated a bit in this chart but "BRE" means breathes, and other 
+words mean the sort of spells they cast.
+
+                |   |   |   |     |MAG|        |
+MONSTER NAME    |SPD|HIT|ICO| EXP | IC|TYPE    |
+----------------+---+---+---+-----+---+--------+
+Lvl 1 fighter   |7  |8  |1  |23   |0  |Normal  |
+Lvl 1 mage      |7  |5  |0  |22   |8  |Normal  |
+Orc             |6  |15 |2  |26   |0  |Normal  |
+Spider          |8  |4  |1  |16   |0  |Normal  |
+Rat             |10 |4  |0  |14   |0  |Normal  |
+Bat             |10 |3  |0  |16   |0  |Normal  |
+Bugem           |7  |10 |1  |24   |0  |Normal  |
+Skeleton        |6  |7  |0  |22   |0  |UNDEAD  |
+Skeleton mage   |9  |25 |0  |77   |20 |UNDEAD  |
+Cobra           |13 |5  |0  |21   |0  |Normal  |
+Hill giant      |4  |28 |2  |45   |0  |Normal  |
+Evil spirit     |15 |40 |0  |208  |15 |UNDEAD  |
+Death adder     |14 |10 |0  |48   |0  |Normal  |
+Lvl 2 fighter   |9  |14 |2  |34   |0  |Normal  |
+Lvl 2 mage      |8  |10 |1  |33   |12 |Normal  |
+Lvl 3 fighter   |10 |18 |3  |41   |0  |Normal  |
+Lvl 3 mage      |8  |14 |1  |38   |18 |Normal  |
+Zombie          |8  |12 |1  |30   |0  |UNDEAD  |
+Cobra mage      |11 |12 |0  |34   |15 |Normal  |
+Spellbinder     |15 |30 |1  |204  |50 |Normal  |
+Lvl 4 fighter   |11 |25 |4  |70   |0  |Normal  |
+Lvl 4 mage      |9  |17 |1  |66   |24 |Normal  |
+Ghost           |11 |15 |1  |32   |8  |UNDEAD  |
+Ghoul           |12 |32 |2  |128  |0  |UNDEAD  |
+Goblin          |9  |18 |2  |41   |0  |Normal  |
+Spectre         |13 |47 |2  |360  |30 |UNDEAD  |
+Kobold          |7  |7  |0  |16   |0  |Normal  |
+Hobgoblin       |9  |25 |2  |58   |0  |Normal  |
+Lvl 6 fighter   |12 |32 |4  |84   |0  |Normal  |
+Lvl 6 mage      |9  |21 |1  |112  |35 |Normal  |
+Gargoyle        |13 |45 |5  |205  |5  |Normal  |
+Lvl 8 fighter   |12 |36 |4  |165  |0  |Normal  |
+Lvl 8 mage      |12 |28 |2  |165  |40 |Normal  |
+Lvl 10 fighter  |13 |42 |5  |215  |0  |Normal  |
+Lvl 10 mage     |13 |37 |2  |183  |45 |Normal  |
+Lvl 12 fighter  |14 |48 |6  |372  |0  |Normal  |
+Lvl 13 mage     |13 |40 |2  |427  |50 |Normal  |
+Lvl 15 fighter  |15 |55 |6  |650  |0  |Normal  |
+Lvl 16 wizard   |14 |45 |2  |556  |55 |Normal  |
+Fire elemental  |16 |70 |2  |1682 |50 |FIERY   |
+Metal elemental |18 |70 |5  |2176 |50 |METAL   |
+Wind elemental  |26 |60 |1  |1350 |58 |WIND    |
+Ice elemental   |12 |80 |7  |1753 |55 |ICY     |
+Spirit elemental|23 |65 |0  |2176 |80 |SPIRIT  |
+Fire demon      |14 |60 |6  |837  |40 |FIERY   |
+Ice demon       |13 |60 |6  |1024 |30 |ICY     |
+Demon lord      |16 |86 |7  |2529 |50 |Normal  |
+Devil           |16 |85 |7  |2529 |88 |Normal  |
+Wraith          |15 |55 |1  |743  |50 |UNDEAD  |
+Swarm           |13 |24 |0  |49   |0  |Normal  |
+Baby dragon     |9  |5  |1  |31   |0  |Normal  |
+Small dragon    |11 |25 |3  |62   |0  |Normal  |
+Large dragon    |13 |50 |5  |277  |15 |Normal  |
+Great dragon    |16 |80 |7  |2388 |42 |+++-BRE |
+Titan           |15 |90 |7  |2529 |0  |Normal  |
+Ogre            |8  |35 |2  |75   |0  |Normal  |
+Warrior king    |17 |70 |7  |1294 |0  |Normal  |
+Arch mage       |15 |40 |3  |1118 |65 |Normal  |
+Pit viper       |14 |17 |0  |75   |0  |Normal  |
+Rattlesnake     |9  |8  |0  |28   |0  |Normal  |
+Giant spider    |8  |18 |0  |26   |0  |Normal  |
+Giant snake     |14 |40 |4  |125  |0  |Normal  |
+Mountain giant  |9  |55 |5  |215  |0  |Normal  |
+Shambling mound |6  |33 |1  |65   |0  |Normal  |
+Brown bear      |8  |24 |1  |38   |0  |Normal  |
+Grizzly bear    |9  |40 |2  |75   |0  |Normal  |
+Arctic bear     |10 |45 |3  |128  |0  |ICY     |
+Cave bear       |10 |60 |4  |215  |0  |Normal  |
+Coyote          |7  |8  |0  |15   |0  |Normal  |
+Timber wolf     |10 |16 |1  |36   |0  |Normal  |
+Winter wolf     |13 |25 |2  |70   |0  |ICY     |
+Devil dog       |14 |27 |3  |127  |0  |Normal  |
+Yeti            |12 |46 |4  |208  |0  |ICY     |
+Snow giant      |14 |50 |6  |372  |0  |ICY     |
+Fire dragon     |15 |50 |5  |650  |30 |FIRE-BRE|
+Wind dragon     |17 |50 |5  |650  |30 |WIND-BRE|
+Ice dragon      |13 |52 |6  |650  |30 |ICE-BRE |
+Stalker         |11 |20 |1  |54   |25 |?????   |
+Will o wisp     |11 |22 |0  |53   |25 |Normal  |
+Thug            |10 |14 |1  |34   |0  |Normal  |
+Rogue           |11 |17 |2  |41   |0  |Normal  |
+Brigand         |12 |24 |3  |70   |0  |Normal  |
+Highwayman      |13 |32 |3  |165  |0  |Normal  |
+Master thief    |14 |38 |4  |215  |0  |Normal  |
+Assassin        |17 |44 |4  |372  |0  |Normal  |
+Uffuspgot       |11 |22 |2  |500  |13 |Normal  |
+Mane            |7  |10 |0  |26   |0  |Normal  |
+Slaver          |9  |32 |3  |80   |0  |Normal  |
+Imp             |12 |16 |2  |59   |20 |Normal  |
+Grave keeper    |14 |62 |4  |750  |42 |SPIRIT  |
+Salamander      |16 |41 |4  |227  |33 |FIERY   |
+Xeres           |15 |66 |6  |3500 |56 |FIERY   |
+Silver snake    |14 |43 |7  |198  |0  |Normal  |
+Remondadin      |11 |35 |1  |300  |30 |Normal  |
+Dervish         |16 |24 |1  |73   |0  |Normal  |
+Karate master   |16 |45 |1  |200  |0  |Normal  |
+Jesric          |15 |75 |4  |5000 |45 |?????   |
+Eregore         |17 |200|5  |5000 |200|FIERY   |
+Guardian        |14 |75 |15 |10000|0  |ICY     |
+
+  EVERYDAY ITEMS AND SUCH
+
+    There are only so many basic items in Demon's Winter.  However, they 
+may have additions in the way of enchantment(up to +10) as well as 
+material properties like Jade, Well Made, 
+dagger          |2  |1  |3  |0  |10 |8  |9  |
+small axe       |6  |1  |3  |0  |10 |8  |9  |
+short sword     |15 |1  |3  |0  |10 |8  |9  |
+mace            |13 |1  |3  |0  |10 |8  |9  |
+morning star    |20 |1  |3  |0  |10 |8  |9  |
+broad sword     |30 |1  |3  |0  |10 |8  |9  |
+battle axe      |65 |1  |3  |0  |10 |8  |9  |
+2-hand sword    |100|1  |3  |0  |10 |8  |9  |
+cloth           |5  |0  |3  |12 |7  |7  |7  |
+leather         |15 |0  |3  |12 |7  |7  |7  |
+chain           |40 |0  |3  |12 |7  |7  |7  |
+scale           |200|0  |3  |12 |7  |7  |7  |
+plate           |400|0  |3  |12 |7  |7  |7  |
+crown           |350|0  |3  |2  |7  |13 |15 |
+vial            |50 |0  |2  |3  |4  |5  |6  |
+ring            |225|1  |0  |0  |16 |17 |8  |
+wand            |40 |1  |1  |4  |3  |6  |15 |
+staff           |80 |1  |1  |1  |5  |2  |7  |
+rod             |60 |1  |1  |10 |11 |9  |5  |
+gem             |500|0  |0  |13 |12 |4  |15 |
+amulet          |100|1  |0  |9  |8  |7  |7  |
+medallion       |125|1  |3  |1  |5  |3  |1  |
+figurine        |180|1  |0  |15 |15 |15 |15 |
+talisman        |140|1  |1  |2  |4  |11 |16 |
+salve           |45 |1  |1  |5  |8  |9  |14 |
+vial            |28 |0  |2  |9  |13 |5  |14 |
+torch           |3  |0  |0  |0  |0  |0  |0  |
+lantern         |8  |0  |0  |0  |0  |0  |0  |
+Demon Crystal   |10 |0  |0  |0  |0  |0  |0  |
+Orb/Evertime    |10 |0  |0  |0  |0  |0  |0  |
+
+  MONTHS
+
+This was extracted from the disk.  It seems right.  Each month is about 
+33 days.
+
+Ruby
+Ebony
+Gold
+Comet
+Spirit
+Dragon
+Rose
+Sword
+Unicorn
+Metal
+Lotus
+Axe
+Panther
+Ice
+Mandrake
+Aurora
+Onyx
+Phoenix
+Wind
+Jade
+Fire
+Hyacinth
+
+  TAVERN TALK
+
+The tavern talk adds nicely to the story, so I thought I'd add it here.
+
+--SEASIDE:
+...Jesric embarked yesterday on a quest for some powerful crystal. He's 
+some kind of evil priest ...works for some guy named Eregore
+
+--ASAHT:
+...We would not have all these problems if the White Knights were still 
+around. They were great warriors, and especially adept at fighting 
+demons...
+
+--JANTHRIN:
+Whatever you do, son, don't sail too far southeast. The volcano doesn't 
+like visitors. It has three crimson Glyphs that cause anyone who walks 
+even near it to rot away into a lifeless husk
+
+--IDLEWOOD:
+Deep within the ancient demon city of Qoorik lies a place called the 
+Amber Vault where one may seek guidance in the flaming runes...
+
+--MOJURED:
+...With the Ancients gone and Malifon imprisoned, the Earth awoke from 
+its creation and life appeared. As Man began to pray, new gods began to 
+appear, each aiding mankind with the limited powers endowed by his 
+worship
+
+--AKISTU:
+Do not sail near the edge of the world, Matey, or you will surely fall 
+off into oblivion!
+
+--CHANDRIS, PALADINE:
+The adventurers seem rather glum and don't have much to say
+
+--DRAGONTOOTH:
+I heard that a few months back some guy found the Shard of Spring. 
+Hasn't been seen since it disappeared 200 years ago. If anything happens 
+to that Shard we will all be destroyed by the Winter that follows
+
+--YNOTH:
+...and a valiant band of adventurers stormed the Tower of Ralith and 
+killed the evil dragon Siriadne, returning the Shard of Spring to Ymros
+
+--LAND'S EDGE:
+...and the wizard set a huge tidal wave upon the attacking fleet sending 
+it down in the depths of the ocean. Late on foggy nights at sea one 
+should beware the ghosts of the pirate fleet...
+
+--[forgot]:
+...and Malifon made the Earth his home. Soon the Ancients became angry 
+at Malifon and in a great battle, banished him inside a volcano to live 
+until the end of time...
+
+--ELBARAT:
+An old woman is talking about how her house was burnt to the ground the 
+last time the Kobolds attacked. The Kobolds have a camp to the south and 
+are led by Uffuspgot
+
+As a bonus(I didn't know where to put it) here is a list of the types of 
+merchants you may find in Ymros, from poorest to richest:
+ragged looking
+poor looking
+travelling
+adventuring
+well dressed
+upper class
+wealthy
+
+
+  WINNING ENDGAME STUFF
+
+    If you win the game and do not elect immortality, each of your 
+characters succeeds in different ways.  They are listed below.
+
+1.  [RANGER] went back to the town of Woodhaven and was instrumental in 
+its reconstruction. After rebuilding the city, he settled down there and 
+lived to a ripe old age
+2.  [PALADIN] went on to unite the remaining peoples of Ymros and 
+quickly became its first King. He ruled Ymros wisely until the end of 
+his days.
+3.  [BARBARIAN] walked off alone to fight the monsters that still 
+wandered aimlessly after Malifon was imprisoned. His bravery became well 
+known throughout Ymros and he still lives on in legends.
+4.  [MONK] wandered for a while and then dissapeared into the mountains, 
+never to be seen again. Many a tale says he will return to Ymros if ever 
+needed again.
+5.  [CLERIC] became the first in two millenium to take the title of High 
+Priest of the Ancient One. With his accumulated wealth, he built an 
+enormous temple to the Ancients and spread word of the new god.
+6.  [THIEF] heard in the tavern of untold wealth in lands to the North 
+and went in search of the fortune. He gathered a party and explored many 
+dungeons, eventually retiring in luxury.
+7.  [WIZARD] went on a great quest for the Lifestone in order to build a 
+new Shard of Spring. While he did not live to see its completion, the 
+new Shard was named in memory of him and still protects Ymros.
+8.  [SORCERER] went to the hills to build a school of magic. It soon 
+became famous and many of his pupils later became legends in their own 
+right.
+9.  [VISIONARY] served as advisor to the new King of Ymros. Due to his 
+excellent advice and forsight, the land of Ymros remained in peace as 
+long as he lived.
+10.  [SCHOLAR] devoted his life to studying the Battle of the Gods. His 
+life's work was compiled into a tome of a thousand pages and stood as an 
+example for all scholars to follow.
+
+    If you have two characters of the same class, it will say:
+[CHARACTER 2] followed in the footsteps of [CHARACTER 1].
+
+  CHEATING
+
+    I felt this game was too tough as it was.  Maybe I was overawed by 
+it, but it is rather complex, so if you just want to concentrate on the 
+puzzles and storyline, this section may be for you.
+
+    This is not so bad, actually.  I don't have the actual offsets for 
+each system but here's general information on how to find them.  See my 
+Shard of Spring FAQ for more details.  Basically, you want to search for 
+your characters' names, possibly shifted by 0x80.  For instance, TIM is 
+0x54 0x49 0x4d (Tim would be 0x54 0x69 0x6d) and so you would search for 
+that or for 0xd4 0xc9 0xcd--0x80+everything.  When you get there you 
+might want to look for your stats.  It's a good idea to write down Tim's 
+stats, and if they are 6, 8, 11, 8, and 7 you would want to search for 
+that hex sequence in the area where you find Tim(you might want to name 
+your character something more exotic since the word Tim or a part of it 
+might be found elsewhere.)  Once you find it search for 6, 8, 11, 8, and 
+7 or something like them and edit those bytes.  The four bytes just 
+after comprise current/max hit points and spell points.
+
+  VERSIONS/CREDITS
+
+Version 2.0.0 written 12/31/2000 and submitted then too.  The Demon's 
+Winter abated a couple of days ago, coincident with my *solving* the 
+game, strangely :).
+Version 1.0.0 written 12/13/2000 with weather conditions outside that 
+sure do seem like Demon's Winter :).  Items, overland maps, monsters and 
+cheating techniques are included in this version.  Submitted to GameFAQs 
+on 12/21/2000.
+
+Thanks to www.theunderdogs.org for preserving the manual.
+ftp.apple.asimov.net preserved the original Apple images(cracked, 
+actually, so you bypass copy protection,) and they may have the manual 
+too.
+www.kahei.com's freeware hex editor allowed me to improve my characters 
+to 250 attributes so I could crack this thing.
+
+There is a strong anonymous walkthrough found at the following locations 
+that I visit frequently:
+--vgstrategies.about.com
+--gamexperts.com
+
+It has helped me immensely in figuring out what parts of the map go 
+where.
+
+Send all comments to schultza@earthlink.net.

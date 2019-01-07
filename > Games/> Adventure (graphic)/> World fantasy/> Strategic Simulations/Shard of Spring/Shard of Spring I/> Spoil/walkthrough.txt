@@ -1,0 +1,812 @@
+Shard of Spring FAQ/Walkthrough
+Version 1.0.0
+by Andrew Schultz
+schultza@earthlink.net
+
+This FAQ is copyright 2000 Andrew Schultz and is part of my effort to 
+preserve the memory of old Apple IIe games.  I am not affiliated with 
+SSI in any way.  Please do not repost for profit without my permission.  
+However, if you ask me in a nice note referring to me by first name, 
+I'll probably give you permission.  Thanks!
+
+This neat little RPG sort of grew on me despite being a prequel to 
+Demon's Winter(a game I thoroughly loathed, but I can see some of its 
+good points now) and so I thought I'd leave some notes on it if anyone 
+was curious and wanted to play(or re-play) through it.
+
+Check out my complete outerworld color map at--
+http://members.fortunecity.com/cartographics
+Click on the "Shard of Spring OUTSIDE" link.
+
+**********************
+
+
+OUTLINE:
+
+INTRO
+
+LOCATIONS
+
+ITEMS
+
+MONSTERS
+
+MAPS
+
+  MAP FOR THE HILLS
+
+  MAP FOR THE TELEPORTERS IN THE GATE KEEPER'S TOWER
+
+  MAP FOR JUST PAST THE GATEKEEPER
+
+  MAP FOR LOTHIAN'S TOMB
+
+TAVERN TALK (BY CITY)
+
+WALKTHROUGH
+
+  BLACKFORT
+
+  LAIR OF THE SWAMP KING
+
+  EDRIN'S KEEP
+
+  TUNNELS IN THE HILLS
+
+  THE TOMBS
+
+  GATE KEEPER'S TOWER
+
+  SIRIADNE'S
+
+  ENDSCRIPT SPOILER WITH OTHER GAME SCRIPTS
+
+BUGS/NUISANCES
+
+CHEATING
+
+VERSIONS/CREDITS
+
+**********************
+
+INTRO
+
+I don't have a coherent one yet, and I haven't found a manual I have 
+permission to quote from.  So all I can say is, you're trying to rescue 
+Ymros from Siriadne.  You'll need to work through a few dungeons, find 
+some special items, and whomp the guy.
+
+This walkthrough describes the puzzles.  It doesn't really describe how 
+to build a character, since I cheated my guys up to the max stats 
+immediately.  But building you characters up is not the main part of the 
+game, as there are only a few critical fights.
+
+LOCATIONS(right and down of origin on my fortunecity map)
+
+Format for towns describes every shop in it--where one weapon is 
+mentioned, it's the best you can buy there.  Bars have no comments after 
+them.
+
+ TOWNS
+
+  YMROS
+
+   Green Hamlet (8, 3)
+    Iron Blade (Mace)
+    Rollo's Resthouse 17/night
+    Hamlet Apothecary 85 to resurrect
+    Kor's Smithy (Chain)
+    Winsome Weapons (Battle axe)
+    The Purple Rat
+    General Goods (Lantern, 8)
+
+   Arcania (23, 7)
+    Potion Shoppe (all potions)
+    Zor's Healing 105 to resurrect
+    Cloud Nine 19/night
+    Foaming Brew
+    Magic Shoppe(iron staff, fight ring, ring of change)
+    Best Healing 110 to resurrect
+
+   Precious Plains (25, 21)
+    Lucky Blade (Short Sword)
+    Haystack 15/night
+    Grainery[sic]
+    Tinderbox (Lantern, 7)
+
+   Spider Bay (34, 52)
+    Erlock's Sail
+    Healers of Jor 105 to resurrect
+    Salty's Slumber 19/night
+    Balik's Arena (train fighters, free)
+
+   Woodhaven (50, 32)
+    Dopey Dragon
+    Sun and Moon 21/night
+    Church of Ra 105 to resurrect
+    Three Rings (Shield, Frost, Storm)
+    Flickering Light (Lantern, 5)
+
+   Gleon (90, 7)
+    Blade Master (train fighters, free)
+    Flashing Steel (2-handed sword)
+    Hero's Pub
+    Corbin's (Chain +1)
+    Mithril Light (Sword +2)
+
+   Terynor (96,21)
+    Mystic Sky (magic staffs, metal/fire/wind/ice/spirit)
+    College of sorcery (train wizards, free)
+    Ares' Elixir (all potions)
+    Enchanted Steel (sword +2)
+    Xeor (wand of light, rod of might, rod of freedom)
+    Soft Slumber 22/night
+    Loven's Torches (Lantern, 8)
+
+   Janthrin (113, 18)
+    Grindstone (sword +1)
+    Vadiguard's (scale +1)
+    The Pheonix 31/night
+    Prism (blue, red, platinum rods)
+
+   Athe (66, 47)
+    Sentinel 21/night
+    Blacksmith (sword +2, plate--cheapest place in Ymros)
+    Mermaid
+    Healthy Herbs 65 to resurrect (again cheapest in Ymros)
+
+   Myrquacid (113, 4)
+    Mystic Shield (Plate +2 for 1500--cheap!)
+    Jorlor's Healers 65 to resurrect (cheapest in Ymros)
+    Valir's Academy (train fighters, free)
+    The Rising Star (train wizards, free)
+    The Beaker
+    Adventurer's Inn 31/night
+
+  ISLANDA
+
+   Oceana (33, 22)
+    Seaside Inn 35/night
+    Ring Maker (shield ring, frost ring, storm ring, ring of change)
+
+   Atlantis (8, 18)
+    Healers 125 to resurrect
+    Enchanted Armor (plate +2, very pricey)
+    Red's Tavern
+
+   Triton (52, 9)
+    Wizard's Lab(holy symbol, elfin gem, eye of freedom, unholy symbol)
+    Wizard's Library (train wizards, free)
+
+ DUNGEONS
+
+  YMROS
+
+   Blackfort (22, 13)
+
+   Lair of the Swamp King (54, 4)
+
+   Edrin's Keep (65, 14)
+
+   Tunnels (83, 33)
+
+   Gate Keeper's Tower (114, 36)
+
+   Second Gate (100, 2)
+
+   Ralith's Castle/Siriadne's (93, 45)
+
+ ISLANDA
+
+   Murthin's Tomb (17, 4)
+
+   Cercion's Tomb (8, 22)
+
+   Vandiguard's Tomb (9, 35)
+
+   Lothian's Tomb (56, 33)
+
+   Eldron Greyhair's Tomb (32, 34)
+
+
+ITEMS
+
+The table below should describe every item completely.  Each item has an 
+unidentified name when you originally find it.  It also has a cost(you 
+can't sell weapons back, alas!) and the #2 column has a strength-to-
+wield(or, if it's a magic item, spell # which I haven't deciphered.)  
+The #3 item has a magic charge quotient for combat items(i.e. extra 
+damage or armor class,) and seems related to spell strength for other 
+items, and the #4 item has base damage/protection for combat items and 
+spell points contributed(which affect probability of success) for the 
+potions, etc.
+
+ITEM NAME      |UNIDENTIFIED   |COST|#2  |#3  |#4  |
+---------------+---------------+----+----+----+----+
+Dagger         |knife          |2   |3   |0   |1   |
+Small axe      |small axe      |6   |4   |0   |2   |
+Short sword    |small sword    |15  |6   |0   |3   |
+Mace           |spiked club    |13  |6   |0   |4   |
+Morning star   |ball & chain   |20  |7   |0   |5   |
+Broad sword    |sword          |30  |8   |0   |6   |
+Battle axe     |huge axe       |65  |10  |0   |7   |
+2-hand sword   |huge sword     |100 |12  | 0  |8   |
+Mace +1        |spiked club    |350 |6   |1   |4   |
+Sword +1       |huge sword     |500 |8   |1   |6   |
+Axe +1         |huge axe       |750 |10  |1   |7   |
+Sword +2       |huge sword     |950 |8   |2   |6   |
+Cloth          |robes          |5   |1   |0   |1   |
+Leather        |leather        |15  |2   |0   |2   |
+Chain          |chain mail     |40  |3   |0   |3   |
+Scale          |scale mail     |200 |4   |0   |4   |
+Plate          |suit/armor     |400 |5   |0   |5   |
+Chain +1       |chain mail     |700 |6   |1   |3   |
+Scale +1       |scale mail     |1000|7   |1   |4   |
+Plate +1       |suit/armor     |1500|8   |1   |5   |
+Plate +2       |suit/armor     |2000|9   |2   |5   |
+Heal potion    |blue vial      |50  |24  |4   |100 |
+Speed potion   |violet vial    |70  |11  |7   |100 |
+Psn antidote   |green vial     |150 |26  |13  |100 |
+Str potion     |red vial       |50  |7   |7   |100 |
+Pyrotechnik    |red vial       |55  |31  |8   |100 |
+Liquid armor   |metal vial     |66  |28  |6   |100 |
+Shield ring    |gold ring      |800 |31  |12  |15  |
+Frost ring     |icy ring       |3900|15  |18  |11  |
+Storm ring     |dark ring      |5200|8   |10  |10  |
+Flight ring    |light ring     |3000|11  |7   |10  |
+Chain Ring     |iron ring      |4000|5   |10  |13  |
+Iron staff     |metal staff    |5850|4   |10  |12  |
+Staff of ice   |big icicle     |2000|13  |6   |8   |
+Crystl staff   |glass stick    |4350|9   |11  |8   |
+Fiery staff    |column/fire    |5880|2   |16  |8   |
+Staff/soul     |dim staff      |5600|24  |8   |9   |
+Wand of light  |light wand     |2600|33  |2   |7   |
+Rod of might   |heavy rod      |2500|7   |9   |11  |
+Rod/freedom    |light rod      |3000|21  |26  |15  |
+Blue rod       |colored rod    |4850|12  |14  |9   |
+Red rod        |colored rod    |7000|3   |15  |10  |
+Platinum rod   |colored rod    |8100|6   |23  |9   |
+Holy symbol    |talisman       |1600|99  |0   |12  |
+Elfin gem      |glowing rock   |5100|27  |12  |13  |
+Eye of fear    |glass marble   |1950|17  |7   |10  |
+Unholy symb.   |talisman       |8331|16  |20  |11  |
+Torch          |wooden stick   |2   |32  |0   |100 |
+Oil lantern    |lantern        |10  |33  |0   |100 |
+Key            |iron key       |0   |0   |0   |0   |
+Copper key     |copper key     |0   |0   |0   |0   |
+Silver key     |silver key     |0   |0   |0   |0   |
+Gold key       |gold key       |0   |0   |0   |0   |
+Royal seal     |iron coin      |0   |0   |0   |0   |
+King's head    |bloody head    |0   |0   |0   |0   |
+F-field key    |crystal bar    |0   |0   |0   |0   |
+Teleporter     |paper dove     |0   |22  |10  |50  |
+
+MONSTERS
+
+The chart below should be self-explanatory.  SPD=speed/movement, HIT=hit 
+points, ICO=the icon # that appears, EXP=experience divided among living 
+party members, and MAGIC=magic points.  There are some other traits in 
+the data file for the monsters, but I don't know what they're for, so 
+they weren't included.
+
+Gold received seems in my best guess to be a linear function of 
+experience.  However, sometimes there seems to be a multiplier, 
+especially on Islanda.  Please, however, forgive me if I patently refuse 
+to run statistical tests to back myself up on this matter.
+
+                |   |   |   |     |MAG|
+MONSTER NAME    |SPD|HIT|ICO| EXP | IC|
+----------------+---+---+---+-----+---+
+Lvl  1 Fighter  |  7|  8|  1|   33|  0|
+Lvl  1 Wizard   |  7|  5|  3|   33|  5|
+Orc             |  6|  2| 12|   38|  0|
+Spider          |  8|  4| 13|   20|  0|
+Rat             | 10|  4| 14|   15|  0|
+Bat             | 10|  3| 15|   20|  0|
+Bugem           |  7| 10| 11|   38|  0|
+Skeleton        |  6|  7|  5|   32|  0|
+Skeleton Mage   |  9| 25|  6|  117| 20|
+Cobra           | 13|  5| 16|   30|  0|
+Hill Giant      |  4| 28| 10|   86|  0|
+Evil Spirit     | 15| 40|  7|  160| 15|
+Death Adder     | 14| 10| 16|   70|  0|
+Lvl  2 Fighter  |  9| 14|  1|   65|  0|
+Lvl  2 Wizard   |  8| 10|  3|   60| 12|
+Lvl  3 Fighter  | 10| 18|  1|   80|  0|
+Lvl  3 Wizard   |  8| 14|  3|   75| 18|
+Zombie          |  8| 12|  5|   50|  0|
+Edrin           |  9| 40|  1|  135|  0|
+Cook            |  8| 12|  1|   38|  0|
+Lvl  4 Fighter  | 11| 25|  1|  120|  0|
+Lvl  4 Wizard   |  9| 17|  3|  115| 24|
+Ghost           | 11| 15|  7|   67|  8|
+Ghoul           | 12| 32|  5|  145|  0|
+Goblin          |  9| 18| 12|   80|  0|
+Spectre         | 13| 37|  7|  186| 30|
+Kobold          |  7|  7| 12|   20|  0|
+Hobgoblin       |  9| 25| 12|  105|  0|
+Lvl  6 Fighter  | 12| 32|  1|  129|  0|
+Lvl  5 Wizard   |  9| 21|  3|  141| 35|
+Gargoyle        | 13| 45|  9|  170|  5|
+Lvl  8 Fighter  | 12| 36|  1|  160|  0|
+Lvl  8 Wizard   | 12| 28|  3|  160| 40|
+Lvl 10 Fighter  | 13| 42|  1|  175|  0|
+Lvl 10 Wizard   | 13| 37|  3|  170| 45|
+Lvl 12 Fighter  | 14| 48|  1|  200|  0|
+Lvl 13 Wizard   | 13| 40|  3|  205| 50|
+Lvl 15 Fighter  | 15| 55|  1|  225|  0|
+Lvl 16 Wizard   | 14| 45|  3|  220| 55|
+Fire Elemental  | 16| 70| 17|  266| 50|
+Metal Elemental | 18| 70| 18|  280| 50|
+Wind Elemental  | 26| 60| 21|  245| 58|
+Ice Elemental   | 12| 80| 19|  268| 55|
+Spirit Elemental| 23| 65| 20|  280| 80|
+Fire Demon      | 14| 60|  9|  235| 40|
+Ice Demon       | 13| 60|  9|  245| 30|
+Demon Lord      | 16| 86|  9|  290| 50|
+Devil           | 16| 85|  9|  290| 88|
+Wraith          | 15| 55|  9|  230| 50|
+Devir           | 10| 26|  6|  120|  0|
+Baby Dragon     |  9|  5| 22|  110|  0|
+Small Dragon    | 11| 25| 22|  110|  0|
+Large Dragon    | 13| 50| 22|  185| 15|
+Great Dragon    | 16| 80| 22|  286| 30|
+Titan           | 15| 90| 10|  290|  0|
+Ogre            |  8| 35| 10|  125|  0|
+Warrior King    | 17| 70|  1|  255|  0|
+Arch Mage       | 15| 40|  3|  250| 65|
+Pit Viper       | 14| 17| 16|  125|  0|
+Rattlesnake     |  9|  8| 16|   45|  0|
+Giant Spider    |  8| 18| 13|   40|  0|
+Giant Snake     | 14| 40| 16|  133|  0|
+Mountain Giant  |  9| 55| 10|  175|  0|
+Shambling Mound |  6| 33|  8|  118|  0|
+Guard           | 10| 16|  1|   95|  0|
+Swamp King      | 12| 45|  1|  160| 10|
+Orc             |  9| 18| 12|   99|  0|
+Murthin         | 12| 40|  5|  180| 23|
+Cercion         | 13| 45|  5|  182|  0|
+Vandiguard      | 11| 43|  5|  195|  0|
+Lothian         | 12| 37|  6|  180| 45|
+Siriadne !      | 17| 85| 12| 5000| 88|
+R A L I T H     | 18| 82|  5|  500|  0|
+Dark Raven      | 20| 52| 15|  206|  0|
+
+MAPS
+
+Most of the dungeons in this game are pretty easy to figure out.  There 
+are only three branchings, or there is a secret door that is revealed in 
+the taverns.
+
+  MAP FOR THE HILLS
+
+The < and > indicate that the map cycles.
+s=secret doors
+1,2,3 = statues.
+
+xxxxxxxxxxxxxxxxx^xxxxxx
+xxxxxxxxxxxxxxxxx xxxxxx
+xxxxxxxxxxxxxxx<       >
+xxxxxxxxxxxxxxxxxxxxxsxx
+xxxxxxxxxxxxx     xxx xx
+            s xxxxxxx xx
+         xxxx x     s xx
+         xxxx xxx xxx xx
+         xxxx   s xxxxxx
+1xxx2xxx3xxxxxxxxxxxxxxx
+
+  MAP FOR THE TELEPORTERS IN THE GATE KEEPER'S TOWER
+
+Key:  ! is where you want to get to.
+
+CAPITAL LETTERS indicate teleporters.
+LOWER CASE indicate where teleporters go, i.e. A goes to a.
+A . indicates squares you can go to.
+NOTE:  the "a" square is also the "m" square.
+The transporters are numbered/lettered in the order I saw them, pretty 
+much.
+
+            !
+            . R..
+ ..s  l     .   i
+.L    . ..k..
+.     . .
+h  t..M .  H   c..T
+        S  .
+   F       .
+n.....d I..f..J
+   G       .    r...
+           .       .
+  ...      K    o...Q
+ p.A..        N    .
+  ...         . ....
+   .   B D    e
+   . a.. .    q j   g
+   .   C .    . .....
+   ^     b..E O   P
+
+And as a time-saving bonus:
+
+Upper left = Spider Bay
+Upper right = Gleon
+Lower left = Myrquacid(i.e. the "distant isle."
+Lower right = Back to entrance
+
+  MAP FOR JUST PAST THE GATEKEEPER
+
+This probably isn't necessary, but I might as well...^ leads outside, x 
+leads back to Green Hamlet, v leads to the island of fire and Ralith's 
+Castle.
+
+ FvF
+ F F     ....!.^
+.....    .
+..F.!.....
+  ...
+   x
+
+  MAP FOR LOTHIAN'S TOMB
+
+Most tombs have no maze at all, but Lothian's has invisible blocks.  
+It's easy enough to work through it by trial and error, but here is a 
+map just in case.  Get from the ^ to the !.
+
+             ^
+!.x...x....x.x.
+ ...x....x...x.
+ .x...xx.x.x.x.
+ xx........x...
+ ...x..xx....x.
+
+TAVERN TALK (BY CITY)
+
+Greenhaven: You hear that a priest has been kidnapped and is being held 
+prisoner in Blackfort by Devir the Destroyer. Blackfort was built in the 
+forest southeast of the river by Galin the Good, but taken over by 
+Devir.
+Arcania: A muscular dwarf with big, beady eyes says he was attacked by 
+Shamblers, horrible swamp monsters made by performing ancient magical 
+rituals on dead swamp matter molded into human form..."
+Precious Plains: A woman from east of the mountains says that she has 
+been terrorized by Edrin, a powerful friend of Siriadne's. She overheard 
+two men saying there is a secret passage in the corridor on the second 
+level
+Spider Bay: The Arena is fine if you are a fighter, but a wizard need go 
+to Terynor for his training. Terinor is nestled in the mountains far to 
+the northeast and is rich in magical items.
+Woodhaven: The gate leading into Siriadne's fortress is magically bound 
+and cannot be opened.
+Gleon: A greying old wizard sitting by the fire is talking about magical 
+staves. He says there are five kinds, one for each of the 5 elements of 
+Fire, Metal, Wind, Ice, and Spirit. They are rare and powerful artifacts 
+indeed...
+Terynor: You hear a whisper from behind you: 'A band of rebels that 
+despises the evil Siriadne has taken refuge in the hills to the 
+southwest'
+Janthrin:  NONE
+Athe: A gnomish wizard is talking about elementals: unnatural, magical 
+beings summoned by great wizards. They are five: one for each element. 
+The Fire elemental is a being of pure fire, the Spirit elemental is 
+mystical and feared.
+Myrquacid: An ancient looking elvin wizard in the corner beckons you. He 
+tells you in a shaky voice the second word in the name of the Ancient 
+spell: 'Reveli'
+Oceana: Years ago Islanda was ruled by the evil Moonglow family. Because 
+of them the land is still terrorized by evil monsters. Eldron Greyhair 
+ended thier reign and still holds a great treasure for adventurers on a 
+worthy mission.
+Atlantis: * Coming soon * From the makers of The Shard of Spring ... an 
+adventure set in the midst of a greater evil...
+Triton:  NONE
+
+WALKTHROUGH
+
+This walkthrough is short enough that it can be presented in list format 
+without getting too long.  One thing I like about this game is how close 
+you can get to the end without actually solving any puzzles.
+
+  BLACKFORT
+
+---You start off going south.  There's a key if you take the east 
+passage and take the first door you see.  It'll allow you to go east.
+
+---There's a priest held captive by the cul-de-sac that circles around 
+the pool(the east door on the north.)  You'll have to fight a hill 
+giant, who won't be too tough.  It's not immediately necessary to rescue 
+him, but it is important for near the end of the game.
+
+---In the southeast corner, a scrap of parchment indicates where you can 
+find Devir.
+
+---[spoiler below]
+
+---The secret door is two south and one east of the door to the key 
+room.
+
+---Fight Devir and get an important item, the Royal Seal.  It will help 
+you explore the basement in Edrin's Keep, which isn't necessary for the 
+game, but it's fun.
+
+  LAIR OF THE SWAMP KING
+
+---Explore a bit.  Make sure you can beat the Shambling Mounds with 
+relative ease.  There's a pool to the west that will heal your 
+characters.
+
+---To the east, there are some clues.  One tells of a secret door.
+
+---Enter the secret door, win the fight, and get the king's head.  It'll 
+come in handy later.
+
+  EDRIN'S KEEP
+
+---First, you'll need to find the copper key.
+
+---It's just north and east of the entry, in a small room behind a 2x3 
+room.
+
+---You might want to pay attention to what the fighters have to say.  It 
+will come in useful.
+
+---You'll need to go downstairs.  If you don't have the royal seal, take 
+a look above to see where to get it.
+
+---You can use the copper key as follows--when the passage behind the 
+door branches off to the left, follow it and go north at the first 
+opportunity.
+
+---Bingo, the silver key!  Search around a bit to find what it 
+unlocks...
+
+---...right, the first door on the RIGHT.  Hmm, now where's that gold 
+key for the gold door?
+
+---If you were a barfly you'd know.
+
+---At one of the bars, you are told that there's a secret passage to the 
+east of the corridor.  It is in fact three south of the right turn-off.  
+Once you've found the gold key, you can defeat Edrin.  He leaves plate 
+mail, which probably isn't too terribly useful.
+
+  TUNNELS IN THE HILLS
+
+---These aren't necessary since you are just looking for information 
+here, which can be found later in this walkthrough.
+
+---Note that the entry passage wraps every nine squares.  Well, there's 
+a bit more to this dungeon than that.  You might guess that there's a 
+secret door, and you'd be right.
+
+---The secret door happens to be four east and three south of the exit.  
+For your reward you get to find another secret door.
+
+---And so forth.  Spoiler below.
+
+---4 S, 4 W, 2 S, 4 W, 3 N, W leads you to the main room.
+
+---You need a special item for the statues to talk to you.
+
+---Go kill the swamp king if you haven't.
+
+---Take note of what the statues have to say.  One of them says 
+something very important.
+
+---This isn't necessary for the game, but it's fun.
+
+  THE TOMBS
+
+---These are not strictly critical for solving the game as their main 
+benefit is information, but they're neat and sort of flesh out the whole 
+world.
+
+---In fact, you don't even need to visit the four bad guys.  You just 
+have to give Edrin the correct answer.  The item you get isn't 
+*NECESSARY* for solving the game, but it doesn't hurt.
+
+---Murthin, Cercion, and Vandiguard have normal tombs--nothing fancy.  
+Just go in and fight them.
+
+---There's a maze of invisible barriers in the tomb to get to Lothian, 
+which would be troublesome if it weren't so small.
+
+---A quick way to get through it is to go, from the square below the 
+exit, 3S 2W 2N 2W N 3W S 2W N 2W S 2W N W gets you to the door of 
+Lothian's burial chamber.
+
+---There's a shortcut to Edrin's from Oceanus.  Where it looks like two 
+islands join, you CAN walk across them.  Save yourself the grief.
+
+---Answer Edrin with MURTHIN, CERCION, VANDIGUARD, and LOTHIAN.  He'll 
+give you a storm ring.  He'll politely tell you to get going if you try 
+to double-dip :).
+
+  GATE KEEPER'S TOWER
+
+---There are a bunch of teleporters in this one.  Map very carefully.
+
+---C'mon, give it a try before I reveal a total spoiler!!!
+
+---Okay, I'll trust you :)
+
+---Well, here's an opportunity for you to check my work :P
+
+---Hit the first teleporter.  EEN to 2nd, NNN, WWWN, SSS, EENNN gets you 
+to the room with four teleporters.
+
+---You can save the game before entering one, and I won't tell on you.
+
+---Well, it's the lower left one you want to get to the distant isle.
+
+---Be sure to stop in at the town before entering the dungeon!
+
+  SIRIADNE'S
+
+---This is the dungeon west of Myrquacid.  You'll want to go through the 
+north gate, and you'll see you're on the island of fire.  Enter the 
+castle(not much else to do...)
+
+---Gee, it looks pretty peaceful.  A forest, a statue, and a gate.  Not 
+the worst place to be stuck in if you saved your game and don't know how 
+to progress(and WARNING:  you WILL get stuck if you're not sure what to 
+do next.  Although you can disband your party, of course.)
+
+---"Hey!  What's going on with the gate?"  It can only be moved by 
+magical means.  Not a magical item, either.
+
+---You must get the two words of the ancient spell for this to work.
+
+---One is found in the hills.
+
+---The other is found in a town.
+
+---Myrquacid.
+
+---Time to hang out at the tavern which, like all the others in the 
+game, is nice and non-alcoholic.  Is this a Social Statement on the part 
+of the authors?
+
+---Total spoiler below:
+
+---"DAZA REVELI" just south of the gate will open it.  Now for the main 
+part of Siriadne's castle.
+
+---There is only one real fork, although the passages wind a lot.  
+You'll want to go east first.
+
+---Search the side rooms.  In one you'll find something about a word of 
+command.  Once you do, go back and go north.
+
+---There are a lot of fights, but eventually you'll seem to pass through 
+a wall(where having read about the word of command comes in handy) and 
+you'll want to wind up with the Forcefield Key(the crystal bar when 
+unidentified.)  Past the wall there are two fights--a bunch of undead, 
+then Ralith himself for the key.
+
+---Then go back and go the other way.  If you feel a need to get out, 
+the paper dove/raven you defeat casts a teleport spell.
+
+---You'll have to defeat one of each elemental on the way.  They are, in 
+order, metal, fire, wind, ice and spirit.
+
+---When it seems you're stuck, there should be a place with four gems to 
+touch--blue, blue, red and green.
+
+---Remember the fighters' song from Edrin's keep(the one they sing even 
+after you've killed them?)
+
+---The color pattern will help you.
+
+---Blue, blue, red, green.  Poof, you're on your way...
+
+---Have the little chinwag with Siriadne.  Then, YOU WIN!  Enjoy the 
+ending.
+
+  ENDSCRIPT SPOILER WITH OTHER GAME SCRIPTS
+
+      ******ENDSCRIPT******
+
+A cool breeze blows through the huge arched windows of the tower room. 
+On an ivory pedestal lies the object of your quest: a knife-shaped piece 
+of green crystal.
+As you hold the shard and look out over the landscape of Ymros, it looks 
+beautiful and peaceful; more peaceful than it has looked in a very long 
+time.
+You watch as a graceful dove flys up from the balcony below up into the 
+blue sky. As you turn to go back into the room, you see a black bird out 
+of the corner of your eye, moving swiftly upward. As you re-enter the 
+room, an old man who you recognize is standing near the dead body of 
+Siriadne. His face shows a mixture of serenity andcontentment. He 
+speaks:
+'The True springtime shall now return to Ymros because of what you have 
+done today.'
+'Your names shall be remembered as long as men exist to sing of you'.
+He makes some mysterious motions and everything begins to swirl about 
+you.
+His voice speaks to you out of the dizziness 'Evil is personified in the 
+form of dragons, but borne in the hearts of men...'
+
+      ******IN THE TOMBS******
+
+The Tomb of Murthin (the mad). Fancy inscription reads 'This tree 
+represents the life that you gave us'. Graffiti reads 'Nothing without a 
+heart can live. This tree is the only thing in this tomb that was ever 
+truly alive'
+
+The tomb of Cercion. Inscription reads 'For a man who loved the sea and 
+died by it'. Scratchings read 'That makes us proud we drown him in it'
+
+The Tomb of Vandiguard. Inscription reads 'May these eternal fires 
+always burn in your memory'. Second scrawled inscription reads 'and may 
+you burn in Hell for as long...'
+
+The Tomb of Lothian. Plaque reads 'Your life was a maze of reality and 
+illusion'. Second plaque reads 'May you be lost forever...'
+
+BUGS/NUISANCES
+
+Your maximum food is 255 and if you buy more you'll just get your cash 
+ripped off.  Max stats are also 255.
+
+The game never tells you when an item in your inventory helps you;  the 
+disk just loads.  For instance, at the gold door, it says "a locked gold 
+door" but if you have the gold key the disk loads and you pass the 
+square.
+
+After you've won a fight, you sometimes still get the description scene.  
+For instance, beating the singing fighters in Edrin's Keep doesn't stop 
+you from hearing them afterwards anyways.
+
+Getting 256 hit points causes the program to break.
+
+CHEATING
+
+I don't know if I fully recommend cheating.  It gets rid of tedious 
+combat, but if you want the "whole package" cheating will ruin that--and 
+to be honest, the puzzles aren't the most terribly complex.  But here 
+goes(assuming you know a little about hex and have a hex editor:)
+
+This relies on general editing strategies.
+
+Create five characters.  Band them together.
+
+Say one is called BIPH.  Let's say his stats are 6, 7, 8, 10, and 13.  
+Then search the file for BIPH as a string, or 0x42 0x49 0x50 0x48 
+hexadecimal.  Some games have the highest byte flipped, meaning you have 
+to search for 0xc2 0xc9 0xd0 0xc8(add 0x80 to all of them....)
+
+The characters' info being 32 bytes long, you should see the name, then 
+a list of bytes 06 07 08 0a 0d for Biph's stats.  Change them to 250 if 
+you want.  That's what I did.  If you want to rake in the hit points, 
+there will be numbers after that--there should be two equal.  Change the 
+first two you find like that.
+
+If Biph is a spell caster then the next two bytes should be equal(one is 
+max, one is current) so if you change them, BAMMO!  Biph's got spell 
+points.
+
+Note:  if you train Biph, he loses these super-stats.  The bytes for 
+Biph's skills are set to either 0 or 1 so you can tinker with them if 
+you want.  I don't think you'll need to.
+
+As for gold, you might want to wait until you've got over 256.  Then 
+search for that number in hex.  For instance, if you have 2867 gold, 
+then 2869 = 2816 + 48 + 5 = a35.  So you will want to search for the hex 
+number 0a35, commonly expressed as 35 0a(the byte-pairs are FLIPPED.)
+
+As for provisions, just cheat with gold and buy them.
+
+**********************
+
+VERSIONS/CREDITS
+
+Version 1.0.0 11/26/2000 submitted to GameFAQs.com after solving this at 
+4 AM or so 11/25/2000.  Some of this was also written at an ungodly 
+early morning hour which may explain some of the jokes.
+
+ftp.apple.asimov.net for having the Apple disk images.
+www.theunderdogs.org for having the manual, which helped me.
+druadic@cs.com(members.xoom.com/druadic) for the original Shard of 
+Spring maps from Quest for Clues, which despite a few silly typos helped 
+me no end.
+
+Questions/comments to schultza@earthlink.net.
