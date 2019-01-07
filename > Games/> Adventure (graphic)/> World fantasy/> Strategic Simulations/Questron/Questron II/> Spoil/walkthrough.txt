@@ -1,0 +1,1970 @@
+Questron II
+FAQ version 1.0.0
+by Andrew Schultz schultza@earthlink.net
+
+This document may not be reproduced for profit without my prior consent.  
+It is copyright 2001 Andrew Schultz and part of my effort to help 
+preserve the memory of fun old computer games.
+
+Check out my Questron II color maps at:
+
+http://members.fortunecity.com/cartographcs(overworld)
+http://members.fortunecity.com/cartographcs/q2/q2index.htm(towns, etc.)
+
+** AD SPACE **
+More old game stuff at:
+http://www.geocities.com/SoHo/Exhibit/2762/games/games.htm
+My home page:
+http://www.geocities.com/SoHo/Exhibit/2762
+
+================
+
+INTRODUCTION
+
+GETTING GOOD QUICKLY
+
+  GAMBLING
+
+  QUANTUM LEAPS
+
+I HATE VIOLENCE!  (A GUIDE TO COMBAT)
+
+ADVICE
+
+ITEMS
+
+  SPECIAL
+
+  WEAPONS
+
+  ARMOR
+
+  TRANSPORTS
+
+  SPELLS
+
+MONSTERS
+
+QUICK WALKTHROUGH SUMMARY
+
+TOWNS, MAPS, ETC.
+
+  TEXT MAPS
+
+    TOWNS
+
+    CATHEDRALS
+
+    CASTLES
+
+    DUNGEONS
+
+    CONCLAVE
+
+  "EH?"
+
+VERSIONS/CREDITS
+
+================
+
+INTRODUCTION
+
+    There are two big land masses you'll have to navigate.  Don't worry 
+about the second until you've become an apprentice.  You'll want to 
+avoid combat if you can, as it doesn't really get you much gold and can 
+be harmful.  Casinos are better.
+    You need a boat or an eagle or a special item to make it from one 
+land to another.  However, the world is tiled like a checkerboard with 
+the 90x90 maps of Landor and the Sorcerers' Realm.
+
+GETTING GOOD QUICKLY
+
+  GAMBLING
+
+    Blackjack doesn't have 100% payout, so don't play it.  There are 
+plenty of Blackjack FAQs, so I'll summarize briefly--you start with two 
+hole cards.  Ace is worth 1 or 11, whichever is more favorable, and KQJ 
+are worth ten, and number cards are worth their value.  You may "hit" 
+(draw another card) until you go over 21, when you "bust"(lose.)  The 
+objective is to beat the dealer--if you bust, the dealer wins 
+automatically.  If you draw to a 21, you have blackjack and win 250% 
+instead of 200%.
+    High/Low has a 100% payout, since it's equally probably a card will 
+be 2-7 or 9/10/JQKA, so I suppose you could save before playing(it's 
+nice that you can save in towns) and try.
+    Wizard's Squares is the best.  You win six times your money(i.e. bet 
+100, get 700--technically, they present the game incorrectly, but the 
+game is better for you than advertised!) if you guess the square the 
+ball lands on, three times(bet 100, get 400) if you're one off, and 
+nothing if you lose.  Let's break it down.
+
+   cc    cc
+   cc    cc
+
+cc aa bb aa cc
+cc aa bb aa cc
+
+   bb    bb
+   bb    bb
+
+cc aa bb aa cc
+cc aa bb aa cc
+
+   cc    cc
+   cc    cc
+
+    If you choose the c square, there is a 1/16 change you'll be 
+right(you get 7 times your original stake and a 1/16 chance the ball 
+will land on the a square next to it.  Total winnings = 7*1/16+4*1/16 = 
+11/16, or a 68.75% payout.  Almost as bad as Lotto tickets.
+    If you choose the b square, you have a 1/16 chance of guessing 
+right, and there's a 2/16 change the ball will land on an adjacent a 
+square.  Payout = 7*1/16+4*2/16 = 93.75%.  Not bad!
+    If you choose the a square, you have a 1/16 chance of guessing 
+right, and there's a 4/16 chance the ball will land on an adjacent 
+square, two b and two c.  Payout = 7*1/16+4*4/16 = 143.75%.
+    All c, b and a squares are identical--you can use a simple 
+symmetry/rotational argument to prove this.
+    So if you bet a portion of your current boodle, you can usually win 
+nicely.  But there's a way to win even bigger.  It involves cheating.
+    Use "save state" on an emulator just when you're asked to choose 
+which square.  Then pick any one, see where the ball lands, reload the 
+state, choose the square the ball landed on, and--oopsie-la!  "I dunno 
+how I did it!"  However, Questron II limits you to 65535 gold.  Not that 
+you'll need much.  Spells should cost 32000 to stock up on, so you won't 
+need much more.  Repeat the Wizard's Square procedure when you get low, 
+and put winnings in the bank and come back immediately.  Thankfully 
+guards don't attack big winners as they did in Questron.
+
+  QUANTUM LEAPS
+
+    You'll generally get good by quantum leaps(not counting casino 
+winnings.)
+
+    PLEBE:  300 = max hit points, 15 agility, strength, intelligence, 
+charisma, and stamina.  Studded leather and a dagger are best bets.
+
+    Promotions
+    ADVENTURER:  400 = max hit points, +5 agility, +5 strength, and now 
+ring mail and a staff are sold in towns
+      **You must visit Mesron by using the gold key at the hall of 
+visions to get this.
+    SCOUT:  500 = max hit points, +10 stamina, and you can buy a 
+fauchard and bar mail
+      **You must return the Wand of Power to Mesron for this.
+    APPRENTICE:  600 = max hit points, +10 strength, and you can buy a 
+weighted spear and chain mail.  You can also buy a trained eagle.
+      **You must return the Orb to Mesron for this.
+    KNIGHT:  5000 = max hit points, +5 Agility, Strength and 
+Intelligence, and you can buy ribbed plate and a crossbow(although I was 
+stuck with plate/shortbow)
+      **You must push back Mantor at Seacrest for this.  You may need to 
+do something else--make sure you visit after you've got the black key.
+
+    Others:
+    You get +5 strength at Kelfor if you manage to speak to the king.
+    You can get +10 charisma in Redstone and may be able to do it twice 
+once you're a knight.  I didn't check.
+    You also get +5 intelligence for winning at Seacrest--talk twice to 
+Mesron for the big improvement.
+    
+
+I HATE VIOLENCE!  (A GUIDE TO COMBAT)
+
+    Dungeon combat is more forgiving than Questron, but castle and tomb 
+combat are grueling.  For the dungeons, stock up on Sonic Whine and you 
+should be fine.  You'll probably be more concerned with (X)amining 
+enough, so your armor doesn't get destroyed.
+    What makes castle and tomb combat so nasty is the following:  if you 
+are a knight's move away from a guard and you pass, he will approach the 
+square diagonal to you and attack you.  Of course, you can't attack him!  
+The best strategy is to try to force him into a narrow place where he'll 
+have to line up with you.  When he's two squares away, sock him with a 
+Time Sap, then nail him with a Fireball or Magic Missile or, if you're 
+advanced in the game, fight him with a weighted spear.  Repeat this as 
+necessary and only take one guard on at a time.  Above all, if you must 
+flee, USE TIME SAP.  Guards can outrun you in a maze(they cut corners 
+when you move) and can nail you badly as you flee.
+    In overland fights, after you've won, you can (X)amine for food, and 
+you may get lucky.
+
+ADVICE
+
+    In Questron II, you can get advice from barbers, inns and taverns.  
+The laundry list is below:
+
+ADVICE:
+--Food is rare but can be found outside.
+--The Hall of Visions is in Redstone Castle.
+--You can loot, but be ready to fight or flee.
+--Find the Holy Ones in the cathedrals.
+--The gold key will unlock the Hall of Visions.
+--Learn what to fight and what to flee.
+--Put money in the bank, in case of death.
+--Find a gift for the Holy Ones.
+--There is more than one way to cross the mountains.
+--Speak in the Hall of Visions and Mesron may help you.
+--Some towns are cheaper than others.
+--Visit the Hall of Visions often.
+--The Wand of Power is in the tomb.
+--Cathedrals can make you rich.
+--Don't get lost in the tombs.
+--Keys can be found in castle chests.
+--I looted a merchant and got away.
+--Coffins are worth the risk.
+--Stock up on the Bread of Life.
+--Be nice to Morle - he may help you.
+--Time Sap the guards.
+--Find the Eternal Flame in the fortress.
+--Use the Room of Maps.
+--Simon isn't what he seems.
+
+ITEMS
+
+  SPECIAL[spoilers below]
+
+    Gold Key--you have this to start the game.  It opens the Hall of 
+Visions.
+    Moonstone Amulet--found early in the Rivercrest Tomb.  It allows you 
+to talk to the Holy One, who sells Bread of Life.
+    Brass Key--Morle gives you this in Rivercrest tomb.  It unlocks 
+other doors in castle, leading you to new keys
+    Chalice of Arvyl--found in the Rivercrest tomb, presenting it to the 
+Holy One at the Twilight Cathedral allows you to buy more Bread of Life.
+    Wand of Power--found in the Rivercrest tomb, this gives a promotion 
+when you present it to Mesron.
+    Iron Key--found third in Castle Redstone, this allows you to see the 
+wizard to improve your charisma.
+    Copper Key--found second in Castle Redstone, this allows you to get 
+to the orb.
+    Silver Key--Mesron gives you it when you show him the Orb, and this 
+key allows you anywhere in Redstone.
+    Emerald Key--found first in Castle Redstone, this lets you in to the 
+southeast part of the Rivercrest Tomb and allows you to get the other of 
+the Chalice of Arvyl/Wand of Power that you don't have
+    Unicorn Horn--found last in Castle Redstone, this takes ten of your 
+hit points
+    Ruby Key--found in Kelfor's, it gets you to the Eternal Flame in 
+Kelfor's
+    Agate Key--found in the first dungeon, gets you to Kelfor's throne 
+room
+    Sapphire Key--found in Kelfor's, it unlocks the door to where the 
+Ruby Key is hidden
+    Opal Key--given to you by Kelfor, allows you anywhere in Kelfor
+    Crystal Goblet--found in the first dungeon, presenting it to the 
+Holy One at the Twilight Cathedral allows you to buy more Bread of Life.
+    Onyx Key--found in the first dungeon, allows you to enter the 
+Twilight Cathedral tombs
+    Black Key--found in the Twilight Cathedral tombs, allows you to 
+enter the Dungeon of Despair
+    Eternal Flame--found in Kelfor's fortress, it allows you to progress 
+in the Twilight Cathedral tombs
+    Book of Magic--with you from the start of the game, use it in the 
+end with the "Destruct" spell to knock off Mantor
+    Orb of Enchantment--found in the castle, and it will get Mesron to 
+advance you a level.  Use it with Morle, and you are teleported to the 
+land of Sorcerers
+    Scroll of Scalna--auto-mapper found in the first dungeon, level 
+three
+    Rope & Hooks--bought at Bay View(among other places,) it allows you 
+to cross mountains.  There are more sophisticated ways of travel, but 
+this is cheapest.
+    Bread of Life--restores up to 100 hit points.  When you become an 
+apprentice, there is no maximum to what the cathedral will sell you, 
+although you cannot possess more than 99 at any time.
+
+  WEAPONS
+
+    All the weapons are listed below:
+--Dagger
+--Hammer
+--Hatchet
+--Staff
+--Cudgel
+--Rapier
+--Axe
+--Fauchard
+--Sabre
+--Weighted Spear
+--Pike
+--Shortbow
+--Broadsword
+--Crossbow
+
+  ARMOR
+--Rawhide
+--Studded Leather
+--Ring Mail
+--Bar Mail
+--Chain Mail
+--Plate Mail
+--Ribbed Plate
+
+  TRANSPORTS
+--Rope & Hooks
+--Mule
+--Pony
+--Camalon
+--Boat
+--Trained eagle
+
+  SPELLS
+
+--Magic Missile: moderate damage to an opponent.  Can be used at a 
+distance but more effective close-range
+--Fireball: moderate damage to an opponent.  Can be used at a distance 
+but more effective close-range
+--Sonic Whine: destroys a dungeon opponent at short range
+--Time Sap: leaves an opponent paralyzed.  The time depends on the 
+location
+--Destruct: used at the very end to destroy the original Book of Magic
+
+MONSTERS
+
+I don't count the guards and wizards as monsters--only the random 
+encounters.
+
+    All the outside monsters are listed below:
+--Sovan Priest
+--Gypsy Imp
+--Beggar
+--Troll
+--Brawn Warrior
+--Wave Slapper
+--Mutant Carp
+--Hull Bore
+--Spincer
+--Mavin
+--Snooper Slink
+--Slasher Boar
+--Antisaur
+--Grub Snuffler
+--Vipod
+--Ramdart
+--Swine Swallow
+--Boll Rot
+--Tangler
+--Hornet Cloud
+--Baboon
+--Ball Slime
+--Carrion Creeper
+--Jelly Nymph
+--Giant Cockroach
+--Stink Worm
+--Hurler
+--Ice Urchin
+--Cloud Creeper
+--Spiker
+--Venom Ant
+--Constrictor
+--Giant Mantray
+--Ghoul
+--Pincer
+--Jovine Pig
+--Blook Slake
+--Cannibal
+--Muck Grabber
+--Swamp Slither
+--Brine Flicker
+--Gilgore
+--Mind Scream
+
+    All the tomb monsters are listed below:
+--Dust Fiend
+--Rat Lord
+--Asp of Pain
+--Wrathful Vermin
+--Vicious Toad
+--Nasty Vine
+--Weird Thing
+--Hideous Pluck
+
+    All the dungeon monsters are listed below:
+--Shape Shifter
+--Hell Hulk
+--Soul Seeker
+--Warlock
+--Winsel
+--Thunder Lizard
+--Mindless Drone
+--Zabor
+--Rotan Knight
+--Mind Zap
+--Disembowler
+--Death Wraith
+--Shredder Serpent
+--A Vision
+--A Squealer
+--Churl Ogre
+
+QUICK WALKTHROUGH SUMMARY
+
+    Stuff like how to get through the dungeons is in the dungeon 
+section.
+
+    First, you want to go to the castle and use your gold key on the 
+door to the hall of visions(the one with the freaky tiles.)  Talk to 
+Mesron and you'll be improved.  The strength and agility are nice, but 
+moving up to 400 hit points and getting new spells even bigger.  Don't 
+forget to go to Bay View for Rope&Hooks and the best weapons and Folman 
+for the best armor after each promotion.
+    You'll probably want to build up spells for going down into the 
+tombs.  To do this, you need to build cash flow.  To do this, stop at 
+the casino and play Wizard's Squares until you've got a gob of cash.  
+Put most of it in the bank(maximum 65535) and play again until you're 
+flush with money.  Use the save feature liberally--this is discussed 
+best in the getting better quickly section.
+    Your first trip down in Riverfront Cathedral will be a quick raid.  
+Take the first right, go north into the room, get the MOONSTONE, and get 
+out.  For fights, you'll want to use Time Sap.  Monsters are slow to 
+recover in tombs(unlike castles, where they recover in two turns) so you 
+can probably knock them out in ten turns before they wake up.  If you 
+want to be sure, just bring some magic missiles or, better yet, 
+fireballs.  Remember these have effect from a range, although they seem 
+to do more damage when you're closer.  If monsters are not blocking your 
+way, you can consider a Time Sap to run away from them.
+    With the medallion, visit the Holy One to get Bread of Life.
+    Your second trip in Riverfront's tombs will be a little longer.  Go 
+east as far as you can, then go north at the two T-intersections you 
+see.  (S)peak to the man blocking your way, and giving 200 gold will 
+allow you access to a new area.  Beware--there are lots of monsters past 
+the guy.  Dispose of them.  After walking diagonally, go east and take 
+the passage down into the room.  There's another room below that where 
+you'll find Morle, who will give you the BRASS KEY.
+    Now, you will be looking for a random treasure.  Go back north, go 
+east and then north at the "T" where you can't go east.  Follow the 
+winding path and go east at the first opportunity.  You'll reach a four-
+way intersection with paths west, east, northeast, and southeast.  Going 
+northeast will get you some fragrant herbs to restore hit points.  Going 
+southeast will wind around a bit, and you'll receive one of two items:  
+the CHALICE OF ARVIL or the WAND OF POWER.  If you have the chalice, go 
+back to the Holy One, who is willing to sell you more loaves.  
+Otherwise, you'll have to loot the castle first, but presenting the wand 
+to Mesron(speak to him) will raise you to scout.  It's probably better 
+to have the wand, but you can still rout the castle with the chalice.
+    In the castle, you'll need the brass key to get where you want to.  
+If you have the wand, pick up the orb on the west side.  In the formerly 
+closed-off northwest, which requires the brass key, you'll find that 
+looting the chests gives you, in order, an emerald key, a copper key 
+which also gives you +5 strength, an iron key and a unicorn horn.  You 
+can probably get rid of all these guards while looting, and if you're 
+killed it's not so bad, as you'll still have the important items in your 
+inventory.
+    The keys are located in the following places:  the northmost chest 
+behind the brass door(the one that needs the brass key), another chest 
+ten paces east, a chest five paces south, and a chest three south and 
+east from the original brass door.
+    The next time you go in the castle, open the door in the 
+southwest(iron key) to get +10 charisma for 1500 gold.
+    Now you'll want to go back to Rivercrest Tomb to get the item you 
+didn't the first time around.  Go all the way south, all the way east, 
+all the way south, and take the second passage south and go east.  Use 
+the emerald key and take the first passage south.  Going east a few 
+squares, you'll see the room to the north where you'll get the other 
+item.  See the Holy One or Mesron, and you're well on your way.  If you 
+still haven't gotten the orb, the brass key should do the trick.  Go 
+back to the Hall of Visions and (S)peak to Mesron, and POW!  You've got 
+a SILVER KEY, which is not terribly useful, but you're much stronger.  
+Go pick up the better items, and go to Riverfront.  Go see Morle(the guy 
+who gave you the brass key) again.  He'll transport you to the Realm of 
+Sorcerers.  It's cheaper than buying a boat at Bay View.  You should 
+have at least 3600 gold before going to the Realm.
+    The first thing to do in the Realm of Sorcerers is that you can buy 
+a trained eagle in Grissold, to the southeast of Demph, where you start 
+out.  You'll no longer be subject to attacks this way.  Then there's the 
+dungeon in the northeast.  It's not so bad, really.
+    The scroll of Scalna is on level 3, and it's not hard to look 
+around.  Monsters and traps are much less dense than in Questron.  Once 
+you have the SCROLL OF SCALNA, you'll have an auto-map feature, which is 
+very handy.  On the sixth level, you'll find an AGATE KEY, needed in the 
+fortress of Kelfor, and the eighth yields the ONYX KEY which you need to 
+get in the tomb at the twilight cathedral.
+    The next thing to do is to loot Castle Kelfor.  The first item to 
+find is the SAPPHIRE KEY, which opens the doors just north of the 
+entrance, behind which you can find the RUBY KEY.  To visit the king, 
+use the agate key and then the ruby key on the successive doors.  Of 
+course, you'll need to go outside first before he's willing to listen to 
+you.  He'll also give you an OPAL KEY which replaces the other two.  Go 
+south, west and tail along the passage to use the opal key and get the 
+ETERNAL FLAME.  You're now ready for the second tombs, which zigzag much 
+more than the first.
+    The sapphire key is, if you go to the west side of the castle and 
+look for an opening, the second chest north of that opening on the west 
+side.  The ruby key is in the northeastern chest of the lower door that 
+the sapphire key unlocks.
+    Take the second right, then go up at the 
+T(northwest/north/northeast) and then left at the next t.  Then go north 
+into the room and exit to the north.  At the next intersection, go left.  
+At the four-way intersection, detour south into the room to get the 
+fragrant herbs, then go left until the passage winds back around and 
+there is a north/west/south T.  Go west, then go west at the next 
+intersection.  After you bend south, turn west at the next intersection 
+and go north into the room on the resultant path.  Leave to the west and 
+at the second right, go east, south and west to get to the room with the 
+BLACK KEY.  From there, going back is not trivial.  Go east, north, all 
+the way west, all the way north along the passage 'til you get to the 
+room.  Go east to the T, then north all the way, east all the way, 
+northeast and follow the winding path.  Go south at the T, then north at 
+the next t and then the four-way intersection.  Go south at the next t, 
+and exit the room to the south.  Go east, take the diagonal, go south at 
+the T then northwest at the next.  The last T, go all the way north and 
+follow the winding path.  You're done!
+    Well, you may want to go back to Landor now.  Speak to Mesron, and 
+he should inform you that you need to go to Seacrest.  When you get 
+there, cast a Fireball spell at Mesron to get him to go away.  Seacrest 
+will be normal, and Mesron will promote you to knight.  Now you need to 
+go to the final dungeon.  Be sure to stock up on bread of life to the 
+maximum(do it at Twilight Cathedral, where you can enter the tomb, buy 
+bread, etc. rather efficiently.  You may also want to take off your 
+armor for a while and let monsters bash you, as the fewer hit points you 
+have left, the more bread you can buy!)
+    Don't worry about looking for items.  There aren't any.  Beware that 
+some coffins are traps, but the fragrant herbs still get you hit points.  
+Just go down all the way until you find a way down from level eight.  
+Then, you'll want to head north at the first T, north at the next, west 
+at the third, then west again.  From there, there's one way to go except 
+for a side passage to the south you should ignore.  When you get to the 
+differently tiled room run for the book and use your own Book of Magic.  
+There's a new spell--DESTRUCT--which will destroy the book.  You win!
+
+TOWNS, MAPS, ETC.
+
+  TEXT MAPS
+
+    CATHEDRALS
+
+Cathedrals are 23x23 in size.
+
+      Ledger
+      X = wall
+      G = guard
+     \/
+     /\ = "ruler"--you need the moonstone to visit here.
+      v = enter the tomb
+      . = grassland
+      $ = chest
+      W = wizard(priest?) to give money to
+
+Snactuary Cathedral
+.......................
+..XXXXXXXXXXXXXX.......
+..XG GX        X.......
+..X   X        X.......
+..XG GX        XXXXXXX.
+..X   X        XG D  X.
+..XG GX        X GD  X.
+.XXDDDX        XXXX  X.
+.X                   X.
+.X  XXXXXXX XX     $$X.
+..  XXXXXXX XXW$$    X.
+..  XXXXXXX XX XXXX  X.
+.X  XXXXXXX XX XG D  X.
+.X             X GD  X.
+.XXXDDDXXXXXX  XXXXXXX.
+...XG GX \/ X  X.......
+...X   X /\ X  X.......
+...XG GXXXXXX  X.......
+...X   X    X  X.......
+...XG GX    X  X.......
+...X   X    X  X.......
+...XG GX       X.......
+...XXXXXXXXXXXXX.......
+
+Rivercrest Cathedral
+.......................
+.XXXXXXXXXXXXXXXXXXXXX.
+.X  \/  X   $$  X    X.
+.XX /\ XX   W   X vv X.
+.XXXXXXXX XXXXX X vv X.
+.X      X       X    X.
+.X        XXXXX X    X.
+.X G G  X XXXXX X    X.
+.XXXXXXXX XXXXX X G  X.
+.XG G G D XXXXX XXX  X.
+.X G G GD XXXXX      X.
+.XXXXXXXX XXXXX XXX  X.
+...X      XXXXX X G  X.
+...X      XXXXX X    X.
+...XX  X  XXXXX X    X.
+.......X  XXXXX X    X.
+.......X        X    X.
+.......X        X    X.
+.......XXXXXXXXXX    X.
+.......X             X.
+.......X          $$ X.
+.......X             X.
+.......XXXXXXXXXXXXXXX.
+
+Great Plains Cathedral
+.......................
+.XXXXXX.......XXXXXXXX.
+.X    X.......X  \/  X.
+.X $$ X.XXXXX.XX /\ XX.
+.X    XXX $$XXXXXXXXXX.
+.X    X   W   X      X.
+.X      XXXXX X      X.
+.X    X XXXXX X      X.
+.XXXXXX XXXXX XXXX XXX.
+...X    XXXXX        X.
+...X   XXXXXX        X.
+...X  XXXXXXX        X.
+...X XXXXXXXX        X.
+...X          XXDDDX X.
+...X          X GGGX X.
+...X    XDDDX X    X X.
+...X    XGGGX X G GX X.
+...X    XXXXX XX G XXX.
+...X    X......XG GX...
+...X    X......XXXXX...
+...X    X..............
+...X    X..............
+...XXXXXX..............
+
+Twilight Cathedral
+.......................
+.XXXXXXXXXXXXXXXXXXX...
+.X G GX            X...
+.XG G X            X...
+.X G GX      X     X...
+.XG G XXX XXXX  $$ X...
+.XXDDDX G G  X     X...
+.X           XXXXXXXXX.
+.X           X        .
+.XXXXXX XX   X        .
+.XXXXXX XXW$$X        .
+.XXXXXX XX   X XDDDXXX.
+.XXXXXX XX   X XGGGX...
+.X         XXX XGGGX...
+.X             XGGGX...
+.X         XXXXXXXXX...
+.X         X  \/  X....
+.XXDDDX    XX /\ XX....
+.X G GX    XXXXXXXX....
+.X G GX    X      X....
+.X    X vv        X....
+.X    X vv X      X....
+.XXXXXXXXXXXXXXXXXX....
+
+    TOWNS
+
+Towns are either 30x30 or 40x40 in size.
+
+      Ledger for towns
+      lower case letters indicate a business establishment:  arm=armor, 
+ar=arms.  A Bit awkward, but that's the current convention.
+      $ = merchant
+      . = orange(normal) tiles
+      ! = citizen
+      G = guard
+      * = bush
+      : = tiles where you can buy magic/speak to mystic      
+
+Hidden Rock
+ *   * *** ** *  ***G  G*     
+* *** ** * * **** *G    G* ** 
+***     ***      **      *    
+*G          *  *    *   ***   
+ *     *                  **  
+ **  XXXXXXX   *        *  *  
+ *   Xa..X$X!            !  * 
+ *   .r..X..               ** 
+ **  Xm....X               *  
+ *G  XXXXXXX*           *   **
+***                         * 
+*!        *         *      *  
+** XX..X XXX..XX XXXXXXXX* ** 
+* *X.$.X X.bar.X X      Xt  **
+ * XXX.X X.....X X XX   Xr**  
+  *X...X X.XXXXX X XX   Xa  * 
+ * X...X X...$.X XXXXXXXX   * 
+  *XcasX XXXXXXX      XXX  ** 
+** XX..X             !X$X  *  
+* * G  G       *      :X:   * 
+ * **              *      **  
+**         *          *   ! * 
+  *     * !  *              **
+ *   *      *XXXfoXXXXX  *  * 
+* !        * X......$.X     * 
+**   *      *X.....XX.X  **  *
+  * *   G*   XXXXXXXXXX*   ** 
+ *  **  G*        !      ** **
+ ****   G** ** *  ****** * *  
+    *   G**** **** *  * * * **
+
+Ontaga
+       *              *   *   
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+*X.X...f.....................X
+ X$X...o.....................X
+ X.X...XXX..XXX..XXXX........X
+ X.....XGG  G G  GG X..cas...X
+ X.....X            X........X
+ X.....X           *X........X
+ X.....X     *      X........X
+ X.....X *          X...XXXXXX
+ X..XXXX   !  **    X.....$..X
+*X..XGG **  WWW*    XXXX.....X
+ X..X       WWWWW   GG*X.....X
+ X..X**      WWWW      XXXXXXX
+ X..X        WWWW      GGGGG  
+ G           WWW              
+ *             *              
+*XXXXXXXX            XXX...XXX
+ X:::::&X*          *X.X...X.X
+ X:XXXXXX    !       X.......X
+ X::X:X:X            X.......X
+ X:::X:XX        **  X.......X
+*X::XXXXXX.X         X.......X
+ X::X$X....          ........X
+ X::X.X.in.     *    ........X
+ X::X......   XXXXXXX....ar..X
+ X::XXXXXX:X:.XXXXXXX..a.....X
+ X:::::::::::..........r..XX.X
+ X:::::::::::.............X$.X
+*XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Crooked Pine
+  *    **  *     *** *    *   
+ XXXXXXX **      *GG*XXXXXXXX 
+ X.$...X **       ** X......X 
+ XXXX...   G         .f.....X 
+ X.tav.X             .o.....X 
+ XX...XXG         ** X......X 
+ *         G       * XXXXXX.X 
+ XXXXXX *             ! X.$.X 
+ X....XG            *   X...X 
+ X....a                 XXXXX 
+ X.X..r    *               *  
+ X$X..XG**          *    *  * 
+ XXXXXX                * *** *
+  *        *             *    
+ * *                 XXXXXXXX 
+*     **         * * X......X 
+ * !           *     ..a....X 
+***                  ..r....X 
+*              *     ..m..X.X*
+ *               * * X....X$X 
+ * **                XXXXXXXX 
+*             *      *G! G   *
+G    !            *         * 
+ XXX                  *  * * *
+ X$X           *         **  *
+ :X: t               **    *  
+XXXXXr G        !*     *  *   
+X XXXa                   ** * 
+X XXX*     G* *   *   *  *   *
+XXXXX    G   ***** *  *** *** 
+
+Lyton
+*  * *   *G     G* *    **   *
+  *** * **       ********G**  
+ **    * *       *         ** 
+ * ***   *       **  *      G*
+**     ! *       *       **  *
+*  * !**          ** * **  ** 
+*  ** * G*G     G*G !     **  
+* *      *G     G*     *    * 
+* XXXXXXXX.......XXXXXXXXX  !*
+ *Xf.....................X*** 
+  Xo.XXXXX.......XXXX....XG * 
+  X....X$X.......X$.X....XG **
+* X....X.X.......:X......XG * 
+  X.....ar........ba.....XG  *
+  X.XX...................XG***
+  X.X$.X.....c............    
+ *XXXXXX.....aXXX.........    
+  X.X&.X.....s.$.........XG***
+  X.:X.X.................XG*  
+* Xm.....................XG   
+  Xy.....................XG** 
+  Xs...X....XXXXX....aXX.XG   
+ *X..XXX....X.$.X....rX$.X*** 
+  X.........X........mX..X    
+  XXXXXXXXXXXXXXXXXXXXXXXX *  
+**    ! * ** *         *    **
+ ** *           ** ! **       
+*     *** **   *    *    *  * 
+    *       *     *  **       
+  * **   *   **   *       **  
+
+Seacrest
+    ************ ******* *  * 
+** **    **   ***  *  ***     
+* *         *!           ** * 
+ *       *   **         ****  
+*                *         ** 
+ * *          GGGG  * * * **  
+*        *           *   **   
+**       XX..XXXXXXXXXXXXXXXXX
+ !     ! XX..XXXXXXXXXXXXXXXXX
+         XX....aX$..mX....$X..
+ *      *XX....rX...yX&....XXX
+G        XX....m....sX......XX
+GGGG     XX.................XX
+         XX.................XX
+ XXXXXXXXXX...XX.........cXXXX
+ ............fX..........aX$XX
+ ............oX$.........sX.XX
+ XXXXXXXXXX...:X............XX
+GGGG     XX.................XX
+G        XX.................XX
+         XX...............baXX
+**   *   XX....aX....X.....XXX
+ *       XX....rX$...X$...$X..
+ *       XX..XXXXXXXXXXXXXXXXX
+*     *  XX..XXXXXXXXXXXXXXXXX
+ *       GG  GGGGG      * *  *
+ **              **  *      **
+ *         *           ! *  **
+* !  *** **!  *  *   *  * **  
+ ** *   ** ****** *** ****  * 
+
+Grissold
+     *       *           *    
+ ! XXXXXXXXXXXXXXXXXXXXXXXXX  
+ * XXXXXXXXXXXXXXXXXXXXXXXXX* 
+ XX    **             *     XX
+ XX    XXXXXXXXXXXXXXXXX    XX
+ XX    XXXXXXXXXXXXXXXXX !  XX
+ XX    X..$.X$...X.$...X    XX
+ XXG!  X......ar.......XG   XX
+ XXG   X...............XG   XX
+ XXG   X..XXXXXXXXXXX..XG   XX
+ XXG   X...............XG   XX
+ XXG   X..XXXXXXXXXXX..X  ! XX
+ XXG   X.......fo.......!X    
+     ! ..X...XX..XX....X   X  
+       ....X.X.$..X.....      
+       ..X...:XXXX:....X   X  
+ XXG   X................ X    
+ XXG   X..XXXXXXXXXXX..X  ! XX
+ XXG   X...............XG   XX
+ XXG   X..XXXXXXXXXXX..XG   XX
+ XXG   X...............XG   XX
+ XXG ! X.a..XXXXXX.....XG   XX
+ XX    X.r..XXXX&X......    XX
+ XX    X.m..X::::X......  XXXX
+ XX    X.$..X::::X.$...X tXXXX
+ XX    XXXXXX:X::XXXXXXX rXXXX
+ XX    XXXXXXXX::XXXXXXX aXXXX
+ XX  !               $XX  XXXX
+   X                       X  
+   XXXXXXXXXXXXXXXXXXXXXXXXX  
+
+Folman
+ **     *     * **     *     *
+    **  **       **       *  *
+  ! **     ***   *   **       
+*   **      **   **     **    
+     **     **  XXXX          
+   * **       X $X** *  **    
+*      **   :XX:              
+!        **      *     * ** **
+*               ** **        *
+**     XXX *              *   
+    *X$X  **  **   ! *    ** *
+   :X:    *   **   **   *     
+    **     *              **  
+ **  *                  *   **
+    **  ** * **    *         *
+                  **  **      
+* *   **  *   **      * **  **
+         **                   
+*  !**     **   *     *   **  
+            **    **   *     *
+  * **        *       ** *    
+         **   *   *         **
+  * **        *     !**     **
+          **   **      *     *
+  **  *     *   *  ** **      
+         *  *           **    
+  *      *                    
+    *     *   * **     * **  *
+* **            *  tXXX **    
+ *!    *         * *  *    rX$
+
+Bay View
+*      * **  ** **   ** * * *           
+    *   *  *  **  * * ** * * *   *    * 
+  *        ***    **         ***    *   
+                               **  **   
+   *     *XXXXXXXX    XXXXXXX   **   *  
+      *   X.X....XG*! X..X..X  ** *   * 
+*       * X.X.....    ...X..X   * **    
+ **  *    X$X.....    ...X$.X    * ***  
+          X.X....XG   X..X..X     ** *  
+   XXXXXX X......X  * X..X..X  !    *   
+   X...$X*X......X    X.....X      ***  
+ * X.XXXX X......X*   X.....X       ****
+   X....X XXXcasXX    X.....X **     *  
+* *X....X   *   *     X.tav.X         * 
+ * XXbaXX   *   *     XX...XX          *
+*  *G  G*   *   *  *   G   G  *       * 
+*  *    *   *   *      *   *    *    ** 
+**G *  *    G   G    ***   ***        G*
+                                        
+                                        
+                                        
+ *G  **  **   *    G  G  * *      G   G*
+*   ! *  *         !            *  tXXX 
+**    *  *!    *         * *  *    rX$X 
+  * G *  *         *  * !          a:X: 
+**  *              *  *  * *   *       *
+ * XXXXfoXXXXG*    *  * XX.XXG   *     *
+  *X........X     **  * X.a.XXXXXXXX  * 
+   X........X     XX..X X.r.X *    X   *
+   XXXXX....X    *X.arXXX.m.X XX   X   *
+*  XXX$X..XXX     X.......XXX XX   X   *
+ *   X.X..X     XXX.......$.XXXXXXXX  * 
+     X.X..XX    X$X...XXXXXXX*        **
+  * XX.....X    X.X...X              *  
+ * *X......X  ! X.....X  *       **   **
+*   XXXXXXXX    XXXXXXX       *   *   * 
+*                     !                *
+ * *     **                           * 
+*** **   *     *          *  *   * **  *
+  *   *** *XXXXXXXXXXXXXXXXX* *** ** ** 
+
+Santor
+    *   ** ** **XXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXX   * G*G                        *
+*X$X..XXXX**       XXXXXXXXXXX::XXXXXXXX
+ XX:.....X         X:::::::::X::X.a..X.X
+ X...in..X * **    X:::::::X:X::..r..X$X
+ X.......X        *X::XXX:::::::..m..:XX
+ *   X...X*    *   X::X:XXX::::X.......X
+*G   X....         :::X::::::::X..XXXXXX
+*    X....         :::XXXXX::XXX..X    X
+ *   X....         :::::::::::X...X    X
+*G   X...X***   ** X::::::::::X...X    X
+ *   X...XG  **    X:XXXX%%X::X...X    X
+ *   X...X **  **  X:X%%%%%X::X...X ** X
+**   X...X   **  ! X:XX!%%%X::X...X    X
+ *   X...X*       *X:XXX%%%X::X...X *  X
+*G   G   G         X::XXXXXX::X...XG   X
+*              *   X&:::::::::X...X*   X
+*              **  XXXXXXXXXXXX...XG   X
+**                 !     G             X
+*G                                    *X
+           XXXXXXX   XXXXXXXXXXXX  **  X
+*X...XG    XXXXXXX   XXXXXXXXXXXX      X
+ Xc..X               G      *G  G      X
+ Xa..X        !               *        X
+*Xs..XG     XXXXXXXt                *  X
+*XX...      X XXXXXr                   X
+ X$...      X XXXXXaG     *  ***      *X
+ XXXXX!     XXXXXXXXXX *    *         GX
+ XG                X$X               **X
+ X                 :X:! *             GX
+ XXXXXXXXXX...XX                *    * X
+ X.............X               XXXXfoXX 
+*X.............X  XXX  XXXXXX  X......XX
+ XbaXXXXXXXXXXXX  XXX  XXXXXX  X.......X
+ X.....XG*G*G*G*        **     .f..X...X
+ X......                       .o.X....X
+ X......                       X.....XXX
+*XXXXX.X*          !         G*XXX...X$X
+ X.$...XG  G    ** *** GG**** * *X...X.X
+ XXXXXXX*  *****  **  ***   **   XXXXXXX
+
+Long View
+   **   ***  * ** *** *** **    ***  *  
+   *G   G* ****G * G *   ** *  *    *   
+ **GG   GG * *G  * *  ** !  XXXXXXXXXXX 
+*G**                  * *  *X.........X 
+ *           *    **XXXXXX  X..XXXX...X 
+  *              $ tX    X  X..XX$....X 
+ *              XXXrX XX X *X..XXba...X 
+  **    *   *      aX XX X  X..XXX....X 
+* **                XXXXXX* X.........X*
+ **     *   *           **  X.........X 
+ G*    *     *             *X.........X 
+ *   XXXX...XXXXXXXXXG    G X.........X 
+**   X...............       ..........X 
+ *   X...............       ..........X 
+***  X..XXXX..XX....XG      X.........X 
+ G*  X..X%$%%%%X....X       X...X...X.X 
+ *   X..XXXX%%%X....X *  ** X.........X 
+**   X..XXX%%XXX....X      *X..X.....XX*
+ *!  X....X%%X......X       X.........X 
+**   X...XX%%XX.....XXX:::XXX...X...X.X 
+ *   X...X.fo.X.......:::::.X.........X 
+ *  *X...XX..XX.............XXXX.....XX 
+*    X............X....cas....X.......X 
+ *   X.........aXXX...:::::.....X...X.XX
+  *  X.........rX$X..XX:::XX..X.......XG
+**   X.........m..X..X:::::X..XXX...XXX 
+  *  XXXX...XXXXXXX..X:XXX:X..XGG   GG  
+ *    G*G   GG   *X..X:X$X:X..X         
+ * *        ** *  X..X:::::X..X**   *   
+**            *   X..XXXXXXX..X         
+ **!             *X...........X         
+* *     * *       X...........X*       *
+  XX...XXXG       X...........X       * 
+  X..in..X  *     XXXX.....XXXX      *  
+ *X......X         *GG     GG        ** 
+* X......X*                            *
+ *X..XXX.X    *                       * 
+  X...$X.X    !   *         *  !    *  *
+  XXXXXXXX  * *     *  *      *   ** ** 
+ * *   *  ** * *XXXXXXXXXXXXXXXXXX  **  
+
+Octapoint
+ ** *  *  ***     *     *      *     *  
+   *    **      *   *      *   XXXXXXXXX
+ *XXXXXXXXXX  XXXXXXXXXXXXXXXXXX..X....X
+* X..X.....X *GG *   * **  *   X.$X....X
+  X..X.$X..X*                G*XXX:....X
+  X..:XX:..X    **    *      G X..ar...X
+ *X........X            *  **G X...X...X
+  X.X.XX.X.X *    *            ........X
+* X........X   *               ...X.X..X
+ *X....fo..X   **         *! G X.......X
+  XXXXX..XXX !          **   G X.X.X.X.X
+ *  GGG **G*    *    !     **G X.......X
+**                  *      *   X..X.X..X
+  **                    *     *X.......X
+ *** * !*XXXX...XXXXX          X...X...X
+* *    * X..........X*      ** X..m....X
+  * *    X.X.XXX.X..X   * ! * *X..y....X
+ **      X..........X          X..s....X
+ *      *X..........X*     **  X....XX.X
+ * *  ** X..........X     *    X....X&.X
+  * !    X..........X          X....X..X
+ **    * X..........XXX       *XX  XXXXX
+**       X............X*       **  *GGG*
+*  *   * X............X               *G
+**      *X.....X.X...XX                 
+*     *  X......           *    *       
+ **      XXXXX.X XX..XXX..XXX*     *  **
+  **         *   X..........X   G*  **G*
+  *    *         X..a....a..X*     * *  
+*XXXXXXXXX  !   *X..rXXX.r..X !  XXXXXXX
+ X.......X *     X..mX$..m..X      **  X
+ X....X..X       X...:XX....X**        X
+ X.......XG  *  *X..........X*    ! *  X
+*XXXX.X..XG      XXXX...XXXXX          X
+ X..X...c.       G**G   G*G        **! X
+ X.$..X.a.                     *      *X
+ X..X...s.      *          !     ** *  X
+ XXX:.X..XG  *        *       **  ** * X
+*X.......X  *     *    *  ** **  ** *  X
+ XXXXXXXXXXXXXG  XXXXXXXX* *** *** *XXXX
+
+Cramford
+      *       *              *    *     
+*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ X                                     X
+ X XXXX..XXXXXXXXXX     XXXXXXXXXX..XX X
+ X X.$X...X  *  **XXXXXXX  *     X..X  X
+*X X.X:...X         *   **     XXX..XXXX
+ X X......X  XXXXXXXXXX !     *X.......X
+ X X......X  X        X      * X..X.X..X
+ X X..fo..X  X     ** X t**    X..X.X..X
+ X XXX..XXX* X XXXX   X r      X.X...X.X
+ X XGG  GG   X XXXX   X a G    X.......X
+ X X *      !X*XXXX   X XXXG** X.......X
+ X XG       *X XXXX   X X$X   *X.......X
+*X X     *   XXXXXXXXXX :X:G   XXX...XXX
+ XXX                     *    *  G    *X
+      XXXXXX    *            !         X
+      XXXXXX                       **  X
+*XG       G               *     *    * X
+ XG             G  *           XXXXXXXXX
+ XG     !             *!     G*X.......X
+ XG **            *         *  X.....XXX
+ X                G            .a....X$X
+ X                             .r....X.X
+ X                   *  * **   X.......X
+*X                   *  * *  G XXXXXXXXX
+ X                *  X::X*   ! X....X$.X
+ X  * **           !*X::XXXX   X....X..X
+ X                   X:::::X   X....:X.X
+*X *      **      *  X:::::X   ........X
+ X   *   *!          X:::::XG  ....bar.X
+ X             *     X:::::XX  XX..XXXXX
+ X  *       *     *  X::::::XG X.ba....X
+ XXXXXXXG           XXXXXX::X *X.......X
+ X.X...XG      *    X&::XX::X  X.......X
+ X$X..aXG          *X:XX:X::X* X.......X
+ X.X..r.          * X:XXXX::X  X.......X
+ X....m.            X:X::::XX  X...XXX.X
+*X.....XG          *X::::::X  *X...X$..X
+ X.....X     *    * X::::::X*  X...X...X
+ XXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXXXX
+
+Slippery Rock
+    *       *  *    *      *   *  *  *  
+ ** XXXXXXXXXXXXX   XXXXXXXXXXXG*XXXXXX 
+*  *     !**GG* X   X*  G*  !    X....X 
+  *                              .m...X 
+**                               .y...X 
+*          G  G X   XG    **G    Xs...X 
+*       *  *   *X   X           *X..XXX 
+ * *            X   X *    *   * X...&X 
+ *   *       * *X   X       G    XXXXXX 
+ * *    !       X   X   *       *  * X  
+ **        *    X   X   XXXXX..XXXXXXX  
+ *  *          *       *X.........X$.X**
+*XXXXXXX   **           X.X.X.X.X.:X.X  
+ X..X..X*            *  X............X  
+*X..X$.X   *  **      * X..X.X.X.X.X.X *
+ X..:X.X              !*X............X  
+ X.....XG  G* !*    **  XXXXXXXX.X.X.X  
+ X..XXXX*                      X.ba..X  
+ X.aX **G                     *X.....X *
+ X.rX*     G*    **          G X.XXX.X  
+ X.mXXXXX                    G*X.X$..X* 
+*X.......                      XXXXXXX  
+ X..X.X..          **   G  *   *     X *
+*X.X.X..X* ** *** ! G  ***XX...XXX   X  
+ X......X *  *   G  *   * X.cas..X** X**
+ X..ar..XXXXXXX ** XXfoXXXX......X   X  
+ X............X*  *X......X......X  *X  
+ X............X  * X......X......X*  X  
+ X............X    X......X......X   X* 
+ X.XXXXXXXXXXXX   *X......X...XXXX * X  
+ X...$........X    X..XXXXX...X$.X   X**
+*X............X   *X...$..X......X  *X  
+ XXXXXXXXXXXXXX    XXXXXXXXXXXXXXXG  X* 
+***   *    ** *     *   * **    *  * X *
+ *             !                 **  X  
+**  *  *      **   *    **          *X* 
+*        ! **          *   *  *      X  
+ ***    *     *   **       **   ** * X  
+  ** *   ** *         *   **   *  *  X  
+** ** ** * * ***   ***XXXXXXXXXXXXXXXX**
+
+Lookout Point
+   *             *G   G*  *             
+     XXXXXXXXXXXX *     *  * XXXXXXXXXXX
+ **  X...X$X.X.$X**    ****  X..$..X   X
+ **  X...X.X.:XXX*        ** XXXXX.XX *X
+ ****X.....X....X           *X......X  X
+*    X...XXX....X            X......X  X
+ **  X.a........X !        ! XXXXarXX! X
+*    X.r.Xba....X               G  G*  X
+ *   X.m.X..XXXXX      XXXX            X
+*  ! XX     G  G*      X::XXX G        X
+*   * G * *            X:::::          X
+**      * *            ::::::      **  X
+*  **                  :::XXXXXX       X
+ *    * !              X::X::::X      *X
+  *         XXXXXX     X:::::::X       X
+ *          X.$..X     X:::::::X       X
+*  *        XXXX.X     X:XXX::XX **    X
+ *      *XXXX....X     X:X:::::X       X
+ *   *   X........     X:XXXX::X    ** X
+*  **    X........     X:::X:::X       X
+*        X.......X     X&XXX:::X       X
+ *  **   XXXXX..XX!    XXXXX::XX !     X
+* G          G  G     G    G  G        G
+                                        
+                                        
+                                        
+  G                        G           G
+ X   XXXXXXX     XX...XXXXX    **    ***
+ X   X..X..X    *X......X.X   !      *  
+*X** X.$X..X     X......X$X  *    ** * *
+ X*  X.X:..X     Xtav...X.X           * 
+ X !*X.....X     XX..X..X.X *   *  *   *
+ X   X.....XG      ..X....X          ** 
+ X   X.....f       ..X....X      **   * 
+ X   X.....o     XX..XXXXXX     *   ****
+*XXXXX.....X     Xcas..X$.X*      ! **  
+ X   X.....X    *X.....:XXX      * *  * 
+ X   X.....XG    XX.......X       **    
+ X** XXXXXXX    ! X.......X **** * **   
+ X      *   G   G XXXXXXXXX*  * *  * ** 
+
+Big Oak
+      *     *  *     **    *   *        
+ XXXXXXXXXXX *XXXX   * **XXXXXXXXXXXXXXX
+ X.$...a.X$X! XGGX   **  X.....X...$XG X
+ XXXX..r.X.X         !** X...X$X.XXXX  X
+*X....Xm.X.XG  *         X...X.X....XG X
+ XXcasXX...X  *      **  X.....XXinXXG X
+ XG    XXXXX        ** ! XXbaXXX       X
+ X     G   !             G    G   * !  X
+ X                         !           X
+*X  !                  *          **   X
+ XG               **   WW WWW==WWWWWWWW*
+ XX    !       !      !WWWWWW==WWWWWWWW 
+*                  WWWWWWWWWW==WWWWWWWWW
+***        WWWW *WWWWWWWWWWWW==WWWWWWWWW
+*          WWWWWWWWWWWWW WWWW  G WWWWWWW
+**         WWWWWWWWWWW  **       WWW  G*
+ **        WWWWWWWWWWW           WWW   *
+* * **       WWWWWWWWW        *       **
+*  !        WWWWWWWWW             !    *
+**     WWW==WWWWWWWW        ***        *
+*  *   WWW==WWWWWWWW** ! *    *      ** 
+**    WWWW==WWWWW                  **** 
+** WWWWWWW  WWWWW    **     **    **  **
+ **WWWWWW==WWWWWW                *  *** 
+ WWWWWWWW==WWWW **                 *** *
+ WWWWWWWW  WW         ! *       ! ** ***
+WWWWWWWW      ***        *   ** ** *****
+WWW WWWW       *            !          *
+*  !   G                 *    XXXXXXXXX 
+ **                    XXXXX  X.....X.XX
+ *       *             :::::G X.....X$.X
+  XXXXXX  *          ! :::::  .f.X....XX
+  X XXXXXXX            X:::X  .o.XXXXXX 
+* X XXXXt X            X::XXG X..X.X..X 
+ *X XXXXr$X  !         X::X   X....X..X 
+  X    Xa X*          XX::XXXXXXXXXXXXX 
+**X    XXX:**         X:::::::::::X    *
+  XXXXXX *            X:::::X:XXX:X  WW 
+          *  **       X:::::X::::&X  WW 
+ **        **  G   G* XXXXXXXXXXXXX   * 
+
+Demph
+      *     **    *      *         * *  
+*XXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXX** 
+ X** *    * G G   G G **            G*  
+ XG                       *     *   **  
+ X     !           *   XXXXXXXXXXXXX  * 
+ X* *    * *          *X.$......X..X !**
+ XXXXXXXXXXXXXXG!      XXXXX....X..X   *
+*X.......X....X**      X.ba.....X..X  * 
+ X.......X.$..X     *  X........:XXX**  
+ XX......:XXX.X        X...........X  * 
+* X........in.X *    ! X...........X   *
+* X:::X.......X       *X...........X ** 
+* X:::XXXXX...X **     X...........X  * 
+* X:::::::X...X    *   XXXXXX...XXXX  * 
+* X:::::::X...X          G**G   GG G *  
+* X::XXX::X...XG *               *    * 
+* X::::X::X...X   **      *            *
+* X::::X:::...X              **     *** 
+* X:XXXX:::...X  *                *  *  
+* X:XXXX:::...X     **         *     *  
+* X:XXXX::X...X         ***        ! X  
+* X:XXXX::X...X                  **  X**
+* X&:::X::X...XG  *              *   X  
+* XXXXXX::X...X     !     *          X  
+**G   *X::X...X*                **  *X  
+*      X::X...X      **      *       X  
+ *     X::X...X                   *  X  
+* *    X::X...X**         *          X  
+ * *   X::X...X       ! **           X**
+*  !   G  G   G  *               !   X  
+**                *        *     **  X  
+  *                         **      *X  
+*XXXXXXX                             X  
+*X.Xa..X       *       **            X  
+ X$Xr..XXXG          *            *  * *
+ X.Xm.....     !       *XX...XXX     G* 
+ X.....cas           *  X...fo.X**    * 
+*X.....XXXXG       *   *X...XXXX* *G**  
+ X......$.XG *   ** *** X....$.X  ** * *
+ XXXXXXXXXX****** *** * XXXXXXXX *  *   
+
+Orchard Lake
+  *  G    *     *          *  *      * *
+ *  *     XXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+ **  G   *X.....X..$.......X    *     X 
+***      *X...X.:XXXXXXX...X **       X 
+*         X.X............X.X !       *X 
+*** *G    X.....X....X.....X *        X*
+ **       X.X.XXXX..XXXX.X.X** *XXXXXXX 
+ *  *    *X...fo......fo...X    X....$X 
+*XXXXX    XXXX..XXXXXX...XXX   *X...X.X*
+ X...X     G!G  G GG G   G*  ** X...:XX 
+ XcasX     *         *    ! * G X.ba..X 
+ X....   *  **    * !           ......X 
+*X....          *   *           ...X..X 
+ X....            **     ***  G X.....X 
+ X....   *! **              *  *X.X.X.X 
+ X...X                     !**  X.....X 
+ X...X*       *      *    *   ! XX.X.XX*
+ X...X                    **   *X.....X*
+*XcasX            **            X.X.X.X 
+ X...X       !  *           **  X.....X 
+ X...X*       *    *      *     XX.X.XX 
+ X...X**       *             ** X.....X 
+ X...XG           *  *      *   X.X.X.X 
+*X...XG *       *        **   !*X.....X 
+*XcasXG !        !           ** XX.X.XX 
+ X....         ** *       *     X.....X 
+ X....         G  ** G   G      X.X.X.X 
+ X....                          ......X*
+ X...XG  * *                    ...X..X 
+ X...X! XXXX...XXXXXXX...XXG*   X.....X 
+ XXX.XG*X........X........X   ! X.ar..X 
+*X.$.X  X........X...X.X..X**   X.XXX.X 
+ XXXXX  X........X........X    *X.X$..X 
+  *  *  XXXX...XXX..X.X.X.X     XXXXXXX*
+**  *  *X...m....X....a...X     * **  X 
+     *  X...y........XrX..X   *    *  X 
+ * ** **X...s.........m...X *         X 
+   *    X....XXX.X.XXXX...X  ! ***  * X*
+ **  ***X....X&..X..$.X...X  *   **   X 
+ *  *   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+
+Brantown
+ * ****      *  * *   G *        *      
+  **   *  *** *XXXG   G XXXXXXXXXXXXXXX 
+**  *  *** *   XXXG   G*XXXXXXXXXXXXXXX 
+*   !         *XXXG     XXXXXXXXXXXXXXX 
+* *      ***   XXX     X..X...XXX...X$.X
+*  *   *      *   *   *X.X:...!!!...:X.X
+* XXXXXXXXX       !    X.....X*  X.....X
+ *X.......X *          X.....X   X.fo..X
+  X.XX....X           *X.....X  *X.....X
+  X..X....X     *      X..XXXXG  XXXX..X
+* X.$Xbar.XG *                    GGG  X
+ *X..X....XG  **          *  G      *  X
+  XXXXXXX..           !         *      X
+  X........                        *  *X
+* X.......XG           *               X
+ *X.XX....XG**  *                     *G
+  X.$X....X                   G** G    *
+ *X..X....X  *        *    *          **
+* XXXXXXXXX                           * 
+ *   *   **   *           **     *    * 
+* *              *      *       !    ** 
+*             **           G  G *      *
+*         *    !  G       *      *     *
+***  ***!                 XX..XXXXX..XX 
+*  *   *                * X...........X 
+*  XXXXXX  G              X....X.X....X 
+  *X....X     **         *X...........X 
+ * X....X   *             XXX.X.X.X.XXX*
+   X...c.                 X...........X 
+ * XXX.a.               * X...........X 
+  *X$X.sXGG             ! XXXXX...XXXXX 
+   X.X..X *               X...........X 
+* *X....X               * X...........X 
+** XXXXXX              *  X..XXXX.....X*
+*         *         *     Xba...X.....X 
+ *  *      *             *X.....X.ar..X 
+ *                        X.....X.....X 
+*      ****  *    * **  * X..XX.X.XX..X*
+* **  *  * *        *     X..X$.X.$X..X 
+ ** **  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+
+Burnside
+**********G    GG                       
+ X        *       XXXXXXXXXXXXXXXXXXXXXX
+ X XXXXXXX*    *XXX.X......X ***   *!  X
+ X X.....X*    *X...X$.X...X           X
+ X X.a.XXX*    *X...:XX:...XG   XXXXXXXX
+ X X.r.X$X*    *X..........X*   X.$X...X
+ X X.m...X*    *X....fo....X!   X.X:...X
+ X X...XXX*    *X..........XG   .......X
+ X X.....X*    *X..........XG   ....ar.X
+ X X...X$X*     X..XXXXXX..X    XXXXX..X
+ X X...:XX*     G              **   X..X
+ X X.bar.X*                         X..X
+ X X.....X*          XXXXXXXXXXXXX  X..X
+ X XX..XXX*     X::X*XXXXXXXXXXXXX *X..X
+ X GG  GG**     X::X XXXXXXXXXXXXX* X..X
+ X **     G     X::X XXXXXXXXXXXXX  X..X
+ X!             X::X XX::::::XXXXX  X..X
+ X**            X::X XX::::::XXXXX  X..X
+ X       !G     X::X XX::XXX:XXXXX  X..X
+ XXXXXXX        X::X XX::XX:&XXXXX XX..X
+ XWWW  X**      X::X XX::XXXXXXXXX X...X
+ XWWW *X        X::X XX::XXXXXXXXX X...X
+ XWWWW X !G     X::X XX::XXXXXXXXX X...X
+ XWWWW*X        X::X XX::XXXXXXXXX X...X
+ X WW  X***     X::X XX::XXXXXXXXX*X...X
+ X     X        X::X *X::X  **     X...X
+ XXXXXXX *      X::X  X::X         X...X
+ XG*  GG        X::X  X::X XXXXXXXXX...X
+ X**!           X::X  X::X Xc..........X
+ X     !        X::X  X::X Xa......XXX.X
+ X XXXX   G     X::X *X::X*Xs......X$..X
+ X X  X         X::X* X::X XX...XXXXXXXX
+ X X $X **      X::X  X::X         **  X
+ X :XX:   !     X::XXXX::XXXX:::XX   ! X
+ XGG G t        X::::::::::::::::XG    X
+XXXXXX!r  *     X::::::::::::::::XG    X
+X    XGa**      XXXXXXXXXXXXX:::XX     X
+X XX XG                            **! X
+X XX X                               * X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+    CASTLES
+
+      Ledger for Redstone
+      G = guard
+      $ = chest
+      D = door
+      % = +20 charisma(south) or 1000 gold for a map(north)
+      ^ = orb(you can't take it until you're a scout)
+      ! = person
+      O = counter
+      : = special tiles(speak to Mesron)
+      & = other tiles in Hall of Visions
+
+Redstone
+                                                            
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+X   X GX     X  X  G    X      G      X      $$         G X 
+X X X  X  YY X  X     YYX   $$  $$ $$ X  $$               X 
+X X X        X  X       X             X      XXX GXXX     X 
+X X          X  X       X  $$    $$   X      X      X $$  X 
+X X X   GXXXXX  X       X             X      X   $$ X     X 
+X X          X  X $$    X $$  $$  $$  X $$  GX !    X     X 
+X X    $$  YYX  X       X             X      X      X     X 
+X X          X  XXXXX XXX GXXXX  XXXX X XXX     $$ GX    GX 
+X X         GX     X                  X      X      X     X 
+X X G   $$   XXXXX X            X     X  X   X      XXX XXX 
+X            X     X            X X      X   X $$   X     X 
+XXXXXXXXXXXX X  $$ X              X X XXXX   X      X     X 
+X          X X     X       X   X  X X        XXX XXXX     X 
+X XXXXXXXX X X     X       X   X  X X   XXXX        X G   X 
+X X,,,,,,X   D     X       X     GX XXX X       X X      GX 
+X X,OOO,,X   D     X       X  X   X                       X 
+X X,O%O,,X  GX     X      GX  X   X XXXXXXX XXXXXX GX     X 
+X X,OOO,,X   X $$ GX       X      X X               X   $$X 
+X X,,,,,,.   X     X       X   X    X               X     X 
+X X,,,,,,X   X     X       XXX X    X              XXXXXXXX 
+X X,,,,,,X  XXXDDDXX       X   X    X                       
+X X,,,,,,X  X              X   X    X                       
+X X,.....X  X    XXXXXXXXX X   X   GX                       
+X XXXXXXXX GX    X G   G X X        X              XXXXXXXX 
+X           X   GX  YY   X X  X     X               X     X 
+XXXXXXXDDDXXX    X       X XX X     X               X  $$ X 
+X ::::::::: X $$ XXXXXXX X  X X    XXXXXXXXXXX GXXXXX    GX 
+X :^::::::: X            X  X X    X&&&&&&&&X   X   X     X 
+X :^::::::: X  XXXXXXXX  X XX X    X&&&&&&&&X   X  GX     X 
+XXXXXXXXXXXXX            X X  X    X&&::::&&X   X         X 
+X;;O;;;;;X       $$    $$X X  X    X&&::::&&X   X   X     X 
+X;%O;;;;;X     X         X X  X    X&&::::&&X   X   XXX XXX 
+X;;O;;;;;X     X         X X GX    X&&::::&&X   X   X     X 
+XXXXXDDDXXXXX  XXXXXXXXXXX X  X    X&&&&&&&&X   X   X     X 
+X       G   X              X  XXXX X&&&&&&&&X   X   X     X 
+X $$        X    X      $$ X     X X&&&&&&&&X   X   X   X X 
+X           X    X         XXXXX X XXXDDDXXXX   XXXXX   X X 
+X          GX    X $$      X  GX   G       G        G   X X 
+X    $$     X    X       $$X   XX                       X X 
+X        $$ X  X X  !      X    X  XXXXXXXXX  GXXXXXXX  X X 
+X          GX              X                   XXXXXXX  X X 
+X   $$         X GXXXXXXX  X $$ X     G$$  $$  G        X X 
+X      XXX GX     X     X  X    X                       X X 
+X      XXX  X  X  X    GX  XXXXXX XXXXXXX XXXXX    G  XXX X 
+X      XXX       GX     X  X G    X           X           X 
+X  $$  XXX GX  X     $$    X   $$ X $$    $$  X   $$      X 
+X           X     X     X  X      X           X           X 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+
+      Legend for Kelfor
+      G = guard
+      $ = chest
+      D = door
+      % = +20 charisma(south) or 1000 gold for a map(north)
+      ^ = orb(you can't take it until you're a scout)
+      ! = person
+      O = counter
+      : = special tiles(speak to king)
+      . = tiles by eternal flame or, on outside, grass
+      & = other tiles in Hall of Visions
+     \/
+     /\ = king
+      , = tiles by guy who sells intelligence
+
+Kelfor
+............................................................
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+XX                                                       XX.
+XX                                                       XX.
+XX  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   XX.
+XX  X                                     XXX       GXX  XX.
+XX  X      XXXXXXXXXXXXXXXXXXDDDXXXXXXXXXXXXX    X    X  XX.
+XX  X X  X X:X::\/::X::XXXXX.....X........XXX    X $$ X  XX.
+XX  X      X::X:/\:X:::GG XX.XXXXX.XXXXXX.XXX $$ X   GX  XX.
+XX  X  XX  X:::OOOO::::GG XX.X.....X....X.XXX    X    X  XX.
+XX  X   G  X:::::::::::GG XX.X.....X....X.XXX    X  $$X  XX.
+XX  X      X::X::::X:::   XX.X.....X.^..X.XXX  $$X    X  XX.
+XX  XXX  XXX:::::::::::XXXXX.......X....X.XXX    X  XXX  XX.
+XX  X      XXXXX:::XXXXXXXXXXXXXXXXXXXX.X.XXX    X  X X  XX.
+XX  XXXXXX   X:::::::X  $$   GXXXX......X.XXX    X  X X  XX.
+XX       XX  X:XDDDX:XX       XXXX.XXXXXX.XXX    X  X X  XX.
+XX  X        XXX   XXX  X   X XXXX........XXX       X X  XX.
+XX  X         GX   X  X   X   XXXXXXXXXXXXXXXXXXX XXX X  XX.
+XX  XXXXXXX    XDDDX    X   X           X       G G   X  XX.
+XX  X     G    X   G  X   X   X   XX  X XX            X  XX.
+XX  X  YY      X    X   X   X   X GX XX  X      XXXX  X  XX.
+XX  X          X XX         X                         X  XX.
+XX  XXXXXXX    X XXXXX GXX  XXXXXXXX  XXXXXXXXXXXXXX  X  XX.
+XX  X $$  G  $$X XXXXX  XX  X G $$ X                  X  XX.
+XX  X          X        XX  D      X  XXXXXXXXXXXXXX  X  XX.
+XX  X              XX   XX  D    $$X            $$    X  XX.
+XX GXXXXXXXXXXXXX  XX   XX GX $$  GX XXXXXXXX        GX  XX.
+XX   $$            XX   XX  X      X X,,,,,,X    !    X  XX.
+XX                 XX   XX  XXXXXXXX X,OOOO,X         X  XX.
+XX  XXXXXXXX     $$XX   XX  X   G  X X,O,,O,X    $$   X  XX.
+XX  X      G       XX   XX  X      X X,O,,O,X  !   !  X  XX.
+XX  X   $$         XX   XX  D     GX X,O,$O,X         X  XX.
+XX  X             GXX   XX  D      X X,O,,O,X         X  XX.
+XX  X                  GXX GX      X X,OOOO,X         X  XX.
+XX  X    GXXXXXXXXXXX       X      X X,,,,,,X         X  XX.
+XX  X           X $$        XXX  XXX X,,,,,,X         X  XX.
+XX  X   X     $$X       XX  X      XXXXXXX,,X        GX  XX.
+XX  X   X       X  $$   XX GX   G $$G YY X,,X         X  XX.
+XX  X   X $$    X     X XX  D            X,,XX        X  XX.
+XX  X   X       X     X XX  D  $$  $$  $$X,,,X        X  XX.
+XX  X  GXXXXX   G   $$X XX GX            X,,,X        X  XX.
+XX  X    $$           X XX  XXXXXXXXXXXXXXDDDX    $$  X  XX.
+XX  X           $$      XX               G   G       XX  XX.
+XX  XX                  XX                          XX   XX.
+XX  GXXXXXXXXXXXXXXXXXXXXX XXX XXXXXXXXXXXXXXXXXXXXXX    XX.
+XX                       G  X  G                        GXX.
+XX                                                       XX.
+XXXXXXXXXXXXXXXXXXXXXXXXXXX...XXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+XXXXXXXXXXXXXXXXXXXXXXXXXXX...XXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+
+    DUNGEONS
+
+There's shorthand for walkthroughs below.  3W = 3 west, etc.  Although 
+there are interesting sidetracks, I haven't listed them here.  This is 
+just the shortest way in and out.
+
+Although traps are listed on the map, they're not in the walkthrough.  
+Remember to (X)amine every few squares and especially when you turn or 
+are in a door.
+
+      Ledger
+      X = wall
+      ^ = a way up
+      v = a way down(NOTE--this may be a trap.  Always (X)amine to see 
+if this is the case, or you may take damage.)
+      T = trap(acid or spikes)
+      $ = chest(gold)
+      C = coffin(food or statistics)
+      H = fragrant herbs(hit points)
+
+Dungeon Level 1
+XXXXXXXXXXXXXXXX
+X^XX    XXXXX^vX
+X    XX X    XXX
+XXXXXXX XXvX X X
+XXXXXXXT$XXX $ X
+XXXXX   XXXX XXX
+XXXXX XXXXXX  XX
+XXX     XXXXX XX
+X   XXX$X      X
+X X  $  X XXXX$X
+X  XXXXXX XXXX X
+XX     H    XX X
+XXXXXX XXXX XXXX
+XXXXXX  $$  XXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+
+S 3E N 3E 4S 2W 2S 2W S 2W 2S E S 7E 3N 4E 2N W 4N 2E S
+
+Dungeon Level 2
+XXXXXXXXXXXXXXXX
+X   XXXX  $$Xv^X
+X X      XX XXXX
+X XXXX X  ^  X X
+X $XXX XXXXXXX X
+X XXT  X  v X  X
+X XX XXX XXXXX X
+X  $ XXX  XX   X
+X XXXXXXX XX XXX
+X      $  XXHXXX
+XXXXXXXXXXXXDXXX
+XXX T    X     X
+XXX$XX$XXXHXXX X
+XXX XX  XXXXXX X
+XXX  vX v X v$ X
+XXXXXXXXXXXXXXXX
+
+2W N 5W N 2W 8S 8E 2N W 2N 2E
+
+Dungeon Level 3
+XXXXXXXXXXXXXXXX
+X     XXXXXXX^vX
+XX$XX D XXXXXXXX
+XXv X$XXX$vTXHXX
+XXX X XTXXXXX $X
+XX      $ ^ T XX
+XXXXXXXXXXXXX XX
+X X         X  X
+X$X XDXDXDX XX X
+X   XT  HTX $  X
+XXXXXDXDXDXXXXXX
+X  $  C       vX
+X XXXXXXXXXXXX X
+X XXX     T  X X
+X  $ ^XX^XXX^  X
+XXXXXXXXXXXXXXXX
+The coffin gives 400 hit points here.
+
+Search to the east to find the Scroll of Scalna.  Then...
+3E 2S E 2S 3W 2N 4W 4S 7E
+
+Dungeon Level 4
+XXXXXXXXXXXXXXXX
+XX XX   X   Xv^X
+XX $  XXX X XXXX
+XT^XX X X ^ T XX
+X$XXX  TX X X$XX
+X  XXXXXX HXXTXX
+X X   XXXXX T XX
+X X XCXXX   X XX
+X  $X X $ X   XX
+XXX   X X $ XXXX
+XXXXXXX   XXXXXX
+X  T$ XX X   $^X
+X XXX  XDXTXXX X
+X    X X X$XXX X
+XXHXvX D DT    X
+XXXXXXXXXXXXXXXX
+The coffin here gives +3 strength.  I think it regenerates.
+There is a crystal goblet in a chest on level 4.
+
+3S 8W 2N W N 4W 2S 3E S
+
+Dungeon Level 5
+XXXXXXXXXXXXXXXX
+XT  XXXX   $X^vX
+X X D T  XX XXXX
+X X XX X   $X  X
+X X XXXXXXXXXX X
+X X D $    $  TX
+X$X XXXXXXHXXXXX
+X$X X    XX   XX
+X$X D XX   $X vX
+X X XT  HXX T XX
+X X DXXXXXXXXXXX
+X XX  TXXXX H XX
+XT XXX $  X$X XX
+XX $XX XX   X $X
+XXX ^X  T XX  XX
+XXXXXXXXXXXXXXXX
+
+W N W N W 11N 2E 7S 2E S 3E N 3E S 2E N E
+
+Dungeon Level 6
+XXXXXXXXXXXXXXXX
+X     $     Xv^X
+XXXDX XXXXX  XXX
+X   X XXXX X C X
+X XT$TXXXX$XXX X
+X XXXX   X X X X
+X    $ X    TX X
+X XX XXXXDX XX X
+XTXX $T   X XX^X
+X XXXXXXXvX XXXX
+X D  $   XXT $TX
+X XXXXXX    XX X
+X      $ XXXXXHX
+X XXXXXXXXXXXX X
+X   H      $   X
+XXXXXXXXXXXXXXXX
+There's an Agate Key in a chest here.
+The coffin here gives +2 agility.
+
+5N 2W N W N 8W 2S 2W 3S 3E 2S 5E S
+
+Dungeon Level 7
+XXXXXXXXXXXXXXXX
+X         $ X^vX
+X XXXXXXDXXXXXXX
+X X   H        X
+X$X XXXXXXXXXX X
+X X X $      X X
+XvX X XX XXX X X
+X X X X    X$XHX
+XvX$X X XX$X X X
+X X X X X^ X X X
+XvX X X   XX X X
+X X X XXXXXX X X
+X$XHX $      X X
+X X XXXX XXXXXCX
+X X  $    $    X
+XXXXXXXXXXXXXXXX
+There's a corpse in the coffin here.
+
+E 2N 2W 2N 3W 7S 3E 2S 5W 11N 5E 2N 7W and now 9S and rummage around to 
+get the Onyx Key, then back up and go 2N.
+
+Dungeon Level 8
+XXXXXXXXXXXXXXXX
+XXXXXX   XXX T^X
+X   $  X XXX XXX
+X XXXXXXCXXXDX X
+X   X    X $   X
+XXX XXXXTX XXX X
+X^   $   X X$X X
+XXXXXXXXXXTX$X X
+X^  T H TX XTXTX
+XXXXXXXX X X X X
+X^X  $ X X  TX X
+X X XX X D X   X
+X $ XX$X XHXXX X
+XXX XX XCX     X
+XX  D  X D XXXXX
+XXXXXXXXXXXXXXXX
+Coffin gives agility -1.
+There's an Onyx Key in a chest down here.
+
+7E 3S 2E 7N 2E 3N 2E and then climb up, turn around, examine, go 
+forward, etc. until you exit the dungeon.
+
+Now, for the dungeon of despair, which has the same ledger.  Note that 
+the way down from level 8 is to the conclave.
+
+Dungeon of Despair Level 1
+XXXXXXXXXXXXXXXX
+X^XXX          X
+X X$  XXX XXXX$X
+X XXX XHX XXXX X
+X     X X $ XX X
+XXXXXXXDXXX XX X
+X$      XXX    X
+X XXXXX XXXX XXX
+X   $        XCX
+X XXXXXXXXXXXX X
+X XX$X$X X X X X
+X XXTX XHXTX$X X
+X XX XTX XvX X X
+X XXDXDXDXDXDXDX
+X              X
+XXXXXXXXXXXXXXXX
+
+3S 4E 3N 9E 5S 2W 2S 11W 6S 9E 2N
+
+Dungeon of Despair Level 2
+XXXXXXXXXXXXXXXX
+Xv  $ T  D   XXX
+XXXXXXXXXXXX  XX
+X        $  XHXX
+XHXXXXXXXXX    X
+X X  $TXXXX XX X
+X X XX XXTD  C X
+X X XX XXXXXXXXX
+X $  H  D   T  X
+X X XXTXXXXXXX X
+X X  $ X T   X X
+X$XXXXXX XXX$X X
+X   T  X$X^  XTX
+XXXXXX X XXXXX X
+X v vD X       X
+XXXXXXXXXXXXXXXX
+
+2E 2N 4W 4S 6E 6N 13W 4S 5E 2S 2W
+
+Dungeon of Despair Level 3
+XXXXXXXXXXXXXXXX
+X^X   H  T   XXX
+X XXTXXX X X   X
+XHX    X XTXXX X
+X X XX $ X XXX$X
+X X  T X XDXXX X
+XDX XX H DCD X X
+X  $XX$X XDX   X
+XDXXXX   X XXXXX
+X XXXXXDXX XX $X
+XTX  vX   T   XX
+X X XXX XX XX XX
+X X  X$  T X$ XX
+X XX XXDXXXXX XX
+XT^XX      H  XX
+XXXXXXXXXXXXXXXX
+
+2N W 2N 3E--the shortest trip of all the levels!
+
+Dungeon of Despair Level 4
+XXXXXXXXXXXXXXXX
+X              X
+X XXXXXXXXXXXX X
+X X    XXXXXvX X
+X X XX $  XX X X
+XTX   CXX T  X X
+X X XX XXvXHXX X
+X X  H XXXXXXX X
+X$X XXX $  XXXTX
+X X XXXTXX D   X
+X X X^D    XXXXX
+XTXTXXXXXXXXXXXX
+X X       $    X
+X XXXXXXXXXXXXTX
+X   T   H      X
+XXXXXXXXXXXXXXXX
+
+5E N 4E 8N 13W 13S 13E 2N 11W 5N 3E 3W 3E 2S
+
+Dungeon of Despair Level 5
+XXXXXXXXXXXXXXXX
+X    $ X  T HXXX
+X X XX X XXXvXXX
+X XTXX XT $X XXX
+X X XX X XXXXXXX
+X$X X$ X XXX $ X
+X XDX XX X   X X
+X T   DCXXXXXX X
+X XDX XDX $   TX
+X X X  H  XX X X
+X XT $X XT T X X
+X XX XX XXXX $ X
+XTvX XX $  XXX X
+XX X XXXXX$XXX X
+XX $    T     HX
+XXXXXXXXXXXXXXXX
+
+3E N 2E 9S 12W 2N
+
+Dungeon of Despair Level 6
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+X$          ^ HX
+X XXXXXXXXXXXX X
+X  D T   $  D  X
+X XXXXXXXXXXXX X
+X D       v TD X
+X XXXXXXXXXXXX X
+X  D   $    D  X
+X XXXXXXXXXXXX X
+X D    TCT   D X
+X XXXXXXXXXXXX X
+X ^D T   $  D  X
+X XXXXXXXXXXXX X
+X          $   X
+XXXXXXXXXXXXXXXX
+
+W 6N 9E
+
+Dungeon of Despair Level 7
+XXXXXXXXXXXXXXXX
+XXXXXXX  $     X
+X $ D X XXXXXXXX
+XXXXX X X$    XX
+X  TD X X XTX XX
+X XXX X XDX   TX
+X XCD XTD XXX XX
+X  XX X XX D $XX
+X X$T X XXXXXX X
+X  XX X  $     X
+XTXH  X X X XXXX
+X XXX XX$XX    X
+X  $X       XXTX
+X XX XXXXXX  $ X
+X      H  vXX XX
+XXXXXXXXXXXXXXXX
+
+3W 3S 4E 3S 5W 8N 4W 10S 9E
+
+Dungeon of Despair Level 8
+XXXXXXXXXXXXXXXX
+X D  X D$X D XvX
+XTXX$  X T X X X
+X   XDXXDXX  XDX
+XX XX  D T XTX X
+XH D X XXXDX D X
+XXXX TX TD X XXX
+X$XXDXCTXXXTXX X
+X TD  XX $  D  X
+XXXX XX X X XXDX
+XC D D  X XX   X
+XXXX XX D XT XXX
+X TXDXTXXXXX D X
+X$X    D  X XX X
+X D X XX X^  T X
+XXXXXXXXXXXXXXXX
+
+4E 2N 2W 2N 2E 2N 5W 3S 2W N 3W 5N 2W 2N W 2N 3E S 2E N 2E S 2E N 2E 4S 
+2E 4N and climbing down leads to the conclave, so use up your bread of 
+life here first.
+
+    CONCLAVE
+
+      Ledger
+      X = unavailable, or wall
+  +,-,| = walls
+      1 = Morle
+      M = mantor
+      W = wizard
+      G = guard
+ --
+(BB)    = where the book is
+ ~~
+
+You start off in the bottom left.
+
+Mantor's Conclave
+XXXXXXXXXXXXXXXXXXXXX+-+XXXXXXXXXXXXXXXXXX+------+
+XXXXXXXXXXXXXXXXXXXXX| +------------------+      |
+XXXXXXXXXXXXXXXXXXXXX|                           |
+XXXXXXXXXXXXXXXXXXXXX+-------------------------+ |
+X+---------------+XXXXXXXXX+----------------+XX| |
+X|               |XXXXXXXXX|################|XX| |
+X|               |XXXXX+---+##############M#|XX| |
+X|  +---------+  +-----+    ####W#######W###|XX| |
+X|  |XXXXXX+--+             ################|XX| |
+X|  |XXXXXX|                ################|XX| |
+X|  |XXXXXX|                ####### __ #####|XX| |
+X|  |XXXXXX|     +---------+###W###(BB)##W##|XX| |
+X|  |XXXXXX+--+  |XXXXXXXXX|####### ~~ #####|XX| |
+X|  +----+XXXX|  |XXXXXXXXX|################|XX| |
+X|       |XXXX|  |XX+-+XXXX|################|XX| |
+X|       +----+  |X++ |XXXX|####W#######W###|XX| |
+X|               |X|  |XXXX|################|XX| |
+X|               |X|G |XXXX|################|XX| |
+X+---+G G G+-+ +-+X++ ++XXX+----------------+XX| |
+XXXXX| G G |X| |XX+-+  |XXXXXXXXXXXXXXXXXXXXXXX| |
+XXXX++G G G++|G+--+    |XXXXXXXXXXXXXXXXXXXXXXX| |
+X+--+       ||      ++ +-----------------------+ |
+X|          |+------+|   G       G      G G G G  |
+X|GGG       |XXXXXXXX+---------------------------+
+X|      O   |XXXXXXX+----+XXX+--------------+XXXXX
+X+--+       |XXXXXXX|  1 |XXX|              |XXXXX
+XXXX|OO> <OO|XXXXXXX++  ++XXX|  +---------+ |XXXXX
+XXX++       |X+------+==+----+  |XXXXXXXXX| |XXXXX
+XXX|    O G |X|           G     |XXXXXXXXX| |XXXXX
+XXX|        |X++ +-----------+  +---------+ |XXXXX
+XXX|  G     |XX| |XXXXXXXXXXX|              |XXXXX
+XXX|        ++++ ++XXXXXXXXXX+------------+ |XXXXX
+XXX|         ||   |XXXXXXXXXXXXXXXXXXXXXXX| |XXXXX
+XXX|         ||GO |XXXXXXXXXXXXXXXXXXXXXXX| |XXXXX
+XXX|         ||   |XXXXXXXXXXXXXXXXXXXXXXX| |XXXXX
+XXX|         ||   |XXXXXXXXXXXXXXXXXXXXXXX| |XXXXX
+XX++  G    G ++   |XXXXXXXXXXXXXXXXXXXXXXX| |XXXXX
+XX|               |XXXXXXXX+--------------+ |XXXXX
+XX|            G  |XX+-----+                |XXXXX
+XX|               |XX|       +----+      ++ |XXXXX
+XX+------------+ G|XX| +---+G|XXXX|     G|| |XXXXX
+XXXXXXXXXXXXXXX|G |XX| |XXX|G|XXXX|      || |XXXXX
+XXXXXXXXX+-+XXX+--+XX| +-+X|G|XXXX|      || +-+XXX
++--------+G+---------+   |X|G|XXXX|      ||   |XXX
+|                      O |X|G|XXXX+------++-+ |XXX
+|  +-----+G+---------+   |X+-++------+XXXXXX| |XXX
+|  |XXXXX+-+XXXXXXXXX| +-+XXXX|G G G |XXXXXX| |XXX
+|  |XXXXXXXXXXXXXXXXX| +------+ G G G+------+ |XXX
+|  |XXXXXXXXXXXXXXXXX|          +--+          |XXX
++--+XXXXXXXXXXXXXXXXX+----------+XX+----------+XXX
+
+The quickest way to get to Mantor is to go north at the first t-
+intersection, north at the second, then west, then west.  Speak to the 
+imprisoned Morle if you must, but follow the winding path south, west, 
+north and east--don't take the detour to the south, or you'll run out of 
+hit points.  You can safely ignore the wizards to get to the Book and 
+destroy it with the Destruct spell.
+
+"EH?"
+
+  There are men in the tombs that will ask you for 500 gold and then 
+vanish.
+
+END OF FAQ PROPER
+
+================
+
+VERSIONS
+
+1.0.0 7/4/2001 submitted first version to GameFAQs.com.  Text map and 
+item info, although detailed town info is left out.
+
+CREDITS
+ftp.apple.asimov.net
+Quest for Clues II, which was an excellent reference which allowed me to 
+focus on details even if it left out some maps :).
