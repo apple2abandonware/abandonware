@@ -1,0 +1,2436 @@
+Phantasie III FAQ(Commodore 64 game)
+Version 1.0.1
+copyright 2001 by Andrew Schultz schultza@earthlink.net
+with notes on the Apple and PC versions
+
+Please do not reproduce for profit without permission.  This game is 
+part of my effort to help preserve the memory of old classic games.  If 
+you send me a polite note addressing me by name and asking specifically 
+for this FAQ, it will probably be accepted.
+
+Maps for outside, etc. coming soon, I hope.  Look for them at:
+http://members.fortunecity.com/cartographics
+
+    ****AD SPACE****
+
+If you found this FAQ tedious, this web site may help cure your insomnia 
+for good:
+http://www.geocities.com/SoHo/Exhibit/2762
+
+If only medieval wanna-be RPGs were as arcane as what's on this web 
+page:
+http://www.geocities.com/SoHo/Exhibit/2762/games/games.htm
+
+================================
+
+  INTRODUCTION AND QUIRKS
+
+    STATISTICS
+
+    ABOUT THIS DOCUMENT AND HOW IT WAS WRITTEN
+
+  ITEM MANIFEST
+
+  MONSTER MANIFEST
+
+  SCROLLS
+
+  WALKTHROUGH
+
+    GETTING BETTER
+
+    GETTING AROUND
+
+    GETTING THROUGH
+
+  MAPS
+
+    OVERWORLD
+
+    PLANE OF LIGHT
+
+    PLANE OF DARK
+
+    SECOND LEVEL OF UNDERWORLD
+
+  DUNGEONS
+
+    DUNGEON 1: PENDRAGON TOWN ARCHIVES
+
+    DUNGEON 2: GIANT CAVES
+
+    DUNGEON 3: DWARVEN BURIAL GROUNDS
+
+    DUNGEON 4: GNOME CAVES
+
+    DUNGEON 5: CHRONOS'S TOWER
+
+    DUNGEON 6: CASTLE OF LIGHT
+
+    DUNGEON 7: CASTLE OF DARK
+
+    DUNGEON 8: LORD WOOD'S CAMP
+
+    DUNGEON 9: NIKADEMUS'S CASTLE
+
+    DUNGEON 10: STRAW HUT
+
+    DUNGEON 11: DRAGON CAVES
+
+  CHEATING
+
+    APPLE
+
+    COMMODORE
+
+    PC
+
+  ERRATA
+
+VERSIONS/CREDITS
+
+================================
+
+  INTRODUCTION AND QUIRKS
+
+    Phantasie III is the smallest of the games in SSI's series.  In 
+exchange for a smaller overworld and smaller dungeons you get easier 
+transportation around a smaller continent(the disk doesn't load once 
+when you change sectors,) more party detail, and the ability to see what 
+items are as you pick them up.  The graphics also seem a bit more 
+refined, especially with towns, and the controls are slightly easier.  
+Overall it's probably a slight improvement although the story is still 
+rather simple.
+    This game takes place in Scandor, where Nikademus's army has ravaged 
+the land, starting wars in the north(he's always tearing up the peapatch 
+like that) and it's up to you to go gallivanting to find the necessary 
+items to reach Nikademus's castle in the underworld and defeat him in 
+combat.
+    The Phantasie series is a bit odd in that, in ports from the Apple 
+to the Commodore and PC, the outside maps were rotated a quarter-turn 
+counterclockwise.  This changed in Phantasie III, where there was no 
+rotation.
+    One nice feature of Phantasie III, which no longer seems to be in 
+BASIC, is that the game is faster and there is even a time-lag option.  
+Commodore's semi-persistent fighting options are gone, and it would be 
+nice if they'd improved that, but overall the changes are good.
+
+    STATISTICS
+
+        CHART OF TOTAL SQUARES
+
+            |PHANTASIE     |PHANTASIE II  |PHANTASIE III |
+------------+--------------+--------------+--------------+
+OVERWORLD   |26*20*16      |26*20*9       |75*50         |
+            | =8320        | =4680        | =3750        |
+OTHERWORLD  |26*20*2       |26*20*8       |18*9*2+30*15  |
+            | =1040        | =4160        | =774         |
+DUNGEONS    |39*34*10      |39*34*8       |30*24*10      |
+            | =14260       | =10608       | =7200        |
+TOWNS       |11            |10            |17            |*
+INNS        |12            |7             |8             |*
+SCROLLS     |20            |14            |15            |*
+------------+--------------+--------------+--------------+
+TOTAL       |23620         |19448         |11724         |
+
+    On the Commodore the number of player slots was also dropped from 24 
+in P1&2 to 21 in P3.  Three of those are still reserved for elementals, 
+who have changed from Fire/Water/Earth to Air/Mist/Mud.
+
+    So you can see that P3 is the smallest of them all in terms of 
+outerworld size.  That's not all bad as a lot of "white noise" sectors 
+are removed, and with all the towns Scandor really feels like a busier 
+place.  However, the similarity of some dungeons(castle of light/dark) 
+and slight over-simplicity of others(straw hut, dragons' cave, 
+Nikademus's) lead me to believe that imagination may have flagged at the 
+end, as it so often does in a series.
+
+    ABOUT THIS DOCUMENT AND HOW IT WAS WRITTEN
+
+    This document will not attempt to explain basic rules.  You can find 
+manuals at project64.c64.org, www.theunderdogs.org, and likely many 
+other places I don't know about.  I am largely concerned with details, 
+i.e. if you do X, Y happens, or the best/most convenient way to solve 
+puzzle Z is to do W.
+    Thanks to www.theunderdogs.org, I was able to garner a PC version of 
+the game.  This made it easier to extract dungeon sayings and 
+description as well as scroll text.  Unlike the previous two, the map is 
+roughly the same across platforms although the C64's outerworld is a bit 
+more detailed than the Apple's, and the PC introduces very subtle 
+wrinkles in the outside.  The dungeons, the meat of the game, are 
+largely the same although typos were eradicated and spawned in the 
+porting.  After extracting raw data for the PC script I compared it tp 
+what I could find on the Commodore.  Many small mistakes will have 
+resulted from this, and I wouldn't mind if someone else pointed them 
+out.  It's not so bad to check, actually.  This document is intended for 
+the Commodore version of the game, with notes where the PC diverges.  As 
+Apple emulators seemed allergic to the Phantasie series, I decided to 
+drop them altogether in writing this.  I have no idea if P3 works on the 
+Apple but it's OK on the Commodore.
+    The text map is actually for the Apple, where it is easier and more 
+logical to extract sectors than the Commodore.  Although the PC 
+contained the data on one file it was too detailed to give a good, 
+simple text map.  So you won't see details like bridges and so forth.  
+The dungeon maps are for the PC but when I ran through the game they 
+equated over 99.99% with the Commodore.
+    This document tries to explore the details of the game, so it may be 
+light on overall improving your characters.  A brief run-through showed 
+that the Phantasie series is really rather moderate, and it is 
+relatively easy to improve without getting squashed.
+
+  ITEM MANIFEST
+
+    This list is present on www.theunderdogs.org in a different form.  
+They have been generous enough to allow blanket duplication--although 
+this is not the exact same thing and I extracted the data from the file, 
+they were there first, and without them I would have had no checks or 
+inspiration to include this.  I would also like to thank 
+Project64.c64.org for writing it up originally and allowing 
+theunderdogs.org to pass it on as reference.  Check either site out for 
+details on what the items do and who can use them.
+
+    There are also sixty items that can just be sold(of course, you can 
+read scrolls before you sell them.)  You can substitute plain items with 
+these values if you wish to hex-edit as well.
+
+Begin shields.
+
+  1(hex 0x01). Glove
+  2(hex 0x02). Wooden Shield
+  3(hex 0x03). Wooden Shield +1
+  4(hex 0x04). Small Shield
+  5(hex 0x05). Small Shield +1
+  6(hex 0x06). Small Shield +2
+  7(hex 0x07). Small Shield +3
+  8(hex 0x08). Medium Shield
+  9(hex 0x09). Medium Shield +1
+ 10(hex 0x0a). Medium Shield +2
+ 11(hex 0x0b). Medium Shield +3
+ 12(hex 0x0c). Large Shield
+ 13(hex 0x0d). Large Shield +1
+ 14(hex 0x0e). Large Shield +2
+ 15(hex 0x0f). Large Shield +3
+ 16(hex 0x10). Giant Shield
+ 17(hex 0x11). Giant Shield +1
+ 18(hex 0x12). Giant Shield +2
+ 19(hex 0x13). Giant Shield +3
+
+Begin armor.
+
+ 20(hex 0x14). God Shield
+ 21(hex 0x15). Clothing
+ 22(hex 0x16). Robes
+ 23(hex 0x17). Leather
+ 24(hex 0x18). Hard Leather
+ 25(hex 0x19). Ring Mail
+ 26(hex 0x1a). Scale Mail
+ 27(hex 0x1b). Chain Mail
+ 28(hex 0x1c). Splint Mail
+ 29(hex 0x1d). Banded Mail
+ 30(hex 0x1e). Plate Mail
+ 31(hex 0x1f). Cloth +1
+ 32(hex 0x20). Robes +1
+ 33(hex 0x21). Leather +1
+ 34(hex 0x22). Leather +2
+ 35(hex 0x23). Ring Mail +1
+ 36(hex 0x24). Ring Mail +2
+ 37(hex 0x25). Chain Mail +1
+ 38(hex 0x26). Chain Mail +2
+ 39(hex 0x27). God Robes
+ 40(hex 0x28). God Armour
+
+Begin bows.
+
+ 41(hex 0x29). Self Bow
+ 42(hex 0x2a). Self Bow +1
+ 43(hex 0x2b). Self Bow +2
+ 44(hex 0x2c). Short Bow
+ 45(hex 0x2d). Short Bow +1
+ 46(hex 0x2e). Short Bow +2
+ 47(hex 0x2f). Medium Bow
+ 48(hex 0x30). Medium Bow +1
+ 49(hex 0x31). Medium Bow +2
+ 50(hex 0x32). Compound Bow
+ 51(hex 0x33). Compound Bow +1
+ 52(hex 0x34). Compound Bow +2
+ 53(hex 0x35). Gnome Bow
+ 54(hex 0x36). Long Bow
+ 55(hex 0x37). Long Bow +1
+ 56(hex 0x38). Long Bow +2
+ 57(hex 0x39). Crossbow
+ 58(hex 0x3a). Old Bow
+ 59(hex 0x3b). Crossbow +2
+ 60(hex 0x3c). God Bow
+
+Begin weapons.
+
+ 61(hex 0x3d). Knife
+ 62(hex 0x3e). Dagger
+ 63(hex 0x3f). Club
+ 64(hex 0x40). Mace
+ 65(hex 0x41). Small Axe
+ 66(hex 0x42). Staff
+ 67(hex 0x43). Short Sword
+ 68(hex 0x44). Flail
+ 69(hex 0x45). Hammer
+ 70(hex 0x46). Spear
+ 71(hex 0x47). Axe
+ 72(hex 0x48). Sword
+ 73(hex 0x49). Heavy Mace
+ 74(hex 0x4a). Trident
+ 75(hex 0x4b). Large Spear
+ 76(hex 0x4c). Large Axe
+ 77(hex 0x4d). Pike
+ 78(hex 0x4e). Long Sword
+ 79(hex 0x4f). Bardiche
+ 80(hex 0x50). Halberd
+
+Begin magic weapons.  Note that the magic weapons have been partially 
+scaled down to fit in the new bow feature for Phantasie 3.
+
+ 81(hex 0x51). Dagger +1
+ 82(hex 0x52). Dagger +2
+ 83(hex 0x53). Club +1
+ 84(hex 0x54). Club +2
+ 85(hex 0x55). Flail +1
+ 86(hex 0x56). Flail +2
+ 87(hex 0x57). Spear +1
+ 88(hex 0x58). Sword +1
+ 89(hex 0x59). Sword +2
+ 90(hex 0x5a). Sword +4
+ 91(hex 0x5b). Sword +5
+ 92(hex 0x5c). Sword +6
+ 93(hex 0x5d). Halberd +1
+ 94(hex 0x5e). Halberd +2
+ 95(hex 0x5f). Sword +10
+ 96(hex 0x60). Halberd +5
+ 97(hex 0x61). Halberd +6
+ 98(hex 0x62). God Knife
+ 99(hex 0x63). God Mace
+100(hex 0x64). God Sword
+
+Begin healing potions.  Number X heals X^2 hit points.
+
+101(hex 0x65). Healing Potion 1
+102(hex 0x66). Healing Potion 2
+103(hex 0x67). Healing Potion 3
+104(hex 0x68). Healing Potion 4
+105(hex 0x69). Healing Potion 5
+106(hex 0x6a). Healing Potion 6
+107(hex 0x6b). Healing Potion 7
+108(hex 0x6c). Healing Potion 8
+109(hex 0x6d). Healing Potion 9
+110(hex 0x6e). Healing Potion 10
+
+Begin magic potions.  Number X heals 3X hit points.
+
+111(hex 0x6f). Magic Potion 1
+112(hex 0x70). Magic Potion 2
+113(hex 0x71). Magic Potion 3
+114(hex 0x72). Magic Potion 4
+115(hex 0x73). Magic Potion 5
+116(hex 0x74). Magic Potion 6
+117(hex 0x75). Magic Potion 7
+118(hex 0x76). Magic Potion 8
+119(hex 0x77). Magic Potion 9
+120(hex 0x78). Magic Potion 10
+
+Begin scrolls.
+
+121(hex 0x79). Scroll I
+122(hex 0x7a). Scroll II
+123(hex 0x7b). Scroll III
+124(hex 0x7c). Scroll III
+125(hex 0x7d). Scroll III
+126(hex 0x7e). Scroll IV
+127(hex 0x7f). Scroll V
+128(hex 0x80). Scroll VI
+129(hex 0x81). Scroll VII
+130(hex 0x82). Scroll VII
+131(hex 0x83). Scroll VII
+132(hex 0x84). Scroll VIII
+133(hex 0x85). Scroll IX
+134(hex 0x86). Scroll X
+135(hex 0x87). Scroll XI
+136(hex 0x88). Scroll XII
+137(hex 0x89). Scroll XIII
+138(hex 0x8a). Scroll XIV
+139(hex 0x8b). Scroll XV
+140(hex 0x8c). Scroll XVI
+
+Begin treasures.  Note that some of these are important items and some 
+are just ones you find as treasures.  I don't want to spoil anything, so 
+I'll just leave things be.
+
+141(hex 0x8d). Quartz
+142(hex 0x8e). Pearl
+143(hex 0x8f). Crystal
+144(hex 0x90). Gold Ore
+145(hex 0x91). Statuette
+146(hex 0x92). Jade
+147(hex 0x93). Onyx
+148(hex 0x94). Statue
+149(hex 0x95). Sapphire
+150(hex 0x96). Azurite
+151(hex 0x97). Coral
+152(hex 0x98). Turquoise
+153(hex 0x99). Topaz
+154(hex 0x9a). Jacinth
+155(hex 0x9b). Burnt Gem
+156(hex 0x9c). Sweet Bottle
+157(hex 0x9d). Foul Bottle
+158(hex 0x9e). Black Jar
+159(hex 0x9f). Ruby
+160(hex 0xa0). Nice Gem
+161(hex 0xa1). Opal
+162(hex 0xa2). Star Ruby
+163(hex 0xa3). Emerald
+164(hex 0xa4). Blue Opal
+165(hex 0xa5). Diamond
+166(hex 0xa6). Amethyst
+167(hex 0xa7). Fire Opal
+168(hex 0xa8). Gem of Light
+169(hex 0xa9). Black Urn
+170(hex 0xaa). Dark Key
+171(hex 0xab). Black Vase
+172(hex 0xac). Light Key
+173(hex 0xad). Golden Chalice
+174(hex 0xae). Silk Tapestry
+175(hex 0xaf). Painting
+176(hex 0xb0). Golden Belt
+177(hex 0xb1). Old Crown
+178(hex 0xb2). Old Coin
+179(hex 0xb3). Old Wine
+180(hex 0xb4). Wand of Nikademus
+
+  MONSTER MANIFEST
+
+    There are minor variations between the two versions.  Although the 
+monster names seem to be the same, some statistics aren't quite.  Most 
+of this is due to the way data is stored;  BASIC-like storage on the 
+Apple II(numbers stored as strings) vs. byte-storage on the PC.  So for 
+instance you can't get more than 65535 experience for a kill on the PC, 
+but you can on the Apple.  Although I haven't been able to track down 
+the exact data for Commodore monsters, their pattern seems to follow 
+that of the PC so I am assuming Commodore=PC.  In any case you are 
+unable to acquire over 65535 gold on the Commodore as well.
+
+    This list of attributes, although it covers the main stuff, is also 
+incomplete, as I am not sure which data stands for which attributes.  If 
+any brave soul wants to help out, drop me a line and I can send you the 
+.dat and .c files I'm using to process the data.  I'd be grateful.  For 
+instance, I don't think the wolf has zero hit points.
+
+             |   |   |ITM|ITM| |     |     |
+NAME         |MAX| HP| 1 | 2 |U|TREAS| EXP |
+-------------+---+---+---+---+-+-----+-----+
+Skeleton     | 5 |  3| 66| 67|U|   20|   77|
+Sniverling   | 5 | 10| 65|  8|N|   35|  150|
+Drip Slime   | 5 |  1|  0|  0|N|    0|   97|
+Undead Gnome | 3 | 15| 65|  6|U|   90|  406|
+Wild Cat     | 5 |  4|  0|  0|N|    0|  108|
+Giant Bee    | 5 |  3|  0|  0|N|    0|   73|
+Viper        | 2 | 20|  0|  0|N|  200|  731|
+Wild Dog     | 4 | 11|  0|  0|N|    0|  164|
+Orc          | 5 |  6| 23| 66|N|   25|   87|
+Kobold       | 5 |  5| 22| 65|N|   15|   52|
+Ranger       | 5 | 12|  9| 67|N|   65|  234|
+Scribe       | 5 |  3|103| 22|N|   30|   87|
+Small Devil  | 4 | 20| 69|  8|U|  200|  336|
+Zombie       | 4 | 12| 68| 23|U|  111|  245|
+Ghoul        | 5 |  5| 66| 23|U|   70|  133|
+Dark Elf     | 5 | 10| 43|  8|N|    0|  290|
+Sting Beetle | 5 | 10|  0|  0|N|    0|  199|
+Constrictor  | 2 | 16|  0|  0|U|    0|  616|
+Panther      | 4 |  8|  0|  0|N|    0|  339|
+Troll Baby   | 5 |  5| 66| 12|N|   70|  136|
+Goblin       | 4 | 20|  0|  0|N|  100|  752|
+Barbarian    | 5 |  9| 69|103|N|  100|  192|
+Illusionist  | 5 |  6|112|103|N|  150|  325|
+Lesser Wizard| 4 |  7|113| 23|N|  200|  416|
+Undead Dwarf | 4 | 22|  8| 69|U|  600| 1393|
+Wight        | 4 | 20|116| 82|U|  200| 1414|
+Death Fly    | 4 | 56|  0|  0|N|    0| 2600|
+Beeping Blob | 5 | 14|  0|  0|N|    0|  920|
+Killer Bee   | 5 |  8|  0|  0|N|    0|  633|
+Cobra        | 5 | 12|  0|  0|N|    0|  794|
+Baby Dragon  | 5 | 16| 83|148|N|  300| 1613|
+Wolf         | 5 |  0|  0|  0|N|    0|  878|
+Gremlin      | 5 |  8| 71| 23|N|  225|  507|
+Dwarf        | 5 | 13| 72| 12|N|  325|  731|
+Dwarf Lord   | 5 | 12| 73| 25|N|  250|  934|
+Priest       | 5 | 10|  9|106|N|  350|  759|
+Devil        | 3 | 30|118| 88|U|  500| 4424|
+Wraith       | 4 | 32|147| 24|U|  800| 3605|
+Giant Wasp   | 4 | 63|  0|  0|N|    0| 5197|
+Hissing Skuz | 5 | 14|  0|  0|N|    0| 1473|
+Viper Moth   | 5 | 10|  0|  0|N|    0| 1753|
+Asp          | 4 | 56|  0|  0|N|    0| 3958|
+Small Dragon | 4 | 37| 33|153|N|  325| 3552|
+Valley Giant | 2 | 40| 25| 76|N|  400| 3335|
+Dark Gnome   | 5 | 34| 74| 16|N|  500| 3377|
+Dark Dwarf   | 5 | 72| 26| 87|N| 1600| 5477|
+Gnome Mage   | 5 | 22|109| 46|N|  550| 3825|
+Gnome Lord   | 5 | 23| 75|118|N|  775| 3384|
+Demon        | 4 | 39| 26| 77|U| 1200| 8666|
+Vampire      | 2 | 70| 27|118|U| 1800|12957|
+Giant Ghost  | 5 | 18| 34|153|U|  700| 4305|
+Creeping Skum| 4 | 38|  0|  0|N|  800| 4266|
+King Cobra   | 2 | 77|  0|  0|N|    0| 8557|
+Mud Elemental| 2 | 77|  0|  0|N|    0| 8529|
+Dragon       | 2 | 87|153|162|N| 2200|17006|
+Forest Elf   | 5 | 18|109| 90|N|  500| 2824|
+Troll        | 4 | 42| 17| 78|N| 1300| 6478|
+Undead Lord  | 4 | 20| 89|153|U|  700| 9996|
+Illusion     | 4 | 24|  0|  0|N| 1000| 9789|
+High Ranger  | 5 | 27| 17|109|N|  800| 6968|
+High Demon   | 4 | 96| 36| 94|U| 1800|18515|
+High Devil   | 2 |110| 35| 79|U| 2000|20300|
+Creeping Mold| 2 | 83|  0|  0|N|    0|11042|
+Leopard      | 3 | 97|  0|  0|N|    0|13016|
+Spirit       | 5 | 25|  0|  0|U|    0| 5663|
+Sludge       | 3 |101|  0|  0|N|    0|12932|
+Dragon King  | 2 |133|165|175|N| 2200|23593|
+Storm Giant  | 2 |115| 19| 79|N| 1800|14472|
+Cloud Giant  | 2 |122| 28| 92|N| 2000|19827|
+Great Troll  | 4 | 98| 18| 91|N| 1300|10783|
+Wizard       | 5 | 24| 36|119|N|  700|11098|
+Overlord     | 5 | 37| 27|109|N| 1000|11602|
+Guagle Beast | 1 | 90|  0|  0|N|    0|25000|
+Great Beast  | 1 |150|  0|  0|N|    0|36000|
+Ancient Beast| 1 |200|  0|  0|N|    0|60000|
+Light Fairy  | 1 |204|  0|  0|N|    0|64150|(150K on Apple)
+Boo Boo Kitty| 1 |203|  0|  0|N|    0|64100|(100K on Apple)
+Nikademus    | 1 |212| 98| 39|U|    0|64999|(300002 on Apple)
+Nikademus    | 1 |209| 98| 39|N|64099|64300|(999999 on Apple)
+Lord Wood    | 1 |209| 97| 38|N|64099|64500|(500000 on Apple)
+
+Nikademus II and Lord Wood also give 99999 treasure on the Apple.
+"LIGHT FIARY" is a typo on Apple as well but not C64.
+
+  SCROLLS
+
+    Below you have a list of scroll text that tell you what's written on 
+each one.  There are a lot of huge hints here so don't look through this 
+unless you're sure you don't mind spoilers.
+
+
+******BEGIN SCROLL TEXT******
+
+    SCROLL I:
+I, Kilmor, am writing this account of my last days for posterity. Months 
+ago I led my Dwarven people in battle against the great army of the evil 
+Nikademus with little success. In our final battle we were defeated and 
+I was captured and imprisoned here in the Hall of Giants, far to the 
+south where no one would suspect. Nikademus himself then came and took 
+me to a dark and evil place, the exact location of which I cannot guess. 
+There I was tortured and he attempted to brainwash me. I was told of the 
+great power I would receive if I betrayed my people and joined 
+Nikademus. Proudly, I never gave in, so I was returned here and left to 
+starve.
+
+    SCROLL II:
+The History of Scandor
+Scandor is known to be the center of the civilized world. It is also the 
+largest known land mass. To the south of Scandor lie the much smaller 
+islands of Gelnor and Ferronrah and the Pookney Islands. These areas are 
+generally inhabited by the more intelligent humanoids including Humans, 
+Dwarves, Elves, Gnomes, Orcs, and to a lesser extent Halflings, Kobold, 
+Ogres, etc. To the north of Scandor lies the great northern continent 
+which is generally occupied by Trolls and Giants. They have occasionaly 
+been known to invade Scandor in crude boats or to cross on ice bridges  
+which form between the two continents during the winters. Other lands 
+are rumored to exist but little is known about them. Though there have 
+been small skirmishes between the different races in the Scandor area, 
+for many thousands of years, nothing could prepare the citizens for the 
+most terrifying period in their history which began just a few years ago 
+and continues today. A great army of men, beasts and even undead 
+creatures invaded the island of Gelnor. They came in thousands and 
+thousands of ships from lands unknown and waged war upon the better 
+trained but hopelessly outnumbered Gelnorians. Though Gelnor is said to 
+have the most powerful mortal wizards alive, and its citizens fought 
+heroically, the island fell. Nikademus, who is the leader of of the 
+terrible army, then moved his troops on to the smaller island of 
+Ferronrah. Within a matter of days Ferronrah too fell to Nikademus who 
+cast a great curse on the entire island which prevented anyone from 
+easily leaving. This feat established him as the greatest mortal wizard 
+of all time. Nikademus then moved to invade Scandor. He was joined by 
+thousands of its citizens who were tempted by bribes or were simply 
+afraid of opposing his evil army. He has taken the north, including the 
+mountains of the Dwarves who made a fierce charge at him, led by the 
+great Kilmor, but made no real progress. Everyday now the evil army 
+makes more progress and the future of Scandor seems more in doubt.
+
+    SCROLL III:
+Departed Souls
+Whenever a mortal from the Material Plane dies, his soul begins the 
+journey to the Astral Plane for judgement. The journey can take years 
+and a resurrection spell cast during this time may recall the soul to 
+the body. If the soul arrives at the Astral Plane it will be judged, and 
+if deemed unworthy of existence, it will be destroyed. The soul may be 
+judged as premature and be returned to its resurrected body. If the soul 
+belonged to an outstanding being, it may be accepted into the Olympic 
+Planes if good, or deep into the Netherworld if evil. Those souls that 
+are left are returned to their bodies as 'undead' and left to roam the 
+Material Plane or lower levels of the Netherworld.
+
+    SCROLL IV:
+The Wand of Nikademus
+The origins of the infamous wand are uncertain, but it is believed to 
+have been created by Pluto or another evil god and given to Nikademus. 
+Some say that it is the wand itself which turned Nikademus to evil by 
+corrupting him with power. The wand is so powerful and compelling that 
+no person or group of people could willingly part with it. Once Pluto 
+had to take it from Nikademus so he would not become overpowered by it. 
+The wand can only be used with the aid of Pluto. Thus if it did fall 
+into the hands of good beings, it would be useless to them. Nikademus 
+would locate the wand and eventually a confrontation would occur.
+
+    SCROLL V:
+The Great Gnome Bowmakers
+It is said that many years ago the gods in Olympus looked down upon the 
+Material Plane and saw that the Gnomes were not equal to the other 
+humanoid races. They decided that to help the Gnomes they would send the 
+god Aries to teach them the art of making bows. It is rare that the gods 
+will make such direct intervention in mortal affairs. Aries taught the 
+Gnomes how to make bows with magical qualities. It takes an elder Gnome 
+many months of work to make a good bow. It is rumored that Gnomes will 
+give these bows to great warriors who can prove themselves.
+
+    SCROLL VI:
+The universe is divided up into many planes. The Material Plane is that 
+upon which mortal creatures dwell. Occasionally mortal creatures can 
+leave the Material Plane or other creatures can visit it. The Planes of 
+Olympus are the homes of those gods and minor dieties who are bent 
+towards goodness. These planes lie above the Material Plane. The exact 
+number and extent of the planes are not known. The first plane is the 
+closest to the Material Plane, the second is the one above that, and so 
+on. The planes of the Netherworld are the homes of evil gods and other 
+immortals bent toward chaos. These planes lie below the Material Plane. 
+The river Styx is a magical river which surrounds and connects many of 
+the planes. It was created many ages ago during the Age of Harmony, as a 
+means of transportation between the planes. It is not accessible by 
+mortals and does not connect with the Material Plane. Powerful magic is 
+the only other means of transportation between the planes. The Astral 
+Plane consists of all the "empty" space not used by the other planes. It 
+is filled with light from the other planes. The Plane of Light lies 
+adjacent to the Material Plane. It provides light, warmth and other 
+energy to the Material Plane. It is a place of extreme goodness. The 
+Olympic gods select only the purest of mortals to live there and watch 
+over it. The Plane of Darkness lies opposite to the Plane of Light and 
+is the antithesis of it in every way. It is inhabited by some of the 
+most evil mortal beings.
+
+    SCROLL VII:
+The Pendragon Town Archives
+The Town of Pendragon is known throughout Scandor for its scholars who 
+contribute so much to the current knowledge of nature, history, etc. 
+Most of the work of these men has been collected at the town archives 
+which are said to be among the most extensive in the world. The 
+organizer of the archives is the wise old sage Filmon. Some say he is 
+the most learned man alive, others say he is an old fool who knows only 
+of flowers and trees. Some areas of the archives are said to contain 
+sacred items and are so heavily guarded that it would take a small army 
+to reach them.
+
+    SCROLL VIII:
+The Hall of Giants
+The Hall of Giants lies in the southern part of Scandor. The Giants who 
+live there are said to be very unfriendly and some people even say that 
+they have sided with Nikademus. This is probably just a rumor. It is 
+true, however, that many of the visitors to the hall have been thrown 
+into the dungeons and left to rot. The dungeons are not well guarded but 
+they are solidly locked.
+
+    SCROLL IX:
+The Dwarven Burial Grounds
+Whenever a great Dwarven leader dies, a funeral is held at the Dwarven 
+Burial Grounds. Such events are traditionally attended by the greatest 
+leaders or worthy representatives from all of the races in Scandor, 
+Gelnor, and Ferronrah. Even the Elves have been known to send 
+representatives in the past. Being invited to a Dwarven burial held 
+there is considered to be one of the greatest of honors and attending is 
+a somber but unforgettable experience.
+
+    SCROLL X:
+The Gnomes of Eastern Scandor
+There is a large section of eastern Scandor which is covered with rock 
+strewn hills. This is where most of the Gnomes on the continent make 
+their home. The capital of the Gnome community is the town Rocky Hills. 
+The Gnomes are a peaceful and jolly people. They are content and safe in 
+the hills. They are very seldom invaded because there is a general 
+agreement that the Gnomes have nothing of great value. The most sacred 
+place of the Gnomes is a series of catacombs dug out of the rocks 
+thousands of years ago by the Gnomes. It is here that the most respected 
+elder Gnomes go for deep undisturbed meditation.
+
+    SCROLL XI:
+The Chambers of Chronos
+Chronos is the keeper of all time and dimensions. He is perhaps the 
+oldest being alive except for the gods. He keeps extensive records on 
+the history of the entire universe. His records are kept in a large set 
+of chambers. They are all made in magical writing which only he can 
+read. Chronos has the ability to move the chambers around magically to 
+any plane. He is equally welcome in all places from the Netherworld to 
+the Olympic planes. He will help those who have what he deems to be a 
+worthy cause, but since his chambers can be anywhere he might be 
+difficult to find.
+
+    SCROLL XII:
+The Plane of Light
+When the gods created the Material Plane they also created the Plane of 
+Light next to it. It provides light and heat for the mortal beings who 
+live on the Material Plane. The most pure and innocent mortals are 
+selected by the gods to watch over the Plane of Light. The Castle of 
+Light was placed in the Plane of Light for its occupants to stay in. The 
+castle contains many very precious items and is watched over by the 
+gods. In spite of this it is often invaded by evil beings. The Light 
+Fairy, the most pure of mortal beings, watches over the castle while her 
+servants are sent out to inspect the Plane of Light.
+
+    SCROLL XIII:
+The Darkness
+When the gods created the Material Plane and the Plane of Light, they 
+instantly saw the need for another plane to "balance" the other two and 
+created the Plane of Darkness. At first the Plane of Darkness was empty 
+but it was soon used as a place of exile for the most evil and vile 
+mortal creatures. After thousands of years, a community of great power 
+grew there. The greatest wizards of the plane created a Castle of 
+Darkness and there created the most evil and powerful mortal imaginable, 
+Nikademus. His power was great enough to open a portal to the Material 
+Plane and the entire community went through, led by Nikademus on a 
+campaign for bloody vengence.
+
+    SCROLL XIV:
+News About the Great War
+When Nikademus brought his army to Scandor he surprised everyone by 
+landing on the northern shores. With the element of surprise behind him, 
+he was able to take the northern part of the continent, all the way down 
+to the Great Forest, in a few months. Nikademus then took a break to 
+reorganize his troops and set up military rule in his newly gained 
+territory. When Nikademus finally began to move further south he was 
+disturbed to learn that Lord Wood was leading a counter attack against 
+him on the northern shores near Lansing. This move has slowed Nikademus 
+considerably since he has had to divert troops to the north where the 
+fighting is still heavy to this day.
+
+    SCROLL XV:
+The Fortress of Nikademus
+Nikademus is one of the very few mortal beings ever to achieve the power 
+to freely teleport between any of the planes. When Nikademus first 
+perfected this power he frequently visited his favorite place, the 
+Netherworld. Though most gods do not care to dwell near mortals the gods 
+of the Netherworld found Nikademus so delightfully evil they made an 
+exception and gave him a small plot of land on the third level of the 
+Netherworld. He constructed a fortress there and now uses it as a 
+conference place to meet with his highest ranking officers and discuss 
+plans of his assault on the Material Plane. Nikademus was also given 
+undead servants and guards for his fortress.
+
+  WALKTHROUGH
+
+    GETTING BETTER
+
+    I think that the stuff you really need can be listed as follows:
+
+    1.  Heal spells 1-4
+    2.  Transport spell
+    3.  Fireflash spells 5-8
+    4.  Turn Undead spell
+    5.  Flamebolt spell 37-40
+
+    The old trick of not resetting the dungeons works quite well in 
+general.  Early on, though, you can create a bunch of characters you'll 
+immediately dismiss and hit them up for their gold.  That will allow 
+your party to start out with the best equipment available.  As for 
+starting out, I like the following party:
+--2 dwarf fighters
+--2 elf priests
+--2 elf mages
+    A dwarf in your party will allow you into certain places necessary 
+to win the game.  High constitution and intelligence seem to be the best 
+conditions for a good character starting out and if he's no good you can 
+of course always take his gold.
+    You really won't have that many traps to disarm but maybe for the 
+first few levels one of your spellcasters can work on that.  Of course 
+fighters will want to develop attack and parry and probably spellcasters 
+should develop bow.  Everyone should become a decent swimmer as swimming 
+often helps create shortcuts and a critical dungeon is across the water.
+    Be sure to visit the straw hut as well.  It's only a one-off but it 
+will improve critical stats;  I'd go with intelligence.  The giants will 
+also help your constitution if you win a certain fight.
+    Pretty much every dungeon works good for resets although specific 
+ones have specific items you may want to get six of.  Lord Wood's camp 
+has a great treasure trove if you can win four combats.  The dragon's 
+den has a ton of gold.  The giants don't have much reward for all that 
+fighting, and the castles don't require much fighting either, but even 
+the Pendragon Town Archives can be useful for lower-level characters;  
+it's so close to a town that you won't be wasting a lot of character-
+years traveling around and building up.
+    Also keep track of lowering hit points.  If you get too low, you 
+really risk breaking something.  That's not cool.
+
+    GETTING AROUND
+
+    It's so convenient to be able to transport to a town and quickly 
+visit a dungeon.  A quasi-mass transportation system aids this.  I'll 
+list the dungeon and the town it's closest to.  In the underworld there 
+is only one town on the same map as each dungeon, so I ignore that.  
+Some are very close indeed.
+
+DUNGEON                |NEAREST TOWN(#, distance)
+-----------------------+--------------------------
+PENDRAGON TOWN ARCHIVES|
+    ARCHIVES           |PENDRAGON(1, 2S1E)
+GIANT CAVES            |TIRITH(6, 6E2S)
+DWARVEN BURIAL GROUNDS |PENDLETON(3, 3W)
+GNOME CAVES            |ROCKY HILLS(4, 4N1E)
+CHRONOS'S TOWER        |ROCKY HILLS(4, 6N13E)
+LORD WOOD'S CAMP       |LANSING(12, 4E3N)
+STRAW HUT              |LANSING(12, 25E2N)
+DRAGON CAVES           |TIERRIN(7, 4W3N)
+
+    So basically there are six towns that are really important(Tierrin 
+being borderline as the Dragon Caves aren't critical to the game,) 
+although the other ones are fun to visit, too.
+
+    GETTING THROUGH
+
+    I won't include tricks to build your party up here.  Just the blow-
+by-blow account.
+
+    You don't need to stop at the Pendragon Town Archives, but they're a 
+good place to get your bearings.  With the layout a bit different you 
+may need to get used to the new dungeon view a bit.  The wand of 
+Nikademus is well-guarded in the door in the northwest of the entry 
+room, but if you go through the northeast there's a secret door that 
+leads to treasure and then to Filmon's through another secret door.  You 
+can also go through the lower right main door and all the way down.  
+Filmon fills you in on what you should be doing next.  Be sure to pray 
+at the altar each time you enter as that gets you a spell the first time 
+and gold thereafter.
+    The next place to go is south to the Giants'.  You'll get thrown in 
+a cell but should be able to escape.  The lower left part should be left 
+for later.  Right now you want to visit all the cells where you were 
+locked up and find Kilmor.
+    Once you've found Kilmor you will be invited to a dwarven funeral.  
+It is juuust west of Pendleton and if you want exercise you can walk 
+west of Pendragon.  By now you really should have town transport, 
+though, so just cast a spell to get there.  It's fairly straightforward 
+to view the funeral, but you can knock around a bit and win some fights.
+    The next stop is the gnome caves.  While the monsters there may be 
+tough, it shouldn't be too bad to get through the whole mess.  A 
+southeasterly pattern gets you to the dining room, but first take a 
+secret door off to the right and follow the passage into the corner.  
+Take the foul smelling bottle.  From there you want to go back up and 
+west to get the viper from the egg.  Distract the viper for an awesome 
+item.  Repeat if necessary by not resetting the dungeon.  The divine 
+spell is also in here--it's off to the east as you go to the dining 
+hall.
+    By now you're quite ready to go to Chronos's.  There aren't a lot of 
+combats there.  Bash around until you get the key of light and figure 
+out how to operate the machine.  Left spiral, set the settings, right 
+spiral, pull the lever, and if you do it right, BINGO!  You're in the 
+plane of light.
+    There's a minor puzzle in the Castle of Light.  Map it well as you 
+go to find the fairy who will give you more advice.  Get the gem of 
+light and leave.
+    Cast a town transport spell from the Town of Light to re-enter the 
+overworld.  Tirith is the best place to go, as you'll need to revisit 
+the giants' cave where you didn't go before.  They're some tough ****'s, 
+so hit them hard with spells.  Valley giants are relatively weak but 
+Storm and Cloud Giants are nasty indeed.  In the southwest corner you 
+will find the Key of Darkness.
+    Now a brief detour before you hit the home stretch.  In Lord Wood's 
+camp(teleport to Lansing to short-cut there) you want to go west then 
+south a lot.  That will let you into Lord Wood's tent.  On the right 
+side you have some very good weapons.  If you can hack through the four 
+encounters several times, your party will be the better for it.  Also be 
+sure to stock up on healing potions and magic potions.
+    Back to Chronos's.  Set the settings to go to the Plane of Darkness, 
+and enter the castle there.
+    In the Castle of Darkness, you can destroy stuff.  Doing so will 
+reveal a message from Nikademus to you.  If you haven't gotten the wand 
+yet, and you need it to finish this castle, it will be in the upper left 
+but if so that space will be blank.  Take the mirror-image path to that 
+you took in the Castle of Light.  Be very careful as one false step will 
+seriously injure your party.  Once you get to the room at the end of the 
+maze, try to break the wand.  You'll be sucked into a location by a new 
+exit.
+    Now you're in the underworld.  Watch your party's hit points before 
+they go through each lava patch.  Damage will occur.  You'll need to go 
+in a sort of spiral and eventually you'll see the castle.
+    Nikademus's castle is not too tough to navigate.  In fact, you can 
+get to the center without tripping over any of the set encounters.  Just 
+beware of secret walls.  Zigzagging from the northwest corner of the big 
+building will land you safely at the bottom(SSSSWSSSSESSSSWSSSSE) and 
+then after the second-bottom secret door to the east you need to find 
+two more secret doors on the east walls.  A long passage north has a 
+secret wall to the west after which there's a passage that will get you 
+to the center of the maze and Nikademus.
+    There are several ways to win the game here but the easiest seems to 
+be to cast a spell and then say #57 when the computer asks you.  
+Nikademus should now be undead, so dispell him.  Although it is a bit 
+harder to fight Lord Wood, you certainly can win the game that way.  
+It's an alternate ending, and the text and graphics have slight but cute 
+variations.
+
+  MAPS
+
+    LEDGER
+
+s = start(in underworld)
+t = town(generic)
+# = inn
+L = lava
+" = underworld terrain(mist)
+[space] = underworld terrain(darkness, gloom et al)
+. = grass
++ = road
+* = forest
+M = mountain
+^ = hill
+
+  OUTSIDE OVERWORLD
+**************************************************
+*~~~...~~~~^^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+*~~..~~~^~~~~~~~~~~~~~~~~~~~~~~~~^^^^^~~~~~~~~::~*
+*~~..~~~^^^~~~~~~~...~~~~~~~~~~~^^^^~~~~~~~~~:::~*
+*~~~~~~~~~~~^^~~......*~~~~~~~~~^^^^^~~~~~~~::::~*
+*~~~~~~~~..^^^^.......**~~~~~~~~~~^^^~~~~~~~k::.~*
+*~~~~~~.....^^^^......***~~~~~~~~~~~~~~~~~~:::..~*
+*~~~~........^^^^......***~~~~~~~~~~~~~~~~~::...~*
+*~~~~........^^^^^.....**X**~~~~**.~~~~~~::::...~*
+*~~~....m.....^^^^......**********...~~~~::::.Z~~*
+*~~~...~~.....^^^^^......********....:::::::::~~~*
+*~~~..~~~......^^^MMMl....*******....::::::::~~~~*
+*~~~~~~:~......^MMMMMM..............::::::::~~~~~*
+*~~~::::........MMMMMMMM............::::::::~~~~~*
+*~~~::::.........MMMMMMMM............::::::::~~~~*
+*~~~::::............MMMMM............::::::::~~~~*
+*~~~~:::............MMMMMMMM.........::::::::~~~~*
+*~~~:::::...........MMMMMMMMM........::::::::~~~~*
+*~~~:::::...........MMM~~~~MMMM.......::::::::~~~*
+*~~:::::............MM~~~~MMMMM.......::::::::~~~*
+*~~:::..............MM~~4~MMMMM.............::~~~*
+*~5.::..............MMM~~~~MMMMM..............3~~*
+*~.............n**..~MM~~~~MMMMM...............~~*
+*~...........*****..~MMMMMMMMMMM................~*
+*~~.....~~~~~*6****.~MMMMMMMMMMMM...............~*
+*~~~...~~~~~~~~*******MMMMMMMMMMM......****.....~*
+*~~~~~~~~~~~~~~*******MMMMMMMMMMM...**********~~~*
+*^^^^~~~~~~:::~~*********hMMMMMM**************~~~*
+*~^^~~~~~~~::~~~*********+*******************~~~~*
+*~~~~~~~~~~~:~~~*********+*******************~~~~*
+*~~~~~~~~~~~:~~~*********+*******************~~~~*
+*~~...~.~~~::~~~*********+******************~~::~*
+*~~~~~.~~~~:::~~~*******7+*****************~~:::~*
+*~~~~~~~~~~:~:~~~*******++***************..~~~:~~*
+*~~^^~~~~~~:~~~~~......*+***********.......2~~::~*
+*~Y^^c+^~~~~~~~~~.......+...*****...........~~::~*
+*~^^^^+^^..~~~~~........+..........^^^^.....~~~:W*
+*~^^^^+^^....~~~..++++++a.........^^^^^......~~::*
+*~^^^.+.......~~..+.....+.........^^T^^......~~~:*
+*~~^^.+++......b+++.....+V.......^^^^^^.......~~~*
+*~~.....++++++++.....::.+.......^^^^^^......***~~*
+*~~...............:::::.++++++++++^^^^.....****~~*
+*~~~~~............:::::.+.......^++d^^^....*****~*
+*~~~~~~.......::::::::..+.......^^++^^^....*****~*
+*~~~~~~......:::::::::..+.......^^^+^^^......***~*
+*~~~~~~......::::::::::.+.......^^^+^^^......***~*
+*^~~^~~.......:::::.::..+.......^^^+^^^......***~*
+*^^^^~..........:.......+.......^^^+^^.........~~*
+*^^^~~...............++++........^^+^^.........~~*
+*^^~~~........~......+......****...+++++++++..~~~*
+*^~~~.........~~~....+8.....****...........+^^~~~*
+*^~~~i..........~....+....~~~~~~~~.......^^+^^~~~*
+*~~~~...........~....+..**~*****.~....^^^^^e~~~~~*
+*~~~~...........~....+..**~*****.~....^^^^^~~~~~~*
+*::~~~******....~~~~~+~.**~****..~~~^^^^^^~~~~~~~*
+*::~~~******....~....+~~~~~****..~..^^^^^^~~~~~~~*
+*~::~~*******..~~....+..~******.~~.^^^^^^^^~~~~~~*
+*~~:~~*******........+..~.*****....^^^^^^^^~~~~~~*
+*~~~~~~******........+..~.******....^^^^^^^~~~~~~*
+*~~~~~~******........+..~...****....^^^^^^^^~~~~~*
+*~~~~~~******........+..~...****....^^^^^^^^~~~~~*
+*~~~~~*******...+++++++.~...******....^^^^^^~~~~~*
+*~~~*********...+.....+.~......***.........~~~~~~*
+*~**********....+.....+.~..................~~~~~~*
+*~**********..+++.....+.~..................~~~~~~*
+*~1...***.....+.......f.~~................~~~^^^^*
+*~.....U....+++.......~~~~~.....MM........~~j^^^~*
+*~..........+.........~~~~~~SMMMMM.....~~~~~^^^^~*
+*~..........+.....::::~~~~~~MMMMMMM...~~~~**^^^~~*
+*~.........g+...::::::~~~~~~MMMMMMM~~~~~~~***^^^^*
+*~...:::~~~~~~..:::::::~~~~MMMMMMM~~~~~~~~****^^^*
+*~~:::::~~~~~~~~~~:::::~~~~MMMMM~~~~~~~~~*****^~~*
+*~~:::~~~~~~~~~~~~~~~~~~~:~MM~~~~~~~~~~~~*****~~~*
+*~~~~~~~~~~~~~~~~~~~~~~::~~~~~~~~~~~~~~~~~~***~~~*
+**************************************************
+
+Town locations are listed below.
+
+  a : Pendragon.  Center of the map.
+  b : Sandy Shores.  First on the road west of Pendragon.
+  c : Pendleton.  The second town on the road west of Pendragon.
+  d : Rocky Hills.  WSW of Pendragon, along the road.
+  e : Deltor.  Past Rocky Hills on the road, on the east coast.
+  f : Tirith.  By the mouth of the river in the south, by a bay.
+  g : Tierrin.  On the west part of the south coast.
+  h : Asmith.  The town north of Pendragon on the road.
+  i : Seirion.  On the southern part of the west coast.
+  j : Xanador.  On the southeast island.
+  k : Flagler.  In the extreme northeast.
+  l : Lansing.  In the north nook of the huge mountain range.
+  m : Scanport.  In the far northwest.
+  n : Sciattica.  Northwest of Pendragon, where the coastline curves.
+
+Inn locations and names are listed below.
+  1 : Deadly Inn.  Directly west of Tirith.
+  2 : Crown Inn.  On the center part of the east coast.
+  3 : Portal Inn.  North of the Crown Inn.
+  4 : Mystic Inn.  On the island surrounded by mountains.
+  5 : Desert Inn.  West of Sciattica, on the central west coast.
+  6 : Kanpai Inn.  One west and two south of Sciattica.
+  7 : Jolly Inn #1.  Directly north of Pendragon.  [it appears this 
+might be a mistake;  the PC and C64 version have "The Royal Inn" in its 
+data, which does not appear on the C64.  As Pendragon is the capital I 
+suspect this one is the bogus Jolly Inn.]
+  8 : Jolly Inn #2.  On the road south of Pendragon.
+
+Dungeon locations are listed below.  I had to use some weird characters 
+since I ran out--oh well.
+
+  S : Giant Caves
+  T : Gnome Caves
+  U : Dragon Caves
+  V : Pendragon Town Archives
+  W : Chronos's tower
+  X : Lord Wood's camp, a bit northeast of Lansing.
+  Y : Dwarven Burial grounds, just west of Pendleton.
+  Z : Straw Hut, in the northeast corner.
+
+    PLANE OF LIGHT
+
+**********
+***"s"****
+***"""t"**
+**"""""""*
+**"""""""*
+*""""""""*
+*"""""""**
+*"""""****
+*""""*****
+*"""""****
+*""""""***
+**""""""**
+****""""D*
+******""**
+**********
+
+The town here is the Town of Light.  The dungeon is the castle of light.  
+You can probably flee from any combat.  Cast transportation to return to 
+the mortal plane.  Don't think you need any tips to guide you through 
+this.
+
+    EVIL PLANE OF DARK
+
+**********
+****s""***
+**"t"""***
+*"""""""**
+*"""""""**
+*""""""""*
+**"""""""*
+****"""""*
+*****""""*
+****"""""*
+***""""""*
+**""""""**
+*D""""****
+**""******
+**********
+
+  The town here is the Town of Dark.  The dungeon is the castle of dark.  
+You can probably flee from any combat.  Cast transportation to return to 
+the mortal plane.  Don't think you need any tips to guide you through 
+this.
+
+    SECOND LEVEL OF UNDERWORLD
+
+******************************
+**L""  **********"""""  ******
+**L"" " ********L""""     ****
+*LL*"t***   ****L""***    LLL*
+*LL*****     ***L"***  *  LLL*
+*LL""""       *LL"********LLL*
+*LL"""""   *  *LL"***"*"  LL**
+**L"***" ****  LL****"""  ****
+************** LL****"" ******
+*LL"""  D***** L*****"" LLL***
+*L********** ********** LLLL**
+*L**""* ***   ****""""***LLL**
+*LL"""         LL""""   LLLL**
+***""""*    ** LL"     ***LL**
+******************************
+
+  The way through is pretty obvious.  You'll enter at the Town of Death 
+in the upper left.  The passage then winds;  there's nothing tricky 
+except remembering to heal your party after each time it goes through 
+lava.  You can heal while on the lava and not get burned twice doing so.  
+Of course you want to heal up before you enter the final dungeon, 
+Nikademus's castle.
+
+  DUNGEONS
+
+    There are some basic rules for the dungeon ledger.  The more 
+obviously acceptable ones are used throughout, but the more specific 
+ones are listed with that dungeon.
+
+X = wall
+  = secret door
+| = door
+- = door
+! = planned combat
+: = trap
+; = character hears monsters, go back?
+
+    Dungeon maps may not have borders on all sides, but I wanted to keep 
+the dungeon's original dimensions(24x30.)  And I was too lazy and 
+worried about mistakes to convert everything anyway.
+
+    DUNGEON 1: PENDRAGON TOWN ARCHIVES
+
+ J XI   H XlX   I I I   
+ X X XXXX X X           
+ X X X  H X X           
+JX I X XXXX XXXXI I I   
+ XXXXX1 |     | IXXXXX~X
+ XR  XXXX     XXXXZ  X X
+ X   ;  ;     ;  gB  X  
+KX   X XXXXXXXXX X   XX 
+ XXXXX XY  XS  X XXXXX A
+ XS  X     Xo  ; XR  X X
+ X$    X   X   X ;   X  
+KX   X XXXXXXXXX X   XX ww
+ XXXXX XR  XS  X XXXXX  
+ XZ  X     X$  ~ XY  X X
+ X  B  X   X   X ;   X X
+LX   X XXXXXXXXX X   X  
+ XX;XX           XX-XXX 
+ XY  XX-XXX-XXX-XXS  XXA
+LX$  XY  XR  X   X  $X  
+ X   X   X   X   X   X X
+ XXXXX   X   X   XXXXX X
+ M   XXXXXXXXXXeXXXXXX X
+XXXXM   N  XA   ~  H  H 
+ O XXXXXXX X XXXXXXXXXX 
+ X   O   N X X   X 3 XXH
+ XXXXXXXXXXX f   X   XX 
+ P   P   Q X X  2X   XXb
+XXXXXXXXXX XHX   X   X  
+Xr    Q  Q X XXXXXXbXX  
+XXXXXXXXXXXX H  H H  ~ $
+
+  OVERVIEW:  There's a hard part and an easy part.  The easy part(east 
+and center) is where you get scrolls, a spell and even advice from 
+Filmon.  You also get to beat up a lot of kobolds, which helps very low-
+level adventurers.  The left side features a winding passage where you 
+get increasingly more difficult fights.  In places like that it may be 
+worthwhile to save the dungeon status after each one.  At the end is the 
+Wand of Nikademus.  If you can get it now it will save you a lot of work 
+later.
+
+  You start off in a clean marble hallway.  It opens onto a large stone 
+room with four wooden doors although the bottom two go back to the 
+hallway.  Treasure on the left includes scrolls II and III.  Damp, dark 
+stone passages head off from the upper left and right exits although 
+there is a waste disposal area in the northeast if you go right.  Weapon 
+storage room in southeast.  Special archives room, then Filmon's, next 
+to it.  The back hallway has no description.  Before the upper secret 
+door there's a room with wine and cheese on a table.
+
+A : trap, fire arrows from ceiling
+B : trap, moulten[molten on PC] lead poured from ceiling
+[ceiling -> roof on PC for A, B]
+H : encounter with kobolds/orcs
+I : encounter with scribe/ranger/wild dog
+J : encounter with kobolds/barbarians
+K : encounter with dwarves
+L : encounter with valley giants
+M : encounter with dark dwarves
+N : encounter with forest elves
+O : encounter with undead lords
+P : encounter with storm giant
+Q : encounter with great troll
+R : Small room with many useless scrolls
+S : Small room with table in back
+Y : small room with desk and writing equipment
+Z : Empty room
+
+1 : A sign reads: Warning Danger lies beyond
+[quotes but no WARNING in PC version]
+2 : Filmon.  He gives you progress reports and tells you what to do 
+next.
+  [first time:]  Filmon the wise old sage speaks, "Greetings ye intrepid 
+adventurers,
+[if you transferred the characters:]
+who defeated the Black Lord of Gelnor,/who could not defeat the Black 
+Lord,
+who destroyed the orb of Ferronrah,/who could not destroy the orb,
+prepare yourselves for the greatest challenge of all, to defeat 
+Nikademus.
+I choose you because you have proven yourselves worthy of the task.
+[if untransferred:]
+I choose you because Nikademus would never suspect you.
+You must begin by rescuing Kilmor who is imprisoned in the Hall of 
+Giants tothe south, then return to me."
+  [2nd time through:]
+    "Listen to Filmon of Pendragon" , etc.
+  [after finding Kilmor:]  You must go to the dwarven burial     
+grounds, to the west, to attend the   funeral of Kilmor. Return to me 
+after you attend the ceremony and meet with the guests."
+  [after going to the funeral:]
+  "You should go to the east where the Chamber of Chronos, keeper of all 
+timeand dimensions, can be found. He will take you to the plane of light 
+where  you can find the Castle of Light.
+  "You should visit the castle but not harm anything there, unless you 
+are attacked, for it is a place of great  goodness. Talk to the 'Light 
+Fairy' and return to me. Remember it is terribly evil to destroy 
+anything in the Light Castle."  
+  [once you have the light key:]
+  "You should return to the Chambers of Chronus, to the east, but this 
+time seek the way to the Castle of Darknesswhich is a place of great 
+evil where Nikademus was created. Return to me once you find it."
+  [after visiting the Town of Death:]
+  "You must go to the north where the warbetween good and evil is 
+heaviest. Youshould meet Lord Wood at his camp there."
+  [after visiting Lord Wood in battle:]
+  "You must now meet Lord Wood in the Fortress of Nikademus, in the 
+Netherworld which can be accessed from the Castle of Darkness."
+3 : Here is a strange altar.
+  1) Inspect it
+  2) Destroy it
+  3) Leave
+  4) Pray on it  
+  [choose 1:]  it is strange.
+  [choose 4:]  A minor diety appears and grants you the spell of Divine 
+Aid, to be used in dungeons. 
+  [if you do it again, you get some gold.]
+4 : A metallic pedestal stands here, with a beautiful wand upon it.
+  [If you take it:]  The wand is cursed. You cannot get ridof it now.  
+
+    DUNGEON 2: GIANTS' LAIR
+
+X    X    XxXXXXIXIXXXXX
+X    ;    X XXX    IXXXX
+X    X    X XXX H  XXXXX
+XXiXXXXXXhXvXXXX XXXX   
+    X   k    BH   J     
+    k   XXXLXXXXXXXXX I 
+    X   XXXKXXXL  XXXX X
+XXXXXXXXX  M  X   X  X X
+X   X   X     X   X  X X
+X   o   M   M XX-XX  XHX
+X   XeeeX     L   |  X X
+XXXXXXKXX     XX-XXXXXAX
+XX  X  XX L   X  X  X   
+    X  XX    KX  ;  X   
+    B   X     X  X  X H 
+XX      XXXKXXXXXX  XX X
+XXXXXXXXXXXLX $ XXXXXX X
+           MX   X  J  IX
+ .......... XX-XX XXXXXX
+ ...    ... X   ~ = ~   
+ ... w  ... X XXXXX XXX 
+ ...    ... X XXXXX XXX~
+ ...    ... X X  |   |4
+ .......... X X  XX XX 9
+            X XXXXX XXXX
+XX6XXXX-XXX X ~  | 2 |  
+    X  A  X-XXX  XX XX  
+    X     X   XXXXX XXXX
+    X     X   X1 |   |  
+7   X 8 8 X   X  XX3XX  
+
+  OVERVIEW:  The southwest part is tough to get to, what with three 
+giant fights in a row to bash through.  You might even consider saving 
+this dungeon when you leave so that you don't have to fight all over 
+again several times.  You're thrown into location 9 once you walk in, 
+and you need to leave through the secret door.  Push all the buttons, 
+visit all the cells, exit through cell 3 and another secret door, then 
+leave.  The second time through you can concentrate on going after the 
+monsters.  The guagle beast by all the dots is worth fighting and I 
+don't know if resetting the dungeon gives everyone an extra constitution 
+point again.
+
+  "The Walls are wooden and the floor is dirt." --entrance and 
+miscellaneous halls.  When you slide down to the cells, they will be 
+numbered 3-6 with cell full of bones and prison cell above them.  Behind 
+the secret door the brick hallway continues until you get to where you 
+started.  First room to the side is the weapons room and then there are 
+some guard rooms before you reach the main intersection.  Four rooms of 
+slave quarters in the northwest.  Great Hall south of the main 
+intersection with guest rooms off to the east side(note a lot of fixed 
+giant encounters, so watch your step.  In fact, don't try to get in here 
+until you're fairly good.)  To the west of the hall you have a tasting 
+area and then a kitchen area and a room full of dead bones.  The 
+wrestling area is to the south.  The dark lifeless room is in the 
+southwest, the chiefs room in the south, and the captains room is in the 
+southeast.
+
+. : although this usually indicates something special, in this case, 
+it's just blank.  Probably there for effect to make the place look like 
+a wrestling ring.
+= : unbreakable lock
+v : you're sent to a cell--cell 2.
+ [script:]  You fall down a chute and slide down a narrow passage until 
+you land on a hard floor in a small cell. The hole that you fell from is 
+closed off by a trap door.        
+1 : "Kilmor was here."
+  [been here before:]  You see bloodstains on the floor here.
+  [if not:]  You have found the gaunt body of the  once great dwarf 
+Kilmor who has apparently died of starvation. Clutched in one hand is a 
+scroll written in blood.
+2 : [if you haven't pushed the buttons:]  You hear 2 horrible beasts 
+screaming.
+  [if you have:]  You see two dead beasts here.     
+3 : There are 6 buttons here. Push 1-6 or 7 to leave the buttons.  
+  [push 3 or 4:]  You see a terrible beast come out of a cell to the 
+north. It looks as if it may rip you to shreds if you approach it.
+  [push the other:]  Another beast comes out of a cell to the north and 
+immediately attacks the one in the hall. After a long battle both lie 
+dead.
+4 : Through the door you see another cell.
+5 : A giant here says, "If you wrestle theancient Guaggle Beast without 
+spells  it will give you all +1 constitution."
+  1) Okay
+  2) No
+[WARNING:  your magic gets zapped to zero if you fight here.]
+6 : [without key of light] A dark force extinguishes all of your lights 
+and pushes you out of the room.
+  [with it:]  A dark force engulfs the party and ex-tinguishes all of 
+your lights except the key of light which is glowing. The party can 
+continue into the room.
+7 : In the corner of the room floating in the air is a black skeleton 
+key. [take the dark key]
+8 : There's a large chest here.
+  1) Burn it
+  2) Carefully open it
+[choose 1:]  In the ashes you find 2 tarnished gems.  
+[choose 2:]  You set off a poison gas trap! You find 2 nice gems.
+A : trap with a slab falling if you trip it
+B : spear trab
+H : encounter with lesser wizard/viper
+I : encounter with boa constrictor/giant bee
+J : encounter with giant bee/elf
+K : encounter with valley giant
+L : encounter with storm giant
+M : encounter with cloud giant
+
+Miscellaneous unused:
+Room full of dead gnomes. 
+"Avoid the Giant's living area until  you are strong enough to fight 
+them."
+
+    DUNGEON 3: DWARVEN BURIAL GROUNDS
+
+XXXX   X   XxX $ X   XXX
+XXXX   X   X X   X   XXX
+XXXX   X   X X   X   XXX
+   XX-XXX-XX XX-XXX-XX  
+   Q CB        B   B|PC$
+   XX-XXX-XX XX-XXX-XX  
+XXXX D X   X X   X   XXX
+XXXX $ X   X X   X   XXX
+XXXXXXXXXXXXnXXXXXXXXXXX
+XXXXX              XXXXX
+XXX X              X XXX
+XX FX              X CXX
+X   X              X   X
+E   F  a  b  c  d   B   
+X   X              X   X
+XXC X              X FXX
+XXX X              X XXX
+XXXXX  e  f  g  h  XXXXX
+XXXXX              XXXXX
+DXXXX              XXXXE
+    X              X    
+    X  i  j  k  l  X    
+                        
+    X              X    
+    X              X    
+CXXXX   XX====XX   XXXXG
+XXXXX   X      X   XXXXX
+XXXXX   X      X   XXXXX
+XXXXX   X   m  X   XXXXX
+XXXXX   X      X   XXXXX
+
+  OVERVIEW:  This dungeon is a cute reunion from former Phantasie games.  
+You'll find a lot of side encounters with dwarves but this won't turn 
+the main dialogs against you.  The best treasure is the one in the east 
+and the one in the west is actually an empty chest.
+  You can't actually get anywhere here until you complete the giants' 
+dungeon, because they won't know Kilmor is dead, and they can't hold the 
+funeral for him.  After the funeral there's not much to do here, but you 
+might as well have a few low-level fights and some treasure, 
+particularly in the northeast.
+
+  There is an elegant gold hallway north of the Large Cathedral Area.  
+The small rooms in the north are small dark Dwarven Burial Tombs.  The 
+northeast exit from the cathedral area leads to a small ornate side 
+temple and the rest are empty rooms.
+
+B : encounter with dwarves
+C : encounter with dwarves, dwarf lords
+D : encounter with undead dwarves
+E : encounter with kobolds, dark dwarves
+F : encounter with priests
+G : encounter with BEEPING BLOBS, my favorite monster.
+Q : I was unable to open this lock, but there's nothing behind according 
+to the disk info.
+= : To the south lies Kilmor in a small casket
+a : Turak the Cleric and his party are sitting here
+b : The Wood Elf Princess Charista and her court sit here.
+c : Lefrod, Elf Prince, and his men are here.
+d : High Lord Argon & his entourage sit here.
+e : Filmon and some other wise aged sages are sitting here. "I am glad 
+you made it here" he says.
+f : Lord Wood of Gelnor and Lady Katherine sit here.
+g : Pedaloe and other halflings are here.
+h : Here sits Pelzer and other important gnomes.
+i : Kilmor's parents and immediate family are sitting here.
+j : Kilmor's friends Clindroy and Lord Corin Stonepoint sit here.
+k : Your seat.
+  [script:]
+    This area is reserved for your party.
+    1) Take your seat
+    2) Look around
+  [choose 1:]
+    The ceremony begins. An aged dwarf walks to the front of the room 
+and speaks.   
+    Suddenly a huge, black robed figure appears next to him and begins 
+to cast powerful flamebolts and other spells on the guests.   
+    The aged dwarf and many of the guest liecharred and burned, 
+scattered about the room. The rest of the guests are fleeing the room. 
+The figure speaks...       
+"I, Nikademus, warn those who dare oppose me. I am unstoppable! What I 
+have done here today is mere child's play. Only those who turn to evil 
+can succeed in the society I am creating."
+    "I will ultimately destroy every last shread of decency and good on 
+earth. But those who turn to evil and join me will be rewarded."  He 
+begins to cast more spells.
+    Nikademus laughs long and hideously as his image slowly fades away.  
+  [now all you see is:]There are many twisted, burned bodies here./There 
+are many empty chairs here.  
+l : Here sit an odd collection of peoples from many races and many lands 
+who Kilmor met in his famous travels.
+m : In this casket lies the highly decorated body of the Dwarven hero 
+Kilmor.
+  [after the ceremony:]
+    This casket contains ashes.
+n : An usher says, "Welcome to Kilmor's funeral you may meet the guests 
+if you wish before the ceremony begins. It will start when you take your 
+seat."
+
+    DUNGEON 4: GNOME CAVES
+
+X   XxXX XXXX  X    XXX 
+    X ~   X   XX  X   X 
+    X X    X  X  XX X   
+   XX1XX X       X     X
+ X@X   XXXX X   X   XX X
+XX ! X   XXXXXXXX XXXX  
+X  XXXXX  XXXXXX  XXXX  
+  XX  $XX  XXXXXXXXXXX X
+ XX    XXX    uYXY  XX~X
+ |    XX X XXXXXXXX X   
+ X   XX  | |      X b   
+tXXXXX   X X      ~ X   
+ XX@     X X XXX  X XXXX
+  XXXXXXXX XXXXXX@X X   
+X     XX   XX   XXX b2  
+XXXXX    X  |    XXtX   
+X   XX !XXX XX   XX XXXX
+     XX X X  XX  XX XXX$
+      XKX XX  X  XX |3 #
+9    8X ;! XX XX  X X   
+     XX X  XX  X  X XXXX
+X   XXu X %$XX X^ X X   
+XXXXX  XXXXXXX XXXX b   
+X   | X           X X   
+    XXX   ~ ~ ~   XYXXXX
+      X           X4    
+X     X ~ ~~~~~ ~ X     
+X    XX           XX-X-X
+XX   XX   ~ 7 ~   X  X  
+XXX   X           X5 X 6
+
+  OVERVIEW:  there's some nice treasure in here, although the best stuff 
+comes when you get the egg from the viper.  Secret doors will allow you 
+to look around quite a bit, and there's a good test fight in the jail 
+cells(a great beast who hides a rather good bow.)  Yes, it's only one 
+item you get from the viper, but the Old Bow is the best non-God bow in 
+the game, so it counts extra.  It's worth shuttling back and forth, 
+resetting the dungeon, etc.
+
+  The gnomes won't turn unfriendly even though there are all sorts of 
+encounters with them, so don't worry about that.  The main object here 
+is to pick up spell 57 although if you can get the gnome bows that are 
+lying around, more power to you!
+
+  A secret door to the east of the main entry leads to a cavern.  The 
+main hallway is a "stone lined hallway."  Guard room is to the 
+northwest.  Below that is a gnome temple where you find Scroll VI.  To 
+the east are two sleeping areas and below them is a wizard's lab.  The 
+big room in the south is the dining room.  Prison cells are on the right 
+wall.  The records room is in the far southeast with the sweet smelling 
+room to the left and the foul smelling one to the right.  Storage room 
+is west of wizard's lab, with the viper room west of that.  Training 
+area in the southwest.
+
+t : poison gas trap
+u : rocks-from-the-ceiling trap
+Y : huge immovable iron door
+1 : When you approach the door a covered  slit is opened.  
+[dwarf/gnome in party] A voice from the slit says, "Welcome, weary 
+travelers, to the catacombs.    Food will be served soon in the 
+diningroom". The door opens.   
+  [no dwarf/gnome in party] A voice from the slit tells you that  only 
+dwarves and gnomes are welcome.  
+2 : An elvin[sic] maiden warns you of the beastin the next cell.  
+3 : There is a great ferocious beast in the cell.          
+ [if you won the fight:]  The remains of a great beast lie in   the 
+cell.
+
+4 : Here are many boxes marked "records"   
+5 : On the table are several bottles of sweet smelling liquids.
+6 : On the table are several bottles of foul smelling liquids.
+7 : [script]
+  You are greeted by a portly gnome at  the head of the table. "Sit and 
+eat," he says as several servants bring some food. Throughout the meal 
+he tells you stories about gnomes and the catacombs, their holy place. 
+[and=& on PC]
+  Of all his stories, you remember the one about a great and terrible 
+beast he has locked in his dungeons. He also tells you that the gnomes 
+here are thegreatest of bow makers. When you ask about obtaining one, he 
+issues a challenge.
+  "You must take an egg from my giant viper without attacking it or 
+being attacked" he says, "the viper room is west of here, meet me 
+there!"
+  [passage to viper room opens]
+8 : A gnome says, "Remove the egg without force"
+9 : the viper [script]
+You have approached an enormous viper nesting a single egg.
+  1)Try to snatch the egg quickly
+  2)Distract the viper from the egg
+  3)Ask the viper for the egg
+  [choose 3:] The viper says nothing.
+  [choose 1 or 2:]
+    [you have the foul bottle:]
+  The viper backs off.    You take the egg.The gnome chief congratulates 
+you for using the monster repellant and not the monster attractant.  
+  The gnome chief presents you with an  ancinet, powerful bow.
+    [you don't have it:]  The gnome says, "The air was bad, try later" 
+
+
+! : Gnome Mage/Gnome Lord encounter
+@ : Dark Gnome encounter
+# : Great Beast encounter
+$ : you find a magnificent bow(Great Bow) behind the Great Beast 
+encounter--don't confuse this with "Old Bow" you get for tricking the 
+viper.
+% : Gnome Lord encounter
+K : encounter(?)
+^ : talk with old wizard
+  [script:]
+  There is an old human wizard here.
+    1) Attack
+  [face overlords and wizards]
+    2) Talk
+  [choose 2:]
+    [you've seen him already:]  He says, "I see you have the powerful 
+ancient spell of summoning. It will be useful someday."
+    [you don't have the spell yet:]  He says, "For all your gold and 
+some  experience, I'll give you an ancient  powerful spell"
+    1)Fight
+    2)Okay
+    3)Leave
+    [choose 2:]  "It is done", he says.
+    
+Miscellany not used:  "Find the prison area. There is some- thing 
+powerful in the air there."  
+
+    DUNGEON 5 : CHRONOS'S TOWER
+
+.........XXxXX.........X
+.XXXXXXX.X...X.XXXXXXX.X
+.X.....X.X.X.X.X.....X.X
+.X.XXX.X.X-X-X.X.XXX.X.X
+.X.X1X.X.X.X.X.X.X2X.X.X
+.X.X...X.X-X-X.X...X.X.X
+.X.XXXXX.X.X.X.XXXXX.X.X
+.X.......X...X.......X.X
+.XXXXXXXXXXSXXXXXXXXXX.X
+.......................X
+XXXXXXXXXXX.XXXXXXXXXXXX
+       XXXX.XXXX$      X
+      XXXXX.XXXXX      X
+     XXX   5   XXX     X
+    XX           XX    X
+   XX             XX   X
+   |               |   X
+ XXX    X     X    XXX X
+XX.|               |.XXX
+XX.XX             XX.XXX
+XX.XXX          4XXX.XXX
+  8  XXX      3XXX     X
+     ~9XXXXXXXXXXX     X
+     XXXf X  XXe X$    X
+XXXXXXXX  X  XX  XXXXX-X
+h | |g X-XX-XXX-XXX  Xa 
+  X X  |  |  |  X |  X  
+XXX XXXXXRX  XXXX-XXXXX-
+  | |dIXIcXX-Xb |  X  X 
+  XXXIIXIIXX |  X  |  | 
+
+  OVERVIEW:  there aren't a lot of combats in here so it should be 
+pretty simple sailing, and the ones here aren't tough.  The main thing 
+is to pick up and decipher Chronos's cryptic notes strewn across the 
+bottom.  Also you'll find an important item in a side room to the main 
+place.  You can even find two scrolls.  Using the arrows to steer your 
+party is highly recommended here, as you'll be traveling down lots of 
+long corridors you already know are safe.  Chronos may give helpful 
+advice after you've progressed a bit, although he sleeps a lot, too.
+
+    The circular room in the center is "large domed room with many 
+tapestries."  To the upper left is "Dragon's room full of rags, bones 
+and hay."  To the upper right is "The bedroom of Chronos."  To the lower 
+right is "Room with a large chair, a desk and many books."  In the 
+southern area you have all "empty room" except where marked.  The 
+hallways turn to "A narrow stone hallway."
+
+    The object here is pretty simple.  Figure out how the transport 
+machine works and use it.  You can probably see from the text below how 
+it works out.  You'll want to pick up the Light Key first, though.  
+Combat is relatively rare here and you can zip around the place with the 
+arrow keys even in the spirals that contain the transportation 
+apparatus.
+
+. : A large black stone hallway.
+1 : adjust settings to leave
+  There is a machine here with many but-tons. Push them?
+  1) Yes
+  2) No
+  [if Yes:]
+  The first three buttons are labeled A,B and C.
+  1) Push A
+  2) Push B
+  3) Push C  
+  The next buttons are labeled 1-9. Push which?  
+  The last two buttons are labeled '+'  and '-'.
+  1) Push '+'
+  2) Push '-'
+2 : pull lever to activate leaving to a different plane
+  There is a large lever here marked,   "Activation Lever" Pull it?
+  1) Yes
+  2) No  
+  [if 1:]
+  You here(sic) a noise in the distance.
+3 : Chronos's Dragon[script:]
+    There's a small green dragon here eat-ing cookies and dried lizards.
+  1)Leave
+  2)Scratch his neck
+  3)Talk to him
+  (choose 1:)
+  The dragon curls up and sleeps.
+  (after which you always see:)
+  There is a sleeping dragon here.
+
+  (choose 2, random between these:)
+    "A little higher please," he says.
+    "A bit to the left," he says.      
+    "Ah, that's good", he says.
+  (choose 3:)
+    "Remember Chronos takes long naps", hesays.  
+4 : Chronos[script:]
+  [first meeting:]
+  An old man here says, "Welcome to the Chambers of Chronos, Keeper of 
+Time and Dimensions. What are you here for? Matter-Energy Transference? 
+No, no, that was Tuesday. Space Deletion? No, that's not it either."
+  "Ah yes," he says, "Interdimensional Travel, that's it, the Astral 
+Pl...   No, which plane was it?"
+  "The Plane of Light," the dragon replies, "you set  the coordinates 
+this morning."
+  "Ah yes," says Chronos then he curls up and takes a nap.
+  [return:]
+  Chronos sleeps.
+  [leave and return:]
+  Chronos says, "I've been watching you"
+  [been to neither castle:]
+  "Now, go and find the Castle of Light.The key is in my chambers."  
+  [been to Castle of Light:]
+  "You found the way to the Castle of Light"
+  "Now, go and find the Castle of Darkness, opposite of the Castle of 
+Light. The key is not around here."
+  [been to Castle of Darkness:]
+  "I cannot do anything else for you"
+5 : you see a man and a dragon to the southeast
+a : Here are many scrolls on the age of light.
+b : Here are many scrolls on the age of chaos.
+c : Here are many scrolls on the age of harmony.
+d : "Age of Beasts" scrolls.
+e : Scrolls on the "First Age of Man"
+f : Scrolls on the "Second Age of Man"
+g : Scrolls on the "Age of Desstruction"[sic, fixed in PC version]
+h : This room has scrolls about the current age
+6 : The following is written on a paper onthe wall:   Monday-Time Space 
+Deletion  Tuesday-Matter Energy Transference  Wednesday-Plane of Light        
+7 : Written on the wall is the following:  Monday A7+  Tuesday B7-  
+Wednesday C2+
+8 : Light comes from a crack in the east wall
+9 : There is a bright glistening key floating in the air.
+$ : treasure.  Scroll VII in Chronus's bedroom, scroll V in his study.  
+"There is a scroll pinned to the wall."
+* : very important treasure(light key)
+
+[the text is a bit different in the PC version.  "Scrolls on the Age of 
+X are here," and you often do not have quotes.]  For practical purposes 
+these differences are negligible since the rooms contain nothing of 
+value anyway.
+
+Miscellaneous script: "Light is opposed by darkenss"
+
+    DUNGEON 6: CASTLE OF LIGHT
+
+XXXXXXXXXXXxxXXXXXXXXXXX
+XXXXXXXXXXX  XXXXXXXXXXX
+XXXXXXXXXXX  XXXXXXXXXXX
+  X X  X  X1XX  X  X X 6
+  | |  X  X  X  X  | |  
+XXX XXXX  X  X  XXXX XXX
+  X X3 X        X  X X  
+  | |  X  X  X  X  | |  
+XXX XXXXXXX  XXXXXXX XXX
+  X X  X        X  X X  
+  | |  X        X  | |  
+  X XXXX        XXXX X  
+XXX                  XXX
+  X XXXX        XXXX X  
+  | |  X        X 5| |  
+ 4X X  X        X  XXX  
+XXX XXXXXXXXXXXXXXXXXXXX
+XXX XX X          X2    
+X +8#  X XXXXXXXX X     
+X XXXXXX    +8# X X     
+X X   XXXXXXX X X X     
+X X#X X     X XXX XXXXX 
+X  7XXX XXX#X X +8# XXX 
+XXX+X XXX  7X X XXX   X 
+X   X   X X+X X   XXXXX 
+X XXXXX#X X   XXX XX X  
+X X+   7X XXXXXX+8#X X X
+X  7XXX+X +8#  X X   X X
+XXX#X X XXX XX X XXXXX X
+XXX   X     X  X       X
+
+  OVERVIEW:  There's not a lot to do here, although you'll probably want 
+to go through the maze to visit the fairy.  She doesn't have a critical 
+item but getting there does allow you to draw the map, which will be 
+useful later.  There are also statues you probably don't want to break 
+unless you want to try the evil ending, which you really can achieve any 
+time you want anyway.  There aren't many encounters here.
+
+  The Draw Bridge is the introductory room.  Then there is a white 
+marble courtyard with the passages to the east and west leading to the 
+guard rooms.  Further down the passages(bright glowing hallways) lead to 
+several bright white rooms.
+
+1 : There is a huge crystalline gate here with a large keyhole.
+  [have key of light:]
+  You cannot pick the lock or break down the gate.
+  [don't have it:]
+  The "Key of Light" opens the gate.
+2 : There is a small delicate fairy sitting on a glass mushroom.
+    1) Leave her
+    2) Attack her
+    3) Talk to her
+  [choose 3, and this happens even if you have committed evil acts:]
+  "Ho wanderers!" says the Light Fairy, "Chronos told me you would be 
+coming. It is nice to see such adventurers as yourselves fighting to put 
+down evil. It is sad that you must now go to the Castle of Darkness, a 
+place of pure evil." 
+  "You can reach it through the Plane ofDarkness just as you reached 
+this Cas-tle through the Plane of Light. Usual-ly only creatures who 
+have displayed  extreme evil can get in, but you may  get in with the 
+Key of Darkness from  the Hall of Giants."
+  "Remember to do just the opposite of  what you did to reach here & you 
+will be okay. Good luck." She flutters up into the air and waves 
+goodbye.  "It is a mirror image of the Castle of Light."
+  "Remember your steps"
+
+3 : Here is a large crystalline statue of a dwarf.
+  1) Leave it
+  2) Break it    
+  (choose 2:)  It shatters into white dust.
+4 : There is a large crystalline statue of an elf here. (see above)
+5 : Here is a large crystalline statue of a man. (see above)
+6 : [script]
+  [got the gem of light:]  On a glass table here lies a clear gem
+  [don't have it:]  There is an empty glass table here.
+7 : You see a glowing arch to the north & south
+8 : You see a glowing arch to the east and west
++ : You feel a warm glowing feeling walking under the arch.
+# : The arch begins to glow brightly and a scorching heat fills the air.
+[you take a bit of damage here.  It's nowhere near as much as you take 
+in the Castle of Dark, but check your characters just in case.  
+Unfortunately the glowing feeling doesn't heal you.]
+
+    DUNGEON 7: CASTLE OF DARK
+
+XXXyXXXXXXXxxXXXXXXXXXXX
+XXX?XXXXXXX  XXXXXXXXXXX
+XXXXXXXXXXX  XXXXXXXXXXX
+@ X X  X  XX1X  X  X X  
+  | |  X  X  X  X  | |  
+XXX XXXX  X  X  XXXX XXX
+  X X  X        X 4X X  
+  | |  X  X  X  X  | |  
+XXX~XXXXXXX  XXXXXXX XXX
+  X X  X        X  X X  
+  | |  X        X  | |  
+  X XXXX        XXXX X  
+XXX                  XXX
+  X XXXX        XXXX X  
+  | |2 X        X  | |  
+  XXX  X        X  X X3 
+XXXXXXXXXXXXXXXXXXXX XXX
+     X          X XX XXX
+  e  X XXXXXXXX X  #5+ X
+     X X #5+    XXXXXX X
+d    X X X XXXXXXX   X X
+cXXXXX XXX X     X X#X X
+bXXX #5+ X X#XXX XXX6  X
+aX   XXX X X6  XXX X+XXX
+ XXXXX   X X+X X   X   X
+  X XX XXX   X X#XXXXX X
+X X X#5+XXXXXX X6   +X X
+X X   X X  #5+ X+XXX6  X
+X XXXXX X XX XXX X X#XXX
+X       X  X     X   XXX
+
+  OVERVIEW:  This place is very similar to the castle of light.  In 
+fact, it's almost a mirror image, with that area in the upper left 
+notwithstanding.  You can break whatever you find here, and you'll get 
+some hints from it, but you do have to be careful about walking on to a 
+wrong square.  It will seriously damage(80+ hit points) each party 
+member.  At the end of the tunnel there are a few set fights before you 
+approach a pedestal.  The right choice will lead you to the second level 
+of the underworld.
+
+The opening room says "Draw bridge" and then you move to the "Black 
+marble courtyard."  There are guard rooms in the first east/west 
+corridors and then a dull black hallway after that.  It leads to several 
+black lifeless rooms.
+
+a : zombie/vampire encounter
+b : giant ghost encounter
+c : high demon/viper moth encounter
+d : "a circle on the floor is drawn in blood"["on the floor here" on the 
+PC]
+e : You are in the center of the room.    Nikademus is not here.
+    1)Leave
+    2)Place the wand on the floor
+    3)Turn around 3 times & wave the wand
+    4)Break the wand
+    5)Throw the wand at the wall
+    6)Wave the wand & say 'Straticon uble'
+    7)Wait                   
+You do not have the wand.
+  [choose 2, 5:]  The wand will not leave your hands.
+  [choose 3, 6:]  A terrible explosion!!! [teleported back to lifeless 
+room east of gate]
+  [choose 4:]  As you start to break the wand you hear a terrible 
+ripping sound and a black void appears before you and sucks you in.  
+[teleport to ?]
+  [choose 7:]  Nothing happens.
+"Don't use the wand until you're ready to withstand its terrible power."  
+y : exit to 2nd level of underworld
+? : void(I think)
+@ : if you haven't gotten the wand from the Pendragon Town Archives yet, 
+you will have a bunch of fights to go through to get here.  Otherwise 
+there will seem to be nothing in this area.  [script:]
+    There is a black statue of Nikademus here holding a wand.
+    1) Destroy the statue
+    2) Take the wand
+    3) Leave 
+  [choose 1:]  You cannot even scratch it. 
+  [choose 2:]  The wand seems to overpower you. You  feel as if you 
+cannot get rid of it.
+# : All your light is extinguished as you are totally engulfed by a 
+soul-sucking black cloud. [you went the wrong way and took a lot of 
+damage!]
++ : A cold empty feeling overcomes you.
+1 : There is a black gate here.
+  1) Leave
+  2) Knock
+  [script:]  A slit opens in the door and two beadyeyes peek out at you.  
+  ..."You haven't done enough evil deeds toenter here," a voice says.
+  ...A voice says, "You are not quite evil enough to enter here."  
+  ..."Enter evil ones," a voice says, "Welcome to the Castle of 
+Darkness.  Nikademus is not in."    
+  3) Try the lock
+  [no key of darkness:]  You cannot pick the lock. 
+  [have key of darkness:]  Your "Key of Darkness" opens the lock.As you 
+enter a voice tells you that Nikademus is not in.  
+2 : There is a black vase on a pedestal
+  1) Break it
+  2) Take it
+  3) Leave it
+  [choose 1:]
+    On the pedestal where the vase sat these words are written:
+    "Welcome     in   will    wand
+     adventurers my   be      in
+     to          evil greatly the"
+3 : There is a black urn on a pedestal
+  1) Break it
+  2) Take it
+  3) Leave  
+    On the pedestal where the urn sat these words are written:
+    "My     ways    rewarded magic
+     castle and     to       circle
+     if     destroy find     in"
+4 : There is a black jar on a pedestal
+  1) Break it
+  2) Take it
+  3) Leave      
+On the pedestal where the jar sat these words are written:
+    "You  Lord me    my
+     join Wood break room
+     me   you  the"
+[Obviously there is a secret message here.  Noting things such as how 
+"Lord Wood" probably should be kept together and "Welcome adventurers" 
+is the combination whcih makes the most sense, you can see that you pick 
+out every fourth word.  The following messsage appears:]
+    "Welcome adventurers to my castle if you join me in my evil ways and 
+destroy Lord Wood you will be greatly rewarded to find me break the wand 
+in the magic circle in my room."
+5 : There are dark ominous arches east and west
+6 : There are dark ominous arches north & south.
+
+    DUNGEON 8: LORD WOOD'S CAMP
+
+........cdxxxxxdc.......
+........cd.....dc.......
+........cd.....dc.......
+........cdddddddc.......
+........ccccccccc.......
+........................
+BBBBBBBBBBBBBBBBBBBBBBBB
+........................
+.......bbbbbbbb.........
+.......baaaaaab.........
+.......ba....ab.........
+......XXXX11XXXX........
+......X  X  X  X........
+aaaaaaX        Xdddddddd
+......X  X  X  X........
+......XXXX  XXXX........
+......X  X  X  X........
+......X        X........
+bbbbbbX4 X  X $Xaaaaaaaa
+......XXXXXXXXXX........
+...........c............
+....333....c...XXXXXXX..
+..XX=-=XX..c...XdcbadX..
+..XbbbbbX..c...XdcbadX..
+..XcccccX..c..3=dcbadX..
+..XdddddX..c..3-dcbadX..
+..XXXXXXX..c...XdcbadX..
+...........c...XdcbadX..
+...........c...XXXXXXX..
+...........c............
+
+
+  OVERVIEW:  This is a very nasty place to work through despite its 
+simple appearance.  If you poke around too long the random combats will 
+probably overcome you.  However, the place can be reloaded to pick up 
+all the treasures inside the tent a second time if you can make it 
+through.  There are four rather tough encounters you must survive to 
+leave, and I heartily recommend leaving the same way you came, so you 
+walk over squares where the encounter has been completed.  So, one west 
+of the center exit, go south, and remember when you go north from the 
+tent to be on the right side of the exit.  This is a good place for 
+finding items to boost your party, but the fights may be too tough for 
+experience building.  See the gnome or dragon caves for that instead.
+
+  There are prisons full of monsters in the south, and they are only 
+good for extra training if your party is so good you don't need it.  
+Walking around is bad enough as you can get random combats with dragon 
+kings and the like.
+
+  Inside the tent there are several descriptions.
+    Hallway: Inside the tent
+    NW room: Food storage room
+    NE room: Medical room
+    SW room: Lord Wood's
+    SE room: Munitions room
+
+$ = very good treasure indeed!
+
+. : In the midst of a huge battle
+1 : You have entered the tent. It is quiet inside.
+2 : There is a large tent to the south
+3 : A large prison full of monsters.
+4 : Lord Wood is here.  
+I believe it says "There is no one here." if your party has turned evil.
+
+**Script follows for good party:**
+    Lord Wood is sitting here. When you approach he stands up and turns 
+to greet you. "Welcome," he says.
+[If you've been here before, he throws in the following paragraph:]
+    "I cannot tell you anymore than I already have. I will repeat the 
+plan  for you."
+    "The first thing I should do is give you these two scrolls so you 
+will know what we are dealing with", he says as he hands you two 
+scrolls.
+[party receives scrolls V and XIV]
+    "I apologize if you had any difficultygetting here. As you can see 
+we are under heavy attack here today. I could keep the enemy at bay with 
+my magical powers but I am saving them for our confrontation with 
+Nikademus."
+    "It seems we must find Nikademus in the Netherworld and destroy him 
+there. If I engage him in a battle of psychic energies while you attack 
+him, we may have the strength to defeat him."
+    "You must find the Fortress of Nikademus in the Netherworld. Go 
+there and confront him. Cast the 57th spell, it will open a portal 
+through which I will come."
+    "This will surprise Nikademus and he will not have his psychic 
+defenses ready. If this plan works we will have a chance to overpower 
+him."
+[If you don't have spell 57:]
+    "If you don't have spell 57, go to theGnome Catacombs."
+    "Go now my friends, do not forget the plan. The gods will be with 
+you."
+a : encounter, overlords/cobras & wizards
+b : encounter, great trolls
+c : encounter, priests & overlords
+d : encounter, wolf & high devils
+x : exit
+
+    DUNGEON 9: NIKADEMUS'S CASTLE
+
+ 0=X    1=~    8=A    b=B   12=C   13=D   80=E   81=F   82=G   83=H   
+84=I   8.=J   d6=K   d7=L   dd=M   
+...........x............
+........................
+..XXXXXXXXXXX~XXXXXXXX..
+1.X    X       X     X5.
+..XXXX ~ XXX~XX  XXX ~..
+..~  X X X X~XX XX X X..
+..XX X X X ~~XX XX X X..
+.2X  X X X XX X     XX.4
+..X XX X   X   XXXX XX..
+..X    XXXX  X ~~~~ XX..
+..XXXXX     XX XX~XX ~..
+3.~     XXXXX  X     X3.
+..XX~XXX     XX XX~XXX..
+..K  XX 8XXX8 X XX  XX..
+..K  X  X   X   XXX XX..
+.4XXX  XX 9 XXXX X X ~.2
+..~   XXXX XXXX  ~ X X..
+..XXXX   X   7  XX X X..
+..~  X X 8XXXXXXXX X X..
+5.XX   XXX   X   X X ~1.
+..~ XXX XXXX  XX    XX..
+..X     XXXXX ~~~XXX ~..
+..XXXXX ~   X XXXXX  X..
+..X   X XXX   XX   X X..
+..X X  X   XXX   XXX X..
+..~ X~XX X     XX    X..
+..XXX~~~ XXXXXX   XXX~..
+..XXX~XX~XXXXXX~XXXXXX..
+........................
+.......................6
+
+  OVERVIEW:  This is not such a bad place to explore unless you are 
+without spell 57.  If you know where to go it's a relative breeze except 
+for the fighting Nikademus bit.  From the square NW of the building's NW 
+corner, take the following steps:
+SSSSWSSSSESSSSWSSSSESSSEESEEEESEEEESEENNEEENEENNNNWWWSWWWWWNN.  You 
+should meet up with Nikademus.  Cast a spell at him(57) and when Lord 
+Wood appears, fight Nikademus, who is easier than Lord Wood.  There's a 
+clue elsewhere in this FAQ that tells a weakness of his(doesn't happen 
+in regular combat) but I don't want to spoil it in an overview.
+
+. : outside a large black building[the building is big on the PC]
+[space] : narrow black passage.
+On the other side of 7, the description is "terrifying lifeless area"
+1 : viper moth/high demon encounter
+2 : small devil/spirit encounter
+3 : great troll encounter
+4 : dragon king encounter
+5 : wolf/high devil encounter
+6 : nothing here.  It is marked as a special square but I only fought 
+two leopards the second time through.
+7 : A cold lifeless feeling overwhelms you
+8 : Through the crack you hear a hideous laugh
+9 : this is of course the endgame encounter.  [script:]
+    You see the hideous figure of Nikademus lurking in the corner. He 
+steps out of the shadows and looks at you in a casual, unsurprised 
+manner. He seems to be concentrating on something else.
+  1)Fight
+  2)Talk to him
+  3)Cast a spell  
+[choose 2:]
+Nikademus turns towards the party and addresses you,  
+  [little or no evil:]  "I have been watching you for months," Nikademus 
+says. "You are too pure and good for me. Prepare to die fools!"     
+  [some evil:]  "I have been watching you for months,"Nikademus says. 
+"You have shown some  evil tendencies. If you prove yourselves to be 
+truly evil by defeating  Lord Wood, I will reward you greatly."       
+  [very evil:]  "I have been watching you for months," Nikademus says. 
+"You have proven to be totally evil in your actions. You may join me if 
+you pass one test first, defeat Lord Wood."        
+[choose 3:]
+Cast which spell?
+  1)#8
+  2)#24
+  3)#32
+  4)#36
+  5)#40
+  6)#49
+  7)#52
+  8)#57
+  9)#20      
+[don't choose 8:]  Your spell has no noticable effect at this distance.  
+[choose 8:]
+  [if you don't know it:]  "You do not know that spell stupid."  [STUPID 
+is eliminated in the PC version.  Heh--PC, PC.  Pun, there.]
+  [if you know it:]  A black gate suddenly appears and Lord Wood walks 
+through it into the room.  He looks at the party and shouts, "Attack 
+him! Attack Nikademus now!"       
+  His voice trembles slightly saying, "No, attack Lord Wood and I will 
+give you true greatness."    
+Lord Wood stretches both hands out toward Nikademus. Suddenly an arc of  
+blue energy forms between them as theyengage in fierce psychic combat.  
+Nikademus casts a spell creating a large ball of flames and smoke. 
+Seconds later you can distinguish the figure of Lord Wood, choking and 
+confused in the middle of the smoke.  You momentarily watch in awe of 
+the spectacle as the combat continues. A sickening charring odor fills 
+the room and jars you back to reality.  You realize you must now take 
+action...
+  1)Fight Lord Wood
+  2)Fight Nikademus
+
+  Note that NIKADEMUS IS UNDEAD if you cast spell 57.  Otherwise he is a 
+normal monster.  This helps you hugely in combat.
+
+(Stray stuff : "Have courage mighty warriors.")
+
+    DUNGEON 10: STRAW HUT
+
+XXXXXxXXXXXXXXXXXXXXXXXX
+XXX     XXXXXXXXXXXXXXXX
+XXX     XXXXXXXXXXXXXXXX
+XXX     XXXXXXXXXXXXXXXX
+XXX     XXXXXXXXXXXXXXXX
+XXXXX XXXXXXXXXXXXXXXXXX
+XXX     X     XXXXXXXXXX
+XXX           XXXXXXXXXX
+XXX     X     XXXXXXXXXX
+XXX     X1    XXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXX
+
+1 : old man gives you two attribute improvements
+
+  This dungeon, the Straw Hut, is very easy to get through.  All you 
+have to do is walk to point 1, increase your attributes, and leave.  
+Unfortunately you cannot double-dip this improvement even if you reset 
+the dungeon.  I don't believe there are any combats in this dungeon.
+
+  All squares are described as "Inside a small straw hut."
+
+  There's only one dialog, at (1).  I list it below.
+
+    ****
+  A venerable man in the corner of the room says, "Sit & rest my 
+friends, you look weak and tired."    
+  "I have some soup that will make you feel better. You may drink two 
+bowls of soup but you must all drink the same type if you are here at 
+the same time." 
+The old man suddenly grows into a hugedark shadowy figure. "I am 
+Nikademus," he snarls, "You have seen my power and how it can benefit 
+you. You would not like to see how it can harm you. If  you join me you 
+will never have to."    
+"In order, the soups are: soup of strength, soup of intelligence, soup  
+of dexterity, soup of constitution, and soup of charisma. They will help 
+you very much."
+"You may drink now or later but you will only drink two bowls total. 
+Whichdo you choose?"
+  1)Strength
+  2)Intelligence
+  3)Dexterity 
+  4)Constitution
+  5)Charisma
+  6)We will drink later
+    ****
+
+  Incidentally this dungeon was merged with the Dragons' Cave in 
+Apple/C64 versions, but they are separate and duplicate on the PC.  This 
+was probably to save memory, and the PC did not need it.  You just 
+entered in different places--the only other dungeon in the series that 
+did this was Pluto's Smallest Dungeon in Phantasie II.
+
+    DUNGEON 11:  DRAGON CAVES
+
+ 0=X   80=~   81=A   82=B   83=C   8b=D   8c=E   d7=F   d8=G   dd=H   
+e0=I   e1=J   e2=K   e3=L   
+XXXXXXXXXXXXXxXXXXXXXXXX
+XXXXXXXXX$ XX XXXXXXXXXX
+XXXXXXXXX   X    XXXXXXX
+XXXXXXXXX  aaaXX XXXXXXX
+XXXXXXXXXX  XXXX XXXXXXX
+XXXXXXXXXXXXXXX  XXXXXXX
+XXXXXXXXXXXXXXX  XXXXXXX
+XXXXXXXXXXXXXXX XXXXXXXX
+XXXXXXXXXXXXXXX  XXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXX
+XXX   XXXXXXX    aXXXXXX
+X    cbXXXXba  XXbaXXXXX
+X$   Xccba  XX XXXb XXXX
+XXX  XXXXXXXXX X    XXXX
+XXXXXXXXXXXXXX Xb   XXXX
+XXXXX  bXXXXXX X$XXXXXXX
+XXXXX Xa  XXXX XXXXXXXXX
+XXX   XX  a    XXXXXXXXX
+XXX  XXXXXXX XXXXXXXXXXX
+XXXXaXXXXXXX XXXXXXXXXXX
+XXXXbcXXXXXX  XXXXXXXXXX
+XXXXXd XXXXXXXXXXXXXXXXX
+XXXXX   XXXXXXXXXXXXXXXX
+XXXXX Xbcd XXXXXXXXXXXXX
+XXXXXXXXXd XXXXXXXXXXXXX
+XXXXXXXXddXXXXXXXXXXXXXX
+XXXXXXXd dXXXXXXXXXXXXXX
+XXXXXX$dd  XXXXXXXXXXXXX
+XXXXXXX   XXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXX
+
+  There are a lot of combats here, and they are of four different 
+magnitudes.  The tunnels are fairly straightforward to work through, and 
+there's a stash of gold in each actual room.  As you would expect, the 
+further you go into the cavern, the better the treasure.
+
+  The description is always "Cavern which smells of sulfur" and at 
+treasure the game notifies you "You have found a dragon's hoard."
+
+a : baby dragons(give club+1, statue)
+b : small dragons
+c : dragons
+d : dragon kings
+
+  CHEATING
+
+    *SIGH* well, I suppose I'm more guilty than you are for looking 
+here.  I put time into writing this section, after all.
+
+    First of all I should mention that cheating attributes up to a 
+ridiculous level can backfire.  You may not be able to learn spells, and 
+training may cost 15000 gold for the first level;  cost of training 
+varies with the abilities you've acquired.  Improving attributes to 99 
+and skills to 255 also frequently caused the Apple version to flip out 
+when I went into encounters.  I recommend 40 across the board and giving 
+one person 255 skills.
+
+    APPLE
+
+    I wasn't able to start an Apple game reasonably.  Therefore I will 
+refer you to my Phantasie II and Phantasie FAQs for that information.
+
+    COMMODORE
+
+  The duplication tricks that worked in the previous games worked here.
+  Shay Addams's "Quest for Clues" describes the process as follows, 
+although first you will need to make a backup "dummy" disk.  If you have 
+an emulator, this is not hard, and in fact you can try this trick with 
+two backups first so you don't ruin your main game if something goes 
+wrong:
+
+    1.  enter town A
+    2.  sell off the items you want to duplicate
+    3.  teleport to town B
+    4.  remove main disk, insert dummy
+    5.  teleport to town C
+    6.  remove dummy, insert main disk
+    7.  teleport to town A
+    8.  buy the new items that have mysteriously appeared in the town 
+armory's inventory!
+
+  This also would work for the Apple but probably not the PC.  However 
+it is easy enough to manipulate the PC town data files anyway.
+
+    For the Commodore editing characters can be tricky.  If going back 
+from the name offset would cause you to skip a boundary you have to, in 
+addition to changing sectors, move backwards another two bytes.  That is 
+because in each 256-byte block the Commodore has two initializing bytes 
+at the beginning.  Alternatively you can just move up from the start.  
+In any case numbers appear to be ac/54 away from each other instead of 
+aa/56 away.  In addition, the sectors jump around a bit more randomly 
+with the Commodore.  I created a bunch of characters named "AA01" 
+through "AA18" and was able to produce the byte values with a hex 
+search.
+
+Here's where to start the hacking if you can remember the slot names.
+
+
+ # | NAME | START
+---+------+------
+ 1 |15487 |15404
+ 2 |15e33 |154ae
+ 3 |15edd |1555a
+ 4 |15589 |15f06
+ 5 |15f35 |15fb0
+ 6 |15fdf |1565c
+ 7 |1568b |16008
+ 8 |16037 |160b2
+ 9 |160e1 |1575e
+10 |1578d |1610a
+11 |16139 |161b4
+12 |161e3 |15860
+13 |1588f |1620c
+14 |1623b |162b6
+15 |162e5 |15962
+16 |15991 |1620e * - note : may be 15a91
+17 |1633d |159b8 * - note : may be 15ab8
+18 |163e7 |16374
+
+19, 20 and 21, which should be elementals, aren't easily visible here.  
+But you don't need elementals to win the game, so hacking is not a big 
+deal.
+
+Here are the bytes to hack in a hex editor.  Search for the name if you 
+forget the slot.  Note the "from name start" negative values.  I've 
+sometimes put notes there but if there aren't any just change the hex 
+byte to the desired value.  I'd generally advise not giving more than 
+99(x63) as three-digit numbers could goof up the display slightly.
+
+            | FROM | FROM
+            | NAME | SLOT
+ATTRIBUTE   | START| START
+------------+------+---------------------------------------
+Strength    |-0x82 | 0x01
+Intelligence|-0x81 | 0x02
+Dexterity   |-0x80 | 0x03
+Constitution|-0x7f | 0x04
+Charisma    |-0x7e | 0x05
+Luck        |-0x7d | 0x06
+Age         |-0x7c | 0x07 This is actually Age - 17.
+Max SP      |-0x7b | 0x0a
+Cur SP      |-0x7a | 0x0b
+Max HP      |-0x79 | 0x0c
+Cur SP      |-0x78 | 0x0d
+Gold        |-0x77 | 0x0e [this is 2 bytes, high/low]
+Attack cur  |-0x6f | 0x14
+Attack pos  |-0x6e | 0x15
+Score       |-0x49 | 0x2a [on 1...100 scale]
+Experience  |-0x50 | 0x33 [this is 3 bytes, high->low]
+Race        | 0x20 | 0xa3 (see below for values)
+Item 1      | 0x15 | 0x98 [NOTE:  The C64 has a convention
+Item 2      | 0x16 | 0x99 [where 0's(no item) are first, then
+Item 3      | 0x17 | 0x9a [item number appears in
+Item 4      | 0x18 | 0x9b [increasing order.  This doesn't seem
+Item 5      | 0x19 | 0x9c [to upset game play but you should
+Item 6      | 0x1a | 0x9d [probably abide by the rules.]
+Item 7      | 0x1b | 0x9e [see item section of FAQ for which
+Item 8      | 0x1c | 0x9f [value gives which item.  Values over
+Item 9      | 0x1d | 0xa0 [0xb4 may cause an array overflow.]
+
+RACE:  A value from 0x00 to 0x0f defines the race.  Here's the table.
+0 = HUMAN
+1 = DWARF
+2 = ELF
+3 = HALFLING
+4 = GNOME
+5 = PIXIE
+6 = SPRITE
+7 = OGRE
+8 = GNOLL
+9 = TROLL
+a = KOBOLD
+b = ORC
+c = GOBLIN
+d = LIZARD MAN
+e = MINOTAUR
+f = UNDEAD
+
+To change a special item(less risky than outright editing) you can do 
+the following:
+  1) buy scroll 1(easy to find)
+  2) open up the image in a hex editor.  Just after your character's 
+name there should be the number x79 with descending numbers after it.  
+That is scroll 1.
+  3) add to that number.  To see scroll 14, add 0xd, i.e. put 0x86.  
+Save the game.  You can now read scroll x86.
+  See my section on special items to get any other item you want.  Of 
+course you can do this to more than one item at a time and even get ring 
+nine this way.
+
+    PC
+
+    Data is stored as in the Commodore, by bytes, only some items that 
+took up one byte on the Commodore take up two bytes in the PC save file.  
+That file is GAMESAVE.DAT.  Each character gets a separate 0x104 bytes 
+of data and all of a character's data comes after his name.  Again look 
+for hex values of attributes and gold and experience to modify them.  
+Relative locations of data seem about the same although some will 
+obviously be allotted more bytes in the PC version than the Commodore.
+
+  ERRATA
+
+    You can make the computer do something silly in the giants' lair.  
+Pull lever 3 or 4 and go north.  Kill the great beast that has come out 
+from the cell.  Then pull lever 4 or 3.  You'll notice that the monster 
+that appears is killed by the beast in the other cell--which you already 
+killed.
+    Demons are listed as undead but aren't in most RPG's.
+    Depending on what you do Nikademus may or may not be undead.  
+Although Lord Wood appears in one game version and starts a big ol' 
+fight, you never see him kill Nikademus, so this is inconsistent.
+    You can bring a fighter over to the underworld and back with only a 
+penalty of two months if you add him to your party at an inn.  If he 
+doesn't have any keys or gems this would seem very hard.
+    The world of Phantasie is very modern.  Not only do you have roads 
+well in advance of other RPG's, but there are banks.  And they even have 
+bank fees!  That's right.  Every time you distribute the gold(which you 
+must do when you enter a town) the gold gets rounded down to the nearest 
+multiple of the total number of shares.  In fact you may even find that, 
+if you try to split up 6000 gold equally among 6 people, you wind up 
+with 999 gold each.  Too bad society isn't advanced enough to have 
+consumer advocacy!
+
+(END OF FAQ PROPER)
+
+================================
+
+VERSIONS/CREDITS
+
+1.0.1 submitted to GameFAQs.com on 12/21/2001 after sending in a dud 
+copy the night before.  Added some info about items.
+1.0.0 submitted to GameFAQs.com on 12/17/2001.  I believe this is a very 
+adequate first draft although I imagine errors always seem to leak 
+through.
+
+Thanks to theunderdogs.org for the manual and PC images, 
+project64.c64.org, ftp://arnold.c64.org, ftp://ftp.apple.asimov.net, 
+Evin's Apple Emulator Page(which is sadly part down now) and Delorie GPP 
+freeware that allowed me to extract information from the files.  Also 
+kahei's hex editor(www.kahei.com) helped me to locate lots of data.
+
+Shay Addams's _Quest for Clues_ book was invaluable when it came to 
+checking my work.  I frequently referred to it and although I have not 
+directly quoted anything from it besides the duplication cheat, it has 
+still been a huge help and has probably influenced my solution in ways 
+unimaginable.  At the very least it saved me a lot of time as a great 
+reference guide.

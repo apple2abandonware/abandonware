@@ -1,0 +1,3058 @@
+Phantasie FAQ(Commodore 64)
+version 1.0.0
+Copyright 2001 by Andrew Schultz schultza@earthlink.net
+With notes on the Apple and PC versions
+
+Please do not reproduce for profit without permission.  This game is 
+part of my effort to help preserve the memory of old classic games.  If 
+you send me a polite note addressing me by name and asking specifically 
+for this FAQ, it will probably be accepted.
+
+Maps should be coming soon for the entire Phantasie series.
+http://members.fortunecity.com/cartographics
+
+    ****AD SPACE****
+
+If you think this FAQ is a rusty tin can on the side of the Information 
+Superhighway, this web page is a wrecked car that fell off the shoulder 
+into a ditch:
+http://www.geocities.com/SoHo/Exhibit/2762
+
+More on games some people possibly vaguely remember:
+http://www.geocities.com/SoHo/Exhibit/2762/games/games.htm
+
+================================
+
+            OUTLINE
+
+  INTRODUCTION AND QUIRKS
+
+    APPLE VS. COMMODORE
+
+  ITEM MANIFEST
+
+  MONSTER MANIFEST
+
+  SCROLLS
+
+  WALKTHROUGH
+
+    GETTING BETTER
+
+    GETTING AROUND
+
+    GETTING THROUGH
+
+  OVERWORLD MAP WITH SECTORS
+
+    ORDER OF TRAVERSAL(EXPECTED)
+
+    (0,0)
+
+    (0,1)
+
+    (0,2)
+
+    (0,3)
+
+    (1,0)
+
+    (1,1)
+
+    (1,2)
+
+    (1,3)
+
+    (2,0)
+
+    (2,1)
+
+    (2,2)
+
+    (2,3)
+
+    (3,0)
+
+    (3,1)
+
+    (3,2)
+
+    (3,3)
+
+    OLYMPIA-W
+
+    OLYMPIA-E
+
+  DUNGEONS
+
+    DUNGEON 1 : JUST OUTSIDE PELNOR
+
+    DUNGEON 2 : CATHEDRAL
+
+    DUNGEON 3 : LIZARD MEN'S CAVES
+
+    DUNGEON 4 : WOODVILLE
+
+    DUNGEON 5 : LORD WOOD'S CASTLE
+
+    DUNGEON 6 : J. R. TROLKIN'S CASTLE
+
+    DUNGEON 7 : BLEEBS' DUNGEON
+
+    DUNGEON 8 : DOSNEBIAN CLERICS' TEMPLE
+
+    DUNGEON 9 : GODS' FLOATING CASTLE
+
+    DUNGEON 10 : NIKADEMUS'S CASTLE
+
+  CHEATING
+
+  ERRATA
+
+================================
+
+  INTRODUCTION AND QUIRKS
+
+    I actually would prefer the Apple version to the PC counterpart if 
+it did not turn out all buggy.  The Commodore version which you can find 
+on Arnold works better, and I've been able to solve the game with that.
+
+  STATISTICS
+
+        CHART OF TOTAL SQUARES
+
+            |PHANTASIE     |PHANTASIE II  |PHANTASIE III |
+------------+--------------+--------------+--------------+
+OVERWORLD   |26*20*16      |26*20*9       |75*50         |
+            | =8320        | =4680        | =3750        |
+OTHERWORLD  |26*20*2       |26*20*8       |18*9*2+30*15  |
+            | =1040        | =4160        | =774         |
+DUNGEONS    |39*34*10      |39*34*8       |30*24*10      |
+            | =14260       | =10608       | =7200        |
+TOWNS       |11            |10            |17            |*
+INNS        |12            |7             |8             |*
+SCROLLS     |20            |14            |15            |*
+------------+--------------+--------------+--------------+
+TOTAL       |23620         |19448         |11724         |
+
+  APPLE VS. COMMODORE
+
+    Shay Addams's QUEST FOR CLUES tipped me off that the Phantasie map 
+is rotated 90 degrees on the Commodore from the original Apple.  It's 
+the same on the PC as on the Commodore.  The monster attributes and 
+items all seem the same, however.
+
+  ABOUT THIS DOCUMENT AND HOW IT WAS WRITTEN
+
+    This document will not attempt to explain basic rules.  You can find 
+manuals at project64.c64.org, www.theunderdogs.org, and likely many 
+other places I don't know about.  I am largely concerned with details, 
+i.e. if you do X, Y happens, or the best/most convenient way to solve 
+puzzle Z is to do W.
+    Sadly there was no PC version of Phantasie, so I had to make do with 
+the Apple for data extraction.  I mentioned the, err, quirk above and 
+every effort has been made to ensure that traces of it are ironed out in 
+this FAQ.
+    The text map is actually for the Apple, where it is easier and more 
+logical to extract sectors than the Commodore.  Yes, the rotations made 
+things a bit tough, but with appropriate fudging of variables(they'd 
+send my HS computer-science teacher into a tizzy.  Oh well!) I changed 
+the Apple maps to look like Commodore ones.  The dungeon maps are for 
+the Apple but when I ran through the game they equated over 99.99% with 
+the Commodore.
+    This document tries to explore the details of the game, so it may be 
+light on overall improving your characters.  A brief run-through showed 
+that the Phantasie series is really rather moderate, and it is 
+relatively easy to improve without getting squashed.
+
+
+  ITEM MANIFEST
+
+Theunderdogs.org and project64.c64.org have more detailed info as to 
+which items can be used.  This list was extracted from the disk image.
+
+  0(hex 0x00).NONE
+
+Begin shields.
+  1(hex 0x01).GLOVE
+  2(hex 0x02).WOOD SHLD
+  3(hex 0x03).WOOD SH+1
+  4(hex 0x04).SM SHIELD
+  5(hex 0x05).SM SHLD+1
+  6(hex 0x06).SM SHLD+2
+  7(hex 0x07).SM SHLD+3
+  8(hex 0x08).MD SHIELD
+  9(hex 0x09).MD SHLD+1
+ 10(hex 0x0a).MD SHLD+2
+ 11(hex 0x0b).MD SHLD+3
+ 12(hex 0x0c).LR SHIELD
+ 13(hex 0x0d).LR SHLD+1
+ 14(hex 0x0e).LR SHLD+2
+ 15(hex 0x0f).LR SHLD+3
+ 16(hex 0x10).GIANT SH
+ 17(hex 0x11).GNT SH +1
+ 18(hex 0x12).GNT SH +2
+ 19(hex 0x13).GNT SH +3
+ 20(hex 0x14).GOD SHLD
+
+Begin armor.
+ 21(hex 0x15).CLOTHING
+ 22(hex 0x16).ROBES
+ 23(hex 0x17).LEATHER
+ 24(hex 0x18).H LEATHER
+ 25(hex 0x19).RING MAIL
+ 26(hex 0x1a).SCALE ML
+ 27(hex 0x1b).CHAIN ML
+ 28(hex 0x1c).SPLINT ML
+ 29(hex 0x1d).BANDED ML
+ 30(hex 0x1e).PLATE ML
+ 31(hex 0x1f).CLOTH +1
+ 32(hex 0x20).ROBES +1
+ 33(hex 0x21).LEATHER+1
+ 34(hex 0x22).LEATHER+2
+ 35(hex 0x23).RING ML+1
+ 36(hex 0x24).RING ML+2
+ 37(hex 0x25).CHAIN +1
+ 38(hex 0x26).CHAIN +2
+ 39(hex 0x27).GOD ROBES
+ 40(hex 0x28).GOD ARMOR
+
+Begin weapons(non-magic.)
+ 41(hex 0x29).STICK
+ 42(hex 0x2a).KNIFE
+ 43(hex 0x2b).SM CLUB
+ 44(hex 0x2c).SM STAFF
+ 45(hex 0x2d).SM MACE
+ 46(hex 0x2e).DAGGER
+ 47(hex 0x2f).SM FLAIL
+ 48(hex 0x30).CLUB
+ 49(hex 0x31).MACE
+ 50(hex 0x32).SM HAMMER
+ 51(hex 0x33).SM AXE
+ 52(hex 0x34).STAFF
+ 53(hex 0x35).SH SWORD
+ 54(hex 0x36).FLAIL
+ 55(hex 0x37).HAMMER
+ 56(hex 0x38).PTCH FORK
+ 57(hex 0x39).SPEAR
+ 58(hex 0x3a).AXE
+ 59(hex 0x3b).SWORD
+ 60(hex 0x3c).HVY MACE
+ 61(hex 0x3d).MAUL
+ 62(hex 0x3e).TRIDENT
+ 63(hex 0x3f).LRG SPEAR
+ 64(hex 0x40).LRG AXE
+ 65(hex 0x41).MORN.STAR
+ 66(hex 0x42).PIKE
+ 67(hex 0x43).LNG SWORD
+ 68(hex 0x44).SPETUM
+ 69(hex 0x45).BARDICHE
+ 70(hex 0x46).HALBERD
+
+Begin weapons(magic.)  Note that the lower magic weapons are not as 
+powerful as the higher non-magic ones.
+ 71(hex 0x47).SM MACE+1
+ 72(hex 0x48).DAGGER+1
+ 73(hex 0x49).SM MACE+2
+ 74(hex 0x4a).DAGGER+2
+ 75(hex 0x4b).DAGGER+3
+ 76(hex 0x4c).STAFF +1
+ 77(hex 0x4d).DAGGER+4
+ 78(hex 0x4e).FLAIL +1
+ 79(hex 0x4f).SPEAR +1
+ 80(hex 0x50).AXE +1
+ 81(hex 0x51).SWORD +1
+ 82(hex 0x52).SWORD +2
+ 83(hex 0x53).SWORD +3
+ 84(hex 0x54).LRG AXE+1
+ 85(hex 0x55).SWORD +4
+ 86(hex 0x56).SWORD +5
+ 87(hex 0x57).SWORD +6
+ 88(hex 0x58).HALBERD+1
+ 89(hex 0x59).SWORD +7
+ 90(hex 0x5a).HALBERD+2
+ 91(hex 0x5b).HALBERD+3
+ 92(hex 0x5c).SWORD +10
+ 93(hex 0x5d).HALBERD+4
+ 94(hex 0x5e).HALBERD+5
+ 95(hex 0x5f).HALBERD+6
+ 96(hex 0x60).HALBERD+7
+ 97(hex 0x61).GOD KNIFE
+ 98(hex 0x62).GOD MACE
+ 99(hex 0x63).GOD AXE
+100(hex 0x64).GOD SWORD
+
+Heal potion X heals X^2 points.
+101(hex 0x65).HEAL POT1
+102(hex 0x66).HEAL POT2
+103(hex 0x67).HEAL POT3
+104(hex 0x68).HEAL POT4
+105(hex 0x69).HEAL POT5
+106(hex 0x6a).HEAL POT6
+107(hex 0x6b).HEAL POT7
+108(hex 0x6c).HEAL POT8
+109(hex 0x6d).HEAL POT9
+110(hex 0x6e).HEALING10
+
+Magic potions heal three times their point value in magic points.
+111(hex 0x6f).MAGIC 1
+112(hex 0x70).MAGIC 2
+113(hex 0x71).MAGIC 3
+114(hex 0x72).MAGIC 4
+115(hex 0x73).MAGIC 5
+116(hex 0x74).MAGIC 6
+117(hex 0x75).MAGIC 7
+118(hex 0x76).MAGIC 8
+119(hex 0x77).MAGIC 9
+120(hex 0x78).MAGIC 10
+
+The items below are scrolls and give hints about solving the game.
+121(hex 0x79).SCROLL 1
+122(hex 0x7a).SCROLL 2
+123(hex 0x7b).SCROLL 3
+124(hex 0x7c).SCROLL 4
+125(hex 0x7d).SCROLL 5
+126(hex 0x7e).SCROLL 6
+127(hex 0x7f).SCROLL 7
+128(hex 0x80).SCROLL 8
+129(hex 0x81).SCROLL 9
+130(hex 0x82).SCROLL 10
+131(hex 0x83).SCROLL 11
+132(hex 0x84).SCROLL 12
+133(hex 0x85).SCROLL 13
+134(hex 0x86).SCROLL 14
+135(hex 0x87).SCROLL 15
+136(hex 0x88).SCROLL 16
+137(hex 0x89).SCROLL 17
+138(hex 0x8a).SCROLL 18
+139(hex 0x8b).SCROLL 19
+140(hex 0x8c).SCROLL 20
+
+The items below help you to solve the game.
+141(hex 0x8d).RING I
+142(hex 0x8e).RING II
+143(hex 0x8f).RING III
+144(hex 0x90).RING IV
+145(hex 0x91).RING V
+146(hex 0x92).RING VI
+147(hex 0x93).RING VII
+148(hex 0x94).RING VIII
+149(hex 0x95).RING IX
+150(hex 0x96).--WAND--
+
+The items below are treasures.  Your best bet to find them is to kill 
+Black Knights.  Of course if you can do that, you probably won't need 
+the cash, but it's always fun to pick up more doohickeys.
+
+151(hex 0x97).QUARTZ
+152(hex 0x98).CRYSTAL
+153(hex 0x99).KEY
+154(hex 0x9a).BRONZE
+155(hex 0x9b).COPPER
+156(hex 0x9c).SAPPHIRE
+157(hex 0x9d).JADE
+158(hex 0x9e).SILVER
+159(hex 0x9f).EMERALD
+160(hex 0xa0).RING
+161(hex 0xa1).RUBY
+162(hex 0xa2).GOLD
+163(hex 0xa3).NECKLACE
+164(hex 0xa4).BRASS
+165(hex 0xa5).ORB
+166(hex 0xa6).GOLD CUP
+167(hex 0xa7).BRACELET
+168(hex 0xa8).STATUETTE
+169(hex 0xa9).CROWN
+170(hex 0xaa).EAR RINGS
+171(hex 0xab).GOLD BALL
+172(hex 0xac).GOLD KEY
+173(hex 0xad).PLATINUM
+174(hex 0xae).STATUE
+175(hex 0xaf).GOLD RING
+176(hex 0xb0).DIAMOND
+177(hex 0xb1).GOLD BOX
+178(hex 0xb2).GOLDEN OX
+179(hex 0xb3).GOLD FOX
+180(hex 0xb4).GOD RING
+
+  MONSTER MANIFEST
+
+    In future versions of Phantasie, the attributes are coded as bytes, 
+but in this one they are still encoded as text.  Therefore there is the 
+possibility for attributes above 65535.  I've got a partial list of 
+monster attributes below.
+
+MONSTER NAME      |MAX|SZ |EXP PTS|HP |TREAS |
+------------------+---+---+-------+---+------+
+          SKELETON|20 | 0 |      1|  0|   -75|
+            BANTIR| 5 | 1 |    147| 10|    35|
+        DRIP SLIME| 6 | 1 |     90|  1|     0|
+              SKUM| 2 | 1 |    409| 15|    90|
+         GIANT ANT| 6 | 1 |    107|  4|     0|
+         GIANT BEE| 6 | 1 |     71|  3|     0|
+             VIPER| 1 | 2 |    732| 20|   200|
+            COYOTE| 3 | 1 |    167| 11|     0|
+               ORC| 6 | 1 |     90|  6|    25|
+            KOBOLD| 6 | 1 |     50|  5|    15|
+            RANGER| 3 | 1 |    235| 12|    65|
+            SCRIBE| 6 | 1 |     86|  3|    30|
+  APPRENTICE DEVIL| 4 | 1 |    388| 20|   200|
+            ZOMBIE| 4 | 1 |    280| 12|   111|
+             GHOUL| 6 | 1 |    154|  5|    70|
+         CENTIPEDE| 6 | 1 |    325| 10|     0|
+      STING BEETLE| 5 | 1 |    227| 10|     0|
+              BEAR| 2 | 1 |    507| 15|     0|
+            BADGER| 3 | 1 |    381|  8|     0|
+            BABOON| 4 | 1 |    150|  5|    70|
+            GOBLIN| 2 | 1 |    850| 20|   350|
+         BARBARIAN| 4 | 1 |    220|  9|   100|
+       ILLUSIONIST| 2 | 1 |    367|  6|   150|
+        MAGIC USER| 4 | 1 |    465|  7|   200|
+    LARGE SKELETON| 2 | 1 |   1792| 22|   600|
+             WIGHT| 2 | 1 |   1820| 20|   200|
+         DEATH FLY| 1 | 1 |   3342| 56|     0|
+      SQUISHY GUNK| 3 | 1 |   1186| 14|     0|
+        KILLER BEE| 4 | 1 |    815|  8|     0|
+             SNAKE| 3 | 2 |   1018| 12|     0|
+       BABY DRAGON| 2 | 2 |   2075| 16|   300|
+             TIGER| 3 | 1 |   1130| 14|     0|
+        LIZARD MAN| 6 | 1 |    654|  8|   225|
+           TROLKIN| 6 | 1 |    941| 13|   325|
+      WITCH DOCTOR| 6 | 1 |   1081| 10|   375|
+            PRIEST| 6 | 1 |    976| 10|   350|
+             DEVIL| 2 | 2 |   6639| 30|   500|
+            WRAITH| 2 | 2 |   5411| 32|   800|
+      GIANT HORNET| 1 | 1 |   7794| 63|     0|
+      HISSING SKUZ| 5 | 1 |   2215| 14|     0|
+      DEATH BEETLE| 4 | 1 |   2628| 10|     0|
+               ASP| 1 | 3 |   5939| 56|     0|
+      GREEN DRAGON| 2 | 2 |   5330| 37|   325|
+         WERE BEAR| 6 | 1 |   2012| 13|   400|
+              OGRE| 2 | 1 |   5064| 34|   500|
+        HILL GIANT| 1 | 4 |   8214| 72|  1600|
+          SORCERER| 4 | 1 |   5736| 22|   550|
+              LORD| 3 | 1 |   5078| 23|   775|
+             DEMON| 2 | 2 |  15603| 39|  1200|
+           VAMPIRE| 1 | 3 |  23324| 70|  1800|
+             GHOST| 4 | 1 |   7749| 18|   700|
+         BLUE OOZE| 2 | 1 |   7675| 38|   800|
+            PYTHON| 1 | 4 |  15403| 77|     0|
+    FIRE ELEMENTAL| 1 | 4 |  15354| 77|     1|
+     ORANGE DRAGON| 1 | 2 |  30607| 87|  2200|
+         WERE WOLF| 3 | 1 |   5085| 18|   500|
+             TROLL| 2 | 1 |  11658| 42|  1300|
+           WARRIOR| 4 | 1 |   4301| 19|   500|
+MASTER ILLUSIONIST| 2 | 2 |  17622| 24|  1000|
+       HIGH RANGER| 3 | 1 |  12547| 27|   800|
+        HIGH DEMON| 1 | 2 |  41671| 96|  1800|
+        HIGH DEVIL| 1 | 2 |  45692|110|  2000|
+       KILLER CRUD| 1 | 1 |  24839| 83|     0|
+       KILLER WASP| 1 | 1 |  29291| 97|     0|
+            SPIRIT| 3 | 2 |  12747| 25|     0|
+   WATER ELEMENTAL| 1 | 2 |  29095|101|     0|
+       DRAGON KING| 1 | 4 |  53091|133|  2200|
+       STORM GIANT| 1 | 4 |  32560|115|  1800|
+             TITAN| 1 | 4 |  44614|122|  2000|
+       GREAT TROLL| 1 | 2 |  24258| 98|  1300|
+            WIZARD| 4 | 2 |  24979| 24|   700|
+          OVERLORD| 3 | 2 |  26099| 37|  1000|
+        BLACK LORD| 1 | 2 | 252003|375| 99999|
+       MINOR DEITY| 1 | 3 | 197319|333| 60000|
+              ZEUS| 1 | 4 |1191676|666|999999|
+     J. R. TROLKIN| 1 | 2 |  21381|125|  3000|
+      BLACK KNIGHT| 2 | 4 |   7892| 85|  2500|
+           OLD MAN| 1 | 1 |    220| 24|   300|
+       SPLAT BEAST| 4 | 1 |   1424| 19|   321|
+     ORANGE DRAGON| 1 | 2 |     80|  1|     0|
+
+Apple and Commodore statistics appear identical in Phantasie although I 
+may have overlooked typos--the major monsters, however, are equivalent.
+
+  SCROLLS
+
+    As you go through the game, you will encounter several scrolls that 
+will give you hints as to what to do in the game.  I've listed them in 
+their entirety but of course they can be major spoilers.
+
+    ****NOTE:  THESE SCROLLS ARE EXTRACTED FROM THE APPLE.  THE 
+DIRECTIONS WILL BE INCORRECT.  ROTATE THEM FOR THE COMMODORE.****
+
+Scroll 1:(1st dungeon)
++-------------------------------------+
+        THE HISTORY OF GELNOR         *
+               PART I                 *
+       FOR MANY YEARS THE ISLAND OF   *
+  GELNOR REMAINED ISOLATED FROM THE   *
+  REST OF THE WORLD. ITS PEOPLE WERE  *
+  BUSY WITH THEIR OWN PROBLEMS AND    *
+  PAID LITTLE ATTENTION TO OTHER      *
+  PLACES. THIS ISOLATION ENDED NEARLY *
+  ONE HUNDRED YEARS AGO.              *
+       THE EVIL SORCERER NIKADEMUS    *
+  BROUGHT HIS GREAT ARMY OF MEN AND   *
+  BEASTS DOWN UPON GELNOR. THIS GREAT *
+  FORCE LAID WASTE TO THE LAND AND    *
+  IT'S PEOPLE. IN A FEW SHORT DAYS IT *
+  SEEMED THAT THE BATTLE WAS ALMOST   *
+  OVER.  IN THE LAST DAYS BEFORE THE  *
+  FALL OF GELNOR A BOLD PLAN WAS      *
+  FORMED BY ITS CITIZENS.             *
+ +------------------------------------+
+
+Scroll 2:(1st dungeon)
+ +------------------------------------+
+          THE HISTORY OF GELNOR       *
+                 PART 2               *
+       IN THE LAST DAYS BEFORE THE    *
+  FALL OF GELNOR THE GREATEST WIZARDS *
+  OF THE LAND GATHERED TOGETHER AND   *
+  DEVELOPED A PLAN TO STOP THE FORCES *
+  OF NIKADEMUS.  WITH THE AID OF THE  *
+  GODS THESE NINE WIZARDS FORGED NINE *
+  MAGICAL RINGS.  THEY PLANNED TO CON-*
+  FRONT NIKADEMUS HIMSELF WITH THEIR  *
+  COMBINED POWER.                     *
+       NIKADEMUS, HOWEVER, LEARNED OF *
+  THEIR PLANS AND SENT HIS ARMY TO    *
+  THEIR HIDEOUT.  ALL OF THE WIZARDS  *
+  WERE CAPTURED AND ALL OF THE RINGS  *
+  WERE TAKEN.  NIKADEMUS AND HIS ARMY *
+  THEN FINISHED DEVASTATING GELNOR.   *
++-------------------------------------+
+
+Scroll 3:(1st dungeon)
++-------------------------------------+
+          THE HISTORY OF GELNOR       *
+                 PART 3               *
+       AFTER THE SORCERER NIKADEMUS   *
+  HAD CONQUERED GELNOR HE DECIDED TO  *
+  TAKE HIS GREAT ARMY ONWARD TO CON-  *
+  QUER OTHER LANDS.                   *
+       BEFORE HE LEFT, HOWEVER, HE    *
+  PUNISHED  THOSE WHO HAD DARED       *
+  TO OPPOSE HIM.  HE CAST A POWERFUL  *
+  CURSE UPON THE NINE WIZARDS WHO HAD *
+  PLOTTED AGAINST HIM.  THEIR BODIES  *
+  BECAME SHRIVELED AND BLACK, THEIR   *
+  MINDS WERE ROTTED AND FILLED WITH   *
+  EVIL.  THEY NOW RIDE THROUGH THE    *
+  LAND AS BLACK KNIGHTS TERRORIZING   *
+  THE CITIZENS.  ALL WHO MEET THEM    *
+  MUST SURRENDER ALL THEIR MONEY OR   *
+  DIE.  THE BLACK KNIGHTS CONTINUE TO *
+  RULE THE LAND AND COLLECT MONEY FOR *
+  NIKADEMUS TO THIS DAY.              *
++-------------------------------------+
+
+Scroll 4:
++-------------------------------------+
+          THE GELNOR TIMES            *
+           WHATS INSIDE?              *
+ TROUBLE FOR LORD WOOD..........PAGE 3*
+ GNOME HUNT TOMORROW............PAGE 4*
+ MAMA TROLL'S ELF SOUP RECIPE...PAGE 7*
+ DRAGON ISLAND DISCOVERED.......PAGE 8*
+ WEATHER SUMMONED FOR TODAY.....PAGE 9*
++-------------------------------------+
+
+Scroll 5:
++-------------------------------------+
+  TROLKIN CASTLE TO GET MAGIC DOORS   *
+      FILMON THE SAGE REPORTED TODAY  *
+ THAT THE CASTLE OF J. R. TROLKIN WAS *
+ TO RECEIVE THREE MAGICAL DOORS. ONE  *
+ FOR THE FIGHTING ARENA, ONE FOR A    *
+ DETENTION CELL, AND ONE TO HELP      *
+ GUARD THREE MAGICAL RINGS. HE DID NOT*
+ COMMENT ON HOW THE DOORS WORKED.     *
++-------------------------------------+
+
+Scroll 5:
++-----------------------------------+
+          THE MAGIC POOLS           *
+     MANY, MANY YEARS AGO, IN THE   *
+  DAYS BEFORE NIKADEMUS INVADED,    *
+  THE GODS CREATED THREE MAGICAL    *
+  POOLS.  THE POOLS BRING GOOD      *
+  FORTUNE TO THOSE WHO VISIT THEM.  *
+     THE FIRST POOL CAN BE FOUND IN *
+  THE NORTHWEST PART OF GELNOR. THE *
+  SECOND LIES SOMEWHERE IN THE EAST.*
+  THE THIRD POOL LIES EAST OF THE   *
+  STAR BY THE MYTHICAL TOWN OF      *
+  PHANTASIA.  IT IS PROTECTED BY    *
+  MAGIC AND IS NEARLY AS DIFFICULT  *
+  TO GET TO AS IT IS TO LEAVE.      *
++-----------------------------------+
+
+  [Commodore:  first pool in northeast, second in south, third north of 
+the star]
+
+Scroll 6:
++-----------------------------------+
+           J. R. TROLKIN            *
+      MANY YEARS AGO WHEN NIKADEMUS *
+  WAS INVADING GELNOR THE MEN AND   *
+  BEASTS PUT ASIDE THEIR DIFFERNECES*
+  AND JOINED TOGETHER TO FIGHT HIM. *
+  NINE GREAT WIZARDS DEVELOPED A    *
+  BRILLIANT PLAN TO STOP HIM.       *
+      A LOWLY TROLKIN, WHO WAS AN   *
+  OFFICER IN THE COMBINED ARMY OF   *
+  GELNOR, TOLD NIKADEMUS OF THE     *
+  PLAN, THUS IT FAILED.             *
+      AS A REWARD FOR THIS ACTION   *
+  THE TROLKIN WAS GIVEN A GREAT     *
+  CASTLE AND DUBBED J. R. TROLKIN   *
+  BY NIKADEMUS.  J. R. TROLKIN AND  *
+  HIS MEN HELP THE BLACK KNIGHTS TO *
+  THIS DAY.                         *
++-----------------------------------+
+
+Scroll 7:
++-----------------------------------+
+          THE NINE RINGS            *
+      WHEN NIKADEMUS OVERTOOK THE   *
+  ISLAND OF GELNOR, MANY YEARS AGO, *
+  HE CONFISCATED NINE MAGICAL RINGS.*
+  THE MAKERS OF THESE RINGS WERE    *
+  GREAT WIZARDS WHO INTENDED TO USE *
+  THEM TO DESTROY HIM.              *
+      SINCE HE COULD NOT HARM THE   *
+  RINGS, NIKADEMUS PUT THEM WHERE   *
+  THEY COULD BE KEPT SAFELY.  THREE *
+  HE LEFT AT THE CASTLE OF J. R.    *
+  TROLKIN AND THREE HE GAVE TO THE  *
+  CLERICS OF DOSNEBIA.  THE OTHER   *
+  THREE HE LOST IN A GREAT BATTLE   *
+  WITH LORD WOOD. THEY REMAIN LOST  *
+  SOMEWHERE ON GELNOR.              *
++-----------------------------------+ 
+
+Scroll 8(1st town):
++-------------------------------------+
+         THE DWARVEN DUNGEON          *
+       IN THE HILLS SOUTHWEST OF THE  *
+  CITY OF PELNOR THE DWARVEN DUNGEON  *
+  CAN BE FOUND.  IT WAS ONCE THE      *
+  CENTER OF A SMALL COMMUNITY OF      *
+  DWARVES.                            *
+       ABOUT FIFTEEN YEARS AGO ORCS   *
+  INVADED THE COMMUNITY AND DEFEATED  *
+  THE DWARVES.  THEY STILL OCCUPY THE *
+  DUNGEON AND THE SURROUNDING AREA.   *
+       IT IS SAID THAT ONLY THE LEADER*
+  OF THE DWARVES, KILMOR, AND A FEW   *
+  OTHERS ESCAPED FROM THE ORCS.       *
+                                      *
++-------------------------------------+
+
+  [On Commodore:  the dungeon is northwest.]
+
+Scroll 9(1st dungeon:)
++--------------------------------------+
+   THE TEMPLE OF THE GELNOR PRIESTS    *
+      ABOUT 140 MILES SOUTHEAST OF     *
+  PINEVILLE, ALONG THE SHORES OF THE   *
+  GREAT BAY, LIES THE TEMPLE OF THE    *
+  GELNOR PRIESTS.                      *
+      IT IS RUMORED THAT THE HIGH      *
+  PRIEST OF THE TEMPLE HAS THE POWER   *
+  OF PROPHECY, BUT FEW HAVE BEEN       *
+  ALLOWED TO SEE HIM.                  *
+      THE GELNOR PRIESTS ARE VERY      *
+  PEACEFUL AND KIND.  MANY WEARY       *
+  TRAVELERS HAVE TAKEN REFUGE AT THE   *
+  TEMPLE OVER THE YEARS.               *
++--------------------------------------+
+
+  [On Commodore:  the dungeon is southwest.]
+
+Scroll 10:
++---------------------------------+
+     CAVES OF THE LIZARD MEN      *
+    AT THE EDGE OF THE GREAT WEST-*
+  ERN FOREST, ABOUT 60 MILES EAST *
+  OF GREENVILLE, LIE THE CAVES    *
+  OF THE LIZARD MEN.  THE LIZARD  *
+  MEN ARE VERY HOSTILE AND PRIM-  *
+  ITIVE. THEY OFTEN RAID NEIGH-   *
+  BORING COMMUNITIES OF HOBBITS   *
+  AND ELVES, TAKING LOOT AND      *
+  PRISONERS.                      *
+    OTHER EVIL CREATURES LIVE IN  *
+  THE CAVES AS WELL AS THE LIZARD *
+  MEN.                            *
++---------------------------------+
+
+  [On Commodore: Great Northern forest, south of Greenville]
+Scroll 11:
++-------------------------------+
+           WOODVILLE            *
+     ON THE OCEAN, IN THE SOUTH-*
+ ERN PART OF GELNOR, THE GREAT  *
+ CITY OF WOODVILLE CAN BE FOUND.*
+ IT IS A LARGE WALLED CITY      *
+ NAMED AFTER LORD WOOD WHOSE    *
+ DESCENDENTS STILL LIVE IN GEL- *
+ NOR.                           *
+     IT WAS ONCE AN IMPORTANT   *
+ CITY OF GELNOR, BUT HAS RECENT-*
+ LY FALLEN TO NEGLECT.  THIEVES *
+ AND DERELICTS ROAM THE STREETS *
+ OF WOODVILLE NOW.              *
++-------------------------------+
+
+  [On Commodore:  In the Western part of Gelnor]
+
+Scroll 12:
++-------------------------------------+
+         CASTLE OF LORD WOOD          *
+      IN THE MOUNTAINS IN THE CENTRAL *
+  PART OF GELNOR LIES THE CASTLE OF   *
+  LORD WOOD.  IT IS AN ORNATE MARBLE  *
+  CASTLE WITH THE SMALL TOWN OF       *
+  HOBBITON 80 MILES TO THE NORTHWEST. *
+      LORD WOOD IS A PROTECTOR OF     *
+  GOOD AND THE CASTLE HAS BEEN A PLACE*
+  OF SAFETY FOR MANY YEARS.  RECENTLY,*
+  HOWEVER, EVIL CREATURES FROM THE    *
+  EAST HAVE BEEN CROSSING THE MOUN-   *
+  TAINS AND ATTACKING THE CASTLE AND  *
+  THE SURROUNDING AREA.               *
+      THESE CREATURES, SUCH AS TROLLS,*
+  GIANTS AND UNDEAD HAVE BEEN ORGAN-  *
+  IZED BY THE BLACK KNIGHTS TO TERROR-*
+  IZE THE CITIZENS OF GELNOR.         *
++-------------------------------------+
+
+  [On Commodore:  should say "Halflingor 80 miles to the northeast" but 
+doesn't]
+
+Scroll 13:
++---------------------------------+
+      CASTLE OF J. R. TROLKIN     *
+    THE TROLLS AND TROLKIN WHO    *
+  MAKE UP THE ARMY OF J. R. TROL- *
+  KIN ARE VERY HOSTILE AND WELL   *
+  TRAINED.  FEW UNINVITED GUESTS  *
+  RETURN FROM THE CASTLE.         *
+    THE CASTLE OF J. R. TROLKIN   *
+  LIES IN THE SOUTHERN PART OF    *
+  GELNOR, NEAR THE GREAT RIVER.   *
+  IT IS A LARGE STONE CASTLE THAT *
+  IS VERY WELL GUARDED.           *
++---------------------------------+
+
+  [On Commodore:  Western part of... the river]
+
+Scroll 14:
++---------------------------------+
+      DUNGEON OF THE BLEEBS       *
+    ACCORDING TO LEGEND THE       *
+  BLEEBS ARE FUN LOVING LITTLE    *
+  CREATURES WHO LIKE PUZZLES AND  *
+  JOKES.  THEY COME IN THREE      *
+  COLORS, BLUE, RED, AND GREEN.   *
+    THE MYTHICAL DUNGEON OF THE   *
+  BLEEBS IS SAID TO LIE ON AN     *
+  ISLAND SOMEWHERE NEAR GELNOR.   *
+    SOME BLEEBS ARE ALWAYS HONEST,*
+  SOME ARE NOT.  THE KING BLEEB   *
+  IS A VERY POWERFUL CREATURE.    *
++---------------------------------+
+
+Scroll 15:
++-------------------------------+
+         TEMPLE OF THE          *
+    EVIL DOSNEBIAN CLERICS      *
+    FAR TO THE SOUTH OF STAR-   *
+  VILLE, ON THE SHORES OF THE   *
+  GREAT BAY, THE TEMPLE OF THE  *
+  EVIL DOSNEBIAN CLERICS CAN BE *
+  FOUND.  LITTLE IS KNOWN OF    *
+  THESE POWERFUL CLERICS EXCEPT *
+  THAT THEY ARE ALLIED WITH THE *
+  MINOTAURS.                    *
+    THE ONLY INTRUDER EVER TO   *
+  RETURN FROM THE TEMPLE SAID,  *
+  "ENRAGE THE SMALL ONE."       *
++-------------------------------+
+
+  [Commodore: To the west of Starville]
+
+Scroll 16:
++---------------------------------+
+    THE FORTRESS OF THE BLACK     *
+  KNIGHTS IS LOCATED ON A LARGE   *
+  ISLAND IN NORTHERN GELNOR.  IT  *
+  IS THE PLACE FROM WHICH THE     *
+  BLACK KNIGHTS MAINTAIN THEIR    *
+  REIGN OF TERROR.                *
+    IT IS SAID THAT NIKADEMUS CAN *
+  CREATE NEW BLACK KNIGHTS AND    *
+  SEND THEM TO THE FORTRESS.      *
+  FORTRESS OF THE BLACK KNIGHTS   *
+    THE LEADER OF THE BLACK       *
+  KNIGHTS IS THE BLACK LORD WHO   *
+  ALWAYS STAYS WITHIN THE FOR-    *
+  TRESS.  HE CARRIES THE WAND OF  *
+  NIKADEMUS AND OTHER ARTIFACTS OF*
+  POWER.  NO MORTAL HAS EVER SEEN *
+  HIM AND LIVED TO TELL OF IT.    *
++---------------------------------+
+
+  [Commodore:  Eastern Gelnor]
+
+Scroll 17:
++-----------------------------------+
+                  FILMON THE SAGE   *
+      CONGRATULATIONS MY FRIENDS,   *
+  FOR YOU HAVE RECOVERED THE WAND   *
+  OF NIKADEMUS.  THIS IS THE FIRST  *
+  STEP IN THE BATTLE TO REMOVE THE  *
+  BLACK KNIGHTS FROM GELNOR.        *
+      BUT NIKADEMUS AND HIS TERRIBLE*
+  ARMY ARE STILL IN FULL FORCE IN   *
+  OTHER PLACES.  FOR GELNOR IS BUT  *
+  A TINY ISLAND IN THIS GREAT LAND. *
+      THE STRUGGLE BETWEEN GOOD AND *
+  EVIL WILL CONTINUE IN OTHER PLACES*
+  AND OTHER TIMES.  YOU BRAVE ADVEN-*
+  TURERS MUST KEEP ON FIGHTING FOR  *
+  THE RIGHTS OF ALL GOOD MEN AND    *
+  BEASTS.                           *
++-----------------------------------+
+
+Scroll 18:
++-------------------------------+
+      REPORT NUMBER THREE       *
+     FROM  FILMON THE SAGE      *
+    THE BLACK LORD SEEMS TO DRAW*
+  HIS POWER FROM HIS HOARD OF   *
+  MAGIC GEMS AND THE WAND OF    *
+  NIKADEMUS.  IF THESE WERE DES-*
+  TROYED HE WOULD PROBABLY BE   *
+  MUCH LESS POWERFUL.  HOWEVER, *
+  THE WAND CAN BE USED BY MOR-  *
+  TALS AS A VERY POWERFUL WEA-  *
+  PON AGAINST EVIL, SO IT SHOULD*
+  NOT BE DESTROYED IF POSSIBLE. *
++-------------------------------+
+
+Scroll 19:
++---------------------------------+
+        REPORT NUMBER TWO         *
+      FROM FILMON THE SAGE        *
+     THE TEMPLE OF THE EVIL DOS-  *
+  NEBIAN CLERICS IS A VERY DANGER-*
+  OUS PLACE.  TO ENTER WITHOUT    *
+  SUSPICION YOU MUST KNOW THE     *
+  SECRET WORDS: "REVEN TONEM" THE *
+  TEMPLE IS GUARDED BY THE MINO-  *
+  TAUR GOD.  HE WILL ONLY LET YOU *
+  ENTER IF HE FINDS ONE OF YOUR   *
+  PARTY MEMBERS ACCEPTABLE.       *
+     IF YOU MOVE THE SMALLEST     *
+  STATUE IN THE TEMPLE A SECRET   *
+  DOOR WILL OPEN.  IT LEADS TO    *
+  THE LIBRARY.                    *
++---------------------------------+
+
+Scroll 20:
++---------------------------------+
+           REPORT NUMBER ONE      *
+         FROM FILMON THE SAGE     *
+  IN J. R. TROLKIN'S CASTLE       *
+  THERE IS A SECRET CONTROL ROOM  *
+  WHICH CAN BE ACCESSED FROM ONE  *
+  OF TWO SECRET PASSAGES.  THE    *
+  FIRST STARTS IN J. R. TROLKIN'S *
+  ROOM.                           *
+  THE OTHER STARTS BETWEEN THE    *
+  ARENA AND THE JAIL CELL.  FROM  *
+  THIS ROOM VARIOUS GATES AROUND  *
+  THE CASTLE CAN BE OPERATED.     *
++---------------------------------+
+
+  WALKTHROUGH
+
+    GETTING BETTER
+
+  The introductory strategy where you create characters, pool gold, and 
+destroy them works pretty well.  Of course with pooling, etc. they will 
+have some gold left over, but you can always withdraw their money from 
+the bank and split it up again.  You'll lose some gold in rounding down, 
+but you won't need much to start.
+  If you can visit the pools quickly, do so.  Each one doubles a random 
+statistic for each party member, then subtracts ten.  At first you will 
+probably spend a lot of time shuttling between the first dungeon and 
+Pelnor or, alternatively, Pineville and the Cathedral(the first pool is 
+on the way there.)  Give your wizard the lion's share of the experience 
+points so that he can get the transport spell.  This will enable you to 
+zap around the country to important locations quickly.  Remember to 
+check with the mystic for your score.  It seems to be based on levels 
+attained as well as runes and rings found.
+  Running through dungeons quickly, resetting them, and trying over is a 
+good way to improve as well.  It takes less internal game time, and you 
+will figure out where the forced and tough combats are.  In addition 
+special items can be re-duplicated as you pass through again.
+  My blanket starting party for Phantasie is:  2 dwarf fighters, 2 elf 
+priests, and 2 elf wizards.  Obviously in Phantasie I you will need a 
+character of a different race, but that is off in the future and only 
+temporary anyway.  Remember clerics can develop offensive spells too, so 
+if they get low on learning, wait a bit until they can learn fireflash 
+3/4.  The spell attacking every monster is not always useful as often it 
+does much less damage than the concentrated one.
+  Inns are usually a waste of gold, but later when you get rich and are 
+trying to get through a dungeon they're easier to walk back to than 
+towns.  However, you won't be able to identify and/or sell your items to 
+improve your party.
+
+    GETTING AROUND
+
+  Age probably should not be a serious problem in Phantasie, but it is a 
+nagging one, especially for people like me who get the creeps thinking 
+about mortality in general.  I've included some tips on how to move 
+around the continent of Gelnor quickly so you spend minimal time on a 
+quest.  It seems that time passes quickly in dungeons but each unit of 
+movement costs one day.  Given this, it's pretty clear that you can save 
+a lot of time with the Town Transport spell.  I've included a list of 
+important locations and the nearest towns with their numbers below to 
+help you if you wish to get somewhere quickly.
+
+Important location  |  Closest/best town
+--------------------+---------------------------------------------------
+----
+ "Beginner" dungeon |  northwest of Gelnor(1)
+ Cathedral          |  southwest of Pineville(2)
+ Lizard Men's Caves |  south of Greenville(3)
+ Woodville          |  west of Greenville(3)--in different sector
+ Lord Wood's Castle |  south of Halflingor(5)
+ JR Trolkin's Castle|  west of Splitwater(6)--in different sector
+ Bleebs' dungeon    |  east of Northford(10)--in different sector
+ Dosnebian Clerics  |  east of Splitwater(6)--in different sector
+ Zeus's castle      |  1 east then south of Olympia(99)--in different 
+sector
+ final dungeon      |  south of Pelnor(1)--swim to get there
+ Pool # 1           |  southwest of Pineville(2)
+ Pool # 2           |  southwest of Trollport(7)
+ Pool # 3           |  east of Phantasia(8)
+
+[these directions are for the Commodore/PC]
+
+Here's a list of which towns to find where.
+
+Coordinates are standard (x,y) with Pelnor in the far northeast.
+
+Pelnor(1)-(3,3)
+Pineville(2)-(2,3)
+Greenville(3)-(1,3)
+Halflingor(4)-(1,2)
+Appleton(5)-(0,3)
+Splitwater(6)-(1,1)
+Trollport(7)-(0,1)
+Phantasia(8)-(0,2)
+Dragonor(9)-(0,0)
+Northford(10)-(2,0)
+Starville(11)-(3,1)
+Olympia(99)-Astral plane, north side.
+
+    GETTING THROUGH
+
+    Here come the spoilers.  They completely ignore the information you 
+need to figure all this out, so be warned this solution cuts stuff out.  
+The first dungeon you face will be relatively simple.  Off to the west 
+you have a pair of rooms with a button and a lever.  Pull the lever in 
+the west room, and that will unlock the unmovable door leading to the 
+room above.  Talk to the old man, and he will give you the earth rune.  
+To the south there will be some information which will help you along in 
+the game.
+    In general you will be given multiple-choice puzzles which, if you 
+answer incorrectly, can be redone if you reset the dungeon.  Better yet, 
+if you have save states on the emulator, you can check what each option 
+does(incidentally, this method helps when writing FAQs.)  It cuts down 
+on the challenge of the game, but it also adds a different, powerful 
+magic to it.  I guess.
+    The second dungeon may actually need to be saved for later.  The 
+transporters behind the secret doors(experiment a lot by running into 
+walls) are annoying to deal with, but one will push you to the bottom 
+center.  Just to the west is the air rune room.  If you can burn the box 
+you will get it, but if you're not strong enough, go find the pools and 
+the other runes.  To leave go to the end of the hallway.
+    The third rune is found in the Lizard Men's cave.  It's right near 
+the entrance(south, east, south,) but you'll need to defeat two tough 
+fire elementals, each in a separate battle, to reach the person holding 
+it.
+    The fourth rune is the water rune.  It's in Lord Wood's castle and 
+is rather tricky to pick up.  You need to have visited the other three 
+pools aboveground first.  For one you'll have needed to cast town 
+transport to Phantasia(8) and then stepped on the square which looked 
+different from the rest of the sea.  If you can, look in the Phantasia 
+armory while you're there.  You should notice a very interesting item.
+    In the meantime we've skipped over Woodville, which has some useful 
+and interesting clues.  It's the weirdest of the dungeons, with a lot of 
+town-like activity going on, and you can even fight a deity if you are 
+silly or strong enough to.
+    Now that you've got the runes you can start hunting for the 
+dungeons.  JR Trolkin's place is first.  You'll get thrown in a cell, 
+but be on the lookout for secret doors(at some places there are several 
+in a row) and if you can get to JR's room in the bottom, there's a nice 
+treasure hoard behind.  Rings 1-3 are there.
+    Now go visit the Bleebs.  These guys throw tricky little logic 
+puzzles at you.  Remember that the blue pools damage you, the red ones 
+activate green pools, and the green ones teleport you.  Write down all 
+the advice you get and examine it for contradictions.  You can eliminate 
+an assumption by saying "If bleebs of color X tell the truth, then Y, 
+then Z which is impossible."  At the end you get multiple choice 
+questions.  If you don't pass them, you're kicked to a one-way exit, but 
+you can just go back and try again having saved the dungeon.  But you'll 
+feel better if you figure the puzzle out.  Three rings here.
+    The Dosnebian Clerics--oh those tricky Dosnebians--are next.  Here 
+you'll need a minotaur in your party.  Don't worry if he gets killed.  
+Even having a dead minotaur will get you in the front door.  The object 
+here is to find Lord Wood.  There's a prison cell with three prisoners 
+at the bottom of the screen, and that's where you'll find him.  You'll 
+get two rings from him, which makes eight from the dungeons, plus the 
+one you bought in Phantasia.
+    Now you have to go to the castle of the Gods.  This is actually the 
+easiest dungeon in the game.  No secret doors, nothing.  There are six 
+small rooms adjacent to a circular hallway.  In five of them, you walk 
+to the back and are told you passed the test, or you should be if you've 
+gotten all nine rings and four runes.  In the sixth, there are two 
+undead monsters you need to fight.  Get by them and you will have passed 
+the test of battle.  After passing all tests you'll see a passage open 
+to the south.  Zeus is there;  pray to him, and he will reward your 
+party.  You will now be able to enter the final dungeon without being 
+overcome by fear.
+    The final dungeon has some combats and some multiple choice, but it 
+is not so bad.  You basically want to destroy Nikademus's wealth when 
+you come across it, and you'll need to fight through some black knights.  
+When asked, run after Nikademus.  You'll need to defeat the Black Lord, 
+his henchman, at the end of it all to win.  Filmon congratulates you 
+afterwards.
+
+    OVERWORLD MAP WITH SECTORS
+
+
+    The world map in Phantasie is divided into several sectors.  Each 
+sector is 26x20, and you can usually see it all at once, unless there 
+are areas you haven't explored.  There is no scrolling.  The text maps 
+below will attempt to show what each square does.  On the commodore many 
+important places have widths of two icons, like your party, but nothing 
+happens until you step smack in the center.  The maps below point out 
+where "smack in the center" is.
+    In general, as you progress in a counterclockwise spiral, you 
+approach more important sectors.  Of course you can cut across the water 
+when your players get to be good swimmers as well.
+
+GENERAL LEGEND
+
+  [space] indicates a void[Olympia] or a road[normal overworld]
+  . = minor vegetation
+  D = dungeon
+  T = town
+  ^ = hills
+  | = magic barrier
+  : = desert
+  ; = deep desert
+  P = magic pool
+
+Olympia North
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~         ~~~~~~~~~
+~~~~                  ~~~~
+~~~                    ~~~
+~~        T             ~~
+~~                      ~~
+~~                      ~~
+~~                      ~~
+~~                      ~~
+~~                      ~~
+~~                      ~~
+~~                      ~~
+~~                      ~~
+~~                      ~~
+~~                      ~~
+~~~                     ~~
+~~~                     ~~
+~~~                     ~~
+~~~                     ~~
+
+  Well, there's not a whole lot to do here except go south from Olympia.  
+It seems that you always run into an encounter after moving a couple of 
+squares, with some trolls, goblins and orcs.  If you want, you can flee, 
+but if you can't win that sort of fight you probably can't pass the 
+dungeon to the south.
+  You need a special spell to get here and to leave.
+
+Olympia South
+~~~                     ~~
+~~~                     ~~
+~~~                  ~~~~~
+~~~               ~~~~  ~~
+~~~           ~~~~~     ~~
+~~~       ~!~~~         ~~
+~~~  ~~~~~~             ~~
+~~~~~~                  ~~
+~~                      ~~
+~~                      ~~
+~~                  D   ~~
+~~                     ~~~
+~~                     ~~~
+~~                     ~~~
+~~~                    ~~~
+~~~~                   ~~~
+~~~~                   ~~~
+~~~~~~~               ~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  ! = Charon's boat to cross the river Styx
+
+  Not much to do here.  You can't swim across the river Styx so you have 
+to grope your way around for a passage.  It's actually one east of 
+Olympia and directly south.  The dungeon is east-south-east.  Given that 
+you can't see the terrain until you walk near it, finding the dungeon is 
+not quite as trivial as it seems.
+
+Sector (0,3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~::::~~~~~~~
+~~~~~~~~~:::::::::::::....
+~~~~~:::::::::::::::::....
+~~~~~:::::::::::::::......
+~~~~::::::::::::::::......
+~~~~:::::::::::::.........
+~~~~:::::::::::...........
+~~~~:::::::::.............
+~~~~:::::::::......^^.....
+~~~:::::::.........^^.....
+~~~:::...........^^^^^^...
+~~~..............^^^^^^...
+~~~D...............^^^^^..
+~~~     ...........^^^^^..
+~~~....      ........^^...
+~~~.........    .....^^...
+~~~~...........           
+~~~~~~...........I........
+
+  Woodville, purportedly a town in the lore but actually a dungeon by 
+the game's definition, rests on the west bank.  There is also an inn 
+which doubles as a town;  however, the only way to get here is to use 
+town transportation.  The town name is Appleton, and it is town number 
+five.
+  The dungeon has some useful stuff but you can't accomplish its main 
+purpose until you have explored other parts over land.
+  There may be a nasty combat in the hills but the monsters are still 
+manageable.  Woodville, however, is much tougher.
+
+Sector (0,2)
+~~~~~~....................
+~~~~~~~~~.................
+~~~~~~~~~~~~~.............
+~~~~~~~~~~~~~~~~~~........
+~~~~~~~~~~~~~~~~~~~~~~....
+||||||||||||||||||~~~~~~~~
+~~~~..~~~~~~P~~~~|~~~~::~~
+~~.....t~~~~~~~.~|~~~:~~~~
+~~..~~~.~~~~~~...|~~~~~~~~
+~~~~~~~~..~~~~...|~~~~~~~~
+~~~~^^~~~~~~~~.~~|~~~^^~~~
+~~~~^^~~~~~~~.~~~|~~~^^~~~
+~~^^^^^~~~~~~~~~~|~~^^^^^~
+~~^^^^^~~~~..~~~~|~~^^^^^~
+~~~^^^~~~~~~~~~~~|~~~~^^~~
+~~~^^^||||||||||||~~~~~~~~
+~~~~~|~~~~~~~~~~~~~^^^^^^^
+~~~~~|~~~~~~~~^^^^^^^^^^^^
+~~~~~|~~~^^^^^^^^^^^^^^^..
+~~~~~|^^^^^^^^^^^^^^^^....
+
+t = town of Phantasia(#8)
+
+    You've probably noticed that a certain part of this sector is 
+barricaded off.  Phantasia like Appleton in (0,3) can only be found by 
+use of a special spell.  You'll want to stop in at the pool before 
+leaving to the south.  The pool is pretty well disguised with all the 
+water around it, but it helps to know that it's against the edge of the 
+north boundary.  The programmers cheat to let you out;  once you leave 
+to the south you are standing on a barricade, making the de facto one-
+way door work.
+
+Sector (0,1)
+||||||^^^^^^^^^^^^^^^^....
+~~~~~~^^^^^^^^^^^^^.......
+~~~~~~^^^^^^^^^^..........
+~~~~~~I^^^^^^.............
+~~~~~^^^^.................
+~~~~~.....................
+~~~~~.....................
+~~~~~.....................
+~~~~~..............~~~~~~~
+~~~~.......~~~~~~~~~......
+~~~~~~~~~~~~..............
+~~~~~~~~..................
+~~~~......................
+~~~~......................
+~~~~^^^^^^.............^^^
+~~~~^^^^^^^^^^^....^^^^^^^
+~~~~^^^^^^^^^^^^^^^^^^^^^^
+~~~~~D.^^^^^^^^^^^^^^^^^^^
+~~~~~...^^^^^^^^^^^^^^^^^^
+~~~~~...^^^^^^^^^^^^^^^^^^
+
+    That dungeon on the west coast is J. R. Trolkin's.  It's not an easy 
+one to go through.  The inn is called "The Silver Star."  This is also 
+where you get kicked after exploring the restricted area in (0,2).
+
+Sector (0,0)
+~~~~~...^^^^^^^^^^^^^^^^^^
+~~~~~....^^^^^^^^^^^^^^^^^
+~~~~~.......^^^^^^^^^^^^^^
+~~~~~...........^^^^^^^***
+~~~~~.............I*******
+~~~~~..............*******
+~~~~~~.............*******
+~~~~~~..............******
+~~~~~~..............******
+~~~~~~..............******
+~~~~~~...............*****
+~~~~~~...............*****
+~~~~~~...............*****
+~~~~~~~.............******
+~~~~::~.............******
+~~~::~~.............******
+~~~~::~~~~~........*******
+~~~~~::~~~~~~~~...T***~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  The town here, Dragonor(9) is nice and all, and being by the sea it's 
+probably more beautiful than Trollport, a better place to walk to the 
+second pool from.  I mean, I'm sure the residents are fine people.  It's 
+just not a particularly useful place for determined adventurers to be, 
+that's all.  The inn is called "The Lonely Inn."
+
+Sector (1,3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+..*******~~~~~*********~~~
+..*********************...
+..*********************...
+..******^^*************...
+..*****^^^^************...
+..*****^^^^***T********...
+..*****^^^^****           
+..****^^^^^**** ********..
+...***^^^****** ********..
+...************ ********..
+...************ *******...
+....********.D. ******....
+....********... .****.....
+....********... ...*~~....
+....***         I...~~~~~~
+        ***.... ..~~~~~~~~
+...*******..... ..~~~~~~~~
+
+  "The Green Dragon Inn" sits at the three-way intersection, with the 
+lizard men's caves a few squares away.  Greenville is in the northern 
+area just off the path.
+
+Sector (1,2)
+...*******..... ..~~~~~~~~
+...*******..... ..~~~~~~~~
+....*****...... ....~~~~~~
+....***........ ......~~~~
+....****....... ......~~^^
+~....***.......T^^^^^^~~^^
+~~............^^^^^^^^^~^~
+~~.........^^^^^^^^^^^^~^~
+~~.....^^^^^^^^^^^^^^^^~~~
+~~~~^^^^^^^^^^^^^^^^^^^~~~
+~~~~^^^^^^^^^^^^^^^^^^^~~~
+~~~~^^^^^^^^^^~^^^^^^^^~~~
+~~~^^^^~~^^^D^~^^^^^^^^~~~
+~~~^^^^^~^^^^~~^^^^....~~~
+~~^^^^^^~~~~~~^^^......~~~
+~~^^^^^^^^^^^~^........~~~
+^^^^^^^^^^^..~.........~~~
+^^^^^.......~~I........~~~
+............~..........~~~
+............~..........~~~
+
+  This is a useful sector.  The town, Halflingor/Hobbiton(depending on 
+the version you have.  It's Halflingor on the C64/PC, which is 
+appropriate as there is no Hobbit character) is good to transport to.  
+It's very close to the dungeon, Lord Wood's Castle.  The inn is called 
+"The Greenleaf Inn."
+
+Sector (1,1)
+............~..........~~~
+............~..........~~~
+...........~~..........~~~
+...........~...........~~~
+........~~~~...........~~~
+......~~~........^^....~~~
+......~........^^^^....~~~
+......~........^^^^....~~~
+~~~~~~~.......^^^^^...~~~~
+.....~T    ...^^^^^^..~~~~
+.....~.... ....^^^^^..~~~~
+.....~~... ....^^^^...~~~~
+......~... ...^^^.....~~~~
+......~... ...^^^.....~~~~
+^^^^..~... ...........~~~~
+^^^^^^~...         ...~~~~
+^^^^^^~..........I ...~~~~
+^^^^^^~^.......... ..~~~~~
+^^^^^^~^.......... ..~~~~~
+^^^^^^~^^^........ ..~~~~~
+
+  Splitwater(6), the town, is a useful hub for visiting dungeons 
+including one across the water.  "The Eagle" is the inn here.
+
+Sector (1,0)
+^^^^^^~^^^........ ..~~~~~
+^^^^~~~^^^........ ..~~~~~
+^^^^^^~~~^........ ..~~~~~
+*****^^^~^........ ...~~~~
+*******^^^^....... ...~~~~
+*******^^^^.......   T....
+*******^^^^.......... ....
+********^^^^......... ....
+********^^^^^........ ....
+********^^^^^^^......     
+********^^^^^^^^^.........
+**********^^^^^^^^^^^.....
+**********^^^^^^^^^^^^^^^^
+*************^^^^^^^^^^^^^
+************P***^^^^^^^^^^
+*****************^^^^^^^^^
+*****************^^~~~~~~~
+~~~~~*********~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Trollport(7) is a good place to visit once.  Be sure to dive into that 
+magic pool.  Lots of scenic variety here.
+
+Sector (2,3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~^^^^^^~~~~~~~~~~~~~~
+....^^^^^^^^^^^^^^^^~~~~~~
+....^^^^^^^^^^^^^^^^T^^...
+....^^^^^^^^^^^^^^^^ ^^...
+....^^^^^^^^^^^^^^^^ ^....
+....^^^^^^^^^       p     
+              ^^^^^.......
+....I^^^^^^^^^^^^^........
+.....^^^^^^^^^^^^.........
+.....^^^^^^^^^^...........
+......^^^^^^^...P.........
+.......^^^^...............
+..........................
+........D...~~~~~~~.......
+~~~....~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+p = signpost
+
+Probably the second sector you'll visit in the game and a good one.  The 
+town, Pineville, is a good place to stop off while you visit the pool 
+and the cathedral, which is the dungeon.  "The Conley Inn" rests to the 
+west.
+
+Sector (2,2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~^^~~~~~~~~~~~~~~~~~~~~
+~~~~^^~~^^~~~~~~~~~~~~^^^^
+~~~~^^^^^^~~~~~~~~~~~^^^^^
+~~~^^^^^^^~~~~~~~^^^^^^^^^
+~~~^^^^^^^~~~~~^^^^^^^^^^^
+~~~~~~^^^~~~~~~^^^^^^^^^^^
+~~~~~~^^I~~~^^^^^^^^^^^^^^
+~~~~~~~~~~~~^^^^^^^^^^^^^^
+~~~~~~~~~~~~^^^^^^^^^^^^^^
+~~~~~~~~~~;;^^^;;;^^^:::::
+~~~~~~~~~~;;;;;;;;;;::::::
+~~~~~~~~~~;;;;;;;;;;::::::
+~~~~~~~~~;;;;;;;;;;;;:::::
+~~~~~~~~~..;;;;;;;;;;:::;;
+~~~~~~~~~....;;;;;;;;;;;;;
+~~~~~~~~.......;;;;;;;;;;;
+~~~~~~~~.......;;;;;;;;;;;
+~~~~~~~~........;;;;;;;;;;
+
+  Lots of desert here, and there is an anonymous inn on an island(no 
+name is given on the PC or in the data, either.)  This sector can be 
+safely ignored.  Even if used as a shortcut it is probably less time-
+efficient than a transport spell.
+
+Sector (2,1)
+~~~~~~~~........;;;;;;;;;;
+~~~~~~~~........;;;;;;;;;;
+~~~~~~~.........;;;;;;;;;;
+~~~~~~~..........;;;;;;;;;
+~~~~~~...........;;;;;;;;;
+~~~~~~...........;;;;;;;;;
+~~~~~~...........;;;;;;;;;
+~~~~~....***......;;;;;;;;
+~~~~~....*****....;;;;;;;;
+~~~~......*****...;;;;;;;;
+~~~~D.....*****...;;;;;;;;
+~~~~......*****....;;;;;;;
+~~~~.......*****...;;;;;;.
+~~~~.......*****....;;;;;.
+~~~~........*****...;;;;..
+~~~.........*****....;;;..
+~~~.........******I.......
+~~~.........******........
+~~~.........******........
+~~~.........******........
+
+  "The Star" is the name of the inn.  The very nasty Dosnebian Temple is 
+the dungeon here.  Swim west for the closest town to it.
+
+Sector (2,0)
+~~~.........******........
+~~...........*********....
+~~............************
+~~............************
+~...........~~************
+...........~~~~***********
+...........~~~~***********
+............~~************
+............~*************
+       .....~~~*****      
+.....I .......~***** *****
+......               *****
+^^^...........~*** *******
+^^^^^.........~~~* *******
+^^^^^...........~* *******
+^^^^^^^.........~~T*******
+~~~~~~~~~........~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Northford(10) is the town here.  The inn is "The Stone Plow Inn."  
+Monsters are significantly tougher here, and at this point you are 
+entering the large peninsula where all monsters are significantly 
+tougher, curving around Gelnor's northern inlet.
+  By the way, Northford isn't very north, is it?  That's what happens 
+when you rotate the map without changing names.  Ah well, they caught 
+Hobbiton.
+Sector (3,3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~****~~~
+~~~~...^^~~~~~~~~~******~~
+.......^^^^~~~~~~~**#***~~
+.......^^^^~~~~~~~******~~
+........^^^~~~~~~~******~~
+      ..^D^~~~~~~~******~~
+..... ..^^^^~~~~~********~
+**... ..^^^^.~~~*********~
+***.. ...^^.....*********~
+****.    ^^.......*******~
+****...I ^^.......*******~
+*****... ...........*****~
+*****...      T......****~
+******...............***~~
+~~~~~~~~.............**~~~
+~~~~~~~~~~~.......~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# = temple where you are resurrected/return as undead
+I = "The Red Pony"
+
+  The town is of course Pelnor(1).  The dungeon is the first one, the 
+generic underground cavern that seems to start so many games out.  The 
+temple is a cool place to visit although there are a lot of undead in 
+the area.  If you have dispell that is not a bad thing.
+
+Sector (3,2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~^^^^~~~
+^^^^^^~~~~~~~~~~~~~^^^^~~~
+^^^^^^^^^^^^~~~~~~~~^^^~~~
+^^^^^^^^^^^^^^~~~~^^^^^~~~
+^^^^^^^^^^^^^^~~~~^^^^~~~~
+^^^^^^^^^^^^^^^~~~^^^D~~~~
+^^^^^^^^^^^^^^^~~~~~^^~~~~
+^^^^^^^^^^^^^^^^^~~~~~~~~~
+^^^^^^^::::::^^^^^~~~~~~~~
+::::^^^:::::::::::~~~~~~~~
+:::::::::::::::::::::~~~~~
+:::::::::::::^^::::::~~~~~
+:::::::::::::^^::::::~~~~~
+;;:::::::::::^^:::::::~~~~
+;;;;:::::::::^^^::::::~~~~
+;;;;:::::::::^^^::::::~~~~
+;;;;;;;:::::::::::::::~~~~
+;;;;;;;;::::::::::::::~~~~
+
+  The final dungeon is here--once your party's good enough they can just 
+pop on over from Pelnor.  Taking the possible water damage is safer than 
+walking, not to mention less time-consuming.  There seem to be many 
+Black Knights in the area, and the other monsters are nasty as well.
+
+Sector (3,1)
+;;;;;;;;::::::::::::::~~~~
+;;;;;;;;;;::::::::::::~~~~
+;;;;;;;;;;;;::::::::::~~~~
+;;;;;;;;;;;;::::::::::~~~~
+;;;;;;;;;;;;;;:::::::::~~~
+;;;;;;;;;;;;;;;;:::::::~~~
+;;;;;;;;;;;;;;;;;::::::~~~
+;;;;;;;;;;;;;;;;;;:::::~~~
+;;;;;;;;;;;;;;;;;;;;:::~~~
+;;;;;;;...;;;;;;;;;;;;~~~~
+;;;;;.......;;;;;;;;;;~~~~
+;;;...........;;;;;;;;~~~~
+................;;;;;;~~~~
+.................;;;;;~~~~
+..................;;;;~~~~
+................     T~~~~
+................ ....~~~~~
+................ ....~~~~~
+................ ....~~~~~
+................ ...~~~~~~
+
+This sector is not totally pointless, as the town here, Starville(11), 
+is somewhat close to a couple of dungeons.  However it is not one of the 
+more happening places on the map, so I will let it pass with little 
+comment.
+
+Sector (3,0)
+................ ...~~~~~~
+......           ...~~~~~~
+*..... I............~~~~~~
+**.... .............~~~~~~
+****.. ............~~~~~~~
+****.. ............~~~~~~~
+****** ............~~~~~~~
+****** **........~~~~~~~~~
+****** *****.....~~~~..~~~
+       *******~~~~......~~
+**************~~~~~~~...~~
+***********~~~~~~~~~~~~~~~
+***********~~~~~~~~~~~:~~~
+*********~~~~~~~~~~~~::~~~
+*********~~~~~~~.~~~~::~~~
+***~~~~~~~~~~::~..~~~~::~~
+~~~~~~~~~~~~::~~~..~~~::~~
+~~~~~~~~~~~~::~~~~...~:~~~
+~~~~~~~~~~~~~D:~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  The dungeon of the Bleebs is tucked away in the south.  You'll want to 
+become a better swimmer before you venture there.
+  The Inn is called "The Golden Unicorn."
+
+  DUNGEONS
+
+    GENERAL LEGEND
+
+  x = exit
+  ~ = secret passage
+  | = door(need lock-pick skill)
+  - = door(need lock-pick skill)
+  ! = encounter
+  : = trap
+  ; = you hear monsters, go back? [door or open space, but probably 
+door]
+  $ = treasure.  If there is any specifically valuable treasure not in 
+the descriptions I will try to note it.
+  ^ = stairs up/down.  Not really a special location in terms of solving 
+the game.
+
+    The more detailed descriptions of the room may be described 
+qualitatively.  In general we assume a corridor is one unit wide in 
+these descriptions, and a room is anything that isn't, although most of 
+the time it will be rectangular in shape.  Rooms will have a description 
+in some corner;  on that square, nothing special happens.
+
+    In general the text, extracted from the Apple version, will be in 
+ALL CAPS.  My comments, including various sic's, will not be shouted 
+quite so loudly.
+
+    DUNGEON 1 :  JUST OUTSIDE PELNOR
+
+XXXXXXXXXXXXXXXXXXXXxXXXXXXXXXXXXX
+XXXXa            XXX XXXXXf $XXXXX
+XXXX   XXXXXXXXX XXX XXXXX   XXXXX
+XXXX  6X:XXXXXXX XXi  XX ;   XXXXX
+XXXX XXX X   XXX XX   XX X  XXXXXX
+XXXX XXX X7  8   XXX XXX XXXX!XXXX
+XXXX     X   XXX XXX XXX XXXXf  XX
+XXXX XXXXXXXXXXX XXX XXX XXXX   XX
+XXXX XXXXXXXXXXX XXX XXX XXXX   XX
+XXXX               | |! :       XX
+XXXX XXXXX XXXXXXXXX-XXXXXXXXX-XXX
+XXXX Xa  X Xi  XXXXX XXXXXXXXX XXX
+XXXX X9       AXXXXX XXXXXXXXX XXX
+XXXX X   X X   XXXe    XXXXXXX XXX
+XXXX XXXXX XXXXXXX     XXXXXXX XXX
+XXXX-XXXXX XXXXXXX X X XXXXXXX XXX
+XXXX    XX:                    XXX
+XXXX    XX XXXXXXX     XXXXXXXCXXX
+XXXXE   o  Xc  XXX X X XXX   ~ XXX
+XXXXXXXXXX X   XXX     XXXDXXXuXXX
+XXXXXXXXXX!X   XXX     XXX ~h   XX
+XXXXXXXXXX XXX;XXXXX XXXXXXX    XX
+XXXXXXXXXX XXXd  XXX XXXXXXXXXXXXX
+XXXXXXXXXX!XXX   XXX XXf  XXXXXXXX
+XX1  XXXXX XXX   ;   XX   XXXa  XX
+XXXX XXXXX!XXXXXXXXX  ;         XX
+XX3X XXXXX XXXXXXXXX-XXXXXXXX   XX
+XX X  XXXXBXXXXXXXXf  XXXXXXXX XXX
+XX XX     ?     XXX   XXXXb  X XXX
+XX XXXXXXX ~XXX  XXX-XXXXX$  | XXX
+XX XXXXXXX XXXXX  XXBXXXXX   X-XXX
+XX XXXXXXX XXXXXX0     XXXXXXX XXX
+XX XXXXXXX-XXXXXXXXX X    XXXXXXXX
+XX XXXXXXg4 XXXXXXXX XXXX  XXXXXXX
+XX XXXXXX55 XXXXXXXX XXXXX    XXXX
+XX XXXXXX $ XXXXXXXX XXXXXXXX   2X
+XX XXXXXXXXXXXXXXXXX XXXXXXXXXXXXX
+XX                 ; XXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+OVERVIEW:  This first dungeon is not a bad introduction.  It contains 
+secret doors, traps, and doors to pick.  There are also some treasures 
+and the originations of part of the story line.  The general run-around-
+and-touch-everything-to-solve paradigm is in evidence here, although all 
+you strictly need to do is to pick up the Earth Rune in the locked room, 
+so if you want to walk through quickly, you can do so.  Later on you may 
+see some information in Kilmor's room if you don't want to cheat and 
+look in this FAQ.  It leads to an information trail.
+
+To get through quickly, go south, west, and south.  The room to the west 
+has a button you should push.  Now retreat but go north before you reach 
+the door.  To the left you'll find the earth rune.  Now you can return 
+south through the large hall and visit Kilmor's after shutting off the 
+valve at the end of the bottom hallway--if washed downstream just look 
+for a secret door to the south.  You'll get items and the words "NIFLE 
+SCRO."
+
+  Specialized ledger:
+a : A PLAIN, EMPTY STONE ROOM
+b : A LIBRARY FILLED WITH SCROLLS, with the treasure reading THERE ARE 
+THREE SCROLLS HERE, IN A LANGUAGE YOU CAN READ.
+c : STORAGE ROOM WITH ROTTEN FOOD
+d : A KITCHEN WITH CRUDE UTENSILS
+e : A LARGE HALL WITH GREAT COLUMNS
+f : A MESSY BEDROOM WITH OLD COTS
+g : KILMOR'S ROOM.  The treasure here says ON A TABLE ARE SOME ITEMS.
+h : A STORAGE ROOM WITH LITTLE OF VALUE
+i : AN ABANDONED GUARD ROOM
+
+? : will be washed downstream to 0 until you have pulled the lever(THE 
+BRIDGE COLLAPSES AND THE PARTY PLUNGES INTO THE COLD MURKY WATER. AND IS 
+WASHED DOWNSTREAM.)
+
+AFTER YOU GO THROUGH THE DOOR IT CLOSES AND LOCKS.
+
+  ** A DAMP, DARK STONE TUNNEL occurs in the lower left narrow corridor.
+  ** A NATURAL CAVERN WITH MURKY WATER starts at 1 and ends at 2.
+  ** AN OLD CRUMBLING STONE HALLWAY occurs everywhere except above and 
+right of this room, where you instead see A PASSAGE WITH TORCHES ON THE 
+WALL.
+
+0 : A SMALL ROTTING BRIDGE AHEAD LEADS OVER A MURKY STREAM. -- where you 
+get washed downstream
+1 : THE CAVERN STOPS HERE. THE WATER IS BUBBLING UP THROUGH A SMALL HOLE 
+IN THE FLOOR.
+2 : THE CAVERN STOPS HERE EXCEPT FOR A THIN CRACK THROUGH WHICH THE 
+WATER EXITS.
+3 : THERE IS A LEVER HERE. A SIGN READS: "USE ONLY IN EMERGENCIES" 1-
+PULL LEVER 2-LEAVE
+4 : THIS ROOM CONTAINS A SET OF ARMOR AND A WEAPON WITH "KILMOR" WRITTEN 
+ON THEM.
+5 : ON THE WALL HERE IS WRITTEN: "NIFLE SCRO" [backwards of ELFIN ORCS]
+6 : THERE ARE ABOUT 250 GOLD PIECES HERE THAT APPEAR TO BE COATED WITH 
+LIQUID. 1-TAKE THEM 2-LEAVE
+7 : THERE IS AN OLD MAN SITTING HERE. 1-ATTACK HIM 2-TALK TO HIM 3-LEAVE
+  (choose 2:)  HE SAYS, "THERE ARE FOUR KINDS OF RUNES, EARTH, AIR, 
+WATER AND FIRE. THE RUNES REPRESENT GREAT POWER. I AM THE KEEPER OF THE 
+AIR RUNE WHICH I NOW PRESENT TO YOU." HE CASTS A STRANGE SPELL.
+8 : HERE IS A GATE WHICH YOU CAN NOT OPEN NO MATTER WHAT YOU TRY. until 
+you push the button
+  (choose 1:)  AS YOU APPROACH THE GOLD IT FADES AND YOU ARE ATTACKED.
+9 : There is a button on the wall.  1-Push it 2-Leave
+  (choose 1:)  You hear a noise in the distance.
+A : THERE IS A LEVER ON THE WALL. 1-PULL THE LEVER 2-LEAVE SELECT 1 OR 2
+  (choose 1:)  A LOUD ALARM BEGINS RINGING AND YOU HEAR SOMEONE 
+APPROACHING.
+B : THE PASSAGE CROSSES A CAVERN WHICH CONTAINS A SMALL MURKY STREAM.
+C : TO THE SOUTHWEST YOU HEAR ORC VOICES.
+D : YOU SEE SOME VERY SURPRISED ORCS.
+E : THERE IS A SCROLL HERE ON A TABLE. 1-READ IT 2-BURN IT 3-LEAVE
+  (choose 1:)  IT SAYS SOMETHING IN ORCISH ABOUT A VALVE.
+
+miscellany:
+--THERE IS A CHEST HERE. 1-OPEN ITTHE CHEST 2-LEAVE IT
+--THERE IS A HUGE IRON DOOR HERE. 1-OPEN IT 2-LEAVE
+--THE PARTY IS WASHED DOWNSTREAM BY THE HEAVY CURRENT.
+
+    DUNGEON 2 : CATHEDRAL
+
+XXXXXXXXXXXXXXxXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXX XXXXXXXXXXXdXXXXXXX
+XXX   XXXXXXXX XXXXXXXXXXX XXXXXXX
+XXb   AXXXXXXX XXXXXXXX  X XXXXXXX
+XXX   XXXXXXXXhXXXXXXXX O| XXXXXXX
+XXXX7XXXX1 X     X 2XXX  X X  XXXX
+XXX   XXX  X  X  X  XXXXXX |  XXXX
+XXX. !XXX  |     |  XXX  X X  XXXX
+XXX   XXXXXX     XXXXXX5 | XXXXXXX
+XXX! .XXX  |     |  XXX  X X  XXXX
+XXX   XXX  X  X  X  ~ XXXX |! XXXX
+XXX. !XXX3 X     X 4X XX   X  XXXX
+XXX   XXXX~XXXiXXX~XX  ~   XXXXXXX
+XXX. !XXXX~XXX XXX~XXXXX-X=XXXXXXX
+XXX   XXXX~XBX6XCX~XXXX  X  XXXXXX
+XXXX-XXXXX~   a   ~XXXX AX %XXXXXX
+XXX   XXXXXXDXEXFXXXXXXXXXXXXXXXXX
+XXX $ XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXX   XXX# XXeX   XXXfX  XXXXXXX
+XXXXc   AXX  |K X   XXX X  XXXXXXX
+XXXXX   XXXXXXX |  $XXX |  XXXXXXX
+XXXXXX XXXX   X XXXXXXX XXXXXXXXXX
+XXXXXX XXXX   | X   XXX XXXXXXXXXX
+XXXXXX=XXXX@  X |   XXX X   XXXXXX
+XXXXX   XXXX+XX X   XXX |   XXXXXX
+XXXXX   ~XXX XX X   !XX X  #XXXXXX
+XXXXXX&X~XXX XX XXXXXXX X   XXXXXX
+XXXXXX X~XX  XX XXXXXXX XXXXXXXXXX
+XXXXXX X~XX XXX            AXXXXXX
+XXXX     XX  XXXXXXXXXXXXXXXXXXXXX
+XXXX     XXX XXXXXXXX  XXX^XXXXXXX
+XXXX  *  XXX  XXXX XX XX    XXXXXX
+XXXXXXXXXXXX !XXX     XX   XXXXXXX
+XXXXXXXXXXXXX      X!XXX!XXXXXXXXX
+XXXXXXXXXXXXX XXX XX     XXXXXXXXX
+
+OVERVIEW:  This dungeon has a few teleports and starts using secret 
+doors more heavily.  It's not too hard to keep track of what teleport 
+goes where, and you also have the introduction of in-dungeon items(keys 
+to open certain doors.)  You may even have to reset this dungeon, and 
+you may want to to pick up the treasures again.  The main point is to 
+get the Earth Rune, but it's not quite clear to me how to.  Once you 
+know how to get it it is easy to check if your party is good enough to 
+get in and out.
+
+  An Elegant Marble Hallway is where you begin.  It's also seen behind 
+the secret doors by the transporters and leading to the stone room 
+preceding the High Priest's room.  The big room on top is the small 
+elegant temple of marble with "priest's room with little of value" off 
+to the sides.  Other passages are "hallway carved from stone."
+  On the right side is an empty stone room past the secret door, with 
+the teleportation room to the lower left and a small stone cell 
+everywhere else.
+  In the northwest a coffin room is below the transport room, with a 
+small crypt at the bottom.
+  In the south you have a strange misty room, the maid's bedroom(with 
+three scrolls,) janitor's room, storage room with little of value, small 
+neat kitchen, and finally the bathroom.
+  In the far south is the natural cavern(after you let the old man 
+unlock it.)
+
+  To get through quickly, go to the directly-south teleporter.  The 
+first door to the left has the earth rune--check if you're ready for it.  
+The next door to the left has a secret passage where you should wait and 
+watch the man.  There's a key behind that.  Get the key and then circle 
+around to the right--a gnome is there and tell him "nifle scro" as you 
+found in the first dungeon.  Hit the teleporter back and go to 
+teleporter C.  You can unlock the door and go to the right to avoid the 
+priests and visit the high priest.
+
+! : Orc/kobold combat
+= : need key to enter here--orcs' opens the top one, the key in the 
+southeast open the priests' door.  THE DOOR IS LOCKED [AND CANNOT BE 
+OPENED/BUT YOUR KEY OPENS IT]
+A : transports you back to center of transport hub(a)
+B : transports you to the northwest(b)
+C : transports you to the southwest(c)
+D : transports you to the northeast(d)
+E : transports you to the south(e)
+F : transports you to the south(f)
+. : empty coffin
+
+1 : A PRIEST SITTING HERE SAYS , "WOULD YOU GIVE A SMALL OFFERING?" 1-NO 
+2-YES
+  [choose 2:] HE TAKES YOUR MONEY AND SAYS "YOU MUST BE CLEAN TO SEE THE 
+HIGH PRIEST."
+2 : A PRIEST HERE SAYS TO YOU, "WELCOME TO THE TEMPLE OF THE GELNOR 
+PRIESTS, USE THE TELEPORTERS TO LOOK AROUND IF YOU WISH."
+3 : A PRIEST SITTING HERE SAYS, "THE HIGH PRIEST DOES NOT SPEAK TO 
+FOOLS."
+4 : A PRIEST SITTING HERE SAYS, "WE HAVE VERY FEW SECRETS"
+5 : SOME SLY LOOKING ORCS SAY , "WOULD YOU LIKE TO BUY A SECRET?" 1-
+ATTACK THEM 2-"YES" 3-LEAVE THEM
+  [choose 2:] THEY TAKE YOUR MONEY AND HAND YOU A KEY.
+6 : THE PASSAGES AHEAD CONTAIN MANY BLACK DOORWAYS.
+7 : TO THE SOUTH IS A LARGE ROOM WITH MANY COFFINS ALONG THE WALLS.
+8 : THE ROOM IS EMPTY EXCEPT FOR A LOCKED BOX. 1-PICK LOCK 2-BURN BOX 3-
+LEAVE
+  [choose 1:]
+NO ONE IN THE PARTY CAN PICK THE LOCK.
+  [choose 2:]
+    [not good enough:]  THE BOX WILL NOT BURN.
+    [good enough:]  THE BOX BURNS BRIGHTLY, A MAN STEPS OUT OF THE SMOKE 
+AND SAYS, "YOU ARE NOW WORTHY TO HAVE THE EARTH RUNE." THEN HE CASTS A 
+SPELL AND DISAPPEARS.
+9 : A SIGN ON THE DOOR READS, "KEEPER OF THE EARTH RUNE"
+@ : AN OLD MAN IS SWEEPING WITH A BROOM. 1-ATTACK HIM 2-IGNORE HIM
+  [choose 2:] HE UNLOCKS A SECRET DOOR ON THE SOUTHERN WALL AND WALKS 
+IN.
+# : AN OLD GNOME COOKING HERE SAYS "I LIKE ADVENTURERS, DO YOU KNOW THE 
+GREAT KILMOR ?" 1-"NO" 2-"YES" 3=-"IFLIN ROCS" 4-"NIFLE SCRO" 5-"FINLE 
+CORS" 6-"FLINI SCRO"
+  [choose 1:] "YOU SHOULD MEET HIM", HE SAYS.
+  [choose 2:] "ISN'T HE WONDERFUL?", THE GNOME ASKS.
+  [choose 3, 5, 6:] THE GNOME IGNORES YOU.
+  [choose 4:] THE GNOME REPLIES, "TELL HIM THAT NISCOSNAT SAID HELLO"
+% : SOME TROLKINS SAY, "IF YOU LET US GO WE WILL SELL YOU A VALUABLE 
+SCROLL." 1-BUY THE SCROLL 2-LEAVE 3-ATTACK
+^ : A KEY HANGS ON THE WALL HERE. [you get treasure]
+& : THE DOOR IS GUARDED BY ROBED MEN. 1-BRIBE THEM 2-ATTACK THEM 3-LEAVE
+  [best to take the secret door around them]
+* : A DISTINGUISHED PRIEST IS SITTING HERE. 1-ATTACK 2-TALK TO HIM
+  [choose 2:] THE HIGH PRIEST SPEAKS: "I HAVE A MISSION FOR YOU MY 
+FRIENDS. THE UNCLE OF THE GREAT LORD WOOD HAS BEEN CAPTURED. YOU MUST 
+RESCUE HIM AND TAKE HIM TO THE TEMPLE IN WOODVILLE. THESE TWO SCROLLS 
+WILL AID YOU." HE HANDS YOU TWO SCROLLS
+
+    DUNGEON 3 : LIZARD MEN'S CAVES
+
+XXXXXXXXxXXXX XUXfVJXXXXXXXXXXXXXX
+XXXX ZXX XXXX        6X  X XXXXXXX
+XXXX XX  XXXX XXX X  X     XXXX  X
+XXX  XXX  XXX XXXXXY X$      99@ X
+XXXX  B    XX  XXX  XX XXXXXXXXX X
+XXXXXXX   XXa   XX XXXXX  XXXXXX X
+XXXXXXXX     X XXX XX X   XX XXX X
+XXXXXXXXX XXXX0XX       X B   X  X
+XXXXXXXXX XXXX X       X  XX XX  X
+XXXXXXXXX  XXX!XX  XX X   XXaXX XX
+XXXXXX X    X !XX  XXXXXX X   X  X
+XXXXX 7 8X  X1 XX     XX  XXXXX XX
+XXXXXXXXXX XX XX YX  XXX~XX Z   XX
+XXXXXXXXXX XXXXX  X  XXX XX X XXXX
+XXX XXXX    XXXXX XXaXXX    XXXXXX
+XX    XX  XXXXXXX XX XXXXXXXXXXXXX
+XXX   XXX XX      X  XX  XXXXX XXX
+XXX  b A  XX 4XXX4XX     XX XX XXX
+XXXXX XX2  X X   XXXX~XX Z   A X X
+XXXXXXXX XXX X   ~    XXX XXXX X X
+XXXXXXX   XX 4XXXXXXXXXXX XXXX   X
+XXXXXX    XX XXXXXXXXXXXX XXX  X X
+XXXXXXX XXXX XXXXX XXXXXX  XX  XXX
+XXXX  XZXXXX XXXX  XXXXXXX XXX  XX
+XX      X  X XXX    a   B  XX Z XX
+XXX  XXXX  | XXXX  XX XXXXXXX X XX
+XXX XXXXXXXX |  X   XXXXXXXX  X  X
+XX    XXXXXX X  XX XXXXXXXXX  XXXX
+XXaXXXX    X XXXXXXXXXXXXX     XXX
+XX  XXX    | X   X  XXXXXXX    XXX
+XXX  XX$   X |   |  XXXXXX      XX
+XX X XX    X X   X  ~   |a      XX
+X    XXXXXXX X   XXXX XXXXXX XX XX
+XXX3XXXXddd| XXXXXXXX XXXXXX  XXXX
+XXX    XdddX XXXXXXXX XXXXXXXXXXXX
+XXv    XXXXXkXXXXXXX 5 XXXXXXXXXXX
+XXXXX XXXX  Y  XXXXX   XXXXXXXXXXX
+XXXXX  ~~~     XXXXXXXXXXXXXXXXXXX
+
+OVERVIEW:  The main item in here is shockingly easy to get and to leave 
+if your party is strong enough.  The item is the fire rune, and you may 
+want to have learned fireflash 4 before going in.  Once you've learned 
+it, this is the sort of combat where you should use it mercilessly.  The 
+information trail continues here, and there is some nice treasure behind 
+a secret door or two.
+
+In southwest there is a twisty maze of rock and rubble below (2).  Below 
+(Y) combat and the secret door is a passage carved from stone with a 
+fighting arena you can look into, followed by small bedrooms with old 
+cots, a training area with a glass case containing mostly wooden items, 
+and a sloppy, dirty kitchen.  Then the northeast part, not including the 
+traps, is a passage carved from stone.  In the southeast you have a 
+storage room with tasty food accessible by secret door and a small 
+torture chamber where you can get some info.  There's a meeting room 
+with a large table far to the south.  In the northeast there is also an 
+underwater passage leading to a warrior's skeleton.
+
+To get through this quickly, go south to a wall, east, north, east and 
+south.  Nail the fire elementals and get the rune.  Towards the 
+southeast you can find a torture chamber where you should rescue the 
+man, who will give you information on what to do in Woodville.
+
+Traps:  rocks and gravel fall from the ceiling, floor caves.
+! : fire elemental combat
+0 : IN THE PASSAGE TO THE SOUTH YOU SEE A HUGE FIERY MASS AND A DEEP, 
+EERIE VOICE WHISPERS, "GO AWAY WEAK ONES."
+Y : encounter with lizard men(multiple groups)
+Z : encounter with death fly/bantir
+a : encounter with squishy gunk
+1 : keeper of the fire rune.  AN OLD MAN WITH AN ORANGE ROBE IS SITTING 
+HERE. HE SAYS, "YOU ARE NOW WORTHY TO BEAR THE FIRE RUNE." HE STARTS 
+CHANTING AND WAVING HIS ARMS AND CASTS A SPELL. 
+2 : A SMALL CREVICE, WHICH YOU COULD FIT THROUGH, LEADS SOUTH.
+3 : THE CEILING CAVES IN. YOU ARE TRAPPED. [pushed south, one-way 
+passage]
+4 : THROUGH A CRACK YOU CAN SEE DOWN INTO A FIGHTING ARENA.
+5 : AS YOU ENTER THIS ROOM AN ALARM SOUNDS AND LAVA BEGINS POURING IN. A 
+DISTINGUISHED MAN AND A BEAUTIFUL MAIDEN ARE CHAINED TO THE WALLS BUT 
+YOU CAN NOT SAVE BOTH. 1-RESCUE THE MAN 2-RESCUE THE MAIDEN 3-LEAVE
+  [1:]  THE MAN SAYS, "THANK YOU, I AM THE UNCLE OF LORD WOOD, REMEMBER 
+THIS: 'STRATICON UBLE AND 48'" THEN HE COLLAPSES AND DIES.
+  [2:]  THE MAIDEN SAYS, "THANK YOU, I AM CHARISTA, AS A REWARD I GIVE 
+YOU THIS." SHE HANDS YOU AN ITEM WRAPPED IN CLOTH. [you get treasure]
+  [if you try to go back:] THE ROOM IS FULL OF LAVA.
+6 : THROUGH A CRACK IN THE WALL YOU CAN SEE THE SKELETON OF A WARRIOR.
+7 : AS YOU APPROACH THE POOL THE PARTY MEMBERS COLLASPE. YOU AWAKEN IN A 
+STRANGE ROOM.
+8 : A STRANGE POOL LIES TO THE WEST AND THE PARTY MEMBERS FEEL VERY 
+FAINT.
+9 : THE PARTY CHOKES AON THE COLD, SLIMY WATER. [everyone takes minimal 
+damage even with swimming skills]
+@ : THE PASSAGE TO THE WEST GOES UNDER WATER
+
+Unused: THE BODY OF AN ELFIN FIGHTER LIES HERE.
+
+    DUNGEON 4: WOODVILLE
+
+       X     X x X     X    X    X
+      a      X   X     X    ~    X
+       X     X   X     H    X    X
+XXXXXXXXXX-XXX   X     X    X$   X
+  X X  X         XXXX XXXXXXXXXXXX
+ e| Xg X                    X    X
+XXX X-XX                    |    X
+  X    X   '''''''          X  b X
+ f|    X   ''XXX''       XXXXXXXXX
+XXX        'XX.XX'       X   X   X
+  X    X   'XXGXX'       X   |  9X
+ g|    X   'XX.MX'''''   X   X   X
+XXX X-XX   ''XXXXXXX''   X   XXXXX
+  | X  X   '''''XXXXX'   X   X   X
+  X X  X       'XXd$X'   |   |a  X
+XXXXXXXXXX     'XXeXX'   X   X   X
+    X  7 X     ''XXX''   X   XXXXX
+    X    X     '''''''   X   X   X
+    X    X               X   |%  X
+    X    X               X   X   X
+    X    X               XXXXXXXXX
+ L KJI                   .......fX
+    X    X             XXXXXXXXXXX
+    X    X   XXX-XXX   X       XNX
+    X    X   XAX | ~   X  1  XCXhX
+    X    X   X-XXX-X   X       X.X
+    X  8 X   X | | X   |B     DXiX
+XXXXXXXXXX   XXXXXXX   |B      X.X
+  4X   X               X  X  2 XjX
+   |   X               X E    FX.X
+XXXX   X               X       X$X
+   |   |         XXX-XXXXXXXXXXXXX
+   X   |         X               X
+XXXX   XXX-XXX-XXX  X X  X  X  5 X
+  3|   X    X    X  X X  X  X  X X
+   X   X    X    X  X X  X  6  X X
+   X   X b  X c  X               X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+OVERVIEW:  Ah, Woodville.  Once a great place, now it merely boasts many 
+ways to get thrown in jail or be attacked by deities.  There are even 
+seedy alleys.  Even the beautiful fountain is infested with monsters.  
+But there are a lot of scrolls here if you look around.  This is one of 
+the more lively and detailed dungeons in the game.  The rough alley in 
+back of the tavern is a great place to test your abilities.  The 
+fountain actually has two entrances.  An information trail started in 
+the original dungeon ends here with a mission to rescue Lord Wood.  This 
+is probably the first dungeon you'll stumble on that doesn't have a 
+rune.  In fact, the game can be solved without ever visiting it, but you 
+have important scrolls you need to read along the way.
+
+  In the southwest are two private homes with the inn.  It has rooms 1, 
+2 and 3--Kilmor's in room 1 but 3 throws you in jail.  In the southeast 
+is a jewelry store below a tavern--know what to steal and you'e ok.  If 
+not you get thrown in the jail to the east.  To the west there is the 
+Gelnor temple and above it Filmon's Pet Shoppe.  In the northeast there 
+is a scroll shop with a storage room you can see and a secret one to 
+discover.
+  The Woodville Records Office is south of the fountain in the town 
+square.
+
+  There are three different codes for the buttons.  They are 79, 45 and 
+48.  The third lets you talk to the priest, the other two open up secret 
+doors in the fountains.  No critical items to find here but some good 
+scrolls.
+
+a : encounter with orc, kobold, ogre
+b : encounter with illusionist, sorcerer, magic user
+c : encounter with lord
+d : encounter with giant hornet
+f : encounter with encounter with green dragon
+g : encounter with bear, werebears
+h : encounter with high demon, skeleton
+i : encounter with high devil
+j : encounter with spirits
+. : dark alley
+' : near the fountain
+% : A TITAN SAYS, "YOU HAVE SERVED LONG ENOUGH." HE OPENS THE DOOR, 
+TAKES YOU OUT, FINES YOU 500 GOLD, AND LETS YOU GO.
+1 : FOUR HILL GIANTS PLAYING CARDS SNEER AT YOU. 1-ASK TO JOIN 2-SNEER 
+BACK 3-LEAVE
+  [1:] THEY LAUGH AND THROW THE CARDS IN YOUR FACE.
+    [cards thrown at you, minimal damage.  I've heard of card sharpers 
+so maybe these are sharp cards or something.]
+  [2: encounter with hill giants]
+2 : FOUR CUTE ELVES AT THE TABLE SMILE AT YOU. 1-ATTACK 2-SMILE BACK 3-
+LEAVE
+  [1:] A KNIGHT FROM THE BAR PROTECTS THEM.
+    [encounter with lord/rangers]
+  [2:] THEY SAY, "WE ARE STAYING AT THE INN IN ROOM THREE." THEN THEY 
+LEAVE.
+3 : WHEN YOU ENTER YOU ARE ARRESTED BY A TITAN FOR TRESPASSING.
+  [thrown in jail]
+4 :  A DWARF HERE SAYS, "I AM KILMOR, MAY I HELP YOU?" 1-"NISCOTTAN 
+SIAID HELLO" 2-"SINTANCOS SIAID HELLO" 3-"NISCOSNAT SAID HELLO"
+  [1:] HE SAYS, "YOU CAN ENTER THE FOUNTAIN IF YOU FIRST GO TO THE 
+TEMPLE AND PUSH 75."
+  [2:] 23 instead of 75.
+  [3:] 79 instead of 75.  See Lizard Men's dungeon for the right one.
+  [did you notice?  Sine/Cosine/Tangent spelled backwards?]
+5 : THERE IS A NICE LOOKING ITEM HERE. 1-STEAL IT 2-LEAVE
+  [1: you get a nice treasure]
+6 : THERE IS A NICE LOOKING ITEM HERE. 1-STEAL IT 2-LEAVE
+  [1: you get thrown in jail]
+7 : THERE IS A STATUE OF A GOD HERE. 1-BREAK IT 2-LEAVE
+  [break it, conflict with minor deity]
+8 : THERE IS A STATUE OF A GOD HERE. 1-BREAK IT 2-LEAVE
+  [break it, thrown in jail]
+9 : THREE DWARVES THANK YOU FOR THEIR FREEDOM.
+A : WRITTEN ON THE WALL HERE ARE THESE WORDS "THE SACRED NUMBER IS 45"
+B : A LARGE TAVERN WITH FOUR TABLES. SOME ROWDY HILL GIANTS ARE SEATED 
+TO THE NORTHWEST AND ELVES TO THE SOUTHEAST.
+C : A HALFLING[hobbit on the Apple] AT THE BAR SAYS, "ANOTHER BRANDY 
+PLEASE."
+D : A GNOME AT THE BAR SAYS, "THIS IS A SPOOKY TAVERN."
+E : A TROLKIN AT THE BAR SAYS, "DID YOU HEAR WHAT HAPPENED TO LORD 
+WOOD?"
+F : A DWARF AT THIS TABLE SAYS, "WATCH OUT FOR THOSE ELVES."
+G : ON THE WALL IS WRITTEN: "ONLY THE FOOLHARDY WILL GO FARTHER"
+H : AN OLD MAN SAYS ,"WOULD YOU LIKE TO BUY SOME HISTORY SCROLLS FOR 250 
+GOLD?" 1-"NO" 2-"YES"
+I : A PRIEST STANDING HERE SAYS, "IF YOU PUSH THE WRONG NUMBERS YOU 
+DIE."
+J : THERE ARE NINE BUTTONS ON THE WALL. A PRIEST SAYS, "SELECT THE FIRST 
+DIGIT 1-9 THROUGH 9"
+K : THE PREIST SAYS, "SELECT THE SECOND DIGIT."
+  [if you get it wrong, you are hit with two KICKIN' spells, and Zeus 
+attacks you.]
+  [there are three right answers;  the first one, that Kilmor gives you, 
+unlocks the upper fountain.  The second, found in the town records, 
+opens a secret wall to the right fountain.  The third is found if you 
+rescue the old man, when he also tells you what to say to the priest.]
+L : AN OLD PRIEST STANDING HERE SAYS, "GOOD WORK MY FRIENDS, WHAT DID 
+LORD WOOD'S UNCLE SAY?" 1-"WE DIDN'T RESCUE HIM" 2-"STRATICON UBLE" 3-
+"TRASTICON BLUE"
+  [2:] HE SAYS, "THIS INFORMATION WILL BE OF GREAT VALUE, NOW YOU MUST 
+GO INTO UNKNOWN LANDS TO FIGHT THE BLACK KNIGHTS, THIS SCROLL WILL GUIDE 
+YOU TO LORD WOOD WHO WILL HELP YOU. BE CAREFUL OF J. R. TROLKIN."
+  [1:] (well go and rescue him you idiots)
+M : teleport to N.  A secret door appears one square to the west of N.
+
+    DUNGEON 5: LORD WOOD'S CASTLE
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX x XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXX5  XXXXXXXXXXXXXXXX
+XXXXXX     XXXX   XXX      XXXXXXX
+XXXXXX     XXXX   XXX      XXXXXXX
+XXXXXX  d  XXXXX-XXXX      XXXXXXX
+XXXXXXXX-XXXXX  6  XXXXX-XXXXXXXXX
+XXXX                         XXXXX
+XXXX^XXX-XXXXX     XXXX-XXXX^XXXXX
+XXXX X     XXX     X       X XXXXX
+XXXX^X     X$X     XN      | XXXXX
+XXXX X     X XXX-XXX       X XXXXX
+XXXX XXXXXXX X     XXXXXXXXX^XXXXX
+XXXX X   X ~ X     XXX$    X XXXXX
+XXXX |   X XXX X X XXX     | XXXXX
+XXXX X   | XXX     XXX     X XjjXX
+XXXX X   X |cX     XXXXXXXXXe4j2XX
+XXXX XXXXXXXXX     XXX     X XjjXX
+XXXX X     XXX X X XXX     | XXXXX
+XXXX |y   aX!~     XXX$    | XXXXX
+XXXX X     XOX     XXX     X XXXXX
+XXXX XXXXXXX XXX-XXXXXXXX-XX XXXXX
+XXXX X     X X     XXX  X  X XXXXX
+XXXX |z   bX X     XXXM XXXX XXXXX
+XX.X X     X X     XXX     X XXXXX
+XX~X XXXXXXX XXXXXXXXX     X XXXXX
+XX^X XXXXXX P X   XXXX    LX XXXXX
+XX^X XXXXXX$ $X  MXXXX     X XXXXX
+XXB~ XXXXXXXXXXX-XXXXXXX-XXX XXXXX
+XXXX                         XXXXX
+XXXX3XXXXXXXXXXX^XXXXXXXXXX~XXXXXX
+==+++===XXXXXXXX^XXXXXXXXXX XXXXXX
+==+=====X  X    7   X  XXXX XXXXXX
+==++====X  |        * fXXXXQX XXXX
+===+====X  X        X  XXX  X XXXX
+++++====XXXXX-XXXX-XXXXXXQ    X XX
++====+++~  X 8 XX 9 XXXXXX    R XX
+++++++==X 1X   XX   XXXXX  XRXXXXX
+
+OVERVIEW:  This is pretty simply laid out.  You have a cute little maze 
+on the left with an important clue behind it.  Of course it's convenient 
+that JR Trolkin has taken over the castle;  those encounters you run 
+into make more sense that way.  The final rune is here.
+
+Traps:  Boiling oil, pit with spikes.
+
+    On the left side of the elegant marble hallway you have Lord Wood's 
+Room above two master bedrooms.  In back there's a large dark closet 
+leading to a clue and some scrolls.
+  On the right side is a messy library with scrolls everywhere, a 
+storage room, the magic pool keeper's room,  and barracks with double 
+doors.
+  On the south side is a room filled with smelly animals and a dark 
+closet(lots of 'em here.)
+  Below the main entrance is a great hall and an ordinary kitchen, with 
+a secret door to 
+    There's a secret door through a simple stone hallway down to an 
+empty cell.
+
+    At the south is a detention area with four small cells;  one has a 
+special lock.  East of it you have a garbage pit with some fights.  West 
+of it is a bit of a maze where you need to find the path to a storage 
+room with an important clue.
+
+  If you want to walk through quickly, the water rune is on the right-
+hand side.  If you wish to rescue the old man, go south from the 
+entrance and hit a secret door to the west.  At the bottom you'll find 
+the key as treasure.  You can also take a chance on the maze in the 
+corner, but there is only information with some gold there.
+
+L : encounter with asp
+M : encounter with giant hornet
+N : encounter with drip slime, squishy gunk, hissing skuz
+O : encounter with lords
+P : encounter with ogre, kobold, orc
+Q : encounter with bantirs/devil
+R : encounters with wraith/skeleton
+^ : stairs
++ : safe square in corner puzzle
+= : damage square in corner puzzle.  THE FLOOR OPENS AND YOU FALL TO A 
+STONE SURFACE AND SLIDE TO A SMALL ROOM. [to the small cell at .]
+. : where you fall from =
+! : DOWN THE HALL YOU SEE SEVERAL OGRES HAVING A MEETING. THEY SEE YOU 
+AND RUN UP THE HALL. [orc/ogre encounter]
+1 : THERE ARE SEVERAL BAGS OF GOLD HERE AND THESE WORDS ARE ETCHED INTO 
+THE WALL: "TO VISIT THE GODS TELEPORT TO TOWN 99"
+2 : AN OLD MAN STANDING HERE SAYS, "I GIVE THEE THE WATER RUNE, THE MOST 
+SACRED OF THE ELEMENTAL RUNES."
+3 : TO THE SOUTH IS AN ENORMOUS ROOM WITH SEV SEVERAL LARGE TILES 
+COVERING THE FLOOR.
+4 : [if you haven't been to all three pools] AS YOU ENTER THIS ROOM A 
+LARGE WAVE SUDDENLY WASHES YOU BACK INTO THE HALL.
+5 : AN OLD MAN SITTING HERE TELLS YOU, "ALL IS NOT WEELL WITHIN."
+6 : A BUTLER GREETS YOU SAYING, "WELCOME TO THE CASTLE OF LORD WOOD, HIS 
+LORDSHIP ISNOT IN BUT YOU MAY WANDER AROUND AND MAKE YOURSELVES AT 
+HOME."
+7 : YOU ARE IN A LARGE ROOM CONTAINING FOUR JAIL CELLS.
+8 : TWO ELVES IN THIS CELL TELL YOU , "THE KEY TO THE OTHER CELL IS WEST 
+OF THE GREAT HALL."
+9 : A GOBLIN GRATEFULLY THANKS YOU FOR HIS FREEDOM.
+* : YOU CAN NOT FIND ANY WAY TO OPEN THIS CELL DOOR. THERE IS AN OLD MAN 
+SLEEPING INSIDE.
+y : A BUNCH OF ROWDY SOLDIERS YELL, "GO AWAY PUNKS." 1-LEAVE 2-STAY
+  [2: encounter with ...]
+z : A GROUP OF MEN IN ROBES SAY, "YOU ARE IN THE WRONG ROOM." 1-LEAVE 2-
+STAY [iffy grammar here]
+  [2: encounter with illusionist/sorcerer]
+a : AN INSCRIPTION ON SOME ARMOR HERE READS: "JRT"
+b : A PLAQUE ON THE WALL READS: "WELCOME TO OUR HUMBLE CASTLE"
+c : THIS MESSAGE IS ENGRAVED ON THE WALL: "SWWSSESSWWWSSEEEEENEEE" [how 
+to get through the maze in the lower left]
+d : A MEAN LOOKING OLD MAN SAYS, "LEAVE!" 1-LEAVE 2-STAY AND TALK
+  [2 : encounter with old man]
+e : A SIGN ABOVE THE PASSAGE TO THE EAST READS: "KEEPER OF THE MAGIC 
+POOLS"
+f : THE OLD MAN AWAKENS AND SAYS, "THANK YOU BRAVE ADVENTURERS, I AM 
+LORD WOOD'S AIDE AND HAVE BEEN IMPRISONED HERE SINCE THE CASTLE WAS 
+OVERTAKEN BY J. R. TROLKIN."
+  "LORD WOOD", HE CONTINUES, "HAS GONE TO THE TEMPLE OF THE EVIL 
+DOSNEBIAN CLERICS, TRYING TO OBTAIN THREE OF THE NINE RINGS NEEDED TO 
+DEFEAT NIKADEMUS."
+  "YOU SHOULD GO TO THE CASTLE OF J. R. TROLKIN TO GET THREE OTHER 
+RINGS. TO AIDYOU I GIVE YOU THESE." HE SAYS HANDING YOU FOUR SCROLLS. 
+"REMEMBER," HE WARNS, "THE CASTLE IS WELL GUARDED."
+
+    DUNGEON 6: J.R. TROLKIN'S CASTLE
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXX x XXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXX   XXXXXXXXXXXX
+XXX            XXXX   XXXXXXXXXXXX
+XXX XXXXXXXXXX XXXX 1 XXXXXXXXXXXX
+XX   Xc   XXX   XXXX7XXXXXXXXXXXXX
+XX   X    %     /       | |   XXXX
+XXG $X    XXX   XXX   XXXXX   XXXX
+XXXXXXXX~XXXX   X       XXX   XXXX
+XXXXXXXX XXXXX-XX X   X XXXXX-XXXX
+XX     ~ XXX    X XX-XX XXXXX XXXX
+XX XXXXX XXX6  $X X   X XXXX HXXXX
+XX XXXXX XXXXXXXX X   X XXXX  XXXX
+XX X   X X   XXXX-XXXXX-XXXX  XXXX
+XX X   X X   XXX    XX    ~~  XXXX
+XX X  X 2 X  XXX    XX    XX  XXXX
+XX X X     X XXX    XX    XX  XXXX
+XX X  X333 ^   X    XX    XX  XXXX
+XX:X X  I  X X X    XX    XX  XXXX
+XX X  XXHXX  X X    XX    XX  XXXX
+XX X X     X X X    XX$   XXX XXXX
+XX X  X ~ X  X XXXXXXXXXXXXXX XXXX
+XX X   X X   X  I             XXXX
+XX X   X X   XXX          XXX\XXXX
+XX XX XX4XXXXXXXXXXX\XXXXXXXX XXXX
+XX XX XX XXXXXXXK  X   XG XXX XXXX
+XX:XX XX XXXXXXX   X   X  XXX XXXX
+XX XX XXI  H              XX   XXX
+XX XX XXXXXXXXXXXXXXX-XXXXXX   XXX
+XX XX                      |   XXX
+XX XXXXXXXX XXXXXXXXXXXXXXXX   XXX
+XX XXXXXXXX      |   XXXXXXXXXXXXX
+X   XXXXXXX-XXXXXX   XXXXXXX   XXX
+X      :  ~J    XX   XXX   |   XXX
+X5  XXXXXXX    $XX   | |   X   XXX
+XXXXXXXXXXX     XXXXXXX    XXXXXXX
+XXXXXXXXXXXXXX&XXXG X XX$  ~ XXXXX
+XXXXXXXXXXX     XXX   XXXXXX XXXXX
+XXXXXXXXXXX8    X        :   XXXXX
+
+OVERVIEW:  JR Trolkin's castle, once you are thrown in and trapped, is 
+more winding than it looks.  There will be a lot of doors you can't open 
+and several you'll need to open remotely.  Your main purpose is to get 
+to his treasure room where you can find three rings.  Remember to look 
+for secret doors constantly.  The JR Trolkin combat shouldn't be too bad 
+and overall this dungeon is pretty moderate and a good source for 
+treasure too.  Just don't get too annoyed with the doors whose locks you 
+can't pick.
+
+You start outside a large stone castle.  There's nothing you can do to 
+avoid getting gassed and dumped in the jail cell.  Secret doors are the 
+way to go here.  A bunch of dirty stone hallways with secret doors may 
+lead you to some intriguing places.  Generally if you feel trapped start 
+walking into walls and eventually you'll miss.  Sorta like flying in the 
+_Hitch-Hiker's Guide_.  Past the bloody fighting arena south of the 
+cells you have a monster storage area with dirty smelly barracks in each 
+direction.  You can also see the arena viewing areas if you go off to 
+the side, but off to the south is J. R. Trolkin's room, with a trphy 
+room with human and elven heads for the un-squeamish to visit.  Beyond 
+the trophy room is a weapons room--that shouldn't make you 
+uncomfortable, but the torture room beyond it may.  There's also a 
+secret passage below leading to an encounter in a damp cavern.
+
+  Below Trolkin's there is some treasure you can't access until you've 
+been to the secret control room to the left.  There's a large key in the 
+storage room to the northwest if you leave your cell and pass the 
+guardroom, which has a storage room with trapped barrels to the south.
+
+To get through the dungeon quickly, after you're thrown in the cell, 
+find the secret door to the south, then push west as you go south.  In 
+the secret control room, flip all three levers.  Go east to fight JR, 
+south to get the rings, then push up.  You'll need to go through the 
+arena, right, up and back left to the main gate.
+
+/ : cannot be opened at all.
+\ : cannot be opened at all.
+G : encounter with blue ooze
+H : encounter with warrior, barbarians
+I : encounter with trolls, kobolds
+J : encounter with J. R. Trolkin
+K : encounter with giant ant, giant bees, pythons
+1 : A STRANGE GAS FILLS THE AIR. EVERYONE FAINTS AND YOU WAKE UP IN A 
+LOCKED CELL.
+2 : YOU ARE IN A FIGHTING ARENA WITH MENACING MONSTERS TO THE SOUTH.
+3 : YOU SEE A CROWD OF NASTY MONSTERS WATCHING YOU FROM ABOVE. SOMEONE 
+SHOUTS, "LET THE FIGHT BEGIN."
+4 : YOU ARE IN A SECRET PASSAGE. YOU HEAR GUARDS CHASING YOU.
+5 : THERE ARE THREE LEVERS HERE.  PULL #1/PULL #2/PULL #3/LEAVE
+  [throw lever 1:  open up door at %]
+  [throw lever 2:  open up door at ^]
+  [throw lever 3:  open up door at &]
+  [all three levers are safe to throw, so do it all at once.]
+6 : THERE IS A LARGE OAK BARREL IN THIS CORNER.
+  [open it:  smoke damage]
+7 : [have key:]  YOUR LARGE KEY OPENS THE DOOR.
+  [don't have key:]  HERE IS A LARGE OAK DOOR WHICH YOU CAN NOT OPEN BY 
+ANY MEANS.
+8 : Rings I-III are on A SMALL GLOWING PEDESTAL in the MESSY CLOSET.
+
+    DUNGEON 7: THE BLEEBS
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXl  XXhI XxXl  XXgM XXXXXi  X
+XXXXXX e XX   XCX   XX   XXXXXv  X
+XXXXXXX XXXX XXCXX XXXX XXXXXXXCXX
+XX            BCD            XX XX
+XX XX XX XX XXXCXXX XX XX XX XX XX
+XX Xh  X Xg  XXCXXg  X Xi  X XX XX
+XX X " X X H XXCXX t X X O X:XX XX
+XX XXXXX XXXXXXCXXXXXX XXXXX XX XX
+XX:Xg Xi  Xl Xlf XXXXi  XXXX XX XX
+XXXX wX  uX  X   Xl X K XXXi  X XX
+      XXXXX WXXXXX  XXXXXXX6  X XX
+ XXXXXXl XXX      Y Xl a  XXXXX XX
+ Xl X  V XXl X X XXXX   X Xg  X XX
+    X X  XX  X X Xh XXXXX:Xx    XX
+ X  X XXXXX  X X XJ       XXXXX XX
+ XXXX Xh  XXXX X X  XX XX       XX
+      X"  XXi  X XXXXh  X XX XX XX
+XX XX XX XXXz  X XXXX " X:XlZ X XX
+Xi  X      XXXXX Xh XXXXX X   X XX
+Xy  XXXXXXB/D    XN       XXXXX XX
+XXXXXXXXXXXXXXXXXX  XXXXX Xi X  XX
+g%X&iXh^X :    W XXXX7i X   LX XXX
+  X  X  X XXXXXX    X   XXX  X XXX
+X-XX-X-XX XXXXXXXXX XX XXXXXXX XXX
+Xj     XX Xh  Xl  X bX         XXX
+X     #|D X 0 X   XX XXXXXXXXXXXXX
+X !  @ XXXXX XX x XX  :    d    XX
+XXmXXmXXXXXX XXXXXXXXXXXXXXXXXX XX
+ aBXXC  :    XXXXXXXXXXXXXXXXXX XX
+ XXXXXXXXXXXXXXXXk  XXl  XXXXXX:XX
+ XXXXi  XXXXXXX B2  |   c   BXX XX
+ XXXX5     XXXX X   XX   XXXXXX XX
+ XXXX   XXBXXXX XXXXXXXXXXXl1 XYXX
+ XXXXXXXXh4 XXg  XXXXXXXXXX U X XX
+ XXXXXXXX    B3  XXXXXXXXXX T X XX
+ XXXXXXXX   XX   XXXXXXXXXXXSXX XX
+ XXXXXXXXXXXXXXXXXXXXXXXXXXX XiV X
+   :       Z       :         X   X
+
+OVERVIEW:  This is one of the most interesting dungeons in the entire 
+series.  The logic puzzle is really quite nice although I feel it may 
+have small flaws.  There's relatively little danger here once you learn 
+which pool does what.  There are green, blue and red bleebs, and I've 
+put a solution with full reasoning at the end of this.  If you miss a 
+puzzle you are kicked to the square room not connected with the rest of 
+the place;  however, you can reset and walk in again and take another 
+multiple choice.  You won't feel as accomplished, and if you do so, I 
+encourage you to go through the reasoning that leads to the correct 
+answer.  Or what should be the correct answer.  Or consider why this 
+puzzle is a bit iffy, so if you missed the answer in the first place, it 
+won't bug you any more.
+
+  All in all, Bleebs are cool, and since we're never given pictures of 
+them, they feel that much more mysterious.
+
+Red smoke and green smoke are the traps, even when you jump into pools.
+
+The rooms are tricky to annotate here because they are so small.  
+Therefore I needed to settle on a new convention instead of a paragraph-
+style description.  I decided to annotate hallways directly in the map.  
+A capital letter below denotes the start of a certain colored hallway.  
+If there's a huge intersection the hallway will be fully labeled.  In 
+addition the rooms have a marking in the upper left corner, or as close 
+as I could get.  This corresponds with the key below.  Lots of 
+red/green/blue/plain changes.
+
+If nothing else works, jump in all the green and red pools and 
+eventually you will wind up at the room in the lower left.  Enter 
+through the left door and face the king bleeb.  See below for the 
+solution to the puzzles which I don't want to spoil here.  However the 
+right pool order is t, 6, w, y, u, 7 and z.
+
+B : start BRIGHT RED HALLWAY
+C : start BRIGHT BLUE HALLWAY
+D : start BRIGHT GREEN HALLWAY
+g : RED ROOM
+h : BLUE ROOM
+i : GREEN ROOM
+j : LARGE ROOM WITH MANY DOORS
+k : RED, GREEN AND BLUE THRONE ROOM
+l : PLAIN STONE ROOM
+" : blue pool(damage)
+
+V : encounter with bantir/demons
+W : encounter with Vampire
+Y : encounter with Ghosts/ghouls
+Z : encounter with sting beetles/blue oozes
+a : encounter with giant ant/python
+b : encounter with fire elemental
+c : encounter with orange dragons
+d : encounter with were wolf/were bear
+e : encounter with master illusionist
+f : encounter with high rangers
+
+H : A RED BLEEB SAYS, "GREEN BLEEBS ALWAYS LIE."
+I : A BLUE BLEEB SAYS, "GREEN BLEEBS TELL LIES AND TRUTHS."
+J : A BLUE BLEEB SAYS, "ALWAYS LISTEN TO RED BLEEBS BUT DON'T TRUST 
+THEM."
+K : A GREEN BLEEB SAYS, "RED BLEEBS SOMETIMES LIE."
+L : A GREEN BLEEB SAYS, "BLUE BLEEBS TELL LIES AND TRUTHS."
+M : A BLUE BLEEB SAYS, "BLUE POOLS ARE HARMFUL."
+N : A RED BLEEB SAYS, "RED POOLS SOMETIMES TELEPLORT."
+O : A GREEN BLEEB SAYS, "GREEN POOLS TELEPORT."
+
+S : IN THE ROOM AHEAD YOU CAN HEAR, BUT NOT SEE, TWO BLEEBS OF DIFFERENT 
+COLORS.
+T : THE FIRST BLEEB SAYS, "PUSH THE BUTTON WITH MY COLOR, WHICH IS RED."
+U : THE SECOND BLEEB SAYS, "IF I WERE RED I WOULD TELL YOU TO PUSH THE 
+BLUE BUTTON."
+
+
+0 : teleport to exit room.
+
+! : A RED DOOR.
+@ : A BLUE DOOR.
+# : A GREEN DOOR.
+% : A RED BLEEB SAYS, "USE THE GREEN DOOR."
+^ : A BLUE BLEEB SAYS, "AVOID THE BLUE DOOR."
+& : A GREEN BLEEB SAYS, "AVOID THE RED DOOR."
+
+2 : A LARGE BLEEB SITTING ON A THRONE HERE SAYS , "HELLO ADVENTURERS, WE 
+BLEEBS ARE THE GUARDIANS OF THREE OF THE RINGS,YOU MUST ANSWER THREE 
+QUESTIONS BEFORE YOU CAN HAVE THEM."
+3 : A RED BLEEB SAYS, "WHAT TYPE OF BLEEB SOMETIMES LIES AND SOMETIMES 
+DOESN'T." 1-"BLUE" 2-"GREEN" 3-"RED"
+4 : A GREEN BLEEB SAYS, "IF TWO BLEEBS OF THE THE SAME COLOR DISAGREE 
+THEY ARE WHICH COLOR." 1-"GREEN OR BLUE" 2-"RED" 3-"BLUE" 4-"RED OR 
+GREEN"
+5 : [APPLE:]A GREEN BLEEB SAYS, "WHAT TYPE OF BLEEB WOULD NEVER SAY THAT 
+I SOMETIMES LIE." 1-"RED OR BLUE" 2-"RED" 3-"BLUE OR GREEN" 4-"GREEN" 5-
+"BLUE"  The answer is 2 here.
+    [COMMODORE:]  A blue bleeb says, What kind of bleeb would never say 
+that it sometimes lies? red/blue, red, blue/green, green, blue.  The 
+answer is #5(blue) here as well, really, but the Commodore accepts 2.  
+WTF?!?!  Obviously red bleebs could lie and say that.  Green bleebs 
+could tell the truth.  
+
+Let's look at statements H-O.  Even removing M, N and O from 
+consideration we can figure who does what.  Assume each of red, green, 
+blue maps to truth, liars, and truth/liars.  If not then you can always 
+assume someone may be a truth/liar unless a liar pins them as such.
+** STATEMENT L with STATEMENT K means green bleebs can't tell the truth.
+** Assume red bleebs tell the truth.  Then green bleebs are liars from 
+statement H.  Consequently blue bleebs must tell lies some of the time.
+** Look at statement L.  The green bleeb is telling the truth here, and 
+we have a contradiction.
+** Therefore blue bleebs are the truth-tellers, statement J pins red 
+bleebs as liars, and green bleebs are "moderates."
+Of course you could tell this from M, N and O(truth, lie and truth, 
+pinning reds as liars and using statement H) but this way is more 
+abstract and challenging.
+
+Now for the puzzle of %/^/&.  The red bleeb, a liar, says use the green 
+door.  The blue bleeb, a truth teller, says avoid the blue door.  So you 
+use the red door.  On this occasion the durn two-faced green bleeb told 
+you a stinkin' LIE!!
+
+Now for the first puzzle I disagree with.  See T and U for the 
+parameters.
+-->The first bleeb is green.  He can't be red or he'd be telling the 
+truth about his color.  Similarly he can't be blue or he'd be lying.  I 
+think you can also assume that you shouldn't push red since the whole 
+statement must be taken as a lie, but that's a fuzzy area.  It's not the 
+first.
+-->The second bleeb is red.  If he were blue, he'd be lying because 
+there are two wrong answers;  "If I were red I would tell you to push 
+the blue button."  However reds might tell you to push the red if the 
+green were correct or green if the red were correct.  So reds wouldn't 
+necessarily tell you to push the blue.  You're supposed to eliminate the 
+red and blue but the logic isn't at all clear.
+  Now "If I were red, I would tell you to push the blue button" is tough 
+to figure out.  Is he giving instructions or just stating a fact?  It 
+seems like the second, and if it is, then the blue button may be the 
+right one to push.  It still works out.  Remember, he's lying about what 
+he'd tell you to do--which would be lying.  The double negatives kick in 
+here but we can't eliminate the green button from consideration either.  
+Aigh.
+
+The last puzzle is relatively easy.  See 3, 4, and 5 for the text.
+**The first question you should know.  We've established that it's 2.
+**The second is a bit tougher.  Obviously green works, but you may not 
+have noticed that red works as well.  For instance you went through the 
+red door to get here.  Red bleeb # 1 says "Go through the green door."  
+Red bleeb # 2 says "Go through the blue door."  Both are lying, and they 
+don't agree.
+**The third is not too bad either.  "What type of bleeb would never tell 
+the truth?"  The red.  2.  But it seems that this answer was not 
+corrected in the translation to the Commodore, even though the bit about 
+putting a blue bleeb instead of a green one in the blue room was.
+
+POOL TRANSPORT
+ u < - > v
+ t = red pool that enables the pool at 6.
+ x = red pool that enables the pool at 7.
+ w = red pool that changes z's destination.
+ 6 < - > y once the pools are activated.
+ 7 < - > z once 7 is activated.
+ z - > large room with many doors(SW) once you've jumped in pool w.
+ (Note:  dashing around into all the non-blue pools you find will 
+usually work.  The general guideline is that blue pools damage you, red 
+pools activate green pools, and green pools may teleport.)
+ If pools aren't activated, YOU JUST GET WET.
+
+    DUNGEON 8 : THE DOSNEBIAN CLERICS
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXlXXXXXXXXXXXXXXXXXXXXlXX
+XXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XX
+XXXXXXXXX 1 XX   |  XXXXXXXXXXX XX
+XXXXXXXXX   XX   XX:X   XXX   X XX
+XXXXXXXXXX XXXX-XXX X   | |   X XX
+XXXXXXXXXX XXXX XXX X   X X   X XX
+XXXXXXXXXX-XXXX XXXOXXXXX XXXXX XX
+XXXXXXXXXX ~ O  XXX X   X X   X XX
+XXXXXXXXXX2XXXXXXXX X  J| |  $X XX
+XXXXXXXXXX XXXXXXX  X   X X   X XX
+XXXXX           XX-XXXXXX XXXXX XX
+XX  X   XXXXX   X  XX   X X   X XX
+XXr               pXX  I| |H  X XX
+XX  X   XXXXX   X  XX   X X   X XX
+XXXXX           XXXXXXXXX XXXXX}XX
+XXXXX   XXXXX   / HN      X     XX
+XXXXX           XXXXXXXXX z    8XX
+XX  X   XXXXX   X  X    X X  $  XX
+XXs               qX    | XXXXXXXX
+XX  X   XXXXX   X  X    X X     XX
+XXXXX   XXoXX   XXfX    X |     XX
+XXXXX   XX^XX   XX X OXXX X     XX
+XXX X   |   |   XX X  X   XXXXXXXX
+XXX XXXXXX XXXXXXX XXXX X    :   X
+XX   XXX     XX:|   | X XXXXXXXX X
+XXx  XXX     XXXX   XXX X2XX XXX X
+XX   XXXXXXXXXXK|   |MX X   F  X X
+XXXXXXu X  XXXXXX   XXX XXXXXXGX X
+XXX XX  \  XXXX3|   |KX      X X X
+XXX XXXXX  XXXXXX   XXXXX XX XFX X
+XXX XXv \  XXXXL|   |MXX J X X X X
+XXX XX  X  XXXXXX   XXXX   X X   X
+XXX XXXXX  XXXX |   |:XX   X X X X
+XXX XXw |  XXXXXXXXXXXXXX XX X X X
+XXX XX  XX XXXXXXXXXXXXXX X  X X X
+XXX XXXXXX XXXXXXXXXX   X X XXXX X
+XXX      X             H  X      X
+XXXXXXXXXXXXXXXXXXXXX   XXXXXXXXXX
+
+  "All right, you Dosnebians!  Let's break it up in there!"  Them 
+Dosnebians are tough customers--a surly bunch--and you'll need to bust 
+out the mad skillz to get past 'em.
+
+OVERVIEW:  This one is pretty nasty.  First of all, the temple won't 
+allow you in without a minotaur.  You probably haven't developed a 
+minotaur, so you'll need a new one, and he should probably be a fighter.  
+This effectively cuts your party down by one unless you want to spend 
+time building him up--on the bright side he can get killed on the way 
+here and they'll still let you in.  There are a lot of red herrings, and 
+you may want to go through it twice.  Figuring out which statue to 
+break(it's not obvious) or finding the short way to the cells is tough.  
+You need to poke around a bit to find a key.  Then you may get in 
+trouble when you do pick up the two rings.  This is the first dungeon 
+with black knights in evidence.
+
+Guard rooms in upper left and lower right.  Ordinary marble hallways at 
+the entrance and by the jail cells.   Small stone hallways in the 
+southeast and past the secret door.   There are four side chapels with 
+statues to the side of the main temple and a chapel with wall painting 
+to the south.  The casket room can be entered through the southeast.  A 
+secret door in the temple leads to a small neat library and a cold damp 
+stone hallway which continues past the prison above.  The cell block 
+there has three small jail cells.  Way east of the temple you have the 
+storage room, meeting room and guest bedroom on the left of the corridor 
+with priests' rooms on the right.  A large dining room and kitchen face 
+each other at the bottom.  There's a display room above them.
+
+To get through, say "reven tonem" at the front door(if you goof, find 
+the secret door to the right) and circle around.  Break the minotaur 
+statue and go to the lower left secret door.  Follow the passage around 
+and go north after the secret door.  Rescue Lord Wood(lowest cell) first 
+and then everyone else.  Go up and the second door on the right has what 
+you want.  You can leave through a door in the upper right.
+
+Traps:  spirit tries to take life energy
+/ : you need a special key to open this
+\ : won't open until the first door is opened
+} : secret door created after you rescue woman at (4).
+o : YOU ARE ON A PULPIT. THERE IS A SMALL CORD HERE. 1-PULL IT 2-LEAVE
+  [1:] A GONG SOUNDS AND FIGURES BEGIN TO ENTER THE TEMPLE. [encounter 
+with scribes] [encounter 1 square after with overlords]
+p : Large statue of a god. 1-deface it 2-leave
+  [1: encounter with minor deity]
+q : A SMALL STATUE OF A MINOTAUR. 1-DEFACE IT 2-LEAVE
+  [1: You hear a noise in the distance] [secret door in lower left of 
+temple]
+r : A ENORMOUS STATUE OF A GOD. 1-DEFACE IT 2-LEAVE
+  [1: encounter with Zeus]
+s : A LARGE STATUE OF A BLACK KNIGHT 1-DEFACE IT 2-LEAVE
+  [1: damage from smoke]
+H : encounter with asp, priest, magic user
+I : encounter with wizard
+J : encounter with overlords
+K : encounter with high demon
+L : encounter with high devil
+M : encounter with spirits
+N : encounter with titan, giant ants
+O : encounter with orc and great troll
+1 : [no minotaur in party] THE DEEP RESOUNDING VOICE OF A MINOTAUR 
+SPEAKS FROM ABOVE: "YOU ARE NOT WORTHY TO ENTER THIS TEMPLE"
+  [minotaur in party] THE MINOTAUR GOD SPEAKS, "YOU ARE ALLOWED TO ENTER 
+THIS GREAT TEMPLE."
+2 : THERE IS A LARGE GATE HERE. A VOICE DEMANDS, "SPEAK THE SACRED WORDS 
+AND ENTER." 1-"STRATICON UBLE" 2-"REVEN TONEM" 3-"TIMON PROTUN" 4-"SULP 
+EPPA" 5-"KILMON"
+3 : golden key is here
+4 : A DAMSEL IS CHAINED TO THE WALL AND THE WATER IS UP TO NECK LEVEL. 
+1-LEAVE 2-SAVE HER
+  [2:] SHE THANKS YOU AND SAYS, "AFTER YOU FIND THE RINGS YOU MAY LEAVE 
+THROUGH A SECRET DOOR." [secret door opens in northeast]
+5 : THERE IS A DWARF TIED UP HERE. 1-LEAVE 2-FREE HIM
+  [2:] HE SAYS, "THANK YOU, I AM KILMOR." HE HANDS YOU A KEY AND SAYS, 
+"USE IT WELL." [find the ring room with this]
+6 : THERE IS A MAN HERE, GAGGED AND TIED. 1-LEAVE 2-FREE HIM
+  [2:] HE SAYS, "THANK YOU, I AM LORD WOOD." HE HANDS YOU A SCROLL AND 
+SAYS, "PLEASE RESCUE THE DWARF IN THE NEXT CELL.", THEN HE DISAPPEARS.
+7 : AN ALARM SOUNDS AND WATER BEGINS FILLING
+THE CELL BLOCK, YOU HEAR MUFFLED SCREAMSFROM THE THIRD CELL.
+8 : once you take the treasure, AN ALARM SOUNDS AND MANY GUARDS ENTER 
+THE ROOM.
+
+    DUNGEON 9 : GODS' FLOATING CASTLE
+
+XXXXXXXXXXXXXXXXxXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXX   X         XXXXXXXXXXXX
+XXXXXXXX1    XXXXXXX X   XXXXXXXX
+XXXXXXXX   X X   XXX    2XXXXXXXX
+XXXXXXXXXXXX    3XXX X   XXXXXXXX
+XXXXXXXXXXXX X   XXX XXXXXXXXXXXX
+XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX
+XXXXXXXX   X XXX   X XXXXXXXXXXXX
+XXXXXXXX4    XXX5    X   XXXXXXXX
+XXXXXXXX   X XXX   X !@ 6XXXXXXXX
+XXXXXXXXXXXX XXXXXXX X   XXXXXXXX
+XXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX
+XXXXXXXXXXXX         XXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXX       XXXXXXXXXXXXX
+XXXXXXXXXXXXX       XXXXXXXXXXXXX
+XXXXXXXXXXXXX       XXXXXXXXXXXXX
+XXXXXXXXXXXXX       XXXXXXXXXXXXX
+XXXXXXXXXXXXX   Z   XXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+OVERVIEW: Zeus's castle is not terribly hard to get through.  All the 
+rooms are easily visible, and your progress is pretty much determined 
+before you've even entered.  There are six rooms, each with a test your 
+party must pass;  only one of these is an active test.  Once you pass 
+them all, the door will open to visit Zeus in the bottom part.  Pray to 
+him(attacking is a bad idea) and you will receive the God Rune.  This 
+allows you to enter the final dungeon without fear.
+
+You have a throne room of gold and silver below the strange misty 
+hallway.
+
+It should be clear what to do from the legend, but if not, make sure you 
+have all four runes and nine rings.  These will help you pass five 
+tests.  The dispell undead test should help you pass the combat test.
+
+      ** LEGEND **
+
+1 - room with heavy winds, where you pass if you got the air rune
+2 - room with dirt floor, where you pass if you got the earth rune
+3 - room of flame, where you pass if you got the fire rune
+4 - small room full of mist, where you pass if you have all nine rings
+5 - room of water, where you pass if you got the water rune
+6 - small room full of mist, where you pass if you manage to defeat the 
+following monsters:
+  ! - high devil.
+  @ - spirit.
+Z - Zeus.  You will have an option of discourse with him but it's best 
+to pray.
+
+    DUNGEON 10 : BLACK LORD'S FORTRESS
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXxXXXXXXXXXXXXXXXXxX
+XXXXXXXXXXXXXXX XXXXXXXXXXXXX XX X
+XXXXXXXXXXXXXXXfXXXXXXXXXXXXXcXXbX
+XXXXXXXXXXXXXXX-XXXXXXXXXXXXX XX X
+XXXXXXXXXXXXXXX-XXXXXXXXXXXXX XX X
+XXXXXXXXXXXXXX C XXXXXXXXXXXX XX X
+XXXXXXXXXXXXXX   XXXXXXXXXXXX XX X
+XXXXXXXXXXXXXX   XXXXXXXXXXXXXXX X
+XXXXXXXXXXXXXXX-XXXXXXXXX5   aXX X
+XXXXXXX   XXXX   XXXX   X XXXXXX X
+XXXXXXX   XXXX   XXXX   X XXX XX X
+XXXXXXX   |  |   |  |   X XXX XX X
+XXXXXXXXX-XXXXXXXXXXX-XXX XXX XX X
+XXXXXXXXX XXX    $XXX XXX XXX    X
+XXXXXXXXX:XXX     XXX:XXX XXXXXXXX
+XXXXXXXXX XXX    eXXX XXX5  5XXXXX
+XXXXXXXXX-XXXXXXXXXXX-XXXXXX XXXXX
+XXXX  |   |   XXX   |   |  X XXXXX
+XXXXCXX   XXXCXXXCXXX   XXCX XXXXX
+XXXX XX   XXX XXX XXX   XX X XXXXX
+XXXX XXXXXXXX XXX XXXXXXXX X5XXXXX
+XXXX     XXXX XXX XXXX     X XXXXX
+XXXXXXXXCXXXXCXXXCXXXXCXXXXX~XXXXX
+XXXXXX     X   X   X     X2 4 3XXX
+XXXXXX XXX X X X X X XXX X     XXX
+XXXXXX XXX X X X X X XXX X     XXX
+XXXXXX XXX X X X X X XXX X     XXX
+XXXXXX XXX X X X X X XXX X     XXX
+XXXXXXDXXXDXDXDXDXDXDXXXDX  1  XXX
+XXXXXX XXX X X X X X XXX XXX XXXXX
+XXXXXX XXX X X X X X XXX XXX XXXXX
+XXXXXX XXX X X X X X XXX XXXFXXXXX
+XXXXXX:XXX:X:X:X:X:X:XXX:XXX XXXXX
+XXXXXX XXX X X X X X XXX XXX XXXXX
+XXXXXX XXX X X X X X XXX XXXGXXXXX
+XXXXXX XXX X X X X X XXX XXX XXXXX
+XXXXXXEXXX XEXEXEXEXEXXXEXXX XXXXX
+XXXXXX XXXSX X X X X XXX XXXYXXXXX
+
+OVERVIEW:  there aren't a lot of dead ends or pitfalls, but your party 
+had better be good because there are lots of demons hanging around.  
+Without the God Rune they won't get through the first door but then they 
+need to search around for the teleporter to the right side where they 
+must chase the Black Lord.  If they rip up enough stuff they'll get to 
+him, after which they can attack him.  Filmon the sage may help out if 
+you make a wrong turn.
+
+Until the very end you walk through a bunch of dark eerie stone passages 
+connecting guard rooms.  The far east has "inside a fissure in the 
+earth" and below it is a simple throne room.  You are sent to a strange 
+misty room after you accomplish your mission.  There's a teleport in one 
+of the lower passages that leads to a very linear endgame.
+
+To get through this level, hang a left when you hit the wall.  Keep 
+pushing down and left until you can't any more.  The passages down and 
+to the right will lead to a teleporter.  Fight through some more 
+combats, destroy the gems, gold and throne, and keep pushing up.  At the 
+intersection you want to attack the Black Lord.  You can go north to 
+recover the wand.
+
+C : encounter with black knights
+D : encounter with water elementals
+E : encounter with spirits
+F : encounter with high devil
+G : encounter with high demon/bantirs
+S and Y teleport back to one square above each other.
+
+d : An old man sitting in the corner says "My friends I am Filmon the 
+sage.  You have three options:" 1-leave cave 2-fight lord 3-think over
+  [1 or 2:] ' A WISE DECISION MY FRIENDS ' SAYS      FILMON AS HE 
+MOTIONS WITH HIS HANDS AND HE CASTS A SPELL. PARTY IS TELEPORTATED [1: 
+south of fissure, 2: south of entrance]
+1 : WHEN YOU ENTER THIS LARGE ROOM YOU ARE ATTACKED BY BLACK KNIGHTS. A 
+LARGE FIGURE IN THE BACK OF THE ROOM GETS UP OFF A THRONE AND RUNS OUT 
+[encounter with black knights]
+2 : THERE IS A GREAT DEAL OF GOLD HERE. 1-TAKE IT 2-DESTROY IT
+ [2:] IT IS DESTROYED.
+3 : THERE ARE MANY GEMS HERE. 1-TAKE THEM 2-DESTROY THEM
+ [2:] IT IS DESTROYED.
+4 : THERE IS A LARGE EMPTY THRONE HERE. 1-SIT IN IT 2-DESTROY IT 3-LEAVE
+ [1: party takes damage]
+ [2:] IT IS DESTROYED.
+5 : You see the black lord several feet ahead of you.  He waves his wand 
+and a lightning bolt comes forth toward you. [party takes damage]
+6 : THE BLACK LORD IS STANDING HERE AT THE END OF THE PASSAGE WAITING 
+FOR YOU. 1: ATTACK HIM 2: WAIT 3: BRIBE HIM
+  [1, having destroyed gold and gems:]  THE BLACK LORD WAVES HIS WAND 
+AND CASTS A SPELL.  THE EARTH TREMBLES AND SPLITS INTO A NORTH-SOUTH 
+FISSURE.  HE TOSSES HIS WAND TO THE NORTH AND RUNS SOUTH.
+7 : The wand is here.  1-destroy it 2-wave it 3-think
+  [1: party takes mega damage]
+  [2: sent to Filmon's in the center]
+  [2 or 3, or without destroying gold/gems:]  HE CASTS A SPELL WITH HIS 
+WAND AND DISAPPEARS.
+l : After defeating the Black Lord, you are transported to Olympus and 
+read Zeus saying "WELL DONE, MY SMALL FRIENDS. YOU HAVE REMOVED A GREAT 
+EVIL FROM GELNOR. YOUR QUEST IS OVER, NOW GO AND REST TO PREPARE YOU FOR 
+THE NEXT ADVENTURE. I GRANT YOU YOUR FIRST DIVINE SPELL. YOU WILL LEARN 
+LATER HOW TO USE IT PROPERLY."  [PC version has "in Phantasie II" tacked 
+on to it.  This is a bit ironic, as there never was a Phantasie II for 
+the PC, only for the Commodore, which doesn't have this.]
+
+  CHEATING
+
+    Tsk, tsk.  This section contains spoilers so please be careful.
+
+    First of all I should mention that cheating attributes up to a 
+ridiculous level can backfire.  You may not be able to learn spells, and 
+training may cost 15000 gold for the first level;  cost of training 
+varies with the abilities you've acquired.  Improving attributes to 99 
+and skills to 255 also frequently caused the Apple version to flip out 
+when I went into encounters.  I recommend 40 across the board and giving 
+one person 255 skills.
+
+    Even though the Apple does not work, understanding it will help you 
+to capture a wrinkle with the Commodore.  I consider the starting offset 
+for each character to be at the place where the name starts.  This makes 
+it easier to search for the character's name in a hex dump as the names 
+appear on the hex dump.  I suspect that the information for the 
+character starts at 0x83 before the name itself.  Each character takes 
+up 170(0xaa) bytes and the characters are often(about 170/256 of the 
+time) spread out over different sectors.  On the Apple, sectors cycle as 
+follows:
+
+start at y000 -> y700 -> ye00 -> y600 -> yd00 -> y500 -> yc00 -> y400 -> 
+yb00 -> y300 -> ya00 -> y200 -> y900 -> z000
+
+(this is standard for BASIC and also assisted my text-mapping of the 
+game's various areas.)
+
+    If a character is broken in two sectors and you can't figure it out 
+just see where the previous/next slot's sector is and change the hex 
+value accordingly.  For instance if a character's name starts at x36f0 
+and you want to change something x14 bytes ahead, d is the sector after 
+6 so you'd look in 0x3d04.  However if the name started at 0x3610 and 
+you wanted to change something 0x62 behind, then e is the sector before 
+6.  0x3eae would be the byte to edit.
+
+    For the Commodore it is a bit trickier.  If going back would cause 
+you to skip a boundary you have to, in addition to changing sectors, 
+move backwards another two bytes.  That is because in each 256-byte 
+block the Commodore has two initializing bytes at the beginning.  
+Alternatively you can just move up from the start.  In any case numbers 
+appear to be ac/54 away from each other instead of aa/56 away.  In 
+addition, the sectors jump around a bit more randomly with the 
+Commodore.  I created a bunch of characters named "AA01" through "AA21" 
+and was able to produce the byte values.
+
+    On the Apple, for characters 38-40 you have fire, water and earth 
+elementals.  These characters are 22-24 on the Commodore.
+
+Here's where to start the hacking in case you can't remember the slot 
+names.
+
+        COMMODORE CHEATS
+
+ # | NAME | START
+---+------+------
+ 1 | f787 | f704
+ 2 | f833 | f7ae
+ 3 | f8dd | f85a
+ 4 | f989 | f906
+ 5 | fa35 | f9b0
+ 6 | fadf | fa5c
+ 7 | d98b | d908
+ 8 | e337 | d9b2
+ 9 | e3e1 | e35e
+10 | d78d | d70a
+11 | e139 | d7b4
+12 | e1e3 | e160
+13 | d58f | d50c
+14 | df3b | d5b6
+15 | dfe5 | df62
+16 | d391 | d30e
+17 | dd3d | d3b8
+18 | dde7 | dd74
+19 | d293 | d210
+20 | dc3f | d2ba
+21 | dce9 | dc66
+22 | e695 | e612
+23 | da41 | e6bc
+24 | daeb | da68
+
+        APPLE CHEATS
+
+ # | NAME | START
+---+------+------
+ 1 | 4283 | 4200
+ 2 | 492d | 42aa
+ 3 | 49d7 | 4954
+ 4 | 5081 | 49fe
+ 5 | 572b | 50a8
+ 6 | 57d5 | 5752
+ 7 | 5e7f | 57fc
+ 8 | 5629 | 5ea6
+ 9 | 56d3 | 5650
+10 | 5d7d | 56fa
+11 | 5527 | 5da4
+12 | 55d1 | 554e
+13 | 5c7b | 55f8
+14 | 5425 | 5ca2
+15 | 54cf | 544c
+16 | 5b79 | 54f6
+17 | 5323 | 5ba0
+18 | 53cd | 534a
+19 | 5a77 | 53f4
+20 | 5221 | 5a9e
+21 | 52cb | 5248
+22 | 5975 | 52f2
+23 | 601f | 599c
+24 | 60c9 | 6046
+25 | 6773 | 60f0
+26 | 6e1d | 679a
+27 | 6ec7 | 6e44
+28 | 6671 | 6eee
+29 | 6d1b | 6698
+30 | 6dc5 | 6d42
+31 | 656f | 6dec
+32 | 6c19 | 6596
+33 | 6cc3 | 6c40
+34 | 646d | 6cea
+35 | 6b17 | 6494
+36 | 6bc1 | 6b3e
+37 | 636b | 6be8
+38 | 6a15 | 6392
+39 | 6abf | 6a3c
+40 | 6269 | 6ae6
+
+Here are the bytes to hack in a hex editor.  Search for the name if you 
+forget the slot.  Note the "from name start" negative values.  I've 
+sometimes put notes there but if there aren't any just change the hex 
+byte to the desired value.  I'd generally advise not giving more than 
+99(x63) as three-digit numbers could goof up the display slightly.
+
+            | FROM | FROM
+            | NAME | SLOT
+ATTRIBUTE   | START| START
+------------+------+---------------------------------------
+Strength    |-0x82 | 0x01
+Intelligence|-0x81 | 0x02
+Dexterity   |-0x80 | 0x03
+Constitution|-0x7f | 0x04
+Charisma    |-0x7e | 0x05
+Luck        |-0x7d | 0x06
+Age         |-0x7c | 0x07 This is actually Age - 17.
+Max SP      |-0x7b | 0x0a
+Cur SP      |-0x7a | 0x0b
+Max HP      |-0x79 | 0x0c
+Cur SP      |-0x78 | 0x0d
+Gold        |-0x77 | 0x0e [this is 2 bytes, high/low]
+Attack cur  |-0x6f | 0x14
+Attack pos  |-0x6e | 0x15
+Score       |-0x49 | 0x2a [on 1...100 scale]
+Experience  |-0x50 | 0x33 [this is 3 bytes, high->low]
+Race        | 0x20 | 0xa3 (see below for values)
+Item 1      | 0x15 | 0x98 [NOTE:  The C64 has a convention
+Item 2      | 0x16 | 0x99 [where 0's(no item) are first, then
+Item 3      | 0x17 | 0x9a [item number appears in
+Item 4      | 0x18 | 0x9b [increasing order.  This doesn't seem
+Item 5      | 0x19 | 0x9c [to upset game play but you should
+Item 6      | 0x1a | 0x9d [probably abide by the rules.]
+Item 7      | 0x1b | 0x9e [see item section of FAQ for which
+Item 8      | 0x1c | 0x9f [value gives which item.  Values over
+Item 9      | 0x1d | 0xa0 [0xb4 may cause an array overflow.]
+
+RACE:  A value from 0x00 to 0x0f defines the race.  Here's the table.
+0 = HUMAN
+1 = DWARF
+2 = ELF
+3 = HALFLING
+4 = GNOME
+5 = PIXIE
+6 = SPRITE
+7 = OGRE
+8 = GNOLL
+9 = TROLL
+a = KOBOLD
+b = ORC
+c = GOBLIN
+d = LIZARD MAN
+e = MINOTAUR
+f = UNDEAD
+
+You can save a game, change to a certain race, and back, which may help 
+for certain puzzles.
+
+To change a special item(less risky than outright editing) you can do 
+the following:
+  1) buy scroll 1(easy to find)
+  2) open up the image in a hex editor.  Just after your character's 
+name there should be the number x79 with descending numbers after it.  
+That is scroll 1.
+  3) add to that number.  To see scroll 14, add 0xd, i.e. put 0x86.  
+Save the game.  You can now read scroll x86.
+  See my section on special items to get any other item you want.  Of 
+course you can do this to more than one item at a time and even get ring 
+nine this way.
+
+  There is also a less technical process for duplicating items.
+
+  Shay Addams's "Quest for Clues" describes the process as follows, 
+although first you will need to make a backup "dummy" disk.  If you have 
+an emulator, this is not hard, and in fact you can try this trick with 
+two backups first so you don't ruin your main game if something goes 
+wrong:
+
+    1.  enter town A
+    2.  sell off the items you want to duplicate
+    3.  teleport to town B
+    4.  remove main disk, insert dummy
+    5.  teleport to town C
+    6.  remove dummy, insert main disk
+    7.  teleport to town A
+    8.  buy the new items that have mysteriously appeared in the town 
+armory's inventory!
+
+  ERRATA
+
+    You can bring a fighter over from, say, Olympia to Pelnor with just 
+the two month delay--never mind that he couldn't make it by himself!
+    The world of Phantasie is very modern.  Not only do you have roads 
+well in advance of other RPG's, but there are banks.  And they even have 
+bank fees!  That's right.  Every time you distribute the gold(which you 
+must do when you enter a town) the gold gets rounded down to the nearest 
+multiple of the total number of shares.  In fact you may even find that, 
+if you try to split up 6000 gold equally among 6 people, you wind up 
+with 999 gold each.  Too bad society isn't advanced enough to have 
+consumer advocacy!
+    I've mentioned the Northford bug(when rotated, it's on the south 
+shore) and there's also a flaky scroll with a slight misdirection.  But 
+overall they do a good job of porting everything over.
+
+(End of FAQ proper)
+
+================================
+
+VERSIONS/CREDITS
+
+1.0.0 submitted to GameFAQs.com on 12/20/2001.  I believe this is a very 
+adequate first draft although I imagine errors always seem to leak 
+through.
+
+Thanks to theunderdogs.org for the manual and PC images, 
+project64.c64.org, ftp://arnold.c64.org, ftp://ftp.apple.asimov.net, 
+Evin's Apple Emulator Page(which is sadly part down now) and Delorie GPP 
+freeware that allowed me to extract information from the files.  Also 
+kahei's hex editor(www.kahei.com) helped me to locate lots of data.
+
+Shay Addams's _Quest for Clues_ book was invaluable when it came to 
+checking my work.  I frequently referred to it and although I have not 
+directly quoted anything from it besides the duplication cheat, it has 
+still been a huge help and has probably influenced my solution in ways 
+unimaginable.  At the very least it saved me a lot of time as a great 
+reference guide.

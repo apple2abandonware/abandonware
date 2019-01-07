@@ -1,0 +1,2646 @@
+Phantasie II FAQ(Commodore 64 game)
+Version 1.0.0
+copyright 2001 by Andrew Schultz schultza@earthlink.net
+with notes on the Apple version(no PC version)
+
+Please do not reproduce for profit without permission.  This game is 
+part of my effort to help preserve the memory of old classic games.  If 
+you send me a polite note addressing me by name and asking specifically 
+for this FAQ, it will probably be accepted.
+
+Maps should be coming soon for the entire Phantasie series.
+http://members.fortunecity.com/cartographics
+
+    ****AD SPACE****
+
+If you feel this FAQ was a waste of 100K, wait 'til you see how I wasted 
+10 MB:
+http://www.geocities.com/SoHo/Exhibit/2762
+
+More games I wouldn't have wasted so much time on if I'd had emulators 
+way back when:
+http://www.geocities.com/SoHo/Exhibit/2762/games/games.htm
+
+(OK, so much time PER GAME :) )
+
+================================
+        OUTLINE
+
+  INTRODUCTION AND QUIRKS
+
+    STATISTICS
+
+    ABOUT THIS DOCUMENT AND HOW IT WAS WRITTEN
+
+  ITEM MANIFEST
+
+  MONSTER MANIFEST
+
+  SCROLLS
+
+  WALKTHROUGH
+
+    GETTING BETTER
+
+    GETTING AROUND
+
+    GETTING THROUGH
+
+  OVERWORLD MAP WITH SECTORS
+
+  NETHERWORLD MAP WITH SECTORS
+
+  DUNGEONS
+
+    DUNGEON 1: KOBOLD VILLAGE
+
+    DUNGEON 2: SENOG'S LABORATORY
+
+    DUNGEON 3
+
+    DUNGEON 4
+
+    DUNGEON 5
+
+    DUNGEON 6
+
+    DUNGEON 7
+
+    DUNGEON 8
+
+  CHEATING
+
+  ERRATA
+
+================================
+
+  INTRODUCTION AND QUIRKS
+
+    I actually like the Apple's interface and gameplay a bit better much 
+as the Commodore, but as the Apple conks out with the current disk 
+images on Asimov, it's a good bet to go with the Commodore.  You can 
+work through the dungeons on that.  The graphics are a bit simpler on 
+the Apple, and you can see the whole dungeon at once, but the Commodore 
+has superior monster drawings and uses color-coding pretty effectively.  
+It also allows you to set combat options which are, confusingly, reset 
+when you go back inside or outside.  The Commodore also doesn't allow 
+you to type in player numbers directly, which is maddening for a quick 
+typer like me.
+
+    STATISTICS
+
+        CHART OF TOTAL SQUARES
+
+            |PHANTASIE     |PHANTASIE II  |PHANTASIE III |
+------------+--------------+--------------+--------------+
+OVERWORLD   |26*20*16      |26*20*9       |75*50         |
+            | =8320        | =4680        | =3750        |
+OTHERWORLD  |26*20*2       |26*20*8       |18*9*2+30*15  |
+            | =1040        | =4160        | =774         |
+DUNGEONS    |39*34*10      |39*34*8       |30*24*10      |
+            | =14260       | =10608       | =7200        |
+TOWNS       |11            |10            |17            |*
+INNS        |12            |7             |8             |*
+SCROLLS     |20            |14            |15            |*
+------------+--------------+--------------+--------------+
+TOTAL       |23620         |19448         |11724         |
+
+    ABOUT THIS DOCUMENT AND HOW IT WAS WRITTEN
+
+    This document will not attempt to explain basic rules.  You can find 
+manuals at project64.c64.org, www.theunderdogs.org, and likely many 
+other places I don't know about.  I am largely concerned with details, 
+i.e. if you do X, Y happens, or the best/most convenient way to solve 
+puzzle Z is to do W.
+    Sadly there was no PC version of Phantasie, so I had to make do with 
+the Apple for data extraction.  I mentioned the, err, quirk above and 
+every effort has been made to ensure that traces of it are ironed out in 
+this FAQ.
+    The text map is actually originally derived from the Apple, where it 
+is easier and more logical to extract sectors than the Commodore.  Yes, 
+the rotations made things a bit tough, but with appropriate fudging of 
+variables(they'd send my HS computer-science teacher into a tizzy.  Oh 
+well!) I changed the Apple maps to look like Commodore ones.  The 
+dungeon maps are for the Apple but when I ran through the game they 
+equated over 99.99% with the Commodore.
+    This document tries to explore the details of the game, so it may be 
+light on overall improving your characters.  A brief run-through showed 
+that the Phantasie series is really rather moderate, and it is 
+relatively easy to improve without getting squashed.
+
+  ITEM MANIFEST
+
+Although theunderdogs.org and project64.c64.org have more comprehensive 
+lists of what items do and who can use them, this is the full list--
+treasures and everything--and is useful for the curious or for those who 
+want to hex-edit.
+
+Begin shields.
+
+  1(hex 0x01).GLOVE
+  2(hex 0x02).WOOD SHLD
+  3(hex 0x03).WOOD SH+1
+  4(hex 0x04).SM SHIELD
+  5(hex 0x05).SM SHLD+1
+  6(hex 0x06).SM SHLD+2
+  7(hex 0x07).SM SHLD+3
+  8(hex 0x08).MD SHIELD
+  9(hex 0x09).MD SHLD+1
+ 10(hex 0x0a).MD SHLD+2
+ 11(hex 0x0b).MD SHLD+3
+ 12(hex 0x0c).LR SHIELD
+ 13(hex 0x0d).LR SHLD+1
+ 14(hex 0x0e).LR SHLD+2
+ 15(hex 0x0f).LR SHLD+3
+ 16(hex 0x10).GIANT SH
+ 17(hex 0x11).GNT SH +1
+ 18(hex 0x12).GNT SH +2
+ 19(hex 0x13).GNT SH +3
+ 20(hex 0x14).GOD SHLD
+
+Begin armor.
+
+ 21(hex 0x15).CLOTHING
+ 22(hex 0x16).ROBES
+ 23(hex 0x17).LEATHER
+ 24(hex 0x18).H LEATHER
+ 25(hex 0x19).RING MAIL
+ 26(hex 0x1a).SCALE ML
+ 27(hex 0x1b).CHAIN ML
+ 28(hex 0x1c).SPLINT ML
+ 29(hex 0x1d).BANDED ML
+ 30(hex 0x1e).PLATE ML
+ 31(hex 0x1f).CLOTH +1
+ 32(hex 0x20).ROBES +1
+ 33(hex 0x21).LEATHER+1
+ 34(hex 0x22).LEATHER+2
+ 35(hex 0x23).RING ML+1
+ 36(hex 0x24).RING ML+2
+ 37(hex 0x25).CHAIN +1
+ 38(hex 0x26).CHAIN +2
+ 39(hex 0x27).GOD ROBES
+
+Begin weapons(magic.)
+
+ 40(hex 0x28).GOD ARMOR
+ 41(hex 0x29).STICK
+ 42(hex 0x2a).KNIFE
+ 43(hex 0x2b).SM CLUB
+ 44(hex 0x2c).SM STAFF
+ 45(hex 0x2d).SM MACE
+ 46(hex 0x2e).DAGGER
+ 47(hex 0x2f).SM FLAIL
+ 48(hex 0x30).CLUB
+ 49(hex 0x31).MACE
+ 50(hex 0x32).SM HAMMER
+ 51(hex 0x33).SM AXE
+ 52(hex 0x34).STAFF
+ 53(hex 0x35).SH SWORD
+ 54(hex 0x36).FLAIL
+ 55(hex 0x37).HAMMER
+ 56(hex 0x38).PTCH FORK
+ 57(hex 0x39).SPEAR
+ 58(hex 0x3a).AXE
+ 59(hex 0x3b).SWORD
+ 60(hex 0x3c).HVY MACE
+ 61(hex 0x3d).MAUL
+ 62(hex 0x3e).TRIDENT
+ 63(hex 0x3f).LRG SPEAR
+ 64(hex 0x40).LRG AXE
+ 65(hex 0x41).MORN.STAR
+ 66(hex 0x42).PIKE
+ 67(hex 0x43).LNG SWORD
+ 68(hex 0x44).SPETUM
+ 69(hex 0x45).BARDICHE
+
+Begin weapons(magic.)  Note that the lower magic weapons are not as 
+powerful as the higher non-magic ones.
+
+ 70(hex 0x46).HALBERD
+ 71(hex 0x47).SM MACE+1
+ 72(hex 0x48).DAGGER+1
+ 73(hex 0x49).SM MACE+2
+ 74(hex 0x4a).DAGGER+2
+ 75(hex 0x4b).DAGGER+3
+ 76(hex 0x4c).STAFF +1
+ 77(hex 0x4d).DAGGER+4
+ 78(hex 0x4e).FLAIL +1
+ 79(hex 0x4f).SPEAR +1
+ 80(hex 0x50).AXE +1
+ 81(hex 0x51).SWORD +1
+ 82(hex 0x52).SWORD +2
+ 83(hex 0x53).SWORD +3
+ 84(hex 0x54).LRG AXE+1
+ 85(hex 0x55).SWORD +4
+ 86(hex 0x56).SWORD +5
+ 87(hex 0x57).SWORD +6
+ 88(hex 0x58).HALBERD+1
+ 89(hex 0x59).SWORD +7
+ 90(hex 0x5a).HALBERD+2
+ 91(hex 0x5b).HALBERD+3
+ 92(hex 0x5c).SWORD +10
+ 93(hex 0x5d).HALBERD+4
+ 94(hex 0x5e).HALBERD+5
+ 95(hex 0x5f).HALBERD+6
+ 96(hex 0x60).HALBERD+7
+ 97(hex 0x61).GOD KNIFE
+ 98(hex 0x62).GOD MACE
+ 99(hex 0x63).GOD AXE
+100(hex 0x64).GOD SWORD
+
+Heal potion X heals X^2 points.
+
+101(hex 0x65).HEAL POT1
+102(hex 0x66).HEAL POT2
+103(hex 0x67).HEAL POT3
+104(hex 0x68).HEAL POT4
+105(hex 0x69).HEAL POT5
+106(hex 0x6a).HEAL POT6
+107(hex 0x6b).HEAL POT7
+108(hex 0x6c).HEAL POT8
+109(hex 0x6d).HEAL POT9
+110(hex 0x6e).HEALING10
+
+Magic potions heal three times their point value in magic points.
+
+111(hex 0x6f).MAGIC 1
+112(hex 0x70).MAGIC 2
+113(hex 0x71).MAGIC 3
+114(hex 0x72).MAGIC 4
+115(hex 0x73).MAGIC 5
+116(hex 0x74).MAGIC 6
+117(hex 0x75).MAGIC 7
+118(hex 0x76).MAGIC 8
+119(hex 0x77).MAGIC 9
+
+The items below are scrolls and give hints about solving the game.
+
+120(hex 0x78).MAGIC 10
+121(hex 0x79).SCROLL A
+122(hex 0x7a).SCROLL
+123(hex 0x7b).SCROLL
+124(hex 0x7c).SCROLL B
+125(hex 0x7d).SCROLL C
+126(hex 0x7e).SCROLL D
+127(hex 0x7f).SCROLL E
+128(hex 0x80).SCROLL F
+129(hex 0x81).SCROLL G
+130(hex 0x82).SCROLL H
+131(hex 0x83).SCROLL I
+132(hex 0x84).SCROLL J
+133(hex 0x85).SCROLL
+134(hex 0x86).SCROLL K
+135(hex 0x87).SCROLL
+136(hex 0x88).SCROLL
+137(hex 0x89).SCROLL
+138(hex 0x8a).SCROLL L
+139(hex 0x8b).SCROLL M
+140(hex 0x8c).SCROLL N
+141(hex 0x8d).AMULET 1
+142(hex 0x8e).AMULET 2
+143(hex 0x8f).AMULET 3
+144(hex 0x90).AMULET 4
+145(hex 0x91).AMULET 5
+146(hex 0x92).AMULET 6
+147(hex 0x93).AMULET 7
+148(hex 0x94).AMULET 8
+149(hex 0x95).FLMN WAND
+150(hex 0x96).---ORB---
+
+The items below are treasures.  Your best bet to find them is to kill 
+powerful monsters.  Of course if you can do that, you probably won't 
+need the cash, but it's always fun to pick up more doohickeys.
+
+151(hex 0x97).QUARTZ
+152(hex 0x98).CRYSTAL
+153(hex 0x99).KEY
+154(hex 0x9a).BRONZE
+155(hex 0x9b).COPPER
+156(hex 0x9c).SAPPHIRE
+157(hex 0x9d).JADE
+158(hex 0x9e).SILVER
+159(hex 0x9f).EMERALD
+160(hex 0xa0).RING
+161(hex 0xa1).RUBY
+162(hex 0xa2).GOLD
+163(hex 0xa3).NECKLACE
+164(hex 0xa4).BRASS
+165(hex 0xa5).PAINTING
+166(hex 0xa6).GOLD CUP
+167(hex 0xa7).BRACELET
+168(hex 0xa8).STATUETTE
+169(hex 0xa9).CROWN
+170(hex 0xaa).EAR RINGS
+171(hex 0xab).GOLD BALL
+172(hex 0xac).GOLD KEY
+173(hex 0xad).PLATINUM
+174(hex 0xae).STATUE
+175(hex 0xaf).GOLD RING
+176(hex 0xb0).DIAMOND
+177(hex 0xb1).GOLD BOOK
+178(hex 0xb2).SILVER OX
+179(hex 0xb3).GOLD FORK
+180(hex 0xb4).GOD RING
+
+There are a few differences between Phantasie and Phantasie II.  First 
+of all there are the scrolls--some blank.  That is because some scrolls 
+take more than one page to explain things.  If you put an invalid item 
+in the scroll will just start in the middle.  Then you have eight 
+amulets and a wand instead of the nine rings.  The orb replaces the 
+wand, and at 165 a painting replaces an orb as treasure to avoid 
+confusion.  Then 177-179 are also changed, from BOX to BOOK, GOLDEN to 
+SILVER, and FOX to FORK.
+
+  MONSTER MANIFEST
+
+  This information was taken directly from the disk info so it should be 
+good although I have my suspicion about the skeleton.  There are also a 
+lot of variables I couldn't figure out so if anyone thinks they can help 
+drop me a line at schultza@earthlink.net and I can send you the data.  I 
+think I have the very biggest stuff here though.
+
+MONSTER NAME         |MAX|SZ |EXP PTS|HP |TREAS |
+---------------------+---+---+-------+---+------+
+             SKELETON|20 | 0 |      1|  0|   -75|
+               BANTIR| 5 | 1 |    147| 10|    35|
+           DRIP SLIME| 6 | 1 |     90|  1|     0|
+           GREEN MUCK| 2 | 1 |    409| 15|    90|
+            GIANT ANT| 6 | 1 |    107|  4|     0|
+            GIANT BEE| 6 | 1 |     71|  3|     0|
+                VIPER| 1 | 2 |    732| 20|   200|
+             WILD DOG| 3 | 1 |    167| 11|     0|
+                  ORC| 6 | 1 |     90|  6|    25|
+               KOBOLD| 6 | 1 |     50|  5|    15|
+               RANGER| 3 | 1 |    235| 12|    65|
+               SCRIBE| 6 | 1 |     86|  3|    30|
+     APPRENTICE DEVIL| 4 | 1 |    388| 20|   200|
+               ZOMBIE| 4 | 1 |    280| 12|   111|
+                GHOUL| 3 | 1 |    154|  5|    70|
+            CENTIPEDE| 6 | 1 |    325| 10|     0|
+         STING BEETLE| 5 | 1 |    227| 10|     0|
+PLUTO'S GIANT CONSTR.| 1 | 4 |   9000| 30|     0|
+              PANTHER| 3 | 1 |    381|  8|     0|
+            TRIBESMAN| 4 | 1 |    150|  5|    70|
+               GOBLIN| 2 | 1 |    850| 20|   350|
+            BARBARIAN| 4 | 1 |    220|  9|   100|
+          ILLUSIONIST| 2 | 1 |    367|  6|   150|
+        LESSER WIZARD| 4 | 1 |    465|  7|   200|
+       LARGE SKELETON| 2 | 1 |   1792| 22|   600|
+                WIGHT| 2 | 1 |   1820| 20|   200|
+            DEATH FLY| 2 | 1 |   3342| 56|     0|
+        BEEPING BLOBS| 3 | 1 |   1186| 14|     0|
+           KILLER BEE| 4 | 1 |    815|  8|     0|
+                COBRA| 3 | 2 |   1018| 12|     0|
+          BABY DRAGON| 3 | 2 |   2075| 16|   300|
+                 WOLF| 3 | 1 |   1130| 14|     0|
+              GREMLIN| 6 | 1 |    654|  8|   225|
+              TROLKIN| 6 | 1 |    941| 13|   325|
+              IMPLING| 4 | 1 |   1200| 12|   250|
+               PRIEST| 6 | 1 |    976| 10|   350|
+                DEVIL| 2 | 2 |   6639| 30|   500|
+               WRAITH| 2 | 2 |   5411| 32|   800|
+           GIANT WASP| 2 | 1 |   7794| 63|     0|
+         HISSING SKUZ| 5 | 1 |   2215| 14|     0|
+           VIPER MOTH| 4 | 1 |   2628| 10|     0|
+                  ASP| 1 | 3 |   5939| 56|     0|
+         GREEN DRAGON| 2 | 2 |   5330| 37|   325|
+ PLUTO'S WINGED DEVIL| 1 | 1 |  30000|100|     0|
+                 OGRE| 2 | 1 |   5064| 34|   500|
+           DARK DWARF| 4 | 1 |   8214| 72|  1600|
+          NECROMANCER| 4 | 1 |   5736| 22|   550|
+                 LORD| 3 | 1 |   5078| 23|   775|
+                DEMON| 2 | 2 |  15603| 39|  1200|
+              VAMPIRE| 1 | 3 |  23324| 70|  1800|
+                GHOST| 4 | 1 |   7749| 18|   700|
+          PURPLE SKUM| 2 | 1 |   7675| 38|   800|
+           KING COBRA| 1 | 2 |  15403| 77|     0|
+       FIRE ELEMENTAL| 1 | 4 |  15354| 77|     0|
+        ORANGE DRAGON| 1 | 2 |  30607| 87|  2200|
+           FOREST ELF| 3 | 1 |   5085| 18|   500|
+                TROLL| 2 | 1 |  11658| 42|  1300|
+                  IMP| 3 | 1 |  18000| 20|   700|
+   MASTER ILLUSIONIST| 2 | 2 |  17622| 24|  1000|
+          HIGH RANGER| 3 | 1 |  12547| 27|   800|
+           HIGH DEMON| 1 | 2 |  41671| 96|  1800|
+           HIGH DEVIL| 1 | 2 |  45692|110|  2000|
+        CREEPING MOLD| 1 | 1 |  24839| 83|     0|
+        VORPAL BEETLE| 2 | 1 |  29291| 97|     0|
+               SPIRIT| 3 | 2 |  12747| 25|     0|
+      WATER ELEMENTAL| 1 | 2 |  29095|101|     0|
+          DRAGON KING| 1 | 4 |  53091|133|  2200|
+          STORM GIANT| 1 | 4 |  32560|115|  1800|
+          CLOUD GIANT| 1 | 4 |  44464|122|  2000|
+          GREAT TROLL| 1 | 2 |  24258| 98|  1300|
+               WIZARD| 3 | 2 |  24979| 24|   700|
+             OVERLORD| 3 | 2 |  26099| 37|  1000|
+ PLUTO'S UNDEAD SNAKE| 1 | 3 |  25000| 90|     0|
+    PLUTO'S DEMON FLY| 1 | 1 |  36000|150|     0|
+       PLUTO'S WYVERN| 1 | 1 |  60000|200|     0|
+ PLUTO'S SNAKE DRAGON| 1 | 4 | 150000|400|     0|
+ PLUTO'S GIANT WYWERN| 1 | 2 | 100000|300|     0|
+ PLUTO'S DRAGON DEMON| 1 | 4 | 200000|400|     0|
+   PLUTO'S ICE DRAGON| 1 | 4 | 300000|450|     0|
+                PLUTO| 1 | 4 | 500000|550|     0|
+
+There aren't many differences between the Commodore and Apple version in 
+terms of monster attributes.  However, the Commodore has a 21 character 
+limit(see the giant constrictor) and Pluto's compound beasts are not 
+hyphenated(Demon Fly, Snake Dragon, Dragon Demon.)  Also the Beeping 
+Blobs don't beep :).
+
+Interestingly WYWERN is spelled incorrectly even though there are two 
+WYVERNS on the scroll about his beasts.
+
+I'm also not sure how to fight Pluto's Ice Dragon as all the 
+conversations seem to end up with it brushing your challenges off.
+
+  SCROLLS
+
+    These scrolls contain some serious spoilers, but they also help 
+round the story out.  You can pretty much learn everything you need to 
+do in the game from them, so proceed carefully reading them.
+
+    Note that these scrolls are also for the Apple.  I have placed 
+modifiers for the Commodore underneath as with the world rotated the 
+directions in the scrolls need to be changed as well.
+
+    SCROLL A
++-------------------------------------+
+      THE HISTORY OF FERRONRAH        *
+     SEVERAL YEARS AGO THE EVIL WIZ-  *
+ ARD NIKADEMUS TOOK HIS TERRIBLE ARMY *
+ OF MEN AND BEASTS THROUGH THE SOUTH- *
+ ERN ISLANDS OF THE LAND INCLUDING    *
+ GELNOR, FERRONRAH, AND THE LESSER    *
+ ISLANDS.  IN A MATTER OF MONTHS      *
+ HE HAD COMPLETELY OVERTAKEN THE      *
+ CAPITAL.  NIKADEMUS ALSO HAD THE     *
+ KING AND QUEEN AND THE REST OF THE   *
+ ROYAL FAMILY EXECUTED.               *
+     IN FERRONRAH HE COMPLETELY OBLIT-*
+ ERATED THE CAPITAL CITY LEAVING NOT  *
+ A SINGLE BUILDING STANDING. THE CAP- *
+ ITAL HAS SINCE BEEN MOVED TO FERRON, *
+ A SMALL CITY TO THE NORTH OF THE OLD *
+ ISLANDS.                             *
+     BEFORE HE LEFT FERRONRAH, NIK-   *
+ ADEMUS DECIDED TO MAKE SURE THAT     *
+ NO ARMY WILL BE SENT AFTER HIM FROM  *
+ FERRONRAH.                           *
+ HE CAST A TERRIBLE CURSE UPON THE    *
+ ISLAND WHICH CAUSES ALL MORTALS      *
+ ENTERING OR LEAVING FERRONRAH TO BE  *
+ GREATLY REDUCED IN MENTAL AND        *
+ PHYSICAL CAPABILITIES.               *
+     THUS ANY NORMAL MAN SAILING TO   *
+ OR FROM THE ISLAND IS RENDERED CLOSE *
+ TO THE POINT OF DEATH.  EVEN THE     *
+ GREATEST OF WARRIORS WILL BECOME     *
+ ORDINARY MEN.  NIKADEMUS THEREFORE   *
+ CAN COLLECT TAXES FROM THE DENIZENS  *
+ OF THE ISLAND AND FEEL SAFE THAT     *
+ NONE OF THE DENIZENS OF THE ISLAND   *
+ WOULD EVER TAKE VENGENCE ON HIM.     *
+     NIKADEMUS CAST THE TERRIBLE      *
+ CURSE WITH THE AID OF THE EVIL GOD   *
+ PLUTO.  THE CURSE WAS PLACED IN      *
+ AN ANCIENT ORB MADE OF VERY STRANGE  *
+ MATERIAL NOT KNOWN TO MAN.  THE ORB  *
+ WAS KEPT IN THE ROYAL PALACE OF      *
+ FERRONRAH, BUT SEVERAL YEARS AGO     *
+ LORD WOOD OF GELNOR LAUNCHED AN      *
+ ASSAULT ON THE PALACE AND OBTAINED   *
+ THE ORB.  LORD WOOD AND HIS BEST     *
+ MEN WERE NOT ABLE TO DESTROY THE     *
+ ORB WITH THEIR COMBINED MAGICAL      *
+ POWERS.                              *
+     NIKADEMUS, UPON HEARING OF THE   *
+ ASSAULT CAME BACK TO FERRONRAH WITH  *
+ HIS ARMY AND RETRIEVED THE ORB, AND  *
+ LORD WOOD BARELY ESCAPED WITH HIS    *
+ LIFE.  THE ORB HAS SINCE BEEN MOVED  *
+ TO AN UNKNOWN LOCATION.              *
+     THE CURSE REMAINS ON FERRONRAH   *
+ TO THIS DAY.  THE SITUAITON IS SEEM- *
+ INGLY HOPELESS, BUT IT IS RUMORED    *
+ THAT A WISE OLD MAN WHO WANDERS THE  *
+ ISLANDS IS TRYING TO DO SOMETHING.   *
++-------------------------------------+
+
+  [Commodore:  Ferron, a small city to the east]
+
+    SCROLL B
++-----------------------------------+
+         THE KOBOLD VILLAGE         *
+      IN THE NORTHERN PART OF       *
+  FERRONRAH THERE IS A SMALL KOBOLD *
+  VILLAGE WHICH IS FORTIFIED BY A   *
+  SMALL STONE WALL.  THE VILLAGE IS *
+  SITUATED ABOUT 60 MILES SOUTH OF  *
+  PIPPACOTT ON THE SHORES OF PIPP-  *
+  ACOTT BAY.                        *
+      THE KOBOLDS HAVE PRESENTED    *
+  LITTLE TROUBLE TO THE SURROUNDING *
+  AREA THOUGH THEY HAVE OCCASIONALLY*
+  AMBUSHED UNWARY TRAVELERS.  IT    *
+  IS RUMORED THAT SOMEWHERE IN THE  *
+  VILLAGE THERE IS AN ANCIENT KOBOLD*
+  ORACLE WHICH GIVES STRANGE ADVICE *
+  TO THOSE WHO ARE WILLING TO SACRI-*
+  FICE FOR IT.  THE PRICE IS SAID TO*
+  BE HIGH FOR ADVICE OF LITTLE VALUE*
++-----------------------------------+
+
+[Commodore:  In the eastern part...60 miles west]
+
+    SCROLL C
++------------------------------------+
+          SENOG'S LABORATORY         *
+        ABOUT FIVE HUNDRED YEARS     *
+  AGO THERE LIVED ON FERRONRAH A     *
+  GREAT AND POWERFUL WIZARD NAMED    *
+  SENOG.  HIS LABORATORY WAS LO-     *
+  CATED ON A SMALL ISLAND NEAR THE   *
+  TOWN OF SAXLINGHAM.  IN HIS DAY    *
+  HE WAS RESPECTED AND FEARED BY     *
+  THE CITIZENS OF FERRONRAH.         *
+        LEGEND HAS IT THAT SENOG     *
+  ONCE CAPTURED AN IMP FROM THE      *
+  NETHERWORLD.  THE IMP TAUGHT HIM   *
+  THE SECRET OF TRAVELING TO THE     *
+  NETHERWORLD.  SENOG OFTEN VISITED  *
+  THE NETHERWORLD OR "PLACE OF DE-   *
+  PARTED SOULS", IT WAS THERE THAT   *
+  HE MET HIS DEMISE SOME YEARS       *
+  LATER.                             *
++------------------------------------+
+
+    SCROLL D
++-------------------------------------+
+          THE IMPLING HATCHERY        *
+    DIRECTLY BELOW THE MATERIAL PLANE,*
+  WHERE ORDINARY MORTALS LIVE, LIES   *
+  THE NETHERWORLD, OR "THE PLACE OF   *
+  DEPARTED SOULS". UNLIKE THE MATERIAL*
+  PLANE, THE NETHERWORLD IS DIVIDED   *
+  INTO MANY LEVELS.  THE FIRST LEVEL, *
+  WHICH IS CLOSEST TO THE MATERIAL    *
+  PLANE, IS OCCUPIED BY IMPS.         *
+    IT IS ON THIS LEVEL OF THE NETHER-*
+  WORLD THAT THE IMPLING HATCHERY CAN *
+  BE FOUND, FAR TO THE SOUTH OF BLACK *
+  MOOR.  IMPLINGS, WHICH ARE SIMPLY   *
+  YOUNG IMPS, ARE RELATIVELY HELPLESS *
+  CREATURES.  THEY ARE, HOWEVER, WELL *
+  GUARDED BY TRAINED SNAKES AND HUMAN *
+  PRIESTS WHO HAVE BEEN BRAINWASHED   *
+  BY THE IMPS.                        *
++-------------------------------------+
+
+    SCROLL E
++-----------------------------------+
+          FILMON THE SAGE           *
+  IT IS RUMORED THAT THERE IS AN    *
+  OLD BUT POWERFUL SAGE WHO ROAMS   *
+  THESE ISLANDS.  HIS NAME IS       *
+  FILMON.  IT IS SAID THAT FILMON   *
+  IS STUDYING THE PROBLEM OF RECOV- *
+  ERING AND DESTROYING THE ORB.  HE *
+  WAS LAST SEEN SOUTH OF FERRON     *
+  NEAR THE OLD CAPITAL CITY.        *
++-----------------------------------+
+
+  [Commodore:  west of Ferron]
+
+    SCROLL F
++----------------------------------+
+           THE IMP CAVES           *
+       ON THE FIRST LEVEL OF THE   *
+  NETHERWORLD, TO THE NORTH OF     *
+  DEATHPORT, LAY THE IMP CAVES.    *
+       THE IMPS HAVE DEVISED A     *
+  SECRET TRANSPORTATION METHOD FOR *
+  GETTING AROUND IN THE CAVES AND  *
+  ONLY THEY KNOW HOW TO USE IT.    *
+  SINCE THE IMPS ARE FORMIDABLE    *
+  WITH HAND WEAPONS AND EXCELLENT  *
+  SPELL CASTERS, VISITING THE CAVES*
+  COULD BE EXTREMELY HAZARDOUS.    *
++----------------------------------+
+
+  [Commodore:  to the east of Deathport]
+
+    SCROLL G
++-------------------------------------+
+          THE SUMMER PALACE           *
+    WHEN NIKADEMUS INVADED FERRON-    *
+ RAH HE DESTROYED THE CAPITAL CITY,   *
+ THE ROYAL PALACE, AND HAD THE        *
+ ROYAL FAMILY EXECUTED.  THERE WAS,   *
+ HOWEVER, A MUCH SMALLER PALACE WHERE *
+ THE ROYAL FAMILY USED TO SPEND THE   *
+ SUMMERS.  IT WAS AT THIS SUMMER      *
+ PALACE WHERE NIKADEMUS FIRST KEPT    *
+ THE ORB.                             *
+    IT IS RUMORED THAT THE PRINCESS   *
+ WAS NOT EXECUTED, AND IS BEING HELD  *
+ IN THE SUMMER PALACE. SHE WAS IN THE *
+ PALACE WHEN LORD WOOD OCCUPIED IT,   *
+ BUT DID NOT ESCAPE WHEN NIKADEMUS RE-*
+ TURNED.  IF THIS IS TRUE SHE MAY     *
+ KNOW SOMETHING OF LORD WOOD'S        *
+ EFFORTS TO DESTROY THE ORB.          *
+    THE PALACE IS WEST OF LLITHFAEN.  *
++-------------------------------------+
+
+  [Commodore:  the palace is north of Llithfaen]
+    SCROLL H
++-----------------------------------+
+       PLUTO'S SMALLEST CASTLE      *
+     ON THE SECOND LEVEL OF THE     *
+  NETHERWORLD LIES THE SMALLEST     *
+  CASTLE OF THE GREATEST OF THE     *
+  EVIL GODS, PLUTO.  THOUGH THE     *
+  CASTLE COVERS MANY SQUARE MILES   *
+  AND IS ENORMOUS BY MORTALS STAN-  *
+  DARDS, IT IS MERELY A RUNDOWN     *
+  STONE SHACK TO ITS OWNER WHO      *
+  VISITS ABOUT ONCE EVERY THOUSAND  *
+  YEARS OR SO.                      *
+     THE CASTLE IS OCCUPIED BY      *
+  DEMONS, DEVILS, SPIRITS AND       *
+  THE LIKE.  IN FACT, ONLY THE UN-  *
+  DEAD SERVANTS OF PLUTO ARE SAID   *
+  TO BE ABLE TO GET IN.             *
+     PLUTO'S MANY OTHER CASTLES     *
+  ARE ALL SAID TO LIE IN THE DEEPER *
+  LEVELS OF THE NETHERWORLD.        *
++-----------------------------------+
+
+    SCROLL I
++------------------------------------+
+          PLUTO'S MENAGERIE          *
+     ON THE SECOND LEVEL OF HADES    *
+   IS LOCATED THE FAMOUS MENAGERIE   *
+   OF THE EVIL GOD PLUTO.  IT IS     *
+   SAID TO BE FULL OF SOME OF THE    *
+   MOST TERRIBLE BEASTS IMAGINABLE   *
+   INCLUDING PLUTO'S TWO MOST FAVOR- *
+   ITE BEASTS.  NO MORTAL HAS EVER   *
+   VISITED THE MENAGERIE BECAUSE IT  *
+   IS SURROUNDED BY LAVA FOR HUN-    *
+   DREDS OF MILES ON ALL SIDES.      *
+     THE BEST WAY TO GET THERE IS TO *
+   START AT DEMONAIC AND GO 210      *
+   MILES WEST, 90 NORTH, 50 WEST,    *
+   60 NORTH, 60 WEST, 100 NORTH, 70  *
+   EAST, 70 NORTH, 80 WEST, 70 NORTH,*
+   AND 90 EAST.                      *
++------------------------------------+
+
+[Okay, I actually put the Commodore instructions above since this is 
+tricky and necessary.  For the Apple it is 210 S, 80 W, 50 S, 60 W, 60 
+S, 100  W, 70 N, 70 W, 80 S, 70 W, 90 N]
+
+    SCROLL J
++------------------------------------+
+          IMPS AND IMPLINGS          *
+     IMPS ARE A VERY DEVIOUS AND     *
+  VERY INTELLIGENT RACE OF HUMANOID  *
+  CREATURES WHO OCCUPY THE FIRST     *
+  LEVEL OF THE NETHERWORLD.  THEIR   *
+  YOUNG ARE KNOWN AS IMPLINGS AND    *
+  TEND TO BE LESS DEVIOUS THAN THE   *
+  ADULTS.  UNLIKE MOST OTHER OCCU-   *
+  PANTS OF THE NETHERWORLD IMPS ARE  *
+  MORTAL CREATURES OF FLESH AND      *
+  BLOOD.  THE IMPLINGS ARE HATCHED   *
+  FROM EGGS.                         *
+     IT IS BELIEVED THAT THE IMPS    *
+  ONCE RESIDED IN THE MATERIAL PLANE *
+  AND THEY WERE BANISHED INTO THE    *
+  NETHERWORLD EONS AGO.  THERE THEY  *
+  DEVELOPED THEIR GROTESQUE FORM.    *
+     SHORTLY AFTER THEY WERE BAN-    *
+  ISHED TO THE NETHERWORLD, THE IMPS *
+  DISCOVERED THE SECRET OF TRAVEL-   *
+  LING BETWEEN THE PLANES.  THEY     *
+  BEGAN TO MAKE FREQUENT RAIDS ON    *
+  THE MATERAIL PLANE, KNOWING THAT   *
+  FEW OF ITS CITIZENS COULD FOLLOW   *
+  THEM BACK TO THE NETHERWORLD.      *
+     THE IMPS HAVE LEARNED TO USE    *
+  THE POWERS OF BLACK MAGIC AND HAVE *
+  PERFECTED VARIOUS BRAINWASHING     *
+  TECHNIQUES.                        *
++------------------------------------+
+
+    SCROLL K
++-------------------------------------+
+          THE BOOK OF BEASTS          *
+    MANY EONS AGO WHEN PLUTO FIRST    *
+ BECAME THE RULER OF THE NETHERWORLD  *
+ HE CREATED NINE UNIQUE BEASTS.  HE   *
+ USED SOME OF HIS OWN BLOOD TO CREATE *
+ THE BEASTS AND THUS EACH BEAST IS    *
+ IMMORTAL AND POSESSES MAGIC AS       *
+ GREAT AS PLUTO DOES.  PLUTO ALSO     *
+ GAVE EACH BEAST A VERY SPECIAL AMULET*
+ TO HELP PROTECT IT AGAINST ALL TYPES *
+ OF ATTACK.                           *
+    PLUTO THEN PLACED MOST OF THE     *
+ BEASTS IN VARIOUS DIFFERENT PLANES   *
+ AND LET THEM ROAM ABOUT.  EACH BEAST *
+ COMES TO VISIT PLUTO EVERY FEW YEARS.*
+ THE MAIN PURPOSE OF THE BEASTS IS TO *
+ DEMONSTRATE PLUTO'S GREAT POWER.     *
+       +--------------------+         *
+       +--------------------+         *
+  BEAST I IS THE GIANT CONSTRICTOR,   *
+ AN ENOURMOUS GREEN SNAKE, AND BEAST  *
+ II IS THE WINGED DEVIL, A SMALL RED  *
+ IMPISH CHARACTER WITH LARGE WINGS.   *
+ THESE BEASTS CAN BE FOUND IN ANY OF  *
+ THEY PLANES AT ANY TIME AND PLACE.   *
+  BEAST III IS THE TERRIFYING UNDEAD  *
+ SNAKE WHICH IS BLUE IN COLOR, AND    *
+ BEAST IV IS THE HORRIBLE DEMON-FLY   *
+ A SMALL BLUE BEAST SIMILAR TO THE    *
+ WINGED DEVIL.  THESE TWO BEASTS      *
+ STICK TO THE MATERIAL PLANE AND STAY *
+ MAINLY ON SMALL DESERT ISLANDS.      *
+  BEAST V IS THE MYSTERIOUS WYVERN,   *
+ A SMALL RED DRAGON-LIKE CREATURE, AND*
+ BEAST VI IS THE GREEN SNAKE-DRAGON   *
+ WHICH CAN ASSUME THE SHAPE OF A DRA- *
+ GON OR A SNAKE.  THESE TWO ROAM THE  *
+ ASTRAL PLANE AND CAN BE SUMMONED BY  *
+ A POWERFUL MAGIC SPELL.              *
+   BEAST VII IS THE GIANT WYVERN      *
+ WHICH IS A LARGE RED DRAGON-LIKE     *
+ CREATURE, AND BEAST VIII IS THE      *
+ DREADED DRAGON-DEMON A HIDEOUS WHITE *
+ CREATURE WHICH CAN ASSUME THE SHAPE  *
+ OF A DRAGON OR A DEMON.  PLUTO KEEPS *
+ THESE TWO BEASTS AS PETS SOMEWHERE   *
+ SOMEWHERE IN THE NETHERWORLD ALSO.   *
+   BEAST IX, THE ICE DRAGON, IS       *
+ PERHAPS THE MOST SPECTACTULAR ANIMAL *
+ ALIVE.  NO MORTAL CAN POSSIBLY AP-   *
+ PROACH IT.  IF FACT, ONLY PLUTO AND  *
+ THE OTHER BEASTS HAVE EVER SEEN IT.  *
+ IT IS BELIEVED THAT PLUTO KEEPS IT   *
+ IN THE NETHERWORLD.                  *
++-------------------------------------+
+
+    SCROLL L
++----------------------------------+
+          SENOG'S TRAVELS          *
+    MANY YEARS AGO THE GREAT WIZ-  *
+ ARD SENOG TRICKED AN IMP INTO     *
+ TELLING HIM THE SECRET OF TRAVEL- *
+ LING INTO THE NETHERWORLD.  FOR   *
+ OVER TWELVE YEARS SENOG WANDERED  *
+ THROUGH THE NETHERWORLD UNTIL HE  *
+ BECAME OBSESSED WITH IT.          *
+    IN HIS TRAVELS, SENOG VISITED  *
+ MANY STRANGE AND MYSTERIOUS       *
+ PLACES, INCLUDING THE IMPLING     *
+ HATCHERY AND THE FORGOTTEN TEMPLE.*
+ HE USED HIS POWERFUL MAGIC TO     *
+ KEEP HIM ALIVE.  HIS MOST DARING  *
+ ADVENTURE WAS WHEN HE EXPLORED    *
+ PLUTO'S CASTLE ON THE SECOND LEVEL*
+ OF THE NETHERWORLD.  HE ENTERED,  *
+ THROUGH THE MIDDLE DOOR ON THE    *
+ WEST SIDE AND SNUCK PAST THE      *
+ GUARD, BUT HE NEVER RETURNED.     *
++----------------------------------+
+
+[note:  this is still correct on the Commodore even with rotation]
+
+    SCROLL M
++-------------------------------------+
+        ---DEPARTED SOULS---          *
+   WHENEVER A MORTAL FROM THE MATER-  *
+ IAL PLANE DIES, HIS SOUL BEGINS THE  *
+ JOURNEY TO THE ASTRAL PLANE FOR      *
+ JUDGEMENT.  THE JOURNEY CAN TAKE     *
+ YEARS AND A RESURRECTION SPELL CAST  *
+ DURING THIS TIME MAY RECALL THE SOUL *
+ TO THE BODY.  IF THE SOUL ARRIVES    *
+ AT THE ASTRAL PLANE IT WILL BE       *
+ JUDGED, AND IF DEEMED UNWORTHY OF    *
+ EXISTANCE, IT WILL BE DESTROYED.     *
+ THE SOUL MAY BE JUDGED AS PREMATURE  *
+ AND BE RETURNED TO ITS RESURRECTED   *
+ BODY.  IT THE SOUL BELONGED TO AN    *
+ OUTSTANDING BEING IT MAY BE ACCEPTED *
+ INTO THE HEAVENS IF GOOD, OR DEEP    *
+ INTO THE NETHERWORLD IF EVIL.        *
+     THOSE SOULS THAT ARE LEFT ARE    *
+ RETURNED TO THEIR BODIES AS 'UNDEAD' *
+ AND LEFT TO ROAM THE MATERIAL PLANE  *
+ OR LOWER LEVELS OF THE NETHERWORLD.  *
++-------------------------------------+
+
+    SCROLL N
++-------------------------------------+
+        THE FORGOTTEN TEMPLE          *
+   THERE IS A VERY ANCIENT TEMPLE ON  *
+ THE SECOND LEVEL OF THE NETHERWORLD  *
+ WHOSE PURPOSE HAS LONG BEEN FORGOT-  *
+ TEN. THE TEMPLE IS SURROUNDED BY     *
+ LAVA AND, THEREFORE, NOT EASY TO     *
+ WALK TO.                             *
+   THE BEST WAY TO GET TO THE TEMPLE  *
+ IS VIA THE ASTRAL PLANE.  THE ASTRAL *
+ PLANE IS A STRANGE LIGHT-FILLED VOID *
+ WHICH INTERCONNECTS ALL THE OTHER    *
+ PLANES.                              *
+   THERE IS A VORTEX IN THE WATER     *
+ WEST OF THE IMPLING HATCHERY WHICH   *
+ LEADS FROM THE FIRST LEVEL OF THE    *
+ NETHERWORLD TO THE ASTRAL PLANE.     *
+ A SIMILAR VORTEX LEADS FROM THE      *
+ ASTRAL PLANE TO THE SECOND LEVEL OF  *
+ THE NETHERWORLD, NOT FAR FROM THE    *
+ TEMPLE.                              *
++-------------------------------------+
+
+  [On the commodore:  north of the Impling hatchery]
+
+  WALKTHROUGH
+
+    GETTING BETTER
+
+    GETTING AROUND
+
+      Due to the relative lack of dungeons or distance to travel to get 
+to them, it's pretty clear which town goes where.  "Only from" means you 
+can only get to one place from another town.
+
+LOCATION           | TOWN + INSTRUCTIONS
+-------------------+----------------------------------------------------
+-
+KOBOLD VILLAGE     | PIPPACOTT(1)--west
+SENOG'S LABORATORY | SAXLINGHAM(3)--southwest
+IMPLING HATCHERY   | DEATHPORT(7)--one sector west(can't leave 
+Deathport)
+ORB DUNGEON        | BLACK MOOR(8)--E, only from DEATHPORT(7)
+STRAW HUT          | FERRON(6)--west
+SUMMER CASTLE      | LLITHFAEN(4)--north
+PLUTO'S SMALLEST   | BLACK ABYSS(10)--SE, only from DEMONIAC(9)
+  CASTLE           |
+
+  OVERWORLD TOWNS
+Pippacott(1) at (2,2)
+Haslemere(2) at (2,3)
+Saxlingham(3) at (1,2)
+Llithfaen(4) at (2,1)
+Ipswich(5) at (1,1)
+Ferron(6) at (0,0)
+
+  UNDERWORLD TOWNS
+DEATHPORT(7) at (3,2) Underworld(L1)
+BLACK MOOR(8) at (3,3) Underworld(L1)
+DEMONIAC(9) at (1,1) Underworld(L2)
+BLACK ABYSS(10) at (1,0) Underworld(L2)
+
+Note that leaving Demoniac kicks you to (3,2) Underworld(i.e. the first 
+level,) and leaving Deathport kicks you to (1,2) overworld, east of 
+Saxlingham.
+
+
+    GETTING THROUGH
+
+  Well, once you know what to do the game is really rather simple, 
+except for the waiting for random encounters bit.
+  Monster 1, Pluto's Giant Constrictor, seems to be found at random in 
+the overworld.  I combed it(i.e. move all the way left, down one, all 
+the way right, etc.) and eventually got the sucka.  It was actually the 
+last one I found before I went to the second level of the underworld.  
+If you cannot find it after combing the continent you probably do not 
+want to save the game, especially if you have humans in your party.  The 
+continent has 20*26*9=4680 squares(well, a few less for water, etc.) and 
+that can add up to quite a few years for your characters.  It makes up 
+for its relative ease by being incredibly tough to find.
+  Monster 2, Pluto's Winged Devil, seems to be found at random in a 
+dungeon.  I found it in the straw hut, and you are well advised to 
+continue resetting dungeons until things work out--or at least to have a 
+backup disk you can reset to.
+  Monster 3, Pluto's Undead Snake, is really rather easy to find.  It's 
+on the desert isle southeast of Gelnor.
+  Monster 4, Pluto's Demon Fly, is in the upper left, on the isle with 
+the inn.
+  Monsters 5 and 6 are in the astral plane.  Once you've figured out how 
+to get there, cast spell 57 a whole bunch.  It's not terribly exciting, 
+but eventually you'll hook your fish.  It seems to take longer the 
+second time.  Maybe that's because at first there's a 10% chance of 
+getting 5 or a 10% chance of 6 when the computer calculates, and with 
+one monster down one of these cases is invalid.  Be warned of potential 
+tedium.
+  Monster 7, Pluto's Giant Wyvern, is in Pluto's Smallest Castle and 
+easy to find if you know the right way to get in.
+  Monster 8, Pluto's Dragon Demon, is in Pluto's Menagerie in the lower 
+left.  You'll have random setbacks getting there but again you may want 
+to save the dungeon along the way;  there are several encounters you 
+have to face before you can get close, and with the draining trek you 
+also have to make, you will need as little margin for error as possible.
+  Monster 9, Pluto's Ice Dragon, is in Pluto's Menagerie in the lower 
+right, only you do not kill it.  You give it the orb.  In order to 
+approach it you need to have used the eight amulets that you got from 
+the first eight monsters.  Then everyone in your party should have all 
+eight beast runes.
+
+  That is the game in a nutshell.  However, finding out how to go about 
+this is a bit more difficult.
+  In the Kobold Village an oracle can help you, and you can build up 
+your characters.  Nothing critical though yet except for the code to get 
+to the first level of the underworld.
+  In the straw hut Filmon gives you even more information including the 
+scroll about the monsters.
+  In the Summer Castle, if you rescue the Princess she tells you how to 
+destroy the orb.
+  In the laboratory on the island, you find a teleporter and use the 
+code you got in the Kobold village.
+  On the first level of the underworld, one dungeon(north-a-ways) 
+contains the orb, and the other contains the divine spell as well as the 
+code for the second level of the underworld.
+  Go to the astral plane and visit the forgotten temple on the second 
+underworld level(poke around in the water for a vortex both times,) 
+which gives you another number clue.  This will help you get to monster 
+9.
+  Go to the second level of the underworld through the island lab.  
+Visit Pluto's smallest castle but be sure to enter the right way.
+  Visit the final dungeon.  You'll have to trace back to use the final 
+amulet, but once you do you can go back and face the ice dragon.  Hey 
+voila and presto!  You're done.
+  
+
+  OVERWORLD MAP WITH SECTORS
+
+    OVERWORLD LEDGER
+* = forest
+^ = hills/mountains
++ = path
+I = inn
+T = town
+D = dungeon
+. = grassland
+: = desert
+! = important encounter
+X = absolute border
+~ = water
+
+    OVERWORLD (0,0)
+X~~~~^^^^^*********+******
+X~~~~^^^^^*********+******
+X~~~^^^^***********++*****
+X~~~^^**************+*****
+X~~~****************+*****
+X~~****~~HHH********++****
+X~~****~~~~H*********+****
+X~~***~~~~~~*********+****
+X~~***~~~~~~*********+++++
+X~~**~~~~~~~*********+****
+X~~*D~~~~~***********+****
+X~~~~~~~~~***********T****
+~~~~~~~~h**********~~~****
+~~~~~~~~********~~~~~~~~**
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~..~~~~~~~~~~~~~~~~:~~~~~
+~~~~~~~~~~~~~~~~~~~~~:~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+H = ruined city
+h = lighthouse
+
+  The dungeon in the corner is not particularly critical.  I think you 
+can sneak through the game without it.  The dungeon is the Straw Hut 
+where you find Filmon.
+
+  Town number 6, Ferron, is in the south.  There's not much else to see 
+here except for the ruins, which seem to be here for Local Flavor.
+
+    OVERWORLD (0,1)
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+X~~~~~~.~~.~~~~~~~~~~~~~~~
+X~~~~~~......~~~~~~~~~~~~~
+X~~~~...~~~~~~~~~~~~~~~~~~
+X~~~...~~~~*~~~~~~~...~~~~
+X~~..~~~~~~**~~~~~~.....~~
+X~~..~~~~~****~~~~......**
+X~~.~~~~~~****~~~~**....**
+X~~..~~~~******~~I**....**
+X~~.~~~~~********+********
+X~..~~~~*********+********
+~~~~~~~~*********+********
+~~~~~~~^*********+********
+~~~~~~~^*********+++++++++
+~~~~~~~^^**********+******
+~~~~~~^^^**********+******
+~~~~~~^^^**********+******
+~~~~~^^^^^*********+******
+~~~~~^^^^^*********+******
+
+  This is a non-critical sector.  The inn here is called "The Salty 
+Tavern."  If you want to explore all the towns, going this way is as 
+good as going through (1,0), although I would really recommend learning 
+transport.
+
+    OVERWORLD (1,0)
+**********+*********~~~~XX
+**********+*********~~~~XX
+**********+*********~~~~XX
+**********+*********~~~~XX
+*****++++++++++I*****~~~XX
+*****+***************~~~XX
+*****+***************~~~XX
+*****+****....********~~XX
+++++++***.......******~~XX
+********...::...******~~XX
+********..:::::.******~~XX
+*******...:::::...****~~XX
+*******...:::::...*****~XX
+****~~~~~~~~~~~...*****~XX
+~~~~~~~~~~~~~~~~~~~~***~XX
+~~~~~~~~~~~~~~~~~~~~~~~~XX
+~~~~~~~~~~~~~~~~~~~~~~~~XX
+~~~~~~~~~~~~~~~~~~~~~~~~XX
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+  The inn is called the Black Elf Tavern.  Other than that, not a lot 
+happening in this sector.  Not even any islands.
+
+    OVERWORLD (1,1)
+X~~~~~~~........+.........
+X~~~~~~~........+.........
+~~~~~~~^........+.........
+~~~~~~~^^^......+.........
+~~~~~~^^^^......+.........
+~~~~~^^^^^^^....+.........
+~~~^^^^^^^^^^^..I.........
+*^^^^^^^^^^~~~~~~~~.......
+*^^^^^^^^^~~^^^...~.......
+****^^^^^^~^^^^...~~~~~~~~
+******^^^^^^^^^^^.~.......
+********^^^^^^^^^.~.......
+********^^^^^^^^^^~.......
+**********^^^^^^^^~^^.....
++++++++++T^^^^^^^~~^^^^...
+*********+***^^^^~^^^^^~~~
+*********+*****^^^^^^~~~~~
+*********++******^^^~~~~~~
+**********+********^~~~~XX
+**********+*********~~~~XX
+
+  A neat little mountain range divides this sector, and the continent, 
+in half.  The town is Ipswich(5) and the inn is "The Mountain View Inn."
+
+    OVERWORLD (1,2)
+X~~~^^^^^^................
+X~~~^^^^^^...........+++++
+X~~~^^^^^^......++++++....
+X~~~^^^^^.......+.........
+X~~~~^^^^.......+.........
+X~~~~.......***.+.........
+X~~~~.......****+..*******
+X~~~~......*****+*********
+X~~~~~T++++++++++*********
+X~~~~~.....*****+*********
+X~~~~~**********+*********
+X~~~~~**********+*********
+~~~..~~*********+*********
+~~~..~~*********+*********
+~~~..~~*********+*********
+~~.D.~~***....**+*********
+~~~..~~~........+***......
+~~~~~~~~........+.........
+~~~~~~~~........+.........
+~~~~~~~~........+.........
+
+  The town here is Saxlingham(3) with the dungeon being the Castle.  It 
+is the most useful of all the dungeons in the game.
+
+    OVERWORLD (1,3)
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+X~~.~~~~~~~~~~~~~~~~.~~~~~
+X~~..~~~~~~~~~~~~+++~~~~~~
+X~~~~~~~....~~~~~~~~~~~~~~
+X~~~~~~~........~~~~~:::::
+X~~~~:~~~.......::::::::::
+X~~~:::~~.......::::::::::
+X~~~:I:~~........:::::::::
+X~~~::~~..........::::::::
+X~~!:~~~..........::::::::
+X~~::~~..........:::::....
+~~~~~~~...........:.......
+~~^~~^^^..................
+~~^~^^^^^^^...............
+~~^~^^^^^^^...............
+~~^~^^^^^^^...............
+~~^~^^^^^^................
+~~^~^^^^^^................
+~~~~^^^^^^................
+
+
+  One of Pluto's monsters(number four) can be found on the island with 
+the inn("The Smuggler's Inn.")
+
+    OVERWORLD (2,1)
+..............^^^^^^^^^~XX
+......~.......^^^^^^^^^~XX
+......~.......^^^^^^^^^~XX
+......~~.......^^^^^^^~~XX
+.......~.......^^^^^^^~~XX
+.......~.......^^^^^^^~~XX
+.......~........^^^^^~~~XX
+.......~~.......^^^^^~~~XX
+........~......I.^^^^~~~XX
+~~~.....~........^^^^^~~XX
+..~~~~.D~.........^^^^~~XX
+.....~~~~.........^^^^^~XX
+.......~~..........^^^^~XX
+.......~~...........^^^~XX
+.......~~...~.......^^~~XX
+~~~....~~T.~~........~~~XX
+~~~~~~~~~~~~~~.....~~~~~XX
+~~~~~~~~~~~~~~~~~~~~~~~~XX
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+  The Summer Palace is here, where you try to rescue the princess.  You 
+also have the town of Llithfaen(4) and the inn is called "The Purple 
+Gnome." 
+
+    OVERWORLD (2,2)
+.+..........I+........~~XX
+++...........++++.....~~XX
+..........D.....+.....~~XX
+........~~~~~~..T......~XX
+........~~~~~~~~~......~XX
+.......~~~~~~~~~~~~~...~XX
+***...~~~~~~~~~~~~~~~~~~XX
+******~~~~~~~~~~~~~~~~~~XX
+******~~~~~~~~~~~~~~:::~XX
+******~~~~~~~~~~~~::::::XX
+******~~~~~~~~~~~~::!~::XX
+******~~~~~~~~~~~~~~~~~~XX
+*****~~~~~~~~~~~~~~~~~~~XX
+*****~~~~~~~~~~~~^^^^~~~XX
+*****~~~~~~~~^^^^^^^^^~~XX
+***..~~~.....^^^^^^^^^~~XX
+.............^^^^^^^^^~~XX
+.............^^^^^^^^^~~XX
+..............^^^^^^^^^~XX
+..............^^^^^^^^^~XX
+
+  This is, of course, the first scene your party will see when you leave 
+Pippacott(1).  To the southeast you'll find Pluto's Monster number 
+three, but you probably don't want to mess with it yet when starting 
+out.  The Kobold Village is a good place to go to start, but once you 
+get better the meager experience points won't be worth the constant 
+hassle of the trivial fights.  The inn here is called "The Albatross," 
+and all squares are visible as you walk around.
+
+    OVERWORLD (2,3)
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+~~~~~~~~..~~~~~~~~~~~~~~XX
+~~~~~~...~~~~~~~~~~~~~~~XX
+~~~~~~...~~~~~~~~~~~~~~~XX
+:~~~~~~~~~~~~:::::~~~~~~XX
+::::::~~~~I::::::::~~~~~XX
+::::::::::+::::::::~~~~~XX
+::::::::::+:::::::::~~~~XX
+::::::::::+:::::::::~~~~XX
+::::::::::+:::::::::~~~~XX
+..::::::::+::::::::::~~~XX
+.......:::+::::::::::~~~XX
+***.......+....::::::~~~XX
+*****.....+........::~~~XX
+*****....+++++........~~XX
+******...+T..+........~~XX
+...***..++...+........~~XX
++++++++++....+........~~XX
+++...........+........~~XX
+
+  The inn to the far north is called "The Oasis."  The town is called 
+Haslemere(2).
+
+  UNDERWORLD MAP WITH SECTORS
+
+    UNDERWORLD LEDGER
+
+. = mist
+[space] = darkness
+V = vortex in the water
+~ = Styx river(impenetrable)
+D = dungeon
+l = lava(less damage)
+* = lava(more damage)
+% = lava(safe)
+^ = hills
+T = town
+t = forgotten temple
+
+Incidentally, there are no inns in the underworld.
+
+    ASTRAL PLANE (U1,2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~.~~~~.....~~~~     VVV
+~~~~..........         ~~~
+~~~~..........         ~~~
+~~~~...........        ~~~
+~~~~~~~........       ~~~~
+~~~~~~~~~~~~  .       ~~~~
+VVVVVVV~~~~          ~~~~~
+~~~~~~V~~~          ~~~~~~
+~~~~~~V~~          ~~~~~~~
+~~~~~~V~    .....   ~~~~~~
+~~~~~~    ...~........~~~~
+~~~~      ..~~~~~.......~~
+~~~~      ..~~~~~~......~~
+~~~~ ~~   .~~~~~~~~~~...~~
+~~~~~~~   ~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  There is relatively little to explore here.  You learn a spell which 
+you need to cast repeatedly.  It's a bit annoying waiting for the 
+correct encounter and, in fact, you have to do so twice.  In order to 
+get here you needed to find a vortex, and that is the same method you 
+need to get out of here, although the entrance to the vortex is smaller.  
+Skirting the shores and jumping in the water generally works.  Be sure 
+to heal up before entering the second level of the underworld, which has 
+some nasty lava.
+
+    FIRST LEVEL(0,0) (U2,2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~^^^~~~~~~~~~~
+VVVVVVVV~~~^^^^^^^l~~~~~~~
+~~~~~~VVV..^^^^^^^ll   ~~~
+~~~~~~V.....^^^^^^ll      
+~~~~~~......^^^^^^ll      
+~~~~~~.......^^^^^ll      
+~~~~~........^^^^^^ll     
+~~~~~.......^^^^^^^ll     
+~~~~~......^^^^^^^^ll     
+~~~~.....~~^^^^^^  ll     
+~~~~....~~~^^^^    ll     
+~~~~....~~~^^^      ll    
+~~~~...~~~~^^^      ll    
+~~~....~~~~~~~      ll    
+~~~...~~~~.~~~      ~~    
+~~~...~~~....~~~  ~~~~~~  
+~~~D.~~~~....~~~~~~~~~~~~~
+~~~~~~~~~~~..~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Yeegh.  You'll have to take a little damage walking across the lava to 
+get to the good parts, and you may have to come back later.  You can't 
+access the island since you're not allowed to swim in the Styx.  The 
+dungeon, the cold wet cavern, has some important information as well as 
+a special ability that you will need to win.
+
+    FIRST LEVEL(1,0) (U3,2)
+~~~~~~       ^^^^^^^^^~~~~
+~~~~~~        ^^^^^^^^~~~~
+~~~~  T        ^^^^^^^~~~~
+~              ^^^^^^^~~~~
+                ^^^^^^~~~~
+                 ^^^^^~~~~
+                 ^^^~~~~~~
+                 ^^^~~~~~~
+                 ..~~~~~~~
+                 ..~~~~~~~
+                ...~~~~~~~
+                ....~~~~~~
+               .....~~~~~~
+             ........~~~~~
+            ......+..~~~~~
+       ~~~~~..........~~~~
+   ~~~~~~~~~~~~~......~~~~
+~~~~~~~~~~~~~~~~~~~..~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Once transported here you land on the +.  Deathport(7) is the town to 
+the northwest.  Note that if you enter it, you will be kicked back to 
+the overworld on exiting unless you cast town transport.  You can only 
+move to the other town on the first level, and if you don't, you are 
+kicked out to the path east of Saxlingham.  It's actually not a bad idea 
+to use town transport, as you avoid some nasty lava that way.
+
+  There's stuff to do in each direction--a dungeon each way.
+
+    FIRST LEVEL(1,1) (U3,3)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~.....   ~~~~~~
+~~~~~~~~~..T.....   D~~~~~
+~~~~~~~~~........    ~~~~~
+~~~~~~~~~......      ~~~~~
+~~~l~~~~~....        ~~~~~
+~~~ll~~~             ~~~~~
+~~~ll~~~             ~~~~~
+~~llll~~     lllllllll~~~~
+~~lll~~~   lllllllllll~~~~
+~~lll~~~lllll        ~~~~~
+~~~l~~~llll          ~~~~~
+~~~~~~~           ^^~~~~~~
+~~~~~~~         ^^^^~~~~~~
+~~~~~~~       ^^^^^^^~~~~~
+~~~~~~       ^^^^^^^^~~~~~
+~~~~~~       ^^^^^^^^^~~~~
+
+  Black Moor(8) is the town in the upper left.  The lava isn't the 
+terribly nasty sort but will still do damage.  The dungeon contains a 
+very valuable item.  You can't reach the island as the game doesn't 
+allow you to swim the Styx.
+
+    SECOND LEVEL(0,1)
+~~~~~**%l%%%%%%%**~~~~~~~~
+~~~~~**%**********~~~~~~~~
+~~~~~**%**********l  ~~~~~
+~~~~~**%**********l    ~~~
+~~~~~**%**********l       
+~~~~***%*********ll       
+~~~~***%*********l        
+~~~~***%*********l        
+~~~~***%*****%***l        
+~~~****l*****%**ll        
+~~~*%%%%%%%%l%**l         
+~~~**********%**l         
+~~~**********%*ll         
+~~~**********%*l          
+~~~~*********%*l          
+~~~~~~*******%*l        ~~
+~~~~~~~~~****%ll     ~~~~~
+~~~~~~~~~~~~***l   ~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Here's where the major lava begins.  You'll notice a path through it.  
+You'll need to go through it multiple times, but a trace will be left 
+from the first time you walk through;  this is an example of how the 
+terrain being invisible until you walk over it benefits you.  In case 
+you forgot the rules for going to the final dungeon, you can just guess 
+the way.  Remember that you see the areas around you, so you'll want to 
+stay in the center of the path of vision carved out.  Note two rather 
+nasty tricks in the lava patterns:
+  1.  If you go a bit too far in the direction you're supposed to, the 
+game lets you slide until you make a turn.  Then you're exposed to the 
+deadlier lava.
+  2.  You're always hit up for a little damage whenever you change 
+direction.  Be sure to check up on your damage a few times along the 
+way, and remember to save some heal spells after you leave the dungeon, 
+as the return trip may be costly as well.
+
+    SECOND LEVEL(0,2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~**~~~~~~~~~~
+~~~~~~~~~**********~~~~~~~
+~~~~~**************l~~~~~~
+~~~~**%************l~~~~~~
+~~~~**%********D***ll~~~~~
+~~~***%l%%%%%%%%lllll~~~~~
+~~~***%*********llllll~~~~
+~~****%*********llllll~~VV
+~~****%*********lllllll~V~
+~~****%*********llllltlVV~
+~~****%*******%*lllllll~~~
+~~~***l*******%***llll~~~~
+~~~**%%%%%%%%l%*******~~~~
+~~~***********%******~~~~~
+~~~~**********%******~~~~~
+~~~~**********%*****~~~~~~
+~~~~**********%*****~~~~~~
+~~~~~*********%****~~~~~~~
+~~~~~*********l****~~~~~~~
+
+  The final dungeon, with Pluto's last two monsters, is here.  You'll 
+need to visit it twice.  
+
+  The Forgotten Temple is where you will wind up after going through the 
+vortex that started in the Astral Plane.  While it is technically 
+possible to reach the final dungeon from the Forgotten Temple, your 
+party will be very beaten up by the time they get there.  I suppose if 
+you go on a direct diagonal WNW, etc. you will make it, but it will be 
+very costly.  As you need to visit Pluto's Smallest Castle anyway you 
+might as well figure the other way to get to the second level.
+
+    SECOND LEVEL (1,0)
+
+~~~~llll               ~~~
+~~~~llll               ~~~
+~~~~T llll            ~~~~
+~~~~    ll            ~~~~
+~~~~    ll           ~~~~~
+~~~~~                ~~~~~
+~~~~~s              ~~~~~~
+~~~~~               ~~~~~~
+~~~~~              ~~~~~~~
+~~~~~              ~~~~~~~
+~~~~~         ......~~~~~~
+~~~~~~  ........+...+~~~~~
+~~~~~~...........DDD..~~~~
+~~~~~~...........DDD...~~~
+~~~~~~~..........DDD...~~~
+~~~~~~~.........+...+.~~~~
+~~~~~~~...............~~~~
+~~~~~~~~~~......~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+s = where you start after teleporting here
+
+  Pluto's Smallest Castle is the dungeon to the southeast of the town.  
+You'll need to watch out a bit for the lava bed as this level is largely 
+invisible until you start walking around.
+
+  The town, Dark Abyss, is a good place to rest, and since you will have 
+to return to a town after the final dungeon, you'll wind up visiting 
+it(see (1,1) for the problems with Demoniac.)
+
+  The best way to enter the dungeon, Pluto's Smallest Castle, is from 
+the center west.  Any other way and you will have to fight Pluto, who is 
+very tough to beat.
+
+    SECOND LEVEL (1,1)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+       ~~~~~~~~~~~~~~~~~~~
+          ~~~~~~~~~~~~~~~~
+            ~~~~~~~~~~~~~~
+             T     ~~~~~~~
+                   ~~~~~~~
+                   .~~~~~~
+                  ..~~~~~~
+                .....~~~~~
+               ......~~~~~
+               ......~~~~~
+      ll       .......~~~~
+~~    ll         .....~~~~
+~~~lllllll       .....~~~~
+~~~lllllll         ....~~~
+~~~~llll               ~~~
+~~~~llll               ~~~
+
+  There's not much to do here.  Entering and leaving Demoniac, the town, 
+is not recommended unless you wish to be transported back to the first 
+level of the underworld.  You can however cast transport to town number 
+ten, Dark Abyss.  If you are returning from a dungeon and want to play 
+it safe, that is the best time to enter this town.  Again visibility is 
+bad, so watch out for any lava you stumble onto.
+
+  The instructions for the walk to the final dungeon also begin at 
+Demoniac.
+
+  DUNGEONS
+
+    GENERAL LEGEND
+
+  x = exit
+  ~ = secret passage
+  | = door(need lock-pick skill)
+  - = door(need lock-pick skill)
+  ! = encounter
+  : = trap
+  ; = you hear monsters, go back? [door or open space, but probably 
+door]
+  $ = treasure.  If there is any specifically valuable treasure not in 
+the descriptions I will try to note it.
+  ^ = stairs.  While nothing happens to your party on these squares I 
+may as well be complete.
+    The more detailed descriptions of the room may be described 
+qualitatively.  In general we assume a corridor is one unit wide in 
+these descriptions, and a room is anything that isn't, although most of 
+the time it will be rectangular in shape.  Rooms will have a description 
+in some corner;  on that square, nothing special happens.
+
+    In general the text, extracted from the Apple version, will be in 
+ALL CAPS.  My comments, including various sic's, will not be shouted 
+quite so loudly.
+
+    DUNGEON 1: KOBOLD VILLAGE
+
+      X     X  x X X  X  X  X  X X
+      X     X    X ~  X  X  X  X X
+      X     X    X X  X  X  X  X X
+      X     X XXXXXX  X  X  X  X X
+      X     XK     X  X  X  X  X X
+      K     X X    X     K     L X
+XXXXXXLXXXXXX X    X             X
+            X XXXXXXXXXeeXXXXXfXXX
+      X     |K              X    X
+      X     X               X    X
+      X     X               X    X
+      X     X    XXmXXX     X    X
+XX-XXXXXXXXXX    XQ   X     |    X
+    X            X   PX     X    X
+    X            XO   X     X    X
+ $  X            XXXXXX   XXXXXXXX
+    k                     X   X  X
+    X                     |   | $X (scrolls)
+XXXXXX    XXXXXXXXXXXX    X   X  X
+     X    X   X   X  X    XXXXXXXX
+     |    X       X  X      X    X
+     X    XXXXKXXXX  X      X    X
+XXXXXX    X      L   M      ~N  $X (items + gold)
+     X    X  X   X   X      X    X
+    K|    X  X   X   X      X    X
+     X    XXXXXXXXXXXX      X    X
+XXXXXXXXX-XX   X            X    X
+   X X 1X  X   X            X    X
+   | X  X  X O X         XXXXXX-XX
+   X X-XX  XX-XX         X   XX XX
+XXXX           |         XM  A AXX
+   X XX-XXX XX X         >KL XXXXX
+ 2 | X P X   X-XXXXX~XXXXXXXXXXXXX
+   X X   X 3 X-XXXXXAXXXXXXXXXXXXX
+XXXX-XXXXXXXXX-XXXXXAXXXXXXXXXXXXX
+XXX   XXXXXXX   ~~~~AXXXXXXXXXXXXX
+XXX 4 XXXXXXX 5 XXXXXXXXXXXXXXXXXX
+XXX   XXXXXXX   XXXXXXXXXXXXXXXXXX
+
+OVERVIEW:  You'll have a lot of combats with kobolds and orcs as you 
+work your way through here.  The oracle is the key thing to see here.  
+It gives you some advice although not very detailed.  There's a nice 
+treasure room in the east although you're better off finding the secret 
+door.  If you want to pile up cash you can reset the dungeon continually 
+and go to the dwarf at (4).  Overall this is a pleasant introduction to 
+Phantasie II dungeons with nothing actually critical to solving the 
+game.
+
+The quick walkthrough is to blast straight south and visit every jail 
+cell except 1 for information and gold.  Visit the oracle and then hit 
+the secret door to find the treasure stash.  Also check the chief's 
+house above it for scrolls.  Leave.
+
+  "Outside in Kobold Village" is the default although you have four 
+rooms of guard quarters in the northwest, a mess hall in the northeast, 
+and "a simple kitchen" south of that.  The chief's house, then the 
+treasure room, is below that.  There are also guard quarters to the west 
+and also near the entrance.  Closets are behind the chief's house and 
+the mess hall with treasure in the second.  A garbage pit is in the 
+center, as well as general living quarters.  An armory with wooden items 
+is below the guard's quarters, with captains' houses below that.  The 
+detention area with many cell blocks is beolw that, although the oracle 
+room is just west of the cell block with the secret door.
+
+A : a trap, arrows or boiling oil.
+K : encounter with Kobolds/Orcs
+L : encounter with Orcs
+M : encounter with Scribes
+N : encounter with Ranger/Wild Dog
+O : encounter with Drip Slimes
+P : encounter with Drip Slime/Green Muck
+Q : encounter with Giant Ants
+
+> : THERE IS A LARGE IRON GATE HERE. 1-LEAVE 2-OPEN IT
+  [choose 2:]  YOU HAVE SET OFF AN ALARM. YOU HERE GUARDS APPROACHING.  
+[this puts encounters several squares around where you stand]
+1 : A VICOUS IMP IN THIS CELL SAYS, "FOR A THOUSAND GOLD I'LL GIVE YOU 
+SOME ADVICE." 1-ATTACK HIM 2-PAY HIM
+  [choose 2:] HE TAKES YOUR GOLD AND SPEAKS, "THEERRE ISA SECRET DOOR ON 
+THE SOUTHERN WALL OF TH THIS VILLAGE BUT BE CAREFUL SUCKERS." HE RUNS 
+OFF LAUGHING WILDLY.
+2 : A DAZED GNOME IS RUNNING AROUND THE CELL BANGING HIS HEAD AGAINST 
+THE WALL AND SCREAMING, "FOURTY SEVEN!"[sic] EVENTUALLY HE RUNS OUT OF 
+THE CELL.
+3 : THERE IS A GREAT DEAL OF SMAOKE EMANATING FROM THE AREA IN FRONT OF 
+YOU, A VOICE FROM WITHIN THE SMOKE SPEAKS , "DROP YOUR GOLD AND WALK 
+FORTH INTO THE SMOKE." 1-DO AS IT SAYS 2-DO NOTHING
+  [choose 1, take some damage and get the following advice:]
+--THE ORACLE ADVISES: "LEAVE FERRONRAH AN AND SEEK OUT NEW ADVENTURES IN 
+OTHER PLACES, DO NOT COME BACK"
+--THE ORACLE ADVISES: "GO TO THE NETHER- WORLD, FIND THE 'BOOK OF 
+BEASTS' AND BRING IT BACK TO FILMON THE SAGE, WHEN YOU HAVE DONE WHAT 
+FILMON WANTS COME BACK TO THIS ORACLE"
+--THE ORACLE ADVISES: "TAKE THE ORB WHICHYOU HAVE FOUND AND DESTROY IT 
+BY FEEDING IT TO PLUTO'S ICE DRAGON, THEN RETURN HERE"
+--THE ORACLE ADVISES: "THOSE OF YOU WHO WERE GIVEN THE WAND OF FILMON 
+SHOULD USE IT ON YOURSELVES, THEN COME BACK TO THIS ORACLE"
+4 : A DWARF HERE SAYS, "IN GRATITUDE FOR MY RELEASE I GIVE THEE 1000 
+GOLD PIECES." HE HANDS YOU FOUR SMALL SACKS.
+5 : AN ELF HERE SAYS, "THANKS FOR FREEING ME I TELL YOU THERE IS A 
+SECRET DOOR SOUTH OF THE CHIEF'S HOUSE."
+The following happen if you return to the village and enter the cells:
+--AN UNDGRATEFUL SPRITE WALKS OUT OF THE CELL.
+--THERE IS ONLY A SKELETON CHAINED TO THE WALL HERE.
+
+
+    DUNGEON 2: SENOG'S LABORATORY
+
+XXXXXXXXXXXXXXXX x XXXXXXXXXXXXXXX
+XXXX   XXXXXXXXX   XXXXXXXXX   XXX
+XXX     XXXXXXXX   XXXXXXXX     XX
+XX  X~X  XXXXXXX   XXXXXXX  X~X  X
+XX  X$X  XXXXXXXX-XXXXXXXX  X:X  X
+XX  XXX                     XXX  X
+XXX     XXXXXXXX   XXXXXXXX     XX
+XXXX   XX  X   X   X   X  XX   XXX
+XXXXXX X   X   X   X   X   X XXXXX
+XXXXXX X   XX-XXX-XXX-XX   X XXXXX
+XXXXXX XX-XXX         XXX-XX XXXXX
+XXXXXX XX                 XX XXXXX
+XXXXXX XX-XXX         XXX-XX XXXXX
+XXXXXX X    X         X    X XXXXX
+XXXXXX X    X         X    X XXXXX
+XXXX   XX   X         X   XX   XXX
+XXX     XXXXX  X   X  XXXXX     XX
+XX  X-X  X  X  X   X  X  X  X-X  X
+XX  XUX  |  X  X   X  X  |  XSX  X
+XX  XXX  X  X-XXX~XXX-X  X  XXX  X
+XXX     XXXXX XX $ XX XXXXX     XX
+XXXX   XX      ~   ~      XX   XXX
+XXXXXX XX-XXXX-X~X~X-XXXX-XX XXXXX
+XXXXXX XR   X    X    X  1 X XXXXX
+XXXXXX X    X    X    X2   X XXXXX
+XXXXXX XXXXXXX-XXXXXX-XXXXXX XXXXX
+XXXXXX |    X  X   X  X$   ~ XXXXX
+XXXXXX X    X$ X   X  X    X XXXXX
+XXXXXX X    X  X   X  X    X XXXXX
+XXXX   XX   X$ X   X  X   XX   XXX
+XXX     XXX-XXXXX-XXXXX=XXX     XX
+XX  X-X                     X-X  X
+XX  X:X  XXXXXXXXXXXXXXXXX  XTX  X
+XX  XXX  XXXXXXXXXXXXXXXXX  XXX  X
+XXX     XXXXXXXXXXXXXXXXXXX     XX
+XXXX   XXXXXXXXXXXXXXXXXXXXX   XXX
+XXXXXXXXXXX   XX   XX   XXXXXXXXXX
+XXXXXXXXXXX 3 XX 4 XX 5 XXXXXXXXXX
+
+OVERVIEW:  well, this dungeon is pretty orderly and logical.  Once 
+you've mapped out all the basic places you may notice some spots that 
+are unexplored.  There are probably secret doors to them.  The main 
+thing to find here is the transporter which will allow you to get to the 
+first or second level of the underworld--or just kick you out if you 
+made a bad choice.
+
+This one is pretty easy as well.  Bust through south until you can't go 
+any more;  you'll hit a secret door.  Then go east and south and dial in 
+the correct code(47 or 66) to get to the underworld.
+
+  Outside the castle is where you start.  The next room is Castle 
+Entrance where you can use "Plain Stone Hallway" to visit the six 
+circular "under a tower" locations.    Then there is the Great Hal with 
+the fireplace to the south.  To the west are two messed up rooms 
+smelling of goblins, with a food storage room above the kitchen to the 
+east.  South of the fireplace is a secret library which leads out to two 
+marble hallways.  There are also guard rooms on each side.  The rooms 
+below are the torture chamber, a messed-up wizard's lab, a goblin room 
+with elfskin bed, and a machine room.  At the bottom you have an empty 
+stone room, chemical storage room, and unused bedroom, empty stone room, 
+and a captain's room with a door you can't get open.  The very bottom 
+holds strange interdimensional rooms which house the teleportals.
+
+R : encounter with kobold/goblin
+S : encounter with apprentice devils
+T : encounter with zombies
+U : encounter with ????
+Traps are rocks or a pit.
+1 : THERE IS A STRANGE MACHINE WITH MANY BUTTONS SITTING IN THE CORNER 
+OF THIS ROOM,.
+2 : THE MACHINE HAS TWO SETS OF BUTTONS, THE FIRST SET IS LABLELED 1-9. 
+PUSH WHICH BUTTON?
+THE SECOND SET OF BUTTONS IS LABELED 1-9 PUSH WHICH BUTTON? [note:  you 
+can't get out of this.]
+  [47 : 1st]
+  [66 : 2nd]
+  [others : 1-way to exit]
+3 : exit to first level of underworld
+4 : exit to overworld
+5 : exit to second level of underworld
+Leftovers:  "THERE IS A SCROLL IN THE CAPTAIN'S ROOM ROOM."
+
+    DUNGEON 3: IMPLING HATCHERY
+
+XXXxXXXX  X XXXXXXXXXX XXXXXXXXXXX
+XXX XXXX:X  XX XXXXXXX XXXXXXXXXXX
+XX  XX     XXX   XXXX  XX  XXXXXXX
+XXXT    X  U    XXXXXXYXXX XXXXXXX
+  X XXXXX XX X  XXXXXX XXX XXXXXXX
+X  :XXXXXXXX:XX T  X        U XXXX
+XXX XXXXXXX  XXXX      X    XXXXXX
+XXX XXXXXXXXXXXXXX XXX XXXX XXXXXX
+XXX XXX       ~    XXX XXXX XXXXXX
+XXX XXX       XXXXXXXXX   ~ XXXXXX
+XXX : TU      XXXXXXXXX XXX XXXXXX
+XXX XXX       X   XXXXX XXX XXXXXX
+XXX XXX       :U  XXXXX XXX3XXXXXX
+XXX XXXXXXXXXXX  $XXXXX XXX XXXXXX
+XXX XXXXXXXXXXXXXXX XXX XXX XXXXXX
+XXX:          :XXX   X    ~ XXXXXX
+XXX XXXXXX XXX XXX    XXXXX XXXXXX
+ YXT XXX  Y  X XX     XXXXX XXXXXX
+      XXX   XX   T     XXXX XXXXXX
+X    XX  : XXX XX  X  XXXXX XXXXXX
+X   XXXX    XX XX  XXXXXXXX XXXXXX
+XX  XXXXX  XXX XXX  XXX        XXX
+XXXXXXXXXXXXXXUXXXXXXXX XXXXXX XXX
+XXXXXXXX   XXX XXXXXXXX XXXXXX XXX
+XXXXXXX     XX XXXXXXXX XXXXXX XXX
+XXXXXX     T  TXXXXXXXX-XXXXXX-XXX
+XXXXXXX X U XX XXX XX     XX     X
+XXXXXXXXXX XXX XX   X     XX     X
+XXXXXXXXXXfXXX     XX     XX     X
+XXXXXXXXXX XXXX XXYXX  $  XX  $  X
+XXXXXXXXXX1XXXXXXX  XXXXXXXXXXXXXX
+XXXXX           X  XXXXXXXXXXXXXXX
+XXXXX  $ $ * *  XXVXXXXXXXXXXXXXXX
+XXXXX           X  XXXXXXXXXXXXXXX
+XXXXX  $ $ * *  X:XXXXXXXXXXXXXXXX
+XXXXX           X   XXXXXXXXXXXXXX
+XXXXX  * * + ?  XWX XXXX XXXXXXXXX
+XXXXX           X X 2  :  XXXXXXXX
+
+OVERVIEW:  Lots of traps and encounters with implings in this dungeon.  
+You may wish to save the pools for last as if you step in a wrong one 
+you may be toast.  There are also some scrolls here if you can navigate 
+secret doors.
+
+The quick walkthrough is to head for the pool room and pick up the spell 
+in the pool marked ?.  Then go back up, find the secret doors to get 
+around the gate at 3, and get the two scrolls.  Then leave.
+
+  Room of pools in the southwest, with a cold wet cavern in the north 
+and south thirds and a carved stone passage in between.  You also have 
+four irregularly shaped rooms(impling hatcheries) off to the side.  
+There are the assistant imp keeper's and imp keeper's rooms as well in 
+the lower right.
+
+  Extra space going around the gate does not appear on the Apple.  The 
+benefit is that you can see something kitty-corner and figure out 
+something's there.
+
+T : encounter with implings
+U : encounter with priests/scribes
+V : encounter with death fly/bantir
+W : encounter with BEEPING BLOBS!!!!
+Y : encounter with cobras
+
+Rocks and a large pit are the trap.
++ = everyone gets 88 hit points.  Not necessarily a good thing.  You 
+don't GAIN 88 hit points, and if you had 200, tough.
+* = pool to avoid.  The lower ones can drain magic.  You've been warned!  
+Some may even render spells, shields and armor useless.
+? = pool gives you a divine spell.
+1 : rubbish poetry alert.  A SIGN READS: 'THERE BE TWELVE POOLS SOME BAD 
+AND SOME GOOD, FOR THE YOUNG IMPLINGS TO DRINK AS THEY WOULD. THIS ONE 
+FACT THEY MUST NOT NEGLECT, THE POOLS TO THE SOUTH HAVE THE GREATEST 
+EFFECT.'
+2 : WRITTEN IN BLOOD ON THE WALL HERE IS THE NUMBER 66.  [useful on a 
+machine, maybe?]
+3 : WHEN YOU OPEN THE GATE AN ALARM SOUNDS AND GAS BEGINS TO FILL THE 
+CORRIDOR.  THE GAS IS AT YOUR (ANKLES/KNEES/WAIST/NECK) is followed by 
+THE GAS IS OVER YOUR HEAD.  At that point you take damage.
+
+Miscellany:  "TRY TO VISIT THE ENTIRE HATCHERY."
+
+    DUNGEON 4: STRAW HUT
+
+XXXXXXXXXXXXXXXXxXXXXXXX    Z    X
+XXXXXXXXXXXX  | 0 X1 XXX XXXXXXX X
+XXXX   XXXXX  X   X  XX$  X   XX X
+XXXX   XXXXX  X   X  XXXXXX   XXYX
+XXXX  a|   ~  X   |  ~    |a  XX X
+XXXXX~XXXXXXXXXXXXXXXXXXXXXX~XXX X
+XXXXX XX:       d        :XX XXX X
+XXXXX XX XXXXXXX XXXXXXXX XX XXX X
+XXXXX XX XXXXXXX XXXXXXXX XX XXX X
+XXXXX    XXXXXXXcXX    XX    XXXeX
+XXXXXXXX-XXXXXXX XX XX XX-XXXXXX X
+XXXXXXXX XXXX::~ ~  XX XX XXXXXX X
+XXXXXXXX XXXX XX XXXXX XX XXXXXX X
+XXXXXXXX-XXXX XXbXXXXX XX-XXXXXX:X
+XXXX     X  W XX XXXXX XX     XX X
+XXXX     X XXXXX XXXXXVXX     XX X
+XXXX$    X XXXXX-XXXXX XX    tXX X
+XXXXXX-XXX XXXX   XXXX XXXXXXXXX X
+XXXXXX XX  XXXX   XXXX      W    X
+XXX:   XXVXX  |   |  XXXXXXXXXXXXX
+XXX XXXXX XX XXXXXXX XXXXXXXXXXXXX
+XXX XXXXX XX |  |ll  XXXXXXXXXXXXX
+XXX Z  |  XX XXXX7lXCXXXXXXXXXXXXX
+XXXXXXXXXXXX XXXXXXX8XXXXXXXXXXXXX
+XXXXXXXXXXXXA    B    |     9XXXXX
+XrXXXXX     XXXXXXXX8XXXXXXXXXXXXX
+X XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXX
+X XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXX
+X X 3 XXXXXXXXXXXXXX6XXXXXXXXXXXXX
+X |   XXXXXXX4 XXXXX XXXXXXXXXXXXX
+XXX   XXXXXXX  XXXXX XXXXXXXXXXXXX
+XXXX XXXXXXXX    X    XXXXXXXXXXXX
+XXXXeXXXX   XXXXXXX   XXXXXXXXXXXX
+XXXX d//   a     X   2XXXXXXXXXXXX
+XXXXXXXXX   XXXXXXX   XXXXXXXXXXXX
+XXXXXXXXXXXXX    X    XXXXXXXXXXXX
+XXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXX5 XXXXXXXXXXXXXXXXXXX
+
+OVERVIEW:  There are obviously secret doors to find right out of the 
+gate.  The need to find them continues as you go on.  Other than that 
+this dungeon is pretty smooth sailing.
+
+The quick way through is as follows:  pull the lever at 7, then go to 9 
+and pull that lever.  Now you can go south, so do so.  Push the button 
+at 2 which toggles which door you can go through.  Push all the button 
+in each of the three rooms beyond and the center room will open up to a 
+further passage.  Fight Filmon's King Cobra and get a valuable scroll.  
+Get out.  Like the Kobold Village there's nothing necessary here for the 
+actual game.
+
+  There are stone rooms on each side beneath the smelly animal cages as 
+well as one in the bottom center.  There's an emergency valve in the 
+small stone room but you'll want to wait to pull that one.  You'll want 
+to reach the room full of books and scrolls where you'll meet Filmon.
+
+Traps are acid and poison gas.
+V : encounter with giant ant, giant bee, biant wasp
+W : encounter with dripping slime, hissing skuz
+Y : encounter with viper moths, giant bees, killer bees
+Z : encounter with centipedes, asp
+a : encounter with green dragons
+b : encounter with kobold/orc/ogre
+c : encounter with kobolds, dark dwarves, orcs
+d : encounter with priests/necromancers/scribes or lesser wizards
+/ : opens up with the right sequence of button pushes
+0 : YOU HAVE JUST ENTERED A VERY SMALL, DINGY STRAW HUT THAT IS 
+APPARENTLY EMPTY.
+1 : A SCROLL ON A TABLE HERE READS: "WELCOME GOOD ADVENTURERS TO THE 
+HUMBLE HOME OF FILMON THE SAGE. IF YOU CAN FIND OUYOUR WAY THROUGH TO ME 
+THERE WILL BE GREAT REWARDS."
+2 : there is a button here.
+3 : this is Filmon.  FILMON THE SAGE IS SITTING HERE IN A CHAIR. CHAIR. 
+"IF YOU CAN FIGHT MY BEAST WITH STICKS ONLY," HE SAYS, "I WILL GIVE YOU 
+SOME ADVICE." 1-"YES WE WILL" 2-"CAN WE THINK ABOUT IT SOME MORE?"
+  [say 1:]  FILMON SAYS, "TO REMOVE THE CURSE OF NIKADEMUS YOU MUST 
+DESTROY THE ORB UPON WHICH THE CURSE IS CAST. THE ORB HAS BEEN TAKEN 
+INTO THE NETHERWORLD BY THE IMPS, SO YOU MUST GO THERE."
+  HE CONTINUES, "I HAVE SENT THE HALFLING PEDALOE AND THE GNOME PELZER 
+INTO THE NETHERWORLD WITH NO LUCK, SO BE CAREFUL, IF YOU FIND THE ORB 
+THEN PERHAPS THE PRINCESS CAN HELP YOU TO DESTROY IT... IF SHE IS STILL 
+ALIVE."
+  [characters were in P1:]
+  "BY THE WAY," HE ADDS, "CONGRATULATIONS ON DEFEATING THE BLACK LORD MY 
+OLD FRIENDS." [he actually already congratulated you in Phantasie.]
+  [solved:]
+  [unsolved:] "I HOPE YOU DON'T BLOW THIS MISSION THE WAY YOYUU DID ON 
+GELNOR."
+  HE CONCLUDES, "THE 'BOOK OF BEASTS' MAY BE HELPFUL TO YOU ON YOUR 
+MISSION, BEFORE YOU GO SEEKING THE ORB YOU MUST PROVE YOUR WORTHINESS BY 
+FIGHTING WITH ONLY WOODEN STICKS." [the 'book' is a scroll]
+
+4 : button to push here.  I think it opens up one / square.
+5 : button to push here.  I think it opens up one / square.
+6 : 
+7 : THERE IS A LEVER HERE MARKED: "SOUTHERN GATE" 1-LEAVE 2-PULL LEVER
+  [Push it before (9)]
+8 : pit.  The southern one gets filled in after you push 7 then 9, and 
+the game mentions you are swimming in water.
+9 : THERE IS A LEVER HERE MARKED : "EMERGENCY VALVE ONLY!" 1-LEAVE 2-
+PULL LEVER
+  [Once you leave to the left you can't come back.  At the door it says 
+THE PASSAGE AHEAD IS COMPLETELY FILLED WITH WATER. YOU CAN NOT GO ANY 
+FURTHER.]
+A : THERE IS A LARGE GATE HERE, YOU CAN HEAR WATER SPLASHING ON THE 
+OTHER SIDE.  [no way to walk there, but the water fills a pit in]
+B : THE PASSAGE SLOPES DOWNWARD TO THE SOUTH VERY STEEPLY.
+C : IF YOU CONTINUE TO THE SOUTH YOU WILL FALL INTO A DEEP EAST-WEST 
+CHASM.
+
+Miscellany: "DO NOT FLOOD THE PASSAGE TOO SOON."
+
+    DUNGEON 5: NETHERWORLD CAVERN(ORB)
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X    XXXXXXX  XXdXXX            IX
+   X  XX XX     :X    XX  XXX XX X
+   XXJX      XXX   XXXXX XXSXXX  X
+X  XX   XXMXXXXXX XXRRRXXXXSSSXX X
+XX X  XXX  XX  XX XRRRXX  |SSSSX X
+XXXX XX XXXXXX   :XXRXX 3 XXSSSX X
+X  M       XXX XX  XWX  XXXXXSSX X
+  X XX X X X X XX  X   XX X XXXX X
+ XXXXXXX XO  XXXXXIXX  X     XXX X
+ XXX     XX XX  XX XX  X   N XX  X
+XXXXX XX XX XXX X  XXX XX X XXX  X
+ XXXXOXXXXX  XXJXX X X XXXX     XX
+   X    XXX     XX:  X    X  XX XX
+ X X  XX XXXX  XXX XXXXXX XX XX XX
+XX   XXXXXXXXX X     XX X4XX X  XX
+XXXJXXXXXXXXX  XX X    LXXX  X   X
+XX  XXX   XXa   XXXX XX  XX XXX XX
+ b  XX6   XXX   XXXX XXX XX XXX XX
+   XXXX   XXXXXXXX XXXXX     X  XX
+ XXX~~~~ IK XXXXXX   XX  XXXXX XXX
+XXX~~XXXXXXIL  XX     XX XXX  M  X
+X~~~XX5XXXXX   M N   XXX: XX X XXX
+X~XX  I  XXX IXXXXX  XXX  XXXX XXX
+X~X      XXXX XXXXXXXXXXX XXXX   X
+X~~      XXXXKXXXXX  XXX    XXXX X
+XXXX    XXXX I  XXc  XX    XXe X X
+XXXXX  XXXXXX   XXX  XX    XX  X1X
+XXXXX  XXXXXX  L XXX  XX2   X  XXX
+XXXXX-XXX XXXXX   XXX XXX  XX d XX
+XX  X b    XXXX    XX  XXXXXXX  XX
+XXX   XX   XXXX    XXX XXXX X    X
+XXX   XXX XXXXX    XXX-XX   X    X
+XXXX K XXXX7XX  I XXXX  |J  XX  XX
+XXXXX  XXX  XXXX+XXXX   XXXXXX  XX
+XXXXX-XXX   | XXXXX     |   9X   X
+XXX   XXXXXXX           X  XXX   X
+XXXL   XX   |  XX  XX XXXXXXX   XX
+XX  X XXXX   XXXXX8XXXXXXXXX    XX
+
+OVERVIEW:  The object here is to get the orb and get out.  I actually 
+found it in the yellow area instead of what you are told in the green 
+area.  There's nothing in the red/blue areas anyway.  Jumping around in 
+the pools seems to be at random.  You may want to check out the green 
+area as there are prisoners there with advice.
+
+The quick walkthrough is to push south to the orange pool.  Dive in it 
+until you're at the purple or yellow.  If at the purple, hit the secret 
+door to the left.  Now you're in the yellow caverns.  Barrel down and to 
+the right until you get the door.  Dive in pools to get out, and leave.  
+Don't worry about the caverns you can't visit.  They seem to be off-
+limits and are unimportant.
+
+BLUE CAVERN walled off to the upper right.  The coffin room and funeral 
+service room are adjoined to it.  I actually have no clue how to get in 
+here, but it's not important to win the game.
+ORANGE CAVERN connected to natural cavern, in the southeast.
+GREEN CAVERN spreads through the bottom center.
+PURPLE CAVERN covers a narrow room near the west wall in the center.
+YELLOW CAVERN covers the center to lower part of the map.
+"CAVERN WITH REDISH TINT"(sic) in the lower right, just above the 
+armory.
+LIVING AREA in lower left.
+
++ : the orb
+I : encounter with imps, implings
+J : encounter with orcs, kobolds, trolls
+K : encounter with master illusionists
+L : encounter with scribe, priest, high ranger
+M : encounter with sting beetles, purple skum
+N : encounter with fire elemental
+O : encounter with implings
+1 : THERE IS A TROLL SITTING IN A CHAIR HERE SHARPENING A SWORD. WHEN 
+YOU WALK IN HE SAYS, "HELLO". 1-LEAVE 2-ATTACK 3-TALK TO HIM
+  [1:] HE SAYS, "IF YOU ARE PLANNING ON GOING INTO THE IMP CAVES 
+REMEMBER THE YELLOW AREA IS UNKNOWN AND THE BLUE AREA IS ONLY FOR DEATH 
+CEREMONIES."
+2 : orange pool (->purple)
+3 : A NOTICE POSTED HERE READS: "THE SECRET DOOR NEAR THE PURPLE POOL IS 
+NOW IN SERVICE."
+4 : blue pool
+5 : purple pool
+6 : yellow pool
+7 : Pelzer.  A GNOME TIED TO THE WALL PROCLAIMS, "I AM PELZER, PLEASE 
+FREE ME OH KIND ONES."1-LEAVE HIM 2-FREE HIM 3-KILL HIM
+  [1:] HE DIES A SLOW AGONIZING DEATH.
+  [2:] HE SAYS, "THANK YOU BRAVE ONES, I AM PELZER, SENT BY FILMON, I 
+CAN NOT TELL YOU WHERE THE ORB IS BUT IT MUST BE ACCESSABLE ONLY BY 
+SECRET DOOR."
+  HE CONTINUES TO SPEAK AS HE REMOVES A SCROLL FROM HIS CLOAK AND HANDS 
+IT TO YOU YOU, "I STOLE THIS FROM THE IMPS, IT MAY BE OF USE TO YOU ON 
+YOUR QUEST."
+8 : green pool
+9 : THERE IS A DEAD TROLL CHAINED TO THE WAL WALL WITH SEVERAL ITEMS 
+SITTING ON A BENCH NEARBY. [some nice treasure]
+a : A SIGN ON THE WALL READS: "THOSE IMPS LIVING IN THE PURPLE AREA 
+PLEASE USE ONLY THE PURPLE, ORANGE AND BLUE POOLS. REMEMBER, ONLY 
+UNARMED IMPS IN THE BLUE AREA. THANK YOU."
+b : THERE IS A TROLL SITTING IN A CHAIR HERE SHARPENING A SWORD. WHEN 
+YOU WALK IN HE SAYS, "HELLO". 1-LEAVE 2-ATTACK 3-TALK TO HIM
+  [1:] HE SAYS, "IF YOU ARE GOING INTO IMPTHE IMP CAVERNS REMEMBER, THE 
+RED AREA IS FOR THIEVES ONLY AND THEY KEEP PRISONERS IN THE GREEN AREA."
+c : A HALFLING IS TIED TO THE WALL SCREAMING"LET ME DOWN, LET ME DOWN!" 
+1-LEAVE HIM 2-FREE HIM 3-KILL HIM
+  [1:] HE DIES A SLOW AGONIZING DEATH.
+  [2:] "THANKS," HESAYS, "THE ORB IS HIDDEN INTHE RED AREA IN A SECRET 
+DOOR AND THE SECRET WORDS ARE 'NAIMON SHAIMON'".
+d : A SIGN READS: "THE SECRET DOOR NEAR THE PURPLE POOL IS NOW IN 
+SERVICE."
+
+
+    DUNGEON 6: SUMMER PALACE
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXxXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXX
+XXX   X3   XXXXX1XXXXX    X   XXXX
+XXX   X   2  |     |  :   X   XXXX
+XXX   X    XXX     XXX    X   XXXX
+XXXXhXXXXXXXXX     XXXXXXXXX-XXXXX
+XXX          |     |          XXXX
+XXX XXXXXXXXXXX-X-XXXXXXXXXXX XXXX
+XXX X  O|  I G  X  I H  |J  X XXXX
+XXX X   XXX   XXXXX   XXX   X XXXX
+XXX X   XXX  HX   XG  XXX   X XXXX
+XXX XXX-XXXXX~X   X~XXXXX-XXX XXXX
+XXX XXX       ~   ~       XXX XXXX
+  X XXX XXXXX X   X XXXXX XXX X  X
+  | XXX-XXXXXHXXXXXIXXXXX XXX |: X
+  X X5  X  X         X  X XXX X  X
+XXX X   X  X         |6 X XXX XXXX
+XXX X   X  |         X  X XXX XXXX
+XXX X$  |  X         X  X  XX XXXX
+  X XXXXX-XXXXXXX-XXXX~XXX XX X  X
+  | X   X X   X     X    | XX |  X
+  X X   X |   X     ~    X XX X  X
+XXX X   | X XXXXXXXXXXXXXX XX XXXX
+XXX X3  X~X   XKXLXMXNXXX  XX XXXX
+XXX-XXXXX X   |       XXXwXXX4XXXX
+XX 7    X XXXXXXXXXXXXX  JX      X
+XX      X X  8  9  XXXX   X      X
+XX      ~ |I       XXXX   X 3  $ X
+XX      XXX          XX   XXXXXXXX
+XX      XXX  a  8  X XX   XXXXXXXX
+XX  XX  XXXXXXXXXXXX XXXXXXdXXXXXX
+XX  XX  XXXXXXXXXXXX XXXXXX XXXXXX
+XX-XXX~XXXXXX    XXX     cX XXXXXX
+XX XXX       J  $XXXXXXXXXX XXXXXX
+XX XXXXXXXXXX    XXXXXXXXXX XXXXXX
+XX XXXXXXXXXXXXXXXX  bXXXXX XXXXXX
+XXG     G    G    G   XXXXXXXXXXXX
+
+OVERVIEW:  lots of traps to be aware of here if you are too curious.  
+Shut off the gas if it gets turned on.  You'll want to try to rescue the 
+princess although there is an illusory one;  be warned!
+
+The quick walkthrough is to head south, say you'll rescue the princess, 
+and take a left at the entry hall.  Head south and when you get to the 
+temple find the secret door on the right wall.  The princess is behind 
+the door and if you go east you can get out quickly.
+
+  Lots of guard's barracks here too by the outer hallways until you get 
+to the bottom doors.  The armory is on the right and a large temple on 
+the left with dark dingy passages beyond.  Secret meeting room is above 
+the dining room and flanked by guard rooms.  There's a closet to the 
+southwest of the dining room and lots of small elegant bedrooms around 
+it otherwise.  Food storage is behind the kitchen to the west.  Beast 
+room is east of the closet.
+  A large extravagant bedroom is east of the torture chamber behind the 
+dark dingy passages the priests in the temple run into.  There are also 
+a storage room and a plain stone room with a decoy(behind the door) 
+beyond the temple.
+
+Traps = acid or pit with spikes.
+G : encounter with master illusionist
+H : encounter with high ranger, priest
+I : encounter with kobold, troll
+J : encounter with priest, lesser wizard
+K : encounter with vampire
+L : encounter with king cobra
+M : encounter with forest elf
+N : encounter with demon, bantir
+O : encounter with orange dragon
+
+1 : A GUARD HERE SAYS , "STATE THE NATURE OF YOUR BUSINESS." 1-ATTACK 2-
+"TO DELIVER GOODS" 3-"TO RESCUE THE PRINCESS"
+  [choose 1: combat]
+  [choose 2:] HE SAYS, "WE ARE NOT EXPECTING ANY GOODS" AND SOUNDS AN 
+ALARM.
+  [choose 3:] HE LAUGHS AND SAYS, "GO ON IN."
+2 : THERE IS A STRANGE OBJECT IN THE CORNER
+3 : YOU SET OFF A TRAP. A GATE CLOSES T TRAPPING YOW IN THIS ROOM.
+POISON GAS IS GUSHING INTO THE ROOM. 1-HOLD [BREATH] 2-BREAK [THE GATE] 
+3-STOP [STUFF UP THE GAS SOURCE] 4-PRAY [TO YOUR GODS] (extra Apple 
+stuff in parentheses)
+4 : THERE IS A GUARD HERE ASLEEP. 1-KILL HIM 2-TORTURE HIM 3-LEAVE 
+QUIETLY
+[apple has subdue and torture, slit his throat]
+  [choose 2:] HE SAYS, "THERE IS A SECRET DOOR IN THE DINING ROOM THAT 
+LEADS TO THE TREASURE"(lie)/HE SAYS, "THERE IS A SECRET DOOR IN THE 
+TEMPLE WHICH LEADS TO THE TORTURE CHAMBER WHERE THE PRINCESS IS HELD."
+5 : transports you to west of secret meeting room
+6 : unlike guard at 4, if you torture him he dies.
+7 : YOU ARE IN A LARGE TEMPLE, SOME PRIESTS IN THE FAR CORNER DISAPPEAR 
+BEHIND AN ALTAR.
+8 : HERE IS A SKELETON CHAINED TO THE WALL.
+9 : A DEAD ELF IS HANGING UPSIDE-DOWN HERE.
+a : THERE IS A YOUNG LADY CHAINED TO THE WALL HERE. 1-TORTURE HER TO 
+MAKE HER TALK 2-FREE HER AND QUESTION HER
+  [choice 1:] SHE DIES.
+  [choice 2:] SHE TELLS YOU THAT THE ORB CAN ONLY BE DESTROYED BY 
+FEEDING IT TO PLUTO'S ICE DRAGON, WHICH CAN ONLY BE APPROACHED BY 
+MORTALS IF THEY HAVE STUDIED THE AMULETS OF PLUTO'S OTHER BEASTS AND 
+THUS GAINED THE EIGHT BEAST RUNES.
+AN ALARM GOES OFF SOMEWHERE IN THE PALACE. THE PRINCESS SAYS, "WE CAN 
+ESCAPE THROUGH THE EASTERN DOOR."
+
+b : THERE IS A YOUNG LADY HERE GAGGED AND TIED TO A CHAIR. 1-LEAVE 2-
+FREE HER
+  [choice 2:] AS YOU APPROACH THE ILLUSION OF A YOUNG LADY FADES AND 
+POISON GAS FILLS THE AIR.
+
+    DUNGEON 7: PLUTO'S SMALLEST CASTLE
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXkXXXXXXXXXXXXkXX   X   XXXkXXzX
+XX   X   XX   X   X X X X XX   X X
+XX I X   XX   X N X X X X  X O X X
+XXX-XX$  XX   XX-XX X^X XX XX-XX X
+XXXpXX   XX   XXpX LX X  X LXpX  X
+XXXXXXXeXXXXfXXXXX XX^XX XX XXX XX
+XXXXXXX       XX:  XJ X  XX  P  XX
+XXXX  X XXXXXgXX XXX XX XXXXXXXXXX
+X  X P| XX  XN X X/  X  X     L  X
+X5 X  X  |I X  ~ XXXXX XX XXXXXX X
+XgXXXXXgXX  X  X:    L X  X:  OX X
+X X  X N XXXXXXX XXXXXXX XX XX X X
+X |4 X   XX    X XXXz J  X1 zX X X
+X XXXXXXXXX-XXXX:  XXXXXXXXXXX XNX
+X XXXX        XX X     L       X X
+X    h  K   3XXX XXXXXXXXXXXXXXX X
+XX XXX LMK    XX:       L        X
+XX~XXXMLKML   XXXXXXXXXXXXXXXXXXXX
+k J pXXXFXXXXXXX X   K  X  Xp P lX
+XXXXXXXX-XXXXXXX X    X X  XXXXXXX
+XXN  X$   $  $ X X K  XKXX X   /XX
+   X X  $      X X    X XX X^XXXXX
+ XXX XXXXXXX  I| XK K X XX X^XXXXX
+ X  MX  $      X |EK  X XX X XXXXX
+ X X X$   $  $ X XK   X XX    : XX
+ X X XXXXXXXXXXX X K  X XX XXXXXXX
+ X X:    X |     X   K  XX X:::::X
+ X XXXXXMXXXXXXX XXXXXXXXX X:::::X
+zX O  zX   MXXXX X         X:::::X
+XXXXXXXXX X    C   XXXXXXXXX:::::X
+X   XJ  XMXXXXXXXX X  |    |H::::X
+X X   X X    :M zXGX7 X XX-XXXXX-X
+ PXXXOX XXX XX XXX-XXXX X   XXX :X
+ XXpX0X     X  XpX      X   XqX  X
+ XX-XXXXXXXXX XX-XXX^XXXXX-XX-XXXX
+ X P Xz J    MX I XX^XX    X N XXX
+ X   XXXXXXXX X   XX XX    X   XXX
+zXXmXXz N     XXmXX6       XXmXXXX
+
+OVERVIEW:  This is very nasty.  Be sure you've entered the right 
+way(read one of the scrolls) or that your party is very strong.  
+Otherwise you'll have to fight Pluto.  Apparently there's some way to 
+become a servant of Pluto, but I'm not sure how to do that.
+
+To get through quickly, you need to enter through the middle west door 
+when you're outside unless you fancy fighting Pluto, who sulks amusingly 
+if you win.  There's a secret door north of the initial encounter.  The 
+door to the left(NOT the passage) holds beast number seven.  If you want 
+to infiltrate the castle then you can try following the great troll 
+north of there.  Following him one turn will put you north of the spirit 
+maze, following twice will put you east of the pit(go up, right, up, 
+left to find a nice stash) and following three times gets you a scroll 
+and four encounters in a row along a narrow hallway.  Whatever you do 
+don't go right and up if you follow only once--Pluto is at the end 
+there.  If you want to get a couple of scrolls find teleporter zero in 
+the spirit maze, teleporter 1 in the devil maze, and ransack the two 
+rooms to the north.  There's a secret door to the east below them.
+
+Spirit maze in southwest(starts at C,) Devil maze in northeast.  Below 
+the devil maze in the northeast you have the demon room with lots of 
+combats with a closet to the right.  Below that are a room with traps, 
+Pluto's Dinning[sic] room, and a weird kitchen.  There's a strange 
+armory to the west which is most profitable.  There's a huge library 
+above the spirit maze(treasures fourth from left on top and second from 
+left on bottom should be avoided) with a temple above that(it has a 
+storage area in back.)  Entrances are weird black rooms.
+
+In the northwest, beast keeper's room is left of the assistant beast 
+keeper's room at the top, with beast rooms below.  A solid black room 
+where you find a troll is in the corner.
+
+Most other places you have black eerie hall with smooth walls.
+
+I : encounter with storm giant/centipede
+J : encounter with cloud giant
+K : encounter with high demon, drip slimes
+L : encounter with high devil
+M : encounter with spirits
+N : encounter with dragon king
+O : encounter with priests/wizards
+P : encounter with water elemental
+p : teleport to center of maze, and Pluto is here. Uh-oh.
+  [If you manage to defeat Pluto:]  You hear a booming voice:
+  "Mortals, I must congratulate you on defeating me, Pluto, in my 
+material form.  I must admit that I am now powerless against you, but 
+alas I am luckily immortal.  I will now travel back to my true home, 
+deep in the Netherworld.  There I will generate a new material form and 
+regain my magical powers.  I will be back to my old form in a matter of 
+days."
+  "I tell you all this so that you will not gloat over your victory, and 
+so that you will know that we may someday meet again if I happen to 
+decide want[sic] my items back before your tiny lifespans have expired.  
+Next time I may not be so low in power.  Again I feel I must 
+congratulate you on your luck."
+  "Good bye, skums"
+z : teleport to start of maze(east of C)
+0 : teleport to devil maze, left side
+
+E : THE ROOM IS FULL OF LAUGHING DEMONS WHO APPROACH AS YOU COME IN.
+F : YOU HAVE INTERRUPTED A STRANGE CEREMONY OF DEMONS, DEVILS, GHOUSTS, 
+GHOULS, ETC.
+G : A SIGN READS: "WARNING: NO SERVANTS BEYOND THIS POINT."
+H : THERE IS A STATUE OF PLUTO ON THE FAR WA WALL OF THIS ROOM, 
+IT'S[sic] EYES SEEM TO BE STARING AT YOU.
+3 : THERE IS A SACRIFICIAL ALTAR HERE WITH A DEAD HUMAN ON IT.
+4 : THERE IS A HUGE TERRIFYING ANIMAL HERE. THE PARTY MEMBERS ARE 
+MOMENTARILY AWESTRUCK.
+  [beast # 7 if you don't have the amulet, priests/scribes otherwise]
+5 : THERE IS A GREAT TROLL SITTING HERE. 1-ATTACK 2-TALK TO HIM 3-LEAVE
+  [1: fight great troll]
+  [2:] HE SAYS, "FOLLOW ME PLEASE." 1-FOLLOW HIM 2-DON'T FOLLOW HIM
+    [1:] HE LEADS YOU THROUGH THE CASTLE A LONG DISTANCE, SKILLFULLY 
+AVOIDING MONSTERS AND PICKING LOCKS, EVENTUALLY YOU FORGET EXACTLY HOW 
+TO GET BACK. 1-FOLLOW HIM FURTHER 2-STOP FOLLOWING HIM
+      [2:] dumped out N of Spirit Maze
+      [1:] YOU ARE SPOTTED BY DEMONS WHO CHASE YOU FOR A WHILE. THE 
+TROLL SAYS YOU HAVE TWO CHOICES: 1-ESCAPE THROUGH SECRET EXIT 2-FOLLOW 
+HIM FURTHER
+        [2:] dumped out east of pit in the south
+        [1:] HE LEADS YOU INTO A SMALL CLOSET AND HAN HANDS YOU A 
+SCROLL. THEN HE TAKES A WAND HE HAD HIDDEN HERE AND WAVES IT 
+ANDDISAPEARS. YOU HEAR HORDES OF MONSTERS COMING.
+6 : THERE IS A PIT TO THE WEST. 1-JUMP INTOTHE PIT 2-LEAVE
+  [1:] YOU HIT THE SIDE OF THE PIT AND BEGIN SLIDING THROUGH A SERIES OF 
+PIPES UNTIL YOU COME OUT INTO A BLACK ROOM.
+
+Miscellaneous: "TRUST THE GREAT TROLL."
+
+    DUNGEON 8: PLUTO'S MENAGERIE
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXWXXXXXXXXXXXXXX
+XXXXXXXH : G  XXXXX XXXXXXXXXXXXXX
+XXXXXXX XXXXX:XXXXX1XXXXXXaXXXXXXX
+XXXXXX3 XXXXX XXXXX XXXXXX XXXXXXX
+XXXXXXX XXXXXFXXXXX:XXXXXX:XXXXXXX
+XXXXXXXIXXXXX XXXXX XXXXXX XXXXXXX
+XXXXXXX XXXXX: 2 : EXXXXXX XXXXXXX
+XXXXXXX:XXXXXXXXXXXXXXXXXXEXXXXXXX
+XXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXX
+XXXXXXX E : F : G : H : I :XXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXaXXXXXXXXXXaXXXXXXXXXXaXXXXXX
+XXXXXFXXXXXXXXXXHXXXXXXXXXXEXXXXXX
+XXXXX XXXXXXXXXX XXXXXXXXXXFXXXXXX
+XXXXX XXXXXXXXXXIXXXXXXXXXX XXXXXX
+XXXXXGXXXXXXXXXX XXXXXXXXXX XXXXXX
+X  X   X  XX  X   X  XX  X   X  XX
+X  |   |K XX M|   |M XX L|   |L XX
+XXXX   XXXXXXXX   XXXXXXXX   XXXXX
+X K|   |  XX  |   |N XX L|   |: XX
+X  X   X  XX  X   X  XX  X   X  XX
+XXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX
+XXXX K XXXXXXXX N XXXXXXXX   XXXXX
+XXXX   XXXXXXXX   XXXXXXXX   XXXXX
+XXXXXXXXXXaXXXXXXXXGH|HXXXXXXXXXXX
+XXXXXXXXXXGXXXXXXXX-XXIXXXXXXX  XX
+XXXXXX  XXHXXXXXXXXFXXEXXX  XX XXX
+XXXXXX XXXIXXXXXXXXEXX-XX      XXX
+XX  X   XXAXXXXXXXX-XXFX        XX
+XX  X    X-XXXXXXXXIXXGX        XX
+ X           XXXXXXaXX-XX        X
+     XXX      XXXXXXXXHXXX     X X
+ XX  X XX     XXXXXXXXIXXX     X6X
+ X     XXX  XXXXXX X X7XX     XX X
+XXX      X    XXXX    4     X XXXX
+XXXX      5XX XXXXX       X    XXX
+XXXXXXX   XXXXXXXXXX  XXXXX  X  XX
+
+OVERVIEW:  What a tough place.  You have two side caverns to visit and a 
+bunch of tough fights to go through to get there.  Then you have to get 
+back to a town after that!  This is probably the best dungeon to save if 
+you can't conquer it the first time.
+
+There are eleven forced combats in the "stone passage through volcanic 
+rock" before you get to the transporters.  With the transporters you'll 
+be forced into a lot of random stuff.  Quick tip:  there's nothing in 
+the three large smelly rooms in the center, except for fights in the 
+small cages around.  The places at the bottom, left and right, are a 
+cavern and an ice cavern respectively.  You have something important to 
+do in each one.
+
+a : transporter where you can choose a number 1-6.  If you choose one 
+you are randomly transported, perhaps back to where you started.  If you 
+go somewhere you haven't been before, it says "YOU ARE SWARMED BY 
+GUARDS."  Random combat follows.
+E : encounter with high devil
+F : encounter with storm giants/centipede
+G : encounter with cloud giants
+H : encounter with overlords
+I : encounter with wizard/lesser wizards
+
+1 : A SIGN READS: "PLUTO'S MENAGERIE - OFF LIMITS TO ALL UNAUTHORIZED 
+MORTALS."
+2 : A SIGN READS: "HE WHO ENTERS THE MENAGERIE WITHOUT PERMISSION BEWARE 
+THE WRATH OF PLUTO"
+3 : WRITTEN ON THE WALL HERE IN LARGE FLAMING LETTERS IS THIS MESSAGE:  
+"I HAVE BEEN EXPECTING YOU MORTALS, TURN BACK NOW AND YOU MAY LIVE"/"YOU 
+COULD NOT DEFEAT THE BLACK LORD AND YOU WILL NOT HARM MY BEASTS"/"YOU 
+WERE LUCKY TO DEFEAT THE BLACK LORDBUT YOU MAY FIND YOUR LUCK HAS RUN 
+OUT! SIGNED PLUTO!"
+4 : YOU ARE IN A COMPLETELY WHITE, ICY CAVERN WITH ICICLES GROWING FROM 
+THE CEILING. YOU SMELL DEATH IN THE AIR.
+5 : Pluto's beast number eight.
+6 : Pluto's beast number nine.  Script:
+  THERE IS A HUGE WHITE DRAGON HERE WATCH-ING YOU AS YOU APPROACH. 1-
+LEAVE 2-APPROACH
+  [if you don't have the 8 runes:] THE PARTY IS TOO TERRIFIED TO 
+APPROACH.
+  [if you do:] YOU ARE NOW ABOUT FIVE FEET FROM THE DRAGON. 1-ATTACK 2-
+TALK 3-FEED IT
+  [choose 1:] THE DRAGON SAYS, "I HAVE BEEN ALIVE FOR NEARLY TWO 
+THOUSAND YEARS, DO YOU THINK YOU COULD HARM ME?"/THE DRAGON SAYS, "I 
+COULD DEVOUR HALF OF YOUR PARTY IN ONE BITE."
+  [choose 2:] THE DRAGON SAYS, "I HAVE ONLY ALLOWED YOU TO COME THIS 
+CLOSE BECAUSE I DETECT A STRANGE PRESENCE AMONGST YOU."/THE DRAGON SAYS, 
+"YOU ARE THE ONLY MORTALS WHO HAVE EVER SEEN ME BUT WILL YOU LIVE TO 
+TELL THE TALE?"
+  [choose 3:] THE DRAGON SAYS, "I AM VERY HUNGRY MY FRIENDS, WHAT HAVE 
+YOU TO EAT OTHER THAN YOUR MEASLY BODIES?" FEED THE DRAGON: 1-GOLD 2-THE 
+ORB 3-YOUR WEAKEST PARTY MEMBER
+    [choose 1:] THE DRAGON SAYS, "I AM NOT INTERESTED IN THAT."
+    [choose 3:] THE DRAGON SAYS, "THAT WRETCH IS NOT EVEN EVEN ONE 
+MOUTHFUL."
+    [choose 2:] THE DRAGON APPROACHES THE ORB WITH GREAT EFFORT. HE 
+TAKES THE ORB IN HIS MOUTH AND GRINDS IT UP WITH HIS POWERFUL JAWS. THE 
+GROUND BEGINS TO TREMBLE AND CRACK AND GREAT ENERGY IS RELEASED FROM THE 
+DRAGON'S MOUTH. THE DRAGON SPITS OUT A MANGLED PEICE OF METAL AND SAYS, 
+"THANK YOU, BY DESTROYING THE ORB I HAVE DESTROYED THE EVIL THAT HAS 
+POSESSED ME." HE FLIES AWAY.
+
+7 : door which requires a code.  That code is 83.  If you mis-type, THE 
+PARTY IS TELEPORTED HIGH INTO THE AIR THEN FALLS TO THE GROUND.
+
+Other unused miscellany:
+--THE DRAGON SAYS, "THE ORB HAS BEEN DESTROYED ALREADY, WHY DO YOU 
+BOTHER ME NOW MORTALS?"
+--"PRESS THE NUMBERS OF THE BEASTS AND YOUWILL COME TO THE ICE DRAGONS 
+CAVE , BUT IT MAY TAKE YOU A WHILE."
+
+  CHEATING
+
+    Tsk, tsk.  This section contains spoilers so please be careful.
+
+    First of all I should mention that cheating attributes up to a 
+ridiculous level can backfire.  You may not be able to learn spells, and 
+training may cost 15000 gold for the first level;  cost of training 
+varies with the abilities you've acquired.  Improving attributes to 99 
+and skills to 255 also frequently caused the Apple version to flip out 
+when I went into encounters.  I recommend 40 across the board and giving 
+one person 255 skills.
+
+    Even though the Apple does not work, understanding it will help you 
+to capture a wrinkle with the Commodore.  I consider the starting offset 
+for each character to be at the place where the name starts.  This makes 
+it easier to search for the character's name in a hex dump as the names 
+appear on the hex dump.  I suspect that the information for the 
+character starts at 0x83 before the name itself.  Each character takes 
+up 170(0xaa) bytes and the characters are often(about 170/256 of the 
+time) spread out over different sectors.  On the Apple, sectors cycle as 
+follows:
+
+start at y000 -> y700 -> ye00 -> y600 -> yd00 -> y500 -> yc00 -> y400 -> 
+yb00 -> y300 -> ya00 -> y200 -> y900 -> z000
+
+(this is standard for BASIC and also assisted my text-mapping of the 
+game's various areas.)
+
+    If a character is broken in two sectors and you can't figure it out 
+just see where the previous/next slot's sector is and change the hex 
+value accordingly.  For instance if a character's name starts at x36f0 
+and you want to change something x14 bytes ahead, d is the sector after 
+6 so you'd look in 0x3d04.  However if the name started at 0x3610 and 
+you wanted to change something 0x62 behind, then e is the sector before 
+6.  0x3eae would be the byte to edit.
+
+    For the Commodore it is a bit trickier.  If going back would cause 
+you to skip a boundary you have to, in addition to changing sectors, 
+move backwards another two bytes.  That is because in each 256-byte 
+block the Commodore has two initializing bytes at the beginning.  
+Alternatively you can just move up from the start.  In any case numbers 
+appear to be ac/54 away from each other instead of aa/56 away.  In 
+addition, the sectors jump around a bit more randomly with the 
+Commodore.  I created a bunch of characters named "AA01" through "AA21" 
+and was able to produce the byte values.
+
+    On the Apple, for characters 38-40 you have fire, water and earth 
+elementals.  These characters are 22-24 on the Commodore.
+
+Here's where to start the hacking if you can remember the slot names.
+
+        COMMODORE CHEATS
+
+ # | NAME | START
+---+------+------
+ 1 | fd87 | fd04
+ 2 |10f33 | fdae
+ 3 |10fdd |10f5a
+ 4 | 8c89 | 8c06
+ 5 | 8135 | 8cb0
+ 6 | 81df | 815c
+ 7 | 8e8b | 8e08
+ 8 | 8237 | 8eb2
+ 9 | 82e1 | 825e
+10 | 838d | 830a
+11 | 8439 | 83b4
+12 | 84e3 | 8460
+13 | 108f | 100c
+14 |  43b | 10b6
+15 |  4e5 | 462
+16 |  e91 | e0e
+17 |  73d | eb8
+18 | 7e7d | 7f8
+19 | 1193 | 1110
+20 |  83f | 11ba
+21 |  8e9 | 866
+22 |1f395 | 1f312
+23 |28b41 | 1f3bc
+24 |28beb | 28b68
+
+        APPLE CHEATS
+
+   | NAME  | SLOT
+   | START | START
+---+-------+-------
+ 1 | 13483 | 13400
+ 2 | 13b2d | 134aa
+ 3 | 13bd7 | 13b54
+ 4 | 13381 | 13bfe
+ 5 | 13a2b | 133a8
+ 6 | 13ad5 | 13a52
+ 7 | 1327f | 13afc
+ 8 | 13929 | 132a6
+ 9 | 139d3 | 13950
+10 | 1407d | 139fa
+11 | 14727 | 140a4
+12 | 147d1 | 1474e
+13 | 14e7b | 147f8
+14 | 14625 | 14ea2
+15 | 146cf | 1464c
+16 | 14d79 | 146f6
+17 | 14523 | 14da0
+18 | 145cd | 1454a
+19 | 14c77 | 145f4
+20 | 14421 | 14c9e
+21 | 144cb | 14448
+22 | 14b75 | 144f2
+23 | 1431f | 14b9c
+24 | 143c9 | 14346
+25 | 14a73 | 143f0
+26 | 1421d | 14a9a
+27 | 142c7 | 14244
+28 | 14971 | 142ee
+29 | 1501b | 14998
+30 | 150c5 | 15042
+31 | 1576f | 150ec
+32 | 15e19 | 15796
+33 | 15ec3 | 15e40
+34 | 1566d | 15eea
+35 | 15d17 | 15694
+36 | 15dc1 | 15d3e
+37 | 1556b | 15de8
+38 | 15c15 | 15592
+39 | 15cbf | 15c3c
+40 | 15469 | 15ce6
+
+Here are the bytes to hack in a hex editor.  Search for the name if you 
+forget the slot.  Note the "from name start" negative values.  I've 
+sometimes put notes there but if there aren't any just change the hex 
+byte to the desired value.  I'd generally advise not giving more than 
+99(x63) as three-digit numbers could goof up the display slightly.
+
+            | FROM | FROM
+            | NAME | SLOT
+ATTRIBUTE   | START| START
+------------+------+---------------------------------------
+Strength    |-0x82 | 0x01
+Intelligence|-0x81 | 0x02
+Dexterity   |-0x80 | 0x03
+Constitution|-0x7f | 0x04
+Charisma    |-0x7e | 0x05
+Luck        |-0x7d | 0x06
+Age         |-0x7c | 0x07 This is actually Age - 17.
+Max SP      |-0x7b | 0x0a
+Cur SP      |-0x7a | 0x0b
+Max HP      |-0x79 | 0x0c
+Cur SP      |-0x78 | 0x0d
+Gold        |-0x77 | 0x0e [this is 2 bytes, high/low]
+Attack cur  |-0x6f | 0x14
+Attack pos  |-0x6e | 0x15
+Score       |-0x49 | 0x2a [on 1...100 scale]
+Experience  |-0x50 | 0x33 [this is 3 bytes, high->low]
+Race        | 0x20 | 0xa3 (see below for values)
+Item 1      | 0x15 | 0x98 [NOTE:  The C64 has a convention
+Item 2      | 0x16 | 0x99 [where 0's(no item) are first, then
+Item 3      | 0x17 | 0x9a [item number appears in
+Item 4      | 0x18 | 0x9b [increasing order.  This doesn't seem
+Item 5      | 0x19 | 0x9c [to upset game play but you should
+Item 6      | 0x1a | 0x9d [probably abide by the rules.]
+Item 7      | 0x1b | 0x9e [see item section of FAQ for which
+Item 8      | 0x1c | 0x9f [value gives which item.  Values over
+Item 9      | 0x1d | 0xa0 [0xb4 may cause an array overflow.]
+
+RACE:  A value from 0x00 to 0x0f defines the race.  Here's the table.
+0 = HUMAN
+1 = DWARF
+2 = ELF
+3 = HALFLING
+4 = GNOME
+5 = PIXIE
+6 = SPRITE
+7 = OGRE
+8 = GNOLL
+9 = TROLL
+a = KOBOLD
+b = ORC
+c = GOBLIN
+d = LIZARD MAN
+e = MINOTAUR
+f = UNDEAD
+
+You can save a game, change to a certain race, and back, which may help 
+for certain puzzles.
+
+To change a special item(less risky than outright editing) you can do 
+the following:
+  1) buy scroll 1(easy to find)
+  2) open up the image in a hex editor.  Just after your character's 
+name there should be the number x79 with descending numbers after it.  
+That is scroll 1.
+  3) add to that number.  To see scroll 14, add 0xd, i.e. put 0x86.  
+Save the game.  You can now read scroll x86.
+  See my section on special items to get any other item you want.  Of 
+course you can do this to more than one item at a time and even get ring 
+nine this way.
+
+  There is also a less technical process for duplicating items.
+
+  Shay Addams's "Quest for Clues" describes the process as follows, 
+although first you will need to make a backup "dummy" disk.  If you have 
+an emulator, this is not hard, and in fact you can try this trick with 
+two backups first so you don't ruin your main game if something goes 
+wrong:
+
+    1.  enter town A
+    2.  sell off the items you want to duplicate
+    3.  teleport to town B
+    4.  remove main disk, insert dummy
+    5.  teleport to town C
+    6.  remove dummy, insert main disk
+    7.  teleport to town A
+    8.  buy the new items that have mysteriously appeared in the town 
+armory's inventory!
+
+  ERRATA
+
+    You can bring a fighter over to the underworld and back with only a 
+penalty of two months if you add him to your party at an inn.
+    The world of Phantasie is very modern.  Not only do you have roads 
+well in advance of other RPG's, but there are banks.  And they even have 
+bank fees!  That's right.  Every time you distribute the gold(which you 
+must do when you enter a town) the gold gets rounded down to the nearest 
+multiple of the total number of shares.  In fact you may even find that, 
+if you try to split up 6000 gold equally among 6 people, you wind up 
+with 999 gold each.  Too bad society isn't advanced enough to have 
+consumer advocacy!
+
+END OF FAQ PROPER
+
+================================
+
+VERSIONS/CREDITS
+
+1.0.0 submitted to GameFAQs.com on 12/20/2001.  I believe this is a very 
+adequate first draft although I imagine errors always seem to leak 
+through.
+
+Thanks to theunderdogs.org for the manual images, project64.c64.org, 
+ftp://arnold.c64.org, ftp://ftp.apple.asimov.net, Evin's Apple Emulator 
+Page(which is sadly part down now) and Delorie GPP freeware that allowed 
+me to extract information from the files.  Also kahei's hex 
+editor(www.kahei.com) helped me to locate lots of data.
+
+Shay Addams's _Quest for Clues_ book was invaluable when it came to 
+checking my work.  I frequently referred to it and although I have not 
+directly quoted anything from it besides the duplication cheat, it has 
+still been a huge help and has probably influenced my solution in ways 
+unimaginable.  At the very least it saved me a lot of time as a great 
+reference guide.
