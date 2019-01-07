@@ -1,0 +1,2825 @@
+RINGS OF ZILFIN
+FAQ/Walkthrough/script(v1.4.0) for PC VERSION
+by Andrew Schultz schultza@earthlink.net
+This probably works for the Apple version as well, but there are differences 
+in names.
+
+This FAQ is not intended to be reproduced for profit. Please contact me if 
+you wish to display it on your site;  polite requests addressing me by first 
+name are generally accepted.
+
+Many of the town quotes are not verbatim, but they accurately capture the 
+gist of the NPC's message.
+
+WARNING:  many sections contain spoilers. 
+
+** AD SPACE **
+
+I have old Rings of Zilfin map, with mileages, up at:
+http://www.geocities.com/SoHo/Exhibit/2762/games/games.htm
+
+There's also a full Rings of Zilfin map at GameFAQs, too.
+
+There are other maps for other games at:
+http://members.fortunecity.com/cartographics
+
+My home page is at:
+http://www.geocities.com/SoHo/Exhibit/2762
+
+================================
+
+            OUTLINE
+
+  1. INTRODUCTORY FLUFF, ERR, STUFF
+
+    1-1. WHERE TO FIND IT, WHAT ABOUT IT
+
+    1-2. STARTING TIPS AND METRICS
+
+    1-3. STARTING TEXT
+
+    1-4. CONTROLS
+
+    1-5. BASIC ITEM STUFF
+
+      1-5-1. WEAPONS AND ARMOR
+
+      1-5-2. MUSHROOMS & FLOWERS
+
+      1-5-3. SPELLS
+
+    1-6. DOSBOX TRICK
+
+  2. GENERAL STRATEGIES
+
+    2-1. LORE QUESTIONS
+
+    2-2. WHERE TO GO FIRST
+
+    2-3. TRADING STRATEGIES AND DEALING WITH AFFLUENCE
+
+  3. WALKTHROUGH
+
+    3-1. BRIEF, YET ANNOTATED
+
+    3-2. QUICK AND DIRTY TRICKS, GETTING STARTED ON HARD
+
+    3-3. WHAT TO DO IN OTHER CRITICAL PLACES
+
+  4. TOWN MAPPING
+
+    4-1. ROUGH TEXT MAP
+
+    4-2. DISTANCES
+
+  5. DUNGEON MAPS
+
+    5-1. THE DARK TOWER
+
+    5-2. CASTLE GRAZ
+
+    5-3. SIDE CAVES
+
+      5-3-1. N DEMION CAVE
+
+      5-3-2. METSNY MTNS CAVE
+
+      5-3-3. THE WELL
+
+  6. TOWN INFO AND COMMERCE
+
+  7. DELORIA
+
+  8. BEGONIA
+
+  9. SUMERIA/DRAGONIA
+
+  10. COMBAT RECOMMENDATIONS
+
+    10-1. GENERAL
+
+    10-2. IN THE GAPS
+
+    10-3. NIGHTTIME AMBUSHES
+
+    10-4. A COOL DOSBOX/EMULATOR CHEAT
+
+  11. TRAVELIN'
+
+  12. WHAT MONKS SAY
+
+  13. BUGS(?) INCL. PC VS. APPLE
+
+  14. WHICH ITEMS ARE GOOD FOR WHAT
+
+  15. IF YOU MUST CHEAT...
+
+  16. VERSIONS
+
+  17. CREDITS
+
+================================
+
+  1. INTRODUCTORY FLUFF, ERR, STUFF
+
+  A lot of the dialogues are incomplete as I couldn't track the names in the 
+files, which appear to be encoded. Maybe I'll have a crack at the Apple 
+images. But the important stuff should be here.
+
+    1-1. WHERE TO FIND IT, WHAT ABOUT IT
+
+  www.the-underdogs.org has Rings of Zilfin in PC form. You can download the 
+game from there. I recommend the PC version over the Apple emulator/disks. 
+It's easier to get started, both arranging the files AND not getting your 
+butt kicked right away.
+
+  You can also use DosBox at dosbox.sourceforge.net to run Zilfin. It's much 
+more convenient to have the DOS game in a window. Install and add "mount c 
+c:\" (without quites) to the end of DOSBOX.CONF. Also, you can hit ctrl-F12 
+to speed up things like combat or walking from one town to another. The in-
+town dawdling, however, remains slow no matter how I fidget with it.
+
+  RoZ was the game that preceded the fantastic Magic Candle series I like so 
+much. It's in dumpy 4-color and has lots of drawn-out cut-scenes, but the 
+rudiments of dialogue and trade that pop up, along with creative items and 
+cute side characters, make the game interesting. It's only a 1-person RPG and 
+the map is a string of locations without mazes, but it's worth a look. 
+Especially with an application that keeps it running speedily.
+
+  Oh--and Reis, the hero of RoZ, is referred to in MC3. His sword apparently 
+becomes famous.
+
+    1-2. STARTING TIPS
+
+    If you're playing on the PC, I *strongly* recommend the easiest 
+difficulty, which is in there for a reason. The game was probably a bit too 
+hard on the Apple with no difficulty level other than the hardest. You can 
+choose a level from 0 to 9 and your starting stats are based on it. Let x be 
+the starting difficulty:
+  # of bows = x+1.
+  endurance = 200(x+1).
+  food = 10(x+1).
+  fatigue = 50(x+1).
+  arrows = 10(x+3).
+  gold = 10(x+2).
+  gems = x/3.
+
+    You can improve most stats through combat and bartering(if you don't want 
+to cheat with the data below, keep track of prices for commodities.)  
+However, you need to find special places to improve the following:  maximum 
+strength, current strength, magic level. As for finding items useful in 
+combat, some may be bought at several places or found after a battle. There 
+are, of course, special items that no amount of fighting will uncover.
+
+    As for travel, you always walk from left to right regardless of your path 
+on a compass. Rings of Zilfin is divided up into about 100 locations, and 
+although many just contain a fight, it's important to keep a good map so that 
+you won't be circling around.
+
+    Towns and villages have a basic format. A town has three buildings you 
+can go to, labeled (F)irst, (S)econd, and (T)hird. A village has (F)irst and 
+(S)econd but also a (T)alk option instead. The (T)alk is critical. Each town 
+has three talkers--a dwarf or halfling, an old man, and a kid who says he 
+doesn't talk to strangers. However, they may be shape shifters--you can't 
+tell, and it's pretty random. Waiting to talk to each species can be tedious, 
+especially with the long twiddling walks everyone makes, but it's necessary.
+
+  Starting in RoZ is tedious but once you manage to get some critical items, 
+combats become much easier.
+
+    1-3. STARTING TEXT
+
+  "Night time in the village of Sham. All the folks have gone home, and the 
+lights are slowly going out. [you] wakes up from a restless slumber with a 
+cold sweat. He dreamt about the goblins again! He goes to the window for some 
+air. A shadow moves among the trees as he starts to feel an evil presence! A 
+voice whispers in his mind urging him to run for his life! He does not 
+hesitate for long. Quickly gathering his weapons, all the valuables he can 
+find, and the food in the kitchen, [you] runs to the front door.
+
+  After quickly scanning the shadows, he decides to run south and disappears 
+from sight. Suddenly Dzomon appears! He realizes that he just missed [you], 
+whom his master ordered to be killed! So begins your quest . . . for the 
+Rings of Zilfin.
+
+    1-4. CONTROLS
+
+  You can use the number pad or arrows to move around, whether in the big map 
+or along the road. You can use either/or for combat as well. However, you 
+need to know that combat is real time, so if you want to pause the game you 
+have to push [esc] to see your stats, or you can push S(sword attack) or 
+A(arrow attack) and just not give a direction.
+
+  You can use 5 to go back into a town, and in fact if you, say, go to a 
+temple and win a fight, you can exit the town and go right back in. If you 
+just visit different buildings the temple will still be empty.
+
+  When walking from one town to another the right arrow speeds you up(up to 
+3, which is 4 fatigue per 5 miles) or down. 2 units is 2 fatigue per 5 miles.
+
+  L)ook, G)et and D)rink while walking between towns. T)alk to monks to see 
+what they have to say. You have to toggle walking/running with the space bar.
+
+  W)ord is how you talk to someone in a location that's not really a city. 
+It's a bit tricky, but oh well.
+
+*******************
+* NOTE: IMPORTANT *
+*******************
+
+  When you're traveling from one town to another, I refer to WALKING as when 
+you have a speed of 1/3 and BROWSING when you can move around more slowly and 
+look at, drink, and get items. Often you will need to stop walking before you 
+get to a mushroom you want to pick. The game will send you to a town before 
+you can reach the mushroom while walking. But if you stop traveling at the 
+right time and go manually to the right side of the screen, you'll get it. 
+This can be critical with, say, +200 pools and often you can use it to boost 
+yourself before a big fight with goblins along the road.
+
+  One annoying thing about RoZ is that it quits when you save the game, and 
+then you have to see the "reboot" scene. It's sped up with DOSBox, another 
+reason to use that fine program. Plus you can have this walkthrough in one 
+window and the game in another.
+
+    1-5. BASIC ITEM STUFF
+
+      1-5-1. WEAPONS AND ARMOR
+
+Necessary strength/maximum damage for each weapon:
+Shortsword 0-9
+Pala 10-29 (useless)
+Slicer 30-49
+Slayer 50-69
+Grandsword 70-99
+
+Damage = strength, unless you are wielding a weapon with maximum damage below 
+your strength. So someone with 75 strength would do 69 damage with a slayer 
+and 75 with a greatsword.
+
+I've labeled the Pala useless because, after getting 30 strength, assuming 
+you have enough Prihny you can get to 39 right away, making the slicer 
+better.
+
+Light/Medium/Heavy Armor reduces enemy's hits by 5/15/30 respectively. Very 
+worth it.
+
+      1-5-2. MUSHROOMS & FLOWERS
+
+  You can't buy them, so you have to pick them on the way to and from towns. 
+There are no bad mushrooms to pick, although some are better than others.
+
+--Yurpin increases endurance from 50-70 per. You can eat more than one in or 
+before the heat of battle. If you go over your previous maximum HP, you get a 
+new maximum.
+--Tergin increases your fatigue number. Like Yurpins, you can eat them en 
+masse, and if you go over your previous maximum, you set a new one. But it's 
+best to wait until after you're healed up if there are no emergencies.
+--Parzin raises your sword skill. Used with Purlet it gives you a near-sure 
+kill, and you can do this just before going into a tough battle. You can 
+combine several for multiple hits in a big fight, too.
+--Fuhyin helps with food, one unit of food per mushroom. It's not really 
+useful for anything else, but it's good in an emergency. I tend to use it 
+right when I find it, but on the other hand I really should be buying food. 
+And early on when you're saving cash, you don't have to spend food money if 
+you get a bit lucky.
+
+--Purlet makes your next swing worth 200...if you connect.
+--Mift leaves you invulnerable to the next hit. No endurance is lost.
+--Iola cures poison, which is nice if you're drinking out of random pools 
+trying to find one that gives +200 hit points or fatigue.
+--Jinn = Mift * 5. You can only eat one at a time.
+
+      1-5-3. SPELLS
+
+Level 1:
+A. Jazzip 5 fatigue, 5 damage to 1 enemy
+E. Buzzap 15 fatigue, 5 damage to all enemies(best w/3 or 4)
+G. Ekbert 10 fatigue, tells you about enemy
+H. Ak-Lin 20 fatigue, 50 shield
+K. Warton 25 fatigue, protect from theft
+
+  Of the level 1 spells Buzzap is pretty useful, Exbert is useful against a 
+monster that's kicking your butt for later reference, and Ak-Lin is great 
+just after you've healed and just before a big fight. Cast it a bunch, get 
+fatigue healed, and go back to rest some more. Assuming you're loaded with 
+gold--and by the time you need to do this, you will be. Warton is too taxing 
+at the beginning, and you have too much gold to bother near the end.
+
+  Jazzip works well at borders/gaps. Buzzap doesn't work there at all. In 
+fact, Jazzip is better than Rektar if you are fighting Dragon Birds and the 
+like. They only take one hit, and Jazzip uses less energy.
+
+Level 2:
+B. Rektar 20 fatigue, 40 damage to 1 enemy. Obviously better than Jazzip, per 
+spell points.
+I. Ilk-Be 35 fatigue, 99 shield. A slight bargain compared to Ak-Lin. 12% 
+less fatigue used for your shield.
+J. Ud-Bar 90 fatigue, immediate teleport. GREAT for near the end of the game 
+when you're sick of dumb fights. It is best over LOOONG stretches, i.e. 40+ 
+miles.
+L. Zytrom 40 fatigue, 99 damage to HHRRUULL. You need a Grumm tree staff to 
+execute this. And it is necessary. If you're clever, for only one or two 
+fights.
+
+Level 3:
+C. Fagatr 40 fatigue, 99 damage to 1 enemy. Even better per spell points, but 
+drains a lot of fatigue.
+D. Stohle 75 fatigue, stops foes temporarily. Combine with other offensive 
+spells for lots of fun.
+F. Parthl 35 fatigue, 30 damage to all enemies. Proportionally 150% stronger 
+than Buzzap value wise and 6x as powerful.
+
+    1-6. DOSBOX TRICK
+
+  RoZ can get a bit tedious if you play it straight-up in DOS or without 
+adjusting the cycles in DosBox. To make RoZ go faster than its regular speed, 
+run RoZ after starting DosBox. Then hit ctrl-f12 until you at least 
+double(I'm comfortable with 4x the speed.) Most things will be faster now 
+although walking around towns is still far too slow. Then it seems hitting 
+ctrl-f11 to slow things down works well.
+
+  One thing to note, though--if you save and quit, you need to hit ctrl-f11 
+to slow DosBox down before running it again. That's because the machine 
+calibrates when the executable starts, so when you hit ctrl-f12 after it 
+runs, it can't detect the speed it's supposed to be running at. So you can go 
+a lot faster.
+
+  Running quickly can hurt in some of the timed parts, or during combat if 
+you're not quick enough. But it makes the game a lot less drawn out. In fact 
+I refused to refurbish this guide until I found a way to speed the game up, 
+and once I did, I was able to tear through.
+
+  2. GENERAL STRATEGIES
+
+    If you decide to hack the save files, you can ignore most of what's 
+below. Go to section 15 for that. And just save, edit and restore when you 
+get low on items. But if you want to get to your maximums the honest, or 
+honest-seeming way, see below.
+
+    2-1. LORE QUESTIONS
+
+  When you move to certain new areas, the game asks you these questions, and 
+they aren't too tough to answer, but they can catch you off guard. You can 
+keep restoring until you get a right answer, or you can just follow this 
+cheat sheet.
+
+A Pala needs how much Strength? 10
+
+How many villages are in Sumaria? 4
+
+How much fatigue does using Jinn cost? 50
+
+What is the maximum Sword Skill? 66
+
+How much damage does Rektar do? 40
+
+How much fatigue does Parthl cost? 35
+
+How many towns are in Begonia? 5
+
+At what age was the hero orphaned? 10
+
+    2-2. WHERE TO GO FIRST
+
+  You don't want to go too far out of your way initially. There are serious 
+roadblocks to going certain ways, and by process of elimination you can 
+figure out where you need to go. If you are playing on the easiest level, 
+though, there's a lot you can get away with. You can bull through to the west 
+twice, fighting through a bunch of goblins and fleeing from the poison plants 
+in Feldor North forest. Tht gets you to Perimon, where there is a healer. On 
+lower levels, it's a bit safer to stick to Telbiz/Ziad back and forth with 
+Tol-Bin to the east of Ziad(more healers,) piling up gold and maximum 
+endurance, but I find that going west to the harder combats is worth the 
+risk.
+
+  Your major starting objectives are 1) to get your endurance to 2000 if it 
+isn't already and 2) to buy heavy armor, so goblins can't damage you at all. 
+Once you do that, you can fight tougher monsters, and the weakest monsters' 
+hits won't damage you.
+
+    2-3. TRADING STRATEGIES AND DEALING WITH AFFLUENCE
+
+  First, don't go into a trading post unless you have something to buy/sell. 
+Getting robbed sucks. In fact, try to keep your gold low when you leave 
+there. It's random and happens to the best of players.
+
+  Trading can get you handsome profits. To raise capital at first, you 
+probably need to win fights in the temple at Telbiz. This gets you a gem each 
+time. Be prepared to have 300 hit points before doing so, although having a 
+purlet/parzin combo can make things quite easy. Your ultimate goal for the 
+big trade is to work the Perimon/Telbiz route, buying tobacco in Telbiz and 
+toys in Perimon and selling vice-versa. This gives a very nice profit. You 
+can buy tobacco for 51 if you say N and then offer that price. You can also 
+sell gems for 44. Every penny counts early on, especially since you still 
+need to afford food.
+
+  The profit for Telbiz/Perimon is astounding: buy tobacco for 51, sell it 
+for 130, buy 14 toys for 98 and get healed for 30 in Perimon, and sell the 14 
+for 36 each. You can haggle a bit again. That makes 504 gold from 51, almost 
+a 9* profit, and that's if you just bring one tobacco unit over. I prefer to 
+bring at least 3. You will want a profit of 800 gold to buy the heavy armor. 
+You might as well get the very good stuff first.
+
+  The poison plants for this trip may be annoying, but you can either see the 
+fleeing part in section 10-4 or just heal completely in Perimon, where it's 
+cheap anyway. If the plants are too tough early on, just walk between Telbiz 
+and Ziad and, later, Ziad and Tol-Bin to drink from pools. Rest in an inn if 
+you need to. Harvesting Yurpins and Tergins will increase your maximum(if you 
+eat a Yurpin/Tergin and it sends your endurance/fatigue over the previous 
+high, you increase your maximum) so a steady diet of walking and harvesting 
+should hold you in good stead. If you can hold off on healing until you make 
+it to Tol-Bin or Perimon(healers) and then eat the mushrooms, that is ideal.
+
+  Gold is maximized at 9000 so after you get close you'll want to get heavy 
+armor(Ziad) and boots(Telbiz) and then stock up on spice, which sells nicely 
+in Begonia. Also, any gems you get are good to sell.
+
+  But actually there are more ways to think ahead; the amounts of food and 
+all mushrooms and arrows are stored in 2 bytes, and I am pretty sure the 
+maximums are 9000 for all of them. So if you can buy 9000 arrows(3600 gold in 
+Ziad) or 1000 food(you don't need to max this out) you can have a much easier 
+way with monsters. Problem is you'll also need to buy a bunch of bows, but 
+given that you can get 3000 gold for selling toys, you can get 90 bows in 
+Telbiz easily. It's probably overkill, but not having nearly enough is much 
+more inconvenient in this game. Oh, buy 25 elvish boots in Tol-Bin too. You 
+probably have the money, and they do tend to wear out.
+
+  Also note that the first time your endurance/fatigue go below zero, you get 
+a warning--the next one will kill you. It's often useful to have a ton of 
+Yurpins or Tergins on hand to remedy the situation quickly. Ideally they're 
+used after healing--but remember that you have to GET to the healers.
+
+    Go as fast as you can down paths(right arrow) or you will find that your 
+own fatigue more than offsets your character's fatigue, which is negligible.
+
+    2-4. BEYOND DELORIA
+
+  I've found that you probably just need 4000 maximum fatigue to get through 
+the game. However, a bunker(6000) would be nice. It's best to get 9000 hit 
+points before leaving Deloria.
+
+  Your main first objective in Begonia will be finding someone to get you to 
+level 2. Once you do that, you can jump around with Ud-Bar, even back to a 
+healer quickly to reduce the fatigue of casting Ud-Bar, which is often more 
+efficient than walking a bunch(4 per 5 miles, plus nighttime attacks and 
+usually a fight) or maybe first to a town to sell a few items that will buy a 
+bunch of healing.
+
+  You need an item from the Dark Tower before advancing to Sumaria, and once 
+you do, you have several other places to look. There are a few nasty dead 
+ends.
+
+  3. WALKTHROUGH
+
+  First time I played through, I just wanted to get out of Deloria and to 
+Begonia and Sumaria ASAP. As it turns out, if you can buy items in Deloria, 
+it's best to do so, because they are cheaper, and it's easier to walk around. 
+You won't have to find much tougher monsters holding them until later. You 
+could also just byte-edit cheat to gain the ring and 4 chewbas and the cloak, 
+horn, ring and maybe the rope. But I think it's fun just to go and see all 
+the items and places.
+
+  You'll want to save every time you find an item. This forces you to 
+restart, but things can go wrong--the biggest one for me was drinking from a 
+poison pool and not having an Iola or forgetting to eat one.
+
+    3-1. BRIEF, YET ANNOTATED
+
+    Character improvements, while not all *completely* necessary, will make 
+the game a lot easier. Actually, you do need to get level 3 magic to beat the 
+HHRRUULLs. I've listed below the rough steps, in approximate optimal order.
+
+      **** DELORIA ****
+--POWER: buy heavy armor in Ziad
+--ITEM: buy elf boots in Tol-Bin (E)
+--CASH: pile up $5000 via trading(Tol-Bin/Perimon, tobacco/toys.) $8000 to be 
+extra sure.
+--CHAR: go to Tumriz, talk to beggar/wizard, get 1 magic level. Silk is cheap 
+here. Get 30 prihny. Get tea if you can afford it. Buy 5 torches here. (S-W-
+NW-NE from Perimon)
+--CHAR: go to Castle Durheim, win fight, get 30 potential strength. (SW-SE-E-
+E-E-E-E-E-NW-W)
+--ITEM: win 4 temple fights in Shaktir, exiting and 5(reentering) for 4 
+chewba. (W)
+--CHAR: find witch in Finduk to get maximum strength. (NW, NW, N)
+--POWER: buy slicer in Shaktir as weapon(do full damage for your newfound 
+strength). (S, SE, SE)
+--GET OUT: NW, NW, N, wait for dwarf to pass by
+
+      **** BEGONIA ****
+(healing in Faerlot and Shentill)
+--FUN: talk to Jimbo for 20 mifts
+--ITEM: buy key in Derymin(NW, N, N)
+--ITEM: fight at temple in Derymin to get Nukh. You only need one.
+--DETOUR(necc?): go to N Demion to learn word of power(NW, SE)
+  (you can just cheat and read it below.)
+--CHAR: go to Llorim, talk to beggar, get 1 magic level(NW, NE, NE)
+  [from here on out, UD-BAR comes in handy.]
+--ITEM: go to Faerlot, get pearl(NE, NW) and heal too.
+--CHAR: go to Castle Razag, win fight, get 30 potential strength(SE, SE, SE)
+--CHAR: find witch in Maerdom to get maximum strength(SE, SE)
+--ITEM: go to Tar-Im to buy riddle book(S, S)
+--POWER: go back to Nedharm to buy slayer(N, N, NW, NE)
+--ITEM: go to Zaradim to get the magic staff. (O)ffer pearl to Zara and (U)se 
+the seed she gives you in back when the sun sets to make the staff. (W, NW, 
+NE, E, [cast Ilk-be], N) Be sure to save before starting here as the sun goes 
+up/down at weird times and if it comes up, it doesn't go down. I've lost all 
+my food waiting for it to disappear again.
+--ITEM: go to the Dark Tower and hack your way through. 4 levels. (S, W, W, 
+N)
+--GET OUT: S, SW, SW, SW, SW, SW, W to Karadum. Wait for a dwarf to guide you 
+to the pass. Keep talking to bystanders 'til it does.
+
+      **** SUMARIA ****
+(healing in Elmo, Safinas and Varanlim)
+--BROWSE(necc?): talk to monks you see to find the words for Dragos
+
+--ITEM: go to Metsny Mountains and get the harp (NW)
+--ITEM: go to Safinas and buy a flute(SW, SW, SE)--sell Silks to get max 
+gold.
+--ITEM: go to S Shimerr, (O)ffer the riddle book, and get the ring (SW)
+--ITEM: go to Lork and buy 1 rope(NE, NW, NE, NW, NW, E, NE)
+--CHAR: go to Castle Rimline, get 30 potential strength(SW, W)
+--CHAR: go to Waylong and give the witch Prihny to get 99 strength(W, NE)
+--ITEM: buy grand sword in Treil-Om (SW, SE)
+--CHAR: go to Shakamin, talk to beggar, get 1 magic level(NW, NW)
+--ITEM: buy cookie in Shakamin.
+--ITEM: go to Elmo, buy a cloak. Have 1000 gold from selling silks. (E, E, N)
+--ITEM: go to Lake Brellant. (O)ffer cookie to dragon. (E)
+--ITEM: buy potion from Hayrush for 1000 gold.
+--ITEM: go to the Well and get the horn(NE, SE, NE, E, NW) and use the rope, 
+flute twice, offer harp.
+--you probably need to heal at Varanlim right now(SE, W, SW, E) although if 
+you don't feel you have enough mushrooms, you can go back and crash around 
+Deloria for a while.
+--LAST QUEST: go to Sharkynn Heights (W from Varanlim, NW, NE), use cloak, 
+use horn, and then offer chewba 4 times to get to Castle Graz.
+
+Eklun's words MAYGOON BI-THAR HAZMEDY get you through the wall at N Demion
+There you learn DEM OGANDUR SHEM to get you into the Dark Tower. You also 
+learn the final word of power for the rings, YOKKOL.
+Zihten's words BELIRR ONUMDA DERHALL let you in the temple.
+
+say SUBMIT THY RING to Dragos(thanks, Sumaria monks)
+The ring's final word of power is YOKKOL.
+
+  (At the end, you can just hit W)ord right away as that will give you all 
+day to type something in.)
+
+  Lord Dragos is destroyed!! Nothing but a pile of ash remains.
+  So it came to pass that Lord Dragos was destroyed and the land was free 
+once again.
+  But many questions remained unanswered!
+  How did Dragons manage to beat the ancient defenses built by Zilfins and 
+invade Batiniq?
+  Why were Zilfins hiding in Demion Rocks, and why didn't they act against 
+Lord Dragos?
+  Was this the final victory or could the dark forces strike again?
+  In ages to follow, answers to these questions were to be found. But that's 
+another story . . .
+
+  [The end]
+
+      NOTE:  once you get to the appropriate magic level, start casting UD-
+BAR like crazy. Especially retreating to Deloria for mushrooms. It'll save 
+you all kinds of time, combat, etc. Unless you need certain mushrooms, or you 
+want to walk a bit before hitting an encounter, after which you can jump over 
+it.
+
+  Unfortunately there are no cool ways to die near the end. You just kick 
+off.
+
+    3-2. QUICK AND DIRTY TRICKS, GETTING STARTED ON HARD
+
+  These tricks work regardless of the difficulty level, but the game is 
+painful without them on hardest.
+
+  Beyond byte editing, there's actually an easy way to get good quickly. If 
+you find a Yurpin to start, use it. Be sure to stop immediately when you see 
+the second mushroom on your way from Sham. Save at every town 'til you get to 
+Tol-Bin. Go south from Sham to Telbiz. Fight in the temple and win a gem--use 
+arrows until your bow breaks so you don't lose too much energy. Sell the gem 
+for 44. Then break for Ziad. If you have Parzin/Purlet combinations, use one 
+of each for a fight and tackle the goblin with S) (if your bow's not broken 
+already) on the bottom. You can drink the water past the flower BEFORE the 
+fight if you're careful. Then go east to Tol-Bin. Another goblin fight on the 
+way--here, there are only two, so you may be able to get by without.
+
+  But the key in Tol-Bin is, if you've taken a lot of hits, to pay the gold 
+to recharge. On the way back, drink at the pool behind you, then the next one 
+you see. You can pick the mushroom just near the end but you have to browse.
+
+  You should have ~700 hit points now. It should be enough to fight in the 
+temple, win, find 30+ gold, and go back east to Tol-Bin, beating the goblins 
+along the way. This is net positive gold in all likelihood! It's certainly at 
+least 400 hit points at each swoop. Don't use the Yurpins/Tergins until after 
+you've healed. After a few times you may not need to pay 30 gold and you can 
+start stocking up on food. Remember always to save before a temple fight and, 
+if you didn't get too dinged up, after. You can take a chance with eating a 
+purlet if you don't have parzin/purlet for a quick knockout, but with 1000 HP 
+you may soon not need to.
+
+  Go back north to Telbiz when you have 2000+ hit points. The cool thing now 
+is that you can win a few temple fights there, buy some gems(more lucrative 
+than Ziad, but less convenient when you're building up hit points,) and when 
+you are down to 500 or so hit points, go back south to Ziad and east to Tol-
+Bin. Just remember to have 30 GP on hand(sell a gem or two and save before 
+entering a store so you don't get robbed) for the healers. Any spare leftover 
+money can go to buying tobacco.
+
+  You can keep hitting up Ziad/Telbiz but first a small interlude may make 
+things interesting. In other parts of the walkthrough I recommend going to 
+Perimon(2 west) about here. Sell the tobacco, buy healing and toys, and 
+return to Telbiz. Sell the toys. You can repeat tobacco/toys once more and 
+probably reach your maximum for toys. Then you can buy heavy armor and moot 
+the question of endurance lost.
+
+  You should also have enough money to use the inn at Telbiz. It's the best 
+one to go to, because you aren't twiddling around walking everywhere. All you 
+need to do is to choose the S)econd house, N-N-Y-Y, and you get a room for 
+the night. That gives +50 fatigue. If you can crank it up to 3000 you're 
+pretty much set. 60 trips maximum--which might be a waste of time in the 
+short term but not the long term. Don't bother with the full 9000. Remember 
+you'll find Terpins along the way, and after visiting healers you can just 
+eat the mushrooms up en masse.
+
+  To increase your endurance just go back to Ziad/Tol-Bin. Note now that you 
+have a huge advantage over the monsters in the area. They can't damage you. 
+It's an easy +400 endurance each time you go back and forth. You'll probably 
+need 15-20 more of these to max out, and that's excluding any Yurpins you 
+find. You'll probably be more than comfortable with 4000 for now. You don't 
+want to get bored with the game too soon.
+
+  Oh. Buy boots in Tol-Bin once you're ready in earnest. Take cash to Tumriz, 
+get silk, 30 prihny and most importantly, magic. Then sweep along the south 
+side and win at Durheim. No fatigue worries, so Jazzip away.
+
+    3-3. WHAT TO DO IN OTHER CRITICAL PLACES
+
+  In case you get boggled by which instruction to type in, I compiled a list 
+below.
+
+Sharkynn Heights: (U)se cloak and then (U)se horn. When you get to the 
+Darmag, (O)ffer the chewba 4 times. That will let you in the castle.
+
+  4. TOWN MAPPING
+
+    Sorry about the abbreviations. I needed to use them to be sure the maps 
+would not get too wide. Check my graphic maps(address at top of FAQ) for the 
+full scoop.
+
+  ROUGH TEXT MAP
+
+Below is the map for Deloria.
+
+         ^                        ^
+  TUMR   ^       SHAM           FIND
+ /       ^         |              |
+IRMA   PERI-nFEL-TELB---TASH------ERGO
+  \      |                 \      /   \
+   \     |                  \    /     HAXI-AXIT
+    \    |                   BELM          \  |
+     \   |                  /    \          SHAK-DURH
+      \  |                 /      \                  \
+       sFEL-SYSV-ZIAD--TOLB-HARL-HELE----------------LAXI
+
+Abbreviations:  FELdor, SYSVol, TOL-Bin, HARLosh, L-AXImon, castle DURHeim, 
+AXITraz, H-AXImon, ERGOn, TELBiz, PERImon, IRMAk, TUMRiz, SHAKtir.
+
+Below is the map for Begonia.
+
+                               TOWE      ZARA
+                                |         |
+                     FAER      NERE-BUND-PYLI
+                         \    /     /
+                          SERE     /
+                         /    \   /
+           NDEM      LLOR------CROS
+               \    /              \
+                DEMI                RAZA-NEDH
+               /                        /    \
+           SDEM                     SWBU      SEBU
+          / |  \                   /    \    /
+<KARA-SHIR  |   DERY           ----      MAER
+          \ |  / |            /           |
+           BYLU-wTIV------SHEN-----------BRAH
+                 |         |              |
+                CULL      mTIV            |
+                    \    /    \           |
+                     TIVE------eTIV       |
+                      |            \      |
+                     GADA           DENI  |
+                      v                 \ |
+                      v                 TARI
+
+Abbreviations:  dark TOWEr, ZARAdim, FAERlot, EREdrim, BUNDeir, PYLIn, 
+DEMion, LLORim, CROSsroads, DEMIon, RAZAg, NEDHarm, BUrgol, KARAdum, 
+SHIRrill, DERYmin, MAERdom, BYLUdd, TIVeron, SHENtill, BRAHlah, CULLarat, 
+TIVEron, GADAr, DENIze, TAR-Im.
+
+Karadum leads west to Felak Pass.
+
+Below is the map for Sumaria.
+                    nSAR SHAR WELL
+                     |  /         \
+          ELMO      SARA      wDAR-eDAR
+           |       /    \    /    /
+SMIN-uSHA-nSHA-LAKE    --FETR-VARA
+              \      //      /
+               WAYL--    LORK
+              /         /
+          METS-RIML-eSHA
+           \  /  \
+          TREI-sSHA      MTNS
+           |       \    /
+           |        neAH-<FELA>
+           |       /
+          sMET-eAHB
+         /         \
+     ZAXE           SAFI
+    /              /    \
+ ZAX-ZAXI-SHIM-sSHI~     sAHB
+                |   ~
+               FELA  ~HOBTOWN
+                v
+
+Abbreviations:  SARa, SHARkynn, DARizmag, ShakaMIN, SHAkamoz, LAKE brellent, 
+FETRak, VARAnlim, WAYLong, METSny, RIMLine, SHAkamoz, TREIl-om, AHbap, AHBap, 
+ZAXEmo, SAFInas, ZAXIme, SHIMerr, SHImerr, FELAk
+
+    4-2. DISTANCES
+
+  The list below should be pretty simple. It tells which town has roads going 
+where, and the length of time needed to get there. If you draw out a map 
+you'll notice that the weighting system doesn't quite work out right. Maybe 
+the roads zig-zag a lot.
+
+Sham      S:Telbiz(15) 
+Sham      S:Telbiz(15) 
+Telbiz    N:Sham(15) E:Tash(25) S:Ziad(25) W:Feldor N(20) 
+Ziad      N:Telbiz(25) E:Tol-Bin(20) W:Sysvol(25) NW:Feldor N(40) 
+Feldor N  E:Telbiz(20) W:Perimon(20) SE:Ziad(40) 
+Finduk    S:Ergon(15) [hidden path to Gadar]
+Perimon   E:Feldor N(20) S:Sysvol(40) 
+Feldor S  E:Sysvol(30) NW:Irmak(30) 
+Tol-Bin   E:Harlosh(20) W:Ziad(20) NE:Belmonti(35) 
+Sysvol    N:Perimon(40) E:Ziad(25) W:Feldor S(30) 
+Tumriz    SW:Irmak(15) 
+Ergon     N:Finduk(15) W:Tash(35) SE:H Aximon(30) SW:Belmonti(30) 
+Shaktir   N:Axitraz(15) E:Durheim(20) SW:Hele(30) NW:H Aximon(30) 
+Irmak     NE:Tumriz(15) SE:Feldor S(30) 
+Belmonti  NE:Ergon(30) SE:Hele(35) SW:Tol-Bin(35) NW:Tash(30) 
+Eklun     When you leave, you go back to Tumriz.
+Zihten    When you leave, you go back to Llorim.
+Lutfen    When you leave, you go back to Shakamin.
+Harlosh   E:Hele(15) W:Tol-Bin(20) 
+Hele      E:L Aximon(20) W:Harlosh(15) NE:Shaktir(30) NW:Belmonti(35) 
+L Aximon  W:Hele(20) NW:Durheim(25) 
+H Aximon  E:Axitraz(20) SE:Shaktir(30) NW:Ergon(30) 
+Durheim   W:Shaktir(20) SE:L Aximon(25) 
+Razag     E:Nedharm(20) SE:SW Burgol(45) NW:Crossroads(60) 
+Rimline   E:E Shakamoz(25) W:Metsny Pl(45) SE:S Shakamoz(20) SW:Treil-
+Om(30) 
+Tash      E:Ergon(35) W:Telbiz(25) SE:Belmonti(30) 
+**********
+Deyr      a bunch of encounters here guard the Deloria/Sumaria border/      
+Gadar     this is the pass between Begonia and Deloria
+N. Demion SE:Demion(15) 
+The Well  SE:E Darizmag(25) 
+S Shimerr S:Felak(10) W:Shimerr(30) NE:Safinas(45) 
+Zaradim   S:Pylin(35) 
+Metsny MtsSW:NE Ahbap(20) 
+L BrellentW:Elmo(40) NE:Sara Plain(40) SW:Waylong(35) 
+Sharkynn  SW:Sara Plain(30) 
+Graz      Castle, no paths as you fly there and back
+Dragos    S:N. Eredrim(30) 
+Axitraz   S:Shaktir(15) W:H Aximon(20) 
+Shentill  E:Brahlah(35) S:M. Tiveron(35) W:W. Tiveron(30) NE:SW 
+Burgol(50) 
+S. Demion S:Byludd(55) NE:Demion(20) SE:Derymin(35) SW:Shirril(20) 
+CrossroadsW:Llorrim(35) NE:Bundeir(55) SE:Razag(60) NW:S. Eredrim(20) 
+Tiveron   E:E. Tiveron(25) S:Gadar(20) NE:M. Tiveron(25) NW:Cullarat(25) 
+Bundeir   E:Pylin(35) W:N. Eredrim(35) SW:Crossroads(55) 
+Cullarat  N:W. Tiveron(20) SE:Tiveron(25) 
+E. TiveronW:Tiveron(25) NE:Brahlah(30) SE:Denize(45) NW:M. Tiveron(15) 
+Denize    SE:Tar-Im(15) NW:E. Tiveron(45) 
+Tar-Im    N:Brahlah(55) NW:Denize(15) 
+Llorrim   E:Crossroads(35) NE:S. Eredrim(15) SW:Demion(30) 
+Faerlot   E:N. Eredrim(30) SE:S. Eredrim(25) 
+Dark TowerS:N. Eredrim(30) 
+Pylin     N:Zaradim(35) W:Bundeir(35) 
+S. EredrimNE:N. Eredrim(35) SE:Crossroads(20) SW:Llorrim(15) 
+NW:Faerlot(25) 
+N. EredrimN:Dark Tower(20) E:Bundeir(35) W:Faerlot(30) SW:S. Eredrim(35) 
+M. TiveronN:Shentill(35) SE:E. Tiveron(15) SW:Tiveron(25) 
+Brahlah   N:Maerdom(20) S:Tar-Im(55) W:Shentill(35) SW:E. Tiveron(30) 
+Shirril   W:Karadum(25) NE:S. Demion(20) SE:Byludd(35) 
+Karadum   E:Shirril(25) 
+W. TiveronN:Derymin(20) E:Shentill(30) S:Cullarat(20) W:Byludd(40) 
+Byludd    N:S. Demion(55) E:W. Tiveron(40) NE:Derymin(30) NW:Shirril(35) 
+Maerdom   S:Brahlah(20) NE:SE Burgol(25) NW:SW Burgol(25) 
+SE Burgol SW:Maerdom(25) NW:Nedharm(30) 
+SW Burgol NE:Nedharm(30) SE:Maerdom(25) SW:Shentill(50) NW:Razag(45) 
+Nedharm   W:Razag(20) SE:SE Burgol(30) SW:SW Burgol(30) 
+Demion    NE:Llorrim(30) SW:S. Demion(20) NW:N. Demion(15) 
+Felak Pass this is how you get from Begonia to Sumeria.
+Zax       E:Zaxime(40) NE:Zaxemo(45) 
+Zaxime    E:Shimerr(25) W:Zax(40) 
+Shimerr   E:S Shimerr(30) W:Zaxime(25) 
+Zaxemo    NE:S. Metsny(45) SW:Zax(45) 
+Safinas   SE:S Ahbap(25) SW:S Shimerr(45) NW:E. Ahbap(40) 
+E. Ahbap  W:S. Metsny(30) NE:NE Ahbap(35) SE:Safinas(40) 
+NE Ahbap  E:Felak(15) NE:Metsny Mts(20) SW:E. Ahbap(35) NW:S 
+Shakamoz(45) 
+S. Metsny N:Treil-Om(40) E:E. Ahbap(30) SW:Zaxemo(45) 
+Treil-Om  E:S Shakamoz(35) S:S. Metsny(20) NE:Rimline(30) NW:Metsny 
+Pl(30) 
+S ShakamozW:Treil-Om(35) SE:NE Ahbap(45) NW:Rimline(20) 
+Metsny Pl E:Rimline(45) NE:Waylong(35) SE:Treil-Om(30) NW:Shakamin(40) 
+U ShakamozE:N Shakamoz(25) W:Shakamin(35) 
+Shakamin  E:U Shakamoz(35) SE:Metsny Pl(40) 
+N ShakamozN:Elmo(20) W:U Shakamoz(25) SE:Waylong(30) 
+Waylong   E:Fetren(40) NE:L Brellent(35) SW:Metsny Pl(35) NW:N 
+Shakamoz(30) 
+Sara PlainN:N Sara(10) NE:Sharkynn(30) SE:Fetren(35) SW:L Brellent(40) 
+Varanlim  N:W Darizmag(25) W:Fetren(30) SW:Lork(35) 
+Fetren    E:Varanlim(30) W:Waylong(40) NE:W Darizmag(40) NW:Sara 
+Plain(40) 
+W DarizmagE:E Darizmag(35) S:Varanlim(25) SW:Fetren(35) 
+E DarizmagW:W Darizmag(30) NW:The Well(25) 
+E ShakamozW:Rimline(25) NE:Lork(20) 
+**********
+Felak     
+Felak     
+Derymin   S:W. Tiveron(20) SW:Byludd(30) NW:S. Demion(35) 
+S Ahbap   NW:Safinas(25) 
+Elmo      E:L Brellent(40) S:N Shakamoz(20) 
+Lork      NE:Varanlim(35) SW:E Shakamoz(20) 
+N Sara    S:Sara Plain(10) 
+
+  5. DUNGEON MAPS
+
+  Dungeons can be exasperating because you can't save while you're in them, 
+but they're not as bad as you might think. Also when you are in a room, it's 
+tough to tell which way to go. You don't get any clues, and you have to 
+guess. This is probably where my maps below come in most useful. Dungeons 
+aren't really so bad if you know your way through, because you can avoid most 
+of the dreaded HHRRUULLs to get to where you want to be.
+
+  The maps shouldn't spoil too much, as you're basically working your way 
+through 16x16 grids. The one danger of these maps is that it leaves out some 
+of those encounters with the pairs of HHRRUULLs that are so nasty to you, but 
+I've detailed ways to avoid them. Once you're in a room, you need to use your 
+nukh to get out. I've never had it break on me. Anyway, here goes:
+
+  LEDGER
+
+    X = wall
+    + = door
+    H = Hhrruulls
+    F = prison cell with fermigons
+    P = prison cell with prisoner
+    S = slave quarters
+    ^ = stairs up
+    V = stairs down
+    = = exit
+    * = where you want to get to
+    . = path to go along
+
+  INSTRUCTIONS
+
+  To go up/down stairs, type (Y) and then (N) and (X)it.
+
+    5-1. THE DARK TOWER
+
+  You have to retrace your steps through the dungeon.
+
+      LEVEL 1
+
+XXXXXXXXXXXXXXXX
+XXXX    XS+.+^XX (12 tergins from slaves)
+X H   X X+XXXXXX
+XXXXX X  .....XX
+X XXX XXXXXXX..X
+X       H  XX .X
+XXX XXXXPX    .X
+X      XXX XXX.X
+X XXXXXXXXX   .X
+X X       X XX.X
+X X XXXXX X XX.X
+X X XXX   X XX.X
+X X XXX XXXXX..X
+X X XXX+XXXX..XX
+X     + +....  X
+XXXXXXX=XXXXXXXX
+
+  (X)it the first room east. Fly east, go NE and then N until you hit a wall. 
+Then go NW and W. (E)nter the door to the north. You get turgins. (X)it east. 
+(E)nter east. Go up the stairs.
+
+      LEVEL 2
+
+XXXXXXXXXXXXXXXX
+X    ....+F+.XVX
+X X X.X XXXX.X+X
+X X X.X    X...X
+X X X.XXXX XXXXX
+X X X....X     X
+X X XX X..XXXX X
+X X  X XX....X X
+X XX+XXXX XX.X X
+XHXXSXX    X.X X  (10 tergins from slaves)
+X XX+XX XX X.X X
+X X   X XX X+X X
+X X   X    X^X X
+X XXXXXXXXXXXX X
+X              X
+XXXXXXXXXXXXXXXX
+
+  Go down, left and up. Use parzin/purlet to beat the fermigons if you like. 
+They're tough. The take the second down(if you like, get some tergins by 
+taking the third down, (E)ntering south, and (X)iting north and going back 
+east) and push east whenever you can and south . At each T go east. (E)nter 
+south and climb up.
+
+      LEVEL 3
+
+XXXXXXXXXXXXXXXX
+X X^+....x     X
+X XXXXXX.X XXX X
+X       .X XXX X
+X XX  X .X +SX X (10 TERGINS FROM SLAVES)
+X  XXXXX.XXXXX X
+X    X  .......X
+X  X XX  XXXXX.X
+XX X         X.X
+X  X X+X+X+X X.X
+XX X XPXFXFX X.X
+X  XXXXXXXXXXX.X
+XX       X.+VX.X
+X  X XX XX.XXX.X
+XX   X    .....X
+XXXXXXXXXXXXXXXX
+
+  (X)it west and go south, east, north(detour to the north spiral for 
+tergins) and west, then north and west. (E)nter west and go up.
+
+      LEVEL 4
+
+XXXXXXXXXXXXXXXX
+X.+VX          X
+X.XXX      XX  X
+X.             X
+X.  XX     XX  X
+X.             X
+X..            X
+XX.XXX XXXXXXXXX
+X ........H....X
+X X X XX XXXXX.X
+X      X X.....X
+X  XXX X X.XXXXX
+X    X X XHX...X
+XXX  X X X.X.X*X
+XF+      X...XXX
+XXXXXXXXXXXXXXXX
+
+  (X)it west, south, east, south into the wall, and now eat some tergins and 
+yurpins unless you've got each over 2000. (P)repare Zytrom. Go east. (C)ast 
+Zytrom like crazy. Eat more yurpins if you have to. Go east, south, west, and 
+heal up again. More HHRRUULLs. South, east, north, east, south and you'll see 
+the king. He'll give you the amulet.
+
+  Now you just need to retrace your steps. But before you get to the exit 
+chamber, heal up. 5 Purlet/Parzin, an Ilk-Be spell, and a Jinn beforehand 
+should help deflect Dzomon's damage. If you've got the yurpins and need to 
+boost over 1250, do so. Otherwise, you'll need a lot more yurpins. Once you 
+wipe him out, congratulations, you've beaten the toughest of the dungeons!
+
+    5-2. CASTLE GRAZ
+
+  This is a one-way trip, and you can even avoid fights if you're careful. 
+You won't need the Tergins. You'll just need 2200 hit points. Maybe.
+
+      LEVEL 1
+
+XXXXXXXXXXXXXXXX
+X   XF+      +FX
+X XXXXXXXX XXXXX
+X XS+       X  X (7 yurpins from slaves)
+X X+XXX XX  ...X
+X X X   XX  .X.X
+X X X X X  X+X.X
+X X X X   XX^X.X
+X X X X XXXXXX.X
+X X X X   X   .X
+X X   XXX    X.X
+X    XX XXX XX.X
+XX X X       X.X
+XX X XX+XXXXXX.X
+X     + +......X
+XXXXXXX=XXXXXXXX
+
+  (X)it east. East, north, take the second west, then go south. (E)nter 
+south. Go up.
+
+      LEVEL 2
+
+XXXXXXXXXXXXXXXX
+X       H      X
+X  X   X+X     X
+X      XPX     X
+X X X XXXXXX   X
+X     X    X   X
+X          XXX X
+XX X X X...+VX X
+X       .  XXX X
+X X X X..      X
+X  .....X X X XX
+X  .X X        X
+X  .X X        X
+XXX.X X  XXXXX X
+X^+.X X        X
+XXXXXXXXXXXXXXXX
+
+  (X)it west. West into a wall, south into a wall, west, south a square, and 
+west. At the second 4-way intersection, south. (E)nter west. Go up.
+
+      LEVEL 3
+
+XXXXXXXXXXXXXXXX
+XX     XX      X
+X   X   XX   XXX
+X X X+X  X XXXXX
+XXXXXSX......+^X  (6 tergins from slaves)
+X   XXX.XXXXXXXX
+X X   ..       X
+X X X .XXX X X X
+X X X .        X
+X X XX.XXX XXX X
+X    ..        X
+XXXXX.XXXX X X X
+X.....         X
+X+x XXXXXXXX X X
+XVX     +F+  X X
+XXXXXXXXXXXXXXXX
+
+  (X)it north. East, north at the first chance, east, north at the first 
+chance, east at the wall, north right aay, east right away. (E)nter east. Go 
+up.
+
+      LEVEL 4
+
+XXXXXXXXXXXXXXXX
+X        ......X
+X X X X X.X XX.X
+X X X X X.   X+X
+X X   X X.   XVX
+X X X X X.   XXX
+X   X X X.     X
+X X X X X.     X
+X X X X X.     X
+X X X X X.     X
+X X X X X.     X
+X X X XXX.     X
+X X X X...     X
+X X X X+X      X
+X X X XDX    H X
+XXXXXXXXXXXXXXXX
+
+  (X)it north. Go north and then west twice. At the second down, take it. Go 
+along the wall and go west at the opening.  If you've got DosBox cranked up 
+here, now's a good time to slow it down. (E)nter south.
+
+  Now you face Lord Dragos, who starts zapping you for 730 damage. (D)rink 
+the elixir(I died once trying to (U)se it!) and then quickly (W)ord SUBMIT 
+(W)ord THY (W)ord RING. You may turn back to yourself at this point, but no 
+big deal. Just (W)ord YOKKOL. You win!
+
+    5-3. SIDE CAVES
+
+  There are a couple of caves you need to explore to get through the game. 
+There's nothing too tricky, but I broke them down below.
+
+      5-3-1. N DEMION CAVE
+
+  This is your first run through a dungeon. It's pretty tough, more than most 
+you'll find in Begonia, and since you have to take care of three monsters in 
+a row, you may want to use Parzin and Purlet to knock off the monsters.
+
+(U)se torch.
+(G)o.
+Iblis 340/75(magic)
+Mina 350/85
+Gorgon 490/99
+
+  Past these guys, you'll talk to Eshir, the first speaker of the Zilfins. He 
+tells you the words DEM OGANDUR SHEM and YOKKOL as the final word.
+
+  You don't have to go back through the dungeon.
+
+      5-3-2. METSNY MTNS CAVE
+
+  This is actually a very easy dungeon, but you must have the key from 
+Derymin first. Of these only the bogum is tough, especially since you're 
+better than when you faced N Demion. So only use 2 parzin/purlet for that 
+final fight.
+
+(U)se the torch.
+(G)o forward.
+
+Barg 140/30
+Gorgon 70/50
+Zumagin 90/90
+Bogum 350/150
+(U)se the key. Harp + 12 gem + 1000 gold = your treasure.
+
+  You're kicked back to the Metsny Mountains on completing this.
+
+      5-3-3. THE WELL
+
+  You need 3000 hit points for this if you just fight straight up, although 
+you need less if you have a bunch of prihny/parzin. There's no really big 
+fight after this, so why not use them? You can also cast shield to protect 
+yourself.
+
+(U)se rope. Enter. (U)se torch. (G)o. There are three fights:
+Bazylrun 740/125
+Gorgon 870/140
+Bazylrun 795/125
+
+  After this, you get to the other side of the caves where you need to (U)se 
+flute. (U)se flute. You get to meet with the elves, which is cool.
+
+  "Do you know what I want?" (O)ffer harp. You then get the horn in return. 
+You lose 50 fatigue for climbing back up the well, but so what. You don't 
+have to run back through.
+
+  6. TOWN INFO AND COMMERCE
+
+  Often, a town as I define it is not really a town. A more accurate term 
+might be "location," but towns may be either battlefields or towns proper. 
+For battlefields, all you can do is fight and (L)ook afterwards. For towns, 
+there is a (F)irst and (S)econd house, and there's either a (T)hird house or 
+a chance to (T)alk to strangers.
+
+  Towns generally consist of up to three of a goods seller, healer, temple, 
+arms seller, inn, and secret locations that are very, very important. Beggars 
+also approach you as you leave, but they never give varying advice. You may 
+get robbed too in an inn or market, but that's luck of the draw.
+
+  There's no way to get out of the painful walks back and forth.
+
+  Whenever you buy something, there's no way  to sell it for a lower price, 
+really. Except in the case of tobacco, when you might just deserve it, you 
+non-utopian minded fantasy RPG player, you, and spice, but just barely and 
+then you could haggle your way to breaking even. As for basic supplies you 
+can't sell, the prices never fluctuate too wildly, so there's no reason to 
+get your pants in a bunch.
+
+  Also whenever you buy or sell something, you can negotiate the price unless 
+you're dealing with one of those tin pot sellers who have one item to buy and 
+another to sell. You can in fact do it repeatedly. When buying, just start at 
+about 10% below, or a bit more, and work up by 1 gold piece if you want to 
+chisel every last bit of profit. You can do the same for selling--start 10% 
+high.
+
+  Prices for you to buy stuff vary from town to town but there's nothing to 
+get your breeches in a knot about. The fluctuation is rarely more than 30-40% 
+which isn't bad at all considering the 500%+ profit margins you can make if 
+the time is right. Note that towns never buy and sell the same item, so you 
+have to really plan your trip ahead. Also, by the time you get out of 
+Deloria, you shouldn't have to do much planning to buy/sell. It's worth it to 
+hang back there a bit to stock up on silk and spice, along with other hardy 
+stuff like boots and prihny. Having this allows you to acquire a net worth 
+much more than the maximum 9000(?) gold. Which is cool--many games don't have 
+this sort of quick dirty investment feature.
+
+  Below is a list of what sells for what, where, and a brief analysis.
+
+Arrows(buy) group of 10 Shaktir 6, Tumriz 5, Ziad 4, Cullarat 6, Llorrim 8, 
+Nedharm 5, Shakamin 10, Treil-Om 11
+--These get more expensive as you go into further hostile territory. It is 
+possible to stock up on arrows with a few runs between Telbiz and Perimon. 
+Because you can have more than 256 arrows, it can last you for quite a while. 
+Just trade up a whole ton and you will have no problems.
+
+Boots(buy) Telbiz 80, Tol-Bin 100, Tar-Im 110, Varanlim 120
+--Stock up early when trading silk or tobacco/toys. You can even go for the 
+maximum.
+
+Match(buy) Axitraz 8, Telbiz 9, Tumriz 7, Llorrim 8, Lork 8, Shakamin 12, Zax 
+7
+--I never use these. I go for big-picture heals.
+
+Cloak(buy) Elmo 150
+--Buy it when you get there. Have the spare cash. If you have brought silk to 
+Elmo, just sell one.
+
+Nukh(sell) Derymin 85
+--There's a temple where you get the nukh from in Derymin too, but you need 
+the nukh, so that is a waste of time.
+
+Prihny(buy) Telbiz 55, Tumriz 40, Llorrim 50, Shakamin 45, Tar-Im 40, 
+Varanlim 40
+--Tumriz has the best deal, and since you're going there, it's worth it to 
+make one more trading run to pile up gold to spend there. Plus if you buy 
+Prihny in Telbiz, it's that much tougher to build up a lot of cash earlier. 
+So, if you can be patient and hoard up enough money to buy 99 silks and 30 
+Prihny(4000 or so gold) from Tumriz, good for you! The savings themselves 
+aren't big--about 15*30=450 gold, as you really need just 30 Prihny to boost 
+your strength(2-6 per Prihny) when max strength >> actual strength--but the 
+point is that you delay payments long enough to do some good trading.
+
+Key(buy) Derymin 60
+--Yes, you need one of these. You don't get to use it right away, as you buy 
+it in Begonia and move on to Sumaria.
+
+Rope(buy) Lork 84, Zax 97
+--Buy the rope in Lork. Zax is too obscure although if you establish a 
+Deloria/Sumaria trade route you might as well get a step on things.
+
+Flute(buy) Safinas 175
+--You need one of these too. You can just sell a silk to pick it up.
+
+Riddle book(buy) Tar-Im 75
+--Yes, you need the riddle book. But just one.
+
+Toy(buy) Perimon 7, Lork 15, Tar-Im 10
+   (sell) Telbiz 30, Tumriz 23, Zax 64
+--The Perimon/Telbiz route at first is great. You swap toys and tobacco. 
+However, the price isn't high enough to justify doing any more unless you 
+have far too much money. The profit margin's nice and you'll need to go to 
+Tar-Im anyway, but it'll be a while before you get to Zax.
+
+Silk(buy) Tumriz 35, Derymin 75, Zax 75
+    (sell) Axitraz 80, Telbiz 80, Tol-Bin 220, Elmo 335, Lork 86, Safinas 
+325, Shakamin 97
+--It's worth having 3500 gold before you go to Tumriz to see the 
+beggar/wizard, just to buy up everything there. A return trip may be awkward, 
+though, and too out of the way. So buying silk anywhere is pretty good since 
+if you need extra cash late in the game, there is always Safinas. Between it 
+and Zax you have a pretty good trading route, and you can buy silk in Derymin 
+before heading to Sumaria for the final third of the game. It isn't far from 
+Tumriz to Safinas, but you might not survive.
+
+  That aside, SILK IS THE BEST LONG TERM ITEM TO BUY AND SELL. You can't sell 
+it all at once, but it makes such a nice profit and there are so many places 
+to sell it, that if you run out of cash to buy a game-important item, you can 
+get it from the profits you made with silk.
+
+Tobacco(buy) Telbiz 55, Lork 40
+       (sell) Axitraz 76, Tumriz 69, Llorrim 30, Shakamin 72, Tar-Im 65, Zax 
+89, Perimon 130
+
+  Tobacco is nice at the beginning, once you stock up in Telbiz and sell in 
+Perimon. But it's not really worthwhile after that. Because there's nowhere 
+in Sumaria to sell it for a huge profit.
+
+Pearl(buy) Faerlot 200
+--You need this. Just buy it.
+
+Chewba(sell) Derymin 64, Llorrim 64
+--You need four of these to get at temples. They're not worth selling, 
+really.
+
+Spice(buy) Axitraz 81, Telbiz 35
+     (sell) Derymin 82, Llorrim 72, Lork 94, Tar-Im 80, Shentill 275, Faerlot 
+375
+--This is only worthwhile for one trip, but what a trip it is. Before moving 
+on, pick up 99 spice at Telbiz because your trip to critical parts of Begonia 
+will DEFINITELY go through Shentill, which is central to Begonia. Build up 
+initial trade routes as you please. This one is almost a gimme if you study 
+the map. You won't be able to sell all the spice, but oh well.
+
+Elixir(buy) 1000
+--at Hayrush's by Lake Brellent. You need one. Trade silks up to get it.
+
+Tea(buy) Tumriz 30, Derymin 60, Llorrim 70
+   (sell) Axitraz 90, Lork 75, Shakamin 77, Tar-Im 75, Varanlim 300, Zax 74
+--The profit margin for Tumriz/Axitraz isn't worth the risk, and the profit 
+margin for Varanlim, while nice, comes too late in the game and isn't as big 
+as for silk.
+
+Torch(buy) Axitraz 15, Tumriz 10, Derymin 10, Llorrim 12, Shakamin 10
+--You really only need three of these. One for each dungeon, one of which can 
+be skipped anyway: N Demion's wall, Metsny Mountains, and the Well.
+
+  Towns are ranged alphabetically by region in the sections below. When 
+commenting on the roads between the towns, I don't mention mushrooms and 
+flowers, which should always be picked, unless you need to browse to them.
+
+  7. DELORIA
+
+        *****************
+        *    DELORIA    *
+        *****************
+
+***********
+* Axitraz *
+***********
+
+    1) Temple of Dragos 4 fanatics, look for gem when you win
+    2) Brown Ale Inn
+       --Elvish boots wear out.
+       --I heard of a pass in Perimon.
+       --The cost of living is higher in Begonia.
+    3) Trader Joss General Merchant sells matches:8, torch:15, toys:11, 
+spice:81
+       Buys gem:37, tobacco:76, silk:80, tea:90
+* Roads:
+--S to Shaktir: 200 endurance, mushroom(browse)
+--W to H Aximon: 200 endurance, 200 fatigue, poison, browse to 
+mushroom/flower
+
+************
+* Belmonti *
+************
+
+* Fight three zorlims, get 50 gold
+* Roads:
+--NE to Ergon: 2 goblins
+--NW to Tash: 0, 0, 0, 2 goblins(pool after)
+--SE to Hele: 200 endurance, poison, poison
+--SW to Tol-Bin: 200 endurance(to left,) 2 goblins
+
+******************
+* Castle Durheim *
+******************
+
+* Four goblins attack you on your way in, each time
+* Baron Hulka tells you King Rolan has been kidnapped. Go seek Rufus of 
+Begonia.
+* You are then given +20 food and +30 potential(but not actual) 
+strength.
+* It's a great place to pass through
+* Roads:
+--W to Shaktir: 2 goblins, poison, 2 mushrooms(browse)
+--SE to L Aximon: 200 endurance, 200 fatigue, poison
+
+****************
+* Ergon Forest *
+****************
+
+* Fight two spiders who disappear when they hit you for damage.
+* Roads:
+--N to Finduk: poison
+--SE to H Aximon: poison, 2 goblins
+--W to Tash: 0, poison
+--SW to Belmonti: endurance, poison
+
+***********************
+* Feldor Forest North *
+***********************
+
+* Fight two poison plants, get gem.
+* Roads:
+--WEST to Perimon: 3 goblins(15/30/15 damage), pool by mushroom +200, pool 
+just past monk and mushroom is fatigue +100. It's tough to get to and a bit 
+useless considering you're probably going to Perimon to trade and can buy 
+healing anyway.
+--SE to Ziad: poison, 2 goblins
+--EAST to Telbiz: 0 pool, 3 goblins(15/30/15), poison pool, 0 pool
+
+***********************
+* Feldor Forest South *
+***********************
+
+* Fight two giant spiders, get a gem.
+* Roads:
+--E to Sysvol: poison, browse pool
+--NW to Irmak: boots, 0, 200 endurance
+
+**********
+* Finduk *
+**********
+
+* 2 houses
+    1) Witch of Finduk
+       If you use prihny and (D)rink afterwards, your strength will go 
+up 3-5 if it is not at maximum.
+    2) Fortune teller(15 gold):  Your path is long and hazardous!  Talk 
+to kings. Hamdi will give gifts!  Demion rocks, three words.
+* Passers-by:
+  --Old Man: Water dragons have a sweet tooth!  They like cookies!
+  --Dalin the Dwarf:  I know where the pass of Gadar is!  Do you want to 
+cross to Begonia now?
+  --Bim the Kid: I don't talk to strangers!
+  --Kutka the Halfling: I am so HUNGRY!!!
+* Roads:
+--S to Ergon: 3 goblins right away, 0, 200 endurance
+
+******************
+* Harlosh Forest *
+******************
+
+* Fight two poison plants and get a gem.
+* Roads:
+--E to Hele: 4 goblins
+--W to Tol-Bin: poison just before
+
+***************
+* Hele Desert *
+***************
+
+* Fight four sandgus and get a gem.
+* Roads:
+--W to Harlosh: pool just before
+--E to Lower Aximon: 0, 200 endurance, 200 fatigue
+--NW to Belmonti: endurance, 200 fatigue, 200 poison, poison, 3 mushroom 
+browse
+
+************************
+* Higher Aximon Plains *
+************************
+
+* Fight one Demondi
+* Roads:
+--SE to Shaktir: goblins, 200 endurance, poison, 0, browse 2 mushrooms past 
+pool
+--E to Axitraz: 200 endurance
+--NW to Ergon: 2 goblins
+
+*********
+* Irmak *
+*********
+
+* Fight one Demondi
+* Roads:
+--SE to Feldor S: boots, 0, 200 endurance
+--NE to Tumriz: boots, 200 endurance, poison
+
+****************
+* Lower Aximon *
+****************
+
+* Fight two trolls and get ?.
+* Roads:
+--NW to Durheim: poison, 2 goblin, 0, (browse pool)
+--W to Hele: +200 endurance(to left), fatigue
+
+***********
+* Perimon *
+***********
+
+* 2 houses
+    1) [sell tobacco for 130, buy toys for 7]
+    2) 30 gold for healing
+* passers-by
+    --You must have prihny if you want a witch to help you!
+    --Orlan the dwarf:  I know the way to Sumeria.
+* ROADS
+--EAST to Feldor N: poison pool, 3 goblins, 0 pool
+--SOUTH to Sysvol: 200 endurance, 4 goblins, poison
+
+***********
+* Shaktir *
+***********
+
+* 3 houses
+    1) Barber shop:  Haricut 8 gold. Shup says elves like harps.
+    2) Weapon shop[Zod]
+       Pala 70, Slicer 175, Slayer 250, Grand Sword 310, Ash Bow 65, 
+Arrows 10 for 6, Light Armor 150, Medium Armor 350, Heavy Armor 800
+    3) Temple of Lord Dragos:  Fight four fanatics and get a Chewba.
+* Beggar:  passage to Begonia is from Finduk!
+* Roads:
+--E to Durheim: poison, 0
+--N to Axitraz: poison, poison, (flower + mushroom browse)
+--NW to H Aximon: 0, 0, 0, goblins(pool after)
+
+********
+* Sham *
+********
+
+* Start of game and scene of introduction
+* Road(s):
+--SOUTH to Telbiz: 0 pool, 0 pool, mushroom, mushroom beyond monk. Stop 
+running when you're at the monk and get the mushroom on the edge. This is a 
+good frequent strategy to squeeze out one more mushroom.
+* You can't re-enter immediately. It would not be wise, etc.
+* If you return here, the village is destroyed by Zorlims, one of which 
+attacks you. Search for gold after.
+
+**********************
+* Sysvol (desert of) *
+**********************
+
+* Fight four Sandgus, get a gem.
+* Roads:
+--N to Perimon: poison, +200 endurance, 0, 0
+--E to Ziad: 3 goblins (browse mushroom)
+
+***************
+* Tash Bridge *
+***************
+
+* Fight one zorlim
+* Roads:
+--E to Ergon: poison, 3 goblins, 0, 200 endurance, 100 fatigue
+--W to Telbiz: boots, 0, 200 endurance, flower(browse)
+--SE to Belmonti: poison, 200 endurance, poison
+
+**********
+* Telbiz *
+**********
+
+* 3 houses
+    1) Trader Binn sells spice:35, Prihny:55, Matches:9, Tobacco:55
+       Buys gems:40, toys:30, boots:80, silk:80
+    2) Green Vine Inn food 1, wine 1, rest 3
+       --Don't cross marshes unless you wear Elvish boots.
+       --Use matches when you rest.
+       --There is a weapon shop in Ziad.
+       --Try the last pond before Ziad. (+200 endurance just after the 
+fight.)
+    3) Temple of Zardos. Fight two fanatics and get a gem.
+* Road(s):
+--NORTH to Sham: mushrooms browsing left, poison pool, 3 goblins, 0 pool
+--EAST to Tash: 0, 100 fatigue, 3 goblins, boots, 200 endurance
+!!SOUTH to Ziad: poison pool, 0 pool, +200 endurance lake after 2 goblins, 2 
+mushrooms just after 2 trees. You'll need to stop walking at the trees and 
+browse to the right side of the screen for the mushrooms. You can reach the 
+lake before the goblins if you browse very carefully. You'll see a flower 
+below. Stop before it.
+--WEST to Feldor(N): poison pool, little else
+
+* Road West has poison pool
+* Beggar: "Eklun is in West Deloria."
+
+***********
+* Tol-Bin *
+***********
+
+*  2 houses
+    1) 30 gold for healing
+    2) Trader of Tol-Bin sells elvish boots:100, buys silk:220
+*  random convesations
+    --Cem the Kid:  "I don't talk to strangers."
+* Road(s):
+--WEST to Ziad: browse to the left for a +200HP pool. The next pool is +200HP 
+too. A mushroom is just at the edge, so you can pick it manually.
+--E to Harlosh: 0, +200 fatigue, 2 goblins
+--NE to Belmonti: 200 endurance, poison(mushroom browse)
+
+**********
+* Tumriz *
+**********
+
+* 3 houses
+    1) Furb the Weapon Man
+       Pala 80, Slicer 190, Slayer 280, Grand Sword 330, Ash Bow 35, 
+Arrows 10 for 5, Light Armor 175, Medium Armor 350, Heavy Armor 850
+    2) Irmak Inn food 3, drink 2, sleep 3
+    --Eklun doesn't come here any more.
+    --The beggar has a family of 9 to feed.
+    --Best deal for prihny is in Tumriz!
+    --I feel like singing!
+    3) Trader Feyz sells matches:7 prihny:40 silk:35 tea:30
+    Buys gem:32 tobacco:69 toys:23 torch:10
+* Beggar:  Yes, I know where Eklun lives!  [he takes you to the VALLEY, 
+where you can go to the COTTAGE, and then you can talk with Eklun to get 
++33 magic skill.]
+* Roads:
+--SW to Irmak: boots, poison, (browse pool)
+
+********
+* Ziad *
+********
+
+* 3 houses
+    1) Holy Barrel Inn food 2, wine 3, rest 2?
+       --Go west to find Eklun
+       --But the roads are full of danger!
+       --Beyond the marsh you'll find Tumriz.
+       --Folks in Tol-Bin value silk.
+    2) Temple of Dragos. Fight three fanatics and get gold.(25/20/25)
+    3) Ziad Weapon shop[Gard the Weapon Man]
+       Pala 90, Slicer 180, Slayer 260, Grand Sword 350, Ash Bow 40, 
+Arrows 10 for 4, Light Armor 175, Medium Armor 400, Heavy Armor 800
+* Beggar:  "Look for gems in Feldor Forest."
+* Road(s):
+--NORTH to Telbiz: 0 pool, 0 pool, poison pool. A mushroom past a munk you 
+must walk to, but it's too hair trigger. Don't bother.
+--WEST to Sysvol: poison (browse mushroom)
+--EAST to Tol-Bin: 2 goblins will attack youand there are no pools. Short 
+walk.
+--NW to Feldor N: poison, 2 goblins
+
+  8. BEGONIA
+
+        *****************
+        *    BEGONIA    *
+        *****************
+
+***********
+* Brahlah *
+***********
+
+* Four Zorlims, +90 gold
+* Roads:
+--W to Shentill: 200 endurance, 2 goblins
+--S to Tar-Im: boots, poison, 300 endurance, poison, 200 fatigue, pool/browse
+--SW to E Tiveron: poison, 2 goblins
+--N to Maerdom: poison, 100 fatigue
+
+***********
+* Bundeir *
+***********
+
+* Zumagin
+* Roads:
+--SW to Crossroads: nothing
+--E to Pylin: fatigue, 2 goblins, poison, poison
+--W to N Eredrim: 1 goblin
+
+*************
+* SE Burgol *
+*************
+
+* Demondi
+* Roads:
+--NW to Nedharm: 100 fatigue
+--SW to Maerdom: 2 goblins(190/65, 175/75), 100 fatigue
+
+*************
+* SW Burgol *
+*************
+
+* 2 zorlims, gold
+* Roads:
+--SW to Shentil: 100 fatigue, poison, 300 endurance, (2 goblins?)
+--NW to Razag: poison, poison, fatigue, fatigue
+--NE to Nedharm: poison
+--SE to Maerdom: 300 endurance
+
+**********
+* Byludd *
+**********
+
+* Slime 270/70
+* Roads:
+--E to W Tiveron: boots, 300 endurance, 4 goblins, poison, 300 endurance, 
+poison
+--NE to Derymin: boots, poison, 300 endurance, poison
+--NW to Shirrill: poison, 300 endurance, poison, poison, 200 fatigue
+--N to S Demion: boots, 300 endurance, 4 goblins, poison, 300 endurance, 
+poison, 200 fatigue, poison
+
+************
+* Cullarat *
+************
+
+* 3 houses
+    1) Lord Dragos's Temple. Fight four fanatics and get gold.
+    2) Hugg the Weapon Merchant
+       Pala 80, Slicer 200, Slayer 310, Grand Sword 450, Ash Bow 50, 
+Arrows 10 for 6, Light Armor 170, Medium Armor 300, Heavy Armor 600
+    3) Hot Rumor Inn food:4 ale:2 sleep:3
+    --beware Zara the Eternal Sorceress
+    --rumored to have a pact with Dragos
+    --she may be summoned if you know how
+    --but it angers her when she's disturbed
+* Beggar:  Zara lives in N Begonia!
+* Roads:
+--SE to Tiveron: poison
+--N to W Tiveron: poison, pool after
+
+**************
+* Dark Tower *
+**************
+
+* Here's the big scene in Begonia, but you'll need the staff to have any 
+hope. You get the amulet from the King in the tower. But you have to know the 
+words--BELIRR ONUMDA DERHALL--first.
+--S to N Eredrim: 1 goblin, browse flower
+
+*****************
+* Demion Forest *
+*****************
+
+* 2 K-Plants, get gem.
+* Roads:
+--SW to S Demion: poison, poison, (400 endurance browse)
+--NW to N Demion: 400 endurance, 2 goblins(270/75), poison pool(browse)
+--NE to Llorrim: poison, poison, poison, (browse)
+
+************
+* N Demion *
+************
+
+* Say MAYGOON, etc. to get through.
+* Fights with Iblis, Mina, and Gorgon
+* Tunnel leads to Zilforea, where you meet the Eshir.
+* Roads:
+--SE to Demion: poison
+
+************
+* S Demion *
+************
+
+* A bunch of dwarves here.
+* Say "Dalin" and they will give you 50 arrows and inform you: You need a 
+Nukh in the Dark Tower, else you will forever be a captive! You may find a 
+nukh in Derymin. Some chambers have many doors.
+* Orlan, Karun and Bondibon should also work.
+* Roads:
+--SE to Derymin: poison, 200 fatigue, 200 fatigue, poison
+--NE to Demion: poison, poison
+--SW to Shirrill: boots, poison, 300 endurance, 4 goblins
+--S to Byludd: boots, 4 goblins, poison, 200 fatigue, poison
+
+******************
+* Denize Marshes *
+******************
+
+* Slime
+--SE to Tar-Im: boots, fatigue, poison
+--NW to E Tiveron: poison, endurance, poison, fatigue
+
+***********
+* Derymin *
+***********
+
+* 3 houses
+    1) Temple--defeat 4 fanatics, get Nukh
+    2) Trader Ben sells Torch:10, Key:60, Tea:60, Silk:75
+    Buys Gems:47, Spice:82, Chewba:64, Nukh:85
+    3) Last Refuge inn sleep:3 food:4 wine:7
+    --Grandfather of Ben...
+    --was a personal servant of Fulgarsh
+    --he claims the key he sells
+    --would open that treasure chest
+* Roads:
+--S to W Tiveron: 3 goblins, poison, fatigue
+--SW to Byludd: boots, poison 300 endurance, poison
+--NW to S Demion: fatigue, poison, goblins(2, 195/75), 3 mushrooms browse
+
+*************
+* Eredrim N *
+*************
+
+* Four Sandgus, gem
+--E to Bundeir: 1 goblin, 500 endurance
+--SW to S Eredrim: 1 goblin, 500 Endurance
+--N to Dark Tower: nothing
+--W to Faerlot: 1 goblin
+
+*************
+* Eredrim S *
+*************
+
+* Four Sandgus, gem
+* Roads
+--SE to Crossroads: nothing
+--NE to N Eredrim: 1 goblin
+--NW to Faerlot: 1 goblin(350/70)
+--SW to Llorrim: endurance
+
+***********
+* Faerlot *
+***********
+
+* 2 houses
+    1) [sell spice for 375, buy pearl for 200]
+    2) 95 gold to heal you
+* Talking:  Dregg the Dwarf, "Book of Riddles, Amulet, and the Key to 
+Sumeria."  Bedos the halfling:  "The candle of Zilfin protects us."  
+Kid=Oldi.
+* The Zilfins tell you the words to open the Dark Tower as well as the word 
+to use both rings.
+* Roads:
+--E to Eredrim N: 1 goblin
+--SE to Eredrim S: 1 goblin
+
+****************************
+* Intersection(Crossroads) *
+****************************
+
+* Menido the halfling gives you 25 mift and tells you to take a gift to Zara 
+but first hear Rufus about the Grumm and the daylight!  [tell Menido you know 
+Jimbo]
+* You can also say you know HAMSHERY, KUTKA or BUNBELY.
+* Roads:
+--NE to Bundeir: 1 goblin
+--NW to S Eredrim: 1 goblin
+--W to Llorrim: poison, fatigue, fatigue
+--SE to Razag: poison, 100 fatigue, 100 fatigue, poison, 300 endurance
+
+***********
+* Karadum *
+***********
+
+* 2 houses
+    1) Witch(prihny potion)
+    2) 14 gold for your fortune. You need a torch for the bottomless 
+well. You play the flute.
+* Barbuny:  I know where the pass of Felak is!
+* Old Man:  Rumor has it Bogum still lives in Sumaria!
+* Tim the kid
+* Roads:
+--E to Shirrill: boots, poison, 300 endurance
+
+***********
+* Llorrim *
+***********
+
+* 3 houses
+    1) Homebrew Inn meal 3 ale 4 room 3
+    --water dragons love cookies!
+    --beggar drinks 10 tankards a day.
+    --Zara friend or foe?  Who knows?
+    --Tea is dear in Sumaria.
+    2) Nu the trader sells torch:12 match:8 prihny:50 tea:70
+    Buys gems:50 Chewba:64 Spice:72 Tobacco:30
+    3) Dan the Weapons Man
+       Pala 80, Slicer 120, Slayer 240, Grand Sword 430, Ash Bow 55, 
+Arrows 10 for 8, Light Armor 175, Medium Armor 300, Heavy Armor 550
+* Beggar:  I know where Zihten lives!  Shall we go? [Zihtem tells you 
+BELIRR ONUMDA DERHALL]
+* Roads:
+--SW to Demion: poison, poison, 400 endurance, 2 browse mushrooms
+--NE to S Eredrim: nothing
+--E to Crossroads: poison
+
+***********
+* Maerdom *
+***********
+
+* 2 houses
+    1) Fortune teller(25 gold):  Direction from rufus but what you need 
+at Zaradim. Dzomon's Dark Tower with assist from ancients. Shop in 
+Faerlot. A gift any woman would like.
+    2) Witch(strength)
+* Bondibon the dwarf:  find Fulgarsh's treasure
+* Jekk the kid
+* Trelfy the Halfling:  I am from Hobtown, Sumaria.
+* Roads:
+--S to Brahlah: poison, 100 fatigue
+--NW to SW Burgol: fatigue, poison, 2 goblins
+--NE to SE Burgol: 300 endurance, poison, 300 endurance, 2 goblins
+
+***********
+* Nedharm *
+***********
+
+* 3 houses
+    1) Madirr the Weapon Man
+       Pala 90, Slicer 190, Slayer 290, Grand Sword 490, Ash Bow 60, 
+Arrows 10 for 5, Light Armor 175, Medium Armor 400, Heavy Armor 700
+    2) Temple of Lord Dragos. Defeat four fanatics and get gem.
+    3) Uluy the barber(10 gold) tells about Sam and how he knew the King 
+of Deloria
+* Roads:
+--W to Razag: 100 fatigue, poison, 300 endurance, 2 goblins
+--SW to SW Burgol: 300 endurance
+--SE to SE Burgol: poison, 100 fatigue, 100 fatigue, poison
+
+*****************
+* Pylinn Forest *
+*****************
+
+* 2 Spiders
+* cast Ilk-Be if you're continuing to Zaradim
+* Roads:
+--W to Bundeir: fatigue, 2 goblins, poison, poison
+--N to Zaradim: 400 endurance, poison, 300 fatigue, 2 goblins
+
+******************
+* Razag [castle] *
+******************
+
+* 2 goblin ambush outside
+* Inside, talk to King Rufus, get 20 food, 30 max strength from Sir 
+Barnbyl
+* You learn Rolan is in the Dark Tower.
+* Roads:
+--NW to Crossroads: poison, fatigue, fatigue, poison, 2 goblins, poison, 3 
+endurance
+--SE to SW Burgol: poison, fatigue, fatigue, 2 goblins, poison
+--E to Nedharm: 2 goblins, 100 fatigue
+
+************
+* Shentill *
+************
+
+* 2 houses
+    1) 75 to heal all
+    2) [sell spice for 275, buy elvish boots for 110]
+* Old man:  if you can't handle Zumagin, don't go to Sumeria!
+* Karun the dwarf:  I have friends in Demion Rocks!
+* Roads:
+--S to Mid Tiveron: poison, endurance, poison, 3 goblins, poison
+--W to W Tiveron: poison, 3 goblins, poison, poison
+--NE to SW Burgol: poison, 100 fatigue, 100 fatigue, 2 goblins, poison
+--E to Brahlah: poison, fatigue, fatigue, poison
+
+************
+* Shirrill *
+************
+
+* Demondi
+* Roads:
+--W to Karadum: boots, 200 fatigue, poison
+--NE to S Demion: 200 fatigue, poison, pool/browse
+--SE to Byludd: boots, 4 goblins, poison, 200 fatigue, poison
+
+**********
+* Tar-Im *
+**********
+
+* 3 houses
+    1) Trader Gubsar sells toys:10, Prihny:40, Boots:85, Riddle book:75
+    Buys Gem:47 Tobacco:65 Spice:80 Tea:75
+    2) Lord Dragos's Temple. Fight four fanatics, win Chewba
+    3) Black Oyster Inn room 3 food 2 ale 4
+    --words may succeed where force fails!
+    --many a door will open to the wise!
+    --pray when all else fails!
+    --Eklun is a friend of the lost ones!
+* Beggar:  Zihten lives in NW Begonia!
+* Roads:
+--NW to Denize: boots, poison
+--N to Brahlah: boots, 300 endurance, 4 goblins, poison, 300 endurance, 
+poison, fatigue, pool/browse
+
+*************
+* Tiveron E *
+*************
+
+* Zumagin
+* Roads:
+--SE to Denize: boots, poison, 4 goblets, 300 endurance, poison, 200 fatigue
+--W to Tiveron: poison, 3 goblins, poison, poison
+--NW to M Tiveron: poison, fatigue
+--NE to Brahlah: 200 endurance, poison
+
+***************
+* Mid Tiveron *
+***************
+
+* Zumagin
+* Roads:
+--SW to Tiveron: poison, endurance, poison
+--N to Shentill: poison, 3 goblins, poison, poison
+--SE to E Tiveron: endurance, poison, pool/browse
+
+*************************
+* S Tiveron aka Tiveron *
+*************************
+
+* Jimbo the halfling is by a tree.
+    --say "Kutka" and get 20 mift. "Trader in Tar-Im sells riddle book-
+-it would make a perfect gift to a halfling in Sumaria! But the marshes in 
+Tar-Im are so deadly!"
+    --other names:  Hamshery, Kutka, Bunbely, Menido.
+* Roads:
+--S to Felak pass: poison, 3 goblins, 200 fatigue
+--E to E Tiveron: endurance, poison
+--NE to M Tiveron: 3 goblins, poison, fatigue, (2 mushroom browse)
+--NW to Cullarat: poison, poison, poison
+
+*************
+* Tiveron W *
+*************
+
+* Zumagin, gem
+* Roads:
+--E to Shentill: poison, 3 goblins, poison, poison
+--S to Cullarat: poison
+--N to Derymin: 200 fatigue
+--W to Byludd: boots, poison, 4 goblins, 300 endurance, poison
+--S to Cullarat: poison
+
+***********
+* Zaradim *
+***********
+
+  Here you need to get the attention of the Sorceress Zara. Be sure you have 
+2000 hit points before going further as, when you say the words, she throws 
+fireballs or something at you, which do a 150 damage each unless you have 
+Ilk-be up. In fact you may want to save before entering in general.
+
+(W)ord BELIRR, ONUMDA, DERHALL. You'll have to wait a but. (O)ffer the pearl. 
+Let the sun vanish(it may start that way) and use the seed to get the staff. 
+If the sun comes back up, you're screwed. Be prepared to (U)se the seed now 
+in your inventory. You'll automatically get the staff. Now you can solve the 
+Dark Tower.
+
+* Roads:
+--S to Pylin: poison, 400 endurance, pool(browse)
+
+  9. SUMARIA
+
+               **********************
+               * DRAGONIA * SUMARIA *
+               **********************
+
+***********
+* E Ahbap *
+***********
+
+* 4 Sandgus
+
+      380/85
+330/90      420/110
+      240/95 < - first
+* Roads:
+--NE to NE Ahbap: 200 fatigue, 300 endurance, 2 goblins
+--SE to Safinas: 200 fatigue, 300 endurance, 2 goblins
+--W to S Metsny: 200 fatigue, 2 goblins, 300 endurance
+
+************
+* NE Ahbap *
+************
+
+* Karbann is waiting here for you to tell him a name.
+* "Dalin" nets you 15 mift. "You are close to Bogum. Rimline is in Lower 
+Shakamoz. King Hamdi owns Brom Bow."
+* other answers include ORLAN, KARUN or BONDIBON.
+* Roads:
+--NE to Metsny Mtns: 2 goblins, poison
+--E to pass: 300 endurance
+--SW to E Ahbap: 300 endurance, poison
+--NW to S Shakamoz: fatigue, 300 endurance, 2 goblins, poison
+
+************
+* SE Ahbap *
+************
+
+* 3 Zorlims, gold
+
+--NW to Safinas: nothing
+
+**********************************
+* E Darizmag [Cliffs of Batiniq] *
+**********************************
+
+* Barg
+--W to W Darizmag: fatigue, 300 endurance, 2 goblins
+--NW to Well: poison, 2 goblins
+
+**************
+* W Darizmag *
+**************
+
+* Four trolls, gem (~400/70)
+* Roads:
+--SW to Fetren: poison, 300 endurance, boots, 300 fatigue
+--S to Varanlim: fatigue, poison, 4 goblins, 300 endurance
+--E to E Darizmag: 300 endurance, poison, 3 goblins
+
+********
+* Elmo *
+********
+
+    1) Trader:  buys silk for 335, sells elvish cloak for 150
+    2) 140 gold to heal all
+* Tress the dwarf:  Lork is in E Sumeria, cheap tea there!
+* Shin the kid
+* Old man:  you are close to where the Water Dragon lives.
+* Roads:
+--S to N Shakamoz: endurance, fatigue
+--E to Lake Brellent: poison, 200 endurance, poison, pool past??
+
+******************
+* Fetren Marshes *
+******************
+
+* Slime 920/150
+* Roads:
+--NW to Sara: boots, poison, 300 endurance, 300 fatigue, 4 goblins, poison
+--NE to W Darizmag: boots, 300 fatigue, poison, 0, 3 goblins
+--E to Varanlim: boots, 300 fatigue, poison, 300 endurance, 4 goblins
+--W to Waylong: boots, poison, 4 goblins, 300 endurance, poison
+
+*****************
+* Lake Brellent *
+*****************
+
+  Here you have a water dragon. It will ignore you unless you have what it 
+wants. Before proceeding, be sure to have 1000 gold.
+
+* offer cookie to Water Dragon, and you go to Hayrush's hut. Pay 1000 gold 
+for the elixir which will disguise you as Lagorn, the Archdemon of Gurtex, in 
+the right place.
+* Roads:
+--NE to Sara Plain: poison, 0, 100 fatigue, 300 endurance, poison, 3 goblins
+--SW to Waylong: poison, endurance, fatigue
+--W to Elmo: poison, 200 endurance, poison, 200 endurance
+
+********
+* Lork *
+********
+
+* 3 houses
+    1) Trader Pezi sells toys:15 rope:84 match:84 tobacco:40
+    --buys gem:51 spice:94 silk:86 tea:75
+    2) Temple of Lord Dragos:  four fanatics, chewba
+    3) Last Hope Inn food 4, wine 4, sleep 3
+    --No more towns north of here.
+    --Death and darkness rule N Sumaria
+    --Max your endurance, fatigue
+    --Else you will not go far!
+* Roads:
+--SW to E Shakamoz: Endurance, Fatigue
+--NE to Varanlim: boots, poison, 300 endurance, 300 fatigue, 4 goblins, 
+pool(browse)
+
+*****************
+* Metsny Plains *
+*****************
+
+* Zamir(655/90)
+* enter a cave here, where you can get the harp if you have a key.
+--SW to NE Ahbap: 300 endurance
+--E to Rimline: poison, 3 goblins(very easy,) fatigue, poison
+--SE to Treil-om: 300 endurance, poison, 3 goblins
+--NW to Shakamin: 300 endurance, poison, 0
+--NE to Waylong: 200 endurance, poison
+
+****************
+* South Metsny *
+****************
+
+* Jemo the halfling is here. If you name a friend of his you get 12 food.
+    Friends:  Jimbo, Cano, Trelfy, Dembit
+  "Monks of Sumaria know 3 words. How they may help I don't know. There is 
+but one forest which is not yet infested! "
+* Roads:
+--SW to Zaxemo: poison, 0, 100 fatigue, 300 endurance, poison, 3 goblins
+--E to E Ahbap: 200 fatigue, 2 goblins, 300 endurance
+--N to Treil-Om: 300 endurance, poison, 3 goblins, 300 endurance, 0
+
+********************
+* Rimline [castle] *
+********************
+
+* 3 goblin ambush outside
+        250-85
+390-110        290-90
+* K Hamdi gives you a Brom bow(unbreakable, 57 damage for 99 strength) and 
+advice about the Ankha birds
+* Sir Cornbull gives you 30 maximum strength
+* Roads:
+--SE to S Shakamoz: poison(browse)
+--SW to Treil-Om: 4 goblins, 200 endurance, poison(past)
+--E to E Shakamoz: fatigue, fatigue, 4 goblins
+--W to Metsny: poison, 4 goblins, 200 endurance, poison, 200 endurance
+
+***********
+* Safinas *
+***********
+
+* 2 houses
+    1) 120 to heal
+    2) Trader of Safinas:  buys silk for 325, sells flute for 175
+* Arhiys the dwarf:  Sam would be pleased to see you if you carry the 
+amulet!
+* I trust you shall overcome!
+* Idris the kid
+* Roads:
+--NW to E Ahbap: 300 endurance, poison, 3 goblins
+--SE to S Ahbap: 1 goblin
+--SW to S Shimerr: 200 fatigue, 300 endurance, 2 goblins, poison
+
+**************************
+* N Sara/Sharkynn Desert *
+**************************
+
+* Four trolls, gem
+--S to S Sara: 4 goblins immediately, 300 fatigue
+
+***************
+* Sara Plains *
+***************
+
+* 2 Zorlims 945/99 and 810/99. +58 gold.
+--SW to Lake Brellent: poison, 0, 100 fatigue, 300 endurance, poison, 3 
+goblins
+--N to N Sara: poison
+--NE to Sharkynn Heights: poison, 3 goblins, 0, 0??(after)
+--SE to Fetren: poison, boots, 300 endurance, 300 fatigue
+
+************
+* Shakamin *
+************
+
+* 3 houses
+    1) Trader Hant sells Torch:10 Match:12 Prihny:45 Cookie:55
+    Buys Gem:59 Tea:77 Silk:97 Tobacco:72
+    2) Meng the Weapon Man
+       Pala 80, Slicer 230, Slayer 300, Grand Sword 450, Ash Bow 50, 
+Arrows 10 for 10, Light Armor 175, Medium Armor 350, Heavy Armor 850
+    3) Great Fir Inn food 2, wine 1, room 3
+    --Hayrush lives on an isle
+    --but don't cross Shakamoz
+    --unless you have great skill
+    --monks have words!
+* Beggar: I know where Lutfen lives!  [Lutfen gives you another magic level.]
+  "When you face Lord Dragos you must fool him and gain possession of the 
+second ring! The Elixir of Hayrush can help you at that. You must use it at 
+the right moment and shift into a new shape! Then you must give him an order, 
+which should not exceed three words! Selection of the correct words will gain 
+you the ring. When you find Hayrush, be prepared, for she is very greedy!!" 
+(need 11-20 gold. Steep for mendicants but worth it.)
+* Roads:
+--SE to Metsny: poison, 0, fatigue, endurance, poison, 3 goblins
+--E to U Shakamoz: 200 fatigue, 4 goblins, 200 fatigue, 200 endurance
+
+**************
+* Shakamoz E *
+**************
+
+* Mina
+* Roads:
+--NE to Lork: poison, 200 endurance, browse to mushroom
+--W to Rimline: poison, 200 endurance, fatigue
+
+***************
+* SE Shakamoz *
+***************
+
+* Barg, gem (720/85)
+* Roads:
+--SE to NE Ahbap: fatigue, 300 endurance, 2 goblins, poison
+--NW to Rimline: fatigue, 4 goblins, fatigue
+--W to Treil-Om: fatigue, poison, 200 endurance, poison
+
+**************
+* N Shakamoz *
+**************
+
+* Mina (877/130)
+* Roads:
+--W to U Shakamoz: poison, endurance, fatigue
+--N to Elmo: 200 fatigue, 200 fatigue, 4 goblins
+--SE to Waylong: 200 endurance, 200 fatigue, 4 goblins, 200 fatigue
+
+**************
+* U Shakamoz *
+**************
+
+* Zorlim? 810/90, gem
+* Roads:
+--W to Shakamin: fountain, poison, endurance, poison
+--E to N Shakamoz: 200 fatigue, 200 fatigue
+
+********************
+* Sharkynn Heights *
+********************
+
+(use cloak and horn)
+
+* Roads:
+--SW to Sara: poison, 3 goblins, 0, 0
+
+*************
+* S Shimerr *
+*************
+
+* Grumpy halfling having a picnic
+* Show him the riddle book, and he will take you to Hobtown. The mayor, Sam, 
+will give you the ring if you have the amulet.
+--S to Felak: poison
+--NE to Safinas: 300 endurance, poison
+--W to Shimerr: poison, poison, 400 endurance, browse to 2 mushrooms
+
+******************
+* Shimerr Forest *
+******************
+
+* four TOUGH zorlims. 55 gold.
+--E to S Shimerr: poison, poison, 400 endurance
+--W to Zaxime: poison, 400 endurance, 2 goblins, browse to pool(??)
+
+************
+* Treil-Om *
+************
+
+* 3 houses
+    1) Dark Bark Inn 3 food, 5 drink, 3 sleep
+    --Witch lies in Waylong
+    --Village in mid-Shakamoz
+    --But you can't survive Shakamoz!
+    --Not if you're not level 3!
+    2) Temple of Dragos:  fight four fanatics, get a chewba.
+    3) Bandyr the Armorer
+       Pala 90, Slicer 250, Slayer 380, Grand Sword 460, Ash Bow 75, 
+Arrows 10 for 11, Light Armor 175, Medium Armor 400, Heavy Armor 700
+* Beggar:  use the flute and they may come!
+* Roads:
+--E to S Shakamoz: 200 fatigue, 200 fatigue, 4 goblins, poison
+--NE to Rimline: poison, 200 endurance, poison
+--S to S Metsny: 3 goblins, poison, poison
+--NW to Metsny: 300 endurance, poison, 3 goblins
+
+************
+* Varanlim *
+************
+
+* 2 houses
+    1) Trader of Varanlim buys tea(300) and sells elvish boots(120)
+    2) 125 to heal all
+* Bludd:  use horn at Sharkynn Heights
+* Baan the dwarf:  I saw the Ankha once. It was as big as a house!
+* Taba the kid
+* Roads:
+--W to Fetren: poison, 300 endurance, 300 fatigue
+--N to W Darizmag: 200 fatigue, poison, 4 goblins, 300 endurance
+--SW to Lork: boots, poison, 300 endurance, 300 fatigue, browse to mushroom
+
+***********
+* Waylong *
+***********
+
+* 2 houses
+    1) Fortune teller (25 gold)  Gift gives secret of big birds.
+    2) Witch
+* Old man: Right words will be spoken and sun will shine.
+* Muko the kid: I don't talk to strangers!
+* Ugru the halfling: At least four chewbas are needed!
+--E to Fetren: boots, 200 fatigue, poison, 300 endurance, poison
+--NW to N Shakamoz: 200 fatigue, poison, 200 endurance, poison
+--SW to Metsny Pl: 200 endurance, 2 goblins(easy)
+--NE to Lake Brellant: 4 goblins(right away), 200 endurance, poison, 200 
+endurance
+
+*******************
+* Well of Demonzi *
+*******************
+
+* Use rope to enter, then torch.
+* 3 of [Bazylrun or Gorgon]
+* Feylong forest on other side. Use flute twice and trade the harp for 
+the horn. Ela and Elomin, king of the elves, talk to you.
+--SE: 200 fatigue, 300 endurance
+
+*******
+* Zax *
+*******
+
+* 3 houses
+    1) Slime Juice Inn food 3, 4 drink, 3 inn
+       --No one road to Feylong
+       --Ropes sold in Zax are the best quality
+       --Consider visiting your homeland.
+       --You'd be invincible there!
+    2) Trader Berza sells rope:97 match:7 silk:75 prihny:40
+       buys gem:64 tobacco:89 tea:74 toys:64
+    3) Temple of Dragos:  fight four fanatics, get a chewba.
+* Roads:
+--E to Zaxime: 300 endurance, poison, 3 goblins, 0
+--NE to Zaxemo: 300 fatigue, poison, 3 goblins, 0, poison
+
+**********
+* Zaxemo *
+**********
+
+* two zorlims
+* Roads:
+--SW to Zax: 300 fatigue, poison, 3 goblins, 0, poison
+--NE to S Metsny: poison, 0, 100 fatigue, 300 endurance, poison, 3 goblins
+
+*****************
+* Zaxime bridge *
+*****************
+
+* one zorlim(450/80, 90 gold)
+* Roads:
+--E to Shimerr: poison, poison, pool??
+--W to Zax: 0, poison, 3 goblins, 0
+
+  10. COMBAT RECOMMENDATIONS
+
+    10-1. GENERAL
+
+  Many monsters get much more powerful when you move to a different land, so 
+there's no exact compendium of them. If you go through certain passages the 
+monsters there will always be the same, but...
+
+1) They don't have the same hit points, even in an ambushing group
+2) They don't do the same damage, so try to take out the one that does the 
+most first
+3) If you're worried about getting killed, remember that if there are 4 
+monsters you will, in an evenly matched fight, lose 4/10 of your hit points 
+before killing the first, then 3/10, then 2/10, then 1/10.
+4) Eat any parzin/purlet or jinn before the fight, not during.
+5) If there are 2 fights and you have 2 parzin/purlets, and monsters have 
+~200 HP, use one combo for each fight. That's because if you have, say, 2 
+sets of 4 goblins, you'll face 6/10 damage from the remainder twice vs. if 
+you used the parzin/purlets at once, you'd face 10/10 and 3/10, a bit more.
+6) Always attack the same monster 'til he goes down.
+7) You can use a Yurpin in the middle of a fight, but just don't expect the 
+main screen to show the increased HP. Your [escape] screen will, though.
+8) Bow and arrow are really a bit better, and you don't need to get your 
+sword skill up high to win. Spells are preferable in passes and you also have 
+to buy a lot of ash bows. So, when you start, use up what you have, but 
+before you leave Deloria you may want to stock up.
+9) If a healer is nearby, don't hesitate to use BUZZAP and then switch to 
+JAZZIP when 2 enemies are left(buzzap=3*jazzip.) Similarly with the level 3 
+spells, Fagatr = 3.3*Parthl, so switch from Parthl when 3 enemies are left.
+10) you should always have your shield up with Ilk-Be once you get the 
+chance. 99 shield even seems to nullify 100+ damage.
+11) Jinns are great in a pinch.
+12) Parzin/Purlet works great for critical combats. The last time you really 
+need them are for the fight with Dzomon. Otherwise they're a convenience to 
+get out of trouble quickly.
+13) Don't feel as though you have to improve your sword skill. I've gotten 
+through with <60.
+14) Be proactive. Heal when you can. If you follow my instructions, money 
+should be no problem.
+15) Critical combats where you throw the sink at enemies include outside the 
+castles and in the passes, Dzomon, and the two fights with HHRRUULLs in the 
+Dark Tower.
+
+  Fleeing monsters is very easy in abandoned towns off the road--you can 
+leave before being attacked if you follow my advice in 10-4. But monsters on 
+travels are impossible to flee from, and monsters in the gaps can be very 
+nasty indeeed. Monsters who fly above and attack at night suck, too.
+
+    10-2. IN THE GAPS
+
+  Here you'll have a bigger puzzle ahead of you. In the Deloria/Begonia gap, 
+you will need to have a bow/arrow with lots of shots or have JAZZIP learned. 
+With the second, you can fire up shots at enemy birds before they get over 
+you and drop to sting you. If you've got heavy armor they shouldn't do any 
+damage, but otherwise they'll be annoying. The main problem is running out of 
+energy. You'll be exhausted after the fight, which knocks even more down. I 
+recommend having 3000+ energy before starting off.
+
+  You'll have to fight trolls, then 3 waves of birds. Basically when they are 
+a body length to the left/right, that's when you cast Jazzip. It seems that 
+more powerful spells don't work any better, and Buzzap is ineffective. You 
+have to aim a bit to hit the bad guys. Sometimes there are awkward pauses and 
+start-ups. But there's nothing too damaging. Still, the gaps are so annoying 
+you'll want to try to have everything you can fixed.
+
+    10-3. NIGHTTIME AMBUSHES
+
+  These are very nasty. You generally get about four waves of birds(dragon 
+birds, barvils, illets,) all of the same number and arrangement. They enter 
+from the right, go to the left edge, and go back. The birds are then 
+recharged. You may get hit even when you're not under a bird, which adds to 
+the annoyance. Bascially it's a lot like the gaps, where you fire only when a 
+bird is near you. Since they are all in a row, you can often fire away once 
+you hit the first one and knock out a few in a row. It's best to fire at guys 
+going left. Then you can clean up when they come back right. Sometimes the 
+whole round stops while the birds are coming back right, which sucks.
+
+  A good way to avoid this is with Ud-Bar when night falls and it says "You 
+are tired." You can't cast it during combat, though.
+
+~-25 for not winning in Begonia
+~-45 for not winning in Deloria
+~-65 for not winning in Sumaria
+
+    10-4. A COOL DOSBOX/EMULATOR CHEAT
+
+  Combat in towns is frequently a hassle. It seems fleeing takes a while, and 
+the actual fights can drain you. But if you have the emulator cranked up to a 
+high enough speed, you can hold down the "F" button. This allows you to try 
+flees continually. At regular speed the computer will only detect you hitting 
+it once. Often you can flee without your opponent attacking, although you may 
+have to try 20 times(i.e. hold the button down a bit.)
+
+  You will want to slow the emulator down to beat monsters in the pass or at 
+nighttime, but otherwise you can move pretty quickly between towns that have, 
+say, lots of mushrooms or good pools on the path back and forth, but maybe 
+they have tough monsters on each end.
+
+  11. TRAVELIN'
+
+  There are some simple tricks to use once you've gotten to level 2. Cast Ud-
+Bar to go everywhere. It may use up some fatigue, but that's really not a big 
+deal, especially with the prospect of dragon birds attacking at night over 
+the longer treks. You should have enough cash by then(stocked up on silk and 
+tea) to win comfortably. And if you don't, you can go back to Deloria and 
+stock up on whatever you want.
+
+  Traveling from one town to another and back isn't really symmetrical until 
+Sumaria, when you'll need to skip anyway.
+
+  In every town, when you leave, a beggar will be there. He always says the 
+same thing and 10 gold should be enough to get him to show you what he wants, 
+except in Sumaria(20.)
+
+  When you leave a town, sometimes there will be a healing pool before any 
+encounters. You can get that pool, maybe even 2, before a goblin fight. Then 
+cast Ud-Bar. But you need to know in what order things appear. You can also 
+cast Ud-Bar at night to avoid risking birds.
+
+  12. WHAT MONKS SAY:
+
+  Monks say something random based on which region they are in. I'm not sure 
+what the chants are for, and some are just small talk, but some are very 
+helpful.
+
+--SSI Forever! [Atabek joined Mindscape after this.]
+--God bless you, my son.
+--I wouldn't recommend the water here! [some poison pools]
+--Prihny completes the potion! [for strength]
+--Thank you, but I'm fasting.
+--You rest better by a fire.
+--Use matches while you rest!
+--Dwarf cuisine is very spicy!
+--I sing in the Zheldar choir.
+--Thieves!  They are everywhere! [you get robbed in stores]
+--Toys are for the kids!
+--Gems in deserts!!
+--Find my brothers in Tol-Bin. [healers there]
+--Are you tired? Rest by a fire!
+--Bargain with the merchants. [10% maybe more]
+--Food is expensive in Begonia! [stock up before continuing]
+--Three is a good number.
+--You need a haircut.
+--Have faith and you shall overcome!
+--Have you eaten your Yurpin today? [bad advice, wait til healing]
+--Remember names of your acquaintances! [for gifts from dwarves/halflings]
+--Looks like it's going to rain.
+--I pray for you, my son.
+--I believe in diplomacy.
+--Zumagins were seen in Tiveron!
+--Zihten!  Great Wizard of Begonia! [he gives great advice]
+--Get strength in Karadum. [witch/Prihny is there but actually Maerdom is 
+more convenient.]
+--Beyond the marshes there is Tar-Im. [need to go here.]
+--Zilfins?  No, they are long gone.
+--WESSEAR DEMILBEN Y.
+--Heal yourself in Tol-Bin.
+--I don't trust Zara. [she can help, but she's not nice.]
+--Three words will do it!
+--No, I've never been to Deloria.
+--I hear of mushroom fields up north! [yes, in the NE corner of Sumaria.]
+--Razag is in central Begonia.
+--Knowing the right people helps!
+--Bogum guards the treasure. [350/150 monster in Metsny]
+--Demion Rocks are very interesting.
+--There is but one way to Graz!
+--You are close to Dark Tower now.
+--Black wind blows from north!
+--Beware of the Mad Goblin! [Who?]
+--Put up your shield at Zaradim! [Ilk-be Helps avoid damage]
+--Beware! Dzomon knows you are coming!
+--Have you been to both sides?
+--Grumm is a holy tree!
+--Zilfins would never tolerate this!
+--Try "SUBMIT" as first!
+--(D)rink the elixir! [Why do we need a CONTROL hint in an RPG? Awkward!]
+--Do you have the amulet?
+--Water dragons can be rather friendly.
+--I pray for Darmag every day. [the monster you give chewba to]
+--The mayor of Hobtown is my friend.
+--Go back! You are too young to die!
+--Don't fail us, O Mighty One!
+--Burn!  O Candle of Zilfin!
+--I have a cousin in Bihun. [Reference to Magic CAndle I think]
+--Have you found the harp yet?
+--GAMISH BIANDELL HA.
+--You are older but are you wiser?
+--Last one is "RING"!
+--Did you get the key? [In Derymin]
+--Candle of Zilfin protects us!
+--A long rope is what you need!
+--Try "THY" as the second!
+--Did you slay the dragon? [Metsny, to get harp]
+--ERDAM BUGARDILV HANE.
+
+WHICH ITEMS ARE GOOD FOR WHAT
+    The format for the list below is:  Letter, name, where to get it, 
+what it's used for
+
+  A. Elvish boots
+    --buy in stores
+    --walk across swamps without losing fatigue(must USE the boots each 
+journey). Note that they can wear out.
+  B. Torch
+    --buy in stores
+    --lets you see in dark areas. If you can't see, you can't explore.
+  C. Match
+    --bought in stores
+    --lets you rest better
+  D. Cloak
+    --bought in Elmo store
+    --keeps you warm in Sharkynn so you can ride the Ankha
+  E. Nukh
+    --win in a temple fight(Derymin)
+    --unlocks prison doors from the inside in dungeons
+  F. Prihny Powder
+    --bought in stores
+    --when you meet a witch, (U)se it and (D)rink the mixture to boost your 
+strength if it's not at maximum(i.e. you just trained in one of the castles.)
+  G. Key
+    --from Trader Ben in Derymin
+    --open Bogum's treasure
+  H. Horn
+    --from elves
+    --blow it at Sharkynn to get a ride from the Ankha
+  I. Rope
+    --from stores
+    --to go down the Well to find the elves
+  J. Seed
+    --Get it from Zara in front of Zaradim's temple.
+    --(U)se it. It grows the tree you cut the staff from behind 
+Zaradim's temple.
+  K. Flute
+    --buy in a store(Safinas)
+    --(U)se it twice around the elves and they will greet you.
+  L. Gem
+    --found in temples after battle. On easier levels you have a few at 
+the start of the game.
+    --sell for profit
+  M. Riddle book
+    --buy in Tar-Im
+    --give to the grumpy halfling in S Shimerr, and you're taken to 
+Hobtown.
+  N. Staff
+    --made from the seed
+    --allows you to cast ZYTROM in the Dark Tower and Castle Graz.
+  O. Harp
+    --in Fulgrash's hoard
+    --give it to the elves and you get the horn
+  P. Toys
+    --from stores
+    --trade for profit
+  Q. Ring
+    --from Sam
+    --allows you to destroy Dragos if you know the word of power
+  R. Silk
+    --from stores
+    --trade for profit
+  S. Tobacco
+    --from stores
+    --trade for profit
+  T. Amulet
+    --at the top of the Dark Tower
+    --ID's you so that Sam gives you the ring
+  U. Pearl
+    --in Faerlot
+    --
+  V. Chewba
+    --won in the more difficult temples after defeating fanatics
+    --need to give four to Darmag to get into Castle Graz.
+  W. Spice
+    --bought in stores
+    --can trade for profit
+  X. Elixir
+    --found in Lake
+    --disguise yourself before Dragos
+  Y. Tea
+    --bought in stores
+    --can trade for profit
+  Z. Cookie
+    --bought in stores
+    --give it to the water dragon
+
+  14. IF YOU MUST CHEAT...
+
+  Hexadecimal editing is rather easy on the PC version. Say you have saved 
+your character as "Biph."  Then you will edit the file Biph.sav. Below is 
+what certain bytes do. Two-byte values have the low byte first. Maximum hit 
+points/fatigue are oddly 9000 and not 9999(the usual.)
+
+  You can teleport around towns if you are good with hex editors and thus 
+avoid all combat nonsense, but Ud-Bar actually works pretty well. This is a 
+good guide for if you get stuck without a Chewba in the last bit.
+
+   00 : length of name
+01-04 : letters in name
+   05 : location(table of locations at the end. Some are special and 
+unnamed.)
+06-07 : day
+   08 : current strength
+   09 : maximum strength
+0a-0b : current HP(low byte, high byte) 2823 = max
+0c-0d : current fatigue(low byte, high byte) 2823 = max
+   0e : sword skill
+   0f : magic skill
+10-11 : gold
+12-13 : food
+14-15 : arrows
+   16 : spell loaded[0=none
+        1=Jazzip 2=Rektar 3=Fagtar 4=Stohle 5=Buzzap 6=Parthl
+        7=Ekbert 8=Ak-Lin 9-Ilk-Be a=Ud-Bar b=Warton c=Zytrom
+(You can cheat on this when your magic level isn't where it needs to be for 
+the spell you want.)
+   17 : armor[0=none, 1=light, 2=medium, 3=heavy]
+   18 : sword[0=none, 1=short sword, 2=pala, 3=slicer, 4=slayer, 
+5=grandsword]
+   19 : bow[type]
+   1a : bows
+1b-1c : Yurpin
+1d-1e : Purlet
+1f-20 : Terpin
+21-22 : Mift
+23-24 : Parzin
+25-26 : Iola
+27-28 : Fuhyim
+29-2a : Jinn
+   2b : Elvish boots
+   2c : Torch
+   2d : Match
+   2e : Cloak
+   2f : Nukh
+   30 : Prihny Powder
+   31 : Key
+   32 : Horn
+   33 : Rope
+   34 : Seed
+   35 : Flute
+   36 : Gem
+   37 : Riddle Book
+   38 : Staff
+   39 : Harp
+   3a : Toy
+   3b : Ring
+   3c : Silk
+   3d : Tobacco
+   3e : Amulet
+   3f : Pearl
+   40 : Chewba
+   41 : Spice
+   42 : Elixir
+   43 : Tea
+   44 : Cookie
+7d-7e : maximum fatigue 2823 = max
+7f-80 : maximum HP 2823 = max
+
+    14-2. LOCATION TABLE
+
+01: Sham        02: Telbiz      03: Ziad        04: Feldor N    05: Finduk      
+06: Perimon     07: Feldor S    08: Tol-Bin     09: Sysvol      0a: Tumriz      
+0b: Ergon       0c: Shaktir     0d: Irmak       0e: Belmonti    0f: Eklun       
+10: Zihten      11: Lutfen      12: Harlosh     13: Hele        14: L Aximon    
+15: H Aximon    16: Durheim     17: Razag       18: Rimline     19: Tash        
+1a: **********  1b: Deyr        1c: Gadar       1d: Gadar       1e: N. Demion   
+1f: The Well    20: S Shimerr   21: Zaradim     22: Metsny Mts  23: L 
+Brellent  
+24: Sharkynn    25: **********  26: Graz        27: Dragos      28: Axitraz     
+29: **********  2a: **********  2b: **********  2c: Shentill    2d: S. Demion   
+2e: Crossroads  2f: Tiveron     30: Bundeir     31: Cullarat    32: E. 
+Tiveron  
+33: Denize      34: Tar-Im      35: Llorrim     36: Faerlot     37: Dark 
+Tower  
+38: Pylin       39: S. Eredrim  3a: N. Eredrim  3b: M. Tiveron  3c: Brahlah     
+3d: Shirril     3e: Karadum     3f: W. Tiveron  40: Byludd      41: Maerdom     
+42: SE Burgol   43: SW Burgol   44: Nedharm     45: Demion      46: Felak 
+Pass  
+47: Zax         48: Zaxime      49: Shimerr     4a: Zaxemo      4b: Safinas     
+4c: E. Ahbap    4d: NE Ahbap    4e: S. Metsny   4f: Treil-Om    50: S 
+Shakamoz  
+51: Metsny Pl   52: U Shakamoz  53: Shakamin    54: N Shakamoz  55: Waylong     
+56: Sara Plain  57: Varanlim    58: Fetren      59: W Darizmag  5a: E 
+Darizmag  
+5b: E Shakamoz  5c: **********  5d: Felak(1)    5e: Felak(2)    5f: Derymin
+60: S Ahbap     61: Elmo        62: Lork        63: N Sara
+
+00-Sham is where you are at the start of the game. You can't go back--"Rowf 
+dares not return so soon." 01-Sham is a duplicate location where you can go 
+back in. So you could say one of these is a sham Sham.
+
+  15. BUGS(?) INCL. PC VS. APPLE
+
+--If you use a Yurpin, it doesn't show during on-the-road combat.
+--You can get stuck in the tower if you don't know the words but have the 
+elixir.
+--The game was created on the Apple originally, and some of the PC data files 
+in the port have a list of porting problems and suggested fixes.
+--The Intersection on the Apple is referred to as the Crossroads in the PC 
+version.
+--N Shakamoz is referred to as E Shakamoz as well.
+--Shimerr/S Shimerr are Shimerr Forest/Shimerr off the Apple.
+--E Darizmag is referred to as the Batiniq Cliff when you are at the fight. 
+There are a lot of these inconsistencies floating around.
+
+END OF FAQ PROPER
+
+================================
+
+  16. VERSIONS
+
+1.4.0:  10/24/2004 sent off completed walkthrough, with dungeons etc. and 
+tips.
+1.3.0:  10/21/2004 sent off pedant's easy strategy to win hard levels
+1.2.0:  10/20/2004 sent off version with additional strategy and stats. Added 
+lore questions.
+1.1.0:  6/14/2001 sent off version with text maps to GameFAQs.com with only 
+monster list left.
+1.0.0:  5/27/2001 sent off more or less complete version to GameFAQs.com
+
+  17. CREDITS
+
+http://www.theunderdogs.org for the easier to analyze than the Apple Rings of 
+Zilfin PC version. Their instruction manual was also very 
+nice, although the one at...
+http://www.dungeony.cz/seznam/ringsofzilfin.htm had *all* the information. 
+Badly formatted. Worse than this FAQ's first version.
+Thanks to the person from Hong Kong whose nice letter helped me take a look 
+at this.
+
+Quest for Clues by Shay Addams is responsible for that anonymous walkthrough 
+floating around the net. Oh, wait, it IS the anonymous walkthrough floating 
+around. Shame on someone or other!  Either way, the walkthrough inspired me 
+to make something a little more polished, and some information was directly 
+useful.
+Restore Page
+
