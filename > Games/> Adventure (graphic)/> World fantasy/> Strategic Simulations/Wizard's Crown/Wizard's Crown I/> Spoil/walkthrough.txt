@@ -1,0 +1,1545 @@
+Wizard's Crown(Apple IIe RPG) FAQ/Walkthrough
+Version 2.1.1
+Copyright 2000-2006 Andrew Schultz schultz.andrew@sbcglobal.net
+
+This walkthrough is copyright 2000-2006 by Andrew Schultz. It is part 
+of my contribution to efforts to preserve classic Apple games. Please 
+do not redistribute for profit without my permission, as this FAQ 
+required an investment of my time.
+
+Wizard's Crown copyright 1984 SSI, Inc.
+
+My page for miscellaneous info. on this and other classic Apple games is at:
+http://www.geocities.com/SoHo/Exhibit/2762/games/games.htm
+To see a full map of the city head to:
+http://members.fortunecity.com/cartographics
+
+These maps should also be on GameFAQs as well, annotated in more detail.
+
+================================
+
+            OUTLINE
+
+  1. INTRODUCTION
+
+  2. CONTROLS
+
+    2-1. GETTING AROUND TOWN
+
+    2-2. GETTING AROUND DUNGEONS
+
+    2-3. LOOTING
+
+    2-4. COMBAT
+
+  3. CREATING A PARTY
+
+    3-1. STARTING OUT
+
+      3-1-1. EARLY EASY MONEY CHEAT
+
+    3-2. WHAT TO IMPROVE, WHEN
+
+      3-2-1. SKILLS
+
+      3-2-2. ITEMS
+
+    3-3. IMPROVING
+
+  4. WALKTHROUGH
+
+    4-1. IN TOWN
+
+      4-1-1. THE INNER SQUARE
+
+    4-2. NORTH OF TOWN
+
+    4-3. THE RUSTY NAIL(THIEVES' GUILD)
+
+    4-4. THE RUINS
+
+      4-4-1. OLD THIEVES' GUILD
+
+        4-4-1-1. LEVEL 1
+
+        4-4-1-2. LEVEL 2
+
+      4-4-2. GOZAROTH'S MANSION
+
+        4-4-2-1. LEVEL 1
+
+        4-4-2-2. LEVEL 2
+
+        4-4-2-3. LEVEL 3
+
+      4-4-3. THE PALACE
+
+        4-4-3-1. LEVEL 1
+
+        4-4-3-2. LEVEL 2
+
+        4-4-3-3. LEVEL 3
+
+        4-4-3-4. LEVEL 4
+
+        4-4-3-5. LEVEL 5
+
+        4-4-3-6. LEVEL 6
+
+    4-5. THE WAY BACK
+
+  5. MONSTER PROPERTIES
+
+  6. ITEMS
+
+  7. GAME SCRIPTS
+
+    7-1. THE OLD MAN IN THE PARK
+
+    7-2. TAVERN TALK
+
+  8. CHEATING
+
+    8-1. DISK IMAGE
+
+    8-2. SAVE STATE
+
+  9. VERSIONS
+
+  10. CREDITS
+
+================================
+
+  1. INTRODUCTION
+
+Wizard's Crown is an early RPG by Strategic Simulations, Inc.(SSI) that 
+really does a good job of having you use a bunch of different attributes for 
+different players in your party of eight. That's the main focus. While 
+there's a good deal of ground to explore, there's not much in the way of 
+dungeons. But you still have 40+ attributes to choose from and the ability to 
+choose multi-class players. The drawback is that the characters will start 
+with fewer skills. This paradigm, along with different weights for different 
+items, foreshadows the AD&D games SSI would later print out, but unlike the 
+future games you can use a "quick combat" option.
+
+As for the object of the game, you must venture into the ruined city south of 
+Arghan and defeat Tarmon, who has terrorized your city with the help of the 
+Wizard's Crown turned to an evil purpose. You'll need to find a few keys, 
+walk through a few mazes and unlock some passwords. Then there's a big 
+gauntlet of fights on the way back. You can continue playing afterwards, 
+resetting dungeons at will for some of the more fun combats. Because there's 
+a sequel, Eternal Dagger, which irons out many of WC's shortcomings, and your 
+characters will need vast improvement for that.
+
+One of the main weaknesses/annoyances of Wizard's Crown was that, like so 
+many early games, you couldn't save except in specific areas. With a six-
+level castle near the end, and the tough puzzles at the top of it, this made 
+for nastiness and the game in retrospect feeling perhaps a bit tougher than 
+it was.
+
+Wizard's Crown has a lot of attention to character detail yet it forgot the 
+town name, and the adventures are usually pretty placid. The ruins are called 
+"Arghan" but we don't find out much else. And in fact, there's a lot of 
+detail you don't need to pay attention to, and this FAQ attempts to establish 
+what you do and what you don't, so that you can get through quickly enough. 
+There should even be a cheats section.
+
+Given how hard it is to save the game I recommend the AppleWin emulator, 
+which features save states, to go with Wizard's Crown, which you can find at 
+fttp://ftp.apple.asimov.net/pub/apple_ii/games/strategy/ssi. (Yes, it's an 
+RPG, but they lumped all the SSI stuff there.) You can use the save states in 
+a dungeon, and in fact it's easier to reset disks too--just "remove" a disk 
+from drive 2 and copy a backup over it in Windows Explorer.
+
+A manual for this game is accessible at http://project64.c64.org/games/m-z, 
+so you can look up the non-critical details there. This FAQ intends to cover 
+ways to get started, move around, improve your characters, and solve the game 
+quickly.
+
+  2. CONTROLS
+
+First, if you don't save frequently then I am afraid your most frequently 
+asked question will be "why god why." Remember to (T)ell the Minstrel of Your 
+Deeds frequently after fights. As you continue in the game you'll start to 
+feel more powerful and it can go to your head even after you forget to save. 
+Morale loss can bog your party down and result in morale loss for YOU.
+
+    2-1. GETTING AROUND TOWN
+
+For moving around, the game uses an odd numpad which, sadly, is not at all 
+like the numpad currently used on Windows machines. It works as follows:
+
+812
+7 3
+654
+
+By the time you get used to it the game will probably be over. Still I always 
+considered 1 as north and worked from there.
+
+You will want to (S)earch when you are over something that doesn't look like 
+streets. The buildings are pretty clearly marked in orange. You can (M)ake 
+camp or inspect characters anywhere.
+
+    2-2. GETTING AROUND DUNGEONS
+
+Dungeons are a bit tougher--Lord knows why they had such a complex system for 
+moving around. You will just want your Thief active(or someone with mage 
+skills, so he can cast unlock) for 99% of the time. He can move around, open 
+doors, and such. (S)pell casting allows you to see better, and you can 
+(E)xamine things or (O)pen chests. Dungeons have the same 1-8 movements as 
+towns but you also have a direction you are facing. It can be changed by 
+flipping the arrows(left=counterclockwise, right=clockwise.)
+
+Fortunately there are ways to make things easier. If you want to search along 
+a south wall/bookcase you can type 25E repeatedly--or 85E if you are going 
+from east to west. You can create similar move combos for a north or west or 
+east walls. Also if you are next to something but not facing it you can back 
+up and return.
+
+One thing you need to consider is that if you have a thief using lockpicks 
+and a combat you know about ahead, have the thief re-ready the weapon.
+
+Diagonal movement tends to leave you facing 45 degrees clockwise of how you 
+moved.
+
+Other dungeon strategies/notes:
+--Even if you mess up, you can reset a dungeon level. In fact, resetting a 
+level with good treasure is a minor cheat.
+--Watch what options appear/vanish while you move around in a dungeon. It can 
+be a clue for what to do. For instance, in an invisible maze you still have 
+directions you can go highlighted.
+--use a sorcerer to open doors and a thief to examine stuff. This gets around 
+futzing with lockpicks.
+--Mapping is not terribly tough. If there is a spot you cannot seem to map, 
+try to walk on(use the 12345678 movement square) or examine the walls around 
+it.
+--When looking for items, you should be aware that many chests, when opened, 
+will leave seemingly useless stuff(moth-eaten clothes)--this is just part of 
+the detail the authors try to add to the game.
+--For dungeons in general I recommend not having any party member following 
+the leader unless you are about to prepare for combat. It's just too 
+cumbersome, and you can flee easily enough in combat. However, changing the 
+leader is often a good idea if your leader is low on power(you need to open 
+stubborn doors somehow!)  Remember that you cannot save the game in dungeons. 
+If playing from the original disk, be sure to exit immediately when you find 
+an important item, because if you die, you'll have to re-set and re-solve the 
+dungeon. However, with emulators you can just save states.
+
+    2-3. LOOTING
+
+Looting is pretty straightforward. You can have a maximum of 2 large 
+items(armor,) 5 large+medium items(armor and weapons) and 10 items all told. 
+Early on you will want to sell whatever you can get. There's a paradox here 
+in that you have to wait until night for a fight, but you have to wait until 
+morning to sell what you win in a fight.
+
+Basically if you find a magic weapon it should replace anything non-magic. 
+Even bad armor is better than a good weapon, even a +1 weapon. And if you 
+find any sort of jewels, take them, so you can sell it. That gets the most 
+points.
+
+You may wish to rest before haggling at the market, because morale loss 
+affects haggling as a skill.
+
+Remember that you can always have one piece of armor, and though scale 
+protects more it is chain that is most valuable. Don't worry about what exact 
+item values might be, but good swords and heavy crossbows tend to fetch the 
+most of non-magic items. Still, the thing that's most valuable is armor. 
+You'll start out just finding Cuirboilli but Veteran Scouts/Guards have Plate 
+Mail and you'll also turn up random magic armor later too.
+
+The main thing to remember about looting is that you shouldn't worry about 
+perfect optimization; given the character-building part is about taking 3-4 
+fights and returning, pretty much take what's there and return. Some days 
+you'll get goblins with Cuirboilli, other days you'll get brigands and 
+scouts. Just sell everything off and go back. Also don't neglect morale loss 
+and its effect on how much you make. It'll also affect what you can search 
+for.
+
+Some small items aren't worth taking but you might as well load up on 
+lockpicks and cloaks and, if you can find them, magic daggers. Of course 
+jewels are small too! Stuff like shields isn't worth picking up unless it's 
+the last fight before you leave.
+
+    2-4. COMBAT
+
+The first thing to remember about combat is that magic is set by default. 
+"Magic Yes" means your party is set to use magic. It does not mean that if 
+you push M, you will toggle to magic. This got me confused for a while.
+
+Most of the time quick combat should work OK. The one thing to note in big-
+picture quick combat is that if you are trying to get back to the city and 
+are low on karma, either 1)locate a temple(use zigzagging as above) or 2) 
+make sure you get into very easy fights where you don't use karma. Sometimes 
+it might not be worth saving after WINNING a fight. Fights tend to thin out 
+the more you win them in an area. But if you get stuck in the ruins after 
+dark, then there will be a lot of fights.
+
+For quick combat in dungeons, you'll want to make sure that, before a fight, 
+your party is pretty close together. Otherwise your lead guy will get 
+ambushed easily and it will be 7-on-the-rest instead of 8. This is especially 
+useful when you have a bunch of enemies who can cast spells, or if your party 
+is waiting behind a bottleneck. It's one of the many differences between easy 
+and hard fights. This happens even in quick combat; the computer sort of 
+plays it "in its head."
+
+In quick or tactical combat, the computer really doesn't seem to be very 
+smart or know who to hit. If you are having trouble with monsters then quick 
+combat should take care of them. You will have the benefit of knowing which 
+monsters are vulnerable to what(especially useful for Ward Pact Demons,) and 
+you can focus there. You'll also have more autonomy over spells and can pick 
+off enemy spellcasters more apparently; quick combat is just melee.
+
+If you are fighting in a dungeon then you can position a party strategically 
+before opening a door you know has monsters behind it--even beyond lumping 
+other people together. Have your spellcasters and bowmen in the back; this is 
+pretty self explanatory, but it's worth refreshing.
+
+Note that you can change weapons in battle, which is handy if your thief just 
+opened a door to an encounter with lockpicks he'd readied, and for the final 
+fight with Tarmon it's critical. While it is definitely possible to beat 
+Tarmon just readying sharp weapons before quick combat, tactical/detailed 
+combat allows you to switch from them.
+
+    2-5. HEALING AFTER COMBAT
+
+One thing you should check for is if you have anyone poisoned. If you try to 
+leave, that person may be wiped out after a warning--you'll get the warning 
+and he'll be gone, that is. But generally you can avoid healing light wounds 
+under 1/4 your life force or so. If you've got serious wounds, cure them 
+right away, and that goes double for serious bleeding. Don't restore life 
+force unless you're below 3/4 of your regular total. It's important to keep 
+healthy, but localized perfectionism may come back to trap you later.
+
+Note that if you do pray mistakenly, you might as well heal someone--a Raise 
+Dead, for instance, will cure all life force. The only thing it doesn't seem 
+to do is cure poison! If you were poisoned and killed, you're poisoned on 
+resurrection.
+
+normal bleeding: 4
+normal injuries: 8
+serious bleeding: 15
+serious injuries: 20
+restore life force: 30
+raise dead: 45
+
+Also you'll want to have high first aid early because mistreated normal 
+injuries turn serious, requiring more karma. But if you've got 200 First Aid 
+the amount you save in karma will be worth it.
+
+  3. CREATING A PARTY
+
+    3-1. STARTING OUT
+
+I recommend looting the current party and setting up a group that works as 
+follows:
+
+3 Fighter-mages(16 intelligence) use sword, spear, mace
+3 Fighter-clerics(12) use sword, spear, mace
+1 Ranger(5) uses spear
+1 Fighter-thief(8) uses sword
+
+I'm not looking at axes or flails because they take too much to build up. I 
+also found a lot more magic swords/maces/spears early on compared to 
+flails/axes, in part probably because there's more variety for swords et al. 
+You should also consider giving someone close combat skills if you find a 
+good dagger. It's best to have a 3-3-2 combination of bash-cut-thrust(2 can 
+be any of these) and if you can improve skill easily, so much the better. 
+Most of your damage will be from the magic side of your weapons by the time 
+you finish anyway, so paying more to get slightly more physical damage just 
+isn't worth it.
+
+Give everyone 16 strength(for plate mail) and spend the rest on dexterity. I 
+never had a problem going through the game with 25 life and the main way to 
+winning is being able to strike early.
+
+You may wish to drop a fighter-mage for a fighter, or you may wish to change 
+to a fighter-priest. The big problem with fighter-mages is that they have no 
+dexterity to start. While a fighter-thief-mage could do it all in dungeons it 
+wouldn't be very useful early. But you might be able to use just a plain 
+fighter.
+
+This won't be great for your strength early on, but you can improve everyone 
+quickly. I suggest giving everyone 50 life and 16 strength and giving the 
+rest to dexterity. Note that once you've gotten your character classes there 
+is no need to improve intelligence further. Dexterity is the best to improve 
+because it makes you attack quicker. Wizard's Crown frequently allows enemies 
+critical hits for either side for dubious reasons in combat, and this takes 
+advantage of things.
+
+Remember to take the items off the original players. In fact, you could 
+create gofer characters early on with 16 strength--you could take their 
+armor, etc., and sell it for a while. Just be sure that you get rid of 
+people's gold before you ditch them! It's maybe not a foolproof way to do 
+things, and your main expense down the road will be 50 GP to build up magic 
+items, so you need several trips to get started, but it is not a bad idea to 
+get started.
+
+      3-1-1. EARLY EASY MONEY CHEAT
+
+About taking items off original players--it's also possible to make lots of 
+money off them early. It won't do you much good early on, but you can save 
+the cash for when you start getting magic weapons and armor, and that will 
+help you.
+
+So here's what to do:
+
+1. create a thief. Give him all the experience you can. Don't worry about 
+anything else.
+2. use the experience for haggling.
+3. create a bunch of guys and have them fill up all slots in the inn with 
+brigandine and greatswords. Yes...later on you can just reach in and grab 
+some when you need a bit of extra cash for that +1 boost.
+4. sell off any items your other players have remaining. You'll get a good 
+deal, since the thief will have 120 experience. Assuming he starts at 10, 
+3*(90/4.5)=60 experience will get him to 100. Another 60 should get him to 
+20*(4+1/2)=50. So you will start with 150 haggling, which is pretty good. You 
+will want to create fighters with greatswords. Those get the most money, 
+along with brigandine(shields+1-handed weapons don't really match up.) Each 
+player gets 2000 gold for what he sells, so if you work about 15 times(not 
+too hard) you will get a whopping 210 gold. That's really a lot, because it 
+can improve +1 plate to +5, or a magic weapon to storm.
+5. Yeah, the party you cheat with stinks, so be sure to save after each run, 
+and be sure your frontloader has all the money before removing the other 
+guys. Remember the limit on gold(250) too, so you can only do so much of 
+this.
+
+    3-2. WHAT TO IMPROVE, WHEN
+
+In the long term you can improve anything, but I wrote this FAQ so that 
+winning the game wouldn't be long-term. So what's most effective soonest?
+
+      3-2-1. SKILLS
+
+Some skills, only one person needs to improve. Others, you all will. Some are 
+just useless. Also it's too hard to be a jack-of-all-trades so don't try to 
+wrench your characters into that. Also, don't worry if you're not improving 
+fast enough. The game has no time limits. Remember too that morale loss 
+affects all but karma, turn undead, luck and spell power.
+
+Skills(besides karma--1XP/point and power--3XP/point) improve as follows: for 
+1-100, you get a random boost of 1-8. 101-150, 1-4. 151-200, 1-2. 201-250, 1. 
+Beware that if you improve something at 250, the computer will suck the 
+experience will disappear. The following skills need 3 XP for improvement:
+
+Close combat, mace, crossbow, combat awareness
+Swimming, hunt, first aid, haggling, evaluate magic
+
+4 XP:
+sword, spear, shield, scan, track, picklock, treat poison, treat disease, 
+turn undead, read ancient
+
+5 XP: bow, stealth, disarm trap, alchemy
+
+6 XP: axe, flail, luck, cast spell
+
+WEAPON SKILLS, COMBAT AWARENESS, SCAN
+I generally try to go with 2-handed weapons for maximum damage. So shield 
+isn't valuable. I also don't care about intangible skills. I doubt they 
+programmed too much into the game about using them in quick combat anyway. My 
+recommendation is to increase your initial weapon's skill to 100. Wait until 
+you start getting "real" magic items(not +1/+5 but magic or doom) and then 
+distribute items according to who gets them. If you get a very good magic 
+item it's worthwhile to give up on any character improvement to switch over. 
+You can get back up to 100 easily enough.)
+
+SHIELD
+I didn't really worry about this. Even if you can use the shield for offense 
+as well as defense, they break against axes, so you can get a nice fancy 
+shield and it breaks and why bother?
+
+SWIMMING
+Kind of useful in one dungeon if everybody is moving around, which won't be 
+the case if you want to stay sane.
+
+STEALTH
+You should be able to beat up every enemy, so no need to hide.
+
+HUNT
+Not used here. See Eternal Dagger.
+
+TRACK
+Also not used here.
+
+FIRST AID
+Very useful, but only your ranger, who probably has nothing else to improve, 
+really needs it. He needs bandages, which appear randomly after fights and 
+get used up. You can't buy them at an armory. Just pick them up when you can.
+
+SEARCH
+Good search helps you find secret doors easier. It's hard to tell what a good 
+minimum is to get through the game. But a high search apparently lets you 
+find more loot after beating monsters. Very highly recommended, after 
+haggling.
+
+DISARM TRAP
+You should be able to withstand most traps, so don't worry about this. Since 
+"traps" is barely plural in this game, anyway.
+
+PICKLOCK
+Somewhat useful early so you don't have to be casting spells. But eventually 
+you'll have great spellcasters and this won't matter.
+
+HAGGLE
+Very very very useful. Have your thief maximize this before all others.
+
+TREAT POISON
+Critical because characters can die and get rubbed out by its effects, even 
+after an otherwise easy win. Improve this as quickly as you can. In fact it's 
+worth improving for one of your priests at the temporary expense of karma 
+until it gets to 100! 100 should be enough to cure most anything at first, 
+but morale loss will drag it down. This is the ultimate insurance policy.
+
+TREAT DISEASE
+Diseased players don't regain morale with rest. This isn't used at all in WC.
+
+TURN UNDEAD
+Very useful for your clerics, but not the main stat.
+
+ALCHEMY
+I found this useless.
+
+LUCK
+Prevents magic damage, so I think it's worth it. Note that it and turn undead 
+are bounded in practice by karma.
+
+READ ANCIENT
+One person needs this skill, and not much of it(to 100?)
+
+EVALUATE MAGIC
+The better this is for one player, the more magic items you will 
+find/understand. Therefore it's in your interest to get someone to max this 
+out, but only one person.
+
+CAST SPELL
+Affects if you cast a spell successfully. Very important for mages.
+
+One character(fighter-thief-spells) will want to improve haggling 
+immediately. You always get the benefit of the best haggler in your party, 
+and the gold you get is worth it. Don't worry about anything else until your 
+thief gets rather good at it. Because once you have haggling, you'll have to 
+work a lot less to make money by looting and such. It'll take a while to get 
+into dungeons, so stuff like search and picklock, while important, can wait.
+
+Eventually you'll want to improve your life force once the dexterity gets off 
+the charts, but for now it's a good idea to concentrate on the fighter-
+clerics building up karma.
+
+Here's a chart of what to improve:
+
+F-S 1: evaluate magic to 200, then see F-S 2/3
+F-S 2/3: weapon to 100, cast spell to 100, power to 100
+   Then go to 200, then 250
+F-P 1: cure poison to 100, then see F-P 2/3
+F-P 2/3: karma to 100, weapon to 100, karma to 250,
+   Turn Undead to 150, Luck to 150, then 200's, then weapon to 250
+   Don't put undead/luck to 250 as your karma won't stay there for long.
+R: weapon to 100, first aid to 100, then 150 for both, 200, 250
+   Improve dexterity after that, then life when dexterity hits 30
+F-T: haggle to 200, search to 150, haggle to 250, search to 250
+   Whenever you get a magic item, get that to 100. With thief skills
+   maximized, improve weapon skills.
+
+When you've got nothing left to do, improve dexterity.
+
+      3-2-2. ITEMS
+
+There are several places where you can improve items for 50 gold--in the NE 
+of the inside wall and beyond the ruins at the bottom(password: "breakfast.") 
+That figure sounds like a lot, but if you poke around in the ruins you can 
+find what you need. Magic bonuses range from 1 to 5. While you can have many 
+items with skill bonuses, we are only focusing on items you can improve here. 
+The most important items to improve are weapons.
+
+Basically there are three types of magic weapons. If an item doesn't start 
+out as magical, you can't make it. The first type is the straight-plus 
+weapon. For each extra plus, you get an extra 3 points of magic damage. But 
+it pales in comparison to the other types.
+
+The second type is the elemental. The progression here is:
+Magic     = 10 magic damage
+Frost     = 20
+Flaming   = 30
+Lightning = 40
+Storm     = 50
+
+Then there are life drain items.
+Dark  = 12
+Doom  = 25
+Soul  = 38
+Demon = 50
+Death = 60
+
+Obviously the life drain items are a bit better bargain, but whatever you can 
+find, improve. It's worthwhile enough to get an item that doesn't do the most 
+physical damage, either. You can't control when you find magic items. Just 
+take what you can get, and if something better comes along later, accept the 
+luck of the draw.
+
+Protection is CUMULATIVE(unlike Eternal Dagger,) so if you have nothing else 
+to spend your gold on, start improving your rings. Then stuff like armor--it 
+doesn't strictly matter which goes first, but if you wait you're more likely 
+to find magic plate mail, which is the best. You may occasionally find a rare 
+Dwarven, Elven or Reenforcing item. These are always good and equate to 
+something roughly +4.
+
+Note there's a small benefit to improving +3/+4 to +4/+5 over +1/+2 to +2/+3. 
+Also I find that I like to improve my very best items as I'm much more likely 
+to find a lower-charged item which could replace what I improved anyway. I 
+generally allot 2 small spots for my items--any more and it gets in the way 
+of treasure.
+
+Protection by type
+          B  C  T PM  M 
+Wizard's 10 10 10 10 10
+      +1  2  2  2  2  1
+      +2  4  4  4  4  2
+      +3  6  6  6  6  3
+      +4  8  8  8  8  5
+      +5 10 10 10 10  7
+Dwarven   5 20  5  5  3
+Elven     5  5 20  5  3
+Reenforc 20  5  5  5  3
+
+Note that if you can't find magic plate mail, magic scale and chain will do. 
+There's not much difference at the +5 level. Don't spend too much time 
+waiting for the perfect items; in fact if you find +5 chain then you will 
+probably just want to have someone wear that and improve other items rather 
+than sell that and wait for +5 plate.
+
+I find +1 jars to be better protection than shields, if you wind up finding 
+1-handed weapons early on, and you'll probably find a random +3 one opr 
+dwarven/elven/reenforcing eventually. But don't waste time improving it and 
+don't wait for 1-handed weapons at the expense of 2-handed. Take whatever 
+comes.
+
+I would like to note that Lordbub mentioned in a topic that +5 stuff is 
+better than a +5 shield. A magic item defends you from 10 bash and other 
+stuff. A shield just defends vs bash.
+
+    3-3. IMPROVING
+
+There are many ways to get better in Wizard's Crown for the two goals to 
+achieve: great stats and great items. You'll find potentially great items 
+throughout the game. Great stats come with the territory.
+
+At first you won't be able to go into the ruins much and you'll need to beat 
+up folks in-town. Once town is cleared out there are slim pickings. You can 
+run the road north of the town and continually sell the goodies you find. But 
+you may have to wait for your first break--a magic weapon. It'll probably 
+take a while, by which time you can make it a Death or Storm weapon off the 
+bat. Try to give it to a high-dexterity guy. Then protect him as much as 
+possible. Whatever magic necklaces, armor, etc., you have, throw it on him. 
+Let your fighter-sorcerers languish until everyone else has got something.
+
+Remember that you can pick up scale/chain armor in the ruins as well. You 
+start with brigantine and finding these is cheaper than getting plate. In 
+fact since plate costs a bit of money you may never want to buy it from the 
+armory. +1 scale is better than plate anyway, and something like that will 
+eventually turn up. Don't waste the money.
+
+Meanwhile your priests will be improving their turn undead, etc. This makes 
+many parts of the ruins easier; you can beat up undeads pretty quickly. Also, 
+once you get a few magic items you can afford to stay out at night in the top 
+parts. You'll mostly fight wolves and large spiders in the grass, but if you 
+keep to the roads you can beat up some brigands for nice treasure. The 
+pickings aren't great, though. If you are really lost for what to do you can 
+reset the Rusty Nail a few times, but that will probably get old. You can 
+also sell the Emerald Key for a quick boost for an item, but be sure to have 
+rope handy.
+
+Eventually you'll need to go into the ruins. The rule of thumb here is: win 3 
+fights, then retreat--this gives you an added 10-experience bonus when you 
+get back to the inn, and it prevents you from having to leave behind too much 
+good treasure. Learn who's tough and who's not. Enemies generally come in 
+recognizable lumps. Use magic whenever you need to and avoid it on weaker 
+opponents. Watch your morale loss; when you get below 30(for starters) you 
+want to go to the taverns. Make sure your money is spread around--10 copper 
+cures one morale loss point--and then if you want to get back to playing 
+right away, rest in the inn.
+
+Often it will be immediately profitable just to visit a tavern before selling 
+stuff off, because your haggling is affected by morale loss. Also, there's no 
+reason to delay doing stuff. While I've won the game in 100 days(most of that 
+due to improving items at the magic user's) there's no limit, and really 
+trying to save a few game-days will lose you a few real-life-hours.
+
+
+Note that you may want to have fine/sharp weapons at the inn for the final 
+fight with Tarmon. When you find one that is particularly good, don't sell 
+it. Of course, you'll want to make sure there is one item for each of your 
+players depending on his weapon skill. Remember that you'll find a very sharp 
+spear at Tarmon's, and
+
+fine<very fine<sharp<very sharp
+
+Also these items can give you extra skills or even cast spells, and they are 
+OK to hit Tarmon with, too.
+
+Once you get pretty good(i.e. able to beat ogres,) head SW in the ruins near 
+the temple. You can actually wait 'til it's dark or go in the temple until 
+it's dark. Then run around. The grassy areas hide undeads, who leave behind 
+good treasure. You'll pick up magic items quickly. Praying at the temples 
+gets you back to 1/2 maximum karma. Eventually you'll have had it, and fights 
+that should be easy will give you trouble--it's tough to know when in the 
+night it is, but you may need to rest up in the temple a bit for it to be 
+day. Then go back NE to the town and sell everything you won.
+
+Later on you can do this with temples further down, but even when I was 
+pretty good I used this fishing hole all the time. Speaking of fishing holes 
+there are a lot of other good places to look when you're good enough. You may 
+get dud fights everywhere, but trolls and dragons SE/S give great treasure, 
+and gargoyles below Gozaroth's are great too. You get brigands and scouts in 
+the east grass by the ruins, but veteran adventurers and guards to the south 
+are noxious. The grass on the west side affords some tough fights, too. If 
+you're really good I bet you can beat up dragons during the dark.
+
+Of course there are monsters to avoid. Any area with golems should be 
+avoided. SE/S has some grassy areas with Gnarled Trees which are tough and 
+give litle treasure. What's worse, they shred your morale because the fight 
+takes so long.
+
+But of course you can just go explore further randomly once one place starts 
+losing enemies and you should do OK. 3 fights and back and you'll build up 
+experience quickly enough. Don't worry too much about just missing out on 
+improving an item(i.e. you have 43 gold.) It may seem as though your party's 
+improvement is flatlining for a while, but once you go to a tavern you'll 
+find they're much improved the next time you go out, with the effects of your 
+latest improvements.
+
+Always remember, too, to go through every looting you can. And remember that 
+when your weapon skills get to 200+ you can even risk 100 morale loss--at 
+least in the first sector at nighttime--to improve. I've found a lot of good 
+stuff there, and you don't have to wait for agreeable fights. There's simply 
+no reason to go deep into the ruins until you want to see if you're good 
+enough. Plus, when you're very good, you won't lose morale at the easy fights 
+with the undead--and with a 250 search, jewels frequently turn up for you.
+
+The first items to improve are weapons since they can inflict whopping damage 
+at their best. For armor you may want to wait and use whatever's magic for a 
+while. I'm of the opinion +5 leather is better than +1 plate because it gives 
+more protection overall and you can just use an extra protective cloak or 
+ring or whatever. The loss in natural bash/cut/thrust protection is 
+negligible compared to the magic bonus you get and the time you save not 
+having to improve the plate.
+
+Anyway, you should also improve any +1 jars or whatever that you find once 
+you have a strong magic 1-handed weapon. I think I already mentioned that you 
+should take 1-handed or 2-handed weapons as they come, but I find shields 
+really useless. For the tougher fights you need magic protection. And of 
+course you want to protect your fastest guys, and guys with the best weapons, 
+first. But once you get a new item, let the wealth trickle down.
+
+Dwarven/Elven/Reenforcing items are always worth keeping and using as they 
+are roughly +4.
+
+To approach Tarmon's Castle you'll probably want Storm/Death weapons for 
+everyone, +5 of your armor, and a +5 accessory--Dwarven etc. can substitute 
+for this. You can also have accessories with a combined +5 total.
+
+One other very lucrative place to look(thanks to Popcorn Demon in the 
+Wizard's Crown/Apple topic) is the 1-square green patch in the center-left 
+sector. White Rabbits give a lot of treasure, and they're only on that 
+square, but they're rather tough! Maybe you can fight them at night.
+
+Also, if you are having trouble with golems in certain fights, you can get a 
+few golem staffs by resetting Gozaroth's and just bash away.
+
+  4. WALKTHROUGH
+
+See "3-3. IMPROVING" for ways to get better if you find one area too tough. 
+You may have to go back to it several times through the course of the game.
+
+    4-1. IN TOWN
+
+The town isn't very big--about 20x20 on a grid with the rest of the 30x30 
+being grassland beyond the borders. Gates lock at sundown and open at dawn. 
+Thugs roam. You can't see monsters--they pop up randomly. Save early after 
+every fight. But first, make sure everyone's readied everything. You'll 
+probably just want to run around town for a while, although you can run 
+quicky outside and back for fun. Remember to SEARCH when you seem to come 
+across an interesting place. Otherwise, you won't be able to enter any 
+buildings. Note also when your location description changes(i.e. "City" to 
+"Poor area" or "Marketplace" it is a good idea to search. Note that staying 
+at a tavern decreases your morale. In the west end there'll be a bunch of 
+thugs accosting a girl. Fight them and she'll tell you about her father in 
+the NE of the fields north of the town. He'll have a nice reward for you. 
+It's a +2 broadsword, and you may have to save before exiting the town, but 
+you're likely not to get attacked. Accept his gift, and you've suddenly got 
+the ability to do magic damage. Plus, if you find a +1 bottle or something, 
+your player can ready that for extra protection.
+
+Fights are plentiful at night, and there's always a temple nearby where you 
+can pray and restore karma to heal everyone. Still as you are developing you 
+will want to improve your priests' karma until they can all raise the 
+dead(they'll get killed too!) though you'll need one to learn cure poison as 
+well. Your thief's haggling will rise. Then you can start really chipping 
+away.
+
+You can probably clear the town your first night if you start with dexterous 
+players. The trick is just to spend whatever experience you can on karma on 
+returning to the inn after each fight and re-visiting the temples. Just keep 
+running around in a square. You really don't have that much else to do. You 
+may become overloaded with items to sell, but that's ok. In the morning if 
+you visit the inner circle you should get congratulations and two gold pieces 
+per player. This is a nice boost.
+
+The marketplace is the big white square in the north. Look around it. Search 
+anywhere and you can sell items.
+
+      4-1-1. THE INNER SQUARE
+
+You can only visit this in the daytime. You can buy from the armory in the 
+inner circle--it's the SW building. Then east is the money changer--you'll be 
+visiting frequently. That big 2x2 building is training--which seems cool, and 
+it's a way to spend your money, but I prefer to build up experience and get 
+more money I can spend on items. You can improve up to 100, and the formula 
+is (points to improve) * (current skill level) gets you another point nd 
+takes an hour.
+
+There's a park in the SE where an old man tells stories(see the end of the 
+guide.) In the NE corner is an unmarked magic shop where, for 50 gold, you 
+can get an item enchanted. It'll be handy later. Note you may want to visit 
+the money changer if you have the equivalent of 50 gold, but not quite 50 
+gold. You may have to camp, pool your money to someone, and have them 
+exchange. The money changer is also handy because if you have more than 255 
+gold pieces for any one person, you only replace smaller coins with higher 
+value ones. So it saves you cash in the long run. Remember:
+
+Copper, Silver, Electrum, Gold = 1, 10, 100, 1000
+
+You can also buy weapons from the armory(on the west) although that is a bit 
+useless. It does however tell you which items are best to loot. You can 
+overhear gossip in the market area as well in the center(orange dots in 
+white,) but there's nothing terribly consequential there.
+
+    4-2. NORTH OF TOWN
+
+There's not much here that's really worthwhile. Don't attack the merchants on 
+the road as you'll get burned on prices back in town. In the NE corner is a 
+man who will give you a +2 Broadsword if you rescued his daughter. You won't 
+use it forever, but it's a great start. Sadly many of the combats here aren't 
+treasure-intensive but they can build you up some more. If it gets to be 
+evening, don't get shut out unless you're really looking for experience and 
+are pretty good, but not good enough for that next part of the ruins. There's 
+no temple where you can pass the time to get back in. The tavern gives good 
+advice, but save before entering it. Because you will be stuck there 
+overnight. It's possible to just search around a bunch. The NW area has an 
+alchemist's, but that's for stuff you use in tactical combat.
+
+    4-3. THE RUSTY NAIL(THIEVES' GUILD)
+
+This is in the middle of the poor area of the city, on the east side. It'll 
+look like a tavern, and the game will ask "Do you want to enter the Rusty 
+Nail?" There's really not a lot to do here although you can buy some magic 
+stuff and even visit the master thief. At first, you'll want to face him 
+alone. Set one party member to active and have the rest be independent. He'll 
+tell you where the old thieves' guild is(14 east of the entry to the ruins. 
+It's marked distinctively--looks like the thieves' guild--in case you 
+forget.)
+
+The way to the master is to examine the sole pickle barrel. Only bring one 
+player, your thief--otherwise he will attack. Later on you may wish to beat 
+him in a fight. That will get you a lot of treasure. You'll probably want to 
+wait until you've cleared the city. But once you do, you can reset the 
+dungeon to your heart's content.
+
+If you try to search for the treasure with the master still around, he'll 
+attack you, but it should be pretty clear where it is. Search the top of the 
+bookcase in the room behind the barrel, then search 4W of the stairs up(which 
+lead back to the surface too.) The chest west of the master has a lot of 
+silver, and the one behind the secret doors has a cloak useful for stealth, 
+and you can sell it for gold, too.
+
+For fun you can talk to the patrons of the Rusty Nail. You can also fight 
+them before opening any doors, and you can fight the master and his two 
+assassins later. You can fight these groups together if you wish, but if your 
+party is too disjointed (i.e. you had one guy go on a solo trip and crowded 
+everyone else into the starting corner) then you will really suffer. You can 
+start a fight by stepping on a table or pushing "F" while facing someone.
+
+You can keep resetting to get treasure here.
+
+    4-4. THE RUINS
+
+The ruins consist of six blocks of 30x30 areas. When you get to the edge of 
+one you can't see what's below there. The wizard's spell stops you from going 
+any further. Also, many buildings are dilapidated and offer nothing. Here's 
+what each division holds:
+
+Up-left: reentry to town in NE, temple in SW
+Up-right: old thieves' guild in NW, temple in SW
+Center-left: Gozaroth in the east
+Center-right: nothing
+Down-left: temple in center and portal("breakfast") to magic shops below. 
+Going around the wall leads to some very nasty monsters indeed.
+Down-right: Tarmon's inside a big structure. You need the emerald key and the 
+password.
+
+Generally, the farther south you go in the ruins, the tougher combats are. 
+Especially tough are the combats in the far south grassy area--excellent 
+places to build up a party for the final combat, which is in the SE. You can 
+also work down the right side. The game seems to know when you've cleared an 
+area, too. Temples are scattered around. The word "SHALPA" will allow you to 
+enter and restore karma/rest, but only to half of your maximum karma. And 
+only the inn will restore magic power.
+
+Still you'll find pockets with good fights, and at night you can really whip 
+up on enemies.
+
+      4-4-1. OLD THIEVES' GUILD
+
+Bring along 100' of rope to get here. If you don't have it, get in random 
+fights until you do find it. This is not a very tough dungeon, and there's 
+not a lot to do. But you can still go through the paces. You just need 
+someone with decent swimming--it should be enough to make sure nobody's lost 
+any morale.
+
+        4-4-1-1. LEVEL 1
+
+There is nothing special on the first level apart from the well you need to 
+descend to get to the second. At the top, examine the fireplace to the south. 
+When prompted if you want to use 50' of rope, say yes. You may have a fight 
+with zombies along the way.
+
+        4-4-1-2. LEVEL 2
+
+On the second level there are important clues and a very important item. The 
+entrance to the prison is in the NW. Following east in the third cell, 
+there's a clue, and in the fifth, there's an emerald key, which is critical 
+for getting certain places. You also find the location of Gozaroth's Mansion. 
+There's some assorted treasure as well.
+
+The southwest has a couple of secret doors. 3E of the desk, you find 
+something, then 1N1W of the NE corner is another secret door. The treasure's 
+not much(cuirboilli) but the whole process should reenforce that you need to 
+be aggressive about areas you haven't looked at yet--just search everywhere 
+around them.
+
+To get out of this mess, note the way up is back where you started. There's a 
+river heading into a wall and 1W2N of that are stairs up. "Next" to the 
+appropriate player and step on that square, and everyone will climb.
+
+Don't let the emerald key go. It unlocks several places. While you can sell 
+it for a nice amount of money, it's more hassle to get it back than a 
+fight(which can net 10 gold.)
+
+      4-4-2. GOZAROTH'S MANSION
+
+Gozaroth's is in the west central sector of the ruins, due south of the gate 
+to the city. Be sure to have the emerald key or you won't be able to get 
+anywhere. You'll see an unusually tidy 5x5 block with a wall completely 
+intact--that's it. Gozaroth's is not particularly combat-intensive and your 
+object is twofold: get the golem staff and find the password from Gozaroth. 
+There's some nice side treasure too, though.
+
+        4-4-2-1. LEVEL 1
+
+Have your leader ready the emerald key. Go straight east. South of the stairs 
+is a room with two pickle barrels. The north one holds the first third of the 
+staff. There's not much else here but if you search a fireplace along the 
+south wall you'll fight a large spider.
+
+        4-4-2-2. LEVEL 2
+
+"Don't let maids clean up the school room!"  The school room is in the north 
+center. Search the fireplace there for the second part of the golem staff. To 
+the west of it is a room with vampires. West of the center you have a bunch 
+of undead fighters. Also you overhear a clue that the master's cloak is 
+covered with acid. There's not much other treasure, but there are some easy 
+enough fights. The stairs up are behind a door in the NW center. You may have 
+to search for it?? and it is tough to lockpick.
+
+        4-4-2-3. LEVEL 3
+
+Search the chest full of sticks(the bottom one) two times to find the third 
+part of the staff--with all three parts you can form the Golem Staff. You 
+don't have to have them all in one place. A cloak you find is a trap as per 
+the clue on level 2, so don't take it the first time, then take it. Gozaroth 
+is waiting in the southwest. Release him from his bonds, and he tells you the 
+Ward Word is ROBIN and also tells you about the Ward Pact Demons(susceptible 
+to only one of BASH, CUT and THRUST damage--determined at random)  Ward Pact 
+Demons are found on the first level of the castle and in the extreme SE.
+
+      4-4-3. THE PALACE
+
+The palace is in the southeast section of the ruins. Gozaroth gave you a 
+word("ROBIN") to use at the palace gates. You'll need to use it in 
+conjunction with the key, which you may need to ready. It's pretty random 
+when you exit the palace--you have to run back to the city--but you'll have a 
+powerful extra item to help you cope with the enemies, and your morale loss 
+will be at zero. Besides, you should probably already have dealt with enemies 
+at night.
+
+Be sure to bring 150' of rope, or you'll have to backtrack when you get to 
+level 6. You may have to backtrack anyway, to rest and pray. It's possible to 
+use a scorched-earth policy here of just going into the castle, losing a 
+fight, and repeating(fights don't reappear.) But I'll assume you can get it 
+all in one go, skipping over the resting parts.
+
+You may want to divide getting through this into two parts if you can't 
+figure out the puzzle on level 4, but thankfully there's a nice stream on 
+level 6 that wipes out all your lost morale.
+
+If you've got +5 armor, a +5 accessory and +5 other-stuff, your characters 
+should be built up well enough to make this doable. Also, there are fights 
+here that may be tricky. You'll want to place your party well before starting 
+off, or you may wind up having to run down a tunnel for them to get 
+slaughtered.
+
+        4-4-3-1. LEVEL 1
+
+Search the room east of entry to find a map 1U1R from the NW. I'd take the 
+stairs in the bottom. The room to the right has Ward Pact Demons, a good 
+fight, but you can skip it if you're just trying to be all business. In the 
+SE you have a salamander who tells you about the secret doors on level 2 if 
+you let him go. But fighting is good for experience too.
+
+        4-4-3-2. LEVEL 2
+
+This is straightforward enough, but actually there's nothing in the NW even 
+though it seems prudent mappers might note there's the space for a secret 
+area there. Head up through the door. To the left you have rooms with some 
+nice treasure, but to the right you see the other stairs(it'd have been 
+crowded to walk up that way.) By the east stairs you have demons in the set 
+of roms to the south and some to the north as well. But the key room is to 
+the west after you go north. There's a secret door in the middle of the 
+fireplace on the west side. Golems come out of the woodworks to attack. Good 
+place to have a golem staff ready, although far more important is to be able 
+to place your party correctly.
+
+This means having one player as the leader and everyone following him once 
+he's able to get to the doors. When he's in the golem room, bring everyone up 
+so they form a phalanx they can take the golems on right away. There are 14 
+of them. If you want to be really careful, you can have one player next to 
+golems one and two, the next fighting two more etc., and the guy opening the 
+fireplace fighting the salamander. But put the guys in another room and they 
+get slaughtered one by one as they walk in the door.
+
+Behind the fireplace you'll find the stairs to level 3. There's also 
+something to read just left-of-center of the bookcase on the north wall.
+
+        4-4-3-3. LEVEL 3
+
+This level contains an invisible maze. You got the map on level 1 and can 
+ready it with both hands to view it, but I'm including it below the paragraph 
+as a spoiler. "+" indicates where it is safe to step and "x" indicates 
+lightning(heavy injury but no bleeding) will strike you there. Zeros are 
+inaccesible squares, and "p" indicates a pillar the computer suggests that 
+you examine. It's imperative that you have one active character and no 
+followers. Otherwise you can't be sure what sort of damage your followers 
+will sustain.
+
+NOTE:  The computer will indicate if there are blank squares you can't 
+step on in the "12345678" by not highlighting certain directions.
+
+000000000+000000000000000+0000
+0+++++0x0+++0x0x00++++++0+++x0
+0+0x0+++0+0+++0+00+0000+000+00
+0+00000+0+0+000+0++++x0+++++00
+0+0x0+++0+0+0+++0x00x00x000++0
+0+0+++0+0+0+0+00000000000000+0
+0x0+0x0+++0++++++++++++++++0+0
+0000x00+00000000x+x0+x0000+0+0
+0++++0x++0+++0x000000000x0+0+0
+0+00+000+++0+++++++++++0+++0+0
+0+x0+0x000000000+000+0+0x0+0+0
+0+00+++++++++++++0x0+0+000+0x0
+0+000+0000000000x0+++0+++++000
+0+0x++++++++++0000++0000x0+0x0
+0+00+00+00+00+0x+++0000000+0+0
+0+x0+x0+x0+0x+00x000000000+++0
+0000000000+0000000000000000000
+
+There's not much else to do, really. You don't need everyone to walk up the 
+stairs, which is a break.
+
+        4-4-3-4. LEVEL 4
+
+Level 4 has a weird doors puzzle which you don't need to do(but it helps 
+avoid morale loss,) and it also has a mapping puzzle where, this time, a part 
+that seems like it might be a nice secret, is. The second door to your south 
+holds a crank that will open up a passage to the east. If you map out the 
+rest of the area you'll find a 3x2 room below this; 1E of the SW corner, 
+search south and there is a small closet full of sharp weapons. Search the 
+center-south square to find a Very Sharp Spear. This will be invaluable in 
+your fight against Tarmon.
+
+There are magic doors here. The pillar on level 3 was a basic code for how to 
+get certain doors to open. The code is below:
+
+  Open Close
+N ...C ....
+E O... C.OC
+S CO.. OO.O
+W OCO. ..O.
+H OOCO ....
+F CC.C ....
+
+What does this mean?  These are the combinations for being able to open/close 
+a door. It says whether, respectively, the status of the North, East, South, 
+and West doors required to open said door. For instance, to open the West 
+door, the North and South doors must be opened, and the East door must be 
+closed, and the West door's status doesn't matter. However, to close the West 
+door, the South door must be open. A period means this door can be in either 
+state.
+
+H and F stand for hidden and far doors. The hidden door is three west of the 
+south door. The far door is south of it. Between the H and F doors is vital 
+information.
+
+If this puzzle seems confusing, don't worry. It's not critical. Technically, 
+you can just open the west door, have one player walk through the oppressive 
+hallway(damaging his morale hugely), and get to level five, where you need to 
+weather one fight--or lose it and restart--before getting to Tarmon.
+
+However, you'll still need to know a WORD(see below) to get the crown itself. 
+So to play the game properly you'll need to be able to open the hidden door.
+
+Opening the west door is hard enough. The solution is below. You can always 
+fumble around and backtrack to closing all doors. Just start with  is below, 
+with extra carriage returns to prevent spoilers. If you get stuck, there is 
+always a way out. Look for where you are in the walkthrough, or try to get 
+there.
+
+Action  |Status(NSEW)
+--------+------------
+Open N  |OCCC
+Open E  |OOCC
+Close N |COCC
+Open S  |COOC
+Close E |CCOC
+Open N  |OCOC
+Open W  |OCOO
+====stop here if you get confused
+Open E  |OOOO
+Close S |OOCO
+Open H  |OOCO
+Close N |COCO
+Open S  |COOO
+Close W |COOC
+Close E |CCOC
+Open F  |CCOC
+
+Off to the west of the clean private corridor you have a meat locker and 
+below that someone who tells you Tarmon's secret weakness: nonmagic items.
+
+        4-4-3-5. LEVEL 5
+
+Have everyone follow your ladder, because there's a tough fight here once you 
+get within a few steps of the stairs, but other than that, you just go from 
+the southeast to the northwest and down to level 6. The rubble is irrelevant. 
+
+        4-4-3-6. LEVEL 6
+
+Tarmon taunts you again...but now that you are in the Garden of Life, why not 
+drink from the stream(examine it)?  It'll heal you for the upcoming battle. 
+Stand inside the contraption on the north wall and examine to the south, then 
+the north. If you've got 150 feet of rope the north wall will open up and 
+you'll meet Tarmon. Obviously, tell him no.
+
+Unless you've byte-edited the disk, Tarmon will prove a tough proposition. 
+You can't touch him with magic weapons or yours will disintegrate, so have 
+someone attack him with a sharp weapon--or, if you are using quick combat, 
+ready sharp/fine weapons beforehand and turn magic on and watch things go. 
+Again, you'll want everyone to be following the leader so that when the fight 
+starts you'll be able to run at the demons before they cast spells that'll 
+really damage you.
+
+Tarmon will probably be the last one to go, but positioning really does make 
+the difference between a comfortable win and a total blowout loss. Once you 
+get past the bad guys, refresh your characters again by drinking from the 
+stream.
+
+Examine the square a couple squares west of the table. There's a keyhole, 
+where the emerald key fits. Ready your emerald key and hit O to open. You 
+will be asked your name--tell them what you learned on the fourth 
+floor(DORVAL) or you'll be killed. Once you get the Wizard's Crown, back-
+tracking through the castle is not hard. Beware, however, that on the first 
+floor you will be attacked by demons that break from statues in the palace's 
+entry room. It's not a very tough fight--24 hell born--but it can be a nasty 
+surprise.
+
+    4-5. THE WAY BACK
+
+There'll be a lot more monsters fighting you on the way back. If you win a 
+fight with major damage you may not want to save. In fact, early on you may 
+have high-morale-loss fights and you may just want to save if you move one 
+square safely. If it's nighttime, you'll want to get to a temple so that you 
+aren't shut out when you get to the town gates. So head in an UL direction 
+for the temple--northwest to the little orange loop, then north. If you are 
+really suffering, or you really want to play it safe you can go west once you 
+leave the gate. Then in the patch white area go NW into the temple. Remember 
+you walk the same number of squares going NW-NE as N-N. You may want to 
+consider saving after walking a few squares if you are really hurting. In 
+that case you may just go NE a few squares before going back NW and touching 
+the small loop mentioned above.
+
+At the temple to the north, rest until dawn and then the final trek NE should 
+not trouble you. At the gates you'll be greeted and given a bonus, and you'll 
+even get to keep the Wizard's Crown!
+
+Once you get in the city with the crown, there's a two-page blurb 
+acknowledging your achievements and a side note saying you may be able to 
+import your characters into a planned sequel--that sequel happens to be 
+called "Eternal Dagger."  In the meantime, you can loot the ruins if you feel 
+like it. You can even win the game again or see how long you last in the 
+grass below the palace.
+
+Your extra bonus is +6 strength, +30 life, +6 dexterity(to a maximum of 30) 
+and no experience, but if you go to the inn you'll get +10. Oh and you get to 
+keep the crown for further looting.
+
+  5. MONSTER PROPERTIES
+
+  I listed some basic monster properties below. Note some monsters have the 
+same names but different attributes. They also leave different items in 
+combat.
+
+                    |STR|DEX|LIFE
+--------------------+---+---+----
+A THIEF             |  8| 15| 50
+A BRIGAND           | 10| 13| 60
+A BANDIT CHIEF      | 12| 20| 70
+AN ASSASSIN         | 10| 15| 50
+A GIANT SPIDER      | 24| 30|150
+A MASTER ASSASSIN   | 12| 20| 70
+A SCOUT             | 12| 12| 60
+A MAGICIAN          |  6| 18| 50
+A SKELETON          | 19| 12| 20
+A WOLF              |  8| 13| 50
+A LARGE SPIDER      |  4| 20| 40
+AN ORC              | 12| 10| 70
+AN ORC LEADER       | 16| 12| 80
+A GIANT RAT         |  4| 15| 40
+A HUGE RAT          | 12| 12| 60
+A SPIRIT            |  0| 12| 40
+A FERAL DOG         |  8| 13| 40
+A ZOMBIE            | 32|  8| 80
+AN ADVENTURER       | 12| 15| 50
+AN ADVENTURER       | 16| 12| 60
+AN ADVENTURER       | 15| 15| 50
+AN ADVENTURER       |  6| 19| 45
+A HOBGOBLIN         | 32| 10| 80
+AN OGRE             | 40| 10| 90
+A GOBLIN            | 12| 11| 60
+A GOBLIN            | 10| 13| 60
+A GOBLIN            | 13| 10| 60
+A GHOUL             | 12| 13| 50
+A VAMPIRE           | 32| 15| 90
+A WARDPACT DEMON    | 32| 15| 75
+A VAMPIRE           | 32| 15| 90
+AN ANCIENT VAMPIRE  | 56| 20|125
+AN ANCIENT VAMPIRE  | 56| 20|125
+A HELL HOUND        |  8| 14| 60
+A FIRE GIANT        | 60| 10|140
+A ROCK GIANT        | 60|  8|125
+A ROCK GIANT        | 60|  8|125
+A GIANT SCORPION    | 12| 12| 60
+AN UNDEAD WARRIOR   | 16| 16| 40
+AN UNDEAD WARRIOR   | 16| 16| 40
+A STONE GOLEM       | 80|  7|150
+A LICH              | 12| 20|120
+AN IMP              |  8| 15| 50
+A TROLL             | 40|  8|100
+A SPECTRE           |  0| 14| 80
+A WRAITH            |  0| 14|100
+A WRAITH            |  0| 14|100
+A GHOST             |  0| 18|120
+A GNARLED TREE      |100| 10|200
+A SORCERER          |  6| 18| 50
+A WARDPACT DEMON    | 32| 15| 75
+A VETERAN ADVENTURER| 12| 18| 65
+A VETERAN ADVENTURER| 20| 15| 75
+A VETERAN ADVENTURER| 20| 18| 70
+A VETERAN ADVENTURER|  6| 25| 60
+A GUARD             | 12| 13| 55
+A MERCHANT          |  6| 12| 40
+A THUG              | 10| 13| 45
+A DRAGON            | 40| 15|100
+A GARGOYLE          | 32| 20|100
+A GHOST             |  0| 18|120
+A WHITE RABBIT      |  4| 30| 38
+A DEMON             | 18| 14| 80
+  GOZAROTH          | 20| 28|120
+AN IRON GOLEM       |100|  7|150
+A HELL BORN         | 24| 10| 60
+A WARDPACT DEMON    | 32| 15| 75
+A VETERAN GUARD     | 20| 15| 70
+A VETERAN SCOUT     | 16| 20| 60
+AN EVIL ARCH-MAGE   |  9| 20| 50
+A SALAMANDER        | 20| 30|200
+A HIGH DEMON        | 30| 20|100
+A DEMON             | 20| 16| 80
+A HIGH DEMON        | 30| 25|100
+A DEMON             | 20| 20| 80
+  TARMON            | 20| 25|200
+
+  6. ITEMS
+
+  Not everything listed below is an item. Some, like "flaming," must be 
+combined with an item--"Emperor's Crown" is itself this sort of compound 
+item. Price is additive. Note +1 for items and for armor is different.
+
+KEY                  |    1
+WAND                 |    1
+TORCH                |    2
+SCROLL               |    2
+VIAL                 |    5
+BOTTLE               |   10
+JAR                  |   20
+50' OF ROPE          |   25
+BANDAGES             |   25
+LOCKPICKS            |  250
+CLOAK                |  125
+CROWBAR              |   50
+RUBY                 | 7500
+DIAMOND              | 7800
+EMERALD              | 5000
+JADE                 | 2500
+GOLD                 | 4000
+SILVER               |  500
+RING                 |  150
+NECKLACE             | 1000
+BRACELET             |  500
+CROWN                | 5000
+REENFORCING          | 5000
+DWARVEN              | 5000
+ELVEN                | 5000
+WIZARD'S             | 8000
+DAGGER               |   50
+RAPIER               |  200
+SHORTSWORD           |  375
+SCIMITAR             |  500
+BROADSWORD           |  725
+LONGSWORD            |  750
+CLAYMORE             | 1000
+GREATSWORD           | 1125
+HANDAXE              |   75
+BATTLE AXE           |  250
+GREAT AXE            |  750
+MACE                 |  300
+MORNINGSTAR          |  500
+STAFF                |   25
+MAUL                 |  175
+FLAIL                |  675
+LARGE FLAIL          |  675
+SPEAR                |  150
+HEAVY SPEAR          |  200
+SHORTBOW             |  275
+LONGBOW              |  525
+LT. CROSSBOW         |  635
+HVY CROSSBOW         | 1260
+BUCKLER              |   75
+SHIELD               |  225
+LEATHER              |  450
+CUIRBOILLI           |  925
+RING MAIL            | 1625
+BRIGANTINE           | 2125
+CHAIN MAIL           | 2500
+SCALE ARMOR          | 2000
+PLATE MAIL           | 5000
+FINE                 |  300
+VERY FINE            |  900
+SHARP                | 3000
+VERY SHARP           | 4500
++1                   |  330
++2                   | 1000
++3                   | 2000
++4                   | 3300
++5                   | 5000
+MAGIC                |  500
+FROST                | 1200
+FLAMING              | 2500
+LIGHTNING            | 4000
+STORM                | 6000
+DARK                 |  750
+DOOM                 | 2000
+SOUL                 | 3500
+DEMON                | 7000
+DEATH                | 8000
++1                   |  530
++2                   | 1200
++3                   | 2200
++4                   | 3500
++5                   | 5200
+A SECTION OF         |    0
+GOLEM                |    0
+A MAP                |  150
+EMPEROR'S            |15000
+
+  7. GAME SCRIPTS
+
+  There are several interesting game scripts in Wizard's Crown. They include 
+the old man in the park in the inner square who tells you about Bealar and 
+Deld. There is also some tavern talk. These are listed below. The old man in 
+the park has useful tips in each story. Numbers 1, 2, 3, and 5 are the most 
+useful.
+
+    7-1. THE OLD MAN IN THE PARK
+
+YOU SEE AN OLD MAN, HE LOOKS UP AT YOU AND ASKS IF YOU WISH TO HEAR A 
+STORY. (S)TAY OR (L)EAVE
+If you choose to stay:
+
+(This is always the introduction)
+HE THEN BEGINS A LONG STORY ABOUT "TWO SWORD" BEALAR IN ARGHAN ...THE 
+STORY IS VERY ENTERTAINING AND PART OF IT SOUNDS USEFUL...
+
+I believe these rotate from day to day.
+1. BEALAR SOON REGRETTED HIS ROBBING OF A MERCHANT. WHEN HE TRIED TO 
+SELL THE GOODS HE WAS NEVER OFFERED MORE THAN HALF THEIR MARKET VALUE
+2. BEALAR BARELY ESCAPED THE CLUTCHES OF THE NECROMANCER BY UTTERING THE 
+WORD "SHALPA" AND ENTERING THE TEMPLE'S ENCHANTED DOOR
+3. BEALAR DECIDED IT WOULD BE SAFER TO GET THE REWARD FOR CLEANING UP 
+THE TOWN THAN LOOTING THE RUINED CITY ARGHAN
+4. JOINING UP WITH DELD IT WAS DECIDED THAT SOME POTIONS WOULD BE NEEDED 
+FOR THE EXPLORATION. LUCKILY THE LABORATORY WAS JUST TO THE NORTHWEST OF 
+TOWN
+5. "IT WAS A MISTAKE COME INTO THE RUSTY NAIL" WHISPERED BEALAR "I THINK 
+THIS IS THE LOCAL THIEVES' GUILD"
+6. THE SEARCH FOR AN EMERALD KEY TOOK BEALAR AND COMPANY DEEP INTO THE 
+RUINS OF ARGHAN
+7. "WE ARE IN NEED OF MORE EXPERIENCE AND EQUIPMENT IF WE ARE TO GET 
+FURTHER INTO THE RUINS" BEALAR TOLD DELD
+8. STEPPING OUTDOORS BEALAR AND HIS PARTY FOUND THAT IT WAS ALREADY 
+DARK. BEFORE THEY EVEN GOT A COUPLE OF BLOCKS TOWARDS SAFTEY A DOZEN 
+ORCS ATTACKED
+
+    After each story, you see:
+THE OLD MAN FINISHES HIS STORY AND SAYS "COME BACK ANOTHER DAY AND I 
+WILL TELL YOU ANOTHER STORY" HE THEN WALKS OFF.
+
+    7-2. TAVERN TALK
+
+* THE PASSWORD IS 'BREAKFAST' (not sure what this is for)
+* THERE IS A MAGIC SHOP IN THE NORTH-EAST CORNER OF THE INNER WALL
+* WE WILL NEED AN EMERALD KEY TO ......
+* WITHOUT A +5 WEAPON WE WON'T LAST FIVE MINUTES PAST THE FIRST TEMPLE
+
+  8. CHEATING
+
+The bluntest form of cheating is to run through the Palace, fight everyone, 
+reboot, and run through it again when there are no monsters there. You 
+sustain a lot less damage that way. But if you want to get technical and just 
+run through the game, look below.
+
+    8-1. DISK IMAGE
+
+I haven't fully sharpened up the cheating on the Apple. However, 
+critical character data is below for each slot(A-H):
+
+Offset   |Attributes
+---------+-----------------------------------------------------------
+0000-0013|0-terminated character name
+0014-0019|Strength, Dexterity, Intelligence, Max/Cur Life, Experience
+001f-0020|Current Power/Maximum Power
+0022     |prayer level
+0025-0028|coins(copper/silver/electrum/gold)
+002c-002d|Maximum Karma/Current Karma
+0033-0048|Various character skills
+004a-0050|Various character skills
+0021/0051|morale loss
+0060-009f|items(8 bytes per item)
+
+A:  F620
+B:  F6C0(note:  To edit anything after F6FF, start at F500 and not F700. In 
+other words, subtract 200 from F6C0+offset)
+C:  F560
+D:  F400
+E:  F4A0
+F:  F340
+G:  F3E0(note:  To edit anything after F3FF start at F200 and not F400.)
+H:  F280
+
+Examples:  Say you wanted to set character E's attributes all to 250. Pull 
+out a hexadecimal calculator and...
+F4A0+14=F4B4, F4A0+19=F4B9. So bytes F4B4 to F4B9 in your hexadecimal editor 
+should become FA(250 in hexadecimal)...Repeat for the other offsets in the 
+table.
+
+However, say you wanted to set character G's skills to 199. 199 in hex is C7. 
+But since the Apple reads "tracks" of 256 bytes backwards, F200 and not F400 
+is immediately after F3FF, so 200 hex must be subtracted. So... F3E0+33=F413-
+200=F213.
+F3E0+48=F428-200=F228. So you would change bytes F213 to F228 to C7. Also you 
+could change F22A to F230 to C7 and that would take care of all your 
+abilities. To change your max/current power you would have to modify bytes 
+F200 and F3FF. This is one of those "border cases."
+
+Items are formatted as follows:
+
+00 = descriptor 2
+01 = descriptor 1
+(see section 6 with key as 0 for the above. FF in the 1st means no item and 
+FF in the 2nd means no 2nd descriptor.)
+02 = spell type
+03 = spell charges
+04 = attribute
+05 = bonus to attribute
+06 = # of hands
+07 = ready(hi byte 80)
+
+    8-2. SAVE STATE
+
+The AppleWin save state editing works the same way as disk images, only it 
+has the added bonus of working after a combat when you don't have enough 
+karma! You have the same relative offsets, but the absolute offset is 575e 
+for your first player. Each character takes up 0xa0 bytes and the data is the 
+same as above.
+
+It's also useful to be able to modify items.
+
+NOTE:  editing this way too soon may destroy your characters' abilities to 
+pray(i.e. they can't). I think I tripped something I should not have and 
+can't figure what. So be warned--byte editing can backfire. But also note 
+that I won the game fairly easily with these changes, almost never sustaining 
+life-draining damage from monsters. I think the best bet is to improve 
+everything except Karma by a cheat and then improve Karma, because the game 
+tends to tick off levels once you improve your maximum karma to whichever.
+
+At 0x4070 you have the start of the 30-by-30 map where you can mess around. 
+This isn't very helpful when you want to escape the town at night to get to 
+the ruins, but you can edit a square so that you can leave the town for the 
+north grasslands. You can also take the easy way through a dungeon, but 
+that's going too far.
+
+End of FAQ proper
+
+================================
+
+  9. VERSIONS
+
+2.1.1 8/6/2006 Added additional help from people in credits
+2.1.0 7/9/2006 Added specifics on how to get better and cleaned up other 
+details.
+2.0.0 6/16/2006 Complete reworking I submitted along with maps. Still some 
+details to work out.
+1.1.0 3/6/2001 Added monster properties and basic item info.
+1.0.3 2/21/2001 Added "Bealar and Deld" stories along with tavern talk.
+1.0.2 10/18/2000 basic re-proofreading.
+1.0.1 5/8/2000 Oops!  Forgot the text version of the invisible map to level 
+3. Added brief dungeon strategies.
+1.0.0 4/23/2000 Initial version completed, with cheating techniques.
+
+  10. CREDITS
+
+--CJayC for making GameFAQs and keeping it running from well before the first 
+draft of the guide to my latest draft.
+--All the people I met over the years at GameFAQs for keeping guide 
+writing/old games fun.
+--druadic@cs.com for the maps(from Quest for Clues I think) which made my 
+walk-through MUCH easier(strangely, he didn't have the level 3 Tarmon's map--
+but it exposed secret doors quickly for the other levels.)  His web page at 
+members.nbci.com/druadic was a wonderful resource for maps in general.
+--Kahei at Kahei.com for a marvelous hex editor that allowed me to 
+concentrate on the puzzles.
+--ftp.apple.asimov.net for the original Apple images.
+--lordbub and CronoLV99 for their help in the Wizard's Crown topic, in 
+specific places mentioned or where I may sadly have assimilated information, 
+bumped it about in my unconscious, and watched it appear later. Psst...the 
+topic that's closed because some idiots flooded it. I hope it makes it to the 
+GameFAQs topic archive.
+--Popcorn Demon for the tip of white rabbits in the 1-square patch. Again in 
+that topic.
+

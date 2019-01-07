@@ -1,0 +1,1727 @@
+Eternal Dagger FAQ version 2.0.0(Apple version)
+Copyright 2000-2006 Andrew Schultz schultz.andrew@sbcglobal.net
+
+Eternal Dagger and Wizard's Crown are copyright Strategic Simulations, Inc.
+
+This walkthrough is part of my contribution to the efforts to preserve 
+classic Apple II games.  Please do not re-distribute or profit without my 
+consent.  If you would like to use this for your site, please ask a specific 
+question, and I'll probably say yes.
+
+My general games page can be found on:
+http://www.geocities.com/SoHo/Exhibit/2762/games/games.htm
+I have a complete and relatively faithful map of the Eternal Dagger 
+outerworld at:
+http://members.fortunecity.com/cartographics
+
+Dungeon maps(Wizard's Crown too!) are at:
+http://www.geocities.com/SoHo/Exhibit/2762/wced/main.htm
+More detailed versions are on GameFAQs.com, annotating secret doors at the 
+like.
+
+Now, to business!
+
+================================
+
+            OUTLINE
+
+  1. INTRODUCTION
+
+  2. CONTROLS
+
+    2-1. BASIC STUFF
+
+    2-2. STRATEGIES(Fighting and Exploring)
+
+  3. CREATING/IMPROVING A PARTY
+
+    3-1. WHO TO GATE
+
+    3-2. WHAT TO IMPROVE LATER
+
+    3-3. POLICY FOR IMPROVING ITEMS
+
+    3-4. POLICY FOR GETTING MONEY
+
+    3-5. A DUMB CHEAT WITH EMULATORS
+
+  4. MONSTERS
+
+  5. ITEMS
+
+  6. DIALOGUE
+
+  7. MAIN WALKTHROUGH
+
+    7-1. ABOVE WIZARD'S ISLE
+
+    7-2. THE NECROMANCER'S CAVE
+
+      7-2-1. LEVEL 1
+
+      7-2-2. LEVEL 2
+
+      7-2-3. THE AFTERMATH
+
+    7-3. THE ELVEN ISLE, GETTING STARTED
+
+    7-4. MAGOOMBA'S
+
+    7-5. KORUY, THE DESERT AND THE TEMPLES
+
+      7-5-1. KORUY DUNGEON
+
+    7-6. WADDLING TURTLE'S
+
+    7-7. GREY EAGLE'S
+
+    7-8. AVLIS'S TOWER
+
+      7-8-1. LEVEL 1
+
+      7-8-2. LEVEL 2
+
+    7-9. THE DWARVEN ISLE, EXPLORING
+
+    7-10. SRI'S LAIR LEVEL 1
+
+      7-10-1. LEVEL 1
+
+      7-10-2. LEVEL 2
+
+      7-10-3. LEVEL 3(NOT REALLY, LEVEL 1)
+
+      7-10-4. BACK TO THE ELVEN ISLE
+
+    7-11. ENOLHO
+
+    7-12. THE DEMON WORLD
+
+  8. ULTRA-CONDENSED WALKTHROUGH(avoids my putting spoilers at the beginning)
+
+  9. CHEATING(for Apple IIe disk images)
+
+    9-1. DISK IMAGES
+
+    9-2. SAVE STATES
+
+  10. BUGS/INCONSISTENCIES
+
+  11. VERSIONS
+
+  12. CREDITS
+
+================================
+
+  1. INTRODUCTION
+
+I don't have the manual yet(or even a facsimile) so I can't give full details 
+on the game. However, Eternal Dagger is a sort of Wizard's Crown kicked up a 
+notch, in the outside world and with a few more attributes, more robust 
+items, fuller dungeons, and tougher decisions to make. If you've played 
+Wizard's Crown on the PC and wanted to play the sequel you've heard of, it's 
+available via Apple emulation.
+
+Your party has been beamed into the world of Eternal Dagger from the Wizard's 
+Crown world. Again that whole force-of-evil thing. You start on Wizard's Isle 
+and work your way to the Elven Isle and the Dwarven Isle in search of the 
+Eternal Dagger, the only weapon that can seal off the portal from the Demon 
+world where Anawt is sending the demons from.
+
+Eternal Dagger is playable on an emulator. I recommend AppleWin. 
+ftp://ftp.apple.asimov.net has the images. You need to use ED1 and ED2 to 
+boot, and use GDISK1 and GDISK2 for the games. Emulation save states and the 
+acceleration feature allow you to breeze through this game much more quickly 
+than when it came out, and so you can look at the side details more if you 
+want. You can use save states, too(F11) and thus have multiple save slots to 
+go exploring stuff with.
+
+  2. CONTROLS
+
+    2-1. BASIC STUFF
+
+You have a sort of warped numpad that moves you around.
+
+812
+7 3
+654
+
+I just remember 1 is up and go from there. Moving diagonally doesn't cost any 
+more time than moving in a straight line. You can move diagonally between 
+barriers, most frequently mountains outside. You'll also want to learn about 
+making camp. Stuff you need to know:
+
+H) gets you to the heal menu where you can U)npoison, Treat D)isease F)irst 
+aid, or P)ray. V) lets you view items with a certain character. P puts it in 
+the backpack and you can take with T.
+
+I-N-E-X is a useful combo to improve a character.
+
+Remember to check in your backpack for day's rations to drop to make room for 
+more valuable items.
+
+    2-2. STRATEGIES(FIGHTING AND EXPLORING)
+
+The golden rule is always to keep your fatigue under 20. Also, run if you're 
+ever not sure you can win something, or your only Frequently Asked Question 
+will be "Why didn't I save, again?" You'll have to rest it all off anyway, 
+and if you're too tired and get diseased and can't cure it, that just piles 
+things up. This game doesn't have a time limit, and while exploring in winter 
+is irritating, reloading after getting and losing that reenforcing pendant 
+and wizard's ring in the two of three fights you won is doubly so.
+
+And I have found that staying up 'til 3AM without resting is conducive to not 
+saving, too.
+
+  3. CREATING/BUILDING A PARTY
+
+    3-1. WHO TO GATE
+
+Getting a party with the right abilities is a big choice. I hope I didn't 
+sound too much like a guidance counselor there, but throwing statistics 
+around gets you in trouble, as does trying to make too many characters good 
+at too many attributes. You won't have the time or patience, even with quick 
+combat, and monsters tend to thin out eventually anyways.
+
+I find it useful to have everyone in the mix with a really good weapon. I 
+also like having the best protection there is to offer. So I give everyone 16 
+strength to start. Life isn't as critical as other things, so I give everyone 
+50 to start. Then the rest goes to intelligence needed for a character class 
+and then dexterity. You really need to combine fighter classes with others so 
+they can use weapons besides daggers. You should also go for two-handed 
+weapons over one-handed. They do more damage, The really tough monsters don't 
+use bash damage, shields apparently break, and you get another spot free in 
+your inventory. Eventually the administration required with shields will 
+frustrate you if you're trying to get through quickly.
+
+Tips below for who to create and what to improve to 250. Note that if you get 
+rid of the current party, player H appears first when you gate new 
+characters. I also recommend having player C be able to cure disease and 
+player F be able to use first aid. That way their player-letters go with the 
+heal-menu commands.
+
+* fighter-sorcerer A(great axe)
+* fighter-sorcerer B(hammer)
+* fighter-sorcerer C(greatsword)
+* fighter-priest A(greatsword)
+  use experience points on Cure Disease
+* fighter-priest B(maul)
+  use experience points on Cure Poison, but only to 200
+* fighter-priest C(large flail)
+  use experience points on First Aid
+* ranger(heavy spear)
+  get 250 hunt, then 250 track, then spear
+You can roll the dice on the final one:
+* either thief(dagger) or fighter-thief(crossbow or greatsword)
+  improve his search immediately, to find cool new items
+
+The advantages of having a thief is extra dexterity and that he can use the 
+Eternal Dagger later.
+
+The fighter-thief will be very useful for combat early on, but the dexterity 
+points will be wasted later. Also, having a fighter-thief means that someone 
+else can use the Eternal Dagger in case that person doesn't get a magic item 
+of his type. Swords tend to pop up more frequently than other types, just 
+because special random items are determined not by item type but item name 
+and there are many more sword types than not. You may even run out of 
+experience points to allocate to your pure thief later.
+
+    3-2. WHAT TO IMPROVE LATER
+
+First, I recommend that you keep weapon skills at 250 as it gets too 
+prohibitively expensive later to do otherwise. Also, if you don't know what 
+to do, spend on dexterity. Eternal Dagger sometimes awards critical hits, and 
+the more moves you have, the more chance you'll get one. Life really isn't as 
+important, especially when your players use the Countermagic spell(even in 
+quick combat,) which sometimes increase your life or even undoes injuries 
+when an enemy hits you.
+
+When a character gets a very-magic item(cold, holy, storm, flaming, life 
+drain, i.e. something with magic damage too) then you can start to improve 
+his weapon skill. It's nice to have a variety of damages and with randomly 
+finding items that should happen. With the way we are playing, someone will 
+be left in the cold with a magic weapon, leaving him to use the Eternal 
+Dagger, which is an awesome weapon(25 holy, as opposed to the usual 5.) So he 
+needs to improve Close Combat, which is not hard at all. But if he's improved 
+another weapon skill to 500, that is at least 250*6=1500 experience wasted 
+and possibly 2000/3000 that could have gone to dexterity or even 
+life(75/100/150 points.) Plus, for critical battles such as versus Sri, 
+you'll want to make sure you're as quick as possible. I've had a party who 
+couldn't beat him. I improved everyone's dexterity to 50: a few easy wins. 
+Life to 250: couldn't pull it off.
+
+For the priestly skills, having a lot of karma means you can risk going 
+further into dungeons. Since karma is the cheapest stuff in the game, improve 
+that first after the initial boost. You want to make sure you are protected 
+against diseases, which can tire a specific enemy of the party out. Later, 
+before heading to the Dwarven Isle, you'll want to make sure Cure Disease is 
+at 400. There are nasty monsters there whose disease mongering is tougher to 
+cure.
+
+See priests for sorcerers having power, although this does take a bit more 
+experience per power point, and besides, you can regenerate power by resting. 
+Get it up to 250 and then improve your dexterity on Wizard's Isle. Then on 
+the Elven Isle branch out to Cast Spell points(250) and only then would you 
+want to get your power up to 500. I did OK with Cast Spell around 300. You 
+may need someone to improve it for Koruy. But improving your weapon skill may 
+be cheaper and I'd advise doing that first.
+
+It's tough to decide when to improve dexterity and when to improve skills, 
+but I find that if I just forget to improve skills, and my experience is over 
+100, I improve my dexterity.
+
+Finally, life is OK if there is nothing else. I wouldn't know what to do with 
+any spill-over points. Maybe one of those weird combat options such as scan 
+or awareness. If you plan to try to cheat with several Eternal Daggers(the 
+only good this does is that you may be able to thump Anawt at the end,) you 
+can get everyone's Close Combat up. I'm not sure if this works but it's a 
+try.
+
+So, excluding weapon improvement, here are good paths, brackets meaning you 
+can stagger things--get one to 250 before the other--and neglecting weapons 
+and dexterity, which are at your discretion when you get a magic weapon:
+
+Sorcerer-1 [Power-500] [Cast Spell-400]
+Sorcerer-2 [Power-500]
+Sorcerer-3 [Power-500]
+Priest-1 Karma-500 Luck-200 [Cure Disease-400 Turn Undead-400]
+Priest-2 Karma-500 Luck-200 Cure Poison-200 Turn Undead-400
+Priest-3 Karma-500 Luck-200 First Aid-400 Turn Undead-400
+Ranger Hunt-350 Track-350 Spear-350
+Thief Search-500(for new items)
+  (Picklock is not useful with a good mage.)
+
+But if you just trust your instincts it shouldn't be too bad. Remember you 
+can always find a pile of enemies, or just reset (especially) Koruy or (edit 
+the save state for a quick path) Sri's, to run in and try again.
+
+    3-3. POLICY FOR IMPROVING ITEMS
+
+Now when you get magic items you'll realize that the Elves improve them for a 
+fee, up to +6. It doubles, but 160 gold is hardly extortion. Note also that 
+the Dwarves will do so, too, but they charge double what the Elves do. You'll 
+also want to check the Enchanter's for possible good items. I've found 
+Dwarven Plate and an Elven Ring, which have been incredibly useful.
+
+Remember the only items really worth improving are (armor) reinforcing, 
+dwarven, elven and (magic) storm, cold, flame, drain (proof) or holy. That 
+gets you a magic protection/damage in addition to other things. Also note 
+that if you ready a +3 bracelet and a +3 storm proof ring, you only get the 
+greater of the two bonuses, not a combo.
+
+This means that once you find good armor, you will want to keep it. Usually 
+the best sort is dwarven/elven/reinforcing(the third seems rarest as it only 
+appears randomly) so if you find any of this in Chain or better, you may want 
+to improve it. Of course, if you find Wizard's armor, even Cuirboilli, it is 
+worth readying to +6 and improving. That protects you almost completely from 
+magic.
+
+Also note the following 2 related combos:
+Dwarf Plate + storm pendant
+bash/cut/thrust 8-42-9 physical + 30-2-2-2 protection
+Storm Plate + dwarf pendant
+8-12-9-32-2-2-2 + 0-30-3 protection = 8-30-9-30-2-2-2
+(12 less protection versus bash.)
+
+to +1: 5 gp
+to +2: 10 gp
+to +3: 20 gp
+to +4: 40 gp
+to +5: 80 gp
+to +6: 160 gp
+
+However, the first best thing to improve is your magic item. Don't 
+necessarily improve it to +6, but it's a can't-miss. Alternate between that 
+and any physical-protect-enhanced armor. Remember also to try to build up 
++5/+6 for anything Dwarven or Elven and only then do you want to go with 
+storm/drain proof etc.
+
+When deciding between, say, a +5 and a +3 item, see how much each would 
+improve your total resistance. Say +5 were cold-proof and +3 were storm-
+proof. Improving the storm-proof would improve storm resistance by 2. 
+Improving the cold-proof would improve the others by 2. So +3 wins out--3 
+improvements for 1/4 the price--but +5 would next time.
+
+Also don't worry too much about the damage a physical weapon does. For swords 
+if it's something like a rapier, you may want to wait for something cooler as 
+there areso many swords out there, but whatever magic item you get is 
+probably OK for other weapons. Plus, for someone with a 1-handed weapon, it's 
+nice to be able to ready a +x (physical protect) gem. Much better than a 
+shield. Again, go with the flow here and don't worry too much about what you 
+find or don't find. Your party will eventually find cool items and improve.
+
+While some items seem marginally useless I keep all "proof" stuff that can be 
+worn. Also I try to spread out +6's early on among players so everyone has 
+one, which affords basic protection against magic attacks. Generally it's 
+good to get really wimpy stuff to +2, but your main stuff(armor and weapons 
+and Wizard's anything) should go to +6 right away.
+
+Money shouldn't be too much of a problem. There are plenty of monster groups 
+that hoard Chain Mail, and you'll find dwarves with magic chain mail and 
+items of their own. You can even fight elven and dwarven patrols(15 gold of 
+goods per fighter) when you're very good, but you probably don't need much 
+improvement. Cross your fingers for someone jumping you at random. Then you 
+get the weapon stash guilt free.
+
+One other thing--you probably won't get magic Plate Mail for everyone. You 
+can wait this out a bit but Chain or Scale with Dwarven/Elven is good enough. 
+I really recommend Dwarven/Elven/Reenforcing armor as opposed to X-proof 
+because it protects you against one special form of attack even more than 
+rings can. With 3 types of physical attack and 4 magic, a +30 to blocking 
+physical attack seems slightly more valuable, and you can get a bigger 
+maximum protect against cut or bash or thrust due to the initial protection 
+armor gives. Magic-proof items do seem to occur in greater quantities anyway. 
+If you want to bail out and not worry about things, just buy +1 Elven Chain 
+Mail at Sea Haven or take what you loot from the Dwarven Patrols that 
+(eventually) ambush you.
+
+    3-4. POLICY FOR GETTING MONEY
+
+Put all armor in your backpack. Even lame seeming armor is better than the 
+best weapon. My rule of thumb on weapons is that anything over 1000 can go in 
+your backpack, but you can also drop that stuff based on backpack space. If 
+nobody seems to have backpack space, drop whatever daily rations you 
+can(they're only worth 20 bucks.)  Be aggressive about what you take. 
+Especially early on when you don't stray far from a town, you can get the 
+chain mail and longswords of undead warriors, for instance. Obviously you'll 
+want to take most magical items but you'll also want to check which are the 
+most valuable--potions can be worth up to 1800. Also some valuable nonmagic 
+items are duds, but stuff like Emeralds can clearly benefit your pocketbook 
+if you pick them up. You'll learn to evaluate, etc. And note that +40 to a 
+skill can make something very valuable.
+
+Remember also simple things like never put a small item in the backpack if 
+you have space in your hands. You should also be keeping spare bandainds for 
+your first aid person but if there is an excess you can pitch one or two as a 
+last resort--they often pop up after combat anyway.
+
+Of course when you start to fill up it's time to retreat, and if you have 
+that one last fight and still have some open spaces, you can fill up on junk.
+
+Finally, if you know where a treasure trove is, first rest up so fatigue is 
+zero(and search is at its best) and save the game/save-state before 
+searching. That way, if you get a dud, you can reload and retry.
+
+    3-5. A DUMB CHEAT WITH EMULATORS
+
+This one's pretty simple. Save the emulator state before entering a treasure 
+trove. You can usually count on there being one game-improving magic 
+item(special magic protection or magic weapon) per trove. Don't let yourself 
+get ripped off.
+
+TREASURES
+
+  Treasures are random, but often certain groups of treasures are 
+guarded by several of the same sort of monster.  Often after one 
+encounter you will be able to F)ollow tracks, leading to more monsters--
+a sign you're on to something.  When the number of monsters that attack 
+you starts to decrease, you can anticipate treasure soon.  They are also 
+the best ways to find unique armor/weapons that can improve your party 
+in ways experience alone can't.
+  Here's a rough outline of where treasure is:
+
+  WIZARD'S ISLE
+  Try your luck close to the mountain range.  Also be sure to T)alk to 
+the only people you see and you'll get a Dragon Slaying Longsword.  This 
+is handy when you meet the Dragon in the southeast to raid his horde.  
+There's also treasure before you enter the Necromancer's.
+
+  ELVEN ISLE
+  East of Koruy there are a bunch of Flits/Flitters.  I imgaine there's 
+other treasure around Koruy.
+
+  DWARVEN ISLE
+  Treasure is found where the mountains almost meet the sea.  It's tough 
+to get at but is very valuable as well.  The mountain map is like a 
+starfish, and the "tendrils" all have treasure at the end.
+
+  DUNGEONS
+  You can mine for minimal treasure in Sri's dungeon.  However, the best 
+guaranteed treasure comes from the Weapons Masters who all have +2 
+Plate.  There is a +6 Storm Spear in the Underwater Dungeon(just before 
+you have to get rid of it.  Gee, whiz, great...
+  Of course, if you are not above minor-league cheating, you can reset 
+Koruy and Sri's Lair and keep picking up cash.  You can even reset 
+Waddling Turtle and Magoomba's dungeons and re-kill them, but the 
+benefits are not worth the risk.  Going through Avlis's tower again is 
+possible but it's such a hassle to solve the puzzles and put up with 
+Avlis's tricks that you're better off beating up monsters outside, which 
+gets you experience too.
+
+  4. MONSTERS
+
+  Here's a brief table of the major monster attributes.  It includes all 
+monsters.  Note that some monsters of the same name have different abilities. 
+Some also have different items, etc. when you kill them.
+
+Monster name(combat)|STR|DEX|LIFE
+--------------------+---+---+----
+A TROLL             | 40|  8| 40
+A GHOUL             | 12| 13| 20
+A ZOMBIE            | 32| 10| 40
+A SKELETON          | 19| 12| 50
+A SPIRIT            |  0| 16| 20
+A GOBLIN            | 12| 11|  8
+A LICHE             | 12| 25| 40
+A GHOST             |  0| 20| 30
+AN UNDEAD WARRIOR   | 16| 16| 40
+A GIANT SPIDER      | 10| 30| 20
+A WOLF              |  8| 15| 12
+A SWAMP THING       | 40| 50| 10
+AN OGRE             | 32| 12| 25
+A GREAT DRAGON      | 60| 60| 40
+A MOVING TREE       | 60| 10| 40
+A GIANT SCORPION    | 12| 12| 10
+A SORCEROR          |  6| 18| 27
+A GIANT             | 60|  8| 25
+A VETERAN SOLDIER   | 16| 18| 10
+A LIZARD MAN SHAMAN | 16| 20| 30
+A LIZARD MAN        | 24| 15| 12
+AN UNDEAD LION      | 30| 30| 40
+AN UNDEAD TIGER     | 30| 35| 40
+AN UNDEAD BEAR      | 40| 20| 40
+A WEAPON MASTER     | 25| 25| 20
+A NECROMANCER       |  6| 30| 30
+A JACKAL HEADED MAN | 10| 20| 20
+A BULL HEADED MAN   | 20| 25| 20
+A MUMMY             | 30| 15| 30
+A GIANT BEETLE      | 50| 10| 10
+A MUMMIFIED FALCON  | 10| 50| 30
+A MUMMIFIED BULL    | 50| 25| 30
+A CROCKADILE MUMMY  | 40| 15| 30
+A NECROMANCER       | 12| 30| 35
+A FIRE ANT          | 10| 25| 20
+A WARRIOR ANT       | 20| 30| 20
+AN ANT MAN          | 30| 35| 20
+A SAND EEL          | 10| 30| 10
+A FLIT              |  5| 30| 10
+A FLITTER           |  5| 60| 30
+A SAND SHARK        | 30| 25| 15
+A DWARF             | 20| 15| 10
+A DRAGON MAN        | 30| 25| 25
+A DRAGON            | 50| 40| 30
+A DRAGON MAN        | 20| 30| 30
+A DWARVEN HERO      | 46| 30| 30
+A GREAT WYRM        | 60| 35| 40
+A DWARVEN CLERIC    | 20| 30| 30
+A MOVING CACTUS     | 30| 40| 20
+AN ICE DRAGON       | 80| 30| 40
+A DWARVEN FIGHTER   | 31| 20| 20
+A GIANT             | 40| 24| 35
+AN ICE GIANT        | 60|  8| 25
+A BLACK TREE        | 70| 15| 10
+A DRAGON MAN        | 15| 35| 35
+A FIREFLY           |  5| 40| 10
+AN ICE MAN          | 20| 40| 30
+A YETI              | 50| 20| 15
+A POLAR BEAR        | 60| 40| 10
+A DWARVEN MOTHER    | 10| 40| 20
+ ARCTURUS           | 80| 60| 40
+A GIANT COCKROACH   | 40| 15| 40
+A BIG MOUNTAIN GOAT | 20| 40| 15
+A HILLMAN           | 30| 30| 20
+THE DRAGON QUEEN    | 40| 35| 30
+A DRAGON MAN        | 19| 25|250
+A YOUNG DRAGON      | 30| 40| 20
+A DRAGON CHILD      | 20| 30| 15
+A DRAGON MAN        | 30| 30| 30
+AN IRON GOLEM       | 60| 10| 50
+A VAMPIRE BAT       |  5| 60| 15
+A LESSER DEMON      | 18| 14| 15
+A LESSER DEMON      | 20| 16| 20
+A TROGLODYTE        | 40| 20| 15
+ SRI                | 40| 60|200
+A WOLF              | 28| 40| 50
+A WINTER WOLF       |  8| 20| 15
+A TOUGH             |  1| 80|250
+A TOUGHIE           |250|  1|250
+ AVLIS              | 50| 30| 30
+A JACK              | 10| 30| 15
+A HOWLER            | 10| 30| 25
+A JESTER            | 40| 80|  5
+A GORILLA           | 50| 40| 15
+AN ICE PLANT        |  6| 40| 10
+A DEMON             | 36| 28| 30
+A HIGH DEMON        | 60| 40| 40
+A DEMON             | 40| 32| 40
+A HIGH DEMON        | 60| 50| 40
+A TURTLE            | 10|  8| 30
+AN EAGLE            | 20| 40| 40
+ GRAY EAGLE         | 15| 30| 50
+ SWIFT EAGLE        | 40| 80| 50
+ WADDLING TURTLE    | 80| 80| 60
+ MAGOOMBA           | 80| 40| 40
+A FOX               |  8| 30| 20
+A FOX               |  8| 35| 30
+AN ELF              | 20| 30| 20
+AN ELF              | 42| 40| 20
+AN ELF              | 12| 35| 30
+ ANAWT              | 80| 50| 50
+ GREAT WHITE SHARK  | 30| 45| 15
+AN ELECTRIC EEL     | 10| 50| 10
+A MERMAN            | 20| 50| 20
+A SEA LION          | 50| 60| 20
+A SEA URCHIN        |  6| 30| 20
+ SEA WEED           | 10| 40| 60
+A HAMMERHEAD SHARK  | 80| 40| 30
+
+  5. ITEMS
+
+This lists the items and their relative prices.  Note that some of these 
+are not stand-alone items:  "dragon's" or "holy," for instance, are 
+prefixes, as is "the eternal." Note that you get a 40 gold bonus for any 
+skill an item might have(i.e. +40 mace skill=1600 gold,) and spells give a 
+different bonus as well.
+
+You also get a 1024 bonus for each level of magic an item is increased by. 
+Obviously some items must stand alone(a map) and some get paired with 
+modifiers(dragon's teeth) but you can combine the worth of an item if you are 
+curious.
+
+The binary format for items is as follows:
+
+byte 0=item descriptor 1
+byte 1=item descriptor 1
+byte 2=spell type
+byte 3=# charges
+byte 4=skill
+byte 5=skill to improve
+byte 6=lo bytes=# hands
+       next lo=size(S=0 M=1 L=2)
+       top 4=3 if armor, 7 if weapon??--don't touch.
+byte 7: top 3 bytes=magic charge(up to 7)
+        other 5 bytes=strength to wear
+
+Item              |Price
+------------------+-----
+50' OF ROPE       |   25
+BANDAGES          |   25
+DAY'S RATION      |   20
+LOCKPICKS         |  250
+WAND              |    1
+SCROLL            |    2
+CLOAK             |  125
+SKELETON KEY      |   10
+DRAGON'S          | 1000
+TEETH             |    0
+CROWBAR           |   50
+DAGGER            |   50
+RAPIER            |  200
+SHORTSWORD        |  375
+SCIMITAR          |  500
+BROADSWORD        |  725
+LONGSWORD         |  750
+CLAYMORE          | 1000
+GREATSWORD        | 1125
+HANDAXE           |   75
+BATTLE AXE        |  250
+GREAT AXE         |  750
+MACE              |  300
+MORNINGSTAR       |  500
+STAFF             |   25
+MAUL              |  175
+FLAIL             |  675
+LARGE FLAIL       |  675
+SPEAR             |  150
+HEAVY SPEAR       |  200
+SHORTBOW          |  275
+LONGBOW           |  525
+LT. CROSSBOW      |  635
+HVY CROSSBOW      | 1260
+JAVELIN           |  100
+HAMMER            |  350
+BUCKLER           |   75
+SHIELD            |  225
+DWARF HAMMER      |  550
+LEATHER           |  450
+CUIRBOLLI         |  925
+RING MAIL         | 1625
+BRIGANDINE        | 2125
+CHAIN MAIL        | 2500
+SCALE ARMOR       | 2000
+PLATE MAIL        | 5000
+REINFORCING       | 5500
+DWARVEN           | 5500
+ELVEN             | 5500
+WIZARD'S          |20000
+FLAME PROOF       | 3500
+COLD PROOF        | 3500
+STORM PROOF       | 3500
+DRAIN PROOF       | 3500
+HOLY              | 1000
+FLAMING           | 1000
+COLD              | 1000
+STORM             | 1000
+LIFE DRAIN        | 1000
+RUBY              | 5000
+DIAMOND           | 6000
+EMERALD           | 3000
+SAPHIRE           | 4000
+JADE              |  800
+SILVER            |  400
+GOLD              | 2000
+RING              |  150
+NECKLACE          | 1000
+BRACELET          |  500
+CROWN             | 2000
+GOBLET            |   50
+MIRROR            |  500
+PENDANT           |  500
+SCEPTRE           | 1000
+SPICES            |  500
+SKULL             |    0
+POTION            |  400
+POTION            |    0
+A SCARAB          |  400
+THE LIVING        |  500
+THE ETERNAL       | 2500
+A MAP             |  150
+AN AQUA HELM      | 5000
+A FEATHERED       | 1000
+BAG OF WINDS      |  500
+
+  6. DIALOGUE
+
+The dialogues below contain no dungeon text, only what you will see when 
+you are outside.  So there are no spoilers.  Unfortunately the bulk is 
+in ALL CAPS since that's how the text was extracted from the disk image.
+
+******  BAR TALK  ******
+
+--THE DWARVES WILL SELL ANYTHING TO ANYONE FOR A PRICE
+--THE ELVES ARE HAVING A REAL TOUGH TIME OVER THERE.
+--I HEARD THERE IS BURIED TREASURE IN THE SWAMP
+--THEY SAY THIS ALVIS MONSTER IS INSANE.
+--THE LAST ELVEN PRINCESS WAS KIDNAPPED.
+--THERE IS A SHIP LEAVING FOR THE ELVEN ISLAND SOON.
+
+The dialogues below contain only transcripts of interactions with 
+potential monsters(i.e. situations where you are given the 
+Talk/Run/Fight/Surrender options) and do not contain "Y/N" stuff or 
+anything from the dungeons.
+
+******  WIZARD'S ISLE  ******
+
+YOU FIND A VERY FOUL SMELLING CAVE YOU SEARCH IT AND PILE UP EVERYTHING 
+YOUFIND... YOU SEE  YOU ARE AMBUSHED BY  
+
+Monsters:
+A PACK OF TROLLS AND GOBLINS.
+GIANT SPIDERS
+GNARLED MOVING TREES.
+A PACK OF WOLVES.
+LARGE MOVING PLANTS
+GIANT SCORPIONS.
+
+[Talk:]
+--THEY DON'T SEEM TO UNDERSTAND.
+--THEY CHARGE!
+--TROLLS EAT PRISONERS!
+
+[Surrender:]
+THEY DON'T UNDERSTAND THE CONCEPT.
+THEY ROB YOU AND LET YOU GO.
+WE CAN NOT ACCEPT YOUR SURRENDER. DIE LIKE WARRIORS!
+
+A GROUP OF UNDEAD FARMERS.
+--THE GHOULS LAUGH HYSTERICALLY...FRESH MEAT!
+
+UNDEAD WARRIORS.
+--OUR MASTER, THE NECROMANCER, BIDS US TO SLAY YOU!
+
+SOME OGRES.
+--WE'RE SUPPOSED TO HUNT DOWN SOME REBELS ARE YOU DEM? [NO:]  OK, BYE. 
+BYE.
+
+TROLLS AND GOBLINS, LED BY A SORCEROR.
+--A MAGE STEPS FORWARD, 'DO YOU HAVE PERMISSION TO PASS THROUGH HERE?  
+[YES:]  ALL RIGHT, SHOW ME YOU PAPERS! DO YOU PRETEND TO HAVE PAPERS SO 
+AS TO  GET CLOSE AND AMBUSH THEM?
+
+AN ENORMOUS RED DRAGON
+--A GREAT VOICE BELLOWS, 'FOOLS! YOU CANNOT HIDE FROM ME!' YOU HAVE COME 
+TO CLOSE TO MY, THE GREAT TORGK'S LAIR. NOW DIE! YOU SEE A GREAT RED 
+DRAGON FLYING IN THE DISTANCE. DO YOU HIDE?
+[NO:] IT LANDS IN FRONT OF YOUR PARTY AND ROARS, 'I AM TORGK! GIVE ME 
+ALL YOUR    VALUABLES AND YOU MAY LIVE!  DO YOU AGREE?  [YES:]  THE 
+GREAT WINGED SHAPE PASSES OVERHEAD  AND IS GONE.  YOU GIVE HIM YOUR LOOT 
+AND HE FLIES OFF.  [NO:]  HE ATTACKS.
+
+A PACK OF GOBLINS WITH GIANT SUPPORT.
+--GIVE US ALL YOUR VALUABLES AND WE'LL LET YOU GO...THIS TIME. 
+
+A GROUP OF ARMED MEN.
+--YOU DISCOVER THAT THESE ARE REBELS FIGHTING THE NECROMANCER. WHEN THEY 
+FIND OUT THAT YOU WERE RECRUITED BY THE WIZARD THEY ARE OVERJOYED!  THEY 
+TELL YOU THE DRAGON OF THE FOREST IN THE SOUTHEAST KEEPS THE HOLY WEAPON 
+IN HIS LAIR. THEY OFFER YOU A DRAGON-SLAYING SWORD. DO YOU TAKE IT?  
+[YES:]  SEARCH FOR US LATER WHEN YOU'VE GOTTEN  RID OF SOME OF THAT 
+JUNK.  [NO:]  WELL, GOOD LUCK AND GOODBYE.
+
+A GROUP OF LIZARD MEN.
+--FALL BEFORE THE JIHAD, WARM ONES!
+
+******  ELVES' CONTINENT, WESTERN HALF  ******
+
+Talk to monsters:
+THEY DON'T SEEM TO UNDERSTAND.
+YOU FAIL TO COMMUNICATE
+
+Surrender:
+THEY DON'T UNDERSTAND THE CONCEPT.
+THEY ACCEPT YOUR SURRENDER AND ATTACK.
+THEY ACCEPT YOUR SURRENDER. YOU ARE STRIPPED OF YOUR VALUABLES AND 
+RELEASED
+YOUR OFFER TO SURRENDER PUZZLES THEM.
+
+Monsters that will attack:
+GIANT SPIDERS
+A PACK OF WOLVES
+LARGE MOVING PLANTS
+GNARLED TREES WITH MOVING LIMBS
+A SWARM OF FIREFLIES
+THEY SMILE SHOWING SHARP, HUNGRY TEETH.
+A GROUP OF GIANTS.
+MOUNTAIN FOLK LEADING GIANT GOATS.
+A GROUP OF LARGE STRONG MONSTERS.
+ONE OF THE NECROMANCER'S COMPANIES.
+DEMONS.
+
+TURTLES.
+--THEY TELL YOU, 'WADDLING TURTLE WAS LAST SEEN UPSTREAM FROM THE LAKE.'
+--'WADDLING TURTLE JUST LEFT. IF YOU HURRY YOU MAY CATCH HIM', THEY SAY.
+
+EAGLES.
+--THEY SAY 'GRAY EAGLE CAN BE FOUND IN THESHADOW OF MOUNT ATSAHS.'
+--THEY WARN YOU OF TREES TURNED EVIL AND TO STAY AWAY FROM THE HAUNTED 
+WOODS IN THE SOUTHERN PART OF THE ISLAND.
+
+SOME FOPPISHLY DRESSED FOXES.
+--THEY ADVISE YOU TO KEEP TO THE PATROLLED AREA BETWEEN THE TWO PORTS.
+--THE FOXES SAY THEY HAVE HEARD A RUMOR THAT THE PEOPLE IN THE TEMPLES 
+KNOW HOW TO CLOSE THE GATES THE INVADERS ARE USING TO ENTER THE WORLD.
+--THE FOXES WARN THERE IS A DUNGEON ON THE NORTHWEST CORNER OF THE 
+ISLAND THAT WAS DESIGNED BY A CRAZED LUNATIC.
+
+
+AN ELVEN PATROL.
+--THEY SAY THE ENEMY IS PUSHING STRONGLY FROM THE EAST AND IT IS ALL 
+THEY CAN DO TO KEEP THE AREAS AROUND AND BETWEEN THE PORTS SAFE FROM THE 
+INVADERS.
+--THE ELVES WARN THAT THE HAUNTED WOODS LIE BEYOND THE HILLS.
+
+A MADMAN RUNNING IN CIRCLES.
+--YOU WANT TO SEE ALVIS? I JUST SAW HIM!  FOLLOW MY TRACKS AND YOU'LL 
+FIND HIM.
+[PRAY FOR HIM:]  YOU RELEASE HIM FROM HIS MADNESS. HE HAS NO 
+POSSESSIONS.
+
+VARIOUS:
+'YOU ARE IN THE HAUNTED WOODS. FIND MAGOOMBA'S LAIR, GET THE DAGGER, AND 
+GET OUT OF HERE', THEY ADVISE.
+'DANGER INCREASES AS YOU HEAD EAST. IF YOU REACH THE WITHERED LANDS, SEE 
+IF ANYTHING REMAINS OF THE TEMPLES. GREAT  KNOWLEDGE WAS STORED THERE.'
+'THE HAUNTED WOODS ARE JUST OVER THE HILLS. TRUST NO TREE THERE', THEY 
+SAY.
+THEY SAY, 'GRAY EAGLE'S AERY IS NEAR THECOAST.'
+BEWARE OF WEREWOLVES. THEY LOOK JUST LIKE WOLVES, BUT ARE POWERFUL AND 
+EVIL.
+
+There's also a hut somewhere that I missed, according to the bytes in 
+the files.
+
+******  ELVES' CONTINENT, EASTERN HALF  ******
+
+[Talk:]
+THEY DON'T SEEM TO UNDERSTAND.
+THEY DON'T FEEL LIKE TALKING.
+
+[Surrender:]
+THEY DON'T UNDERSTAND THE CONCEPT.
+THEY ACCEPT YOUR SURRENDER AND ATTACK
+YOUR OFFER TO SURRENDER PUZZLES THEM.
+THEY ROB YOU AND LEAVE.
+
+Monsters:
+A SWARM OF FIREFLIES
+A PACK OF WOLVES
+A FLOCK OF FLITS
+UNDEAD WARRIORS
+A DRAGONMAN PATROL
+A LIZARD MAN CLAN
+COCKROACHES
+MOVING TREES
+HILLMEN AND THEIR FLOCK
+GIANTS
+A NEST OF SPIDERS
+TROLL BAND
+AN ANT COLONY
+SAND SWIMMERS
+SAND WORMS
+
+AN ELVEN PATROL.
+--THEY ADVISE YOU TO ASK FOR ADVICE AT THE TEMPLE.
+--'STAY OUT OF THE DEEP DESERT LEST YOU BE PULLED BENEATH THE SAND 
+FOREVER', THEY WARN.
+
+Abbot(west temple:)
+THE ABBOT TELLS YOU OF THE ANCIENT DEMON WARS. A TIME WHEN ARROGANT 
+ELVEN WIZARDS GREW MORE POWERFUL THAN WISE. DOORS WERE OPENED INTO OTHER 
+WORLDS. THROUGH THESE INVADED AN EVIL ARMY. THE GREATEST ELVEN WIZARDS 
+DIED IN THE ENSUING WARS. FINALLY ELHARRA, MIGHTIEST OF HEROES, PASSED 
+THROUGH THE DOORS AND CLOSED THEM FROM THE OTHER SIDE. IN THE TURMOIL 
+THAT FOLLOWED, THE FAIR CITY OF ENOLHO, HOME OF ELVEN MAGIC, SANK 
+BENEATH THE SEAS.
+
+Abbess(east temple:)
+THE ABBESS TELLS YOU THAT ONLY A SPECIALWEAPON, ENCHANTED BY ONE OF THE 
+LINEAGE OF ELHARRA, CAN TURN BACK THE INVADERS. THE LAST OF ELHARRA'S 
+LINE, THE PRINCESS RAINBOW, IS HELD CAPTIVE IN THE NORTHEAST OF THE CITY 
+OF KORUY.
+
+******  DWARVES' CONTINENT  ******
+
+Monsters that will attack:
+A NEST OF SPIDERS.
+A FEW DEMONS.
+DEMONS RIDING BEARS.
+DEMONS RIDING BEARS LED BY A DEMON BEAR.
+A PACK OF WOLVES.
+A BEAR FAMILY.
+SOMETHING ABOMINABLE.
+SOMETHING ABOMINABLE WITH ICE MEN.
+LARGE, COLD PEOPLE.
+A GROUP OF LARGE UGLY BEINGS.
+DEMONS RIDING WOLVES.
+A FIELD OF ICE PLANTS.
+
+[TALK:]
+--THEY DON'T SEEM TO UNDERSTAND.
+--THEY AREN'T IN A CONVERSATIONAL MOOD.
+
+[SURRENDER:]
+--THEY DON'T UNDERSTAND THE CONCEPT.
+--YOUR SURRENDER IS ACCEPTED, BUT THEY ATTACK ANYWAY.
+--THE DWARVES TAKE YOUR MONEY AND LEAVE.
+--THE DWARVES WANT TO TAKE YOUR MONEY, BUT THE DWARVEN MOTHER WON'T LET 
+THEM.  SHE WARNS THAT IT IS MUCH CHEAPER TO    TALK TO DWARVES THAN TO 
+SURRENDER.
+
+SOME DWARVES
+A DWARVEN PATROL.
+--THE DWARVEN CAPTAIN PUSHES BY ORDERING, 'MOVE ASIDE BARBARIAN 
+PEASANTS.'
+--THE DWARVES SAY THEY ARE LOOKING FOR LABORERS TO FIX THE CITY SEWER 
+SYSTEM. THE JOB PAYS FOOD AND LODGING AND 3     SILVER A WEEK. WILL YOU 
+TAKE IT?
+--SOME DRUNKEN DWARVES ON MULES MAKE FUN OF YOUR SIZE, CLOTHES, AND 
+ANCESTRY.
+--THE DWARVES OFFER TO SELL INFORMATION FOR 1 GOLD PIECE. WILL YOU PAY?
+[Yes, but no $:]IF YOU DON'T HAVE GOLD, WE DON'T WANT TO TALK TO YOU.
+[Yes:]THE INFORMATION IS...
+----SRI HAS TAKEN THE AQUA HELMS.
+----SRI LIVES IN THE SOUTHERN PART OF THE ISLAND.
+----SRI LIVES DEEP IN THE HILLS.
+----SRI LIVES IN THE MOST INACCESSIBLE PART OF THE ISLAND.
+----THERE ARE WEREWOLVES IN THE HILLS
+----THERE IS MUCH WEALTH IN THE ICE DRAGON'S LAIR.
+----BUY LOW AND SELL HIGH.
+
+A DWARVEN FAMILY.
+--THE MOTHER SAYS, 'SRI HAS THE AQUA HELMS AND LIVES IN A DEEP CAVERN IN 
+THE CENTER OF THE ISLAND, JUST SOUTH OF THE MOUNTAIN SPINE.'
+
+[If you attack dwarves:]
+--MURDERERS!
+BY THE WAY, THE DWARVEN PATROLS ARE NOW OUT TO GET YOU.
+
+******  END DIALOGUES  ******
+
+  7. MAIN WALKTHROUGH
+
+Basically, everything important to finding items is done in a dungeon, though 
+items are probably more restricted to treasures or tough combats. So this 
+walkthrough is probably more dungeon-intensive. For improving your characters 
+I can only offer the following advice: rest up. Don't let fatigue get over 
+60. It will mean the difference between routing and being routed. If you 
+think maybe you should go back, go back. When you get a valuable item, save 
+the game. I'll be giving directions even for simple items here, so don't feel 
+dumb or patronized unless it helps you in some disturbing strange way I'd 
+probably rather not know about.
+
+  7. MAIN WALKTHROUGH
+
+First, read section 3 if you have any questions. Second, I always play on 
+Easy, because it doesn't seem to affect the experience you get, and it 
+doesn't mean any fewer monsters.
+
+    7-1. ABOVE WIZARD'S ISLE
+
+This is where you start out with your shiny new party. Stick to the plains 
+for now and save after each fight. Forests can contain Moving Trees, and 
+swamps can contain Swamp Things, which are a bit too tough at the start. 
+However, undead farmers and the necromancer's companies are just fine for 
+kicking off.
+
+In general the experience you get, and the number of monsters you fight, 
+decreases with each time you fight, so you really have to spread your party 
+around. There are several treasure troves, but you may want to improve your 
+search ability before looking for them. There's a dragon in the SE that 
+fights you, and you can get Dragon's Teeth from him, which are useful for 
+later.
+
+While you run around you can improve your maximum karma early on. Each time 
+you do, you get a point for your actual karma. This makes you less likely to 
+have to go back to the temple. If you give all your bandages to one guy who 
+is good at first aid, you'll save on small ticky-tack prayers immensely.
+
+While you're traipsing around you'll want to find Greenbay(Lambeaufield not 
+included.) It's in the south, across a swamp, and you'll want to had in from 
+the NE in order to get there with as little chance as possible of tipping off 
+the swamp beasts. Save before walking across. Nothing but the temple is 
+operative right now, but that helps boost your karma. Have your priests spend 
+everything they have on karma. You should need 500 experience points to get 
+to the top. With that, you can then trek to the Necromancer's Cave.
+
+But first let's review where we can find treasure. You can usually clear the 
+monsters guarding the treasure before you search for it. To do that, just 
+keep loitering/searching/following tracks until there's only one kind of 
+monster attacking you with the same dialog. If you want, you can save after 
+each won fight. Because you may want to wait to improve your search to 300+ 
+and rest up too(zero fatigue) before proceeding--a bit better chance of good 
+items that way. And I will not dirty mack you out if you save before 
+searching to get something good. All you need is one cool item(extra 
+magic/physical protection, or magic weapon) per horde and you are in great 
+shape.
+
+4E you have fights with trolls and goblins. You can win these out of the 
+gate, but as I mentioned before, you might want to wait to improve your 
+searching before looking inside.
+
+A bit further east(4E2S in fact) are some ogres looking for rebels. Say you 
+are the rebels, and they will attack you. There should be two fights before 
+you find their cave.
+
+In the pass east of the main mountain range, trolls/goblins/sorcerers ask you 
+for your papers. Say you have them and sneak up. There are about five fights 
+here.
+
+On the other side of the mountain are two tougher-to-find caves. 3N3E of the 
+tower is the Lizard Men's cave. Be rested for these guys. They're tough.
+
+Then 7E1N of the Wizard's Tower you have a cave of items from adventurers you 
+may or may not have fought. They are seen as "armed men" and if you talk you 
+get a Dragon Slaying Longsword(whoop-te-doo) but if you don't, you can win a 
+very lucrative battle with all manner of +1 chain mail and special items and 
+gold, and you can uncover the cave at the listed location.
+
+Then finally in the NW you have some fights with undead warriors that lead to 
+probably the biggest bonanza of a cave on Wizard's Isle. If you search under 
+it, you can pop out on the other side where you'll find the Necromancer's 
+Cave after a few more fights with undeads. It's time to go in there, unless 
+your karma is below 2/3 of its maximum. If in doubt, go back and maybe win a 
+few more fights and return
+
+    7-2. THE NECROMANCER'S CAVE
+
+It's best to enter this cave with no fatigue. You may need to exit and rest 
+and re-enter for the final fight. It's a pretty route-one affair, with a few 
+puzzles about reading something somewhere and using it somewhere else, and a 
+secret door based on what part of the map you haven't been to yet. You have a 
+few doors to unlock and some cool side treasures. Once you win the 
+Necromancer's Cave, it's destroyed, the island is reorganized, nobody there 
+attacks you any more, and Greenbay isn't just a temple, it's a whole town.
+
+      7-2-1. LEVEL 1
+
+The door at the end of the corridor opens up onto some undead warriors. You 
+can talk to the skull another room down if you want, but he only says to look 
+for secret doors. Going to the DL of the level you'll fight some more undeads 
+and you'll open a room to the right. In the center, you have undead animals. 
+Unless your Cure Disease is very high(250+,) don't mess with them. They'll 
+take you out. In fact, unless you've spent exclusively on dexterity you're in 
+trouble anyway.
+
+To the north and then to the west/north you have some side rooms with clues 
+about the door's and the floor's names(WNPT and IXL.) Even better, you have 
+Weapons Masters to fight. They have +2 Plate. It can give you a temporary 
+armor boost, and you'll need all you can get. Put the magic stuff--or even 
+your old plate mail at a cool 5 gold per--in your backpack. Then get on with 
+things.
+
+Off to the east is the main passage. You'll go into a library where you'll 
+want a thief to search the suspicious bookcase. This opens the door to 
+another fight. To the right is another door leading up, and then there's 
+another skull who wants to talk to you. He's got a pair of dragon teeth, but 
+you probably already beat up the dragon, so don't bother. Behind this room 
+you have the stairs to level 2.
+
+      7-2-2. LEVEL 2
+
+To the left you enter a room with infinite undead warriors. Use the dragon 
+teeth as fighting them leads to a loss without combat. South to an open room 
+and east to one with an easy fight. Don't worry about the chests(bandages and 
+spices) but the next fight will be tough, minotaurs and such. Always have 
+magic on for these. You'll have to pass the door in the SE now. WNPT gets you 
+through and then after some zigzagging you have another big fight with 
+mummies and minotaurs, etc. Trash them and now S-E-N you can find 
+necromancers to the east. You can get a +50 Luck scarab on the table after 
+winning the fight or you can just enjoy the experience. If you took the east 
+fork you could read some information of what Anawt plans to do with the 
+world.
+
+But you want to go west to finish things. In the NE corner of this what-
+passes-for-a-maze you have a skull. Talk to it. It tells you the hall's name 
+is ROLF. But where is the hall? Well, there's that central blob that's not 
+been found yet. Search all the walls near it. Ah-ha. It's the SW corner, 
+west-ish side. You can go east through the hall and reach double doors to the 
+north.
+
+Heal everyone and save here. If you can't win the fight, then maybe you need 
+to reset the dungeon, plow through, reap the experience and improve your 
+dexterity a few times--it seems to be more efficient than wandering around 
+looking for fights, although you may need to reload karma too. You'll get 
+more nice treasure out of it later. But it only took me a couple of cracks to 
+win. Once you have, leave. The dungeon collapses on your exit.
+
+      7-2-3. THE AFTERMATH
+
+Farmers will cheer you as you loop around the mountains and go back to 
+Greenbay. The swamp protecting it is gone! It's a real town now! Check the 
+items being sold at the Enchanter's. I've gotten a Cold Spear(paralyze,) and 
+I believe the items are random only to the point of being one of ten or so 
+choices.
+
+Sell your valuable items and buy some enchantments. I was able to get quite a 
+few items to +4. Be sure to visit the temple and leave 1000 copper for the 
+boat to the Elven Isle. You don't ever need to come back here unless you want 
+to check on the magic items. Which may in fact be useful--save, camp outside 
+and rest and see what the next item is. You should be able to save and 
+restore if it's something you don't like. You can get a partial arsenal of 
+the sort of magic items you'll need later in the game.
+
+The items are:
++2 flaming broadsword +30 sword
+life drain great axe
++1 storm longbow
++1 cold flail
+cold spear +25 spear, paralyze
+====not so useful
++3 silver claymore
++7 venemous rapier(which is very tempting) +100 unlock
+javelin(lightning)
+
+
+    7-3. THE ELVEN ISLE, GETTING STARTED
+
+You'll probably need to improve a bit before fighting Magoomba. You should 
+probably make, as your goal, getting one protective item to +5 and/or one 
+weapon to +5 for each player, assuming you have them.
+
+The two towns in the Elven Isle are Sea Haven(north, where you start) and 
+Lotharia. Progress between them should not impede you, but the side ventures 
+are a bit more tricky. They are relatively friendly and safe. You'll also 
+meet some friendly NPC's. Be sure to talk to everyone you see as it is not a 
+good idea to fight some of them. Turtles and Eagles in particular are tough. 
+Some enemies are ambiguous, too, like trees--which can be friendly.
+
+I don't recall anything bad happening if you fight foxes, and I don't think 
+there's any retribution for fighting elves, but best to play it safe--
+although if you can beat up a group of elves and get away with it, that's a 
+lot of extra cash for you. They all have +1 Elven Chain Armor, which you can 
+sell. If you are using an emulator, just save the state when elves talk to 
+you. If you fight and can win, bonanza! If not, well, you can just reload and 
+walk away. It's worth trying after each set of improvements you make. Beating 
+up a group of 15 gets you 135 gold pieces' worth of mail, which is almost one 
++5->+6 advancement.
+
+Lotharia has a +1 Elven Ring for sale and is closer to the first place you 
+need to visit so you should get down there as soon as possible.
+It also seems to alternate randomly between these and possibly others. A new 
+magic item appears if you buy it, but there's no law against going right to 
+the market and selling it back. A partial list of what's in either town is 
+below:
+
++1 Elven Ring
+Flame Proof Ring
+========
++3 Lycanthrope Slaying Longbow
++1 Elven Chain
++4 Silver Necklace
+Emerald treat disease+50
+Spices treat poison+75
++3 Jade Crown
++3 Longbow bow+50
+
+Therefore, you can get +1 Elven Rings for everyone as long as you follow the 
+pattern of buying and selling a bunch, resting a day, and returning. This is 
+probably best accomplished at the end of a long campaign. You might be able 
+to finagle the randomnes by waiting around and with save-states it's readily 
+accomplishable.
+
+Now once you've gotten these neat items you probably want to go find ways to 
+get gold to charge them up. You should be able to beat up enemies on the 
+eastern part of this screen if you rest up enough. You can even go off the 
+screen to the right, but don't go on the desert yet. You'll still want to 
+improve dexterity, and every time you meet a Necromancer's Company, put the 
+longswords in your backpack. If you face undead warriors, so much the better. 
+That's chain mail, 3500 instead of 750 copper. This may not seem like much 
+but 4 fights against 15 enemies each makes for 45 gold. You'll be finding 
+other wealth, too.
+
+Be sure you can whip black trees before facing Magoomba. He's a tough 
+customer. You can find him east of the woods of Lotharia.
+
+    7-4. MAGOOMBA'S
+
+There's not much to do here except fight Magoomba. He'll probably be the last 
+one to go down. Magoomba's is roughly east of Lotharia. It's guarded by black 
+trees and necromancer's companies(wimpy undeads.) It is 3W of the base of the 
+mountain range. Black trees always seem to be hanging around here so they are 
+probably good for a few fights if you need to build up your experience.
+
+Re-setting Magoomba's will not get you another Living/Eternal Dagger. Sorry. 
+After this you can retreat to Lotharia or Sea Haven for the next bit.
+
+    7-5. KORUY, THE DESERT AND THE TEMPLES
+
+You've got a big trek ahead of you. The area east of Sea Haven, on the next 
+screen entirely(you'll go off right of one) is much more treacherous. You can 
+probably run from most fights, but if you want them, you can get a lot of 
+experience. There are several treasure troves to uncover here. You can beat 
+up hill men in the SW or walk along the south coast for relatively less 
+turbulent fights and build up dexterity there. Or you can walk into the 
+desert.
+
+Sand swimmers appear on the rivers, and there are ant colonies, lizard men 
+and Great Wyrms(very tough) to fight. The sort of enemy you encounter in NPC 
+dialog doesn't fully reveal what you'll have to fight. It can vary. So be 
+cautious and save frequently. And keep your fatigue very low.
+
+Koruy is at the very north center of the desert, and the dungeon of Koruy is 
+in the northeast of Koruy. You probably won't want to go there right away, 
+and when you do you'll want to avoid the other city squares. The place is 
+crawling with cockroaches, who are really nasty customers.
+
+You will probably want to visit the abbess in the eastern temple, which is 
+inside some mountains east of Koruy. She gives advice, and you recharge your 
+karma. In the pass between the mountain and the sea you'll go by a cave that 
+many groups of flits/flitters are guarding. Don't try to take care of them 
+until after you've gone to the temple. In fact you may be so bogged down with 
+stuff you may not be able to take all the treasure they have. But rest 
+assured you can come back later and finish the trick. With the temple so near 
+the fights are easily winnable without penalty.
+
+The abbott in the temple to the west is also behind some flits that guard 
+treasure between the sea and a mountain. Be sure to check him out later. One 
+curious thing about the western temple is that elven patrols are there in 
+spades. You can't move a few squares without talking to them. So after you've 
+cleared the flits and flitters, you can beat up a few elf patrols for mucho 
+gold, if you need that to charge certain items up.
+
+The desert itself holds two caves. You'll see a river fork in the center of 
+the desert. 4L2U and 4R2D of where the right fork starts, you'll find a cave, 
+guarded by dragon men and/or lizard men. They're very much worth it, but 
+don't overload yourself with treasure. You can always come back. You'll pick 
+up good incidental experience along the way.
+
+But what you really need to do is get through the Koruy Dungeon. It's not a 
+big one, but the last fight is tough, at first. If you come back later, of 
+course, it'll be easier, and you can still pile up considerable gold at low 
+risk. I recommend that if you're out of ideas and not quite up to the Dwarf 
+continent. Still, the first time through, save after every fight. They're all 
+lucrative, for experience and saleable items.
+
+      7-5-1. KORUY DUNGEON
+
+Rest up before entering. Spiral around and when you see secret doors in the 
+west wall, go there. There's a fight with dragon men. Now you can check out 
+the door to the south. A fight with a dragon and then you can see a secret 
+door to the east with six gold chests. Half are rigged. Start with the upper-
+left chest and then open every other one to leave ~40 gold pieces richer.
+
+Now go north to the old room and north again. More dragon men. You should be 
+able to dispatch them. Then head east. Heal everyone before busting the door 
+down. These enemies reappear after you think you've killed them.
+
+Once you've won this fight, search the left bookcase with your thief. A 
+skeleton key--use it later. The corner chests have some very nice gold, so 
+don't overlook them. Head back through the secret doors and take the spiral 
+counterclockwise. At the end is a door to a room with undead warriors and a 
+liche, and then a room behind that holds ghosts. Nothing too taxing.
+
+After that detour, you can head through two pairs of double doors east of the 
+spiral. A fight with dragon men and children. Go south and then Examine for a 
+peg 1N of the third barrel from the left. Examine north of the NW corner and 
+open the door. More dragon men! But don't worry. There's not much left to map 
+out. The princess the abbess was banging on about is in a room behind the NE 
+wall. Have one player ready the skeleton key and then the princess will bless 
+The Living Dagger and change it to The Eternal Dagger, which gives it 25 holy 
+damage instead of 5, by the way. You can enchant it to +6, too. Whoever 
+doesn't have a nice magic item yet can handle it. Now take off for Sea Haven. 
+Sell your stuff and go to Waddling Turtle's. He has an item for you.
+
+    7-6. WADDLING TURTLE'S
+
+Waddling Turtle is in a hut on the river in the mountains in the western 
+Elven Isle. The river has dead ends to the west and north. He's in the north. 
+Search to enter. Go up to him and talk. He'll see you have the dagger, and 
+you'll get a map for your troubles. Don't try to steal from the chest. It's a 
+long hard fight, poor experience, and lousy treasure.
+
+    7-7. GREY EAGLE'S
+
+Before looking for Grey Eagle make sure you have/will buy 50' of rope to 
+climb the mountain to get there. Grey Eagle is on the southwest coast, on a 
+patch of hills between mountains and the sea. There's only one(this 
+mountain/sea thing is a pattern throughout the game.) Grey Eagle is in the 
+very north, 2U2R of another eagle. He'll give you a Bag of Wind for Avlis's 
+Tower. You can tackle that now, since there's really only one challenging 
+fight. Just be sure the party's well rested.
+
+    7-8. AVLIS'S TOWER
+
+A really nutty dungeon that's one-way to get in but not too hard to get out 
+of if you're good with fiendish puzzles. The main problem is the big fight 
+with the Big Man may be sticky, but once you find the Cloak of Feathers he's 
+hiding and you get out, you can go see Grey Eagle.
+
+      7-8-1. LEVEL 1
+
+Pay 20 copper to enter. You can open the treasure in the next room after 
+this. You'll fight Jacks, and then the door to the north will open. Find 
+another door to the NE. Then you'll fight some howlers. Again, not bad. In 
+the SE is a door to a secret room where there's a +7 greatsword. Too bad it 
+doesn't have any modifiers or it'd be totally kickass. But it's still cool to 
+find something +7 when you can only enchant to +6.
+
+Now a room, hall and room later you'll have to give the right answer to a 
+puzzle. Examine 1N of the door. The answer is 7. (Brief explanation of the 
+solution:  the person with 5 cakes gives away 2 1/3 to the person with no 
+cakes. Each cake costs 3 gold as the people have a total of 24 gold. So #1 
+has 15 gold's worth of cakes, #2 has 9, and #1 needs to give 7 and 1 
+respectively.)
+
+Next room, a fight with jesters, which is pretty easy. The door reads "ETESH 
+STEJRES TEIFGRH LAEIYS" = "These jesters frighten easily" garbled. Then there 
+are some gorillas.
+
+For the countdown room, push the red button and wait, although there's an 
+amusing message if you pull a bunch of levers first.  You see, letting time 
+run out is the solution. There are lots of puzzles here that are fun to try 
+but aren't necessary to 
+solve the game. For instance, the trickiest one is the cryptogram below, 
+where a slash delineates letters:
+
+    1&/-1/-/-11/-/  1/&1/  --/  -&/&/&/-11/ &&-/-/-1/1/11&/-&/  1&/-1/-/
+    &&-/-/-&/  1/11&/  1&/-1/-/  -1/&/1--/&-/  -11/&/&/111/ 
+
+"There is a door behind the bed in the howl room." But you knew that already, 
+because I told you. I basically started with assuming the 1-letter word was a 
+and guessed that & must be a vowel. It worked.
+
+After the trick room, statues say "You'd better look sharp/and watch your 
+head/cause if you don't/you'll wind up dead.--Alvis" take the NE door and 
+fight some demons after the hall. D-L-U and it's the stairs to level 2.
+
+      7-8-2. LEVEL 2
+
+Level 2 has some good fights to the north after you get past the first door. 
+The first one features weapon masters with +2 Plate and +2 Life Drain 
+Longbows. If you'd like to, you can search the center of the bookcase to the 
+right to find the Bag of Winds. Then Avlis is a couple of rooms away. The 
+Feathered Cloak is in the fireplace, 3rd-left square. Get it and you hear 
+something click. It's in the right passageway after you go back. You'll see 
+some statues at the end of the passage.
+
+You will want to close all the doors past the statues--close the outer ring 
+first, then close all the doors to the center room. Then jump in the flame, 
+and you will have left Avlis's Tower. The puzzle of the statues deserves some 
+explanation. The Left statue says he is next to Truth, so he can't be Truth. 
+The Middle statue can't be Truth(he says he's Diplomacy), so the Right must 
+be. Therefore the Middle statue must be Lies(as Right says) and Left must be 
+Diplomacy(sometimes tells truth)--therefore you do as the right statue says. 
+Close all the doors. If you don't, you are transported to a south room(the 
+one you can't open the door to) and given a combat. Repeated mistakes when 
+you step on the central flame lead you east, and eventually mistakes will 
+send you to the third room east where you will keep fighting a tough and a 
+toughie. Also be aware that you don't have to close the doors outside of the 
+room, and doing so is no substitute for closing doors inside the room(as I 
+found out!)
+
+Close-e 4N 2W 2S 2W close-e 2W 6S close-e 3S E 3S 2E close-w 2E close-e 2NW 
+2N and close all the doors inside before stepping into the flame. BLAM! 
+You're evicted. You can go back to Grey Eagle's now, but he'll just tell you 
+you need Aqua Helms. So now it's time to visit the Dwarven Isle.
+
+    7-9. THE DWARVEN ISLE, EXPLORING
+
+Dwarf Hold, where you arrive, has some useful items, although the sell-buy 
+trick doesn't work so well. They charge double what elves do!
+
++1 dwarven plate
++5 flaming battle axe
++7 dwarven diamond
+========
++1 gold heavy crossbow
++3 storm heavy spear
++3 dwarven chain
++2 dwarven chain(only need 10 strength)
++5 dwarf hammer
++3 giant slaying dwarf hammer
+
+One thing to watch through all this is that you want to save 10 gold for 
+return trips. You may only make one trip here, but you want it to be 
+successful.
+
+Fighting dwarf patrols is very lucrative because you can get a lot of nice 
+treasure from them. But the problem is that everyone will fight you from then 
+on. Just take what comes when Dwarf Patrols surprise you; the Elven Isle is 
+better and safer for gold anyway. Also, beware of dwarves surprising you when 
+you step on Dwarf Hold. It's happened to me.
+
+Now there is a cheat where you can change a byte in the save state to get to 
+Sri's easily. It's byte 423f and if you change it from 6 to 7, voila! You can 
+walk through the center of the mountain. But if you want to play it honest, 
+here's what to look for.
+
+If you want to go exploring then I recommend looking at the right side first. 
+The caves are a bit closer, the monsters are easier, and Sri's Lair is a more 
+direct diagonal shot. Of course you can go down the right arm and back down 
+the left(circling around and completing Sri's would probably overload you,) 
+or do whatever you want. You probably don't need much treasure right now, and 
+the critical fight is Sri's. Beat him and you have very little combat left to 
+go through. Then get out of this crazy place where dwarves insult you and 
+charge gold for silly advice and offer you an insulting 3 silver a week to 
+work on the sewers(you can make more than that resting and getting extra 
+rations.)
+
+You also want to have Treat Disease at 400 for your one priest. Monsters are 
+vicious here at that, and getting something hard to cure will waste a lot if 
+time. Once again you'll find caves between the mountains and the sea, and 
+they are full of treasure.
+
+On the north coast it's empty.
+On the west coast a dwarf family gives advice.
+Lower down you fight Arcturus, the hardest fight.
+In the southwest are yeti.
+In the southeast are demons with wolves.
+In the northeast you have ice people.
+
+
+Sri's lair is in the south hilly area, at the north end--the east of two 
+squares. Search and enter.
+
+    7-10. SRI'S LAIR LEVEL 1
+
+Sri's lair has lots of demons. There's some good treasure, too, and it's a 
+weird winding maze where the final fight is really nasty. Many side paths 
+contain vampire bats, etc., and there is even a slave pit where you can break 
+your back mining for silver.
+
+The initial fight with vampire bats is a walkover. If you want, some lesser 
+demons guard money to the left behind two doors. The first door north leads 
+to more bats and demons(west) and ghouls(north.) But you want to take the far 
+door. The trip north is uneventful until you go to the deep caverns.
+
+      7-10-2. LEVEL 2
+
+You've got a big fight before walking across the bridge. There's no way to 
+fall off, and it doesn't look that impressive, but eh well. The west wall 
+beyond has a secret door, too. It leads to goblins and copper. Whoopee! 
+There's a secret door before that room, but it doesn't lead to that much 
+more. Search the tables for moot loot.
+
+Troglodytes are beyond the next door to the north, though. Then a door left. 
+A deetour door down leads to werewolves then high demons behind another door. 
+Then you can get some gold if you want.
+
+Back at the branch open the door left. The next door left leads to spiders, 
+then demons to the south, but going down from here(a right-down door leads to 
+a room with damaging rubble and electrum) leads back to the "level 1" area, 
+which they try to pass off as level 3, but it's just too close to the level 1 
+low-rent stuff to fool anyone.
+
+      7-10-3. LEVEL 3(NOT REALLY, LEVEL 1)
+
+You'll fight some demons and beyond the next door you have Sri and his 
+demons. After winning this fight you need to go around the bookcase through 
+the secret doors. To simplify things, give everyone a backpack space free so 
+he can take an Aqua Helm. Open the north chest. Make sure there's no message 
+about how some people can't take helms, or if there is, drop or trade 
+something. The south has treasure, if you want, or you can just retrace your 
+steps and get out.
+
+      7-10-4. BACK TO THE ELVEN ISLE
+
+You've got everything now. Visit Grey Eagle again. Be sure you have 50' of 
+rope(buy it in Lotharia if need be.) If everyone has an aqua helm, he'll fly 
+you to Enolho.
+
+    7-11. ENOLHO
+
+If you're a moron, you'll drop an Aqua Helm and then nobody can enter Enolho, 
+and you're stuck. But you're not. Are you? Eh? A bit slow to respond there, 
+buddy boy. H'm. Seems everyone's the sort who is not patient enough to read a 
+game's details, or they get bogged down in the details just trying to solve 
+it.
+
+Anyway, there's not much to do here. There are some tough fights, but you'll 
+want to save your energy for the Demon World. When you step away from the 
+stairs, your first fight with Eels begins. You can get a +6 storm spear for 
+all the good it'll do you. You'll have to chuck it to get through the portal, 
+anyway.
+
+Opening the door leads to a combat with sharks, who are also pretty tough. 
+Most of the outer rooms are empty, and there's a circular hallway(yes, it's 
+rectangular, but it circles around) inside the one you're in. Inside that is 
+a very tough fight with mermen and some interesting books, but nothing to get 
+too excited about.
+
+Sharks are in the NW room, guarding worthless treasure. Mermen guard +6 
+Wizard's Plate(a bit late now) in the SE. Demons are in the roow 2 doors 
+down. They are guarding the portal to the demon world. Fight them, drop 
+everything but The Eternal Dagger, and walk through. If you're held back by 
+an unseen force, check everyone's inventory. Check their backpacks too. But 
+you can keep your gold!
+
+There's some exhortation to "remember POKIP" but it never gets used.
+
+    7-12. THE DEMON WORLD
+
+Here, without any items, you'll need to scrounge for something nice just to 
+make SURE you win your fights. You've probably been ambushed before without 
+armor, so you shouldn't worry about the first fight. If you're lucky you'll 
+get a magic item, but it doesn't matter because you don't need to fight to 
+win, and the optional fight with Anawt(if you dawdle in the final room) is 
+impossible without incredible item finding luck.
+
+There'll be an initial encounter with undead warriors. You can probably 
+"take" them even without much in the way of armor. The secret door to the 
+west leads to a moderately tough maze. Remember that stepping on a rubbish 
+pile may shift the dungeon around--empty spaces now have walls, and vice 
+versa. Fortunately there are no dead ends and you can often re-trace your 
+steps or go back to the beginning relatively easy. And at 15x15 it's not 
+impossible. There's a spoiler below as to how to get through the maze, but 
+it's fun to try out. In any case you are never penalized too badly for a 
+mistake.
+
+A rule of thumb is that any one square with rubble will shift you to the same 
+maze regardless of the maze you're on. However, it may replaced by a wall in 
+another version of the maze. 
+
+     Maze 1            Maze 2            Maze 3
+
+XXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXX
+X   X XX2 XX  2X  XX XXXXX2X3   2X  X   XXXX2X3   2X
+X   X  X XX  XXX  XX X  XX XX XXXX  X X X  X XXX  XX
+X2  XX X XX X  <  X2   X X  X X  <  X2X XXX XX    X<
+X   X  XX XXX XX  XXX XX X X X X X  XXXX X X XXX XXX
+X XXXXX X X X  X  X  XXX XXX XXX X  X  X X X X     X
+X X   X X X XX X  X XXXXXX X  X XX  X X XX XX  XXX X
+X XXX  1 XXX 1 X  X X2   3 XXXX1XX  X X2X X1XXXX 1XX
+X   XXX X X X XX  X XX XXXX X XXXX  X X XXXXX   XXXX
+X XXX   X X X 1X  X XXX  X  X   1X  XX X   XXXXXX 1X
+X X3X XXXXXXXXXX  X X3  XXXXX XXXX  X X3XXXX      XX
+X X  X  XXX  1XX  X XXXXX 3X XX12X  X  X X X3XX XX2X
+X XXXXXX X X XXX  X  X   X X XXX X  XXXX X XX    XXX
+X    XX XX X X3X  XX X X XXX XXX3X  XX XX XX  XX  3X
+X     X1X 2X2 XX  X X  XXXXX2X2  X  X X    XXX2XXXXX
+XXXXXXXXXXXXXXXv  XXXXXXXXXXXXXXXv  XXXXXXXXXXXXXXXv
+
+1 = maze resets to #1
+2 = maze resets to #2
+3 = maze resets to #3
+v = stairs
+< = entrance
+
+Once past the maze(you've touched the "stairs" which are really a teleporter) 
+and beaten the lesser demons, find the secret door to the east. Well, 
+actually it's SE-NE-etc over this weird checkerboard  until the passage opens 
+up. Then go SE, then NE/SE until you can go SE again. SE, SW and you'll 
+teleport to the SE room of the Demon's World. There's a fight with undead 
+warriors. It shouldn't be tough at all. You can upgrade armor here if you 
+want.
+
+A secret door on the north wall, 1W from the right. Then again on the north 
+wall, far west. Enter the next room and have your player with the dagger 
+lead. Face the table. Examine it. "Destroy it Y/N?" Yes.
+
+You can wait around and see how badly Anawt kicks your butt if you want, but 
+once you've killed the portal for good, the screen blinks, and your party is 
+in a peaceful glade far from home or the Demon's World. Your characters' 
+icons are arranged in an octagon, with tree icons around. The game freezes. 
+You've won! Sadly, the sequel this ending implied was never produced--or I 
+never heard about it. If you did, or even if you have some neat fan fiction, 
+write me at the address below. Or even if you just enjoyed this game, and 
+this walkthrough helped you etc.
+
+ULTRA-CONDENSED WALKTHROUGH
+
+This touches over some details so if you miss something here, you may 
+get close to the end only to realize that you're trapped.  But that's 
+the +/- to a total spoiler.  Details(except for actual puzzle solutions) 
+are above...
+
+  Necromancer's cave is pretty much linear.  The Door, Floor and Hall 
+are named WNPT, IXL, and ROLF respectively.  Name them and the 
+necromancer is behind a secret door to the east(examine to reveal it) in 
+the southwest corner.  Once the 
+cave is destroyed, Greenbay(the city in the south) will come to life.  
+Use it to rest and go to the Elven isle.
+
+  Magoomba's Grove(SE Elven):  Get in, kill Magoomba, get out.
+
+  Koruy(NE Elven):  remember the secret door west of the spiral.  Get 
+the skeleton key, and go into the southeast--turn the peg on the north 
+shelf, go northwest, and ready the key and rescue the princess.
+
+  Waddling Turtle's(Upstream/North of the lake):  Talk to him when you 
+have the dagger and he'll give you a map.
+
+  Grey Eagle's(1)(SW Elven):  Get the bag of Wind.
+
+  Avlis's Tower(NW Elven):  Use the bag of wind to enter.  Be sure 
+you've rested beforehand--you can't get out!  Puzzles can be solved by 
+trial and error if nothing else, except the "countdown" puzzle--just 
+wait.  Avlis is the first door north, and you get the feathers from him.  
+Past the statues you will want to close ALL the doors before stepping in 
+the center flame.  Then you're teleported out.
+
+  Sri's(S. Dwarven Isle by mountains):  Take the east passage and go as 
+far north(through doors) as you can.  Turn west until you must go a few 
+squares south and then go very far south.  When you defeat Sri and seem 
+to be at a dead 
+end go through the squares to the north/south of the bookcase.  The 
+trunk with the aqua helms is to the north.
+
+  Grey Eagle's(2):  Show Grey Eagle the feathers and he'll transport you 
+to....
+
+  Aquatic Underworld(Enolho):  Put on your aqua helms and enter.  The 
+portal is in the south--drop all items except the Eternal Dagger before 
+entering.  I also recommend exiting and camping and resting a lot before 
+you enter the Demon World.  Even though the game says the aqua helms 
+have dissolved, you can go back down safely if you leave.
+
+  Demons' World:  Secret door to the west.  Touch the following maze 
+squares:  2W of NE corner, 7W6S, 11W9S, 13W2S, 6W10S, 10S, 1W10S, 2W13S, 
+and you can get to the stairs.  Go east from that room, then go east on 
+the checkerboard you're teleported to.  A secret door to the 
+northeast(walk through it) leads to the room that controls the portal.  
+Let your player with the Dagger lead, and he can probably kill the ray 
+before Anawt arrives.
+
+  9. CHEATING
+
+    9-1. DISK IMAGES
+
+It's possible to "cheat" your characters up--whether you enjoy crushing 
+monsters or would rather concentrate on exploring, you can improve your 
+skills rapidly.  The following procedure can get stats of 250--of course, 
+it's possible to improve all skills, including those your class doesn't 
+normally support, but I haven't figured that out yet.  Also, be sure to back 
+up your disk before byte-editing it--the wrong byte and weird things could 
+happen to your characters.
+
+For character # [a] alter bytes [b] to 0xfa(33 in  all)
+(Note:  these numbers are in hexadecimal.)
+1:  0x2b24-0x2b44
+2:  0x2bc0-0x2be0
+3:  0x2a5c-0x2a7c
+4:  0x2af8-0x2aff AND 0x2900-0x2918
+5:  0x2994-0x29b4
+6:  0x2830-0x2850
+7:  0x28cc-0x28ec
+8:  0x2768-0x2788
+
+Note that they are "in order" by 1)decreasing "hundreds" digit and 
+2)increasing ones/tens digits.  That's why character 4 is split between 
+hundreds digits.
+
+    9-2. SAVE STATES
+
+News flash: technology is wonderful. Even retro technology improves over the 
+years and I'm pleased to report there's an even easier way to do this. With 
+emulator save states you can edit characters directly. Of course you'll want 
+to back things up too.
+
+Each character consists of 0x9c=156 bytes. They are divided up as follows: 76 
+bytes for your character, 80 for any item.
+
+Character A starts at x5728
+Character B starts at x57c4
+Character C starts at x5860
+Character D starts at x58fc
+Character E starts at x5998
+Character F starts at x5a34
+Character G starts at x5ad0
+Character H starts at x5b6c
+
+bytes 0x00-0x13=name
+0x14=strength
+0x15=dexterity
+0x16=intelligence
+0x17=max life
+[karma, maybe later]
+0x5c=1st item, +8 for each subsequent ones
+
+See section 5 for item specs. If you want some cheap fun free items, try:
+
+2d 2f 00 00 00 00 38 f0 = +7 dwarven plate
+42 2e 00 00 00 00 10 e0 = +7 reenforcing ring
+42 30 00 00 00 00 10 e0 = +7 elven ring
+42 31 00 00 00 00 10 e0 = +7 wizard's ring
+12 35 00 00 00 00 75 f0 = +7 holy greatsword
+Note: 36=flame 37=cold 38=storm 39=life drain
+Change the first byte to give other weapons. See the items section and count 
+up/down from Greatsword in order to figure the hex value.
+
+Oh. If you want a +7 living dagger, try
+0b 50 00 00 00 00 71 e5.
+
+Fool, try an' touch me now!
+
+  10. BUGS/INCONSISTENCIES
+
+--Waddling Turtle calls Enolho "Enohle"
+--"Electrun coins" appears in Sri's dungeon.
+--The elf patrols can be seen around the temple west of Koruy--after you 
+cross the desert they don't want to cross.
+--You keep your gold when you cross into the demon world.  But aren't only 
+living things allowed across the threshhold?
+--Leaving magic on in quick mode vs. some monsters may freeze the game. Press 
+"P" to start quick combat against weaker monsters.
+
+End of FAQ proper
+
+================================
+
+    11. VERSIONS
+
+Version 2.0.0: sent to GameFAQs 6/25/2006, reformatted and with cool cheat 
+updates. The game's still tons of fun. Realized how I didn't know the perils 
+of not looking into things back when I was young in 2000.
+Version 1.1.0:  added monster and item info and dialog 3/7/2001, along with 
+demon world maps and bugs/inconsistencies and text link to graphic maps.  
+Fixed formatting.
+Version 1.0.1:  proofread and added map info. 10/23/2000
+Version 1.0.0:  basic walkthrough completed 4/22/2000 4 PM, 4 hours after I 
+solved it.
+
+    12. CREDITS
+
+Credits:  David Ellsworth for a great Apple Emulator until the time I found 
+AppleWin, Tom Charlesworth for implementing save states into the AppleWin 
+emulator, ftp://ftp.apple.asimov.net for having this old game, and 
+druadic@cs.com for having maps that made walking through a breeze, and 
+www.kahei.com for the hex editor that made 
+building characters easy so I could concentrate on walking through again.
+
+Check out Druadic's home page at:
+http://members.xoom.com/druadic/ and poke around a bit for other games.  
+Thanks to the authors of the game as well.
+
+Please send comments to Andrew Schultz at schultz.andrew@sbcglobal.net
+Restore Page
+
