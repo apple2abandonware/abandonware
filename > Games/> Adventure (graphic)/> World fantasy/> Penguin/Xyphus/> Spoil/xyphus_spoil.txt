@@ -1,4 +1,177 @@
+Xyphus Info & Quick Docs  2001
+
+
+Disks
+
+Xyphus1 is the Boot Disk.
+        Volume #254 (write protected)
+
+Xyphus2 is the Scenario Disk. This disk is
+        never used for playing the game.
+        Volume #2 (write protected)
+
+
+
+Playing Xyphus
+
+1. New Game
+
+Boot Xyphus1. To start a new game select choice "A" from
+the startup menu and follow prompts. Use the XySave Disk
+as your character save disk. (For another player to play
+the game with his/her own party, make a copy of XySave and
+let the new player use the copy to create a save disk. The
+game program will overwrite it with the new player's
+characters.)
+
+When the game is finished creating the character save disk,
+you can swap in Xyphus1 and boot the game.
+
+
+2. Regular Start
+
+Boot Xyphus1. Select choice "B" to continue your game. When
+the program asks you to insert your "existing game diskette",
+insert your XySave disk.
+
+
+
+Moving Xyphus to a Real Apple II
+
+You can transfer the Xyphus1.dsk disk image with no problem.
+
+Xyphus2.nib should first be disk copied to a .dsk disk image
+using a whole disk copier such as Disk Muncher or COPYA. Name
+the .dsk copy "Xyphus2.dsk". Transfer Xyphus2.dsk to a diskette
+INITed for Volume 2-- e.g. INIT HELLO,V2
+
+There is no need to transfer XySave.nib. (On a real Apple II,
+the game can create a save disk on any regular 5.25" diskette.)
+
+If you have a XySave.dsk disk image with characters you want to
+transfer, follow the same procedure used for transferring 
+Xyphus2.dsk, except transfer to a diskette INITed for Volume 3.
+
+
+R/
+
+---------------------------------------
+
+
+
 From: Apple II Textfiles  http://www.textfiles.com/apple/DOCUMENTATION/
+
+03 AUHUST 1984
+
+XYPHUS
+
+A >BLACK BAG< CRACK
+
+CRACKED BY:
+
+THE CHIEF SURGEON AND THE PENGUIN
+
+THIS IS ONLY A PRELIMINARY DOCFILE.  A
+COMPLETE DOCFILE FOR XYPHUS WILL BE
+AVAILABLE FROM THE SOUTH POLE
+(312-677-7140) IN A FEW DAYS.
+
+---------------------------------------
+
+CONTROLS:
+
+Y - NORTHEAST
+H - EAST
+B - SOUTHEAST
+V - SOUTHWEST
+F - WEST
+T - NORTHWEST
+G - REMAIN FOR ONE TURN IN THE SAME
+    SPOT
+
+MOVE ENTIRE PARTY BY HOLDING DOWN CTRL
+KEY.
+
+---------------------------------------
+
+COMBAT:
+
+KEYS FOR COMBAT ARE THE SAME AS
+MOVEMENT. COMBAT STARTS WHEN A PLAYER
+CHARACTER MOVES NEXT TO A MONSTER AND
+ATTEMPTS TO MOVE THROUGH IT. SHOULD YOU
+ATTEMPT TO FIGHT SOMETHING USING THE
+GROUP MOVEMENT CAPABILITY (HOLDING DOWN
+THE CTRL KEY IN CONJUNCTION WITH A
+DIRECTION KEY), YOUR PARTY MAY MOVE BUT
+REFUSE TO ENGAGE IN COMBAT.
+
+---------------------------------------
+
+OTHER IMPORTANT KEYS:
+
+O - REST & HEAL. PUTS PLAYER IN TRANCE
+FOR 10 TURNS, DURING WHICH ENDURANCE
+LEVEL WILL RETURN TO FULL STRENGTH AND
+4 POINTS OF DAMAGE WILL BE HEALED.
+
+P - PURCHASE. CHECKS EXPERIENCE POINT
+LEVEL TO SEE IF A NEW LEVEL HAS BEEN
+REACHED. IF SO CHARACTER IS AWARDED
+MORE HIT POINTS. ALSO, PURCHASE GOODS.
+
+IN TRADING POSTS THE FOLLOWING IS
+AVAILABLE:
+
+(A) ARMORY SHOP
+(W) WEAPONS SHOP
+(M) MAGIC SHOP
+(/) CHARACTER STATUS
+(SPC) EXIT
+
+---------------------------------------
+
+MISCELLANEOUS COMMANDS:
+
+Q - QUIT AND SAVE. SAVES CURRENT GAME
+STATUS TO DISK.
+
+W - WEAPON SELECTION. CHANGES WEAPON IN
+HAND
+
+S - SPELL. ALLOW YOU TO CAST SPELLS.
+
+Z - CHANGE TEXT AND MOVEMENT DELAYS.
+
+---------------------------------------
+
+TO CAST SPELLS:
+
+TO CAST SPELLS, THE MAGIC USER MUST
+HAVE A XIPHOID AMULET IN THEIR
+POSSESION.
+
+---------------------------------------
+
+REMEMBER THAT THESE ARE ONLY PRELIMIN-
+ARY DOCS TO HELP YOU GET STARTED.  THE
+COMPLETE DOCFILE WILL BE AVAILABLE
+FROM THE SOUTH POLE (312-677-7140) IN
+A FEW DAYS.  IT WILL HAVE COMPLETE
+BACKGROUND INFO, SETUP INFO, ETC.
+
+LATER,
+
+THE CHIEF SURGEON
+
+THE PENGUIN
+
+
+
+____
+
+
+
 
                /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
                \/                                  \/

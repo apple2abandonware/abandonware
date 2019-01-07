@@ -1,0 +1,776 @@
+Xyphus(Commodore 64) FAQ/Walkthrough by Andrew Schultz 
+schultz.andrew@sbcglobal.net
+version 1.0.0 copyright 2007
+
+Please do not reproduce for profit without my consent. You won't be getting 
+much profit anyway, but that's not the point. This took time and effort, and 
+I just wanted to save a memory of an old game and the odd solutions any way I 
+could. Please send me an email referring to me and this guide by name if 
+you'd like to post it on your site.
+
+Preemptive thanks to apple2.org.za for this and in general.
+
+http://www.apple2.org.za/gswv/a2zine/Docs/XyphusDocs.txt
+
+Has a link to basic Xyphus instructions for the Apple. They all worked for 
+the Commodore emulator too.
+
+I will refer the reader extensively to the map I made for GameFAQs, because 
+that can show you stuff that would take forever to describe (less 
+interestingly) in a FAQ.
+
+================================
+
+            OUTLINE
+
+  1. INTRODUCTION
+
+    1-1. ABOUT THE GAME
+
+    1-2. VERSIONS
+
+      1-2-1. CREATING A XYPHUS DISK(C64)
+
+      1-2-2. VICE AND XYPHUS
+
+    1-3. MAPS AND SELF PROMOTION
+
+  2. CONTROLS
+
+    2-1. CREATING YOUR PARTY
+
+    2-2. MOVING YOUR PARTY
+
+    2-3. TWEAKING YOUR PARTY
+
+    2-4. PARTY ADVANCEMENT
+
+    2-5. ALIGNING FOR COMBAT
+
+    2-6. STUPID EMULATOR TRICKS
+
+  3. EVERYTHING ELSE
+
+    3-1. ITEMS
+
+    3-2. MONSTERS
+
+    3-3. SPELLS
+
+  4. GENERAL GUIDELINES
+
+  5. WALKTHROUGH
+
+    5-1. FIRST AREA
+
+    5-2. SECOND AREA
+
+    5-3. THIRD AREA
+
+    5-4. FOURTH AREA
+
+    5-5. FIFTH AREA
+
+    5-6. SIXTH AREA
+
+  6. CHEATING
+
+    6-1. CHARACTERS
+
+    6-2. RAZING THE OUTSIDE AREA
+
+  7. VERSIONS
+
+  8. CREDITS
+
+================================
+
+  1. INTRODUCTION
+
+    1-1. ABOUT THE GAME
+
+Xyphus is an RPG based on hexagonal movement, which sounds a bit weird, and 
+it is, but it is a fun change of pace. You must work your party through six 
+sub-worlds as you collect items and clear the place of fixed monsters. In 
+each scenario you need to collect certain items or defeat special monsters as 
+you work your way to the next fort, and safety. Unlike most games of its 
+time, Xyphus had no random combats. You have a finite amount of spells(your 
+spellcasters need a Xiphoid Amulet, which shatters after seveal uses) but 
+infinite healing away from fights. No random combats also means fixed gold. 
+It's an exercise in planning that was unusual for 1984 games, where most of 
+the challenge was repeating things faster and faster. In fact, it's unusual 
+now, and I have to admit I fudged my way through it the first time.
+
+Unfortunately the major time-consumer, at least on the Commodore is getting 
+your party to move around. They run into each other, there's no way to toggle 
+making that a pass-move, and you have trouble figuring what to do. Plus it 
+takes forever to get to level 2.
+
+Nevertheless Xyphus is robust enough to prevent you plowing through with 
+gross cheat techniques, and mapping the continents out is kind of fun. It 
+does go on a bit without much variety, and the hexagonal movement gets old, 
+but if you like retro games in general, you will like Xyphus 0once you 
+understand what to do.
+
+This first version is not one of my better FAQs, because basically the way to 
+get through the game is to move through the screens and look for a big 
+treasure. Then run for the treasure, backing up if too many enemies attack 
+you. Save the game and see about resting everyone to heal, then go back in 
+and attack again until you can get through. Basically you can't take on too 
+many enemies at once. So, Xyphus in a nutshell:
+
+1) look for treasure when moving to a new screen
+2) collect the treasure
+3) find the main special treasure in one scenario, usually behind a very 
+tough enemy
+3.-01) maybe you needed a special sword to defeat that enemy, which is 
+somewhere else
+4) find the "exit garrison," usually a few zigzags away from where you 
+started
+
+So I believe at worst this FAQ will either 1) not tell you the right order to 
+get into fights, forcing you to learn about hexadecimal and save states if 
+you don't already(and you probably do, if you have a Commodore emulator) or 
+2) have a big obvious mistake that you will laugh at because it is so easy to 
+figure out, in which case, email me. After looking at this a couple different 
+ways I'm still not convinced I got all of it.
+
+Xyphus mixes up the maps well with different terrain for the scenarios, which 
+branch to several places to explore without being overpowering, and a wicked 
+maze at the end, and it has some cool ideas for monster and weapon names. So 
+it is certainly fun for old school RPG fans. But be prepared for a bit of a 
+slog(it's too bad you can't force the game to move everyone in 
+unison/formation) and tough curve for character improvement, and be warned 
+that combats are not automatic.
+
+    1-2. VERSIONS
+
+The Apple version is available at ftp.apple.asimov.net. I believe it is 
+corrupt as it is missing part of the maps for the first two scenarios. I was 
+unable to get it running past the utilities on AppleWin.
+
+The Commodore version is available at http://c64.hardwired.hu/. It is what I 
+used to complete the game. I used VICE's X64 to get the files running. See 
+details in the subsections.
+
+The Mac version is available in a SIT archive at http://mac.the-
+underdogs.info. I have no idea of its fidelity to the Apple/Commodore 
+versions or of how to get it working, and from what I've read it seems to 
+have an improved interface, but I suspect the major items and the maps are 
+the same. So this guide should, generally, work.
+
+      1-2-1. CREATING A XYPHUS DISK(C64)
+
+Xyphus comes with a player disk(Xyphus_C.D64) in the zip file when you find 
+it on the net. But to create a Xyphus player disk on the Commodore, designate 
+Xyphus_C.D64 and create a new disk for play. You'll be swapping disks a bit, 
+but eventually you'll get it done.
+
+      1-2-2. VICE AND XYPHUS
+
+You can just google Vice and C64 if you don't have it. I used Xyphus to get 
+through the game and found it useful to save states, numbering them as I went 
+through the game, xyphus-a-* to xyphus-f-*. You can just type xy and use the 
+arrow to get to the most recent state. You can also save a state in the 
+middle of a fight to restore endurance, hit points or a xiphoid amulet that 
+shattered.
+
+But perhaps the most important thing about Xyphus is that you have to switch 
+settings a few times to get through the game. For version 1.2.1 of Vice, 
+start with true drive emulation on. Before entering the garrison to complete 
+scenario 3, you need to switch it off. Switch it back on when you get to 
+scenario 4. When you have killed Xyphus and are going back to the garrison in 
+scenario 6, turn true drive emulation back off to see the ending.
+
+Different versions of VICE may make this worse or better, but in any case, 
+save your state before walking into the garrison to seal the deal.
+
+    1-3. MAPS AND SELF PROMOTION
+
+First, due to the zigzag nature of how maps are created, text maps are 
+impractical for this game, showing apparent diagonal jumps available where 
+there are none, or vice versa. So I wrote up a graphic map to help you 
+through more easily. My first draft does not denote everything accurately, 
+but you will be able to see things from a distance, and that should be good 
+enough for you to figure out what's where, or where to go.
+
+The map itself may have some inaccuracies and leave out some spell scrolls, 
+but it should point where to go and what to do at the very least.
+
+  2. CONTROLS
+
+    2-1. CREATING YOUR PARTY
+
+I went with a human fighter, dwarf fighter, and two elf spellcasters. Given 
+that you find about two xiphoid amulets per scenario, and the elves 
+eventually find nice weapons to swing around(staff of power,) which helps 
+with blood-and-guts combat, this seems like a good way to go about the game.
+
+    2-2. MOVING YOUR PARTY
+
+Your characters may wind up stumbling about each other a bit. Keep in mind 
+that your dwarf is slower than the rest and so if you are making a big run 
+across the continent, your dwarf will be trailing everyone else, with bad 
+results if you run into monsters faster than yourself.
+
+So what you want to do is move horizontally when possible and have your party 
+aligned in a column, or as close as Xyphus will let you. If your dwarf drags 
+behind, then push everyone else in the party back as you go forward. Save 
+frequently because, when monsters do appear, they can be persistent. Just 
+make sure your fighters are ahead to start, and if the enemies are vulnerable 
+to your spellcasters, try and surround them, too.
+
+Diagonal movement is also a possibility. You can make sure no party member is 
+on the diagonal that you wish to move from the other. Vertical movement is 
+possible but a bit tricky since you have to zigzag, so I just use diagonal 5 
+SW, then 5 SE, etc. The important thing to remember is that large straight 
+distances should take little time to cover.
+
+    2-3. TWEAKING YOUR PARTY
+
+It's always nice to have armor, but a lot of the time, monsters will miss you 
+throughout combat, and you can reload and retry if anyone gets offed, so it 
+seems it would not be too critical. But on the other hand, your fighters 
+could waste money first buying items that eventually get replaced by magic 
+ones.
+
+So on the balance of things I would recommend basic weapons for your fighters 
+before cranking up the armor to level 6. Around then armor improvement gets a 
+bit expensive. Then buy armor if it is available. You get the +2 Longsword 
+early on and that will give someone a nice boost. The other guy can wait a 
+scenario for the Death Blade.
+
+My spellcasters' most popular spells were Tirayama(to fight the undead,) 
+Bendicca(to take out werewolves and werefalcons,) and Matamosca(to cause mass 
+damage to guys you can't afffect otherwise.) I've found healing spells aren't 
+really worth it because even if a character is poisoned, he only loses 10 
+points walking across the continent.
+
+Later on Hela is also useful because it just mows down demons.
+
+As for found spells, Demonda is also nice when you are able to use it. Tree 
+is fun to use against the Treants in level 2, but it is not necessary because 
+they only guard a message that this FAQ spoils a bit anyway.
+
+Obviously if you go the cheating road you can just give everyone whatever 
+weapon and armor and spell you want by flooding them with gold.
+
+One point about Xiphoid Amulets: if you leave one behind in any scenario, 
+that is not efficient, especially if one of your spellcasters' is low. Cast 
+heal spells to shatter the amulet so you can replace it with another, as no 
+player can have two amulets at once. It's worth the trek back, especially 
+later on, and it can save a lot of time in middle scenarios as you can use 
+spells a bit more liberally in tough combats.
+
+    2-4. PARTY ADVANCEMENT
+
+When any member of your party reaches 1536(0x600 in hex) experience, he gains 
+a level. This allows him to do more damage--one point per level. It takes a 
+while to get the first level, though, so you need to be careful. You can rest 
+at any garrison and it will show up automatically. If you have cheated your 
+characters up then some bonuses will twiddle the byte that contains character 
+information--in short, if something hits 256, it goes down to 0.
+
+Maximum hit points are calculated easily enough.
+
+Dwarf MaxHP = 12 + 10*L
+Human MaxHP = 12 + 8*L
+Elf MaxHP   = 12 + 6*L
+
+    2-5. ALIGNING FOR COMBAT
+
+Sometimes it's best to provoke just one enemy and then retreat, especially if 
+you are low on energy, or you got your butt kicked by a bunch of enemies you 
+just ran into. Don't stir things up more than you have to, and if approaching 
+one way caused too many monsters to see you, loop around another way. Of 
+course you want to save your Xiphoid Amulets for the very toughest monsters 
+that aren't hit by magic, so if you can get 4 guys to whale away on one enemy 
+at once, then that will make things a lot easier for you. Of course you can 
+heal after every combat, but if you get stuck in one and need a spell to get 
+you out in a pinch, your Xiphoid Amulet may shatter at a critical combat 
+later.
+
+    2-6. STUPID EMULATOR TRICKS
+
+I've read that the interface is much easier for the MAC, but here is the best 
+way to avoid terrible nuisances on the Commodore(VICE.)
+
+Use positional settings(settings:Keyboard) so that when you press Y it 
+doesn't think you pressed Z.
+
+Push Z and set text delay at 4 and movement delay at 1 so you can read 
+important things but don't waste time moving around.
+
+Custom speed of 400% is about right to get through combat to see what 
+happens. For moving across the continent, you can go to warp speed.
+
+  3. EVERYTHING ELSE
+
+    3-1. ITEMS
+
+Every garrison has these staples of items:
+Mace, short sword, morning star, trident, silver scimitar, battle axe, two-
+hand sword, hunting knife, wooden staff
+
+Once bought, you cannot sell an item back. In addition, you will find a 
+longsword +2 in the first scenario. There are also other magic weapons that 
+you get taken from you as you advance. They've got a cute excuse for this but 
+basically the save state shows there's a maximum of 16 items per scenario, so 
+special ones get recycled.
+
+Armor does not vary between scenarios. You can't buy an outer veiling for a 
+while with the monsters/gold from the first few scenarios, but it's still 
+there. Each successive armor costs 25 more than the previous.
+
+Shield, padded jerkin, leather tunic, hauberk, breast plate, inner veiling, 
+outer veiling
+
+Thus the total cost is 25 + 50 + ... + 175 = 700.
+
+    3-2. MONSTERS
+
+F=fast A=average S=slow
+Gold=estimate but experience is exact
+
+The person who kills the monster gets the full amount of experience and gold, 
+and his friends get half of that. So your characters will be a bit 
+imbalanced.
+
+Monster       | HP|Exp $$$ Spd  Areas|Special
+--------------+---+---+---+---+------+-----------------------------------
+Hawkman       |  7| 24| 24| F |1     |
+Centaur       |  9| 54| 40| A |1     |
+Giant Slug    | 32| 36| 10| S |1     |
+Anthrodon     | 26|   |   |   |1     |
+Demon Captain | 22| 60|100| A |1     |Very resistant to attacks. Use Hela
+Werefalcon    |  6| 32|  0| F |1     |Use Xiphoid amulet in 1
+Werewolf      | 10| 46| 26| A |1     |Use Bendicca
+Rhinotaur     | 24| 38| 10| A |12    |
+Toothpaw      |  3| 10| 10| A |1     |
+Stone Golem   |  9| 44| 10| S |1     |Use magic weapon
+Hyena         |  4| 14|  0| F |1     |
+Bandit        |  5| 22| 26| A |1     |Your 1st opponent
+
+Crocodile     | 16| 40|  0| A | 2    |
+Lizardman     | 15| 60| 44| A | 2    |
+Maripo Goblin | 12| 30|  0| A | 2    |
+Giant Spider  | 32| 40|  0| A | 23   |Poisons you
+Sand Asp      |  4| 20|  0| A | 2    |Poisons you
+Bushmaster    |  7| 30|  0| A | 2    |Poisons you
+Cyclops       | 50| 80| 60| A | 2    |in NE
+Sedento Goblin| 12| 30| 20| A | 2    |
+Siam Weretiger| 26| 70|100| A | 2    |Guards end, Benedicca
+Skater        | 21| 20| 12| F |  3   |
+Kurayan Falcon| 16| 40| 20| F |  3   |?
+Water Sprite  | 20| 16| 18| A |  3   |?
+Nightstalker  | 25| 50|  0| A |  3   |Guards Death Blade
+Hobgoblin     | 26| 40| 24| A |  3   |
+Mazanti Goblin| 25| 30| 16| A |  3   |
+Goblin Zombie | 26| 40|  0| A |  3   |Undead in E center
+Ogre          | 54| 64| 40| S |  3   |in NE, just fight him
+Maripo Zombie | 30| 30|  0| A |   4  |Undead
+Elf Zombie    | 36| 30|  0| A |   4  |
+Homan Zombie  | 32| 30|  0| A |   4  |
+Dwarf Zombie  | 48| 30|  0| A |   4  |
+Ghast         | 40| 50|  0| A |   4  |
+Glass God     | 28| 28|  0| A |   4  |Matamosca
+Erse the Shama| 35| 80| 60| A |   4  |Duck in the garrison a lot
+Cotico Goblin | 25| 20| 20| A |   4  |
+Skeleton Warri| 25| 30| 10| A |   4  |Undead
+Demon Guard   | 32| 30|  0| A |    5 |
+Malakee Goblin| 35| 16| 10| A |    5 |L5, sucker it to bridge
+Lich          | 40| 30|  0| A |    5 |Undead
+Goblin Warlord| 35| 40| 40| A |    5 |
+Loupgarou     | 50| 30| 20| A |    5 |Need Bendicca
+Bear          | 83| 30|  0| A |    5 |Slug it out
+Sucucbus      | 38| 30|  0| A |    5 |
+Mimic         | 68| 20| 70| A |    5 |
+Ernagh        | 73|  ?|  ?| A |    5 |Need Blade of Ernagh
+Banshaee      | 40| 20|  0| A |     6|
+Hell Hound    | 32| 20|  0| A |     6|need magic??
+Flame Golem   |  ?|  ?|  ?| S |     6|
+Flame Lizard  |  ?|  ?|  ?| S |     6|
+Azulus        | 40| 20| 10| A |     6|
+Demon Warrior | 34| 30|  0| A |     6|use HELA
+Ice Dragon    | 90|120| 40| A |     6|
+Demon Guard   | 37|  ?|  ?| A |     6|
+Xyphus        |  ?|  ?|  ?| A |     6|need Heart of Xyphus
+Inatamos      | 46| 20| 10| A |     6|in NE
+Sand Skimmer  | 35| 20| 10| A |     6|
+
+    3-3. SPELLS
+
+You need 3 points less to cast a spell per level. This causes problems when 
+the points needed go below zero. Then you need ~250 points to cast a spell, 
+which just won't happen. Fortunately, getting up to level 10 won't happen 
+without cheating.
+
+  4. GENERAL GUIDELINES
+
+--Rest after each big fight. Or motor back to a garrison if one guy gets 
+poisoned.
+--Never try to take on too many enemies at once.
+--Remember to watch your endurance. See if you can retreat a bit if you're 
+almost going to win a battle.
+--There's no way to miss major items. But if you see one, be aware a big 
+fight may be ahead.
+--Xiphoid amulets are OK weapons for spellcasters.
+--Don't feel cowardly retreating to a garrison when monsters come at you. 
+However, it may be inefficient.
+
+  5. WALKTHROUGH
+
+    5-1. FIRST AREA
+
+It's not clear what you need to do to solve it, but I cleared out all the 
+monsters and got the two Xiphoid Amulets. I tried to cheat and reach the fort 
+by editing the byte map(so that the road t othe east is not blocked by that 
+single water square,) I couldn't advance with only one amulet. This map is 
+very winding and so you need to go find a lot of dead ends and work through 
+them. You start in the northwest, and your object is to get to the northeast. 
+You will probably want to explore other areas before plowing through, though. 
+There are a lot of relatively easy enemies to beat to pick up gold once you 
+get the hang of things.
+
+So the basic pattern of the level is
+1. get to the fort, go south and mess with the centaurs
+2. loop clockwise around the lake to get the first Xiphoid amulet, then go 
+east to the next garrison
+3. Clear out the northeast
+4. Across the river, take out the werewolves with a spell and get the other 
+Xiphoid Amulet
+5. Loop around the southwest to beat up some more enemies and get the 
+Demodana spell
+6. Sneak your spellcasters into the +2 long sword area. Cast demodana at the 
+Demon Captain once, then hack at it with Xiphoid Amulets. Give your human the 
++2 long sword.
+7. Back up and take the SE passage where there are a lot more fights with 
+rhinotaurs and stone golems.
+8. Go north to the garrison, where you will be congratulated and kicked to 
+scenario 2.
+
+Everyone starts with 30 gold. Go south and you can win 2 quick fights to up 
+this to 56 each. Buy everyone a mace and equip it. Go a bit more south to 
+defeat a centaur and then buy everyone shields. You can go a bit further to 
+the south to wipe out a few more centaurs, which give good gold. The enemies 
+get a bit tougher and you will want to eventually get really good weapons for 
+your fighters. But for now you can just improve your armor when you can 
+afford it.
+
+Then go to the northwest where you get to fight some toothpaws. They only 
+have 3 HP each. Don't be scared to flee if you get nicked, or to flee when 
+you see the first one and then work it out from there. They are slow, and you 
+can always come back for more. Resting is free, remember. Eventually you will 
+be able to get the Xiphoid Amulet in the NW hills. You may need to retreat so 
+you aren't swarmed, but afterwards you can hook around to the northern areas 
+where there are monsters.
+
+And enemies here don't really hit for much damage once you've got decent 
+armor, so you should be able to wiggle out of any fights as long as too many 
+don't come along. For enemies like werefalcons you may need your spellcasters 
+to use Xiphoid Amulets(these do 3 damage but even the +2 longsword is 
+ineffective,) but ones like Anthropons are beatable just hacking away, and 
+giant slugs, which seem intimidating, are actually very slow and vulnerable. 
+The difference in damage from weapons is so little that you might as well 
+hold off on getting 2 handed swords and ship all your money for your fighters 
+to armor. Your spellcasters will want Bendicca for one and and Hela for 
+another. There are a few garrisons on this level, so you have plenty of 
+chances to recharge.
+
+But in general you will have a bunch of hit-vulnerable enemies where you can 
+put the fighters in the front line and have the spellcasters off to the side 
+where they can do spare damage with their maces. The exception may be 
+centaurs where if there are two, you have one fighter and one spellcaster on 
+each.
+
+Now there are also some tricks you may wish to try to get through things 
+quicker. First, you want to take the road to the east after one of your 
+spellcasters has Bendicca. Follow the top of the river SE and have one player 
+continue along the bank even when werewolves pop up. They are tough, but they 
+can't cross the river. You want to avoid the Demon Captain for now, so only 
+go below the treasure to the left, but five werewolves should pop up. When 
+they do, save the game and cast Bendicca. You should get them all. If not you 
+can restart/pick up the save game and blast them again. This will leave the 
+Xiphoid Amulet ripe for the taking.
+
+After you get to the southeast, where you will find a relatively useless 
+Dormuert spell, a few Rhinotaurs guard the gap in the river, then there are 
+Stone Golems to the north. Get your +2 longsword guy to take them out. They 
+only have 9 hit points, so one hit should do the trick. You can use your 
+other players as buffers.
+
+    5-2. SECOND AREA
+
+More open looking than the first area, you have some deserts to navigate 
+here, but winning the level works as follows: Go south for the special item, 
+work your way through the invisible bits, then go east along the north, then 
+south and follow the upper river SW. There is a break at the far west. Go 
+through it and go back east.
+
+The real trick is learning where the invisible barriers are, and for that I 
+have a map. You also have to deal with poisoning. I found I could make it 
+across the continent maybe losing 10 hit points, i.e. 1 per 6 moves. You also 
+run into a lot of worthless spells, but it's fun to muck around, and it's 
+fairly linear despite how wide open it seems.
+
+Work to the southwest to get a Staff of Power(give to a spellcaster) and a 
+Tail of Saddhu, which is the big item for this level. There's also a Sling of 
+a Sage spell, which is pretty useless.
+
+Maripo goblins guard the Cienito spell by the pool.
+
+A Xiphoid Amulet is in the hills by the start. Another one is by the lake in 
+the SE of the part NW of the river.
+
+The Magic Fire Bow spell is by the lake in the center which is guarded by the 
+desert, some of which is impassable.
+
+Bushmasster guards the N scroll in the nook.
+
+Magic Fire Bow by center lake.
+
+There is an Ebony Dagger too, and I am not sure where it is.
+
+    5-3. THIRD AREA
+
+This is an interesting one with a lot of side quests to find information 
+that, with this FAQ, you don't need. Still, in the interest of completeness, 
+I'll list it. You can find the Blade of Ernagh here, but I think that is a 
+bug. ??
+
+To the south you have some skaters who should fall to physical combat, and 
+there is a Xiphoid Amulet to the east of the starting garrison. You will 
+probably need it, because you will have a bunch of Arachnoids to zap. For 
+them, it is actually best to have one spellcaster run in and cast MATAMOSCA 
+when most of them are around. The fewer times you need to cast it, the 
+better. It's useful to kill these guys off just when you are near the amulet.
+
+Then you can work your way SW. The +3 Death Blade south of the big lake is 
+very useful here. It's in a clearing by the hills. You may need to approach 
+it a few times, getting closer with each fight, as there is a hobgoblin to 
+the west, and nightstalkers should be dispatched individually. Goad one guy 
+to come back to you. If you really want to be tricky, you can use the 
+information you shouldn't know right now to entrap enemies. This is worth the 
+wait of slugging through, however. It gives you both fighters with magic 
+items.
+
+The next item you need is in a cul-de-sac in the hills, across the mountains 
+where you have some tough fights. There is also a nasty fight in a mountain 
+pass with some Arachnoids. You will have to blast them with magic.
+
+--the "quick way" through tough fights is to use the ford that you find about 
+in the treants' area. Let people surround your enemy as he comes back to 
+fight you.
+
+    5-4. FOURTH AREA
+
+I was highly amused with my own solution to this, which I am sure cannot be 
+correct. There are some tough fights here and two Xiphoid Amulets, so cast 
+away on the tough fights and take the time to pick them off. There's an item 
+surrounded by a circular river with a vampire guarding it.
+
+There are four garrisons here but the only one that lets you advance is in 
+the SW. One of the garrisons helps you with a particularly challenging fight.
+
+One Xiphoid Amulet is south of the starting road. The other one is in the NW-
+-to get to it, go along the very top so as not to disturb the tough monsters 
+below.
+
+Your first major challenge is to get the Ebony Staff. There is a garrison 
+right by this big fight(the one in the north,) so you may just beat up most 
+of the monsters by hand and constantly let your guys go back in the garrison 
+to heal them. The shaman Erse is tough to beat and you do very little damage 
+attacking him directly, so you may just need to duck in, take him for a few 
+damage points, and go back in when your endurance/hit points sink down.
+
+The vampire is in the southeast island and since you approach from the west 
+there may be a lot of goblins that slow you down--in fact you may want to go 
+to the southwest to pick up a Staff of Power for a spellcaster, which should 
+make everyone useful on physical attacks except against special monsters. You 
+also want to be fully healed to face the vampire.
+
+I didn't figure out how to kill the vampire(I think you use the Ebony Staff, 
+looking back) but I did manage to sneak one guy(Human) in while the others 
+kept the vampire busy. I ran them away to the NW and the vampire followed my 
+one guy, who also could outrun the vampire by going to the NW. The point is 
+that the vampire tries to follow you to the NW, but the lake cuts him off. I 
+guess his brain rotted with the rest of his body when he died.
+
+The rest is pretty easy. You want to get to the garrison way on the west edge 
+of the continent. You have some other tough enemies like Glass Gods, who are 
+wiped out by a Matamosca, and they are guarding a Cieno spell, which is not 
+so great.
+
+    5-5. FIFTH AREA
+
+The quest: to find the Blade of Ernagh, kill him, and get to the SW. There 
+are a lot of demons here but fortunately you can dispatch them without an 
+amulet, as long as you fight them one or two at a time, because there is a 
+Demon Sword if you know where to look. You can't walk across the desert in 
+this scenario.
+
+There are some Nekebnee Orcs guarding an Ice Cloud spell to the south. The 
+spell isn't particularly worthwhile, but the fight is easy enough if you need 
+the cash. Plus it leads you to the next bit to the southwest. Cross the 
+bridge nearby and have one point man sucker the enemies back to the crossing. 
+Have them wait like so.
+
+3 2 1
+
+     4
+
+In other words, the enemies can fill up two squares, but you can have a 
+fighter attack each one. It's useful to have a Staff of Power for your 
+fighters, and you do not need magic to mow your enemies down. You may need to 
+walk in twice to do this, but it shouldn't be too bad.
+
+Once you've done that, the Demon Sword is there for the taking.
+
+ - -
+- - $
+
+Along the north of the continent, you have some demons you may want to beat 
+before crossing the next river. Take the southwest of the two bridges across 
+and here you have a HUGE advantage as you can place your guys as follows 
+after using one guy as bait.
+
+ 1 2
+~   3
+   ~
+
+Two fighters on one goblin. That's pretty unfair in your favor.
+
+Now go down to the bottom center and you can lure out more enemies to get the 
+Blade of Ernagh. Give it to whoever doesn't have the demon sword among your 
+fighters. It's probably a lot easier to use another guy to lead--keep other 
+guys 0'ing until he starts getting chased. Then you can just whack the 
+enemies as they arrive.
+
+Technically you can defeat all monsters this way, but in some cases the setup 
+may be tedious, so only do it for groups of monsters.
+
+The bridge across the swamp leads to a mimic and a few demons. Switch from 
+the +2/+3 to the demon sword and Blade of Ernagh after defeating the mimic. 
+Again only provoke one monster at a time. Ernagh goes down pretty quickly 
+when you smack him with "his" blade.
+
+For the next part you may need to face a couple demons at once, but with the 
+sword that should not be a huge issue.
+
+    5-6. SIXTH AREA
+
+This is a ghastly map with some squares you just can't pass through. There 
+may be a demon captain or two you will have to whale on and use your spells 
+to beat up. Or in the very worst case you can retreat all the way to the 
+garrison in the center and keep dropping your players in there to heal them, 
+just as you did in the fifth area. The difference being that you may get one 
+guy to act as bait. He can run out and everyone else can hit 0. Then when 
+enemies come after him, he can run backwards. Your dwarf is the fastest 
+player here, so you can run him ahead.
+
+To solve this level effectively, you need to get the Heart of Xyphus in the 
+SW. Then you want to get the Crystal Key in the NW. I ran out of Xiphiod 
+Amulets and cheated a bit here, but here is basically where to go.
+
+The monsters here are actually not too bad. The big dragon has 90 hit points 
+but is very vulnerable to plain old physical attacks, and the other monsters 
+have tough sounding names and do a lot of damage, but given that combat is 
+somewhat luck-based, you should be able to beat them eventually.
+
+I did not explore NE and E of the main area. So it is possible there are some 
+extra goodies there. ??
+
+1. SW to the corner. You have to follow a path west to hook W SW SE. Beat the 
+monsters, get the Heart of Xyphus(an Elf must take this) and return to the 
+garrison.
+2. For this you may want to bring your guys to the 3rd room mentioned so the 
+backtracking is not so bad. NW and then go W NW where you will be at a 
+branch. NE E and at the next room, NW W and then at the next room, SW NW and 
+there is a dragon guarding the final bit. A dwarf must take the Crystal Key.
+3. Back to the garrison, SW and at the final big room before the Heart, go SE 
+E and there is a tunnel to the right. You may want to kill the sand swimmers 
+below first. They can be beaten physically. Then keep going east and you will 
+be able to ford the river to get to the east--there's a Sana spell along the 
+way and if you can't get out of a fight without getting poisoned, now is a 
+great time to cast one. You won't need magic to beat Xyphus. NE and zigzag up 
+and you can turn off to the right with the crystal key and then go SE where 
+Xyphus awaits. He'll just sit there. Defeat his minions, heal up, and have 
+someone ready the Heart of Xyphus and go up to him and smack him around.
+
+Now retreat to the garrison, remember to turn off True Drive Emulation on the 
+Commodore emulator, and YAY! You win the game. A picture of a crown, 
+treasure, and a castle. With music too. Whoopee. Well, the journey was pretty 
+fun.
+
+  6. CHEATING
+
+    6-1. CHARACTERS
+
+Editing your characters is not hard once you know where to look. Here is 
+information about editing the characters' save state information on VICE.
+
+0x5080 = start of character 1's information.
+0x50c0 = start of character 2's information.
+0x5100 = start of character 3's information.
+0x5140 = start of character 4's information.
+
+Key offsets from this include:
+
+0x10 = current hit points
+0x40 = information for items. A is 40, etc., F is 4f. You must set 4x to x 
+for it to show up in the inventory.
+
+Slapping items onto your characters, you should be able to bypass the fights 
+you need to get through the game, but that's not the fun sort of cheating.
+
+Some character attributes are a bit back in the save state, for instance, 
+with least significant byte first, gold is at
+
+0x4e82 0x4e86 0x4e8a 0x4e8e
+
+Experience is at: 0x4d82 0x4d86 0x4d8a 0x4d8e
+Max hit points: 0x4f82 0x4f86 0x4f8a 0x4f8e
+Endurance at: 0x4f80 0x4f84 0x4f88 0x4f8c
+Status at: 0x4f81 0x4f85 0x4f89 0x4f8d (set to 1 is poison, 0 is cured)
+
+You also should take into account that values are stored in one byte. In 
+other words if you get to level 25 with your dwarf, his maximum hit points 
+are 12+10*25=262 which is cut off to 6, which is not fun for you. You'll do a 
+lot of damage but take it too.
+
+    6-2. RAZING THE OUTSIDE AREA
+
+The outside area map starts at 0xd80 and is 64x72. Therefore if you can write 
+a program that goes in and adjusts all bytes in that area valued at 5(water) 
+to 6(trail) you will have an easier time getting around. Actually you can 
+point everything to that except fortresses(0xf) as nothing really impedes 
+you. But it would ruin the point of the game to do too much. Some levels 
+switch these values a bit, so be careful. 
+
+End of FAQ Proper
+
+Stuff to do: look at scenario-specific items and spells in the save state 
+file(0x4000 or so)
+
+================================
+
+  7. VERSIONS
+
+1.0.0: sent to GameFAQs cheating-complete on 7/1/2007. I didn't play it 
+honestly, but it dragged a bit when I did. I plan to play honestly next time 
+through.
+
+  8. CREDITS
+
+Thanks to the usual GameFAQs gang, current and emeritus. They know who they 
+are, and you should, too, because they get/got some SERIOUS writing done. 
+Good people too--bloomer, falsehead, Sashanan, Masters, Retro, Snow 
+Dragon/Brui5ed Ego, ZoopSoul, War Doc, Brian Sulpher, AdamL, odino, JDog and 
+others I forgot. OK, even Hydrophant in his current not-yet-banned message 
+board incarnation. I am not part of his gang, but I want him to be part of 
+mine.
+
+Waylon Jennings, whose "Toe the Mark" song got me through this with a laugh. 
+That bit about never could walk the line.
+
+Special thanks to apple2.org.za.
