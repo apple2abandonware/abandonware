@@ -16,6 +16,11 @@ find . -type f ! -name ".DS_Store"
 ./> Simulator/Flight Simulator/Flight Simulator II/> Documentation/flight_simulator_ii_box_back.jpg
 ./> Simulator/Rendezvous/> Documentation/rendezvous.jpg
 ./> Simulator/Rendezvous/rendezvous.dsk
+./> Simulator/GATO/> Documentation/gato_disk.jpg
+./> Simulator/GATO/> Documentation/gato_box_back.jpg
+./> Simulator/GATO/> Documentation/gato_box_front.jpg
+./> Simulator/GATO/> Documentation/gato.pdf
+./> Simulator/GATO/gato.dsk
 ./> Simulator/Space Shuttle/space_shuttle.dsk
 ./> Simulator/Tomahawk/> Documentation/tomahawk_box_front.jpg
 ./> Simulator/Tomahawk/> Documentation/tomahawk.pdf
@@ -112,6 +117,8 @@ find . -type f ! -name ".DS_Store"
 ./> Personality/Alter Ego/Alter Ego - Male/alter_ego_male_3b.dsk
 ./> Personality/Alter Ego/Alter Ego - Female/alter_ego_female_1b.dsk
 ./> Personality/Alter Ego/Alter Ego - Female/alter_ego_female_1a.dsk
+./> Personality/Alter Ego/Alter Ego - Female/> Documentation/alter_ego_female_box_back.jpg
+./> Personality/Alter Ego/Alter Ego - Female/> Documentation/alter_ego_female_box_front.jpg
 ./> Personality/Alter Ego/Alter Ego - Female/alter_ego_female_3b.dsk
 ./> Personality/Alter Ego/Alter Ego - Female/alter_ego_female_3a.dsk
 ./> Personality/Alter Ego/Alter Ego - Female/alter_ego_female_2a.dsk
@@ -179,6 +186,9 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Pilot/Elite/> Documentation/elite_box_back.jpg
 ./> Games/> Pilot/Elite/> Documentation/elite_id_chart.jpg
 ./> Games/> Pilot/Elite/elite.dsk
+./> Games/> Chess/Sargon/Sargon III/sargon_iii.dsk
+./> Games/> Chess/How About a Nice Game of Chess?/a_nice_game_of_chess.dsk
+./> Games/> Detective/>> Detective games.txt
 ./> Games/> Star Trek/Promethean Prophecy/> Spoil/promethean_prophecy_clues.pdf
 ./> Games/> Star Trek/Promethean Prophecy/> Documentation/promethean_prophecy.pdf
 ./> Games/> Star Trek/Promethean Prophecy/promethean_prophecy_1a.dsk
@@ -191,7 +201,9 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Star Trek/Star Trek (Classic)/Stellar Trek/Stellar Trek/stellar_trek.dsk
 ./> Games/> Star Trek/Star Trek (Classic)/Stellar Trek/Super Stellar Trek/super_stellar_trek.dsk
 ./> Games/> Star Trek/Star Trek (Classic)/Star Trek Adventures/star_trek_adventures.dsk
-./> Games/> Star Trek/Star Trek (Sega)/> Documentation/star_trek.jpg
+./> Games/> Star Trek/Star Trek (Sega)/> Documentation/star_trek_disk.jpg
+./> Games/> Star Trek/Star Trek (Sega)/> Documentation/star_trek_box_back.jpg
+./> Games/> Star Trek/Star Trek (Sega)/> Documentation/star_trek_box_front.jpg
 ./> Games/> Star Trek/Star Trek (Sega)/star_trek.dsk
 ./> Games/> Star Trek/Kobayashi Alternative/kobayashi_alternative_1a.dsk
 ./> Games/> Star Trek/Kobayashi Alternative/kobayashi_alternative_1b.dsk
@@ -209,6 +221,11 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Fighting/Karateka/> Documentation/karateka_poster.jpg
 ./> Games/> Fighting/Karateka/> Documentation/karateka_disk.jpg
 ./> Games/> Fighting/Karateka/karateka.dsk
+./> Games/> Fighting/Bilestoad/bilestoad.dsk
+./> Games/> Fighting/Bilestoad/> Documentation/bilestoad_disk.jpg
+./> Games/> Fighting/Bilestoad/> Documentation/bilestoad_box_front.jpg
+./> Games/> Fighting/Bilestoad/> Documentation/bilestoad.pdf
+./> Games/> Fighting/Bilestoad/> Documentation/bilestoad_article.pdf
 ./> Games/> Fighting/Championship Boxing/> Documentation/sierra_championship_boxing_box_front.jpg
 ./> Games/> Fighting/Championship Boxing/> Documentation/sierra_championship_boxing_box_back.jpg
 ./> Games/> Fighting/Championship Boxing/> Documentation/sierra_championship_boxing_disk.jpg
@@ -294,6 +311,18 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Mines of Titan/> Documentation/mines_of_titan_autopsy.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Mines of Titan/> Documentation/mines_of_titan_box_front.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Mines of Titan/mines_of_titan_1b_player.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/realms_of_darkness_2b_adventure_2.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Spoil/realms_of_darkness_hintsheet.pdf
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Spoil/realms_of_darkness_hintbook.pdf
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Documentation/realms_of_darkness.pdf
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Documentation/realms_of_darkness_map_of_grail.pdf
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Documentation/realms_of_darkness_disks.jpg
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Documentation/realms_of_darkness_reference_card.pdf
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Documentation/realms_of_darkness_map.pdf
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Documentation/realms_of_darkness_box_back.jpg
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/> Documentation/realms_of_darkness_box_front.jpg
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/realms_of_darkness_1_boot.nib
+./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Realms of Darkness/realms_of_darkness_2a_adventure_1.nib
 ./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_2a_scenario_1.dsk
 ./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_3b_scenario_4.dsk
 ./> Games/> Adventure (graphic)/> Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_3a_scenario_3.dsk
@@ -596,14 +625,25 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Expedition Amazon/> Documentation/expedition_amazon.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Expedition Amazon/expedition_amazon_1b_boot.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Expedition Amazon/expedition_amazon_1a.dsk
-./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Spoil/xyphus_quick.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Spoil/waklthrough.txt
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Spoil/xyphus_spoil.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Spoil/scenario_maps.png
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Documentation/xyphus_box_back.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Documentation/xyphus_box_front_alt.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Documentation/xyphus_box_back_alt.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Documentation/xyphus_disk.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Documentation/xyphus.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Penguin/Xyphus/> Documentation/xyphus_box_front.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/Maps/ruins.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/Maps/old_thieves_guild.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/Maps/rusty_nail.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/Maps/gozaroth_mansion.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/Maps/town_map.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/Maps/tarmon_castle_levels_3-4.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/Maps/tarmon_castle_levels_1-2.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/Maps/tarmon_castle_levels_5-6.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/wizards_crown_walkthrough.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Spoil/wizards_crown_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Documentation/wizards_crown_poster.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Documentation/wizards_crown_disk.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Documentation/wizards_crown_box_front.jpg
@@ -611,14 +651,27 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/> Documentation/wizards_crown.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/wizards_crown_1b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown I/wizards_crown_1a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/Maps/Necromancer_cave.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/Maps/outside.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/Maps/sri_lair.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/Maps/avlis_tower.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/Maps/enolho.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/Maps/demon_world.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/Maps/koruy.png
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/ethernal_dagger_clues.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/ethernal_dagger_walkthrough.txt
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/eternal_dagger_guide.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Spoil/eternal_dagger_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Documentation/eternal_dagger.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Documentation/eternal_dagger_box_front.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Documentation/eternal_dagger_disk.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/> Documentation/eternal_dagger_box_back.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/eternal_dagger_1a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Wizard's Crown/Wizard's Crown II - Eternal Dagger/eternal_dagger_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/> Spoil/Maps/outside_map.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/> Spoil/Maps/dungeon_maps.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/> Spoil/rings_of_zilfin_hintsheet.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/> Spoil/rings_of_zilfin_walkthrough.txt
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/rings_of_zilfin_2a_disk_2.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/> Documentation/rings_of_zilfin_box_back.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/> Documentation/rings_of_zilfin_reference_card.pdf
@@ -629,9 +682,16 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/rings_of_zilfin_1_disk_1.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Rings of Zilfin/rings_of_zilfin_2b_disk_3.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Roadwar/> Spoil/roadwar_2000_clues.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Roadwar/> Spoil/roadwar_2000_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Roadwar/> Documentation/roadwar.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Roadwar/roadwar_1b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Roadwar/roadwar_1a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Spoil/Maps/ymros.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Spoil/Maps/ralith_castle.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Spoil/Maps/islanda_and_dungeons.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Spoil/Maps/dungeons.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Spoil/shard_of_spring_walkthrough.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Spoil/shard_of_spring_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/shard_of_spring_v1.1_1b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Documentation/shard_of_spring.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Documentation/shard_of_spring_box_front.jpg
@@ -639,18 +699,35 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/> Documentation/shard_of_spring_disk.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring I/shard_of_spring_v1.1_1a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /demons_winter_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Spoil/Maps/endgame.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Spoil/Maps/ymros.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Spoil/Maps/cathedral.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Spoil/Maps/dungeon.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Spoil/Maps/qoorik.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Spoil/demons_winter_walkthrough.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Spoil/demons_winter_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /demons_winter_1a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Documentation/demons_winter_box_front.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Documentation/demons_winter_box_back.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /> Documentation/demons_winter.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /demons_winter_2a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Shard of Spring/Shard of Spring II - Demon's Winter /demons_winter_2b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Spoil/Maps/dungeons_1-6.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Spoil/Maps/outside.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Spoil/Maps/dungeons_7-10.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Spoil/phantasie_hintsheet.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Spoil/walkthough.txt
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Documentation/phantasie_i.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Documentation/phantasie_i_box_front.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Documentation/phantasie_i_poster.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Documentation/phantasie_i_box_back.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/> Documentation/phantasie_i_disk.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie I/phantasie_i.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Spoil/Maps/underworld.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Spoil/Maps/overworld.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Spoil/Maps/dungeon_maps.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Spoil/phantasie_ii_hintsheet.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Spoil/phantasie_ii_walkthrough.txt
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Documentation/phantasie_iI_poster.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Documentation/phantasie_ii.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Documentation/phantasie_ii_disk.jpg
@@ -659,6 +736,10 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/> Documentation/phantasie_ii_box_front.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/phantasie_ii_1a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie II - Descent into the Netherworld/phantasie_ii_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/> Spoil/Maps/world.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/> Spoil/Maps/dungeon_and_underworld.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/> Spoil/phantasie_iii_walkthrough.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/> Spoil/phantasie_iii_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/> Documentation/phantasie_iii_box_back.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/> Documentation/phantasie_iii_box_front.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/> Documentation/phantasie_iii_disk.jpg
@@ -666,7 +747,15 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/phantasie_iii_1a.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/phantasie_iii_1b.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Phantasie/Phantasie III - Wrath of Nikademus/read_me.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/Maps/inside.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/Maps/questron.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/Maps/mantor_castle.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/Maps/land_of_evil.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/Maps/royal_castle.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/Maps/dungeons.png
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/questron_spoil.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/questron_hintsheet.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Spoil/questron_walkthrough.txt
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Documentation/questron_i_disk.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Documentation/questron_i_box_back.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/> Documentation/questron_i_box_front.jpg
@@ -678,7 +767,17 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron I/questron_i_1a_disk_0_boot.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/questron_ii_1a_front.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/questron_ii_char.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/Maps/castle.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/Maps/rivercrest_tombs.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/Maps/landor.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/Maps/large_town.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/Maps/realm_of_sorcerers.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/Maps/small_town.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/Maps/twilight_cathedral_tombs.png
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/Maps/dungeons.png
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/questron_ii_clues.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/questron_ii_walkthrough.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Spoil/questron_ii_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Documentation/questron_ii_box_back.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Documentation/questron_ii_reference_card.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Documentation/questron_ii_box_front.jpg
@@ -686,6 +785,20 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Documentation/questron_ii_poster.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/> Documentation/questron_ii_disk.jpg
 ./> Games/> Adventure (graphic)/> World fantasy/> Strategic Simulations/Questron/Questron II/questron_ii_1b_back.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/magic_candle_1b_disk_4.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/magic_candle_1a_disk_1_crack.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/magic_candle_2b_disk_3.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Spoil/magic_candle_clues.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Spoil/magic_candle_hints.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Spoil/magic_candle_walkthrough.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Documentation/magic_candle.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Documentation/magic_candle_box_front.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Documentation/magic_candle_map.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Documentation/magic_candle_reference_card.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Documentation/magic_candle_disks.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/> Documentation/magic_candle_box_back.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/magic_candle_2a_disk_2.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Mindcraft/Magic Candle/magic_candle_1a_disk_1.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Origin/AD 2400/ad_2400_1b_player_blank.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Origin/AD 2400/> Spoil/ad_2400_clues.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Origin/AD 2400/> Documentation/ad_2400_disk_exchange.jpg
@@ -905,25 +1018,26 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Wasteland/wasteland_1_boot.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Wasteland/wasteland_2a_side1.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Wasteland/read_me/wasteland_faq_03-31-1996.txt
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients II - Legend of Blacksilver/legend_of_blacksilver_2b.dsk
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients II - Legend of Blacksilver/legend_of_blacksilver_2a.dsk
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients II - Legend of Blacksilver/> Documentation/blacksilver_map.jpg
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients II - Legend of Blacksilver/> Documentation/legend_of_blacksilver.pdf
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients II - Legend of Blacksilver/legend_of_blacksilver_1a.dsk
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients II - Legend of Blacksilver/legend_of_blacksilver_1b.dsk
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients II - Legend of Blacksilver/read_me.txt
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/legacy_of_the_ancients_2b_side4.dsk
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/legacy_of_the_ancients_1a_side1.dsk
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/> Documentation/legacy_of_the_ancients_codewheel.jpg
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/> Documentation/legacy_of_the_ancients_box_front.jpg
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/> Documentation/legacy_of_the_ancients_coverart.jpg
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/> Documentation/legacy_of_the_ancients_box_back.jpg
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/> Documentation/legacy_of_the_ancients_disks.jpg
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/> Documentation/legacy_of_the_ancients_box_inside.jpg
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/> Documentation/legacy_of_the_ancients.pdf
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/legacy_of_the_ancients_1b_side2.dsk
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/read_me.txt
-./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/Legacy of the Ancients I/legacy_of_the_ancients_2a_side3.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/legacy_of_the_ancients_2b_side4.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/legacy_of_the_ancients_1a_side1.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/> Documentation/legacy_of_the_ancients_codewheel.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/> Documentation/legacy_of_the_ancients_box_front.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/> Documentation/legacy_of_the_ancients_coverart.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/> Documentation/legacy_of_the_ancients_box_back.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/> Documentation/legacy_of_the_ancients_disks.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/> Documentation/legacy_of_the_ancients_box_inside.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/> Documentation/legacy_of_the_ancients.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/legacy_of_the_ancients_1b_side2.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/read_me.txt
+./> Games/> Adventure (graphic)/> World fantasy/> Electronic Arts/Legacy of the Ancients/legacy_of_the_ancients_2a_side3.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Epyx/Legacy of the Ancients II - Legend of Blacksilver/legend_of_blacksilver_2b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Epyx/Legacy of the Ancients II - Legend of Blacksilver/legend_of_blacksilver_2a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Epyx/Legacy of the Ancients II - Legend of Blacksilver/> Spoil/legend_of_blacksilver_hint_book.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Epyx/Legacy of the Ancients II - Legend of Blacksilver/> Documentation/blacksilver_map.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> Epyx/Legacy of the Ancients II - Legend of Blacksilver/> Documentation/legend_of_blacksilver.pdf
+./> Games/> Adventure (graphic)/> World fantasy/> Epyx/Legacy of the Ancients II - Legend of Blacksilver/legend_of_blacksilver_1a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Epyx/Legacy of the Ancients II - Legend of Blacksilver/legend_of_blacksilver_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Epyx/Legacy of the Ancients II - Legend of Blacksilver/read_me.txt
 ./> Games/> Adventure (graphic)/> World fantasy/> Synergistic/Odyssey/Odyssey II - Apventure to Atlantis/apventure_to_atlantis.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Synergistic/Odyssey/Odyssey II - Apventure to Atlantis/> Spoil/apventure_to_atlantis_hints.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Synergistic/Odyssey/Odyssey II - Apventure to Atlantis/> Documentation/apventure_to_atlantis_poster.jpg
@@ -937,6 +1051,15 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> World fantasy/> Synergistic/Odyssey/Odyssey I - Compleat Apventure/> Documentation/odyssey_alt.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Synergistic/Wilderness Campaign/> Documentation/wilderness_campaign.pdf
 ./> Games/> Adventure (graphic)/> World fantasy/> Synergistic/Wilderness Campaign/wilderness_campaign.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> New World Computing/kings_bounty_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> New World Computing/King's Bounty/> Documentation/kings_bounty_disk.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> New World Computing/King's Bounty/> Documentation/kings_bounty_box_back.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> New World Computing/King's Bounty/> Documentation/kings_bounty_reference_card.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> New World Computing/King's Bounty/> Documentation/kings_bounty_box_front.jpg
+./> Games/> Adventure (graphic)/> World fantasy/> New World Computing/kings_bounty_1a.nib
+./> Games/> Adventure (graphic)/> World fantasy/> Independent/Quest of the Gem/quest_of_the_gem_1a.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Independent/Quest of the Gem/quest_of_the_gem_1b.dsk
+./> Games/> Adventure (graphic)/> World fantasy/> Independent/Journey into Darkness/journey_into_darkness.dsk
 ./> Games/> Adventure (graphic)/> World fantasy/> Independent/Hera/> Documentation/hera.png
 ./> Games/> Adventure (graphic)/> World fantasy/> Independent/Hera/> Documentation/read_me.txt
 ./> Games/> Adventure (graphic)/> World fantasy/> Independent/Hera/hera_1b_play.dsk
@@ -972,8 +1095,8 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Temple of Apshai - Revised/temple_of_apshai_r2.dsk
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/read_me.txt
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Expansion II - Curse of Ra/curse_of_ra.dsk
-./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Expansion II - Curse of Ra/> Documentation/curse_of_ra_box_front.jpg
-./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Expansion II - Curse of Ra/> Documentation/curse_of_ra_box_back.jpg
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Expansion II - Curse of Ra/> Documentation/curse_of_ra_box_front.JPG
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Expansion II - Curse of Ra/> Documentation/curse_of_ra_box_back.JPG
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Expansion II - Curse of Ra/> Documentation/curse_of_ra.pdf
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest I - Temple of Apshai/Expansion II - Curse of Ra/read_me.txt
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Dunjonquest/Dunjonquest/Dunjonquest IV - Hellfire Warrior/Expansions II - Danger in Drindisti/> Documentation/loading_instructions.pdf
@@ -1110,11 +1233,13 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras III - Wylde/> Documentation/warrior_of_ras_iii_wylde_box_back.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras III - Wylde/> Documentation/warrior_of_ras_iii_wylde_box_front.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/gemstone_warrior.dsk
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/> Spoil/gemstone_warrior_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/> Documentation/gemstone_warrior_box_front.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/> Documentation/gemstone_warrior_poster.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/> Documentation/gemstone_warrior_box_back.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/> Documentation/gemstone_warrior_disk.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/> Documentation/gemstone_warrior.pdf
+./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior II - Gemstone Healer/> Spoil/gemstone_healer_hintsheet.pdf
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior II - Gemstone Healer/> Documentation/gemstone_healer_box_back.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior II - Gemstone Healer/> Documentation/gemstone_healer_disk.jpg
 ./> Games/> Adventure (graphic)/> Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior II - Gemstone Healer/> Documentation/gemstone_healer.pdf
@@ -1139,6 +1264,9 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Temple of Apshai/> Documentation/temple_of_apshai.pdf
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Temple of Apshai/> Documentation/temple_of_apshai_cover.jpg
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Temple of Apshai/read_me.txt
+./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Race for Midnight/race_for_midnight.dsk
+./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Race for Midnight/> Documentation/race_for_midnight_disk.jpg
+./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Race for Midnight/> Documentation/race_for_midnight_box_front.jpg
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Wizard/Wizard I - Oldorf/> Spoil/oldorf_spoil.pdf
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Wizard/Wizard I - Oldorf/> Documentation/oldorf.pdf
 ./> Games/> Adventure (graphic)/> Early "hi-res" line graphics/Wizard/Wizard I - Oldorf/> Documentation/oldorf_disk.jpg
@@ -1188,19 +1316,19 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/Transylvania - Double Resolution/transylvania_dble_res.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/transylvania.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Spoil/transylvania_spoil.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Spoil/transylvania_i_solve.txt
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Spoil/transylvania_solve.txt
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Spoil/transylvania_shortcut.pdf
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Spoil/transylvania_hintsheet.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Documentation/transylvania_i_disk.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Documentation/transylvania_i.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Documentation/transylvania_i_box_back.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Documentation/transylvania_i_box_front.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Spoil/transylvania_i_rewrite_spoil.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_i_rewrite_box_back.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_i_zin_card.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_i_rewrite_box_front.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_i_paper.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_i_letter.pdf
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Documentation/transylvania_box_back.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Documentation/transylvania_box_front.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Documentation/transylvania_disk.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania/> Documentation/transylvania.pdf
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Spoil/transylvania_rewrite_spoil.pdf
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_rewrite_box_front.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_paper.pdf
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_zin_card.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_letter.pdf
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/> Documentation/transylvania_rewrite_box_back.jpg
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/transylvania_rewrite_1a.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Transylvania/Transylvania I/Transylvania - Rewrite/transylvania_rewrite_1b.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Talisman/talisman_2a_lands.dsk
@@ -1219,17 +1347,19 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/> Documentation/penguin_poster.jpg
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Spoil/coveted_mirror_spoil.pdf
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Spoil/coveted_mirror_hints.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/coveted_mirror_star_map.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/coveted_mirror_orig.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/coveted_mirror_box_front_orig.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/coveted_mirror_box_front.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/coveted_mirror.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/comprehend.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/coveted_mirror_recipe.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/coveted_mirror_box_back.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/> Documentation/coveted_mirror_disk.jpg
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/coveted_mirror_1b.dsk
-./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/coveted_mirror_1a.dsk
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror/> Documentation/coveted_mirror_box_front.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror/> Documentation/coveted_mirror.pdf
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror/> Documentation/coveted_mirror_box_back.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror/> Documentation/coveted_mirror_disk.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror/coveted_mirror_1b.dsk
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror/coveted_mirror_1a.dsk
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror - Rewrite/> Documentation/coveted_mirror_rewrite_box_front.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror - Rewrite/> Documentation/coveted_mirror_star_map.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror - Rewrite/> Documentation/coveted_mirror.pdf
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror - Rewrite/> Documentation/coveted_mirror_recipe.pdf
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror - Rewrite/> Documentation/coveted_mirror_rewrite_box_back.jpg
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror - Rewrite/coveted_mirror_rewrite_1a.dsk
+./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Coveted Mirror/Coveted Mirror - Rewrite/coveted_mirror_rewrite_1b.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Oo-Topos/> Spoil/oo-topos_hint_sheet.pdf
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Oo-Topos/> Spoil/oo-topos_clues.pdf
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Penguin/Oo-Topos/> Documentation/oo-topos_box_front.jpg
@@ -1288,7 +1418,7 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Arthur/arthur_1a.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Arthur/arthur_3.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Arthur/> Spoil/arthur_clues.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Arthur/> Spoil/walkthrough.txt
+./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Arthur/> Spoil/arthur_clues_walkthrough.txt
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Arthur/> Documentation/arthur_box_back.jpg
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Arthur/> Documentation/arthur_hours.pdf
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Infocom/Arthur/> Documentation/arthur.pdf
@@ -1557,8 +1687,8 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/mask_of_the_sun_1b.dsk
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/> Spoil/mask_of_the_sun_spoil.pdf
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/> Spoil/mask_of_the_sun_spoil.txt
+./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/> Spoil/mask_of_the_sun_walkthrough.pdf
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/> Spoil/mask_of_the_sun_shortcut.pdf
-./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/> Spoil/mask_of_the_sun_walk_through.pdf
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/> Documentation/mask_of_the_sun_box_back.jpg
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/> Documentation/mask_of_the_sun_box_front.jpg
 ./> Games/> Adventure (graphic)/> Interactive fiction/> Broderbund/Mask of the Sun/> Documentation/mask_of_the_sun.pdf
@@ -1803,6 +1933,7 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade creation/Arcade Machine/> Arcades/Space Raiders+Beach Party+Poacher Wars/space_raiders+beach_party+poacher_wars.dsk
 ./> Games/> Arcade creation/Arcade Machine/> Arcades/Zulu Raid/zulu_raid.dsk
 ./> Games/> Arcade creation/Arcade Machine/> Arcades/Ocean Night+Burgertron+Big-Mac Attack/ocean_night+burgertron+big-mac_attack.dsk
+./> Games/> Arcade creation/Arcade Machine/> Arcades/Arcade Insanity/> Documentation/arcade_insanity_box_front.jpg
 ./> Games/> Arcade creation/Arcade Machine/> Arcades/Arcade Insanity/arcade_insanity.dsk
 ./> Games/> Arcade creation/Arcade Machine/> Arcades/Fire Ground+Silent Night+King Tut's Revenge/fire_ground+silent_night+king_tuts_revenge.dsk
 ./> Games/> Arcade creation/Arcade Machine/> Arcades/Ice Cave/Ice_cave.dsk
@@ -2042,6 +2173,8 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Driving/Test Drive/> Documentation/test_drive_box_front.jpg
 ./> Games/> Driving/Test Drive/> Documentation/test_drive_disk.jpg
 ./> Games/> Driving/Injured Engine/injured_engine.dsk
+./> Games/> Driving/Crazy Mazey/> Documentation/crazy_mazey_poster.jpg
+./> Games/> Driving/Crazy Mazey/crazy_mazey.dsk
 ./> Games/> Driving/>> Compilations/gran_prix+formula1+spy_hunter+autobahn.dsk
 ./> Games/> Driving/Spy Hunter/spy_hunter.dsk
 ./> Games/> Driving/Gran Prix/gran_prix_v1981.dsk
@@ -2053,10 +2186,10 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Erotic/Sex Cartoons/French Postcards/Postcards Plus/postcards_plus.dsk
 ./> Games/> Erotic/Sex Cartoons/French Postcards/Postcards I/postcards_i_1a.dsk
 ./> Games/> Erotic/Sex Cartoons/French Postcards/Postcards I/postcards_i_1b_slide_show.dsk
-./> Games/> Erotic/Sex Cartoons/Animated Sex_ Cartoons/sex_cartoons_i.dsk
-./> Games/> Erotic/Sex Cartoons/Animated Sex_ Cartoons/sex_cartoons_iii.dsk
-./> Games/> Erotic/Sex Cartoons/Animated Sex_ Cartoons/sex_comics_i.dsk
-./> Games/> Erotic/Sex Cartoons/Animated Sex_ Cartoons/sex_cartoons_ii.dsk
+./> Games/> Erotic/Sex Cartoons/Animated Sex Cartoons/sex_cartoons_i.dsk
+./> Games/> Erotic/Sex Cartoons/Animated Sex Cartoons/sex_cartoons_iii.dsk
+./> Games/> Erotic/Sex Cartoons/Animated Sex Cartoons/sex_comics_i.dsk
+./> Games/> Erotic/Sex Cartoons/Animated Sex Cartoons/sex_cartoons_ii.dsk
 ./> Games/> Erotic/Strip Blackjack/strip_blackjack.dsk
 ./> Games/> Erotic/Interlude/Interlude I/interlude.dsk
 ./> Games/> Erotic/Interlude/Interlude I/> Documentation/interlude.pdf
@@ -2077,6 +2210,13 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Erotic/Strip Poker/> Documentation/strip_poker_box_front.jpg
 ./> Games/> Erotic/Strip Poker/> Documentation/strip_poker.pdf
 ./> Games/> Erotic/Strip Poker/strip_poker.dsk
+./> Games/> Erotic/>> Erotic games.txt
+./> Games/> Arcade (other)/> Asteroids like/Star Maze/star_maze.dsk
+./> Games/> Arcade (other)/> Asteroids like/Star Maze/> Documentation/star_maze_poster.jpg
+./> Games/> Arcade (other)/> Asteroids like/Raiders of the Lost Ring/raiders_of_the_lost_ring.dsk
+./> Games/> Arcade (other)/> Asteroids like/Space Warrior/space_warrior.dsk
+./> Games/> Arcade (other)/> Asteroids like/Sanitron/sanitron.dsk
+./> Games/> Arcade (other)/> Asteroids like/Galaxy Gates/galaxy_gates.dsk
 ./> Games/> Arcade (other)/> Maze 1st Person/Eidolon/eidolon.dsk
 ./> Games/> Arcade (other)/> Maze 1st Person/Eidolon/> Documentation/eidolon_box_back.jpg
 ./> Games/> Arcade (other)/> Maze 1st Person/Eidolon/> Documentation/eidolon.pdf
@@ -2138,6 +2278,7 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (other)/> Scroller/Xevious/> Documentation/xevious_box_back.jpg
 ./> Games/> Arcade (other)/> Scroller/Xevious/> Documentation/xevious_disk.jpg
 ./> Games/> Arcade (other)/> Scroller/Xevious/> Documentation/xevious_box_front.jpg
+./> Games/> Arcade (other)/> Scroller/Rescue Raiders/rescue_raiders.woz
 ./> Games/> Arcade (other)/> Scroller/Rescue Raiders/_supports_mockingboard.txt
 ./> Games/> Arcade (other)/> Scroller/Rescue Raiders/rescue_raiders.dsk
 ./> Games/> Arcade (other)/> Scroller/Rescue Raiders/> Documentation/rescue_raiders.pdf
@@ -2178,6 +2319,11 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (other)/> Maze/Serpentine/> Documentation/serpentine_box_back.png
 ./> Games/> Arcade (other)/> Maze/Serpentine/> Documentation/serpentine_disk.png
 ./> Games/> Arcade (other)/> Maze/Drelbs/drelbs.dsk
+./> Games/> Arcade (other)/> Maze/Lock 'n Chase/lock_n_chase.dsk
+./> Games/> Arcade (other)/> Maze/Lock 'n Chase/> Documentation/lock_n_chase _poster.jpg
+./> Games/> Arcade (other)/> Maze/Crossfire/> Documentation/crossfire_disk.jpg
+./> Games/> Arcade (other)/> Maze/Crossfire/> Documentation/crossfire_poster.jpg
+./> Games/> Arcade (other)/> Maze/Crossfire/crossfire.dsk
 ./> Games/> Arcade (other)/> Maze/Minotaur/> Documentation/minotaur.pdf
 ./> Games/> Arcade (other)/> Maze/Minotaur/minotaur.dsk
 ./> Games/> Arcade (other)/> Maze/Spindizzy/spindizzy.dsk
@@ -2199,6 +2345,9 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (other)/> Maze/C'est La Vie/> Documentation/c'est_la_vie_box_front.jpg
 ./> Games/> Arcade (other)/> Maze/C'est La Vie/> Documentation/c'est_la_vie_box_back.jpg
 ./> Games/> Arcade (other)/> Maze/Labyrinth/labyrinth.dsk
+./> Games/> Arcade (other)/> Maze/Dung Beetles/> Documentation/dung_beetles.pdf
+./> Games/> Arcade (other)/> Maze/Dung Beetles/dung_beetles.dsk
+./> Games/> Arcade (other)/> Maze/Mutant/mutant.dsk
 ./> Games/> Arcade (other)/> Maze/>> Compilations/serpentine+lady_tut+bubble-head.dsk
 ./> Games/> Arcade (other)/> Maze/>> Compilations/spindizzy+drelbs+labyrinth+creepy.dsk
 ./> Games/> Arcade (other)/> Maze/>> Compilations/maze_craze+c'est_la_vie+minotaur+speed_maze.dsk
@@ -2212,6 +2361,7 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (other)/> Run and gun/Vorpal/vorpal.dsk
 ./> Games/> Arcade (other)/> Run and gun/Berzap/berzap_v2.1.dsk
 ./> Games/> Arcade (other)/> Run and gun/Berzap/_supports_mockingboard.txt
+./> Games/> Arcade (other)/> Run and gun/Lost Tomb/lost_tomb.dsk
 ./> Games/> Arcade (other)/> Run and gun/Electro Arena/electro_arena.dsk
 ./> Games/> Arcade (other)/> Run and gun/Marauder/marauder.dsk
 ./> Games/> Arcade (other)/> Run and gun/Marauder/> Documentation/marauder_disk.jpg
@@ -2349,6 +2499,11 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (other)/> Platformer/Sammy Lightfoot/sammy_lightfoot.dsk
 ./> Games/> Arcade (other)/> Platformer/Conan/conan_1a.dsk
 ./> Games/> Arcade (other)/> Platformer/Conan/conan_1b.dsk
+./> Games/> Arcade (other)/> Platformer/Pharaoh's Revenge/pharaohs_revenge_1b_play.dsk
+./> Games/> Arcade (other)/> Platformer/Pharaoh's Revenge/> Documentation/pharaohs_revenge_box_front.jpg
+./> Games/> Arcade (other)/> Platformer/Pharaoh's Revenge/> Documentation/pharaohs_revenge_box_back.jpg
+./> Games/> Arcade (other)/> Platformer/Pharaoh's Revenge/> Documentation/pharaohs_revenge_disk.jpg
+./> Games/> Arcade (other)/> Platformer/Pharaoh's Revenge/pharaohs_revenge_1a_boot.dsk
 ./> Games/> Arcade (other)/> Platformer/Hero/hero.dsk
 ./> Games/> Arcade (other)/> Platformer/Floppy/floppy.dsk
 ./> Games/> Arcade (other)/> Platformer/Goonies/goonies.dsk
@@ -2364,121 +2519,201 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (other)/> Platformer/Bubble Bobble/> Documentation/bubble_bobble.pdf
 ./> Games/> Arcade (other)/> Platformer/Bubble Bobble/bubble_bobble_1a.dsk
 ./> Games/> Arcade (other)/> Platformer/Bubble Bobble/bubble_bobble_1b.dsk
-./> Games/> Various/Juggler/juggler.dsk
-./> Games/> Various/Android Attack/android_attack.dsk
-./> Games/> Various/Quest of the Gem/quest_of_the_gem_1a.dsk
-./> Games/> Various/Quest of the Gem/quest_of_the_gem_1b.dsk
-./> Games/> Various/Outpost/> Documentation/outpost.pdf
-./> Games/> Various/Outpost/outpost.dsk
-./> Games/> Various/County Fair/> Documentation/county_fair_disk.jpg
-./> Games/> Various/County Fair/> Documentation/county_fair_box_front.jpg
-./> Games/> Various/County Fair/county_fair.dsk
-./> Games/> Various/Airheart/> Documentation/airheart.pdf
-./> Games/> Various/Airheart/> Documentation/airheart_box_front.jpg
-./> Games/> Various/Airheart/airheart.dsk
-./> Games/> Various/GI Joe/gi_joe_1a.dsk
-./> Games/> Various/GI Joe/gi_joe_1b.dsk
-./> Games/> Various/Bolo/bolo.dsk
-./> Games/> Various/Bolo/> Documentation/bolo_poster.jpg
-./> Games/> Various/Bolo/> Documentation/bolo_box_back.jpg
-./> Games/> Various/Bolo/> Documentation/bolo_box_front.jpg
-./> Games/> Various/Dogfight II/dogfight_ii.dsk
-./> Games/> Various/Bloodsuckers/bloodsuckers.dsk
-./> Games/> Various/Killed Until Dead/killed_until_dead_1a.dsk
-./> Games/> Various/Killed Until Dead/killed_until_dead_1b.dsk
-./> Games/> Various/Killed Until Dead/> Documentation/killed_until_dead.pdf
-./> Games/> Various/Killed Until Dead/> Documentation/killed_until_dead_spoil.txt
-./> Games/> Various/AE/ae_1a.dsk
-./> Games/> Various/AE/> Documentation/ae.jpg
-./> Games/> Various/AE/> Documentation/ae_disk.jpg
-./> Games/> Various/AE/> Documentation/ae_box_front.jpg
-./> Games/> Various/AE/> Documentation/ae_poster.jpg
-./> Games/> Various/AE/ae_2a.dsk
-./> Games/> Various/Bloody Murder/bloody_murder.dsk
-./> Games/> Various/Crossbow/crossbow_1a.dsk
-./> Games/> Various/Crossbow/crossbow_1b.dsk
-./> Games/> Various/Crossbow/> Documentation/Crossbow.pdf
-./> Games/> Various/Sabotage/sabotage.dsk
-./> Games/> Various/Sabotage/> Documentation/sabotage_disk.jpg
-./> Games/> Various/Sabotage/> Documentation/sabotage_poster.jpg
-./> Games/> Various/Sabotage/> Documentation/sabotage.pdf
-./> Games/> Various/Spy v Spy/> Documentation/spy_vs_spy_ii.pdf
-./> Games/> Various/Spy v Spy/> Documentation/spy_vs_spy_i.pdf
-./> Games/> Various/Spy v Spy/> Documentation/spy_v_spy_box_disk.jpg
-./> Games/> Various/Spy v Spy/> Documentation/spy_vs_spy_poster.jpg
-./> Games/> Various/Spy v Spy/spy_v_spy_i+spy_v_spy_ii.dsk
-./> Games/> Various/Spy v Spy/spy_v_spy_iii.dsk
-./> Games/> Various/Spy's Demise/Spy's Demise I/spys_demise.dsk
-./> Games/> Various/Spy's Demise/Spy's Demise I/> Documenation/spys_demise_poster.jpg
-./> Games/> Various/Spy's Demise/Spy's Demise I/> Documenation/spys_demise_box_front.jpg
-./> Games/> Various/Spy's Demise/Spy's Demise I/> Documenation/spys_demise_box_back.jpg
-./> Games/> Various/Spy's Demise/Spy's Demise I/> Documenation/spys_demise.pdf
-./> Games/> Various/Spy's Demise/Spy's Demise II - Spy Strikes Back/_supports_mockingboard.txt
-./> Games/> Various/Spy's Demise/Spy's Demise II - Spy Strikes Back/> Documentation/spy_strikes_back.pdf
-./> Games/> Various/Spy's Demise/Spy's Demise II - Spy Strikes Back/> Documentation/spy_strikes_back_box_front.jpg
-./> Games/> Various/Spy's Demise/Spy's Demise II - Spy Strikes Back/> Documentation/spy_strikes_back_box_back.jpg
-./> Games/> Various/Spy's Demise/Spy's Demise II - Spy Strikes Back/spy_strikes_back.dsk
-./> Games/> Various/Best of Muse 1979/> Documentaion/best_of_muse.pdf
-./> Games/> Various/Best of Muse 1979/best_of_muse.dsk
-./> Games/> Various/Megabots/megabots.dsk
-./> Games/> Various/Pie-man/pie-man.dsk
-./> Games/> Various/Galaxy Wars/galaxy_wars.dsk
-./> Games/> Various/Crossfire/> Documentation/crossfire_disk.jpg
-./> Games/> Various/Crossfire/> Documentation/crossfire_poster.jpg
-./> Games/> Various/Crossfire/crossfire.dsk
-./> Games/> Various/Best of Bill Budge/> Documentation/bill_budge_space_album.jpg
-./> Games/> Various/Best of Bill Budge/> Documentation/bill_budge_space_album_disk.jpg
-./> Games/> Various/Best of Bill Budge/best_of_bill_budge.dsk
-./> Games/> Various/Blister Ball/blister_ball.dsk
-./> Games/> Various/Master of the Lamps/master_of_the_lamps.dsk
-./> Games/> Various/Master of the Lamps/> Documentation/master_of_lamps.pdf
-./> Games/> Various/Angel-1/angel-1.dsk
-./> Games/> Various/Willy Byte/willy_byte_1a.dsk
-./> Games/> Various/Willy Byte/willy_byte_1b.dsk
-./> Games/> Various/Willy Byte/_supports_mockingboard.txt
-./> Games/> Various/Willy Byte/> Documentation/willy_byte.pdf
-./> Games/> Various/Willy Byte/> Documentation/willy_byte_summary_card.pdf
-./> Games/> Various/Pentapuss/pentapuss.dsk
-./> Games/> Various/Tapper/tapper.dsk
-./> Games/> Various/Marble Madness/marble_madness_1a.dsk
-./> Games/> Various/Marble Madness/marble_madness_1b.dsk
-./> Games/> Various/Marble Madness/> Documentation/marble_madness.pdf
-./> Games/> Various/Gumball/gumball.dsk
-./> Games/> Various/Argos/argos.dsk
-./> Games/> Various/Ghost Busters/> Documentation/ghost_busters_disk.jpg
-./> Games/> Various/Ghost Busters/> Documentation/ghost_busters_inside.jpg
-./> Games/> Various/Ghost Busters/> Documentation/ghost_busters_box_back.jpg
-./> Games/> Various/Ghost Busters/> Documentation/ghost_busters.jpg
-./> Games/> Various/Ghost Busters/> Documentation/ghost_busters_box_front.jpg
-./> Games/> Various/Ghost Busters/ghost_busters.dsk
-./> Games/> Various/BC's Quest for Tires/> Documentation/bc_quest_for_tires_poster.jpg
-./> Games/> Various/BC's Quest for Tires/bc_quest_for_tires.dsk
-./> Games/> Various/Blitzkrieg/blitzkrieg.dsk
-./> Games/> Various/Pooyan/pooyan.dsk
-./> Games/> Various/Pooyan/> Documentation/pooyan_poster.jpg
-./> Games/> Various/Hyper Head On/hyper_head_on.dsk
-./> Games/> Various/Hyper Head On/> Documentation/hyper_head_on_bag.jpg
-./> Games/> Various/Hyper Head On/> Documentation/hyper_head_on_disk.jpg
-./> Games/> Various/Monster Smash/monster_smash.dsk
-./> Games/> Various/Hacker/Hacker I/hacker.dsk
-./> Games/> Various/Hacker/Hacker I/> Documentation/hacker_box.jpg
-./> Games/> Various/Hacker/Hacker I/> Documentation/hacker_spoil.txt
-./> Games/> Various/Hacker/Hacker I/> Documentation/hacker_poster.jpg
-./> Games/> Various/Hacker/Hacker II/hacker_ii.dsk
-./> Games/> Various/Crystal Castles/crystal_castles.dsk
-./> Games/> Various/Randamn/> Documentation/randamn_box_back.jpg
-./> Games/> Various/Randamn/> Documentation/randamn.pdf
-./> Games/> Various/Randamn/> Documentation/randamn_box_front.jpg
-./> Games/> Various/Randamn/randamn.dsk
-./> Games/> Various/Goonies/> Documentation/goonies_box_front.jpg
-./> Games/> Various/Goonies/> Documentation/goonies_disk.jpg
-./> Games/> Various/Goonies/> Documentation/goonies.pdf
-./> Games/> Various/Goonies/> Documentation/goonies_box_back.jpg
-./> Games/> Various/Goonies/goonies.dsk
-./> Games/> Various/Rampage/rampage.dsk
-./> Games/> Various/Rampage/> Documentation/rampage.pdf
-./> Games/> Various/Rampage/> Documentation/rampage_reference_card.pdf
-./> Games/> Various/Zytro War/zytro_war.dsk
+./> Games/> Arcade (other)/> Galaxian like/Star Cruiser/star_cruiser.dsk
+./> Games/> Arcade (other)/> Galaxian like/Sputnik Attack/sputnik_attack.dsk
+./> Games/> Arcade (other)/> Galaxian like/Pest Patrol/pest_patrol.dsk
+./> Games/> Arcade (other)/> Galaxian like/Pest Patrol/> Documentation/pest_patrol_box_back.jpg
+./> Games/> Arcade (other)/> Galaxian like/Pest Patrol/> Documentation/pest_patrol_disk.jpg
+./> Games/> Arcade (other)/> Galaxian like/Pest Patrol/> Documentation/pest_patrol_box_front.jpg
+./> Games/> Arcade (other)/> Galaxian like/Time Tunnels/time_tunnels.dsk
+./> Games/> Arcade (other)/> Galaxian like/Gemini/> Documentation/gemini_front.jpg
+./> Games/> Arcade (other)/> Galaxian like/Gemini/> Documentation/gemini_back.jpg
+./> Games/> Arcade (other)/> Galaxian like/Gemini/> Documentation/gemini_inside.jpg
+./> Games/> Arcade (other)/> Galaxian like/Gemini/gemini.dsk
+./> Games/> Arcade (other)/> Galaxian like/Bandits/bandits.dsk
+./> Games/> Arcade (other)/> Galaxian like/Bandits/> Documentation/bandits_poster.jpg
+./> Games/> Arcade (other)/> Galaxian like/Bandits/> Documentation/bandits_box_front.jpg
+./> Games/> Arcade (other)/> Galaxian like/Bandits/bandits_modified_controls.dsk
+./> Games/> Arcade (other)/> Galaxian like/Alien Ambush/alien_ambush.dsk
+./> Games/> Arcade (other)/> Galaxian like/Space Quarks/> Documentation/space_quarks_box_front.jpg
+./> Games/> Arcade (other)/> Galaxian like/Space Quarks/> Documentation/space_quarks_box_back.jpg
+./> Games/> Arcade (other)/> Galaxian like/Space Quarks/space_quarks.dsk
+./> Games/> Arcade (other)/> Galaxian like/Ceiling Zero/> Documentation/ceiling_zero_box_front.jpg
+./> Games/> Arcade (other)/> Galaxian like/Ceiling Zero/> Documentation/ceiling_zero_box_back.jpg
+./> Games/> Arcade (other)/> Galaxian like/Ceiling Zero/> Documentation/ceiling_zero_disk.jpg
+./> Games/> Arcade (other)/> Galaxian like/Ceiling Zero/ceiling_zero.dsk
+./> Games/> Arcade (other)/> Galaxian like/Threshold/> Documentation/threshold_disk.jpg
+./> Games/> Arcade (other)/> Galaxian like/Threshold/> Documentation/threshold.pdf
+./> Games/> Arcade (other)/> Galaxian like/Threshold/threshold.dsk
+./> Games/> Arcade (other)/> Galaxian like/Wavy Navy/> Documentation/wavy_navy.pdf
+./> Games/> Arcade (other)/> Galaxian like/Wavy Navy/> Documentation/wavy_navy_disk.jpg
+./> Games/> Arcade (other)/> Galaxian like/Wavy Navy/wavy_navy.dsk
+./> Games/> Arcade (other)/> Galaxian like/Falcons/> Documentation/falcons.jpg
+./> Games/> Arcade (other)/> Galaxian like/Falcons/falcons.dsk
+./> Games/> Arcade (other)/> Galaxian like/Space Eggs/> Documentation/space_eggs.pdf
+./> Games/> Arcade (other)/> Galaxian like/Space Eggs/space_eggs.dsk
+./> Games/> Arcade (other)/> Galaxian like/Tharolian Tunnels/_docs/tharolian_tunnels_disk.jpg
+./> Games/> Arcade (other)/> Galaxian like/Tharolian Tunnels/_docs/tharolian_tunnels_box_front.jpg
+./> Games/> Arcade (other)/> Galaxian like/Tharolian Tunnels/_docs/tharolian_tunnels_box_back.jpg
+./> Games/> Arcade (other)/> Galaxian like/Tharolian Tunnels/tharolian_tunnels.dsk
+./> Games/> Arcade (other)/> Galaxian like/Mutant/mutant.dsk
+./> Games/> Arcade (other)/> Galaxian like/>> Compilations/pest_patrol+buzzard_bait+space_quarks.dsk
+./> Games/> Arcade (other)/> Galaxian like/>> Compilations/galaxian+falcons+alien_typhoon.dsk
+./> Games/> Arcade (other)/> Galaxian like/Gamma Goblins/gamma_goblins.dsk
+./> Games/> Arcade (other)/> Galaxian like/Gamma Goblins/> Documentation/gamma_goblins_disk.jpg
+./> Games/> Arcade (other)/> Galaxian like/Gamma Goblins/> Documentation/gamma_goblins.pdf
+./> Games/> Arcade (other)/> Galaxian like/Buzzard Bait/buzzard_bait.dsk
+./> Games/> Various/> MIndscape/Paperboy/> Documentation/paperboy_disk.jpg
+./> Games/> Various/> MIndscape/Paperboy/> Documentation/paperboy_box_back.jpg
+./> Games/> Various/> MIndscape/Paperboy/> Documentation/paperboy_inside.jpg
+./> Games/> Various/> MIndscape/Paperboy/> Documentation/paperboy_box_front.jpg
+./> Games/> Various/> MIndscape/Paperboy/paperboy.dsk
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise I/spys_demise.dsk
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise I/> Documenation/spys_demise_poster.jpg
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise I/> Documenation/spys_demise_box_front.jpg
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise I/> Documenation/spys_demise_box_back.jpg
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise I/> Documenation/spys_demise.pdf
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise II - Spy Strikes Back/_supports_mockingboard.txt
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise II - Spy Strikes Back/> Documentation/spy_strikes_back.pdf
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise II - Spy Strikes Back/> Documentation/spy_strikes_back_box_front.jpg
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise II - Spy Strikes Back/> Documentation/spy_strikes_back_box_back.jpg
+./> Games/> Various/> Penguin/Spy's Demise/Spy's Demise II - Spy Strikes Back/spy_strikes_back.dsk
+./> Games/> Various/> Penguin/Pie-man/> Documentation/pie-man_disk.jpg
+./> Games/> Various/> Penguin/Pie-man/> Documentation/pie-man_box_front.jpg
+./> Games/> Various/> Penguin/Pie-man/pie-man.dsk
+./> Games/> Various/> Absolute/Crossbow/crossbow_1a.dsk
+./> Games/> Various/> Absolute/Crossbow/crossbow_1b.dsk
+./> Games/> Various/> Absolute/Crossbow/> Documentation/Crossbow.pdf
+./> Games/> Various/> Bally Midway/Tapper/tapper.dsk
+./> Games/> Various/> Bally Midway/Tapper/> Documentation/tapper_box_front.jpg
+./> Games/> Various/> Bally Midway/Tapper/> Documentation/tapper_box_back.jpg
+./> Games/> Various/> Level-10/Rings of Saturn/> Documentation/rings_of_saturn_box_back.jpg
+./> Games/> Various/> Level-10/Rings of Saturn/> Documentation/rings_of_saturn.txt
+./> Games/> Various/> Level-10/Rings of Saturn/> Documentation/rings_of_saturn_disk.jpg
+./> Games/> Various/> Level-10/Rings of Saturn/> Documentation/rings_of_saturn_box_front.jpg
+./> Games/> Various/> Level-10/Rings of Saturn/rings_of_saturn.dsk
+./> Games/> Various/> Datamost/County Fair/> Documentation/county_fair_disk.jpg
+./> Games/> Various/> Datamost/County Fair/> Documentation/county_fair_box_front.jpg
+./> Games/> Various/> Datamost/County Fair/county_fair.dsk
+./> Games/> Various/> Datamost/Ankh/> Documentation/ankh_reference_card.pdf
+./> Games/> Various/> Datamost/Ankh/> Documentation/ankh_disk.jpg
+./> Games/> Various/> Datamost/Ankh/> Documentation/ankh.pdf
+./> Games/> Various/> Datamost/Ankh/> Documentation/ankh_box_back.jpg
+./> Games/> Various/> Datamost/Ankh/> Documentation/ankh_box_front.jpg
+./> Games/> Various/> Datamost/Ankh/ankh.dsk
+./> Games/> Various/> Datamost/Argos/argos.dsk
+./> Games/> Various/> Datamost/Argos/> Documentation/argos_disk.jpg
+./> Games/> Various/> Datamost/Argos/> Documentation/argos_box_front.jpg
+./> Games/> Various/> Datamost/Monster Smash/> Documentation/monster_smash_box_front.jpg
+./> Games/> Various/> Datamost/Monster Smash/> Documentation/monster_smash_disk.jpg
+./> Games/> Various/> Datamost/Monster Smash/> Documentation/monster_smash_box_back.jpg
+./> Games/> Various/> Datamost/Monster Smash/monster_smash.dsk
+./> Games/> Various/> Datamost/Goonies/> Documentation/goonies_box_front.jpg
+./> Games/> Various/> Datamost/Goonies/> Documentation/goonies_disk.jpg
+./> Games/> Various/> Datamost/Goonies/> Documentation/goonies.pdf
+./> Games/> Various/> Datamost/Goonies/> Documentation/goonies_box_back.jpg
+./> Games/> Various/> Datamost/Goonies/goonies.dsk
+./> Games/> Various/> Data Trek/Willy Byte/willy_byte_1a.dsk
+./> Games/> Various/> Data Trek/Willy Byte/willy_byte_1b.dsk
+./> Games/> Various/> Data Trek/Willy Byte/_supports_mockingboard.txt
+./> Games/> Various/> Data Trek/Willy Byte/> Documentation/willy_byte.pdf
+./> Games/> Various/> Data Trek/Willy Byte/> Documentation/willy_byte_summary_card.pdf
+./> Games/> Various/> Electronic Arts/Marble Madness/marble_madness_1a.dsk
+./> Games/> Various/> Electronic Arts/Marble Madness/marble_madness_1b.dsk
+./> Games/> Various/> Electronic Arts/Marble Madness/> Documentation/marble_madness.pdf
+./> Games/> Various/> Magnum/Randamn/> Documentation/randamn_box_back.jpg
+./> Games/> Various/> Magnum/Randamn/> Documentation/randamn.pdf
+./> Games/> Various/> Magnum/Randamn/> Documentation/randamn_box_front.jpg
+./> Games/> Various/> Magnum/Randamn/randamn.dsk
+./> Games/> Various/> Warner/Spy v Spy/> Documentation/spy_vs_spy_ii.pdf
+./> Games/> Various/> Warner/Spy v Spy/> Documentation/spy_vs_spy_i.pdf
+./> Games/> Various/> Warner/Spy v Spy/> Documentation/spy_v_spy_box_disk.jpg
+./> Games/> Various/> Warner/Spy v Spy/> Documentation/spy_vs_spy_poster.jpg
+./> Games/> Various/> Warner/Spy v Spy/spy_v_spy_i+spy_v_spy_ii.dsk
+./> Games/> Various/> Warner/Spy v Spy/spy_v_spy_iii.dsk
+./> Games/> Various/> Accolade/Killed Until Dead/killed_until_dead_1a.dsk
+./> Games/> Various/> Accolade/Killed Until Dead/killed_until_dead_1b.dsk
+./> Games/> Various/> Accolade/Killed Until Dead/> Spoil/killed_until_dead_spoil.txt
+./> Games/> Various/> Accolade/Killed Until Dead/> Documentation/killed_until_dead.pdf
+./> Games/> Various/> Epyx/GI Joe/gi_joe_1a.dsk
+./> Games/> Various/> Epyx/GI Joe/gi_joe_1b.dsk
+./> Games/> Various/> Activision/Master of the Lamps/master_of_the_lamps.dsk
+./> Games/> Various/> Activision/Master of the Lamps/> Documentation/master_of_lamps.pdf
+./> Games/> Various/> Activision/Ghost Busters/> Documentation/ghost_busters_disk.jpg
+./> Games/> Various/> Activision/Ghost Busters/> Documentation/ghost_busters_inside.jpg
+./> Games/> Various/> Activision/Ghost Busters/> Documentation/ghost_busters_box_back.jpg
+./> Games/> Various/> Activision/Ghost Busters/> Documentation/ghost_busters.jpg
+./> Games/> Various/> Activision/Ghost Busters/> Documentation/ghost_busters_box_front.jpg
+./> Games/> Various/> Activision/Ghost Busters/ghost_busters.dsk
+./> Games/> Various/> Activision/Hacker/Hacker I/hacker.dsk
+./> Games/> Various/> Activision/Hacker/Hacker I/> Documentation/hacker_box.jpg
+./> Games/> Various/> Activision/Hacker/Hacker I/> Documentation/hacker_spoil.txt
+./> Games/> Various/> Activision/Hacker/Hacker I/> Documentation/hacker_poster.jpg
+./> Games/> Various/> Activision/Hacker/Hacker II/hacker_ii.dsk
+./> Games/> Various/> Turning Point/Pentapuss/pentapuss.dsk
+./> Games/> Various/> Broderbund/Airheart/> Documentation/airheart.pdf
+./> Games/> Various/> Broderbund/Airheart/> Documentation/airheart_box_front.jpg
+./> Games/> Various/> Broderbund/Airheart/airheart.dsk
+./> Games/> Various/> Broderbund/AE/ae_1a.dsk
+./> Games/> Various/> Broderbund/AE/> Documentation/ae.jpg
+./> Games/> Various/> Broderbund/AE/> Documentation/ae_disk.jpg
+./> Games/> Various/> Broderbund/AE/> Documentation/ae_box_front.jpg
+./> Games/> Various/> Broderbund/AE/> Documentation/ae_poster.jpg
+./> Games/> Various/> Broderbund/AE/ae_2a.dsk
+./> Games/> Various/> Broderbund/Gumball/> Documentation/gumball_disk.jpg
+./> Games/> Various/> Broderbund/Gumball/> Documentation/gumball_box_front.jpg
+./> Games/> Various/> Broderbund/Gumball/> Documentation/gumball_box_back.jpg
+./> Games/> Various/> Broderbund/Gumball/gumball.dsk
+./> Games/> Various/> Broderbund/Hyper Head On/hyper_head_on.dsk
+./> Games/> Various/> Broderbund/Hyper Head On/> Documentation/hyper_head_on_bag.jpg
+./> Games/> Various/> Broderbund/Hyper Head On/> Documentation/hyper_head_on_disk.jpg
+./> Games/> Various/> Sirius/Outpost/> Documentation/outpost.pdf
+./> Games/> Various/> Sirius/Outpost/outpost.dsk
+./> Games/> Various/> Universal Co/Galaxy Wars/galaxy_wars.dsk
+./> Games/> Various/> Nasir/Firebird/firebird.dsk
+./> Games/> Various/> Nasir/Firebird/> Documentation/firebird_box_front.jpg
+./> Games/> Various/> Synergistic/Bolo/bolo.dsk
+./> Games/> Various/> Synergistic/Bolo/> Documentation/bolo_poster.jpg
+./> Games/> Various/> Synergistic/Bolo/> Documentation/bolo_box_back.jpg
+./> Games/> Various/> Synergistic/Bolo/> Documentation/bolo_box_front.jpg
+./> Games/> Various/> Muse/Best of Muse 1979/> Documentaion/best_of_muse.pdf
+./> Games/> Various/> Muse/Best of Muse 1979/best_of_muse.dsk
+./> Games/> Various/> Sierra/Sabotage/sabotage.dsk
+./> Games/> Various/> Sierra/Sabotage/> Documentation/sabotage_disk.jpg
+./> Games/> Various/> Sierra/Sabotage/> Documentation/sabotage_poster.jpg
+./> Games/> Various/> Sierra/Sabotage/> Documentation/sabotage.pdf
+./> Games/> Various/> Sierra/BC's Quest for Tires/> Documentation/bc_quest_for_tires_poster.jpg
+./> Games/> Various/> Sierra/BC's Quest for Tires/bc_quest_for_tires.dsk
+./> Games/> Various/> Datasoft/Pooyan/pooyan.dsk
+./> Games/> Various/> Datasoft/Pooyan/> Documentation/pooyan_poster.jpg
+./> Games/> Various/> Neosoft/Megabots/megabots.dsk
+./> Games/> Various/> Data East/RoboCop/> Documentation/robocop_box_front.jpg
+./> Games/> Various/> Data East/RoboCop/> Documentation/robocop_box_back.jpg
+./> Games/> Various/> Data East/RoboCop/robocop_1b.dsk
+./> Games/> Various/> Data East/RoboCop/robocop_1a.dsk
+./> Games/> Various/> Data East/Rampage/rampage.dsk
+./> Games/> Various/> Data East/Rampage/> Documentation/rampage.pdf
+./> Games/> Various/> Data East/Rampage/> Documentation/rampage_reference_card.pdf
+./> Games/> Various/> California Pacific/Best of Bill Budge/> Documentation/bill_budge_space_album.jpg
+./> Games/> Various/> California Pacific/Best of Bill Budge/> Documentation/bill_budge_space_album_disk.jpg
+./> Games/> Various/> California Pacific/Best of Bill Budge/best_of_bill_budge.dsk
+./> Games/> Various/> Atarisoft/Pengo/> Documentation/pengo_box_back.jpg
+./> Games/> Various/> Atarisoft/Pengo/> Documentation/pengo_box_front.jpg
+./> Games/> Various/> Atarisoft/Pengo/pengo.dsk
+./> Games/> Various/> Atarisoft/Crystal Castles/crystal_castles.dsk
+./> Games/> Various/> Atarisoft/Crystal Castles/> Documentation/crystal_castles_inside.jpg
+./> Games/> Various/> Atarisoft/Crystal Castles/> Documentation/crystal_castles_disk.jpg
+./> Games/> Various/> Atarisoft/Crystal Castles/> Documentation/crystal_castles_box_front.jpg
+./> Games/> Various/> Atarisoft/Crystal Castles/> Documentation/crystal_castles_box_back.jpg
+./> Games/> Various/> Independent/Juggler/juggler.dsk
+./> Games/> Various/> Independent/Android Attack/android_attack.dsk
+./> Games/> Various/> Independent/Dogfight II/dogfight_ii.dsk
+./> Games/> Various/> Independent/Bloodsuckers/bloodsuckers.dsk
+./> Games/> Various/> Independent/Bloody Murder/bloody_murder.dsk
+./> Games/> Various/> Independent/Blister Ball/blister_ball.dsk
+./> Games/> Various/> Independent/Angel-1/angel-1.dsk
+./> Games/> Various/> Independent/Blitzkrieg/blitzkrieg.dsk
+./> Games/> Various/> Independent/Zytro War/zytro_war.dsk
 ./> Games/> Various/>> Compilations/bill_budge+lunar_lander+quasar+blitzkrieg+dogfight+mini_golf+escape.dsk
 ./> Games/> Various/>> Compilations/teri_tory+pengo+genesis+pooyan.dsk
 ./> Games/> Various/>> Compilations/hyper_head_on+bloody_murder+bloodsuckers+firebird.dsk
@@ -2488,8 +2723,6 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Various/>> Compilations/spys_demise+spy_strikes_back+crystal_castles+money_munchers+bongos_bash.dsk
 ./> Games/> Various/>> Compilations/master_of_the_lamps+sabotage+cyclod+red_alert.dsk
 ./> Games/> Various/>> Compilations/dogfight_i+dogfight_ii+worm_wall.dsk
-./> Games/> Various/Firebird/firebird.dsk
-./> Games/> Various/Firebird/> Documentation/firebird_box_front.jpg
 ./> Games/> Sports/Tag Team Wrestling/tag_team_wrestling.dsk
 ./> Games/> Sports/Hardball!/hardball!.dsk
 ./> Games/> Sports/Hardball!/> Documentation/hardball!.pdf
@@ -2588,7 +2821,6 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (classic)/> Breakout/Littlle Brick Out/littlle_brick_out.dsk
 ./> Games/> Arcade (classic)/> Breakout/>> Compilations/littlle_brick_out+chipout+breakthru+super_trick_out.dsk
 ./> Games/> Arcade (classic)/> Robotron/Vindicator/vindicator.dsk
-./> Games/> Arcade (classic)/> Robotron/Lost Tomb/lost_tomb.dsk
 ./> Games/> Arcade (classic)/> Robotron/Robot Battle/robot_battle.dsk
 ./> Games/> Arcade (classic)/> Robotron/Robotron/robotron.dsk
 ./> Games/> Arcade (classic)/> Robotron/>> Compilations/robotron+vindicator+lost_tomb+shamus.dsk
@@ -2627,11 +2859,12 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (classic)/> Tempest/Hell Storm/hell_storm.dsk
 ./> Games/> Arcade (classic)/> Tempest/Genesis/genesis.dsk
 ./> Games/> Arcade (classic)/> Tempest/>> Compilations/tubeway+axis_assassin+hell_storm.dsk
+./> Games/> Arcade (classic)/> Depth Charge/Depth Charge (Keypunch)/depth_charge_keypunch.dsk
 ./> Games/> Arcade (classic)/> Depth Charge/Seafox/seafox.dsk
 ./> Games/> Arcade (classic)/> Depth Charge/Seafox/> Documentation/seafox_box_front.jpg
 ./> Games/> Arcade (classic)/> Depth Charge/Seafox/> Documentation/seafox_box_back.jpg
 ./> Games/> Arcade (classic)/> Depth Charge/Seafox/> Documentation/seafox.pdf
-./> Games/> Arcade (classic)/> Depth Charge/Depth Charge/depth_charge.dsk
+./> Games/> Arcade (classic)/> Depth Charge/Depth Charge (Penguin)/depth_charge_penguin.dsk
 ./> Games/> Arcade (classic)/> Depth Charge/Kamikaze/> Documentation/kamikaze_box_front.jpg
 ./> Games/> Arcade (classic)/> Depth Charge/Kamikaze/> Documentation/kamikaze_box_open.jpg
 ./> Games/> Arcade (classic)/> Depth Charge/Kamikaze/> Documentation/kamikaze_disk.jpg
@@ -2677,14 +2910,9 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (classic)/> Pac-man/Taxman/Taxman/> Documentation/taxman_box_front.jpg
 ./> Games/> Arcade (classic)/> Pac-man/Taxman/Taxman/> Documentation/taxman_box_back.jpg
 ./> Games/> Arcade (classic)/> Pac-man/Taxman/Taxman II/taxman_ii.dsk
-./> Games/> Arcade (classic)/> Pac-man/Lock 'n Chase/lock_n_chase.dsk
-./> Games/> Arcade (classic)/> Pac-man/Lock 'n Chase/> Documentation/lock_n_chase _poster.jpg
 ./> Games/> Arcade (classic)/> Pac-man/Nibbler/nibbler.dsk
 ./> Games/> Arcade (classic)/> Pac-man/Pac-man/> Documentation/pac-man.pdf
 ./> Games/> Arcade (classic)/> Pac-man/Pac-man/pac-man.dsk
-./> Games/> Arcade (classic)/> Pac-man/Dung Beetles/> Documentation/dung_beetles.pdf
-./> Games/> Arcade (classic)/> Pac-man/Dung Beetles/dung_beetles.dsk
-./> Games/> Arcade (classic)/> Pac-man/Mutant/mutant.dsk
 ./> Games/> Arcade (classic)/> Pac-man/>> Compilations/taxman+pac_man+ms_pac+nibbler+dung_beetles.dsk
 ./> Games/> Arcade (classic)/> Joust/Talon/talon.dsk
 ./> Games/> Arcade (classic)/> Joust/Joust/> Documentation/joust_box_back.jpg
@@ -2693,9 +2921,6 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (classic)/> Joust/Jouster/jouster.dsk
 ./> Games/> Arcade (classic)/> Joust/>> Compilations/joust+jouster.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Asteroid/asteroid.dsk
-./> Games/> Arcade (classic)/> Asteroids/Star Maze/star_maze.dsk
-./> Games/> Arcade (classic)/> Asteroids/Star Maze/> Documentation/star_maze_poster.jpg
-./> Games/> Arcade (classic)/> Asteroids/Raiders of the Lost Ring/raiders_of_the_lost_ring.dsk
 ./> Games/> Arcade (classic)/> Asteroids/Apple-Oids/> Documentation/apple-oids_disk.jpg
 ./> Games/> Arcade (classic)/> Asteroids/Apple-Oids/> Documentation/apple-oids_box_front.jpg
 ./> Games/> Arcade (classic)/> Asteroids/Apple-Oids/> Documentation/apple-oids_box_back.jpg
@@ -2707,8 +2932,6 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (classic)/> Asteroids/Asteroid Field/> Documentation/asteroid_field_box_front.jpg
 ./> Games/> Arcade (classic)/> Asteroids/Asteroids in Space/> Documentation/asteroids_in_space.pdf
 ./> Games/> Arcade (classic)/> Asteroids/Asteroids in Space/asteroids_in_space.dsk
-./> Games/> Arcade (classic)/> Asteroids/Sanitron/sanitron.dsk
-./> Games/> Arcade (classic)/> Asteroids/Galaxy Gates/galaxy_gates.dsk
 ./> Games/> Arcade (classic)/> Asteroids/>> Compilations/asteroid_field+asteroids_in_space+asteroid+planetoid+star_maze+galaxy_gates+apple-oids.dsk
 ./> Games/> Arcade (classic)/> Qbert/Cubit/> Documentation/cubit_poster.jpg
 ./> Games/> Arcade (classic)/> Qbert/Cubit/cubit.dsk
@@ -2717,43 +2940,15 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (classic)/> Qbert/J Bird/j_bird.dsk
 ./> Games/> Arcade (classic)/> Qbert/J Bird/read_me.txt
 ./> Games/> Arcade (classic)/> Qbert/>> Compilations/qbit+mr_cool.dsk
-./> Games/> Arcade (classic)/> Galaxian/Star Cruiser/star_cruiser.dsk
-./> Games/> Arcade (classic)/> Galaxian/Sputnik Attack/sputnik_attack.dsk
-./> Games/> Arcade (classic)/> Galaxian/Pest Patrol/pest_patrol.dsk
-./> Games/> Arcade (classic)/> Galaxian/Pest Patrol/> Documentation/pest_patrol_box_back.jpg
-./> Games/> Arcade (classic)/> Galaxian/Pest Patrol/> Documentation/pest_patrol_disk.jpg
-./> Games/> Arcade (classic)/> Galaxian/Pest Patrol/> Documentation/pest_patrol_box_front.jpg
-./> Games/> Arcade (classic)/> Galaxian/Bandits/bandits.dsk
-./> Games/> Arcade (classic)/> Galaxian/Bandits/> Documentation/bandits_poster.jpg
-./> Games/> Arcade (classic)/> Galaxian/Bandits/> Documentation/bandits_box_front.jpg
-./> Games/> Arcade (classic)/> Galaxian/Bandits/bandits_modified_controls.dsk
-./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/alien_typhoon.dsk
-./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/> Documentation/alien_rain_disk.jpg
-./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/apple_galaxian.dsk
-./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/read_me.txt
-./> Games/> Arcade (classic)/> Galaxian/Alien Typhoon/>> Compilations/apple_galaxian+alien_rain+alien_typhoon.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Galaxian/galaxian.dsk
 ./> Games/> Arcade (classic)/> Galaxian/Galaxian/> Documentation/galaxian_box_back.jpg
 ./> Games/> Arcade (classic)/> Galaxian/Galaxian/> Documentation/galaxian_box_front.jpg
 ./> Games/> Arcade (classic)/> Galaxian/Galaxian/> Documentation/galaxian.pdf
-./> Games/> Arcade (classic)/> Galaxian/Space Quarks/> Documentation/space_quarks_box_front.jpg
-./> Games/> Arcade (classic)/> Galaxian/Space Quarks/> Documentation/space_quarks_box_back.jpg
-./> Games/> Arcade (classic)/> Galaxian/Space Quarks/space_quarks.dsk
-./> Games/> Arcade (classic)/> Galaxian/Threshold/> Documentation/threshold_disk.jpg
-./> Games/> Arcade (classic)/> Galaxian/Threshold/> Documentation/threshold.pdf
-./> Games/> Arcade (classic)/> Galaxian/Threshold/threshold.dsk
-./> Games/> Arcade (classic)/> Galaxian/Wavy Navy/> Documentation/wavy_navy.pdf
-./> Games/> Arcade (classic)/> Galaxian/Wavy Navy/> Documentation/wavy_navy_disk.jpg
-./> Games/> Arcade (classic)/> Galaxian/Wavy Navy/wavy_navy.dsk
-./> Games/> Arcade (classic)/> Galaxian/Falcons/> Documentation/falcons.jpg
-./> Games/> Arcade (classic)/> Galaxian/Falcons/falcons.dsk
-./> Games/> Arcade (classic)/> Galaxian/Mutant/mutant.dsk
-./> Games/> Arcade (classic)/> Galaxian/>> Compilations/pest_patrol+buzzard_bait+space_quarks.dsk
-./> Games/> Arcade (classic)/> Galaxian/>> Compilations/galaxian+falcons+alien_typhoon.dsk
-./> Games/> Arcade (classic)/> Galaxian/Gamma Goblins/gamma_goblins.dsk
-./> Games/> Arcade (classic)/> Galaxian/Gamma Goblins/> Documentation/gamma_goblins_disk.jpg
-./> Games/> Arcade (classic)/> Galaxian/Gamma Goblins/> Documentation/gamma_goblins.pdf
-./> Games/> Arcade (classic)/> Galaxian/Buzzard Bait/buzzard_bait.dsk
+./> Games/> Arcade (classic)/> Galaxian/Apple Galaxian/alien_typhoon.dsk
+./> Games/> Arcade (classic)/> Galaxian/Apple Galaxian/> Documentation/alien_rain_disk.jpg
+./> Games/> Arcade (classic)/> Galaxian/Apple Galaxian/apple_galaxian.dsk
+./> Games/> Arcade (classic)/> Galaxian/Apple Galaxian/read_me.txt
+./> Games/> Arcade (classic)/> Galaxian/Apple Galaxian/>> Compilations/apple_galaxian+alien_rain+alien_typhoon.dsk
 ./> Games/> Arcade (classic)/> Dig Dug/Boulder Dash/Boulder Dash/boulder_dash.dsk
 ./> Games/> Arcade (classic)/> Dig Dug/Boulder Dash/Boulder Dash Construction Kit/boulder_dash_construction_kit.dsk
 ./> Games/> Arcade (classic)/> Dig Dug/Boulder Dash/Boulder Dash Construction Kit/> Documentation/boulder_dash_construction_kit_disk.jpg
@@ -2778,15 +2973,6 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (classic)/> Frogger/>> Compilations/frogger+ribbit+road_pizza+brainteaser_blvd.dsk
 ./> Games/> Arcade (classic)/> Invaders/Stellar Invaders/stellar_invaders.dsk
 ./> Games/> Arcade (classic)/> Invaders/Stellar Invaders/> Documentation/stellar_invaders.jpg
-./> Games/> Arcade (classic)/> Invaders/Gemini/> Documentation/gemini_front.jpg
-./> Games/> Arcade (classic)/> Invaders/Gemini/> Documentation/gemini_back.jpg
-./> Games/> Arcade (classic)/> Invaders/Gemini/> Documentation/gemini_inside.jpg
-./> Games/> Arcade (classic)/> Invaders/Gemini/gemini.dsk
-./> Games/> Arcade (classic)/> Invaders/Alien Ambush/alien_ambush.dsk
-./> Games/> Arcade (classic)/> Invaders/Ceiling Zero/> Documentation/ceiling_zero_box_front.jpg
-./> Games/> Arcade (classic)/> Invaders/Ceiling Zero/> Documentation/ceiling_zero_box_back.jpg
-./> Games/> Arcade (classic)/> Invaders/Ceiling Zero/> Documentation/ceiling_zero_disk.jpg
-./> Games/> Arcade (classic)/> Invaders/Ceiling Zero/ceiling_zero.dsk
 ./> Games/> Arcade (classic)/> Invaders/Super Invader/super_invader.dsk
 ./> Games/> Arcade (classic)/> Invaders/Super Invader/> Documentation/super_invader_instructions.jpg
 ./> Games/> Arcade (classic)/> Invaders/Super Invader/> Documentation/super_invader_box_front.jpg
@@ -2794,15 +2980,14 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Arcade (classic)/> Invaders/Side Invaders/side_invaders.dsk
 ./> Games/> Arcade (classic)/> Invaders/Apple Invaders/apple_invaders.dsk
 ./> Games/> Arcade (classic)/> Invaders/Apple Invaders/> Documentation/apple_invaders_disk.jpg
-./> Games/> Arcade (classic)/> Invaders/Space Eggs/> Documentation/space_eggs.pdf
-./> Games/> Arcade (classic)/> Invaders/Space Eggs/space_eggs.dsk
-./> Games/> Arcade (classic)/> Invaders/Tharolian Tunnels/_docs/tharolian_tunnels_disk.jpg
-./> Games/> Arcade (classic)/> Invaders/Tharolian Tunnels/_docs/tharolian_tunnels_box_front.jpg
-./> Games/> Arcade (classic)/> Invaders/Tharolian Tunnels/_docs/tharolian_tunnels_box_back.jpg
-./> Games/> Arcade (classic)/> Invaders/Tharolian Tunnels/tharolian_tunnels.dsk
 ./> Games/> Arcade (classic)/> Invaders/>> Compilations/gemini+gamma_goblins+quibbles_revenge+time_tunnels.dsk
 ./> Games/> Arcade (classic)/> Invaders/>> Compilations/super_invader+apple_invaders+stellar_invaders+side_invaders+galaxy_wars.dsk
 ./> Games/> Arcade (classic)/> Invaders/>> Compilations/space_eggs+ceiling_zero+alien_ambush+blister_ball.dsk
+./> Games/> Xmas/Christmas Songs/christmas_songs.dsk
+./> Games/> Xmas/A Christmas Adventure/a_christmas_adventure_1b.dsk
+./> Games/> Xmas/A Christmas Adventure/a_christmas_adventure_1a.dsk
+./> Games/> Xmas/Ho Ho Ho/ho_ho_ho.dsk
+./> Games/> Xmas/The Night Before Christmas/the_night_before_christmas.dsk
 ./> Games/> Casual/Shuffleboard/shuffleboard.dsk
 ./> Games/> Casual/Soko-Ban/soko-ban_1b.dsk
 ./> Games/> Casual/Soko-Ban/soko-ban_1a.dsk
@@ -2813,28 +2998,33 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Casual/Shanghai/Shanghai I/shanghai.dsk
 ./> Games/> Casual/Shanghai/Shanghai II/> Documentation/shanghai_ii.pdf
 ./> Games/> Casual/Tetrad/tetrad.dsk
-./> Games/> Casual/Tetris/tetris_48k.dsk
-./> Games/> Casual/Tetris/> Documentation/tetris.pdf
-./> Games/> Casual/Tetris/tetris_128k.dsk
-./> Games/> Casual/Pengo/pengo.dsk
+./> Games/> Casual/> Pipe Dream/Pipe Dream (Pasztor)/pipe_dream.dsk
+./> Games/> Casual/> Pipe Dream/Pipe Dream/> Documentation/pipe_dream.pdf
+./> Games/> Casual/> Pipe Dream/Pipe Dream/> Documentation/pipe_dream_reference_card.pdf
+./> Games/> Casual/> Pipe Dream/Pipe Dream/pipe_dream.dsk
 ./> Games/> Casual/Snake Byte/snake_byte_cheat.dsk
 ./> Games/> Casual/Snake Byte/snake_byte.dsk
 ./> Games/> Casual/Snake Byte/> Documentation/snake_byte_poster.jpg
-./> Games/> Casual/How About a Nice Game of Chess?/a_nice_game_of_chess.dsk
 ./> Games/> Casual/Cyclod/> Documentation/cyclod.pdf
 ./> Games/> Casual/Cyclod/cyclod.dsk
+./> Games/> Casual/> Battleship/Battleship (Eagle)/Battleship_eagle.dsk
+./> Games/> Casual/> Battleship/Battleship Commander/battleship_commander.dsk
+./> Games/> Casual/> Battleship/Battleship/battleship.dsk
+./> Games/> Casual/> Battleship/Battleship (Keypunch)/battleship_keypunch.dsk
+./> Games/> Casual/> Tetris/Tetris/tetris_48k.dsk
+./> Games/> Casual/> Tetris/Tetris/> Documentation/tetris.pdf
+./> Games/> Casual/> Tetris/Tetris/tetris_128k.dsk
+./> Games/> Casual/> Tetris/Apple Tetris/apple_tetris.dsk
+./> Games/> Casual/> Tetris/Tetris II/tetris_ii.dsk
 ./> Games/> Casual/Bridge Baron/bridge_baron.dsk
 ./> Games/> Casual/Pool/pool.dsk
 ./> Games/> Casual/Draw Poker/draw_poker.dsk
-./> Games/> Casual/>> Compilations/tetris+pipe_dream+othello+checkers+gammon+chess+go+poker+tetrad.dsk
+./> Games/> Casual/>> Compilations/apple_tetris+pipe_dream+othello+checkers+gammon+chess+go+poker+tetrad.dsk
 ./> Games/> Casual/>> Compilations/snake_byte+quasar+air_cars.dsk
 ./> Games/> Casual/Fishies/> Documentation/fishies_disk_back.jpg
 ./> Games/> Casual/Fishies/> Documentation/fishies_box_back.jpg
 ./> Games/> Casual/Fishies/> Documentation/fishies_disk_front.jpg
 ./> Games/> Casual/Fishies/fishies.dsk
-./> Games/> Casual/Pipe Dream/pipedream.dsk
-./> Games/> Casual/Pipe Dream/> Documentation/pipe_dream.pdf
-./> Games/> Casual/Pipe Dream/> Documentation/pipe_dream_reference_card.pdf
 ./> Games/> Casual/NY Times Crossword/ny_times_crossword.dsk
 ./> Games/> Adventure (text)/> Dungeon crawl/Bronze Dragon/Bronze Dragon II - Twisted Speare/twisted_speare_1a.dsk
 ./> Games/> Adventure (text)/> Dungeon crawl/Bronze Dragon/Bronze Dragon II - Twisted Speare/> Documentation/manual/yellow_paper.gif
@@ -2970,53 +3160,53 @@ find . -type f ! -name ".DS_Store"
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Samplers/sampler_1.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Samplers/sampler_2.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Samplers/read_me.txt
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/witness_r22.dsk
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Spoil/witness.txt
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Spoil/witness_shortcut.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/witness_box_back.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/telegram.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/matchbook.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/witness_box_front.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/detective_gazette.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/mothers_suicide_note.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/witness.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/matchbook_inside.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/witness_disk.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/back.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/santa_ana_register.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Witness/> Documentation/front.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/deadline_r27.dsk
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Spoil/deadline_spoil.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Spoil/deadline_map.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Spoil/deadline_shortcut.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Spoil/deadline_zug_map.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_box_front.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_alt.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_disk.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_box_back.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_folio/deadline report.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_folio/deadline_folder.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_folio/deadline_letter.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_folio/deadline_corpus.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_folio/deadline_photo.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_folio/deadline_interviews.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_folio/deadline_memo.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Deadline/> Documentation/deadline_folio/deadline_pills.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Spoil/suspect_spoil.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Spoil/hints/suspect_map.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Spoil/hints/suspect_deed.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Spoil/hints/suspect_map.gif
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect_card.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect_invitation.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect_receipt.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect_box_back.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect_disk.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect_letter.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect_article.pdf
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/> Documentation/suspect_box_front.jpg
-./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder Mystery/Suspect/suspect_r14.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/witness_r22.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Spoil/witness.txt
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Spoil/witness_shortcut.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/witness_box_back.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/telegram.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/matchbook.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/witness_box_front.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/detective_gazette.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/mothers_suicide_note.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/witness.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/matchbook_inside.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/witness_disk.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/back.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/santa_ana_register.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Witness/> Documentation/front.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/deadline_r27.dsk
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Spoil/deadline_spoil.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Spoil/deadline_map.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Spoil/deadline_shortcut.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Spoil/deadline_zug_map.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_box_front.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_alt.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_disk.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_box_back.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_folio/deadline report.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_folio/deadline_folder.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_folio/deadline_letter.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_folio/deadline_corpus.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_folio/deadline_photo.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_folio/deadline_interviews.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_folio/deadline_memo.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Deadline/> Documentation/deadline_folio/deadline_pills.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Spoil/suspect_spoil.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Spoil/hints/suspect_map.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Spoil/hints/suspect_deed.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Spoil/hints/suspect_map.gif
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect_card.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect_invitation.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect_receipt.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect_box_back.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect_disk.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect_letter.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect_article.pdf
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/> Documentation/suspect_box_front.jpg
+./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Murder mystery/Suspect/suspect_r14.dsk
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Science Fiction/Starcross/> Spoil/starcross_spoil.pdf
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Science Fiction/Starcross/> Spoil/starcross_zug_maps.pdf
 ./> Games/> Adventure (text)/> Interactive fiction/> Infocom/> Science Fiction/Starcross/> Spoil/starcross_shortcut.pdf
@@ -3436,6 +3626,7 @@ find . -type f ! -name ".DS_Store"
 ./> Copy programs/Copy II Plus/Copy II Plus v9.1/copy_ii_plus_v9.1_1b_param.dsk
 ./> Copy programs/Copy II Plus/Copy II Plus v7.1/copy_ii_plus_v7.1_1984.dsk
 ./> Copy programs/Copy II Plus/Copy II Plus v5.5/copy_ii_plus_v5.5_1982.dsk
+./> Copy programs/Passport/passport_v2018_10_14.dsk
 ./> Copy programs/Passport/passport_v2017_11_14.dsk
 ./> Copy programs/Passport/read_me.txt
 ./> Copy programs/EDD/edd_v4.9.1.dsk
@@ -3477,7 +3668,10 @@ find . -type f ! -name ".DS_Store"
 ./> Graphics/Mouse Paint/> Documentation/eraser.gif
 ./> Graphics/Mouse Paint/> Documentation/mousepaint.htm
 ./> Graphics/Mouse Paint/mouse_paint.dsk
-./> Graphics/Turtle Graphics/lego_tc_logo.dsk
+./> Graphics/Turtle Graphics/Alice in LogoLand/alice_in_logoland.dsk
+./> Graphics/Turtle Graphics/Alice in LogoLand/> Documentation/alice_in_logoland_disks.jpg
+./> Graphics/Turtle Graphics/Lego TC Logo/lego_tc_logo.dsk
+./> Graphics/Turtle Graphics/Krell's Logo/krells_logo.dsk
 ./> Graphics/Blazing Paddles/> Documentation/blazing_paddles_disk.jpg
 ./> Graphics/Blazing Paddles/> Documentation/blazing_paddles_box_front.jpg
 ./> Graphics/Blazing Paddles/> Documentation/blazing_paddles.txt
@@ -3562,7 +3756,6 @@ find . -type f ! -name ".DS_Store"
 ./> Books/> Hint books/Quest for Clues/_spoil/mega_traveller_clues.pdf
 ./> Books/> Hint books/Quest for Clues/_spoil/wrath_of_denethenor_clues.pdf
 ./> Books/> Hint books/Quest for Clues/_spoil/demons_tomb_clues.pdf
-./> Books/> Hint books/Quest for Clues/_spoil/magic_candle_clues.pdf
 ./> Books/> Hint books/Quest for Clues/_spoil/drakkhen_clues.pdf
 ./> Books/> Hint books/Quest for Clues/_spoil/hillsfar_clues.pdf
 ./> Books/> Hint books/Quest for Clues/_spoil/leisure_suit_larry_iii_clues.pdf
@@ -3684,7 +3877,10 @@ find . -type f ! -name ".DS_Store"
 ./> Books/> Hint books/Shortcut to Adventureland/Shortcut to Adventureland II.pdf
 ./> Books/> Hint books/Shortcut to Adventureland/Shortcut to Adventureland I.pdf
 ./> Books/> Hint books/Adventure Companion.pdf
-./> Books/> Hint books/SSI Hintsheets.pdf
+./> Books/> Hint books/SSI Hintsheets/_spoil/star_command_hintsheet.pdf
+./> Books/> Hint books/SSI Hintsheets/_spoil/roadwar_europa_hintsheet.pdf
+./> Books/> Hint books/SSI Hintsheets/_spoil/stellar_crusade_hintsheet.pdf
+./> Books/> Hint books/SSI Hintsheets/SSI Hintsheets.pdf
 ./> Books/> Basic programming books/> Creative Computing/Basic Computer Games.pdf
 ./> Books/> Basic programming books/> Creative Computing/More Basic Computer Games.pdf
 ./> Books/> Basic programming books/> Usborne/Computer Spy Games.pdf
@@ -3705,9 +3901,6 @@ find . -type f ! -name ".DS_Store"
 ./> Books/> Basic programming books/> Basic listings/Basic Computer Games/WUMPUS.BAS
 ./> Books/> Basic programming books/> Basic listings/Taipan/read_me.txt
 ./> Books/> Basic programming books/> Basic listings/Taipan/TAIPAN.BAS
-./> Xmas/ho_ho_ho.dsk
-./> Xmas/christmas_songs.dsk
-./> Xmas/the_night_before_christmas.dsk
 ./> Word Processing/StoryBook/storybook_1b.dsk
 ./> Word Processing/StoryBook/storybook_1a.dsk
 ./> Word Processing/Bank Steet Writer/bank_steet_writer_IIc.dsk
@@ -3722,6 +3915,8 @@ find . -type f ! -name ".DS_Store"
 ./_notes/apple_hgr_graphics.txt
 ./_notes/apple.txt
 ./_notes/call_peek_poke.txt
+./> Apple ROMs/APPLE2E.ROM
+./> Apple ROMs/APPLE2.ROM
 ./> Educational/> DesignWare/Body Transparent/body_transparent.dsk
 ./> Educational/> DesignWare/Grammar Examiner /grammar_examiner.dsk
 ./> Educational/> Weekly Reader/> Documentation/weekly_reader_poster.jpg
@@ -3771,6 +3966,7 @@ find . -type f ! -name ".DS_Store"
 ./> Educational/> Scholastic/Toward the North Star/toward_the_north_star.dsk
 ./> Educational/> Scholastic/Great Pawnee Buffalo Hunt/great_pawnee_buffalo_hunt.dsk
 ./> Educational/> Scholastic/Shot Heard Around the World/shot_heard_around_world.dsk
+./> Educational/> Scholastic/Walkabout/walkabout.dsk
 ./> Educational/> Scholastic/Quest for the Pole/quest_for_the_pole.dsk
 ./> Educational/> Scholastic/Wagons West/wagons_west.dsk
 ./> Educational/> Scholastic/The Frog and the Fables/frog_and_fables.dsk
