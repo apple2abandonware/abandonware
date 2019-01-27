@@ -6,9 +6,6 @@ http://www.virtualii.com
 Best Apple ][ emulator for Windows is here:
 https://github.com/AppleWin/AppleWin
 
-You will need Apple ][ ROMs, which can be found on Asimov here:
-http://mirrors.apple2.org.za/ftp.apple.asimov.net/emulators/rom_images/apple2_roms.zip
-
 
 2) Software download
 
