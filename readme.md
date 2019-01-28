@@ -28,7 +28,7 @@ To upload disk images to Asimov:
 Open anonymous FTP connection to ftp.apple.asimov.net, then upload to pub/apple_II/incoming
 
 
-Special thanks to 4AM, San Inc, 3D0G Knight, and Clean Crack.
+Special thanks to 4AM, San Inc, 3D0G Knight, and all those who make clean cracks.
 
 
 3) Documentation
