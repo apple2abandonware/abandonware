@@ -1,0 +1,22 @@
+Xyphus Fix
+
+   When the (ineompletly) softkeyed copy of Xyphus (COMPUTIST No. 24, pg,
+14) is used to make a player disk, the game will drop into BASIC rather
+than rebooting. This is because Xyphus jumps to the address stored
+in the reset vector after copying the pillyer disk. To make it reboot
+instead, DOS must be told to point to the reset vector at $C600. 
+   To fix this, start up your sector editor and change track $0, sector $D,
+bytes $52 and $53 to $00 C0 (previously $32 A2). This change can be
+incorporated into the Xyphus Controller by changing the following lines:
+
+5000 DATA 7  CHANGES
+5060 DATA 0, 13, 82, 0
+5070 DATA 0, 13, 83, 198
+
+This will make Xyphus rebooT as it should. 
+
+John Liska
+
+
+FROM Computist Issue #42 page 5
+see https://archive.org/details/computist-scan-42/page/n5
