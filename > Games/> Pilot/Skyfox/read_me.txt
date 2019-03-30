@@ -1,0 +1,1 @@
+Skyfox has an easter egg where pressing Ctrl-G while flying activates a Space Invaders game.
