@@ -1,0 +1,1 @@
+This game never came with any manual.
