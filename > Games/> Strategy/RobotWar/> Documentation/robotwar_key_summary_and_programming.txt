@@ -1,0 +1,150 @@
+*****************************************************************
+*       Robotwar Key Summary and Programming Instructions       *
+*                    Help File by: The Thief                    *
+*****************************************************************
+
+
+
+Key Summary:
+------------
+From the Battlefield:
+
+Return:start battle               Esc:stop battle, return to menu
+Q:turn sound off                                  S:turn sound on
+
+From the Assembler:
+
+Space:stop/step the listing        Return:start the listing again
+0 - 9 keys:adjust listing scrolling speed
+
+From the Test Bench:
+
+Space:stop/step the listing        Return:start the listing again
+0 - 9:adjust scrolling speed      R:simulate enemy robot on radar
+G:simulate a shell hit            T:trace the value of a register
+Esc:exit to assembler menu
+
+From the Text-Editor:
+
+Ctrl-A:enter add mode
+Esc-Esc:return to cursor mode
+
+In the Add Mode:
+
+Return:start a new line               Esc-Esc:exit to cursor mode
+<-:backspace and erase a character                 ->:add a space
+
+In the Cursor Mode:
+
+Return:move up a line                 Esc-Return:move to page top
+<-,->:move left,right    Esc <-,->:move to left or right line end
+/:move down a line                         Esc +:move to file end
+Esc -:move to file beginning              +:set forward direction
+-:set reverse direction                 A:scroll in set direction
+P:move a page in set direction     L:move a line in set direction
+Ctrl-D:delete character at cursor    Ctrl-G:delete to end of line
+Esc Ctrl-Z:clear entire file         Esc Ctrl-Q:exit to main menu
+Ctrl-P:send file to printer              Ctrl-S:save file to disk
+Ctrl-L:load file from disk      Ctrl-R:save file, enter assembler
+Ctrl-F:find a string                  Ctrl-V:insert block markers
+Esc-V:display block functions (C:copy the marked block at cursor,
+D:delete the marked block, U:remove the block markers)
+-----------------------------------------------------------------
+
+
+The Robotwar Programming Language:
+----------------------------------
+
+1.The Registers:
+
+  There are 33 registers:24 memory registers used by you to store
+various numbers (A to W and Z), and 9 input/output registers,
+which are detailed below.
+
+X and Y hold the robot's position, and can only be read, not
+written to. They can range from 0-256, in both directions.
+
+AIM holds the robot's gun aim, from 0 to 359. 0 is due north.
+
+To use the radar unit, send a number equal to the direction of
+the radar pulse to RADAR (ie. AIM TO RADAR). If the number
+returned in RADAR is negative, there is a robot that many meters
+away. If the number is positive, there is a wall that many meters
+away.
+
+SHOT is used to fire the robot's gun. Storing a number in SHOT
+will fire a timed shell to explode that many meters away. After
+firing, SHOT contains the state of the gun's cooling process. If
+SHOT = 0, the gun is ready to be fired.
+
+DAMAGE starts at 100 and decreases toward 0 as the robot sustains
+damage. When DAMAGE reaches 0, the robot's power unit overloads
+and explodes.
+
+SPEEDX and SPEEDY contain the horz. and vert. speed of the robot.
+The number in either can range from -255 to 255 decimeters/sec.
+Storing a number here will accelerate or decelerate the robot to
+that speed. (-) numbers are left/up and (+) are right/down.
+
+RANDOM controls the random number generator. Storing a number
+here sets the limit for the generator (ie. 100 gives a number
+from 0 to 99). Then, each time RANDOM is read, it will contain a
+different integer in that range.
+
+In addition to these registers, the INDEX/DATA pair of registers
+can be used to access other registers by number instead of name.
+If the number 27 is stored in INDEX, register # 27 (AIM) will be
+substituted for DATA. The register numbers are 1-26 for A-Z, and
+27-33 for the I/O registers, in the order given above.
+
+
+
+
+
+
+
+
+
+
+2.The Source Code
+
+i) Comments : Comments can appear anywhere in a program as long
+as they are preceded by a semicolon (;).
+eg. }  A TO B      ; This stores a in b
+
+ii) Labels : A label is a reference point in a program, similar
+to line numbers in BASIC. They can be GOTOed or GOSUBed.
+Labels must be composed of 2 or more alpha-numeric characters
+followed by a RETURN. A label cannot use the nane of a register
+or command word.
+
+iii) Commands : All lines beginning with commands or register
+names must be indented at least one space.
+
+The 9 commands are listed below:
+  TO : Stores a value in a register, eg. (90 TO AIM)
+  + : Adds two values
+  - : Subtracts two values
+  * : Multiplies two values
+  / : Divides one value by another
+  IF : Compares two values and performs an action if the
+       comparison is true.
+  GOTO : Goes to a label in a program
+  GOSUB : Executes a subroutine
+  ENDSUB : Returns from a subroutine
+
+Command details:
+
+TO:The TO command can be used to store a value in two or more
+registers, ie. 12 TO A TO B TO C
+To store the negative of a register, use eg. 0 - B TO SPEEDX
+
+IF:The IF command can check if two values or registers are less
+than (<), greater than (>), equal to (=), or not equal to (#) a
+value and then set a register(s), or branch to a label, ie.
+IF RADAR < 0  0 - RADAR TO SHOT
+IF X > 250 GOSUB SLOWDOWN
+
+GOSUB:This command will branch to a label (like a GOTO), but when
+program execution reaches an ENDSUB command, the program will
+return to the line after the GOSUB.

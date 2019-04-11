@@ -1,0 +1,119 @@
+ 
+; (* ECHO *)
+
+; START  (L0)
+
+
+  IF Y>127 GOTO 18
+  IF X>127 GOTO 11
+
+; --> TOP (L6)
+
+  90 TO AIM
+  160 TO SPEEDX
+  GOTO 138
+
+; <-- TOP (L11)
+
+  1 TO E
+  270 TO AIM
+  -160 TO SPEEDX
+  GOTO 36
+
+;         (L18)
+
+  IF X>127 GOTO 28
+
+; <-- BOTTOM (L21)
+
+  1 TO E
+  90 TO AIM
+  160 TO SPEEDX
+  GOTO 101
+
+; --> BOTTOM (L28)
+
+  270 TO AIM
+  -160 TO SPEEDX
+  GOTO 73
+
+; \ UP
+;  \         (L33)
+
+  -120 TO SPEEDX TO SPEEDY
+
+;            (L36)
+
+  IF SPEEDX=0 GOTO 50
+  AIM TO RADAR
+  IF RADAR<0 0-RADAR TO SHOT
+  IF X+Y>170 GOTO 36
+
+;            (L50)
+
+  0 TO SPEEDX TO SPEEDY
+  AIM TO RADAR
+  IF RADAR<0 0-RADAR TO SHOT
+  AIM+180 TO AIM TO RADAR
+  IF RADAR<0 0-RADAR TO SHOT
+
+;  / DOWN
+; /          (L69)
+
+  120 TO SPEEDY
+  -120 TO SPEEDX
+
+;            (L73)
+
+  IF SPEEDX=0 GOTO 87
+  AIM TO RADAR
+  IF RADAR<0 0-RADAR TO SHOT
+  IF Y-X<86 GOTO 73
+
+;            (L87)
+
+  0 TO SPEEDX TO SPEEDY
+  IF E>0 GOTO 98
+  1 TO E
+  AIM+180 TO AIM
+  
+; \ DOWN
+;  \          (L98)
+
+  120 TO SPEEDX TO SPEEDY
+  
+;             (L101)
+
+  IF SPEEDX=0 GOTO 115
+  AIM TO RADAR
+  IF RADAR<0 0-RADAR TO SHOT
+  IF Y+X<344 GOTO 101
+
+;             (L115)
+
+  0 TO SPEEDX TO SPEEDY
+  AIM TO RADAR
+  IF RADAR<0 0-RADAR TO SHOT
+  AIM+180 TO AIM TO RADAR
+  IF RADAR<0 0-RADAR TO SHOT
+
+;  / UP
+; /           (L134)
+
+  -120 TO SPEEDY
+  120 TO SPEEDX
+
+;             (L138)
+
+  IF SPEEDX=0 GOTO 152
+  AIM TO RADAR
+  IF RADAR<0 0-RADAR TO SHOT
+  IF X-Y<86 GOTO 138
+
+;              (L152)
+
+  0 TO SPEEDX TO SPEEDY
+  IF E>0 GOTO 33
+  1 TO E
+  AIM+180 TO AIM
+  GOTO 33
