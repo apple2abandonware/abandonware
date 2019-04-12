@@ -5,4 +5,7 @@ boot process, there is code that checksums the ROM and reboots if it's
 not recognized. The games themselves would work fine if they were
 allowed to boot past this ROM check.
 
+Anti-M also works for reading 13-sector disks.
+
+
 see https://github.com/a2-4am/anti-m
