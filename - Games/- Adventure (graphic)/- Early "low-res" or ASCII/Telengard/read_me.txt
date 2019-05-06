@@ -1,0 +1,3 @@
+Telengard was originally DND, a 1976 version of Dungeons & Dragons for the DECsystem-10 mainframe computer. It was rewritten for the Commodore PET 2001 after 1978, and then ported to Apple II+, TRS-80, and Atari 800 platforms before Avalon Hill found the game at a convention and licensed it for distribution. Its Commodore 64 release was the most popular. 
+
+Reviewers noted Telengard's similarity to Dungeons and Dragons. RPG historian Shannon Appelcline noted the game as one of the first professionally produced computer role-playing games, and Gamasutra's Barton considered Telengard consequential in what he deemed "The Silver Age" of computer role-playing games preceding the golden age of the late 1980s.
