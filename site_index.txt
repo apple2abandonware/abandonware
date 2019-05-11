@@ -36,15 +36,19 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Print/New Print Shop/new_print_shop_1b_program.dsk
 ./- Print/New Print Shop/new_print_shop_1a_program.dsk
 ./- Print/New Print Shop/new_print_shop_3b_borders_fonts_graphics.dsk
-./- Print/Print Shop/Print Shop - Color/print_shop_1984.dsk
-./- Print/Print Shop/Print Shop - Color/The Print Shop (Mr. Krac-Man crack) - Side 1.dsk
-./- Print/Print Shop/Print Shop - Color/The Print Shop (Mr. Krac-Man crack) - Side 2.dsk
-./- Print/Print Shop/Print Shop - Graphics Library/Print Shop Graphics Library - Volume 2 - Front.dsk
-./- Print/Print Shop/Print Shop - Graphics Library/Print Shop Graphics Library - Volume 1 - Back.dsk
-./- Print/Print Shop/Print Shop - Graphics Library/Print Shop Graphics Library - Volume 1 - Front.dsk
-./- Print/Print Shop/Print Shop - Graphics Library/Print Shop Graphics Library - Volume 2 - Back.dsk
+./- Print/Print Shop/Print Shop - Compatible Fonts/print_shop_compatible_fonts.dsk
+./- Print/Print Shop/Print Shop - Graphics Library/print_shop_graphics_lib_vol2_1b.dsk
+./- Print/Print Shop/Print Shop - Graphics Library/print_shop_graphics_lib_vol2_1a.dsk
+./- Print/Print Shop/Print Shop - Graphics Library/print_shop_graphics_lib_vol1_1b.dsk
+./- Print/Print Shop/Print Shop - Graphics Library/print_shop_graphics_lib_vol1_1a.dsk
+./- Print/Print Shop/Print Shop - Graphics Viewer/print_shop_graphics_viewer_1b_shapes.dsk
+./- Print/Print Shop/Print Shop - Graphics Viewer/print_shop_graphics_viewer_1a_cartoons.dsk
+./- Print/Print Shop/Print Shop/print_shop.dsk
+./- Print/Print Shop/Print Shop/print_shop_data.dsk
 ./- Print/Print Shop/Print Shop - Companion/print_shop_companion_v1.2_1b.dsk
 ./- Print/Print Shop/Print Shop - Companion/print_shop_companion_v1.2_1a.dsk
+./- Print/Print Shop/Print Shop - Graphics Library Holiday Ed./print_shop_graphics_lib_holiday_ed_1a.dsk
+./- Print/Print Shop/Print Shop - Graphics Library Holiday Ed./print_shop_graphics_lib_holiday_ed_1b.dsk
 ./- Graphics/Graphics Magician/Graphics Magician/graphics_magician.dsk
 ./- Graphics/Graphics Magician/Graphics Magician - Picture Painter/picture_painter_dblres.dsk
 ./- Graphics/Mouse Paint/mouse_paint_joystick.dsk
@@ -128,8 +132,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Strategy/Archon/Archon II - Adept/archon_ii.dsk
 ./- Games/- Strategy/Archon/Archon I - Light and the Dark/archon.dsk
 ./- Games/- Strategy/Ogre/ogre.dsk
-./- Games/- Strategy/Battle Chess/battle_chess_1b.dsk
-./- Games/- Strategy/Battle Chess/battle_chess_1a.dsk
 ./- Games/- Strategy/Broadsides/broadsides.dsk
 ./- Games/- Strategy/Titan Empire/titan_empire.dsk
 ./- Games/- Strategy/Galactic Gladiators/galactic_gladiators.dsk
@@ -301,10 +303,10 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade creation/- Arcades/D-Day+Shark Bait+Westward Ho!/d-day+shark_bait+westward_ho!.dsk
 ./- Games/- Arcade creation/- Arcades/Tomb of Doom+Revengeful Rabbit+Bee Crunch/tomb_of_doom+revengeful_rabbit+bee_crunch.dsk
 ./- Games/- Arcade creation/- Arcades/Space Raiders+Beach Party+Poacher Wars/space_raiders+beach_party+poacher_wars.dsk
+./- Games/- Arcade creation/- Arcades/Ice Cave (Krac-Man crack)/Ice_cave.dsk
 ./- Games/- Arcade creation/- Arcades/Ocean Night+Burgertron+Big-Mac Attack/ocean_night+burgertron+big-mac_attack.dsk
 ./- Games/- Arcade creation/- Arcades/Arcade Insanity/arcade_insanity.dsk
 ./- Games/- Arcade creation/- Arcades/Fire Ground+Silent Night+King Tut's Revenge/fire_ground+silent_night+king_tuts_revenge.dsk
-./- Games/- Arcade creation/- Arcades/Ice Cave/Ice_cave.dsk
 ./- Games/- Arcade creation/- Arcades/Alien Clonepure/alien_clonepure.dsk
 ./- Games/- Arcade creation/Arcade Machine/arcade_machine_1b.dsk
 ./- Games/- Arcade creation/Arcade Machine/arcade_machine_1a.dsk
@@ -394,7 +396,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Science Fiction/Planetfall/Planetfall I/planetfall_r37.dsk
 ./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Science Fiction/Planetfall/Planetfall II - Stationfall/stationfall_r107.dsk
 ./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Zork Universe/Zork/Zork I - Great Underground Empire/zork_i_r88.dsk
-./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Zork Universe/Zork/Zork IV - BeyondZork/beyond_zork_1a_r49.dsk
+./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Zork Universe/Zork/Zork IV - BeyondZork/BeyondZork (.nib)/beyond_zork_1a_r49.dsk
 ./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Zork Universe/Zork/Zork III - Dungeon Master/zork_iii_r17.dsk
 ./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Zork Universe/Zork/Zork V - Zork Zero/zork_zero_1b_side_2..dsk
 ./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Zork Universe/Zork/Zork V - Zork Zero/zork_zero_1a_side_1.dsk
@@ -425,6 +427,80 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (text)/- Interactive fiction/- Broderbund/Mindwheel/mindwheel_s1.dsk
 ./- Games/- Adventure (text)/- Interactive fiction/- Rainbird/Knight Orc/knight_orc.dsk
 ./- Games/- Adventure (text)/- Interactive fiction/- Epyx/Robots of Dawn/robots_of_dawn.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Mines of Titan/mines_of_titan_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Mines of Titan/mines_of_titan_1b_player.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Centauri Alliance/centauri_alliance_2a_scenario_1.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Centauri Alliance/centauri_alliance_3b_scenario_4.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Centauri Alliance/centauri_alliance_3a_scenario_3.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Centauri Alliance/centauri_alliance_2b_scenario_2.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Centauri Alliance/centauri_alliance_1b_roster.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Centauri Alliance/centauri_alliance_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dragon Wars/dragon_wars_1b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dragon Wars/dragon_wars_1a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dragon Wars/dragon_wars_3b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dragon Wars/dragon_wars_3a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dragon Wars/dragon_wars_2a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dragon Wars/dragon_wars_2b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry I - Proving Grounds/wizardry_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry I - Proving Grounds/Atomic Wasteland - Expansion/atomic_wasteland.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry I - Proving Grounds/wizardry_1b_scenario.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylgamyn_1b_scenario_master.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylagmyn_blank_scenario.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylgamyn_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry II - Knight of Diamonds/knight_of_diamonds_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry II - Knight of Diamonds/knight_of_diamonds_1b_scenario.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_2a_disk_c.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_1a_disk_a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_3b_disk_f.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_4b_disk_h.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_4a_disk_g.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_3a_disk_e.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_1b_disk_b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_5_disk_i.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_2b_disk_d.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic I - Secret of the Inner Sanctum/might_and_magic_1a_side_a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic I - Secret of the Inner Sanctum/might_and_magic_2a_side_c.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic I - Secret of the Inner Sanctum/might_and_magic_2b_side_d.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic I - Secret of the Inner Sanctum/might_and_magic_1b_side_b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic II - Gates to Another World/Might and Magic II (nib version)/speedy_copy_for_might_and_magic_ii.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dark Heart of Uukrul/dark_heart_of_uukrul_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dark Heart of Uukrul/dark_heart_of_uukrul_1b_archive.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dark Heart of Uukrul/dark_heart_of_uukrul_2b_scenario_b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Dark Heart of Uukrul/dark_heart_of_uukrul_2a_scenario_a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_2a_side_3.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_4b_side_8.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_4a_side_7.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_1a_side_1.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_3b_side_6.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_3a_side_5.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_1b_side_2.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_save.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_2b_side_4.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_3a_side_3.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_4b_side_6.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_2b_side_2.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_1b_save.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_2a_side_1.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_3b_side_4.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_4a_side_5.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_1a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_1b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_2b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_2a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_2_dungeon.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1b_blank_character.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1b_character.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_2b_dungeon_b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_2a_dungeon_a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_1b_character.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Alternate Reality/The City/- Utilities/the_city_util.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Alternate Reality/The City/The City (Gonif & Wombat crack)/the_city_char.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Alternate Reality/The City/The City (Gonif & Wombat crack)/the_city_1b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Alternate Reality/The City/The City (Gonif & Wombat crack)/the_city_1a.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl/Standing Stones/standing_stones.dsk
 ./- Games/- Adventure (graphic)/- Early "hi-res" line graphics/Temple of Apshai/temple_of_apshai.dsk
 ./- Games/- Adventure (graphic)/- Early "hi-res" line graphics/Wizard/Wizard I - Oldorf/oldorf.dsk
 ./- Games/- Adventure (graphic)/- Early "hi-res" line graphics/Wizard/Wizard I - Oldorf/wizard_i.dsk
@@ -451,8 +527,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Dunjonquest/Starquest/Starquest I - Rescue at Rigel/rescue_at_rigel.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Dunjonquest/Starquest/-- Compilations/rescue_at_rigel+star_warrior.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Dunjonquest/Starquest/Starquest II - Star Warrior/star_warrior.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/- Early "low-res" block graphics/Fracas/fracas.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/- Early "low-res" block graphics/Dungeon Campaign/dungeon_campaign.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Missing Ring/missing_ring.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Age of Adventure/Ali Baba/ali_baba.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Age of Adventure/Return of Heracles/return_of_heracles.dsk
@@ -461,7 +535,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Sword of Kadash/sword_of_kadash_1a_program.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Wreck of the Pandora/Wreck of the Pandora (Krac-Man crack)/wreck_of_the_pandora.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Caverns of Freitag/caverns_of_freitag.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Telengard/telengard_v1.12.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras II - Kaiv (Whip crack)/warrior_of_ras_ii_kaiv.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras IV - Ziggurat (Maggot crack)/warrior_of_ras_iv_ziggurat.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras III - Wylde (1200 Club crack)/warrior_of_ras_iii_wylde.dsk
@@ -470,81 +543,66 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior II - Gemstone Healer/gemstone_healer_1b.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior II - Gemstone Healer/gemstone_healer_1a.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Castles of Darkness/castles_of_darkness.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Mines of Titan/mines_of_titan_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Mines of Titan/mines_of_titan_1b_player.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_2a_scenario_1.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_3b_scenario_4.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_3a_scenario_3.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_2b_scenario_2.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_1b_roster.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Centauri Alliance/centauri_alliance_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dragon Wars/dragon_wars_1b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dragon Wars/dragon_wars_1a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dragon Wars/dragon_wars_3b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dragon Wars/dragon_wars_3a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dragon Wars/dragon_wars_2a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dragon Wars/dragon_wars_2b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry I - Proving Grounds/wizardry_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry I - Proving Grounds/Atomic Wasteland - Expansion/atomic_wasteland.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry I - Proving Grounds/wizardry_1b_scenario.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylgamyn_1b_scenario_master.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylagmyn_blank_scenario.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry III - Legacy of Llylgamyn/legacy_of_llylgamyn_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry II - Knight of Diamonds/knight_of_diamonds_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry II - Knight of Diamonds/knight_of_diamonds_1b_scenario.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_2a_disk_c.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_1a_disk_a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_3b_disk_f.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_4b_disk_h.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_4a_disk_g.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_3a_disk_e.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_1b_disk_b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_5_disk_i.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Wizardry/Wizardry V - Heart of Maelstrom/heart_of_maelstrom_2b_disk_d.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic/might_and_magic_1a_side_a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic/might_and_magic_2a_side_c.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic/might_and_magic_2b_side_d.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic/might_and_magic_1b_side_b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic II/Might and Magic II (nib version)/speedy_copy_for_might_and_magic_ii.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dark Heart of Uukrul/dark_heart_of_uukrul_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dark Heart of Uukrul/dark_heart_of_uukrul_1b_archive.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dark Heart of Uukrul/dark_heart_of_uukrul_2b_scenario_b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Dark Heart of Uukrul/dark_heart_of_uukrul_2a_scenario_a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_2a_side_3.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_4b_side_8.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_4a_side_7.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_1a_side_1.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_3b_side_6.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_3a_side_5.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_1b_side_2.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_save.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D I - Pool of Radiance/pool_of_radiance_2b_side_4.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_3a_side_3.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_4b_side_6.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_2b_side_2.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_1b_save.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_2a_side_1.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_3b_side_4.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/AD&D/AD&D II - Curse of the Azure Bonds/curse_of_the_azure_bonds_4a_side_5.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_1a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_1b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_2b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale III - Thief of Fate/bards_tale_iii_2a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_2_dungeon.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1b_blank_character.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale I - Tales of the Unknown/bards_tale_1b_character.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_2b_dungeon_b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_2a_dungeon_a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Bard's Tale/Bard's Tale II - Destiny Knight/bards_tale_ii_1b_character.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Alternate Reality/The City/- Utilities/the_city_util.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Alternate Reality/The City/The City (Gonif & Wombat crack)/the_city_char.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Alternate Reality/The City/The City (Gonif & Wombat crack)/the_city_1b.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Alternate Reality/The City/The City (Gonif & Wombat crack)/the_city_1a.dsk
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Standing Stones/standing_stones.dsk
-./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (nib version)/speedy_copy_for_wasteland.dsk
+./- Games/- Adventure (graphic)/- Early "low-res" or ASCII/Fracas/fracas.dsk
+./- Games/- Adventure (graphic)/- Early "low-res" or ASCII/Telengard/telengard.dsk
+./- Games/- Adventure (graphic)/- Early "low-res" or ASCII/Dungeon Campaign/dungeon_campaign.dsk
+./- Games/- Adventure (graphic)/- Early "low-res" or ASCII/Dragon Fire/Dragon Fire I/dragon_fire.dsk
+./- Games/- Adventure (graphic)/- Early "low-res" or ASCII/Dragon Fire/Dragon Fire II - Kaves of Karkhan/kaves_of_karkhan.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Leisure Suit Larry/leisure_suit_larry_2b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Leisure Suit Larry/leisure_suit_larry_2a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Leisure Suit Larry/leisure_suit_larry_3.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Leisure Suit Larry/leisure_suit_larry_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Leisure Suit Larry/leisure_suit_larry_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest I/kings_quest_i_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest I/kings_quest_i_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest I/kings_quest_i_2.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_3.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_2b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_2a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_4a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_4b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_5b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_5a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_2b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_2a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_3a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_3b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Black Cauldron/black_cauldron_3.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Black Cauldron/black_cauldron_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Black Cauldron/black_cauldron_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Black Cauldron/black_cauldron_2a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Black Cauldron/black_cauldron_2b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_3b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_3a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_2a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_2b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_4b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_4a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_2b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_2a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_3a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_3b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_4a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_4b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Neuromancer/neuromancer_2b_side4.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Neuromancer/neuromancer_1a_side1.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Neuromancer/neuromancer_2a_side3.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Neuromancer/neuromancer_1b_side2.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Tass Times in Tonetown/Tass Times in Tonetown (Jedi Master crack)/tass_times_in_tonetown_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Tass Times in Tonetown/Tass Times in Tonetown (Jedi Master crack)/tass_times_in_tonetown_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Lucasfilm/Maniac Mansion/Maniac Mansion (Blade crack)/maniac_mansion_1a_boot.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Lucasfilm/Maniac Mansion/Maniac Mansion (Blade crack)/maniac_mansion_1b_game.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Lucasfilm/Labyrinth/Labyrinth (Sheik crack)/labyrinth_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Lucasfilm/Labyrinth/Labyrinth (Sheik crack)/labyrinth_1b.dsk
+./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (.nib)/speedy_copy_for_wasteland.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (Saltine crack)/wasteland_2b_side2.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (Saltine crack)/wasteland_3a_side3.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (Saltine crack)/wasteland_3b_side4.dsk
@@ -621,12 +679,12 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima I - First Age of Darkness/Ultima I/ultima_i_1b_player.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima I - First Age of Darkness/Ultima I/ultima_i_1a_program.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultimore - Expansion/ultima_iii_1b_ultimore.dsk
-./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (nib version)/speedy_copy_for_ultima_iii.dsk
-./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (woz version)/ultima_iii_1b_player.dsk
-./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (woz version)/speedy_copy_for_ultima_iii.dsk
+./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (.woz)/ultima_iii_1b_player.dsk
+./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (.woz)/speedy_copy_for_ultima_iii.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/- Editors/Ultima III Editor/ultima_iii_editor.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/- Editors/Ultimaker III Character Editor/ultimaker_iii.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/- Editors/Exodus Construction Set/exodus_construction_set.dsk
+./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (.nib)/speedy_copy_for_ultima_iii.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Moebius/Moebius II - Windwalker/windwalker_1b_scroll_2.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Moebius/Moebius II - Windwalker/windwalker_2b_scroll_4.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Moebius/Moebius II - Windwalker/windwalker_2a_scroll_3.dsk
@@ -646,7 +704,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Knights of Legend/knights_of_legend_3b_a4.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Times of Lore/times_of_lore_1a.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/Times of Lore/times_of_lore_1b.dsk
-./- Games/- Adventure (graphic)/- World fantasy/- New World Computing/kings_bounty_1b.dsk
+./- Games/- Adventure (graphic)/- World fantasy/- New World Computing/King's Bounty/King's Bounty (.nib)/kings_bounty_1b.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Penguin/Expedition Amazon/expedition_amazon_1b_boot.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Penguin/Expedition Amazon/expedition_amazon_1a.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Independent/Quest of the Gem/quest_of_the_gem_1a.dsk
@@ -660,55 +718,11 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Dragonworld/dragonworld_2b_side_d.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Dragonworld/dragonworld_2a_side_c.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Dragonworld/dragonworld_1a_side_a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Leisure Suit Larry/leisure_suit_larry_2b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Leisure Suit Larry/leisure_suit_larry_2a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Leisure Suit Larry/leisure_suit_larry_3.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Leisure Suit Larry/leisure_suit_larry_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Leisure Suit Larry/leisure_suit_larry_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest I/kings_quest_i_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest I/kings_quest_i_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest I/kings_quest_i_2.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_3.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_2b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest II - Romancing the Throne/kings_quest_ii_2a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_4a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_4b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_5b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_5a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_2b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_2a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_3a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/King's Quest/King's Quest III - To Heir is Human/kings_quest_iii_3b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Dark Crystal/dark_crystal_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Dark Crystal/dark_crystal_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Dark Crystal/dark_crystal_2b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Dark Crystal/dark_crystal_2a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Black Cauldron/black_cauldron_3.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Black Cauldron/black_cauldron_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Black Cauldron/black_cauldron_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Black Cauldron/black_cauldron_2a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Black Cauldron/black_cauldron_2b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Wizard and the Princess/wizard_and_the_princess.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_3b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_3a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_2a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_2b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_4b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest II - Vohaul's Revenge/space_quest_ii_4a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_2b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_2a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_3a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_3b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_4a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_4b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Space Quest/Space Quest I - Sarien Encounter/space_quest_i_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Sir-tech/Crypt of Medea/crypt_of_medea_1b_save.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Sir-tech/Crypt of Medea/crypt_of_medea_1a_boot.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Sirius/Gruds in Space/gruds_in_space_1b.dsk
@@ -720,18 +734,8 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Mindshadow/mindshadow_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Murder on the Mississippi/murder_on_the_mississippi_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Murder on the Mississippi/murder_on_the_mississippi_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Neuromancer/neuromancer_2b_side4.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Neuromancer/neuromancer_1a_side1.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Neuromancer/neuromancer_2a_side3.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Neuromancer/neuromancer_1b_side2.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Tass Times in Tonetown/tass_times_in_tonetown_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Tass Times in Tonetown/tass_times_in_tonetown_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Borrowed Time/borrowed_time_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Borrowed Time/borrowed_time_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Lucasfilm/Maniac Mansion/maniac_mansion_1a_boot.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Lucasfilm/Maniac Mansion/maniac_mansion_1b_game.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Lucasfilm/Labyrinth/labyrinth_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Lucasfilm/Labyrinth/labyrinth_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- HoloByte/Dondra/dondra_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- HoloByte/Dondra/dondra_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- HoloByte/Dondra/dondra_3b.dsk
@@ -747,16 +751,17 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Datasoft/Gunslinger/gunslinger_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Datasoft/Sands of Egypt/sands_of_egypt.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Curse of Crowley Manor/curse_of_crowley_manor.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA II - Pirate Adventure/pirate_adventure_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA II - Pirate Adventure/pirate_adventure_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA I - Adventureland/adventureland_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA II - Pirate Adventure/pirate_adventure_1b_boot.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA I - Adventureland/adventureland_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA III - Mission Impossible/mission_impossible.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA I - Adventureland/adventureland_1b_boot.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA III - Mission Impossible/mission_impossible_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA III - Mission Impossible/mission_impossible_1b_boot.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA IV - Voodoo Castle/voodoo_castle_1b_boot.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA IV - Voodoo Castle/voodoo_castle_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA IV - Voodoo Castle/voodoo_castle_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA V - The Count/the_count_1b_boot.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA V - The Count/the_count_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA V - The Count/the_count_1b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA VI - Strange Odyssey/strange_odyssey_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA VI - Strange Odyssey/strange_odyssey_1b_boot.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Adventure International/Scott Adams SAGA/SAGA VI - Strange Odyssey/strange_odyssey_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Penguin/Transylvania/Transylvania II - Crimson Crown/crimson_crown_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Penguin/Transylvania/Transylvania II - Crimson Crown/crimson_crown_1a.dsk
@@ -781,8 +786,8 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Penguin/The Quest/The Quest I/the_quest_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Penguin/The Quest/The Quest I/the_quest_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Highlands/Mummy's Curse/mummys_curse.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Phoenix/Masquerade/Masquerade (DBCC crack)/masquerade_1a.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Phoenix/Masquerade/Masquerade (DBCC crack)/masquerade_1b.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Phoenix/Masquerade/masquerade_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Phoenix/Masquerade/masquerade_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Phoenix/Fraktured Faebles/Fraktured Faebles (Sheik crack)/fraktured_faebles_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Phoenix/Fraktured Faebles/Fraktured Faebles (Sheik crack)/fraktured_faebles_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Phoenix/Lucifers Realm/lucifers_realm_1a.dsk
@@ -812,7 +817,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Arthur/arthur_3.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Arthur/arthur_2a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Arthur/arthur_2b.dsk
-./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Riddle of the Crown Jewels/riddle_of_the_crown_jewels_1a.dsk
+./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Riddle of the Crown Jewels/Riddle of the Crown Jewels (.nib)/riddle_of_the_crown_jewels_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Broderbund/Mask of the Sun/mask_of_the_sun_1a.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Broderbund/Mask of the Sun/mask_of_the_sun_1b.dsk
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Broderbund/Serpents Star/serpents_star_1a.dsk
@@ -862,7 +867,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Resource/Three Mile Island/three_mile_island.dsk
 ./- Games/- Sports/Tag Team Wrestling/tag_team_wrestling.dsk
 ./- Games/- Sports/Hardball!/hardball!.dsk
-./- Games/- Sports/Olympic Decathlon/olympic_decathlon.dsk
+./- Games/- Sports/Olympic Decathlon/Olympic Decathlon (Chief Surgeon crack)/olympic_decathlon.dsk
 ./- Games/- Sports/Track and Field/track_and_field.dsk
 ./- Games/- Sports/Ski Crazed/ski_crazed.dsk
 ./- Games/- Sports/- Epyx/Street Sports/Street Sports - Football/street_sports_football_1a.dsk
@@ -1045,6 +1050,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Casual/- Tetris/Tetris II/tetris_ii.dsk
 ./- Games/- Casual/Soko-Ban/soko-ban_1b.dsk
 ./- Games/- Casual/Soko-Ban/soko-ban_1a.dsk
+./- Games/- Casual/Dominos/dominos.dsk
 ./- Games/- Casual/Solitaire/solitaire.dsk
 ./- Games/- Casual/Shanghai/Shanghai I/shanghai.dsk
 ./- Games/- Casual/- Pipe Dream/Pipe Dream (Pasztor)/pipe_dream_pasztor.dsk
@@ -1061,11 +1067,23 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Casual/- Battleship/Battleship (Keypunch)/battleship_keypunch.dsk
 ./- Games/- Casual/Bridge Baron/bridge_baron.dsk
 ./- Games/- Casual/- Chess/Sargon/Sargon III/sargon_iii.dsk
+./- Games/- Casual/- Chess/Battle Chess/battle_chess_1b.dsk
+./- Games/- Casual/- Chess/Battle Chess/battle_chess_1a.dsk
+./- Games/- Casual/- Chess/-- Compilations/chess_colussus+sargon_1+sargon_2+microchess.dsk
 ./- Games/- Casual/- Chess/How About a Nice Game of Chess?/nice_game_of_chess.dsk
+./- Games/- Casual/- Chess/MyChess II/MyChess II (Krac-Man crack)/mychess_ii.dsk
+./- Games/- Casual/- Chess/MyChess II/mychess_ii.dsk
+./- Games/- Casual/- Chess/Checkmate Chess/checkmate_chess.dsk
 ./- Games/- Casual/Pool/pool.dsk
+./- Games/- Casual/Sorry/sorry_1b.dsk
+./- Games/- Casual/Sorry/sorry_1a.dsk
 ./- Games/- Casual/Draw Poker/draw_poker.dsk
 ./- Games/- Casual/Fishies/fishies.dsk
-./- Games/- Casual/NY Times Crossword/ny_times_crossword.dsk
+./- Games/- Casual/- Crossword/Crossword Magic/Crossword Magic v4/crossword_magic_v4.dsk
+./- Games/- Casual/- Crossword/Crossword Magic/Crossword Magic v2/crossword_magic_1b_player.dsk
+./- Games/- Casual/- Crossword/Crossword Magic/Crossword Magic v2/crossword_magic_1a_maker.dsk
+./- Games/- Casual/- Crossword/Crossword Magic/Crossword Magic v2/crossword_magic_data.dsk
+./- Games/- Casual/- Crossword/NY Times Crossword/ny_times_crossword.dsk
 ./- Games/- Pinball/Midnight Magic/midnight_magic.dsk
 ./- Games/- Pinball/-- Compilations/night_mission+raster_blaster+midnight_magic.dsk
 ./- Games/- Pinball/Raster Blaster/raster_blaster.dsk
@@ -1096,7 +1114,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Various/- Bally Midway/Tapper/tapper.dsk
 ./- Games/- Various/Galaxy Wars/galaxy_wars.dsk
 ./- Games/- Various/Blister Ball/blister_ball.dsk
-./- Games/- Various/- Level-10/Rings of Saturn/Rings of Saturn (Hot Rod crack)/rings_of_saturn.dsk
+./- Games/- Various/- Level-10/Rings of Saturn/rings_of_saturn.dsk
 ./- Games/- Various/-- Compilations/bill_budge+lunar_lander+quasar+blitzkrieg+dogfight+mini_golf+escape.dsk
 ./- Games/- Various/-- Compilations/teri_tory+pengo+genesis+pooyan.dsk
 ./- Games/- Various/-- Compilations/hyper_head_on+bloody_murder+bloodsuckers+firebird.dsk
@@ -1112,6 +1130,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Various/- Activision/Ghost Busters/Ghost Busters (Rato crack)/ghost_busters.dsk
 ./- Games/- Various/- Activision/Hacker/Hacker I/hacker.dsk
 ./- Games/- Various/- Activision/Hacker/Hacker II/hacker_ii.dsk
+./- Games/- Various/Dragonfire/dragonfire.dsk
 ./- Games/- Various/- Muse/Best of Muse 1979/best_of_muse.dsk
 ./- Games/- Various/- Datasoft/Pooyan/pooyan.dsk
 ./- Games/- Various/- Penguin/Spy's Demise/Spy's Demise I/spys_demise.dsk
@@ -1339,7 +1358,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Educational/- Weekly Reader/Stickybear/Math/Stickybear Math II/stickybear_math_ii_r2.dsk
 ./- Educational/- Weekly Reader/Stickybear/Typing/stickybear_typing_r2.dsk
 ./- Educational/- Weekly Reader/Stickybear/Opposites/stickybear_opposites_v13_1989.dsk
-./- Educational/- Weekly Reader/Stickybear/Opposites/stickybear_opposites_r2.dsk
+./- Educational/- Weekly Reader/Stickybear/Opposites/stickybear_opposites_r3.dsk
 ./- Educational/- Weekly Reader/Stickybear/Parts of Speech/stickybear_parts_of_speech.dsk
 ./- Educational/- Weekly Reader/Stickybear/Reading Comprehension/stickybear_reading_comprehension.dsk
 ./- Educational/- Weekly Reader/Old Ironsides/Old Ironsides (Parasite crack)/old_ironsides.dsk
@@ -1354,9 +1373,9 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Educational/- Jacaranda/Raft Away River/raft_away_river.dsk
 ./- Educational/- Jacaranda/Sheep Dog Trial/sheep_dog_trial.dsk
 ./- Educational/- Jacaranda/Gold Fields/gold_fields.dsk
-./- System/DOS/DOS v3.3/dos_v3.3_1980_basics.dsk
 ./- System/DOS/DOS v3.3/dos_v3.3_1980.dsk
 ./- System/DOS/DOS v3.3/dos_v3.3_1983.dsk
+./- System/DOS/DOS v3.3/dos_v3.3_1980_dos_basics.dsk
 ./- System/DOS/DOS v3.3/dos_v3.3_1983_samples.dsk
 ./- System/Apple IIc an Intro/apple_IIc_an_intro.dsk
 ./- System/ProDOS/ProDOS v1.1.1/prodos_v1.1.1_1984.dsk
@@ -1367,38 +1386,66 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Programming/ProBASIC/probasic_1b_library.dsk
 ./- Programming/ProBASIC/probasic_1a.dsk
 ./- Programming/Cat Graphics/cat_graphics.dsk
-./- Graphics/Bill Budge's 3-D Graphics System/Bill Budge's 3-D Graphics System (nib version)/bill_budge_3-D_graphics_system.nib
+./- Graphics/Bill Budge's 3-D Graphics System/Bill Budge's 3-D Graphics System (.nib)/bill_budge_3-D_graphics_system.nib
 ./- Games/- Strategy/Dungeon Master's Assistant/DM Assistant Vol 1 - Encounters/dm_assistant_vol_i_2a_monster.nib
 ./- Games/- Strategy/Reach for the Stars/reach_for_the_stars.nib
-./- Games/- Strategy/Risk/risk.nib
-./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Zork Universe/Zork/Zork IV - BeyondZork/beyond_zork_1b.nib
+./- Games/- Strategy/Risk/Risk (.nib)/risk.nib
+./- Games/- Adventure (text)/- Interactive fiction/- Infocom/- Zork Universe/Zork/Zork IV - BeyondZork/BeyondZork (.nib)/beyond_zork_1b.nib
 ./- Games/- Adventure (text)/- Interactive fiction/- Rainbird/Guild of Thieves/guild_of_thieves.nib
 ./- Games/- Adventure (text)/- Interactive fiction/- Rainbird/The Pawn/The Pawn (Digital Monk crack)/the_pawn.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Dungeon!/Dungeon! (nib version)/dungeon.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Realms of Darkness/realms_of_darkness_2b_adventure_2.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Realms of Darkness/realms_of_darkness_1_boot.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Realms of Darkness/realms_of_darkness_2a_adventure_1.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic II/Might and Magic II (nib version)/might_and_magic_ii_2b_side_d.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic II/Might and Magic II (nib version)/might_and_magic_ii_3a_side_f.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic II/Might and Magic II (nib version)/might_and_magic_ii_1a_side_e.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic II/Might and Magic II (nib version)/might_and_magic_ii_3b_side_b.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic II/Might and Magic II (nib version)/might_and_magic_ii_1a_side_a.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Might and Magic/Might and Magic II/Might and Magic II (nib version)/might_and_magic_ii_2a_side_c.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Tangled Tales/tangled_tales_1b_adv3.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Tangled Tales/tangled_tales_2a_adv1.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Tangled Tales/tangled_tales_1a_boot.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Tangled Tales/tangled_tales_2b_adv2.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Alternate Reality/The Dungeon/The Dungeon (nib version)/the_dungeon_1a.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Alternate Reality/The Dungeon/The Dungeon (nib version)/the_dungeon_1b.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Alternate Reality/The Dungeon/The Dungeon (nib version)/the_dungeon_char.nib
-./- Games/- Adventure (graphic)/- Dungeon crawl (role-play)/Alternate Reality/The Dungeon/The Dungeon (nib version)/the_dungeon_2.nib
-./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (nib version)/wasteland_2a_side3.nib
-./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (nib version)/wasteland_1a_side1_boot.nib
-./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (nib version)/wasteland_1b_side2.nib
-./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (nib version)/wasteland_2b_side4.nib
-./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (nib version)/ultima_iii_1a_program.nib
-./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (nib version)/ultima_iii_1b_player.nib
-./- Games/- Adventure (graphic)/- World fantasy/- New World Computing/kings_bounty_1a.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Realms of Darkness/Realms of Darkness (.nib)/realms_of_darkness_2b_adventure_2.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Realms of Darkness/Realms of Darkness (.nib)/realms_of_darkness_1_boot.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Realms of Darkness/Realms of Darkness (.nib)/realms_of_darkness_2a_adventure_1.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic II - Gates to Another World/Might and Magic II (nib version)/might_and_magic_ii_2b_side_d.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic II - Gates to Another World/Might and Magic II (nib version)/might_and_magic_ii_3a_side_f.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic II - Gates to Another World/Might and Magic II (nib version)/might_and_magic_ii_1a_side_e.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic II - Gates to Another World/Might and Magic II (nib version)/might_and_magic_ii_3b_side_b.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic II - Gates to Another World/Might and Magic II (nib version)/might_and_magic_ii_1a_side_a.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Might and Magic/Might and Magic II - Gates to Another World/Might and Magic II (nib version)/might_and_magic_ii_2a_side_c.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Tangled Tales/Tangled Tales (.nib)/tangled_tales_1b_adv3.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Tangled Tales/Tangled Tales (.nib)/tangled_tales_2a_adv1.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Tangled Tales/Tangled Tales (.nib)/tangled_tales_1a_boot.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Tangled Tales/Tangled Tales (.nib)/tangled_tales_2b_adv2.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Alternate Reality/The Dungeon/The Dungeon (.nib)/the_dungeon_1a.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Alternate Reality/The Dungeon/The Dungeon (.nib)/the_dungeon_1b.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Alternate Reality/The Dungeon/The Dungeon (.nib)/the_dungeon_char.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl/Alternate Reality/The Dungeon/The Dungeon (.nib)/the_dungeon_2.nib
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Dungeon!/Dungeon! (.nib)/dungeon.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_6b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_6a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_7a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_7b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_1b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_1a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_2a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_2b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_3b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_3a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_8a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_4b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_8b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_4a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_5a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Gold Rush/gold_rush_5b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_6b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_6a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_1b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_1a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_3b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_3a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_2a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_2b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_5a.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_5b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_4b.nib
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Sierra/Manhunter/Manhunter (.nib)/manhunter_4a.nib
+./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (.nib)/wasteland_2a_side3.nib
+./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (.nib)/wasteland_1a_side1_boot.nib
+./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (.nib)/wasteland_1b_side2.nib
+./- Games/- Adventure (graphic)/- World fantasy/- Electronic Arts/Wasteland/Wasteland (.nib)/wasteland_2b_side4.nib
+./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (.nib)/ultima_iii_1a_program.nib
+./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (.nib)/ultima_iii_1b_player.nib
+./- Games/- Adventure (graphic)/- World fantasy/- New World Computing/King's Bounty/King's Bounty (.nib)/kings_bounty_1a.nib
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/Amazon (Disk Master crack)/amazon_2b_side4.nib
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/Amazon (Disk Master crack)/amazon_1a_side1.nib
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/Amazon (Disk Master crack)/amazon_1b_side2.nib
@@ -1407,77 +1454,55 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/Shadowkeep (hot rod crack)/shadowkeep_2a.nib
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/Shadowkeep (hot rod crack)/shadowkeep_1a.nib
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/Shadowkeep (hot rod crack)/shadowkeep_1b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_6b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_6a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_7a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_7b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_1b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_1a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_2a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_2b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_3b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_3a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_8a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_4b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_8b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_4a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_5a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Gold Rush/gold_rush_5b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_6b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_6a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_1b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_1a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_3b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_3a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_2a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_2b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_5a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_5b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_4b.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Sierra/Manhunter/manhunter_4a.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun side 3.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun side 2.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun side 1.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun side 5.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun side 4.nib
-./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Riddle of the Crown Jewels/riddle_of_the_crown_jewels_1b.nib
-./- Games/- Arcade (other)/- Scroller/Rescue Raiders/Rescue Raiders (nib version)/rescue_raiders.nib
-./- Games/- Arcade (other)/- Run and gun/Lost Tomb/lost_tomb.nib
-./- System/DOS/DOS v3.2/dos_v3.2_utility.nib
-./- System/DOS/DOS v3.2/dos_v3.2_plus_1979.nib
-./- System/DOS/DOS v3.2/dos_v3.2_standard_1979.nib
-./- System/DOS/DOS v3.2/dos_v3.2.1.nib
-./- System/DOS/DOS v3.1/dos_v3.1.1.nib
-./- System/DOS/DOS v3.1/dos_v3.1_1978.nib
-./- Print/Print Shop/Print Shop - Color/The Print Shop - Disk 1, Side B.woz
-./- Print/Print Shop/Print Shop - Color/print_shop_1986.woz
-./- Print/Print Shop/Print Shop - Graphics Library/The Print Shop - Disk 3, Side B.woz
-./- Print/Print Shop/Print Shop - Graphics Library/The Print Shop - Disk 3, Side A.woz
-./- Print/Print Shop/Print Shop - Graphics Library Special Ed./The Print Shop - Disk 1, Side B.woz
-./- Print/Print Shop/Print Shop - Graphics Library Special Ed./The Print Shop - Disk 1, Side A.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun (.nib)/Shogun side 3.nib
+./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun (.nib)/Shogun side 2.nib
+./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun (.nib)/Shogun side 1.nib
+./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun (.nib)/Shogun side 5.nib
+./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Shogun/Shogun (.nib)/Shogun side 4.nib
+./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Riddle of the Crown Jewels/Riddle of the Crown Jewels (.nib)/riddle_of_the_crown_jewels_1b.nib
+./- Games/- Sports/Olympic Decathlon/Olympic Decathlon (.nib)/olympic_decathlon.nib
+./- Games/- Arcade (other)/- Scroller/Rescue Raiders/Rescue Raiders (.nib)/rescue_raiders.nib
+./- Games/- Arcade (other)/- Run and gun/Lost Tomb/Lost Tomb (.nib)/lost_tomb.nib
+./- System/DOS/DOS v3.2/DOS v3.2 (.nib)/dos_v3.2_utility.nib
+./- System/DOS/DOS v3.2/DOS v3.2 (.nib)/dos_v3.2_plus_1979.nib
+./- System/DOS/DOS v3.2/DOS v3.2 (.nib)/dos_v3.2_standard_1979.nib
+./- System/DOS/DOS v3.2/DOS v3.2 (.nib)/dos_v3.2.1.nib
+./- System/DOS/DOS v3.1/DOS v3.1 (.nib)/dos_v3.1.1.nib
+./- System/DOS/DOS v3.1/DOS v3.1 (.nib)/dos_v3.1_1978.nib
+./- Print/Print Shop/Print Shop - Graphics Library/print_shop_graphics_lib_vol3_1a.woz
+./- Print/Print Shop/Print Shop - Graphics Library/print_shop_graphics_lib_vol3_1b.woz
+./- Print/Print Shop/Print Shop/Print Shop (.woz)/print_shop_1b_1986.woz
+./- Print/Print Shop/Print Shop/Print Shop (.woz)/print_shop_1a_1986.woz
+./- Print/Print Shop/Print Shop - Graphics Library Special Ed./Graphics Library Special Ed. (.woz)/print_shop_graphics_lib_spec_ed_1b.woz
+./- Print/Print Shop/Print Shop - Graphics Library Special Ed./Graphics Library Special Ed. (.woz)/print_shop_graphics_lib_spec_ed_1a.woz
 ./- Graphics/Bill Budge's 3-D Graphics System/bill_budge_3-D_graphics_system.woz
-./- Games/- Adventure (text)/- Interactive fiction/Colossal Cave Adventure/Adventre (Microsoft)/microsoft_adventure.woz
-./- Games/- Adventure (text)/- Interactive fiction/Colossal Cave Adventure/Adventure (SoftWareHouse)/softwarehouse_adventure.woz
-./- Games/- Adventure (text)/- Interactive fiction/- Rainbird/The Pawn/the_pawn.woz
-./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (woz version)/ultima_iii_1a_program.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/amazon_2a_side3_boot.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/amazon_1b_side2.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/amazon_1a_side1.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/amazon_2b_side4.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/shadowkeep_1b.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/shadowkeep_1a.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/shadowkeep_2a.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/shadowkeep_2b.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Addison Wesley/The Hobbit/the_hobbit_1a.woz
-./- Games/- Adventure (graphic)/- Interactive fiction/- Addison Wesley/The Hobbit/the_hobbit_1b.woz
-./- Games/- Arcade (other)/- Scroller/Rescue Raiders/rescue_raiders.woz
-./- Games/- Arcade (other)/- Scroller/Star Blazer/woz
-./- Games/- Arcade (other)/- Scroller/Star Blazer/woz/star_blazer.woz
-./- Games/- Arcade (other)/- Run and gun/Lost Tomb/lost_tomb.woz
-./- Games/- Various/Bill Budge/Bill Budge's Space Album/bill_budge_space_album.woz
+./- Games/- Adventure (text)/- Interactive fiction/Colossal Cave Adventure/Adventre (Microsoft)/Microsoft Adventure (.woz)/microsoft_adventure.woz
+./- Games/- Adventure (text)/- Interactive fiction/Colossal Cave Adventure/Adventure (SoftWareHouse)/Softwarehouse Adventure (.woz)/softwarehouse_adventure.woz
+./- Games/- Adventure (text)/- Interactive fiction/- Rainbird/The Pawn/The Pawn (.woz)/the_pawn.woz
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Tass Times in Tonetown/Tass Times in Tonetown (.woz)/tass_times_in_tonetown_1b.woz
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Tass Times in Tonetown/Tass Times in Tonetown (.woz)/tass_times_in_tonetown_1a.woz
+./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (.woz)/ultima_iii_1b_player.woz
+./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (.woz)/ultima_iii_1a_alt_program.woz
+./- Games/- Adventure (graphic)/- World fantasy/- Origin/Ultima/Ultima III - Exodus/Ultima III (.woz)/ultima_iii_1a_program.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/Amazon (.woz)/amazon_2a_side3_boot.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/Amazon (.woz)/amazon_1b_side2.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/Amazon (.woz)/amazon_1a_side1.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Amazon/Amazon (.woz)/amazon_2b_side4.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/Shadowkeep (.woz)/shadowkeep_1b.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/Shadowkeep (.woz)/shadowkeep_1a.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/Shadowkeep (.woz)/shadowkeep_2a.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Telarium/Shadowkeep/Shadowkeep (.woz)/shadowkeep_2b.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Addison Wesley/The Hobbit/The Hobbit (.woz)/the_hobbit_1a.woz
+./- Games/- Adventure (graphic)/- Interactive fiction/- Addison Wesley/The Hobbit/The Hobbit (.woz)/the_hobbit_1b.woz
+./- Games/- Arcade (other)/- Scroller/Rescue Raiders/Rescue Raiders (.woz)/rescue_raiders.woz
+./- Games/- Arcade (other)/- Scroller/Star Blazer/Star Blazer (.woz)/star_blazer.woz
+./- Games/- Arcade (other)/- Run and gun/Lost Tomb/Lost Tomb (.woz)/lost_tomb.woz
+./- Games/- Various/Bill Budge/Bill Budge's Space Album/Bill Budge's Space Album (.woz)/bill_budge_space_album.woz
+./- Games/- Fighting/Karateka/Karateka (.woz)/karateka_1a.woz
+./- Games/- Fighting/Karateka/Karateka (.woz)/karateka_1b_upside_down.woz
 ./- Graphics/Mouse Paint/disk_3.5/mouse_paint.2mg
+./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Neuromancer/neuromancer.2mg
 ./- Games/- Adventure (graphic)/- World fantasy/- Origin/AD 2400/ad_2400.2mg
-./- Games/- Adventure (graphic)/- Interactive fiction/- Activision/Neuromancer/neuromancer.2mg
 ./- Games/- Adventure (graphic)/- Interactive fiction/- Infocom/Journey/journey.2mg
 ./- Games/- Fighting/Death Sword/death_sword.2mg
 ./- Games/- Modern/Ancient Legends/ancient_legends.2mg
