@@ -1,9 +1,9 @@
 Galactic Empire is a strategy video game written by Doug Carlston for
-the TRS-80 in 1979. It is the first game in the Galactic Saga and became
-first game published by Brøderbund which was, in fact, created for the
-purpose of publishing the game. Galactic Empire was ported to the Apple
-II and the Atari 8-bit family and followed by three sequels. The game
-was also published by Adventure International.
+the TRS-80 in 1979. It was the first game published by Brøderbund which
+was, in fact, created for the purpose of publishing the game. Galactic
+Empire was ported to the Apple II and the Atari 8-bit family and
+followed by three sequels. The game was also published by Adventure
+International.
 
 Brøderbund was founded by brothers Doug and Gary Carlston in 1980 for
 the purpose of marketing Galactic Empire. Their sister, Cathy, joined
