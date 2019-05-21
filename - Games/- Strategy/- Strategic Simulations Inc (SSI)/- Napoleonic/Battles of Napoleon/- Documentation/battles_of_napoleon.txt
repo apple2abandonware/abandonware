@@ -1,0 +1,3216 @@
+                     BATTLES OF NAPOLEON
+              Strategic Simulations, Inc. (SSI)         
+                         Game Rules
+TABLE OF CONTENTS
+
+
+INTRODUCTION
+
+1.0 START-UP
+ù Documentation Check
+
+2.0 PREPARING TO PLAY
+ù Movement Option
+
+3.0 STARTUP MENUS
+ù Main Menu
+
+4.0 PLAYING THE GAME
+ù The Game Menu
+ù Computer Directive Table
+ù Sound
+ù Delay Time
+ù Sequence of Play
+
+5.0 OBJECTIVE PHASE
+ù Objective Phase Information Area
+ù Objective Selection
+ù Objective Effects
+ù Changing Objectives
+ù Exiting the Objective Phase
+
+6.0 OPERATIONS PHASE
+ù Command Menu
+ù Movement Orders
+ù Fire and Melee Orders
+
+7.0 COMBAT PHASE
+ù Cavalry Charge Phase
+ù Artillery Fire Phase
+ù Fire Phase
+ù Melee Phase
+ù Fire Effects
+
+8.0 DISRUPTION, READINESS, MORALE, FATIGUE, AND EFFICIENCY
+ù Fatigue
+ù Morale
+ù Efficiency
+ù Readiness
+ù Disruption
+
+9.0 COMMAND CONTROL
+ù Leaders
+ù Specific Effects of Command Control
+
+10.0 RECOVERY, REINFORCEMENT, AND RESUPPLY
+ù Ammunition
+ù Rally
+ù Recovery
+ù Reinforcements
+
+11.0 VICTORY PHASE
+ù Victory Points
+
+12.0 DESIGNING YOUR OWN SCENARIOS
+
+13.0 HISTORICAL SCENARIOS
+
+Borodino: The Battle for the Great Redoubt
+ù French Order of Battle
+ù Allied Order of Battle
+
+The Battle of Auerstadt
+ù French Order of Battle
+ù Prussian Order of Battle
+
+The Battle of Quatre Bras
+ù French Order of Battle
+ù Allied Order of Battle
+
+The Battle of Waterloo
+ù French order of Battle
+ù Allied Order of Battle
+BATTLES OF NAPOLEON
+GAME RULES
+
+PARTS INVENTORY:
+Your Battles of Napoleon game should come with the following:
+ù One Game Box
+ù This Rules Book
+ù One Game Disk
+ù One Scenario Disk
+
+
+INTRODUCTION
+
+The Battles of Napoleon is a grand tactical simulation of
+Napoleonic warfare. You may play any of the four historical
+Battles provided with the game, or you may design your own
+scenarios using the game Editor included with the game. In this
+Editor, you may either reconstruct a favorite historical battle,
+or have the computer randomize a "hypothetical" battle.
+
+In The Battles of Napoleon, you will command either the French or
+the Allied forces against a human or a computer opponent. As
+commander of these forces, you will move your units over the game
+map and resolve combat. Your main responsibilities are to choose
+objectives for your units, move them so as to optimize your
+tactical situation, and give them combat orders.
+
+The capabilities of this game are tremendous, allowing you to
+give very detailed commands to your forces and, through use of
+the Editor, to change the very tables which govern how the game
+operates. However, this level of detail and control makes this
+game relatively complex. We therefore recommend that you use the
+Borodino scenario as a guideline for learning this game, saving
+the Editor for when you are more familiar with the system. The
+Borodino scenario is a very small scenario with only about 20
+units on each side, and is therefore well suited to a new player
+of this game. See section 13.1 for more information on the
+Borodino scenario.
+
+The rules are organized so that the sections pertaining to the
+Editor are in the latter half of the rulebook. Therefore, only
+read through section 13 before beginning play. The latter
+sections will only be necessary once you are more familiar with
+the game. For a quick start into the game, read only through
+section 7.0 and then begin.
+
+Note that there are examples throughout these rules. They are not
+taken from any specific scenario and are only for reference with
+regard to the specific example.
+
+Time and Distance
+The game is played in turns. Each turn equals one-half hour of
+real time and is divided into a number of phases (refer to
+section 4.5 for a listing of these phases). Each square on the
+game map represents 100 yards on a side. It should be mentioned
+that these scales can change with use of the Editor.
+
+
+1.0 START-UP
+
+Before beginning play, it is a good idea to make backup copies of
+your disks. You may do this with any commercially available bit
+copier (or using you DOS on the IBM system). Once you have made
+these backup copies, put your master disks in a safe place and
+play off your copies. This will keep your master disks safe and
+will help prevent loss of the game through disk wear.
+
+C-64/128
+If you have a C-64 or C-128 computer, you begin the game by
+inserting the Scenario Disk in your disk drive and then turning
+on your computer. Remember to hold down the Commodore key on the
+C-128 to enter C-64 mode. When your computer comes up and says
+READY, type LOAD "*",8,1 and press RETURN. When READY appears
+again, type RUN and press RETURN.
+
+Apple II
+If you have an Apple II series computer, you load the game by
+inserting the front side of the Scenario Disk in your disk drive
+and turning on your computer. Note that if your system has a CAPS
+LOCK key, it must be down throughout the game. Once you have
+turned on the computer, the game will load normally. Answer the
+prompts as they appear in regards to your preferences for usage
+of the numeric keypad (if you have one) and accelerator cards.
+
+NOTE: Older versions of the "Speed Demon" that do not contain dip
+switches may not work properly with this game.
+
+IBM PC or compatible
+If you have an IBM PC or compatible, you load the game by first
+booting the computer with a DOS version 2.0 or later. If you
+intend to save the game, you should have a formatted disk ready
+for this purpose. When the system prompt appears (typically A>)
+insert the game disk and type START. Hit RETURN and the game will
+load. You will then get the option for numeric keypad movement
+(see section 2.1).
+
+1.1 Documentation Check
+
+There is no physical copy protection in this game. This permits
+you to make back-up copies of the game and/or install it on a
+hard disk. Note that Apple users will not be able to install this
+program on a hard disk due to limitations of the operating
+system. There are documentation checks in the game that will
+require you to look up a word in a specific section of this
+rulebook and type it in when prompted. After typing in the
+requested word, press RETURN and the game will continue.
+
+
+2.0 PREPARING TO PLAY
+
+When the game is loaded, you will be required to answer a
+documentation check (see section 1.1 above) before you can
+proceed. Following this, you may be given an option to choose
+between the standard and keypad movement options (refer to
+section 2.1). Apple Users will then be asked to identify the type
+of accelerator card their system is using (if any).
+
+2.1 Movement Option
+
+If you are using a system with a numeric keypad, you must choose
+which number keys you will use to move your units and the game
+cursor. This is done from the Select Movement Option Screen that
+appears following the Documentation Check. When
+SELECT MOVEMENT OPTION (1) STANDARD (2) KEYPAD
+is shown on the screen, press the "1" key if you intend to use
+the numbers across the top of your keyboard. Press the "2" key if
+you intend to use your numeric keypad. All examples in this
+rulebook will use the "1" option as not all systems have numeric
+keypads.
+
+
+3.0 STARTUP MENUS
+
+3.1 Main Menu
+
+This menu follows the title Screen and is where you select
+whether you wish to CREATE A RANDOM NEW SCENARIO, EDIT A
+SCENARIO, GENERATE A SCENARIO, PLAY A SCENARIO, or RECALL/PLAY A
+SAVED GAME. To choose one of the functions, simply select the
+first letter of the option. Thus, pressing the "P" key will allow
+you to PLAY A SCENARIO. See section 14.2 for an explanation of
+the use of the Random Scenario Maker.
+
+3.11 SCENARIO SELECTION MENU
+This is the menu you reach after pressing the "P' key from the
+Main Menu and allows you to choose which scenario you wish to
+play. Press the "W" key to play the Battle of Waterloo; press the
+"Q" key to play the Battle of Quatre Bras; press the "A" key to
+select the Battle of Auerstadt; press the "B" key to play the
+Battle of Borodino; select the "G" key to play a battle you have
+created earlier though use of the Editor; or press the "E" key to
+return to the Main Menu. Refer to section 13.0 for a description
+of the Historical Scenarios.
+
+3.12 GENERATE/EDIT SCENARIO MENU
+If you select the "G" key from the Main Menu, you will be
+presented with this menu. From here you may select any of the
+primary options of the Editor portion of the game. Consult
+section 14.0 for more details on the Editor portion of this
+program.
+
+3.13 SAVE GAME MENU
+This menu allows you to interact with your save disk, either to
+recall a game, initialize a disk (only on the Apple and C-64
+versions of the game), delete files, and catalog the disk. If
+this menu was reached by selecting a save option, then you will
+be allowed to save the game through this menu. If, however, this
+menu was reached from a recall option, then you will be allowed
+to recall a previously saved game instead.
+
+
+4.0 PLAYING THE GAME
+
+Because of the complexity of this game, it is important that you
+understand how a game of The Battles of Napoleon is played. The
+menus that follow will show you how to begin a game, but let's
+first examine the general flow of the game.
+
+A game of The Battles of Napoleon consists of many game turns,
+each of which is broken down into many phases (see section 4.5
+for the sequence of play for each game turn). Over these turns,
+the player(s) will move units across the map and combat will be
+resolved. The object of the game is to inflict more casualties on
+your opponent's forces than he/she inflicts on yours. In
+addition, there are often places on the map that are worth
+"victory points" for being captured (see section 11.0 for Victory
+Points).
+
+At this point, you should skip ahead and read the initial portion
+of sections 5.0, 6.0, and 7.0. These section introductions will
+give you an overview of how the game is played. Armed with this
+information, you should then proceed through the rest of this
+section, paying close attention to the Sequence of Play, section
+4.5.
+
+4.1 THE GAME MENU
+
+The game Menu appears after you select which game you wish to
+play, be it a historical scenario or a previously generated
+scenario. This menu presents a number of options which affect how
+the game will play. All of the default settings should be used
+for a "historical" setting. This menu appears as follows:
+A) MOVE FIRST              FRENCH       ALLIED
+B) FRENCH                  HUMAN        COMPUTER
+C) ALLIED                  HUMAN        COMPUTER
+D) LEVEL OF PLAY           1 2 3 4 5
+E) 2 PLAYER                HIDDEN       NON-HIDDEN
+F) FRENCH STRENGTH         1 2 3 4 5
+G) ALLIED STRENGTH         1 2 3 4 5
+H) FRENCH ARRIVAL          1 2 3 4 5
+I) ALLIED ARRIVAL          1 2 3 4 5
+J) FRENCH AMMO             1 2 3 4 5
+K) ALLIED AMMO             1 2 3 4 5
+
+4.11 GAME MENU OPTIONS
+ù The "A" Option allows the player to select which side will move
+first. Press the "A" key until the desired side is highlighted.
+
+ù The "B" and "C" options allow the player(s) to select whether or
+not to have either the French or the Allied side controlled by
+the computer.
+
+ù The "D" option selects the difficulty level. Level 3 is normal
+and does not modify the game. Levels 1 and 3 favor the French
+player, 1 more so than 2, while levels 4 and 5 favor the Allied
+player, 5 more so than 4. Level of play affects the casualties
+inflicted by fire and melee combat. It is suggested that you
+select the easiest level of play when starting out as the game is
+a challenge on level 3.
+
+ù The "E" option allows you to play a game where only known enemy
+units of both Combat and Operations Phases. This option is only
+available during a game between two human players
+
+ The "F" and "G" options allow the player to boost the strength
+of the units on the French and Allied sides, respectively. Level
+3 is normal strength. Higher numbers increase the number of men
+in the units on the side chosen, while lower numbers decrease the
+number of men in those units. It is recommended that level 3 be
+used in most circumstances.
+
+ù The "H" and "I" options allow the player to alter the arrival
+time of reinforcements for the French and Allied sides,
+respectively. Level 3 is historical with no changes. Level 1
+allows units to arrive up to four turns earlier than their
+historical arrival time while level 2 allows units to arrive up
+to four turns later. Level 4 allows units to arrive anywhere from
+2 turns earlier than historical to two turns later. Level 5 is
+identical to level 4, except that it allows up to 4 turns of
+early or late arrival. Once players are familiar with the game,
+level 5 should be chosen to truly re-create the uncertainty of a
+battle where opposing commanders did not know the size of an
+enemy force or how quickly it would be reinforced.
+
+ù The "J" and "K" options allow for variable ammunition supply.
+Level 3 is again historical. Levels 2 and 1 give progressively
+less ammunitions where levels 4 and 5 give progressively more.
+
+4.2 Computer Directive Table
+
+This table is displayed immediately after exiting the Game Menu,
+if you selected the computer to play one (not both) of the sides.
+This table allows you to choose the overall strategy to be
+employed by the computer opponent. If you have no special
+strategy in mind, select option "A". Option "A" allows the
+computer the most flexibility in choosing a strategy. All other
+options are actually just variants of option "A" with weighting
+towards various strategies. The rest of the options have the
+following effects:
+
+ù The Retreat-Automatic option forces the computer to retreat its
+forces without regard to the location of your forces. The
+computer will simply give ground and you must pursue.
+
+ù The Retreat-Random option is identical to the Retreat-Automatic
+option except that the computer will vary the speed of its
+retreat at random.
+
+ù The Retreat-Analyze Situation option forces the computer to give
+ground, but only is in response to your attacks. The computer
+will generally hold unless approached.
+
+ù The Hold Positions-Automatic option makes the computer try to
+hold its current positions. The computer will not retreat unless
+pushed back by combat, in which case it will try to retake the
+terrain lost.
+
+ù The Hold Positions-Random option allows the computer the most
+variety in its disposition. Sometimes it will aggressively hold a
+certain position, refusing to retreat and counterattacking if
+forced back, while other times the computer will hold for just a
+short while and then pull back to a safer line.
+
+ù The Hold Positions-Analyze Situation option forces the computer
+to hold a specific position, but allows it to retreat or advance
+as needed in order to best counter your aggressive moves. This is
+best described as putting the computer in "reaction" mode where
+it reacts to your moves.
+
+ù The Counterattack-Automatic option is the most aggressive
+computer setting. The computer will relentlessly push against
+your forces all along the line. You will never be given a moment
+of rest.
+
+ù The Counterattack-Random option is just like the Counterattack-
+Automatic option except that the computer will vary the speed of
+its advance randomly.
+
+ù The Counterattack-Analyze Situation is the mode in which the
+computer is allowed to attack cautiously, maneuvering its forces
+to allow maximum concentration of firepower against its
+objective. In this mode, the computer is not just trying to push
+you back, it is trying to take a specific objective and will
+maximize its efforts in this direction.
+
+4.3 Sound
+
+After exiting from the Game Menu, you will see a number of
+screens that display the losses suffered by both sides and the
+current score. These screens are more fully explained in section
+10.0. After these screens you will be allowed to select "Y" or
+"N" to the question "SOUND ON?". If you wish no sound during the
+play of the game, select "N". Otherwise, select "Y".
+
+4.4 Delay Timer
+
+The next screen after the Sound On screen instructs you to set
+the Delay Timer. The timer determines how long messages remain on
+the screen during the game. You should play once with the default
+setting before choosing a different number. If the messages go by
+too fast or too slow, then you can change this delay in a later
+turn.
+
+
+4.5 Sequence of Play
+
+1. Command Control Phase
+2. Mutual Operation Point Phase (Turn 1 only)
+3. Reinforcement Phase (not on Turn 1)
+4. Ammo Resupply (Not on Turn 1)
+5. 1st Player Leader Transfer Phase
+6. 1st Player Objective Phase
+7. 1st Player 1st Operation Phase
+8. 1st Combat Phase
+9. 1st Player Recovery/Operation Point Phase
+10. 2nd Player Rally Phase
+11. 2nd Player Leader Transfer Phase
+12. 2nd Player Objective Phase
+13. 2nd Player 1st Operations Phase
+14. 2nd Combat Phase
+15. 2nd Player Recovery/Operation Point Phase
+16. 1st Player Rally Phase
+17. 1st Player 2nd Operations Phase
+18. 3rd Combat Phase
+19. 1st Player Recovery/Operation Point Phase
+20. 2nd Player Rally Phase
+21. 2nd Player 2nd Operations Phase
+22. 4th Combat Phase
+23. 2nd Player Recovery/Operation Point Phase
+24. 1st Player Rally Phase
+25. Victory Phase
+
+This is a listing of the sequence in which a turn of The Battles
+of Napoleon is played. The Command Control Phase is more fully
+explained in section 9.0; the Recover/Operation Point Phase and
+the Reinforcement Phase are detailed in section 10.0; the
+Objective Phase is explained in section 5.0; the Leader Transfer
+Phase is explained in section 9.12; the Operations Phase is
+explained in section 6.0; and the Combat Phase is outlined in
+section 7.0. The reason that some of the early phases are
+explained later in the manual is that you need not know all of
+the details about these phases in order to begin the game.
+
+In the Mutual Operation Point Phase that occurs only on turn 1,
+the computer simply assigns Operation Points to units, allowing
+both sides to move and fire in their subsequent movement and
+combat phases. The two other phases listed as only occurring
+after turn 1 are not used on turn 1 because units are not going
+to be in need of ammo resupply (see section 10.0) and units may
+not come in as reinforcements on turn 1 (see section 10.2 and
+15.0).
+
+
+5.0 OBJECTIVE PHASE
+
+Because of the sheer size of battles in the Napoleonic age, high
+level commanders generally gave fairly vague instructions to
+their subordinates, who in turn gave more detailed instructions
+to their subordinates, and so on. In this game, however, you will
+be able to play the parts of both the high level commanders and
+their subordinates. You will give objectives to your Division
+leaders which will tell them generally where you want them. This
+is what the Objective Phase is all about, and represents the
+orders given by the Army commander to the Corps or Division
+commanders saying such things as, "Move your Division to that
+hill over there and wait for further instructions."
+
+The Movement Phase also enables you to have control over the
+tactical level. In this phase, you can move individual battalions
+and regiments to specific locations, thus giving you the ability
+to play the role of both the Army commanders and the Brigade
+commanders.
+
+5.1 Objective Phase Information Area
+
+Once in the Objective Phase, you will be presented with a
+strategic view of the map. Below this map is an information area
+which gives a summary of the options you have in this phase.
+Certain letters are highlighted and show the keys to press to
+select an option.
+
+5.11 ACTIVE LEADER
+The active leader and his current formation (brigade, division,
+corps...) are shown in the top left of the information area. For
+example, DIV: MORRAND shows that the active leader is Morrand,
+and that he is a Division commander. The units in Morrand's
+Division are highlighted on the screen.
+
+5.111 Command Levels
+The objective squares for infantry units are usually set at two
+command levels (formation levels) above the lowest level of
+infantry organization (individual infantry unit). If the
+individual infantry units in your force are Battalions (as is
+common), then the lowest level of your infantry organization is
+the Battalion. This will result in objectives being set at the
+Brigade or Division level.
+
+The objective squares for cavalry units are set at one command
+level above the lowest level of organization. Artillery units do
+not get assigned objective squares.
+
+5.12 OBJECTIVE SQUARE
+Directly under the active leader listing is a display showing
+where the current objective for the active leader's formation is.
+For example, OBJECTIVE = 14,9 shows that the current objective
+for the current formation, in this case Morrand's Division, is in
+square 14,9. This location is given as an X,Y coordinate (see
+section 5.121 for details) and is shown by a blinking cursor on
+the map.
+
+5.121 Coordinates
+The X coordinates start at the left side of the map, where X is
+0, and increase as they move right. The Y coordinates start at
+the top of the map, where Y is 0, and increase as they move down.
+The coordinates for the top left square on the map is 0,0. The
+coordinates for the square that is both 10 squares down form the
+top and 10 squares to the right of the left map edge are 9,9.
+This is because the numbering begins with 0.
+
+5.13 MOVING THE CURSOR
+The bottom line shows the keys which may be used to move the
+cursor. These numbers are illuminated. Movement is in the
+direction indicated by the movement compass in the upper right
+corner of the information display.
+
+5.131 Movement Compass
+To the right of the information area, numbers are arranged in one
+of the following two patterns:
+8 1 2               7 8 9
+7 0 3               4 5 6
+6 5 4               1 2 3
+Standard       Keypad
+
+Each of these is a movement compass. Pressing the keys for the
+numbers on the outside of the compass causes the cursor (the
+rectangle at center screen) to move in the direction that number
+lies from the center of the compass.
+
+5.14 NEXT LEADER
+This option, selected by pressing the "N" key, allows you to
+scroll through your available leaders, examining their current
+objectives, and changing them if you so desire. If you continue
+to select the "n" key, you will eventually find yourself back at
+the beginning leader again. Note that as you press the "n" key,
+and the leader changes, the highlighted units and the flashing
+cursor will change locations, indicating the units and objective
+of the newly selected leader.
+
+5.15 CURSOR LOCATION
+This X,Y display, located on the bottom of the Objective Phase
+Information Area, shows the current location of the cursor in X,Y
+coordinates. If you move the cursor, as outlined in 5.13 above,
+this display will change with the movement.
+
+5.2 Objective Selection
+
+In all scenarios, formations will start the game with their
+objectives already selected. You may change these objectives as
+desired in the first Objective Phase without penalty. However,
+changing objectives in later Objective Phases will result in the
+penalties outlined in section 5.41.
+
+5.3 Objective Effects
+A unit's movement is restricted by its objective. When a unit is
+being moved, the information area for that unit will show a
+number in parentheses next to its direction of facing (DIR). That
+number is the direction in which that unit should move in order
+to bring it closer to its objective.
+
+5.31 MOVEMENT PENALTIES
+Units which move in the direction shown in parentheses (or within
+1 of that direction) suffer no movement penalty. Units which move
+in any other movement direction are penalized based on how far
+away their movement direction is from the direction in
+parentheses. All penalties are in movement points, also known as
+Operations Points, which are explained more fully in section
+6.31.
+
+The amount by which a unit is penalized is based on the following
+example:
+
+A unit's objective is in direction 3 on a standard movement
+compass. If the unit was to move in directions 2, 3, or 4, there
+would be no movement penalties. However, if the unit moved in
+either direction 1 or direction 5, there would be a one movement
+point penalty for moving in that direction. If the unit was to
+move in direction 8 or 6, there would be a 2 point movement
+penalty. There is a 3 point movement penalty for moving in a
+direction opposite to that of your objective. Note that this
+penalty is per square entered.
+
+Units within 5 squares of their objective square my move in any
+direction without penalty.
+
+5.4 Changing Objectives
+
+A formation's objective may be changed during the Objective
+Phase. To change an active leader's formation's objective, move
+the cursor over the square you want to be the new objective, and
+press the "O" key. The new objective square is set, and the game
+proceeds to the next leader.
+
+5.41 CHANGE PENALTIES
+When a new objective is selected for an organization, the
+Operation Points (see section 6.31) for all units in that
+organization are halved during the following Movement Phase.
+These units will also lose 2 to 4 levels of Readiness depending
+on the leader's rating (see section 9.1) and a random factor. The
+only exception to this is during a player's first Objective
+Phase. During the first objective phase of the game, a player may
+change objectives without these penalties being assessed.
+
+5.5 Exiting the Objective Phase
+
+To exit the Objective Phase you simply press the "E" key. As
+there is no fail-safe question, once you press this key you are
+out of the Objective Phase and into the Operations Phase. This
+important because in the first Objective Phase of the game, the
+penalties listed above do not apply. Therefore, press the "E" key
+only when you are sure you are through with this phase.
+
+
+6.0 OPERATIONS PHASE
+
+The Operation Phase is where you examine the map, move all of
+your units, give them order, and alter their formations. It is
+where all of the game decisions are made and is the heart of The
+Battles of Napoleon. Once you understand this phase, you
+understand how to play the game.
+
+Cursor Menu
+
+When you enter the Operations Phase, you are placed in Cursor
+Mode. This is where the Cursor Menu is displayed at the bottom of
+the screen and you are able to move the cursor about the map.
+Several important functions are available in this mode.
+
+6.01 CURSOR MENU COMMAND SUMMARY
+(SEE BACK COVER)
+
+6.02 PLAYER PHASE
+The first and second lines in the Cursor Menu list several
+important bits of information. They list the date and time of the
+battle, the phase number, and which payer's phase it is. The
+player and phase information assists in keeping track of where in
+the sequence of play you are. The date of battle is just for
+reference, but the time of day is important in figuring out how
+many turns are left in the game. For the historical scenarios,
+the hour of the first and last turns are listed in section 13.0.
+
+6.03 CURSOR MOVEMENT
+On the second line of the Cursor Menu the keys are shown which
+will move the cursor about the map. They correspond to the
+movement compass shown on the right of the Menu. See section 5.13
+for more details.
+
+6.04 ACCESSING A UNIT WITH THE SPACE BAR
+The listing SPACE is there to remind you that if you move the
+cursor over a unit and press the space bar, the unit will be
+accessed and you will go from the Cursor Menu to the Command Menu
+(see section 6.31). A unit must be accessed in order to give it
+orders.
+
+6.05 VIEW AND LOS
+The "V" key is enabled to allow you to view the Line of Sight
+(LOS) from the square the cursor occupies. When this option is
+chosen, you are prompted to choose a direction. This direction is
+the compass direction you wish to examine for the LOS. After
+selecting a direction, a portion of the map will be highlighted.
+The squares that are highlighted are the squares that can be seen
+from the cursor-occupied square, in the direction you indicated.
+LOS is blocked by certain types of terrain.
+
+6.06 SEEING UNDER UNITS
+The "T" key can be pressed to remove all units from the map so
+that you can see the terrain underneath.
+
+6.07 TERRAIN TYPE AND ELEVATION
+On the bottom of the Cursor Menu is a listing showing the type of
+terrain that is in the square that the cursor is over, and the
+level of elevation that this terrain is at. An example would be
+CLEAR (3). This would indicate that the cursor is in a clear
+terrain square and is at level 3 elevation. See the Terrain
+Effects Chart in the back of this rulebook for more details on
+the effects of terrain and elevation.
+
+6.08 CURSOR LOCATION
+The X,Y listing on the bottom of the Cursor Menu tells where the
+cursor is at any given moment. This is using the standard
+coordinate system, listed in section 5.121.
+
+6.09 CHANGING MAPS
+Pressing the "O" key will change the map from the tactical scale
+to the strategic scale shown during the Objective Phase. This
+"zoom out" map is useful in getting an overall picture of the
+battle. However, since everything on the strategic map is
+smaller, much of the details is lost and it is suggested that
+players use the tactical map to give their orders. The "O" key
+will also switch the scale back if pressed again.
+
+6.10 ENTERING THE COMBAT PHASE
+Pressing the "C" key will cause you to exit the Operations Phase
+and enter the Combat Phase. This key does have a verification
+prompt, so if you press it by accident, you will be able to stay
+in the Operations Phase.
+
+6.11 VICTORY SQUARE HIGHLIGHTING
+Pressing the "W" key will highlight all of the victory squares
+for each side.
+
+6.2 Command Menu
+
+This menu appears when a unit is selected by using the Space Bar
+in the Cursor Menu while the cursor is over a friendly unit. The
+Command Menu permits you to move units and to give them orders
+for combat. Generally, a unit must be accessed before you may
+move or give orders to it.
+
+COMMAND MENU COMMAND SUMMARY
+This is simply a summary of all of the commands available from
+the Command Menu. Although not all of them have been explained in
+this section, the brief description below will tell you where to
+find more detailed information on the command. They are listed
+here for convenience:
+
+(0) - This command centers the map on the unit (the command is
+"5" if using the alternate keypad).
+
+(1-8) - moves the unit in the desired direction as indicated by
+the movement compass at the bottom right of the screen ("1-9" for
+alternate keypad users).
+
+(A)dvance sets the unit to advance into a square vacated by the
+retreat of enemy unit(s) in front of the advancing unit. To be
+eligible to advance, that friendly unit's fire or melee combat
+must have caused the enemy unit to retreat. As this is a toggle,
+if the ADV: flag is already set to Y, pressing the "A" key again
+will set it back to N (see section 6.42).
+
+(D)irection permits you to change the facing of the accessed unit
+(see section 6.36).
+
+(F)ire calls up the Fire Menu which permits the giving of fire
+commands (see section 6.41).
+
+(G) changes the cavalry auto-retreat toggle (see section 6.434).
+For infantry units and artillery units, it changes the unit's
+Road Mode status from Normal to Road (see section 6.351).
+
+(H) Increases the number of skirmishers out by 25% of the total
+skirmishers in the unit until 100% is reached. Once 100% are out,
+pressing the "H" key again resets the % out to 0% (see section
+6.354).
+
+(I)nverse allows the accessing of a higher level of organization
+to give certain fire orders to all units of that formation. A sub
+menu allowing you to select NO PLOT or NO FIRE orders for the
+entire organization. Units accessed may be from regiment through
+army (see section 6.41).
+
+(J) highlights the accessed unit's objective square (refer to
+section 5.0).
+
+(K) orders skirmishers out of the unit. If the skirmishers are
+already out, they are then ordered back in by this command. This
+also causes the SKRM number on the Infantry Command Menu to be
+highlighted.
+
+(M)elee plots the unit to melee any enemy units in the square
+that the unit faces. If the unit is already under orders to
+melee, pressing this key will order the unit NOT to melee (see
+section 6.42).
+
+(N)ext accesses the next friendly unit in the Order of Battle
+(see section 12.1).
+
+(Q)uit exits from the unit to the Cursor Menu (see section 6.1).
+
+(R) switches the unit between frontline status and non-frontline
+status (see section 6.341).
+
+(S)elect formation allows you to change formation for the unit in
+question. The types of formation available to the unit will be
+automatically listed and offered to you (see section 6.35).
+
+(SPACE BAR) switches between the Command Menu pages for the
+currently accessed unit. This is a toggle so hitting the SPACE
+BAR again will return you to the 1st page of the Command Menu
+(see section 6.32).
+
+(T)errain removes the unit shapes from the map allowing you to
+examine the terrain underneath.
+
+(U)nder allows you to access the next unit in the square. If
+selected when there is only one unit in a square, there will be
+no response.
+
+(V)iew highlights all squares that the currently accessed unit
+can see and fire at with its weapons (see section 6.41).
+
+(W) highlights all victory squares on the map, first for one side
+and then for the other.
+
+(X) force marches the unit, adding 1 OP point at a cost of adding
+6 Fatigue points.
+
+(Z) aborts all of the orders given to the currently accessed unit
+since its most recent access. If you (Q)uit a unit and then pick
+it back up, you may not abort any previously given orders (see
+section 6.32).
+
+6.21 COMMAND MENU INFORMATION AREA
+6.211 Infantry Information Area
+Here is a sample Infantry Information Area:
+
+FR 1/12/3 LN   INF BATT. DIR:3(3)            8 1 2
+340 MEN   0 SKRM    AM:7 FL:N MUS            7 0 3
+OP:11     FT:0 EFF:60    ADV:N     MEL:N     6 5 4
+RIDGE (2) X,Y:6, 10 NO PLOT
+
+Note that unlike previous menus, this information area does not
+provide a summary of the commands which can be given from the
+menu. The following information is provided:
+
+6.212 Information Area Description Unit Name
+FR 1/12/3 LN: This unit is French (FR). It is the first battalion
+of the 12th regiment of the 3rd division (1/12/3). It is a line
+unit (LN) as opposed to a light (LT) unit.
+
+Unit Organization
+INF BATT.: This unit is an infantry Battalion (INF BATT.).
+
+Facing and Objective Direction
+DIR:3 (3): This unit is facing in direction (DIR) 3. The
+straightest path to its objective square is to move in direction
+(3).
+
+Number of Men
+340 MEN: This unit contains 340 men.
+
+Number of Skirmisher
+0 SKRM: This unit contains no men which can skirmish. Note that
+this area will be inverted if skirmishers are currently deployed.
+(See section 6.354 for a description of skirmishers.)
+
+Ammunition Status
+AM:7: This unit has enough ammunition for 7 shots. Ammunition is
+replenished in the Replenishment Phase (see section 10.1).
+
+Front Line Status
+FL:N: This unit is not (N) a front line unit. Front line units
+are the only ones which suffer casualties from fire combat (see
+section 6.341).
+
+Armament
+MUS: This unit is armed with muskets (see table in section 20.5).
+
+Number of Operation Points
+OP:11: This unit has 11 Operation Points (see section 6.31).
+
+Fatigue Level
+FT:0: This unit has no Fatigue (see section 8.1).
+
+Efficiency Level
+EFF:60: This unit has a current efficiency level of 60 (see
+section 8.3).
+
+Advance Status
+ADV:N: This unit is not (N) currently set to advance after combat
+(see section 6.42).
+
+Melee Status
+MEL:N: This unit is not (N) ordered to melee the square directly
+ahead of it (see section 6.42).
+
+Type and Elevation of Occupied Terrain
+RIDGE (2): This unit occupies a ridge square which has an
+elevation of 2 (see section 6.38).
+
+Unit location X,Y:6,10: This unit occupies the square with X
+coordinate 6 and Y coordinate 10.
+
+Fire Plot
+NO PLOT: This unit is not plotted to fire. In the event that a
+valid target becomes available, the computer will plot the unit's
+fire (see section 6.41).
+
+Artillery Information Area
+The display for artillery units is very similar to that of the
+infantry unit described above. The only differences are in the
+lack of skirmishers (artillery may not put out skirmishers), in
+the addition of a display showing the number of guns remaining,
+and in the deletion of the objective direction. The objective
+information is deleted because artillery units are not subject to
+the same objective penalties as are infantry units.
+
+Cavalry Information Area
+The display for cavalry units is identical to that of infantry
+units. Note that in general, cavalry units will have more OP
+points than infantry and will usually be armed with only SBR
+(sabre) as opposed to MUS (musket). In addition, cavalry never
+have skirmishers.
+
+6.22 COMMAND MENU SECOND PAGE
+The space bar allows you to switch between the information area
+described above and a more detailed summary of a unit's status.
+Pressing the SPACE BAR after accessing FR 1/12/3 LN brings up the
+following screen:
+
+6.221 Infantry Command Menu Second Page
+
+FR 1/12/3                     #20  X,Y:6,10
+REG: COURTIER                 5    X,Y:6,10  (0)
+DIV:AULARD                    6    X,Y:7,12  (2)
+CORPS:EUGENE                  12   X,Y:5,9   (1)
+ARMY:NAPOLEON            15   NOT ON MAP
+OBJECTIVE: 14, 10 (3)         READINESS: 5
+MEN: 340                      FRONTLINE: NO
+SKIRMISHERS: 0                (IN) (0%)
+OPERATION POINTS: 11          FACING: 3
+COMMAND CONTROL: 24           AMMO: 7
+DISRUPTION LEVEL: 0           MORALE: 60
+EFFICIENCY: 60 (68)           FATIGUE: 0
+MELEE FACTOR: 4               MELEE: NO
+FORMATION: COL                ROAD MODE: NORMAL
+WEAPON: MUS                   NO PLOT
+ADVANCE: NO                   LEADER: COURTIER
+
+The first section (the first five lines) gives a summary of the
+command hierarchy for the unit. The first line gives the unit's
+name (FR 1/12/3), its unit # (20 - note that unit # is primarily
+for usage with the Editor), and the X, Y location that the unit
+currently occupies (6,10). The second line gives the next level
+of organization to which the unit belongs to (REG or regiment),
+the regimental commander's name (Courtier), Courtier's leadership
+bonus (5), the X, Y location that the regimental commander
+occupies currently (6,10), and the distance in squares to that
+leader (0). This information is then repeated for each of the
+next lines, until the Army commander is reached. This display may
+be less than five lines if the lowest level of organization is
+higher than battalion (as is the case in the Borodino and
+Waterloo scenarios).
+
+The next three sections (lines 6 through 17) give specific
+information about the unit. Although each item is explained in
+detail in the appropriate section, here is a brief summary:
+
+OBJECTIVE: 14, 10 (3): indicates that the objective for the unit
+is in square 14,10 and that objective is in direction (3) from
+the unit.
+
+READINESS: 5: displays the unit's Readiness level (see section
+8.4). This number ranges from 0 to 7, with a higher number being
+better.
+
+MEN: 340: shows how many men are left in the unit (minus
+casualties suffered this far into the game). Obviously, this
+number will tend to go down as the game goes on.
+
+FRONTLINE: NO: indicates that this unit is not a frontline unit
+(see section 6.341).
+
+SKIRMISHERS: 0: shows that this unit has no skirmisher. This will
+prevent it from putting skirmishers "out" (see section 6.35).
+
+(IN) (0%): In this case the first bracketed part tells us whether
+or not our skirmishers are deployed (see section 6.354), in which
+case this would read (OUT). The second part tells us the
+percentage of skirmishers out, in 25% increments.
+
+OPERATION POINTS: 11: The unit has 11 operation points remaining
+(see 6.31).
+
+FACING: 3: The unit is facing in direction 3.
+
+COMMAND CONTROL: 24: The unit's command control number (see
+section 9.0 for details).
+
+AMMO: 7: The unit has 7 shots of ammunition left.
+
+DISRUPTION LEVEL: 0: The unit has no Disruption. Disruption may
+be anywhere from level 0 to level 5 (see section 8.5).
+
+MORALE: 60: The unit's Morale is 60 (see section 8.2).
+
+EFFICIENCY: 60 (68): The unit is currently at an efficiency of 60
+out of a possible maximum of 68 for this unit. Given time to rest
+and recuperate, this unit will eventually go back to an
+efficiency of 68. Section 8.3 describes efficiency more
+thoroughly.
+
+FATIGUE:0 : The unit is fully rested. As the unit performs
+actions, Fatigue will go up as the unit tires. Fatigue goes down
+when the unit is allowed to rest (see section 8.1).
+
+MELEE FACTOR: 4: The relative melee ability of the unit. This
+scale goes from 1 to 9, with 1 being the lowest and 9 being the
+highest. As a general rule, the highest is 5, with higher values
+only being found on cavalry. Melee factor is explained in section
+7.3 and in section 15.
+
+MELEE: NO: The unit's melee flag is set to NO. This unit will not
+attempt to melee this units directly in front of it. If this flag
+is set to YES, the unit will try to melee the unit directly in
+front of it.
+
+FORMATION: COL: The unit is in column mode. The other modes are
+explained under section 8.3
+
+ROAD MODE: NORMAL: The unit is not in Road Mode. If this unit was
+in Road Mode, this display would read ROAD.
+
+WEAPON: MUS: The unit is equipped with Muskets. The complete list
+of weapons can be found in the Weapons Table (see table in
+section 20.5).
+
+NO PLOT: The unit has no fire plot. This means that the unit will
+not fire unless an enemy unit comes within range and arc of fire.
+See section 6.41 for more details.
+
+ADVANCE: NO: The unit is not plotted to advance after combat. If
+this flag is set to YES, the unit would advance into the square
+directly ahead of it, if left vacant by a retreating enemy unit,
+after the combat phase.
+
+LEADER: COURTIER: The unit has an attached leader, in this case
+COURTIER is his name. His position is indicated at the top of
+this page of information.
+
+6.222 Artillery Command Second Page
+This display is very similar to the Infantry Command Second Page,
+with a few exceptions. The main difference is in the lack of
+leader information at the top, due to the fact that artillery
+generally don't go into the normal command structure. In
+addition, the skirmisher information is missing because artillery
+cannot skirmish. Also missing are the Melee and Advance flags,
+because artillery may not do either voluntarily.
+
+6.223 Cavalry Command Second Page
+Again, this display is similar to that of the infantry, with the
+addition of a listing for whether or not the unit's CAV RETREAT
+flag is set to yes or no. This listing is added where the ROAD
+MODE listing used to be, as cavalry units my not enter road mode.
+
+6.3 Movement Orders
+
+Once a unit has been selected it may be moved using the movement
+keys (1-8 or 1-9, depending on the compass you chose). A unit's
+movement is restricted by a number of factors which includes
+terrain, the presence of enemy units, the formation the unit is
+in, the unit's objective, and the number of operation points it
+has.
+
+6.31 OPERATION POINTS
+Operation Points (OP points) represent, in effect, the speed at
+which a given unit can act. The more OP points a unit has, the
+more it can do. OP points are expended whenever a unit moves,
+fires, changes formation, changes facing, melees, or any of a
+number of other actions. The number of OP points that a unit
+receives is varied according to its Command Control (see section
+9.0) and its Operation Point Modifier (see section 15.0).
+Generally, the number of OP points a unit will receive is between
+8 and 15 OP points, although this can vary with the nationality
+of the unit (see section 15.0). OP points are received at the
+conclusion of each combat phase.
+
+6.32 MOVING A UNIT
+Units are moved by accessing them (place the cursor over them and
+hit the SPACE BAR) and then moving them in the desired direction
+through use of the movement compass. Movement expends OP points
+as per the Operation Costs Table (see section 20.15). Units may
+always move one square, at the cost of all remaining OP points
+(exception see section 6.33).
+
+Units may not enter certain types of terrain (as specified in the
+Operation Costs Table) and may not enter a square containing an
+enemy unit. Just moving next to enemy units incurs additional OP
+points costs, as specified in section 6.33.
+
+Involuntary movement of units may occur in other phases than the
+movement phase, such as advances after combat in the combat
+phase. The involuntary movements costs the unit no OP points.
+
+If, during movement of a unit, you decide that you have changed
+your mind and would like to take back the move you are making,
+then press the "Z" key and the move will be aborted. Units that
+cause hidden units to appear and then have their move aborted
+with the "Z" key will be charged 4 OP points for their
+"reconnaissance".
+
+Units may be restricted in their moves depending on the formation
+they are in. These restrictions are summarized in the Operation
+Costs Table (see section 20.15). They are also explained under
+section 6.35, Formations.
+
+Note specifically that movement may involve costs of Fatigue as
+well as OP points. Fatigue reduces the Morale of a unit and
+therefore moving units without rest for long distances can cause
+them to become tired and less powerful as fighting forces.
+
+6.33 ZONES OF CONTROL
+The eight squares surrounding each unit constitute its zone of
+control (ZOC). ZOCs affect movement costs as per the Operation
+Costs Table. In addition to the extra OP point costs for entering
+or leaving an enemy ZOC, units will suffer additional losses when
+forced to retreat into an enemy ZOC. This also applies to units
+that rout in an enemy ZOC.
+
+Movement of a friendly unit from one square of an enemy ZOC to
+another square of an enemy ZOC is not permitted, even if the
+friendly unit is only to move one square, unless the square that
+unit is moving into is already occupied by a friendly unit. There
+are various recovery penalties associated with being in an enemy
+ZOC (see section 8.0).
+
+6.34 STACKING
+There are a number of restriction to the number of men that may
+occupy a given square at a given time. This limit is 1800
+infantrymen or 1200 cavalrymen in a single square. These men may
+be of different units, so the limitation is not on the number of
+units but purely on the number of men. The number of men limit is
+halved when the square in question is a woods or town square.
+Artillery units count as a number of men equal to 50 times the
+number of guns in the unit. Therefore, an artillery unit with 6
+guns counts as 300 infantrymen/cavalrymen for stacking purposes.
+
+Units may temporarily overstack during the movement of a given
+unit, but the unit being moved may not end its move overstacked.
+If it attempts to, a message will appear informing you that the
+only available option is to continue movement or to abort the
+move.
+
+Cavalry may not stack with infantry. Artillery may stack with
+either infantry or cavalry.
+
+During normal movement, routed units may not stack with another
+unit. A routed unit may only stack with another unit during the
+retreat movement.
+
+6.341 Frontline Status
+Frontline status represents the fact that only one infantry unit
+may actually occupy the "front" of a square while other units may
+be behind the front unit but still in the square. This is
+represented by the unit's frontline status. Frontline status is a
+toggle that is changed by pressing the "R" key. Only one infantry
+unit in a square my be the "frontline" unit and have its FL:
+toggle read Y. All other units are automatically FL:N (see the
+Command Menu Information Area description in section 6.212). The
+non-frontline units in a square may contribute to melee combat,
+but may not fire. If several units in a square have their FL
+toggle read Y when you return to the Cursor Menu, all but the
+first unit in a square will have their toggle change to N. If no
+units in a square have their toggle set to Y, when you return to
+the Cursor Menu, the first unit will have its toggle set to Y.
+
+Cavalry units are special in regards to the fact that multiple
+cavalry units within a square may have their frontline toggle set
+to Y.
+
+All artillery units within a square may be frontline. This is in
+addition to the one infantry unit. Thus, one infantry unit AND
+any cavalry units may be frontline within a given square.
+
+Units that are non-frontline may not fire during the fire phases.
+
+6.35 FORMATIONS
+Formations represent the way that the infantry, cavalry, or
+artillery unit is deployed within a square. Different formations
+have different effects and are a very important part of the game.
+You change the formation of units during the Operation Phase by
+pressing the "S" key. A list of the available formations will
+then appear at the bottom of the information area and allow you
+to select the desire formation. if the same formation that the
+unit is currently in is selected again, the unit will simply
+ignore the command and no OP points cost will be assessed. When a
+unit changes formation, it pays a cost as per the Operation Costs
+Table (see section 20.15). Note that the different formations
+have different graphic shapes to represent them.
+
+6.351 Infantry Formation
+Infantry can adopt four formations and one mode, each with its
+own effects, strengths, and weaknesses. They are:
+
+Line Formation: This gives infantry its greatest firepower with
+reduced movement. Line is the formation to use to bring fire on
+an enemy.
+
+Column Formation: This formation allows much greater mobility
+than line formation because the infantry is marching in a tight,
+easily controlled column. Units in column are very powerful in
+melee but suffer higher casualties from fire and are less
+powerful in fire combat.
+
+Square Formation: Square was a formation developed specifically
+to protect units from cavalry melee attacks. Units in square have
+no mobility and may see in all directions. They cannot be flanked
+and suffer greatly from fire combat. They are vulnerable, in
+fact, to virtually everything but melee attacks. However, they
+are very resistant to cavalry changes. Units will spontaneously
+attempt to form square when charged by cavalry.
+
+Open Formation: This represents a "spread-out" formation that
+permits units to move through and deploy in woods and towns.
+Units in open formation suffer greatly from melee attacks but are
+the most resistant to fire combat. However, they are incapable of
+powerful return fire. This is primarily a defensive formation
+used when approaching an enemy while under heavy fire.
+
+Road Mode: This is a special type of formation that is not
+reached with the "S" key. A unit may only enter or leave road
+mode at the beginning of its movement phase. To enter or leave
+road mode, press the "G" key. An infantry unit may only enter
+road mode if it is not within four squares of an enemy unit. Road
+mode allows a unit to move very swiftly using roads. However,
+units in road mode are VERY vulnerable to fire combat. They are
+automatically treated as if they are in column formation and take
+DOUBLE casualties from fire combat.
+
+6.352 Artillery Formations
+Artillery can also adopt one of three different formations. They
+are:
+
+Limbered Formation: This is the formation that artillery units
+must adopt in order to move. An artillery unit in limbered
+formation may not fire.
+
+Unlimbered Formation: This is the opposite of limbered formation,
+and when an artillery unit is unlimbered, it may fire but may not
+move. Unlimbered artillery may change facing (see section 6.36)
+and are therefore not required to limber, turn, and then
+unlimber.
+
+Open Formation: This formation is much like the infantry
+counterpart. It is the same as unlimbered, except that the guns
+are deployed in a "spread-out" fashion. This is required if the
+unit is to deploy in woods or town, and will cause the unit to
+inflict fewer casualties (however, the unit will suffer fewer as
+well).
+
+Note specifically that artillery units can also adopt "road mode"
+as described above, with similar results and effects.
+
+6.353 Cavalry Formations
+Cavalry units also have five different formations they can adopt:
+
+Charge Formation: This formation permits the cavalry to execute a
+charge. It is a special formation that combines movement and
+melee into a single action. When a cavalry unit adopts charge
+formation, it is immediately prompted to select a target square
+for the charge. The menu that is presented is much like the fire
+menu (see section 6.41) and allows you to view the area which you
+may target, to select a target square, or to exit the menu. Units
+in charge formation may not move, except during the cavalry
+charge sub-phase of the combat phase, at which time they will
+move automatically. See section 6.43 for more details on charges.
+
+Counter-charge Formation: This formation is identical to charge
+formation in that after a cavalry unit adopts it, it may not move
+until it changes back to normal, open, or dismounted formation.
+Once you place a unit into  counter-charge formation, it will
+wait until an enemy cavalry unit in the midst of a charge comes
+within 6 squares and in LOS of your counter-charger. At that
+point, your unit will have to pass a charge test (see section
+6.43) and, upon passing it, you will be prompted as to whether
+you would like your unit in counter-charge. If you answer yes,
+your unit will charge towards the charging enemy cavalry. This
+charge operates in the same way as a normal charge, right down to
+having your counter-charging cavalry unit forcing enemy infantry
+units to form square or retreat (See section 6.43).
+
+Normal Formation: This represents the normal movement mode of
+cavalry. The only cavalry units that may fire while mounted are
+units armed with carbines (CRB) (see 20.5). These units fire
+under normal fire rules (see 7.3) and may only fire while in
+Normal or Open formation.
+
+Open Formation: Open formation permits cavalry to move though
+woods and towns and represents the unit being spread-out over the
+square. Units in open formation are less powerful in melee combat
+but are more resistant to fire combat. The only cavalry units
+that may fire while mounted are units armed with carbines (CRB)
+(see 20.5). These units fire under normal fire rules (see 7.3)
+and may only fire while in Normal or Open formation.
+
+Dismounted Formation: This formation will only be offered to
+cavalry that is armed with other than sabres (see chart 20.5),
+allowing them to dismount and fight as infantry. Only units so
+armed may dismount. Once a unit dismounts, it is treated just
+like an infantry unit in line formation. Note that dismounted
+cavalry may not form square or column, nor may they enter road
+mode.
+
+6.354 Skirmishers
+Skirmishers were troops that would operate ahead of infantry
+units, screening the main units from enemy fire. They were light
+troops that operated in a sort of loose line and attempted to
+engage enemy units with harassing fire. Of course, the more
+skirmishers that there were, the more dangerous was this
+"harassing fire." The main purpose of this fire was to cause
+confusion in the enemy ranks as the enemy tried to deploy into a
+combat formation. The only effective counter for these groups of
+light troops is skirmishers to engage the skirmishers.
+
+In game terms, skirmishers, when deployed, reduce the casualties
+suffered by an advancing formation. They also provide very
+effective fire against an enemy unit. They are deployed by
+pressing the "K" key with a unit selected. This will also toggle
+the Skirmishers IN/OUT flag on the Infantry Command Menu Second
+Page (see section 6.221 above). This action costs 1 OP point and
+cannot be accomplished if the unit in question has no skirmishers
+or is in an enemy ZOC. Skirmishers that are deployed come from
+the unit, they are not extra men (see the example below). Once
+skirmishers are deployed, the % OUT flag can be changed, in
+increments of 25%, by pressing the "H" key. This % represents the
+percentage deployed of the maximum number of skirmishers the unit
+could deploy. Example: A French infantry unit with 600 men is
+listed as having 100 skirmishers. This means that the unit has a
+total of 600 men, of which 100 can skirmish. If the unit deploys
+50% skirmishers out, that means that there are 50 skirmishers
+deployed and 550 men in the main unit.
+
+Skirmishers are very vulnerable to melee, and will therefore
+automatically recombine back into the main unit in the event of
+melee combat. In addition, any unit that is comprised completely
+of skirmish infantry (i.e., a unit that has an equal number of
+men to skirmishers and has 100% skirmishers OUT) will
+automatically retreat if charged by cavalry (see section 6.4) or
+if they are not deployed in woods, town, or redoubt terrain and
+they are meleed by enemy infantry.
+
+All casualties taken in fire combat by a unit with skirmishers
+deployed will be taken most by the skirmishers. This means that
+skirmishers, although very resistant to enemy fire, will wear out
+quickly. Units that are victims of a cavalry charge that do not
+retreat or form square will take heavy casualties to their
+skirmishers.
+
+As a general rule, the only reason to operate a line infantry
+unit (one with only a portion of its men capable of skirmishing)
+with only 25,50, or 75% skirmishers out is to save some of them
+for later in the battle. Once a unit loses its skirmishers, it
+will be much more vulnerable to fire combat, especially from
+enemy units with skirmishers.
+
+Following any combat phase, all units currently in an enemy ZOC
+will pull all of their skirmishers back in and will have their
+skirmisher out flag reset to N. The only exception to this is a
+unit in woods, town, or swamp.
+
+6.36 FACING
+Every unit has a specific facing that indicates the direction the
+men in the unit are pointed. Infantry units in square formation
+have no specific facing, as they face in all directions. They can
+see in all directions and cannot be attacked in the flank. All
+other formations have a specific direction in which they face and
+can "see". Facing can be changed by pressing the "D" from the
+Command Menu. Changing facing costs 1 OP point.
+
+All units with a specific facing can "see" in a 90ø angle. This
+angle extends from the center of a unit's square in the direction
+it is facing and determines a unit's Line of Sight (LOS). LOS
+controls what squares a unit may shoot at and is affected by
+facing, terrain, and the presence of units (fiendly or enemy).
+
+Facing also affects combat. It a unit is attacked from a square
+that is not in its front 90ø angle of fire, it is being attacked
+in a flank. A unit that is flanked will suffer additional
+casualties in fire and melee combat. In addition, units may not
+fire from their flanks. Units in a redoubt cannot be flanked.
+
+All units in a square must have the same facing. Because of this,
+when a unit is selected out of a stack of units and its facing is
+changed, all units in the stack are turned as well. Only the
+selected unit must pay the OP point cost for turning.
+
+6.37 FORCED MARCHING
+This is an option that allows you to increase the number of OP
+points available to a unit. You may force march a unit by
+pressing the "X" key. This increases the number of OP points
+available to the unit at a cost of 6 Fatigue per extra OP point.
+Extremely tired units and routed units may not use forced march.
+In addition, units may not use this option they have more than 40
+Fatigue. Units may gain a Disruption level from using force march
+(see 8.5).
+
+6.38 TERRAIN
+Virtually every facet of the game is affected in some way by
+terrain. Terrain can block LOS, give combat benefits to units
+occupying certain types of terrain, and will vary the number of
+OP points required to move a unit. See the tables in section 20
+for further information on terrain effects.
+
+6.4 Fire and Melee Orders
+
+The object of the game is to cause casualties to enemy units to
+force them to run away, allowing your forces to hold certain map
+objectives. Casualties are caused by one of two methods: firing
+at enemy units with your units and meleeing enemy units with your
+units. Because of the level of detail shown in this game, you are
+able to give individual orders to your units, telling them which
+enemy units to shoot at and which ones to melee. You may even
+tell your units not to fire until the enemy is at point blank
+range. However, you are not forced to do this. If you give your
+units no orders at all, they will fire at targets that they
+themselves choose, assuming that they have the OP points
+required. Units must have 1 OP point remaining at the end of the
+Operation Phase to be able to fire. They must have an additional
+2 OP points remaining if they wish to melee as well. Note that
+artillery must have 4 OP points to fire.
+
+In order to give specific fire orders to a friendly unit, press
+the "F" key while in the Command Menu and the Fire Menu will
+appear.
+
+Artillery units that are ordered to fire at a specific target may
+retarget to a different target if there is a closer one
+available. This is to simulate that artillery commanders would
+usually fire at advancing enemy troops that are close before they
+would even consider long-range bombardment. Artillery units will
+also not fire at long range unless specifically ordered to do so
+(with fire orders).
+
+6.41 FIRE MENU
+When in the Fire Menu, several options will be available:
+
+(V) = Allows you to illuminate all square within the LOS and
+firing range of the unit and its weapons. This is useful for
+figuring out which enemy units can be seen by the unit and which
+squares the unit cannot see because of terrain or other
+restrictions.
+
+(T) = Gives a specific target to a unit. If the targeted unit is
+not in your unit's LOS, you will get a message to that effect.
+When this key is pressed over a legitimate target square, the
+unit will change its fire plot on the Command Menu Information
+Area to read the X,Y coordinates of the square you just selected.
+Note that it is possible to target a square that is currently
+empty in order to cover a specific location. If, in the enemy's
+subsequent Operation Phase, the enemy moves a unit into that
+square, it will automatically be targeted by your unit.
+
+(E) = Returns you to the Command Menu with a NO PLOT reading in
+your fire section of the Command Menu Information Area.
+
+(N) = Used to order your unit to hold its fire until the last
+possible moment. It is primarily used to prevent your units from
+firing, and thus tiring themselves and expending ammunition,
+until an enemy unit is adjacent to your unit. Selecting this
+option will put a NO FIRE reading in the unit's fire section. You
+cannot prevent a unit with ammunition from firing in its own
+defense if an enemy unit is adjacent to your unit. Therefore, the
+NO FIRE option will be ignored if a unit has an enemy target
+adjacent to it.
+
+6.42 MELEE AND ADVANCE TOGGLES
+Units can set the melee flag to Y by pressing the "m" key from
+the Command Menu. This orders the unit to melee any enemy units
+in the square directly in front of it during the combat phase.
+Changing the toggle costs no OP points, but the unit must have 1
+OP point available after fire combat in order to initiate a
+melee. See section 7.3 for more information on melee combat and
+its effects. Pressing the "M" key again will change the melee
+toggle back to off.
+
+The advance flag is also a toggle and can be changed to "Y" by
+pressing the "A" key from the Command Menu. This orders the unit
+to advance into the square directly in front of it, if its
+vacant, after the combat phase. It costs the unit no OP points or
+Fatigue to advance after combat. A second press of the "A" key
+will change the advance flag back to N.
+
+6.43 CAVALRY CHARGES
+Cavalry charges are a special attack form that combine movement
+and melee. In order for a cavalry unit to execute a charge, it
+must be in charge mode, must have selected a target, and must
+pass a charge test (see section 6.435). In addition, the cavalry
+unit must have a Disruption level of 3 or less (see section 8.5),
+must have at least 6 OP points remaining after entering charge
+formation, and must have a Morale of at least 25 (see section
+8.2).
+
+A cavalry charge is initiated by changing the cavalry unit's
+formation to charge formation. You will then be presented with a
+charge menu. Selecting the "V" key will inverse all of the
+squares that the cavalry unit could charge. Note that a cavalry
+unit does not need to see the square it is charging in order to
+charge it. Once in this menu, you move the cursor, using the
+movement compass, and then press the "T" key over the square that
+you wish for the cavalry unit to charge. This will initiate a
+cavalry charge against that square. You don't actually give
+cavalry orders to charge a specific unit, just specific squares.
+The cavalry unit will then melee the first unit it contacts on
+its way to the square you targeted. If it reaches the square
+without hitting any enemy troops, it will stop.
+
+Cavalry that pass their charge test will charge directly towards
+their selected target square moving in as straight a line as
+possible while avoiding movement through any friendly infantry or
+artillery units.
+
+When a charging cavalry unit enters an enemy ZOC, it will stop.
+At this time, a number of checks are performed. The cavalry unit
+may do a number of things including overrunning the unit it has
+just contacted, causing casualties to both the target unit and
+the cavalry unit and forcing the enemy unit to retreat. If this
+happens, the cavalry unit will gain 4 Fatigue and a Disruption
+level and then may proceed with its charge, possibly on to
+another unit. Another possible charge contact result is that the
+enemy unit may stand and the cavalry unit will attempt to melee
+the enemy unit rather than running through it to contact another
+unit. If this happens, the charge will stop and melee will occur
+in the melee phase.
+
+Cavalry units gain 2 Fatigue for each square entered during a
+charge. This is in addition to any Fatigue gained for overrunning
+or meleeing enemy units.
+
+Cavalry may not melee units that are in town, woods, redoubt, or
+sunken road. If they move adjacent to a unit in such terrain
+during a charge, the cavalry unit will stop and will not be able
+to melee that unit. In addition, units in such terrain are not
+forced to check for forming square in the face of a cavalry
+charge.
+
+6.431 Counter-Charges
+Cavalry which is set to counter-charge will move to engage any
+charging enemy cavalry within 6 squares that is within its LOS.
+Counter-charging cavalry units must pass the same charge test as
+charging cavalry and will suffer the same charge penalties and
+benefits as do normal charging cavalry.
+
+6.432 Infantry Charge Reaction Tests
+Infantry, when faced with charging cavalry units, would generally
+try to change to the square formation, or "form square" as it was
+called. The infantry units will make a "square test" whenever any
+charging enemy cavalry comes within 2 squares (one square if the
+infantry unit has an enemy unit adjacent to it) of the infantry
+unit. There are tree possible results of this test.
+
+The first possibility is that the unit will form square and stand
+to receive the cavalry charge. Cavalry generally fare poorly when
+attacking a square and will almost never succeed in seriously
+hurting the infantry in square. This is, after all, why the
+infantry try to form square.
+
+Another possibility is that the infantry unit will stand, in
+whatever formation they are currently in, to receive the charge.
+This is less desirable, but infinitely better than the third
+result.
+
+The last possible reaction is one of utter panic. The infantry
+unit may, if it feels that it can't form square in time, simply
+flee from the cavalry. The unit will the retreat two squares,
+gain several levels of Disruption, and generally try to avoid the
+charging cavalry. They may also not test again that turn, which
+means that if the cavalry charge carries into them, they will
+automatically get overrun, usually resulting in a rout.
+
+Infantry that is already in square formation or in certain
+terrain types (see section 6.43) is exempted from this reaction
+test. In addition, infantry composed entirely of skirmishers or
+units in open order will automatically flee from the charging
+cavalry.
+
+6.433 Advancing Cavalry
+Cavalry that ends its charge next to an enemy unit will try to
+melee that unit. If, in its melee, it forces the unit to retreat,
+it may elect to advance after combat. British cavalry that wins a
+melee will ALWAYS advance into the now vacant square. Non-British
+cavalry have a 20% chance of advancing after winning a melee.
+Cavalry that fails to win a melee or fails to advance after
+winning a melee will retreat from 3 to 5 squares and will change
+to open formation. In addition to the above retreat, cavalry that
+fails to advance will change its cavalry Auto-Retreat Toggle to
+"yes" (see 6.434).
+
+6.434 Cavalry Auto-Retreat Toggle
+Cavalry may be ordered to retreat before melee or if fired upon
+by enemy units. This is done by selecting the "G" key from the
+Command Menu. Cavalry so ordered my still charge, but will not
+melee any enemy units. They will simply charge to create
+confusion before retreating again. This represents a harassing
+attack. They will also retreat if fired upon by enemy infantry
+units. This represents that units in this mode are unwilling to
+engage enemy troops as they are just trying to harass the enemy,
+not fight them.
+
+6.435 Cavalry Charge Tests
+Cavalry that is ordered to charge must not only have the required
+OP points and morale, but must also pass a morale test as per the
+chart in 20.14. If the cavalry unit passes this test, it will
+execute the charge as per 6.43. If the cavalry unit fails the
+morale test, it will gain 1 disruption level and will revert to
+normal formation.
+
+6.436 Artillery Charge Reaction Tests
+Artillery units that are charged by enemy cavalry will react,
+based on a number of factors. Artillery can react by retreating
+before the cavalry charge them, staying and firing until the last
+minute, or panicking and getting overrun by the charging cavalry.
+
+If the artillery unit being charged is in limbered formation, it
+will automatically retreat 2 squares if charged by enemy cavalry
+and will stay in limbered formation. This will occur regardless
+of whether the unit is stacked with friendly infantry or not.
+Even if the friendly infantry that is in square formation (and
+thus invulnerable to cavalry charges), the artillery won't fit
+inside the square and will therefore run away. Artillery in
+limbered formation that retreat from a cavalry charge may gain
+disruption.
+
+Artillery that is unlimbered and stacked with an infantry unit
+that is in square formation does not have to take a morale test
+and will stay in formation and will even fire as long as enemy
+units are not adjacent. Once an enemy unit comes adjacent to the
+infantry square that the artillery unit is hiding in, the gunners
+leave their guns and run inside the protection of the infantry
+square, preventing them from firing.
+
+If an artillery unit is unlimbered and is stacked with an
+infantry unit that does not form square in the face of the
+charge, the artillery unit will take a morale test (see 8.2).
+Upon passing this test, the unit will stay and will fire during
+the appropriate phase. The artillery can still be meleed by any
+cavalry that survive the point-blank cannon barrage, but the
+artillery unit will probably have a good chance of survival
+against small number of enemy cavalry.
+
+An unlimbered artillery unit that fails the morale test will do
+one of two things depending on whether it began the cavalry
+charge phase stacked with an infantry unit. If the artillery unit
+was alone, it will be over-run by the charging cavalry unit. This
+is generally catastrophic as the artillery unit goes to 0 ammo,
+20 effectiveness, and gains both fatigue and disruption levels.
+This will usually take the unit out of action for a long time.
+If, however, the artillery unit was stacked with friendly
+infantry and failed the morale test, then the artillery unit will
+go to limbered formation and retreat 2 squares. The unit will
+gain disruption from this retreat.
+
+
+7.0 COMBAT PHASE
+
+The combat phase is where all combat takes place, all casualties
+are inflicted, and all combat results are implemented. The combat
+phase is broken down in a specific sequence:
+ù Cavalry Charge Phase
+ù Mixed Artillery Fire Phase
+ù Mixed Fire Phase
+ù Cavalry Charge Melee Phase
+ù Melee Phase
+ù Retreat Phase/Advance Phase
+
+Within each of these phases, all of the actual combat in the game
+occurs. Casualties are inflicted during the fire and melee phases
+based on a number of factors (see the Combat Tables in section
+20.5 and 20.6). Casualties inflicted are measured in number of
+enemy men that are killed, wounded, or otherwise taken out of the
+battle. These are displayed during the fire phases a number of
+"men lost". Units are eliminated when their number of men drops
+below a certain point (usually 20). In addition to the number of
+men lost, artillery fire can destroy enemy guns. If this happens,
+a "# guns lost" message will appear.
+
+Each shot that a unit takes reduces its ammunition supply by one
+(see section 10.1).
+
+7.1 Cavalry Charge Phase
+
+This is the phase in which all cavalry charges are executed, all
+counter-charges are executed, and all infantry reaction tests are
+made. See section 6.43 for more information on cavalry charges.
+
+7.2 Artillery Fire Phase
+
+Artillery fire is resolved in this phase. Artillery units plotted
+to fire on enemy units will do so, artillery units with NO PLOT
+will select targets and fire at them. Artillery units with NO
+FIRE plots will choose targets that are adjacent to them (if
+there are any) and fire at them. The order in which artillery
+fire is based on where the units are on the map and their unit
+number.
+
+There are some special restrictions on artillery fire. Artillery
+will not fire at enemy units at a range greater than 7 unless
+specifically ordered to. This is to simulate the fact that
+historically, artillery Batteries had very limited amounts of
+ammunition and long-range bombardment fire was of limited
+effectiveness. Therefore, you must order artillery to fire at the
+longer ranges, or they will not fire.
+
+Artillery will also automatically retarget if ordered to fire at
+an enemy at a range greater than 3 if there are enemy units
+closer to the firing artillery unit by 3 squares. This is again
+because the commander of the artillery Battery would not ignore
+enemy units at such close range. To do so would be virtual
+suicide in many circumstances.
+
+Artillery units must have 4 OP points available in the Combat
+Phase in order to fire. Note also that artillery suffer more
+Fatigue from firing than do infantry.
+
+Artillery that are unlimbered and stacked with friendly infantry
+in square formation will be allowed to fire as long as no enemy
+units are adjacent. When an enemy unit moves adjacent to such a
+formation, the artillery stops firing as the gunners are assumed
+to be hiding within the protection of the infantry squares.
+
+7.3 Fire Phase
+
+It is in this phase that the infantry units and dismounted
+cavalry of each side fire their muskets and rifles at each other
+in an effort to cause enough casualties to force the enemy troops
+to lose Morale and organization until they finally melt away and
+retreat or rout from the battle field. It is in this phase, and
+the melee phase, that the battle is usually decided.
+
+As in the Artillery Fire Phase, the order in which units fire is
+determined by Readiness level (see section 8.4) and by random
+factor. Firing units must have 1 OP point available during the
+Combat Phase in order to fire.
+
+7.4 Melee Phase
+
+Melee is a form of combat where large formations of men, with
+bayonets (long blades attached to the ends of their muskets and
+rifles) and sabres engage in hand-to-hand combat and extremely
+close range fire combat with enemy formations. It is usually very
+lethal and yields huge casualties, even for the attacker. The
+primary factor in melee combat is the number of men on each side.
+Obviously, if one side has five times as many men as the other,
+then that side is likely to win the melee. As with fire combat,
+there are many modifiers that affect the combat result (see the
+Melee Modifier chart in section 20.6).
+
+Cavalry melee occurs before infantry melee and is just as lethal.
+Cavalry units usually have very high melee factors and can often
+destroy entire enemy units when they attack "en masse". Cavalry
+melee is resolved first because even if friendly infantry wanted
+to involve themselves in a melee with friendly cavalry, it is
+just too dangerous. Therefore, if an enemy unit is targeted for
+melee by both friendly cavalry and friendly infantry, the cavalry
+attack will go first and then the infantry attack will go,
+assuming that there are any defenders remaining.
+
+Units that are forced to retreat during the Artillery fire Phase
+cannot be attacked during the Melee Phase.
+
+Remember that a unit must have two OP points remaining, above and
+beyond the OP point required to fire, in order to melee an enemy
+unit.
+
+Artillery units may never initiate a melee. When they are
+defending against melee and they are limbered, they defend at a
+reduced strength.
+
+7.5 Fire Effects
+
+When a unit takes casualties, it may lose Efficiency. This has
+the result of a lowering of Morale. In addition to the Efficiency
+and Morale loss, a unit may also gain Disruption levels. The more
+casualties a unit takes, the higher the amount of Efficiency lost
+and Disruption gained. When Disruption reaches a certain level,
+the unit may retreat or even rout.
+
+7.51 RETREAT
+When a defending unit retreats, as either a result of fire combat
+or melee combat, it moves 3 squares in a direction generally away
+from the enemy (attackers retreat only 1 square). The act of
+retreating will cause the unit to lose Efficiency. Retreat is not
+voluntary. Units that are forced to retreat will also take
+additional casualties if the unit is forced to retreat through an
+enemy ZOC.
+
+If a retreating unit retreats through a friendly unit, or even a
+square adjacent to a friendly unit, it is possible to cause that
+friendly unit to gain a Disruption Level and/or lose Efficiency.
+If this Disruption Level causes that unit to go up to three or
+more Disruption Levels, then that unit may also be forced to
+retreat. This can cause a "zipper" effect where a few retreating
+units can cause other units to retreat with them, even though
+those other units may not have had a single shot fired at them.
+This has a pronounced effect on the battle and forces players of
+this game to move heavily disrupted units further to the rear to
+rest lest they become routed by other units running away.
+
+Units that are within three squares of an enemy unit will always
+retreat straight back, even through friendly forces. Once past
+the three square limit, retreating units will attempt to avoid
+running over friendly units, when possible. In addition, when a
+unit reaches a range of three squares from enemy units, their
+retreat will no longer cause friendly units to disrupt or lose
+Efficiency.
+
+Units in redoubts are immune to the above effects of having
+friendly units retreat through/by them. In addition, units in
+redoubts will not retreat unless routed.
+
+A cavalry unit which ends its turn in an enemy ZOC and is not in
+charge or counter-charge mode will automatically retreat.
+
+In determining which units retreat first and which units advance
+first, the order is based on whether it is the Allied turn or the
+French turn. The Allied units retreat first if it is the French
+turn, and vice versa. Thus, defending units usually are forced to
+retreat first.
+
+7.52 ROUT
+Routing is the state a unit is in when everyone in the unit is
+running for his life. The unit has no formation or cohesion and
+is simply trying to get out of the battle. Units rout when they
+reach Disruption level 5 (note that artillery never routs, it
+just retreats).
+
+Routed units will retreat seven squares during the phase in which
+they rout, and will continue to rout 2 additional squares each
+succeeding combat phase until they rally. In addition, all units
+that were in the same square as the routing unit lose Efficiency
+when the unit routs (see 7.51).
+
+Units that are routing will follow the same retreating path as
+they would if they were retreated and with the same rules. This
+means that they will not even attempt to avoid friendly units
+until they are 3 squares from the enemy.
+
+Routed units may not fire and are virtually helpless in melee
+combat. A routed unit which is attacked will rout again,
+retreating seven additional squares.
+
+Units which rout while in an enemy ZOC will lose a number of
+casualties to capture.
+
+7.53 ADVANCE
+Units which caused an enemy unit to retreat will advance into the
+vacated square if their advance flag was set to Y. See 6.433 for
+advancing rules on cavalry.
+
+The phasing player's units advance first during the advance
+phase. This means that during the French turn, the French units
+will advance first. This is directly opposite of the retreat
+order (see 7.51).
+
+
+8.0 DISRUPTION, READINESS, MORALE, FATIGUE, AND EFFICIENCY
+
+8.1 Fatigue
+
+A units Fatigue rating is an indication of how tired it is.
+Fatigue directly affects combat, as is seen in the Fire/Melee
+Strength Modifier Table (see section 20.6). Fatigue is gained by
+moving, firing, meleeing, and several other actions, as are
+summarized in the Fatigue Table (see section 20.9).
+
+Fatigue is lost by having unused OP points left after the combat
+phase. Each two OP point remaining reduces Fatigue by two point
+(except if the unit in question is in the enemy ZOC, in which
+case no Fatigue is recovered).
+
+Since Fatigue is one of the two factors that determine a unit's
+Morale, and thus its susceptibility to retreat and rout, it is
+very important to let units that are very tired rest whenever
+possible. Tired units will not fight as well as may rout when you
+can least afford it.
+One special note about Fatigue is that artillery units that are
+extremely tired (more than 20 Fatigue) have a 50% chance of
+receiving no ammo resupply during the ammo phase. This is to
+represent that ammunition became a major factor during long
+bombardments. Players must remember to have their tired artillery
+cease firing until their ammunition levels can be replenished and
+their Fatigue can be reduced.
+
+8.2 Morale
+
+A unit's Morale is equal to its Efficiency minus its Fatigue.
+Morale directly affects how quickly a routed unit will rally, and
+how much Disruption a unit gains from being subjected to fire and
+melee combat. Since Morale is calculated from Efficiency and
+Fatigue, resting a unit will quickly allow it to regain its
+Morale.
+
+During the play of a game, a unit will often be called upon to
+take a "Morale test". this test is take when the unit in question
+uses forced marching (see section 6.37), when a unit enters a
+difficult terrain type (town, woods, or stream) while not using a
+road, when stacking, when leaving an enemy ZOC, when changing
+formation to either line or column while in an enemy ZOC, when a
+unit takes at least 3% casualties from an enemy unit's fire, when
+friendly units retreat past (within 1 square) the unit in
+question (see 7.51), and when enemy cavalry charge a friendly
+infantry unit that is not in square (see section 6.432). The
+severity of the test varies as per the severity of the situation.
+
+Failing a "Morale test" will cause a unit to gain Disruption,
+anywhere from 1 to 5 levels, depending on the event.
+
+There are special restrictions on units with Morale levels of 29
+or less, preventing those units from entering an enemy ZOC or
+from meleeing adjacent enemy units.
+
+8.3 Efficiency
+
+Efficiency is a measure of a unit's training, skill, and
+durability in combat. It directly affects how well a unit
+performs in fire combat and melee combat, as well as determining
+a unit's Morale and resistance to casualties. As a unit take
+casualties, its Efficiency drops. Efficiency is regained by
+having had OP points left during the turn, just like Fatigue.
+During the recovery phase, units regain this Efficiency.
+
+Another way to get Efficiency back is to force enemy units to
+retreat or rout. A unit can gain 6 Efficiency points by causing
+an enemy unit to retreat by fire combat or melee combat, and 12
+Efficiency points are gained by forcing an enemy unit to rout.
+This represents the tremendous boost to a unit's spirit and
+fighting will that can be gained by watching an enemy formation
+retreat or flee from an attack.
+
+Efficiency may never exceed the maximum Efficiency listed in the
+Command Menu Information Area.
+
+8.4 Readiness
+
+Readiness represents a unit's level of preparedness for fighting.
+This number ranges from 0 to 7, with 7 representing the highest
+possible level of preparedness. Units gain one Readiness level
+before each Operation Phase. Units may lose Readiness by moving,
+with a chance of losing one level each time the unit moves a
+square, down to a minimum of 3. Lower levels of Readiness can
+only be achieved through changing of an objective during the
+objective phase (see section 5.0).
+
+The Readiness level of units directly affects their combat
+strength, as per the Fire/Melee Strength Modifiers Table (see
+section 20.6). This factor is applied to both melee and fire
+combat.
+
+The amount of Readiness lost when changing an objective is based
+on the leader bonus of the commander of the unit in question. The
+amount of Readiness lost can be between 2 and 4 levels.
+
+8.5 Disruption
+
+Disruption represents unit cohesiveness. In general, units in the
+Napoleonic Era operated as units, with each individual performing
+a specified task in a specified way. When the individuals became
+disorganized, due to casualties, movement, or fear, the unit
+quickly suffered.
+
+Whenever a unit takes a Morale test from enemy fire (i.e., a unit
+suffers 3% or more losses in a single enemy shot), that unit may
+suffer from 0 to 3 levels of Disruption, modified by the unit's
+formation and nationality (see Disruption Table 20.11). Units
+that have Disruption levels of greater than one will be
+restricted in the following manner:
+
+Level 1 Disruption:
+Unit suffers a 90% fire modifier
+
+Level 2 Disruption:
+Unit suffers a 80% fire modifier
+
+Level 3 Disruption:
+Unit suffers a 70% fire modifier, may not enter an enemy ZOC, and
+may not melee adjacent enemy units
+
+Level 4 Disruption:
+Unit suffers a 60% fire modifier, may not enter an enemy ZOC,
+will automatically retreat if fired upon, and may not melee
+adjacent enemy units
+
+Level 5 Disruption:
+Unit suffers a 50% fire modifier, may not enter an enemy ZOC,
+will automatically rout, if fired upon, may not melee adjacent
+enemy units, and may not stack with friendly units
+
+Units that move into difficult terrain (including town, swamp,
+and woods) may gain a Disruption level. In addition, units can
+gain a Disruption level from stacking with a friendly unit or
+from leaving an enemy ZOC (see section 7.5 for the effects of
+rout and retreat on Disruption). Units that take more than 14%
+losses in a single enemy shot will automatically go to 5 levels
+of Disruption.
+
+
+9.0 COMMAND CONTROL
+
+Command Control in The Battles of Napoleon represents a number of
+factors, such as quality of leadership and speed at which orders
+were received and carried out, which heavily influence several
+factors on each unit. Everything from fire and melee strengths to
+the number of operations points received are influenced by
+Command Control. For this reason, it is important that you
+understand how Command Control works and how to maximize your
+Command Control ratings.
+
+The primary sources for Command Control are the leaders on each
+side. The closer a unit is to its leader, the better the Command
+Control rating will be. This means that spreading your forces out
+without regard to placement of leaders is unwise and will often
+mean the difference between victory and defeat. As a general
+rule, higher level commanders should be placed in the middle of
+their commands, so as to give the greatest benefit to the largest
+number of units.
+
+9.1 Leaders
+
+All units in The Battles of Napoleon, with the exception of
+artillery, are under the command of leaders. Leaders represent
+the individuals who historically commanded the forces at
+historical Battles. In random scenarios, the names of the leaders
+are real while their positions are random. Leaders are always
+attached to a specific unit and provide a number of bonuses to
+that unit for being there. No unit may have more than one leader
+at a time, nor may a leader ever not be attached to a unit.
+
+Leaders have a rating that varies between 0 and 15. This rating
+has a number of uses, ranging from direct combat bonuses to
+Command Control bonuses. As a general rule, leaders with a rating
+of lower than 6 are probably incompetent with a rating below 4
+being reserved for the leaders who were so poor as to be an
+active detriment to a units health. An "average" leader would
+probably be rated an 8, with a rating of 10 being good and 12+
+being excellent.
+
+9.11 LEADER LOSS
+Leaders, because they are attached directly to units, are
+vulnerable to enemy fire. If a unit with an attached leader is
+subjected to enemy fire, there is a percentage chance that the
+leader will become wounded. This chance increases with the
+severity of the fire and lessens with the size of unit being
+fired at. If the leader is wounded, a new leader will be
+generated and placed in that command slot. The rating of this
+leader will vary randomly, but will never be as good as the old
+leader's rating.
+
+9.12 LEADER TRANSFER
+Leaders may only be moved from unit to unit during the Leader
+Transfer Phase. The commands available during this phase are as
+follows:
+
+(SPACE BAR) - if accessed while the cursor is over a friendly
+unit will allow access to that unit, allowing you to access the
+leader transfer menu.
+
+(E)xit Leader Phase - allows you to exit the Leader Transfer
+Phase.
+
+(O)bjectives - permits examination of friendly victory squares.
+
+(0-8) - allows movement of the cursor (as per the movement
+compass (see section 5.131)).
+
+9.121 Leader Transfer Menu
+In this menu, reached by accessing a unit with the space bar
+during the Leader Transfer Phase, you are given several options
+that permit you to examine the units in a leader's command,
+transfer a leader from one unit to another, and highlight the
+entire command to allow easy evaluation of the Command Control
+situation.
+
+(I)nverse - allows you to highlight the entire command for a
+given leader. This is the same as the highlight command in the
+Objective phase (see section 5.0).
+
+(L)eader - permits access to a sub-menu where leaders may be
+transferred.
+
+(N)ext - allows rapid scrolling through all friendly units.
+
+(Q)uit - takes you out of the selected unit and back to cursor
+movement.
+
+(U)nit - gets the next unit in the same square. This function is
+the same as the function in the Command Menu.
+
+9.13 LEADER EFFECTS ON COMMAND CONTROL RATING
+Command control is a number, specific to each unit and ranging
+between 10 and 30, that is calculated from the bonus ratings of
+the leaders in a unit's command structure and the distance from
+the unit to those leaders. The closer a unit is to its
+commanders, the better its Command Control rating will be.
+
+One important thing to remember is that lower level leaders,
+those just above the unit in the command structure, are very
+important to have close by. Being several squares from your army
+commander is not very detrimental to a unit's Command Control
+rating, but being several squares from a Division leader is
+catastrophic. This is to force you to move units in historical
+fashion, with regiments grouped close together.
+
+9.2 Specific Effects of Command Control
+
+Command Control ratings affect several factors, but none so
+noticeably as Operation Points. The number of OP points a unit
+receives is directly translatable from the unit's Command Control
+Rating, as seen in the Operation Point Chart (see 20.8). At the
+beginning of each turn, the Command Control ratings for all units
+is calculated and Command Control penalties are assessed. The
+number of asterisks appearing next to a leader's name during the
+Command Control Phase is significant, with 4 being perfect and 1
+being terrible. These ratings directly influence the Command
+Control ratings of the units under a given leader's command.
+
+In addition to the OP points restrictions imposed by a unit's
+Command Control Rating, there are also effects on a unit's
+ability to rally from Disruption or Rout and on a unit's chance
+of receiving ammunition. Command Control plays an important part
+in these cases as well. As can be seen, Command Control is vital
+to the game. Keeping your Divisions tightly controlled and
+together is the first rule to successful Napoleonic generalship.
+
+
+10.0 RECOVERY, REINFORCEMENT, AND RESUPPLY
+
+This section covers several phases of the game, all of which have
+to do with reorganization and resupply. During the play of the
+game, units lose Efficiency, gain Fatigue, expend ammunition, and
+lose men. During these phases, they get them back to a limited
+extent.
+
+10.1 Ammunition
+
+At the beginning of a game, all units have 7 shots of ammunition.
+This means that they may fire 7 times before they are out of
+ammunition and will suffer the penalties appropriate to their
+unit type. However, each turn all units are checked for
+ammunition resupply. This occurs, for both players, during the
+Ammunition Resupply Phase of each turn. Units which have 7
+ammunition points already and routed units will not receive any
+ammo resupply. All other units have a chance of receiving a
+partial ammunition resupply.
+
+The chance of a given unit receiving ammo resupply is based on
+several factors, including being adjacent to enemy units (the
+more enemy units a friendly unit is adjacent to, the lower the
+chance of ammo resupply), command Control rating, and Fatigue.
+Note specifically that artillery units with more than 20 Fatigue
+have less than a 50% chance of receiving ammunition resupply.
+
+Units which are out of ammo cannot fire in fire combat and have a
+much reduced strength in melee combat (see section 20.6 -
+Fire/Melee Strength Modifiers).
+
+10.2 Rally
+
+During the Rally Phases of each turn, all friendly routed units
+will attempt to return to non-routed status. This is known as
+rallying. In order to rally, a unit's Morale must be greater than
+29 and there cannot be an enemy unit within 5 squares and in LOS.
+The chance of rallying is displayed on the Rally Table (section
+20.7) and varies from 50 - 100%.
+
+Units that rally go to open formation and have their Disruption
+set to 3.
+
+10.3 Recovery
+
+Recovery is the term applied to the regaining of Efficiency and
+the loss of Fatigue that occurs during the Recover/OP Points
+Phases of each turn. Units that are left in combat too long and
+not allowed to recover will quickly deteriorate and eventually
+rout. To prevent this, you should try to rotate your units into
+and out of combat, allowing each unit to rest between turns in
+the front lines.
+
+Disruption levels are lost during the Recover/OP Points Phases of
+each turn. Units will lose between 0 and 2 levels of Disruption
+depending on the Efficiency and command Control of the unit.
+Routed units cannot recover Disruption levels.
+
+Units recover Fatigue based on the number of OP points that the
+unit has left during the Recover/OP Points Phases. For more
+details, see Fatigue (section 8.1).
+
+Efficiency, like Fatigue, is recovered during the Recovery/OP
+Points Phases. The rate at which units regain Efficiency is
+listed in the section on Efficiency (see section 8.3).
+
+In addition to recovery of Fatigue and Efficiency, units regain
+their OP points based on their Command Control Rating, during the
+Recover/OP Points Phases. This means that units will always have
+OP points available for combat, even if they used every OP point
+during their movement and combat phases. However, OP points
+expended during the Combat Phase occurring right before a
+friendly Operations Phase will be subtracted from the OP points
+available at the start of the next Operations Phase. Thus, it is
+possible to start an Operations Phase with less OP points than
+you received during the last Recover/OP Points Phase.
+
+10.4 Reinforcements
+
+Reinforcements are troops that arrive after the beginning of a
+game, from a specific reinforcement square. In the historical
+scenarios, the reinforcement squares are listed in the Order of
+Battle for each scenario. However, in custom generated scenarios,
+the reinforcement squares must be decided upon and placed during
+the Set Squares phase of the scenario creation process (see
+section 19.0).
+
+Reinforcements will arrive in column formation if they are
+infantry, limbered mode if artillery, and normal mode if cavalry.
+They will arrive during the Reinforcement Phase of the turn they
+are scheduled to appear on, unless the options on the Game Menu
+varying this reinforcement time were altered (see section 4.1).
+
+If reinforcements are blocked from entering by enemy troops, they
+will come in adjacent to the reinforcement square. Reinforcements
+may overstack on the entry square during the turn of entry, but
+must obey normal stacking restrictions as soon as they are moved
+(see section 6.34).
+
+11.0 VICTORY PHASE
+
+This is the phase in which the score is counted and the status of
+the game is announced, be it an Allied Victory or a French
+Victory. Upon reaching the Victory Phase of the final game turn
+of the scenario, the final score will be tallied and a winner
+will be announced.
+
+Winning and losing the game is based on two primary factors, the
+taking of terrain objectives, that is taking specific places and
+occupying them with friendly troops, and causing enemy
+casualties. These factors are translated into "Victory Points",
+or VPs, and then totaled and compared to the scenario Victory
+Schedule in order to determine a winner.
+
+11.1 Victory Points
+
+Players receive victory points for causing enemy casualties
+according to the following chart:
+
+1 point per infantryman/artilleryman/cavalryman lost (either
+wounded, killed, or missing)
+
+1.5 point per infantryman/artilleryman/cavalryman captured
+
+50 points per artillery gun lost
+
+100 points per artillery gun captured
+
+In addition to the above casualty points, VPs are received for
+the taking of objectives. These objectives vary from scenario to
+scenario (and must be selected by the player in a custom made
+scenario - see section 19.0) and generally are the factors that
+control the victor in the scenario. In order to receive VPs for
+an objective, a player must have 1000 men in the objective
+square, or adjacent to it, at the beginning of a turn. The VPs
+awarded for capture of an objective are lost if the required
+number of men is not in the area at the beginning of a new turn.
+
+12.0 DESIGNING YOUR OWN SCENARIOS
+
+Designing your own custom scenarios requires use of the Editor
+portion of the game. The rules for using the Editor are
+thoroughly covered in sections 14.0 through 19.0 and should be
+read in detail before any attempt is made to customize a
+scenario. The scenarios presented in section 13.0 are also able
+to be modified. It is suggested that you play with those
+scenarios before trying to design a new one from scratch.
+
+Although it is not necessary that one be a student of the
+Napoleonic Era in order to get the most from this game, there
+will undoubtedly be many references to types of troops,
+nationalities, and formations that don't make much sense to
+someone who isn't a military historian. As a general rule, if it
+isn't explained in detail in these rules, it is not vital to
+know. You can still design scenarios using Dragoons and Hussars
+without knowing what they are.
+
+If you decide to design scenarios, you should read the
+advertisement in the back of the rules. This advertisement
+discusses how to get additional scenario disks and how to send in
+your scenarios for possible publication. If you are willing to
+put in the time on the design, we are interested in seeing the
+scenarios. Historical notes would also be valuable, describing
+the battle in a few paragraphs.
+
+12.1 Night Turns
+Although all of the historical scenarios presented in this game
+were resolved in one day of battle, not all Napoleonic actions
+were as short. If you make a scenario with the editor and allow
+it to last longer than one day, you will find that each day is
+separated by a night turn. The night turn has a number of special
+rules (see section 19.1).
+                     
+                     
+                     BATTLES OF NAPOLEON
+                              
+                    HISTORICAL SCENARIOS
+                              
+         BORODINO: THE BATTLE FOR THE GREAT REDOUBT
+                              
+                   THE BATTLE OF AUERSTADT
+                              
+                  THE BATTLE OF QUATRE BRAS
+                              
+                   THE BATTLE OF WATERLOO
+
+13.0 HISTORICAL SCENARIOS
+Legend of Scenarios
+
+Unit # is the number of the unit and determines the order in
+which units are chosen using the (N)ext command from the Command
+Menu (see section 6.3).
+
+Unit Name is the individual designation of the unit as well as
+any special designations (LN, GD, etc.).
+
+Type/Size shows the type of unit (infantry, cavalry, artillery),
+any special info (Guard, Brunswick, KGL, etc.), and the size
+(Battalion, regiment, brigade).
+
+Men gives the number of men the unit starts the scenario with.
+
+Guns/Skirm represents either the number of men in the unit
+capable of skirmishing (for infantry units) or the number of guns
+in the unit (for artillery units).
+
+Eff shows the starting efficiency for the unit. Note that if the
+unit is not at maximum efficiency at the beginning of the
+scenario, it will "grow back" during the game, up to the maximum
+level of the unit.
+
+Wpn lists the weapon the unit is equipped with. See chart 20.5
+for information.
+
+Leader gives the leader that the unit reports to directly.
+
+Turn lists the turn that the unit appears as a reinforcement.
+Note that units with a 1 in this column start the game on the
+map.
+
+X, Y shows the starting location for the unit, if the unit starts
+on the map, or the square that the unit comes in at as a
+reinforcement.
+
+ABBREVIATIONS USED IN THE SCENARIO LISTINGS
+
+Art. = Artillery    Cuir. = Cuirassier Huss. = Hussar   Lt. = Light
+Batt. = Battalion   Div. = Division    Inf. = Infantry  Lw. = Landwehr
+Brig. = Brigade     Dr. = Dragoon      Jg. = Jaeger   Mil. = Militia
+Bruns. = Brunswick  Emp. = Empress     KGL = King's   Reg = Regiment
+Cav. = Cavalry      Gd. = Guard        German Legion Sp. = Spanish
+Hann. = Hannoverian Ln = Line
+
+13.1 Borodino: The Battle for the Great Redoubt
+
+In June of 1812, Napoleon embarked on his most famous, and most
+disastrous, campaign: the invasion of Russia. Throughout the
+summer, the French and the Russians fought a series of indecisive
+battles which led to the Russians retreating further into their
+homeland. By September, Napoleon wanted a battle which would end
+the conflict before winter's onset and the Russians wanted to
+fight before reaching the gates to Moscow. Borodino was the
+result.
+
+The pivotal Russian defense position at Borodino was a series of
+entrenchments and breastworks atop a hill that became known as
+the Great Redoubt. The job of taking this fortress fell to the
+men in Eugene's corps. Supported by no less than 120 artillery
+pieces, Eugene's infantry stormed up the hill in the morning of
+the 7th of September. The lead regiment in Morrand's division
+reached the breastworks directly after their opponents had
+discharged their cannons. Taking fearsome casualties, the French
+managed to invest the redoubt and gain control of most of it.
+Russian counterattacks, however, threw the French back down the
+hill and recaptured the defensive works. As the 30th Infantry
+Regiment retreated down the slope, they were struck by an entire
+brigade of Russian dragoons. By the end of the day, only 11
+officers and 257 men remained in the regiment.
+
+Fighting off several cavalry attacks, the French managed to
+stabilize the situation and by 2:00 PM the French were ready to
+assault the redoubt a second time. Led by Gerard's division and
+supported by Morrand's and Broussier's, the French charged up the
+hill. On Gerard's left, Montbrun's cavalry moved forward to flank
+the redoubt. No fewer than 400 guns pounded the Russian defenses.
+As Montbrun led his corps to the attack, he was killed by Russian
+artillery fire. General August de Caulaincourt took command of
+the corps and led the 5th Cuirassiers around to the rear of the
+redoubt. As his men engaged the Russian gunners, the General was
+killed by a musket ball. The French cavalry began to waver as the
+Russian resistance stiffened. Just in time, the French 9th
+Regiment of Line poured into the redoubt's western side and
+caught the Russian defenders in a trap. The Russians were quickly
+overwhelmed and the French took possession of the redoubt for the
+second time. Despite several Russian counterattacks, the French
+managed to hold on to their gain. The Russians pulled back, due
+to the French controlled salient in their center. However, the
+French, totally exhausted, were unable to exploit their gains.
+The battle ended shortly after 5:00 PM, with both armies trying
+to regain their strength.
+
+Napoleon gained the field at Borodino and opened the road to
+Moscow. However, his army was weakened by the battle and would
+soon be forced to retreat through the terrible Russian winter. By
+the end of 1812, the Grand Armee ceased to exist as a fighting
+force.
+
+13.11 ORDERS OF BATTLE
+
+French Order of Battle
+
+Unit Unit     Type/Size     Men Guns/  Eff    Wpn     Leader  Turn X,Y
+#  Name                         Skirm
+0  1/13/1 LT  Lt. Inf. Reg. 758  758   68     MUS     Morrand   1  5,5
+1  2/13/1 LT  Lt. Inf. Reg. 758  758   68     MUS     Morrand   1  5,5
+2  1/17/1 LT  Lt. Inf. Reg. 887  887   68     MUS     Morrand   1  5,7
+3  2/17/1 LT  Lt. Inf. Reg. 887  887   68     MUS     Morrand   1  5,7
+4  1/30/1 LN  Infantry Reg. 827  138   58     MUS     Morrand   1  5,8                                                         
+5  2/30/1 LN  Infantry Reg. 827  138   58     MUS     Morrand   1  5,8
+6  1/7/3 LT   Lt. Inf. Reg  830  830   68     MUS     Gerard    1  1,10
+7  2/7/3 LT   Lt. Inf. Reg. 830  830   68     MUS     Gerard    1  0,9
+8  1/12/3 LN  Infantry Reg. 855  142   58     MUS     Gerard    1  1,9
+9  2/12/3 LN  Infantry Reg. 855  142   58     MUS     Gerard    1  1,10
+10 1/21/3 LN  Infantry Reg  843  140   58     MUS     Gerard    1  0,10
+11 2/21/3 LN  Infantry Reg. 843  140   58     MUS     Gerard    1  0,10
+12 127/3 SA LN Saxony  Reg. 612  102   38     MUS     Gerard    1  1,9
+13 8/3 SA LN   Saxony  Reg. 484  81    38     MUS     Gerard    1  0,9
+14 1/9/14 LN  Infantry Reg. 704  117   58     MUS     Broussier 3  0,9
+15 2/9/14 LN  Infantry Reg. 704  117   58     MUS     Broussier 3  0,9
+16 18/14 LT   Lt. Inf. Reg. 565  565   68     MUS     Broussier 3  0,9
+17 1/35/14 LN Infantry Reg. 680  113   58     MUS     Broussier 3  0,9
+18 2/35/14 LN Infantry Reg. 680  113   58     MUS     Broussier 3  0,9
+19 1/53/14 LN Infantry Reg. 737  123   58     MUS     Broussier 3  0,9
+20 2/53/14 LN Infantry Reg. 737  123   58     MUS     Broussier 3  0,9
+21 2JN/14 SP LN Sp.Inf.Reg. 597   99   38     MUS     Broussier 3  0,9
+22 1/3 CV LT CH  Lt.Cav.Brig. 1194 -   68     SBR     Grouchy   1  0,12
+23 2/3 CV LT CH  Lt.Cav.Brig. 1303 -   68     SBR     Grouchy   1  0,11
+24 1/6 CV HV DR  Hvy.Cav.Brig. 814 -   78     MUS     Grouchy   1  1,11
+25 2/6 CV HV DR  Hvy.Cav.Brig. 901 -   78     MUS     Grouchy   1  1,12
+26 1/IIICC HS Horse Art.Batt. 96   6   78     6G      -         1  0,13
+27 2/IIICC HS Horse Art.Batt. 96   6   68     6G      -         1  0,13
+28 3/IIICC HS Horse Art.Batt. 96   6   78     8G      -         1  0,13
+29 1 Div FT   Artillery Batt.128   8   78     8G      -         1   5,6
+30 3 Div FT   Artillery Batt.128   8   78     8G      -         1   6,12
+31 1/III FT   Artillery Batt.128   8   78     8G      -         1   5,9
+32 2/III FT   Artillery Batt.128   8   78     8G      -         1   5,6
+33 3/III FT   Artillery Batt.128   8   78     8G      -         1   6,12
+34 4/III HV   Artillery Batt.128   8   78     12G     -         1   5,10
+35 14 Div FT  Artillery Batt.128   8   78     12G     -         3   0,8
+36 1/IV FT    Artillery Batt.384   24  78     8G      -         1   10,1
+37 2/IV FT    Artillery Batt.128   8   78     8G      -         1    9,1
+38 3/IV FT    Artillery Batt.128   8   78     8G      -         1   11,1
+39 4/IV FT    Artillery Batt.256   16  78     12G     -         1   12,1
+
+Allied Order of Battle
+            
+Unit Unit     Type/Size        Men Guns/  Eff    Wpn Leader   Turn  X,Y
+#    Name                          Skirm
+90  SMO/12 LN Infantry Reg.    908  -     68     MUS Paskevich  1  16,10
+91  NAR/12 LN Infantry Reg.    837  -     68     MUS Paskevich  1  16,12
+92  6/12 JG   Lt. Inf. Reg.    577  577   68     MUS Paskevich  1  16,11
+93  OR/26 LN  Infantry Reg.    780  -     68     MUS Likachev   1  14,8
+94  NIZ/26 LN Infantry Reg.    805  -     68     MUS Likachev   1  16,9
+95  5/26 JG   Lt. Inf. Reg.    593  593   68     MUS Likachev   1  16,7
+96  42/26 JG  Lt. Inf. Reg.    612  612   68     MUS Likachev   1  16,7
+97  19/24 JG  Lt. Inf. Reg.    784  784   68     MUS Kataisov   1  16,13
+98  TOM/24 LN Infantry Reg.    904  -     68     MUS Kataisov   1  24,13
+99  BEL/17 LN Infantry Reg.    985  -     68     MUS Voronzov   1  27,8
+100 BRE/17 LN Infantry Reg.    930  -     68     MUS Voronzov   2  27,8
+101 RYA/17 LN Infantry Reg.    837  -     68     MUS Voronzov   2  27,8
+102 NIL/17 LN Infantry Reg.    764  -     68     MUS Voronzov   2  27,8
+103 1/IIIC LT HU  Lt.Cav.Brig. 1205 -     78     SBR Kreutz     2  27,9
+104 2/IIIC LT HU  Lt.Cav.Brig  1193 -     78     SBR Kreutz     2  27,9
+105 3/IIIC HV DR  Hvy. Cav.Brg 614  -     78     MUS Kreutz     2  27,9
+106 IIIC/Art HS   Horse Art.Batt.96 6     78     6G  -          2  27,8
+107 Res/A FT CR   Artillery Reg.256 10    88     12G -          1  14,8
+108 Res/B FT CR   Artillery Reg.256 10    88     12G -          1  14,8
+
+13.2 The Battle of Auerstadt
+
+Napoleon's 1806 campaign against the Prussian army climaxed on
+October 14th with the dual Battle of Jena-Auerstadt. Napoleon,
+with the main portion of the French army, engaged what he thought
+was the entire Prussian army. In fact, Napoleon only faced the
+Prussian right wing consisting of some 30,000 men while Marshal
+Davout, in command of the 28,000 men of 1st Corps, faced the Duke
+of Brunswick and his main force of over 50,000 men.
+
+Davout ordered his advance units to cross the Hassenhausen
+plateau and to take up positions in Hassenhausen. When General
+Gudin's division did so, they ran right into General Bluecher and
+some 600 Prussian horsemen. The Prussians charged only to be
+repulsed by the infantry and artillery fire from Gudin's
+division. Bluecher fell back and called for more cavalry while
+Gudin solidified his position on the plateau. The Duke of
+Brunswick released 12 squadrons to Bluecher and brought up two
+divisions of infantry to attack the French positions.
+
+Bluecher, upon receiving reinforcement, immediately charged the
+French without waiting for infantry support. His squadrons
+quickly spent themselves upon the stout French squares and the
+Prussian cavalry soon scattered to the rear. The French forces
+had held against the first assault. Fortunately, because the
+Prussian cavalry attack was made without infantry support,
+Gudin's division was able to regroup before the main Prussian
+body contacted them. The two Prussian infantry divisions led by
+Schmettau and Wartensleben attacked the French forces around
+Hassenhausen, but failed to dislodge them before Gudin was
+reinforced by the arrival of Marshal Davout and the rest of the
+French forces. The Prussian attack began to lose strength. Then
+disaster struck the Prussians. The Duke of Brunswick was mortally
+wounded and his army lost what little hope it had of maintaining
+the initiative. Davout ordered his troops to counterattack and
+Morand's division, having just arrived on the field, went on the
+offensive after beating off yet another cavalry attack by the
+Prussians.
+
+Hesitation in the Prussian high command proved to be the final
+nail in the Prussian army's coffin. King Frederick Wilhelm III
+held his remaining corps in reserve while his army was being
+destroyed piecemeal by Davout's corps. The Prussian army began to
+melt under the French counterattack and they soon went from
+retreat to rout. Eventually, the Prussian reserve was engaged and
+routed as well. Although Davout's Corps suffered heavily, the
+battle was won. In the days that followed, the pursuit of the
+Prussian army yielded thousands of captured troops and signaled
+the final destruction of the image of Prussian "Invincibility".
+
+13.21 ORDERS OF BATTLE
+French Order of Battle
+Unit Unit    Type/Size      Men  Guns/  Eff  Wpn    Leader   Turn   X,Y
+#    Name                        Skirm
+0  1/13 LT   Lt. Inf. Batt. 750  750    78   MUS    Guyardet   5   43,23
+1  2/13/LT   Lt. Inf. Batt. 750  750    78   MUS    Guyardet   5   43,23
+2  1/17 LN   Infantry Batt. 1040 130    78   MUS    Lanusse    5   43,23
+3  2/17 LN   Infantry Batt. 1040 130    78   MUS    Lanusse    21* 43,23
+4  1/30 LN   Infantry Batt. 1025 128    78   MUS    Valterre   5   43,23
+5  2/30 LN   Infantry Batt. 1025 128    78   MUS    Valterre   5   43,23
+6  1/51 LN   Infantry Batt. 1585 198    78   MUS    Baille     5   43,23
+7  2/51 LN   Infantry Batt. 1585 198    78   MUS    Baille     5   43,23
+8  1/61 LN   Infantry Batt. 1570 196    78   MUS    Nicolas    5   43,23
+9  2/61 LN   Infantry Batt. 1570 196    78   MUS    Nicolas    5   43,23
+10 1/33 LN   Infantry Batt. 1020 128    78   MUS    Cartier    3   43,23
+11 2/33 LN   Infantry Batt. 1020 128    78   MUS    Cartier    3   43,23
+12 1/48 LN   Infantry Batt.  805 101    78   MUS    Barbngre   3   43,23
+13 2/48 LN   Infantry Batt.  805 101    78   MUS    Barbngre   3   43,23     
+14 1/108 LN  Infantry Batt.  810 102    78   MUS    Higonet    2   43,23
+15 2/108 LN  Infantry Batt.  810 102    78   MUS    Higonet    2   43,23
+16 1/111 LN  Infantry Batt. 1170 146    78   MUS    Gay        2   43,23
+17 2/111 LN  Infantry Batt. 1170 146    78   MUS    Gay        2   43,23
+18 1/12 LN   Infantry Batt. 1025 128    78   MUS    Verges     1   43,23
+19 2/12 LN   Infantry Batt. 1025 128    78   MUS    Verges     1   43,23
+20 1/21 LN   Infantry Batt. 1135 142    78   MUS    Decous     1   43,23
+21 2/21 LN   Infantry Batt. 1135 142    78   MUS    Decous     1   43,23
+22 1/25 LN   Infantry Batt.  900 115    80   MUS    Cassagne   1   36,18
+23 2/25 LN   Infantry Batt.  900 115    80   MUS    Cassagne   1   37,16
+24 1/85 LN   Infantry Batt. 1085 136    84   MUS    Viala      1   37,22
+25 2/85 LN   Infantry Batt. 1085 136    84   MUS    Viala      1   36,20
+26 1 Chass LT CH  Lt.Cav.Reg.400  64    -    SBR    Vialanns   1   39,19
+27 2 Chass LT CH  Lt.Cav.Reg.530  78    -    SBR    Vialanns   2   43,22
+28 12 Chass LT CH Lt Cav.Reg.470  78    -    SBR    Vialanns   2   43,22
+29 1 Light HS Horse Art. Bat.140   6    78    4G    -          4   43,23
+30 1 Foot FT  Artillery Batt.100   6    78    8G    -          4   43,23
+31 2 Light HS Horse Art. Bat. 40   2    78    4G    -          2   43,23
+32 2 Foot FT  Artillery Batt.130   6    78    8G    -          3   43,23
+33 3 Light HS Horse Art. Bat. 40   2    64    4G    -          1   36,19
+34 3 Foot FT  Artillery Batt. 80   6    78    8G    -          2   43,23
+35 1/R Foot FT Artillery Batt 120  6    78    8G    -          8   43,23
+36 2/R Foot FT Artillery Batt.120  6    78    8G    -          8   43,23
+37 3/R Foot FT Artillery Batt. 80  4    78   H5.5   -          8   43,23
+
+
+Prussian Order of Battle
+Unit Unit          Type/Size        Men Guns/  Eff  Wpn Leader Turn  X,Y
+#    Name                               Skirm
+90   Schack GR     Grenadier Batt.  680   -    38   MUS Alvnslbn 1   26,15
+91   1/Hnrch LN    Infantry Batt.   790   -    48   MUS Alvnslbn 1   22,11
+92   2/Hnrch LN    Infantry Batt.   790   -    48   MUS Alvnslbn 1   22,11
+93   1/Alvslb LN   Infantry Batt.   790   -    48   MUS Alvnslbn 1   22,12
+94   2/Alvslb LN   Infantry Batt.   790   -    48   MUS Alvnslbn 1   22,12
+95   Krafft GR     Grenadier Batt.  735   -    58   MUS Schmnski 1   22,15
+96   1/Mishky LN   Infantry Batt.   790   -    48   MUS Schmnski 1   23,13
+97   2/Mishky LN   Infantry Batt.   790   -    48   MUS Schmnski 1   22,13
+98   1/Shmsky LN   Infantry Batt.   790   -    48   MUS Schmnski 1   22,14
+99   2/Shmsky LN   Infantry Batt.   790   -    48   MUS Schmnski 1   22,14
+100  Hanstein GR   Grenadier Batt.  735   -    58   MUS Wedell   1   8,13
+101  1/Renard LN   Infantry Batt.   790   -    48   MUS Wedell   1   7,13
+102  2/Renard LN   Infantry Batt.   790   -    48   MUS Wedell   1   7,13
+103  1/Kleist LN   Infantry Batt.   790   -    48   MUS Wedell   1   6,13
+104  2/Kleist LN   Infantry Batt.   790   -    48   MUS Wedell   1   6,13
+105  AltBraun GR   Grenadier Batt   735   -    58   MUS Renouard 1   6,14
+106  1/Brnswg LN   Infantry Batt.   790   -    48   MUS Renouard 1   5,14
+107  2/Brnswg LN   Infantry Batt.   790   -    48   MUS Renouard 1   5,14
+108  1/LFerdn LN   Infantry Batt.   790   -    48   MUS Renouard 1   5,15
+109  2/LFerdn LN   Infantry Batt.   790   -    48   MUS Renouard 1   5,15
+110  Rheinbbn GR   Grenadier Batt   735   -    58   MUS Heinrich 2   1,13
+111  1/Ferdnd LN   Infantry Batt.   800   -    48   MUS Heinrich 2   1,13
+112  2/Ferdnd LN   Infantry Batt.   800   -    48   MUS Heinrich 2   1,13
+113  1/Putkmr LN   Infantry Batt.   785   -    48   MUS Heinrich 2   1,13
+114  2/Putkmr LN   Infantry Batt.   785   -    48   MUS Heinrich 2   1,13
+115  Knebel GR     Grenadier Batt   735   -    58   MUS Luetzow  2   1,13                      
+116  1/Molndf LN   Infantry Batt.   790   -    48   MUS Luetzow  2   1,13                  
+117  2/Molndf LN   Infantry Batt.   790   -    48   MUS Luetzow  2   1,13
+118  1/Wartlb LN   Infantry Batt.   790   -    48   MUS Luetzow  2   0,13
+119  2/Wartlb LN   Infantry Batt.   790   -    48   MUS Luetzow  2   0,13
+120  Schliefn GR   Grenadier Batt   735   -    58   MUS Mishtzky 10  1,13
+121  Huelsen GR    Grenadier Batt.  735   -    58   MUS Mishtzky 10  1,13 
+122  1/Zenge LN    Infantry Batt.   790   -    48   MUS Mishtzky 10  1,13
+123  2/Zenge LN    Infantry Batt.   790   -    48   MUS Mishtzky 10  1,13
+124  Gaudy GR      Grenadier Batt.  735   -    58   MUS Zenge    10  1,13
+125  Osten GR      Grenadier Batt.  735   -    48   MUS Zenge    10  1,13
+126  1/Arnim LN    Infantry Batt.   790   -    48   MUS Zenge    10  1,13
+127  2/Arnim LN    Infantry Batt.   790   -    48   MUS Zenge    10  1,13
+128  1/Pirch LN    Infantry Batt.   815   -    48   MUS Zenge    10  0,13
+129  2/Pirch LN    Infantry Batt.   815   -    48   MUS Zenge    10  0,13
+130  Rabiel GR     Grenadier Batt.  735   -    58   MUS Zastrow  10  0,13
+131  August GR     Grenadier Batt.  735   -    58   MUS Zastrow  10  0,13
+132  1/Koenig LN   Infantry Batt.   800   -    48   MUS Zastrow  10  0,13
+133  2/Koenig LN   Infantry Batt.   800   -    48   MUS Zastrow  10  0,13
+134  GrenGD GD     Guard Batt.      780   -    58   MUS Hrschfld  6  0,24
+135  LeibGD GD     Guard Batt.      785   -    58   MUS Hrschfld  6  0,24
+136  1/Guard GD    Guard Batt.      785   -    58   MUS Hrschfld  6  0,24
+137  2/Guard GD    Guard Batt.      785   -    58   MUS Hrschfld  6  0,24
+138  WeimarSS JG   Jaeger Batt.     530  530   48   MUS Oswald    8  0,13
+139  Kloch FU      Fusilier Batt.   650  650   48   MUS Oswald    8  0,13
+140  Oswald FU     Fusilier Batt.   650  650   48   MUS Oswald    8  0,13
+141 Grfnbrg FU     Fusilier Batt.   650  650   48   MUS Oswald    8  0,13
+142 Koenigin HV DR Dragoon Reg.    1200   -    48   CRB Irwing    1 27,12
+143 Heising HV CU  Cuirassier Reg.  600   -    58   SBR Buenting  1  3,14
+144 Buenting HV CU Cuirassier Reg.  600   -    58   SBR Buenting  1  3,14
+145 Quitzow HV CU  Cuirassier Reg.  600   -    58   SBR Quitzow   2  0,14
+146 Rtznstn HV CU  Cuirassier Reg.  600   -    58   SBR Quitzow   2  0,14
+147 LeibKur HV CU  Cuirassier Reg.  600   -    58   SBR Wilhelm   2  0,14
+148 LeibKrbr HV CA Carabinier Reg.  710   -    58   CRB Wilhelm   2  0,14         
+149 GdCorps GD CU  Cuirassier Reg.  660   -    58   SBR Beeren    2  0,14
+150 Gensdrms CU    Cuirassier Reg.  600   -    58   SBR Beeren    2  0,14
+151 Beeren HV CU   Cuirassier Reg.  600   -    58   SBR Beeren    2  0,14
+152 Wurtmbrg LT HU Lt. Huss. Reg.  1210   -    8    SBR Bluecher  1  28,11
+153 Bluecher LT HU Lt. Huss. Reg.  1100   -    8    SBR Bluecher  1  28,11
+154 Irwing HV DR   Dragoon Reg.     550   -    38   CRB Bluecher  1  28,12
+155 Roehl HL FT    Artillery Batt.  160   8    58   12/10 -       1  21,13
+156 Stankar FT     Artillery Batt.  160   8    58   12/10 -       1  21,13
+157 Graumann HS    Horse Art.Batt.  170   8    58   6/9   -       1  24,11
+158 Wilkens FT     Artillery Batt.  160   8    58   12/10 -       1  4,15
+159 Heuser FT      Artillery Batt.  160   8    58   12/10 -       1  4,15
+160 Lange FT       Artillery Batt.  160   8    58   12/10 -       1  3,15
+161 Riemer FT      Artillery Batt.  160   8    58   12/10 -       2  0,13
+162 Lehmann FT     Artillery Batt.  160   8    58   12/10 -       2  0,13
+163 Merkatz HS     Horse Art. Batt. 170   8    58   6/9   -       2  0,13
+164 Willmann HS    Horse Art.Batt.  170   8    58   6/9   -       2  0,13
+165 Buchelbg FT    Artillery Batt.  160   8    58   12/10 -      10  0,13
+166 Heiden FT      Artillery Batt.  160   8    58   12/10 -      10  0,13
+167 Alkier FT      Artillery Batt.  160   8    58   12/10 -      10  0,14
+168 Faber FT       Artillery Batt.  160   8    58   12/10 -       6  0,24
+169 Schorlmr HS    Horse Art. Batt.  60   3    28   6/9   -       1  25,15
+                                                            
+*Note that the French unit that enters on turn 21 never actually
+fought in the battle and will not appear during the game unless
+the game length is modified. This unit is included only for
+historical accuracy and for what-if scenarios.
+
+13.3 The Battle of Quatre Bras
+
+In June 1815, Napoleon was faced with the most serious dilemma of
+his military life. All around him, France's enemies were
+mobilizing to crush his resurgent power. Determined to strike at
+the separated allied armies before they could form into an
+invincible force, Napoleon set out with an army of 125,000 men to
+surprise his enemies in Belgium. Deciding to attack both the
+Anglo-Dutch army and the Prussian army simultaneously, Napoleon
+gave command of the left wing of the army to Marshal Ney, to
+attack the Anglo-Dutch at Quatre Bras, while Napoleon himself led
+the right wing and the Imperial Guard against the Prussians at
+Ligny.
+
+Ney was ordered to take the I and II Corps, along with the III
+Cavalry Cops, and attack the Anglo-Dutch positions at Quatre
+Bras. He was to capture this vital road net in order to prevent
+the Prussian Army, under General Bluecher, from joining with
+Wellington's force. Ney, left to his own devices, was cautious
+and waited until 11:00 on the morning of the 16th before issuing
+orders to his subordinates. Finally, the word went out and the
+French advance began around 1:30.
+
+The French advance, starting late, was further delayed by being
+extremely cautious. The French commanders were fearful that the
+British were lying in ambush behind the thick fields of tall corn
+or behind the gentle slopes which dotted the landscape. These
+very techniques were the favorite tactics of the Duke of
+Wellington and had been used with devastating effectiveness
+during the Peninsular campaigns. However, the local Allied
+commander had but 8,000 troops with which to defend Quatre Bras.
+Worse still, most of these troops were either Dutch or Belgian
+infantry of dubious quality at best. In order to deceive the
+French as to the actual number of Allied troops present,
+Wellington ordered the 27th Jager Battallion to deploy in front
+of the main defense line in a mile-long perimeter. This totally
+over extended the unit and they were all but wiped out in the
+ensuing battle. However, the effect had been to slow the French
+advance, buying more time for the Allied army.
+
+The first major French assault was on the line formed in front of
+Quatre Bras, with the village of Pireaumont on the left flank,
+the Bossu Woods on the right flank, and the Farmhouse at
+Gemioncourt in the center. Slowly the French drove the defenders
+back, taking Pireaumont and beginning the push into the Bossu
+Woods. However, in the center the French assault was stalled by
+stiff resistance put up by the Dutch 5th Militia in the
+Gemioncourt farmhouse.
+
+Meanwhile, Ney found himself deprived of D'Erlon's I Cops by the
+order of Napoleon. I Corps had been ordered to attack the
+Prussian flank at Ligny. Ney ordered them back, only to be
+countermanded again by an Emperor who knew little of the events
+taking place at Quatre Bras. They ended up spending most of the
+day marching back and forth.
+
+Ney found himself in a quickly deteriorating situation. He still
+outnumbered the enemy, but they were rapidly building while Ney's
+forces were dwindling. At this critical moment, Ney ordered a
+cavalry charge by Pire's lancers. The initial charge crushed the
+27th Dutch Jagers, only to be halted by the 5th Infantry Division
+led by General Picton. The Allies, bolstered by Picton's 5th and
+others, managed to fight the French to a standstill. Ney tried to
+force Wellington's center with two divisions, only to be once
+again repulsed by point-blank musket fire. This, combined with
+the arrival of information that D'Erlon's I Corps was on its way
+back to Ligny, frustrated Ney beyond all reason. Ney turned to
+General Kellerman, in command of the III Cavalry Corps, and
+ordered him to charge, without infantry support, the reinforced
+enemy line. After futile protest, Kellerman led his 800
+Cuirassiers forward in a reckless charge that overran several
+unprepared infantry regiments, including the 69th and 33rd
+Regiments of Foot, and even reached the contested crossroads in
+Quatre Bras.
+
+Unsupported as they were, they were then attacked by concealed
+batteries of cannon and fresh infantry battalions and forced to
+flee back through the swath they had cut in the Allied lines.
+
+Ney, now outnumbered and pressed by British counter-attacks all
+along his line, pulled back and waited for night. The Battle for
+Quatre Bras was over, and before the end of the day the original
+Anglo-Dutch lines would be recaptured. It was a draw in every
+sense of the word, something Napoleon could ill afford at this
+stage.
+
+
+13.31 ORDERS OF BATTLE
+
+French Order of Battle
+Unit Unit    Type/Size       Men Guns/  Eff  Wpn    Leader  Turn  X,Y
+#    Name                        Skirm                          
+0  1L/2 LT   Lt. Inf. Batt.  578  578   78   MUS    Husson    1  26,31
+1  2L/2 LT   Lt. Inf. Batt.  569  569   78   MUS    Husson    1  26,31
+2  3L/2 LT   Lt. Inf. Batt.  577  577   78   MUS    Husson    1  26,31
+3  4L/2 LT   Lt. Inf. Batt.  570  570   78   MUS    Husson    1  26,33
+4  1/61 LN   Infantry Batt.  423  71    68   MUS    Husson    1  26,33
+5  2/61 LN   Infantry Batt.  407  68    68   MUS    Husson    1  26,33
+6  1/72 LN   Infantry Batt.  483  81    68   MUS    Campy     1  29,33
+7  2/72 LN   Infantry Batt.  487  81    68   MUS    Campy     1  29,33
+8  1/108 LN  Infantry Batt.  415  69    68   MUS    Campy     1  28,31
+9  2/108 LN  Infantry Batt.  406  68    68   MUS    Campy     1  28,31
+10 3/108 LN  Infantry Batt.  251  42    68   MUS    Campy     1  28,31
+11 1L/1 LT   Lt. Inf. Batt.  616  616   78   MUS    Baduin    1  13,36
+12 2L/1 LT   Lt. Inf. Batt.  621  621   78   MUS    Baduin    1  13,36
+13 3L/1 LT   Lt. Inf. Batt.  615  615   78   MUS    Baduin    1  13,36
+14 1L/3LT    Lt. Inf. Batt.  590  590   78   MUS    Baduin    1  13,37
+15 2L/3LT    Lt. Inf. Batt.  581  581   78   MUS    Baduin    1  13,37
+16 3L/3 LT   Lt. Inf. Batt.  589  589   78   MUS    Baduin    1  12,37
+17 4L/3 LT   Lt. Inf. Batt.  581  581   78   MUS    Baduin    1  12,37
+18 1/1 LN    Infantry Batt.  587  98    68   MUS    Soye      1  15,37
+19 2/1 LN    Infantry Batt.  592  99    68   MUS    Soye      1  15,37
+20 3/1 LN    Infantry Batt.  587  98    68   MUS    Soye      1  15,37
+21 1/2 LN    Infantry Batt.  593  99    68   MUS    Soye      1  15,36
+22 2/2 LN    Infantry Batt.  585  98    68   MUS    Soye      1  15,36
+23 3/2 LN    Infantry Batt.  587  98    68   MUS    Soye      1  15,36
+24 1/92 LN   Infantry Batt.  553  92    68   MUS    Gauthier  1  21,37
+25 2/92 LN   Infantry Batt.  495  83    68   MUS    Gauthier  1  21,37
+26 1/93 LN   Infantry Batt.  471  79    68   MUS    Gauthier  1  23,33
+27 2/93 LN   Infantry Batt.  472  79    68   MUS    Gauthier  1  23,33                                  
+28 1/100 LN  Infantry Batt.  423  71    68   MUS    Jamin     1  23,31
+29 2/100 LN  Infantry Batt.  424  71    68   MUS    Jamin     1  23,31
+30 3/100 LN  Infantry Batt.  246  41    68   MUS    Jamin     1  23,31
+31 1L/4 LT   Lt. Inf. Batt.  533  533   78   MUS    Jamin     1  21,36
+32 2L/4 LT   Lt. Inf. Batt.  536  536   78   MUS    Jamin     1  21,36
+33 3L/4 LT   Lt. Inf. Batt.  535  535   78   MUS    Jamin     1  21,36
+34 1 LT CH   Lt. Cav. Reg.   485   -    68   SBR    Hubert    1  27,36
+35 6 LT CH   Lt. Cav. Reg.   560   -    68   SBR    Hubert    1  27,36
+36 5 LN LA   Lancer Reg.     412   -    68   SBR    Wathier   1  28,36
+37 6 LN LA   Lancer Reg.     381   -    68   SBR    Wathier   1  28,36
+38 2 LN DR   Cavalry Reg.    585   -    78   SBR    Piquet   10  18,37
+39 7 LN DR   Cavalry Reg.    516   -    78   SBR    Piquet   10  18,37
+40 8 HV CU   Cuirassier Reg. 425   -    88   SBR    Guiton    1  23,36
+41 11 HV CU  Cuirassier Reg. 325   -    88   SBR    Guiton    1  23,36
+42 G GD LA   Gd. Lancer Reg. 880   -    98   SBR    Lefebvre  5  18,37
+43 5 Div FT  Artillery Batt. 128   8    78   6G     -         1  27,33
+44 6 Div FT  Artillery Batt. 128   8    78   6/5    -         1  14,37
+45 9 Div FT  Artillery Batt. 128   8    78   6G     -         1  25,32
+46 2 Cav HS  Horse Art. Batt  96   6    78   6G     -         1  27,37
+47 IICorpsFT Corps Art. Batt 128   8    78   12/6   -         1  20,37
+
+
+Allied Order of Battle
+Unit Unit        Type/Size       Men  Guns/ Eff  Wpn  Leader   Turn  X,Y
+#    Name                             Skirm
+90  1L/27 NE JG  Dutch Jg. Batt.  203    203 68  MUS  Wellington   1  22,22
+91  2L/27 NE JG  Dutch Jg. Batt.  202    202 68  MUS  Wellington   1  24,22
+92  3L/27 NE JG  Dutch Jg. Batt.  202    202 68  MUS  Wellington   1  26,22
+93  4L/27 NE JG  Dutch Jg. Batt.  202    202 68  MUS  Wellington   1  33,26
+94  1/19/5 RI    Rifles Battalion 197    197 88  RFL  Wellington   1  29,15
+95  2/19/5 RI    Rifles Battalion 196    196 88  RFL  Wellington   1  28,15
+96  3/19/5 RI    Rifles Battalion 196    196 88  RFL  Wellington   1  27,15
+97  2L/1 GD      Infantry Batt.   1021  1021 98  MUS  Maitland     8   4,0
+98  3L/1 GD      Infantry Batt.   1066  1066 98  MUS  Maitland     8   4,0
+99  2L/2 GD      Infantry Batt.   1044  1044 98  MUS  Byng         8   4,0
+100 3L/2 GD      Infantry Batt.   1104  1104 98  MUS  Byng         8   4,0
+101 2/30 LN      Infantry Batt.   657    66  68  MUS  Halkett      6   4,0
+102 33 LN        Infantry Batt.   603    60  68  MUS  Halkett      6   4,0
+103 2/69 LN      Infantry Batt.   558    56  68  MUS  Halkett      6   4,0
+104 2/73 LN      Infantry Batt.   603    60  68  MUS  Halkett      6   4,0
+105 BremenHA LN  Hann Inf. Batt.  552    -   58  MUS  Kielmansegge 6   4,0
+106 VerdenHA LN  Hann Inf. Batt.  604    -   58  MUS  Kielmansegge 6   4,0
+107 York HA LN   Hann Inf. Batt.  647    -   58  MUS  Kielmansegge 6   4,0
+108 LunebergHALT Hann Inf. Batt.  635   635  78  MUS  Kielmansegge 6   4,0
+109 GrubenHA LN  Hann Inf. Batt.  661    -   58  MUS  Kielmansegge 6   4,0
+110 Corps HA JG  Hann Jg. Batt.   340   340  78  MUS  Kielmansegge 6   4,0
+111 7 NE LN      Dutch Inf. Batt. 701   116  48  MUS  Bylandt      1  12,11
+112 5 NE MI      Dutch Mil. Batt. 482    -   38  MUS  Bylandt      1  19,22
+113 7 NE MI      Dutch Mil. Batt. 675    -   38  MUS  Bylandt      1  15,22
+114 8 NE MI      Dutch Mil. Batt. 56     -   38  MUS  Bylandt      1   7,24
+115 1/2 NE LN    Dutch Inf. Batt. 903   151  48  MUS  Saxe-Weimar  1   9,22
+116 2/2 NE LN    Dutch Inf. Batt. 903   151  48  MUS  Saxe-Weimar  1  18,10
+117 3/2 NE LN    Dutch Inf. Batt. 903   151  48  MUS  Saxe-Weimar  1  11,21
+118 1/OR NE LN   Dutch Inf. Batt. 795   133  48  MUS  Saxe-Weimar  1   4,24
+119 2/OR NE LN   Dutch Inf. Batt. 796   133  48  MUS  Saxe-Weimar  1  20,10
+120 1/28 LN      Infantry Batt.   594    50  68  MUS  Kempt        1  19,6
+121 1/32 LN      Infantry Batt.   712    71  68  MUS  Kempt        1  19,7
+122 1/79 HI      Highland Batt.   749    75  78  MUS  Kempt        1  19,8
+123 3/1 LN       Infantry Batt.   648    65  68  MUS  Pack         1  19,5
+124 1/42 HI      Highland Batt.   561    56  78  MUS  Pack         1  19,3
+125 2/44 LN      Infantry Batt.   485    49  68  MUS  Pack         1  19,4
+126 1/92 HI      Highland Batt.   629    63  78  MUS  Pack         1  19,2
+127 VerdonHA LW  Hann. Lw. Batt.  661    -   38  MUS  Best         1  17,0
+128 LunebrgHA LW Hann. Lw. Batt.  664    -   38  MUS  Best         1  17,0
+129 OsterdeHA LW Hann. Lw. Batt.  717    -   38  MUS  Best         1  18,1
+130 MundenHA LW  Hann. Lw. Batt.  700    -   38  MUS  Best         1  18,1
+131 1/BW HU      Lt. Cav. Reg.    690    -   48  SBR  VonCramm     3  21,0
+132 2 BW HU      Lt. Cav. Reg.    232    -   48  SBR  VonCramm     3  21,0
+133 1/ADV BW GD  Bruns. Gd. Batt. 168   168  58  RFL  Buttler      3  20,0
+134 2/ADV BW GD  Bruns. Gd. Batt. 504   504  58  MUS  Buttler      3  20,0
+135 BW Guard     Bruns. Gd. Batt. 672   672  58  MUS  Buttler      3  20,0
+136 1 L BW LT    Bruns. Lt. Batt. 672   672  58  MUS  Buttler      8  20,0
+137 2 L BW LT    Bruns. Lt. Batt. 672   672  58  MUS  Buttler      3  20,0
+138 3 L BW LT    Bruns. Lt. Batt. 672   672  58  MUS  Buttler      8  20,0
+139 1 BW LN      Bruns. Inf. Batt.672    -   48  MUS  VonSpecht    3  20,0
+140 2 BW LN      Bruns. Inf. Batt.672    -   48  MUS  VonSpecht    3  20,0
+141 3 BW LN      Bruns. Inf. Batt.672    -   48  MUS  VonSpecht    3  20,0
+142 6 NE LW HU   Dutch Cav. Reg.  641    -   48  SBR  Merlen       1  14,3
+143 5 NE LW HU   Dutch Cav. Reg.  441    -   48  SBR  Merlen       1  15,3
+144 Sandham FT   Artillery Batt.   96    6   78  9G   -            8   9,0
+145 Kuhlman HS   Horse Art. Batt.  96    6   78  6G   -            8   4,0
+146 Lloyd FT     Artillery Batt.   96    6   78  9G   -            6   5,0
+147 Cleeves FT   Artillery Batt.   96    6   78  9/5  -            6   5,0
+148 Byleveld FT  Artillery Batt.  128    8   68  6G   -            1  17,24
+149 Stievnar FT  Artillery Batt.  128    8   68  6G   -            1  15,22
+150 Rogers FT    Artillery Batt.   96    6   78  9/5  -            1  20,0
+151 Rettberg FT  Artillery Batt.   96    8   68  9G   -            1  20,1
+152 HeinemannHS  Horse Art. Batt. 128    8   68  6G   -           10  20,0
+153 Moll FT      Artillery Batt.  128    8   68  6G   -           10  20,0
+                                                 
+    
+    13.4 The Battle of Waterloo
+
+In the summer of 1815, Napoleon found himself again facing
+Wellington, this time in Belgium. He intended to divide the
+Prussian and British armies and destroy them in detail. On June
+16th, Napoleon led half his army into battle against the
+Prussians at Ligny while Ney led the other half against the
+British at Quatre Bras (see 13.1). Two days later, Napoleon faced
+Wellington for the last time.
+
+After the battle of Ligny and Quatre Bras, Napoleon advanced on
+the British army which was concentrated at Mont St. Jean,
+Belgium. The British had arrayed their forces in a defensive
+posture on a slight ridge that overlooked a marshy valley.
+Wellington had anchored his right flank on a stone farmhouse
+called Chateau de Hougoumont. In the center of his line was
+another farmhouse know as La Haye Saint. Both of these farmhouses
+had almost been converted into fortresses, giving the British
+excellent defensive strongpoints.
+
+On the day of the battle, Napoleon launched a three pronged
+attack on the Anglo-Dutch positions. Fearing that any sort of a
+flanking assault would bog down in the Valley, Napoleon decided
+to concentrate the majority of his forces in an attempt to break
+Wellington's center and intended to launch only pinning attacks
+on the British left and right wings. The French offensive began
+on the British right flank at the Chateau. Held by only 4 light
+companies of British guards, the Chateau became the focal point
+of vicious, close-range fighting. Desperate attack followed
+desperate attack until virtually all of Prince Jerome's division,
+and almost half of the rest of Reille's corps, was involved in
+the fight. Wellington, seeing the mass of uncommitted French
+troops opposite his center, resisted the temptation to reinforce
+the Chateau's defenders and chose to save his reserves for the
+upcoming frontal assault.
+
+At 1:30 that afternoon, the main French assault began. Under the
+cover of an 80 gun barrage, 3 French divisions charged through
+the valley and up the slope of the ridge. When the French reached
+the crest of the hill, they were met with withering musket fire
+at point-blank range. In order to keep his units intact through
+the bombardment, Wellington had ordered his men to lie down on
+the concealed side of the ridge. So, when the 16,000 men of
+D'Erlon's Ist corps reached the top of the rise, they were
+confronted with a mass of organized and determined British
+regulars. Nevertheless, the French fought fiercely and succeeded
+in forcing a hole in the Allied center. Before the French could
+exploit this weakness, however, General Picton and a brigade of
+his peninsular veterans charged into the fray and stopped the
+French breakthrough. D'Erlon could move no further. Wellington,
+seeing the French stalled on the ridge, called his cavalry to the
+attack. Under Lord Uxbridge's command, Lord Somerset's Household
+cavalry and Ponsonby's Union Brigade Charged into the disordered
+French and threw them off the ridge. D'Erlon's men were put to
+flight and badly mauled by the elite British heavy cavalry.
+Spurred on by their success, the British cavalry continued their
+chase until they reached the main French lines. Without infantry
+support, they were all but annihilated by French artillery and
+cavalry counter-charges.
+
+At this point, Marshal Ney was ordered to take La Haye Saint, the
+farmhouse that so nicely reinforced the Allied center. He led the
+rallied remnants of D'Erlon's Ist corps forward under cover of an
+intense bombardment and was repulsed by the dug in defenders.
+Ney, thinking that the Allies were ready to crack, called for a
+massive cavalry charge. He led forward no less than 5,000
+cavalrymen, many of them elite heavy cavalry, in a charge against
+the ridge between La Haye Saint and Hougoumont. Upon reaching the
+crest, the French were confronted with an awesome spectacle, 20
+British squares drawn up on the reverse slope of the hill,
+waiting with gleaming bayonets for the gallant French horsemen.
+The French cavalry circled the invincible squares, but without
+artillery or infantry support the charge was doomed to failure.
+The survivors fled back through the valley while Ney tried in
+vain to rally them.
+
+After a brief lull in the battle, Ney again formed an assault
+force out of the remnants of his cavalry and again charged the
+ridge. He was once more repulsed, but this time only barely.
+Wellington's troops were becoming weary and he was running out of
+reserves. After another lull in the battle, Ney decided to try
+again. This time, however, he used a proper combination of
+artillery, infantry, and cavalry and he took La Haye Saint.
+Despite heavy casualties, the French managed to storm the
+farmhouse and the nearby orchard. The British line was about to
+crack and Ney could sense it. He called to Napoleon for more
+reserves, but due to the Prussian arrival on the French right
+flank, there were none left as the Imperial Guard was being
+committed against the Prussians. Ney was forced to give up his
+gains and pulled back across the valley.
+
+The battle quieted for a short time, during which the Imperial
+Guard was placed back in reserve. Wellington brought up the last
+of his reserves and prepared for the final onslaught. At 7:00 PM
+the Imperial Guard were released to Ney and were ordered to take
+the British held positions on the ridge between La Haye Saint and
+Hougoumont. The Guard, 11 battalions of the most disciplined and
+experienced troops in Europe, marched up the ridge. Upon reaching
+the crest, an entire brigade of British troops rose up from a
+cornfield and poured withering fire into the French columns. For
+the first time, the Guard broke and ran before the enemy. With
+the cry of, "La Guard recule!", the French army began to
+disintegrate. Wellington seized the moment and counterattacked,
+putting the rest of the army to flight. Napoleon's last desperate
+gamble for victory had failed, and with it his dreams of
+rebuilding his empire.
+
+13.41 ORDERS OF BATTLE
+
+French Order of Battle
+Unit Unit      Type/Size        Men  Guns/ Eff   Wpn  Leader  Turn  X,Y
+#    Name                            Skirm
+0  54/1 LN     Infantry Reg.    962   161  68    MUS  Charlet   1  29,22
+1  55/1 LN     Infantry Reg.    1148  192  68    MUS  Charlet   1  30,21
+2  28/1 LN     Infantry Reg.    898   150  68    MUS  Bourgeois 1  29,23
+3  105/1 LN    Infantry Reg.    983   164  68    MUS  Bourgeois 1  30,22
+4  1/13L/2 LT  Lt. Inf. Reg.    938   938  88    MUS  Schmitz   1  25,24
+5  2/13L/2 LT  Lt. Inf. Reg.    937   937  88    MUS  Schmitz   1  25,23
+6  17/2 LN     Infantry Reg.    1057  177  78    MUS  Schmitz   1  25,24
+7  19/2 LN     Infantry Reg.    1032  172  68    MUS  Aulard    1  25,25
+8  51/2 LN     Infantry Reg.    1168  195  68    MUS  Aulard    1  27,23
+9  21/3 LN     Infantry Reg.    1037  173  68    MUS  Nogues    1  34,20
+10 46/3 LN     Infantry Reg.    888   148  68    MUS  Nogues    1  35,20
+11 25/3 LN     Infantry Reg.    974   163  68    MUS  Grenier   1  35,21
+12 45/3 LN     Infantry Reg.    1003  167  68    MUS  Grenier   1  34,21
+13 8/4 LN      Infantry Reg.    983   164  68    MUS  Pegot     1  36,19
+14 29/4 LN     Infantry Reg.    1146  191  68    MUS  Pegot     1  37,18
+15 85/4 LN     Infantry Reg.    631   106  78    MUS  Brue      1  36,20
+16 95/4 LN     Infantry Reg.    1100  184  68    MUS  Brue      1  37,19
+17 1/1C LT HU  Lt. Cav. Brig.   804    -   78    SBR  D'Erlon   1  44,15
+18 2/1C LT LA  Lt. Cav. Brig.   702    -   68    SBR  D'Erlon   1  45,15
+19 3/5 LN      Infantry Reg.    823   138  68    MUS  Husson    1  19,27
+20 61/5 LN     Infantry Reg.    538   90   68    MUS  Husson    1  21,26
+21 72/5 LN     Infantry Reg.    775   130  68    MUS  Campy     1  19,28
+22 108/5 LN    Infantry Reg.    687   115  68    MUS  Campy     1  20,27
+23 1/1L/6 LT   Lt. Inf. Reg.    894   894  88    MUS  Bauduin   1   7,29
+24 2/1L/6 LT   Lt. Inf. Reg.    894   894  78    MUS  Bauduin   1   8,29
+25 1/2L/6 LT   Lt. Inf. Reg.    1071  1071 78    MUS  Bauduin   1   7,30
+26 2/2L/6 LT   Lt. Inf. Reg.    1072  1072 78    MUS  Bauduin   1   8,30
+27 1/1/6 LN    Infantry Reg.    698   117  68    MUS  Soye      1   5,28
+28 2/1/6 LN    Infantry Reg.    697   117  68    MUS  Soye      1   6,28
+29 1/2/6 LN    Infantry Reg.    798   133  68    MUS  Soye      1   5,29
+30 2/2/6 LN    Infantry Reg.    797   133  68    MUS  Soye      1   6,29
+31 92/9 LN     Infantry Reg.    1038  173  68    MUS  Gauthier  1  13,30
+32 1/93/9 LN   Infantry Reg.    734   124  68    MUS  Gauthier  1  14,30
+33 2/93/9 LN   Infantry Reg.    734   124  68    MUS  Gauthier  1  15,30
+34 100/9 LN    Infantry Reg.    1118  187  68    MUS  Jamin     1  13,29
+35 1/4L/9 LT   Lt. Inf. Reg.    817   817  78    MUS  Jamin     1  14,29
+36 2/4L/9 LT   Lt. Inf. Reg.    817   817  78    MUS  Jamin     1  15,29
+37 1/2C LT CH  Lt. Cav. Brig.   1045   -   68    SBR  Reille    1   2,29
+38 1/2C LT LA  Lt. Cav. Brig.   817    -   68    SBR  Reille    1   0,29
+39 1GR/IG OG   Guard Inf. Reg.  1280  1280 98    MUS  Friant    6  23,31
+40 2GR/IG OG   Guard Inf. Reg.  1091  1091 98    MUS  Friant    6  23,31
+41 3GR/IG MG   Guard Inf. Reg.  1164  1164 88    MUS  Friant    6  23,31
+42 1GR/IG MG   Guard Inf. Reg.  520   520  88    MUS  Friant    6  23,31
+43 1CH/IG OG   Guard Inf. Reg.  1307  1307 98    MUS  Morand    6  23,31                                                       
+44 2CH/IG OG   Guard Inf. Reg.  1163  1163 98    MUS  Morand    6  23,31
+45 1LC/IG CH   Guard Cav. Reg.  1197   -   98    SBR  Lefebvre  1  33,25
+46 2LC/IG LA   Guard Cav. Reg.  880    -   98    SBR  Lefebvre  1  33,26
+47 1HC/IG GR   Gren. Cav. Reg.  796    -   98    SBR  Drouot    2   9,31
+48 2HC/IG ED   Emp. Drg. Reg.   816    -   98    SBR  Drouot    2   9,31
+49 1/11C DR    Cavalry Brig.    1110   -   78    SBR  Kellerman 1  15,31
+50 2/11C CU    Cuirassier Brig. 691    -   88    SBR  Kellerman 1  16,31
+51 1/12C CA    Carabinier Brig. 847    -   78    CRB  Kellerman 1   7,31
+52 2/12C CU    Cuirassier Brig. 791    -   88    SBR  Kellerman 1   8,31
+53 1/13C CU    Cuirassier Brig. 749    -   88    SBR  Mihaud    1  34,23
+54 2/13C CU    Cuirassier Brig. 428    -   88    SBR  Mihaud    1  35,23
+55 1/14C CU    Cuirassier Brig. 847    -   88    SBR  Mihaud    1  31,24
+56 2/14C CU    Cuirassier Brig. 667    -   88    SBR  Mihaud    1  32,24
+57 I FT FI     Corps. Art. Batt.128    -   78    12G   -        1  28,21
+58 1 FT FI     Div. Art. Batt.  128   8    78    6G    -        1  29,22
+59 2 FT FI     Div. Art. Batt.  128   8    78    6/5   -        1  25,23
+60 3 FT FI     Div. Art. Batt.  128   8    78    6G    -        1  34,20
+61 4 FT FI     Div. Art. Batt.  128   8    78    6/5   -        1  37,17
+62 1C HS FI    Horse Art. Batt. 96    6    78    6/5   -        1  45,16
+63 II FT FI    Corps Art. Batt. 128   8    78    12G   -        1  18,27
+64 5 FT FI     Div. Art. Batt.  128   8    78    6G    -        1  19,26
+65 6 FT FI     Div. Art. Batt.  128   8    78    6G    -        1   7,29
+66 9 FT FI     Div. Art. Batt.  128   8    78    6G    -        1  14,30
+67 2C HS FI    Horse Art. Batt. 96    6    78    6/5   -        1   1,29
+68 11C HS FI   Horse Art. Batt. 96    6    78    6G    -        1  17,31
+69 12C HS FI   Horse Art. Batt. 96    6    78    6/5   -        1   6,31
+70 13C HS FI   Horse Art. Batt. 96    6    78    6G    -        1  33,23
+71 14C HS FI   Horse Art. Batt. 96    6    78    6/5   -        1  33,24
+72 VI FT FI    Corps Art. Batt. 128   8    78    12/24 -        1  23,31
+73 1/IG FT GD  Guard Art. Batt. 128   8    88    12G   -        3   9,31
+74 2/IG FT GD  Guard Art. Batt. 128   8    88    12/24 -        3   9,31
+75 3/IG FT GD  Guard Art. Batt. 128   8    88    12G   -        3   9,31
+76 4/IG FT GD  Guard Art. Batt. 128   8    88    12/24 -        3   9,31
+77 5/IG FT GD  Guard Art. Batt. 128   8    88    6G    -        3  10,31
+78 6/IG FT GD  Guard Art. Batt. 128   8    88    6/5   -        3  10,31
+79 7/IG FT GD  Guard Art. Batt. 128   8    88    6/5   -        3  10,31
+80 8/IG HS GD  Gd. Horse Batt.  96    6    88    6G    -        1  34,25
+81 9/IG HS GD  Gd. Horse Batt.  96    6    88    6/5   -        1  31,26
+82 10/IG HS GD Gd. Horse Batt.  96    6    88    6G    -        2   9,31
+83 11/IG HS GD Gd. Horse Batt.  96    6    88    6/5   -        2   9,31
+                                                               
+                                                               
+Allied Order of Battle
+Unit Unit      Type/Size          Men  Guns/  Eff Wpn Leader     Turn  X,Y
+#    Name                              Skirm
+90 3/CV KG LD     KGL Cav. Brig.  2001   -    68  SBR Wellington   1  14,11
+91 4/CV LN LD     Lt. Cav. Brig.  1373   -    78  SBR Wellington   1  38,3
+92 5/CV LN HU     Lt. Cav. Brig.  1315   -    78  SBR Wellington   1   7,16
+93 6/CV LN HU     Lt. Cav. Brig.  1615   -    78  SBR Wellington   1  42,1
+94 7/CV LN HU     Lt. Cav. Brig.  1764   -    58  SBR Wellington   7  18,0
+95 1/1/GD         Guard Inf. Reg.  638  638   98  MUS Maitland     1  14,14
+96 2/1/GD         Guard Inf. Reg.  672  672   98  MUS Maitland     1  13,15
+97 1/2/GD         Guard Inf. Reg.  896  896   98  MUS Byng         1  11,17
+98 2/2/GD         Guard Inf. Reg.  939  939   98  MUS Byng         1  12,16
+99 1/3/GD         Guard Inf. Reg.  425  425   98  MUS MacDonnell   1   9,22
+100  2/3/GD       Guard Inf. Reg.  363  363   98  MUS MacDonnell   1  13,22
+101  3/3/GD       Guard Inf. Reg.  271  271   78  RFL MacDonnell   1  12,24
+102  4/3/GD       Guard Inf. Reg.  420  420   58  MUS MacDonnell   1   9,25
+103  5/3/GD       Guard Inf. Reg.  419  419   58  MUS MacDonnell   1  10,25
+104  1/3 LN       Hann, Inf. Reg. 1044   -    58  MUS Keilmansegge 1  19,10
+105  2/3 LN       Hann, Inf. Reg.  895   -    58  MUS Keilmansegge 1  20,9
+106  3/3 LT       Hann, Inf. Reg.  505  505   78  MUS Keilmansegge 1  19,9
+107  4/3 LN       Infantry Reg.   1684  636   68  MUS Ompteda      1  22,10
+108  5/3LN KGL    Infantry Reg.    463  463   78  RFL Ompteda      1  22,14
+109  6/3 LN       Infantry Reg.   1245  125   68  MUS Halkett      1  17,13
+110  7/3 LN       Infantry Reg.   1115  112   68  MUS Halkett      1  18,12
+111  1/2 NE MI    Du. Milita Reg. 1573   -    38  MUS Perponcher   1  28,10
+112  2/2 NE LN    Dutch Inf. Reg. 1260  718   58  MUS Perponcher   1  30,9
+113  3/2 NE LN    Dutch Inf. Reg.  835  140   48  MUS Perponcher   1  37,11
+114  4/2 NE LN    Dutch Inf. Reg.  849  142   48  MUS Perponcher   1  40,11
+115  5/2 NE LN    Dutch Inf. Reg.  843  141   48  MUS Perponcher   1  42,11
+116  6/2 NE LN    Dutch Inf. Reg.  815  284   48  MUS Perponcher   1  46,12
+117  1/3 NE MI    Du. Milita.Reg. 1011   -    38  MUS Chasse      11   0,10
+118  2/3 NE MI    Du. Milita. Reg.1001   -    38  MUS Chasse      11   0,10
+119  3/3 NE LN    Infantry Reg.   1076  684   58  MUS Chasse      11   0,10
+120  4/3 NE MI    Du. Milita. Reg.1224   -    38  MUS Chasse      11   0,10
+121  5/3 NE LN    Dutch Inf. Reg. 1095  183   48  MUS Chasse      11   0,10
+122  6/3 NE LN    Dutch Inf. Reg. 1262  738   58  MUS Chasse      11   0,10
+123  1/2LN KGL    Infantry Reg.   1063  107   68  MUS DuPlat       1   8,12
+124  2/2LN KGL    Infantry Reg.   1105  111   68  MUS DuPlat       1   9,12
+125  3/2 LT       Lt. Inf. Reg,   1175 1175   78  MUS Adam         1   9,10
+126  4/2 LT       Lt. Inf. Reg,    939  939   78  MUS Adam         1   8,10
+127  5/2 RI       Rifles Regiment  888  888   88  RFL Adam         1   8,9
+128  6/2 LW       Hann. Ldw. Reg. 1288   -    38  MUS Halkett      7   0,10
+129  7/2 LW       Hann. Ldw. Reg. 1253   -    38  MUS Halkett      7   0,10
+130  1/4 LN       Infantry Reg.    649   65   68  MUS Mitchell     1   6,14
+131  2/4 LT       Lt. Inf. Reg.   1381  709   78  MUS Mitchell     1   8,16
+132  1/5 RI       Rifles Regiment  418  418   88  RFL Kempt        1   24,10
+133  2/5 HI       Highland Reg.    483   48   78  MUS Kempt        1   24,9
+134  3/5 LN       Infantry Reg.   1089  109   68  MUS Kempt        1   25,9
+135  4/5 HI       Highland Reg.    798   80   78  MUS Pack         1   29,7
+136  5/5 LN       Infantry Reg.    967   97   68  MUS Pack         1   28,7
+137  6/5 LW       Hann. Ldw. Reg. 1289   -    38  MUS Best         1   33,7
+138  7/5 LW       Hann. Ldw. Reg. 1380   -    38  MUS Best         1   34,7
+139  8/5 LW       Hann. Ldw. Reg. 1329   -    38  MUS Vincke       1   36,6
+140  9/5 LW       Hann. Ldw. Reg. 1275   -    38  MUS Vincke       1   37,6
+141  1/6 LN       Infantry Reg.   1443  145   68  MUS Lambert      7   19,0
+142  2/6 LN       Infantry Reg.    866   87   68  MUS Lambert      7   19,0
+143  GD/1/BW      Bruns. Gd. Reg. 1140 1140   68  MUS Brunswick    7   18,0
+144  1/1/BW LT    Bruns. Lt. Reg.  685  685   58  MUS Brunswick    7   18,0
+145  2/1/BW LT    Bruns. Lt. Reg.  591  591   58  MUS Brunswick    7   18,0
+146  3/1/BW LT    Bruns. Lt. Reg.  691  691   58  MUS Brunswick    7   18,0
+147  1/2/BW LN    Bruns. Ln. Reg.  556   -    48  MUS Brunswick    7   18,0
+148  2/2/BW LN    Bruns. Ln. Reg.  547   -    48  MUS Brunswick    7   18,0
+149  3/2/BW LN    Bruns. Ln. Reg.  631   -    48  MUS Brunswick    7   18,0
+150  1/NAS NE LN  Dutch Inf.Reg.  1894  316   48  MUS Kruse        1   16,8
+151  2/NAS NE LN  Dutch Inf.Reg.   947   -    38  MUS Kruse        1   17,8
+152  1/CV LN DR   Cavalry Brig.   1416   -    98  SBR Uxbridge     1   20,7
+153  2/CV LN DR   Cavalry Brig.   1369   -    88  SBR Uxbridge     1   24,6
+154  1/NECVLNLA   Lt, Cav.Brig.   1237   -    58  SBR Collaert     1   19,5
+155  2/NECVLN LD  Lt, Cav.Brig.   1086   -    48  SBR Collaert     7   19,0
+156  3/NECVLNHU   Lt, Cav. Brig.   949   -    48  SBR Collaert     1   17,5
+157  1/GD FT FI   Gd. Art. Batt.   96    6    78  9/5   -          1   9,17
+158  2/GD HS      Gd. Art. Batt.   96    6    78  9G    -          1   15,14
+159  1/3ArtFT FI  Artillery Batt.  96    6    78  9G    -          1   19,12
+160  2/3ArtFT FI  Artillery Batt.  96    6    78  9/5   -          1   20,11
+161  1/2ArtFT FI  Artillery Batt.  96    6    78  9G    -          1   9,11
+162  2/2ArtHS     Artillery Batt.  96    6    78  9/5   -          1   6,12
+163  4 ArtHA FT   Hann Art. Batt.  96    6    68  9G    -          1   35,7
+164  1/5ArtFT FI  Artillery Batt.  96    6    78  9G    -          1   25,11
+165  2/5ArtHA FT FI Hann Art.Batt. 96    6    68  6/5   -          1   19,0
+166  6 Art FT FI  Artillery Batt.  96    6    78  9G    -          7   19,0
+167  1/BW FT FI   Bruns.Art.Batt.  128   8    58  6G    -          7   13,3
+168  2/BW HS      Bruns. Art. Batt.128   8    58  6G    -          7   14,3
+169  2NE FT FI    Dutch Art. Batt. 160  10    58  6G    -          1   29,9
+170  1/3NE FT HS  Dutch Art.Batt.  128   8    58  6G    -         11   0,10
+171  2/3NE FT FI  Dutch Art.Batt.  128   8    58  6G    -         11   0,10
+172  NECV HS      Dutch Art. Batt. 128   8    58  6G    -          1   18,5
+173  1/RES HS     Horse Art. Batt. 96    6    88  9G    -          1   21,10
+174  2/RES HS     Horse Art. Batt. 96    6    88  6G    -          1   16,2
+175  1RHA HS      Horse Art. Batt. 96    6    88  H5.5  -          1   11,13
+176  2RHA HS      Horse Art. Batt. 96    6    88  6G    -          1   11,12
+177  3RHA HS      Horse Art. Batt. 96    6    88  6/5   -          1   43,1
+178  4RHA HS      Horse Art. Batt. 80    5    88  6G    -          1   23,7
+179  5RHA HS      Horse Art. Batt. 192  12    88  9/5   -          1   18,8
+                                                        
+
+
+
+                           CREDITS
+
+                              
+
+                         Game Design
+                        Chuck Kroegel
+                              
+                      Game Programming
+                        David Landrey
+                              
+                      Game Development
+Chuck Kroegel, David Landrey, Joel Billings & Graeme Bayless
+                              
+                            Rules
+               Graeme Bayless & Victor Penman
+                              
+                    Historical Scenarios
+         Dick Vohlers, Joel Billings & Chuck Kroegel
+                              
+          Customized Disk Operation System (Apple)
+                      Roland Gustafsson
+                              
+                         Playtesters
+Graeme Bayless, Joel Billings, James Kucera, Dave Shelley, Robert
+Daly, John Bruning, David Heath, Richard Hooks, Mike Musser,
+                        Gunter Meyer,
+            Bill Barr, Russ Smith & Cyrus Harris
+                              
+                 Special Historical Research
+                         Mike Musser
+                              
+                  Special Historical Notes
+                        John Bruning
+                              
+                    Art & Graphic Design
+    Louis Saekow Design: David Boudreau & Peter Gascoyne
+                              
+                     Desktop Publishing
+               David Boudreau & Peter Gascoyne
+                              
+                          Printing
+              A & a Printers and Lithographers
+                              
+            (c) 1988 Strategic Simulations, Inc.
+

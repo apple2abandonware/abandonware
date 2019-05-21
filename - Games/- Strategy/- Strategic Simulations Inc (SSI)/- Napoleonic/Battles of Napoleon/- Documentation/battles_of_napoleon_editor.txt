@@ -1,0 +1,2348 @@
+                     BATTLES OF NAPOLEON
+              Strategic Simulations, Inc. (SSI)       
+                              
+                        EDITOR RULES
+                      TABLE OF CONTENTS
+                              
+                              
+                              
+14.0 SCENARIO EDITOR
+
+ù Scenario Creation Process
+ù Create A Random New Scenario
+ù Scenario Creation Parameter and Explanations
+
+15.0 ARMY EDITOR
+
+ù Organization
+ù Main Menu
+ù Army Generator Menu
+ù Editing an Army
+ù Army Editor Summary
+
+16.0 MAP EDITOR
+
+ù Map Editor Main Menu
+ù Map Editor 1st Menu
+ù Map Editor 2nd Menu
+ù Random Map Summary
+
+17.0 DEPLOYMENT OF UNITS
+
+ù Deployment Menu
+ù Deployment Summary
+
+18.0 SET SQUARES
+
+ù Square Types
+ù Set Square Menus
+
+19.0 TABLES EDITOR
+
+ù Tables Menu
+
+20.0 CHARTS AND TABLES
+
+ù Editor Tables
+ù Terrain
+ù Unit Data
+ù Readiness Loss
+ù Weapon/Range Casualty
+ù Fire and Melee Strength Modifiers
+ù Melee Mode
+ù Additional Combat Modifiers
+ù Rally
+ù Operation Point
+ù Fatigue
+ù Efficiency
+ù Disruption
+ù Disruption Recovery
+ù Leader Command Control Modifier
+ù Cavalry Charge
+ù Morale Test
+ù Entering Square
+ù OP Point Cost
+ù Additional Costs
+
+
+APPLE II AND IBM COMPATIBLE COMPUTER INFORMATION:
+
+Many of our games will work on Apple II and IBM compatible
+computers. Most of our games will work on an Apple II GS in the
+Apple II emulation mode.
+
+If you own an Apple II GS, Apple compatible or IBM compatible
+computer we suggest that you consult with our Technical Hotline
+at (415) 964-1200 any workday between the hours of 9 a.m. and 5
+p.m., Pacific Time, to see if an SSI game you're considering
+purchasing is compatible with your computer. If we have
+insufficient data to determine compatibility, you may wish to
+purchase the game and test for compatibility yourself. If the
+game proves to be incompatible, you may return it within 14 days
+with your dated receipt and we will refund your money. Or, if you
+return the game within 30 days, you may exchange the game for
+another.
+
+BATTLE OF NAPOLEON
+EDITOR RULES
+
+
+14.0 SCENARIO EDITOR
+
+The scenario Editor is a very powerful tool that will allow you
+to build you own scenarios or modify existing ones. You can even
+modify the tables that the program uses during the game execution
+and the objectives that the computer solitaire player uses (see
+section 19.0). However, because of its complexity, it is highly
+recommended that you use the Editor only after you are fairly
+familiar with the game system.
+
+Before you can create a new scenario, even a random one, you must
+have a blank disk ready. If it has not been formatted into an SSI
+save disk, you will be prompted and told how to initialize the
+disk for use by the Program. This blank disk is used by the
+Editor as a place to store data during the scenario creation
+process.
+
+To access the Scenario Editor from the Main menu, choose "C" to
+create a random new scenario, "G" to enter the Editor to generate
+a new scenario, and "E" to edit a new scenario or saved game.
+
+14.1 Scenario Creation Process
+
+Whether you are creating a new scenario, editing an old one, or a
+combination of the two, you must follow a very specific and fixed
+path in the creation/editing of your scenario. The steps are as
+follows:
+
+Army Editing/ Building
+Map Editing/ Building
+Unit Deployment
+Set Squares
+Tables Editing
+
+This path may not be altered and must be followed through to
+completion. Once you have gone through all five steps with a
+scenario, performing the necessary tasks in each, you will be
+asked to input the name of the new scenario and the scenario will
+be saved. If you skip any steps and you are not editing an
+existing scenario, the information needed will be brought in from
+the Quatre Bras scenario. For example, if you skipped deployment,
+your units would be in identical X,Y positions to the Quatre Bras
+scenario. It is highly recommended that you perform all the steps
+before completing the scenario. Remember, though, that you may
+always come back and edit the scenario.
+Once at the end of the scenario creation process, you will be
+prompted to rename the scenario. Because the scenario is
+automatically saved under the name "NAP" during the creation
+process, you should rename it to a name of your choosing.
+
+14.2 Create a Random new Scenario
+
+This option, when selected from the Main Menu will generate a
+completely random scenario for instant enjoyment. When you select
+this option, you will be prompted to have an SSI save disk ready.
+The Editor must save the scenario files to the disk during the
+creation process. If you do not have one ready, you may format
+one during this step. The next option will ask you how many
+selection points to use for the French side and then for the
+Allied side. This represents the size of the forces involved (See
+section 15.31 for a more thorough explanation of purchase
+points). After the computer has generated the units to be used on
+each side, it will save the army files to the save disk you used.
+The computer will then prompt you for several disk swaps and will
+save each part of the scenario as it is created. Once everything
+is ready, the units will be deployed, the objectives will be set,
+and you will be asked to rename the file. Because the file is
+automatically saved under the name "NAP", you should now name
+this file as desired. Once you have done this, the game will take
+you to the Game Menu (see section 4.1) and the game will begin.
+
+14.3 Scenario Creation Parameters and Explanations
+
+Because of the complexity of the scenario Editor, it is
+imperative that the basic concepts behind the Editor be
+understood before using the Editor to create a scenario. In order
+to preserve maximum flexibility, the Editor will allow you to
+create whole scenarios of just parts of scenarios. As an example,
+you could begin the scenario creation process by creating an
+Allied army and a French arm and then save them off separately so
+that you could use that army in another scenario. You can also
+have the computer randomly generate any part of the scenario that
+you wish. For instance, you could want to control the army
+creation step, but want the computer to randomly generate the map
+and deployment. Again, this is possible.
+
+As a rule, if you are trying to create a new scenario from
+scratch, you should follow all of the steps in sequence. You may
+use the (R)andom function for sections you don't wish to create.
+In addition, you should normally use the default settings for the
+tables as these are to be considered "historical" in most
+circumstances.
+
+15.0 ARMY EDITOR
+
+Upon entering the Editor, the first menu you will be presented
+with will be the Main Menu for the Army Editor. This menu will
+allow you to create the two side for the scenario you are
+creating. At this point you should examine section 15.2, the Main
+Menu description.
+
+The first, and most important thing to learn about the Army
+Editor is the concepts behind leaders and their command
+structures. During the usage of the Army Editor, you will have to
+go through three distinct steps: Leader Creation, Unit
+Assignment, and Unit Creation.
+
+During the Leader Creation step, you will choose the names,
+levels of command, and bonus levels (0 to 15) for the leaders and
+determine the order of which leaders report to which other
+leaders. The most important thing to understand in the Leader
+Creation step is how Leader Organization works. All leaders have
+a higher level commander that they report to. This determines the
+order of command and is more fully explained below.
+
+In the unit Assignment step, you assign the units their names,
+their sizes (from Batt. to Brig.), and tell them which leaders
+they report to. This determines the Unit Organization.
+
+Finally, you will give the specifics on each unit in the army
+that you are editing, giving such details as number of men,
+weapon, and so on.
+
+15.1 Organization
+In THE BATTLES OF NAPOLEON, as in history, all military
+organizations are driven by Command Control. All units have
+leaders that answer to their superior leaders. This organization
+is the most difficult thing to understand in the Editor, and is
+completely vital to the game.
+
+Leaders are organized into a command structure that the game uses
+during the Command Control phases of the game. In general, an
+army will consist of an Army Commander, with 3 or 4 Corps
+Commanders under him, with 2 or 3 Division Leaders under each of
+the Corps Commanders. Because a number of strange organizations
+occurred in historical situations, we have allowed the maximum
+flexibility possible in the creation of the Leader Organization
+of an army. Therefore, the computer assumes nothing in regards to
+the Leader Organization. You must tell the computer which leaders
+report to which other leaders and what command level they are.
+You must put lower level commanders under the command of higher
+level commanders. If you don't, the game will prompt you to
+change the leaders that don't fit into the command structure when
+you Reorganize (see 15.41).
+
+There is a similar requirement for the Unit Organization. It is
+imperative that all units be under the command of a leader. If
+they aren't, then they will have no objectives and will become
+independent units. This is a mistake because the number of OP
+points received will be lower than normal and the "independent
+units" will not be forced to obey "historical" restrictions.
+
+15.11 HISTORICAL DESIGNATIONS AND ORGANIZATIONS
+Although this editor will not prohibit you from creating non-
+historical organizations, it is suggested that quasi-historical
+organizations be used in most cases. Here are a few examples to
+help you understand how to do that.
+
+The sizes for units in THE BATTLES OF NAPOLEON go as follows:
+
+Battalion - A group of men ranging from a couple of hundred to
+over a thousand men in size. Battalions were generally organized
+into Regiments (for the French and many Allies) or Brigades (for
+the British).
+
+Regiment - Generally a group of 2 to 5 battalions that operated
+together. Several of the scenarios use demi-regiments (1/2
+regiment units).
+
+Brigade - This is the next level of command up from the Regiment.
+Although the British generally didn't use Regiments for combat
+organizations, they did use Brigades. Brigades usually consist of
+2 regiments (or as many as 8 battalions for the British).
+
+Division - This is the lowest level of command that one would
+find operating alone in combat. Divisions consisted of 2 to 4
+Brigades.
+
+Corps - During the Napoleonic Era, the Corps was just a small
+Army, often with integral artillery and cavalry units. A Corps
+for the French usually consisted of 3 Infantry Divisions, 1
+Cavalry Division, and an Artillery Division (however, artillery
+were usually organized into Batteries of 6 - 12 guns or Grand
+Batteries 30+ guns).
+
+Army - This is the highest level of command ever found on a
+battlefield. As such, there generally will only be 1 Army
+Commander on each side during a battle. This is not a
+requirement, however. Armies consist of multiple Corps.
+
+15.2 Main Menu
+
+The first menu you will reach upon entering the Editor is the
+Main Menu for the Army Editor. This menu has the following
+options:
+
+(C)ontinue - This option takes you past the Army Editor and into
+the Map Editor. It should only be selected once both the French
+and Allied armies have been selected. There is a verification
+question, so you will be asked Y/N before it proceeds.
+
+(G)enerate Army - This is the option you select either to build
+an army with Selection Points (see section 15.31) or to randomly
+select one. Selecting this choice will take you to the Army
+Generator Menu (see section 15.3).
+
+(E)dit an Army - Choosing this will allow you to custom create a
+new army, for either the French side or the Allied side (see
+section 15.4).
+
+(L)oad Army File - This option allows you to pull in an army file
+from another scenario. This will allow you to use an army in
+multiple situations without having to recreate the army several
+times.
+
+(S)ave Army File - This option allows you to save an army
+separately from the scenario you are creating/ editing. This
+allows you to make a disk full of armies for later use in other
+scenarios (through use of the (L)oad Army File command).
+
+15.3 Army Generator Menu
+
+This sub-menu is where you will create armies, but not completely
+from scratch. If you wish to generate an army with random
+leaders, and a specific number of units (e.g., 20 Infantry, 5
+cavalry, and 3 artillery) in a specific year of your choosing,
+you should select the (G)eneral Standard Unit Selection from this
+sub-menu. This will create an army quickly, but with some general
+direction given. Note specifically that you may use Selection
+Points (see section 15.31) to create this army and the computer
+will try to create an army with the number of units you desire
+but within the allotted point limit. If the point limit is
+reached, the number of units may not be as you wished.
+
+The (S)tandard Unit Selection option allows you to choose
+standard units from the Standard Units Table (see section 20.3).
+This method also allows usage of the Selection Points system and
+is the best method for creating scenarios for two players.
+
+(R)andom Generated Army is an option that creates a random army
+of a specified size (again, Selection Points are use). In this
+case, the computer will generate all of the necessary aspects of
+the army, including the organization and unit types.
+
+15.31 SELECTION POINTS
+Selection Points are points used to purchase units for an army.
+The question of whether or not to use the Selection Points method
+of choosing units is presented as "Purchase Units (Y/N)". The
+number of points to be used is determined by the player, and
+generally should be equal for the two sides. The cost of a unit
+in Selection Points is listed in the Unit Tables (section 20.3)
+and is based on the number of men in the unit, their firepower,
+Efficiency, and several other factors.
+
+15.4 Editing an Army
+
+Editing an army is, as previously mentioned, the most complex
+part of the Editor program. The aforementioned three step process
+must be done completely and correctly or the army will not
+perform as desired.
+
+15.41 LEADER CREATION
+This is the first of the three parts of the army creation
+process. During this stage, you will create the "chain-of-
+command" for the army by naming all of the leaders, assigning the
+leaders their leadership bonuses (see section 9,0), and telling
+each leader who to report to. These factors must all be
+completed, or leaders will not give the proper command-control to
+their subordinates and objectives will be incorrect.
+
+When the Leader Organizational Table first appears on the screen,
+it will display either the table you are editing from a
+previously created scenario, a randomly created table if you
+chose the (G)eneral Standard Unit Selection (see section 15.3),
+or the table from the Battle of Quatre Bras (if you are creating
+a new, custom scenario) as sample data. You may rename any or all
+of the leaders, change any or all of their bonuses, and reassign
+the command structure.
+
+The leader Organizational Table displays the vital information
+about the army's leaders in two sets of four columns, with the
+first column being the leader reference number (leader #, the
+second column being the size of unit that the leader commands
+(e.g., Napoleon is usually an ARMy commander and in Quatre Bras
+in the French army, Bauduin is a BRiGade commander), the third
+being the name of the leader, and the fourth being the leader #
+that the leader in question answers to. This last column is very
+important because it determines the chain of command.
+
+Example:
+The concept of telling each leader who his superior is very
+simple as a concept, but is very complex in execution. As an
+example, try generating a new scenario. Once you are to the Main
+Menu of the army editor (as outlined above), you should choose
+(E)dit Army. You are then asked whether you wish to edit an
+Allied or a French army. Choose French. At this point, you are at
+step 1 of the army creation process, the Leader Creation Step.
+The Leader Organizational Table for the French forces at Quatre
+Bras is the default data automatically loaded in by the editor,
+and is convenient to use as an example. Before changing anything,
+examine the table. First, you will notice that Ney is leader # 0,
+has a SIZE of ARM (which means he is an ARMY commander), and his
+SUPerior commander is Leader # 61 is reserved for leaders without
+superiors, and therefore means that Ney answers to no one on the
+field. He is the supreme commander for the French forces in this
+battle.
+
+Going down the list, you will find that there are two Corps
+commander, Reille and Kellerman, who answer to Ney (their SUP #
+is 0 and Ney is leader # 0). As a general rule, Corps commanders
+usually have several divisions under them, each with two or three
+brigades under them. However, Kellerman's Corps has but two units
+under him, and they are BRIGades! This is because historically
+only a small part of Kellerman's Corps was present at Quatre
+Bras. This is only one example of the myriad of possible strange
+situations that may occur in the Leader Creation Step.
+
+The leader that are listed as ``X" with varying leader sizes and
+bonuses are all unused leaders. They are assigned the name "X" in
+order to allow them to be recognized as non-leaders by the
+program.
+
+The menu on the bottom of the Leader Organizational Table follows
+all of the conventions used so far in the program. The first
+letter of the desired command is highlighted to indicate that
+pressing this key will activate the chose command. The commands
+available are:
+
+<SPACE> - moves the cursor from the current leader to the next
+leader in the table.
+
+(P)rior - moves the cursor from the current leader to the
+previous leader in the table.
+
+(C)ontinue - takes you from the Leader Creation step to the Unit
+Organization step.
+
+(E)xit to Main Menu - allows you to exit from the Leader Creation
+Step back to the Main Menu of the Army Editor.
+
+(R)eorganize Leaders - will automatically reorganize the chain of
+command to prevent any impossible situations from occurring. This
+step is performed automatically upon pressing the (C)ontinue key.
+
+(S)ize - will cycle through the leader sizes until the
+appropriate one is found. In order to continue going through the
+leader sizes keep pressing the (S) key.
+
+(B)onus - displays the Leadership Bonus for the leader in
+question and allows you to change it by pressing the (B) key.
+
+<RETURN> - allows you to edit the leader name. The maximum length
+of a leader name is 8 characters. However, there is a total
+character limit that cannot be exceeded. This limit is constantly
+displayed in the lower right of the menu and is listed as # CHRS
+LEFT. The number after this is the number of characters left for
+the names of the leaders for the army being edited. In addition,
+renaming a leader is how you get to change the leader's superior.
+After renaming a leader, you are asked to type in the leader # of
+the desired superior.
+
+15.42 UNIT ORGANIZATION
+The next step after the Leader Creation process is Unit
+Organization. This step is reached by pressing the (C)ontinue Key
+from the Leader Organizational Table menu listed above. The
+computer will organize things for a moment and then you will be
+presented with the Unit Organizational Table. The table looks
+similar to the Leader Organizational Table, but with a few
+changes. The leader information area is compressed, giving room
+for the addition of two lines just above the menu. These lines
+give the information necessary for each unit.
+
+The unit information displayed shows the unit #, the unit size,
+the unit name, the unit's superior leader, and the leader that is
+attached to the unit, if any. For example, lets examine the unit
+organizational table for our custom scenario example for above:
+
+Example:
+After finishing with the Leader Organizational Table in our
+previous example, we hit the (C)ontinue key, and proceeded to the
+Unit Organization step. When first presented with the Unit
+Organization Table, we see the leaders we just edited listed in a
+short form above, with a unit listing in the middle of the screen
+and a menu below. The unit listing is the portion we will be
+concerned with.
+
+The unit listing should read as follows:
+
+##   SIZE   NAME    SUP LDR   ATTACHED
+0    BATT.  1/L2    HUSSON    HUSSON
+This is the organizational information for the first unit in the
+French army. This unit is unit # 0, a battalion, and is named
+"1L/2", or the 1st Light Infantry Battalion of the 2nd Infantry
+Regiment. The unit is commanded by General Husson, and the good
+general is personally attached to this battalion. If, at this
+point, we hit the "n" key, we will be presented with the
+identical information for the next unit in the army, unit # 1.
+This unit is also a BATTalion, but is named 2L/2. It is also
+commanded by General Husson, but as the general cannot be in two
+places at one time, he is not attached to this unit.
+
+The menu at the bottom of the Unit Organizational Table is
+similar to the one at the bottom of the Leader Organizational
+Table, and uses the same conventions.
+
+(C)ontinue - this allows you to proceed to the third step in the
+army creation process, the editing of the individual units.
+
+(G)oto - allows you to go to a specific unit number to edit it.
+This prevents having to scroll through a huge army to find the
+individual unit in question.
+
+(N)ext unit - is the key used to scroll through the army one unit
+at a time and takes you to the next unit in order of unit number.
+
+(P)rior - is identical to (N)ext except that it works backwards,
+scrolling you in reverse through the army.
+
+(R)eorganize - is the step used to check for mistakes and
+impossible situations in the army. This prevents a leader from
+being attached to two units at once and such things. This step is
+performed automatically whenever you his the (C)ontinue key.
+
+(S)ize unit - allows you to change a unit's size from BATTalion
+on up through BRIGade, if desired.
+
+<RETURN> allows editing of the unit, and is needed to change the
+unit name, superior leader, or attached leader.
+
+(E)xit to Main Menu - provides a quick exit to the main menu. As
+all information is held in memory, this is a non-destructive
+exit.
+
+Note that the names of the units cannot be longer than 8
+characters in length and that the unit names on a side have a
+specific limit on the number of characters usable. This Limit is
+constantly displayed in the lower right corner of the menu, CHRS
+LEFT: and is updated after each unit is edited. This limit may
+not be changed or exceeded. Also note that, for computer design
+reasons, each army is limited to 30 leaders and 90 units.
+
+15.43 UNIT EDITOR
+The unit editor is the final step in the Army Creation process,
+and is the most detailed and demanding. In the unit editor you
+will choose the number of men in each unit and every other
+important piece of information about the unit. The items are as
+follows:
+
+UNIT # - shows the unit number, as defined above, and is the
+reference number for the unit.
+
+UNIT NAME - appears just to the right of the unit number and is
+the name assigned during the Unit Organizational step.
+
+# MEN - is the number of men in the unit. This number may not
+exceed 3000. If this number is set to 0, then the unit will not
+appear during the deployment step and is assumed to be an unused
+unit.
+
+# SKIRM. - represents the number of men in the unit capable of
+skirmishing. This number may not exceed the number of men in the
+unit.
+
+GUNS: - is the number of artillery pieces in the unit. This
+number may never exceed 30.
+
+TYPE 1 - ranges from 0 to 2 and is an indicator of the type of
+unit : 0 represents infantry, 1 cavalry, and 2 means artillery.
+
+TYPE 2 - is the unit "form" and is used to differentiate various
+types of troops. The chart of the type 2s is in section 20.1.
+
+TYPE 3 - is reserved for special information about the unit, and
+ranges from 0 to 28, with 28 being "no special". See section 20.1
+for this chart.
+
+NATION - Shows the unit's nationality and is a number ranging
+from 1 to 18. See section 20.1 for the chart of nationalities.
+
+WEAPON - displays what weapon the unit is armed with. Refer to
+the chart in section 20.5 for a listing of weapons and their
+weapon numbers.
+
+MAX. EFF - is a simple numerical rendering of the maximum
+Efficiency of the unit. This number ranges from 2 to 9, with 2
+meaning the unit has a maximum Efficiency of 28 and 9 indicating
+a maximum of 98 Efficiency. This in not the indicator of the
+unit's starting Efficiency, but the maximum it could achieve
+given time to rest. This allows for units to start "tired" or
+"depleted" and then "regroup" during the game.
+
+EFFICIENCY - is the starting Efficiency of the unit. The scale is
+from 0 to 98.
+
+FATIGUE - represents the amount of Fatigue the unit has to start
+with. As most of the time the units will start fresh, this number
+is often 0.
+
+OP MODIFIER - is a bonus given to special units giving them more
+OP points. This bonus ranges from 0 to 4, with only cavalry
+usually getting the bonuses of 2 or higher. Light infantry often
+will get an OP modifier of 1. This number may not be negative.
+
+REINF. TURN - is the turn that the unit will appear on the maps
+as a reinforcement . If this turn is set to 0 or 1, the unit will
+start on the map. Otherwise, the unit will appear on the
+specified turn at the specified reinforcement square, as set in
+the set squares portion of the editor (see section 19.0).
+
+REINF SQ - is the square where the unit will appear on the maps
+as a reinforcement. This square should only be used by forces of
+one side. It gets very busy when units of both sides appear as
+reinforcements at the same reinforcement square.
+
+MELEE VALUE - is a number ranging from 1 to 9 that represents the
+relative melee strength of the unit. As a general rule, infantry
+should range in value from 1 to 5, with 5 being the French
+Imperial Guard or an equally skilled unit, and cavalry should go
+from 6 to 9.
+
+FORMATION - shows the initial formation of the unit. Refer to the
+chart in section 20.1 for a summary of the formations and their
+respective numbers.
+
+DISRUPTION - allows you to start units with Disruption levels.
+This should only be done in the case of scenarios where units
+have theoretically already been in combat.
+
+AMMO - provides a method for starting units with less than the
+normal 7 shots of ammunition.
+
+FACING - is the initial facing of the units and corresponds to
+the compass in section 5.131.
+
+READINESS - is the starting Readiness level for the unit. This
+number ranges from 0 to 7 and should normally start at 5.
+
+% SKIRM OUT - is the percentage of skirmishers deployed at the
+beginning of the game. If you select this option, you will be
+presented with the numbers 0-4, with each number representing a
+25% increase in the skirmisher out percentage. Thus, if you
+select 3, the unit will have 75% of its skirmishers deployed at
+game start. This is reflected on the screen.
+
+ROAD MODE - shows whether or not the unit begins the game in road
+mode.
+
+CAV RETREAT - option is only available to cavalry units (units
+with a Type 1 number of 1) and simply allows you to start units
+with this toggle set to yes.
+
+ADVANCE - allows you to toggle the advance flag to yes.
+
+FRONTLINE - provides a method for selecting which units in a
+stack are frontline at game start.
+
+SKRM IN/OUT - is, as the previous three items, a toggle that
+tells whether or not skirmishers are deployed at game start. If
+this toggle is set to N, no skirmishers will be deployed at game
+start, regardless of the setting of the SKIRM OUT %.
+
+The menu at the bottom uses the same conventions as the pervious
+army editor menus. It offers 1 new option, (S)kip 5 items, which
+allows you to move more rapidly through the unit to edit a
+specific part of the unit's statistics.
+
+15.5 Army Editor Summary
+
+Once you hit the (C)ontinue key from the Unit Editor, you will be
+sent back to the Army Editor Main Menu. At this menu you will be
+able to edit another army, go back through the army you just
+finished, or load in a separately saved army. Once you are
+through editing both the French and the Allied armies, you may
+hit the (C)ontinue key and you will proceed to the Map Editor.
+Once you do this, you may not return to the Army Editor until the
+scenario is complete. Of course, if you have made a mistake and
+need to go back, the best way to do this is to finish the
+scenario and then go back and re-edit the scenario, using the
+Edit Scenario option from the Main Menu.
+
+
+16.0 MAP EDITOR
+
+The second step in building a scenario is in creating the map.
+There are several options that you can choose here, ranging from
+using a map that you have previously created and saved off
+separately to having the computer create an instant map for you
+to use. Random maps are recommended for any do-it yourself
+scenarios that are not based on a specific historical event as
+they are different every time and will make each scenario unique.
+
+16.1 Map Editor Main Menu
+
+The Map Editor Main Menu uses the following commands:
+
+(C)ontinue - performs the same function as elsewhere in the
+Editor program. It takes you out of the current Menu and on to
+the next step in the editing process. In this case, it takes you
+out of the Map Editor and on to the Deployment step.
+
+(E)dit Map - allows you to edit an existing map and takes you to
+the Map Edit 1st Menu (see 16.2).
+
+(L)oad a Map - lets you bring in a map that was previously saved.
+Remember that you must use the (S)ave Map command from this menu
+in order to save the map separately from the scenario for use
+with other scenarios. Otherwise, the map is integrated into the
+scenario and is not usable with another scenario.
+
+(N)ew Map - clears the current map, allows you to choose the map
+size, and then takes you to the Map Edit 1st Menu (see 16.2). The
+size of the map is limited to 1600 squares total, so if you
+choose a size of greater than 40 squares in one direction, you
+may be limited to less than 40 squares in the other direction.
+The minimum map size is 12 by 12.
+
+(R)andom Map - creates a new random map. This takes you to a
+special sub-menu that will allow you to create another map, edit
+the existing one, or save the existing one. See 16.4 for more
+details.
+
+(S)ave Map - allows you to save the map separately so that you
+may then use it in future scenarios.
+
+16.2 Map Editor 1st Menu
+
+The menu reached by selecting either (E)dit Map or (N)ew Map is
+the Map Editor 1st Menu (called the 1st Menu because there is a
+2nd level of menu beneath this one). This menu allows you to
+place any type of terrain on the map. The commands available are:
+
+(N)ew Map- has the same effect as selecting this option from the
+Map Editor Main Menu (see 16.1).
+
+(E)xit - takes you back out to the Map Editor Main Menu.
+
+(O)ther Map - allows you to examine the map from a "strategic"
+view with little definition, but more viewing area. This is just
+like the "strategic view" available during the game (see 6.09).
+
+Add (T)errain - is the function you select to place a specific
+terrain type in the cursor square. The square the cursor is in is
+represented by the highlighted square. The cursor is moved by the
+chosen movement compass (5.131). After selecting the square you
+wish to change with the Add (T)errain key, the terrain type you
+place is chosen by typing in the number of the terrain type you
+want. The list of terrain types is available in section 20.1.
+
+(A)uto Terrain - is a special option that allows you to rapidly
+place many of the same terrain type. To enable this feature,
+press the (A) key and then select the terrain type you wish to
+place in the cursor location and other adjacent locations. Once
+you input the terrain type, the desired terrain type will appear
+in the cursor location and a special sub-menu will appear,
+informing you that your only two options are to move the cursor,
+placing the selected terrain type in the new square occupied by
+the cursor, or to return to the 1st Menu. Once you return to the
+1st Menu, the (A)uto feature is deselected, allowing you to move
+the cursor without placing terrain.
+
+(M)enu 2 - takes you to the Map Editor 2nd Menu (see section
+16.3).
+
+In addition to the above commands, there are several bits of
+information listed on the Map Editor 1st Menu. They include the
+terrain type and terrain number in the square currently occupied
+by the cursor, the elevation of the square currently occupied by
+the cursor, and the X,Y, coordinates of that square. For example,
+if the following line was on the bottom of your Map Editor 1st
+Menu:
+
+TERRAIN: WOOD/RIDGE 55 (2) X,Y: 15,23
+the information would mean that the cursor is currently in square
+15,23 and that the square is a level (2) elevation woods/ridge
+square with a terrain number of 55 (see section 20.2 for details
+on the terrain types).
+
+The Map Editor 2nd Menu is simply an extension of the 1st Menu
+that allows several special functions.
+
+16.3 Map Editor 2nd Menu
+
+The Map Editor 2nd Menu is accessed through the 1st Menu and
+assist you in building a map quickly and easily. It allows you to
+build specific terrain features by telling the computer that you
+want to place a road, and then tracing the path the road takes.
+The computer will then automatically figure out the correct
+terrain types for the turns you make, and place the appropriate
+terrain type. The commands available are:
+
+(R)eturn to Menu 1 - takes you back to the Map Editor 1st Menu.
+
+Woods/Ri(D)ge - creates a wooded ridge. You can then trace the
+path of the ridge and the computer will follow. Of course, if you
+make a hill with this command, don't forget to raise the level of
+the clear squares in the middle, otherwise the hill will simply
+be a ring of ridge with a sunken center.
+
+R(I)dge - is just like Woods/Ridge, but without the woods.
+
+R(O)ad - allows you to lay a road. Remember that his road will
+not go "over" hills automatically. You must do this manually. The
+2nd Menu terrain will simply overwrite any terrain that is "run
+over".
+
+(S)tream - as road, but with a stream.
+
+Ri (V)er - as stream, but with an impassable river.
+
+(W)oods/Road - as with a road, but this time a wooded road.
+
+S(U)nken Road - just like a road, but a sunken road instead.
+
+Terrain is placed by selecting the desired terrain type and then
+moving the cursor in the desired direction. The options offered
+by the Editor, in regards to the direction you may move the
+cursor once you have selected a terrain type, are the only legal
+options for that terrain type.
+
+16.4 Random Map
+
+Random maps can be created by selecting the random map function
+from the Map Editor Main Menu. Once you have selected this
+function, you will be presented with a menu allowing you to set
+various levels for the major terrain features. Setting the item
+to level 1 will give you less of an item, while level 3 will give
+you more.
+
+16.5 Summary
+
+At this point, you should have completed all army editing and any
+map editing desired. The only remaining steps are deploying the
+armies, modifying the tables if desired, and setting any
+important squares needed. Pressing the (C)ontinue key from the
+Map Editor Main Menu will take you directly into the Deployment
+phase and will present you with the Deployment Main Menu.
+
+
+17.0 DEPLOYMENT OF UNITS
+
+The first menu that appears in the Deployment phase of the
+editing procedure is the decision as to whether or not you wish
+to (D)eploy Units or just (C)ontinue on to the Tables Editor. If
+you choose (D)eploy Units, you will be presented with another
+decision. In this case, you must decide whether to use (R)andom
+Deployment or (M)ap Edge Deployment. Random deployment means that
+the computer will deploy the units on the edges in a random
+fashion whereas Map Edge Deployment allows you to choose which of
+the four compass point (North, East, South, and West) the two
+armies set up on. Once these questions have been answered, you
+will be presented with the Deployment Menu.
+
+17.1 Deployment Menu
+
+The Deployment Menu is, for all intents and purposes, identical
+to the Cursor Menu (section 6.0). In addition, once you access a
+unit through use of the (SPACE) command, you will be presented
+with a different menu with may similarities to the Command Menu
+(section 6.2). The Deployment Menu commands are identical to 6.0
+with the following exceptions:
+
+(A)dd Unit - adds a unit to the map. This is only necessary if
+you are editing a previously created scenario and you have added
+units since the last time you edited the scenario. Then you may
+use this command to add a specific unit to the cursor location.
+
+(E)xit to Main Menu - takes you out to the Deployment Main Menu
+where you may either choose to (D)eploy Units or (C)ontinue on to
+the Squares Editor.
+
+17.11 Deployment Sub-Menu
+
+The Deployment Sub-Menu accessed by hitting (SPACE) while the
+cursor is over a unit has the following options:
+
+(R)oad Mode: - this is a toggle. The display directly to the
+right of this command in the menu section of the screen displays
+the current status of the unit. If you wish to change the unit in
+question into or out of road mode, press the (R) key.
+
+(S)et Mode: - this is also a toggle, just like Road Mode.
+However, there are several modes, each corresponding to the
+formations listed in section 6.35. To change the units mode,
+select the (S) key and then choose the desired formation from the
+formations listed.
+
+(E)lim - is an option included to allow you to delete a unit that
+shouldn't be on the map. This is only necessary if the scenario
+is a previously created one being edited and there are units on
+the map that were removed. In that case, use this option to
+delete the unit in question.
+
+(N)ext Unit - simply takes you from the unit you have currently
+selected to the next highest unit in numerical order. For
+instance, if you are editing unit #13, pressing the (N) key will
+take you to unit # 14.
+
+(U)nit - allows you to select the next unit in a square. This is
+identical to the (U) command in the Command Menu (see section
+6.1).
+
+(Q)uit - takes you back to the Deployment Menu.
+
+(D)ir: - allows you to change a unit's facing during the
+deployment phase. The direction the unit is facing is displayed
+just to the right of the (D)ir: on the menu.
+
+To place a unit in a square, move the unit to the desired
+position and hit (N)ext or (Q)uit.
+
+In addition to the above commands, the Deployment Sub-Menu uses
+the standard cursor information, to include the X,Y coordinates
+and the chosen movement compass. See section 5.13 for details.
+
+17.2 Deployment Summary
+
+The deployment phase allows you to place the units for both side
+on the map in a specific manner to allow recreation of specific
+historical battle situations. Once deployment is complete,
+pressing the (C)ontinue key will take you into the Squares
+Editor. As before, you may not go back to a previous part of the
+editor once you go on, but you may re-edit a scenario once you
+have addressed all five parts to the editor.
+
+
+18.0 SET SQUARES
+
+Because the Editor is capable of creating scenarios of so many
+varying types, there must be some way of saying that one
+objective is worth more than another, where reinforcements come
+in, and so on. Therefore, there is the Squares Editor. Using the
+Squares Editor is known as "setting the squares" and this part of
+the editing process called the Set Squares phase.
+
+18.1 Square Types
+
+The complete list of squares able to be changed in the Set
+Squares phase is as follows:
+
+Victory Squares - are how you choose the value of a square in
+victory points. A square may be worth a lot to one side for
+capture, but little or nothing to the other side for capture.
+Rear Area - the computer opponent focuses its attack/defense on
+these squares. It represents the supply source for the army.
+
+Reinforcement Squares - are numbered 1 through 8 and should be
+remembered in regards to the reinforcements created in the Army
+Editor through use of the Reinf Turn and Reinf Square options.
+
+Computer Defensive Lines - provide a method of telling the
+computer three distinct lines which represent the places to put
+its troops if winning, losing, or stalemating. They simply
+provide a guideline to the computer opponent on where to line up
+its troops.
+
+Artillery Objectives - are again for the computer opponent and
+allow you to set up locations where you would like a computer
+opponent to move its artillery pieces.
+
+Special Computer Objectives - provide a method of giving a
+computer opponent some idea of priorities.
+
+18.2 Square Set Menus
+
+Although each of the square set options has its own menu, the
+menus are almost identical. The total list of options is as
+follows:
+
+(E)xit - takes you directly out to the Set Squares Main Menu.
+
+(1-9) or (0-8) moves - is just the chosen movement compass (see
+section 5.131).
+
+(N)ext - scrolls through the squares of the type you are
+currently editing. For example, if you are editing Allied Victory
+Square #4 and you hit (N), you will go to Allied Victory Square
+#5.
+
+(S)et Sq. - tells the editor to make the X,Y coordinates of the
+square you are editing, Allied Victory Square #4 for example, and
+change it to be that of the cursor location. This means that if
+you move the cursor to 15,15 and then press the (S) key, you will
+set the square in question at 15,15.
+
+(G)o ToSQ.- Moves the cursor to the square being modified.
+
+(C)ontinue - proceeds to the next type of square to edit. If, for
+instance, you are editing the French Victory Squares and you hit
+the (C) key, you will go on to the Allied Victory Squares. If you
+do this on the last square type, it will put you back to the Set
+Squares Main Menu.
+
+(D)el - allows you to clear a square so that it doesn't exist.
+
+In addition to the menu options, the X,Y location, terrain type,
+and elevation of the square currently occupied by the cursor is
+listed on the bottom line of the menu.
+
+18.21 VICTORY SQUARES
+When you are setting victory squares, you have certain
+limitations. First, no square may have a victory point value of
+more than 12700 points. In addition, there can only be 8
+objectives on each side. When you initially enter the Set Squares
+phase, the computer automatically assigns what it thinks are
+reasonable objectives and victory squares. If you wish to change
+them , you may. If you delete them, it assigns the deleted
+victory square an X,Y location of 255,255.
+
+18.22 REAR AREA SQUARES
+The rear area squares are set automatically by the computer upon
+entering the Set Squares phase. They represent the location of
+the baggage train, or the direction enemy units would have to
+travel to reach the baggage train, for the appropriate side.
+
+18.23 REINFORCEMENT SQUARES
+The 8 reinforcement squares may be used in order by forces of
+either side. It is possible to have units from both sides appear
+in the same reinforcement square, even on the same turn, so
+special care must be taken to prevent such from happening, unless
+this is a desired effect.
+
+18.24 DEFENSIVE LINES
+The defensive lines represent lines that the computer opponent
+will use to set up its position. There are three lines for each
+side and each line has four squares that form it. These lines are
+chosen by the computer based upon the situation it finds itself
+in and the strategy chosen. Note that the computer will
+automatically set up an additional defensive line around the rear
+area square if the area is threatened.
+
+Each line is made up of 4 points. These points form an intended
+line, usually shaped rather like a small hill, with the first
+point being to the left and back from the center. The second
+point is straight to the left of the center of the line, the
+third point is straight to the right of the center, and the
+fourth point should be to the right and back from the center.
+Thus, the line will have flanks that pull back, making a flanking
+maneuver more difficult.
+
+The computer will automatically select these objectives when the
+Set Squares phase is initially entered; it is not necessary to
+set defensive lines. This option is only to allow maximum
+possible flexibility in the design of a scenario.
+
+18.25 ARTILLERY OBJECTIVES
+This is again a computer opponent function that is included to
+give you some extra control in setting objective for computer
+controlled artillery pieces. Computer controlled artillery will
+try to go to the artillery objectives whenever possible.
+
+18.26 SPECIAL OBJECTIVES
+Special Objectives refer to special computer opponent objectives,
+not victory objectives. They are squares that the computer will
+try to take and hold, allowing you to make a square that is not a
+victory square a place that the computer will try to take or
+hold. The computer opponent will always try to take victory
+objectives, so these are just extra objectives.
+
+
+19.0 TABLES EDITOR
+
+The Tables Editor is the last part of the Editor and is where you
+can change the actual "guts" of the game system, from the effect
+of town on melee combat to the victory points needed to obtain
+various levels of victory. The Tables Editor Main Menu allows you
+to load tables saved off separately from a scenario, in much the
+same way as the map files can be saved separately (see section
+16.0). Once you choose the (E)dit tables option, you will be
+presented with the Tables Menu.
+
+19.1 Tables Menu
+
+The Tables Menu is a large menu with options to change virtually
+everything within the program. All options on this menu are
+accessed by the letter to the left of the desired option. For
+instance, if you wish to change the Weapon Range Table, you press
+the letter "D" from the Tables Menu and the Weapon Range Table
+will appear. "Q" gets you back to the Tables Main Menu.
+
+The options on the Tables Menu are:
+
+A) # Game Turns
+
+This allows you to change the number of game turns that the game
+will last. Each turn in 1/2 hour in length. The game will end
+after the last turn is over.
+
+The maximum number of turns during a day that a game may last is
+listed in the editor charts (see 20.1). This number of turns
+varies with the month, based on the amount of daylight available
+for fighting. If the game is to exceed one day, simply plan for
+the number of daylight turns, then one night turn, and then the
+appropriate number of turns on the next day. During the night
+turn, there are certain restrictions. These are listed under the
+Battle Time Chart in section 20.1.
+
+B) Time
+
+Selecting "B" will show the year, month, and day of the battle,
+as well as the start time. All of these options may be changed.
+When you enter the Time Sub Menu, you will automatically be
+prompted for the new data. The time is in 1/2 hour increments,
+starting at 12 midnight (time point 0). Thus if the game starts
+on time point 23, the time is 11:30 AM.
+
+C) Victory Points - Casualties
+
+The sub-menu for this table will allow you to change the number
+of victory points awarded for casualties to Infantry, Cavalry,
+and Artillery. To modify a given victory level, simply press the
+"RETURN" key when the highlight bar is over the desired victory
+level.
+
+D) Weapon/Range Table
+
+This table allows you to change the firepower values for all of
+the weapons in the game at the various ranges. If, for example,
+you wanted to compress the scale of the game such that each
+square was 200 meters instead of 100, you could simply halve the
+ranges of all of the weapons and you will achieve that result.
+If, on the other hand, you want to try experimenting with a
+better form of shot for the French howitzers, you can do that
+too. It is recommended, however, that you do not change the
+number too much from the "historical " norm that they default to.
+Any extraordinary changes will yield possibly strange results.
+Use this option with care and planning.
+
+Note that weapon 3 (SBR or Sabre) is reserved for non-firing
+weapons and may not be turned into a firing weapon. Any units
+equipped with this weapon will be unable to fire. In addition,
+weapon 2 is reserved for small cavalry rifles. All CRB
+restrictions will continue to apply.
+
+(E) Weapon Name Table
+
+This will allow you to actually replace certain weapons with
+other weapons when used in combination with a change in the
+Weapon/Range Table. An example would be replacing all of the L18
+(weapon number 13) cannons with LB for longbow) to see how a
+longbow armed unit would perform against a unit of musket armed
+infantry. The value place in the Weapon/Range Table would have to
+be derived by a method of your own choosing, but experimentation
+will eventually yield a desired result.
+
+F) Terrain Cost Table
+
+Modifying this table will change the OP point costs for units to
+enter squares of the various terrain types. Any changes made to
+this table will supersede the table in the charts section (see
+section 20.15). Any cost >15 will make the terrain impassable.
+
+G) Target Terrain Fire/Melee Table
+
+These are the percentage modifiers to the firer's firepower based
+on the terrain in the target's square. If the woods in the
+scenario you are designing were much better cover than the ones
+in the game, just change the table and watch the result. As
+above, any changes made in this table will supersede the table in
+section 20.6.
+
+H) Firing Unit Terrain Fire/Melee Table
+
+This is identical to the Target Table above, but applies to the
+terrain in the firer's square.
+
+I) Melee Mode Table
+
+The modifiers here are the melee strength percentage modifiers
+based on the two modes (formations) of the units involved . On
+the left side of the table, are listed the attacker's possible
+formations while on the right are the percentage modifiers based
+on the target's formation, as listed in the upper right corner of
+the screen. For example, when you first select this option, the
+screen should list the DEF'S MODE: as LINE and the modifiers
+should be 100 if the attacker is in Line formation, 180 if the
+attacker is in column, and so on.
+
+J) Fire Mode Modifier Table
+
+This table lists the firepower percentage modifier, for both the
+firing unit and the target unit, based on formation (or mode).
+For example, if a column unit fires at a column unit, the firing
+unit has its firepower multiplied first by 30% for the firer
+being in column and then by 150% for the target being in column.
+Of course, this example is based on no changes to the tables. you
+may use this option to alter these modifiers. Anything set to 01
+may not fire.
+
+K) Priority Direction Retreat Table
+
+There are eight directions that units may retreat. Since it is
+generally desired that your units retreat away from the enemy and
+towards friendly lines, the computer has a priority list of what
+direction to try to retreat in first. If that direction is
+blocked, it will try the next best direction and so on. However,
+you may have a special reason for wanting units to retreat in
+other than the most advantageous direction (or you may feel that
+another direction is more advantageous). This table allows you to
+control the priority of retreat direction. Note that this table
+uses the normal keypad.
+
+L) Command Control Table
+
+This table allows the player to change the range modifier for
+leaders when determining a unit's Command Control rating (which
+ranges from 10-30) during the Command Control Phase. Lower level
+leader (Regiment or Brigade) usually have more control of a unit,
+so their numbers in this table should be higher than a superior
+level leader (Division, Corps, or Army). Note that for every
+squares away from its leader, the computer adds a random modifier
+that reduces a unit's Command Control rating.
+
+M) Victory Levels
+
+The sub-menu for this table will allow you to change the number
+of victory points required to achieve the various victory levels.
+To modify a given victory level, simply press the "M" key when
+the highlight bar is over the desire victory level.
+
+N) Minimum # Men for Elimination
+
+When a unit takes enough damage, it loses all cohesiveness and
+ceases to exist as a fighting unit, regardless of the durability
+of the remaining individuals. Therefore, there is a threshold of
+number of men remaining in the unit at which all units are
+automatically eliminated. It defaults to 40, meaning that if an
+infantry unit is at only 50 men and takes 10 casualties, it is
+eliminated instead, causing 50 casualties.
+
+O) Random # to Attempt Cavalry Charge
+
+This is simply a random modifier shift that will allow you to
+control whether or not cavalry charges happen very often. If you
+don't like cavalry charges and feel that cavalry should charge
+less often, then just change the random modifier to 140. If you
+feel the opposite, then just change the modifier to 60.
+
+P) Random # Infantry Enter Square
+
+This one is identical to the random modifier for cavalry, but it
+applies instead to the chance of forming square. If you move the
+modifier on this one up and turn the modifier on the cavalry
+charges down, cavalry will become very ineffective.
+                     BATTLES OF NAPOLEON
+                              
+                      CHARTS AND TABLES
+                              
+                              
+                        EDITOR TABLES
+                           TERRAIN
+                          UNIT DATA
+                       READINESS LOSS
+                    WEAPON/RANGE CASUALTY
+              FIRE AND MELEE STRENGTH MODIFIERS
+                         MELEE MODE
+                 ADDITIONAL COMBAT MODIFIERS
+                            RALLY
+                       OPERATION POINT
+                           FATIGUE
+                         EFFICIENCY
+                         DISRUPTION
+                     DISRUPTION RECOVERY
+               LEADER COMMAND CONTROL MODIFIER
+                       CAVALRY CHARGE
+                         MORALE TEST
+                       ENTERING SQUARE
+                        OP POINT COST
+                       ADDITIONAL COST
+20.0 CHARTS AND TABLES
+
+20.1 Editor Tables
+
+TYPE 1:
+#    TYPE
+0    Infantry
+1    Cavalry
+2    Artillery
+
+TYPE 2:
+#    TYPE
+0    LN (Line) - Normal line units of any type (infantry, cavalry
+or artillery)
+1    LT (light) - Light units, either infantry or cavalry --
+Normally all skirmishers if infantry
+2    HV (Heavy) -Heavier cavalry units, such as Heavy Dragoons or
+cuirassier, or heavy  artillery
+3    FT (Foot) - Foot artillery (the guns were towed by horses
+but the gunners  usually walked)
+4    HS (Horse) - Horse artillery (both the guns and the gunners
+were transported by  horse)
+5    OG (Old Guard) - Crack French Imperial Guard troops - The
+best French infantry
+6    MG (Middle Guard) - Crack French Imperial Guard The next
+best French infantry
+7    YG (Young Guard) - lower quality skirmishers, these troops
+were Guards only in name
+8    GR (Grenadier) - Elite infantry
+9    JG (Jaeger) - German or Russian skirmish infantry
+10   LW (Landwehr) - Levy infantry, generally of very poor
+quality
+11   MI (Militia) - 3rd rate troops, they were poorly equipped
+and trained
+12   MD (Medium)
+13   KG (King's German Legion) - German troops employed by the
+British
+14   FU (Fusilier) - Non-elite infantry
+15   HI (Highland) - Scottish troops employed by the British
+16   RI (Rifle) - Infantry armed with a rifle, as opposed to the
+normal musket
+17   GD (Guard) - Elite troops of any nationality were generally
+referred to as Guards
+
+TYPE 3:
+
+#    TYPE
+0    CH (Chausseurs) - Light cavalry
+1    HU (Hussars) - Light cavalry
+2    LA (Lancers) - light cavalry armed with lances to assist in
+melee against bayonet and armed
+     infantry
+3    DR (Dragoon) - Cavalry often armed with muskets as well as
+sabres
+4    CU (Cuirassier) - Heavy cavalry, armed with sabres and
+armored
+5     CA (Carabiniers) - Heavy cavalry
+6    CR (Corps Reserve) - Artillery units designated as Corps
+Reserve
+7    HV (Heavy) - Used with any troop type needing a heavy
+Designation
+8    FI (Field) - Used to differentiate horse artillery from
+field artillery
+9    GR (Grenadier) - Elite infantry
+10   ED (Empress Dragoons) - Elite Heavy Dragoons
+11   PL (Polish Lancers) - Used by the French, the Polish were
+the first lancers
+12   DL (Dutch Lancers) - Light Dutch cavalry armed with lances
+13   GE (German) - German troops
+14   HU (Hungarian) - Hungarian Troops
+15   CV (Chevauleger) - A generic term referring to Light Cavalry
+16   UH (Uhlan) - Light cavalry
+17   PT (Position) - Positioned artillery, such as the Austrians
+sometimes used
+18   RR (Regimental Reserve) - Reserve artillery
+19   FA (Fast) - Horse artillery that are treated more like foot
+because of lack of training
+20   MU (Musketeer) - Russian line infantry
+21   FU (Fusilier) - Non-elite infantry
+22   JG (Jaeger) - German or Russian skirmish infantry
+23   CO (Cossack) - Russian light cavalry that was skilled in
+"harassment" attacks
+24   HO (Household) - British elite cavalry
+25   RD (Royal Dragoon) - British elite cavalry, but armed only
+with sabre (unlike normal
+     Dragoons)
+26   LD (Light Dragoon) - Light cavalry
+27   GD (Guard) - Elite troops of any type
+28   none
+
+
+NATIONALITY:
+#    NATIONALITY
+0    FR (France)
+1    SW (Switzerland)
+2    NI (Northern Italy)
+3    NA (Naples)
+4    WE (Westphalia)
+5    PO (Poland)
+6    BA (Bavaria)
+7    WU (Wuttenburg)
+8    SA (Saxony)
+9    AU (Austria)
+10   RU (Russia)
+11   PR (Prussia)
+12   GB (Great Britain)
+13   SP (Spain)
+14   NE (Netherlands)
+15   HA (Hannover)
+16   BW (Brunswick)
+17   PG (Portugal)
+18   SD (Sweden)
+
+
+FORMATION:
+#         FORMATION
+0         Line (Infantry)
+1         Column (Infantry)
+2         Square (Infantry)
+3         Charge (Cavalry)
+4         Counter-Charge (Cavalry)
+5         Limbered (Artillery)
+6         Unlimbered (Artillery)
+7         Normal (Cavalry)
+8         Rout (Cavalry and Infantry)
+9         Dismounted (Cavalry(Non-sabre armed only ))
+10        Open (All)
+
+
+BATTLE TIME:
+MONTH     MONTH #        START     END       HOURS OF
+                         TIME      TIME      COMBAT
+JAN       1              6:00      18:00     13
+FEB       2              6:00      19:00     14
+MAR       3              5:00      19:00     15
+APR       4              5:00      20:00     16
+MAY       5              4:00      20:00     17
+JUN       6              4:00      21:00     18
+JUL       7              5:00      21:00     17
+AUG       8              5:00      20:00     16
+SEPT      9              6:00      20:00     15
+OCT       10             6:00      19:00     14
+NOV       11             7:00      19:00     13
+DEC       12             7:00      18:00     12
+
+NOTE
+ù CAVALRY may not charge at night. ù Night turns last one turn
+between the end time of one day and the beginning of another day.
+ù All movement and combat actions cost double OP points at night.
+ù LOS is restricted to a maximum of 3 squares at night.
+
+DATE OF BATTLE:
+DATE      YEAR OF        DATE      YEAR OF
+          BATTLE                   BATTLE
+1805      0              1811      6
+1806      1              1812      7
+1807      2              1813      8
+1808      3              1814      9
+1809      4              1815      10
+1810      5
+
+20.2 Terrain Table
+
+Terrain Type        Terrain Elev.  Terrain #
+Bridge-Horizontal      1             15
+Bridge-Horizontal      3             16
+Bridge-Vertical        1             17
+Bridge-Vertical        3             18
+Clear                  1             0
+Clear                  3             1
+Clear                  5             2
+Fields                 1             9
+Fields                 3             10
+Fields                 5             11
+Hilltop                3             61
+Hilltop                5             62
+Redoubt - Horizontal   1             80
+Redoubt - Horizontal   3             81
+Redoubt - Horizontal   5             82
+Redoubt - Vertical     1             77
+Redoubt - Vertical     3             78
+Redoubt - Vertical     5             79
+Ridge - Horizontal     2             37
+Ridge - Horizontal     4             38
+Ridge - Left to Lower  2             45
+Ridge - Left to Lower  4             46
+Ridge - Left to Upper  2             41
+Ridge - Left to Upper  4             42
+Ridge - Right to Lower 2             47
+Ridge - Right to Lower 4             48
+Ridge - Right to Upper 2             43
+Ridge -Right to Upper  4             44
+Ridge - Vertical       2             39
+Ridge - Vertical       4             40
+River - Horizontal     1             31
+River - Left to Lower  1             36
+River - Left to Upper  1             33
+River - Right to Lower 1             35
+River - Right to Upper 1             34
+River - Vertical       1             32
+River Branch - Left-Right-Down       1       75
+River Branch - Left-Right-Up         1       74
+River Branch - Up-Left-Down          1       76
+River Branch - Up-Right-Down         1       95
+Road - Horizontal      1             99
+Road - Horizontal      3             100
+Road - Horizontal      5             101
+Road - Left to Lower   1             114
+Road - Left to Lower   3             115
+Road - Left to Lower   5             116
+Road - Left to Upper   1             102
+Road - Left to Upper   3             103
+Road - Left to Upper   5             104
+Road - Right to Lower  1             108
+Road - Right to Lower  3             109
+Road - Right to Lower  5             110
+Road - Right to Upper  1             111
+Road - Right to Upper  3             112
+Road - Right to Upper  5             113
+Road - Vertical        1             105
+Road - Vertical        3             106
+Road - Vertical        5             107
+Road across Ridge - Horizontal       2       83
+Road across Ridge - Horizontal       4       84
+Road across Ridge - Vertical         2       85
+Road across Ridge - Vertical         4       86
+Road Branch - Left-Right-Down        1       96
+Road Branch - Left-Right-Down        3       97
+Road Branch - Left-Right-Down        5       98
+Road Branch - Left-Right-Up          1       93
+Road Branch - Left-Right-Up          3       94
+Road Branch - Up-Left-Down           1       90
+Road Branch - Up-Left-Down           3       91
+Road Branch - Up-Left-Down           5       92
+Road Branch - Up-Right-Down          1       87
+Road Branch - Up-Right-Down          3       88
+Road Branch - Up-Right-Down          5       89
+Stream - Horizontal    1             19
+Stream - Horizontal    3             20
+Stream - Left to Lower 1             27
+Stream - Left to Lower 3             28
+Stream - Left to Upper 1             23
+Stream - Left to Upper 3             24
+Stream - Right to Lower              1       29
+Stream - Right to Lower              3       30
+Stream - Right to Upper              1       25
+Stream - Right to Upper              3       26
+Stream - Vertical      1             21
+Stream - Vertical      3             22
+Sunken Road - Horizontal             1       63
+Sunken Road - Horizontal             3       64
+Sunken Road - Left to Lower          3       73
+Sunken Road - Left to Upper          1       65
+Sunken Road - Left to Upper          3       66
+Sunken Road - Right to Lower         1       69
+Sunken Road - Right to Lower         3       70
+Sunken Road - Right to Upper         1       71
+Sunken Road - Right to Upper         3       72
+Sunken Road - Vertical 1             67
+Sunken Road - Vertical 3             68
+Swamp                  1             12
+Swamp                  3             13
+Town                   1             3
+Town                   3             4
+Town                   5             5
+Wooded Ridge - Horizontal            2       49
+Wooded Ridge - Horizontal            4       50
+Wooded Ridge - Left to Lower         2       57
+Wooded Ridge - Left to Lower         4       58
+Wooded Ridge - Left to Upper         2       53
+Wooded Ridge - Left to Upper         4       54
+Wooded Ridge - Right to Lower        2       59
+Wooded Ridge - Right to Lower        4       60
+Wooded Ridge - Right to Upper        1       125
+Wooded Ridge - Right to Upper        2       55
+Wooded Ridge - Right to Upper        3       126
+Wooded Ridge - Right to Upper        4       56
+Wooded Ridge - Vertical              2       51
+Wooded Ridge - Vertical              4       52
+Wooded Road - Horizontal             1       117
+Wooded Road - Horizontal             3       118
+Wooded Road - Left to Lower          1       127
+Wooded Road - Left to Lower          3       14
+Wooded Road - Left to Upper          1       119
+Wooded Road - Left to Upper          3       120
+Wooded Road - Right to Lower         1       123
+Wooded Road - Right to Lower         3       124
+Wooded Road - Vertical 1             121
+Wooded Road - Vertical 3             122
+Woods                  1             6
+Woods                  3             7
+Woods                  5             8
+
+
+20.3 Unit Data
+                                 # Guns/       Max       OP Pt
+Purchase
+Unit #    Nation  Date Type 1    Type 2   Type 3   # Men  Skirm
+Eff  Melee   Mod  Weapon    Points
+0    0    0  0    0    28   1107 123  4   3    1   0      43
+1    0    0  0    1    28   1107 1107 4   3    2   0      63
+2    0    2  0    0    28   758  123  4   3    1   0      30
+3    0    2  0    1    28   738  738  4   3    2   0      42
+4    0    8  0    0    28   480  80   3   3    1   0      19
+5    0    8  0    1    28   480  480  3   3    2   0      27
+6    0    10 0    0    28   600  200  4   3    1   0      25
+7    0    10 0    1    28   600  600  4   3    2   0      34
+8    0    0  1    1    0    640  0    3   5    4   3      87
+9    0    8  1    1    0    360  0    3   5    4   3      49
+10   0    10 1    1    0    500  0    3   5    4   3      68
+11   0    0  1    1    1    640  0    5   6    4   3      99
+12   0    8  1    1    1    480  0    5   7    4   3      81
+13   0    10 1    1    1    500  0    5   6    4   3      78
+14   0    4  1    1    2    640  0    4   6    4   3      91
+15   0    8  1    1    2    400  0    4   7    4   3      62
+16   0    10 1    1    2    420  0    4   7    4   3      65
+17   0    0  1    2    3    640  0    4   7    3   2      103
+18   0    8  1    2    3    480  0    4   7    3   2      78
+19   0    10 1    2    3    550  0    4   7    3   2      90
+20   0    0  1    2    4    640  0    5   8    3   3      107
+21   0    8  1    2    4    320  0    5   8    3   3      54
+22   0    10 1    2    4    340  0    6   8    3   3      58
+23   0    0  1    2    5    640  0    6   8    3   3      110
+24   0    8  1    2    5    300  0    5   8    3   3      50
+25   0    10 1    2    5    420  0    6   8    3   3      72
+26   0    0  2    3    6    140  8    3   3    2   18     133
+27   0    0  2    3    7    120  8    3   3    2   19     111
+28   0    0  2    3    8    120  8    3   3    2   23     82
+29   0    0  2    4    28   96   6    4   3    2   8      53
+30   0    0  0    5    28   640  640  7   6    2   0      44
+31   0    2  0    6    28   640  640  6   9    2   0      41
+32   0    6  0    6    28   720  720  6   4    2   0      46
+33   0    3  0    7    28   640  640  5   4    2   0      40
+34   0    10 0    7    28   480  480  5   4    2   0      30
+35   0    0  1    17   9    1000 0    7   8    3   3      174
+36   0    10 1    17   9    800  0    7   8    3   3      139
+37   0    0  1    17   0    1200 0    7   7    3   3      205
+38   0    1  1    17   10   1000 0    6   7    3   2      178
+39   0    10 1    17   10   800  0    6   7    3   2      142
+40   0    3  1    17   11   1000 0    7   7    4   3      174
+41   0    3  1    17   12   1000 0    6   7    4   3      171
+42   0    8  1    17   12   1600 0    5   6    4   3      248
+43   0    8  1    17   2    800  0    6   7    4   3      137
+44   0    10 1    17   2    920  0    7   7    4   3      160
+45   0    0  2    5    28   140  8    7   3    2   18     154
+46   1    0  0    0    28   738  123  4   4    1   0      31
+47   1    4  0    0    28   1000 250  4   4    1   0      43
+48   13   3  0    0    28   480  80   3   3    0   0      19
+49   13   3  0    17   27   720  720  4   3    1   0      40
+50   13   3  1    17   1    480  0    4   5    4   3      67
+51   13   3  1    2    28   320  0    3   6    3   3      44
+52   13   3  1    1    2    240  0    3   5    3   3      32
+53   2    0  0    0    28   738  123  2   3    1   0      29
+54   2    0  0    1    28   720  720  2   3    2   0      39
+55   2    0  0    17   9    800  800  4   4    1   0      45
+56   2    0  0    17   28   640  640  4   3    2   0      36
+57   2    0  1    1    0    480  0    3   4    4   3      64
+58   2    0  1    2    3    640  0    4   6    3   2      95
+59   2    0  1    17   3    400  0    5   6    3   2      65
+60   2    0  1    17   27   310  0    6   7    3   2      54
+61   2    0  2    2    28   120  8    2   3    2   19     109
+62   2    0  2    4    28   90   6    2   3    2   28     71
+63   3    3  0    0    28   480  160  1   3    0   0      17
+64   3    3  0    1    28   480  480  1   3    1   0      25
+65   3    3  4    0    9    480  480  2   3    0   0      25
+66   3    3  0    17   9    640  640  3   4    1   0      36
+67   3    3  0    17   28   600  600  3   3    0   0      32
+68   3    3  1    1    15   320  0    3   4    4   3      43
+69   3    3  1    1    0    320  0    3   4    4   3      43
+70   3    3  1    17   2    480  0    3   5    4   3      65
+71   3    3  1    17   15   480  0    3   4    4   3      64
+72   3    3  1    17   1    480  0    3   4    4   3      64
+73   3    3  1    17   4    480  0    5   8    3   3      78
+74   3    3  1    17   3    480  0    5   5    3   2      76
+75   3    3  1    17   28   480  0    5   7    3   2      84
+76   3    3  2    12   0    120  8    2   3    2   8      38
+77   3    3  2    4    0    94   6    2   3    2   23     80
+78   4    1  0    0    28   738  123  2   3    1   0      29
+79   4    1  0    1    28   738  738  2   3    2   0      40
+80   4    1  0    17   9    800  800  3   3    1   0      43
+81   4    1  0    17   22   800  800  3   3    2   1      46
+82   4    1  1    1    0    480  0    2   4    4   3      62
+83   4    1  1    1    1    480  0    2   4    4   3      62
+84   4    1  1    2    4    640  0    3   8    3   3      97
+85   4    1  1    17   2    480  0    4   5    3   3      65
+86   4    1  1    17   1    480  0    4   5    4   3      67
+87   5    2  0    0    28   738  123  4   3    1   0      30
+88   5    2  0    1    28   738  738  4   3    2   0      39
+89   5    2  1    1    1    480  0    4   5    4   3      67
+90   5    2  1    1    0    480  0    4   4    4   3      65
+91   5    2  1    1    2    480  0    5   6    4   3      74
+92   5    2  1    2    4    560  0    6   8    3   3      96
+93   5    2  2    12   28   120  8    3   3    2   24     82
+94   5    2  2    4    28   95   6    3   3    2   28     72
+95   6    0  0    0    28   738  123  2   3    0   0      28
+96   6    0  0    1    28   720  720  2   3    1   0      35
+97   6    0  0    10   28   480  0    0   3    0   0      16
+98   6    10 0    17   9    840  840  5   3    1   0      48
+99   6    10 1    2    4    720  0    5   8    3   3      121
+100  6    0  1    2    3    480  0    4   6    3   2      73
+101  6    3  1    1    15   720  0    4   5    3   3      98
+102  6    9  1    1    1    720  0    4   5    4   3      100
+103  6    9  1    1    16   720  0    4   5    4   3      100
+104  6    10 1    17   17   720  0    7   8    3   3      125
+105  6    0  2    1    28   110  7    2   3    2   23     70
+106  6    0  2    12   28   120  7    2   3    2   6      77
+107  6    0  2    2    28   140  8    2   3    2   4      124
+108  7    0  0    0    28   738  123  2   3    0   0      28
+109  7    3  0    0    20   640  640  2   3    0   0      33
+110  7    3  0    1    21   640  640  2   3    1   0      34
+111  7    3  0    10   28   640  0    1   3    0   0      22
+112  7    3  0    1    22   640  640  2   3    1   1      35
+113  7    3  1    1    0    480  0    3   4    4   3      64
+114  7    3  1    1    15   480  0    3   5    3   3      64
+115  7    3  1    2    3    640  0    4   6    3   2      95
+116  7    3  2    12   28   120  6    2   3    2   23     62
+117  7    3  2    4    28   100  6    2   3    2   24     60
+118  7    3  0    17   9    640  640  6   4    1   0      40
+119  7    7  1    17   27   640  0    6   8    3   3      109
+120  7    3  2    17   28   130  6    4   3    2   4      96
+121  7    3  2    4    28   110  6    5   3    2   24     69
+122  8    0  0    0    28   738  123  2   3    0   0      28
+123  8    5  0    0    28   480  0    2   3    0   0      17
+124  8    5  0    1    5    480  480  2   3    1   0      26
+125  8    0  0    0    9    480  480  3   3    0   0      26
+126  8    0  0    1    22   480  480  2   3    2   1      27
+127  8    0  0    17   9    480  0    4   4    1   0      19
+128  8    0  1    1    15   480  0    2   4    4   3      62
+129  8    0  1    1    2    600  0    2   4    3   3      76
+130  8    0  1    1    1    960  0    3   4    4   3      128
+131  8    0  1    2    4    640  0    3   8    3   3      97
+132  8    0  2    12   28   100  6    2   3    2   6      66
+133  8    0  2    1    28   90   6    2   3    2   23     60
+134  9    0  0    0    13   768  0    3   3    0   0      28
+135  9    0  0    0    14   932  0    2   3    0   0      34
+136  9    4  0    0    13   1080 0    3   3    0   0      40
+137  9    4  0    0    14   1200 0    2   3    0   0      43
+138  9    0  0    8    13   572  572  5   4    0   0      32
+139  9    0  0    8    14   572  572  5   4    0   0      32
+140  9    0  0    8    28   1000 1000 2   3    1   0      42
+141  9    0  0    9    28   720  720  4   3    0   0      62
+142  9    3  0    10   28   800  0    0   1    0   0      26
+143  9    0  1    2    4    1200 0    5   8    3   3      190
+144  9    0  1    2    3    1200 0    3   7    3   2      191
+145  9    0  1    1    1    1580 0    5   6    4   3      229
+146  9    0  1    1    15   1600 0    4   6    3   3      222
+147  9    0  1    1    16   1600 0    4   6    4   3      227
+148  9    0  2    3    17   92   6    3   3    2   19     84
+149  9    0  2    3    18   90   6    3   3    2   7      50
+150  9    0  2    3    19   88   6    3   3    2   25     39
+151  10   0  0    0    20   738  0    3   3    0   0      27
+152  10   8  0    0    20   320  80   3   3    0   0      13
+153  10   9  0    0    20   654  130  3   3    0   0      26
+154  10   0  0    0    21   738  0    3   3    0   0      27
+155  10   0  0    0    22   738  738  4   3    1   0      41
+156  10   8  0    0    22   320  320  4   3    1   0      18
+157  10   9  0    0    22   654  654  3   3    1   0      36
+158  10   0  0    0    9    738  0    5   4    0   0      29
+159  10   8  0    0    9    360  0    5   4    0   0      15
+160  10   9  0    0    9    654  0    5   4    0   0      28
+161  10   7  0    11   28   1200 0    0   2    0   0      40
+162  10   0  1    2    4    750  0    5   8    3   3      126
+163  10   8  1    2    4    412  0    5   8    3   3      69
+164  10   9  1    2    4    620  0    5   8    3   3      104
+165  10   0  1    2    3    750  0    3   7    3   2      119
+166  10   8  1    2    3    408  0    4   7    3   2      66
+167  10   9  1    2    3    640  1    3   6    3   2      93
+168  10   0  1    1    1    1200 0    5   6    4   3      186
+169  10   8  1    1    1    960  0    5   6    4   3      149
+170  10   9  1    1    1    1120 0    5   6    4   3      174
+171  10   0  1    1    16   1200 0    4   6    4   3      170
+172  10   8  1    1    16   960  0    4   6    4   3      136
+173  10   9  1    1    16   1120 0    4   6    4   3      159
+174  10   0  1    1    23   600  0    0   3    4   3      73
+175  10   7  1    1    0    1200 0    2   6    4   3      163
+176  10   8  1    1    0    960  0    3   6    4   3      133
+177  10   0  2    2    28   210  14   3   3    2   22     182
+178  10   0  2    1    28   180  12   3   3    2   26     122
+179  10   0  2    4    28   176  12   3   3    2   20     145
+180  10   7  2    2    28   180  12   4   3    2   21     181
+181  10   7  2    1    28   180  12   3   3    2   26     122
+182  10   7  2    4    28   176  12   4   3    2   7      102
+183  10   0  0    17   28   640  0    6   4    1   0      28
+184  10   0  0    17   22   640  0    5   4    2   0      28
+185  10   0  1    17   3    800  0    5   7    3   2      140
+186  10   0  1    17   15   800  0    6   7    3   3      134
+187  10   0  1    17   4    800  0    7   8    3   3      139
+188  10   0  1    17   4    800  0    7   8    3   3      139
+189  11   0  0    0    20   793  0    3   3    0   0      29
+190  11   0  0    0    9    638  638  4   4    0   0      35
+191  11   0  0    0    22   532  532  3   3    1   1      30
+192  11   0  0    0    21   600  600  3   4    1   0      33
+193  11   7  0    10   28   720  0    1   3    0   0      25
+194  11   0  1    2    4    800  0    4   8    3   3      124
+195  11   0  1    2    3    810  0    3   7    3   2      129
+196  11   0  1    1    1    1500 0    5   6    4   3      233
+197  11   0  1    1    16   1200 0    4   7    4   3      186
+198  11   0  0    17   9    640  0    6   4    0   0      28
+199  11   0  0    17   22   640  0    5   3    1   1      29
+200  11   0  1    17   1    640  0    5   6    4   3      99
+201  11   0  1    17   16   640  0    5   7    4   3      108
+202  11   0  1    17   3    480  0    4   7    3   2      78
+203  11   0  1    17   27   480  0    6   8    3   3      82
+204  11   0  2    2    28   135  8    2   3    2   19     109
+205  11   0  2    12   28   125  8    2   3    2   24     80
+206  11   3  2    4    28   125  8    3   3    2   24     82
+207  12   0  0    0    28   750  150  3   3    1   0      30
+208  12   0  0    13   28   800  160  3   3    1   0      32
+209  12   0  0    14   28   750  150  4   4    1   0      32
+210  12   0  0    1    28   750  750  4   4    2   0      44
+211  12   0  0    15   28   900  225  5   4    1   0      42
+212  12   0  0    16   28   750  750  4   3    2   1      44
+213  12   0  0    17   28   1443 1443 6   4    2   0      93
+214  12   0  1    17   24   905  0    6   8    3   3      155
+215  12   0  1    17   25   905  0    5   7    3   2      158
+216  12   0  1    2    3    905  0    5   7    3   2      158
+217  12   0  1    1    26   905  0    5   6    4   2      149
+218  12   0  1    1    1    905  0    5   6    4   3      140
+219  12   0  2    2    28   120  6    3   3    2   27     84
+220  12   0  2    1    28   115  6    3   3    2   28     72
+221  12   0  2    4    28   110  6    4   3    2   7      51
+222  13   0  0    0    28   740  0    1   3    0   0      26
+223  13   0  0    11   28   600  0    0   2    0   0      20
+224  13   0  0    1    28   1200 1200 2   3    1   0      64
+225  13   0  0    8    28   720  0    3   4    0   0      27
+226  13   0  1    2    27   615  0    4   8    3   3      95
+227  13   0  1    2    3    700  0    1   6    3   2      98
+228  13   0  1    1    1    700  0    2   6    3   3      93
+229  13   0  1    1    0    700  0    1   6    3   3      91
+230  13   0  2    2    28   116  6    2   3    2   19     82
+231  13   0  2    1    28   130  8    2   3    2   29     88
+232  13   0  2    4    28   110  6    2   3    2   8      38
+233  14   10 0    0    28   720  120  3   3    1   0      29
+234  14   10 0    0    28   600  100  2   3    0   0      23
+235  14   10 0    9    28   720  720  3   3    2   0      40
+236  14   10 1    2    5    480  0    3   6    3   3      70
+237  14   10 1    1    3    480  0    3   5    3   2      69
+238  14   10 1    1    1    480  0    3   6    4   3      72
+239  15   8  0    0    28   640  0    3   3    0   0      24
+240  15   8  0    1    28   800  800  3   2    1   0      43
+241  15   8  1    1    1    640  0    3   5    4   3      87
+242  16   1  0    0    28   650  0    3   3    1   0      25
+243  16   3  0    0    28   640  0    3   3    1   0      24
+244  16   10 0    0    28   672  0    3   3    1   0      26
+245  16   8  0    1    28   640  640  3   2    2   0      35
+246  16   10 0    1    28   672  672  4   3    2   0      38
+247  16   8  0    10   28   640  0    2   3    0   0      23
+248  16   4  1    1    1    480  0    5   6    4   3      74
+249  16   9  1    1    1    690  0    6   6    4   3      109
+250  17   3  0    0    28   776  110  3   3    1   0      31
+251  17   3  0    1    28   776  776  2   3    2   0      42
+252  17   3  1    1    3    594  0    3   6    3   2      87
+253  17   3  2    1    28   115  6    3   3    2   28     72
+254  17   3  2    4    28   110  6    3   3    2   7      50
+255  18   1  0    0    28   600  0    3   3    1   0      23
+256  18   1  0    1    22   540  540  3   2    2   1      29
+257  18   1  1    2    3    800  0    4   6    3   3      111
+258  18   1  1    1    1    800  0    5   6    4   3      124
+259  18   1  2    1    28   115  8    3   3    2   28     97
+260  18   1  0    17   28   700  100  5   4    2   0      33
+261  18   1  1    17   27   960  0    6   8    3   2      174
+
+
+20.4 Readiness Loss Table
+Each time a unit changes objective, it must check on the
+following table to see how many Readiness points are lost. The
+leader bonus refers to the bonus of the leader listed on the
+screen during the objective phase.
+Leader  -2     -3    -4       Leader  -2     -3    -4
+Bonus Readiness Readiness Readiness   Bonus Readiness Readiness
+Readiness
+
+0       0%     30%   70%      8       20%    50%   30%
+1       0%     35%   65%      9       25%    50%   25%
+2       0%     40%   60%      10      30%    50%   20%
+3       0%     45%   55%      11      35%    50%   15%
+4       0%     50%   50%      12      40%    50%   10%
+5       5%     50%   45%      13      45%    50%   5%
+6       10%    50%   40%      14      50%    50%   0%
+7       15%    50%   35%      15      55%    45%   0%
+
+20.5 Weapon/Range Casualty Table
+                              Range to Target Square:
+
+Wpn. Type      Wpn#  Abbrev.  1   2   3-4  5-6  7-8  9-12
+
+Musket         0     MUS      3   1    0    0    0    0
+Rifle          1     RFL      3   3    2    0    0    0
+Carbine        2     CRB      2   0    0    0    0    0
+Saber          3     SBR      1   0    0    0    0    0
+12lb Gun       4     12G      17  8    6    3    2    1
+9lb Gun        5     9G       13  7    4    2    1    1
+8lb Gun        6     8G       12  6    4    1    1    1
+6lb Gun        7     6G       9   5    3    1    1    1
+4lb Gun        8     4G       7   4    2    1    1    0
+3lb Gun        9     3G       5   3    1    1    0    0
+2lb Gun        10    2G       3   2    1    0    0    0
+24lb Howitzer  11    H24      19  7    5    2    1    0
+5.5" Howitzer  12    H5.5     18  6    4    2    1    0
+18lb Licorne   13    L18      16  6    3    2    1    1
+10lb Howitzer  14    H10      14  5    2    1    1    0
+9lb Licorne    15    L9       13  5    2    1    1    0
+7lb Howitzer   16    H7       11  4    1    1    0    0
+6lb Howitzer   17    H6       10  4    1    1    0    0
+12lbGun/24lb How     18       12/24    18   8    6    3     2
+1
+12lbGun/10lb How     19       12/10    15   7    4    2     2
+1
+12lbGun/6lb How      20       12/613   6    4    2    1     1
+12lbGun/18lb Lic     21       12/18    16   7    5    3     2
+1
+12lbG/6lbH/18lbLic   22       3GHL14   6    4    2    1     1
+8lbGun/7lb How 23    8/7      11  5    3    2    1    1
+6lbGun/10lb How      24       6/1011   5    3    1    1     1
+3lbGun/6lb How       25       3/6 7    4    1    1    0     0
+6lbGun/9lb Lic 26    6/9      11  5    3    1    1    1
+9lbGun/5.5" How      27       9/5 15   7    4    2    1     1
+6lb Gun/5.5" How     28       6/5 13   6    4    2    1     1
+4lbGun/5.5" How      29       4/5 12   6    3    2    1     0
+
+The number under the range column for each weapon type is the
+number of casualties that weapon will inflict at that range per
+100 men or per gun firing. These casualties are modified by the
+other factors. Refer to section 20.6.
+
+20.6 Fire and Melee Strength Modifiers
+
+Target Location      Fire          Melee          Attacker
+Formation      Fire
+
+Clear          100%  100%          Line           100%
+Town           60%   80%           Column         30%
+Woods          70%   70%           Square         30%
+Fields         90%   100%          Charge         0%
+Stream         100%  100%          Counter Charge 0%
+Bridge         100%  100%          Limbered       0%
+Redoubt        20%   40%           Unlimbered     100%
+Swamp          70%   70%           Normal         60%
+Sunken Road    80%   90%           Routed         50%
+River          0%    0%            Dismounted     75%
+                                   Open           60%
+Attacker Location    Fire          Melee
+
+Clear          100%  100%          Defender Formation  Fire
+Town           100%  100%
+Woods          100%  100%          Line           100%
+Fields         100%  100%          Column         150%
+Stream         100%  70%           Square         140%
+Bridge         100%  70%           Charge         100%
+Redoubt        100%  100%          Counter Charge 100%
+Swamp          100%  100%          Limbered       80%
+Sunken Road    100%  100%          Unlimbered     40%
+River          0%    0%            Normal         110%
+                                   Routed         60%
+                                   Dismounted     70%
+                                   Open           80%
+
+MELEE MODE TABLE
+
+Attacker  Line      Col  Sqr  Chg  Cchg      Limb      Ulim
+Norm      Rout      Dism      Open
+Line      100% 80%  100% 80%  80%  80%  80%  80%  200% 100% 120%
+Column    180% 100% 180% 100% 100% 100% 100% 100% 250% 180% 200%
+Square    100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100%
+Charge    250% 250% 100% 100% 100% 300% 300% 150% 400% 250% 300%
+C-Charge  250% 250% 100% 100% 100% 300% 300% 150% 400% 250% 300%
+Limbered  100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100%
+Unlimb    100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100%
+Normal    100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100%
+Routed    100% 100% 100% 100% 100% 100% 100% 100% 100% 100% 100%
+Dismount  100% 80%  100% 80%  80%  80%  80%  80%  200% 100% 120%
+Open      80%  70%  90%  70%  70%  70%  70%  70%  180% 80%  100%
+
+Col = Column        Sqr = Square        Chg = Charge        Cchg
+= Counter-Charge
+Limb = Limbered     Ulim = Unlimbered   Norm = Cavalry Normal
+Dism = Dismounted Calvary
+
+ADDITIONAL COMBAT MODIFIERS: (All apply to both fire and melee
+unless noted otherwise.)
+
+Condition                       Modifier
+
+Readiness level                 -5% per level below 7
+Lancers Melee                   130%
+Unit defending in melee is flanked 25%
+Unit attacking a flank in melee 150%
+Unit firing at a flank          130%
+Unit meleeing is out of ammo    90%
+Disruption level                -10%
+Number of men in target square  +/- 1% per 50 men difference from
+500 (99% at 450 men.)
+Number of men in firing unit    -1% per 50 men difference from
+500 (99% at 550 men)
+Attacking unit has less than 6 OP points left     75%
+Attacker Command Control        50% + 5% per level
+Attacker Fatigue                -1/2% per point
+Attacker Efficiency             Artillery or Fire Phase =
+Efficiency/ 100
+                                Melee or Cav Charge = Efficiency
+- 18)/80
+Melee Factor                    +10% per level (Melee Factor of 6
+= 160%)
+Leader Bonus                    +3% per bonus level of attached
+leader
+Target of fire has Auto CAV retreat on  10% losses
+Target is in Road Mode          200% losses
+Attacking Skirmishers           +1% per 5 men (to maximum of 300)
+(Max of +60%)
+
+ù Note: If attacking unit is not meleeing and is a 100% skirmisher
+unit with 100% skirmishers out, modifier is +60%
+
+Defending Skirmishers           -1% per 5 men (to maximum of 300)
+(Max of -60%)
+
+ù Note: If target unit is not meleeing and is a 100% skirmisher
+unit with 100% skirmishers out, fire modifier is -60%
+ù Note: If target unit is a 100% skirmisher unit with 100%
+skirmishers out and is in town, or woods, attacker melee modifier
+is -50%
+
+Infantry unit firing with less than 500 men and   120%
+is stacked with at least one other unit
+Unit is firing at a unit that is set to melee     140%
+French/French ally in column or with skirmishers out   120% for
+fire combat only
+Unit is a 100% skirmisher unit with 100% deployed 110%
+British infantry in column or line formation 130%
+French infantry in column formation     150%
+Dismounted CAV melee            1/2 melee value
+Russian Musketeer / Fusilier in column in melee   + 1 melee value
+Austrian Grenadier with skirmishers out 120% for fire combat only
+Prussian Infantry               120%
+Austrian unit in column         130%
+Austrian unit in column meleed by cavalry    120%
+Highland infantry               120%
+Russian infantry in column      120%
+Random Factor                   80 to 120%
+Level of Play                   80% to 120%
+Artillery unit with less than 16 men per gun # men/ 16  number of
+guns
+Elevation                       +/- 10% per level (- if target is
+higher, + if lower)
+Dismounted cavalry in melee     33%
+Routed unit vs. cavalry         20%
+Limbered artillery in melee     20%
+
+20.7 Rally Table
+                    Morale:
+Command Control     20        40        60        80
+
+10                  40%       50%       60%       70%
+15                  55%       65%       75%       85%
+20                  70%       80%       90%       100%
+25                  85%       95%       100%      100%
+30                  100%      100%      100%      100%
+
+The higher a unit's Morale and Command control, the higher its
+chance to recover from Rout.
+Russian units add 10% to the percentages on this table.
+
+
+20.8 Operation Point Table
+
+The Command Control rating of a unit determines how many OP
+points the unit receives. The maximum number of OP points a unit
+may receive is 15.
+
+  Command Control   OP points        Command Control   Op points
+         10             8                   20            9-11
+         11             8                   21            9-11
+         12             8                   22           10-12
+         13             8                   23           10-12
+         14             8                   24           11-13
+         15             8                   25           11-13
+         16             8                   26           12-14
+         17             8                   27           12-14
+         18            8-9                  28           13-15
+         19            8-9                  29           13-15
+                                            30           14-15
+
+OP point modifier is added to the number calculated from the
+above table.
+Russian units with an OP point modifier of 0 receive a -1 to
+their final # of OP points received.
+Austrian units in column receive a -1 to their final # of OP
+points received.
+
+20.9 Fatigue Table
+
+Action                   Cost
+Fire Combat
+     Infantry and Cavalry                   +4
+     Artillery           +10
+Melee combat             +8
+Movement                 +0 or 2 *
+
+*Whether a unit gains 0 or 2 Fatigue per square entered is
+heavily dependent on the terrain type entered and the cost in OP
+points to enter that square.
+
+20.10 Efficiency Table
+
+Action                                            Cost
+
+Unit moved onto or adjacent to by a friendly retreating unit
+-2
+     and unit has between 20 and 60 efficiency
+Unit retreats                                     -6
+Per 5 men lost as casualties*                     -1
+Unit forces an enemy unit to retreat by fire, melee or cavalry
+overrun                                           +6
+Unit forces an enemy unit to rout by fire or melee     +12
+
+*For units with less than 800 men. If a unit has over 800 men,
+the unit must lose a proportionally higher number of men suffer
+Efficiency loss.
+
+
+20.11 Disruption Table
+
+When units suffer losses they may gain disruption levels. Units
+will have a chance of gaining Disruption levels if:
+
+     The unit suffers >3% losses in a single shot (5 men lost for
+artillery)
+     Morale of the Unit is <20 and unit suffers a loss
+     Unit is moved onto or adjacent to by a retreating unit
+
+If any of the above occur, then the unit takes a Disruption Test
+based on the following chart. Each occurrence of the above causes
+a Disruption Test to be taken.
+
+                      Disruption Levels Gained:
+  Morale           +0             +1             +2
+
+   80+            100%            0%             0%
+    60            80%            20%             0%
+    40            60%            40%             0%
+    20            40%            40%            20%
+    0             20%            40%            40%
+   -20             0%            40%            60%
+
+
+Special modifiers:
+     ù Units in line formation are at -20%
+     ù Cossacks under Artillery fire are at -5%
+     ù Units in square formation receiving a cavalry charge get a
++40% bonus
+     ù Units in column formation receiving a cavalry charge get a
++10% bonus
+     ù French / French ally units in column or with deployed
+skirmishers get a +20% bonus
+     ù British units in line or column get a +30% bonus
+     ù Austrian grenadier units with skirmishers deployed get a
++20% bonus
+     ù Austrian units in column get a +30% bonus
+     ù Austrian units in column under attack by meleeing cavalry
+get a +20% bonus
+     ù Highland units get a +20% bonus
+     ù Russian infantry in column get a +20% bonus
+     ù Prussian infantry get a +20% bonus
+
+Note that all modifiers are cumulative. Therefore, Austrian
+grenadiers in column under attack by enemy cavalry are at +60%.
+Other Special Notes:
+     
+     ù Charging Cavalry automatically gain 2 Disruption levels,
+     in addition to any gained from fire or melee combat
+     ù Infantry units not in square formation and attacked by
+     charging cavalry automatically gain 2 Disruption levels
+     ù Units suffering >14% losses in one shot automatically gain
+     5 Disruption levels (exc: Artillery)
+
+20.12 Disruption Recovery Table
+
+Recovery from Disruption effects is based on Command Control. A
+unit may lose Disruption levels if it is not routed. The
+percentages listed below are the chance of recovering the number
+of Disruption levels listed if at the appropriate Command Control
+level. Therefore, a unit with a Command Control of 16 would have
+a 20% chance of recovering 0 Disruption levels, a 75% chance of
+recovering 1 Disruption level, and a 5% chance of recovering 2
+Disruption levels.
+
+Command        Disruption Command            Disruption
+Control  -0   -1   -2     Control      -0   -1   -2
+10      50%  50%   0%        20        0%  75%  25%
+11      45%  55%   0%        21        0%  70%  30%
+12      40%  60%   0%        22        0%  65%  35%
+13      35%  65%   0%        23        0%  60%  40%
+14      30%  70%   0%        24        0%  55%  45%
+15      25%  75%   0%        25        0%  50%  50%
+16      20%  75%   5%        26        0%  45%  55%
+17      15%  75%  10%        27        0%  40%  60%
+18      10%  75%  15%        28        0%  35%  65%
+19       5%  75%  20%        29        0%  30%  70%
+                             30        0%  25%  75%
+
+20.13 Leader Command Control Modifier Table
+
+Leader Bonus   ****      ***       **        *
+0              0%        0%        0%        100%
+1              0%        0%        12%       88%
+2              0%        0%        23%       77%
+3              0%        0%        34%       66%
+4              0%        0%        45%       55%
+5              0%        0%        55%       45%
+6              0%        12%       55%       34%
+7              0%        22%       55%       23%
+8              0%        33%       55%       12%
+9              0%        45%       55%       0%
+10             0%        55%       45%       0%
+11             11%       55%       34%       0%
+12             22%       55%       23%       0%
+13             33%       55%       12%       0%
+14             45%       55%       0%        0%
+15             55%       45%       0%        0%
+
+The Morale of the unit attached to the leader also affects the
+above percentages.
+
+20.14 Cavalry Charge Table
+
+In order to charge, a cavalry unit must:
+
+     ù have 6 OP points after declaring the charge ù have a morale
+     of >24
+     ù be in charge mode            ù have less than 4 disruption
+     levels
+     ù not start the charge in an enemy ZOC   ù pass a morale test
+     (see below)
+     ù choose a target within 8 squares
+     
+     
+MORALE TEST
+
+          Disruption:
+Morale    0         1         2         3
+30        40%       25%       10%       0%
+40        50%       35%       20%       5%
+50        60%       45%       30%       15%
+60        70%       55%       40%       25%
+70        100%      65%       50%       35%
+80        100%      75%       60%       45%
+90        100%      85%       70%       55%
+Note that counter charges use the same morale chart and are under
+the same restrictions as the charges. Also, the above percentages
+are able to be changed in the editor.
+
+ENTERING SQUARE
+Infantry units that try to enter square during an enemy charge
+will do so according to the following chart:
+          Disruption:
+Morale    0         1         2         3
+20-39     30%       15%       0%        0%
+40-59     60%       45%       30%       15%
+60-79     90%       75%       60%       45%
+80+       100%      100%      90%       75%
+
+Units with greater than 3 levels of disruption or that have a
+morale of less than 20 may not attempt to enter square.
+Units in line formation have a -10% to the above chart.
+Infantry that are comprised entirely of skirmishers have the
+following modifiers:
+     ù 100% skirmisher out -- cannot enter square
+     ù 75% skirmishers out -- -30%
+     ù 50% skirmisher out -- -20%
+     ù 25% skirmishers out -- -10%
+     
+Units that fail to enter square will test on the following chart
+to see if they gain disruption levels:
+
+Morale    +1 Disr   +2 Disr   +3 Disr   +4 Disr   +5 Disr
+20-39     10%       10%       10%       20%       50%
+40-59     20%       10%       10%       20%       40%
+60-79     30%       10%       10%       20%       30%
+80+       40%       10%       10%       20%       20%
+
+Units with morale of lower than 20 automatically gain 5 levels of
+disruption if they are charged by cavalry.
+
+20.15 OP Point Cost Table
+
+Terrain Entered     Infantry  Cavalry   Artillery
+Clear               2(3)      1(2)      2(3)
+Town                4(6)      3(5)      3(5)
+Woods               4(6)      3(5)      6(9)
+Fields              2(3)      1(2)      3(5)
+Stream              4(6)      3(5)      5(7)
+Bridge              4(6)      3(5)      5(7)
+Redoubt             3(5)      2(3)      3(5)
+Swamp               4(6)      P(P)      P(P)
+Sunken Road         3(5)      2(3)      3(5)
+River               P(P)      P(P)      P(P)
+Higher Elevation    +2        +1        +4
+
+
+ADDITIONAL COST
+
+Action                        Infantry  Cavalry   Artillery
+Performed
+
+Change Facing without entering a new square       +1   +1   +1
+Change facing while entering a new square         +1** +0   +0
+Change Formation if not in ZOC          +2*       +2*  +2
+Change Formation if in ZOC    +6*       +6*       +6
+Enter an enemy ZOC            +1        +1        +1
+Leave an enemy ZOC            +2        +2        +2
+Move away from objective      +1-3      +1-3      +1-3
+Fire in Fire Phase            1         1         4
+Melee in Melee Phase          2         2         2
+Deploy/Recall Skirmishers     1         1         1
+Stack with a friendly unit    +1        +1        +1
+Change Road Mode status       2         2         2
+
+Units in line formation pay double the listed cost, except for
+units which are comprised entirely of skirmishers and which are
+100% skirmishers out.
+
+Horse artillery move as if they are cavalry.
+
+The cost listed in parentheses is the cost for moving diagonally
+while the cost listed to the first is the cost for entering a
+square orthagonally (moving non-diagonally).
+
+Units that move non-diagonally from road/town squares to
+road/town squares while in road mode may do so at a cost of 1 OP
+point per square.
+
+Units may also use a special one-square movement known as ZOC-to-
+ZOC movement. This entails moving from one square of an enemy ZOC
+to another square of an enemy ZOC by moving through a friendly
+unit. The moving unit must pay the cost to leave a ZOC, plus the
+cost to enter a ZOC, plus the cost of entering the target square.
+In addition, the square being entered must be occupied by a
+friendly unit.
+
+Units may always move at least one square. This requires all of a
+unit's OP points and the unit must have started with at least 1
+OP point.
+*Non-French pay one additional point.
+
+**Units in column are exempted from this.
+
+
+                           CREDITS
+
+                              
+
+                         Game Design
+                        Chuck Kroegel
+                              
+                      Game Programming
+                        David Landrey
+                              
+                      Game Development
+Chuck Kroegel, David Landrey, Joel Billings & Graeme Bayless
+                              
+                            Rules
+               Graeme Bayless & Victor Penman
+                              
+                    Historical Scenarios
+         Dick Vohlers, Joel Billings & Chuck Kroegel
+                              
+          Customized Disk Operation System (Apple)
+                      Roland Gustafsson
+                              
+                         Playtesters
+Graeme Bayless, Joel Billings, James Kucera, Dave Shelley, Robert
+Daly, John Bruning, David Heath, Richard Hooks, Mike Musser,
+                        Gunter Meyer,
+            Bill Barr, Russ Smith & Cyrus Harris
+                              
+                 Special Historical Research
+                         Mike Musser
+                              
+                  Special Historical Notes
+                        John Bruning
+                              
+                    Art & Graphic Design
+    Louis Saekow Design: David Boudreau & Peter Gascoyne
+                              
+                     Desktop Publishing
+               David Boudreau & Peter Gascoyne
+                              
+                          Printing
+              A & a Printers and Lithographers
+
+            (c) 1988 Strategic Simulations, Inc.

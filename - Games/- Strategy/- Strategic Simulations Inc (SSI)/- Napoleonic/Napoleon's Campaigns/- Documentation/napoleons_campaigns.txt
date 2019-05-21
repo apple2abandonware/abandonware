@@ -1,0 +1,47 @@
+             Napoleon's Campaigns: 1813 & 1815 Quick Docs
+
+                           Orders Summary
+                           ==============
+
+Menu A (Strategic Orders)           Menu B (Orders to Corps)
+-------------------------           ------------------------
+LM = Look Map                       SU = Set Urgency
+SR = Status Report                  SM = Set march mode (immediate, by may
+DC = Designate Commander                 only be given to Corps 11 (HQ))
+SG = Save Game                      CM = Set Conact Mode (combat immediate)
+ET = End Turn                       RT = Restreat to Hex (immediate)
+OC = Order Corps                    AT = Attack Hex (immediate)
+OF = Order Force                    RE = Reinforce Hex (immediate)
+LD = Look at Dispatches             XU = Exit Unit (imm; confederate only)
+                                    MV = Move
+Menu C  (Orders to Force)           PT = Patrol (units with cavalry only)
+-------------------------           CD = Change Deployment Mode
+SU = Set Urgency (combat imm)       CS = Corps Status (immediate)
+CM = Set Contact Mode(combat imm)   EX = Exit Menu B (immediate)
+MV = Move                           OC = Order New Corps (equivalent to giving
+PT = Patrol(units w/cavalry only)        an EX order followed by an OC order)
+CD = Change Deployment Mode
+EX = Exit Menu C (immediate)
+
+
+            Unit Modes                   Commands During Movement
+            ----------                   and Setting Communication Lines
+                                         -------------------------------
+  CONTACT              COMBAT            1-6 = moves cursor
+                                           0 = allows player to restart
+ Initiative*          Withdraw                 or abort a MV or LC order
+  Withdraw             Stand             any = any other key will end
+   Stand               Attack                  tracing of movement
+   Attack           Hasty Attack           X = required to end tracing of a
+Hasty Attack                                   communications line before
+                                               the game begins
+
+MARCH        PATROL     DEPLOYMENT
+
+ Rest                      Road
+Normal                   Deployed
+Force
+
+(note: Initative leaves initiative to local commander)
+
+Note: When Renumbering Units, HQ is always #11

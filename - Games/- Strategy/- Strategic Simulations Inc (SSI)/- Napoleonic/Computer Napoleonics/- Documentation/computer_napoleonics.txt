@@ -1,0 +1,850 @@
+                             Computer Napoleonics
+                            The Battle of Waterloo
+
+                              Table of Contents
+
+                1.0 Introduction..............................1
+                2.0 General Descriptions......................1
+                3.0 Sequence of Play..........................2
+                4.0 General Commands..........................2
+                5.0 Movement Commands.........................3
+                6.0 Combat....................................3
+                7.0 Artillery.................................4
+                8.0 Chateau Garrison Units....................5
+                9.0 Reinforcements............................5
+               10.0 Victory Conditions........................5
+               11.0 Solitaire Play............................5
+               12.0 Designer's Notes..........................5
+
+
+
+1.0  INTRODUCTION
+=================
+
+1.1  Description of Play
+------------------------
+Computer Napoleonics: The Battle of Waterloo is a division level simulation of
+the battle of Waterloo, the decisive final encounter between the Allied Armies
+of England and Prussia and the French Armee Du Nord.  The battle of Waterloo,
+Napoleon Bonaparte's last battle, took place on Jun 18, 1815.  Computer
+Napoleonics is both a two-player and solitaire game.  One player commands the
+forces of Napoleon while the other player (or the computer) commands the
+forces of Anglo-Allied-Prussian armies.  The players take turns moving their
+units and engaging in combat.  The outcome of each individual engagement is
+determined by the computer in accordance with the probabilities given in the
+Combat Results Tale.  Play continues in this fashion for ten game turns or
+until one side has successfully fulfilled its victory conditions.
+
+The game map displayed on the video screen is divided into bricks (referred to
+as squares) in order to regulate movement and combat.  Each square represents
+400 meters of terrain, while each combat unit represents artillery, cavalry or
+infantry formations of approximately division size.  Each game turn represents
+one hour of real time.
+
+1.2  Talking to the Computer
+----------------------------
+Whenever entering a command to the computer complete your command by pressing
+the 'return' key (often referred to the symbol (CR) which stands for carriage
+return).  To correct a mistake use the 'back arrow' key to go backwards, then
+type over the mistake.
+
+1.3  Saving a Game
+------------------
+Upon completion of each player's combat execution phase the computer will
+allow the player(s) to save the game in progress.  If you choose to save the
+game you will need a scratch disc to store the data.  Once the game is saved
+you will be able to restart it from the point at which you left off.
+
+1.4  Mapboard coordinates
+------------------------
+To identify a particular square on the map, first read the row number and then
+the column number.  For example, Hougomont is located in square 5861.  The row
+numbers are located on the left-hand side of the maps, while the column numbers
+are located around the top, bottom and right-hand sides of the maps.
+
+                       (Diagonal Columns)
+                       /
+        56        57  /     58        59        60        61        62
+    ÚÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄ¿
+ 55 ³         ³         ³         ³         ³         ³   /     ³         ³
+    ³         ³         ³         ³         ³         ³  /      ³         ³
+    ÀÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÙ
+     56  ³         ³         ³         ³         ³    /    ³         ³
+         ³         ³         ³         ³         ³  /      ³         ³
+    ÚÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄ¿
+ 57 ³         ³         ³         ³         ³    /    ³         ³         ³
+    ³         ³         ³         ³         ³  /      ³         ³         ³
+    ÀÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÙ
+     58  ³---------³---------³-------->³Hougomont³         ³         ³
+         ³         ³         ³  woods  ³   XXX   ³         ³         ³
+    ÚÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄ¿
+ 59 ³         ³         ³         ³         ³         ³         ³         ³
+    ³         ³         ³         ³  woods  ³         ³         ³         ³
+    ÀÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÙ
+     60  ³         ³         ³         ³         ³         ³         ³
+         ³         ³         ³         ³         ³         ³         ³
+    ÚÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄ¿
+ 61 ³         ³         ³         ³         ³         ³         ³         ³
+    ³         ³         ³         ³         ³         ³         ³         ³
+    ÀÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÙ
+
+
+1.5  Starting a Game
+--------------------
+To begin a game, boot your disc and the game will begin automatically.
+
+
+2.0  GENERAL DESCRIPTION
+========================
+
+2.1  Parts Inventory
+--------------------
+A) Game Box
+B) Rule Book
+C) 5 1/4" Game Disc
+D) Two Mapboard Charts
+E) Two Game Information Cards
+
+2.2  Definition of Terms
+------------------------
+2.21 Movement Allowance:  The maximum number of squares which a unit may be
+     moved in a single movement phase, expressed in Movement Points.
+
+2.22 Combat Strength: The relative strength of a unit with regard to attack
+     and defense, expressed in terms of Strength Points.
+
+2.3  Mapboard Codes
+-------------------
+2.31 General: The game represents the actual ground in Belgium over which the
+     Battle of Waterloo was fought.  The entire map consists of 20 horizontal
+     rows and 18 diagonal columns and is accurately represented on two
+     mapboards.
+
+2.32 Terrain:  There are four types of terrain - woods, clear, village, and
+     chateau.  Terrain affects the movement and combat strength of units as
+     per the Terrain Effects Chart.  There is actually a fifth type of terrain
+     (crest) that has no effect on the game.  Crests are shown as lines on the
+     mapboard and represent the tops of the many hills that were on the
+     battlefield.  Crests do no affect movement or combat and are included
+     only for historical interest.
+
+2.33 Combat Units:  Each unit is represented by a two-letter identification; the
+     first letter indicates the unit type (i.e., Artillery, Cavalry or
+     Infantry) and nationality (i.e., Allied or French) and the second letter
+     indicates the relative unit strength.
+
+2.34 Unit Type:  A = Allied Artillery  C = Allied Cavalry  I = Allied Infantry
+     a = French Artillery   c = French Cavalry  i = French Infantry
+
+2.35 Unit Strength:  Each unit is assigned a relative combat strength which is
+     listed on the unit roster.
+
+2.36 Unit Roster:  The roster lists each player's units by ID code, strength
+     points, movement points, starting square (and turn of arrival if the unit
+     is a reinforcement), and historical designation.
+
+
+3.0  SEQUENCE OF PLAY
+=====================
+The game is played in a series of game turns each consisting of a French
+player turn and an Allied player turn.  Each game turn represents the passage
+of one hour.
+
+3.1  French Player Turn
+-----------------------
+The French player is always the first player to move an engage in combat.  The
+French player turn is broken into three parts, the French movement phase, the
+French combat set-up phase, and the French combat resolution phase.
+
+3.11 French Movement Phase: The player commanding the French army moves each
+     of his units on the mapboard in any order he chooses, within the
+     limitations imposed by Movement rules.  As orders are given, the computer
+     moves each unit into its new position.  A player may cancel the orders
+     given to the a particular unit by entering a move command after which the
+     unit will be returned to its original starting position and new movement
+     orders may be given.  When the French player is satisfied with his moves,
+     enters the appropriate command to end the Movement Phase.
+
+3.12 French Combat Set-up Phase: The French player must now attack all enemy
+     units which are adjacent to any French units.  Combat is mandatory.  The
+     French player enters combat orders for each of his units participating in
+     combat (i.e., any units which are adjacent to an enemy unit plus any
+     artillery units which are in range and which the French player wishes to
+     use).
+
+3.2  Save Game Phase:
+---------------------
+The player(s) may save the game and/or continue.
+
+3.3  Allied Player Turn
+-----------------------
+The Allied player (or the computer) now moves his units and engages in combat
+in the same fashion as the French player.
+
+3.31 Allied Movement Phase: The Allied player (or the computer) moves each of
+     his units in the same manner as the French moved the French army.
+
+3.32 Allied Combat Set-up Phase: The Allied player (or the computer) declares
+     his attacks to the computer.
+
+3.33 Allied Combat Resolution Phase: The Allied player (or the computer)
+     resolves all combat previously set up.
+
+3.4  Save Game Phase
+--------------------
+Once again the player(s) may save the game and/or continue.
+
+3.5 Repeat steps 3.1 - 3.4 until ten complete game turns have been played or
+until a winner is declared (whichever comes first).
+
+
+4.0  GENERAL COMMANDS
+=====================
+Commands are divided into two general categories: movement commands and combat
+commands.
+
+4.1  Movement Commands
+----------------------
+4.11 Initial Computer Query:
+
+      "ENTER ID OF UNIT YOU WISH TO MOVE-"
+
+      Possible player responses:
+          xx - Move unit with ID xx.
+          FX - List the French units that have exited the map
+          NM - New Map
+          DM - Done moving
+
+4.12 Initial Computer Query:
+
+      "MP'S LEFT=n. ENTER MOVE-"
+
+     Possible player responses:
+
+          d - Move the unit one square in direction d.
+          'return' (also known as CR) - End the move of the unit currently
+                                        moving.
+          Mdd...d - Move the unit one square in each direction listed in the
+                    order that the directions are listed and then end that
+                    unit's move.
+
+4.2  Combat Commands
+--------------------
+
+4.21 Initial Computer Query:
+
+      "ENTER ID OF UNIT YOU WISH TO ATTACK-"
+
+     Possible player responses:
+          xx - Attack the enemy unit with ID xx.
+          ?xx - List units attacking unit xx.
+          Mxxyyyy...yy - Conduct multiple attack of unit xx with units
+                         yyyy...yy.
+          VV - Print in inverse video the ID's of enemy units which must be
+               attacked.
+          NM - New Map
+          DA - Done attacking
+  
+4.22 Initial Computer Query:
+
+      "ENTER ID OF AN ATTACKING UNIT-"
+
+     Possible player responses:
+          xx - Attack with unit xx.
+          Rxx - Remove unit xx from attack.
+          Q - Quit attacking the unit.
+
+4.23 Initial Computer Query:
+
+      "WHICH ENEMY UNIT DO YOU WISH TO RESOLVE COMBAT FOR-"
+
+     Possible player responses:
+          xx - Resolve combat against unit xx.
+          NM - New Map
+          Auto - automatically resolve all remaining combats and end
+                 the combat and execution phase.
+
+4.3  Examples of the Use of Movement Orders
+-------------------------------------------
+
+4.31 For the French to move unit ie from square 6463 to square 6365 on the
+     first turn the French player may enter one of the two following sets of
+     commands during the French movement phase:
+
+    A) ie(CR) 2(CR) 2(CR) 1(CR) (CR).  This will move unit ie in direction 2
+       for two squares and then in direction 1 for one square with a movement
+       of each square occurring after each (CR).
+
+    B) ie(CR) M221(CR). This will also result in a move of two squares in
+       direction 2 and then a move of one square in direction 1.  This is a
+       shortcut way of moving units if you know in advance where you wish them
+       to move.
+
+4.4  Examples of the Use of Combat Commands
+-------------------------------------------
+
+4.41  Assume unit cg is in square 6767, unit ij is in square 6667, unit ae is
+      in square 6766, and unit IO is in square 6768.  If the French wished to
+      attack unit IO with units cg, ij, ae then he may enter one of the
+      following sets of commands during the French combat set-up phase.
+
+     A) IO(CR) cg(CR) ij(CR) ae(CR) Q(CR).
+
+     B) MIOcgijae(CR).
+
+4.42 Now let's assume the French player has set up the attack on unit IO but
+     decides to use unit ae for another attack.  To remove unit ae from the
+     attack on IO enter the following:
+
+     IO(CR) Rae(CR).
+
+4.5 IMPORTANT - REMEMBER THAT THE (CR) IS A SYMBOL USED TO REPRESENT THE APPLE
+    'return' KEY.
+
+
+5.0  MOVEMENT
+=============
+During each movement phase the phasing player may move any, all or none of his
+units.  Units may be moved in any direction or combination of directions.  A
+given unit's movement, however, is always restricted y the unit's Movement
+Points, as well as y restrictions imposed y terrain and other movement rules.
+
+5.1  Movement Restrictions
+--------------------------
+
+5.11 Movement Points: Movement is calculated in terms of Movement Points.  The
+     number of Movement Points expended by a unit during movement during a
+     single Movement Phase may not exceed its total Movement Allowance.
+
+5.12 The Movement Allowance of various units is as follows:
+     Artillery - 3 Movement Points
+     Infantry - 4 Movement Points
+     Cavalry and Horse Artillery - 5 Movement Points
+
+5.13 A unit may expend any portion of its Movement Allowance, but unused
+     Movement Points may not be accumulated from one Movement Phase to the
+     next or transferred from on unit to another.
+
+5.14 A unit expends one movement point to enter a Clear, Village or Chateau
+     square.
+
+5.15 Woods squares are impassable; units are never allowed to enter a woods
+     square.
+
+5.2  Zones of Control
+---------------------
+The six squares immediately adjacent to a square constitute the zones of
+control of any unit in that square.  Squares upon which a unit exerts a zone of
+control are called controlled squares and inhibit the movement of enemy units.
+All units must cease movement when they enter an enemy controlled square.
+
+          ³         ³         ³         ³         ³         ³
+          ÀÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÙ
+               ³         ³ xxxxxxx ³ xxxxxxx ³         ³
+               ³         ³ xxxxxxx ³ xxxxxxx ³         ³
+          ÚÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄ¿
+          ³         ³ xxxxxxx ³  Unit   ³ xxxxxxx ³         ³
+          ³         ³ xxxxxxx ³         ³ xxxxxxx ³         ³
+          ÀÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÙ
+               ³         ³ xxxxxxx ³ xxxxxxx ³         ³
+               ³         ³ xxxxxxx ³ xxxxxxx ³         ³
+          ÚÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄ¿
+          ³         ³         ³         ³         ³         ³
+
+5.21 All units exert zones of control throughout the game turn.  Zones of
+     control are never negated by units, enemy or friendly.
+
+5.22 Units do not pay any additional movement points to enter an enemy
+     controlled square.
+
+5.23 Units may only leave a zone of control as a result of combat.  Units may
+     never move out of an enemy zone of control during a movement phase.
+
+5.24 Zone of control are mutual, i.e. if a given unit is in an
+     enemy-controlled square, the enemy unit is likewise in its controlled
+     square. Thus units are locked into combat with each other.
+
+5.25 Friendly zones of control never inhibit the movement of friendly units.  There is
+     no additional cost for entering a friendly controlled or occupied square.
+
+5.3  Although friendly units may move through squares containing other
+     friendly units, two units may never end a phase in the same square.
+
+5.4  For the purposes of issuing movement commands, the various directions
+     which a unit may move are assigned the following designations:
+
+                    ÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄ-
+                         ³   6     ³    1    ³
+                         ³     \   ³   /     ³
+                    ÚÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄ¿
+                    ³     5__ ³  Unit   ³ __2     ³
+                    ³         ³         ³         ³
+                    ÀÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÙ
+                         ³     /   ³   \     ³
+                         ³   4     ³    3    ³
+                    ÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄ
+
+5.5  Only French units may move off the map.  Units may only leave the right
+     map edge between squares 5168 and 5871 (see section 10.1).
+
+5.6  French units may not lock Allied reinforcements.  Thus French units may
+     never enter a square in row 70.
+
+
+6.0  COMBAT
+===========
+
+6.1  Combat Set-up Rules
+------------------------
+Combat between adjacent opposing units is mandatory.  Artillery units are the
+only units which may attack units to which they are not adjacent (see section
+section 7.0).  The layer who has just completed moving is termed the Attacker;
+the other player is the Defender, regardless of the overall situation.
+
+6.2  Which Units Attack
+-----------------------
+
+6.21 All units which end the movement phase in an enemy-controlled square must
+     attack at least one enemy unit during the combat phase.  Exception: The
+     units in Hougomont and La Haye Sainte at the beginning of the game are
+     never forced to attack (see section 8.0).
+
+6.22 All enemy units that have friendly units in their zones of control must
+     be attacked by at least one unit during the combat phase.
+
+6.23 The Attacker may choose which attacking units will attack each defending
+     unit, as long as all adjacent friendly units participate in an attack and
+     so long as all adjacent enemy units are attacked.
+
+6.24 An Enemy unit may be attacked by up to six friendly units.
+
+6.25 No unit may attack more than once per combat phase (although it may
+     attack more than one unit) and no enemy unit may e attacked more than
+     once per combat phase.  Units may only attack a unit to which they are
+     adjacent (exception; see section 7.0)
+
+6.3  Multi-Unit Combat
+----------------------
+
+6.31 If a unit is in the zone of control of more than one enemy unit, it must
+     attack all of those units which are not being attacked by some other
+     friendly unit.
+
+6.32 Units in two or more different squares may combine their attack against a
+     single adjacent enemy unit.
+
+6.33 A single unit's combat strength may never be divided among different
+     combats during the same combat phase.
+
+6.34 A single attacking unit may attack more that one enemy unit in one
+     attack.
+
+6.35 A single defending unit may be attacked by more than one attacking unit
+     in one combat.
+
+6.36 If a friendly unit is attacking more than one enemy unit then no other
+     friend;y unit may attack those units (i.e., 1 unit attacking 2 units is
+     legal, but 2 units attacking 3 units is not legal).
+
+6.4  Units defending in certain types of terrain may have their combat
+     strength increased.  Units in village or chateau hexes have their combat
+     strength doubled (2X) when defending.
+
+6.5  Combat Resolution Procedure
+--------------------------------
+After the attacker has allocated his attacks and issued his orders, the
+computer resolves each attack in order of the attacker's choice.  The computer
+automatically compares the total combined strength of the attacking units to
+the strength of the defending units in order to arrive at a combat ratio (3 to
+1, 1 to 2, etc.).  The ratio is always rounded down in favor of the defender.
+The computer then obtains a random number between zero and nine and consults
+the combat results table to arrive at a result.
+
+6.6  Explanation of Combat Results:
+-----------------------------------
+
+  AR - (Attacker Retreats) - All attacking units must move back one square.
+        (The first unit retreated is the first unit selected as an attacker,
+        the second unit is the second unit selected as an attacker, etc).
+  DR - (Defender Retreats) - All defending units must move back one square
+  AE - (Attacker Eliminated) - All attacking units are destroyed and removed
+        from the game.
+  DE - (Defender Eliminated) - All defending units are destroyed and removed
+        from the game.
+  EX - (Exchange) - All defending units are eliminated.  The attacker must
+        lose at least an equal number of strength points from among the units
+        which participated in the attack and which are adjacent to the
+        defender. Since whole units must be lost, the attacker may lose more
+        strength points than the defender.  The computer eliminates the first
+        attacking unit that was ordered to attack, and then the second, etc.,
+        until enough attacking strength points have been eliminated to satisfy
+        the exchange.
+
+6.7  A unit that is forced to retreat as a result of combat will automatically
+     be retreated one square by the computer.  Units may not retreat into a
+     square they would normally be unable to move into (woods, row 70 for the
+     French), nor may a unit retreat into an enemy-controlled square.  Units
+     may not retreat off the map or onto another friendly unit.  If a
+     retreating unit has not square to retreat to, it is eliminated.  Allied
+     units will be retreated in direction 1 if possible.  If direction 1 is
+     blocked they will retreat in directions 2, 3, 4, 5, 6 in that order of
+     preference. French units will be retreated in direction 4 if possible.
+     If direction 4 is blocked they will retreat in directions 5, 6, 1, 2, 3
+     in that order of preference.
+
+6.8  Whenever, as a direct result of combat, a defending unit is retreated or
+     eliminated, the attacking player may advance one of his surviving
+     adjacent units (which participated in that attack) into the square
+     formerly occupied by that enemy unit.  This option must be exercised
+     immediately.  The advance may be made even if the advancing unit is still
+     in another enemy's zone of control.
+
+6.9  Retreating and advancing as a result of combat is not considered regular
+     movement and is not counted as an expenditure of movement points.
+
+
+7.0  ARTILLERY
+==============
+
+7.1  General
+------------
+Unlike infantry and cavalry units, artillery units may participate in attacks
+against units to which they are not adjacent.  This is called bombarding.  An
+artillery unit may bombard a unit from a two square distance.  However,
+artillery units must participate in normal combat when adjacent to opposing
+units.
+
+7.2  Artillery units may attack non-adjacent enemy units that are two squares
+     distant (but no more).  They are not forced to attack any units in this
+     manner.
+
+7.3  Range from the artillery unit is calculated y including the target
+     square, but not the bombarding unit's square.
+
+7.4  Artillery units may only attack a single enemy unit when bombarding.
+
+7.5  Artillery attacking from a non-adjacent square, i.e. bombarding, suffer
+     no adverse combat results; they are never eliminated or retreated as a
+     result of their own attack.
+
+7.6  Artillery unit may not bombard over a woods square.
+
+                    ÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄ-
+                         ³  YES    ³         ³
+                         ³         ³         ³
+                    ÚÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄ¿
+                    ³   NO    ³  WOODS  ³Artillery³
+                    ³         ³   XX    ³  Unit   ³
+                    ÀÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÁÄÄÄÄÂÄÄÄÄÙ
+                         ³         ³         ³
+                         ³  YES    ³         ³
+                    ÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄ
+
+7.7  Artillery units fire over other units, enemy and friendly.
+
+7.8  Adjacent Attacks
+---------------------
+When an artillery unit is in an enemy-controlled square it may not bombard and
+must participate in normal combat as would any other unit.
+
+7.9  An artillery unit may never add its combat strength to another unit's
+     defensive value by bombardment.  An artillery unit may only bombard
+     during its own combat phase.
+
+
+8.0  CHATEAU GARRISON UNITS
+===========================
+The two chateau garrison units (Hougomont-IR and La Haye Sainte-IS) are
+affected by special rules.
+
+8.1  Movement
+-------------
+Neither unit may move.
+
+8.2 Combat
+----------
+Neither unit may attack nor are they ever forced to attack.  Also if either
+unit is forced to retreat it is eliminated.
+
+
+9.0  REINFORCEMENTS
+===================
+The Allied player receives Prussian reinforcements during the Allied movement
+phase of turns three, four, five, and six.  These units are automatically
+placed on the mapboard at the beginning of the movement phase and may be moved
+normally once on the map.  Since French units may not enter row 70 the
+reinforcements will always appear if thee are no Allied units in squares 7072
+to 7075.  If any Allied unit is in square 7072, 7073, 7074, or 7075 then all
+of the future Prussian reinforcements are delayed one turn.
+
+
+10.0  VICTORY CONDITIONS
+========================
+
+10.1  French Victory
+--------------------
+The French player wins if his army destroys 50 Allied strength points and
+exits any seven of his units off the right map edge between hexes 5168 and
+5871.
+
+10.2  Allied Victory
+--------------------
+The Allied player wins if his army destroys 50 French strength points before
+the French have destroyed 50 Allied strength points.
+
+10.3  The game is declared a draw if neither player succeeds in fulfilling his
+      victory conditions by the end of the tenth game turn.
+
+10.4  Allied Demoralization
+---------------------------
+If the French have destroyed 50 Allied strength points ut have not yet exited
+seven units off the map then the Allied units are considered to be
+demoralized.  The effect this has on the game is to shift the combat ratio one
+column in favor of the French. Examples: A French attack of 1 to 1 against a
+demoralized Allied unit would become 2 to 1.  An Allied attack of 3 to 1 would
+become 2 to 1.
+
+
+11.0  SOLITAIRE
+===============
+In the solitaire game the computer commands the Anglo-Allied armies.  In the
+solitaire game, in order to provide the player with a greater challenge, it is
+necessary for the French player to eliminate 60 Allied strength points in
+order to cause demoralization and in order to win the game (instead of the 50
+required in the two-player game).
+
+
+12.0  DESIGNER's NOTES:
+=======================
+This game was designed to be an introductory type wargame.  The two major
+design criteria were that the game play fast (1 evening) and be as simple as
+possible while still giving the players the feel of the battle of Waterloo.
+The biggest problem came from the fact Chateaus offered excellent defensive
+positions for small groups of soldiers (Napoleon never took Hougomont).  The
+decision to create another type of unit (garrison) does detract from the
+simplicity, ut adds so much to the realism that it was deemed worthwhile.
+
+For years I've enticed friends into wargaming by saying "How 'bout a fast basic
+wargame."  Now I can add the extra enticement: "on my home computer!"
+
+- John Lyon
+
+
+-----------------------------------------------------------------------------
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³  GENERAL COMMANDS                                                        ³
+ ³  ================                                                        ³
+ ³  Commands are divided into two general categories: movement commands and ³
+ ³  combat commands.                                                        ³
+ ³                                                                          ³
+ ³  Movement Commands                                                       ³
+ ³  -----------------                                                       ³
+ ³  Initial Computer Query:                                                 ³
+ ³  "ENTER ID OF UNIT YOU WISH TO MOVE-"                                    ³
+ ³  Possible player responses:                                              ³
+ ³      xx - Move unit with ID xx.                                          ³
+ ³      FX - List the French units that have exited the map                 ³
+ ³      NM - New Map                                                        ³
+ ³      DM - Done moving                                                    ³
+ ³                                                                          ³
+ ³  Initial Computer Query:                                                 ³
+ ³   "MP'S LEFT=n. ENTER MOVE-"                                             ³
+ ³  Possible player responses:                                              ³
+ ³       d - Move the unit one square in direction d.                       ³
+ ³           'return' (also known as CR) - End the move of the unit         ³
+ ³           currently moving.                                              ³
+ ³       Mdd...d - Move the unit one square in each direction listed in     ³
+ ³           the order that the directions are listed and then end that     ³
+ ³           unit's move.                                                   ³
+ ³                                                                          ³
+ ³  Combat Commands                                                         ³
+ ³  ---------------                                                         ³
+ ³  Initial Computer Query:                                                 ³
+ ³    "ENTER ID OF UNIT YOU WISH TO ATTACK-"                                ³
+ ³   Possible player responses:                                             ³
+ ³        xx - Attack the enemy unit with ID xx.                            ³
+ ³        ?xx - List units attacking unit xx.                               ³
+ ³        Mxxyyyy...yy - Conduct multiple attack of unit xx with units      ³
+ ³                       yyyy...yy.                                         ³
+ ³        VV - Print in inverse video the ID's of enemy units which must be ³
+ ³             attacked.                                                    ³
+ ³        NM - New Map                                                      ³
+ ³        DA - Done attacking                                               ³
+ ³                                                                          ³
+ ³  Initial Computer Query:                                                 ³
+ ³   "ENTER ID OF AN ATTACKING UNIT-"                                       ³
+ ³  Possible player responses:                                              ³
+ ³       xx - Attack with unit xx.                                          ³
+ ³       Rxx - Remove unit xx from attack.                                  ³
+ ³       Q - Quit attacking the unit.                                       ³
+ ³                                                                          ³
+ ³  Initial Computer Query:                                                 ³
+ ³  "WHICH ENEMY UNIT DO YOU WISH TO RESOLVE COMBAT FOR-"                   ³
+ ³  Possible player responses:                                              ³
+ ³       xx - Resolve combat against unit xx.                               ³
+ ³       NM - New Map                                                       ³
+ ³       Auto - automatically resolve all remaining combats and end         ³
+ ³              the combat and execution phase.                             ³
+ ³                                                                          ³
+ ³  IMPORTANT - REMEMBER THAT THE (CR) IS A SYMBOL USED TO REPRESENT        ³
+ ³  THE APPLE     'return' KEY.                                             ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³                          Terrain Effects Chart                           ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³             ³                         ³                                  ³
+ ³   Type      ³     Effect on Movement  ³   Effect on Combat               ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³   Clear     ³     1 MP to enter       ³   No effect                      ³
+ ³   Woods     ³     Impassable          ³   Artillery may not fire over    ³
+ ³   Village   ³     1 MP to enter       ³   Defenders doubled              ³
+ ³   Chateau   ³     1 MP to enter       ³   Defenders doubled              ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+-----------------------------------------------------------------------------
+
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³                           Combat Results Table                           ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³                                                                          ³
+ ³   RND                          Odds                                      ³
+ ³   NUM   1-5   1-4   1-3   1-2   1-1   2-1   3-1   4-1   5-1   6-1        ³
+ ³    0    AE    AR    AR    DR    DR    DE    DE    DE    DE    DE         ³
+ ³    1    AE    AR    AR    DR    DR    DR    DE    DE    DE    DE         ³
+ ³    2    AE    AE    AR    AR    DR    DR    DR    DE    DE    DE         ³
+ ³    3    AE    AE    AR    AR    DR    DR    DR    DE    DE    DE         ³
+ ³    4    AE    AE    AE    AR    DR    DR    DR    DR    DE    DE         ³
+ ³    5    AE    AE    AE    AR    AR    DR    DR    DR    DE    DE         ³
+ ³    6    AE    AE    AE    AR    AR    DR    DR    DR    EX    DE         ³
+ ³    7    AE    AE    AE    AR    AR    EX    DR    EX    EX    DE         ³
+ ³    8    AE    AE    AE    AE    AR    EX    EX    EX    EX    DE         ³
+ ³    9    AE    AE    AE    AE    AR    AR    EX    EX    EX    DE         ³
+ ³                                                                          ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³                                                                          ³
+ ³                 Odds of less than 1-5 are treated as 1-5                 ³
+ ³                 Odds of more than 6-1 are treated as 6-1                 ³
+ ³                                                                          ³
+ ³        AE = Attacker Eliminated     AR = Attacker Retreat                ³
+ ³        DE = Defender Eliminated     DR = Defender Retreat                ³
+ ³                          EX = Exchange                                   ³
+ ³                                                                          ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+   Note: At the beginning of the first French player turn of every game,
+   the player will be asked whether he wishes the computer to execute the
+   designer's first move.  This is your chance to see the move the designer
+   would use most often if he were playing you.  Once the move is completed,
+   the game will continue normally.
+
+-----------------------------------------------------------------------------
+
+                                 Unit Roster
+                                 ===========
+
+                                    Allies
+                                    ------
+     Artillery
+     ---------
+     Unit ID   SP's-MP's   Start(turn)   Historical Desig*
+     -----------------------------------------------------
+     AA           3-5      6066          CAV RES
+     AB           3-3      7075(3)       IV*
+     AC           2-3      6165          I
+     AD           2-3      5863          II
+     AE           2-3      6366          RES
+     AF           1-3      7075(5)       II*
+     AG           1-3      7075(6)       I*
+     * Prussian reinforcements
+
+     Cavalry
+     -------
+     Unit ID   SP's-MP's   Start(turn)   Historical Desig*
+     -----------------------------------------------------
+     CA           6-5      6267          HVY
+     CB           4-5      5864          RF
+     CC           4-5      6670          LF
+     CD           3-5      6167          DB
+     CE           3-5      7074(3)       IV*
+     CF           3-5      7074(5)       II*
+     CG           3-5      7074(6)       I*
+     * Prussian reinforcements
+
+     Infantry
+     --------
+     Unit ID   SP's-MP's   Start(turn)   Historical Desig*
+     -----------------------------------------------------
+     IA           7-4      5763          2/II
+     IB           7-4      6064          3/I
+     IC           7-4      6467          5/R
+     ID           6-4      5963          1/I
+     IE           3-4      5260          3/DB/I
+     IF           3-4      7073(3)       15/IV*
+     IG           3-4      7072(3)       16/IV*
+     IH           3-4      7075(4)       13/IV*
+     II           3-4      7074(4)       14/IV*
+     IJ           3-4      7073(5)       5/II*
+     IK           3-4      7072(5)       6/II*
+     IL           3-4      7073(6)       1/I*
+     IM           2-4      5562          4/II
+     IN           2-4      5866          B/R
+     IO           2-4      6768          1/2/DB/I
+     IP           2-4      6969          2/2/DB/I
+     IQ           1-4      6568          6/R
+     IR           8-0      5861          Hougomont Garrison
+     IS           8-0      6265          La Haye Sainte Garrison
+     * Prussian reinforcements
+
+
+
+                                    French
+                                    ------
+     Artillery
+     ---------
+     Unit ID   SP's-MP's   Start         Historical Desig*
+     -----------------------------------------------------
+     aa           3-3      6465          I
+     ab           3-3      6259          GD
+     ac           2-3      5858          II
+     ad           2-3      6160          IV
+     ae           3-5      6663          LtGD
+     af           2-5      5756          HvyGD
+
+     Cavalry
+     -------
+     Unit ID   SP's-MP's   Start         Historical Desig*
+     -----------------------------------------------------
+     ca           6-5      6664          IVcc
+     cb           4-5      5857          HvyGD
+     cc           4-5      5958          IIIcc
+     cd           3-5      6764          LtGD
+     ce           3-5      6462          VI (attached)
+     cf           2-5      5558          II
+     cg           2-5      6867          I
+
+     Infantry
+     --------
+     Unit ID   SP's-MP's   Start         Historical Desig*
+     -----------------------------------------------------
+     ia           6-4      6361          Old GD
+     ib           5-4      6360          Middle GD
+     ic           5-4      6359          Young GD
+     id           5-4      5758          6/II
+     ie           4-4      6463          2/II
+     if           4-4      6161          5/II
+     ig           4-4      5959          9/II
+     ih           3-4      6564          1/I
+     ii           3-4      6665          3/I
+     ij           3-4      6766          4/I
+     ik           3-4      6260          19/VI
+     il           2-4      6261          20/VI
+
+     SP's = Strength Points           MP's = Movement Points
+     DB = Dutch-Belgian               B/R = Brunswick Reserve
+
+                      * Brigade/Division/Corps
+
