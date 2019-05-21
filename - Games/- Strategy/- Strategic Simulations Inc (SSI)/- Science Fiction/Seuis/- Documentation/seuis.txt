@@ -1,0 +1,1944 @@
+S.E.U.I.S. Manual
+=================
+
+INTRODUCTION
+============
+   SEUIS (Shoot 'Em Up in Space) or the Spacegamer's Tool Kit is both a new
+game of war in space, and a toolkit for inventing your own scenarios, fleets,
+and ships.
+   SEUIS is a new episode in the military fantasy saga that began with THE
+SHATTERED ALLIANCE, the tale of rivalry and valor fought on the planet of
+Ozgorth in the days before modern weapons. SEUIS takes that story into the
+24th Century, into the middle of an all-out war between high performance space
+battlecruisers and fighters battling for dominance in the Universe.
+   Using maps of different sectors of the Universe, and one of three different
+scenarios, you must move each of your squadrons before the countdown clock runs
+down to zero, trying to capture your enemy's star systems or defend your own.
+When two opposing squardrons meet each other in space, the game switches to a
+real time combat phase, where you must outmaneuver and outshoot your opponent's
+ships.
+   THE SPACEGAMER'S TOOL KIT lets you design your own cruisers and fighters,
+assemble your own squadrons and fleets, and deploy them however you like on
+your different star maps.  You can even speed up the game by shortening the
+time limit on each turn.  Practically the only limit to your game is your
+imagination.
+
+1. SEUIS
+========
+
+1. STARTING THE GAME
+====================
+   Insert the game disc in your disc drive, and the game will automaticlly
+begin.  If you have a Pascal system you must use your Basics disk.  Your screen
+will display these choices:
+     1. Play the INTROductory game
+     2. Play a New Game
+     3. Restart a SAVEd Game
+     4. CREATE a Game
+     5. Combat Practice
+     6. Watch the Demonstration Game
+     Which?
+If you are ready to try the introductory game, press 1 and RETURN.
+NOTE: You must always press RETURN after you type an entry, unless specifically
+told otherwise.
+
+2. INTRODUCTORY GAME
+====================
+   The scenario you are about to play is one of the three drawn from the
+Chronicles of Ozgorth, parts of which appear in the back of this rule book.  A
+large force of enemy ships attacks a friendly star system, and must be repelled.
+
+3. THE ROSTER PHASE
+===================
+   First a fleet roster appears on your screen, looking like this:
+
+                                 SC1R.FLT ROSTER
+     #         ID        SYM       STATUS       CR         FT      PP
+                                               ABC        DEF     COST
+     8          1        |+|       ON MAP      000        104     104
+     9          1        |+|       ON MAP      000        104     104
+    10          2        |+|       ON MAP      000        050     110
+    11          3        |+|       ON MAP      000        210     118
+                          -
+    12          5        |+|       ON MAP      011        120     166
+
+   Let's look at each line:
+
+SC1R.FLT ROSTER
+   This is the roster of the first fleet that will battle in the scenario.
+SC1R.FLT is the name of the fleet.  Sc1 tells you this fleet belongs to
+Scenario 1; R tells you this fleet belongs to the Right, Green, or Ozgorthian
+player.  Data about this fleet will always appear on the right side of the
+screen.
+   Next comes a list of the squadrons in this fleet,
+
+                                  CR     FT    PP
+   #    ID    SYM     STATUS     ABC    DEF   COST
+   8     1    |+|     ON MAP     000    104    104
+
+8 is the SQUADRON NUMBER.
+   The ID number, or number of the prototype is 1.  This will be explained when
+you start to build your own fleets.
+   The SYMBOL of this squadron tells you that this is a Light Squadron.  These
+are the symbols for the three types of squadrons:
+
+|+|  Light Squadron
+   Light squadrons are usually made up entirely or mostly of fighters, and are
+the fastest moving squadrons.
+
+ -
+|+|  Medium Squadron
+ -
+   Medium squadrons usually contain at least one cruiser, and are slower than
+light squadrons.
+
+  |
+-[ ]-  Heavy Squadron
+   Heavy Squadrons with several cruisers, are slow but powerful.
+
+STATUS
+   "ON MAP" tells you that the squadron will appear on the map at the beginning
+of the scenario.  In the third scenario some squadrons appear after the first
+turn.  The Status will say GROUP 1 or GROUP 2 to tell you in what order these
+squadrons will arrive.
+
+                        CR
+                       ABC
+                       000
+
+   This part of the roster tells you that this squadron has no cruisers.
+   Cruisers are slower than fighters but much harder to destroy.  They are
+traditionally classed in this way:
+     Class A: Battleships
+     Class B: Heavy battle-cruisers
+     Class C: Light battle-cruisers
+
+                        FT
+                       DEF
+                       104
+
+   This part of the display tells you that your squadron has a total of five
+fighters.  These are traditionally named this way:
+     Class D: Destroyer Fighters
+     Class E: Escort Fighters
+     Class F: Light Fighters
+        Destoryer Fighters are as powerful as many cruisers and faster, Light
+     fighters are very fast but vulnerable.
+
+                        PP
+                       COST
+                       104
+
+   This part of the display tells you that your squadron cost 104 production
+points to build.
+
+PRODUCTION POINTS, ENERGY UNITS AND MIDSHIPS
+   Each ship has a certain number of energy units and midships:
+      ENERGY UNITS are needed to charge each ship's weapons and shields and to
+      set its rate of fire before the combat phase.
+      MIDSHIP UNITS measure the amount of damage that a ship can survive before
+      it explodes.
+
+   The total number of PRODUCTION POINTS of a squadron is calculated from the
+   total number of energy units and midship units of all the ships in the
+   squadron.  Production Points play two parts in this game:
+      The production point total of a squadron sets its speed in the strategic
+      movement phase.
+      Since the number of production points is the cost of building a squadron,
+      it decides how quickly more squadrons like it can be built by your
+      Resource Centers.
+
+   You are now ready to begin playing the introductory game.  Since the
+   RAPIDFIRE system moves very quickly, you should understand the rules of
+   movement and combat BEFORE you begin playing.  Read all the way through
+   section 10 before you press RETURN to continue the game.
+
+4. THE STAR MAP
+===============
+   A star map is a mpa of the sector of space where the battle will be fought.
+There are several different types of star systems visible.
+
+   /|\
+  |-+-|  BRIGHT STARS
+   \|/
+
+   These large star systems contain two or more technologically advanced
+planets with a high industrial capacity.  These planets are commercial and
+economic centers which can produce additional starships.  Each bright star
+system occupies the space of four single stars.
+
+    |
+   -O-   MAJOR STARS
+    |
+
+   Each of these systems contains one advanced planet with full starship
+manufacturing capacity.
+
+    O    MINOR STARS
+
+   These system contain only pastoral or undeveloped civilizations, although
+some planets have been colonized and can be used to build new ships.
+
+    .    SINGLE STARS
+
+   These star systems contain no inhabited planets.
+
+    ...
+   ...   SMALL STARS
+    ...
+
+   These areas of space contain dense concentrations of stars asteroids, and
+the debris of exploded stars.
+
+   All starships must reduce speed to navigate through sectors containing
+bright, major, minor, and small stars.  They may move at normal speed through
+sectors containing single stars.
+   The starmap is a hexagonal grid with a single star in the center of each
+hexagon.
+
+5. MOVEMENT
+===========
+   SEUIS uses the new RAPIDFIRE movement technique first introduced in THE
+SHATTERED ALLIANCE which allows you and in fact forces you to move quickly.
+You move one squadron at a time and have only a limited time, measured bye the
+countdown clock, to move that squadrons.  Your opponent or, if you are playing
+against the computer, the artificial intelligence then moves one of its
+squadrons.  The computer always tells you which squadron you may move.
+
+5.1 Elapsed Time Units
+----------------------
+Underneath the star map, this display tells you how many time units have passed
+since the game began:
+
+                 E.T. = 0
+
+When both players have moved all the ships they are able to move and any
+production has taken place, a complete time unit has elapsed.
+
+5.2 The Countdown Clock
+-----------------------
+Underneath the Elapsed Time display is the countdown clock.  Once play has
+begun, you have until the clock reaches zero to give new orders to the squadron.
+If you don't give the squadron new orders, it will proceed in the same direction
+it was going.  You do not have to press the RETURN key after an entry when the
+countdown clock is running.
+
+5.3 Speed of Movement
+---------------------
+Here RAPIDFIRE is really revolutionary.  Each squadron moves only one sector at
+a time, but some squadrons move more often than others.  Fortunately your
+computer will keep track of who is supposed in move when for you.
+   SQUADRONS WITH A TOTAL OF FEWER THAN 130 PRODUCTION POINTS MOVE ONCE EVERY
+FOUR ELAPSED TIME UNITS
+   SQUADRONS WITH A TOTAL OF 130-259 PRODUCTION POINTS MOVE ONCE EVERY SIX
+ELAPSED TIME UNITS
+   SQUADRONS WITH A TOTAL OF 260 OR MORE PRODUCTION POINTS MOVE ONCE EVERY
+TWELVE ELAPSED TIME UNITS
+
+   The three speed categories usually match Light, Medium and Heavy Squadrons.
+(They don't have to, however, as you'll learn when you CREATE YOUR OWN GAMES
+later.)
+   So, although the squadrons appear to move equal distances, light squadrons
+move half again as far in the same time as medium squadrons, and three times as
+far as heavy squadrons.
+   Note that a squadron that has lost ships from combat may speed up due to the
+squadron's decreased production value.
+
+5.4 The Squadron ID Display
+---------------------------
+   When it is time for a squadron to move, it will be highlighted, and a
+display like this will appear on your side of the screen:
+
+                              ---
+                               +
+                              ---
+                              5 FT
+                              0 CR
+
+   This part of your diplay tells you that the highlighted squadron is a light
+squadron with 5 fighters and no cruisers.  When it appears on your side of the
+map, the countdown clock will begin running, and you have until the clock
+reaches zero to move tha squadron.
+
+5.5 Direction of Movement
+-------------------------
+   A compass appears on your side of the screen to help you choose your
+direction of movement like this:
+
+                          6     1
+                       5     0     2
+                          4     3
+
+   To go up the screen and to the right (corresponding to Norhteast or 30
+degrees on a terran compass), simply type 1.  To stay in one place, type zero.
+To continue the course you were moving the previous move, simply press the
+SPACE bar, RETURn, or do nothing at all.
+YOU DO NOT HAVE TO PRESS RETURN AFTER AN ENTRY WHEN THE COUNTDOWN CLOCK IS
+RUNNING.
+
+   The number under the countdown clock tells you the course the squadron moved
+the last turn.  If the number is 0, it was not moving at all.
+
+5.6 Moving Through Star Systems
+-------------------------------
+   Your squadron will have to slow down to navigate through space occupied by
+bright, major, minor and small stars.  If you enter one of these sectors, your
+speed will be cut in half; that is, a light squadron will move only once every
+eight elapsed time periods instead of every four; a medium squadron will move
+once every  twelve periods instead of every six; and so on.
+   When you move through space occupied by a single star, your ship can move at
+normal speed.
+
+5.7 Other Movement Rules
+------------------------
+   There are a few other simple rules of movement.
+- You can't move off the map.  If you try, the computer will tell you,
+  naturally, CAN'T EXIT MAP.
+- You can't move more than one friendly squadron into one sector.  If you try,
+  the computer will tell you, in the quaint terminology of pre-computer
+  wargaming CANNOT STACK.
+- When you move a squadron into a scetor occupied by an enemy squadron, combat
+  will start automatically, and will continue until one or the other squadron
+  is destroyed completely.
+
+   If you are playing against the computer, the countdown clock will not run
+during its turn.  Instead, the display will warn you, either THINKING or
+PLANNING.  PLANNING means the Artificial Intelligence is giving all of its
+squadrons the most current strategy for the scenario.  THINKING means the
+Artificial Intelligence is deciding the orders for one squadron.
+
+5.8 Accumulated Production Points
+---------------------------------
+   Your current Production Point value is displayed just above the movement
+compass.
+
+6. CAPTURING ENEMY STAR SYSTEMS
+===============================
+   Enemy star systems are a diffeent color than yours.  As your ship moves into
+an enemy sector, it becomes yours.  When you leave it, it will change color.
+
+6.1 Capturing Enemy Resource Centers
+------------------------------------
+   Your squadron can capture an enemy Resource Center (a bright, major or minor
+star) simply by moving onto it.  If the system is a Bright Star, you must
+occupy the topmost of the four sectors the star occupies.
+   If it is defended by an enemy squadron, you must of course, fight that
+squadron first.  If you defeat the enemy, or if the center is undefended, those
+resource centers will begin making new ships for you.
+
+7. SPECIAL OPTIONS DURING COUNTDOWN
+===================================
+   Besides your course settings (0-6), there are three other possible entries
+you can make while the countdown clock is running.
+H HALT  This will stop the countdown clock.  To start it again, press RETURN.
+        (You can only halt if the countdown clock is running.  If you are
+        playing against the artificial intelligence, and the screen says
+        THINKING or PLANNING, you must wait until it is your turn to halt the
+        game.)
+M MAP   Occasionally, for various reasons, the map may disappear or become
+        difficult to read if this happens, just press M.  The map will reappear
+        just as it was, in the correct place.
+E END   Use this option to save the game for playing later.  (See SAVE A GAME)
+
+8. PREPARING FOR COMBAT
+=======================
+   When your squadron has entered a sector occupied by an enemy squadron or the
+enemy enters a sector you occupy, you must prepare each ship for combat.
+
+8.1 The Energy Allocation Phase
+-------------------------------
+   Just before combat begins, you will see a display like this:
+
+PURPLE PLAYER UP, GREEN PLAYER PLEASE TURN AWAY
+   ID    TYPE    MS     TE     W     S     R
+   1     FT/D    30     20     1     1     1
+   2     FT/F    10     10     1     1     1
+   3     FT/F    10     10     1     1     1
+   4     FT/F    10     10     1     1     1
+   5     FT/F    10     10     1     1     1
+NO RETURN NEEDED
+ALLOCATE ENERGY FOR SHIP #1
+   Ship Number 1 is a Class D fighter, or Destroyer, it has 30 MS, or Midships,
+which means it can take 30 damage factors before it explodes; and it has a
+Total Energy (TE) of 20 energy units.  You must divide these among WEAPONS,
+SHIELDS, and RATE OF FIRE.
+
+WEAPONS
+   Your ships are armed with two kinds of weapons: beam weapons and homing
+missiles.  Your beam weapons are fired by your game paddle; your homing
+missiles are fired automatically.  You can allocate all or part of each ship's
+energy to its weapons.  Type any number up to nine.  In this example, you might
+type 9.  You don't need to press RETURN.
+
+SHIELDS
+   Your electromagetic shields can deflect damage from enemy beam weapons and
+homing missiles.  The more energy units you commit to your shields, the less
+damage your ship will take from enemy hits.  Type any number, so that the total
+does not exceed your total number of Energy Points.  In this example, you might
+type 9.
+
+RATE OF FIRE
+   Finally, you can now set how rapidly you wish your ship to fire beam weapons
+and homing missiles.  Allocate your remaining energy to Rate of Fire.  In this
+example your display will now show:
+   #    TYPE     MS    TE     W    S    R
+   1    FT/D     30    20     9    9    2
+The total of W, S and R MUST equal TE.
+
+MAXIMUM ENERGY
+   The Maximum for any system is nine energy units.
+
+ALLOCATING ENERGY TO THE REST OF YOUR SQUADRON
+   After you have allocated energy to your first ship, you will allocate energy
+to the rest of your squadron's ships in the same way.  When you are finished,
+hit any key.  If you are playing a human opponent, he will now allocate energy
+to his ships.
+
+8.2 Choosing a Champion
+-----------------------
+   Your display will now tell you:
+CHOOSE PURPLE'S CHAMPION
+   Ordinarily, combat is fought between individual ships.  Type the ID number
+of the ship you wish to use first.  Your human opponent or the computer will
+now choose his first ship.  Combat is now ready to start.
+
+9. COMBAT
+=========
+   A large rectangle will appear on your screen, containing the ships that will
+fight.  The ships will look like this:
+
+                            .
+                           . .
+Purple Figher               o--
+                           . .
+                            .
+
+                            .
+                          .. ..
+Purple Cruiser           .  O---
+                          .. ..
+                            .
+
+                          ------
+                          \
+Green Fighter              ---
+                          /
+                          ------
+
+                           ---
+Green Cruiser             --+----
+                           ---
+
+   Have your paddle ready beacuse combat begins immediately.  The left player
+uses paddle 0, the right player uses paddle 1.
+   You STEER with the dial and FIRE your beam weapons with the button.
+
+9.1 Maneuvering
+---------------
+   When your paddle is turned all the way COUNTER-CLOCKWISE, your ship will
+move straight tip the screen.  As you move your paddle CLOCKWISE, your ship
+will turn to the right, going from course 1 to course 8 as shown:
+
+                          UP SCREEN
+
+                             1
+
+                        8   --    2
+                          /    \
+                      7  |      |    3
+                          \    /
+                        6   --    4
+
+                             5
+
+   When your paddle has been turned all the way CLOCKWISE, your ship will be
+travelling on Course 8.
+   to change course from Course 8 to Course 1, or to UP SCREEN, you must
+quickly turn your paddle COUNTERCLOCKWISE AGAIN, to turn your ship through
+course 7, 6, 5, 4, 3 and 2.  You cannot go directly from Course 8 to UP SCREEN.
+
+HITTING THE BATTLEFIELD BOUNDARY
+   If your ship hits the line surrounding the battlefield, it will careen back
+at a course 180 degrees opposite to the course it was previously travelling,
+and may be difficult to control.  The best way to avoid this is not to fly too
+close to the Boundary Line.
+
+SPEED OF COMBAT SHIPS
+   Fighters move twice as fast as cruisers.
+
+HYPERSPEED
+   If you want to speed up the combat, simply press the SPACE bar.  Both ships
+will immediately begin moving at Hyperspeed.  To return to normal speed, press
+the SPACE bar again (with two players both must first agree to enter or exit
+hyperspace; otherwise, it is illegal to push the space bar).
+   If you are playing against the Artifical Intelligence at the Ace or Advanced
+Level, combat will automatically be at hyperspeed.  Pressing the space bar will
+have no effect.
+
+9.2 Using Your Weapons
+----------------------
+
+                       BEAM WEAPONS
+
+   Beam weapons have a longer range than homing missiles, but they must be
+pointed directly at the enemy ship.  They are fired with the button at a
+frequently set by the RATE OF FIRE.
+
+                        \\\||///
+                       \        /
+                      -  --o->  -
+                       /        \
+                       / //||\\\
+                           .
+                           .
+                           .
+                           .
+
+                           |
+                          |+|
+
+   When you press the button, a red light will come on under your Midships.
+Remaining Bar on the right side of the screen.  If you try to fire again while
+the light is on, you will hear a short beep from your speaker, but the weapon
+will not fire.  Each time you try to fire, (for instance, if you are holding
+down the button of your paddle in the hope that the enemy ship will pass in
+front of you) you will hear these short beeps, but your weapon will have no
+effect.
+
+                       HOMING MISSILES
+
+   Homing Missiles can hit an enemy ship within a wide are in front of you at a
+limited range.  They fire automatically if enemy ships are within the are at a
+frequency set by your rate of fire.
+
+                      \\\||///                          /
+                 \    \      /                         /
+                  \   -  <-o - .....                  /
+                   \  /      \      .                /
+                    \ ///||\\\      .               /
+                     \              .              /
+                      \             .             /
+                       \            .            /
+                        \           .           /
+                         \          .          /
+                          \         .         /
+                           \        .        /
+                            \       .       /
+                             \      .      /
+                              \     .     /
+                               \    .    /
+                                \       /
+                                 \  |  /
+                                   |+|
+
+9.3 Battle Royal
+----------------
+   Although most battles are fought with one ship against one ship, it is also
+possible to fight a Battle Royal with all the ships in a squadron involved.
+This option will be offered when you choose a champlon.  Press A for All Ships,
+and RETURN.  (You should not choose a Battle Royal when playing against the
+computer.)
+   It is not necessary for both players to have all their ships involved.  You
+may wish to surprise your enemy by attacking his one ship with all of your
+ships.
+BATTLE ROYAL COST (loss of neutrals due to the breaking of the code of war)
+   If you choose to fight a Battle Royal, you will have to pay in extra cost of
+200 production points.  100 will be taken from your total, and 100 added to
+your opponent's total (your total will never be reduced below 0).
+If both players decide to commit all their ships, then neither side suffers a
+penalty.
+
+FIGHTING A BATTLE ROYAL
+   One ship on each side will be boxed, like this:  +------+
+                                                    | ---- |
+                                                    | \    |
+                                                    |  --  |
+                                                    | /    |
+                                                    | ---- |
+                                                    +------+
+
+   This is the ship that is currently being controlled by the game paddle.  All
+the ships will move and all will fire homing missiles at the intervals set by
+their rates of fire, but only the boxed ships may fire beam weapons.  You
+conrol the boxed ship in the normal way, steering with the knob and firing with
+the button of your paddle.
+
+CHANGING THE CONTROLLED SHIP
+   You use the keyboard to move the control box from ship to ship this way:
+   The PURPLE PLAYER on the left uses the A or the S key to move the box from
+ship to ship;
+   The GREEN PLAYER on the right, uses the Left Arrow or Right Arrow to move
+the box from ship to ship.
+
+HYPERSPEED
+   As with regular combat, you can accelerate all ships to hyperspeed simply by
+pressing the SPACE bar.
+
+9.4 Damage
+----------
+   The two colored bars on the right will show the number of remaining midships
+of each ship.  If you are fighting a Battle Royal, the bars will show the
+remaining midships of the controlled ship.  As each ship is damaged, the bar
+will shrink.  When it disappears, your ship blows up.
+   The number of enemy midships destroyed by your beam weapons is decided by
+this formula;
+   Energy allotted to your weapons less energy allotted to your enemy's Shields
+plus 5 ((W-S)+5).  If this results in a value less than one, then no damage is
+caused.
+   The enemy midships destroyed by your homing missiles is decided by;
+   Energy allotted to your Weapons less energy allotted to enemy Shields (W-S).
+Homing Missiles cause a minimum of 1 midship damage per hit.
+
+9.5 Victory
+-----------
+   In normal combat, when one ship has been destroyed, each player will be
+asked to choose another champion.  The damage the surviving ship has suffered
+will appear on its display as a reduced number of midships.  Battle will
+continue until every ship on one side has been destroyed.  In Battle Royal, all
+ships will fight until one side's ships are wiped out.
+   The display will then return in the Strategic game, with the victorious
+squadron occupying that sector of the star map.  Any midship damage will be
+repaired before the next combat, but destroyed ships will not be replaced.
+Ships which end a battle with less than 9MS will be scuttled (destroyed) 50% of
+the time.  The victorious squadron will never have its last remaining ship
+scuttled (i.e. there will always be at least one survivor from each battle).
+
+9.6 Interrupting Combat
+-----------------------
+   If you want to temporarily stop the game in the middle of combat, just type
+N.  To resume combat, type any other key.
+
+10. Production
+==============
+   At the end of each elapsed turn, your Resource Centers will manufacture
+production points.  If they manufacture enough points, new squadrons may appear
+on your star map.  The type of squadron will be chosen at random from those
+existing prototypes you have enough points to duplicate.  For instance, if your
+resource centers have made a total of 200 production points, and your fleet
+prototype shows squadron types costing 180, 120, and 250 points, you may receive
+a new 180 point or a 120 point squadron that turn; but, if the computer tries
+to build a 250 point squadron, you will receive no new squadron at all (The
+production points will remain available for future production).  A buzzer will
+sound if production is successful, and the new squadron will appear at a random
+location on the star map, near one of your resource centers.
+   If your resource centers are captured, they will no longer make ships for
+you.  If you capture an enemy resource center, it will begin building ships for
+you.
+
+11. SELECT OPTIONS PHASE
+========================
+   When you want to begin a new game, you can select several options.
+
+OPTION #
+   1. THE SOUND IS ON
+   2. PURPLE SHIP PLAYER: COMPUTER
+   3. GREEN SHIP PLAYER: HUMAN
+   4. COUNTDOWN TIME IS 12 SECONDS
+   5. SOLITAIRE DIFFICULTY: BEGINNER
+   0. EXIT
+   1. CHANGE THE SOUND SETTING
+   2. CHANGE THE PURPLE PLAYER
+   3. CHANGE THE GREEN PLAYER
+   4. CHANGE THE COUNTDOWN TIME
+   5. CHANGE THE SOLITAIRE LEVEL
+   WHICH?
+
+   The highlighted options are those that are currently in effect.  In the
+introductory scenario, you are the Green player and the Purple player is the
+computer.  In ordinary scenarios, you can choose to play either side, or play
+against a human opponent.
+
+SOUND
+   If you wish to turn the sound effects off, or, if they are off, turn them on,
+press 1 and RETURN.  The option will change on your screen.
+
+PLAYERS
+   To change the Purple Player from computer to human or back, press 2 and
+RETURN
+   To change the Green Player from computer to human or back, press 3 and
+RETURN
+
+COUNTDOWN TIME
+   You can choose the number of seconds each player has to move each squadron.
+Press 4 and RETURN, then enter a number of seconds from 7 to 59 followed by
+RETURN.
+
+SOLITAIRE LEVEL
+   This option is only offered if one player is the computer.  Press 5, and the
+level of difficulty will increase from BEGINNER to INTERMEDIATE.  Press 5
+again, and the difficulty will increase to ADVANCED and finally to ACE.  Another
+5 will return the difficulty to BEGINNER.
+
+12. THE SCENARIOS
+=================
+   You can choose one of three scenarios, taken from the archives of the great
+battles of Ozgorth, Portions of the Chronicles of Ozgorth, describing these
+times, are found in the back of this manual.
+
+12.1 Battle in the Plelades
+---------------------------
+   The Ozgorth Empire Included highly civilized planets grouped around the
+Pleiades, in the constellation Taurus.  These planets were attacked by a fleet
+from the Empire of Ormolu.
+   The Green player takes the part of the Ozgorthian defenders of the Pleiades
+. He must hold his five bright stars against a major invasion fleet, commanded
+by the Purple, or Ormolan Player.  The Purple player must conquer all five
+bright stars or destroy the enemy fleet within 144 elapsed turns.  (In this
+scenario only the five bright stars and the one minor star (controlled by
+Purple) in the upper center of the star map are functioning resource centers.
+The other major and minor stars do not produce production points, and do not
+count toward victory if captured.
+
+THE ORMOLAN FLEET                     THE OZGORTHIAN FLEET
+(SC1L.FLT)                            (SC1R.FLT)
+
+#  SYMBOT   CR    FT   PP                #   SYMBOL   CR   FT   PP
+
+     -
+1    +      000   104  104               8    |+|     000  104  104
+     -
+
+     -
+2    +      000   050  110               9    |+|     000  104  104
+     -
+
+     -
+3    +      000   210  118              10    |+|     000  050  110
+     -
+
+     -
+4   |+|     011   120  166              11    |+|     000  210  118
+     -
+
+     -                                         -
+5   |+|     020   120  194              12    |+|     011  120  166
+     -                                         -               ----
+                                                          TOTAL 682
+     -
+6   |+|     020   120  194
+     -
+
+     |
+7   -O-     121   100  285
+                      ----
+                TOTAL 1171
+
+
+12.2 The Great Battle
+---------------------
+   After the battle of the pleiades, Ormolu sent his grand battle fleet to
+attack Ozgorth itself.  The military council of Ozgorth assembled the greatest
+fleet ever in the history of the Empire.  Its fleet met the grand battle fleet
+of Ormolu in the Dragon Star System, midway between the Ozgorth and Ormolan
+boundary stars.  The battle was the largest ever seen in space between two
+equal and skilled opponents.
+   Purple plays the Ormolan commander, Green the Ozgorthian leader.  To win,
+you must destroy your opponent's fleet or capture all of his resource star
+systems.  There is no time limit to this scenario.
+
+
+ORMOLAN FLEET                         OZGORTHIAN FLEET
+(SC2L.FLT)                            (SC2R.FLT)
+
+#  SYMBOT   CR    FT   PP                #   SYMBOL   CR   FT   PP
+
+     -
+1    +      000   104  104               6     |+|    000  104  104
+     -
+
+     -
+2    +      000   104  104               7     |+|    000  104  104
+     -
+
+     -
+3   |+|     020   120  194               8     |+|    020  120  194
+     -
+
+     -                                          -
+4   |+|     020   120  194               9     |+|    020  120  194
+     -                                          -
+
+     |                                          |
+5   -O-     121   100  285              10     -O-    121  100  285
+                      ----                                     ----
+                 TOTAL 881                                TOTAL 881
+
+
+
+12.3 The Final (Maybe) Battle
+-----------------------------
+   After the Great Battle, the Ozgorth Empire pushed back the Ormolans,
+attacking the major Ormolan star base in the Tyche System.  An Ozgorth fleet
+was ordered to capture the star base.  The Purple or Ormolan commander, has
+five squadrons and numerous resource centers at his disposal.  The Green or
+Ozgorthian commander attacks with five squadrons at the beginning of the
+scenario, and receives two groups of reinforcements later.  He must capture
+all of the resource centers within 144 elapsed turns.
+
+
+
+ORMOLAN FLEET                         OZGORTHIAN FLEET
+(SC2L.FLT)                            (SC2R.FLT)
+
+#  SYMBOT   CR    FT   PP                #   SYMBOL   CR   FT   PP
+
+     -
+1    +      000   050  110              16     |+|    000  210  118
+     -
+
+     -
+2    +      000   210  118              17     |+|    000  210  118
+     -
+
+     -
+3   |+|     020   120  194              18     |+|    000  050  110
+     -
+
+     |                                          -
+4   -o-     100   001  102              19     |+|    020  120  194
+                                                -
+
+     |                                          |
+5   -o-     121   100  261              20     -o-    121  100  261
+                                                                ---
+                                                          TOTAL 801
+
+
+                                        GROUP ONE
+
+
+                                        11     |+|     000  050  110
+
+                                        12     |+|     000  050  110
+
+                                        13     |+|     000  050  110
+
+                                                -
+                                        14     |+|     020  120  194
+                                                -
+
+                                                -
+                                        15     |+|     011  120  166
+                                                                 ---
+                                                           TOTAL 690
+
+
+                                        GROUP TWO
+
+                                         6     |+|     000  050  110
+
+                                         7     |+|     000  050  110
+
+                                         8     |+|     000  050  110
+
+                                         9     |+|     000  050  110
+
+                                        10     |+|     000  210  118
+                                                                 ---
+                                                           TOTAL 558
+                                                                 ---
+                                                          TOTAL 2049
+
+
+   Ormolan Squadron 4 is the Flagship Squadron.  It has only two ships and it
+can travel as fast as a light squadron.  Ormolan Squadron 5 is the Imperial
+Guard Squadron, the most powerful squadron in the game.
+
+12.4 Time Limits
+----------------
+   The Battle in the Pleiades and Final Battle Scenarios have a time limit of
+144 elapsed time units.  The Great Battle has no time limit.
+
+12.5 Reinforcements
+-------------------
+   The third scenario calls for squadrons to arrive later in the scenario.
+These ships appear on the fleet roster with the status GROUP 1 or GROUP 2.  All
+squadrons in a group will arrive at the same time (although you won't know
+exactly when), at random locations on the star map.
+
+12.6 Victory Conditions
+-----------------------
+   The scenario will end when one of the three victory conditions has been met:
+     1. All of one player's ships have been destroyed.
+     2. One player has captured all of the resource centers.
+     3. The time limit expires.  (this applies to Attack on the Pleiades and
+        the Final Conflict: the Great Battle and any scenarios you create have
+        no time limit.)  In this case the Ozgorthian fleet wins in scenario #1
+        and the Ormolan fleet wins in scenario #3.
+
+12.7 Ending the Game
+--------------------
+   If you wish to end the game before the scenario is over, press E.  The
+Computer will ask if you wish to save, finish playing later, or terminate the
+game.
+
+
+13. SAVE A GAME
+===============
+   If you wish to save a game, press E to end the game and choose option #2.
+   When you save a game, you'll remove the game disc from your disc drive, and
+insert a scratch disc.  A scratch disc is simply a disc on which you can save
+games, maps and fleets for later use.  You'll need it if you want to make
+your own fleets and games.
+   Before you change discs, the computer will ask:
+
+     Do You Wish to Initialize a blank disc for saving SSI Games ?  If you've
+     never used the disc with this game before, press Y for Yes.  The computer
+     will format the disc for future use.
+
+     If you've already initialized this disc for SSI use, press N for No.
+
+   The computer will now instruct you to remove the Game Disk and put in the
+scratch disc.
+   As soon as the disc is inserted, you'll see a catalog of its contents, if
+any.  The computer will then ask you to give the game a name.  The name can be
+of any length.
+   Once you've given the game a name and pressed RETURN, the computer will save
+that game on your scratch disc.
+
+
+14. RESTART A SAVED GAME
+========================
+   If you ask to restart a Saved Game, the computer will ask you to remove the
+game disc from your disc drive, and insert the scratch disc.  It will then show
+you the catalog of that disc and ask you for the name of the game you wish to
+restart.  Type that name and press RETURN, and the computer will load that game
+into its memory.  Then simply take out the scratch disc, insert the game disc,
+and resume the game just where you left off.
+
+
+15. WATCH A DEMONSTRATION GAME
+==============================
+   You can watch a game in which both sides are played by the computer.
+
+
+16. COMBAT PRACTICE
+===================
+   You can go directly into the combat phase, maneuvering and firing against
+enemy ships controlled by the computer.  You may choose both combatant ships
+from different squadron rosters, and set a difficulty level from 1 to 4.
+
+
+17. THE ARTIFICIAL INTELLIGENCE
+===============================
+   The computer is capable of playing either or both sides with four levels of
+difficulty (Beginner, Intermediate, Advanced, Ace).
+   Strategic Movement Phase Intelligence has two levels; it plans and thinks.
+During "Planning" the overall situation is assesed and squadrons are given
+specific orders.  An order may be to attack the closest enemy unit.  During
+"Thinking" the squadron carries out its specific orders.  It may calculate the
+distances to each enemy squadron and move toward it.
+   Combat Phase.  All ships make use of certain parameters to determine their
+actions.  Beginners only fire when they've got a sure shot.  The Ace will fire
+at a less certain target.  Besides these parameters the Advanced and Ace
+players handle certain situations differently and always use the Hyperspeed
+option.  (Designer's note: I rarely beat the Ace in even combat.)
+
+
+II. MAKE A GAME
+===============
+
+THE SPACEGAMER'S TOOLKIT
+------------------------
+   Now you've come to one of the most useful parts of this game.  Once you have
+played a few games with the standard scenarios, you may want to start changing
+the fleets or deployments to create your own scenarios.  This is where THE
+SPACEGAMER'S TOOLKIT comes in.
+   The procedure for making new games may seem complicated, but it's desinged
+to give you the most flexibility and the most room for creativity.  The best
+way to learn it is by making a few simple modifications.  In one of the
+existing scenarios.  Later, once you get used to the procedure, you can start
+making more and more original games.
+   Have a SCRATCH DISC ready.  This is simply a blank disc, on which you'll
+store the ships, maps and fleets you'll use to put together your game.  You can
+use the same disc to save games in progress.
+   We'll begin by making two very simple modifications to the First Scenario:
+     1. We want to change an Ormolan squadron from a medium sqaudron to a light
+        squadron.
+     2. We want to change the location of one of the Ozgorthian squadrons at
+        the beginning of the scenario.
+   We'll begin, as usual, with the first menu.  Press 4 for MAKE A GAME.
+   You will be given these choices:
+
+     0. Exit
+     1. Save your CREATED game
+     2. Choose a Map
+     3. Make a Fleet
+     4. Change Prototypes
+     5. Deploy your Fleet
+     Which?
+
+   In this case, we want MAKE A FLEET, press 3 and RETURN.  We'll see a new
+menu like this:
+
+     0. Exit
+     1. Create a NEW Fleet
+     2. READ a Fleet from disc
+     3. WRITE your Fleet to disc
+     4. MODify your Fleet
+   Before we can modify a fleet, we have to look at it: we want "READ a Fleet
+from disc".  Press 2 and RETURN.
+The computer will instruct:
+
+   Please insert the Disc with the Fleet you wish to read on it.
+
+   In this case, we want to look at a fleet that's part of one of the scenarios
+, a fleet that's on the Game Disc.  This time we can just leave the Game Disc
+in the disc drive.
+   Later on, we'll be modifying new fleets that we've created.  In those cases,
+we'll put the scratch disc in the drive.
+
+   As soon as you hit RETURN, you'll see a catalog of the disc, and the
+computer will ask:
+
+   ENTER FLEET NAME
+
+   For this example, we first want to see the Ormolan fleet from the first
+scenario.  We look at the fleet rosters listed under 12.  Scenarios and find
+out that this fleet is called:
+
+   SC1L.FLT
+
+We type this, followed by RETURN.
+
+   Now we have this fleet in the computer, ready to modify.  Upon returning to
+the Fleet Making Menu, press 4 for:
+
+   MODify your Fleet
+   You 'll now see the roster of fleet SC1LFLT:
+
+
+   #     ID     SYMBOL     STATUS         CR     FT    PP
+
+                                          ABC    DEF
+                 -
+   1      1      +         ON MAP         000    104   104
+                 -
+
+                 -
+   2      1      +         ON MAP         000    050   110
+                 -
+
+                 -
+   3      1      +         ON MAP         000    210   118
+                 -
+
+                 -
+   4      5     |+|        ON MAP         011    120   166
+                 -
+
+                 -
+   5      5     |+|        ON MAP         020    120   194
+                 -
+
+                 -
+   6      5     |+|        ON MAP         020    120   194
+                 -
+
+                 |
+   7      8     -O-        ON MAP         121    100   285
+
+
+   In this example, we want to make squadron 4 a light squadron, like squadron
+1.
+   Type the number of the squadron you want to change in this case, 4 and
+RETURN.
+   Now pick up the left game paddle (paddle 0).  As you rotate the paddle, the
+different squadron symbols will appear on your screen.  When you see the one
+you want (in our example,  for light squadron with ID = 1), press the paddle
+button.
+   The roster will be reprinted to reflect the change you're just made.  Having
+accomplished our goal, press 0 to exit this phase.
+   Now you have to save your new fleet.  Press 3 for:
+      WRITE your Fleet to Disc.
+
+   The computer will instruct you to take out the game disc and insert your
+scratch disc into the disc drive.  It will show you the catalog, and then ask
+you to name your modified fleet.
+   In this example, we'll call our modified fleet:
+
+                       NEW-ORM.FLT
+
+   Once we've typed this and pressed RETURN, the modified fleet will be
+permanently stored on our scratch disc.
+
+REDEPLOYING SQUADRONS
+---------------------
+   We wanted to make one more modification to our first scenario: to change the
+deployment of the Ozgorth defense fleet, we start with the same steps we used
+to modify the Ormolan fleet:
+
+You begin at the: FLEET MAKING PHASE MENU
+
+Press 2 for Read a Fleet from Disc
+
+The Ozgorth fleet is on the Game Disk.  The rule book tells us its name is
+SC1R.FLT.  We enter this, and RETURN.
+
+The computer will say:
+
+   FILE READ
+
+when it's done.  Press RETURN.
+   Now that we have the fleet, we need the map.  Press 0 to exit the FLEET
+MAKING PHASE MENU.
+
+Now you're at the: BUILD GAME PHASE MENU
+
+Press 2 for Choose a Map, and RETURN.
+
+You'll now have a new menu, like this:
+
+   MAP SELECTION PHASE
+
+You may:
+
+   0. Exit
+   1. READ a map from disc
+   2. WRITE a map to disc
+Which ?
+In this case, we want to use the map from the first scenario, the map of the
+Plciades.
+
+Press 1 for READ a map and RETURN.
+
+The computer will ask ENTER MAP # (1-6)
+The first three maps belong to the first three scenarios.
+
+   In this example, we want Map 1.  Enter this and RETURN.
+   Now we have this map in the computer.  We have to save it on our scratch
+disc.  This time we'll give the map the new name:
+
+      NEW MAP
+
+   Now we have a fleet and a map: we still have to put them together.  Press 0
+to EXIT the map selection phase and return to the BUILD GAME MENU.
+Choose 5 for:
+   Deploy Your Fleet.
+Your Screen will show you the map of the Plciades, the same map used in
+Scenario One.  The ships of the Ozgorthian fleet will be shown on the map, just
+as they appear at the beginning of the first scenario.  Squadron number 1 will
+be highlighted.
+   If you want to move the first squadron, press a number corresponding to the
+directions on the movement phase compass like this:
+
+
+                6      1
+             5     0      2
+                4      3
+
+   Keep pressing until the squadron is where you want it at the beginning of
+your game.  You don't need to type RETURN.  When it's in place, type 0.  The
+next squadron will be highlighted.  When all the squadrons are where you want
+them, press E.
+   Now you can save the new deployment of the Ozgorthian fleet.  Beginning at
+the BUILD GAME PHASE MENU:
+Press 3 for WRITE your fleet to disc.
+   Once more time, take out the Game Disc and put in the Scratch Disc.  Give
+this fleet with its new deployment the name:
+   NEW-OZ.FLT
+
+PUTTING IT ALL TOGETHER
+-----------------------
+   By this point you have all the parts of your new game on the scratch disc.
+All you have to do is put them together.  To do this, go back to the:
+
+BUILD GAME PHASE MENU
+---------------------
+   Press 1 for:
+   Save your CREATED game.
+Once again, the computer will ask you to take out the game disc and put in your
+scratch disc.
+Once you've seen the catalog, it will ask:
+
+ENTER MAP NAME?
+---------------
+   We enter the name of our new map.  NEW MAP
+
+
+
+NEW-ORM.FLT
+ENTER GREEN (RIGHT) FLEET NAME ?
+
+   We enter the name of our modified Osgorth fleet:
+
+NEW-OZ.FLT
+ENTER A NEW NAME FOR THIS SCENARIO ?
+
+   We can call this new game, appropriately. NEWGAME.
+
+PLAYING A NEW GAME
+
+   All that's left now is to play our new game.
+
+Start at the beginning menu, and choose:
+
+   2. Play a New Game
+
+The computer will ask:
+
+   0. Play a game you've created
+      Scenarios from the Short Story
+   1. Battle in the Piciades
+   2. The Great Battle
+   3. The Final (Maybe) Battle
+
+   Press 0 for Play a game you've created and press RETURN.  Then take out the
+game disc, put in the scratch disc and give the computer the name of your new
+game:
+
+NEWGAME
+
+   The game will be loaded, and you'll put your game disc back in.  The game
+will start with the Fleet Rosters and then the Options Phase.
+
+2. CHANGING SQUADRON PROTOTYPES
+===============================
+   You learned at the beginning of this section how to modify the squadrons in
+the first scenario.  You can use the same procedure to modify the prototypes of
+any squadron, so that you have different numbers of cruisers or fighters.
+   To do this, start at the: FLEET MAKING PHASER MENU.
+   Press 2 for READ A FLEET FROM DISC.
+
+   Read any fleet from your game disc or from your scratch disc into the
+computer's memory.
+   Now go to the: BUILD GAME MENU
+   Press 4 for Change Prototypes.
+   Select 1 for Modify Squadron Prototypes.
+   A display like this will appear on your screen, showing you the prototypes
+in the fleet you recalled.
+
+SQUADRON PROTOTYPE DEFINITIONS
+
+    ID     SYMBOL      CR       FT      PF
+                      ABC      DEF     COST
+
+             -
+     1       +        000      104      104
+             -
+
+             -
+     2       +        000      050      110
+             -
+
+             -
+     3       +        000      210      118
+             -
+
+             -
+     4      |+|       001      130      137
+             -
+
+             -
+     5      |+|       011      120      166
+             -
+
+             -
+     6      |+|       020      120      194
+             -
+
+             |
+     7      -O-       100      001      126
+
+             |
+     8      -O-       121      100      285
+
+             |
+     9      -O-       131      000      288
+
+
+   You can change any of these squadron prototypes.
+   To change the first squadron prototype, press 1 and RETURN.
+   The cursor will move to 1.  Use the space bar to move the cursor to the
+Squadron symbol.  Rotate game paddle 0 until the symbol you want appears, and
+then push the button.
+   To change the number of A type cruisers, press 1 again and use the space bar
+to move the cursor to the 0 under A.  Turn the game paddle until the number
+from 0 to 5 you want appears and push the button.
+   There is only one limit:
+
+NO SQUADRON MAY HAVE MORE THAN FIVE SHIPS
+
+   In the same way, you can change each squadron prototype.  To change what you
+have entered, simply hit that prototype number again.
+   As you add ships, the production point total of the prototype will increase.
+   Notice that you can create a light squadron made up of cruisers or a heavy
+squadron with only one fighter in it, if you want to.  But remember that the
+speed of a squadron is set by its production point total, not its symbol.
+   To save your new fleet's prototypes, you should now WRITE your fleet to
+disc, giving it a new name.
+
+3. CHANGING CRUISER, FIGHTER AND PRODUCTION PROTOTYPES
+======================================================
+   You can modify the strength and cost of the ships themselves and of your
+resource centers.
+   First, go to the: BUILD GAME PHASE MENU.
+   Press 3 for MAKE A FLEET, and RETURN.
+   Next, select: 1, READ a fleet from disc.
+
+   You can modify the prototypes of a fleet from one of the scenarios, or from
+a fleet on your scratch disk.  Enter the name of the fleet, and load it into
+your computer's memory.
+   Now you're ready to change prototypes.
+   Go back to the: BUILD GAME PHASE MENU
+   and press CHANGE PROTOTYPES.
+   Then, select: 2, Modify CR & FT & production
+   You'll see a display something like this:
+
+CRUISERS                               FIGHTERS
+ID     TE    MS     COST               ID         TE      MS     COST
+A      20    70      112               D          20      30      60
+B      15    50       45               E          10      20      10
+C      10    30       12               F          10      10       5
+
+RESOURCE CENTERS
+ID    SYM             PP      TP
+G      .              10      40
+
+       |
+H     -O-             12      21
+       |
+
+       _
+      / \
+I    | + |            11      11
+      \_/
+
+   There are the current prototypes for that fleet.
+   Suppose you wish to change the specifications for Class A Flag Battleships.
+Press A.  The cursor will move to that class.
+
+SETTING TOTAL ENERGY
+--------------------
+   TE is the Total Energy that the ship has to operate its weapons and shields
+and to set its rate of fire.  Turn the knob on your paddle to display any
+number up to 27, and then press the button.
+   When you increase the total energy units, the production point cost of the
+ship will increase.
+
+SETTING MIDSHIPS
+----------------
+   MS, or Midships, is the survival ability of your ship, measured by the
+number of hits it can take before it explodes.
+   To set the midships for type A cruisers, type A and then press the SPACE bar
+to move the cursor to MS.  Turn the game paddle until the desired number
+appears, and then press the button.  Once again, as we increase the number of
+midships, the production point cost of the ship will increase.
+   If you want to change your B class cruiser prototype, press B and follow the
+same procedure.
+
+CHANGING RESOURCE CENTER PRODUCTION
+-----------------------------------
+   When you have changed all the ship prototypes you need, you can set the
+production capacity of your resource centers.
+   Press G.  The cursor will move to the line with the symbol for Minor Star
+Systems.
+   You can set the number of Production Points that each of this type of star
+system can build.  Turn the knob on your paddle to display a number from 1 to
+63, and then press the button.
+   Press G again, and the space bar.  You can set the number of Time Points
+that it takes that resource center to manufacture the number of Production
+Points you have set.  For example, if you have decided to produce 50 production
+units and set the TP at 10, that type of Resource Center can produce 50
+production points every tenth turn.  (The game has a limit of 50 squadrons.)
+   In the same way, you can set the production capacity of Bright star systems
+and Major star systems.
+   As you can see, it is possible to make a type F fighter more powerful than
+a type A battleship, or a Minor star system more productive than a Major star
+system, if you wish.  Kep in mind, however, that the more production points a
+ship costs, the slower it will move, and the less frequently ships like it
+will be built during your production phase.
+
+PRODUCTION POINTS
+-----------------
+   To calculate the number of Production Points a ship costs use these
+formulas:
+
+   Cruisers = (4 x MS x TE x TE)/1000
+   Fighters = (5 x MS x TE x TE)/1000
+
+4. CREATE A NEW FLEET
+=====================
+   You can assemble to brand new fleet, if you like, from either old or new
+prototypes squadrons.
+   Go to the: FLEET MAKING PHASE MENU
+   Press 1 for Create a NEW fleet.
+   The computer will ask you how many squadrons you want in your new fleet.
+You can enter any number from 1 to 15.
+   Press 4 for Modify your fleet.
+   The computer will now give you a roster of your new fleet.  On this roster,
+every squadron will be a prototype 1 squadron.  Use the keyboard and paddle to
+modify the squadrons and their status.
+   To change the prototypes of the squadrons to the ones you want go to the:
+BUILD GAME MENU.
+and choose: CHANGE PROTOTYPES
+   Follow the procedure described in the section on changing prototypes.
+   When your new fleet is set up the way you want it got to the FLEET MAKING
+PHASE MENU and select:
+     5. Deploy a fleet
+Follow the directions in 5, below and then
+     3. Make a Fleet
+to write your fleet to disc.
+
+5. DEPLOY A NEW FLEET
+=====================
+   Whenever you make a new game, you need to plan the deployment of each fleet
+at the beginning of the game.  To do this:
+   Go to the: BUILD GAME PHASE MENU
+   Select: 2, Choose a map.
+   Next Choose: READ a map from disc.
+   Select a map from the game disc.
+   If the map is not already on the scratch disc, give it a name and enter it
+onto the scratch disc.
+   Now go to the FLEET MAKING PHASE MENU and select:
+   READ a fleet from disc.
+   Load the fleet you want to deploy from your scratch disc into the computer.
+   Next, go to the BUILD GAME PHASE MENU and press:
+     5. Deploy Your Fleet.
+   The map you chose will appear on the screen.
+   Your first squadron will appear in the upper left hand corner of the map.
+Type a bearing from 1 to 6, as in the movement phase.  Each time you type a
+key, that squadron will move one sector in the direction you indicated.
+   When the squadron is in the place you want it to begin the scenario type 0.
+The next squadron will appear.
+   When all the squadrons are deployed, go back to the FLEET MAKING PHASE MENU
+and WRITE your fleet to disc.
+
+6. PLAYING A NEW GAME
+=====================
+   When you're ready to put together a new game, follow the steps outlined in
+PUTTING IT ALL TOGETHER:
+
+     1. SAVE YOUR CREATED GAME
+        - ENTER MAP NAME
+        - ENTER NAME OF PURPLE (RIGHT) FLEET
+        - ENTER NAME OF GREEN (LEFT) FLEET
+        - ENTER NEW NAME FOR SCENARIO
+     2. PLAY A GAME YOU'VE CREATED
+        - ENTER NAME OF YOUR NEW SCENARIO
+
+   And that's all there is to it.
+Note that a fleet may be used by either side and is only assigned its "Purple/
+Green" status during this phase, or both fleet names could be the same.  Games
+which are designed by the players will end only when a condition in Section
+12.6 is met, although players are encouraged to use their own victory
+conditions.
+
+7. SUMMARY OF THE SPACEGAMER'S TOOLKIT
+======================================
+1. To make a new game, you just have a scratch disc.  You cannot make a new
+   game on the game disc.
+2. To make a new fleet, either read a fleet from the game disc or from the
+   scratch disc, and then modify it.  When you've modified it, save it under a
+   new name on the scratch disc.
+3. Once you have some fleets and maps on your scratch disc you can combine
+   them into new games and save these complete games on your scratch disc.
+
+FROM THE CHRONICLES OF OZGORTH
+==============================
+An except fromthe journal of Astra Calla, cadet in the Aerial Protection of the
+Ozgorthian Empire; and daughter of Leander Dann, memeber of the ruling
+triumvirate of the Empire.
+
+                                                         - 19 Danedel 1863
+
+
+   I don't trust what I see in the reflection panel, is my hair really that
+dark of am I paler than usual ?  Those smudgas under my eyes can't be from
+lack of sleep.  Sleep's all I have energy enough to do these cycles.  I told
+the family Healer.  Findlay, that I know what the Lizardmen must have felt like
+when they sickened and died out.
+   I received the following lecture: "Astra Calia, I assure you, you have no
+conception of the physical plight of the Lizardmen that led to their extinction
+.  Their affliction was brought on by an inability to adapt to a changing world,
+and the inability of Healers to help them.  None survived our Techno Era and
+that was and romes ago."
+   I'm not unsympathetic to creatures pas or present.  I'm embarrassed to say
+it, but if you've got an infra-red scanner you can make out the letters on the
+hull of my ship: SAVE THE UNICORNS.  I contribute about fifteen reachers an
+andromede to help Ozgorth's dwindling herds.  Right now I'm the one who needs
+saving.  I've felt this coming on for a long time.  I've been putting in long
+cycles on orbit patrol which isn't one of my favorite duties as an enlistee in
+the Aerial Protection of the Ozgorthian Empire (APOE).  I got to dizzy I had to
+be towed home.  I received a two cycle remedy leave.  I've been to three
+specialists already and the only thing each agrees on is that they don't know
+what's wrong with me.  I would have to get the most exotic disease in the
+sector.  Rare, of course, Cureable, of course not, Treatable ? Unknown.
+Nobody, least of all me, knows what this means yet.  I'm not ready to bequeath
+my fighter ship.  The Starwedge, to my little brother, Randall, at this time.
+It's going with me on the inner dock of my older borther's cruiser.  Erandt's
+taking me to the Remedy Resource Center on Meropia.
+   I don't know what i'll do if they take away my flying privilege.  My family
+has served in the Protection Corps of Ozgorth for generations.  We can trace
+our Lineage back to Sea Champion Cadwallader before outer planet travel was a
+reality.  I've got two older brothers in the APOE.  Erandt and Quentallis, and
+my youngest brother has just started his training.
+   My father of course needs no introduction.  He has just been elected to his
+third term in the triumvirate of the Empire along with Elsinor llan (Elflord,
+native of Ozgorth) and Max Madella (popular spokesman from Helio Minor).
+   My father's postion was assured because he was and is the best general in
+the Empire.  Elsinur llan's position was assured because he's Elven and a
+direct-line descendant of early kings on Osgorth.  People love tradition and
+ceremony.  Max was the surprise.  He usurped Idelia Brandon's place.  She's
+an old family friend, but her views on fortifying home rather than exploration
+and expansion are not popular these days.
+   I'm looking forward to this trip, not just because I'll find out whether I'm
+dying or not, but because it's one of the most beautiful places in the galaxy.
+
+
+   The Sight was worth the price of admission.  The reflection nebulae that
+nestle around Meropia really are one of the seven wonders of the galaxy!  Five
+bright yound stars (yound as stars go) shine out blue from behind a veil of
+fine dust.  The whole crew was at the viewing port held spellbound by the sight
+of the diffuse blue glow, so nobody detected the Resource Center's first alarm.
+   There are other Remedy Resource Centers in the galaxy, but none greater than
+the one on Meropia.  She was the finest base for remedy research, storing
+unhold amounts of knowledge, and now she was under attack.
+   It was not pleasant to watch.  Erandt ordered full speed, and as soon as we
+were in range, he launched the fighters.  The orbit patrols were the first to
+be obliterated.   Planetary defense was slow to respond.  It reminded me of the
+history relays I'd seen on our Early Space Wars era.  The only battles I'd
+participated in previouly had been simulated ones.  It hit me hard that this
+battle was real.
+   The attacking ships were definitely not of this galaxy.  The design was
+different.  The weaponry was similar.  they were using some sort of focused
+energy.  Meropia and her protective ships were not the only targets.  Orbiting
+outposts, research centers, even art stations were under fire.
+   The enemy had a sizable fleet.  Besides fighters there were larger ships
+reminiscent of our cruisers.  these were moving toward the resource centers.
+We soon stopped receiving signals from Meropia.
+   Erandt did two things before he launched his personal fighter: He gave
+Sammer, his second-in-command, control of the cruiser and he forbade me to
+leave the ship.
+   I waited for word from our father.  I knew Meropia would have immediately
+contacted the capital planet of Ozgorth where the triumvirate holds its seat.
+My father, Leander Dann, was no doubt assessing the slaughter.  The enemy had
+hit us hard and fast.  The bulk of their fleet was leisurely picking off our
+meager reinforcements as they dribbled out.  Our ships were hemmed in between
+blown out bases and attacking ships.
+   I was stunned when my father ordered our cruiser out of range.  Sammer was
+only too quick to obey so I had to break in.
+   "Now wait just an andromite! Your son is out there.
+   As-tra Cal-la..."  I heard my father bite out faintly over the relay system.
+"You will carry out my orders and not try to circumvent them!"
+   Daughters can take slightly more liberties with their fathers than sons can
+so I stretched my luck, "Belay that last order.  At least let us pursue."
+   The receiving system was switched off with a violent whine.  It was Sammer's
+turn. "Astra Calla, I relieve you of your duties.  Please don't make me relieve
+you of your rank as well."  Sammer and my brother were best friends.  They had
+gone through training together and always signed on the same ships until my
+brother got his own command.  I knew that standing Erandt must be tearing hime
+apart.  He had always been more than tolerant of "Erandt's kid sister", but
+now he was furious with me.
+   The way I figure it, unless somebody has grey hair then authority is only
+cursory as far as I'm concerned.
+   "I'm launching Starwedge, Sammer... sir... even if I have to ram through the
+hull trying."
+   "Duty and rank!" The redness in his face subsided a bit and he added.
+"There's nothing you can do.  Astra.  You'd be killed."
+   I glared at him as if he had half the brains of a Zorg, an ancient,
+primitive beast race of old Ozgorth.  "Do you remember why we came here in the
+first place, Sammer ?  I'm probably going to die anyway!"  Now I didn't believe
+this for an andromite, but Sammer did.  It worked.  He let me go.
+   The view from the clear dorne of my Starwedge was breathtaking and quite
+different from the walled veiwscreen of the cruiser.  There were no peripheral
+obstacles between me and all that blue blackness of space and stars.
+   My scanners gave a little squeak as something new filled my viewscreen: an
+enemy ship.  I kept my relay system open, but no one made any attempt to
+communicate.  I maneuvered out of their line of fire just at the crucial
+instant.  I aimed my incendar beam, fired, and broke the record for quick
+exits.  I was lucky.  There was no pursuit.  Dying in some remedy center with
+a tube up one's nose isn't my idea of glamour, but then neither is being blown
+to bits in deep space.
+   I eased Starwedge around to where I'd last seen our squadron under fire
+from on board the cruiser.  They were still out there.  As I got closer the
+hits from each side registered as static on my relay system.  More and more
+enemy ships kept appearing on my screen.  I began to see the wisdom in my
+father's retreat.  We were outnumbered and had lost a section of our galaxy to
+an unknown enemy!
+   "... to Ozgorthian Startwedge 3.83 ... repeat ... You're in isolation ..."
+   I couldn't trace the urgent male voice that came over the relay, but whoever
+was hailing me was close enough to detect my call-numbers.  My rear scanners
+began to pick up moving objects, not of this empire.
+   "Three eighty-two, you've got company." came the matter of fact voice over
+my relay system.  I was given an altitude and azimuth reading and I headed for
+it, maximum speed.  I saw them then, two fighters that skimmed overhead and
+began to fan out, executing a standard three ship attack maneuver.  I did my
+part, a 180 degree backward loop, firing as I turned.  I hoped that the ships
+flanking me were out of range.  It was a success.  The static that filled my
+relay system had to clear before the fighters could break in.
+   "... good flying Oh-82.  I thought we might cruise the outskirts and see
+how many we can pick off the tail of they squadron.  Their cruisers have a lot
+of shield capacity, but they're slow."
+   I could see the two ships off my starboard side.  The cloest one's call
+number was M, something obliterated 77.  The M meant a Meropian issued fighter,
+but why the rest of the number had been altered or destroyed.  I couldn't
+guess.  I put on a little more speed, trying to outdistance him so I could get
+a reading on the other vessel.  I picked up a DZ and checked it against my
+planetary listing Del Zur.  That craft was from a watery planet with very
+little land mass.  No wonder they look to the skies.
+   M?77 broke into my reverie.  "Say Oh-82, you're a long way from home.
+What's an Ozgorthian fighter doing in this sector ?"
+   "I'm beginning to wonder that myself," I answered as I eased up on my speed.
+"We're all under orders to retreat."
+   "Meropia has been taken over!  Other Resource Centers are being threatened.
+I'm not running away.  I don't care if General Dann issued those orders
+himself."
+   "He did."
+   "So ?  Report me," challenged the arrogant Meropian pilot.  The Del Zur
+fighter was silent.
+   I was picking up a faint relay on another frequency so I switched
+communications.  "Here Sammer." I said as I boosted my signal.
+
+   He was brief and to the point "I'm leaving this sector, Astra.  You're got
+half an andromite to return to the cruiser.  We've sustained some damage.
+Can't wait."
+   This is where I get off."  I relayed to my companion fighter pilots.
+   "Backing out on us!  Just what I'd expect from some shaking she goal of
+a"
+   I cut him off.  I know Meropia had an abundance of herd animals, but that
+bit of knowledge gave me no comfort when compared to one.
+   I headed back.  It was going to be close.  The enemy was massing fast.  It
+wouldn't be long before they closed off this entire section of the galaxy.
+Our fortification in these parts was nothing to brag about.
+   When I was able to get a fix on the cruiser I also picked up several foreign
+spacecraft between me and my destination.  Their hulls had been hammered out of
+some purplish ore from an unknown world.  I'd never make it back to Ozgorth on
+my own with the amount of fuel I had left.  And who knew how many fuel ports
+had been taken over between here and home?  I set my automatic missile rate
+and pleaded with Sammer to assist me.
+   "We've got no power." Sammer apologized softly.  "All our energy had been
+diverted to ourt shields."
+   While I was cursing in three different languages I heard a maniacal yell
+over the relay as a fighter veeered into view.  Another soon followed with a
+distinctive DZ on its underside.  They were dodging in and out, drawing fire,
+and keeping the other ships at bay.
+   I saw an opening and I made for it.  The dock portal of the cruiser was
+just ahead when I saw the Meropian fighter enveloped in the hot white light of
+incendar fire.  I hesitated while I switched channels.  I picked up his
+signal, an urgent "Go!"
+   As soon as I was safely aboard the cruiser I ran to the communications
+console.  I was feeling powerfully dizzy.  "M whatever 77 ...  Are you all
+right ?"  I couldn't detect the ship's presence on the screen, but I was
+getting an energy reading from the relay.
+   Finally, "Not serious.  You got aboard safely?"  His tone was even, but his
+voice was breathless.
+   "Fine."  I shouted to be heard over the crackie of static.  My head was
+pounding unmercifully.  "Who do I thank?"
+   "... Stafford."
+   "Fine, Stafford.  I'd like to thank you for"
+   He answered with the best human rendition of a bleating goat that I'd heard
+in a long time.  I must have fainted, because that's all I remember hearing
+before waking up in the Cryogenics Center on Aldeberon.
+
+                                                           4 Tanedel 1866
+
+
+   "Astra Calla? Astra Calla, can you hear me?  You should be able to Auditory
+functions manifest themselves before physical... or so theory states."
+   "What the"  Did my lips form the words or was it just a thought? A rush of
+fire in my extremities.  What is happening ?  Curiousity or hunger, it's hard
+to gage which is the stronger.
+   Findlay, the family Healer, seems nervous and excited.  It isn't every
+cycle he gets to revive a patient who's been frozen for nearly three
+andromedes.  " You've been internalizing food for two cycles.  Astra Calla.
+No! No, don't try to sit up.  We're going to to take things slowly."
+   "Don't say we when you mean me, Healer."
+   "Our long sleep didn't improve our temperament."
+   "Findlay!"
+   "Your temperament, sorry."
+   I scanned the uniformed figures in the room.  My family was not among them.
+"Where's my father?  What's been happening ?  The attack on Meropia."
+   "Later, when you're stronger."
+   "I feel fine.  I have three andromedes of catching up to do!  I don't want
+to remain ignorant of what's been going on for an andromite longer than I have
+to!  Is there a console with a data bank?"
+   "What do you want to know?"
+   "What happened to Erandt?"
+   "Missing, presumed dead."
+   I had expected this, but that didn't make it any easier.  " Got any other
+great news?"  I snapped.
+   Findlay looked shaken.  "Later, on my word as a Healer later."
+   I slept a lot for someone who had been doing little else for the past three
+andromedes.  It was great to finally be able to consume solid food again and
+to move around.  There were guards with me throughout all my waking and
+sleeping moments.  Age, rank or bribes didn't matter.  Their coversation had a
+narrow range from the climate of Aldeberon to my progress.
+   I couldn't contain myself much longer.  I pounced on Findlay during his next
+visit.  "I'm starved for news!  If you don't start talking I'm going to start
+screaming, loud, and for a prolonged period of time!"
+   "I would advise against that," said my father stepping through the archway
+into the room.  Once the formalities of the father-daughter mansion had
+subsided such as wild screaming, crying, hugging, and kissing.  I had a good
+look at General Leander Dann.  The strain of being military commander of the
+Ozgorthian Empire had taken its toll.  His hair was greyer, his face more
+lined than I remembered.
+   "What've you been doing that's so important that it had priority over
+seeing your daughter?"  I demanded.
+   "Two things: One Findlay ordered me not to upset you.  Healers outrank even
+generals in matters of health." he replied with a glance at the departing
+Healer.  "Two, I've got an upcoming battle on my hands."
+   "Battle?  With who?"
+   "The Ormolunes.  You were present at the time of their first invasion."
+   "Ormolune ... Ormolune ..."  The name sounded vaguely familiar.  It conjured
+up eerie foreboding feelings like a past crime resurfacing.
+   "Let's review your knowledge of history.  Who was Ormolu ?"
+   "Wasn't he a sorceror also known as Ormolu the Immortal?"
+   "Correct.  He was an interstellar invader who was unsuccessful in his
+attempt to take over ancient Ozgorth.  the sect called Moon-riders were other
+travellers from the same galaxy who rebelled against him.  Their "magic"
+became our science.  Much of our technology was modeled on these precepts."
+   "That explains why our beam weaponry and ships are similar."
+   My father nodded and continued.  "These invaders are from the distant
+Dungar System.  Many of our probes have penetrated that region, but none ever
+survived to transmit information back to us."
+   "What happened after the attack on Meropia in the Pleiades System ?"
+   "You missed the most important battle of my career...  Our fleets against
+the Ormolunes.  You can monitor it on a history relay.  We've made studies of
+their tactics from "The Big Battle."
+   "What did they hope to gain ?"
+   "Control of our rich Resource Centers."
+   "Control the Centers, control the Empire."  I put in.
+   "We've routed the Ormolunes from most of our galaxy, but we have our
+suspicions that there is at least one more hold out.  An Ormolune robot ship
+with a recorded message heading in the direction of this Resource Center was
+intercepted.  It threw down the gauntlet so to speak.  It gave us the grandiose
+option of dying in battle against the Ormolune flee from surrendering
+immediately.
+   I knew my father attached little meaning to the word surrender.  "What's
+your strategy ?" I asked.
+   "It's not clear just where or when the robot ship was to arrive.  We believe
+we have an advantage this time.  We've calculated its source of origin and
+traced the Ormolune craft to a nerby Resource Center.  Come with me."  He led
+me to an adjoining room.  Projected on the far wall was an impressive computer
+display showing possible combinations for the upcoming battle.  His fingers
+flew over the terminal and I watched units move as he tapped the keyboard.
+   The manufacturers call this model SEUIS.  It stands for Strategic Engagement
+Ultrafast integrated Simulator, but around here we refer to it as Shoot 'Em
+Up in Space.
+   "Are you familiar with the famous Terran generals.  Alexander and Napoleon?"
+he drilled me.
+   I nodded and recalled to mind the ancient history of a planet in a
+neighboring galaxy.
+   "Alexander and Napoleon had only fifteen to twenty possible ways to conduct
+their battles."  he informed me.  "My computer gives me thousands.  "He sighed
+and muttered.  "I think Napoleon and Alexander were better off."
+   "Do you plan all your battles on this machine?"
+   "I always try my strategy against the computer to see how it defends
+itself."
+   "Who won this battle?"
+   "I did."
+   "Good."
+   "No, that's bad." he explained.  "I was playing the Ormolunes.  The computer
+was playing me."
+   We were interrupted by a flashing light on the short range scanner panel.
+   "There they go." my father siad, his eyes rivetted to the screen.  "Our
+first squadron was just launched.  I'll need some good fighters in reserve.
+Astra Calla.  How are you feeling?"
+   "Great, Is the Starwedge here?"
+   "Maintained in good repair and ready."
+   "I feel even better!"
+   "Are you certain?"  His eyes searched my face.  "Have you felt dizzy at all
+lately?"
+   I shook my head no.  "You mean I might not be cured?"
+   "No cure has been tried.  Didn't Findlay tell you ..."  My expression
+clearly revealed that he had not told me anything.  My father hesitated,
+troubled as he punched some buttons on the console.  "Remember the robot ship
+the Ormolunes sent with their Ultimatum?  We had no idea of its motive so we
+designated all power to planetary defensive shields.  This caused a drain on
+most other systems.  The equipment maintaining your temperature was non-
+operational for awhile.  Findlay was going to put you under again, but all
+tests indicate that you're in remission."
+   He answered my next question before I could ask it.
+   "There is no way of knowing for how long.  At the first sign of symptoms
+returning you must seek out the nearest Cryogenics Center and be readmitted."
+he stressed.
+   "Didn't Findaly relay Terra for a cure?"
+   "Andromedes ago.  Long distance communications are difficult with the
+Ormolunes trying to monitor and disrupt our signals.  We can only hope that
+one of our messages got through and a telluric cure arrives safely."
+   An officer strode into the room.  "The grounded ormulune robot ship has
+been fitted with a sub standard relay system.  General Dann.  The technicians
+say she'll fly, but she hasn't been tested yet.  Shall I have Agent Moonrider
+be on the ready?"
+   "Proceed as planned."  My father remembered that I was in the room.  His
+hand strayed absently from my hair to my shoulder.  "You'd better suit up.
+Stand by for the next squadron."
+   Neither one of us cared to explore the unpleasant aspect of our possible
+defeat.  "Standard security rendezvous at the capital?"  I asked assuming that
+we'd both live through this cycle.
+   He nodded and left, his mind totally focused on his mission.
+   I gasped involuntarily as I passed the small screen the officer was engaged
+at.  The image I caught before the screen went dark was an insert from a file
+labeled: MEROPIAN PILOT STAFFORD.
+   "Sorry, Astra Calla." apologized the officer.  "Restricted information."
+   I waved this off with a shrug as I backed out of the room.  My memory had
+been jarred.
+   I suited up, checked on my beloved Starwedge, and reported to squadron
+commander Chamberlain.  There were still several andromites before our
+departure so I sought out a portable data bank.
+   Besides universal affairs, it was interesting catching up on who had
+achieved what rank and who had married among my friends.  And then there was a
+certain Pilot Stafford who had been expelled from APOE on various charges
+including misuse of uniform, violation of direct orders, and profiteering.
+With the amount of reaches that  the price on his handsome head equalled.  I
+could almost buy myself a new fighter.
+   The visual relay showed Pilot A.  L. Stafford's intense dark eyes under
+unruly hair of the same color.  He looked no older than my eldest brother,
+Quentallis.  Something just didn't feel right.  Here was a person who had
+risked his life for the Ozgorthian Empire just three andromedes ago.  There
+was another file on Stafford that I couldn't get access to without the proper
+code.
+   I gave up when I heard the signal for my unit and headed for my ship.
+
+   Once more among the stars as I headed toward the bright star where the
+Ormolune fleet lay it was as though I'd never left.  I cleared my relay system
+and picked up Commander Chamberlain's voice.
+   "hadson, you're our champion."
+   Good choice, I though as I watched Hadson's fighter break formation in
+pursuit of an enemy ship.  He was a veteran of the civil uprising on Garrity
+five - make that eight - andromedes ago.  all modesty aside.  I'm not that
+had myself.  Then again, no one in my squadron would have lived through a
+season if they weren't good.
+   I noticed an awkward enemy fighter that was having trouble maneuvering.
+It couldn't ease itself clear of its line in time and actually hit several of
+its own ships.  the Ormolunes turned on their own ship and fired.  Damaged, it
+soared out of range.  I kept my eye on it.  The Ormolune fighter was heading
+steadily away from the battle.
+   I flipped open my relay switch to commander Chamberlain's channel.  "Shall
+I pursue?  It may be going to warn others."
+   I never heard a reply, I cringed at the blast of the enemy's full force
+direct hit that sent twisted fragments of our commander's ship somersaulting
+into view.  With a surge of anger I raced after the single fleeing Ormolune
+craft.
+   I had just passed Seline and Seult, the moons of Stacer, when I had a brief
+dizzy spell.  It passed quickly and I was gaining on the Ormolune ship so I
+ignored it.  I adjusted my homing missile rate as the enemy ship spiraled into
+Stacer's orbit.
+   I had stopped on Stacer once for provisions.  this planet was a bustling
+mercantile dream.  It was one of the most populous planets in the system.  If
+the enemy craft managed to make a landing its pilot just might be able to lose
+himself in a crowd.  As i feared, the Ormolune ship headed for the deserted
+sand lands of Stacer.
+   The pilot did some impressive maneuvering, but not enough to evade all of
+my missiles.  Crippled, the vessel was going to have rough landing.  I followed
+it down, the Ormolune craft seemed to be fighting against itself all the way.
+   I saw the nose of the fighter ploughing through the ground like a burrowing
+animal whose tail is on fire.  I landed and made my way through the haze of
+setting sand that billowed up from the force of impact.  I had the eerie
+feeling that I was being watched as I approached the wreckage.  This side of
+the planet was uninhabitable.  the sand lands of Stacer were a sharp contrast
+to its teaming cities.
+   The noise of something metallic falling from the wreck caused me to draw
+my hand incendar from its hoister.
+   "Hail."
+   Startled, I fired.  I squinted through the drifting sand cloud and made my
+way cautiously toward the sound of coughing.  No one could have survived this
+crash I told myself.  But there he was, disheveled and dirty, yet I recognized
+the face from the data bank I had viewed.  The uniform was torn, but I could
+see the Ormolune insignia it bore.
+   Stafford nursed his left arm, "Easy with that thing." he managed to gasp.
+"I didn't survive that landing just to be blasted at again."
+   I shook my head increduiously.  "You shouldn't have lived through that."
+   "My sole purpose in surviving was so that we could finally meet face to
+face, Astra Calla."
+   "How do you know who."
+   "Your face has been on every relay system in the galaxy.  You're a public
+figure.  Your father runs the Empire."
+   "My Empire, Stafford."  I corrected him.
+   "You remembered my name.  How kind," he smiled.
+   "Stop joking." I snapped, furious that he had put me in the position of his
+captor.  I had the traitorous desire of not wanting to turn him in, "I have
+to take you into custody."
+   "do you hear me protesting?" He smiled his maddening smile again.
+   "My ship is a one seater but I can convert it."  I told him as I motioned
+him over.
+   He limped a little as he walked.  "Cozy." he remarked.
+   "I'm taking you to Stacer's Directorial."
+   "You can't do that, Astra.  I'm a high criminal.  You've got to take me to
+Ozgorth."
+   "The Directorial can take you to the capital."
+   "Afraid to make the trip alone with me?"
+   "Get in."
+   We rode in silence until I broke out of Stacer's orbit.
+   "Changed your mind, eh?"  Stafford wondered.
+   I was pondering my next move as I fingered my relay controls.  "All right!"
+I screamed at him. "Why did you go over to the enemy ?  Why ?"
+   He looked out the dome.  "I didn't I'm your bodyguard ...  Astra, are you
+all right?  You're very pale."
+   For the first time I noticed that my hands were trembling at the controls.
+"I don't know ..."
+   Stafford reached across and lent a hand with the instruments.  "Why don't
+we change places?  let me fly this thing.  You can keep an incendar trained
+on me."
+   I agreed feebly.  I could picture my arrival on Ozgorth.  I hoped the visual
+relay crews were busy elsewhere.  There's nothing like an ultradimensional view
+of one's image throwing up projected throughout the galaxy.  The incendar in
+my hand shook.
+   "Steady." Stafford said.
+   "I'd make a great hostage."  I pointed out, "If I take you to Ozgorth
+they'll execute you as a traitor."
+   "Your duty permits you no other choice."  Stafford replied as we continued
+towards Ozgorth.
+
+   "Then he's not a traitor?"  My relief was obvious and my father smiled.
+   "Putting a price on his head was the only sure way we had of getting him
+safely into our hands.  Presently he's helping to settle Noneva Minor."
+   My father's joy was unmistakable.  "We've won, Astra Calla.  All is quiet
+in the direction of the Dungar System."
+   "I'd still watch that sector."  I advised him.
+   "With great care."  My father winked.
+   "And you say Stafford's on Noneva Minor?"
+   I know what I'm going to do next.  I'm going to find Stafford.  He's got a
+lot of explaining to do.
+
+
+GLOSSARY
+========
+
+Androme: one hundred years, an Ozgorthian century
+Andromede: an Ozgorthian year
+Andromite: a brief unit of time, an Ozgorthian minute
+APOE: an acronym for Aerial Protection of the Ozgorthian Empire, a military
+      organization
+Brandon, Idella: spokeswoman from Garrity, served on Ozgorthian triumvirate
+                 from 1866 - 1869
+Cycle: an Ozgorthian hour as well as an Ozgorthian day
+Danedel: third month of the Ozgorthian year
+Dann, Astra Calla: (see Stafford, A.C.)
+Dann, Leander: great general of the Ozgorthian Empire, served on the
+               triumvirate from 1859 - 1876
+Early Space Wars Era: period of galactic expansion for the Ozgorthian Empire.
+                      Ozgorthian Empire, 1750 - 1850
+Findlay of Aldeberon: celebrated Healer of Ozgorthian Empire, received
+                      Remedist's Degree in Cryonics
+Finial: twelfth month of the Ozgorthian year
+Han, Elsinor, Elflord, native of Ozgorth, served on the triumvirate of the
+                       Ozgorthian Empire from 1853 - 1873
+Lizardmen: reptile like race originating in the Ozgorhtian Empire, now extict
+Madella, Maxwell: spokesman native of Helio Minor, served on the triumvirate
+                  of the Ozgorthian Empire from 1866 - 1869
+Ormolunes: invaders from the Dungar Galaxy, routed from the Ozgorthian Empire
+           after a conflict in 1866
+Ozgorth: capital planet of the Ozgorthian Empire
+Reacher: monetary unit of the Ozgorthian Empire
+SEUIS: an acronym for Strategic Engagement Ultrafast Integrated Simulator,
+       referred to in close circles of the Ozgorthian  military as Shoot 'Em
+       Up in Space
+Stafford, Astra Calla: born Astra Calla Dann, daughter of General Leander,
+                       Dann, founder of Starwedge Air Bus Inc., wife of
+                       A.L. Stafford
+Starfford, A.L.: renowned military agent of the Ozgorthian Empire alias
+                 Moonrider
+Techno Era: period of technological advancement for the Ozgorthian Empire.
+            1500 - 1750
+Zorg: primitive beast race native to the Ozgorthian Empire
+
+
+-------------------------------------------------------------------------------
+Published by SSI on 1982
+Game Deisgn & Programming - John Lyon
+Rule Book - David Sidfkin
+Excerpt from Chronicles of Ozgorth - Marcia Trusk
+Art and Graphic Design - Louis Saekow, Kevin Hency and Don Woo
+-------------------------------------------------------------------------------
