@@ -1,0 +1,2864 @@
+                             TYPHOON OF STEEL
+
+
+Typed by SIDEWINDER of LSD.  Manual supplied by SCOOTER.
+
+NOTE:  These are typed from the Apple-Mac/Commodore 128 docs (I think!),
+
+
+I. INTRODUCTION
+
+A. OVERVIEW:
+TYPHOON OF STEEL is a tactical level simulation of small unit actions
+during World War II.  You and your opponent command various units that
+represent the forces of the major powers of WWII.  Each unit is an
+individual vehicle or a squad of men.  At the beginning of each battle
+you are given a mission to accomplish.  You have a certain number of game
+turns in which to accomplish your mission.
+
+Each game turn consists of two phases: an Order Phase and a Combat Phase.
+You give orders to your units during the Order Phase, and the units
+attempt to carry out those orders during Combat Phase.  You can choose to
+play just one battle or an entire campaign.  A battle (also called a
+scenario) lasts for either 30 or 60 one-minute turns, depending on the
+type of battle; a campaign consists of several scenarios played one after
+another.  Beside playing one of the historical scenarios included with
+the game.  You may design your own battles.
+
+TYPHOON OF STEEL is a sequel to PANZER STRIKE!, and the rules to both
+games are very similar.(When a rule for this game differs from one used
+in PANZER STRIKE!. that change is highlighted.)  TYPHOON OF STEEL has no
+tutorial scenarios; deletion of references to the tutorial are not
+marked.
+
+When playing TYPHOON OF STEEL you will be able to choose one of three
+fronts (also called theatres) for your scenarios.  On each front, one
+player will command the units of Germany or Japan; the other player will
+command the units of their opponents on that front.  All troops
+controlled by the Germans or Japanese player are called the Axis forces.
+Their opponents are called the Allied forces.  The time period covered by
+the game also varies with each front, and has an effect on types of
+weapons available.  The fronts available, the time period covered, and
+the countries comprising the Allied and the Axis forces are shown in the
+following chart:
+
+FRONT               TIME PERIOD         ALLIES                   AXIS
+Pacific             1942-1945           United States            Japan
+Asia                1942-1945           British Commonwealth     Japan
+Europe              1943-1945           United States            Germany
+
+The European front includes both North Africa and Europe.  The Americans
+are in North Africa until late 1943.
+
+Note that the computer can play either or both sides.  In addition, you
+can choose to turn over part of your own forces to the computer while you
+control only a portion of your troops.  In this way you can command only
+certain types of weapons if you wish, while still having a balanced
+force.
+
+The game is played over a map that depicts the terrain fought over in the
+actual battle.  The map can be as large as 60 squares by 60 squares, but
+you can vary the north-south width of the map so that it is smaller.
+(There are four different terrain sets: Pacific/Asia, European summer,
+European winter, and North Africa.) (See the Briefing Manual for
+details).  When playing a non-historical scenario, you can have the
+computer generate the map, or you can build it yourself using the terrain
+appropriate to the front being played.
+
+During play, you can choose to view the map at two different levels.  At
+the tactical level you will see a 20 square by 10 square portion of the
+map.  At the strategic level you will see a 40 square by 20 square
+portion.  You may freely go back and forth between the two levels when
+the game is in progress.
+
+The units and the map are scaled to represent their actual counterparts.
+Each unit is an individual vehicle or a squad of men.  On-map artillery
+units are one gun; off-map artillery represents a four gun battery.  Each
+square on the map is 50 yards from side to side.  Each combat pulse
+represents 20 seconds, so that each game turn represents a minute of real
+time.  The screen shows a top-down view of the units.
+
+B. GETTING STARTED:
+This section provides the start-up instructions.  It also explains the
+opening menu and how to save the game.  If you are playing TYPHOON OF
+STEEL for the first time you should read this section and the section
+entitled Playing a Game.  Choose an historical scenario and play it
+scenario several times until you have a good idea how the game plays.
+You can then progress to building a battle of your own design.  Before
+doing so, you should read the Building a Scenario section.  The Formulas
+section deals mostly with detailed combat procedures and you only need to
+refer to it if you want to know more on some point.  Once you feel that
+you have a good command of the game, you should proceed to read the
+Campaign Game section and play a campaign game on one of the fronts.
+
+TALKING TO THE COMPUTER
+TYPHOON OF STEEL is menu driven.  This means that you will decide what
+actions to take by making selections from various menus.  Generally, to
+select an action from a menu or to answer a yes/no question, just press
+the desired key.  In some instances where numbers are being inserted you
+may also have to hit the RETURN/ENTER key.
+NOTE: if a screen does not list an exit key, press the X key to quit that
+screen.
+
+SAVING THE GAME
+You are given an option to view the Save Game Menu at three different
+points:
+during the map build routine by pressing the V key; automatically after
+deploying troops for a new scenario; and after each Combat Phase by
+pressing the Y key in answer to the question 'Save Game?'.  You must have
+an extra disk initialized to store the saved game.  You can initialize a
+disk using the Save Game Menu.  You should use the 'Map Save' option and
+not the 'Save Game' option if you are saving a map during the map build
+routines.  Never type file extensions when saving or deleting a game or
+map.
+
+THE OPENING MENU:
+On starting the game you will see the Opening Menu.  This menu will allow
+you to determine certain of the conditions under which the game will be
+played.  The numbers 1 through 5 are associated with the following
+choices:
+
+(1) Whether to play a new game or a saved game;
+(2) Which side(s) the computer will play;
+(3) What Handicap Level to play at;
+(4) How long the message delay length should be, and;
+(5) Whether to build your own scenarios or to play one of the historical
+    scenarios.
+
+The default values for each item are inversed.  To make a change, just
+press the number key associated with the desired condition.
+
+GAME DETERMINATION:
+If you choose to play a new game, you will be asked to choose whether to
+build your own scenario or to play an historical scenario.  See Building
+a Scenario section of these rules if you wish to design your own battle.
+On the other hand, if you wish to restart a game from the point that you
+previously saved it, choose the 'Saved Game' option.  Please note that if
+you restart a saved game you will also have to choose which side will be
+computer controlled.  (This information is not saved with the game.  It
+allows you, however, to switch sides in the middle of the battle or to
+convert a two-player game into a one-player game or vice-versa.)  When
+you recall a saved game, you will be able to modify it as if it were a
+new game before continuing to play.
+
+COMPUTER CONTROL:
+TYPHOON OF STEEL may be played by either zero, one, or two players, and
+this is determined by the options selected on the Opening Menu.  For
+example, if you wished to watch a demonstration game where the computer
+controlled Axis force faces a computer controlled Allied force, you
+should select the option BOTH COMPUTER.  This determination must be made
+every time you boot the game, even if playing a saved game.
+
+HANDICAP LEVEL:
+At the beginning of the game you may choose an handicap level from 1 to
+5.  These levels only make a difference when you are building your own
+battle.  When playing the Tutorial or an historical scenario you do not
+need to change the level in any way.  The effects of an handicap levels
+are to reduce the number of strength points available to either side by
+the amount shown below:
+
+LEVEL 1:  Axis reduced by 40%
+LEVEL 2:  Axis reduced by 20%
+LEVEL 3:  No effect on points
+LEVEL 4:  Allied reduced by 20%
+LEVEL 5:  Allied reduced by 40%
+
+NOTE: these levels have no effect in the campaign game.
+
+DELAY LENGTH:
+The delay length affects messages displayed during the Combat Phase.  The
+greater the delay length the longer these messages will be displayed.  A
+delay of 1 will speed up the game, but will cause the messages to be
+virtually unreadable.  A delay of 9 will slow the game down, but will
+allow you more time to study the various reports provided.  (You may vary
+the delay length during the combat phase if you wish the messages to be
+displayed for a greater or lesser amount of time.  Pressing 1 key during
+the combat phase decreases the delay length by one increment; pressing
+the 9 key increases it by one.)
+
+CHOOSING A SCENARIO:
+you may choose to play one of the historical scenarios or to design a
+scenario of your own to play.  If you choose to design your own, you
+should read the Building a Scenario section of these rules when you are
+done with this section.  If you are playing for the first time you are
+encouraged to play an historical scenario before building a scenario of
+your own.
+
+LIMITED COMMAND RULE:
+Before actually beginning to play any scenario, you will be asked whether
+to use the Limited Command rules.  These rules are explained more fully
+in the Playing a Game section, but in general if you use these rules, a
+headquarters unit will not be able to issue any orders once the number of
+orders it has reaches zero.  If you don't use them, a headquarters unit
+will be able to issue all orders except a rally order when it is out of
+orders.  The consequence of answering 'Yes' to the question is that you
+will not have as much control over your forces.  Until you feel
+comfortable with the game you should answer 'No'.
+
+CAMPAIGN GAME:
+If you choose to build a scenario, and you have chose to have the
+computer play one side or the other, you will be asked whether you want
+to play a campaign game.  If you wish to play a single scenario, answer
+'No'.  Once you have become familiar with the game and have read the
+campaign game rules, you should play a campaign game; answer 'Yes' at
+this prompt.
+
+II. PLAYING A GAME
+A. PRELIMINARIES:
+
+INTRODUCTION:
+After reading this section of the rules you should be able to play any of
+the historical scenarios of TYPHOON OF STEEL.  This section describes how
+to give orders to your units to carry out your assigned missions.  It
+also discusses in general terms how the various unit characteristics
+interrelate.  It does not, however, contain all the specific formulas
+used in the program.  If you wish to know one of those formulas, please
+refer to the corresponding paragraph in the Formulas section.
+
+This introduction should give you a brief overview of this section and
+introduce some of the terms used in the game.  All terms and menus
+mentioned in it will be described more fully later.
+
+The central concept of TYPHOON OF STEEL is the proper use of orders.
+Orders are given by eligible headquarters (HQ) units to eligible
+subordinate units during the Orders Phase.  Eligibility for both types of
+units depends on the state of the unit and whether it is in command
+control.  There are four major categories of orders: movement, fire,
+organizational, and cancellation.  These are covered in subsections B2
+through B5, respectively, of this section.
+
+Orders are given by selecting the desired order from a menu.  There are
+two main menus in the Orders Phase.  The one you see when you first enter
+the Orders Phase is called the Map Menu.  This menu is mainly used to
+move the cursor around the map, to view parts of the battlefield or to
+access a unit.  Once a unit is accessed, you will see the Unit Menu.
+This menu is used to check various aspects of the unit and to give orders
+or perform actions in an attempt to carry out an order.
+
+Both sides give orders to their units during the Order Phase, the Axis
+first and then the Allies.  When both you and your opponent have exited
+the Map Menu you will begin the Combat Phase.  During this phase your
+units will attempt to carry out the orders which you have given them.
+Each Combat Phase will follow one after another unless you wish to
+interrupt for an Orders Phase by pressing the O key.  After 30 Combat
+Phases (60 for an Assault scenario) the game will end.  You will then be
+given a listing of how many units of each type have been destroyed on
+each side.
+
+ACHIEVING YOUR MISSION:
+Orders should be given in an attempt to achieve your mission.  You and
+your opponent score points for destroying enemy units and certain
+geographical objectives.  At the end of the game the number of points
+each side has accumulated is compared.  The side with the greater number
+of points is the winner, and the size of the difference is the size of
+the victory.
+
+Each historical scenario lists two factors which affect how victory
+points are counted: the type of battle and the assigned mission.  (If you
+design your own battle, you can choose both of these.  See the Building a
+Scenario section of these rules.)  There are 5 different types of
+battles:
+
+1.   Axis Assault
+2.   Axis Pursuit
+3.   Meeting Engagement
+4.   Allied Pursuit
+5.   Allied Assault
+
+In each type there is one attacking side (the side who name is mentioned)
+and one defending side.  The exception to this is a meeting engagement,
+in which there are two attacking sides.  (Whether a side is an attacker
+or defender has an effect on what mission that side may have).
+
+The type of battle also determines the relative sizes of the two sides
+and the length of the game.  In a pursuit scenario, the attacking side
+has about 2 to 1 superiority over the defender, while the forces are
+about evenly matched in a meeting engagement.  In an assault scenario
+(see the Unit States subsection below for a description of what being
+dug-in means).  Assault battles last for 60 turns; all others last for 30
+turns.
+
+TYPE OF MISSION AND VICTORY CONDITIONS:
+The type of mission assigned to one side determines how the victory
+points will be calculated.  For all types of missions, you gain points
+for destroying enemy units and for exiting your own units off the enemy
+side of the battlefield.  Units exit by moving onto any square adjacent
+to the east or west edge of the field.
+
+Certain missions also may require one side or the other to clear or hold
+a certain objective area.  This area can be seen from the Map Menu by
+pressing the W key.  It consists of an objective square and all other
+squares within a range of 5 that have a Line of Sight (see subsection so
+titled below) to the objective square.
+
+The actual number of points you get for each unit depends on the missions
+for both sides and whether the unit is being exited or has been
+destroyed.  The points you get for destroying an enemy unit are a
+multiple of the cost of the unit; exit points are a fixed number which is
+given for each friendly unit exited regardless of its cost.  Normally,
+each side will get points equal to the cost of an enemy unit if the unit
+is destroyed, and 1 point if a friendly unit is exited.  The cost of a
+unit is discussed in Unit Characteristics, below.
+
+The mission chosen may affect the points awarded, however.  There are 3
+missions for an attacking force: Engage, Bypass, and Clear Objective.  In
+an Engage mission, each side gets points equal to 2 times the cost of
+each enemy unit killed.  In a Bypass mission, the attacking player gets
+10 points for exiting attacking units off the defenders map edge, but the
+defender gets 2 times the cost of each attacking unit killed.  In a Hold
+Objective mission, the defender gets 100 points as long as 1 defender is
+in the objective area.
+
+The values are cumulative.  Thus if the attacker's mission was a Bypass,
+and the defender's was a Delay, the attacker would get 40 points for
+exiting attacking units and the defender would get 4 times the cost of
+each attacking unit killed.
+
+Normally an Abandoned unit counts as a Destroyed unit.  However,
+whichever side has the most points is considered to have retained
+possession of the battlefield and is able to recover most of the
+Abandoned units.  Thus this side will lose only half the normal number of
+points for Abandoned units.
+
+At the end of the game, victory is determined by which side has the most
+points.  If one side has more points than the other, but not twice as
+many, it is considered a draw.  If one side has more than twice as many
+points, but less than 4 times as many, that side is considered to have
+won a marginal victory, it is considered to have won a decisive victory.
+You can check the current score and see your mission during the Orders
+Phase by pressing the 9 key from the Map Menu.
+
+CHAIN OF COMMAND:
+Generally, a unit can receive an order only from its immediate superior
+headquarters.  That headquarters in turn may report to an even higher
+headquarters.  There are several levels of such headquarters.  this is
+called the 'chain of command' and is dependant on the organization of
+your forces.  The organizational terms used in this subsection do not
+appear on the screen when playing the historical scenarios (they do when
+you design your own battles)  and the organization of the forces are
+preset.  The concepts discussed here are important, however, for all
+scenarios and the terms are used in other sections.
+
+Each infantry unit in the game represents a squad of men.  Several of
+these squads are formed into a platoon.  All units are identified by a
+letter and a number.  Each platoon has a unique letter, and within each
+platoon each unit has a unique number.  The number for all headquarters
+units, at whatever level, is 0.  Having the same letter as another unit
+means that the units are in the same formation.
+
+Several platoons constitute a company.  There may also be troops attached
+directly to the company headquarters.  These units use the same letter as
+the company HQ.  As an example, company headquarters B0 may have squads
+B1 and B2 reporting directly to it, as well as platoons C, D, and E.  In
+each of those platoons, there would be an HQ and several squads, say 4
+for this example.  Thus the whole company would consist of units C0 to
+C4, D0 to D4, E0 to E4, and B0 to B2.  This would be four separate
+formations.
+
+Vehicles and guns are organised in a similar fashion, but each individual
+vehicle or gun is separately identified, and several vehicles or guns
+constitute a platoon.  In addition, part of a platoon (2 vehicles or
+guns) is termed a section.  It is treated for game purposes as if it were
+a platoon.
+
+The terminology used in these rules is based on the general usage of
+those terms in most western armies.  What a formation is called in the
+game may not actually reflect how it is treated in these rules.  Thus
+Commonwealth tank formations which are called 'squadrons' function in the
+game as companies, and should be treated as such when reading these
+rules.  Likewise, Commonwealth tank 'troops' should be treated in these
+rules as platoons.
+
+The overall supreme headquarters for your troops is unit A0, and is
+called the battalion headquarters.  All HQ's that do not report to
+another HQ report to it.
+
+All units below an HQ in the chain of command are said to be subordinate
+to the HQ.  All HQ's above a unit in the chain of command are said to be
+superior to the unit.  This applies to intermediate HQ's as well.  Thus
+in the above example, HQ C0 is superior to units C1 to C4, but is
+subordinate to HQ B0 as well as A0.
+
+You can check a unit's chain of command by pressing the H key from the
+Unit Menu.  Doing so will access the next superior HQ, and will list that
+HQ's morale, its command rating, and the current number of orders it has
+to spend.  In the above example, pressing H from the Unit Menu for C4
+will access C0; doing it from C0 will access B0; doing it from B0 will
+access A0.
+
+The chain of command of a unit is important when giving orders.  A
+headquarters can only give an order to a unit in its formation.
+Conversely, a unit can receive an order from its formation HQ.  There are
+two exceptions to this.  Any HQ unit can call in bombardment fire, and a
+unit can be recipient of a rally attempt from any superior HQ.  Finally,
+the number of orders an HQ receives in a turn may be increased by
+receiving an order from a superior headquarters.  All of these items are
+explained more fully below.
+
+MOVING ABOUT THE MAP:
+When you first enter the Orders Phase you will see the Map Menu on the
+screen below the map.  This menu will list most of the commands which you
+can use from this menu.  The bottom line of the menu shows the x and y
+coordinates of the cursor and, if the cursor is over a unit, the type of
+unit it is.  You can move the cursor 1 square in a given direction by
+pressing the appropriate number key.  Each number 1 through 8 correspond
+to a compass direction:
+
+ 8 1 2
+ 7   3
+ 6 5 4
+
+Thus to move the cursor one square to the east (right), press the 3 key.
+The cursor can also be moved in this manner from the Unit Menu and from
+some other sub-menus (such as Bombardment Menu).
+
+ACCESSING UNITS:
+In order to do something with a unit during the Orders Phase you must see
+the Unit Menu for that unit at the bottom of the screen; bringing up a
+Unit Menu is called accessing that unit.  The top line of a Unit Menu
+lists the unit's formation letter and its ID number, the type of unit it
+is, the number of suppression points it currently has, its state, and the
+direction it faces.
+
+There are several ways to access a unit.  One way is to press the key
+which corresponds with the unit's formation letter.  You will then be
+prompted for the individual ID number for the unit you want to access.
+Thus if you wanted unit H4, you would hit the H key followed by the 4
+key.  Note that there is a maximum of 20 formations possible, so that
+letters A through S on the Map Menu are reserved for accessing
+formations.
+
+You can also access a unit by moving the cursor over the unit.  When you
+do so the type of unit that it is will appear on the bottom line of the
+Map Menu.  You can access the unit by pressing the U key.  If there is
+more than one unit in the square, make sure that the type of unit you
+wish to access appears on the bottom line of the Map Menu.  If it does
+not, press the Y key until it does, and then press the U key to get the
+unit.
+
+Once you have accessed a unit, you access another unit in one of three
+ways.  First of all, if you press the X key from the Unit menu you will
+return to the Map Menu, and you can use the ways listed above to access
+another unit.  Secondly, if you press the N key from the Unit Menu you
+will get the next unit in alphanumerical order.  Thus if formation B has
+only two units,pressing the N key from the Unit Menu for B1 will access
+unit C0.  Finally, if you press the H key from a Unit Menu, you will
+access the unit's immediate superior headquarters.  This is handy when
+you need to find a unit's HQ for rally purposes.
+
+UNIT CHARACTERISTICS
+There are many values associated with a unit that have an effect on some
+aspects of the game.  The actual values that a unit has depends on many
+factors, including the type of unit it is, the type of weapon(s) the unit
+has, the time period of the battle, and the values chosen for some of the
+variables when a scenario was designed.  (These are set for historical
+battles.)  Some of the unit's characteristics will change as the unit
+takes losses, come in or out of command control, rallies, or follow
+orders.
+
+Do not be concerned if you do not understand everything in this
+subsection on first reading.  After reading it you should, though, know
+what the abbreviations stand for.  The impact of the various
+characteristics on the game are discussed in the various subsections
+below.
+
+To see a unit's current values you need to access a unit during the
+Orders Phase.  On the top line of the Unit Menu you will see the unit's
+formation letter and ID number followed by the type it is.  The next two
+items are its suppression value (followed by the S:) and its current
+state.  Finally, the number from the movement compass corresponding to
+the direction the unit faces is also given.
+
+The suppression value is the current number of suppression points a unit
+has, and is a rating of how affected the unit has been by enemy fire.
+The unit's state is dependant on the unit's suppression level and on the
+orders it is attempting to carry out.  A unit's state has an effect on
+how the unit moves and takes losses and whether it can receive orders.
+
+The other characteristics for a unit can be seen by referring to its
+Weapon Page.  This is done by pressing the W key from the Unit Menu.  A
+typical weapons page is represented in FIG: 1.
+
+This shows that the unit type is a German Panzer IVH tank.  It has 3
+weapons: a 75L48 gun and 2 tank machine guns.  Each weapon has a listing
+for its ammo, size of shell, shell penetration value, accuracy, maximum
+range, and infantry attack value.  All of these values have an effect
+when the unit fires at the enemy.  On all vehicles the first two weapons
+listed are considered to be in the turret or upper hull, and the last two
+in the lower hull.
+
+All vehicle units have a listing for the amount of armour in various
+locations on the vehicle.  Infantry and gun units do not show any values
+for armour.  The vehicle's front turret, front hull, side turret, side
+hull. and top armour's are all given.  If a unit has no top armour it is
+considered an
+open-topped vehicle.  If it has no front hull armour it is considered a
+soft target vehicle.  Halftracks are open-topped; trucks are soft
+targets.  The armour on the back of a vehicle is the same as its side
+armour.
+
+The size listing under the armour values is the silhouette size, and is a
+rating of how big the unit is.  A tank with a size 5 or more is
+considered a heavy tank.  The size affects sighting and fire directed at
+the unit.
+
+The max speed is the maximum speed of the unit in miles per hour and
+determines how far the unit moves in a pulse.  The number of men in the
+unit has an effect on the unit's fire.  The first shot rating is used in
+fire combat to determine how soon after being ordered to fire that a unit
+does so and how many shots a unit can fire in a pulse.  Whether a unit
+has a radio has a bearing on how it traces its command control.
+
+A unit's skill is a rating of its experience and affects its fire and how
+soon it discovers enemy units.  Its morale is a rating of how much
+punishment it can take in terms of suppression points before its state
+changes.  The unit cost is used in determining the victory conditions.
+
+In the right-hand column are four values.  The first is the range and
+shows the current range at which the unit will open fire.  This is equal
+to or less than the maximum range of its biggest weapon, and you can
+adjust it during play.  The last value states whether the unit is in
+command control.
+
+The two middle values in the right column may or may not apply to the
+unit.  If the unit is a headquarters unit, these numbers are the current
+number of orders it has to use and its Command Rating.  If the unit is
+not an HQ, the numbers listed are the numbers of orders and the Command
+Rating of its formation HQ.  The Command rating is used to determine how
+many orders an HQ gets each turn.
+
+FIG: 1.
+
+PZ-IVH
+          AM   SZ   PN   AC   RG   IA
+75L48     81    4   14   16   50    5
+TMG       95    1    0    6   10    8
+TMG       70    1    0    6   10    8
+          FT   FH   ST   SH   TP
+ARMOUR     7    9    4    4    3
+SIZE       4
+MAX SPEED 13
+MEN        5
+1ST SHOT  10
+RADIO     YES       RANGE     50
+SKILL      5        ORDERS     3
+MORALE     4        COMMAND    6
+COST      12        CMD-CTRL  YES
+
+UNIT STATES:
+The state of a unit is shown on the top line of the unit menu and affects
+its ability to move, to fire, and to give or receive orders.  Note: the
+state shown on the screen is the unit's state as of its last pulse prior
+to the Orders Phase.  If its suppression value was increased after that
+point, the suppression value and the current state may not correspond as
+they should.
+
+There are 14 different states possible in the game.  Those states and
+their effects are:
+
+DUG-IN:
+HOW STATE IS ENTERED: A unit can become Dug-in only if it is an assault
+type battle, and then only during deployment.  if you press the * key
+from the Map Menu during the deployment phase, all of your units will
+become Dug-in.
+EFFECTS OF STATE: A unit that is Dug-in receives certain benefits in
+combat.  The unit cannot move and remain Dug-in.  Even when its
+suppression level is high enough, it does not become Pinned or Buttoned.
+HOW STATE IS EXITED: A unit will remain in this state until ordered or
+forced to assume another state.
+
+POSITIONED:
+HOW STATE IS ENTERED: This is the normal non-moving state for a unit.  It
+has no effect on any value, but a unit in such a state may be able to
+take advantage of certain fire benefits it could not otherwise use.  A
+unit must be positioned in order to receive certain benefits in combat,
+such as being
+hull-down.
+HOW STATE IS EXITED: A unit will remain in this state until ordered or
+forced into another one.
+
+CAUTIOUS ADVANCE:
+HOW STATE IS ENTERED: A unit enters this state when ordered to do so
+during the Orders Phase.  It also enters this state if it was given a
+Full Advance order but its suppression is at least 2 and it visible to an
+enemy unit.  Warning: when one unit in a formation drops from Full
+Advance to Cautious Advance, all units in the formation will do so.
+EFFECTS OF STATE: Infantry type units (including machine gun units) and
+mobile gun units (mortars) move at 3 miles per hour in this state.  These
+units become Pinned if forced to take a loss.  Vehicle units move at 6
+miles per hour.  If either a firing unit or its target is moving the fire
+is less effective.  If it is not Buttoned it can see in a 360 degree
+circle.
+HOW STATE IS EXITED: A unit will remain in this state until it has
+reached its last movement objective, the Cautious Advance order has not
+been cancelled, or it has been formed into another state.
+
+FULL ADVANCE:
+HOW STATE IS ENTERED: A unit enters this state when ordered to do so
+during the Orders Phase.
+EFFECTS OF STATE: All units move at their maximum speed.  If either a
+firing unit or its target is moving the fire is even less effective than
+in Cautious Advance state.  A unit in this state can only see in a 90
+degree arc in the direction it is facing.
+HOW STATE IS EXITED: A unit will remain in this state until it has
+reached its last movement objective, the Full Advance order has been
+cancelled, or it has been forced into another state.
+
+LOADED:
+HOW STATE IS ENTERED: A unit enters this state by being ordered to
+embark.
+EFFECTS OF STATE: A non-vehicle unit being carried by a vehicle is
+considered Loaded.  Headquarters units can give orders while Loaded, but
+cannot execute any movement or combat orders.  If the Loaded unit's
+carrier is eliminated the Loaded unit is also.
+HOW STATE IS EXITED: A unit leaves this state by being ordered or forced
+to debark.  A unit is forced to debark when its carrier accumulates
+suppression points equal or greater than the morale of the carrier.  When
+debarked in this manner, the former passengers will gain a number of
+suppression points equal to that of its carrier.
+
+PINNED:
+HOW STATE IS ENTERED: A non-vehicle unit is forced to enter this state
+when its suppression level is greater than or equal to its morale and the
+unit is not Dug-in.  A unit in a Cautious Advance state will become
+Pinned if it takes any losses.
+EFFECTS OF STATE: Only a non-vehicle unit becomes Pinned.  When Pinned,
+it cannot have an order cancelled.  A Pinned unit will not fire as
+effectively, and fire against such a unit will be as effective unless the
+firing unit is adjacent to the target unit.
+HOW STATE IS EXITED: A unit will remain Pinned until its suppression
+level is less than its morale or until it is forced into another state.
+
+BUTTONED:
+HOW STATE IS ENTERED: A vehicle unit is forced to enter this state when
+its suppression level is greater than or equal to its morale and the unit
+is not Dug-in.
+EFFECTS OF STATE: Only a vehicle unit becomes Buttoned.  When Buttoned, a
+unit will move as if it had been given a Cautious Advance order, even if
+the order was for a Full Advance.  A Buttoned vehicle can only search for
+enemy units in a 90 degree arc in its direction of facing during pulse
+three.  A Buttoned unit will not fire as effectively.
+HOW STATE IS EXITED: A unit will remain Buttoned until its suppression
+level is less than its morale or until its forced into another state.
+
+RETREATING:
+HOW STATE IS ENTERED: A NON-JAPANESE unit is forced into this state when
+its suppression level reaches twice its morale.  A unit can also be
+ordered to enter a Retreating state.
+EFFECTS OF STATE: A Retreating unit will use its full movement allowance
+to move to cover or to its edge of the battlefield.  An HQ unit that is
+Retreating cannot issue any orders, and no Retreating unit can receive an
+order.  A Retreating unit can benefit from a rally order of a superior
+HQ.  Fire against a Retreating unit will not be as effective unless the
+firing unit is adjacent to the target unit.
+HOW STATE IS EXITED: A unit will remain in this state until its
+suppression level is less than twice its morale or until its forced into
+another state.
+
+ROUTED:
+HOW STATE IS ENTERED: A NON-JAPANESE unit is forced into this state when
+its suppression level reaches three times its morale.
+EFFECTS OF STATE: A Routed unit will use its full movement allowance to
+move to cover or its edge of the battlefield.  An HQ unit that is Routed
+cannot issue any orders, and no Routed unit can receive an order.  A
+Routed unit can benefit from a rally order of a superior HQ.  Fire
+against a Routed unit will not be as effective unless the firing unit is
+adjacent to the target unit.
+HOW STATE IS EXITED: A unit will remain in this state until its
+suppression level is less than three times its morale or until it is
+forced into another state.
+
+HEAVY SUPPRESSION:
+HOW STATE IS ENTERED: A JAPANESE unit enters this state if its
+suppression is twice its morale or greater.  A NON-JAPANESE unit under
+these conditions would be forced to enter a Retreating or Routed state.
+JAPANESE do not retreat or rout.
+EFFECTS OF STATE: A JAPANESE unit that is Heavily Suppressed cannot move
+or fire.  It will remain in this state for 3 to 9 pulses.  Heavy
+Suppression will not be listed as the state of the unit on the screen;
+rather, the unit's state will be listed as Pinned, Dug-in, or Positioned,
+depending on its state prior to being Heavily Suppressed.
+HOW STATE IS EXITED: When the delay imposed on the unit is reduced to 0,
+the unit assumes the state listed for it on the screen.
+
+OFF-MAP:
+HOW STATE IS ENTERED: Certain artillery units deployed at the beginning
+of the game in this state.  A unit which Routs, Retreats, or voluntarily
+moves off its own map edge enters an Off-Map state, and no victory points
+are awarded for it.
+EFFECTS OF STATE: A unit in this state can never move onto the map.  An
+Off-Map artillery unit can receive an order from an on-map unit to
+bombard.  Other than that such a unit cannot be fired at, moved, or
+otherwise give or receive orders.
+HOW STATE IS EXITED: A unit can never leave this state.
+
+ABANDONED:
+HOW STATE IS ENTERED: A vehicle or a non-mortar gun unit is forced to
+enter this state if it must Retreat or Rout and it has a max speed of 0.
+EFFECTS OF STATE: The unit is out of play.  If the unit was an HQ unit,
+all surviving members of its formation become computer controlled.
+HOW STATE IS EXITED: A unit can never leave this state.
+
+DESTROYED:
+HOW STATE IS ENTERED: A unit is forced to enter this state if it is
+destroyed in combat.
+EFFECTS OF STATE: The unit is out of play.  If the unit was an HQ unit,
+all surviving members of its formation become computer controlled.
+HOW STATE IS EXITED: A unit can never leave this state.
+
+EXITED:
+HOW STATE IS ENTERED: A unit is forced to enter this state if it is on
+the map edge behind the enemy side.  (Be careful: this could happen
+during play when not desired.)
+EFFECTS OF STATE: The unit is out of play.  If the unit was an HQ unit,
+all surviving members of its formation become computer controlled.  You
+may gain victory points for the Exited unit, depending on your mission.
+HOW STATE IS EXITED: A unit can never leave this state.
+
+For one of your units in a state which does not preclude it getting
+orders, you can change the state of the unit during the Orders Phase.
+This is done by pressing the S key, and then choosing the desired state
+from the submenu which appears.  Thus if a unit is in Full Advance state,
+hitting S and then C will slow it to Cautious Advance, while hitting S
+and P will cause it to halt by putting it into a Positioned state.
+
+Making a voluntary change of state does not expend any orders, but the
+formation headquarters must have at least one order left or the change
+cannot be made.  Note that you choose to retreat your unit, its
+suppression will automatically rise to just above twice its morale.
+
+COMMAND CONTROL:
+If a unit is out of command control (OCC), it may not receive an order.
+Command control for all units is judged after the Combat Phase but before
+the Orders Phase begins.  Whether a unit is in command control depends on
+whether it has a radio (see the units Weapons page).  If it does not, the
+unit must be within 5 squares of its immediate superior headquarters to
+be in command control.  If it does have a radio, look at the command
+rating of the superior headquarters.  The higher the number is, the more
+likely the subordinate unit will be in command control.
+
+If a non-HQ unit is out of command control, it cannot receive an order
+during the Orders Phase.  If a subordinate headquarters is OCC, it cannot
+spot for indirect fire for non-formation units and it will not receive
+any additional orders to spend from its superior headquarters.  Command
+control for units reporting to an OCC subordinate HQ is judged normally,
+so a unit may be in command control while its HQ is not.  An HQ that is
+OCC may still issue orders.  Headquarters A0 is always in command
+control.
+
+See the Briefing Manual for the percentage chance that a unit will have a
+radio.
+
+B. ORDERS:
+1. IN GENERAL
+RECEIVING ORDERS:
+After the last pulse of the Combat Phase but before beginning the Orders
+Phase, the computer performs two tasks.  It first checks all units to see
+which are in command control and which are not.  It then looks at all
+headquarters units in command control.  Each such HQ receives more orders
+which it can spend during the Orders Phase to give orders to its
+subordinate units.  Note that a headquarters unit will never receive more
+orders if the number of orders it currently has is equal to the number
+listed for its command rating.  Once the number of orders it has is less
+than its command rating, it is once more eligible to receive more.
+
+Headquarters receive orders in two ways.  Foe every 10 points of its
+command rating, the HQ receives one order.  If its command rating is not
+divisible by 10, there is a chance it will receive an additional order in
+a turn.  For instance, an HQ with a command rating of 35 would have a 50%
+chance of getting 3 orders and a 50% chance of getting 4 orders in a
+turn.  An HQ with a command rating of 8 would have an 80% chance of
+getting 1 order and a 20% chance of getting no additional orders.
+
+A headquarters unit in command control can also receive orders from
+superior HQ's.  A subordinate HQ will receive one order per turn per
+superior HQ if the subordinate HQ has less than 1/10th the number of
+orders that the superior HQ has.  Thus if A0 has 32 orders, and B0 3 or
+less orders, B0 will receive one order from A0.
+
+GIVING ORDERS:
+Orders are given during the Orders Phase by headquarters units to
+themselves or to units in their formation.  To enter the Orders Phase
+from the Combat Phase, press the O key.  To give an order to a unit,
+access the unit you wish to order and press the key which corresponds to
+the order you wish to give.  For some orders, you will need to access the
+HQ unit and press a key.  generally, a headquarters unit can only give
+orders to a unit in its own formation, with two exceptions: bombardment
+fire can be called in by the firing unit or by any HQ, and when an HQ
+orders a rally, any subordinate unit within the rally radius of that HQ
+can benefit from the rally.  (See the rules below for bombardment fire
+and rally.)
+
+Normally, a headquarters expend 1 order when a unit in its formation is
+ordered to do something.  There are some exceptions to this.  One is for
+a rally order: it costs 1 order for an headquarters to press the key to
+rally, plus an additional order for every unit that actually does rally.
+Thus if no units were to rally, an HQ would spend 1 order, if 2 were to
+rally it would spend 3 orders.
+
+Another exception is for All-Units Mode.  This is a special mode which is
+entered by pressing the A key.  If the current unit is not the formation
+HQ, the formation HQ will be accessed.  The headquarters state will
+temporarily change to read ALL until an order key is pressed.  When in
+All-Units Mode: cancel orders, change facing, move, and set firing range.
+You must also place a formation in All-Units mode before turning it over
+to computer control.
+
+Finally, more than 1 order may be spent in the case of indirect
+bombardment fire.  When such fire is ordered, the HQ of the unit making
+the indirect bombardment fire will expend an order 50% of the time.
+Ordering such fire will always cost the HQ of the spotting unit 1 order
+unless that HQ is the HQ of the firing unit; in that case the 50% rule
+applies.
+
+The state of both the headquarters unit and the subordinate unit is
+important in determining whether a unit can give or receive an order.
+Refer to the Unit States subsection above for this information.
+
+LIMITED VERSUS UNLIMITED COMMAND RULES:
+Normally, once a headquarters unit is out of orders, it can no longer
+give any orders until it receives more.  This is not true, however, if
+you choose to play with the Unlimited Command Rules.  At the very
+beginning of the game you will be asked to choose whether to use the
+Limited Command Rules.  If you say Yes, orders will be given and received
+as discussed in this section.  If you say No, a headquarters unit will be
+able to give all orders EXCEPT A RALLY ORDER even though it has no orders
+left.
+
+COMPUTER CONTROL:
+At the beginning of the game you can choose which side(s) will be
+controlled by the computer.  Even if you choose to play a side yourself,
+any or all your units may also be controlled by the computer.  Once under
+computer control you no longer direct the actions of those units: the
+computer does.
+
+Your units may come under computer control either voluntarily or
+involuntarily.  Units in a formation are automatically and involuntarily
+placed under computer control when the headquarters for that formation is
+no longer in play.  Only those units in the headquarters immediate
+formation become computer controlled: any subordinate units are not.
+Once such a formation becomes computer controlled it remains so until the
+end of the scenario.  As an example, suppose C formation and unit B1
+reported to B0.  If B0 were to be eliminated, B1 would become computer
+controlled; formation C would not.
+
+You may also voluntarily place any formation under computer control
+during the Orders Phase.  This is done in one of two ways.  One way is to
+press the A key to go into All-Units mode, and then press the J key.  All
+units in the formation will have a C- in front of their state; this is an
+indication that the units are under computer control.  You can also press
+the * key from the map menu.  This places all of your forces under
+computer control, and is handy to use when you wish to quickly finish a
+scenario that is nearly over.
+
+Formations voluntarily placed under computer control will remain that way
+until the J key is pressed for each formation.  This is true even if you
+used the * key to place your troops under computer control.  Of course,
+should the formation's HQ be eliminated in the interim, the units will
+always be under computer control.
+
+2. MOVEMENT ORDERS:
+To have a unit move across the map, you need to first access the unit.
+Then move the cursor across the map to the square that you want the unit
+to move to.  Hit the M key and choose the state that you wish the unit to
+be in during its move, either Cautious Advance or Full Advance.  The
+square chosen will become the unit's movement objective and the unit will
+attempt to move there using the speed appropriate to its state.
+
+The cursor will not return to the unit, though its Unit Menu will
+reappear.  If you wish for the cursor to go back to the unit after giving
+it a movement order, press the L key from the Unit Menu.
+
+You can give a unit up to two movement objectives using this method.  You
+can see what the movement objectives are by pressing the O key from the
+Unit Menu.
+
+A unit in a Full Advance state moves at its full movement speed, which is
+listed on its Weapons page.  A vehicle unit in a Cautious Advance state
+moves at 6 MPH; an infantry or mobile gun at 3 MPH.  See Unit States
+above for more information.  The speed of a unit is in effect a movement
+allowance, from which the cost of terrain moved through is subtracted.
+The Terrain Effects Chart (TEC) lists movement cost for each type of
+terrain in miles per hour per pulse.  Left-over points are retained.  As
+an example, each clear terrain costs 5 MPH to move through in clear
+weather.  A vehicle in a Cautious Advance state would move through 1 such
+square every pulse but the fifth, when it would move through 2 squares.
+
+Movement allowances may also be accumulated over several turns.  As an
+example, it costs trucks 60 movement points to enter a forest.  If a
+truck unit with a maximum speed of 12 were placed in a Full Advance state
+and ordered to enter a forest square, it would take 5 pulses to do so.
+
+There is always a delay of 1 pulse before a unit begins to move.  This
+delay may be increased if the unit is ordered to perform certain actions.
+For instance, a unit which debarks in an Orders Phase has a delay of 2;
+if it is also ordered to move in that same Orders Phase its delay will
+increase to 3.  Thus the unit will not move at all during the turn.
+
+Some changes of state change a unit's movement objective, and some do
+not.  A unit forced to enter a Retreat or Rout state will have a new
+movement objective automatically assigned to it, and this objective will
+be towards the map edge of that side.  On the other hand, a unit that
+must temporarily halt an advance by entering a Positioned state will not
+lose its movement objective.  (If you wish to delete this objective, see
+the cancel command below.)  This is useful if the unit must hold up for
+other friendly units to catch it up.
+
+MOVEMENT IN ALL-UNITS MODE:
+Normally, a headquarters unit will expend 1 order for each unit in its
+formation that is ordered to move.  Using All-Units Mode the headquarters
+expends only 1 command for the whole formation to move.  To make such a
+move, access the formation HQ.  Hit the A key to go into All-Units Mode,
+and make a move as you normally would.  You will be asked whether to make
+a formation move or not.  If you say No, all units in the formation will
+be assigned to move to the cursor location.  If you say Yes, the movement
+objectives of units making the formation move will  be in the same
+position to each other as the units were at the start of the formation
+move.  Thus if one unit were due north (direction 1) from another unit at
+the start, the first unit's objective would be due north of the second
+unit's.
+
+STACKING:
+Only a certain number of units move into a square during any one pulse.
+During the first pulse of a turn, a unit cannot enter a square if there
+is already one or more friendly units in the square.  During pulses 2 and
+3, a unit cannot move into a square if there are already 3 or more units
+in the square.  Units already in a square do not have to leave, but no
+new units can enter over these limits.
+
+Stacking also has an effect on unit access.  When the cursor is over a
+square containing a unit that you wish to access, use the Y key until you
+see the desired unit's type on the bottom line of the Map Menu.  You may
+then use the U key to access the unit.
+
+EMBARKING AND DEBARKING OF PASSENGERS:
+Vehicle units may carry passengers around the map with them as they move.
+Loading a unit onto a vehicle is called embarking a passenger onto a
+carrier; Unloading is called debarking from a carrier.
+
+Each Passenger unit costs a certain number of transport points (TPs), and
+each vehicle unit can carry only a certain number of TPs.  Prime mover
+units and heavy trucks and heavy halftracks can carry 15 TPs.  All other
+vehicles can carry 10.  Only prime movers, trucks (light, medium, and
+heavy) and halftracks (light, medium, and heavy) can carry artillery
+passengers.  The number of points each transportation unit costs is
+listed below (all are per unit except for infantry):
+
+Infantry                      1 per man
+Medium MG                     2
+Heavy MG                      4
+Light Mortar                  3
+Heavy Mortar                  5
+AT Gun                       10
+Light AA (50mm and less)     10
+Heavy AA (51mm and more)     15
+Light How (95mm and less)    10
+Heavy How (96mm and more)    15
+Light IG (95mm and less)     10
+Heavy IG (96mm and more)     15
+
+To embark a unit, the unit to be loaded must be in or adjacent to the
+carrier's square.  You then access the carrier unit and press the E key
+followed by the passenger's formation letter and ID number.  The
+passenger unit will then move on-board the carrier.
+
+While a unit is a passenger, its state will read <LOADED>.  A loaded HQ
+can issue orders.  A unit that is loaded can receive orders from its HQ,
+but cannot execute any combat or movement orders.  (Other orders, such as
+changing its firing range, can be done.)  You can check which units are
+embarked on a carrier by accessing that carrier and pressing the P key.
+
+You can debark a unit either by accessing the passenger or by accessing
+the carrier and pressing the D key.  This only makes a difference if
+there is more than one passenger on the vehicle.  If done using the
+passenger's Unit Menu, only that passenger is debarked.  If done using
+the carrier's Unit Menu, all of that carrier's passengers are debarked.
+An unloaded unit will become Positioned and will have its delay increased
+by 2.  The carrier's delay will be increased by 1.  (In essence, these
+units require that many pulses to get reorganized and cannot do anything
+during that period.)  When embarking. the HQ of the vehicle must expend
+an order; when debarking, the HQ of the unit ordered to debark expends
+the order.  Units can be debarked in all-units mode.
+
+If a carrier unit receives suppression points greater than or equal to
+its morale, it will automatically debark all passengers.  The passengers
+will gain a number of suppression points equal to that of the carrier.
+
+WEATHER EFFECTS ON MOVEMENT:
+During snow and rain add 2.5 to the movement cost of each square, except
+for swamps in snow, where the cost is reduced half of normal.  These
+effects are noted on the Terrain Effects Chart.
+
+3. COMBAT AND COMBAT ORDERS
+INTRODUCTION TO COMBAT:
+An enemy unit is destroyed or damaged by ordering a friendly unit to have
+combat against it.  Combat orders are given during the Orders Phase, and
+resolved during the Combat Phase.  There are two types of combat: fire
+and assault.  There are two types of fire combat: bombardment and point.
+There are two types of bombardment fire: direct and indirect.  (All terms
+and conditions discussed in this introduction are explained below.)
+
+                             Combat
+                            /
+                         Fire      Assault
+                       /
+              Bombardment   Point
+             /
+      Indirect        Direct
+
+Besides the normal preconditions for giving and receiving orders, there
+are some preconditions for combat.  Assaults are only possible against
+units in the same square as or adjacent to the assaulting unit.  For fire
+combat, the firing unit must have ammo and the target must be within
+range of the firing unit.  In addition, for point fire and direct
+bombardment fire the firing unit must be able to see the target unit or
+square.  Indirect bombardment fire is more accurate if the firing unit or
+a friendly HQ can see the target square.
+
+If these preconditions are met a unit can be ordered to have combat
+against a target.  if a unit is ordered to have fire combat, several
+steps are undertaken to determine whether the target is hit, and if so
+what damage is inflicted.
+
+Units can also fire smoke instead of projectiles.  Visibility is blocked
+through a square containing smoke.
+
+COMBAT TERMS:
+The following terms are used in discussing combat:
+Combat: a general term, designating both fire and assault.
+
+Assault: combat performed by an infantry-type unit against an enemy unit
+in or adjacent to its square.
+
+Fire: combat performed at a range by firing weapons.  This term includes
+both bombardment and point fire.
+
+Point fire: fire combat performed against an individual enemy unit in a
+square.  Certain types of point fire may affect other units in the square
+besides the target unit.
+
+Bombardment Fire: fire combat performed against all units in a designated
+square.  This term encompasses direct bombardment fire and indirect
+bombardment fire.
+
+Direct bombardment fire: bombardment fire combat performed against a
+square at which the firing unit itself chose to fire.
+
+Indirect bombardment fire: bombardment fire combat performed against a
+square not chosen by the firing unit, but by another unit.  (Note that
+while mortar units and Off-Map artillery units can plot their fire in a
+manner similar to direct fire bombardment, their fire is always
+considered indirect.)
+
+Firing unit: the unit actually performing the fire order.
+
+Spotting unit: in indirect bombardment fire, the unit choosing the square
+to be fired at.
+
+Target: for bombardment fire, the square being fired at.  For point fire,
+the unit being fired at.
+
+Hard target: a vehicle unit with front armour.
+
+Soft target: a vehicle unit with no front armour (trucks and prime
+movers) and non-vehicular units.
+
+Open-topped targets: a hard target with no top armour (halftracks and
+some self-propelled guns).
+
+AP shell: armour piercing shell, fired by point fire units at hard
+targets.
+
+HE shell: high explosive shell, fired by point fire units at soft targets
+and by all units firing bombardment fire.
+
+Primary targets: a soft target that is the target of fire.
+
+Certain other terms are values found on a unit's Weapon Page.  A sample
+Weapons Page is set out above, under Unit Characteristics.
+
+PRECONDITIONS FOR FIRE COMBAT
+AMMUNITION:
+A weapon must have ammo in order to fire.  The amount of ammo a weapon
+currently has is listed on the Weapons Page for the unit.  A weapon
+starts with between 50% and 100% of the maximum amount listed for that
+weapon on the Weapons Chart, and one round is used each time the weapon
+fires.  If a weapon fires twice in a pulse, it will use 2 rounds of ammo.
+A unit can never get more ammo during a scenario, but is restocked at the
+beginning of each scenario during the campaign game.
+
+SIGHTING ENEMY UNITS:
+Except for indirect bombardment fire, a unit must be able to see its
+target.  In addition, indirect bombardment fire is more accurate if
+either or both the spotting unit and the firing unit can see the target.
+Sighting is done during the Combat Phase by friendly units searching the
+map.  A friendly unit can see an enemy unit if there is a clear,
+unobstructed line between the two units.  This is called Line of Sight
+(LOS) and is dependant upon the facing of the sighting unit, the
+visibility level, and the terrain between the two units.
+
+Searching for enemy units is done during all 3 pulses of the Combat
+Phase.  During pulses 1 and 2, only non-moving, non-firing units may
+search.  They only see in a 90 degree arc in the direction they are
+facing.  During pulse 3, all units may search in a 360 degree circle
+except for Buttoned units, units in a Full Advance state, or self-
+propelled guns with no turrets.  These units search as in pulses 1 and 2.
+
+VISIBILITY:
+For the historical scenarios, the visibility level is set.  (This can be
+modified when you design your own battles.  See Building a Scenario.)  If
+a unit has clear Line of Sight and is facing in the right direction, the
+visibility level multiplied by 10 is the maximum number of squares a unit
+can see.  A unit cannot see past this range, and so generally cannot fire
+past it.  The exception to this is that a unit can conduct indirect
+bombardment fire if it has a weapon whose range is greater than the
+visibility level as long as some unit spots for it.
+
+There are some modifiers to the visibility range, and these are listed on
+the Visibility Range Modifiers Table.  In brief, the range is less if the
+spotter is Buttoned, if it fails its skill check, if it is pulse 1 or 2,
+the target is stationary, or if the target is hull-down, dug-in, or in
+cover.  The range is greater if the spotter is at a higher level than the
+target.  Skill checks and being hull-down or in cover are explained
+below.
+
+In addition, the range may be longer or shorter depending on the
+silhouette size of the target.  The silhouette size of a unit is found on
+the unit's Weapons Page to the right of 'Size'.  The size modifier is
+such that the visibility range is less for units of size 3 or less, and
+greater for units of size 5 or more.  This modifier is such that it is of
+less effect when the target is within 5 squares of the firing unit.  See
+the Formulas section for how the calculation is actually made.
+
+When you plot a unit to fire, it will become visible.  It thus may be hit
+before it actually fires if the other side goes first in a pulse.
+
+LINE OF SIGHT:
+The line between a sighting unit and a target is known as the Line of
+Sight (LOS).  In order for the sighting unit to see the target, this line
+must be clear.  It is not clear when terrain obstructs the line.  Whether
+the LOS is blocked depends on the height of the sighting unit, the height
+of its target, and the terrain in between them.
+
+The level of all terrain features appear on the Terrain Effects Chart
+(TEC) which shows that there are 5 levels (0 through 4).  A unit is
+considered to be at the level that it is sitting on.  The terrain
+underlying all units can be viewed from either the Map Menu or the Unit
+Menu by pressing the 0 (Zero) key.
+
+To determine whether a Line of Sight exists between one square and
+another, move the cursor to the square you wish to sight from and press
+the V key from the Map Menu.  All squares will be inversed.  Likewise, to
+see what squares are in the LOS of any given unit, access the unit and
+press the V key.  All squares that the unit can see will be inversed.
+You will notice that while a LOS cannot be traced through some squares
+(such as a smoke square), it can be traced through one or more squares of
+other terrain types.
+
+FACING:
+Except for indirect bombardment fire, a unit can only be ordered during
+the Orders Phase to fire at a target it can see in that phase.
+Generally, a unit can see units in its LOS in a 360 degrees circle.  A
+unit in a Full Advance state, a Buttoned unit, or a self-propelled gun
+with no turret, however, can only see in a 90 degree arc in the direction
+that it faces.  An anti-tank gun can see in a 360 degree circle but must
+face the direction that it wishes to fire.
+
+Facing is determined by the same compass directions that determine cursor
+movement.  That is, a unit can face one of the following 8 ways:
+
+ 8 1 2
+ 7   3
+ 6 5 4
+
+You can order a unit's facing to be changed by accessing the unit and
+pressing the F key.  You will then be prompted to enter the new direction
+to be faced.  Orders can be conserved by having an entire formation
+change facing together.  To do this, access the formation headquarters,
+press the A key to go into
+All-Units mode, and then press the F key.
+
+When ordered to move, a unit will automatically change its facing to
+point to its direction of travel.  There is no cost (besides the cost for
+the movement order) for the facing change.
+
+RANGE:
+Even if a unit has a valid LOS and is facing the target, the target must
+still be within range of the firing unit's weapon for the target to be
+fired at.  Both the maximum range of the weapon and the current assigned
+fire range of the unit appear on the unit's Weapons Page.  (See Unit
+Characteristics, above.)
+
+At the beginning of a scenario, the current fire range is set to the
+maximum range of the unit's weapon with the longest range.  You can
+change this range at the cost of one order by accessing the unit and
+pressing the R key.  You will then be asked to enter a number between 0
+and 9 to set a percentage distance for the range.  You can press the M
+key from this submenu to return the fire range to the maximum.  You can
+also conserve orders by accessing the formation HQ, pressing A to enter
+All-Units mode, and then changing the fire range for the whole formation.
+
+Decreasing a unit's fire range is useful in conserving ammo or in laying
+an ambush.  During the Combat Phase, a unit may pick its own target.
+Whether it does so is dependant on the proximity of the target, its value
+in victory points, and its appropriateness as a target for the type of
+weapon the unit has.  Thus a tank will usually fire at another tank
+unless there is an infantry unit close enough to pose a danger.  There is
+no cost in orders when a unit picks its own target.  You can prevent a
+unit from selecting a target at an extreme range by decreasing the unit's
+fire range.
+
+SKILL AND FIRST SHOT ROLLS:
+Each unit has on its own Weapons Page two ratings which are used in
+various combat and other calculations.  These ratings are its skill
+rating, which is a measurement of the unit's experience and proficiency,
+and its 1st shot rating, which is a measure of how good it is in firing
+rapidly.
+
+At various points in the game checks are made against these numbers to
+see if certain actions can be performed.  A skill check is successful if
+the skill rating is greater than or equal to a randomly generated number
+between 1 and 10.  Thus a unit with a skill rating of 4 will have a 40%
+chance of making its skill check, with a unit above that rating having a
+better chance and a unit below it having a worse chance.
+
+The first shot check is successful if the first shot rating is greater
+than or equal to 50 divided by a random number between 1 and 10.  Thus a
+unit with a first shot rating of 10 will have a 50% chance of making its
+check.  Again, higher ratings are better and lower ones worse.  Note that
+for each crewmember lost in a vehicle unit, that unit's first shot rating
+is halved.
+
+Skill checks are used for searching for enemy units, determining a unit's
+rate of fire, spotting for indirect bombardment fire, and determining a
+unit's fire accuracy.  First shot checks are used in determining a unit's
+rate of fire.
+
+Some infantry anti-tank weapons (AT rifles, panzaschrecks, etc.) must be
+adjacent to the target unit in order to fire if the unit has less than 3
+rounds of ammo left.
+
+RATE OF FIRE:
+A unit's rate of fire is the number of times it can fire in a combat
+pulse.  The rate of fire for a unit depends on its shell size, how many
+pulses have passed since being ordered to fire.  Its skill and first shot
+ratings, and the type of fire it is conducting.  Normally a unit will
+fire once in a pulse.
+
+If a unit is conducting point fire, during the first pulse after being
+ordered to fire it will fire once if it successfully passes both its
+skill and first shot checks.  If it fails either check, it will not fire
+at all that pulse.  If it is the second or later pulse after being
+ordered to fire, it will fire at twice the normal rate if both checks are
+successful and it is not moving; otherwise, just once.  An exception to
+this is that a unit equipped with small arms (that is, its shell size
+equals 1) can never fire more than once in a pulse.
+
+If a unit is firing bombardment fire, the pulse fired and the shell size
+do not make any difference.  Such a unit will not fire at twice the
+normal rate if its first shot rating (not a check) is greater than or
+equal to 10.  If not, it will only fire at the normal rate.
+
+If a unit loses a crewmember, its rate of fire may still be increased but
+the execution time for that fire may be double.  For example, a self-
+propelled gun with a first shot rating of 10 and a starting crew of 4
+will fire for 10 pulses if it has lost 1, 2, or 3 crewmembers.
+
+Note that a tank machine gun firing at an enemy unit that is not in the
+tank's square or adjacent to it must always pass a skill check in order
+to fire at all.
+
+A machine gun that is moving (Cautious or Full Advance) will not fire.
+Tank machine guns that are moving will not fire at a range greater than
+2.
+
+HOW COMBAT IS EXECUTED
+The mechanics of combat execution are the most complex part of TYPHOON OF
+STEEL.  For this reason, the detailed step-by-step procedures that the
+computer goes through are set forth in the Formulas section which
+follows.  A general knowledge of how the mechanics work is sufficient for
+play; if you would like more precision, please refer to the formulas.
+
+The main difference between bombardment fire and point fire is in
+determining whether and when an individual enemy unit has been hit.  Once
+a unit has been hit, the procedure for determining the damage inflicted
+is about the same for both types of fire.  An assault is independent of
+fire, but does use some of the same procedures.
+
+Bombardment fire lasts 5 pulses against a square.  When you look at a
+unit's target you will be shown either the delay left until fire
+commences or the number of times already fired.  You can cancel
+bombardment fire before it has hit or before the end of 5 pulses.
+
+INDIRECT BOMBARDMENT FIRE:
+The distinctive features of indirect bombardment fire are how accurate
+the fire is in hitting its target square, and how long the delay is from
+when the fire is ordered.
+
+Indirect bombardment fire may be subject to two delays, an administrative
+delay and, for off-map artillery only, a spotting delay.  The
+administrative delay is dependent on how the fire is called into the
+target square.  Indirect fire must be plotted by a friendly headquarters
+in command control.  (The fire is plotted by moving the cursor to the
+target square and pressing the B key.  See below.)  An HQ unit that plots
+the fire is known as the spotting unit.  Fire can be called on any square
+which no friendly unit can see.
+
+The administrative delay, that is the number of pulses before the fire
+begins, depend on the plotting unit:
+
+UNIT PLOTTING                 DELAY IN PULSES
+Firing unit                        1
+Firing unit's formation HQ         3
+Battalion HQ (A0)                  6
+Other HQ                           9
+
+Note that these delays will be shown on the screen when you choose which
+unit to assign to the bombardment after pressing B.
+
+There are some exceptions to the delays listed above, and in these cases
+the administrative delay is only 1.  When the firing unit is firing again
+at a target it just finished firing at, the delay is 1.  Both sides in an
+assault scenario can also plot indirect fire in the first Orders Phase
+with only a delay of 1.  Direct fire bombardments only have a delay of 1
+(see below).
+
+Besides an administrative delay, there is also a spotting delay when the
+fire will be done by off-map artillery units.  Add the spotter's skill
+rating to the firing unit's skill rating.  The result is the percent
+chance that the unit will begin fire on any given pulse.  The spotting
+delay does not apply if the unit is firing smoke, if it is firing at an
+unspotted square, if it is firing at a target it just finished firing at,
+or on the first turn of an assault scenario.
+
+Once a unit begins its fire, it will fire based on its rate of fire
+discussed above.
+
+Accuracy,the probability that the assigned target square is actually hit,
+is also important for indirect fire.  Such fire may scatter a certain
+number of squares.  When this happens, the computer goes to the assigned
+target square.  It then determines the maximum distance the fire may
+scatter.  For each square of scatter, the computer randomly determines
+one of the 8 directions and moves one square in that direction.
+Whichever square the computer ends up at becomes the actual target
+square.
+
+The maximum scattering distance depends on whether the firing unit is on-
+map or off-map and how the target is spotted (that is, the fire is being
+blindly plotted), the maximum scatter is 9 squares.  If it is not blind
+fire and the firing units fail to pass an accuracy check the scatter is
+4; if it passes such a check the scatter is 2.  The scatter of rocket
+unit fire is always 9.
+
+This accuracy check which is made is similar to a regular skill check,
+but you add the firing unit's skill rating and the spotter's skill rating
+and compare the result to a number between 1 and 20.  Thus if the
+combined skill is 10, the units will have a 50% chance of passing this
+check.
+
+There are some modifiers which will reduce the amount of scatter.  If any
+of the following conditions are met, the scatter is halved: if the firing
+unit has a Line of Sight to the original target square: if the range to
+the target is less than 30 squares: or if the firing unit is Off-Map
+firing HE fire and the target square can be seen by the spotting unit.
+All modifiers are cumulative.
+
+Even if the scatter is less than 1 square, the best accuracy possible is
+for the fire to hit the assigned target 25% of the time, with it
+scattering 1 square the other 75% of the time.  The fire is considered to
+hit the assigned target as long as the final square that the fire ends up
+in is the same as the square assigned.  It does not matter how many
+squares the computer may have looked at to get there.
+
+Once a target square is determined, whatever units are in the square
+(friendly or enemy) are subject to damage.  See the damage procedures set
+forth below.
+Bombardment fire always uses HE shells and there is never a primary
+target.
+
+DIRECT BOMBARDMENT FIRE:
+A unit, such as a tank unit, which normally conduct point fire can also
+conduct direct bombardment fire.  The unit itself calls in the fire and
+so must have a LOS to the target square.  There is no spotting unit.
+Other than that, the fire is conducted as indirect bombardment fire with
+the exception that the maximum delay is 1, and there is no first round
+accuracy penalty.  Its rate of fire is computed as listed above.
+
+POINT FIRE:
+Whether a target is hit by point fire depends on the accuracy and max
+range of the firing weapon, the range to the target, and the type of
+target being shot at.  The accuracy of the weapon is listed on the owning
+unit's Weapons Page.  The computer uses this figure, the weapons max
+range and the range to the target to determine an accuracy figure.  This
+figure will range between 98% if the target is in the same square as the
+firing unit; to the accuracy listed on the Weapons Page at half the
+weapon's max range; to 2% of the max range.  (The actual formulas are set
+forth in the Formulas section.)
+
+If the target unit is a hard target, the resulting accuracy figure is
+modified by the hard target modifiers (see the Accuracy Modifications
+Table).  Generally, the accuracy will be better if the firing unit fired
+the last pulse at the same target.  The accuracy will be worse if the
+firing unit fails a skill check, or is Pinned, Buttoned, or has any
+suppression points.  It is also worse if the target is not adjacent and
+Retreating, or in cover.  The accuracy is worse if either the target or
+the firing unit is moving, with Full Advance being worse than Cautious
+Advance.  The silhouette size of the target is also a factor; it is
+figured the same as it was for visibility, above.
+
+If the target unit is a soft target, the accuracy is modified by the soft
+target modifiers for the firing unit only.  That is, if the firing unit
+fails a skill check, or if it is moving, Buttoned, Pinned, the accuracy
+will be worse.
+
+No matter what the target, the modified accuracy can never be more than
+99.  The lowest the accuracy can be against soft targets is 12, and
+against other targets is 0.  The modified accuracy is the percentage
+chance that the target is hit, it is then subject to damage.  Point fire
+uses AP shells against hard targets and HE shells against soft targets.
+
+DAMAGE CALCULATIONS:
+The damage done against a unit depends on whether it is a hard target or
+a soft target, and the type of shell being used.  If an AP shell was
+fired, only the target unit is hit.  If an HE shell was fired, each unit
+in the target square may be hit.
+
+When the target is hard, the computer first checks to see if the shell
+penetrates.  If so, it will cause damage.  The chance of penetrating is
+greater the greater the shell size of the weapon and the greater the
+penetration value listed on the Weapons Page.  AP shells penetrate better
+than HE shells, and the closer the target the more likely the
+penetration.
+
+The likelihood of penetration is also less the thicker the target's
+armour is in the location hit.  When the target is hit, the computer
+determines the location of the hit.  Most likely the lower hull or
+turret/upper hull will be hit.  If the firing unit is at a higher
+elevation than the target, there is a chance of hitting the top, but a
+reduced chance of hitting the tracks.  To be able to hit the top, the
+firing unit must be two or more levels higher than the target unit.
+
+When the target is hull-down, the chance of hitting it at all is reduced.
+A unit is hull-down if it is positioned in cover, if it is at a higher
+elevation than the firing unit, or if it is Dug-in.  The armour that a
+unit has in the various locations is listed on the unit's Weapons Page.
+A unit cannot be hull-down to indirect fire.  A unit on a slope square is
+hull-down only to adjacent units on level 3 squares; this is the only way
+a unit on a slope can be hull-down.
+
+If AP shells fail to penetrate, they bounce; there is a chance that HE
+shells that do not penetrate the target unit attack other units in the
+target square or in an adjacent square.  If an HE shell does fail to
+penetrate, it will never have a primary target.  Track hits always
+penetrate if the shell size of the firing unit is greater than 1.
+
+When a shell penetrates a hard target, one of several things might
+happen: the target may be automatically destroyed; it may lose a track;
+it may lose its engine; or the crew compartment may be penetrated.  If a
+track or the engine is lost, the unit can no longer move and will be
+abandoned if forced to retreat or rout.  If the crew compartment is
+penetrated, two things may happen: one or all of the crew may be killed,
+and the weapons in the area penetrated may be knocked out.  Thus, if the
+turret/upper hull were penetrated, the top two weapons listed for a unit
+may be knocked out.
+
+All fire against soft targets is HE fire.  Such fire may hit more than
+just the primary target in a square.  (This is not the case if the
+primary target is a hard target and it is hit.)  The chance of an HE
+shell hitting a specific unit is greatest if the unit is the primary soft
+target, less if it is another soft target, and less still if it is an
+open-topped hard target.  The chance is the least if it is a regular hard
+target.  (If a hard target is hit, the procedure explained above is used
+and not the following.)
+
+Generally, the higher the weapon's infantry attack value the more likely
+it is to hit the target.  Non-adjacent fire has a reduced chance, and the
+soft target modifiers may reduce the chance even further (see the
+Formulas section).  The chance is increased if the target is advancing or
+is an artillery unit, and decreased if it is Positioned in some kind of
+cover, Retreating, Routed, Pinned, or Dug-in.  Small arms fire against a
+unit that is Dug-in or in hard cover is additionally decreased.
+
+If, given the modified chance, a soft target is hit, it will lose a
+number of men based on that chance and on the firing unit's infantry
+attack value.  Soft vehicles (trucks, etc.) and artillery units may also
+be destroyed outright.
+
+SPECIAL WEAPONS:
+Note that no defensive benefits apply to units attacked by flamethrowers
+or demo charges.  only two checks are made when such a weapon attacks:
+one check to see if the weapon is on target, and another to determine
+damage.
+
+INFANTRY ASSAULTS:
+Infantry can also be ordered to assault an enemy unit in its square or
+adjacent  to it.  (Move the cursor to the square to be assaulted and hit
+the U key.)  The infantry unit will conduct the assault against all enemy
+units in the assigned square in the first pulse of the next Combat Phase.
+The infantry unit will not actually move; it will assume a Cautious
+Advance state.  After the assault, it will revert to being Positioned
+(even if it were Dug-in before).
+
+An infantry unit may also carry special assault weapons (flamethrowers,
+demo charges, etc.) which it can use in an assault.  If such a weapon has
+a range of 1 it can be used against a hard target in an infantry assault.
+Such an attack is in addition to the normal attack by the infantry unit.
+
+If the target of an infantry assault is soft, use the HE procedure given
+above to determine the damage inflicted.  The infantry unit's assault
+value is 4 times what it normally would be.
+
+When the assault target is hard, the infantry unit must first pass a
+morale check.  It passes this check if its morale times a random number
+is greater than or equal to the number of suppression points the unit
+currently has.  Thus, a unit with a morale of 4 and 1 suppression point
+will pass the check 75% of the time.  If the unit fails, it routs.
+
+If the unit passes the check, it may assault.  The unit's kill rating is
+determined; this is either the number of men in the unit or the accuracy
+of its special assault weapon if it has one.  This number is increased if
+the target is a soft or open-topped vehicle, or if the target is
+stationary.  It is reduced if the target is moving in a Full Advance
+state or if the assaulting unit fails a skill roll.
+
+The resulting kill rating is multiplied by a random number.  If the end
+result is more than 6, the target is destroyed.  If it is more than 3 but
+not more than 6, the target loses a track and so cannot move.  Thus if a
+unit's kill rating were 10, it would have 40% chance of destroying the
+unit and an additional 30% chance of knocking off a track.
+
+SMOKE:
+In place of projectiles, units can also fire smoke.  Smoke in a square
+blocks the Line of Sight through the square (see the Line of Sight above
+for how this works).  Smoke is ordered in just like bombardment fire with
+several exceptions.
+
+An infantry unit can place smoke only in or adjacent to its square.  The
+smoke appears immediately in the Orders Phase.  It costs an order to lay
+smoke.
+
+For other units, only headquarters units can call in smoke; a unit
+capable of firing smoke cannot decide on its own to do so.  (Except a
+tank HQ with a shell size of 2 or more which can plot its own smoke.)  No
+skill check is made and the delays are slightly different.  If neither
+the firing unit nor the spotter can see the target, it is treated like an
+unspotted fire.  If it is spotted, it is treated like an on-map fire
+whether the firing unit is off-map or not.  The scatter is the same for
+an on-map fire.  The chance that a mortar shell will actually place smoke
+in a square is the shell size divided by 8.
+
+At the start of each pulse, there is a small chance that smoke in a
+square will be removed.
+
+If a vehicle is destroyed and is burning, there is a 50% chance each turn
+that the square the vehicle is in will have smoke added to it.  There is
+a 5% chance each turn that the fire will go out.  Buildings and
+vegetation on fire burn for the whole scenario and block LOS just like
+smoke.
+
+ORDERING UNITS TO FIRE
+VIEWING AND FIRING AT ENEMY UNITS:
+Taking into account facing, visibility, and LOS, the sum total of the
+area that a unit can see is called its field of vision.  The field of
+vision for a unit on the map can be seen by accessing the unit and
+pressing the V key.  All squares the unit can see given its current
+facing will be inversed.  The range shown is based on the visibility
+range and does not take into account the fact that a shorter fire range
+may have been assigned to the unit.
+
+You can also move the cursor around the map in the Map Menu and hit the V
+key from any square on the map.  All squares in a 360 degree circle from
+the square will be inversed.  Doing this over an enemy unit lets you know
+which of your units can see and which of your units can see it.
+
+You may check the current target for a unit by accessing the unit and
+pressing the T key.  If the unit has an enemy unit as a target, the
+cursor will go to the target.  If the target is a bombardment square, you
+will see a message telling you of this fact.  It will also tell you
+either the delay left until fire commences or the number of rounds
+already fired.  If the target is a point fire target, you will see the
+type and state of the target unit below the screen as well as the range
+and the number of times fired.  (If you wish for the cursor to return to
+the sighting unit, hit the L key.)
+
+To fire at a unit using point fire, access the unit you wish to fire.
+Press the I key to inspect all enemy units that it can see.  The cursor
+will go to the first enemy unit in range.  Below the screen you will see
+the type and state of the unit and the distance to it.  Hitting Q returns
+you to the Unit Menu.  Hitting N moves the cursor to the next enemy unit
+in range.  Hitting T orders the friendly unit to fire at the unit under
+the cursor.  Hitting T costs one order.
+
+To fire at a unit using direct bombardment fire, access the unit you wish
+to fire.  Move the cursor to within the unit's field of vision and press
+the B key.  The weapon type and the delay will be listed below the map.
+Press Q to return to the unit without assigning a target; press the A key
+to assign that square as a target for that unit.  Doing so costs one
+order.  If it is a headquarters unit capable of laying smoke, you can
+also choose to do that by hitting the S key.  This also costs one order.
+
+To fire at a unit using indirect bombardment fire, access the unit that
+will act as a spotter.  Move the cursor to any location on the map and
+press the B key.  Those units available to bombard and the administrative
+delay will be listed below on the map.  A unit available if if is not
+currently assigned a bombardment target and is in command control.  Press
+A to assign the square to the unit shown: press N to move on to the next
+available indirect fire unit.  Press Q if you wish to quit or S if you
+want the unit to lay smoke in the square.  It costs the spotting HQ unit
+one order to plot fire or smoke; 50% of the time it also costs the HQ of
+the firing unit one order.
+
+Non-infantry units fire smoke as listed above.  An infantry unit can be
+ordered at the cost of one order to lay smoke in an adjacent square or
+leave it in the unit's square.  Press the K key and the smoke will
+immediately appear on the map.
+
+To plot an infantry unit to assault, access the unit that will make the
+assault.  Move the cursor to any adjacent square that contains an enemy
+unit, or leave it in the infantry unit's square if it is to be assaulted.
+Press the U key and the assault will be ordered.  This costs one order.
+
+4. ORGANIZATIONAL ORDERS:
+There are two orders which will affect the state of a friendly unit.  The
+first of these is the voluntary change of state order (key S) discussed
+above under unit states.  The second is the rally order.  This order
+lowers the number of suppression points a unit has.
+
+SUPPRESSION POINTS:
+All units start a scenario with 0 suppression points.  A unit will gain
+or lose suppression points for a variety of reasons.  See the Suppression
+Points Table (SPT) for a list of the conditions and the number of points
+gained or lost for each.  Note that the number of suppression points a
+unit has is adjusted several times in a turn.  The SPT list when a
+condition is important for gaining or losing suppression points.  Each
+unit automatically has 1 subtracted each turn from the number of
+suppression points it has.
+
+The number of suppression points a unit has is listed after the S: on the
+unit menu.  A unit's morale level is listed on the unit's Weapons Page.
+A unit's morale may be lowered by the elimination of its formation
+headquarters.  (If this happens, the unit will also automatically become
+computer controlled.)
+
+During each combat pulse, the number of suppression points a unit has at
+that time is checked.  Based on this number and on the unit's morale, the
+state of the unit may be changed.  These effects are:
+When the number of points become greater than or equal to 2, the unit may
+only assume a Cautious Advance state when ordered to move.  This does not
+apply if no enemy unit can see the unit whose state is being checked.
+When the number of points become greater than or equal to the unit's
+morale, if the unit is a non-vehicle unit its state becomes Pinned; if it
+is a vehicle unit its state becomes Buttoned.  This does not apply if the
+unit is Dug-in.
+When the number of points becomes greater than or equal to twice the
+unit's morale, and the unit is not JAPANESE, the unit's state becomes
+Retreating.  If the unit is JAPANESE, its state becomes Heavy
+Suppression.
+When a number of points become greater than or equal to three times the
+unit's morale, and the unit is not JAPANESE, the unit's state becomes
+Routing.  If the unit is JAPANESE, its state becomes Heavy Suppression.
+
+If the state of a vehicle is forced to become Retreating or Routing and
+the unit cannot move, it will be abandoned.  This in effect destroys the
+unit.
+
+Note that a unit's state in a Combat Phase is determined during each
+friendly pulse.  If, however, the enemy goes last during pulse 3 and
+causes the number of suppression points a friendly unit has to increase,
+that unit's state (as listed on the Unit Menu during the Orders Phase)
+and the number of suppression points it may not correspond as they
+should.
+
+RALLY:
+The quickest way to decrease the number of suppression points a unit has
+is to rally it.  To rally a unit, the unit to be rallied must be in
+command control and must be within the rally radius of a headquarters
+unit in its chain of command.  The number of suppression points the unit
+has must be at least equal to its morale.  Access the HQ unit which will
+make the attempt and press the G key.  The HQ unit will expend one order
+to make the rally attempt and for each unit it succeeds in rallying, it
+will expend another order.  If the HQ unit succeeds in rallying a unit,
+the number of suppression points the unit has will be halved.
+
+The rally radius of a headquarters unit is based on its command rating.
+That rating divided by 5 plus 1 is the number of squares within which a
+unit must be to be rallied.  If the command radius is not evenly
+divisible by 5, there is a chance the radius may be greater at times.
+Thus an HQ with a command rating of 8 will have a rally radius of 2 for
+40% of the time, and a radius of 3 for the other 60%.
+
+A unit can be the subject of as many rally attempts as its superior HQ's
+within range have orders.  Thus if C1 reported to C0 who had 2 orders,
+and then to B0 with 4, and then to A0 with 10, and C0 were within radius
+of all of them it could be the subject of up to 13 attempts.  (Each HQ
+would be able to attempt one less rally than the number of orders it had,
+since the last order would have to be left to expend for the rally itself
+if it succeeded.)  You will notice that unlike other commands,
+headquarters units can affect subordinates of subordinates.  It is not
+only the unit's formation HQ which can make the attempt.
+
+The higher a unit's morale, the more likely its chance of rallying.  The
+chance of a unit rallying is its morale divided by 10.  Thus a unit with
+a morale of 4 will rally 40% of the time.
+
+As discussed under suppression, the state of a unit is not actually
+changed until a combat pulse.  Thus if a unit is successfully rallied
+during the Orders Phase, the number of suppression points it has will be
+halved (fractions rounded down).  However, its state will not change.
+Thus, as an example, the number of suppression points a unit has may be
+less than its morale, but its state may still read Pinned.
+
+A headquarters unit can make a rally attempt if its state is Dug-in,
+Positioned, Cautious Advance, Full Advance, Pinned, Buttoned, or Loaded.
+It may not make the attempt if its state is Retreating, Routed,
+Abandoned, Destroyed, Off-Map, or Exited.
+
+Even when playing with the unlimited command rules it will cost an order
+to attempt a rally and an order for every unit successfully rallied.  If
+an HQ does not have enough orders to expend for the successful rally of
+all units in its radius, it will rally the closest unit first.
+
+5. CANCELLING AN ORDER:
+The final category of commands is the cancel command.  Access the unit
+whose orders you wish cancelled and press the C key.  This does not cost
+an order.  All of the unit's existing fire and movement orders will be
+eliminated.  The state of the unit will be set to positioned unless the
+unit was Dug-in, in which case it will stay Dug-in.  Cancellation can be
+done for all units in a formation by entering All-Units Mode and then
+cancelling.
+
+C. THE COMBAT PHASE:
+Units attempt to carry out the combat and movement orders they have been
+given during the Combat Phase.  The Combat Phase consists of 3 pulses.
+Which side goes first in a given pulse is randomly determined.  In each
+pulse, fire and assault orders are carried out before movement orders.
+The Combat Phases will continue one after the other unless you press the
+O key during a Combat Phase.  If you do so, an Orders Phase will occur
+after pulse 3 of the current Combat Phase.
+
+Normally below the map you will see which pulse it is and the number of
+turns remaining in the game.  This number includes the current turn.
+(You will also see some random numbers: this merely indicates that the
+computer is still working and has not frozen.)  When a fire or assault
+order occurs, the message display will change to give an indication of
+what is happening on the screen.  You will see the type of weapon that is
+firing, the accuracy of the fire, and the range.  If a non-vehicle is
+hit, the number of men killed will be listed; if a vehicle is hit, the
+damage to the vehicle will be listed.
+
+During the Combat Phase, the following keys are active and if pressed
+will perform the following functions:
+
+O -  Interrupts with an Orders Phase after pulse 3.
+P -  Pauses execution until this key is pressed again.
+S -  Toggles the sound on and off.
+T -  Toggles between seeing the unit symbols and removing them to make
+     the underlying terrain visible.
+Z -  Toggles between the tac map and the strat map.
+1 -  Decrease the delay by 1 increment.
+9 -  Increase the delay by 1 increment.
+
+D. MISCELLANEOUS COMMANDS AND FUNCTIONS:
+There are a few key commands from both the Map Menu and the Unit Menu
+which are not related to the giving of orders, but to movement between
+menus and to ease of play.  In both menus, pressing the 0 (Zero) key
+removes the unit symbols from the map and reveals the terrain on the map.
+It does not remove smoke.  Pressing this key is useful when determining
+sighting or when checking the kind of cover a unit is in.
+
+As mentioned in the introduction, you can view the map from two different
+levels.  These levels affect how much of the map appears on the screen at
+once.  When playing with the tactical, or tac, map the map will be 20
+squares left to right and 10 squares top to bottom.  When playing with
+the strategic, or strat map, the map will be 40 squares left to right and
+20 squares top to bottom.  There is no change to the map except for how
+much is displayed, and the fact that some unit symbols may look slightly
+different.  You can play using either map.
+
+To toggle back and forth between the different maps, press the Z key.
+This key can be pressed from either the Map Menu or the Unit Menu.  This
+key is also active during the Combat Phase.
+
+When you press the X key you will exit from the menu you are currently
+viewing.  If you are in the Unit Menu, after pressing this key the Map
+Menu will appear.  If you are in the Map Menu, after pressing this key
+you will exit your Orders Phase and either go to your opponent's Orders
+Phase or begin the Combat Phase.
+
+If you are in the Unit Menu and wish to centre the map on the cursor
+location, press the Y key.  This key performs a different function from
+the Map Menu.  To see how to get a unit in a stack, see the stacking
+rules, above.
+
+Finally, if you are in the Map Menu you can press the / key.  The score
+and the losses for both sides will be displayed and the scenario will
+end.  This is a way to end a game where one side has been eliminated or
+has exited and there is still time left for the battle.
+
+BANZAI CHARGES:
+The units belonging to the Japanese player may enter banzai mode if
+Japanese losses are high.  For each Japanese unit destroyed, 0 to 3
+banzai points are accumulated.  At the beginning of each turn, if the
+number of banzai points accumulated times a random number is greater than
+the number of surviving Japanese units, then all remaining Japanese units
+will enter banzai mode.  Once a unit has entered this mode, it will only
+leave it by being destroyed.  A non-artillery, non-transport unit in
+banzai mode will assume a Full Advance state and move towards its current
+target, if it does not have a current target, it will select the enemy
+unit with the lowest alphanumeric designation (i.e., most likely A0).  It
+will remain in Full Advance state no matter what its suppression level
+may be.  At the beginning of each combat pulse, all suppression points on
+units in banzai mode are reduced to 0.  Orders are accumulated normally.
+
+It does not matter whether a Japanese unit is computer or human
+controlled; it will still enter banzai mode.  If the unit is under human
+control, however, the Japanese player will be able to choose a new target
+for it during the Orders Phase.
+
+WEATHER:
+Each front has weather specific to itself.  You can choose the weather
+for a non-campaign scenario.  The weather for a campaign scenario is
+generated by the computer.
+
+The rules assume clear weather; if the weather is other than clear it is
+considered bad and some aspect of the game may be different.  The effects
+of the various bad weather conditions are set forth below.  Note that the
+visibility effects apply only to the campaign game:  bad weather does not
+decrease visibility in a non-campaign scenario.  Thus if you choose a
+visibility of 9 and Dust, the visibility will remain 9.
+
+RAIN: Visibility reduced to 40% of normal.  Add 2.5 to the cost of
+entering all terrain features.
+
+SNOW: Visibility reduced to 60% of normal.  Add 2.5 to the cost of
+entering terrain features except swamps.  The movement cost for swamps
+becomes half of normal.
+
+DUST: Visibility reduced to 50% of normal.  Visibility may vary if a dust
+storm is in progress.
+
+III. BUILDING A SCENARIO
+INTRODUCTION:
+You can also use TYPHOON OF STEEL as a construction set for building your
+own battles.  These scenarios can be quickly generated for fun, or
+precisely detailed for accuracy.  If you just wish to play a scenario
+other than the ones included, with only about a dozen keystrokes you can
+have the computer generate the map and the forces and within a few
+minutes you will be starting a new battle.  On the other extreme, you can
+select the terrain for all 3600 squares of the map, choose the forces for
+both sides, custom tailor each unit, and place the units on the map where
+you wish.  Anything in between is possible as well.
+
+Building your own scenario is mostly a sequential process, consisted of
+building the map, selecting the units, and deploying the units on the
+map.  You will also be setting several variables along the way.  Many of
+these variables determine the number of points your side gets.  You then
+use these points to buy your units.  Units are purchased by formation.
+
+The build process begins on the Opening Menu.  You must choose New Game,
+and whatever delay length you prefer.  Of course, you must also choose to
+build a scenario.
+
+Which side you choose the computer to play is important, for you can only
+choose the units for a non-computer player.  (You can edit the computer's
+forces, however).  You can, however, choose two-player, build a scenario,
+save it, and then recall it as a saved game.  In this way you can have
+the computer play either side while you still have control over the
+choice of units.
+
+You must also choose a handicap level on the Opening Menu.  As mentioned
+in Getting Started, the level chosen may reduce the number of points a
+side receives.  These reductions are:
+
+LEVEL 1.  Axis reduced by 40%
+LEVEL 2.  Axis reduced by 20%
+LEVEL 3.  No effect
+LEVEL 4.  Allied reduced by 20%
+LEVEL 5.  Allied reduced by 40%
+
+Once past the Opening Menu, you must decide whether to use the Limited
+Command Rules and whether to play a campaign game.  See the main rules
+and the campaign rules respectively for the effect of answering these
+questions.  (The campaign game question will only appear if the computer
+is playing at least 1, but not both, sides.)
+
+BUILDING A MAP:
+You will next enter the map building routines.  You will first be given a
+chance to have the computer build a map (press A), to recall a previously
+saved map (press R), or to custom build a map yourself (press B).
+
+If you choose to have the computer build you a map, you will be asked
+several questions to determine the approximate amount of various types of
+terrain on the map.  You will be asked for density amounts of woods,
+swamp (sand in Africa), town, and rough.  You can press any number key
+from 0 to 9 in response to these questions.  Choosing 0 means you do not
+wish any of that type of terrain on the map: a 9 means you want a lot.
+
+There are two things to note about the density questions.  One is that
+the town density also determines the road density, and rough determines
+rough and depression squares.  Secondly, choosing all 0 is not the same
+as having a blank map; the computer places hills on the map independent
+of the density questions.  If you do not want these hills, you will have
+to build your own map or delete the hills in the next step.
+
+Once you have answered the density question, the computer will build the
+map.  You will then be placed into the Map Edit Menu, and can see and
+change the generated map.  If you decide above to build your own map, you
+will be placed in the Map Edit Menu with a blank map showing.
+
+The following keys are used on the Map Edit Menu:
+
+1-8: Moves the cursor around the map.
+C:   Generates a series of building squares near the cursor position.
+F:   Generates a series of field squares near the cursor position.  This
+     is not an option in Africa.
+H:   Generates a hill near the cursor position.  Note that the hill will
+     not be built if other terrain blocks it.  The shapes of the hills
+     vary; keep pressing the key if you don't want to remove other
+     terrain.
+Q:   Quits the Map Edit Menu and moves on to unit selection.
+R:   Generates one or more roads from the cursor position to another road
+     or the edge of the map.
+S:   Africa: Generates a series of sand squares near the cursor position.
+     Non-Africa: Generates a series of swamp squares near the cursor
+     position.
+     NOTE: this option does not appear on the menu but it is available.
+T:   Changes the terrain in the square the cursor is on.  See the next
+     paragraph for how this works.
+U:   Adds rough squares to the entire map.
+V:   Takes you to the Save Game Menu so that you can save the blank map.
+     From the Save Game Menu, make sure to choose 'Map Save'.  Important:
+     do this last since you will be placed into the force selection
+     routines when you return from the Save Game Menu.
+W:   Generates a series of woods squares around the cursor position.
+Z:   Toggles to the other map.  When you first enter the Map Edit Menu
+     you will see the strategic map.
+
+To change a specific square to a specific type of terrain, hit the T key
+and then enter this number of the desired terrain.  This number can be
+found on the Terrain Effects Chart.  Note that the computer will never
+generate some of the terrain types, and that some types are unique to a
+specific front.  Most of the types which the computer will not generate
+on its own (rivers, cliffs, escarpments, etc.) are not handled well by a
+computer player during play, and so are recommended for two-player use
+only.
+
+Terrain types that have various directions (roads, rivers. etc.) have
+more than one symbol for the type.  In each type, the ordering of symbols
+is as follows:
+
+1st: Left to Right       4th: Bottom to Right
+2nd: Top to Bottom       5th: Left to Top
+3rd: Left to Bottom      6th: Top to Right
+
+Thus, since rivers start at position 42, that position is a left-right
+river and 43 is a top-bottom river.
+
+Note also that for the Europe symbols, all coast type terrain is designed
+to go on the left side of the screen, while for North Africa, the
+Pacific, and Asia the coasts are designed for the top of the screen.
+
+SELECTING VARIABLES:
+Pressing Q quits the Map Edit Menu.  Once you do so, you will be asked to
+set several variables.  You must first choose a number between 1 and 9
+for the visibility.  The number you choose times 10 will be the maximum
+sighting range in squares for the scenario you build.  You will also be
+asked for the weather conditions; choosing a poor weather condition does
+not affect Visibility when you build your own scenario, but it does
+affect movement (see the weather rules).  Thus Dust has no real effect in
+a non-campaign scenario.
+
+Next, you must choose the type of battle.  The type of battle you select
+affects the following (see the Type of Battle Chart for a summery):
+
+- the length of the game;
+- the base number of points used in choosing your forces;
+- which missions are available to each side;
+- the starting deployment line; and
+- whether units can start the scenario Dug-in.
+
+Once you have chosen the type of battle, you must choose the mission each
+side must achieve.  The mission chosen determines the victory conditions
+for the scenario.  See the Mission Chart for details.
+
+You will then make two more choices: the size of the battle and the time
+period.  The size of the battle choice is a direct multiplier of the
+force size generated by the type of battle.  For example, if you had
+selected a meeting engagement and a battle size of 2, you would have 60
+times 2 or 120 points available.
+
+The time period chosen for the battle affects the weapons available and
+the morale of the units.  The earliest and latest periods of availability
+for units is listed in the Battle Manual.  The time period may also have
+an effect on the campaign game; see those rules.  While there are 10
+numbered time periods in the game, the first 3 periods are not used:
+
+1 - 1939            6 - early 1943
+2 - 1940            7 - late 1943
+3 - 1941            8 - early 1944
+4 - early 1942      9 - late 1944
+5 - late 1942       0 - 1945
+
+You must next choose the size of the map you wish to play on.  The map
+drawn in the map edit routines is 60 squares in width both horizontally
+(left to right) and vertically (top to bottom).  The number you choose
+for map size is multiplied times 10.  This number becomes the new
+vertical width of the map.  Thus, should you choose 4, the map will be 60
+squares horizontally by 40 squares vertically.  The lower 20 squares
+would not be used.
+
+CHOOSING YOUR FORCES:
+You will next enter the force selection routines.  (Note that if the Axis
+side is computer controlled, you will first see the message 'Edit Forces
+Y/N'.  If you say Yes you can edit the computer's forces.  See below for
+how to edit.)
+
+You will first be given a chance to have the computer choose your forces
+for you.  If you say Yes to autoselect, the computer will select a force
+appropriate to the type of mission chosen.  You will be able to edit the
+force selected by the computer.
+
+If you choose not to have your forces autoselected, you will need to
+choose the nationality for the side.  The nationalities are:
+
+FRONT          TIME PERIOD         ALLIES                   AXIS
+Pacific        1942-1945           United States            Japan
+Asia           1942-1945           British Commonwealth     Japan
+Europe         1943-1945           United States            Germany
+
+The European front includes both North Africa and Europe.  The Americans
+are in North Africa until late 1943.
+
+Once you have determined a nationality, you will be asked to choose the
+force quality.  The quality chosen affects the number of purchase points
+available as follows:
+
+Green:              Multiply Points by 1.2
+Average & Random:   Multiply Points by 1.0
+Veteran:            Multiply Points by 0.8
+Elite:              Multiply Points by 0.6
+
+Thus there are three modifiers to the base number of points determined by
+the size of battle: the handicap level, the size of the battle, and the
+force quality.  Thus in a meeting engagement (60 points) of size 5, with
+a handicap of level 2 and veteran German troops, the German player would
+get 192 points.  If the opposing force were a green American force, the
+American player would have 360 points.
+
+Once the force quality is chosen, the type of force must be selected.
+The types of forces available varies by nationality, but the effect is to
+preclude you from choosing certain types of units.  You will only be able
+to choose formations appropriate to the type of force selected.  See the
+Briefing Manual for how the formations are organized.  Certain
+nationalities do not have different force types.
+
+You will then see the Formation Selection Menu.  From this menu, you will
+be able to choose from large, small, or support formations.  Defenders in
+an assault battle can also choose fortification units.
+
+When you press a number key of 1 through 4, you will see a submenu
+listing the formations available.  (To get back to the Formation
+Selection Menu without making a choice, hit the RETURN key.)  Each
+submenu lists the remaining points you have to spend, the number of units
+chosen so far, and the number of HQ's chosen so far.  (Since each
+formation has its own HQ, this is also the number of formations in play.)
+You can spend no more than the number of points you have, and can have no
+more than 19 formations and 100 units.  You will see that you have two
+units when you enter the first submenu; this is your battalion
+headquarters and its transportation unit.  Note that besides the
+battalion HQ, transportation units must be purchased as a 'pool' and
+parcelled out amongst your units as needed.
+
+Each submenu will also show a series of lines, with each line listing a
+number, a formation type, a cost for the formation, and the number of
+units it contains.  To choose a formation, just enter the number next to
+the formation and press RETURN.  When you do so, the points remaining
+will go down, and the formations and units go up.
+
+NOTE: The current points left do not usually go down by the cost listed
+on the page.  The costs listed there are for the most expensive formation
+of that type.  There is a good chance in choosing many types that the
+most expensive formation will not be selected.  (It may not even be
+available for that year.)  Thus the number of points remaining will
+likely be less than the point values shown next to a particular
+formation.
+
+You should also be aware that if your points left are insufficient to
+purchase the whole formation, you will receive as much of the formation
+as you can afford.
+
+When you wish to go to another submenu, press the RETURN key to get back
+to the Formation Selection Menu.  When you use up all your points you
+will automatically leave the Formation Selection Menu; if you are
+finished but still have points left, hit the 5 key to exit.
+
+A NOTE ON FORTIFICATION UNITS:
+Fortification units do not appear in forces generated by the computer and
+so appear when purchased by defenders in an assault scenario.  There are
+three types of fortifications: dragon's teeth, pillboxes, and minefields.
+Dragon's teeth are a terrain feature and function as a movement obstacle;
+see the Terrain Effects Chart for movement cost through them.
+
+A pillbox functions as an immobile, well-armoured unit.  Its facing
+deployment and is only 90 degrees.  It comes with its own crew and
+weapons; if you wish to change the weapons in it you must edit the
+pillbox.  There are two kinds of pillboxes available to the Japanese.  A
+regular Japanese pillbox is the same as that which can be purchased by
+all nationalities as a fortification unit in an assault battle.  The
+Japanese player can also purchase a light pillbox this way, or can buy a
+section of them as a small fortification.  The light pillbox has lighter
+weaponry than a regular pillbox; see the Briefing Manual for details.
+
+If a unit (friendly or enemy) moves over a mine square, that square may
+attack the unit.  If it is a soft target, it is treated like HE fire.  If
+it is a hard target, the attack may kill the tank, cause a track hit, or
+have no effect.  If it has no effect, there is a chance that the unit has
+discovered a path through the minefield.  In this case, the minefield
+will have no further effect in the game; otherwise the minefield will
+continue to attack.  A unit is less likely to be hit and more likely to
+remove a mine if it is in Cautious Advance state.
+
+EDITING:
+You will now be able to edit your units.  When you go through the edit
+routines, you can go through and view your units.  Enter a formation
+number to see the units in each formation. (To exit a screen press the X
+key.)  To change some values of a unit, select the individual unit by
+using the unit's ID number.  You will then be able to make changes to the
+unit.
+
+The following can be changed:
+
+ - The type of unit.  A truck can be changed to a tank or a rifle squad;
+ - The weapon in each of the unit's 4 weapon positions and the amount of
+   ammo for each;
+ - The units skill level;
+ - Morale of an HQ unit; and
+ - The command rating for a headquarters unit.
+
+The old values are listed at the top of the screen or to the left of the
+question.  The weapon and unit types are listed in the Briefing Manual.
+
+Hitting the RETURN key allows you to move on without making a change.
+The numbers to be entered for the unit types and weapon types are found
+on the Weapons Chart.  The maximum skill that can be entered is 10; the
+maximum command rating is 40; the maximum morale is 9.
+
+When you are done editing a particular formation, press the X key.  When
+you are done with editing, press the X key to move on to deployment.
+
+DEPLOYING YOUR UNITS:
+Both sides will have a chance to deploy their troops, the Axis first
+followed by the Allies.  When you first begin a new deployment, your unit
+will be on the upper rows on your side of the map.  If there are a lot of
+units, they may be deployed in more than one column.
+
+You will not be able to deploy any units on the very east or west edges
+of the map.  Doing so would cause them to exit in the first pulse and so
+is prohibited.  In addition, check the Type of Battle Chart for suggested
+start lines by mission.  (These lines are mandatory in the campaign
+game.)
+
+You will also be able to redeploy units after recalling a saved game,
+even if that game was saved in the middle of a battle.  Such a
+modification follows the normal deployment routines listed here.
+
+There are two main menus in deployment, and they are very similar to the
+Map Menu and Unit Menu of the Orders Phase.  In fact, all the keys
+function the same except for the following:
+
+MAP MENU:
+
+9:   -    Shows the mission of the force.
+0:   -    Tells the computer to deploy your troops for you.  If you
+          choose to autodeploy, you can still change the location of your
+          units.
+*:   -    In assault battles, places all units on your side into a Dug-in
+          state.
+A to S: - Does not automatically move the cursor to the unit chosen.
+          Press the L key to move the cursor over the unit.
+W:   -    Besides showing you the objective, allows you to change it.
+          You may do so by moving the cursor to the desired location and
+          pressing the O key.
+/:   -    If you have mines or dragon's teeth, you can deploy them by
+          pressing the / followed by one other key:
+          A: Add minefield to square.
+          S: Subtract minefield.
+          P: Place dragon's teeth in square.
+          R: Remove dragon's teeth (you must also specify the type of
+          terrain to be put in its place.)
+          X: Exits the subroutine.  Mine icons will disappear.
+
+UNIT MENU:
+
+M:   -    Moves unit to cursor position.  This is how you self-deploy
+          your units.  Remember that the type of battle places
+          restrictions on where you can deploy your troops.  See the
+          column called Start Line
+          on the Type of Battle Chart.  Note that for non-Campaign
+          scenarios the lines given are suggestions only, and that you
+          can deploy your units anywhere on the map.  This gives you
+          flexibility in designing your own scenarios.
+S:   -    Only putting units in (and out if need be) of the Dug-in state
+          is allowed.  Remember that only units in an assault battle can
+          be Dug-in.
+
+When both sides have finished deploying, you will be able to save the
+deployment scenario.  Upon exiting the Save Game Menu you will be placed
+into the first Orders Phase of a new game.
+
+IV. PLAYING A CAMPAIGN GAME
+INTRODUCTION:
+Besides playing individual scenarios of PANZER STRIKE!, you can also play
+a campaign game.  In a campaign game, you will initially purchase a
+force.  You will then use this force throughout the war.  Between each
+battle you will have the opportunity to replace units lost in combat or
+to upgrade your equipment as better weapons become available.  The
+battles you will fight will be generated by the computer, and you will
+have an overall score for the campaign as well as for each battle.
+
+STARTING A CAMPAIGN GAME:
+On the opening menu, choose to Build a Scenario and choose either Axis
+Computer (if you wish to play the Allies) or Allied Computer (if you wish
+to play the Axis).  There is no campaign game option for either two
+humans or two computer players or for the historical scenarios.  In
+addition, only certain fronts are available for each nationality, as
+follows: Germany (Europe) and Japan (Asia and Pacific) for the Axis and
+the United States (Europe and Pacific) or British Commonwealth (Asia) for
+the Allies.
+
+Once past the opening menu, decide whether to use the limited command
+rules.  The next question will allow you to start a campaign game.
+Choose a name for your force and the year you wish to start with.  The
+year chosen determines the nationality of your opponent and the type of
+equipment you get at the beginning of the game.
+
+You will then choose your force.  This process is very similar to
+choosing your force for a scenario, but you do not choose a nationality
+nor can you choose support troops or fortifications.  You begin a
+campaign game by choosing a core force which costs no more than 250
+points in Europe or 80 points in Asia and the Pacific.  The
+organizational structure of this core force will remain with your troops
+for the duration of the campaign game; the weapons themselves can be
+changed during battles (see below).  Thus if you choose a company which
+consists of 3 platoons at the beginning of the campaign, you will be able
+to upgrade all of the units to different types but you will always have a
+force consisting of 3 platoons.
+
+The size of the force you will encounter is relative to your strength.
+Thus you should start an early war campaign game with a force worth
+between 75 and 125 points.  (Of course, in the Pacific and Asia you will
+only have 80 points to use in any case.)  Do not overbuild.  Not only
+does this allow you to ease into the campaign game, but it allows you to
+have room for your force to grow as better weapons become available.
+(You can also give yourself room to grow by not replacing all units in a
+force when they are destroyed, although the computer will replace some of
+them.)
+
+PLAYING A CAMPAIGN SCENARIO:
+The campaign game consists of several scenarios generated by the
+computer.  At the beginning of each you will see a page listing the type
+of battle, your mission, the date, the weather, the visibility, and the
+location.  The location is for historical interest and the affects the
+terrain on the map.  The other items have the same effects as discussed
+in the Playing a Game section.  Note that in a meeting engagement there
+is a chance that your force may encounter a force twice its size.  The
+mission for each scenario is assigned randomly, but if you won the last
+decisively the chances are greater that you will be the attacker.
+
+Before starting a battle, you will be able to choose support units
+appropriate to the type of battle being fought.  You will get a certain
+percentage of your force size to spend for these support troops.  The
+number of points you get for this purpose in Europe is 1/6 of your force
+size (1/3 if an assault battle) plus 10 points.  Double these values
+before adding the 10 points for the Pacific and Asia.  These forces are
+used only for one, and then disappear; they are, in effect, rented for
+battle.  The type of units available will vary by the type of battle.
+
+Play of a campaign scenario is the same as with any other scenario with
+very few exceptions.  You cannot change the objective area.  If you wish
+to end a scenario before the standard time period is up, hit the / key.
+This will give you your score and then end the scenario.  Remember also
+that if you wish to finish a scenario quickly you can use the * key from
+the map menu to put all your troops under computer control.
+
+VICTORY:
+Victory in the scenarios is calculated normally.  There are also campaign
+points, which are the scenario points plus a number of points for the
+size of your victory.  You will get 500 points if you earned a decisive
+victory, and 100 points for a marginal victory.  These points are added
+to the points earned in the scenario itself.  (Remember that whoever
+holds the field recovers half of its Abandoned units.)  Only your points
+are accumulated.
+
+REFITTING YOUR UNITS:
+At the end of each battle, you will see a list of units lost by category
+for that battle.  You will be given a chance to replace and upgrade your
+forces at that time by saying Yes to the question which asks if you wish
+to view your force or change equipment.  You will be able to
+upgrade/replace your units to a value of 300 in Europe and 100 in the
+Pacific and Asia.
+
+The screen will look very much like the edit units screen from the
+scenarios, but the number of men, the skill rating, and the morale listed
+at the top of the screen as well as the current month and delay.  In
+addition, the only value that you can change is the type of the unit.
+See the Briefing Manual for the unit numbers.
+
+The computer will automatically replace destroyed units up to 10% of the
+force value, and will automatically replace all HQ units even above the
+10%.  (This is done in alphanumeric order.)  Any remaining points may be
+spent for upgrades.  The computer will also double the number of men in
+all infantry units with less than 5 men left, but the skill rating of the
+unit will be reduced by 1.  This is done at no cost.
+
+The number of months that will elapse before the next battle will occur
+is equal to the ten times the cost of replacing or upgrading your units
+divided by the force value.  (This includes the amounts that the computer
+used to replace units.)  Drop any resulting fractions.  The months of
+delay are also listed at the top of the screen.  Whenever a unit changes
+its type or replaces its equipment it will lose skill.
+
+The morale of your units will also change depending on the size of your
+last victory or loss.  If you won a decisive victory, each of your units
+will have a 50% chance of gaining 1 morale point and a 50% chance of
+gaining 2 points.  The same chances apply if your opponent won a
+decisive, but your units will lose 1 or 2 points.  If you won a marginal
+victory, all of your units will gain 1 morale point; if your opponent won
+a marginal victory, all your units will lose 1 point.  Morale points do
+not change if the battle was a draw.
+
+CHANGING THEATRE DISKS:
+After seeing the score for a scenario, you will be given the option to
+switch your force to another theatre.  To switch, put in a different
+theatre disk at the prompt.  Because the size of your force in Europe can
+be much greater than that allowed for the Pacific, you will get an error
+message should you attempt to transfer an American force from Europe to
+the Pacific if the value of that force is more than 100.  If you go to
+another theatre before it is active, you will not fight a battle until
+the first month that it is active.
+
+V. FORMULAS
+INTRODUCTION:
+As mentioned in the introduction to the rules, this section sets forth
+some of the mathematical formulas that the computer uses in playing the
+game.  See the main text of the rules for a more thorough explanation of
+how each formula works and for restrictions which may not be shown in
+this section.
+
+NOTATION USED:
+Whenever the notation Rnd(x) is given, it means that a random number
+between 0 and x should be used.  Multiplication is denoted by an asterisk
+(*), and division by a slash (/).  The abbreviation CR stands for the
+command rating of a headquarters unit.
+
+COMMAND CONTROL RADIUS:
+If unit does not have a radio: Unit must be within 5 squares of HQ to be
+in command control.
+If unit does have a radio: Unit is in command control if Rnd(1) * the CR
+of the HQ > = 2.  Thus if a unit's HQ has a command rating of 10, there
+will be a 20% chance that the unit will be out of command control.  If
+the CR were 8, the chance would be 25%.
+
+RALLY RADIUS AND RALLY CHECK:
+A unit will be eligible to rally if it is within the following number of
+squares of the superior HQ attempting the rally:
+
+Radius = (CR/5) + 1 + Rnd(1)
+
+A unit will rally if within rally radius, if its suppression points>=its
+morale and if its morale > = Rnd(10).
+
+SILHOUETTE MODIFIERS:
+If the range to the target unit is > = 6 squares,
+     Modifier = size of target / 4
+If the range to the target unit is < 6 squares,
+     Modifier = (size of target + 6 - range) / (4 + 6 - range).
+
+SKILL CHECK:
+Check successful if skill rating > = Rnd(10).
+
+FIRST SHOT CHECK:
+Check successful if first shot rating > = 50 / Rnd(10).
+
+SUMMARY OF INDIRECT BOMBARDMENT FIRE, ACCURACY AND DELAYS:
+
+TYPE OF FIRE                            MAX SCATTER
+First round, no spotter, or rocket:          9
+Spotted but spotter fails accuracy check:    4
+Spotted and spotter makes accuracy check:    2
+
+There is no first round accuracy for self spotters or for direct fire
+bombardment.
+
+MODIFIERS:
+Firing unit has LOS to target:          scatter * 0.5
+Range from firing unit to target<30:    scatter * 0.5
+Unit firing HE from off-map:            scatter * 0.5
+
+ADMINISTRATIVE DELAYS:
+Self spotter:                           1 pulse delay
+Spotter is firing unit's formation HQ:  3 pulse delay
+Spotter is battalion HQ:                6 pulse delay
+Spotter is another HQ:                  9 pulse delay
+
+POINT FIRE ACCURACY AND MODIFIERS:
+Abbreviations used:
+A = Accuracy rating of gun is given on Weapons Page.
+MR = Maximum range of gun is given on Weapons Page.
+R = Range to target.
+RA = Ranged accuracy of gun.
+
+If R < = A, then RA = 50 + 48 * (A - R) / A.
+If R > A, then RA = 50 - 48 * (R - A) / (MR - A).
+
+The following modifiers are given in terms of positive and negative
+shifts unless otherwise noted.  When modifying the ranged accuracy of a
+gun, each positive shift = RA * 1.42, and each negative shift, and each
+negative shift
+ = RA * 0.71.  Thus two negative shifts = RA * 0.71, which about halves
+RA.
+
+MODIFIERS FOR HARD TARGETS:
+Firing unit fired last pulse at same target:      +1
+Firing unit in Cautious Advance state:            -3
+Firing unit in Full Advance state:                -5
+Firing unit fails a skill check:                  -2
+Firing unit Pinned or Buttoned:                   -2
+Firing unit has at least one suppression unit:    -2
+Target unit moving in any terrain:                -1
+Target unit in cover terrain:                     -1
+Target unit non-adjacent and Retreating:          -6
+Target unit silhouette size                  RA * silhouette modifier
+
+MODIFIERS FOR SOFT TARGETS:
+Firing unit moving in any state:                  -2
+Firing unit Pinned or Buttoned:                   -2
+Firing unit fails a skill check:                  -2
+Target unit advancing:                            +2
+Target unit is artillery:                         +2
+Target unit is Positioned in soft cover:          -2
+Target unit is Positioned in hard cover:          -4
+Target unit is Dug-in:                            -2
+Target unit is Dug-in in hard cover:              -3
+Target fired on by small arms and is in
+hard cover/Dug-in:                                -1
+Target unit Retreating and not in firer's square: -4
+Target unit Routing and not in firer's square:    -6
+Target unit is Pinned:                            -2
+
+If RA > 99 then RA = 99.
+
+(Note that the modifiers for soft targets are applied differently than
+those for hard targets.  Please see below or the main rules for details.
+in addition, no defensive benefits apply to units attacked by
+flamethrowers or demo charges.)
+
+ARMOUR PENETRATION:
+P = Penetration rating of gun.
+R = Range to target.
+MR = Maximum range of weapon.
+SS = Size of shell fired.
+PD = Penetration depth.
+
+If HE shell was fired,
+PD = 2 * SS * Rnd(1).
+
+If AP shell was fired,
+PD = SS + Rnd(1) * (P/2 + P/2) * (MR - R) / MR)
+
+VEHICLE HIT LOCATIONS:
+Point Fire: To determine the location that a vehicle is hit, a random
+number between 1 and 100 is generated.  If the firing unit is at least 2
+levels higher than the target, add 10 to the number.  If the target is
+hull down, all numbers less than 51 have no effect.  The following list
+determines where the hit occurs:
+
+RANGE OF NUMBER                    LOCATION
+  1 - 15                            Track
+ 16 - 70                             Hull
+ 71 - 100               Turret/Upper Hull
+101 - 110                             Top
+
+Indirect Bombardment Fire: There are 6 possible hit locations: track,
+front hull, side hull, front turret/upper hull, side turret/upper hull,
+and top.  Each area is as likely as the next to be hit; i.e., a random
+integer between 1 and 6 is generated to determine the location.
+
+PENETRATION:
+If the depth of penetration > = the thickness of the armour at the
+location hit, then the shell penetrates.
+
+EFFECTS OF PENETRATION:
+The target vehicle is automatically destroyed if the shell size of the
+firing weapon * Rnd(1) > target size * 2 * Rnd(1).  If the unit survives
+this, it is determined which aspect (front hull, side hull, front
+turret/upper hull, side turret/upper hull, top or track) of the vehicle
+has been penetrated.
+
+If it is the track that is penetrated, the unit's maximum speed goes to
+0.
+
+If it is the front hull, the hull crew compartment is hit.
+
+If it is the side hull, there is a 50% chance that the max speed will go
+to 0, and a 50% chance that the hull crew compartment is hit.
+
+If it is the front or side turret/upper hull, the turret/upper hull crew
+compartment is hit.
+
+If it is the top, there is a 50% chance that the max speed will go to 0,
+and a 50% chance that the turret/upper hull crew compartment is hit.
+
+When a crew compartment is hit, there is a 75% chance that each gun in
+that section is destroyed.  There is also a 90% chance that a crewmember
+is killed; if that 90% is made, check for the next crewmember.  Continue
+to do so until a crewmember is not killed, or the whole crew is killed,
+which destroys the vehicle.
+
+On any penetration, a hard target is destroyed if the shell size of the
+firing unit * rnd(1) > target size * 2 * Rnd(1).
+
+DAMAGE BY HE FIRE:
+CHANCE OF HITTING UNIT:
+In determining damage by HE fire, first determine the chance that the
+unit or units in the square are hit.  This chance depends on the type of
+target the unit is:
+
+If the primary target: chance = 100%.
+If a non-primary soft target: chance = 10 * IA of the gun.
+If a non-primary, open topped hard target: chance = 2 * shell size.
+If a non-primary, non-open topped hard target: chance = 1 * shell size.
+
+If a hard target is hit, go through the armour penetration routines
+above.  For a soft target, modify the chances by the soft target
+modifiers given above.  this modified number is used below as the ranged
+accuracy (RA) in determining losses.
+
+DAMAGE TO SOFT TARGETS:
+First determine the number of men killed.  use the following formula.  RA
+stands for the modified ranged accuracy of a gun using point fire
+(described above) or the chance of hitting the square if not point fire.
+IA stands for the weapon's infantry attack value.  (Note that the
+infantry attack value of a squad is the IA of the weapon multiplied by
+the number of men in the squad.)
+
+Percentage killed = IA * Rnd(1) * RA / 200 + Rnd(1).
+
+For each 100% killed, one man is lost.  If there is a remainder, that is
+the chance that another man is lost.  Thus if the result were 120%, one
+man would be killed and there would be 20% chance of another being
+killed.  For weapons with a shell size greater than 1 (i.e., non-small
+arms), there is also a chance that an additional kill will be inflicted
+by fire:
+
+If RA + 100 > 200 * Rnd(1) then add an additional kill.
+
+Once the number of men killed is determined, and if the unit is a gun
+unit, the unit may be completely destroyed.  This occurs if the Rnd(1) *
+40 < the shell size of the firing unit * the number of men killed.
+
+INFANTRY ASSAULTS AGAINST HARD TARGETS:
+KR = Kill Rating.
+KR is the number of men in a squad or the accuracy of a special assault
+weapon.
+
+MODIFIERS:
+Target unit is soft or open topped                +2
+Target is stationary                              +2
+Target is in Full Advance state                   -2
+Assaulting unit fails skill check                 -2
+
+If KR * Rnd(1) > 6 then target destroyed.
+If KR * Rnd(1) > 3 then max speed of target goes to 0.
+
+CHARTS AND TABLES
+FORCE MODIFIERS
+
+QUALITY             HANDICAP LEVEL
+MODIFIERS           MODIFIERS:
+Green:         1.2  Level 1: Axis reduced by 40%
+Average:       1.0  Level 2: Axis reduced by 20%
+Veteran:       0.8  Level 3: No effect
+Elite:         0.6  Level 4: Allied reduced by 20%
+                    Level 5: Allied reduced by 40%
+
+These numbers are used as multipliers in figuring the number of strength
+points available for a scenario.  The Handicap Level Modifiers do not
+apply in a campaign scenario.
+
+TRANSPORT COST TABLE
+
+UNIT                             COST
+Infantry                            1 *
+Medium MG                           2
+Heavy MG                            4
+Light Mortar                        3
+Heavy Mortar                        5
+AT Gun                             10
+Light AA (50mm & Less)             10
+Heavy AA (51mm & More)             15
+Light How (95mm & Less)            10
+Heavy How (96mm & More)            15
+Light IG (95mm & Less)             10
+Heavy IG (96mm & More)             15
+
+* All costs are per unit except for infantry, which is per man.
+
+Transport capacities:
+Primemovers, Heavy Halftracks, and Heavy Trucks: 15 points.
+All others: 10 points.  Artillery can only be carried by Primemovers,
+Halftracks, and Trucks.
+
+VICTORY LEVELS
+MARGINAL: If one side has at least twice the number of points as the
+other.
+DECISIVE: If one side has at least four times the number of points as the
+other.
+
+MISSION CHART
+MISSION        UNIT MULT.          EXIT PTS.      OBJ. CLEAR
+Clear Obj.       1/1                 1/1           100/0
+Bypass           1/2                10/1             0/0
+Engage           2/2                 1/1             0/0
+Delay            1/2                 4/1             0/0
+Hold             1/1                 1/1             0/100
+
+Unit multiple is the factor which you should multiply the unit cost by to
+determine the victory points awarded.  Exit points are the number of
+points (not a multiple) awarded per unit for exiting the unit off the
+map.
+
+Unit multiples are listed as the multiple for defending units
+killed/multiple for attacking units killed.
+Exit points are listed as points for attacking units exited/points for
+defending units exited.
+
+Obj. Clear is the number of points (not a multiple) that the attacking
+side/defending side gets for having the objective area free of enemy
+units (Clear Objective) or of defending units (Hold Objective).
+
+All unit multipliers are cumulative; as an example, if the attacker has a
+bypass mission and the defender a delay, the attacker will get 40 points
+for exiting a unit.
+
+VISIBILITY RANGE MODIFIERS
+These number are the number of times that the visibility range in squares
+is multiplied by 0.71 (for negative shifts) or 1.42 (for positive
+shifts).
+
+SPOTTER:                      SHIFTS:
+Buttoned vehicle                -2
+Fails skill check               -2
+Higher than target              +1
+Pulses 1 and 2                  -2
+
+TARGET:
+Stationary                      -2
+Hull down, Dug-in or in cover   -2
+Silhouette                      Multiply range size / 4
+
+COMMANDS SUMMARY
+Please consult the rules if more detail is desired.
+
+MAP MENU:
+(1-8)     Move cursor
+(9)       Display current score
+(0)       View terrain only.  All units are cleared from the screen so
+          that the underlying terrain can be seen.
+(A-S)     Select unit.  Press the formation letter followed by the unit
+          number.  That unit will become the current unit and you will be
+          placed in the Unit Menu.
+(U)       Get unit at cursor position.  The unit at the cursor location
+          will become the current unit and you will be placed in the Unit
+          Menu.
+(V)       View.  All squares that can be seen from the cursor location
+          will be inversed.
+(W)       View mission objective.  All squares in the mission objective
+          are will be inversed.
+(X)       Exit Orders Phase.
+(Y)       Inspect stack.  The type of the next unit down in the stack
+          will appear at the bottom of the Map Menu.  It can be accessed
+          with the U key.
+(Z)       Toggle map.  The map changes to whichever (strategic or
+          tactical) is not in use.
+(/)       The score is displayed and the game will end.
+(*)       Places all units on a side under computer control.  In
+          Deployment, this key Digs-in all units.
+
+UNIT MENU:
+(1-8)     Move cursor
+(0)       View terrain only.  All units are cleared from the screen so
+          that the underlying terrain can be seen.
+(A)       Go into All-Units mode.  If the formation HQ is not the current
+          unit, it will become the current unit.  You will be able to
+          issue certain orders to the whole formation.
+(B)**     Bombard.  The cursor location is the target square; the current
+          unit is the spotter.  Those units available to bombard and the
+          administrative delay before firing starts will be listed.
+(C)@      Cancel orders.  All movement and bombardment orders assigned to
+          the current unit are cancelled.
+(D)*@     Debark passenger(s).  If the current unit is a vehicle then it
+          will unload all of its passengers; if the current unit is a
+          passenger, then only it will unload.
+(E)*      Embark passenger.  When given to a vehicle, you will be asked
+          for the formation and number of unit to be loaded onto the
+          vehicle.
+(F)*@     Change unit's facing.  Use the directions of the movement
+          compass.
+(G)**     Rally.  When an HQ unit is ordered to rally, it will attempt to
+          halve the suppression value of all subordinate units within its
+          rally radius.  It costs one order to press the rally key, and
+          one order for each unit rallied.
+(H)       Find units HQ.  The next superior headquarters becomes the
+          current one.
+(I)***    Inspect enemy units.  All enemy units that can be seen by the
+          current unit will be shown sequentially.  The current unit can
+          choose one of them as a target by pressing the T key when the
+          desired enemy unit is accessed.  It cost one order to designate
+          a target.
+(J)@      Toggle computer control.  Places a formation under computer
+          control or removes it from that control if already under
+          computer control.
+(K)*      Infantry smoke.  An infantry unit can be ordered to lay smoke
+          in an adjacent square.
+(L)       Locate.  Moves the cursor over the current unit.
+(M)*@     Move unit.  The unit will be ordered to move to the cursor
+          location.  An advance state will have to be chosen for it.
+(N)       Next unit.  The next unit in alphanumeric order will become the
+          current unit.
+(O)       Display units movement objective(s).  Move the cursor to the
+          location of the movement objectives assigned to the unit.  Its
+          state will also be shown.
+(P)       List unit passengers.  All units loaded aboard the current unit
+          are listed.
+(R)*@     Range.  The maximum firing range at which the currant unit will
+          automatically select targets can be changed.
+(S)*@     State.  The state of the current unit can be changed.
+(T)       Show units target.
+(U)*      Infantry assault.  The current infantry unit will assault the
+          enemy at the cursor location.
+(V)       View.  All squares that the current unit can see will be
+          inversed.
+(W)       Weapons Page.  The current units Weapons Page will be
+          displayed.
+(X)       Exit Unit Menu.  Return to the Map Menu.
+(Y)       Centre screen on unit.
+(Z)       Toggles maps.  The map changes to whichever (strategic or
+          tactical) is not in use.
+
+NOTES:
+@ = Can be done in All-Units mode.
+* = Costs an order.
+** = May cost more than one order.
+*** = Costs an order if an enemy unit is targeted during an inspection.
+
+KEYS ACTIVE DURING COMBAT PHASE
+(1)  Decrease message delay 1 increment.
+(9)  Increase message delay 1 increment.
+(O)  Orders.  Go to an Orders Phase at the end of the current Combat
+Phase.
+(P)  Toggle pause.  When first hit, will stop the action; when hit again
+will restart it.
+(S)  Toggle sound.  Turns sound on and off.
+(T)  View terrain only.  All units are cleared from the screen so that
+the underlying terrain can be seen.
+(Z)  Toggles maps.  The map changes to whichever (strategic or tactical)
+is not in use.
+
+                             TYPE OF BATTLE CHART
+                             Format = Axis:Allied
+               BATTLE    PURCHASE  MISSION   START     START
+     TYPE       DUR.      POINTS   CHOICES    LINE     DUG-IN
+Axis Assault     60       100:40   Att:Def   14:30     Yes:Yes
+Axis Pursuit     30        80:40   Att:Def   14:45      No:No
+Meeting Engmt    30        60:60   Att:Att   14:45      No:No
+Allied Pursuit   30        40:80   Def:Att   14:45      No:No
+Allied Assault   60        40:100  Def:Att   30:45     Yes:Yes
+
+Dur. is the duration of scenario in game turns (minutes).
+Purchase Points is the base number of points available per side.  To get
+the final number you must multiply the base number by the handicap level
+modifier, the size of the battle, and force qualify modifier.  The number
+of Purchase Points listed are the amount available in Europe.  Halve
+these numbers for the Pacific and Asia.
+Mission Choices shows which list the side can choose from for its
+mission.  Att = Attack; Def = Defender.
+Start line is the highest (Axis) or lowest (Allied) x coordinates that a
+square should have for the unit to be deployed in it.  For scenarios,
+these are only suggested numbers; you can deploy anywhere on the map.
+For campaign battles, however, these lines are mandatory, and you will
+not be able to set up past these lines.  Note that for Western Europe the
+start lines should be read as Allied:Axis since the Axis forces come in
+from the east.
+Start dug-in indicates whether the units of that side can start the
+scenario in a dug-in state.
+
+                           SUPPRESSION POINT TABLE
+
+CONDITION OF CHECKING UNIT                        SUPPRESSION PTS. GAINED
+                                                  OR LOST PER TURN
+IMMEDIATELY AFTER PULSE 3 OF THE COMBAT PHASE:
+Unit in soft cover* and sighted by enemy                    -1
+Unit in soft cover* and not sighted by enemy                -3
+Unit in hard cover*/Dug-in and sighted                      -2
+Unit in hard cover*/Dug-in and not sighted                  -4
+Unit out of command control                                 +1
+Unit within 6 squares of friendly routed unit(s)            +1 per unit
+Unit within 6 squares of friendly aband/dest. units         +1 per unit
+Unit is immobilized vehicle                                 +1
+No friendly unit(s) within 6 squares of unit                +1
+Unit has required number of suppression pts.
+and is within 6 squares of friendly unit(s)
+and in good state                                           -1 per unit
+Automatic loss                                              -1
+
+DURING FIRE PORTION OF COMBAT PHASE:
+Unit has 0 suppression and is target of fire                +1
+Unit within 3 of friendly unit(s) when destroyed            +4 per unit
+Unit within 6 of friendly unit(s) when destroyed            +2 per unit
+Soft target unit's square hit by sighted enemy              +1 per unit
+Soft target square hit by non-sighted enemy                 +3 per unit
+Hard target unit hit by shell of sighted enemy              +1 per unit
+Hard target hit by shell of non-sighted enemy               +3 per unit
+Unit destroys enemy unit(s)                                 -1 per unit
+A number of men in the unit are killed                      +3 per man
+
+DURING EACH PULSE OF THE COMBAT PHASE:
+Unit cannot see any enemy units                             -1
+
+DURING THE ORDERS PHASE:
+Unit successfully rallies                                   Halve supp.
+pts.
+
+* Hard cover is stone buildings; soft cover is any other cover square.
+** Routed infantry unit do not have an effect on tank units.
+*** A unit is in good state if the current number of its suppression
+points is less than its morale.  For a unit to benefit from friendly
+units in a good state, a random number is determined (5 + 10 * Rnd(1));
+if the checking unit has more than that number of suppression points, it
+will benefit.  An infantry type unit goes through an additional step.
+Subtract the number of men in the unit from 14.  If the unit's
+suppression level is greater than or equal to the result, the unit will
+benefit.
+
+SUPPRESSION EFFECTS TABLE
+Supp. pts. > = 2 & visible to enemy:         Unit may only move in
+Cautious
+                                             Advance state
+Supp. pts. > = morale:                       Non-vehicle is Pinned;
+vehicle
+                                             unit is Buttoned.  Not
+applicable
+                                             if unit is Dug-in.
+Supp. pts. > = 2 times morale:               Non-Japanese unit Retreats.
+                                             Japanese unit Heavily
+Suppressed.
+Supp. pts. > = 3 times morale:               Non-Japanese unit Routs.
+                                             Japanese unit Heavily
+Suppressed.
+
+Note that a unit's morale may drop if its formation HQ is killed.  A
+truck is considered to have a morale of two regardless of what appears on
+its Weapons Page.
+
+End.
