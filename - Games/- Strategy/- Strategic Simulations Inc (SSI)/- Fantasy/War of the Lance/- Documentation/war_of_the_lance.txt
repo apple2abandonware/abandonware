@@ -1,0 +1,1215 @@
+                              War of the Lance
+                              ================
+
+
+                              Table of Contents
+                              -----------------
+                   INTRODUCTION...........................1
+                   OBJECTIVE..............................1
+                   GETTING STARTED........................1
+                   APPLE INSTRUCTIONS.....................2
+                   COMMODORE 64/128 INSTRUCTIONS..........2
+                   SETTING UP THE GAME....................2
+                   GAME PLAY..............................3
+                   MESSAGE................................3
+                   QUEST PHASE............................3
+                   CHAMPION STATUS........................5
+                   REINFORCEMENTS/REPLACEMENTS PHASE......5
+                   SUBVERSION PHASE.......................6
+                   DIPLOMATIC PHASE.......................6
+                   COUNTRY STATUS.........................8
+                   VICTORY PHASE..........................8
+                   INITIATIVE PHASE.......................8
+                   RECOVER PHASE..........................8
+                   MOVEMENT PHASE.........................8
+                   COMBAT PHASE..........................14
+                   APPENDIX..............................18
+
+
+INTRODUCTION
+============
+
+Welcome to SSI's ADVANCED DUNGEONS AND DRAGONS computer product, War of the
+Lance, a DRAGONLANCE strategic fantasy wargame.  The War of the Lance has its
+origins in the great cataclysm, where the empires of old were shattered, and
+dragons were banished for more than a millennium.  During these years the
+nations have grown lax.  Those who were once allies have fallen to petty
+bickering and politicking amongst themselves.  But now, Takhisis, the Queen of
+Darkness, has brought evil dragons back from exile, and entered into an
+unnatural union with the vile Highlord alliance of Neraka.  Highlord
+dragonarmies with their evil Draconian soldiers cast covetous eyes at all of
+Ansalon.  With each new dawn their power and greed cast shadows further across
+the lands of man, elf, dwarf, and kender.  Diplomats travel to forge treaties
+and add to the might of Highlord legions.  Those not swayed by reason are
+persuaded by force.  One day soon dragonarmies will pour forth form their
+strongholds in the Khalkis Mountains to sweep the land clean of all who dare
+oppose...
+
+The sound of war drums and marching soldiers echoes across the land.  Highlord
+has the initiative and many flock to their banner in hopes of quick victory
+and and riches.  The forces of Whitestone are slow to see the threat and
+scramble to overcome the first, crushing onslaught of the evil armies.  Can
+they pull the isolated lands together in a Whitestone alliance, before the
+dragonarmies swoop down from Neraka?  Will the dragonarmies of Highlord defeat
+the mustering Whitestone forces before they form a strong alliance and uncover
+the secrets of ancient magic that will let them counter the evil dragons?
+
+The guantlet is dropped.  Are you, my lord commander, prepared for the
+challenge?
+
+
+OBJECTIVE
+=========
+
+War of the Lance is a one or two player game, allowing you to choose sides
+against another human player or to command Whitestone (the forces of good)
+against the computer.  The full campaign lasts for 6 game years (30 turns).
+Players may engage in battles to conquer enemy countries or attempt to gain
+alliances by sending diplomats.  While players control their armies, brave
+champions quest for magic that will make your armies more powerful.  You may
+send wounded champions to seek aid, attempt daring prison breaks for captured
+champions or send troops to hinder enemy quests.
+
+War of the Lance may be won in two different ways.  A player may win strictly
+on points.  Points are gained by making alliances, conquering nations and
+destroying enemy troops.  The other way to win is for one side to destroy the
+central nation(s) of the other.  The Whitestone player will automatically win
+if he can capture the capital of Neraka and the tower to the northwest.
+Likewise the Highlord player will win an immediate victory if the can conquer
+the four Knight countries (Solanthus, Caergoth, Gunthar, and Northern Ergoth)
+plus the Clerist Tower near Planthus.
+
+
+GETTING STARTED
+===============
+
+You should make a copy of your War of the Lance game disk for your own use.
+
+To make backups consult your computer/disk drive manual or use any commercial
+bit copier.  To load the program on your computer, use the following
+instructions or consult the Data Card that came with your game.,
+
+War of the Lance has no copy protection on the disk, but to make sure you have
+a legitimate copy of the game there is a verification questions that requires
+you to give information from this manual.
+
+
+APPLE INSTRUCTIONS:
+===================
+
+Loading:
+--------
+Step 1: To start the game insert your copy of the game disk, label side up, in
+Drive #1 and turn on the machine.  The game will boot automatically.
+
+Step 2: Answer the verification question with the requested information from
+this manual.
+
+Step 3: Select the number corresponding to your machine configuration from the
+list on the screen.
+
+Step 4: Select NEW or SAVED game.
+
+Keyboard:
+---------
+To move the cursor use either the cursor controls or the following keys:
+
+    U I O    7 8 9
+    J   K    4   6
+    N M ,    1 2 3
+
+When instructed to select something press the <SPACE> bar.
+
+
+COMMODORE 64/128 INSTRUCTIONS
+=============================
+
+Loading:
+--------
+Step 1: To start the game plug the joystick into port #2 and insert your copy
+of the game disk in the disk drive and type:  LOAD "*",8
+
+Step 2: Hit the RETURN key and when the screen says READY, type: RUN
+
+Step 3: Answer the verification question with the requested information from
+this manual.
+
+Step 4: Select the number corresponding to your machine configuration from the
+list on the screen.
+
+Step 5: Select NEW or SAVED game.
+
+Joystick and Keyboard:
+----------------------
+To move the cursor use the joystick, cursor keys or the following keys:
+
+    U I O
+    J   K
+    N M ,
+
+Whn instructed to select something press the joystick fire button or hit the
+<SPACE> bar.
+
+
+Saving Games:
+-------------
+You may save the game to a seperate disk on either machine at any time during
+the Movement Phase.  When you select the SAVE option a menu will come up that
+will allow you to format save disks, catalog disks, save games, and erase old
+games.
+
+
+
+SETTING UP THE GAME
+===================
+
+After the verificatio question, system setup, andtitle screens, you will come
+to an opening menu with the following options:
+
+    OPENING MENU
+    A) HIGHLORD              HUMAN      COMPUTER
+    B) GAME SELECTION        SCENARIO   CAMPAIGN
+    C) LEVEL OF PLAY         1 2 3 4 5
+    D) STRENGTH-HL           1 2 3 4 5
+    E) STRENGTH-WS           1 2 3 4 5
+    F) REPLACEMENTS-HL       1 2 3 4 5
+    G) REPLACEMENTS-WS       1 2 3 4 5
+    H) ALLIANCE LEVEL        1 2 3 4 5
+    I) PLAY GAME
+
+ A) Select human or computer player foe Highlord.  If you select a computer
+    opponent it is best to select the SCENARIO game option, as both sides will
+    start with allies and troops.
+
+ B) The CAMPAIGN game starts at the very beginning of the War of the Lance
+    with only Neraka allied to Highlord, and Whitestone having no allies.  The
+    SCENARIO option begins further into the war and both sides have allies and
+    several nations have already been conquered by Highlord.
+
+ C) This option weights the combat effectiveness of each army in favor of one
+    player or the other.  A value of 1 is a major Whitestone advantage, a
+    value of 5 favors Highlord, 3 is balanced for each player.
+
+D-E) These options affect what percentage of full strength each player's units
+     start at. 1=60%, 2=80%, 3=100%, 4=120%, 5=120%
+
+F-G) These options adjust the number of replacements for lost units each
+     player will receive (see Replacement Phase).
+
+ H) This option adjusts alliance percentage for neutral countries,  The higher
+    the number, the higher the probability of alliance (see Alliance Section).
+
+
+GAME PLAY:
+==========
+
+Each game turn consists of the following phases:
+
+     Message
+     Highlord Quest Phase
+     Highlord Champion Phase
+     Highlord Reinforcements/Replacements
+     Highlord Subversion Phase
+     Highlord Diplomatic Phase
+     Whitestone Quest Phase
+     Whitestone Champion Phase
+     Whitestone Reinforcements/Replacements
+     Whitestone Subversion Phase
+     Whitestone Diplomatic Phase
+     Country Status
+     Victory Display
+     Initiative Phase
+     Recovery Phase
+     Player 1 Movement Phase
+     Player 1 Combat Phase
+     Player 2 Movement Phase
+     Player 2 Combat Phase
+
+
+MESSAGE:
+========
+
+The first message screen will list any nations conquered on the previous turn.
+The second message screen gives both players information about the war,
+results from the quests (see Quest Phase), and notification of any magic
+treasures found.
+
+
+QUEST PHASE
+===========
+
+As Highlord and Whitestone vie for political alliances and military victories,
+brave champions for both sides quest for powerful magic artifacts that will
+help turn the tide in their favor.  Quests are dangerous undertakings with
+potential for both glory and death.
+
+Your champions are automatically on a quest.  In this phase you are notified
+if any of your quest party have been detected by enemy troops or if nay are
+wounded, captured, or killed.  You may decide whether to rescue captured
+champions, rest the wounded and so on.  The following menus explain all of
+your options:
+
+If a member of the quest is injured the following menu bar will appear:
+
+        REST PARTY   WITHDRAW   SEEK AID
+
+  Rest Party: The whole party will continue the quest at a slower pace
+              until the wounded champion has recovered.  This will cause a
+              large delaying the completion of the mission.
+
+   Withdraw:  Remove wounded member from the quest.  This will cause a small
+              delay in the quest, and the wounded champion will recover at a
+              fair rate.
+
+    Seek Aid: The wounded champion will leave the quest to seek medical aid.
+              The quest will suffer a small delay, but the champion will
+              recover quickly. Champions seeking aid risk the danger of being
+              captured or killed if they are detected by the enemy.
+
+If a champion is still wounded and not currently on a quest, the following
+menu will appear:
+
+        REST   SEEK AID    REJOIN
+
+        Rest: The wounded champion will continue to rest and not rejoin the
+              quest.
+
+    Seek Aid: Seek medical aid for the wounded party member.  The wound will
+              heal quickly, but the champion risks discovery and capture or
+              death.
+
+      Rejoin: Return wounded champion to quest.  The champion will recover
+              very slowly and may die if injured again.
+
+If a champion is captured by the enemy, the following menu will appear:
+
+        ESCAPE   REMAIN   RESCUE
+
+      Escape: The captured champion may attempt to escape.  Champions risk
+              failure, wounding or even death in escape attempts.
+
+      Remain: Leave the champion in prison for the present.
+
+      Rescue: Divert the quest party to attempt a rescue.  Any member of the
+              rescuing party may be captured, wounded or killed.  Rescues
+              delay the completion of the quest.
+
+Whenever a champion is healed or rescued, he will automatically rejoin the
+quest.  When champions are removed from the quest, through capture, wounding
+or death, progress is slowed.
+
+MAGIC ITEMS:
+------------
+The treasures your champions seek are varied and powerful.  Some artifacts are
+one of a kind, some are required to make others, some aren't really even
+magic.
+
+ Gnomish Technology:  The gnomish machines, such as catapults, ballistas, and
+ other engines of war, are a mixed blessing.  Sometimes they will double
+ combat effectiveness for a stack of units that have been outfitted with them.
+ Sometimes, however, they will backfire and halve combat strength.  Only
+ Whitestone will receive gnomish technology.
+
+ Dragon Orbs:  These artifacts have the power to turn enemy dragons from a
+ battle.  The effect is somewhat random, and on occasion they will drive
+ friendly dragons from the field too.  both sides can get orbs.
+
+ Medallion of Faith:  The armies of good may receive a number of these holy
+ relics.  The medallions will inspire all friendly units and increase their
+ combat strength.
+
+ Minotaur Banner:  Only units from the Minotaur nations  (Mithas and Kothas)
+ will receive these.  The banners will inspire and strengthen all friendly
+ units in a battle.  Either side may ally with the Minotaur nations and
+ receive banners.  Banners may not be transferred.
+
+ Dragon Lord Armor:  The Nerakan units (mercenary units, leaders, and
+ Draconians) may receive this eldritch armor.  The armor helps to protect
+ units from damage, and decreases the effect of enemy dragon attacks.  Armor
+ is automatically issued to all appropriate units and may not e transferred.
+
+ Solamnic Knight Armor:  These are the most potent of all magic artifacts and
+ may only be made by Whitestone.   The lances will double combat strength of
+ friendly units, negate the special combat bonus of enemy dragons, and may
+ kill enemy dragon troops.  However, several other items must be found first:
+
+   The Silver Arm of Ergoth:  The arm was created by good dragons, men, elves,
+   and dwarves during the first dragon war, and is necessary for the creation
+   of dragonlances.
+
+   The Hammer of Kharas:  The hammer is a mighty magical artifact that once
+   belonged to the great dwarven champion, Kharas, and is required to properly
+   forge dragonlances.
+
+   Pure Dragon Metal:  The smelting process to produce these ingots has been
+   forgotten for many ages.  Only this metal will produce a dragonlance that
+   shall strike true.
+
+In the movement phase section you will find directions for transferring items
+from one unit to another.  Items required to make dragonlances will not e
+issued to units.  These items are found and delivered to the smiths that will
+produce the lances for Whitestone troops.
+
+CHAMPION STATUS:
+
+The champion status screen will list all of your champions and whether they
+are wounded, captured or killed, and if they are on the quest currently.  The
+number to the right of the champion's name is that champion's quality rating.
+The higher the number the better the champion.  Higher quality champions have
+more impact on the quest, and have a greater chance of escaping if captured.
+
+
+REINFORCEMENTS/REPLACEMENT PHASE:
+=================================
+
+Reinforcements:
+---------------
+    Reinforcements are units not associated wilt particular nations that will
+    flock to the banners of each alliance.  The following is a list of the
+    units that may become activated in this phase and a description of each:
+
+      Draconians:  These inhuman, part dragon, warriors are the product of
+      evil spells performed upon the eggs of good dragons.  As long as there
+      is room in or around Neraka capital, Highlord will receive 19 units of
+      Draconian reinforcements (one per turn).  Draconian units receive
+      replacements.
+
+      Wizards:  Wizards will join both armies.  They have the ability to
+      travel fantastic distances each turn, and boost all friendly units a
+      great deal in their combat strength.
+
+      Soth Infantry:  As part of his unholy alliance with Highlord, Lord Soth
+      will give 2 units of fierce zombie warriors.  These units will receive
+      no replacements.
+
+      Clerist Tower Knights:  The Solamnic Knights in the Clerist Tower near
+      Palanthus will join Whitestone as soon as one of the Knight countries
+      ally. These units receive no replacements.
+
+      Citadels:  Citadels are flying fortress cities that join Highlord late
+      in the game.  Citadels may only e attacked by flying units (dragons,
+      griffons, and pegasi).  They may carry up to 3 infantry or cavalry plus
+      leaders and wizards for a total of 10 units.
+
+      Good Dragons:  After being banished from Ansolon for more than a thousand
+      years, these dragons will return to fight for the forces of good after
+      they have heard the fate of their precious eggs- if Whitestone can
+      survive long enough.
+
+   When you get reinforcements, you will see where they enter on the map.
+
+Replacements:
+-------------
+   After reinforcements, infantry, cavalry, and fleet units will receive a
+   small number of replacements.  Only Draconians and units from allied,
+   nonconquered, countries will receive replacements.  The number of
+   replacements is somewhat random, and units in cities, ports, forts, and
+   towers will receive a higher number of replacements.
+
+
+SUBVERSION PHASE:
+=================
+
+As both sides quest for magic, so do the adversaries strive to slow one
+another. In this phase troops may e allocated to interfere with the enemy
+quest.  You will see a screen showing all of the units you currently have on
+patrol to subvert the enemy quest.  You may add more units to patrol, or
+remove them to e used for battle and conquest.  Only units from allied nations
+may be put on subversion duty (no wizards, Soth infantry, etc), and more than
+5 or 6 units will not add to the effectiveness of the effort.  The following
+menu controls all of your options:
+
+        ADD    REMOVE   MAP   EXIT
+
+         Add: Select a unit to add to subversion duty.  This option will take
+              you to another menu that will allow you to get a unit from the
+              map.
+
+      Remove: Return a unit to normal duty.  Units removed from subversion
+              duty may only return to a city, port city, fortress or tower in
+              their home nation. After selecting this option, move the cursor
+              to the desired unit and select it from the subversion screen.
+
+         Map: Go to the map.
+
+        Exit: Exit subversion phase.
+
+After selecting ADD, you will go to the map and the following menu will
+appear:
+
+        CURSOR   GET   EXIT
+
+      Cursor: Move the cursor around the map.
+
+         Get: Get a unit from the square the cursor is now on.  If there is
+              more than one unit in the square, you will be able to select the
+              one you want.
+
+        Exit: Return to previous menu.
+
+After you GET a unit, the following menu will appear:
+
+        ADD   EXIT
+
+         Add: Add the selected unit to suervsion patrol.
+
+        Exit: Return to the Subversion Phase menu.
+
+If you select REMOVE, you will go to the map and the following menu will
+appear:
+
+        CURSOR   PLACE   EXIT
+
+      Cursor: Move the cursor around the map.
+
+       Place: Return the unit to the square under the cursor.
+
+        Exit: Return to previous menu.
+
+
+DIPLOMATIC PHASE:
+=================
+
+Skill in the art of war will get you only so far, in the phase you must send
+forth your diplomats to forge treaties and gain the allies that will swell the
+numbers of your armies.
+
+Alliance:
+---------
+The first part of the diplomatic phase is alliance.  On the alliance screen
+you will see a list of neutral nations, each of which will be followed by
+numbers and a letter like this:
+
+        GUNTHAR 1 M 18
+
+The first number is the allegiance of the nation.  These numbers go from 1 to 9.
+Whitestone aligned nations have low numbers.  The nations in the middle may e
+swayed to either side by your diplomats.  The letter following the number
+(Low, Medium, High) is the alliance level.  The alliance level tells you a
+little more about how that nation feels about alliance with your side.  An L
+alliance is not as good as an M which in turn is less than an H in any given
+alliance range.  The last column of numbers is the total number of diplomat
+rating points you have sent to that country.  To select a country and attempt
+alliance use the menu ar on the bottom of the screen:
+
+        COUNTRY   ALLY   MAP   EXIT
+
+     Country: This allows you to select a neutral country for an alliance
+              attempt.
+
+        Ally: Attempt to create an alliance with the selected country.  When
+              you successfully ally with a nation, all of it's troops are at
+              your disposal. If you are successful you will e allowed to
+              deploy the troops of your new ally (see Deploying Units).
+
+         Map: Allows you to move around the map.
+
+        Exit: Go to the diplomatic menu.
+
+Negotiating and Declaration of War:
+-----------------------------------
+After attempting to ally with a nation it is time to send diplomats to the
+capitals of neutral nations.  The diplomats screen shows a list of neutral
+nations, their allegiance and alliance levels, and the total number of
+diplomat rating points assigned to that nation.  Also on this screen your
+current diplomat is displayed above the menu bar.  The computer will also
+display a number of diplomats that are not currently on missions.  These
+diplomats are either newly acquired allies, or are assigned to a nation that
+is now allied.
+
+You receive two diplomats from each nation allied to you, and each diplomat
+has a rating.  Diplomats are more effective in swaying neutral nations (those
+with an allegiance of 4,5, or 6).  You may assign more than one diplomat to
+help speed negotiations, but only 25 diplomat rating points can e assigned to
+a negotiation (too many cooks spoil the soup).  As allegiance goes from one
+extreme to the other, the diplomats become less persuasive.
+
+From the diplomats screen, the Highlord player only also has the option to
+declare war on one nation per turn.  Remember that you cannot move troops into
+or through a neutral nation. When Highlord declares war, the nation may either
+automatically ally with Whitestone or decide to go with Highlord, depending on
+allegiance and a random 'die roll.'  By declaring war, the Highlord player may
+gain many allies early in the game, but sometimes it will backfire.  Sometime
+countries with strong Highlord allegiance will side with Whitestone in the
+face of a war declaration.  Also, as the game progresses, and the influence of
+the Highlord spreads, more and more of the unallied nations will shift towards
+the Whitestone alliance.
+
+The menu bar at the bottom of the screen controls all of your diplomatic
+options:
+
+        COUNTRY   DIPLOMAT   TRANSFER   MAP   EXIT   WAR
+
+     Country: This allows you to select a country for diplomat transfer or war
+              declaration.
+
+    Diplomat: Cycle through the available diplomats and select the one you
+              wish to transfer.
+
+    Transfer: Send the selected diplomat to the selected country.
+
+         Map: Go to the map.
+
+        Exit: Exit the Diplomatic Phase.
+
+         War: (Highlord only) Declare war on the selected country.  The
+              selected country will automatically ally with Highlord or
+              Whitestone.  The allied side may immediately deploy that
+              nation's units (see Deploying Units).
+
+Deploying units:
+----------------
+When a country first becomes you ally, you may deploy it's units anywhere
+within the nation's borders.  The game will go to the map screen, place all
+units in their starting positions, and then display this menu:
+
+        MOVE UNIT    EXIT
+
+   Move Unit: Allows you to deploy units.  The map cursor will highlight the
+              current unit's position, and a summary will be displayed.  Move
+              the unit to it's new location, and select that square.  After
+              moving a unit you will return to the move unit menu.  Selecting
+              MOVE UNIT again will go to the next unit.  Selecting unit's
+              starting position will allow you to go to the next unit without
+              moving the first.
+
+        Exit: Returns you to the previous screen.
+
+The fleets deployed at Maelstrom are automatically deployed and cannot be
+moved until the player's movement phase.
+
+
+COUNTRY STATUS
+==============
+
+
+This screen is a summary of the nations, and shows all allied, conquered and
+neutral countries.
+
+
+VICTORY PHASE
+=============
+
+The victory screen shows a summary of the overall forces for both players,
+with the total killed or captured and remaining troops of each unit type.
+This screen also shows the turn date, current score and victory status.
+Points are gained for every enemy champion captured or killed, troop killed,
+successful conquest and alliance.  The point values for each type unit are
+displayed in the column to the right of the unit names.  Highlord victory
+points are negative, while Whitestone points are positive, so a net score of
+zero is a tie.
+
+
+INITIATIVE PHASE
+================
+
+The program will determine which army has initiative.  The side with
+initiative gets the first movement and combat phases, and receive 25% bonus
+for the operation points for all units.
+
+
+RECOVERY PHASE:
+===============
+
+During this phase units get all of their operation points back and recover
+some of the fatigue they received during movement and combat from the previous
+turn.  The amount of recover is based on the number of operation points left
+unused by the unit from the prior turn and the following rules:
+
+ - Units recover slower if they continue to move, if they are in an enemy zone
+   of control and the further away they are from their home capital.
+
+ - Units from nations with fleets are less affected by distance from home.
+
+ - Units do not recover fatigue points during winter months.
+
+ - Units recover at a faster rate if they are in a city, port city, fortress,
+   tower or dwarven fort.
+
+ - Units receive a 4% combat strength loss per fatigue point, and a 20%
+   reduction if they enter combat with 0 operation points.
+
+
+MOVEMENT PHASE:
+===============
+
+During the movement phase you may move troops, load and unload transport units
+(fleets, pegasi, griffons, and citadels), and designate combat.  There are
+several menus and displays to guide you through all the options.
+
+Movement Menus:
+---------------
+The following menus control all actions during the movement phase:
+
+        CURSOR   GET   RECON   LAST   QUAD   MAP   MENU
+
+      Cursor: Move the cursor around the map.
+
+         Get: Select a unit from the current cursor square.
+
+       Recon: Determine the approximate enemy strength in the cursor square.
+
+        Last: Return the cursor to the last square a unit was selected in.
+
+        Quad: Center the cursor in selected quadrant of the map.
+
+         Map: Switch between tactical and strategic maps.
+
+        Menu: Go to the next menu.
+
+If you select MENU from the cursor menu this will appear:
+
+        COMBAT   SAVE   MENU   DELAY(#)   JOY/KEY
+
+      Combat: Go to the combat phase.
+
+        Save: Save the game in progress to another disk.
+
+        Menu: Go to the previous menu.
+
+    Delay(#): Change the game delay to speed up or slow down response time.
+              The values cycle from 1 (fastest) to 9 (slowest).
+
+     Joy/Key: Change between joystick and keyboard input.  This may not be
+              available on your system.
+
+When you GET a unit the following menu will appear:
+
+        MOVE   EXIT   ATTACK   NEXT   ITEM   (UN)LOAD   PATROL
+
+        Move: Move the selected unit.  After selecting this option, move the
+              cursor from square to square until the unit is where you want it
+              or has run out of operation points.  After moving a unit you may
+              AUTO MOVE the other units in the original stack or abort the
+              move.   The next menu will describe AUTO MOVE.  For information
+              about movement restrictions, look at the Movement Rules section.
+
+        Exit: Return to the cursor menu.
+
+      Attack: Designate an attack on an adjacent enemy unit.  After selecting
+              this option, move the cursor to the enemy square and select it.
+              The attack menu will then come up.
+
+        Next: This command will cycle through all of your units.  It is
+              especially valuable to review the status of your troops.
+
+        Item: Transfer a magic item from the current unit to another.
+              Transfers may be made between units up to 4 squares apart.  A
+              menu will allow you to select and verify target unit.  Fleets,
+              griffons, and pegasi cannot transfer items.
+
+    (Un)Load: (Fleets, griffons, pegasi, and citadels only) This allows you to
+              load and unload units fro transport.  See (UN)LOAD menus for
+              options descriptions.
+
+      Patrol: (Fleets only)  Selecting this option toggles whether or not you
+              want the selected fleet to automatically engage enemy fleets.
+              If Patrol is set to yes, any time and enemy fleet comes within 1
+              square, the enemy ships will stop and your unit will attack them
+              during the combat phase. If enemy ships enter the Combat Phase
+              within 4 squares of a fleet with patrol on, your ships will
+              automatically move and attack.  Ships will patrol on may pass by
+              enemy ships which are not patrolling.  See Naval Combat section
+              for details.
+
+This menu will appear after a unit has moved:
+
+        EXIT   ABORT   ABORT 1 SQ   AUTO MOVE
+
+        Exit: End movement for the current unit and return to move menu.
+
+       Abort: Abort entire move back to the original square.  Abort will
+              sometimes dock you unit 1 fatigue point when it is used.
+
+  Abort 1 Sq: Move back one square.
+
+   Auto Move: Have the next unit in the original stack automatically follow
+              the unit that has just moved.
+
+After selecting ATTACK the following menu will appear:
+
+        TARGET UNIT   TARGET ALL   NO ATTACK   EXIT
+
+ Target Unit: Attack an adjacent, enemy square with all units in the same
+              square as the selected unit.
+
+  Target All: Attack an adjacent, enemy unit square with all units in the same
+              square as the selected unit.
+
+   No Attack: This will remove existing attack orders.
+
+        Exit: Return to the previous menu.
+
+Selecting (UN)LOAD will display this menu for transport units:
+
+        DISPLAY UNITS   LOAD   UNLOAD   EXIT
+
+Display Units:Look at the troops currently loaded on the selected transport.
+
+        Load: Go to the Load Menu.
+
+      Unload: Go to the Unload Menu.
+
+        Exit: Return to the previous menu.
+
+
+        LOAD UNIT?   NO   YES   EXIT
+
+         Yes: Load the unit displayed above the menu bar.  Except fleets and
+              citadels, all transport units only load troops stacked in the
+              same square.
+
+          No: Cycle to the next available unit.
+
+        Exit: Return to the previous menu.
+
+
+        UNLOAD UNIT   EXIT   NEXT SQUARE
+
+ Unload Unit: Unload the unit displayed above the menu bar.
+
+        Exit: Return to the previous menu.
+
+ Next Square: (Fleets and Citadels only) Cycle through all the legal
+              destination squares for unloading.
+
+If you select ITEM to transfer an item between units, this menu will appear:
+
+        TRANSFER TO UNIT?   NO   YES   EXIT
+
+          No: Cycle to next available unit.
+
+         Yes: Transfer item to the unit displayed above the menu bar.
+
+        Exit: Return to the previous menu.
+
+
+Stacking Limitations:
+---------------------
+Most terrain types have a limit of 2 for the number of infantry and/or cavalry
+that may be stacked together.  Also, you may stack 2 flying units (together
+with infantry/cavalry) plus leaders and/or wizards for a total of 10 units
+per square.  In cities and port you may stack 3 infantry and/or cavalry.
+
+Unit Summary:
+-------------
+When you select a unit to move, load/unload, etc, there will be a summary
+above the menu bar that looks something like this:
+
+  NERAKA 1ST MERCENARY CAVALRY          #200
+  QUALITY: 3   FATIGUE: 5   OP: 0   FORT: No
+  NO ATTACK    ITEM: ARMOR
+
+The first line of the summary gives the nationality, type, and the number of
+troops in the unit.
+
+The second line gives the quality (combat effectiveness rating from 1 to 7),
+fatigue level (ranging from 0 - rested to 24 - exhausted), and the operations
+points remaining.  For infantry and cavalry units this line will indicate if a
+unit has had time to create defensive fortifications in its square (see Combat
+Phase).  If the unit is a fleet then FORT information will be replaced with
+PATROL information showing whether the fleet is currently on patrol or not.
+
+The third line indicates whether or not the unit will attack during the next
+combat phase, and whether or not the unit is carrying a magic item (see Quest
+Section).  Also, this line will indicate if a transport is carrying other
+units.
+
+Terrain Description:
+--------------------
+As you move the cursor or units around the map you will see a summary line,
+describing the current cursor location, that looks like this:
+
+   FORREST (SILVANESTI)
+
+Knowing the terrain type is important when planning movement or battles.
+National borders are critical, as you may not move troops through neutral
+countries.
+
+Movement Rules:
+---------------
+A primary mission for you as commander, is effectively moving your troops to
+accomplish your objectives.  Moving units are restricted by their number of
+Operations Points (OP), by terrain and by enemy Zones of Control (ZOC).  OP
+are the base number of squares a unit may move during a turn.  Moving through
+forrest and enemy ZOC's cost a unit additional OP.  ZOC's are the 8 squares
+surrounding a unit into which it can attack.  Fatigue is gained from movement
+or combat and is shown on the unit summary.  Units gain fatigue somewhat
+randomly during movement.
+
+The following is a summary of the rules and restrictions for movement:
+
+  - Units cannot move off the map.
+
+  - Units cannot move into a neutral country.  A Neutral country is one that
+    is listed on the diplomatic or alliance screens, and is currently
+    unallied. Note that there are many areas of the map that both armies may
+    move through freely. These areas will not have a country listed with the
+    terrain description at the bottom of the screen during cursor movement.
+
+  - Units cannot stack with enemy troops.
+
+  - Normal movement cost is 1 OP per square.  Forrest squares cost 2 OP
+    (except for eleven and kender units which cost 1 OP).  Movement for air
+    units costs 1 OP for all terrain types.
+
+  - Moving from one enemy ZOC to another costs 3 OP in addition to normal
+    movement costs.
+
+  - The only ground units that may move through mountain squares are: dwarf,
+    ogre and wizards.
+
+  - No ground units may enter sea, coast, river, or swamp squares (except
+    wizards who may move through, but not end movement in them.  Also ground
+    units may move across river squares if doing so on a fleet).
+
+  - There are 3 basic types of units: Ground, Air, and Fleet.  The first type
+    are limited to ground movment only.
+
+  -  Air units move and attack from the air, but always end a movement phase
+     by landing.
+
+  - Transport units may load 1 large combat unit (infantry or cavalry) and
+    up to 9 additional leaders and/or wizards.  Citadels are the exception and
+    may carry 3 large combat units plus leaders and wizards for a total of 10
+    units.
+
+  - Fleets can only move in sea, coastal, river, or port city squares.  Air
+    units may pass over but not end movement in these squares (except port
+    cities).
+
+  - Fleets may load/unload from adjacent squares or the same square if it is a
+    port city.
+
+  - When a fleet moves in the Maelstrom it automatically stops (see Naval
+    Combat Section for more information)
+
+  - If a fleet unit passes within 1 square of an enemy fleet which has patrol
+    set to on, then the unit will stop until the naval combat phase (see
+    (Naval Combat section for details).
+
+  - Citadels may only load/unload from adjacent squares.
+
+  - Pegasi and griffons may only load/unload from the same square.
+
+  - Wizards can move with 0 OP cost (unlimited movement).
+
+  - Wizards and citadels do not gain fatigue points.
+
+
+COMBAT PHASE:
+=============
+
+The time for diplomacy has past.  Plans have been made.  The lines are
+drawn... let the battle begin.  During the combat phase you will resolve all
+battles on land, sea or in the air,that have been initiated during the
+previous movement phase.  The first part of the combat phase is naval combat.
+
+Naval Combat:
+-------------
+Naval Combat will occur during this phase whenever a fleet is adjacent to an
+enemy fleet or if enemy fleets are within 4 squares of each, and one fleet has
+patrol on.  If a fleet is within range of an enemy fleet with patrol on, the
+enemy ships will automatically move in and engage if they have sufficient OP
+to do so.  After naval battles are finished, you may either continue on to
+land and air combat, or return to the movement phase.  In this way it is
+possible to fight your way past blockades of enemy ships, and land troops in
+one turn.
+
+After the computer has found a naval encounter, it will automatically run the
+first round of combat, after which the following menu bar will appear:
+
+        CONTINUE COMBAT    WITHDRAW
+
+If both players withdraw, the computer will break off combat and reposition
+both fleets.  If only one player withdraws, there is a chance the enemy fleet
+will follow and continue the attack.  At any time during the naval encounter,
+fog may come in and end the battle.  After the combat is finished the player
+whose turn it is will get the following menu bar:
+
+        MOVE UNITS    COMBAT
+
+  Move Units: Return to the Movement Phase.
+
+      Combat: Go to the Combat Phase for land and air battles.
+
+During Naval battles, fleets will lose ships and carried troops may also
+suffer losses.  These ship losses decrease the amount of damage a fleet will
+do during combat, but do not affect how many troops may be carried by the
+fleet.
+
+Land and Air Battles:
+---------------------
+After naval encounter, it is time to fight your land battles.  The program
+will look around the map.  When it finds a conflict there will be a display of
+the troops for both sides and the attacker will get this menu:
+
+        RETREAT   LIGHT   HEAVY   ABORT   MAP
+
+     Retreat: The attacker has reconsidered the wisdom of this engagement.
+              Selecting this option will cause all friendly units in the
+              battle to retreat one square on the map to avoid combat.  The
+              defender has the option to counterattack and may still engage.
+
+       Light: This battle posture will cause lower losses on both sides.  This
+              option may be useful for attacks designed to harass the enemy or
+              whittle him away for a later larger force.
+
+       Heavy: This is a fully committed attack, and will produce the greatest
+              losses to both sides.
+
+       Abort: Abort the battle with no retreat.
+
+         Map: Go to the map.
+
+After the attacker chooses his strategy, the following menu will appear for
+the defender:
+
+        RETREAT    STAND   COUNTERATTACK    MAP
+
+     Retreat: The defender retreats one square to avoid combat.  The attacker
+              may still engage, but losses will be cut in half.
+
+       Stand: The defender stand his ground and receives the enemy attack.
+              With this option the defender will receive all defender bonuses.
+              The defender should always select STAND if he is attacked while
+              in any fortified square (city, port, tower, etc), as any other
+              choice may move units into poorer terrain.
+
+COUNTERATTACK:A Counter attack has the potential of inflicting heavy losses on
+              enemy armies, at the expense of giving up the defender's bonus.
+
+          Map: Go to the map.
+
+The dragons of Krynn are power incarnate, and the very sight of them will
+strike fear into the hearts of any foe - Dragon Fear it is called.  Dragons
+fighting side by side with your troops will, with flashing talons and
+devastating breath attacks, increase the enemy casualties.  But, fear of the
+dragons is so great that many times the wise commander will only have the
+dragons fly over the battlefield to paralyze the enemy troops with fear and
+not actually risk these mighty beats in direct combat.  The following menu
+will appear for each army that contains dragons:
+
+        DRAGON FEAR   ATTACK
+
+ Dragon Fear: This will cause the dragons to fly over the battlefield and
+              paralyze enemy troops.  The Dragon Fear will cause the enemy to
+              fight poorly, and not fighting directly will minimize any
+              potential losses to dragon units.
+
+      Attack: This selection will send your dragons to the front lines of the
+              battle to maximize enemy losses at the risk of losing dragons.
+              With this selection armies still gain the benefit of Dragon
+              Fear.
+
+After both sides have selected their strategy there is an option to have the
+combat results displayed graphically:
+
+        DISPLAY BATTLE?  NO   YES
+
+          No: The losses for both sides will be displayed unit by unit.
+
+         Yes: The battle will be fought graphically, with the computer moveing
+              the troops automatically.
+
+If the defending unit is destroyed the attacker will automatically advance one
+stack of troops into the square (except into mountains).  After advancing, the
+attacker will sometimes be allowed to attack again if more enemy units are in
+range.
+
+Units:
+------
+Many units have special abilities, limits, or effects on other troops.  Teh
+following summarizes these units:
+
+     Leaders: These units will cause a small increase in the overall
+              effectiveness of other units in the square.  Leaders may not
+              attack alone.
+
+     Wizards: Wizard magic will greatly increase the overall effectiveness of
+              other units in the same square.  Wizards may not attack alone.
+              Wizards may move across any type of terrain (including water),
+              but must end their movement on land squares.
+
+    Infantry: Infantry units may build defensive forts if they remain in one
+              square long enough.
+
+     Cavalry: Cavalry receives a small strength bonus in open terrain (not
+              tunnels, dwarven forts, etc) where horses may be used
+              effectively.  Cavalry units may build defensive forts if they
+              remain in one square long enough.
+
+    Dwarves &
+       Ogres: These units both receive a large strength bonus in mountain
+              squares.  Only these ground units may move in mountain squares.
+
+       Elves: Elves receive a large strength bonus in forrest squares.
+
+      Kender: Kender receive a large strength bonus in forrest squares.
+              Kender troops have a chance, when being attacked by several
+              stacks of troops, of taunting the troops into impetuously
+              attacking with one stack at a time.
+
+   Dragons,
+   Griffons &
+      Pegasi: Receive a strength bonus in open terrain where they may use
+              their air attacks (not tunnels, dwarven forts, etc).  Only these
+              units may attack citadels.
+
+    Citadels: Act like fortified cities for carried troops.  Only troops in
+              citadels may attack from desert squares.
+
+      Fleets: Can only attack other fleets, but may be attacked by adjacent
+              land troops.
+
+Terrain:
+--------
+The following summarizes the terrain effects on combat.
+
+      Defender            Defender Strength Bonus
+    Terrain Type     Small   Medium   Large   Very Large
+    ----------------------------------------------------
+    Dwarven Fort                                  X
+    Dwarven Tunnel                      X
+    Fortress                            X
+    Fortified City             X
+    Port City                  X
+    Tower                      X
+    Forrest            X
+    Mountain           X
+    Steppe             X
+    Mountain Pass      X
+    Tunnel Entrance    X
+
+
+      Attacker   Defender Strength Bonus
+    Terrain Type     Small   Medium
+    ------------------------------------
+    River                      X
+    Stream             X
+    Bridge             X
+
+
+Maelstrom:
+----------
+The Maelstrom is a mysterious region of raging seas and violent winds.  Fleets
+entering the Maelstrom will be thrown from it in a random place, but no before
+possibly losing ships.
+
+Forts:
+------
+When infantry or cavalry units are left in one square long enough without
+moving they will automatically dig defensive forts.  A unit with a fort will
+indicate it on the unit summary.  Forts greatly increase defensive bonuses and
+are especially useful for units that must face withering attacks of enemy
+dragons in open terrain.  Units in cities, ports, towers fortresses, and
+dwarven fortresses do not get an additional fort bonus.
+
+Surrounding Enemy Units:
+------------------------
+If a unit or stack of units is completely surrounded by enemy ZOC's its
+strength drops dramatically.  This is valuable when attacking fortified
+squares like cities and towers.
+
+Experienced Troops:
+-------------------
+When troops experience combat they may randomly gain quality levels.
+
+Conquered Nations:
+------------------
+War of the Lance is a game of conquest.  When your armies crush enemy nations,
+the enemy alliance loses that nations' troops and diplomats.  Most nations
+will fall when the capital is captured and hell by enemy troops until the
+beginning of the next turns.  A few countries have more than one location that
+must be held simultaneously.
+
+To capture Silvanesti, you must also hold the fortress to the northwest of the
+main capital and the two towers to the south in addition to the capital.
+
+The Knights of Solamnia are the most tenacious of Highlord's foes.  These
+nations start the game with high Whitestone allegiance levels, and before any
+Knight country can be considered conquered, all of the KNight countries plus
+the Clerist Tower fortress with its' infantry units (near Palanthus) must
+fall.  The Knight countries are:  Caergoth, Northern Ergoth, Solanthus, and
+Gunthar.  Also, before Solanthus is conquered, enemy troops must hold both the
+capital and the fortress to the southwest.
+
+To conquer Neraka, you must hold the capital and the tower to the northwest.
+
+
+APPENDIX:
+=========
+
+Units:
+------
+
+NATION          TOTAL UNITS AND TYPE    BASE NUMBER     QUALITY
+---------------------------------------------------------------
+BLODE           7 OGRE INFANTRY             130           4
+CAERGOTH        3 ELITE HUMAN INFANTRY      140           5
+                2 ELITE HUMAN INFANTRY      130           5
+GOODLUND        4 KENDER INFANTRY           130           2
+GUNTHAR         3 HUMAN INFANTRY            140           3
+                2 ELITE HUMAN INFANTRY      140           5
+                2 ELITE HUMAN CAVALRY       130           5
+                2 HUMAN FLEET                20           4
+HYLO            6 KENDER INFANTRY           130           2
+KAOLYN          5 DWARF INFANTRY            180           3
+KERN            5 OGRE INFANTRY             130           4
+KHUR            5 HUMAN INFANTRY            130           2
+                1 HUMAN CAVALRY             130           2
+KOTHAS          4 MINOTAUR INFANTRY         110           7
+                4 MINOTAUR FLEET             20           5
+LEMISH          4 HUMAN INFANTRY            130           2
+                2 HUMAN CAVALRY             130           2
+MAELSTROM       6 HUMAN FLEET                20           4
+MITHAS          4 MINOTAUR INFANTRY         110           6
+                4 MINOTAUR FLEET             20           5
+NERAKA          8 MERCENARY INFANTRY        200           3
+                2 MERCENARY CAVALRY         150           3
+                2 RED DRAGON                  3
+                2 BLUE DRAGONS                3
+                1 GREEN DRAGON                4
+                1 BLACK DRAGON                4
+                1 WHITE DRAGON                5
+NORDMAAR        4 HUMAN INFANTRY            130           2
+                2 HUMAN CAVALRY             130           2
+N. ERGOTH       3 ELITE HUMAN INFANTRY      140           5
+                2 ELITE HUMAN CAVALRY       130           5
+                2 HUMAN FLEET                20           4
+PALANTHUS       5 HUMAN INFANTRY            130           3
+                4 HUMAN FLEET                20           5
+QUALINESTI      4 ELF INFANTRY              180           3
+                4 PEGASUS                    84           1
+SANCTION        3 HUMAN INFANTRY            130           2
+                4 HUMAN FLEET                20           4
+SILVANESTI      6 ELF INFANTRY              180           3
+                4 GRIFFON                   240           1
+                4 ELF FLEET                  20           3
+SOLANTHUS       3 ELITE HUMAN INFANTRY      140           5
+                2 ELITE HUMAN CAVALRY       130           5
+TARSIS          3 HUMAN INFANTRY            130           2
+                3 HUMAN CAVALRY             130           2
+THORBARDIN      4 DWARF INFANTRY            180           3
+THROTYL         7 HOBGOBLIN INFANTRY        150           2
+VINGAARD        3 HUMAN INFANTRY            130           2
+                1 HUMAN CAVALRY             130           2
+ZHAKAR          5 DWARF INFANTRY            180           3
+                4 GRIFFON                   240           1
+
+SPECIAL UNITS:
+
+HIHGLORD        9 BAAZ DRACONIAN            200           3
+                10 KAPAK DRACONIAN          150           4
+                2 SOTH UNDEAD INFANTRY      120           7
+                3 WIZARD                      1
+                3 CITADEL                     1
+WHITESTONE      3 TOWER INFANTRY            140           4
+                1 GOLD DRAGON                 3
+                1 BRONZE DRAGON               3
+                1 SILVER DRAGON               3
+                2 COPPER DRAGON               3
+                2 BRASS DRAGON                3
+                3 WIZARD                      1
+
+

@@ -1,0 +1,1 @@
+Hold down CONTROL-SHIFT-6 at the crack screen, you will see a hidden rag message.
