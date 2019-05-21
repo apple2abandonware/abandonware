@@ -1,0 +1,527 @@
+             [-]               Nam Docs                [-]
+
+<1. 0> Introduction
+
+It has been called a political war, and it was, at some levels. But there were no
+politics where the bullets whined. Here, the face of battle reveled its
+countenance with the same confusion as it had in the Ardennes, the same strength
+as at Shiloh, the same madness as Tarawa. In the bottom echelons, down where the
+bullets were,  it was a real war.
+ NAM centers on those battlefields where the bullets really existed. Each square
+represents an area of approximately 50 meters. Those 50 meters are the non-
+political realm of real war. Friendly forces meet enemy forces in battle-the real
+bottom line is to survive.
+
+<2. 5> Apple Cursor Control
+
+In the Apple version, the cursor may be activated with either a joystick or the
+keyboard. When using the keyboard control, the following commands affect the
+cursor.
+                      I=Move the cursor up one space
+                      J=Move the cursor left one space
+                      K=Move the cursor right one space
+                      M=Move the cursor down one space
+                      Space Bar=Joystick trigger button
+
+<4. 0> Sequence of Play
+
+ Play of the game is divided into phases. Each phase has particular events
+that can occur and functions that can be performed. Note:In all cases, the units
+controlled by the human player are refereed to as Friendly Units. The computer's
+forces are refereed to as the Enemy Units. The phases and their order are:
+
+         [1] Observation Phase
+         [2] Artillery Plot Phase
+         [3] Enemy Fire Phase
+         [4] Enemy Movement Phase
+         [5] Friendly Fire Phase
+         [6] Friendly Movement Phase
+         [7] Enemy Fire Phase
+         [8] Friendly Fire Phase
+         [9] Artillery Fall Phase
+         [10] Victory Phase
+         [11] Save Game Phase
+
+<4. 2> Phase Execution
+
+These phases will be executed in the above sequence. At the completion of all of
+these phases, one game turn will have passed and the next turn begins at the
+Observation Phase. Details of these phases are outlined below.
+
+<5. 0> Observation Phase
+
+You will see a square cursor that is activated by the joystick in port 1. Moving
+this cursor to a screen edge triggers the map scroll until a map edge is
+reached. When the cursor passes over a friendly unit, that unit is identified
+along with some of its characteristics. These characteristics appear as a number
+following a letter. The letter tells you which characteristic it is and the number
+ tells you the value of that characteristic. 'F' indicates Firepower, 'R'
+indicates Range, 'A' indicates its Assault Factor, 'M' indicates its Movement
+Points available, and 'S' indicates its relative Strength. Additionally,  an 'A'
+at the end of this indicates that the unit is and armored target. If there is an
+"*" at the end of the line, it indicates that the unit has anti-armor weapons
+capability. An "A*" indicates the unit has both.
+
+<5. 1> Digging In
+
+You may dig in units or make previously dug-in units combat ready in this phase
+. To do this, place the cursor over the unit and press the trigger. You will be
+informed of the unit's status in the message area below the map. Units may be
+dug in and made combat ready only in this phase. Dug-in units may not be
+moved. Dug-in units gain an advantage in defense and recover from damage more
+readily. Diggin in a unit gives it,  in effect, a "hold at all costs" order. If it
+is assaulted by an enemy unit, it can not be pushed back by that enemy unit,
+though it may sustain losses in the assault. Only regular infantry and support
+weapons will be able to dig in.  Dug-in units flash on and off during the
+Observation Phase.
+
+<6. 0> Artillery Plot Phase
+
+In this phase, the cursor turns black and has a crosshair in the center. Here, you
+may plot the initial impact area of off-map artillery barrages and air strikes.
+The artillery/air strike occurs in the Artillery Fall Phase of the current
+turn. To plot the artillery/airstrike, move the cursor to the area where you want
+it to fall and push the fire button. You may do this any number of times;
+however, only the last plot made will be recorded.
+   Note:There is a 25% chance that you will not get artillery in any given turn
+due to scrambled orders, communications breakdown, or priorities. if this occurs,
+this phase will be skipped for that turn.
+
+<7. 0> Enemy Fire Phase
+
+In this phase, enemy units fire at your units that are in range. As your units
+are shot at, you will be informed of hits and misses in the message area along
+with a sound cue (hits are high beeps and misses low ones). Units hit may suffer
+a strength point loss and may become Pinned, rendering them unable to move for
+the remainder of the turn. You will be informed of this condition should you
+attempt to move a Pinned unit.
+
+<8. 0> Enemy Movement Phase
+
+In this phase, the enemy units move. Generally, they will attempt to close on your
+units and occasionally conduct assaults.
+
+<9. 0> Fire Phase
+
+In this phase, a crosshair appears in the center of the cursor. You may now fire
+units. To do this, place the cursor over the unit you want to fire and press the
+button. Then move the cursor to the area into which you want that unit to fire
+and press the button again. The unit will fire. If there is an enemy unit there
+(hidden units will show up at this time), it will undergo damage if it is hit.
+The message area will inform you whether or not the shot hit or missed. Units
+in cover are harder to hit. The heavier the cover, the less likelihood of a hit.
+Also, units that moved in the turn have a smaller chance of hitting a target.
+
+<9. 1> Who Can Fire
+
+Units will not fire if:  1)They have already fired in the current fire phase.
+2)The target area is out of their range, or 3)The target cannot be seen by the
+firing unit (no line of sight). The message area will inform you of these
+conditions if they occur.
+
+<10. 0> Movement Phase
+
+In this phase you may move any of your units that are able to move. Units are
+moved, one square at a time, until their movement points are all gone.
+
+<10. 1>
+
+To move a unit, place the cursor over the unit and press and release the fire
+button. The cursor will turn green. The unit will be "picked up" and may be
+moved with joystick.
+
+<10. 2> Movement Costs
+
+Different squares have different "costs", in movement points, corresponding to
+their density. each square's 'costs' will be deduced from the moving unit's
+Movement Points. These "costs" are:Road 1, Clear 2, Bridges 3, Trees/Crater/Cave/
+Water 4, Woods 6,  and Buildings 8. Helicopters do not pay this cost. They pay 1
+movement point for every square entered, regardless of its type.
+
+<10. 3> Vehicle Restrictions
+
+Vehicles (trucks, tanks, APCs) cannot enter heavy woods, river banks or water.
+
+<10. 4> Mines
+
+If a unit enters an area that is mined, the mines will detonate. Units detonating
+a mine will take a hit. Infantry may sometimes enter a minefield without
+detonating the mines.
+
+<10. 5> Transport
+
+Certain units (infantry and support weapons) can be transported by trucks, APC's
+, and helicopters. If a unit can be transported, then it may be loaded onto a
+truck, helicopter, or APC unit type. To do this, move the unit adjacent to and then
+on top on top of the transporting unit. The unit will disappear and the trans-
+porting unit will show in a blue line at the top and bottom. The blue line
+indicates it is carrying something. To unload a unit, place the cursor over  the
+unit and press and hold the fire button. Moving the joystick in any direction
+while the button is held unloads the unit. It may then be moved separately.  A
+unit may also be unloaded by pressing '2' key while the transporting unit is
+"picked up" by the cursor.
+
+<10. 6> Transport Restictions
+
+Units may not be loaded and unloaded in the same turn. Units may not load or
+unload if they are Pinned. Units will not load if they do not have enough
+movement points to do so (2 points needed). Helicopters may not load or
+unload units in heavy woods.
+
+<10. 7> Initiating an Assault
+
+If a friendly unit tries to move onto an enemy unit, then the assault occurs.
+
+<10. 8> Assaults
+
+When a unit attempts to enter a square occupied by an enemy unit, an assault
+occurs. First, the enemy unit will fire. after this shot is resolved, you may then
+move your unit into the enemy occupied square as long as it wasn't Pinned by
+enemy fire. A series of explosions will occur and the assault will be resolved.
+There are four results: 1) Your unit wins and the enemy falls back; 2) Your
+unit loses and it falls back; 3) Your unit is eliminated 4) The enemy unit
+is eliminated.
+ If a unit loses an assault and has no place where it can fall back, it will
+be eliminated. units will not retreat onto other units, into water or river edges
+, or into the borders. A dug-in unit which loses and assault will not retreat.
+ After and assault, you may continue moving (an assaulting) that unit as long
+as it has movement points to do so.
+
+<10. 9> Red Cursor
+
+When the cursor turns red, it indicates that the highlighted unit no longer has
+enough movement points to conduct and assault.
+
+<10. 10> Hidden Enemy Units
+
+If a unit enters a square next to a hidden enemy unit, that enemy unit will show
+up on the map.
+
+<10. 11> Enemy Defense Fire
+
+If a friendly units tries to move away from a square that is next to and enemy
+unit, that enemy unit will fire at the friendly unit.
+
+<10. 12> Moving Fire
+
+While you are moving your units, the enemy forces in range and with line of
+sight to that moving unit may fire at it.
+
+<10. 13> Pin
+
+Units that become Pinned due to enemy fire may not move at all in the
+movement phase. this condition lasts until the end of the current turn.
+
+<11. 0> Enemy Fire Phase 2
+
+Another round of enemy fire occurs after your movement.
+
+<12. 0> Fire Phase 2
+
+After the enemy units fire a second time, your units may be fired again. Both
+enemy and friendly units which fire after they have moved will have a reduced
+accuracy.
+
+<13. 0> Artillery Fall
+
+If artillery was plotted in the Artillery Plot Phase, it may now fall. Up to six
+rounds will be fired. The Artillery will not fall on water or in the cave
+complex. Take care not to plot artillery in an area where you intend to move
+your units firing the turn. Artillery fire is very deadly and will hurt your
+units as well as the enemy units.
+
+<14. 0> Victory Level
+
+At the end of the turn, you will receive victory points for the enemy units
+eliminated. The enemy units will also receive points for friendly units
+eliminated. You will see 'F=###' and 'E=###' for friendly and enemy points. The
+scores reflect your performance to date. You will receive one point for every
+unit eliminated. The Enemy units will receive 10 points for every helicopter
+they eliminate, 8 points for every tank they eliminate, and 5 points for all
+others.
+ Below the point total appears a victory level. The levels are: Questionable,
+Minor, Major, and Decisive.
+
+-A Questionable victory is questionable whether a victory was achieved.
+-A Minor victory level can be interpreted as a barely acceptable victory level.
+-A Major victory level is an acceptable victory level. You have accomplished
+   the objectives.
+-A Decisive victory level is the highest level and the indicates complete
+   defeat of the enemy forces.
+
+Other than the points for eliminated units, there are some special cases related
+to victory levels in some of the scenarios. These are explained in the
+scenario section.
+
+<15. 0> Save Game
+
+You may save the game in progress by hitting '2'. Doing this takes you to the
+save game routine. In this routine, you may hit '2' to actually save the game
+or hit '3' to abort the save. The game should only be saved on a formatted
+blank disk.
+
+<16. 1> Hidden Units
+
+Enemy units start the game hidden. When they move, fire,  or are fired on, they
+will appear. units that appear may become hidden again during play if they are
+not firing. They will disappear from the map and become hidden again.
+
+<16. 2> Strength Recovery
+
+Units that have a lot strength points may recover them during a scenario.
+Recovery occurs at the end of each turn. Certain situations aid or deter a
+unit's recovery. Units that were recently attacked have a smaller chance of
+recovery. These situations are cumulative so that a unit which doesn't move,
+was not fired on recently, and is dug in has the greatest chance of recovering
+lost strength points. There are minimal recovery chances for a unit which was
+not dug in and was attacked and moved during the same turn.
+
+<17. 0> Scenarios
+
+The following scenario descriptions apply to the historical setup option. The
+non-historical options add variety with some unexpected situations. Game lengths
+may very. The game lengths given are the maximum times allotted to you. Should you
+eliminate all the enemy units before this limit is reached, the game will end.
+
+<17. 1> Suoi Cat: A Bend in the Road
+       (December 2,  1966)
+
+In any area where there is intense cover, ambushes were always a primary concern
+. One such ambush occurred about 50 miles east of Siagon near the small village
+of Suoi Cat. The area was to be secured by the 11th Armored Cavalry Regiment as
+part of Operation Atlanta. They had recently arrived in Vietnam an had not had
+any major engagements up to this point. Ambushes were to be expected.
+ Early on the morning of the 2nd, a resupply convoy had made the 25-mile trek
+through the area of Suoi Cat without incident. The return trip started out quiet
+. Too quiet. When the commander in the lead truck accidentally bumped the turret
+switch, causing the turret to move suddenly, all hell broke loose. Reaction was
+swift. Troop B was immediately dispatched toward the area from the north. Troops
+A and C, plus the D tank company were also dispatched from the Base Camp to the
+east. Tactical airstrikes and artillery were soon called the area.
+ The reaction of the 11th to this ambush was swift and effective. It set the
+stage for a standard ambush response.  (Troops on Maps)
+
+GAME LENGTH=10 TURNS
+
+Special Rules: You will receive bonus points if you can get one or both of the
+two trucks to the road where it exits at the top of the map. If you can get the
+trucks to this area, they will be removed from play and points will be awarded
+accordingly.
+
+
+
+<17. 2> Ap Bau Bang: Waves of Fury
+       (March 19-20,  1967)
+
+As the war and US combat operations expanded, troops undertook Operation Juction
+City. The operation centered in a fairly large area 80 kilometers northeast of
+Siagon and involved combination search and destroy missions and an overall
+clearing operation. As the operation progressed, the desperation level of the
+Viet Cong launched a direct attack on a firebase just north of Ap Bau Bang. Troop
+A of the 3rd Squadron, 5th Cavalry Regiment held the firebase.
+ As the attack progressed, Troop B to the north, and Troop C and HQ to the south
+were alerted. Soon after, they were called in to assist. Though it started out as
+a pitched battle, mobility, once again, proved to be a vital key to a successful
+outcome.
+
+GAME LENGTH=15 TURNS
+
+Special Rules:Your artillery unit at the center of the firebase should be
+protected at all costs. Though it is not important in itself, its loss would
+indicate a severe breakdown in defenses and a definite penetration of your
+perimeter. Therefore, losing this unit will automatically trigger a Questionable
+victory only.
+
+<17. 3> la Drang: Death from the Air
+
+The scenario represents the first major action of the Air Cavalry. The Operation
+is a clearing one, and, with the air cavalry, unprecedented mobility prevailed.
+Airmobile operations became common as the war progressed, since airmobile units
+have optimum mobility and firepower in the sense terrain so often encountered.
+Your objective is to secure the entire area.
+
+GAME LENGTH=25 TURNS
+
+Special Rules: At the game's end, if there are any remaining enemy units, you
+will receive a Questionable victory only.
+ The map represents an area that is to be cleared of enemy units and then used
+as a firebase.
+
+<17. 4> Tuy Hoa: Into the Underground
+
+This scenario, like the previous one, also represents a clearing operation. In
+this case, though, a large part of the enemy force is underground, in caves. The
+mazelike area at the top of the map represents these caves. Your forces are
+primarily a mixture of South Korean and U. S.  Infantry.
+
+GAME LENGTH=40 TURNS
+
+Special Rules:As in scenario 3, all enemy units, both inside and outside the
+caves, must be eliminated by game's end. Failure to do so will result in a
+Questionary victory.
+
+<17. 5> Ben Het: The Clash of Armor
+       (March 3,  1969)
+
+During the entire war, American and North Vietnamese armor engaged in battle
+only once. Ben Het was a Special Forces camp located in the area where the
+borders of Laos, Cambodia, and Vietnam meet. In February, 1969, elements of the 1st
+Battalion, 69th Armor were sent to Ben Het in anticipation of an enemy buildup
+in the area. On the night of March 3rd, through the din of incoming artillery, the
+sound of tanks could be heard.
+
+GAME LENGTH=20 TURNS
+
+Special Rules:As in scenario 2, your artillery unit is the key to determining
+the state of the camp. If it is eliminated, the battle is lost.
+
+<17. 6> Hue City Under Fire
+       (February,  1968)
+
+Hue was a key political and military target of the NVA during the Tet Offensive
+. The importance of Hue slipped by the American and ARVN commanders at the
+outset of Tet due to a major feint of some 2 NVA divisions around Khe Sanh.
+Because of this, and a few other foul-ups, the forces at Hue-approximately battalion
+strength-faced an onslaught of 8 NVA and VC battalions. The city fell.
+As American reinforcements trickled in, the NVA dug in. This scenario represents
+the final counterattack by the American/ARVN forces to retake the city.
+
+GAME LENGTH=25 TURNS
+
+Special Rules: All enemy units must be eliminated. The Palace of Peace (the
+building surrounded by a wall inside the city) is off limits to artillery fire.
+If either or both of the palace building squares are turned to rubble by
+artillery fire, the result will be an automatic Questionable victory.
+
+Note: These descriptions are primarily centered on the historical deployment
+option. Enemy activity might appear different in the non-historical option.
+
+<18. 0> Unit Types
+
+US Inf Sq = U. S.  Army Infantry squad
+Marine Sq = U. S.  Marine squad
+SV Inf Sq = South Vietnamese Army Infantry squad
+SV Para   = South Vietnamese Army Paratrooper squad
+SV Rngr   = South Vietnamese Army Ranger squad
+SK Mar Sq = South Korean Marine squad
+RD inf Sq = Regional Defense Infantry squad
+SF A-Team = U. S.  Special Forces A-Team
+Police    = Hue police
+Blk Pnth  = Black Panthers,  South Vietnamese Special Forces
+
+M60 MMG : American M60 medium machine gun (1-3 guns)
+MRTR (81) : 81mm Mortar battery (2-4 mortars)
+M40 RR : American M40 recoilless rifle unit (1-6 recoilless rifles)
+MRTR (60) : 60mm Mortar battery (1-4 mortars)
+M20 BAZ : American 3. 5" "super bazooka" unit (1-4 bazookas)
+Artillery : Mixture of 105mm and 150mm field artillery pieces (1-5 guns)
+Trucks : Twi-and-a-half-ton truck
+M113 ACAV : U. S.  M113 armored cavalry assault vehicle with 50 cal.  machine gun
+Patton : American M48 medium tank
+Cobra : American AH-1G attack helicopter
+Bulldog : American M41 medium tank (Walker Bulldog)
+Huey : American UH-1 transport/gunship helicopter
+Vulcan : American M163 anti-aircraft tank
+Kiowa : American OH-58A observation helicopter
+
+                             Some Key Points
+
+There are some features of the game that may not be readily visible. To give you
+the edge you may need, I have noted some of these features below.
+HELECOPTERS.  These units, when available, are undoubtedly the best units you have
+. They are the most mobile units in the game. Their mobility may be transferred
+to other units since the helicopters can transport. Their firepower is respectable
+along with their range. But, more importantly, they can shoot over
+obstacles. They are not limited to line of sight restrictions. Put this all
+together and you have a unit that is unsurpassed.
+TANKS.  Don't get you hopes up. There was a lot of anti-tank weaponry around.
+Armor in Vietnam was more of a complement to infantry that the separate entity
+it was in other wars.
+DIGGING IN.  Digging a unit in represents an order to that unit to seek the best
+cover in their local area and hold it. Dug-in units have better defense, recover
+strength more quickly, are harder to eliminate, and don't retreat from assaults.
+The cost for this is they can't move. It's not a bad trade off. It's a good idea
+to use the Observation Phase to evaluate to overall situation and decide what
+action you will take in the ensuing turn. If you don't expect to be moving a
+unit, why not dig it in?
+PINS.  Pins cease all activity of a unit in your movement phase. Pinned units
+cannot assault, mount, dismount, or move. A unit can become pinned while it is
+moving. A unit also and become pinned by defensive fire just prior to an assault
+. Because of this, pins can take some steam out of your attacks.
+STRENGTH.  The strength of a unit, represents the overall combat state of that
+unit. It is a mixture of unit morale, size, and available manpower. As a unit's
+strength drops, so does its combat effectiveness. Its firepower will have less
+punch, and it will be less effective in winning assaults. Finally, when
+strength gets too low, the unit loses cohesiveness and is eliminated.
+
+VICTORY.  Victory come in a mixture of boldness and caution. The first thing you
+should do is try to control the situation. By that, I mean that you should get
+your forces in a position to hit the enemy where you need to and can protect
+your units that are showing signs of weakness. Some scenarios are more easily
+controlled than others. In Hue, for example, you initially have relatively good
+control. You can take the initiative early and control the direction of the
+battle with a combination of maneuver and firepower. But in a scenario like Suoi
+Cat, you are initially at the mercy of the ambush troops is risky in he early
+goings. You will need the support of the relief columns to wrest the initiative
+from the enemy units.
+ Initiative is an elusive concept. There seems to be no clear-cut edge where one
+side loses it and the other side gains it. When you have it, you are approaching
+the enemy positions on your terms. When you don't, you are reaction to the enemy
+on their terms. It is best to seek initiative in your favor. Often, this involves
+concentrating your firepower on the enemy units that are the most threatening.
+Since the strength of a unit is directed related to the effect its firepower
+has, "chipping away" at a number of units can, at times, have a greater effect
+than pounding a few units into submission. When it boils down to it is that
+the situation dictates where to fire.
+ The bottom line is not to lose any units. This, of course, is not always possible.
+However, there are some precautions that can be taken. One is to keep
+an eye out for the strength of your units. When a unit's strength looks low,  it
+is advisable to pull that unit out of action for a turn or two, dug in if you can
+, and let it cover some. Moving a unit to a position where it can no longer fire
+is most critical. A unit constantly harassed by enemy fire will not recover lost strength.
+ This strategy leads one to appreciate a bounding type of offensive where some
+units are in the front line while others are slightly back, recovering. This concept
+works well when it can be enacted. It involves bringing fresh troops
+to hot spots and backing off the units that are already there for a short rest.
+
+               ^^^^^^^^^^[> Nam <]^^^^^^^^^^
+               ^[> Quick Reference Chart <]^
+Observation Phase
+
+Joystick - Moves cursor and scrolls map when cursor is at edge of screen edge.
+           Friendly units within cursor will be identified.
+Joystick Button - Orders to dig in or get combat ready.
+'3' - Ends Observation Phase and initiates Fire Phase 1.
+
+Artillery Phase
+
+Joystick - Moves and scrolls map.
+Joystick Button - Plots the square under the cursor as the target square.
+'3' - Exits the Artillery Phase.
+
+Fire Phase 1 & 2
+
+Joystick - Moves the cursor and scrolls map. Friendly units within cursor
+           will be identified.
+Joystick Button - Initiates a unit to commence firing and indicates target for
+                  that unit.
+'3' - Exits Fire Phase.
+
+Movement Phase
+
+Joystick - Moves cursor and scrolls screen. Moves units that are "picked up".
+           Friendly units within cursor will be identified.
+Joystick Button - Initiates the "picking up" of a unit to move it and "putting
+                  down" a moving unit.
+'3' - Ends Movement Phase and commences Enemy Fire Phase 1
+
+Other Options - Infantry, MG's, mortars, and recoilless rifles may be loaded or
+                unloaded from transports by moving the unit onto an empty
+                transport. Unloading transported units may be accomplished by
+                "picking up" the transport and holding the fire button. Then,
+                moving the stick in any direction will unload the transported
+                units. Alternatively, the '2' key may be used to unload a "picked
+                up" transport. Assaults may be initiated by moving onto an enemy
+                unit.
+
+
