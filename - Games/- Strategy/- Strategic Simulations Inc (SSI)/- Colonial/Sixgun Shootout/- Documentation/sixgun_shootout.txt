@@ -1,0 +1,210 @@
+                    Six Gun Shootout Softdox
+                    ------------------------
+
+COMMAND SUMMARY:
+
+A) General commands
+
+    I - Identify phasing character, shows HP, weapon status, ammo
+        status, and current weapon in hand. TM indicates terrain
+        modifiers, positive numbers indicate greater
+        vulnerability
+
+    X - Exit. End charcters activity for the segment
+
+B) Special commands
+
+    T - Set message display speed 1(fast) to 10000(slow),
+        5000(default)
+
+    D - Use dynamite. Only the designated dynamite carrier may
+        use the dynamite, and he must be adjacent to the target.
+        May be used only once per game.
+
+    M - Clear map. Temporarily removes characters from map so
+        terrain may be viewed
+
+    V - Highlights the squares in a characters line of sight. It
+        will prompt for a viewing altitude. If "standing" is
+        chosen, all enemies in line of sight will be highlighted.
+        To see if there are kneeling or prone enemies in line of
+        sight, choose the approprii|m(~aaing altitude.
+
+C) Movement commands
+
+   1,2,3,4,5,6,7,8 - Move one space in the indicated direction. A
+        directional display appears in the lower right hand
+        corner of the screen. TM affect movement ability.
+
+    E - Stand erect
+
+    K - Kneel
+
+    P - Prone position
+
+D) Fire commands
+
+    R - Ready a weapon, or change weapons. Only those available
+        for the current segment will be displayed.
+
+    L - Load one round into weapon in hand
+    F - Fire a shot. Cursor and range finder will appear in the
+        lower right hand corner of the screen to aid in target
+        selection.
+
+    X - Exit fire routine
+
+E) Posture effects
+
+    When an erect character moves on a clear or planking space,
+he is prompted for a second command. When a kneeling character
+stands erect, he also is prompted for a second command. All other
+actions end a characters activity for the segment.
+
+TERRAIN, ALTITUDES, AND LINE OF SIGHT:
+
+                      Terrain effect table
+                      --------------------
+  TYPE          ALT         PROT      TH MOD   MOVEMENT EFFECT
+  ----          ---         ----      ------   ---------------
+
+Full wall        11          255        NA       Prohibited
+Half wall         5          255        +1         Note 1
+Light half wall   4          127        +2         Note 1
+Ground            1          255        -1       No effect
+Planking          2          255         0       No effect
+Rough             4          255        -3         Note 1
+Mud               0          255        -2         Note 2
+Tree             10          255        NA       Prohibited
+Tall Brush        7          113        NA       Prohibited
+Low Brush         4           27        +2         Note 1
+Cactus            4          142        +2         Note 1
+Rocks             4          255        +1         Note 1
+Covered Wagon    10          255        NA       Prohibited
+Open Wagon        4          255        +1         Note 1
+Hitch             4           57        +2         Note 1
+Trough/Tub        4          255        +1         Note 1
+Barrel            4          198        +1         Note 1
+Boxes             4          169        +2         Note 1
+Window            5          255        +3         Note 1
+Stove             5          255        +1         Note 1
+Table             5          227        +1         Note 1
+Desk              5          255        +1         Note 1
+Safe              5          255        +1         Note 1
+Chair             5           84        +2         Note 1
+Bed               5          255        +1         Note 1
+=========================================================
+ALT = Altitude  PROT = Protection  THMOD = To Hit Modifier
+NA = Not applicable
+---------------------------------------------------------
+Note 1: Character must be erect to enter. Loses movement
+        capability for next segment.
+
+Note 2: Character loses movement capability for the following
+        segment.
+
+A) Character altitude
+
+   Normally a character is considered to be at the altitude equal
+to the height of his head. Each body part is assigned an altitude
+according to posture and terrain.
+
+B) Line of Sight
+
+   Six Gun Shootout uses a line of sight to ensure you see only
+what your character could see. Walls, etc. block your vision
+making other characters seem invisible to your sight. Use V to
+see your line of sight.
+
+WEAPONS:
+
+   Characters may carry a maximum of 3 weapons. Only a weapon in
+hand may be loaded, fired or used in combat. Some weapons must be
+cocked or loaded often, thus making them un-ready after a
+segment.
+
+A) Posture modifiers
+
+                          Posture Table
+                          -------------
+       Standing           Kneeling             Prone
+       --------           --------             -----
+Head      +5                 +4                 +1
+Chest     +4                 +3                 +1
+Gut       +3                 +2                 +1
+Legs     +2,+1               +1                 +1
+
+                          Weapons Table
+                          -------------
+#    Weapon           R1   R2   R3   LD   PT   M1   M2   CK   BK
+-    ------           --   --   --   --   --   --   --   --   --
+
+1    Saber             1    1    1    0    0    0    0    0    0
+2    Tomahawk          1    2    3    0   42   +2   -4    0    0
+3    Knife             1    2    3    0   56   +2   -4    0    0
+4    Spear             1    2    4    0   85   +2   -4    0    0
+5    Bow and Arrow     3    6   12   30   70   +2   -2    1    0
+6    Derringer         0    1    2    2   28   +1   -4    1    1
+7    LSA Pistol        1    3    6    6   42   +2   -3    1    1
+8    MSA Pistol        1    3    7    6   85   +2   -3    1    1
+9    HSA Pistol        2    4    8    6  170   +2   -3    1    1
+10   LDA Pistol        1    2    5    6   56   +2   -3    0    1
+11   MDA Pistol        1    3    6    6   70   +2   -3    0    1
+12   HDA Pistol        1    3    7    6  155   +2   -3    0    1
+13   Shotgun           2    4    8    2   99   +3   -5    0    1
+14   S/O Shotgun       1    2    4    2   56   +5   -7    0    1
+15   Breechloader      7   15   30    1  212   +1   -1    1    1
+16   Rifle             5   10   20   16  155   +1   -1    1    0
+17   Repeater          3    6   12   12  141   +1   -1    0    0
+18   Carbine           6   12   25    1  184   +1   -1    1    0
+===========================================================
+R1 = Max short range
+R2 = Max medium range
+R3 = Max long range
+LD = Max ammo load for weapon
+PT = Penetration factor for weapon (ability to pass through
+     objects)
+M1 = Close ronge accuracy modifier
+M2 = Long range accuracy modifier
+CK = Indicates whether weapon must be readied after each segment
+BK = Indicates whether weapon must be readied after becoming
+     unloaded
+
+COMBAT:
+
+A) Procedure
+
+   When it is a character's turn, and his weapon speed is fast
+enough to allow him to fire during the segment, he may fire at an
+opposing character. The target must be in range of the firing
+weapon. After hitting 'F' for fire, the targeting cursor appears
+on the firing character. Move the cursor by hitting the number of
+the direction you wish by choosing from the direction table in
+the lower right side of the screen. The cursor will cause a
+status report for each character it moves over. When the
+appropriate target is selected, hit <RET> then a '9' when it asks
+for target again, to fire. 'X' will exit to cammand level again.
+If an unloaded weapon is fired, the segment is lost and the
+message CLICK is displayed. Hand to Hand combat works much the
+same way, but the characters must be adjacent.
+
+B) Hit Locations
+
+   Hit locations are determined mainly by the computer, though it
+sometimes allows sharpshooting.
+
+C) Wounds
+
+   Wounds can cause knockdowns, incapacitation, and death. A
+character who has any part of the body reduced to 0 HP is knocked
+prone. If the head or chest is reduced to 0 HP then the character
+is dead and removed from the game. When a character has his gut
+and any other part of the body reduced to 0 HP he is dead. When a
+character has any combination of two of legs or arms at 0 HP then
+the character is incapacitated and removed from the game.
+
+D) Winning
+
+   The winner is the player with the most points at the end of
+the scenario. Killing all the opposition does not insure victory.
+
