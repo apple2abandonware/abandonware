@@ -1,0 +1,759 @@
+                               OBJECTIVE KURSK
+
+                              TABLE OF CONTENTS
+
+ 1.0 INTRODUCTION
+        Description of Action - Talking to the Computer - Saving a Game - The Map -
+        Starting the Game (Apple) - Starting the Game (Atari)
+ 2.0 GENERAL DESCRIPTION
+        Parts Inventory - Abbreviations
+ 3.0 SEQUENCE OF PLAY
+        Determining Conditions of Play - Historical Set Up - Sequence of Play - Keeping Time -
+        Game Duration
+ 4.0 GROUP ADJUSTMENT PHASE
+        Combat Groups - Combat Units - Dividing Combat Groups - Transferring Units -
+        The Map Display - Ending the Game - Renumbering Groups
+ 5.0 SUPPY PHASE
+        Depot Movement - Supply Distribution - New Depots - Supply Usage
+ 6.0 TACTICAL PLOT - ROAD MOVEMENT PHASE
+        Selecting Combat Groups - Mode Selection - Road Movement - Plotting Tactical Movement -
+        Combat Situations - Plotting Bombardments - Plotting Recon Missions
+ 7.0 AIR MISSIONS
+        Planning Airstrikes
+ 8.0 COMBAT RESULTS CALCULATIONS
+        Weapons Systems - Disruption - Disruption Effects - Terrain Effects - Zones of Control -
+        Attack Strength Allocation - Morale Reduction
+ 9.0 TACTICAL EXECUTION & COMBAT PHASE
+        Airstrike Resolution - Bombardment & Recon Resolution - Tactical Movement -
+        Minefield Attacks - Opportunity Fire - Assault Combat - Retreats -
+        Advance After Combat - Combat Reports
+10.0 WEATHER
+        Rain - Rain Effects
+11.0 VICTORY DETERMINATION
+        Scoring - Victory Levels
+12.0 SOLITAIRE PLAY
+13.0 ORDER OF BATTLE
+14.0 STANDARD DIVISION CONTENT
+
+1.0 INTRODUCTION
+      In the Battle of Kursk the German Army committed their best armored formations in an attempt
+      to encircle and destroy the powerful Soviet forces located in the Kursk salient. The German
+      plan called for the Ninth Army to attack from the north and the Fourth Panzer Army to attack
+      from the south of the salient. OBJECTIVE KURSK is a grand tactical level game covering the
+      Fourth Panzer Army attacks against the Soviet forces on the southern flank of the Kursk
+      salient.
+1.1 Description of Action
+      Each game turn consists of 12 hours of operations. Operations consist of supplying and
+      moving combat forces, changing formations, planning assaults, air strikes and Artillery
+      bombardments and resolving combat situations.
+1.2 Talking to the Computer
+      To enter a response to the computer that consists of numbers (such as the number of bombers
+      in an airstrike) type the number into the computer and press the <RETURN> key. To select a
+      routine from a menu or answer a Yes/No question just press the desired key.
+
+      WHERE THE EXIT COMMAND IS NOT SPECIFIED, PRESS <RETURN> TO QUIT THE ROUTINE.
+
+1.3 Saving a Game
+      At the end of each player's ORDERS PHASE and at the end of each turn the computer will
+      allow the player(s) to save the game in progress. You will need a scratch disk to store
+      the saved game data. Save game disks for the Apple must be initialized for SSI use during
+      a game by following instructions included in the game program. Atari users may use any
+      disk that has been properly formatted for use on the Atari. Once a game is saved you will
+      be able to restart it at the point where you left off.
+
+      WHEN RESTARTING A SAVED GAME YOU MUST SET THE CORRECT SOLITAIRE LEVEL AND NUMBER OF
+      PLAYERS ON THE OPENING MENU.
+
+1.4 The Map
+     The game map covers the battlefields on the southern flank of the Kursk salient, from
+     kursk in the north to Belgorod in the south. Movement around the map is controlled by
+     a hexagon grid system (31 X 32 hexes) with each hexagon representing 3 miles.
+
+1.5 Starting the Game (Apple)
+     To begin the game, boot your game disk and the game will begin automatically. If you
+     are using an Apple II with Pascal you must first use your BASICS disk. If you are
+     using an Apple III you must first go into Apple II emulation mode.
+
+1.6 Starting the Game (Atari)
+     To begin the game, boot the Scenario side of your disk. After selecting the starting
+     values for your game, you will be told to insert the Game side of your disk. Remove
+     all cartridges from your computer before booting your disk.
+
+2.0 GENERAL DESCRIPTION
+
+2.1 Parts Inventory
+     a. Game box
+     b. Rule book
+     c. 5-1/4" game disk
+     d. Two map/data cards
+
+2.2 Abbreviations
+     Abbreviations used in the game are listed below:
+
+     DIV  division                   BDE  brigade                     RGT   regiment
+     BN   battalion                  GDS  guards                      MECH  mechanized
+     MOT  motorized                  PZG  panzergrenadier             INF   infantry
+     ART  artillery                  AT   anti-tank                   ARM   armor
+     SPA  self-propelled artillery   AC   armored car                 H     howitzer
+     FH   field howitzer             M    mortar                      RL    rocket launcher
+     ENGR engineer
+
+     Combat formations with names instead of numbers are abbreviated as follows:
+
+     LAH  Leibstandarte Adolf Hitler          DR   Das Reich
+     TOT  Totenkopf                           WIK  wiking
+     GD   Grossdeuchland                      VOR  Voronegh
+
+3.0 SEQUENCE OF PLAY
+     OBJECTIVE KURSK is a two-sided game: German vs. Soviet. The German forces must be commanded
+     by a human player. The Soviet forces may be commanded by either a human or the computer.
+
+3.1 Determining Conditions of Play
+
+     At the start of the game the player(s) must determine the conditions under which the game
+     will be played.
+     On the APPLE version the conditions may be changed by entering the following:
+
+     (1) NEW GAME or SAVED GAME
+     (2) 1 DISK DRIVE or 2 DISK DRIVES
+     (3) SOLITAIRE or TWO PLAYERS
+     (4) SOLITAIRE LEVEL OF DIFFICULTY
+
+     On the ATARI version
+
+     (1) NEW GAME or SAVED GAME
+     (2) SOLITAIRE or TWO PLAYERS
+     (3) SOLITAIRE LEVEL OF DIFFICULTY
+
+3.2 Historical Set-Up
+     At the start of the game the computer will assign all combat forces to their starting
+     locations prior to the battle.
+
+3.3 Sequence of Play
+
+      1. Soviet Group Adjustment Phase
+      2. Soviet Supply Phase
+      3. Soviet Tactical Plot & Road Movement Phase
+      4. Soviet Air Mission Allocation Phase
+      5. Soviet Save Game Phase
+      6. German Group Adjustment Phase
+      7. German Supply Phase
+      8. German Tactical Plot & Road Movement Phase
+      9. German Air Mission Allocation Phase
+     10. German Save Game Phase
+     11. Tactical Execution & Combat Phase
+     12. Save Game Phase
+
+3.4 Keeping Time
+     Each game turn represents 12 hours, AM turns are daylight turns and PM turns are night
+     turns. The calender day is adjusted at the start of each AM turn.
+
+3.5 Game Duration
+     The German player may end the game at any time. The game will end automatically at the end of
+     7/15/43 PM turn.
+
+4.0 GROUP ADJUSTMENT PHASE
+     During the group adjustment phase the player(s) may divide their combat groups, transfer
+     units from one group to another, view the map display or end the game.
+
+4.1 Combat Groups
+     Combat groups may contain from 1 to 5 brigades, regiments or battalions (units). Each
+     Combat Group (CG) has an identification number and a divisional designation. It is possible
+     for more than one CG to have the same divisional designation. Different CG's will never
+     have the same group identification number(ID).
+     Group ID numbers 1-63 are reserved for German CG's. Group ID numbers 64-127 are reserved
+     for Soviet CG's.
+
+     EXAMPLE: LAH SS PZG GROUP 3
+
+     The example shows the CG's divisional designation and group ID number as it would appear
+     on your display. LAH SS PZG is the divisional designation and "3" is the group ID number.
+     CG's with the designations PANZER, PZG, TANK or MECH are considered to be "mechanized"
+     groups. All other CGs are considered to be "infantry" groups. Mechanized groups will be
+     represented by an oval symbol when displayed on the map. Infantry groups will be represented
+     by an "X" symbol when displayed on the map. Mechanized groups have a greater rate of
+     movement than infantry groups.
+
+4.2 Combat Units
+     Each CG may contain from 1 to 5 combat units (CU). CU's are given a descriptive name to
+     reflect their basic function. Each CU may contain up to 6 different weapon systems.
+     Weapon systems may be either infantry, artillery or AFV
+
+     EXAMPLE: TANK BDE
+               65 T-34      12 INF
+
+     In the example a CU is shown as it would appear on your display. TANK BDE is the descriptive
+     name. The CU contains 2 different weapon systems: 65 T-34 type tanks and 12 infantry squads
+     (120 men).
+
+     EXAMPLE: ARM INF RGT
+              122 INF  16  50AT      4   75AT
+                8 75H   2 105M      12   81M
+
+     In this example ARM INF RGT is the descriptive name. The CU contains 122 infantry squads,
+     16 50mm anti-tank guns, 4 75mm howitzers, 2 105mm howitzers and 12 81mm mortars.
+
+4.3 Dividing Combat Groups
+     Enter the group ID number of the CG you wish to divide. The computer will automatically
+     select the lowest numbered "empty" group to receive the divided units. The computer will
+     then list the units in the dividing CG. Enter the unit number (0-4) for each unit you
+     wish to transfer to the new CG. When you have completed your transfers just press <Q>
+     to quit the routine. The newly formed CG will have the same divisional designation,
+     morale rating and supply level as the dividing CG.
+
+4.4 Transferring Units
+     Units may be transferred between two CGs that occupy the same hexagon on the map.
+     Both the "gaining" and "losing" CGs must have the same divisional designation.
+     Enter the group ID number of the losing CG. The computer will automatically select
+     the other CG in the hex as the gaining CG. The procedure for transferring units is
+     the same as described in 4.3. A CG may never contain more than 5 units. If the morale
+     rating of the gaining CG is greater than the morale rating of the losing CG, then the
+     morale rating of the gaining CG will be reduced to the level of the losing CG.
+
+4.5 The Map Disply
+     The map used in OBJECTIVE KURSK employs a hexagon grid 32 hexes high by 31 hexes wide.
+     Only a fraction of the map (7 hexes high by 13 hexes wide) may be viewed at one time.
+     By pressing the keys 1-6 the cursor can be moved around the map (1-N,2-NE,3-SE,4-S,
+     5-SW,6-NW). If the cursor is moved to the edge of the display then the map display
+     will scroll to reveal the hidden portions of the map. German combat group symbols
+     contain the letters "GE". Soviet combat group symbols contain the letters "SU".
+
+4.6 Ending the Game
+     The German player may elect to end the game at any time. The computer will display
+     the final score.
+
+4.7 Renumbering Groups
+     The players may renumber groups using the (R)ENUMBER GROUP routine. Only groups
+     that are currently on the map may be renumbered.
+
+5.0 SUPPLY PHASE
+     Supply points are used each time a CG moves or performs a combat function. During
+     the supply phase the player(s) move their depots to the front line areas to
+     replenish the supplies of their CGs.
+
+5.1 Depot Movement
+     German depots always start their movement on a road hex on the south edge of the map.
+     Soviet depots always start their movement on a road hex on the east edge of the map.
+     Depots always start their move with a "supply level" of 15. A depot's supply level
+     represents the maximum number of supply points it may distribute to EACH friendly CG.
+     Depots may be moved in the various directions by pressing keys 1-6 (1-N,2-NE,3-SE,4-S,
+     5-SW,6-NW). For each hex a depot moves its supply level will be decreased. The supply
+     level reduction varies with the type of terrain entered and the weather as shown below:
+
+                        CLEAR                  RAIN
+          road          1(1/4)                 4(1)
+          clear           1                     4
+          town          1(1/4)                 4(1)
+          woods           1                     4
+          gully           1                     16
+
+     The numbers shown in the parentheses indicate the supply level reduction for movement
+     along a road(from one road/town hex to another road/town hex). A depot may never move
+     adjacent to an enemy CG. German depots may never cross a river hexside during a rain
+     turn unless it is moving along a road.
+
+5.2 Supply Distribution
+     At any time during a depot's move the depot may distribute supplies by pressing the
+     (S)UPPLY key. All friendly CGs within 2 hexes of the depot may receive supplies.
+     CGs may only receive supplies once per supply phase. CGs that receive supplies will
+     disappear from the map for the remainder of the supply phase. The number of supply
+     points received by a CG will be equal to the supply level of the depot. The maximum
+     number of supply points that a CG may "carry" at one time will vary with the CGs MODE
+     (see 6.2).
+
+5.3 New Depots
+     The player(s) may request new depots at any time during the supply phase by pressing
+     (N)EW DEPOT key. The new depot will begin on the same side of the map, but on a different
+     road hex. German depots may enter on two different roads on the south edge of the map.
+     Soviet depots may enter on five different roads on the east edge of the map. the entry
+     roads will be changed each time a new depot is requested. The player should continue
+     pressing the (N) key until the depot begins in the desired area.
+
+5.4 Supply Usage
+     Combat groups use 1 supply point for each hex that they move. CGs use 1 supply point
+     each time they employ (1) bombardment fire (2) opportunity fire (3) defensive fire
+     (4) offensive fire. Unsupplied CGs may not move or perform any fire missions except
+     defensive fire (at 50% normal effectiveness).
+
+6.0 TACTICAL PLOT _ ROAD MOVEMENT PHASE
+     During the tactical plot/road movement phase the player(s) may alter the mode of
+     their CGs, perform road movement with their CGs in "road' mode, plot tactical
+     movement for CGs in "assault" or "mobile" mode or plot bombardment fire for CGs in
+     "static" mode.
+
+6.1 Selecting Combat Groups
+     Move the cursor over the CG to be moved/plotted and press the (G)ET UNIT key. The
+     computer will display the CG's designation, group ID number and mode. If there are
+     two CGs in the hex and you wish to go to other CG then press the (Q)UIT key to get
+     the bottom CG in the Stack. When you have completed your movement/plots for a CG
+     you may hit the (Q)UIT key and move the cursor to get another friendly CG. Instead
+     of the (Q)uit key you may hit the (N)EXT GROUP key and the computer will automatically
+     "get" the next highest group ID number.
+
+6.2 Mode Selection
+     A CG's mode will affect its ability to move and fight during the current turn. CGs
+     in mobile or road mode may not use their towed artillery during the current turn.
+     The movement rates and defense adjustments for each mode are shown below:
+
+                     MECH MOVE        INF MOVE       DEFENSE
+          static         0                0            x1.5
+          assault        1                1            x1.0
+          mobile         4                2            x0.75
+          road          24                6            x0.62
+
+     A CG's ability to carry supplies is affected by its mode as shown below:
+
+                                  MAX SUPPLY LEVEL
+                        static            36
+                        assault           18
+                        mobile            12
+                        road              24
+
+     You may alter the current mode of a CG by pressing the S,A,MorR keys. A CG may not
+     be placed in road mode unless it currently occupies a road or town hex. German CGs
+     may not be placed in road mode if they occupy a minefield hex. CGs may not be placed
+     in road mode if they are adjacent to an enemy CG.
+
+6.3 Road Movement
+     Only CG's in the road mode may employ road movement. When using road movement a CG may
+     only enter road or town hexes. CGs may never move adjacent to an enemy CG when using road
+     movement German CGs may never use road movement into a minefield hex. A Cg may not be
+     placed in road mode if they are currently adjacent to an enemy CG.
+
+6.4 Plotting Tactical Movement
+     All movement except road movement must be planned in advance (plotted) during the
+     TACTICAL PLOT - ROAD MOVEMENT PHASE. CGs perform their planned moves during the
+     TACTICAL EXECUTION & COMBAT PHASE. A tactical plot consists of from 1 to 4 numbers
+     with each number representing an instruction to move in a particular direction during
+     a particular TACTICAL EXECUTION segment. There are 4 movement segments during the
+     TACTICAL EXECUTION & COMBAT PHASE. The first number in the tactical plot instructs
+     the CG to move ia a particular direction during the first movement segment. The second
+     number in the tactical plot refers to the second segment,etc. Listed below is a
+     summary of the legal movement plots.
+     1. move north
+     2. move northeast
+     3. move southeast
+     4. move south
+     5. move southwest
+     6. move northwest
+     0. do not move this segment
+
+     EXAMPLE: plot 0321
+     In the example tactical plot shown above the CG would not move during segment 1. would
+     move southeast during segment 2. northeast during segment 3 and north during segment 4.
+     Only CGs in assault or mobile mode may perform tactical movement. The number of hexes
+     that may be moved using tactical movement is affected by the type of CG involved
+     (mechanized or infantry) and the CG's mode. Tactical movement allowances are shown below:
+
+                               MECHANIZED               INFANTRY
+              assault               1                       1
+              mobile                4                       2
+
+      INFANTRY CGs MAY ONLY USE TACTICAL MOVEMENT DURING MOVEMENT SEGMENTS 1 & 2.
+
+      Mechanized CGs in assauly mode may execute their 1 move during any of the four
+      movement segments (a plot of 0003 would instruct the CG to save its move until the 4th
+      movement segment). Infantry CGs in assault mode may execute their 1 move during either
+      of the first 2 segments.
+
+6.5 Combat Situations
+     Combat situations will occur whenever a CG attempts to execute a tactical move into
+     a hex occupied by an enemy CG. If more than one friendly CG attempts to enter a
+     particular enemy occupied hex during the same movement segment then these friendly
+     CGs will combine their combat strengths to attack the enemy CG(s) in the hex. An "S"
+     command may be inserted at the end of a CG's tactical plot if you want the CG to
+     attack in a particular direction but not to move or advance. The S should be the last
+     figure in the tactical plot; any instructions that appear after the S will be ignored.
+     The S command will only affect the last segment in which movement was plotted.
+
+     EXAMPLE PLOT 111S
+
+     In the example, the CG would move north during segments 1 & 2. During segment 3 the
+     CG would attack if the hex to the north is enemy occupied but would not move or
+     advance after combat. The maximum length of a tactical plot is four symbols. A
+     "2322S" plot would be treated as "2322" by the computer.
+
+6.6 Plotting Bombardments
+     Only CGs in staticmode may perform bombardments. To perform bombardment a CG must
+     contain FH (field howitzer) type weapons. Eligible CGs may bombard enemy CGs either
+     1 or 2 hexes away. Bombardments are plotted the same as tactical movement. Bombardment
+     plots must start with a "B" symbol. The 2nd(and 3rd) symbol indicate the direction the
+     guns are firing.
+
+     EXAMPLE PLOT B12
+
+     In the example plot, the target hex is located 2 hexes away: one hex in direction 1 and
+     one hex in direction 2.
+
+     EXAMPLE PLOT B3
+
+     In the example plot the target hex is located one hex away in direction 3.
+
+6.7 Plotting Recon Missions
+     CGs may perform recon missions to "observe" the contents of an adjacent hex. Recon plots
+     must start with an "R" symbol. The second symbol indicates the direction (from the CG)
+     to be searched.
+
+     EXAMPLE PLOT: R4
+
+     In the example plot, the CG will search the adjacent hex to the south. Recon missions
+     are executed BEFORE the tactical movement segments.
+
+7.0 AIR MISSIONS
+     The player(s) may assign friendly bombers to attack enemy CGs. Friendly fighters may be
+     assigned to escort friendly bombers or intercept enemy bomber missions.
+
+7.1 Planning Airstrikes
+     Each player may plan up tp 5 airstrikes each AM turn. During the air missions phase the
+     computer will display the number of friendly fighters and bombers that are available
+     that turn. The player may move the cursor to the desired target by pressing 1-6
+     directional keys. Press the (7) SELECT TARGET key when the cursor is over the hex you wish
+     to attack. The player must indicate how many bombers and how many fighter escorts will
+     participate in the airstrike. Each aircraft point equals 4 actual aircraft. Soviet airstrikes
+     may only be directed against a hex that is adjacent to a Soviet CG. After all airstrikes
+     have been planned, any fighters that have not been assigned to the escort will automatically
+     be used for C.A.P. (combat air patrol) over the battlefield. C.A.P. fighters will attempt
+     to shoot down enemy bombers before they can attack your CGs.
+
+8.0 COMBAT RESULTS CALCULATIONS
+     There are 6 types of combat that occur in the game (1) airstrike (2) bombardment
+     (3) opportunity fire (4) minefield (5) defensive fire (6) offensive fire. All forms
+     of combat use the same general method for calculating casualties:
+     attack strength/defense strength - casualties. The attack and defense strengths may
+     be modified according to the type of combat, terrain, or CG mode. Also a random
+     factor is added to all combat calculations.
+
+8.1 Weapon Systems
+     Listed below are the weapon systems used in the game including their attack strength (AS)
+     defense strength (DS) and weapon type (AT):
+
+                   AS         DS        WT                       AS           DS          WT
+     AFV                                         Towed guns
+     PZ-II          2          5        AP         170FH          4            1          HE
+     PZ-III         5          6        AP         152FH          3            1          HE
+     PZ-IV          7          6        AP         203FH          5            1          HE
+     PZ-V           8          7        AP           81M          1            2          HE
+     PZ-VI          9          9        AP           82M          1            2          HE
+     SG-III         6          7        AP          120M          2            1          HE
+     JPZ-IV         7          8        AP         132RL          4            1          HE
+     T-34           7          7        AP         150RL          4            1          HE
+     KV-1           7          8        AP
+     SU-76          6          5        AP       Infantry
+     SU-85          8          8        AP          INF           2            3          I
+     SU-152         5          9        HE          ENGR          3            3          I
+     AC             1          4        HE
+
+     Towed guns    AS         DS        WT      All systems that have a DS greater than 3 are
+     50AT           3          1        AP      considered to be AFV(armored fighting vehicle)
+     75AT           5          1        AP      target types. Systems with a DS less than 4
+     88AT           7          1        AP      are considered to be SOFT target type. AP type
+     45AT           2          1        AP      weapons are designed to destroy AFV targets
+     76AT           5          1        AP      while HE and I type weapons are designed to
+     75H            1          1        HE      destroy SOFT targets. AP weapons are assumed
+     105H           2          1        HE      to have an AS of 1 when attacking SOFT targets.
+     150H           3          1        HE      HE and I are assumed to have an AS of 1 when
+     122H           2          1        HE      attacking AFV targets. AFV type weapons are
+     152H           3          1        HE      assumed to have an AS of 6 when using OFFENSIVE
+     105FH          2          1        HE      FIRE against SOFT targets(the SU-152 has an AS
+     150FH          3          1        HE      of 10).
+
+     I type weapons have their AS enhanced when using DEFENSIVE FIRE against AFVs. If the
+     attacking AFVs outnumber the attacking INF squads(the degree of enhancement varies
+     with the attacking AFV to INF ratio).
+
+     CGs in mobile or road mode may never fire their towed gun type weapons.
+
+     During airstrike combat, each German bomber point has an AS of 3 against AFV targets
+     and an AS of 1 against SOFT targets. Soviet bombers are HALF as effective as German bombers.
+
+     During minefield attacks all targets are considered to have a DS of 4. The minefield
+     attacks with a stength of 80.
+
+     During OPPORTUNITY FIRE, HE and AP type weapons may fire using 1/2 of their normal AS.
+     I type weapons may not perform opportunity fire.
+
+     During OFFENSIVE FIRE towed gun weapons fire using 1/2 their normal AS.
+
+     During BOMBARDMENT FIRE only FH type weapons may fire using 1/2 their normal AS.
+
+8.2 Disruption
+     In addition to taking casualties, a CG will suffer "disruption" when attacked. When
+     attacking SOFT targets the disruption will be equal to the ATTACK STRENGTH/TOTAL TARGETS.
+     When attacking AFV targets the disruption will be equal to the AFV's DESTROYED/TOTAL TARGETS.
+
+     CGs that are attacked more than once in a turn will accumulate disruption points(up to 99).
+     At the start of each turn all CGs will have their disruption points returned to ZERO.
+
+     Assaulting CGs that force the defender to retreat will have their disruption level reduced
+     by their morale rating(if the morale rating is 80 then the disruption level is reduced
+     by 80%.
+
+     Assaulting CGs that fail to force the defender to retreat will have their disruption
+     reduced by one half their morale rating.
+
+8.3 Disruption Effects
+     Following OFFENSIVE FIRE, if a defending CG's accumulated disruption level is greater than
+     its morale rating and the disruption suffered by the attacker during the combat was less
+     than or equal to 89, then the defending CG will be forced to retreat. If a CG's disruption
+     level is greater than its morale rating then it will be unable to move any further that turn.
+
+8.4 Terrain Effects
+     CG's defending in a WOODS or TOWN hex will have their defense strength DOUBLED. Soviet CGs
+     defending in a MINEFIELD hex will have their defense strength DOUBLED. CGs located in a
+     GULLY hex, attacking into a non-GULLY hex will have their attacking strength HALVED.
+     CGs located in a non-GULLY hex attacking into a GULLY hex will have their attack strength
+     DOUBLED.
+
+8.5 Zones of Control
+     Every CG has a zone of control (ZOC) that consists of the hex that it occupies and the
+     six adjacent hexes. Friendly depots or CGs in road mode may never enter an enemy ZOC.
+     If a CG moves directly from one enemy ZOC into another enemy ZOC then that CG may be
+     attacked by enemy OPPORTUNITY FIRE (see 9.5). CGs may not retreat into an enemy ZOC
+     unless the retreat hex is currently occupied by a friendly CG in either static or
+     assault mode.
+
+8.6 Attack Strength Allocation
+     In most combat situations the CG being attacked will consist of several different weapon
+     systems. In calculating combat results the total attack strength is divided to attack
+     each weapon system separately. The percentage of the total attack strength to attack
+     each weapon system is equal to NUMBER IN WEAPON SYSTEM/TOTAL TARGETS
+
+     EXAMPLE: DEFENDING CG CONTAINS
+              50 INF    25 45AT    25 76AT
+
+     The total number of targets equals 100, 50% of the attack strength would attack the INF,
+     25% would attack each type of anti tank gun.
+
+8.7 Morale Reduction
+     CGs have their morale rating reduced by 1 point each time they perform an assault or
+     are attacked. CGs with morale less than 50 will gain 1 morale point at the start of
+     each turn.
+
+9.0 TACTICAL EXECUTION & COMBAT PHASE
+     During the tactical execution & combat phase (TEC phase) movement and combat functions
+     are performed in the following sequence:
+
+     1. airstrike resolution
+     2. bombardment & recon resolution
+     3. Segment 1
+        a. German movement
+        b. German attack resolution
+        c. Soviet movement
+        d. Soviet attack resolution
+     4. segment 2
+     5. segment 3
+     6. segment 4
+
+9.1 Airstrike Resolution
+     Airstrike resolution consists of (1) air to air combat and (2) bomber attacks. Air to
+     air combat consists of CAP. vs. escort combat and CAP. vs. bomber combat. The number of
+     CAP fighters to intercept each enemy airstrike is equal to 1/2 the total number of
+     fighters flying CAP. The number of CAP fighters that must fight the escort is equal
+     to the number of intercepting CAP fighters or the number of escorting fighters, Whichever
+     is LESS. The number of CAP fighters that may engage the bombers is equal to the number
+     of intercepting fighters minus the number of escorting fighters. listed below are the
+     the air to air accuracy rating for aircraft:
+
+                                    vs FIGHTER      vs BOMBER
+            German Fighter              20%             40%
+            Soviet Fighter              10%             40%
+            Bomber                       1%             --
+
+     Prior to bombing the target each bomber will have a 3% chance of being destroyed by FLAK.
+
+     Bomber attacks will cause casualties and disruption in the target CG(s). Bombers will
+     have their effectiveness enhanced if fewr than 50 CAP fighters intercepted the airstrike.
+     The bomber effectiveness adjustments are shown below:
+
+            CAP                 BOMBER EFFECTIVENESS
+             40                         x1.2
+             30                         x1.4
+             20                         x1.6
+             10                         x1.8
+              0                         x2.0
+
+9.2 Bombardment & Recon Resolution
+     Only the field howitzer (FH) type weapons may fire bombardments. Bombardment attacks
+     are resolved at 1/2 the FH weapon's normal attack strength. During PM turns, bombardment
+     effectiveness will be HALVED. Bombardments cause casualties and disruption in the target
+     CG(s). For each recon mission the computer will display the appropriate number of AFVs,
+     ARTILLERY and INFANTRY in the searched hex.
+
+9.3 Tactical Movement
+     CGs will execute tactical movement in accordance with their tactical plots. Tactical
+     movement may initiate MINEFIELD ATTACKS, OPPORTUNITY FIRE or ASSAULT COMBAT. CGs that
+     have a disruption level greater than their morale rating will be unable to execute their
+     remaining tactical plots. A CG may not move into a hex that is currently occupied by
+     two friendly CGs (its remaining tactical plot will be aborted).
+
+9.4 Minefield Attacks
+     Minefield attacks are initiated whenever a German CG attempts tp LEAVE a minefield hex.
+     Prior to the minefield attack the CG will have a chance to destroy the minefield. The
+     chance to destroy the minefield is equal to (50 + ENGR squads)/180. If the minefield
+     is destroyed then it will not attack the CG. Minefields have an attack strength of
+     80 against both AFV and SOFT targets. Minefield attacks cause both casualties and
+     disruption in the moving CG. Minefield attacks will occur against CGs that execute
+     a move plot of "0" in a minefield.
+
+9.5 Opportunity Fire
+     If a CG moves directly from one enemy ZOC into another enemy ZOC, then the CG may be
+     targeted for OPPORTUNITY FIRE. Enemy CGs that are adjacent to the hex in which the
+     moving CG started AND adjacent to the hex that the moving CG enters may fire if they
+     are in STATIC mode. Only AFV and TOWED GUN weapon systems will perform opportunity fire.
+     Opportunity fire is resolved at 1/2 of the normal attack strength. During PM turns,
+     opportunity fire attack strengths will be HALVED.
+
+9.6 Assault Combat
+     Assault combat is initiated whenever a CG attempts to enter a hex occupied by an enemy
+     CG. Assault combat is resolved at the end of the movement segment. All CGs that attempt
+     to enter the same enemy hex will combine their attack strengths. Assault combat consists
+     of (1) defensive fire (2) offensive fire (offensive and defensive fire are considered
+     to occur simultaneously). The CG(s) in the "enemy" hex combine their attack strengths to
+     perform defensive fire. During offensive fire towed gun weapons have their attack strengths
+     halved (CGs in mobile mode may not fire their towed guns).
+
+9.7 Retreats
+     Following assault combat defending CGs will be forced to retreat if their accumulated
+     disruption level is greater than their morale rating and the disruption suffered by the
+     attacker during the combat was less than or equal to 80. CGs may not retreat into an
+     enemy ZOC unless that hex is currently occupied by a friendly CG in either static or
+     assault mode. CGs may not retreat into a hex that is currently occupied by TWO friendly
+     CGs. If the defending CG(s) are unable to retreat, then they will be destroyed instead.
+     CGs that retreat have their supply level reduced to zero and are placed in mobile mode.
+
+9.8 Advance After Combat
+     Following assault combat, if the defender was forced to retreat then the attacking CG(s)
+     may advance into the vacated hex. CGs may not advance if their disruption level is
+     greater than their morale rating. A maximum of TWO of the attacking CGs may advance after
+     assault comba. CGs that FAIL to advance after assault combat will have the remainder
+     of their tactical plot canceled. CGs that advance after combat will have their disruption
+     level reduced according to their morale rating (if the morale rating is 80 then the
+     disruption level is reduced by 80%). Assaulting CGs that fail to force the defender to
+     retreat will have their disruption level reduced by 1/2 of their morale rating.
+
+9.9 Combat Reports
+     As each type of attack is being resolved the computer will display the DISRUPTION points
+     added to the defending and attacking forces.
+
+10.0 WEATHER
+      The weather may be either CLEAR or RAIN. The weather is subject to change at the start
+      of each turn.
+
+10.1 Rain
+      There is a 10% chance that it will rain each game turn. Rain hinders CG movement and
+      supply operations.
+
+10.2 Rain Effects
+      On rain turns, streams turn into rivers and gullys turn into swamps. CGs must use their
+      engineers to bridge the rivers and clear paths through the "swamps". CGs attempting to
+      cross a river or exit a gully hex during a rain turn will suffer disruption. The greater
+      the number of engineers in the group, the smaller the amount of disruption incurred.
+      A maximum disruption level of 90 will be suffered for each hex moved. Rain has no effect
+      on road movement. Rain QUADRUPLES the movement penalty for supply depots.
+
+
+11.0 VICTORY DETERMINATION
+      At the end of the game the computer calculates the score. Victory is determined based
+      upon point differntials.
+
+11.1 Scoring
+      Victory Points (VPs) are awarded for the control of towns and for surviving combat
+      forces. A town is controlled by the player who last had a CG or supply depot move
+      onto the town (i.e., a town need not be garrisoned in order for it to be under a
+      player's control). Listed below are the VPs awarded for control of each town on the map:
+
+      Lgov            10000                Oboyan            10000
+      Kursk           25000                Shehlgry          10000
+      Belgorod        25000                Prokhorovka        5000
+      Sudzha           5000                Korocha            5000
+
+      Points awarded for each surviving WEAPON are equal to the weapon's AS plus its DS
+
+      EXAMPLE: PZ-VI - 18 VPs (9 + 9)    88AT - 8 VPs (7 + 1)
+
+11.2 Victory Levels
+      To determine the victory level subtract the total German VPs from the total Soviet VPs
+      and compare the result to the following table:
+
+       20000 or  less                       German Decisive
+       20001 to  40000                      German Substantive
+       40001 to  60000                      German Marginal
+       60001 to  80000                      Draw
+       80001 to 100000                      Soviet Marginal
+      100001 to 120000                      Soviet Substantive
+      120000 or  more                       Soviet Decisive
+
+12.0 SOLITAIRE PLAY
+      When playing solitaire games the computer will command the Soviet forces. There are 4
+      levels of solitaire difficulty. The level of difficulty is determined when starting a
+      new game and may be altered when restarting a saved game. As the level number is
+      DECREASED the Soviet minefields will become more effective and Soviet reinforcements
+      will arrive sooner (reinforcements will arrive 2 turns EARLIER for each level
+      DECREASED and 2 turns LATER for each level INCREASED). These levels may be used to
+      handicap a two-player game if desired. Level 3 is considered "historical" level.
+      It is possible to start a game in solitaire mode save it and restart it as a two-
+      player game. To do this set the main menu to two-player mode before reloading the
+      saved game data. It is possible to save a two-player game and restart it as a solitaire
+      game. This should only be done expermentally as the computer may be confused by many
+      human devised deployments.
+
+13.0 ORDER OF BATTLE
+
+      GERMAN                                               Soviet Reinforcements
+      52 Korps: 57,255,332 infantry                        69 Army:107,111,183,270,305 Rifle(turn7)(D)
+      48 PZ Korps: 3, 11 Panzer: GD PZG:167 Infantry       Voronezh Front Reserve(turn 6)
+      Group Raus: 106,320 Infantry                         2 GDs Tank(D) 4 GDs Tank(B) 5 GDs Tank(C)
+      2 SS PZ Korps: LAH,DR, TOT SS PZG                    5 GDs Tank Army (turn6)
+      3 PZ Korps: 6,7,19 Panzer:168 Infantry               5 GDs Mech(B) 18 Tank(A) 29 Tank(C)
+
+      Reinforcements
+      WIK SS PZG (turn 8)(E)
+      23 Panzer (turn 10)(E)
+      16 PZG (turn 12)(E)
+
+      SOVIET
+      40 Army:141,142,142,144,145,146,309 Rifle:
+      40 Army Artillery
+      6 GDs Army: 66,67,68,69,70,71,89 GDs Rifle
+      6 GDs Army Artillery
+      7 GDs Army: 72,73,74,75,76,77 Gds Rifle:213 Rifle
+      7 GDs Army Artillery
+      1 Tank Army: 3 Mech: 3,6 Tank
+      Voronezh Front:105,106,108 GDs Rifle
+      Voronezh Front Artillery
+
+
+14.0 STANDARD DIVISION CONTENTS
+
+     GERMAN*              MORALE        AFV         GUNS        INF
+
+     PZG                    90          246          222        382
+     SS PZG                 90          220          222        370
+     PZ                     80          172          174        306
+     INF                    70           0           222        438
+
+     SOVIET               MORALE        AFV         GUNS        INF
+
+     GDS MECH               90          261          278        566
+     GDS TANK               85          250          166        302
+     MECH                   80          240          278        554
+     TANK                   75          250          166        302
+     GDS RIFLE              75           0           192        514
+     RIFLE**                65           0           156        460
+     ARTILLERY              50           0           356         0
+
+     * Some German divisions are understrength (especially those entering the game
+       as reinforcements).
+
+     ** Most Russian rifle divisions are understrength(in many cases by as much as 50%).
+
+
+CREDITS
+
+  Game Design and Programming: Gary Grigsby
+  Game developement: Joel Billings
+  Historical Research: Michael Musser
+  Customized Disk Operating System: Roland Gustafason
+  Art & Graphic Design: Louis Hsu Saekow, William Carman and Kathryn Lee
+  Typesetting: Abra Type
+  Printing: A&a Printers and Lithographers
