@@ -1,0 +1,976 @@
+War In Russia Page 
+War In Russia
+ 1.0  Introduction...........................1
+ 2.0  General Description....................1
+ 3.0  Sequence of Play.......................1
+ 4.0  Group Adjustment Phase.................1
+ 5.0  Supply.................................3
+ 6.0  Movement...............................3
+ 7.0  Tactical Execution - Combat Phase......4
+ 8.0  General Operations.....................5
+ 9.0  Victory Conditions.....................7
+10.0  Solitaire Play.........................7
+1.0  INTRODUCTION
+WAR IN RUSSIA is an operational level game featuring combat between 
+Axis and Soviet armies in Russia from 1941-44. Every combat division/corps 
+available to the Axis and Soviet commanders is now under your control. 
+Included are campaign games for Barbarossa (1941), Case Blue (1942) and 
+Zitadelle (1943).
+1.1  Description of Action:
+Each game turn is one week in length. A game turn consists of: (1) 
+building and adjusting friendly combat groups; (2) supplying and moving your 
+combat groups; (3) plotting air strikes and tactical movement; (4) 
+tactical/combat resolution.
+1.2  Talking to the Computer:
+To enter a response to the computer that consists of numbers (such as 
+combat group identification numbers) type the number into the computer and 
+press the <RETURN> key. To select a routine from a menu or answer a Yes/No 
+question, just press the desired key.
+1.3  Saving a Game:
+At various points during each game turn the computer will allow the 
+player(s) to save the game in progress. You will need a scratch disk to store 
+the saved game data. The disk must be initialized for SSI use during the game 
+by following instructions included in the game program (Atari owners may use 
+any Atari formatted disk). Once a game is saved you will be able to restart 
+it at the point you left off.
+1.4  The Map:
+The map is a 31 x 32 hex grid representation of western Russia. Each 
+hex measures 50 miles in width.
+1.5  Starting the Game (Apple DOS 3.2 or 3.3)
+To begin the game, boot the Scenario side of your disk. The game will 
+begin automatically. After selecting the starting values for your game, you 
+will be told to insert the game side of your disk. If you are using an Apple 
+II with Pascal, you must first use your BASICS disk. If you are using an 
+Apple III, you must first go into Apple II emulation mode.
+1.6  Starting the Game (Atari):
+Remove all cartridges, then insert the game disk in drive 1 and turn on 
+the computer. If you own an Atari 800XL, hold down the OPTION key while 
+booting.
+2.0  GENERAL DeSCRIPTION
+2.1  Parts Inventory:
+A. Game box
+B. Rule Book
+C. 5 1/4 " game disk
+D. Two map data cards
+2.2  Abbreviations:
+Abbreviations used in the game are explained below:
+INFinfantry
+MOTmotorized infantry
+PZGpanzer grenadier
+PZpanzer
+CAV cavalry
+MECHmechanized
+GDSguards
+MTNmountain infantry
+JGJager (light infantry)
+LWLuftwaffe infantry
+PARAparachute infantry
+ITItalian
+FINFinnish
+RUMRumanian
+HUNHungarian
+The following abbreviations are for the Axis divisions with names 
+instead of numbers:
+SLOSlovakian
+G.DGrossdeutchland
+LAHLiebstandarte Adolph Hitler (1 MOT div)
+D.RDas Reich (2 SS MOT div)
+TOTTotenkopf (3 SS MOT div)
+POLPolizei (4 SS INF div)
+WIKWiking (5 SS MOT div)
+NORNord (6 SS MTN div)
+P.EPrinz Eugen (7 SS MTN div)
+F.GFlorian Geyr (8 SS CAV div)
+HOHHohenstauffen (9 SS MOT div)
+FRUFrundsberg (10 SS MOT div)
+N.LNordland (11 SS MOT div)
+H.JHitlerjugend (12 SS MOT div)
+HANHandscar (13 SS MTN div)
+GALGaliz #1 (14 SS INF div)
+LETLett #1 (15 SS INF div)
+R.FReichsfuhrer (16 SS MOT div)
+G.BGotz von Berlichingen (17 SS MOT div)
+H.WHorst Wessel (18 SS MOT div)
+3.0  SEQUENCE OF PLAY
+WAR IN RUSSiA is designed to be a two-sided game: Axis vs. Soviet. The Axis 
+forces must be commanded by a human player. The Soviet forces may be 
+commanded by either a human or the computer.
+3.1  Scenario Selection Phase:
+During the scenario selection phase, the player(s) select a scenario 
+and determine the conditions under which the game will be played.The set-up 
+may be changed by entering the following numbers:
+(1) New Game or Saved Game
+(2) l Disk Drive or 2 Disk Drives
+(3) Solitaire or Two-player
+(4) Solitaire Level of Difficulty (1-4)
+The scenario may be altered by entering the following numbers:
+(5) Barbarossa (Jun 22 1941)
+(6) Case Blue (Jun 29 1942)
+(7) Zitadelle (July 4 1943
+The Atari version does not allow the use of 2 disk drives. Instead the 
+user is allowed to choose between normal delay loops or fast (short) delay 
+loops during the display of combat results
+3.2  Scenario Set-up:
+At the start of each game the computer will assign all combat units to 
+their historical starting locations.
+3.3  Sequence:
+A. Axis Group Adjustment/Build Phase
+B. Soviet Group Adjustment/Build Phase
+C. Soviet Supply Phase
+D. Soviet Movement/Tactical Plot Phase
+E. Axis Supply Phase
+F. Axis Movement/Tactical Plot Phase
+G. Tactical Execution/Combat Phase
+4.0  GROUP ADJUSTMENT-BUILD PHASE
+During the Group Adjustment-Build Phase of each turn the players may 
+adjust the composition of their combat and air groups; build new units. 
+factories and rail hexes; and view the current situation using the map 
+displays.
+4.1  Combat Groups:
+There are two types of combat groups: (1) mechanized, (2) infantry. 
+Axis mechanized groups will be assigned identification numbers 1 - 11. Axis 
+infantry groups will be numbered 12 - 51. Soviet mechanized groups will be 
+numbered 64 - 75. Soviet infantry groups will be numbered 76-115. Combat 
+groups may contain from 1-6 units (divisions or corps). Mechanized groups may 
+only contain the following types of units: PZ, PZG, MOT, TANK, and MECH (the 
+1 C IT MOT unit may not be placed in a mechanized group). Infantry groups may 
+contain any type of unit.
+During the Group Adjustment Phase the unit composition of friendly 
+combat groups may be altered using the following menu routines: (1) DIVIDE 
+GROUP, (2) TRANSFER UNIT, (N) NAVAL MOVEMENT.
+4.2 Air Groups:
+Each air group may contain from 0-255 aircraft points. Aircraft points 
+represent approximately 10 combat aircraft of various types. Axis air groups 
+will be numbered 52 - 57. Soviet air groups will be numbered 116 - 121. 
+Aircraft points may be transferred between friendly airfields using the menu 
+routines (3) TRANSFER AiRCRAFT.
+4.3 Dividing Combat Groups:
+A combat group may be divided using the menu routine (1) DIVIDE GROUP. 
+You may not divide a group that is currently stacked with another group.
+Enter the number of the group you wish to divide. When the computer 
+prompts, select the type of new group to be formed (If there are no unused 
+group numbers of that type then the computer will abort your divide group 
+attempt). The component units of the dividing group will be listed, numbered 
+0 - 6. Enter the number of a unit you wish to transfer and press <RETURN>. 
+Continue the process until you have transferred all of the desired units. 
+Press <RETURN> to go back to the main menu. If the dividing group loses all 
+of its component units then it will be removed from the map.
+If the dividing group contains artillery points then you will be 
+allowed to transfer some or all of these points to the new group.
+4.4  Transferring Units:
+Units may be transferred between two combat groups that occupy the same 
+hex using the menu routine (2) TRANSFER UNIT. The computer will prompt you to 
+enter the numbers of the gaining and losing groups. The computer will list 
+the component units of the losing (top) and gaining (bottom) groups, numbered 
+0 - 6. Enter the number of the unit you wish to transfer and press <RETURN>. 
+Continue the process for each unit you wish to transfer. Press <RETURN> to go 
+back to the main menu. The gaining group may never contain more than six 
+units. If the losing group transfers all of its units then it will be removed 
+from the map.
+If the losing group contains artillery points then some or all may be 
+transferred to the gaining group.
+4.5  Transferring Aircraft:
+Aircraft points maybe transferred between friendly air groups using the 
+menu routine (3) TRANSFER AIRCRAFT. The computer will display the number of 
+aircraft points available in each air group. The computer will prompt you to 
+enter the numbers of the losing and gaining air groups and then the number of 
+aircraft points you wish to transfer. You may transfer a maximum of 50 
+aircraft points per turn. An air group may contain a maximum of 255 aircraft 
+points.
+Both players will periodically receive aircraft reinforcements which 
+will be added to their air reinforcement pool. To transfer aircraft points 
+from the pool into an air group use the TRANSFER AIRCRAFT routine and type 
+"R" as the losing group (this will count towards the maximum of 50 
+transferable aircraft points).
+4.6  Map Display:
+The players may view the map and the status of their forces using the 
+menu routine (4) MAP DISPLAY. The game map is 31 hexes wide and 32 hexes high 
+yet only a 13 x 7 hex section can be shown on the screen. The map can be made 
+to scroll across the screen by moving the white cursor to the appropriate 
+edge of the map. The cursor can be moved by typing the numbers 1 - 6 (1 = 
+north, 2 = northeast, 3 = southeast, 4 = south. 5 = southwest, 6 = 
+northwest). The units on the map may obstruct your view of the terrain in 
+their hex. To view the map without any units press (T): Press <SPACE> and the 
+map will return to normal.
+To view the contents or find the identification number of friendly 
+groups on the map, move the cursor on top of the group (or stack) and press 
+(L) to look. The identification number of the group(s) will be displayed 
+along with the component units STRENGTH, EXPERIENCE, and FATIGUE. The group 
+artillery strength and entrenchment level will also be displayed.
+4.7  Strategic Map Display (Apple only) :
+To view the entire map on one screen use menu routine (5) STRATEGIC MAP 
+DISPLAY.
+4.8  Building Factories:
+The players may build factories on turns in which they have 1 or more 
+points in their completed factory pool. To build factories use menu routine 
+BUILD FACTORY. The computer will list the eligible cities and the number of 
+factories of each type that the city currently supports. Enter the number of 
+the city where your factory will be built.You may build 4 types of factories: 
+(1) Heavy Industry, (2) vehicle, (3) artillery, (4) aircraft. You may 
+continue building factories until the factory pool reaches zero.
+The BUILD FACTORY routine may also be used to dismantle factories. 
+Enter the number of the city whose factories should be dismantled. There is a 
+random chance that some or all of the factories will be successfully 
+dismantled. Dismantled factories will be converted into construction points 
+ranging from 1 to 5 (see section 8.5). Only one city per turn may attempt to 
+dismantle factories.
+4.9  Building Units:
+New units may be built using the menu routine BUILD UNIT. New units 
+must be built in a friendly controlled city with a population greater than 
+zero (this city may not be adjacent to an enemy unit). The computer will list 
+the cities that meet the above criteria. Enter the number of the city in 
+which you will build the new unit(s). You will be prompted to enter the type 
+of group (mechanized or infantry) in which the new unit will be built. In 
+situations where building would create an overstack situation or if all of 
+the group numbers for the selected group type are being used then the 
+computer will abort the build attempt. The total number of units controlled 
+by a player may never exceed 199.
+The Soviet player may build MECH, TANK and RIFLE type units. The Axis 
+player may build PZ, INF, and elite SS type units. The Axis player starts the 
+game with four elite SS units (LAN, DR, TOT and WIK). Starting in 1943 the 
+Axis player may build THREE additional elite SS units (HOH, FRO and HJ).
+In 1941 when the Soviet player selects a RIFLE unit to be built there 
+is a random chance that a CAV unit will be built instead. In 41 and 42 when 
+the Axis player selects an INF unit to be built there is a random chance that 
+a MTN unit will be built instead. In 43, 44 and 45 when the Axis player 
+selects an INF unit to be built there is a random chance that a LW INF, SS 
+INF, SS MTN, or SS CAV unit will be built instead. In 43, 44 and 45 when the 
+Axis player selects a PZ unit to be built there is a random chance that an SS 
+PZG unit will be built instead.
+The computer will display the maximum combat strength for the type of 
+unit to be built. You will be prompted to enter the strength points to be 
+placed in the new unit (this number must be at least 10 and must be a 
+multiple of 10). Infantry and vehicle points must be spent to build combat 
+points. Listed below is the cost per combat point for each type of unit:
+ infantry  vehicle
+INF10
+RIFLE10
+MTN10
+CAV10
+MOT11
+PZG11
+PZ11
+TANK11
+MECH21
+SS elite21
+The computer will not allow combat points to be built without adequate 
+totals in the infantry and vehicle pools.
+Listed below are the starting experience and maximum strengths for each 
+type of unit:
+EXPERIENCE   STRENGTH
+INF (41-42)70 70
+INF (43-44)10 90
+SS INF10 90
+MTN10 60
+SS MTN10 90
+CAV10 60
+SS CAV10 90
+JG10 60
+LW INF10 60
+PZ10150
+SS PZ90200
+PZG10130
+SS PZG10140
+SS PZG elite90200
+MOT10100
+SS MOT elite90140
+IT MOT10100
+IT INF10 60
+RUM INF10 60
+RUM CAV10 60
+RUM MTN10 60
+HUN INF10 60
+FIN INF10120
+RIFLE10 90
+GDS  RIFLE10120
+CAV (41-42)10 60
+CAV (43-44)10 90
+GDS CAV10120
+PARA10120
+TANK (1941)10 60
+MECH (1941)20 90
+TANK (42-44)10120
+GDS TANK10140
+MECH (42-44)70150
+GDS MECH70180
+All German units built in 1941 or 42 will have a starting experience of 
+70.
+4.10  Naval Movement:
+Players may transfer friendly units by sea using the menu routine (N) 
+NAVAL MOVEMENT. Naval movement may be performed between two friendly ports 
+adjoining the same body of water. Listed below are the ports for each body of 
+water:
+BLACK SEAOdessa
+Sevastapol
+Krasnodar
+BALTIC SEAKonigsberg
+Riga
+Helsinki
+WHITE SEAMurmansk
+Archangel
+A player may transfer only one unit per turn in each body of water. The 
+Soviet player may never use naval movement in the Baltic Sea. Naval movement 
+is not allowed in the White Sea during COLD and VERY COLD weather.
+Infantry groups must be present on both of the ports involved. These 
+will be the gaining and losing groups requested by the computer in the NAVAL 
+MOVEMENT routine (the procedure is the same as the transfer units routine). 
+TANK, MECH, PZ, PZG, MOT, and FIN INF units may never use naval movement.
+4.11  Ending the Game:
+To end a game ahead of schedule use menu routine (X) END GAME. Both 
+players should agree before ending the game. The computer will display the 
+final score.
+5.0  SUPPLY
+Combat units must be in supply to remove fatigue, receive replacements 
+and build up artillery. Air groups must be in supply to be eligible for 
+strike or interception missions. All supply actions revolve around the use of 
+friendly depot units.
+5.1  Depot Units:
+Axis depots are numbered 58 - 63. Soviet depots are numbered 122-127.
+5.2 Depot Movement Phase:
+At the start of the depot movement phase all friendly depots will be 
+automatically returned to their designated starting hexes. If the depot's 
+starting hex is currently controlled by the enemy then the depot may not be 
+used during the current turn.
+During the Depot Movement Phase depot units must be moved sequentially. 
+A depot must complete its move before the next higher numbered depot can 
+start its move. Depot units may enter friendly rail, friendly city, clear and 
+enemy rail hexes only. Depot units may never enter enemy zones of control 
+(see 6.10). A depot pays no penalty for entering friendly rail and city 
+hexes. For each clear or enemy rail hex a depot enters it will lose some of 
+its ability to remove fatigue from friendly units.
+When a depot ends its move it will distribute supplies to every 
+friendly unit within two hexes of the depot's ending location. All friendly 
+units that were eligible to receive supplies will be considered IN-SUPPLY for 
+the remainder of the turn. Friendly combat groups that receive supplies may 
+have fatigue reduced in each of its component units. The amount of fatigue 
+removed from each unit varies with the number of penalty hexes (clear, enemy 
+rail) the depot entered during depot movement:
+PENALTY HEXESFATIGUE REMOVED
+050%
+133%
+225%
+320%
+417%
+514%
+612%
+During depot movement a depot may enter a maximum of 4 penalty hexes. 
+For fatigue removal purposes 2 is added to the number "penalty hexes" for 
+Axis depots during RAIN or VERY COLD (in 1941) weather. For fatigue removal 
+purposes 1 is subtracted from the number of "penalty hexes" for each 1000 
+vehicles a player has in his pool.
+If you move a depot incorrectly and you wish to start over, press the 
+(A) key to abort.
+MOT, PZG, PZ, MECH and TANK type units that have fatigue reduced will 
+consume 2 supply points. Other units that have fatigue reduced will consume 1 
+supply point. If the supply pool reaches zero then there will be no fatigue 
+reduction for the remainder of the turn. A players supply pool will not be 
+displayed, but supply points produced during the production phase maybe 
+accumulated up to a maximum of 255 supply points. An "*" will be displayed 
+during supply distribution for each supply point consumed.
+Combat groups may only receive supplies (remove fatigue) once per turn. 
+The players have the option of using the Auto-Move function at the start of 
+each depot's move. Using auto-move a depot will automatically retrace its 
+previous move until it enters a hex that is not a friendly rail or friendly 
+city.
+After each depot has been used to distribute supplies it will be 
+removed from the map until the start of next turn's depot movement phase.
+5.3  Building Rail Hexes:
+During the depot movement phase depots may be used to build friendly 
+rail hexes. Move the depot to the desired hex and press (B) to build. If the 
+necessary conditions are met then a rail hex will be built in the designated 
+hex at the start of the next turn.
+Rail hexes may only be built in clear or enemy rail hexes. Rail hexes 
+will not be built on the following turn if the weather is RAIN for that turn.
+The Axis player must alternate his rail construction between the area 
+north of hexrow 21 (inclusive) and the area south of hexrow 21 (exclusive). 
+On the first turn the Axis player may only designate a hex in the southern 
+area for rail construction; on the second turn he may only designate a hex in 
+the northern area, etc.
+Depots that are used to designate rail construction will be returned to 
+their starting hex and may be moved again to distribute supplies.
+A maximum of one rail hex may be built by each player at the start of 
+each turn. If you designate more than one hex for rail construction then only 
+the last hex designated will be used. During the depot movement phase the 
+message (B)UILD RAIL will be displayed in inverse to remind that a rail 
+construction hex has not been designated for the current turn.
+5.4  Supply Scan:
+The (S)UPPLY SCAN function may be used during depot movement to show 
+which friendly groups have NOT received supplies. The supply scan erases all 
+friendly SUPPLIED groups from the display.
+8.0  MOVEMENT - TACTICAL PLOT PHASE
+During the Movement - Tactical Plot Phase friendly units may receive 
+replacement; combat groups may build up artillery, entrench, plot tactical 
+movement, or conduct strategic movement; air groups may move or plot air 
+strikes.
+8.1  Group Selection:
+To perform any of the actions listed above you must first select the 
+desired group. The computer will display the map; move the cursor on top of 
+the group or stack you wish to select and press (G) to get the group. If you 
+(G)et a stack and the computer selects the wrong group then press (Q) and the 
+computer will select the other group in the stack. When you have concluded 
+your actions with a group you may press (Q) and move the cursor to a 
+different group or press (N) and the computer will automatically select the 
+next higher numbered friendly group.
+After you have selected a unit the computer will list the following 
+menu options: MOVE 1 - 6 for strategic movement, (E)XAMiNE to check the 
+contents of the group. (R)EPLACE to add replacements or artillery, TAC (P)LOT 
+to plot tactical movement. (X)RAIL MOVE to use rail movement. (N)EXT UNIT to 
+select the next sequential group. (A)BORT to start over after a botched move, 
+and (T)ERRAIN to erase all groups from the map and view terrain.
+Also shown on the display are the CURRENT PLOT (which applies only if 
+you have plotted tactical movement) and group STATUS. Listed below are the 
+status codes and their descriptions:
+U  Unsupplied, group may move or entrench up to level 3
+S  Supplied. group may move, entrench, add replacements or artillery
+M  Moved. group eligible to continue strategic movement
+N  No actions allowed
+6.2  Strategic Movement:
+Strategic movement may be performed by air and combat groups. Combat 
+groups that use strategic movement may not plot a tactical move, build up 
+artillery, or entrench on the same turn. A group may not receive replacements 
+after it has used strategic movement. Air groups that use strategic movement 
+may not fly combat missions in the same turn. Groups that use strategic 
+movement will return all of their artillery to the artillery pool (see 8.11) 
+and lose their entrenchments.
+The number of hexes that maybe moved by the various group types is as 
+follows:
+Mechanized4
+Infantry2
+Air1
+To move a selected group, enter a number 1 - 6 (1 = north, 2 = 
+northeast. 3 = southeast, 4 = south, 5 = southwest. 6 = northwest). A group 
+may continue moving until it has used its movement allowance, enters a swamp 
+or mountain hex or enters an enemy zone of control (ZOC). The computer will 
+automatically abort a group's move if any of it's component units exceed 94% 
+fatigue.
+Air groups may only enter clear, friendly rail, friendly city and enemy 
+rail hexes during strategic movement. Air groups may not enter an enemy ZOC 
+unless a friendly entrenched combat group is in the hex. Combat groups that 
+are OUT OF SUPPLY may move a maximum of 1 hex during strategic movement. 
+Groups that begin their move on friendly rail or city hexes are considered IN 
+SUPPLY for strategic movement purposes.
+6.3  Rail Movement:
+Rail movement is a form of strategic movement. To use rail movement a 
+selected group must begin its move on a friendly rail or city hex. During 
+rail movement a group may only enter friendly rail and city hexes. Groups may 
+never enter enemy ZOCs when using rail movement. Within the above listed 
+restrictions there is no limit to the distance a group may travel using rail 
+movement. A maximum of 3 groups per turn may use rail movement (excluding 
+depots moved during the Depot Movement Phase).
+6.4  Replacements:
+Friendly combat groups that are in supply may receive replacements (in 
+multiples of 10) to enhance/rebuild the strength of their component units. 
+Groups must receive replacements BEFORE adding artillery or using strategic 
+movement. Groups may receive replacements after they plot tactical movement.
+The cost for adding replacement points is the same as the cost for 
+building new combat points (see 4.9). A unit's experience will be reduced 
+when replacements are added (see 8.2).
+6.5  Artillery Build-ups:
+Friendly combat groups that are in supply may build up their artillery 
+strength. Use the (R)EPLACEMENT routine for the selected group and press (6) 
+to add artillery. Thirty artillery points will be added to the selected group 
+(if the artillery pool contains less than 30 points then the remainder of the 
+pool will he added). A group may add artillery only once per turn. After 
+adding artillery a group may not move or add replacements for the remainder 
+of the turn.
+6.6  Tactical Movement Plot:
+Tactical movement is plotted during the Movement-Tactical Plot Phase 
+and executed during the Tactical Execution-Combat Phase. Mechanized groups 
+may move 2 hexes and infantry groups 1 hex per turn using tactical movement. 
+A tactical plot is a simple instruction 1 - 3 characters in length that 
+defines a group's movement during the execution phase. Numerical characters 1 
+- 6 are used to plot movement in a particular compass direction (see 6.2). 
+The letter "S" at the end of a plot instructs the group to attack in the 
+plotted direction but NOT to move. If an "S" is included in the middle of a 
+movement plot then the remainder of the plot will be ignored (a "5S6" plot 
+would be interpreted as a "5S"). The letter "B" at the end of a movement plot 
+instructs the group NOT to move or attack but only to fire an artillery 
+bombardment. A "2B" plot would instruct the group to bombard the adjacent hex 
+northeast of the firing group. A "O" plot instructs the group to do nothing 
+(pause) for one tactical movement segment.
+Mechanized groups may move twice (one hex per segment, see 7.0) during 
+tactical execution; infantry groups may move once. Non-combat groups may not 
+move during tactical execution.
+Examples of legal mechanized group plots areas follows: (A)1 (B)2S 
+(C)34 (D)56S (E)2B.
+Examples of legal infantry group plots are as follows: (G)4 (H)5S (I)1B.
+Combat will occur during tactical execution whenever a group attempts 
+to move into a hex occupied by an enemy group. For a group to attack an enemy 
+group in an adjacent hex to the northeast, movement plot (B) shown above 
+could be used. If the defending unit is forced to retreat during combat. the 
+"S" at the end of the plot would instruct the attacking group NOT to advance 
+into the vacated hex. In example (D) shown above, the "S" at the end of the 
+plot applies only to combat that occurs during the second tactical move. 
+Enemy ZOCs have no effect on tactical movement.
+TACTICAL PLOT SUMMARY
+1 - 6 (d)irection
+S(S)top
+B(B)ombardment
+0(p)ause
+LEGAL INFANTRY GROUP PLOTS:
+d, dS, dB
+LEGAL MECHANIZED GROUP PLOTS:
+d, dS, dB, dd, ddS, ddB, pd, pdS
+6.7  Stacking:
+A maximum of two friendly groups may be stacked in a single hex. In 
+strategic or tactical movement a group may never enter a hex occupied by two 
+friendly groups (of any type). During depot or rail movement groups may pass 
+through a hex that contains two other friendly units but may not stop in an 
+overstacked hex. Groups may not retreat into an overstacked hex after combat.
+6.8  Entrenchment:
+After all moves have been completed the computer will attempt to 
+entrench all of your eligible units. Groups that used strategic or rail 
+movement or plotted tactical movement are not eligible to entrench.
+There are six levels of entrenchment (0 - 5). Each eligible unit has a 
+50% chance of achieving its next higher level of entrenchment.
+Groups in level 3 or 4 entrenchments may not achieve a higher level if 
+OUT OF SUPPLY. Groups with entrenchment levels 0 - 2 may achieve a higher 
+level regardless of their supply state.          
+6.9  Plotting Air strikes:
+Air strikes are plotted during the Movement-Tactical Plot Phase and 
+resolved during the Tactical Execution-Combat Phase. Air groups that are 
+IN-SUPPLY and did not move during the turn are eligible to plot air strikes.
+For each eligible friendly air group the computer will display the map 
+with the cursor on the group's location. By pressing the direction keys 1-6 
+you may "fly" the cursor to a target hex and then press (B) to bomb an enemy 
+city (to destroy factories) or (G) to ground attack enemy group(s) in the 
+hex. For air strike purposes, Axis air groups have a maximum range of 4 
+hexes; Soviet air groups have a maximum range of 3 hexes.
+When "flying" the cursor to the target hex use the most direct route 
+possible. If you make a mistake in moving the cursor then use the (A)BORT key 
+and start over. If you do not want an air group to plot an air strike then 
+press (Q) and the program will move to the next eligible air group.
+5.10  Zones of Control:
+All groups on the map have a zone of control (ZOC). Each group projects 
+a ZOC into the 6 adjacent hexes. ZOCs have no effect on tactical movement. 
+during strategic movement combat groups must stop when entering an enemy ZOC. 
+Combat groups may retreat into an enemy ZOC only if the retreat hex is 
+occupied by a friendly entrenched group. Depots may never enter an enemy ZOC. 
+Groups may never enter an enemy ZOC using rail movement. Groups may move 
+directly from one enemy controlled hex to another enemy controlled hex only 
+if the destination hex is occupied by a friendly ENTRENCHED group. Airfields 
+may only enter an enemy ZOC if the hex contains a friendly entrenched group.
+7.0  TACTICAL EXECUTION - COMBAT PHASE
+During the Tactical Execution - Combat Phase the moves/attacks 
+previously plotted will be executed using the following sequence:
+(1)  Air strike Resolution
+ (2)  First Player Determination
+(3)  First Player Movement
+(4)  First Player Attack Resolution
+(5)  Second Player Movement
+ (6)  Second Player Attack Resolution
+(7)  First Player Mechanized Movement
+(8)  First Player Attack Resolution
+(9)  Second Player Mechanized Movement
+    (10)  Second Player Attack Resolution
+7.1  Air strike Resolution:
+Air strike will be resolved using the following sequence:
+(1) Air to Air Combat Resolution
+(2) Bombing/Ground Attack Resolution
+In air to air combat each supplied enemy air group within 2 hexes of 
+the target hex will intercept the bombing group (air units that moved may not 
+intercept during the same turn). Bombing groups with a fighter escort will 
+suffer fewer losses in air to air combat and inflict higher losses on the 
+intercepting (defending) fighters. Air strikes with a range of 2 or less from 
+their home base will automatically have a fighter escort. Intercepting air 
+groups that had also plotted an ESCORTED air strike on the same turn will 
+intercept at only 1/2 of their aircraft strength. Axis air groups will be 
+TWICE as effective as Soviet air groups in air to air combat.
+Following air to air combat the bombing air group will suffer 1 to 3% . 
+"flak" losses prior to attacking the target. If the target is an enemy city 
+then the bombers will attempt to destroy factories. It will require 50 
+aircraft points to have a 50% chance of destroying 1 enemy factory. The 
+MAXIMUM number of factories that may be destroyed is equal to BOMBiNG 
+AIRCRAFT POINTS / 50, fractions rounded up. If the target is an enemy air 
+group then the target air group will suffer approximately 1 aircraft point 
+loss for every 10 bombing aircraft points. If the target is an enemy combat 
+group then approximately 1 fatigue point will be added and 1% strength point 
+losses will be suffered by each of the target group's component units for 
+every 5 attacking aircraft points. Soviet bombers will be one-half as 
+effective as Axis bombers (the examples given above are for German bombers).
+In poor weather there is a chance that overcast will obscure the target 
+and prevent the attack. The chance of overcast for each type of weather is: 
+CLEAR-0%. COLD-20%, VERY COLD-40%, RAIN-60%. Poor weather will also reduce 
+the effectiveness of air attacks as follows: COLD-50%. VERY COLD-67%, 
+RAIN-75%.
+7.2  First Player Determination:
+Prior to executing the tactical movement plots the computer will 
+determine which player will be the first player for the current turn. In the 
+early years of the war (41-42) during clear weather the Axis player will be 
+the First Player 90 - 95% of the time. During the later years of the war 
+(43-44) or during periods of COLD, VERY COLD or RAIN the Soviet's chance of 
+becoming the First Player will increase.
+7.3  Tactical Movement:
+All combat groups that plotted tactical movement will execute their 
+moves in the sequence shown in 7.0. If the Axis is the first player then Axis 
+infantry groups would move during segment (3). An Axis mechanized group that 
+plotted tactical move "23" would move in direction 2 during segment (3) and 
+move in direction 3 during segment (7).
+During tactical movement the computer will move combat groups 
+sequentially. in group number order. Combat groups that are unable to execute 
+their moves due to overstack or illegal terrain will have the remainder of 
+their plot canceled.
+7.4  Combat:
+Combat groups that attempt to move into an enemy occupied hex during 
+tactical movement will not move but will attack the enemy group(s) in that 
+hex during the Attack Resolution Segment. If more than one friendly group 
+attempts to enter the same enemy occupied hex during the same movement 
+segment then those groups will combine their combat strengths in an attack. 
+Attacks are resolved sequentially, in ATTACKER group number order.
+7.5  Bombardments:
+Prior to assaulting an enemy occupied hex, the attacking groups will 
+combine their artillery strengths and bombard the enemy group(s) in the 
+target hex. In addition to the artillery points in the attacking groups, each 
+unit within the attacking groups will add its INTRINSIC ARTILLERY strength to 
+the bombardment. A unit s intrinsic artillery is equal to 1/10 of its 
+ADJUSTED combat strength.
+The effects of artillery bombardments are identical to the effects of 
+ground support air strikes. Each artillery point is equivalent to 1/3 of a 
+German aircraft point.
+7.6  Combat Odds:
+The result of each attack is dependent on the combat odds calculated by 
+the computer. Combat odds are determined by comparing the Adjusted Combat 
+Strength (ACS) of the attacker to the ACS of the defender. The basic ACS of a 
+combat unit is calculated as follows:
+STRENGTH x EXPERIENCE x (100 - FATIGUE) / 10000.
+The ACS may be further modified by the effects of terrain (see 8.3), 
+weather (see 8.4) and entrenchments (see 7.9).
+Mechanized groups have their combat strengths multiplied by 1.5 when 
+attacking units defending in clear (or rail) terrain. Soviet mechanized 
+groups will not receive this bonus until October 1942. 
+The presence of enemy mechanized groups in the defender's hex will 
+reduce the multiple for the attacker's mechanized group(s). The percentage of 
+reduction is equal to the defender mechanized group strength divided by the 
+total defense strength.
+Mechanized groups will not have their strengths enhanced when attacking 
+during RAIN weather. Axis Mechanized groups will not have their combat 
+strengths enhanced when attacking in VERY COLD weather before 1943.
+7.7  Defender Retreats
+Listed below are the defender retreat chances at the various combat 
+odds:
+   RETREAT
+1-1 or less 0%
+1.5-125%
+2-150%
+2.5-175%
+3-1 or more   100%
+Defender groups may not retreat into a hex containing 2 friendly 
+groups. Defender groups may not retreat into an enemy ZOC unless an 
+entrenched friendly group occupies the hex. Defender groups will surrender if 
+a legal retreat hex is not available. The direction of retreat will be 
+determined by the computer.
+Air groups forced to retreat after combat will be destroyed instead. 
+Destroyed air groups will return 50% of their aircraft to the reinforcement 
+pool. Destroyed air groups will be returned to play on a friendly depot entry 
+hex one or two turns following their destruction (with zero aircraft).
+Groups defending in a fortified city will NEVER retreat. Defending 
+groups that have surviving entrenchments AFTER the attack will NEVER retreat. 
+The percentage of defender entrenchments destroyed is as follows.
+ODDS  DESTROYED
+2-1 or less20%
+4-140%
+6-160%
+8-180%
+more than 8-1ALL
+Fractional entrenchments are rounded DOWN.
+7.8  Attacker Advances:
+In combat situations where the defender is forced to retreat the 
+attacking group(s) may advance into the vacated hex. Each attacking 
+mechanized group has a 90% chance of advancing into a vacated hex. Each 
+infantry group has only a 30% chance of advancing. Attacker groups that 
+plotted an "S" at the end of their tactical move will never advance after 
+combat. Attacker groups that fail to advance after combat will cancel the 
+remainder of their tactical plot.
+7.9  Entrenchment Effects:
+Entrenchments reduce the enemy air strikes and bombardments. Each 
+entrenchment level provides a multiple to a defender's ACS (i.e. a defender 
+with entrenchment 5 will have his ACS doubled). The effects of each level of 
+entrenchment are as follows:
+   DEFENSE
+   LEVELBOMBARDMENT  MULTIPLE
+0    100%1.0
+190%1.2
+280%1.4
+370%1.6
+460%1.8
+550%2.0
+7.10  Combat Casualties:
+Listed below are the AVERAGE casualty percentages that will occur at 
+various combat odds:
+ODDS   ATTACKER   DEFENDER
+1-550% 4%
+1-220% 1%
+1-110% 2%
+2-1 5% 4%
+5-1 2%10%
+     10-1 1%20%
+20-1.5%40%
+The strength point losses indicated above would be in addition to the 
+losses caused by prior air strikes or bombardments. The attacker casualties 
+will increase by 10% for each level of entrenchment of the defending group. 
+Thus a 2-1 attack against a defender with level 5 entrenchments would cause 
+7.5% casualties on the attacking force. Attacker losses will never exceed 
+50%.
+In combat situations where the defender ACS is less than or equal to 
+ONE, the attacker casualties will be .01% (the defensive fire from airfields 
+or shattered combat groups would be negligible).
+8.0  GENERAL OPERATIONS
+8.1  Fatigue:
+Combat units gain fatigue whenever they are moved or are involved in 
+combat. A fraction of a unit's fatigue will be removed each turn that the 
+unit is placed in supply. The amount of fatigue gained through movement 
+(including retreats and advances) varies with the type of terrain entered and 
+the type of weather. The normal fatigue points gained for entering each type 
+of terrain are listed below (SM = strategic movement, TM = tactical 
+movement):
+TERRAIN SM-FATIGUE TM-FATIGUE
+clear 510
+city 510
+forest 510
+rail 510
+swamp2550
+mountain2550
+seaimpassableimpassable
+Mechanized groups using tactical movement to enter clear, city or rail 
+terrain during clear or cold weather will suffer only half of the normal 
+fatigue.
+Groups using strategic movement across a river while leaving an enemy 
+ZOC will gain an additional 20 fatigue points. Groups using tactical movement 
+across a river will gain 10 additional fatigue points (ZOCs have no effect). 
+Units never gain fatigue when using Rail Movement. The normal fatigue costs 
+may be multiplied during adverse weather conditions as follows:
+CLEARx 1
+COLDx 2
+VERY COLDx 3
+RAINx 4
+VERY COLDx 5
+(Axis 1941)
+Whenever combat occurs, all of the units involved will suffer 8-12 
+fatigue points. During cold, very cold or rain weather the attacker fatigue 
+penalty will be DOUBLED. Units forced to retreat will suffer 10-80 additional 
+fatigue points, varying with the weather and the experience of the retreating 
+units.
+Fatigue will never exceed 95%. Units with 95% fatigue will suffer 25% 
+strength loss each time additional fatigue is added. A combat group that 
+contains one or more units with 95% fatigue may NOT move. At the end of each 
+turn units will have their fatigue reduced by 1%. Units whose fatigue exceeds 
+94% due to tactical movement or retreating will not have their fatigue 
+reduced on the SAME turn.
+8.2  Experience:
+A unit's experience reflects its effectiveness as a combat force. A 
+unit's experience will increase each time it participates in combat. A unit's 
+experience will decrease each time that unit receives replacements. Soviet 
+MECH units, Axis elite SS units and all German units during 1941 -42 will 
+suffer less experience reduction than other units when adding replacements.
+At the end of each turn all units with an experience less than 50 will 
+have their experience increased by 5 points (when playing levels 3 or 4, the 
+Soviet RIFLE and CAV units have a 75% chance of gaining experience, the 
+Soviet TANK and MECH units have a 56% chance of gaining experience).
+8.3  Terrain Effects on Combat:
+In calculating combat odds the attacker combat strength may be reduced 
+by the type of terrain in the defenders hex. Listed below are the effects of 
+each type of terrain on the attacker strength:
+DEFENDER TERRAIN  ATTACKER
+clearx 1
+ railx 1
+ cityx 1
+ fortified cityx 1/2
+forestx 1
+swampx 1/2
+  mountainx 1/3
+across river hexsidex 1/2
+In addition to the above listed effects an attacker group's strength is 
+halved when attacking out of a swamp or a fortified city. Terrain effects on 
+combat are cumulative; a group attacking out of a swamp, across a river, and 
+into a mountain hex would have its strength divided by 12 (1/2 x 1/2 x 1/3).
+8.4  Weather:
+The weather is adjusted at the end of each turn. Listed below are the 
+weather probabilities for each month of the year
+JANCOLD 75%VERY COLD 20%RAIN 5%
+FEBCOLD 75%VERY COLD 20%RAIN 5%
+MARCOLD 47%VERY COLD 10%RAIN 43%
+APRCOLD 20% RAIN 80%
+MAYCLEAR 30%RAIN 70%
+JUNCLEAR 72%RAIN 28%
+JULCLEAR 100%
+AUG  CLEAR 100%
+SEPCLEAR 100%
+OCTCOLD 20%RAIN 80%
+NOVCOLD 75%VERY COLD 20%RAIN 5%
+DECCOLD 75%VERY COLD 20%RAIN 5%
+From 1 December 1941 to 28 February 1942 the chance for VERY COLD 
+weather will be 80%.
+Certain types of weather will affect the player's ability to attack or 
+supply their forces. During periods of RAIN all units will have their attack 
+strength halved and Axis supply will be reduced (see 5.2). RAIN reduces all 
+strategic and tactical movement rates to ONE HEX per turn. In 1941 VERY COLD 
+weather will cause Axis supply to be reduced (see 5.2). During 1941 and 42, 
+VERY COLD weather will cause Soviet attacks to be DOUBLED and Axis attacks 
+will be QUARTERED.
+During COLD or VERY COLD weather all rivers and swamps will be frozen. 
+Frozen rivers will have no effect on movement or combat. Frozen swamps will 
+be treated as forest hexes.
+8.5  Production:
+At the end of each turn each player will receive infantry, vehicle, 
+artillery, aircraft, supply and new factory points based upon the number of 
+the various types of factories controlled by the players. The list below 
+shows the number of factories to build each type of item:
+5 vehicle factories = 10 vehicle points
+  (2550 maximum in pool)
+   10 artillery factories = 10 artillery points
+  (2550 maximum in pool)
+   20 aircraft factories = 1 aircraft point
+  (255 maximum in reinforcement pool)
+    1 supply center = 1 supply point
+  (255 maximum in pool)
+    10 population points = 10 infantry points
+  (2550 maximum in pool)
+       10 heavy industry = 1 construction point
+  (255 maximum in pool)
+   5 construction points = 1 new factory
+  (255 maximum in city for each type of factory)    
+Building factories is a two-step process. First heavy industry will 
+build construction points. Construction points will be accumulated by the 
+computer but will not be displayed to the players. Next construction points 
+will be converted to new factories in the factory pool (see 4.8). The maximum 
+number of new factories that will be built in one turn is equal to 
+CONSTRUCTION POINTS / 20, fractions rounded down. Dismantled factories will 
+be converted back into construction points (1 dismantled factory converts to 
+5 construction points).
+In 1943 there is a 30% chance that the Axis player will receive no 
+production. In 1944 there is a 50% chance that the Axis player will receive 
+no production.
+Soviet infantry reinforcements will vary according to the month and 
+year. Listed below are the modifiers for the Soviet infantry reinforcement 
+points:
+JUN 1941-JUL 1941x 3.33
+AUG 1941-DEC 1942x 0.83
+1943-1944x 0.67
+8.6  Lend Lease:
+Starting in October 1941 the Soviet player will receive "lend lease" 
+shipments. Lend lease shipments maybe received in NORTH, SOUTH or EAST 
+Russia. Lend lease shipments will consist of vehicle and aircraft points. 
+Lend lease shipments will start out small but will increase each year. Lend 
+lease shipments that arrive from the NORTH will be twice as large as those 
+received from the other areas.
+The computer will randomly select the area of arrival for each lend 
+lease shipment. Listed below are the chances of arrival for each area:
+NORTH 50%   SOUTH 25%   EAST 25%
+Shipments scheduled to arrive in the NORTH will be canceled if both 
+Murmansk and Archangel are Axis controlled. Shipments scheduled to arrive in 
+the NORTH during the months OCTOBER thru APRIL will be canceled if Murmansk 
+is Axis controlled. Shipments scheduled to arrive in the SOUTH will be 
+cancelled if Baku is Axis controlled.
+Shipments that arrive from the NORTH will be subject to reduction 
+bombing. Supplied Axis air groups within 2 hexes of the NORTH edge of the map 
+will attack lend lease convoys that arrive in that area. Each aircraft point 
+in the bombing air group has a 10% chance of "hitting" the convoy. Each hit 
+will destroy 1 lend lease aircraft point or 10 lend lease vehicle points. 
+There is a 50% chance that the Axis aircraft will fail to attack the convoy 
+due to poor weather.
+Shipments that arrive between OCTOBER and APRIL (winter) may not be 
+used by the Soviet player unless Murmansk is connected to Archangel by an 
+unbroken (must be free of Axis units or zones of control) rail line. This 
+rail line must pass through the hex southwest of Archangel. If this rail line 
+is broken then the winter shipments will accumulate at Murmansk until the 
+rail is rebuilt or until the end of winter (May). If Archangel is taken by 
+the Axis player, all lend lease shipments will accumulate in Murmansk until 
+Archangel is recaptured by the Soviet player.
+8.7  Partisans:
+Starting in 1942 Axis rail lines will be subject to partisan attacks. 
+With each passing year the frequency of partisan attacks will increase. 
+Partisan attacks will only destroy Axis rail hexes built in Russia. Partisan 
+attacks will never occur in an Axis unit's ZOC. The Axis player may reduce 
+the frequency of partisan attacks by 20% for every 150 points maintained in 
+the infantry Pool (acting as security forces).
+8.8  Capturing Cities:
+Friendly groups may never use strategic movement to enter an enemy 
+controlled city. Friendly groups that tactical move or advance after combat 
+into an enemy controlled city will capture the city. Captured cities will 
+have their population reduced to zero and all factories except the supply 
+centers will be destroyed. Each time a city is captured/recaptured its supply 
+centers will be halved.
+8.9  Automatic Ending:
+The game will end automatically if the Soviet player controls Riga, 
+Brest, and either Konigsberg or Bucharest. The game will end automatically if 
+the Axis player controls Moscow, Gorki, and Kuybyshev, and the Axis Player 
+will be awarded a decisive victory.
+8.10  Artillery:
+Artillery may be added to combat groups at a rate of 30 points per 
+turn. Groups with more than 210 artillery points may not add artillery. All 
+artillery points are automatically returned to the artillery pool whenever a 
+group moves or advances after combat. A group permanently consumes 25% of its 
+artillery points each time it fires a bombardment. Artillery points may be 
+destroyed when a group is bombarded or ground attacked by the enemy. If a 
+group is forced to retreat after combat then all of its artillery points are 
+destroyed.
+8.11  Soviet Reserves:
+In June and July of 1941 the Soviets will receive 4 times their normal 
+infantry reinforcement points. This represents the activation of the Soviet 
+reserves in the early weeks of the war.
+8.12  Soviet Guards:
+At the end of any turn in which a Soviet unit has both a strength 
+greater than 40 and experience greater than 80 then that unit will be 
+renumbered and designated as a guards unit. Guards units are allowed a higher 
+maximum strength than normal units of the same type.
+8.13  Axis Unit Designations:
+In January 1943 all Axis MOT units will be changed to PZG units and 
+have their maximum strength increased from 100 to 130. SS MOT units will be 
+changed to SS PZG and the elite SS units will have their maximum strength 
+increased to 200. In October 1943 the elite SS PZG units will be changed to 
+SS PZ units.
+8.14  Soviet Siberian Reinforcements:
+When playing at solitaire levels 1 or 2, the Soviet player will receive 
+Siberian reinforcement units. The Soviet player will receive one combat group 
+(containing 5 full strength corps with experience levels of 70) per turn. The 
+Siberian reinforcements will always arrive in Kuybyshev. The reinforcements 
+will not arrive if (1) Kuybyshev is Axis controlled, (2) Kuybyshev already 
+contains two Soviet groups, (3) the maximum number of combat groups or units 
+are already in play.
+When playing solitaire level 2 the Siberian reinforcements will arrive 
+from June through December 1942. When playing solitaire level 1 the Siberian 
+reinforcements will arrive from June 1942 through the end of the war.
+9.0  VICTORY CONDITIONS
+At the end of the game victory points will be calculated and the level 
+of victory will be determined by comparing the scores of the two players.
+9.1  Victory Points:
+Each player will score 1 victory point for each friendly population 
+point or supply center (points are not received for the Urals or Germany) and 
+20 points for each controlled city. The Axis player scores 50 points for each 
+month he survives starting January 1943. Victory points are DOUBLED when 
+playing the short scenarios.
+Handicap points are awarded in the various scenarios to provide play 
+balance:
+Barbarossa (short)Axis+ 300
+Case Blue (short)Soviet+ 150
+All long scenariosSoviet+ 150
+9.2  Victory Levels:
+Subtract the Axis Victory Points from the Soviet Victory Points and 
+compare the results to the following table to determine the victory level:
+1000 and upSoviet Decisive Victory
+500 to 999Soviet Substantive Victory
+100 to 499 Soviet Marginal Victory
+-99 to 99Draw
+-499 to -100Axis Marginal Victory
+999 to -500Axis Substantive Victory
+-1000 or lessAxis Decisive Victory
+10.0  SOLITAIRE PLAY
+When playing solitaire games the computer will command the Soviet 
+forces. There are 4 levels of solitaire difficulty. The level of difficulty 
+is determined when starting a new game and may be altered when restarting a 
+saved game. As the level number is decreased the Soviet forces will receive 
+more reinforcements and will be allowed to gain experience and entrench 
+FASTER, Also, as the level number is decreased the Soviet forces will attack 
+more effectively during VERY COLD weather before 1943. When playing solitaire 
+levels 1 and 2, the Soviet player will receive the Siberian reinforcements 
+(see 8.14). When playing at solitaire levels l or 2, the German units may 
+move a maximum of TWO turns while "out of supply" and then may move no 
+further until placed "in supply" (the computer will not inform you of this, 
+it will just keep your unit from moving). These levels maybe used to handicap 
+a two player game if desired. Level 3 is considered the "historical" level.
+It is possible to start a game in solitaire mode, save it, and then 
+restart it as a two-player game. To do this set the main menu to two-player 
+mode before reloading the saved game data.
+It is possible to save a two player game and restart it as a solitaire 
+game. This should only be done experimentally as the computer maybe confused 
+by many human devised deployments.
