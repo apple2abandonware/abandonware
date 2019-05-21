@@ -1,0 +1,65 @@
+SPECIAL MOVEMENT COMMANDS
+-------------------------
+ESC     - Exit movement
+O       - Center unit on screen
+C       - Change mode
+L       - Look at each of other unmoved units in division
+M       - Goto second unit in stack and enter it's movement phase
+O       - Issue an order
+P       - Display entire map
+Q       - Leave unit where it is w/o combat (considered moved)
+S       - Enter scroll mode
+          (I,J,K,M, SPACE - return to move mode)
+CTL-A   - Look at airpower display
+CTL-C   - Continue attacking adjacent enemy
+CTL-H   - Hide or expose unit
+CTL-L   - Same as L above except may look at all units regardless of division
+
+ORDER PHASE
+-----------
+Strategic Movement 1-9, A,B,C - Mape sector to preceed to
+D       - Delay (Fire or Norm mode only)
+X       - Exit map if on edge (25% chance may return as reinforcement)
+V       - Village (move to nearest enemy village)
+F       - Fire at best target of opportunity
+R       - Run and reorganize
+S       - Support (on enemy w/in 3 hexes)
+M       - Move and Fire
+N       - Move and Attack
+
+DIRECTED FIRE
+-------------
+1. Press C and put in Fire mode
+2. Press CTL-F
+3. Move cursor to target
+4. Press CTL-F for artillery or CTL-S for smoke
+5. Press CTL-X to return to movement phase
+
+SPECIAL KEYS
+------------
+ESC     - Auto-move on/off
+B       - During night turns changes terrain colors
+E       - Examine a unit
+F       - Clear text at bottom of screen
+M       - Enter/exit movement phase for unit under cursor
+T       - Show map without units or smoke
+D       - Highlights all units in division
+H       - Show map with hexes
+S       - Scroll on/off
+          -- 1-6,A-C - Displays sector
+          -- I,J,K,M - Scroll screen
+          -- S       - Pasue scrolling
+          -- SPACE   - Exit scroll mode
+<--     - Speed computer movement
+-->     - Slow computer movement
+O       - Center cursor
+CTL-A   - Enter Air Power phase
+CTL-B   - Enter Save Game
+CTL-E   - End turn
+CTL-S   - Toggle sound
+CTL-P   - Toggle combat pause
+CTL-V   - Display towns, villages and airfields controlled by each side
+SPACE   - return to previous phase
+
+
+
