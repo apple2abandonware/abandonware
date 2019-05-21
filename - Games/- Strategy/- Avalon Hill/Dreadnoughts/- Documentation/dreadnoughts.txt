@@ -1,0 +1,1936 @@
+DREADNOUGHTS INSTRUCTION MANUAL
+===============================
+
+DREADNOUGHTS IS THE AVALON HILL GAME COMPANY'S TRADEMARK NAME FOR ITS
+MICROCOMPUTER GAME OF TACTICAL WWII NAVAL COMBAT IN THE NORTH ATLANTIC.
+
+TABLE OF CONTENTS
+=================
+
+1. Loading the Program
+2. Introduction
+3. Set Up
+4. Typical Ship Diagram
+5. Bismarck Scenario
+6. Strategic Phase
+   6.A Strategic Commands
+7. Battle Program
+   7.A Tactical Commands
+   7.B Movement and Combat
+Appendix A: The Bismarck Chronology
+Appendix B: The Ships of Dreadnoughts
+Appendix C: Dreadnoughts Players' Notes
+
+
+1. LOADING THE PROGRAM
+======================
+   Dreadnoughts is an auto-boot diskette.  Place the game disk in Drive 1 with
+the label side face up and power up the computer.  The game will begin.
+
+2. INTRODUCTION
+===============
+   Dreadnoughts recreates World War II naval combat in the North Atlantic.
+These were the last days of the great battleships, when Germany and Great
+Britain fought for control of the North Atlantic and the important supply
+convoy of the North Atlantic and the important supply convoy routes from
+America.
+
+   One of the more crucial naval actions of World War II involved Germany's
+greatest ship against the power of the Royal Navy.  On 22 May 1941, the
+battleship Bismarck and the cruiser Prinz Eugen slipped quietly from their
+moorings in the early predawn hours.  Their orders:break through the cordon
+of Royal Navy vessels and attack the North Atlantic convoys.
+
+   In addition to the Bismarck scenario, Dreadnoughts provides a battle game
+where players can build their fleet from a roster of 44 American, British,
+French and German ships, and engage them in tactical combat.
+
+3. SET UP
+=========
+   The title screen will present two choices DREADNOUGHTS is the Bismarck
+scenario.  The BATTLE PROGRAM is the two-player game in which players compose
+their fleets and engage in combat.  (The Battle Program is also present within
+the Bismarck scenario.  Whenever the Bismarck and Prinz Eugen come within visual
+range of British ships, the computer will load the Battle Program to resolve
+combat.)
+
+   These instructions begin with a discussion of the Bismarck scenario.
+Following that are the rules to the Battle Program, which is common to both
+the Bismarck and Battle Program scenarios.
+
+   If you select the Bismarck scenario, the computer will begin loading the
+information, and play will start immediately thereafter.  If you select the
+Battle Program scenario, the computer will show the set-up screen.  Both
+players compose their fleets, drawing from the list of Allied and German ships.
+Each side may contain from one to nine ships, with the maximum number in play
+begin ten.  Each side may have any mix of German and Allied ships.
+
+Historical Note: The Battle Program will begin with both sides within sight of
+each other.  At this range, aircraft carriers were unable to launch their
+planes.  There are no rules in the Battle Program for air combat.
+
+   All of the set-up commands are self-explanatory.  Once you exit from the
+set-up program, you will be asked for the formation of each side (if that side
+contains three or more ships), and for the visual range in nautical miles
+(one nautical mile: 2,000 yards).  The game sill determine sighting based on
+this number.  You cannot fire on a ship that you cannot see.
+
+4. TYPICAL SHIP DIAGRAM
+=======================
+
++-----------------------------------------------------------------+
+| (1) GERMAN BATTLESHIP                                           |
+| (3) Bismarck                                        ARMOR: (2)   |
+|                                                     BELT: 14    |
+|                          |                          DECK:  8    |
+|                        +---+   (4b)                  GUN: 14    |
+|                        | 2 |                        CRWN: 8     |
+|                    |   +---+   |                     SEC: 4     |
+|                  +---+       +---+                  C.T.: 14    |
+|                  | 2 |       | 2 |                 PILOT: 14    |
+| B      (4a)      +---+       +---+             S     MFC: 2     |
+|    +---+ +---+                     +---+ +---+ T     RUD: 6     |
+| O  | 2 | | 2 |                     | 2 | | 2 | E                |
+|    +---+ +---+                     +---+ +---+ R                |
+| W                +---+       +---+             N                |
+|                  | 2 |       | 2 |                              |
+|                  +---+       +---+                              |
+|                    |   +---+   |                                |
+|                        | 2 |                                    |
+|                        +---+                                    |
+|                          |                                      |
+|                                                                 |
+| SUPSTR: _____________ (6)   MAIN GUNS:      15 IN.  (5)         |
+| HULL  : _____________       SECONDARY:      2.9 IN.             |
+|                                                                 |
+| MAX SPEED: 30 KTS                                               |
+|                                                                 |
++-----------------------------------------------------------------+
+
+KEY:
+ 1    The nationality and ship type.
+
+ 2.   The number of inches of armor in each section of the ship.  The following
+      sections of the ship are armored (with their abbreviations in parentheses)
+      :belt, deck, (GUN) main gun turret, (CRWN) turret crown, (SEC) secondary
+      mount, (C.T.) conning tower, (PLOT) plotting room, (MFC) main fire
+      control, and (RUD) rudder.
+
+3.    The name of the ship.
+
+4a.   An overview of the ship, showing the number, type and range of fire for
+      each gun.  A primary gun turret is always shown as a block of white.
+      When a turret receives enough damage, an "X" will appear.  Jammed turrets
+      will display a "J" instead of a number.  Jammed turrets can become
+      unjammed during battle due to the efforts of the ship's crew; this is
+      automatically handled by the computer.
+
+      The main gun mounts are always identified as "A", "B", "C", from the bow
+      to the center of the ship; and "X", "Y", "Z" from the center of the ship
+      to the stern.  Thus, the Bismarck's four main gun turrets are called from
+      bow to stern the "A" turret, "B" turret, "X" turret and "Y" turret.
+
+4b.   The secondary gun mounts are drawn with lines protruding from them
+      showing their field of fire.  One gun line drawn on the port or starboard
+      side of the square indicates that the mount can aim the gun up to 45
+      degrees to each side of that line.  If it faces the bow or stern,
+      however, the mount can only move 45 degrees towards the side of the ship
+      the mount is on.  (See the Dunkerque diagram for an example.)  Two lines
+      facing the bow or stern means that the mount can move up to 45 degrees to
+      each side of that line.  Secondary gun mounts are numbered beginning with
+      the starboard gun closest to the bow.  The next gun will be the port gun
+      closest to the bow, and the sequence continues from starboard to port.
+      This means that in most cases (because some designs have odd secondary
+      gun turrets) odd-numbered secondary turrets will be along the starboard
+      side; even-numbered turrets on the port side.
+
+5.    This is the size or bore of the main and secondary guns.
+
+6.    This is the amount of damage the superstructure and hull can take.  All
+      damage is calculated by the computer, taking into account the size of
+      the shell and the thickness of the armor.  Damage is reflected in the
+      number of "X" that appear on the superstructure and hull lines.  If a
+      ship has no more superstructure, any future hits will damage the hull.
+
++-----------------------------------------------------------------+
+|    FRENCH BATTLESHIP                                            |
+|                                                    ARMOR:       |
+|    DUNKERQUE                                        BELT: 12    |
+|                                                     DECK: 6     |
+|                                                      GUN: 13    |
+|                                                     CRWN: 6     |
+|                    |           |                     SEC: 5     |
+|                  +---+       +---+                  C.T.: 11    |
+|                  | 2 |       | 4 |                 PILOT: 11    |
+| B                +---+       +---+   |         S     MFC: 2     |
+|    +---+ +---+                     +---+       T     RUD: 6     |
+| O  | 2 | | 2 |                     | 2 | ==    E                |
+|    +---+ +---+                     +---+       R                |
+| W                +---+       +---+   |         N                |
+|                  | 2 |       | 2 |                              |
+|                  +---+       +---+                              |
+|                    |           |                                |
+|                                                                 |
+|                                                                 |
+|                                                                 |
+|                                                                 |
+| SUPSTR: _____________       MAIN GUNS:      13 IN.              |
+| HULL  : _____________       SECONDARY:      5.1 IN.             |
+|                                                                 |
+| MAX SPEED: 29 KTS                                               |
+|                                                                 |
++-----------------------------------------------------------------+
+
+5. Bismarck SCENARIO
+===================
+   The historical scenario is played between the computer (commanding the Royal
+Navy) and the player (commanding the Bismarck and the Prinz Eugen).  The game
+begins with the German naval units in the Norwegian port of Bergen and ends
+when your ships are either sunk, or safe in a friendly port.
+
+German Victory Conditions: The German player must enter the convoy routes,
+locate and sink as many ships as possible, then return to a friendly port.
+Victory points are calculated on the following basis: the length of the cruise,
+the amount of permanent damage (speed and hull hits) done to German and Allied
+ships, and the status of convoy WS.8  This convoy is vital to the British 8th
+Army in North Africa.  The German player can lose points if it gets to North
+Africa undamaged.
+
+There are 11 levels of victory: a draw and a British or German marginal,
+victory, decisive, major and total victories.
+
+Identifying Convoys: Convoys can be spotted by the Bismarck on the Air Search
+and the Visual/radar displays.  If the letter T appears, it is the troop
+transport Britannic.  A cluster of dots represents supply convoys, with a
+cluster of five dots the important convoy WS.8.  If a convoy is within visual
+range, the Bismarck can enter the battle program to attack it.
+
+Note: The Bismarck and the Prinz Eugen will travel together at all times.  Any
+commands you make during the Strategic Phase will automatically apply to both
+ships.
+
+6. STRATEGIC PHASE
+==================
+   There are two phases to the Bismarck scenario: the strategic phase and the
+battle phase.  The battle phase is exactly the same as in the Battle Program.
+   The Bismarck scenario begins in the strategic phase with the Bismarck and the
+Prinz Eugen in the Norwegian port of Bergen.  The box on the left side of the
+screen will show the passage of time by turning black during night turns and
+white during day turns.
+
+6.A STRATEGIC COMMANDS
+----------------------
+1-9           Continue moving at the present course/heading for that many hours
+              or until a key is pressed.  The computer will also stop the move
+              when the ships encounter enemy ships, aircraft, or land.  Two
+              beeps at any time means that you have detected Allied radar within
+              30 nautical miles.  Allied radar range is 15 nautical miles.
+
+(A)ir Search  Launch Arado float planes to search surrounding area*.
+
+(B)attle      If within visual range of the enemy, you may decide to offer
+              battle.  The program will also begin automatically if certain
+              conditions are met.
+
+(C)ourse      Enter up to three digits, from 0 to 360, to indicate the new
+              course according to the diagram below:
+
+                            0
+                          \ | /
+                      270 ----- 90
+                          / | \
+                           180
+
+Note: Unlike the Battle Game, any number from 0 to 360 may be entered.
+
+(E)ndurance   This is a very important display because it shows how far your
+              ship can travel in nautical miles if it maintains a certain
+              speed.  As your ships consume fuel, the distances will go down.
+              The distances between two points being equal, a slow-moving ship
+              will consume less fuel than a fast ship.
+
+              The second part of the display is the distance and course heading
+              needed to travel to a friendly port.  The heading does not take
+              into account the presence of the Royal Navy, or of land masses
+              like England.
+
+              To end the game, the Bismarck and Prinz Eugen must enter one of
+              these four ports: Bergen, Brest, Naziere or Ferrol.  (While Spain
+              was not a member of the Axis, it was friendly to Germany.  Being
+              located next to Axis-occupied France, it was doubtful that Franco
+              would not have allowed the battleship to stay.)
+
+(F)orward     Continue moving at the same speed and heading until a key is
+              pressed, or the Bismarck encounters something.
+
+(M)ap         Print the strategic map, including the ships' previous course.
+
+(P)atrol      Patrol for enemy vessels.  The ships will patrol the immediate
+              area, increasing their effective search radius.  They will
+              continue to patrol for 1 to 9 hours, or until they find something
+              (simply enter numbers 1 to 9, or F).  Hitting any other key will
+              end the patrol, and the ships will resume their course and speed.
+
+              If something is found, the screen will show the radar display
+              with the locations of enemy ships.
+
+(Q)uit        Ends the game, allowing you to save the game.  A DOS 3.3
+              formatted disk is needed.
+
+(R)outes      Shows the British convoy routes that the Bismarck has been sent to
+              intercept.
+
+(S)peed       Changes the speed of both German units.  The computer will accept
+              any number, but the ships can travel to faster than the maximum
+              speed of the Bismarck.
+
+(V)isual      Prints the Bismarck's visual/radar display.  In the center is the
+              Bismarck and the Prinz Eugen.  The limit of visual contact is
+              shown by the dotted line; of radar by the solid line.  The limit
+              of visual contact changes according to the time of day or night,
+              and the prevailing weather conditions.
+
+NOTES: * (A)ir search means that an Arado float plane will be launched.  The
+         ship will slow down to launch it, the resume speed.  If the Bismarck
+         is going too far, or if visibility is poor, the seaplane may lose its
+         way.  It will be up to the player to decide if it is worth breaking
+         radio silence to give the Bismarck's position to the plane.  (The
+         Royal Navy had primitive radio direction finders, so it is a risk to
+         reveal your position.)  Even then, the plane may be lost.
+
+         If something is found, the screen will show the radar display with the
+         location of enemy ships.  There is a chance of pilot error in the
+         number and type of ships reported.  The Bismarck will automatically
+         move at its present course and speed for one hour after this command
+         is performed.
+
+7. BATTLE PROGRAM
+=================
+   When the Battle Program is used, it will show a screen divided into three
+parts: the map, the ship roster, and the ship status.
+
+MAP: The dots in the Battle Program map indicates the center of each square.
+The distance between each square depends upon the scale, located at the bottom
+of the map.  As the ships move together or apart, the scale will change from
+3,500 yards per square to 500 yards per square.  Below the scale is the
+visibility in yards.  Ship collisions are impossible at any scale.
+
+SHIP ROSTER: This contains a listing of each active ship in the scenario along
+with its number code and present course.  Ships in the Battle Program travel in
+one of eight compass headings:
+
+
+                           360
+                      315   /0  45
+                          \ | /
+                      270 ----- 90
+                          / | \
+                      225  180  135
+
+The ship number is used to issue main and secondary target commands.
+
+SHIP STATUS: The sequence of play in the Battle Program consists of issuing
+orders to each ship in play.  The computer will go down the roster from 0 to
+9 (if that many ships are playing) and ask the player to enter any number of
+commands.
+
+COURSE: The direction the ship is traveling.
+
+SPEED: The maximum speed of the ship (in knots).
+
+MAX MF (movement factors): Each ship uses movement factors (MF for short) to
+express how far it can move in one turn.  By using the (M)aneuver command, the
+player can order his ship to move up to its Maximum MF.  The MAX MF number does
+not mean that the ship will travel that number of squares.
+
+TARGETS: Most ships have two types of guns: main and secondary guns.  Use the
+damage display to see where they are on each ship.  By using the (p)rimary and
+(s)econdary commands, the ship is ordered to fire those guns at another ship.
+The primary and secondary guns may fire at the same ship, different ships, or
+no ships at all.
+
+NOTE: As you give orders from ship to ship, you will see that the positions of
+some ships will change a square or two.  Distances are measured in actual yards
+from the perspective of the phasing ship, and the scale between squares will
+change.
+
+7.A TACTICAL COMMANDS
+---------------------
+   These are commands available to all ships in the Battle Program:
+
+(M)aneuver    Each ship can move a certain number of movement points.  To use
+              these points requires entering a string of numbers, L, and/or R.
+              The number tells the ship to move that many movement points
+              forward, L will move the ship 45 degrees forward and to the left;
+              R will move the ship 45 degrees forward and to the right.
+
+              Example: The maneuver command 2LL1R will move a ship two points
+              ahead, turn to the left, turn left again, move one point ahead,
+              then turn right.
+
+(P)rimary     Assigns a target to the main guns.  Enter the number of the
+              enemy ship you wish these guns to fire at.
+
+(S)econdary   Assigns a target to the secondary guns.
+
+(D)amage/
+Status        Shows the damage display and status of the phasing ship.
+
+(N)ext        Finishes the movement/combat turn of one ship, and goes on to
+              the next ship.  You cannot go back and enter new orders for a
+              ship once the (n)ext command is enterd.
+
+(Q)uit        Battle Program scenario only.  The computer will show the hull
+              damage for all the ships and ask if you wish to (q)uit the game
+              or (c)ontinue to play.
+
+any other key Shows the command menu.
+
+(E)nd        Bismarck scenario only.  The computer will show the status screen
+             of the Bismarck and return to the Strategic Phase.  This will
+             happen only if no ships are within visual range of each other.
+
+7.B MOVEMENT AND COMBAT
+-----------------------
+   After all ships have completed the command phase, movement and combat are
+handled by the computer.
+
+MOVEMENT: The computer will redraw the map, placing the phasing ship in the
+center of the map.  Its move will be calculated and carried out within the
+limitations of its movement allowance.  The computer will automatically go to
+the next ship, redraw the map, calculate its movement, and so forth until all
+the ships have moved.
+
+COMBAT: The computer calculates the effects of combat.  All you need to do is
+strike any key whenever the cursor flashes.
+
+   A typical combat screen looks like this:
+
+BISMARCK MAIN GUN FIRING PHASE
+
+TARGET: HOOD
+RANGE : 4899 YDS
+REL BEARING: 201                ASPECT: BROADSIDE
+MAIN GUN DATA:                  SHELL DATA:
+  BORE 15 IN                      VERT PEN 23 IN
+  RANGE 39K YDS (39,000 YDS)      HORZ PEN 0 IN
+  NO FIRING 2                     RNDS LEFT 600
+  NO OF HITS 2
+
+
++-----------------------------------------------------------------+
+| BRITISH BATTLECRUISER                                           |
+|                                                    ARMOR:       |
+| HOOD                                                BELT: 15    |
+|                          |                          DECK: 4     |
+|                        +---+                         GUN: 15    |
+|                        | 2 |                        CRWN: 5     |
+|                    |   +---+   |                     SEC: 2     |
+|                  +---+       +---+                  C.T.: 11    |
+|                  | 2 |       | 2 |                 PILOT: 11    |
+| B                +---+       +---+             S     MFC: 2     |
+|    +----+ +---+                     +---+ +---+ T     RUD: 4    |
+| O  | XX | | 2 |                     | 2 | | 2 | E               |
+|    | XX | |   |                     |   | |   |                 |
+|    +----+ +---+                     +---+ +---+ R               |
+| W                +---+       +---+             N                |
+|                  | 2 |       | 2 |                              |
+|                  +---+       +---+                              |
+|                    |   +---+   |                                |
+|                        | X |                                    |
+|                        +---+                                    |
+|                          |                                      |
+|                                                                 |
+| SUPSTR: _____________                SPECIAL DAMAGE:            |
+| HULL  : _____________                                           |
+|                                                                 |
+| MAX SPEED: 30 KTS                                               |
+|                                                                 |
+| HIT #2                                                          |
+| SECONDARY                                                       |
+| #4 4 IN. GUN MOUNT                                              |
+|                                                                 |
++-----------------------------------------------------------------+
+
+
+(The first hit from the Bismarck had struck and penetrated the Gun Armor of A
+Turret, completely destroying it, so instead of a clear block, a row of Xs
+denoted that fact.  Secondary hits are scored on the Superstructure.  In this
+case, the hit destroyed the #4 secondary gun mount, located in the center port
+side of the Hood.  If the second shot had landed in the same place as the first
+hit (Gun Armor, A Turret), the shot would have had no effect since the turret
+cannot be destroyed any further.)
+
+SPECIAL DAMAGE: In addition to damaging the armor and guns of a ship, there is
+a chance that specific, vital areas of the ship may be hit.  This special
+damage may cause additional harm to the armor, or deprive the ship of
+additional functions:
+
+Control Tower: a shell has destroyed the bridge.  Until the second-in-command
+is able to assume command of the ship, the ship will ignore any maneuver
+commands.
+
+Main Fire control (Forward, Foretop of Afts)
+
+Plotting Room (Forward or Aft)
+
+Radar (Search or Gunnery)
+
+Powder Magazines (Main Powder, Main Magazine, Forward Main Magazine, Aft Main
+Magazine)
+
+Engine Room
+
+Shell Handling Room
+
+Boiler Room
+
+Forward Engine Room
+
+
+APPENDIX A
+==========
+
+THE BISMARCK CHRONOLOGY
+-----------------------
+
+18 May 1941: The Bismarck and the Prinz Eugen leave their berth at Gotenhafen
+with orders to raid commerce in the Atlantic.  Admiral Lutjens in command.
+They halt at Korsfjord, south of Bergen.
+
+21 May: Spotted by British reconnaissance aircraft, cruisers are sent on patrol
+to watch for the ships.  The Hood and the Prince of Wales leave Scapa Flow.
+Vice Admiral Holland in command.  The search is concentrated north and south of
+iceland.
+
+22 May: The King George V, the Repulse, the Victorious and other ships go to
+sea.  Commander of the Home Fleet, Admiral Tovey, is aboard the King George
+V.
+
+23 May: The Suffolk sights the German ship in the Denmark Strait west of
+Iceland.  The Norfolk makes visual contact soon thereafter.  Using radar, they
+shadow the ships and broadcast their location to the rest of the fleet.
+
+24 May: Vice Admiral Holland intercepts the German ships and attacks.  The
+Hood blows up five minutes later, hit by shells from both German ships.  Four
+shells slam into the Prince of Wales, forcing her to break off the fight.  The
+Bismarck is hit twice, causing a fuel leak that forces Lutjens to abandon his
+sortie and head for Brest.  The German ships proceed south while the Prince of
+Wales and the other two cruisers shadow.
+   That evening, the Prinz Eugen is sent off to raid commerce.  During the
+night, the Bismarck is attacked by aircraft from the Victorious, with little
+effect.
+
+25-26 May: The British lose contact with Bismarck, last seen southeast of the
+southern tip of Greenland.  Vice Admiral Sommerville leaves Gibraltar to
+intercept the ship on its return to France.  This British Force H consists of
+the Renown, Ark Royal and two cruisers.
+
+26 May: Bismarck sighted again by a Coastal Command flying-boat.  That evening
+,planes from the Ark Royal score a hit on the starboard rudder.  Further
+torpedo attacks take place during the night, with no effect.
+
+27 May: Tovey arrives with the King George V and Rodney and two cruisers.  The
+Bismarck is badly hit early on and, after 90 minutes, she is dead in the water.
+Several torpedoes hit, and the crew scuttles her.
+
+1 June: the Prinz Eugen develops engine trouble and returns to Brest.
+
+
+APPENDIX B:
+===========
+
+THE SHIPS OF DREADNOUGHTS
+-------------------------
+   The ships listed below are available for play.  The gun listing on the first
+line is a ship's primary and secondary guns.  Some ships may have only primary
+or secondary guns.  The numbers in parentheses are gun ranges in thousands of
+yards (K YDS).  The armor is listed in inches.
+
+GERMAN SHIPS
+------------
+
+BISMARCK
+++++++++
+   Germany's enforced hiatus in battleship design forced it to rely upon the
+old Baden class ships when it designed ad built the Tirpitz class.  This meant,
+among other defects, that the rudder and steering gear were badly protected.
+This proved to be a fatal flaw.
+   On her 1941 commerce-raiding run code-named "Exercise Rhine." the Bismarck
+and the Prinz Eugen succeeded in destroying the Hood on 24 May and severely
+damaging the Prince of Wales (see "Appendix A: The Bismarck Chronology").  They
+escaped during the night, but were sighted on the 26th by a Coastal Command
+flying boat.  That evening, torpedo-bombers from the Ark Royal scored two hits,
+one on her starboard rudder, making the Bismarck uncontrollable.  The next day,
+the King George V, the Rodney and two destroyers attacked.  Within '90 minutes,
+she was sent to the bottom, destroyed in the end by torpedoes from the
+Dorsetshire and her crews' scuttling-charges.
+
+Tirpitz Class Battleship
+Commissioned: 1939
+Tonnage: 41,676
+Guns   :  8 15-inch (39 K YDS)       12 5.9-inch (24 K YDS)
+         16 4-inch A.A.              12 20mm A.A.
+
+Armor:
+  Belt:       14                     Conning Tower:      14
+  Deck:        8                     Plotting Room:      14
+  Gun :       14                     Main Fire Control:   2
+  Crown:       8                     Rudder:              6
+  Secondary:   4
+
+Engines and Speed: 150,170 h.p.: 30 knots
+
+
+TIRPITZ
++++++++
+   Built along the same lines as the Bismarck, she had greater power and range,
+and more anti-aircraft guns.  Along with the rest of the German North Sea
+Combat Group (consisting of the cruisers Scheer, Lutzow and Hipper), their
+presence forced the disbanding of convoy PQ17, which was bound for the Soviet
+Union.  Although they did not participate in the action, the scattering of the
+convoy opened it to U-boat attacks, with the result that two-thirds of the
+convoy's cargo was sunk.  While berthed in Norwegian waters, her crew
+camouflaged the ship from air observation by laying newly-cut trees across her
+decks.  Nevertheless, British bombers attacked her at Tromso and caused her to
+capsize on 12 November 1944.  As a result, the other German heavy surface units
+were transferred to the Baltic for the rest of 1944, leaving the U-boats and
+the Luftwaffe to attack the convoys.
+
+Tirpitz Class Battleship
+Commissioned: 1941
+Tonnage: 41,676
+Guns:  8 15-inch (39 KYDS)           12 5.9-inch (24 KYDS)
+      16  4-inch A.A.                12 20MM A.A.
+      Torpedoes: 8 21-inch
+
+Armor:
+  Belt:      14                          Conning Tower:      14
+  Deck:       8                          Plotting Room:      14
+  Gun:       14                          Main Fire Control:   2
+  Crown:      8                          Rudder:              6
+  Secondary:  4
+
+Engines and Speed: 150,170 h.p.; 30 knots
+
+
+ADMIRAL SCHEER
+++++++++++++++
+   Named for the 1916 German Commander-in-Chief Vice Admiral Reinhardt Scheer,
+this Deutschland class ship was among the first "pocket battleships" built
+within the limitations of the 1919 Versailles Treaty.  For their role as
+commerce raiders, these ships emphasized armament and endurance.  During the
+war, numerous modifications were made to the Scheer, including additional
+anti-aircraft guns.
+   During the war, she participated in the scattering of convoy PQ17, and was
+also a successful commerce raider.  Late in the war, she was transferred to the
+Baltic Sea and with the Lutzow and Hipper to give off-shore support to the
+Germany army.  She was sunk by the RAF in Kiel in April 1945.
+
+
+Deutschland Class Pocket Battleship
+Commissioned: 1933
+Tonnage: 11,750
+Guns: 6 11-inch (45 KYDS)            8 5.9-inch (24 KYDS)
+
+Armor:
+  Belt:       4                           Conning Tower:      6
+  Deck:       4                           Plotting Room:      6
+  Gun:        6                           Main Fire Control:  1
+  Crown:      4                           Rudder:             2
+  Secondary:  1
+
+Engines and Speed: 50,000 h.p.; 26 knots
+
+
+SCHARNHORST
++++++++++++
+   Both the Scharnhorst and Gneisenau were intended to be the fourth and fifth
+ships in the Deutschland class, but the construction of the Dunkerque class
+ships called for a larger ship.  It took serious wrangling between the Navy and
+Hitler for the ship to get its three triple 11-inch guns.  The Scharnhorst made
+her appearance in Icelandic waters two months after Hitler invaded Poland,
+sinking the British auxiliary cruiser Rawalpindi with the assistance of the
+Gneisenau.  She supported the Narvik landings in 1940, suffering a torpedo hit
+while attacking the British evacuation fleet.  During that battle, she was
+attacked by 15 aircraft from the Ark Royal, which failed at the cost of 8
+aircraft.  Berthed in Brest, she executed (with Gneisenau and Prinz Eugen) the
+daring "Channel dash" from Brest to Wilhelmshaven under the eyes of British
+forces (11-13 February 1942).  During October 1940 to March 1941, with the
+Gneisenau and Hipper, they caught 49 ships (271,000 tons) in the North
+Atlantic.  It was not until the "Battle of the North Cape" (26 Dec. 1943) that
+the Scharnhorst was sunk by British ships.
+
+Gneisenau Class Battlecruiser
+Commissioned: 1936
+Tonnage: 34,840
+Guns:  9 11-inch (45 KYDS)           12 5.9-inch (24 KYDS)
+      14  4-inch A.A.                16 37mm A.A.
+       8 20mm A.A.
+
+Armor:
+  Belt:      16                           Conning Tower:       14
+  Deck:       6                           Plotting Room:       14
+  Gun:       14                           Main Fire Control:    2
+  Crown:      6                           Rudder:               4
+  Secondary:  2
+
+Engines and Speed: 160,000 h.p.; 32 knots
+
+
+GNEISENAU
++++++++++
+   Throughout the war, Gneisenau was under constant attack from the British
+forces.  During a heavy air raid at Kiel, her bows were almost destroyed,
+requiring reconstruction.  But the war deprived her of recovery, and she was
+towed to Gotenhafen and sunk as a blockship in March 1945.
+
+See Scharnhorst
+
+Gneisenau Class Battecruiser
+Commissioned: 1936
+Tonnage: 34,840
+Guns: 9 11-inch (45 KYDS)            12 5.9-inch (24 KYDS)
+
+Armor:
+  Belt:        16                           Conning Tower:      14
+  Deck:         6                           Plotting Room:      14
+  Gun:         14                           Main Fire Control:   2
+  Crown:        6                           Rudder:              4
+  Secondary:    2
+
+Engines and Speed: 160,000 h.p.; 32 knots
+
+
+NURNBERG
+++++++++
+
+Light Cruiser
+Commissioned: 1935
+Tonnage: 6,000
+Guns: 9 5.9-inch (24 KYDS)           8 3.5-inch (16 KYDS)
+
+Armor:
+  Belt:      2                             Conning Tower:        4
+  Deck:      2                             Plotting Room:        2
+  Gun:       2                             Main Fire Control:    0
+  Crown:     0                             Rudder:               2
+  Secondary: 0
+
+Engines and Speed: 60,000 h.p.; 32 knots
+
+
+KOLN
+++++
+   One of a series of undistinguished light cruisers, she helped cover the
+landing of German troops in Bergen, Norway.  Too light to be much of a threat,
+the Koln was sunk at her moorings in 1945 in Wilhelmshaven.
+
+Light Cruiser
+Commissioned: 1928
+Tonnage: 6,000
+Guns: 9 5.9-inch (24 KYDS)           6 3.5-inch (16 KYDS)
+
+Armor:
+  Belt:        2                            Conning Tower:        4
+  Deck:        2                            Plotting Room:        2
+  Gun:         2                            Main Fire Control:    0
+  Crown:       0                            Rudder:               2
+  Secondary:   0
+
+Engines and Speed: 65,000 h.p.; 32 knots
+
+
+GRAF ZEPPELIN
++++++++++++++
+   Launched in 1938, the ship was 90% complete when Hitler ordered suspension
+of construction.  On April 25, 1945 the ship was scuttled in shallow water.  The
+Russians refloated the Zeppelin in 1947 but found it uneconomical to repair the
+ship and accordingly scrapped the carrier in 1948.
+
+Aircraft Carrier
+Launched: 1938
+Tonnage: 19,250
+Guns: 16 5.9-inch (24 KYDS)          12 4.1-inch (20 KYDS)
+
+Armor:
+  Belt:       4                             Conning Tower:        4
+  Deck:       2                             Plotting Room:        4
+  gun:        0                             Main Fire Control:    0
+  Crown:      0                             Rudder:               2
+  Secondary   2
+
+Speed: 33 knots
+
+
+PRINZ EUGEN
++++++++++++
+   One of the more famous cruisers, due to her famous escort Bismarck.  She
+joined the Scharnhorst in the "Channel dash" of 11-13 February 1942.  Later,
+she was sent into action in the Baltic with the Scheer and Hipper, where she
+survived the war.  In 25 July 1946, the United States used her (along with
+90 ships), to test underwater atomic detonation at Bikini Atoll.
+
+See Bismarck, Scharnhorst
+
+Hipper Class Cruiser
+Commissioned: 1918
+Tonnage: 14,000
+Guns: 8 8-inch (24 KYDS)             12 5.9-inch (20 KYDS)
+
+Armor:
+  Belt:        4                             Conning Tower:        6
+  Deck:        4                             Plotting Room:        4
+  Gun:         4                             Main Fire Control:    2
+  Crown:       4                             Rudder:               4
+  Secondary:   1
+
+Engines and Speed: 80,000 h.p.; 32 knots
+
+
+ADMIRAL HIPPER
+++++++++++++++
+   A convoy raider of the same class as the Prinz Eugen, the Hipper
+participated in the Norway attack with the Scharnhorst.  Sent into the convoy
+battle off Cape St. Vincent, she attacked two convoys and, with the help of
+U-boats and the Luftwaffe, sunk more than seven ships (8-11 February 1941).
+After participating in the scattering of convoy PQ17, she was sent to the
+Baltic, where she was sunk.
+
+Hipper Class Cruiser
+
+Commissioned: 1937
+Tonnage: 14,000
+Guns: 8 8-inch (24 KYDS)             12 5.9-inch (20 KYDS)
+
+Armor:
+  Belt:        4                             Conning Tower:      6
+  Deck:        4                             Plotting Room:      4
+  Gun:         4                             Main Fire Control:  2
+  Crown:       4                             Rudder:             4
+  Secondary:   1
+
+Engines and Speed: 80,000 h.p.; 32 knots
+
+
+ALLIED SHIPS
+============
+   All ships are British except where identified otherwise in the title.  Ex:
+NORTH CAROLINA (U.S.A.)
+
+
+HOOD
+++++
+   Britain's reply to the German arms race during World War I was to build the
+biggest, strongest, fastest ship in the world.  Built in response to the
+Germany's projected 15-inch battlecruiser, the plans for the Hood were revised
+in the aftermath of the Battle of Jutland to give her greater armor protection
+making her comparable to the Queen Elizabeth class rather than battlecruisers.
+She was almost not built, since the Germans abandoned their building program
+in 1917.  Of the four ships planned, the Hood was the ship farthest along in
+the construction process, so she was completed and the others cancelled.  There
+was a movement in the late 30s to add more guns and increase her armor against
+aircraft along the Renown lines, but the war stopped that plan, and she was
+immediately put into service.
+   On 3 July 1940, she participated in the Battle of Mers el-Kebir (Oran) in
+which British Force H attacked the French fleet before they could be handed
+over to the Germans.  On 24 May 1941, flying the flag of Vice-Admiral Holland,
+she and the Prince of Wales attacked the Bismarck in Denmark Strait.  Five
+minutes into the battle, the Hood blew up, when a shell hit her magazine.
+While it is believed that she may have had thin armoring, part of the fault
+may have been that her gunpowder detonators were unprotected.
+
+Battlecruiser
+Commissioned: 1918
+Tonnage: 41,200
+Guns: 8 15-inch (34 KYDS)            14 4-inch A.A. 3 pdr. (19 KYDS)
+      Torpedoes: 6 21-inch
+
+Armor:
+  Belt:      12                              Conning Tower:        11
+  Deck:       4                              Plotting Room:        11
+  Gun:       15                              Main Fire Control:     2
+  Crown:      5                              Rudder:                4
+  Secondary:  2
+
+Engines and Speed: 144,000 h.p.; 30 knots
+
+
+
+KING GEORGE V
++++++++++++++
+   By 1937, the terms of the 1930 naval agreements had been abrogated by most
+of Britain's enemies.  The naval arms race was on, with the major powers
+building larger and more powerful ships.  The King George V class, consisting
+of five battleships with ten 14-inch guns, was in keeping with the agreements.
+But with war fast approaching.  Britain has no time to upgrade them.  Compared
+to the Nelson class, they were balanced and handsome ships.  There were some
+changes in this design, including more armor.  There was also room for a
+Walrus spotting plane and launcher that could be taken down when needed to
+make space for light anti-aircraft guns.
+   The King George V was launched in December 1940, in time to meet the
+Bismarck's last sortie in May 1941.
+
+King George V Class Battleship
+Commissioned: 1939
+Tonnage: 36,750
+Guns: 10 14-inch (34 KYDS)           16 5.2-inch (20 KYDS)
+      64 2-pdr. pom-poms             10 20mm Oerlikons
+
+Armor:
+  Belt:       15                           Conning Tower:       14
+  Deck:        6                           Plotting Room:       14
+  Gun:        14                           Main Fire Control:    1
+  Crown:       6                           Rudder:               4
+  Secondary:   2
+
+Engines and Speed: 125,000 h.p.; 28 knots
+
+
+RODNEY
+++++++
+   The Rodney might best be described as the "missing link" between the
+dreadnoughts that sailed with the Grand Fleet in the First World War, and the
+battleships that fought in the second.
+   The Nelson and the Rodney were built to meet the requirements of the
+Washington Conference of 1921, in which Britain could build two 35,000 ton
+battleships with sixteen-inch guns.  With a lot of aluminum and light fire-
+proofed woods, these two ships also had powerful guns that could match anything
+found in European waters, but were hampered by their slow 21 knot movement.
+   The Rodney was hit by a bomb in 1940, but was otherwise untouched.
+Accompanied by the King George V, she aided in sinking the German battleship
+Bismarck.
+
+Battleship
+Commissioned: 1925
+Tonnage: 33,950
+Guns: 9 16-inch (35 KYDS)            12 6-inch (24 KYDS)
+      6 4-7-inch A.A.                 8 2-pdr.pom-poms
+      Torpedoes: 2 24-inch
+
+Armor:
+  Belt:       14                             Conning Tower:       14
+  Deck:        6                             Plotting Room:       12
+  Gun:        16                             Main Fire Control:    2
+  Crown:       8                             Rudder:               4
+  Secondary:   2
+
+Engines and Speed: 43,000 h.p.; 21 knots
+
+
+
+REPULSE
++++++++
+   After their commission in 1916, the battlecruisers Repulse and Renown went
+through so many refits by 1939 that they were known as Refit and Repair.  Their
+birth was auspicious, being the first two battlecruisers commissioned after
+Jutland (where three of Britains' nine battlecruisers went to the bottom).
+   But when WWII began, Refit and Repair were two very different ships.  The
+Repulse benefited from a better armor-belt, and in 1934, was given a catapult
+seaplane and extra anti-aircraft guns.  Sent with the Prince of Wales to the
+Far East, she arrived only to be sunk by the Japanese Air Force.
+
+See Prince of Wales
+
+Battlecruiser
+Commissioned: 1916
+Tonnage: 26,500
+Guns: 6 15-inch (34 KYDS)            18 4-inch (20 KYDS)
+      2  3-inch B.L.                 Torpedoes: 2 21-inch
+
+Armor:
+  Belt:         8                         Conning Tower:         10
+  Deck:         4                         Plotting Room:         10
+  Gun:         12                         Main Fire Control:      2
+  Crown:        4                         Rudder:                 4
+  Secondary:    1
+
+Engines and Speed: 120,000 h.p.; 28 knots
+
+
+PRINCE OF WALES
++++++++++++++++
+   Another of the King George V class ships, the sudden coming of war forced
+her to be sent out with the dockyard "maties" still aboard.  She was badly
+mauled by the Bismarck and sent back for repairs.  The rest of her career
+included carrying Churchill to meet Roosevelt in July 1941 for the Atlantic
+Charter Conference, and in November joining the Repulse to the Far East.  Their
+mission was to defend Malaya in the event of a Japanese attack, but reached
+Singapore after war had been declared.  With the Repulse and 4 destroyers
+under Rear Admiral Philips, they tried to attack a Japanese force off Kuantan,
+Japanese torpedo-bombers from Saigon sunk both ships as they returned to
+Singapore.
+
+King George V Class Battleship
+Commissioned: 1939
+Tonnage: 36,750
+Guns: 10 14-inch (34 KYDS)           16 5.2-inch (20 KYDS)
+      64 2-pdr.pom-poms              10 40mm Bofors
+      10 20-mm Oerlikons
+
+Armor:
+  Belt:      15                            Conning Tower:        14
+  Deck:       6                            Plotting Room:        14
+  Gun:       14                            Main Fire Control      1
+  Crown:      6                            Rudder:                6
+  Secondary:  2
+
+Engines and Speed: 125,000 h.p.; 28 knots
+
+
+REVENGE
++++++++
+   The last class to have 6-inch secondary armament on the main deck, and the
+only one of its class to be completed in time for Jutland.  But while ships in
+the Queen Elizabeth class were being refitted and rebuilt to keep up with
+developments, the Revenge class became increasingly obsolete.
+
+Revenge Class Super-Dreadnoughts
+Commissioned: 1915
+Tonnage: 27,000
+Guns: 8 15-inch (28 KYDS)            12 6-inch (24 KYDS)
+      2  3-inch A.A.                 Torpedoes: 4 21-inch
+
+Armor:
+  Belt:      14                            Conning Tower:        12
+  Deck:       4                            Plotting Room:        10
+  Gun:       14                            Main Fire Control      2
+  Crown:      4                            Rudder:                4
+  Secondary:  2
+
+Engines and Speed: 40,000 h.p.; 20 knots
+
+
+
+NELSON
+++++++
+   Like the Rodney, the Nelson was built within the limits set by the
+Washington Conference of 1921.  Equipped with powerful 16-inch guns, she was
+hampered by her slow speed, and restricted mostly to convoy duty.  The Nelson
+survived the war, being damaged only by two mines and a torpedo.
+
+See Rodney
+
+Battleship
+Commissioned: 1925
+Tonnage: 33,950
+Guns: 9 16-inch (35 KYDS)            12 6-inch (24 KYDS)
+      6 4-7-inch A.A.                8 2-pdr.pom-poms
+      Torpedoes: 2 24-inch
+
+Armor:
+  Belt:      14                            Conning Tower:        14
+  Deck:       6                            Plotting Room:        12
+  Gun:       16                            Main Fire Control      2
+  Crown:      8                            Rudder:                4
+  Secondary:  2
+
+Engines and Speed: 43,000 h.p.; 21 knots
+
+
+
+RAMILLIES
++++++++++
+   Part of the Revenge class of ships.  Built for the last war, the only
+modifications possible under the press for time was to add as many anti-
+aircraft guns as deck space would allow, and hope that the Germans didn't find
+them first.  She was torpedoed and sunk while supporting the Allied landings
+on Madagascar.
+
+Revenge Class Super-Dreadnoughts
+
+Commissioned: 1916
+Tonnage: 27,000
+Guns: 8 15-inch (28 KYDS)            12 6-inch (24 KYDS)
+      2  3-inch A.A.                 Torpedoes: 4 21-inch
+
+Armor:
+  Belt:      14                            Conning Tower:        12
+  Deck:       4                            Plotting Room:        10
+  Gun:       14                            Main Fire Control      2
+  Crown:      4                            Rudder:                4
+  Secondary:  2
+
+Engines and Speed: 40,000 h.p.; 19 knots
+
+
+
+RENOWN
+++++++
+   As a result of its 1936 refitting, several important additions were made
+including extra anti-torpedo bulges, more boats, and additional anti-aircraft
+guns.  Her actions included a brief, in-decisive brush with the Scharnhorst
+during the Norwegian campaign.  From 1940-41, she was the Flagship of Force H
+in Gibraltar, fought the Italian Fleet and bombarded Genoa.  Reassigned to the
+Far East in 1944, she bombarded Sebang and Car Nicobar.
+
+See Repulse.
+
+Battlecruiser
+Commissioned: 1916
+Tonnage: 26,500
+Guns: 6 15-inch (34 KYDS)            20 4.5-inch (20 KYDS)
+      2  3-inch B.L.                  4 4-inch A.A.
+      Torpedoes: 10 21-inch
+
+Armor:
+  Belt:       8                            Conning Tower:        10
+  Deck:       6                            Plotting Room:        10
+  Gun:       12                            Main Fire Control      2
+  Crown:      4                            Rudder:                4
+  Secondary:  1
+
+Engines and Speed: 120,000 h.p.; 29 knots
+
+
+
+ARK ROYAL
++++++++++
+   The Royal Navy's first ship to be launched as an aircraft carrier was
+designed first as a cargo vessel.  Her long flight-deck jutting squarely over
+bow and stern set the standard for future carrier designs.  Her sixteen 4.5-
+inch guns were high up beside the flight deck, giving her an excellent field
+of fire.
+   Her battle record was enhanced in two cases by rumor.  In the early years
+of the war, the Germans embarrassed themselves at different times by announcing
+that they had sunk the carrier.  Then, while patrolling for the Admiral Graf
+Spee, news reached her that the ship had been driven into Montevideo.  It was
+the news of the Ark Royal's coming, and its exaggerated power fed secretly to
+the Germans, that convinced the captain to scuttle the German cruiser.
+   She attacked the Scharnhorst on 13 June 1940 with 15 aircraft, but failed to
+damage it.  In July, she was part of a task force that attacked the French navy
+in Oran.  She also contributed to the sinking of the Bismarck in May 1941.
+Swordfish from the Ark Royal, launched in appalling weather, were able to find
+and torpedo the Bismarck's rudder, jamming it so that the battleships could
+catch up and sink her.  On 13 November 1941, the Ark Royal was torpedoed off
+Gibraltar by U-boat U81 and sank 14 hours later.  Apparently, poor damage
+control was the reason.
+
+Fleet Aircraft Carrier
+Commissioned: 1937
+Tonnage: 22,000
+Guns: (secondary) 16 5-inch (19 KYDS)
+      6 multiple pom-poms
+
+Aircraft: 60
+
+Armor:
+  Belt:       4                            Conning Tower:        10
+  Deck:       4                            Plotting Room:        10
+  Gun:        0                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 102,000 h.p.; 31 knots
+
+
+
+EAGLE
++++++
+   Originally laid down as a Chilean battleship, she was revised as a light
+aircraft carrier, spending most of her career in the Mediterranean.  On 5 July
+1940, she helped invade Tobruk harbor, sinking an Italian destroyer and
+freighter.  On 11 November 1940, Swordfish torpedo-bombers attacked the Italian
+fleet from the carriers Illustrious and the Eagle.  Three Italian battleships
+were sunk at their moorings.  On 11-13 August 1942, she joined the "Pedestal"
+convoy to relieve Malta, where she was sunk by the Germans.
+
+Fleet Aircraft Carrier
+Commissioned: 1918
+Tonnage: 22,600
+Guns: 4 6-inch (19 KYDS)             9 4-inch A.A. (26 KYDS)
+
+Aircraft: 21
+
+Armor:
+  Belt:       6                            Conning Tower:         4
+  Deck:       4                            Plotting Room:         4
+  Gun:        0                            Main Fire Control      0
+  Crown:      0                            Rudder:                4
+  Secondary:  2
+
+Engines and Speed: 50,000 h.p.; 22 knots
+
+
+
+VICTORIOUS
+++++++++++
+   As part of the Illustrious class of ships, these aircraft carriers were
+similar to the Ark Royal but had one less deck.  While most of these ships saw
+service mostly in the Far East, the Victorious served in the Atlantic.  She
+joined the fleet in time to help sink the Bismarck, slowing her with a hit from
+her Swordfish torpedo bomber.  On 3 April 1944, barracuda dive-bombers from the
+Victorious and Furious severely damaged the Tirpitz.  After the war, the
+Victorious was stripped down almost to her keel and rebuilt to handle the newer
+jets.  She was finally retired in 1968.
+
+Illustrious Class Fleet Aircraft Carrier
+Commissioned: 1938
+Tonnage: 23,000
+Guns: (secondary) 16 4.5-inch (19 KYDS)
+
+Aircraft: 34
+
+Armor:
+  Belt:       4                            Conning Tower:        10
+  Deck:       4                            Plotting Room:        10
+  Gun:        0                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 110,000 h.p.; 32 knots
+
+
+
+DORSETSHIRE
++++++++++++
+   The Washington Treaty set the maximum limit for cruisers at 10,000 tons with
+8-inch guns.  The Dorsetshire was one of those cruisers built under the treaty.
+On 5 April 1942, the cruisers Dorsetshire and Cornwall were sunk by Japanese
+bombers near Ceylon.
+
+County Class Cruiser
+Commissioned: 1929
+Tonnage: 10,000
+Guns: 8 8-inch (29 KYDS)             8 4-inch A.A. (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 8 21-inch
+ 
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       4                            Plotting Room:         2
+  Gun:        2                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 80,000 h.p.; 32 knots
+
+
+
+NORFOLK
++++++++
+   This cruiser participated in the Bismarck sinking.
+
+County Class Cruiser
+Commissioned: 1928
+Tonnage: 10,000
+Guns: 8 8-inch (29 KYDS)             8 4-inch A.A. (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 8 21-inch
+ 
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       2                            Plotting Room:         2
+  Gun:        2                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 80,000 h.p.; 32 knots
+
+
+
+SUFFOLK
++++++++
+   A participant in the Bismarck action, the Suffolk was the first to sight the
+battleship in the Denmark Strait between Iceland and Greenland.
+
+County Class Cruiser
+Commissioned: 1926
+Tonnage: 10,000
+Guns: 8 8-inch (29 KYDS)             8 4-inch A.A. (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 8 21-inch
+ 
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       2                            Plotting Room:         2
+  Gun:        2                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 80,000 h.p.; 31 knots
+
+
+
+
+MANCHESTER
+++++++++++
+   In reply to the 6-inch cruisers displaying 15 guns in five triple turrets,
+the British developed the eight ships of the Southampton class, each carrying
+twelve 6-inch guns.  The Manchester was torpedoed and sunk by an Italian motor-
+torpedo-boat in 1942.
+
+Southampton Class Light Cruiser
+Commissioned: 1937
+Tonnage: 9,000
+Guns: 12 6-inch (26 KYDS)            8 4-inch A.A. (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 6 21-inch
+ 
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         0
+  Gun:        2                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 82,500 h.p.; 32 knots
+
+
+
+
+BIRMINGHAM
+++++++++++
+
+Southampton Class Light Cruiser
+Commissioned: 1936
+Tonnage: 9,000
+Guns: 12 6-inch (26 KYDS)            8 4-inch A.A. (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 6 21-inch
+ 
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         0
+  Gun:        2                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 75,500 h.p.; 32 knots
+
+
+
+
+SHEFFIELD
++++++++++
+   Of all the ships in the Southampton class the Sheffield had the most
+impressive career.  In addition to taking part in the sinkings of the Bismarck
+and Scharnhorst, she was in the Barents Sea action of New Year's Day, 1942.
+While providing coverage to one end of convoy J.W.51B, it was attacked at the
+other end by the Lutzow, the Hipper, and several destroyers.  In a remarkable
+display of seamanship, the local escort held off their stronger opponents for
+three hours until the Sheffield and the other cruisers arrived.  After a three
+hours until the Sheffield and the other cruisers arrived.  After a three-hour
+battle, the Germans withdrew, leaving one destroyer behind and the Hipper
+damaged.  The British lost the destroyer Achates and the minesweeper Bramble.
+Hitler was so angry he ordered the remaining big ships in his navy to be
+dismantled, though this was later rescinded.  The German head of naval
+operations.  Grand-Admiral Raeder, resigned over the affair.  The Sheffield
+survived to be the last of her class, scrapped in 1969.
+
+Southampton Class Cruiser
+Commissioned: 1936
+Tonnage: 9,000
+Guns: 12 6-inch (26 KYDS)            8 4-inch A.A. (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 6 21-inch
+ 
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         0
+  Gun:        2                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 75,000 h.p.; 32 knots
+
+
+
+
+KENYA
++++++
+   The Colony class of ships were completed between 1940 and 1943.  There were
+eleven ships in all, and the growing preoccupation with anti-aircraft defense
+caused the suppression of turrets in these ships to put in more anti-aircraft
+guns.  Both the Kenya and Nigeria were damaged by torpedoes during the
+"Pedestal" convoy run to Malta in August 1942.  Only two ships from this class
+were lost during the war, both to German aircraft.
+
+Colony Class Light Cruiser
+Commissioned: 1939
+Tonnage: 8,000
+Guns: 12 6-inch (26 KYDS)            8 4-inch A.A. (14 KYDS)
+      20 2-pdr. A.A.                 20 20-mm A.A.
+      Torpedoes: 6 21-inch
+
+Aircraft: 3
+ 
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       2                            Plotting Room:         2
+  Gun:        2                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 72,500 h.p.; 33 knots
+
+
+
+
+EDINBURGH
++++++++++
+   Sunk by British forces after being totally disabled by German torpedo
+attacks on a convoy run from northern Russia, May 1, 1942.
+
+Belted Light Cruiser
+Commissioned: 1938
+Tonnage: 10,000
+Guns: 12 6-inch (26 KYDS)            12 4-inch A.A. (14 KYDS)
+      16 2-pdr. A.A.                 Torpedoes: 6 21-inch
+
+Aircraft: 3
+ 
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         0
+  Gun:        2                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 80,000 h.p.; 32 knots
+
+
+
+
+HERMIONE
+++++++++
+   Sunk by a torpedo in the Mediterranean.  Because the guns in the class of
+ships had very high firing angles, they were used as anti-aircraft cruisers.
+
+Dido Class Light Cruiser
+Commissioned: 1939
+Tonnage: 5,450
+Guns: 10 4-inch (14 KYDS)            8 2-pdr A.A.
+      Torpedoes: 6 21-inch
+
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         0
+  Gun:        2                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 62,000 h.p.; 33 knots
+
+
+
+
+AURORA
+++++++
+
+Arethusa Class Light Cruiser
+Commissioned: 1936
+Tonnage: 5,200
+Guns: 6 6-inch (26 KYDS)             8 4-inch (14 KYDS)
+      8 2-pdr. A.A.
+
+Aircraft: 1
+
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         0
+  Gun:        2                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 64,000 h.p.; 32 knots
+
+
+
+
+ARETHUSA
+++++++++
+   The Arethusa class of cruisers were the smallest cruisers the British built
+before the war, and were considered badly undergunned.
+
+Arethusa Class Light Cruiser
+Commissioned: 1934
+Tonnage: 5,200
+Guns: 6 6-inch (26 KYDS)             8 4-inch (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 6 21-inch
+
+Aircraft: 1
+
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         0
+  Gun:        2                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 64,000 h.p.; 32 knots
+
+
+
+
+GALATEA
++++++++
+
+Arethusa Class Light Cruiser
+Commissioned: 1934
+Tonnage: 5,200
+Guns: 6 6-inch (26 KYDS)             8 4-inch (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 6 21-inch
+
+Aircraft: 1
+
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         0
+  Gun:        2                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 64,000 h.p.; 32 knots
+
+
+
+
+LONDON
+++++++
+
+County Class Cruiser
+Commissioned: 1927
+Tonnage: 10,000
+Guns: 8 8-inch (29 KYDS)             8 4-inch (14 KYDS)
+      8 2-pdr. A.A.                  Torpedoes: 8 21-inch
+
+Aircraft: 3
+
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       4                            Plotting Room:         2
+  Gun:        2                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 80,000 h.p.; 32 knots
+
+
+
+
+EXETER
+++++++
+   Along with the York, the Exeter was one of smaller versions of the County
+class.  Several modifications were made to its guns and hull, which were
+cheaper but made them move vulnerable to enemy fire.  Both were lost during the
+war, and the Exeter saw quite a bit of action.  She was one of three cruisers
+that chased the Admiral Graf Spee into Montevideo and was engaged by that ship
+(13 December 1939).  She was considerably battered, but continued to fight
+until nearly sunk.  She was then assigned to the Far East theatre in 1942, and
+was sunk later that same year in the Java Sea while part of a Anglo-Dutch-US
+squadron.
+
+County Class Cruiser
+Commissioned: 1929
+Tonnage: 8,390
+Guns: 6 8-inch (29 KYDS)             4 4-inch (14 KYDS)
+      2 2-pdr. A.A.                  Torpedoes: 6 21-inch
+
+Aircraft: 2
+
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       4                            Plotting Room:         2
+  Gun:        2                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 80,000 h.p.; 32 knots
+
+
+
+
+CAIRO
++++++
+   Built for the previous war, these C Class cruisers showed their age.  The
+Cairo was sunk by submarines on the "Pedestal" run to Malta (11-13 August 1942)
+
+C Class Light Cruiser
+Commissioned: 1918
+Tonnage: 4,190
+Guns: 8 5-inch (19 KYDS)             2 4-inch A.A.
+      Torpedoes: 8 21-inch
+
+Armor:
+  Belt:       2                            Conning Tower:         1
+  Deck:       2                            Plotting Room:         2
+  Gun:        2                            Main Fire Control      1
+  Crown:      1                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 40,000 h.p.; 29 knots
+
+
+
+
+NORTH CAROLINA (U.S.A.)
++++++++++++++++++++++++
+   One of two battleships in this class that saw extensive service during the
+war, mostly in the Pacific.  Designed under the London Treaty limitations of
+1936, some changes were made when the Japanese rejected the treaty, by
+replacing the four 14-inch guns with three 16-inch guns.  While it reduced the
+speed by two knots, her protection against 14-inch shells was increased.
+
+North Carolina Class Battleship
+Commissioned: 1941
+Tonnage: 38,000
+Guns:  9 16-inch (43 KYDS)           20 5-inch (18 KYDS)
+      16  1-inch A.A.                12 1/2-inch A.A.
+
+Armor:
+  Belt:      12                            Conning Tower:        16
+  Deck:       8                            Plotting Room:        16
+  Gun:       16                            Main Fire Control      1
+  Crown:      7                            Rudder:                6
+  Secondary:  2
+
+Engines and Speed: 121,000 h.p.; 28 knots
+
+
+
+
+AUGUSTA (U.S.A.)
+++++++++++++++++
+
+Cruiser
+Commissioned: 1930
+Tonnage: 9,050
+Guns:  9 8-inch (30 KYDS)            8 5-inch (18 KYDS)
+
+Armor:
+  Belt:       3                            Conning Tower:         8
+  Deck:       2                            Plotting Room:         8
+  Gun:        2                            Main Fire Control      1
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 107,000 h.p.; 32 knots
+
+
+
+
+DUNKERQUE (Fr.)
++++++++++++++++
+   The direct French response to the German Deutschland class ships were the two
+ships Dunkerque and Strasbourg.  Unlike other battlecruisers, all of their main
+guns were mounted forward, and were far less in size than what the treaties
+permitted.  This allowed the magazine protection to be concentrated, saving
+considerable weight, but increased the chance of the guns being disabled with
+one hit.  Her career was far less notable than her design, being attacked twice
+by the British to keep her out of German hands.  Although damaged at Oran, she
+was finally scuttled in 1942 by the French in Toulon.
+
+Dunkerque Class Battlecruiser
+Commissioned: 1937
+Tonnage: 26,500
+Guns:  8 13-inch (45 KYDS)           16 5.1-inch (21 KYDS)
+       8 38mm A.A.                   32 13mm A.A.
+ 
+Armor:
+  Belt:      10                            Conning Tower:        11
+  Deck:       6                            Plotting Room:        11
+  Gun:       14                            Main Fire Control      2
+  Crown:      6                            Rudder:                6
+  Secondary:  5
+
+Engines and Speed: 112,500 h.p.; 29 knots
+
+
+
+
+STRASBOURG (Fr.)
+++++++++++++++++
+   Built along the same lines and class as Dunkerque, she survived the attack
+on Oran only to be scuttled later.  Her hulk was raised in 1945 and used for
+experiments until finally broken up in 1958.
+
+Dunkerque Class Battlecruiser
+Commissioned: 1937
+Tonnage: 26,500
+Guns:  8 13-inch (45 KYDS)           16 5.1-inch (21 KYDS)
+       8 37mm A.A.                   32 13mm A.A.
+ 
+Armor:
+  Belt:      10                            Conning Tower:        11
+  Deck:       6                            Plotting Room:        11
+  Gun:       14                            Main Fire Control      2
+  Crown:      6                            Rudder:                6
+  Secondary:  5
+
+Engines and Speed: 112,500 h.p.; 29 knots
+
+
+
+
+GLOIRE (Fr.)
+++++++++++++
+Light Cruiser
+Commissioned: 1933
+Tonnage: 7,600
+Guns:  9 6-inch (24 KYDS)            8 3.5-inch (19 KYDS)
+ 
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       2                            Plotting Room:         4
+  Gun:        4                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 84,000 h.p.; 31 knots
+
+
+
+
+GALISONNIERE (Fr.)
+++++++++++++++++++
+
+Light Cruiser
+Commissioned: 1933
+Tonnage: 7,600
+Guns:  9 6-inch (24 KYDS)            8 3.5-inch (19 KYDS)
+ 
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       2                            Plotting Room:         4
+  Gun:        4                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 84,000 h.p.; 33 knots
+
+
+
+
+TOURVILLE (Fr.)
++++++++++++++++
+
+Cruiser
+Commissioned: 1926
+Tonnage: 10,000
+Guns:  8 8-inch (25 KYDS)
+ 
+Armor:
+  Belt:       2                            Conning Tower:         2
+  Deck:       2                            Plotting Room:         2
+  Gun:        2                            Main Fire Control      0
+  Crown:      0                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 120,000 h.p.; 32 knots
+
+
+
+ALGERIE (Fr.)
++++++++++++++
+
+Cruiser
+Commissioned: 1932
+Tonnage: 10,000
+Guns:  8 8-inch (25 KYDS)            8 3.9-inch (19 KYDS)
+ 
+Armor:
+  Belt:       4                            Conning Tower:         4
+  Deck:       4                            Plotting Room:         2
+  Gun:        4                            Main Fire Control      0
+  Crown:      2                            Rudder:                2
+  Secondary:  0
+
+Engines and Speed: 86,000 h.p.; 32 knots
+
+
+
+APPENDIX C
+==========
+
+DREADNOUGHTS PLAYERS' NOTES
+===========================
+   Part of the enjoyment about playing Dreadnoughts lies in discovering the
+designers have put into the game system.  This applies especially to the
+Bismarck scenario.  While we will not give the game away by citing specific
+examples, rest assured that the British player (i.e. the computer) will be
+fully prepared to meet almost any plan you can come up with.  This game has
+been designed to recreate the historical situation the captain of the Bismarck
+faced in 1941.
+   There are, however, some hints and explanations that could help you in your
+initial cruises.  Let's begin with an examination of the Bismarck.
+   The first thing you'll notice about the Bismarck is its armor and power.
+Checking her against the ships in Appendix B will reveal very few rivals.  The
+fact that she can blow most cruisers out of the water with a blast from her
+15-inch guns makes her a feared adversary.  And there will be times in the heat
+of battle where you will wonder if anything can bring her down.
+   That is precisely the wrong attitude to have, because there is no ship in
+the game (the bismarck included) that can withstand the relentless pounding of
+shells forever.  A shell exploding in the wrong place can do considerable
+damage.  This is especially true when you realize that once a ship's super-
+structure has been destroyed, any further hits on the superstructure will count
+as hull hits!  There is also a good chance of a single shell doing serious
+damage to the control tower (forcing a turn of inactivity while the new captain
+takes over), the rudder (causing the ship to turn in only one direction) or the
+hull.
+   The Bismarck's strengths lie with her speed and armor.  Note that if she
+takes too many hits that reduce her speed, she becomes an easier target to hit.
+After that, it's just a matter of time before she gets sent to the bottom.  And
+that's one secret about Dreadnoughts that's not mentioned in the rules: the
+slower a ship moves, the better target she makes.  Since it's impossible for a
+ship to be repaired within the time constraints of the game, any damage
+incurred early in the cruise will haunt the player in later battles.  So the
+lesson here is: be very cautious about committing the Bismarck to battle.
+   Of course, there is one tactic that will help there, but we'll let you find
+it yourself.
+
+WHERE ARE THE CONVOYS?
+   It may come to pass that, after playing a few games, you'll start wondering
+where the convoys are.  Their initial placement may change from game to game,
+but the one thing that is constant is that they'll always follow the convoy
+routes (found by pressing the R key while looking at the strategic map).  But
+they won't automatically appear and offer themselves to slaughter.  It's up to
+you, the commander of the Bismarck, to search and destroy them.
+   Here's how: once you get into the convoy lanes, you will find that the most
+important commands will be air Search, Patrol, and Visual Display.  Just like
+in real life, you will have to rely on your pilots and your radar operators to
+seek out the enemy.  But they are not perfect by any means.  Radar technology
+in the 1940's was not all it is in the 1980's.  Some ships had them, some
+didn't.  Dreadnoughts also takes account of human errors, too.  If you send out
+search planes on two consecutive turns, you may get two entirely different
+reports.  Which should you believe?  There's no easy way to find out, and that
+is exactly what the captain of the Bismarck faced.
+   So, you're in the shipping lanes between England and America.  What should
+you do next?  You have a number of options at hand.  A quick visual search will
+reveal what you see with your eyes and what your radar operator reports.  Ships
+within visual range will be identified by type (B for battleship, A for
+aircraft carrier, and so on), while radar will only pick up blips indicating
+that something is out there...maybe.
+   Do you patrol or send out aircraft?  Both have strengths and weaknesses.
+The bismarck cruising slowly in circles can cover three times its radar range
+of 15 miles, while an Arado float plane can cover a 90 mile radius.  Both will
+have some degree of human error in their reports.  Aircraft, however, can only
+be launched in good weather to have a good chance of making it back.
+   Sometimes you may have to reveal the Bismarck's position in order to guide
+the float plane back.  This can happen when the plane is a) launched in foul
+weather, or b) the Bismarck is traveling too fast for the plane to locate.
+Revealing your position could be hazardous, for the British may be listening
+in.  Of course, if you're being shadowed by British cruisers, it won't matter
+a bit if you reveal your position.
+   Even worse, you may reveal your position, but the plane still didn't make it
+back.  C'est la guerre.
+   If you successfully accomplish an air search or patrol, the screen will
+display the results.  Convoys (consisting of merchant ships plus their
+destroyer escorts) will be shown as a group of dashes.  The all-important
+convoy WS.8 will have five dashes.  Also, the troop ship Britannic represented
+by the letter T, may also make an appearance.  She counts as a convoy in the
+victory conditions, too!
+   Getting the Bismarck to attack the convoy could be difficult when you
+realize that, while the float plane is in the air, the ship must carry out its
+move for that turn.  If you work it right, the computer will load the battle
+program and you're on your way!
+
+
+BY FIRE AND STEEL
+(Surviving the Battle Phase)
+
+   You've done it now: the Prince of Wales and the Hood, along with four
+destroyers, have intercepted and forced battle on you.  You're in the battle
+phase, and you won't be able to escape until they're sunk or out of visual
+range.  Can you escape?
+   Oddly enough, chances are good of surviving the encounter.  We can't promise
+that the Bismarck will emerge unscathed, but there are some rules to follow
+that will increase your chances of winning the encounter.
+   First and foremost, realize that the Hood and the Prince of Wales are not
+two ships cut from the same mold.  Quite the contrary, there is twenty years
+and two wars' difference between the two.  The battlecruiser Hood was built
+during World War I while the Prince of Wales, commissioned in 1939, was a
+member of the King George V class of battleships.  The advancements in ship
+design makes the Prince of Wales a superior ship.
+   The major difference between the two lies in their armor.  The Hood's
+plotting room and conning tower are weaker than the battleship, as are her
+secondary guns.  Plus, her fatal flaw that caused it to blow up (the un-
+protected gunpowder detonators) has bee built into the computer program.  Thus
+it's quite possible to recreate the historical outcome of the battle.
+   So go after the Prince of Wales first, before the Bismarck suffers any
+serious damage.  If you have the room and the patience, you could take
+advantage of your superior reach and stay out of the battleship's main gun
+range.  But it's hard to do, and especially difficult to maintain.
+   One particularly effective tactic comes from the age of wooden ships and
+iron men: that of "crossing the T."   The tactic requires turning your ship so
+that her primary and secondary guns are bearing on the target's bow or stern.
+With the tremendous firepower of the Bismarck, this can be devastatingly
+effective.
+   Assuming, then, that the Prince of Wales and the Hood are either sunk or
+leaving the scene, what about the destroyers?  A pleasant surprise awaits you,
+but we'll not go into that now.
+
+
+Sample Air Search Display
+=========================
+
+                    +----------------------------------------+
+                    |                                        |
+                    |          -  -                          |
+Convoy WS.8 --------|-------->   -                           |
+                    |          -  -                          |
+                    |                                        |
+Bismarck and        |                                        |
+Prince Eugen -------|----------                              |
+                    |           \______        +-------+     |
+                    |                   \      |    |  |     |
+                    |                    --------> - - |     |
+Visual Radius ------|------------------------->|    |  |     |
+                    |                          +-------+     |
+                    |                                        |
+Battleship ---------|------>  B                              |
+                    |                                        |
+Destroyer ----------|--------------> D                       |
+                    |                                        |
+                    |                                        |
+Transport  ---------|-----------------------> T              |
+(Britannic)         |                                        |
+                    |                                        |
+                    +----------------------------------------+
+
+(Please note that the square is the circle and inside is cross '+' in
+ original manual)
+
+
+Sample Visual/Radar Display
+===========================
+
+               +----------------------------------------------+
+               |   +-------------------------------------+    |
+               |   |                                     |    |
+Radar Radius --|-->|                                     |    |
+               |   |              +----------------+     |    |
+               |   |              |                |     |    |
+Destroyer -----|---|--------------|---> D          |     |    |
+Visual Radius -|---|------------->|                |     |    |
+               |   |              |        B       |     |    |
+Transport -----|---|--------------|-> T    ^   C   |     |    |
+(Britannic)    |   |              |        |   ^   |     |    |
+Battleship ----|---|--------------|---> B  |   |   |     |    |
+               |   |              |        |   |   |     |    |
+               |   |              +----------------+     |    |
+Unknown Ships -|---|-----> O               |   |         |    |
+               |   | |                     |   |         |    |
+               |   | |---> O               |   |         |    |
+               |   | |                     |   |         |    |
+               |   | +---> O               |   |         |    |
+               |   |                       |   |         |    |
+               |   +-------------------------------------+    |
+               |                           |   |              |
+               +----------------------------------------------+
+                                           |   |
+                                           |   |
+                                           | Prinz Eugen
+                                           |
+                                        Bismarck
+
+(Please note that the square is circle and 'O' is the black solid square in
+ original manual)
+
+
+The Fairey Swordfish torpedo-bomber dated from 1936, despite its antique look.
+Although slow it had outstanding ruggedness and maneuverability and could fly
+and operate from carriers in conditions which defeated more modern aircraft.
+It established a record by remaining in production longer than any other Allied
+plane in World War II, and proved ideal as an anti-submarine and anti-shipping
+aircraft when armed with 60-lb rockets.
+
+
+AH microcomputer games
+A Division of The Avalon Hill Game Company
+1984.
+
