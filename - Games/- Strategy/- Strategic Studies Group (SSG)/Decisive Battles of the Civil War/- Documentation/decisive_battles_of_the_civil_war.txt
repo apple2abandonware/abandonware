@@ -1,0 +1,1131 @@
+DECISIVE BATTLES OF THE CIVIL WAR
+Strategic Studies Group (SSG)
+GAME MANUAL
+
+1. THE DECISIVE BATTLES GAME SYSTEM
+Decisive Battles of the American Civil War (Vol I) recreates
+six  important  battles  from the first  years  of  the  War
+between the States. The American Civil War lasted four years
+and its one million casualties reflect the determination and
+ferocity with which it was fought. Hopelessly outnumbered in
+terms  of  manpower and materiel, the thirteen  confederated
+southern states kept their secession hopes alive by dint  of
+commitment, superior leadership and a fair amount of luck.
+The American armies which took the field in 1861 were little
+more  than  untrained  militia, led for  the  most  part  by
+inexperienced  officers  and clumsily  trying  to  copy  the
+military systems of the major European powers.
+Four  years  later these same armies were a  match  for  any
+European  contemporary.  They had  evolved  new  tactics  to
+accommodate the vastly increased effect of musketry  on  the
+battlefield. The use of trench warfare so characteristic  of
+the  Great War some 50 years later was pioneered by American
+armies.  Railways were used to expedite the flow of supplies
+and  reinforcements to contested areas so that for the first
+time  in  the history of warfare, armies could stay  in  the
+field almost all year round.
+In  the end, of course, the Union triumphed. Robert E. Lee's
+surrender  at Appomattox Courthouse in April of 1865  marked
+the  effective end of the Confederacy. The Decisive  Battles
+Game  System has been specifically designed to recreate  the
+battles  of this era. Volumes II and III cover battles  from
+the middle and latter years respectively.
+To  get  started with the game, we recommend that you follow
+this sequence.
+(i). Read the specific information for your computer type in
+the  scenario booklet for details on installation and start-
+up.
+(ii).  Play  through the introductory tutorial described  in
+the scenario booklet.
+(iii).  Select any scenario and start playing, referring  to
+this manual as necessary. You should read the Player's Notes
+for  a  particular scenario before playing it for the  first
+time as they contain useful background information.
+This  manual contains two major sections. Part One, The Game
+Routines  explains  the operation of  the  game  system  and
+contains all that you need to know to play a game. Part Two,
+WarPlan÷  explains the use of the scenario design  routines,
+including  WarPaint÷, SSG's icon and terrain  editor.  While
+you  do  not need to read this section to play the game,  it
+will  provide some insights into the deeper workings of  the
+game  system.  In addition, we would encourage  everyone  to
+find out just how easy it is to modify existing scenarios or
+create original work.
+
+2. THE TYPES OF GAME MENUS
+The  order  menus which drive the game can be  divided  into
+four types.
+(a)  Branch Menus - These menus signpost the route to  other
+menus  [2,4,7,9]. Note that most of them also  provide  some
+information.
+(b)   Information  Menus  -  These  menus  provide  specific
+information on the various forces and functions in the  game
+[3].
+(c)  Action Menus - These menus are the centre of  the  game
+system. All of the orders used in the game are given through
+them [5,6,8,10,11,12].
+(d) Single Function Menus - [1].
+
+3. THE GAME MENUS DESCRIBED
+Menu H (Game Master)
+This screen always appears at the beginning of each turn. It
+is  common to both players. It is the first screen you  will
+see  after  completing  the scenario selection  details  and
+choosing <START>.
+In  the  four lines of text above the menu window,  you  are
+told the date, the time of day, the current turn number  and
+the total number of turns in the game.
+Below  the  menu window you are told whether it is daylight,
+dawn, dusk or night and the weather condition.
+
+Menu 1 (Save Game Utility)
+This  is a single function menu which allows you to load  or
+save  a  game,  change the DOS path to the current  disk  or
+directory or load an 'auto saved game' if present.
+To  save a game, locate the <SAVE GAME> line with the  arrow
+keys  and type (RET). A large catalog window displays a list
+of  current  save game files. Use an arrow key to  move  the
+cursor  bar  to the location in which you wish to  save  the
+game.  If that location contains an existing file, then  the
+current  game will be saved over that file. Empty slots  are
+marked 'free'. When you have chosen a location, type (RET).
+The  menu  window now displays the <COMMENT> and  <SAVE  IT>
+lines.  Choosing <COMMENT> allows you to edit both the  name
+of  the  game and a three line synopsis. When you are ready,
+locate the <SAVE IT> line and type (RET).
+To  load  a game, choose <LOAD>. Use the arrow keys to  move
+the  cursor bar to the desired game location and type (RET).
+The chosen game will be loaded.
+The <PATH> command allows you to change the current disk  or
+directory  for loading and/or saving games. The  default  is
+the  directory from which the game was run. When typing disk
+identifiers, please type a colon (:) after the drive  letter
+(e. g. B:). The path is limited to 26 characters.
+Save game disks must be formatted by DOS before use.
+The  <LOAD AUTO> command will load an auto saved game if one
+is present.
+
+Menu 2 (Operations Master)
+This  is a branch menu. The information appearing above  the
+menu window identifies the commander of the Army, his second
+in  command  if present and the name of the Army.  The  icon
+representing  the  Army  HQ  appears  to  the  left  of  the
+commander's  name.  The information below  the  menu  window
+tells  you how many victory points your side has accumulated
+to date, a leader and troop casualty summary and whether you
+have more victory points than your opponent at this point in
+the  game.  IBM  users  are given  an  indication  of  their
+performance  to date in the lower right of the  screen.  The
+game  is  considered contested if there is less than  a  20%
+difference between each side's VP total. Otherwise you  will
+be told you are winning or losing.
+The  menu  window  is divided into two sections.  These  are
+Operations and Reports.
+The  <ROSTER> function allows IBM users access to a detailed
+breakdown  of their forces. Every HQ and brigade is  listed,
+along  with  their  strengths,  artillery  complements   and
+current  condition. Destroyed and reinforcing  brigades  are
+included.  Use the arrow, home, end, or Pg Up/Down  keys  to
+locate  individual units or to page through the report.  Hit
+(RET)  to select the unit high-lighted by the menu bar.  The
+game  map  appears  with the cursor identifying  the  chosen
+unit. Note that brigades have a 9-character I.D. in the  IBM
+version.
+We  recommend  that you examine the <MAP WALK>  menu  before
+issuing  instructions, especially while you're learning  the
+game.
+Note  that  this  same <MAP WALK> function is  available  in
+several menus to make information easier to access.
+If  you select <OPTIONS>, IBM users will be given access  to
+five  optional  features. Menu 12  will  give  you  all  the
+details.  Apple  II/C-64  users  have  the  <OPTIONS>   line
+replaced with <RESIGN>. The <RESIGN> option is for use when,
+for whatever reason, you wish to end the game. The game will
+stop and the end of game screen will be printed. You will be
+prompted to avoid accidental resignations.
+
+Menu 3 (Map Walk)
+This  is  an information menu. On selecting <MAP WALK>  from
+Menu 2, 8, 10 or 11, the cursor is thrown into the map.  Use
+the  I,J,K,M keys, the arrow keys or the 1-6 keys  to  march
+the  cursor across the map which will scroll once the cursor
+reaches  the  edge.  Type (0) to centre the  screen  on  the
+cursor.
+At  any time you may type (RET) to bring up the menu window.
+You  may examine the ownership of hexes, examine the terrain
+by  temporarily clearing units from the map or  examine  the
+terrain masked by the road network.
+You  may move the cursor from objective to objective  either
+by naming the objective you wish to go to or using the arrow
+keys to cycle through them.
+You may also move the cursor from unit to unit by naming the
+unit  you wish to go to. The term unit describes any  combat
+formation, either brigade or HQ.
+Use  the  arrow keys to select the piece of information  you
+wish to examine and then type (RET). To terminate a display,
+type (RET) to replace the cursor in the menu window, use the
+arrow  keys to select the display you wish to turn  off  and
+type (RET) again to complete the process.
+More  than one display may be examined at the same time.  Be
+warned, however, that in some cases the information from one
+display will overprint another. Once you have finished, type
+(ESC/f1)  to return to Menu 2. All displays will  be  turned
+off.
+You  can  (and  should) use this menu to get information  on
+enemy  units.  It  is  also useful  for  examining  terrain,
+especially in active portions of the map, and as a source of
+information  on  the  condition  of  friendly   units.   The
+information  appearing  to right of the  map  describes  the
+contents   of  the  hex  identified  by  the  cursor.   What
+information you see depends upon what is in the hex.
+The  majority of hexes will be empty, nor will an  objective
+be  present. For these hexes, you will be told the  movement
+point  cost for entering the hex, how much natural cover  or
+protection  the  hex  will offer  to  an  occupant  and  the
+expected  visibility or sighting into or  through  the  hex.
+Below  this information, the terrain type is named and below
+this  name  is a three-part iconic display. In the left-hand
+compartment you are shown the terrain icon for the  hex.  In
+the centre compartment you are shown a schematic summary  of
+the  location  of  the  cursor  in  relation  to  the  whole
+battlefield.  In the right-hand compartment the  nationality
+icon of the side controlling the hex is displayed.
+If  an  active objective is present in the hex,  the  middle
+part  of  the report will display its details. You are  told
+for  which turns the objective is active, how many turns you
+have  held  the  objective to date and  the  number  of  VPs
+awarded for its control, both on a per turn basis and at end
+of game. The name of the objective appears above the terrain
+type name.
+If  an enemy unit is present in the hex, the top part of the
+report  will  display its details. You are shown  an  iconic
+representation of the enemy unit. Underneath  this  you  are
+told  whether the unit is in line or column and  whether  it
+appears  steady or shaken. A unit is shaken when its current
+cohesion   value  is  3  or  less,  unless  it  occupies   a
+fortification.
+As  you can see by moving the cursor around the maps, all of
+these displays are separate from each other. However, when a
+friendly  unit  occupies  a hex,  all   information  on  the
+display  except  for  the terrain name  and  the  three-part
+iconic display are replaced with data on the friendly unit.
+A brigade report contains the following information. A boxed
+display  identifies the brigade, its type  and  its  current
+order. At the top of the screen you are shown the HQ icon of
+the formation to which the brigade is attached. The name  of
+this HQ, its current order and the objective, if any, it has
+been  directed  to are also displayed. Where two  objectives
+are  shown,  you  should read this as the  second  objective
+being  the real one. The first objective simply defines  the
+line of march.
+There are four separate icons directly above the brigade ID.
+They  provide a simple summary of the status of the brigade.
+From  left to right the icons display the brigade type icon,
+whether  the  brigade is shattered or occupies a battlefield
+entrenchment or fortification, whether the brigade is within
+the  communication  range  of its superior  HQ  and  finally
+whether  an  order has been issued to the brigade  for  this
+turn.
+Below  the  brigade ID are details of the brigade's  current
+effective strength (rounded off to the nearest 100 men), the
+number of guns attached to the brigade, the current cohesion
+level  and  the  experience and leadership  ratings  of  the
+brigade.
+In Summary
+A  summary  of  the  effects of the <MAP WALK>  menu  appear
+below.
+Control.  All terrain icons are replaced with the  Union  or
+Confederate  control  icon. Hexes containing  units  do  not
+display  a control icon; in every case a hex occupied  by  a
+unit  will  be  controlled by that unit. It is difficult  to
+overstate  how important hex control is in the play  of  the
+game. Units in friendly territory are not usually visible to
+the opposing player.
+Roads. The road network is temporarily removed to reveal the
+hex types underneath.
+Clear.  All  units are temporarily removed from the  map  to
+reveal the hex types underneath.
+Name Objective. A cursor appears above the menu window. Type
+in  the name of the objective you wish to examine. Once  the
+computer  has  enough letters to distinguish it  from  other
+objectives,  the  screen  and cursor  will  centre  on  that
+objective.
+Cycle Objective. The cursor appears on the nearest objective
+and  from there the arrow keys are used to cycle the  cursor
+from one objective to the next.
+Name  Unit. A cursor appears above the menu window. Type  in
+the  name of the unit you wish to examine. Once the computer
+has  enough letters to distinguish it from other units,  the
+screen and cursor will centre on that unit.
+
+Menu 4 (Army Master)
+This  is  a  branch  menu. The screen has  centred  on  your
+present location; i.e. your Army HQ. If the Army HQ has  not
+yet  arrived on the battlefield, the screen will  centre  on
+its scheduled arrival hex. The Army ID is repeated above the
+menu  window while the personal status of the Army commander
+and  his  second in command is given below the  window.  The
+army leaders can be OK, wounded, captured or killed.
+You  use  this menu to choose the location you wish to  send
+your  Army HQ to and to select the personal profile you wish
+to adopt for the next hour of the battle.
+
+Menu 5 (Move Army HQ)
+This  is an action menu. There are four mechanisms by  which
+you can move your Army HQ.
+Position  the  cursor  over the <OBJECTIVE>  line  and  type
+(RET). You will be allowed to name the objective you wish to
+move  your Army HQ to or use the arrow keys to cycle through
+the  available objectives until you locate the one  of  your
+choice. Only objectives currently under friendly control may
+be selected.
+Position the cursor over the <CONTROL> line and type (RET).
+The pinwheel appears in the menu window and you may select a
+Corps  HQ  from it. The Army HQ will move to the  Corps  HQ.
+This line will be overprinted with a solid bar if there  are
+no corps under your command.
+While an Army HQ occupies a hex adjacent to the Corps HQ and
+its  last move order was to that Corps HQ, it assumes direct
+command  of  the formations subordinate to the Corps  HQ  as
+though they were its own.
+If  none  of the above mechanisms will allow you  move  your
+Army  HQ  to its desired location, position the cursor  over
+the  <CURSOR> line and type (RET). You will be given control
+over the cursor appearing on your current Army HQ location.
+Use the arrow keys, the 1-6 keys or the I,J,K,M keys to move
+the  cursor to the chosen location and then type (RET). Only
+hexes  under friendly control may be selected. Your Army  HQ
+has now been ordered to that location.
+If  you  wish  to  cancel an Army HQ  move  or  to  halt  HQ
+movement, select <STAND>.
+Once  ordered  to  move, an Army HQ will take  the  quickest
+route  to its chosen destination and become stationary  once
+it   reaches   that  location.  Remember  that   the   staff
+effectiveness  rating  of  your Army  HQ  will  be  slightly
+reduced while it is moving. A careful commander will do  his
+best to keep HQ movement to a minimum.
+An Army HQ may directly supersede the orders of any friendly
+brigade  within four hexes of its location as  explained  in
+subsequent menu descriptions. Similarly, your Army HQ  staff
+rating is temporarily reduced when enemy brigades are within
+five  hexes of the HQ's location. You should keep these  two
+points in mind when positioning your Army HQ.
+
+Menu 6 (Personal Profile)
+This is an action menu. Basically, you must choose the level
+of  personal danger you wish to expose yourself to  for  the
+next  hour.  There are pros and cons for each  choice.  Your
+choice  will  remain  active  until  you  change  it  in   a
+subsequent  hour  or  conditions  make  it  ineligible.  The
+default profile is sensible.
+Heroic.  You will only be allowed to choose this profile  if
+there is a targeted friendly brigade within four hexes.  You
+and  a  small escort are considered to have moved  into  the
+front line to personally direct the battle.
+For  the  hour  immediately following your  decision  to  be
+heroic, there will be a temporary reduction in your Army  HQ
+staff  value. As compensation, all targeted brigades  within
+three  hexes  of your Army HQ will receive a  combat  bonus.
+Leading  by  example  may  be the  only  way  to  prevent  a
+disaster.  However, the cost of courage is  not  cheap.  You
+will be exposed to enemy fire and bayonet point. You run the
+risk   of  being  wounded,  incapacitated  or  even  killed.
+Furthermore,  the  rest  of  your  Army  will  be  virtually
+leaderless until you return to your Army HQ. You will not be
+allowed  to select a heroic profile after the Army commander
+has  suffered  either a killed, wounded or  captured  combat
+result.
+To  put this profile in perspective, you should find that in
+most of your battles you never have to select it!
+Bold.   You  will only be allowed to choose this profile  if
+there  is a targeted friendly brigade within four hexes.  In
+this case, you remain at your HQ and have chosen to maintain
+a high profile for the purpose of stiffening your men.
+A  small  combat  bonus  is conferred on  targeted  friendly
+brigades  within  four hexes at a cost  of  some  danger  to
+yourself and a slightly reduced staff efficiency
+This profile should be selected when all is going well (i.e.
+you   have  no  need  to  send  off  new  orders   to   your
+subordinates)  and you wish to get your men off  to  a  good
+start.
+Sensible.  You have chosen to expose yourself to the  normal
+level   of   danger   present  on  the  nineteenth   century
+battlefield.  This is roughly equivalent to a 2%  chance  of
+being  killed  or  wounded in a normal day's  fighting.  All
+brigades  within  command radius of  your  Army  HQ  may  be
+stiffened  by your presence or they may ignore you.  In  any
+case, your staff effectiveness rating will not be affected.
+Cautious.  The difference between a cautious profile  and  a
+sensible  profile is small. By selecting a cautious  profile
+you  are  reducing the risk of personal danger to zero.  You
+also  give up all chance of inspiring your men. There is  no
+change  to  your staff effectiveness rating. You should  not
+confuse  cautious  with  cowardly; I'm  sure  there  are  no
+Schimmelpfennigs (a luckless Union General found hiding in a
+pig-sty after the Battle of Gettysburg) playing this game.
+Which  of the two latter profiles you choose will depend  on
+the  local situation. It really boils down to how lucky  you
+feel.
+
+Menu 7 (HQ Select)
+This is a single function menu. The pinwheel appears in  the
+menu window and you may use the arrow keys to select any  of
+the  Corps or Division HQs directly subordinate to your Army
+HQ.  Note that Division HQs subordinate to Corps HQs do  not
+appear  in  the pinwheel unless your Army HQ is  temporarily
+directing  the  Corps HQ as explained in  Menu  5.  Brigades
+never  appear in the pinwheel. If the radio flag is on  then
+Corps  headquarters are not used in the game.  The  pinwheel
+bar  identifies the HQ which is centred on the  screen.  The
+information available for each subordinate HQ is as follows.
+The  top two lines of the screen show the ID of the  HQ  and
+its current command, either offensive, defensive or reserve.
+A HQ with an offensive command can have up to two objectives
+displayed beneath its ID. A HQ with a defensive command will
+have  one  objective displayed below its ID.  A  HQ  with  a
+reserve  command  will have no objectives displayed  beneath
+its ID.
+There  are  four  separate  icons directly  above  the  menu
+window. They provide a simple summary of the command  status
+of  the  HQ.  From left to right the icons display  the  on-
+screen HQ icon (corps or division), the HQ type (infantry or
+cavalry),  whether the HQ is within the communication  range
+of the Army HQ and finally whether a command has been issued
+to  the  HQ for this turn. Obviously, a HQ cannot receive  a
+command while it is out of communication.
+Below  the menu window you are told the leadership and staff
+ratings   of   the  HQ.  If  the  HQ  commander   has   been
+incapacitated  (i.e. killed, wounded or captured)  then  the
+leadership line will tell you there is a new commander.  You
+are  not told how capable he is! To issue a command  to  the
+selected HQ, type (RET).
+
+Menu 8 (HQ Order)
+This is an action menu. It is used to give the HQ its orders
+for the next hour.
+HQs  which  are out of communication with the Army  HQ  will
+only  be  able to access the <MAP WALK> line in the menu.  A
+message in the menu box will inform you that the HQ  is  out
+of  command. HQs which are in communication with the Army HQ
+will  have access to the full range of options in the  menu.
+There  are  three command types, the effects  of  which  are
+explained below. Note that the chosen command type will have
+an effect on both communications and combat.
+The  Offensive Command. An offensive command allows the Army
+commander  to  select either a friendly or enemy  controlled
+objective  as  the destination for the HQ.  Furthermore,  an
+additional objective may be specified to define the route of
+march.
+Position the cursor on the <OFFENSIVE> line and type  (RET).
+You can use the arrow keys or the name routine to locate the
+chosen  objective. Type (RET) to accept the objective.  When
+issuing  this command, you must specify the manoeuvre  point
+as  the first objective and the intended destination as  the
+second  objective. If you don't need to include a  manoeuvre
+point,  you  must type (RET) twice. Once you have  completed
+this routine, you are returned to Menu 7.
+A  corps HQ which has been given this command will check its
+subordinate  formations  and, where necessary,  amend  their
+orders  to  comply  with the new command. How  quickly  this
+happens;  indeed, whether it happens at all will  depend  on
+the  leadership rating of the corps HQ. The corps HQ  itself
+will  accompany one of its subordinates. Note  that  the  HQ
+icon  is  not  allowed to enter enemy controlled  territory.
+Remember that to supersede the authority of a corps HQ  over
+its subordinates, you will have to select that corps HQ from
+Menu 5 and wait until you are adjacent to it.
+A division HQ which has been given this command will execute
+it  as  soon as conditions allow. A poor division  commander
+may  take longer to obey his command than a capable officer.
+A  division in contact with the enemy may take some time  to
+disengage.
+Once  a  formation reaches its destination it will  `listen'
+and  look  for enemy units. Should any be detected within  5
+hexes,  then the formation will march to engage  them;  i.e.
+they  will  march  to  the  sound of  the  guns.  Note  that
+formations  subordinate  to a corps  HQ  may  not  all  take
+exactly  the  same route as specified for the corps  HQ  nor
+will  they  all  select the same objective; they  will  not,
+however,  stray very far away. If there are  no  visible  or
+audible enemy, then the formation will deploy to defend  its
+objective(s).
+Do  not attempt a major redeployment of engaged troops.  You
+will almost certainly end up with a disaster.
+The  Defensive Command. A defensive command allows the  Army
+commander to select a friendly controlled objective  as  the
+destination  for the HQ. You will not have access  to  enemy
+controlled objectives.
+Position the cursor on the <DEFENSIVE> line and type  (RET).
+You can use the arrow keys or the name routine to locate the
+chosen  objective. Type (RET) to accept the objective.  Once
+you have completed this routine, you are returned to Menu 7.
+The  command  is implemented much the same as the  offensive
+command  except  that formations which  have  reached  their
+destination will not march to the sound of the guns but will
+deploy  and defend their objective. There is always a  small
+chance that a commander who is out of communication with his
+superior will spontaneously decide to march to the sound  of
+the guns.
+The   Reserve  Command.  A  reserve  command  instructs  the
+subordinate HQ to withdraw from action and rest or simply to
+wait in place until the appropriate time for its employment.
+A  corps HQ with a reserve command will usually call off any
+attacks made by its subordinates. Offensive commands will be
+changed  to  defensive  or  reserve  commands  depending  on
+circumstances.
+A  division  HQ  will  instruct its  component  brigades  to
+withdraw  from action where applicable and to  recover  lost
+cohesion.  Brigade  responses  are  covered  in  the   notes
+accompanying the description of Menus 10 and 11.
+Note  that cavalry formations will generally continue  in  a
+screening  role until a deterioration in their own condition
+compels a withdrawal.
+Do  not  confuse  the HQ reserve command  with  the  brigade
+reserve order. They are quite different.
+Special  Note.  On the first am turn of any  day  after  the
+first day of a battle, you may be allowed access to all  the
+corps  and division HQs subordinate to the army HQ. See  the
+note in Chapter 6 for more details.
+Menu 9 (Brigade Select)
+This  is an information menu. Brigades are the combat  units
+in the game. All of the actual fighting is done by them. The
+orders which they can be given are generally dependent  upon
+their  current circumstances. The information given here  on
+each  brigade is exactly the same as you see when you access
+the  brigade through the <MAP WALK> routine. Use  the  arrow
+keys to cycle through the brigades.
+When  the  <RADIO> flag is set for a scenario, all  brigades
+can be accessed by the army HQ from this menu. When the flag
+is  not  used  (thus recreating a more authentic  nineteenth
+century  battlefield), only certain brigades can be accessed
+by the army HQ through this menu.
+These brigades are: all brigades which are directly attached
+to  the  army  HQ and which are in communication  (including
+brigades  directly  attached  to  a  corps  which  is  being
+temporarily superseded by the army HQ); all brigades  within
+4 hexes of the army HQ which are in communication, no matter
+to whom they are subordinated.
+Note  that  those  brigades  within  four  hexes  which  are
+subordinated  to  a corps or division HQ  will  display  the
+order  which their commander has chosen for them this  turn.
+You may override the order if you wish.
+Independent brigades attached directly to the army HQ  which
+are  out of communication cannot be accessed at all and  you
+will have to rely on their commanders to do the right thing.
+Note  that  you may always access every brigade through  the
+<MAP WALK> routine;  you just won't be able to tell it to do
+anything.
+Once  you  have selected the brigade you wish to  assign  an
+order  to,  type (RET) to bring up the brigade  order  menu.
+There  are two distinct brigade order menus. Which  one  you
+get is determined by your proximity to enemy units.
+A  brigade adjacent to an enemy brigade will always use  the
+engaged  order menu. A brigade within two hexes of an  enemy
+brigade  will  generally  use the engaged  order  menu.  The
+exceptions are when a river, bridge or ford intervenes, when
+the  friendly brigade is unsighted or when a prohibited  hex
+intervenes.  A  brigade more than two hexes  away  from  all
+enemy brigades will always use the manoeuvre order menu.
+An  engaged  brigade is distinguished on the screen  from  a
+to whom they are subordinated.
+Note  that  those  brigades  within  four  hexes  which  are
+subordinated  to  a corps or division HQ  will  display  the
+order  which their commander has chosen for them this  turn.
+You may override the order if you wish.
+Independent brigades attached directly to the army HQ  which
+are  out of communication cannot be accessed at all and  you
+will have to rely on their commanders to do the right thing.
+Note  that  you may always access every brigade through  the
+<MAP WALK> routine;  you just won't be able to tell it to do
+anything.
+Once  you  have selected the brigade you wish to  assign  an
+order  to,  type (RET) to bring up the brigade  order  menu.
+There  are two distinct brigade order menus. Which  one  you
+get is determined by your proximity to enemy units.
+A  brigade adjacent to an enemy brigade will always use  the
+engaged  order menu. A brigade within two hexes of an  enemy
+brigade  will  generally  use the engaged  order  menu.  The
+exceptions are when a river, bridge or ford intervenes, when
+the  friendly brigade is unsighted or when a prohibited  hex
+intervenes.  A  brigade more than two hexes  away  from  all
+enemy brigades will always use the manoeuvre order menu.
+An  engaged  brigade is distinguished on the screen  from  a
+to whom they are subordinated.
+Note  that  those  brigades  within  four  hexes  which  are
+subordinated  to  a corps or division HQ  will  display  the
+order  which their commander has chosen for them this  turn.
+You may override the order if you wish.
+Independent brigades attached directly to the army HQ  which
+are  out of communication cannot be accessed at all and  you
+will have to rely on their commanders to do the right thing.
+Note  that  you may always access every brigade through  the
+<MAP WALK> routine;  you just won't be able to tell it to do
+anything.
+Once  you  have selected the brigade you wish to  assign  an
+order  to,  type (RET) to bring up the brigade  order  menu.
+There  are two distinct brigade order menus. Which  one  you
+get is determined by your proximity to enemy units.
+A  brigade adjacent to an enemy brigade will always use  the
+engaged  order menu. A brigade within two hexes of an  enemy
+brigade  will  generally  use the engaged  order  menu.  The
+exceptions are when a river, bridge or ford intervenes, when
+the  friendly brigade is unsighted or when a prohibited  hex
+intervenes.  A  brigade more than two hexes  away  from  all
+enemy brigades will always use the manoeuvre order menu.
+An  engaged  brigade is distinguished on the screen  from  a
+manoeuvre  brigade by the fact that the intended  target  of
+the engaged brigade is identified by the battle cursor.
+
+Menu 10 (Engaged Order)
+This  is  an action menu. The engaged order menu appears  at
+the bottom of the information panel. Some of the information
+concerning the brigade has changed.
+The  top  four  lines show the type of enemy unit  targeted,
+whether   it  is  in  column  or  line  formation  (mounted/
+dismounted  for cavalry, limbered/unlimbered for  artillery)
+and whether it is steady or shaken. A brigade will be shaken
+if  its  cohesion  is  less  than  4  unless  it  is  in   a
+fortification.
+The  four  status icons and the brigade ID  do  not  change.
+There   is   some  additional  information  concerning   the
+equipment  of  the brigade. You are told both  the  type  of
+small arms and the type of artillery used by the brigade.
+The <MAP WALK> routine is identical to the routine available
+through  Menu  2.  Below the <MAP WALK> line  are  the  four
+options available to an engaged brigade.
+Note  that  a  surprised  brigade will  have  these  options
+replaced  with a message that informs him of his  bad  luck.
+Only  brigades  moving in column can be surprised.  Brigades
+which are encamped are always considered to be in column for
+this purpose.
+To  select an option, position the cursor on the appropriate
+line  and type (RET). You will be returned directly to  Menu
+9. The four options are.
+Assault.  This option is available to all brigades  adjacent
+to  their  targeted enemy opponent unless a  river  hex-side
+intervenes. It is a full-scale brigade charge combined  with
+a volley of musketry. The targeted enemy brigade will almost
+always  fire  before  the charge goes  in  so  that  a  well
+positioned,   determined  defender  is  very  difficult   to
+dislodge  on a one-on-one basis. If you are not adjacent  to
+your  opponent, you will be denied access to  the  <ASSAULT>
+line.
+Skirmish.  This  option is always available when  the  enemy
+brigade  is  two hexes away. It may or may not be  available
+when the enemy brigade is adjacent. Your brigade is told  to
+stand  and  fire at its opponent when he is adjacent  or  to
+send  a  couple of regiments forward to harass your opponent
+if he is two hexes distant.
+This  is  the order which gives you the best chance to  fire
+first,  particularly  if you did not move  in  the  previous
+turn.  The artillery component of a brigade cannot  fire  if
+the brigade moved in the previous turn unless the brigade is
+cavalry.
+If   you   are  adjacent  to  your  opponent,   not   in   a
+fortification, not separated by a bridge, ford or river hex-
+side  and  the  combined cover values of your hex  and  your
+opponent's hex are less than 4, you will be denied access to
+the <SKIRMISH> line.
+Advance.  This  option is always available  when  the  enemy
+brigade  is two hexes away. It is also available  when  your
+opponent is adjacent and separated from you by a river  hex-
+side.  Where  possible, the order will move you adjacent  to
+your opponent. The brigade will deliver a volley of musketry
+but  generally not until all stationary brigades have  fired
+first.  Use  this order to get into position to  deliver  an
+assault.
+Withdraw.  This is the only option which is always available
+to  an  engaged brigade, regardless of whether it is one  or
+two  hexes  away. The brigade will attempt to  move  out  of
+contact  with both its opponent and any other enemy present.
+A  cavalry  brigade  given a withdraw order  will  fight  as
+though it had a skirmish order but move as though it  had  a
+withdraw order.
+
+Menu 11 (Manoeuvre Order)
+This is an action menu. The manoeuvre order menu appears  at
+the bottom of the information panel. Some of the information
+concerning the brigade has changed.
+The  information above the brigade ID does not change. Below
+the  brigade ID you are told whether the brigade is in  line
+or      column     (mounted/dismounted     for      cavalry,
+limbered/unlimbered for artillery), its size  and  artillery
+strength,  the number of movement points available  for  the
+coming  turn  and the maximum number of hexes  it  may  move
+regardless of its MP allowance.
+The <MAP WALK> routine is identical to the routine available
+through  Menu  2.  Below the <MAP WALK>  line  are  the  six
+options  available  to  a manoeuvre  brigade.  Note  that  a
+manoeuvre brigade cannot be surprised.
+Column/Objective.  A brigade attached  to  a  division  will
+display the <COLUMN> line, a brigade attached to a corps  or
+army HQ will display the <OBJECTIVE> line.
+This  means that a brigade attached to a division cannot  be
+given a separate objective; placing it in column will direct
+it   to  the  current  objective  of  its  division  HQ.  An
+independent brigade may be given a separate objective.
+Position the cursor on the <COLUMN> line and type (RET). You
+will be returned directly to Menu 9. Position the cursor  on
+the <OBJECTIVE> line and type (RET). The cursor will move to
+the map and centre on the brigade's last objective. If there
+is  no last objective, the cursor will centre on the nearest
+objective. Use the arrow keys or the name routine to  locate
+the  chosen  objective and type (RET). You will be  returned
+directly to Menu 9.
+Deploy. This order allows the commander a one hex radius  in
+which to reposition the brigade. Position the cursor on  the
+<DEPLOY>  line and type (RET). The cursor will move  to  the
+map  and centre on the brigade. The brigade icon will  flash
+alternately with an indicator icon to show the direction the
+brigade will move in.
+Use  the arrow keys to redirect the indicator icon and  type
+(RET)  when  it  is facing in the chosen direction.  Once  a
+direction has been chosen, the indicator icon will disappear
+to  be replaced with an action icon over the chosen hex.  In
+the  ensuing  turn,  the  brigade will  move  into  the  hex
+identified by the action icon.
+Regroup. A brigade with a regroup order will attempt to move
+as  quickly  as  possible to its superior HQ.  Position  the
+cursor  over the <REGROUP> line and type (RET). You will  be
+returned directly to Menu 9. A brigade to which the division
+HQ  is  attached cannot regroup; rather it will act  as  the
+locus for regrouping by other brigades in the division.
+Stand. A brigade with a stand order will stay exactly  where
+it  is.  Position the cursor over the <STAND> line and  type
+(RET). You will be returned directly to Menu 9.
+Reserve.  A  brigade  must  be in reserve  to  recover  lost
+cohesion.  Never miss an opportunity to put a  brigade  into
+reserve  if  its  cohesion is fair or  worse.  Position  the
+cursor  over the <RESERVE> line and type (RET). You will  be
+returned  directly to Menu 9. Brigades in reserve  will  not
+move  and  are  automatically surprised if  they  enter  the
+engaged  order routines. Shattered brigades cannot  go  into
+reserve  if  their cohesion is 4 or greater. Other  brigades
+cannot go into reserve if their cohesion is 6 or greater.
+Brigades  with objective/column or regroup orders will  move
+in  column  (mounted for cavalry, unlimbered for artillery).
+If  they  are  forced into the engaged order routines  while
+they  have  these  orders, there is a  chance  they  may  be
+surprised.  The  higher the leadership and  experience,  the
+lower the chance of being surprised. A surprised brigade  is
+considered  to  have  had insufficient time  to  deploy  for
+combat and suffers accordingly.
+Battlefield  entrenchments can be dug  by  certain  infantry
+brigades. A side must be specified in the briefing setup  as
+capable  of entrenchment. If this is the case, then infantry
+brigades which do not move or fire in a particular turn  may
+dig   a  battlefield  entrenchment.  The  entrenchment  will
+disappear as soon as the brigade leaves the hex or is  given
+an  assault order. Shattered brigades will not benefit  from
+entrenchments.  Battlefield  entrenchments  are  treated  as
+fortifications with a value ranging from 1 - 3.
+
+Menu 12 (Options)
+There are five options available.
+The  <RESULTS>  line will tell you the final  score  if  the
+scenario were to end at this point. Hit any key to return to
+the options menu.
+The  <ADVICE>  line will display a couple of  paragraphs  of
+handy  hints for the scenario. Hit any key to return to  the
+options menu.
+The <RESIGN> line operates as explained in Menu 2.
+The <SOUND> line toggles the sound on/off.
+The  <AUTO SAVE> line activates the Auto Save feature.  When
+Auto  Save is on, the scenario in play will be saved at  the
+end of each turn. Only one file is maintained and it is over-
+written  each turn with the current turn. This file  can  be
+loaded using the <LOAD AUTO> line in Start Menu C.
+
+4. THE GAME SYSTEMS
+The major systems which operate within the game are sighting
+(visibility),   communications,   combat,    cohesion    and
+manoeuvre.  There  is quite a bit of inter-relation  between
+these  systems but for ease of clarification they have  been
+discussed separately.
+To  play the game, all you need to know is what the menus do
+and  how to use them. To understand what is going on  behind
+the  scenes and to play the game well, you should read  this
+chapter carefully.
+
+Sighting
+After a couple of introductory games, most people will  want
+to  play the game with the <EXPOSED> flag switched off.  Not
+knowing  where all your opponent's troops are,  not  knowing
+how  many he has, add a completely new dimension to the play
+of the game.
+The  sighting rules work like this. There are two mechanisms
+by  which a unit may be sighted. The first is by the eyeball
+contact of a friendly unit, the second is by a patrol picket
+represented  in the game by the hex control  icons  you  can
+observe in the <MAP WALK> routine.
+Each  terrain type on the map has a cover value assigned  to
+it.  These values can be found from the <MAP WALK>  routine.
+The  computer  sums the cover values between  each  friendly
+unit  and every enemy unit within five hexes, including both
+the  hex  occupied by the friendly unit and the hex occupied
+by the enemy unit.
+The  sighting value is increased by 4-15 points for each  of
+the  following conditions which apply; overcast, rain, snow,
+dawn, dusk, night, heavy fog and light fog.
+The  sighting  value is increased by 8 for each  intervening
+hex.  A random number of 0-7 is added. If the final sighting
+value   is   less  than  56,  the  enemy  unit  is  sighted.
+Furthermore, the maximum sighting range at night or in heavy
+fog  is  one hex. As you can see, it is possible for a  unit
+which  sights  an  enemy unit to remain undetected  by  that
+enemy unit!
+A  sighting  check is made at the end of each turn  and  all
+units  which  have  been sighted by this  mechanism  are  so
+flagged and become visible on the map.
+The  second  mechanism for sighting has nothing to  do  with
+enemy  units or terrain type. Whenever a friendly unit moves
+adjacent to an enemy control icon, it is flagged as picketed
+and immediately becomes visible on the screen.
+Simultaneously with this, as the friendly unit moves  across
+the  map, it switches the control icon of every hex adjacent
+to its path except hexes across a river, bridge or ford hex-
+side  and hexes adjacent to an enemy unit. For example,  you
+would  only see the first unit of a column of troops  moving
+along a road which was enemy controlled at the start of  the
+turn.  It  would be up to you to decide if the force  was  a
+single brigade or a whole corps!
+A  picket  check  is made every time a unit  moves  and  the
+picket  flag  is  set  as  soon  as  a  positive  result  is
+triggered.
+At  the  beginning of each turn, the sighting status of  all
+units  is  updated.  All units with the  picketed  flag  set
+become  unsighted.  All  units with the  sighting  flag  set
+become picketed.
+
+Communications
+When  you play the game with the <RADIO> flag set, there  is
+no need to worry about communications at all. You are always
+in  control  of  every HQ and brigade in your force.  Again,
+however,  after you have played a couple of games, you  will
+want to experience a more authentic battle environment.
+Switching  the <RADIO> flag off will introduce  you  to  the
+frustrations  and  challenges of the  pre-twentieth  century
+battlefield.  With  both  the <RADIO>  and  <EXPOSED>  flags
+switched off, you can be sure of a very exciting experience.
+At  the beginning of each turn, every brigade and HQ on  the
+board except for the army HQ makes a check with its superior
+formation. As a result of this check, every brigade  and  HQ
+will  be  either  in communication or out of  communication.
+Army HQs are always considered in communication. Troops  yet
+to   arrive   on   the  battlefield  are   always   out   of
+communication.
+Whether  a  brigade  or  HQ is in communication  or  out  of
+communication is displayed in its status report as described
+in Menus 7 and 9.
+The mechanism by which this judgement is made is as follows.
+The  distance  between  the unit and its  superior  unit  is
+measured in hexes and cross-referenced to the communications
+table.  The  number  obtained is the  base  chance  measured
+against  a random 15 (i.e. a number between 0 and  15)  that
+the unit will be in communication.
+There  are  several variables which modify the  base  chance
+before  it  is checked against the random number. Note  that
+the base chance can never fall below 0; i.e. there is always
+at   least  1  chance  in  16  that  a  unit  will   be   in
+communication.
+Time of Day. Night (-4), dawn, dusk (-2).
+Weather. Rain, snow, heavy fog (-3), drizzle, light  fog  (-
+1).
+Staff Rating. Add the staff value of the testing unit's HQ.
+Corps Modifiers. Infantry corps (0), cavalry corps (+4)
+Division  Modifiers. Infantry division (0), cavalry division
+(+6), army HQ (+2), corps HQ (0).
+Brigade  Modifiers. Infantry brigade (0), mounted  infantry,
+artillery brigade (+6), cavalry brigade (+8), army HQ  (+2),
+corps HQ (1), division HQ (0).
+Miscellaneous  Modifiers. For army HQs: -2 if enemy  brigade
+within 4 hexes, -1 if moved last turn, -3 if heroic,  -1  if
+bold; for corps HQs: -1 if enemy brigade within three hexes,
+-1 if offensive command.
+
+First am Turn Provisions
+On  the  first move turn of each day after the first day  of
+the  battle,  there  may be a special opportunity  to  issue
+commands  to  corps and division HQs. If there have  been  6
+consecutive  no  move  turns (i.e. the  move  value  in  the
+briefing  routine  is set to 0, then  an  army  HQ  will  be
+allowed access to all on-map HQs for command purposes.  This
+is  to  simulate  the nightly briefing which would  (should)
+have occurred.
+An army commander will have the most control over his forces
+when  his  army  HQ  is not engaged, is stationary  and  the
+weather  is good. The more you move around, the more closely
+you  get involved in the action, then the more tenuous  will
+be your control over your troops.
+You   must  strike  the  right  balance  between  committing
+yourself personally and directing your army efficiently. The
+player  who does this consistently better than his  opponent
+will win.
+
+Combat
+After  you  have issued commands and orders to your  troops,
+the  first on-screen events you will witness after selecting
+the <RUN 5> line are the combat reports. The target unit  of
+each  battle  is  identified by  the  action  icon  and  all
+brigades attacking it are identified by indicator icons.
+The  information panel describes the battle represented  on-
+screen  by  the  combat  icons. The  attacker's  information
+always appears above the defender's information.
+The  combined  strength of all attacking brigades  is  shown
+together  with the defending brigade's strength. The  combat
+result is shown as a number of hits and a cohesion loss.
+The relationship between hits and cohesion is detailed later
+in this section and an explanation of cohesion provided in a
+later section. Leaders may be killed, wounded or captured.
+Firstly,  you  need to know who fights who,  in  what  order
+these  fights are carried out and what factors are  used  to
+calculate fire and melee values.
+Target Selection. Only brigades select targets. Brigades and
+HQs may be selected as targets. Each brigade must select one
+eligible  enemy unit within its range as its target.  Target
+selecting  priorities are as follows. Note that occasionally
+they will be violated to reflect the uncertainty of war.
+Each brigade will select the closest enemy brigade.
+Each  brigade  will select an untargeted  enemy  brigade  in
+preference to an already targeted enemy brigade.
+Each  brigade  will  select  a  deployed  enemy  brigade  in
+preference to an enemy brigade in column.
+Obviously, this routine is used only when there is more than
+one potential target.
+In summary, this means that adjacent enemy units will almost
+always  be chosen in preference to more distant enemy  units
+and  that  multiple  brigades cannot gang  up  on  a  single
+brigade unless it is alone.
+Sequence  of  Attack.  Each  brigade  fires  and/or   melees
+separately.  For  convenience of combat reporting,  however,
+all  attacks  against  a  single unit  are  displayed  as  a
+combined attack. The screen would look too messy if  we  did
+it  any other way. We tried several display systems. What we
+ended  up  with is by far the best. There is no  distinction
+between sides in these combat routines.
+Not  every brigade which selected an opponent in the  target
+selection  routine is actually eligible to attack. Artillery
+brigades  which  moved in the preceding  turn  cannot  fire.
+Similarly, the artillery component of non-artillery brigades
+which moved last turn will not contribute to their brigade's
+fire value unless the brigade type is cavalry.
+All   other  attacking  brigades  fall  into  one  of   four
+categories.  All  brigades within one category  will  attack
+before  any  brigades in subsequent categories will  attack.
+Within  a  category,  every brigade consults  a  formula  to
+determine the order of attack.
+The four categories are.
+(i).  Infantry  and  mounted infantry  in  line,  dismounted
+cavalry   (unless  with  assault  orders)   and   unlimbered
+artillery which did not move in the preceding turn.
+(ii).  Infantry  and  mounted infantry in  line,  dismounted
+cavalry   (unless  with  assault  orders)   and   unlimbered
+artillery which did move in the preceding turn.
+(iii). Infantry, mounted infantry and cavalry which has been
+surprised (i.e. in column).
+(iv).  Cavalry with assault orders. For game purposes,  this
+is  considered to be a cavalry charge. Note that any brigade
+with a small arms type which has a range of 0 also fits into
+this  category. There are no such unit types  in  Civil  War
+battles.  A Zulu impi, for example, would have a small  arms
+type with 0 range.
+Within  each  category, the mechanism used to determine  the
+sequence of attack is calculated from the following formula.
+Cohesion + 0.5 (lead. + exp.) + brigade type + brigade order
++ rnd (3)
+Where  brigade  type is artillery (+4), all others  (0)  and
+brigade  order  is skirmish (+6), assault or  advance  (+2),
+withdraw  (0). Note that a cavalry brigade with  a  withdraw
+order  is treated as though it had a skirmish order for  the
+purpose of determining the sequence of attack.
+In  summary,  every attacking brigade has  been  assigned  a
+position  in  the firing order. Properly deployed,  prepared
+troops will generally fire first. And, as you will see  from
+the   firing   mechanics,  firing  first  is  a   tremendous
+advantage.
+The Fire Value. Each brigade determines its fire/melee value
+according to the following data.
+(i). Artillery Brigades
+     (a). Add all battery strength points
+     (b). Add 1 for each point of experience above 4
+     (c). Add 1 for each point of leadership above 4
+     (d). Add rate of fire value
+     (e). Add effectiveness value (if opponent is adjacent)
+       (f).  Add  penetration  value  (if  opponent  is  not
+adjacent)
+     (g). Subtract 2 for every intervening hex
+      (h).  Subtract half of the cover value of the  firer's
+hex (unless in a fortification)
+      (i).  Subtract  the cover value of  the  target's  hex
+(unless  in  a  fortification or the target has  an  assault
+order)
+      (j).  Subtract twice the fortification  value  of  the
+target's hex (unless the target has an assault order)
+All  artillery brigades have a maximum fire value  of  6  in
+rain, snow, heavy fog or at night. Artillery brigades with a
+withdraw order may not have a fire value greater than 8.
+The  fire value of the artillery component of other  brigade
+types is calculated in the same way.
+(ii). Infantry, Mounted Infantry and Cavalry Brigades
+Note  that  cavalry  brigades with assault  orders  and  all
+brigades   with  a  small  arms  range  of  0  are   treated
+differently.
+      (a).  Add all of the first 8 strength points, half  of
+the  next 8 strength points and one quarter of the remaining
+strength points
+     (b). Add 1 for each point of experience above 4
+     (c). Add 1 for each point of leadership above 4
+     (d). Add 1 for every regiment in the brigade above 4
+     (e). Add fire value of the small arms type
+      (f). Add twice the melee value of small arms type  (if
+order is assault)
+      (g).  Subtract half of the cover value of the  firer's
+hex (unless in a fortification)
+      (h).  Subtract  the cover value of  the  target's  hex
+(unless  in  a  fortification or the target has  an  assault
+order)
+      (i).  Subtract twice the fortification  value  of  the
+target's hex (unless the target has an assault order)
+Surprised brigades cannot have a fire value greater than  2.
+Brigades  with  a withdraw order cannot have  a  fire  value
+greater  than 8. Note that cavalry brigades with a  withdraw
+order  are  treated  as though they had  a  skirmish  order.
+Brigades  with a small arms range of 0 cannot  have  a  fire
+value greater than 2. Brigades have a maximum fire value  of
+6 in rain, snow, heavy fog or at night. Brigades firing at a
+non adjacent opponent have their fire value reduced to 25%.
+(iii). Cavalry Brigades with Assault Orders
+This group includes all brigades with a small arms range  of
+0 who are assaulting.
+     (a). Add all  strength points
+     (b). Add 1 for each point of experience above 4
+     (c). Add 1 for each point of leadership above 4
+     (d). Add 1 for every regiment in the brigade above 4
+      (e). Add twice the melee value of small arms type  (if
+current order is assault)
+     (h). Subtract twice the cover value of the target's hex
+(unless  in  a  fortification or the target has  an  assault
+order)
+      (i).  Subtract three times the fortification value  of
+the target's hex (unless the target has an assault order)
+Brigades have their fire/melee value reduced by 50% in rain,
+snow, heavy fog or at night.
+As  a  final  modifier,  the current cohesion  rating  of  a
+brigade affects its fire value. Cohesion value 6 or 7  =  no
+effect, 4 or 5 = 75%, 2 or 3 = 50%, 1 = no fire value.
+All brigades with an assault order are eligible to receive a
+combat  bonus  if  a heroic army commander  is  within  four
+hexes.  This  bonus  can be as much  as  50%  again  of  the
+brigade's fire value.
+The  fire  value is the principal factor used in calculating
+how much cohesion a brigade loses as a result of being fired
+upon. Cohesion is explained in the following section.
+
+Cohesion
+The  gradual  reduction  in  a  brigade's  fighting  ability
+throughout  the  game  is  measured  through  a  fluctuating
+Cohesion  Value.  The  cohesion  value  is  decreased  as  a
+consequence of taking losses from combat. The cohesion value
+can only be increased while a brigade is in reserve.
+As  soon as a brigade's cohesion value drops to 0, then  the
+brigade is removed from play.
+As  soon  as  a  brigade's cohesion value  drops  to  2,  it
+shatters.  There  is no additional effect when  a  shattered
+brigade's cohesion value drops to 2.
+If the shatter flag in the brigade creation screen is set to
+1,   then  the  brigade  begins  the  game  in  a  shattered
+condition. If the flag is set to 0, then the brigade  begins
+the game in a normal condition.
+A  normal brigade may recover to a cohesion value  of  6.  A
+shattered  brigade  may recover to a cohesion  value  of  4.
+During night turns, normal brigades may sometimes recover to
+a  cohesion  rating  of 7, shattered brigades  may  reach  a
+cohesion rating of 5.
+A brigade's cohesion value can only drop as a consequence of
+sustaining  casualties in combat. Each time a brigade  is  a
+target  for enemy fire, it immediately checks to  see  if  a
+cohesion  value loss has occurred. This loss is  implemented
+immediately.
+The  procedure  for calculating a brigade's  cohesion  value
+loss   is  given  below.  Note  that  HQs  do  not  have   a
+vulnerability value. If they are subject to enemy fire, they
+make an automatic retreat of 2-4 hexes.
+Step  One. Calculate the target's vulnerability value  using
+the following formula.
+Current  Cohesion   + 0.5 (lead. + exp.) +  brigade  type  +
+brigade size + rnd 3
+where  brigade type is artillery (8), infantry (6),  mounted
+infantry,  cavalry (4), all surprised brigades, all  reserve
+brigades (0) and brigade size is 1-4 SPs (0), 5-8 SPs (1), 9
+16 SPs (3), 17+ SPs (6).
+Step  Two.  Compare  the fire value with  the  vulnerability
+value to obtain the number of hits scored. Table 2 gives the
+details.
+Each  hit  scored  is  one random (1) chance  of  causing  a
+cohesion loss except against a brigade with a withdraw order
+or  a brigade with the encamped flag set. In the former case
+it  is one random (3) chance of causing a cohesion loss  and
+in  the  latter case it is an automatic loss of one cohesion
+point.
+Step  Three.  At the completion of all combat, each  brigade
+fired on makes a cohesion check to see if its current orders
+are over-ridden. The test is:
+Current Cohesion + 0.5 (lead. + exp.)  + fortification value
++  tactical factor + confidence factor  + command factor   +
+current order  + previous turn  + rnd 7
+where  tactical factor is fired at through frontal hex-sides
+(4),  enfiladed (0), the confidence factor is the number  of
+friendly  brigades within three hexes minus  the  number  of
+enemy  brigades within 2 hexes, the command factor is heroic
+army  leader  in range (3), bold army leader in  range  (2),
+sensible  army leader in range (1), cautious army leader  in
+range (0), current order is assault (2), withdraw (-2).
+Note  that an account is also made for events which occurred
+in  the  previous turn. Friendly brigades within four  hexes
+and  enemy  brigades  within 3 hexes  may  have  an  affect.
+Subtract 1 for each friendly brigade which retreated, 3  for
+each  friendly  brigade  which  shattered  and  7  for  each
+friendly  brigade  which was KIA'd. Add  2  for  each  enemy
+brigade either retreated, shattered or KIA'd.
+The maximum negative value of this variable is -7. There  is
+no limit as to how large it may be. Finally, the effect of a
+KIA'd brigade may persist for up to two turns.
+(a).  If  this value is 0 - 6, then a shattered  brigade  is
+eliminated, all other brigades become shattered and flee 3-4
+hexes to the rear.
+(b). If this value is 7 - 10, then the brigade shatters  and
+flees 3-4 hexes to the rear.
+(c).  If  this  value is 11 - 15, then brigade retreats  1-2
+hexes to the rear.
+(d). If this value is 16+, then there is no effect.
+Remember  that independent of these results, as  soon  as  a
+brigade's cohesion value drops to 2 it will shatter  and  as
+soon  as it drops to 0 it will disappear (KIA) for the  rest
+of the game.
+
+Manoeuvre
+Once the last combat report has been displayed, the movement
+routines  are  activated. The computer determines  in  which
+order   the  units  will  move.  This  is  based  on  staff,
+experience, leadership, cohesion, current order and a  small
+random component. If necessary, the movement routine will be
+divided  into  a  series of pulses. This is to  ensure  that
+every  unit  has  the maximum opportunity  to  complete  its
+movement without being blocked by friendly units.
+The  menu  window will display the word <running> throughout
+the  duration  of  the movement routines.  The  screen  will
+centre on each unit as it moves. Note that there will be  no
+indication of the movement of unsighted units. The number of
+movement points available to a unit can be reduced by any of
+the  following; bad weather, time of day, low cohesion, poor
+leadership   or   just  plain  bad  luck.   Units   out   of
+communication are more likely to lose MPs.
+
+6. WINNING THE GAME
+The  game  will  end  with the completion  of  the  movement
+routine on the last turn. The victory screen will appear and
+summarise the players' performance.
+Additionally, players may elect to end the game at any  time
+by selecting the <RESIGN> line from Menu 2. If this is done,
+victory  points  will be displayed as though  the  game  was
+scheduled to end on that turn.

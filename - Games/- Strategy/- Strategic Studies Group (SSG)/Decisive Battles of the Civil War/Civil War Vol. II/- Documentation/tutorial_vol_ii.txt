@@ -1,0 +1,379 @@
+DECISIVE BATTLES OF THE CIVIL WAR
+Strategic Studies Group (SSG)
+TUTORIAL (VOL II)
+
+1. GETTING THE GAME TO RUN
+(a).  System  Requirements. This  program  requires  an  IBM
+PC/XT/AT  or PS/2, a Tandy or other IBM compatible computer,
+with  512K  of  memory. The program supports  the  following
+graphics cards - EGA, CGA, MCGA, VGA, Hercules and uses  the
+16  colour version of Tandy CGA. The program disk  does  not
+include DOS and requires IBM/MS-DOS Version 2.1 or higher to
+run.
+(b).  Backup and Hard Disk Installation. The game disks  are
+not  copy  protected.  Floppy  disk  users  should  use  the
+standard DOS commands to copy the disks before use.  Do  not
+use the original disks for game playing.
+Hard Disk users should create a directory on their hard disk
+and  copy  all  of the files from the floppy disks  to  that
+directory.  All program files must be in the same  directory
+for  the game to run. The path to this directory should  not
+be longer than 26 characters.
+(c).  Starting the Game. Boot your computer with DOS. Floppy
+disk users should insert their copy of Disk One in drive  A:
+and  type  db2  followed by (RET). Hard  Disk  users  should
+change  to  the directory containing the program  files  and
+type db2 followed by (RET).
+Floppy disk users should note there is one scenario on  Disk
+One  as  well as the program files. The other five scenarios
+are on Disk Two. The tutorial will explain how to locate and
+load  in the scenario of your choice. There is a readme file
+on  Disk One. All the program and scenario files are on  the
+one disk in the 3.5" version.
+(e). System Set Up. The Set-Up menu allows you access to the
+user options in the game. It is not necessary to worry about
+it  while  you're learning the game. Use the arrow  keys  to
+locate the <SET UP> line and type (RET).
+Choosing  <EDIT> will allow you to customise  four  options.
+Use the arrow keys to cycle through the options.
+(i). Scrolling. The settings are 0-6. 0 = no scrolling;  1-6
+= scrolling speed where 1 is slow and 6 is fast. The default
+setting  is  3.  CGA users have only one  scroll  speed  (it
+doesn't  matter  which setting you choose).  Type  (RET)  to
+cycle  through the speed settings when the <SCROLLING>  line
+is high-lighted. Type (ESC/DEL) to recover the menu window.
+(ii). DEL = ESC. The default settings in the game allow  the
+DEL  key to substitute for the ESC key. If you dislike  this
+option, type (RET) to disable it.
+(iii). Sound. This toggles the sound effects in the game  to
+`on' or `off'.
+(iv).   Auto-Save.  Setting  this  option   to   `on'   will
+automatically save the game as soon as <RUN 5> is  selected.
+Only  one file is maintained and it is overwritten each turn
+keeping  the  last turn always available. This file  can  be
+loaded  using  the  <LOAD AUTO> command  in  the  Save  Game
+Utility.
+Choosing <SAVE> will save your choices to disk in a  special
+file.
+Choosing  <LOAD>  will load the current  options  from  that
+file, if it exists.
+The  <PATH> command sets the DOS path for all DOS operations
+like  loading  and  saving files. It  is  restricted  to  26
+characters in length. When specifying drive names  you  must
+include the colon (:) as part of the path.
+(f).  Video Trouble Shooting. EGA and VGA systems will start
+up  with  our  "full-map"  graphic routines.  Other  graphic
+boards use our standard graphic routines. The program  makes
+its best guess at your computer's video mode and should run.
+In the unlikely event that the program gets it wrong you can
+use  a  command  line switch to force the program  into  the
+appropriate    video    mode.   This    takes    the    form
+(db2)(space)(n)(RET) where n is a single character; i.e. c =
+CGA, e = EGA, t = Tandy, m = MCGA, h = Hercules, v = VGA and
+f  = switch off "full-map" graphics. The only reason EGA/VGA
+users  would  have  to switch off "full-map"  graphics  (and
+instead  use  standard  graphics) is for  rapid  testing  of
+original  scenarios or the initial creation of  an  original
+game  map as described in the WarPaint÷ chapter of the  Game
+Manual.
+(g).  DOS Details. In the real world of DOS, save game files
+are  maintained  with the name DF_nnn.DXG  where  nnn  is  a
+number between 001 and 050. Scenario files have the scenario
+name  followed  by  a .DFX suffix. You can  use  normal  DOS
+commands  to  delete or copy these files if  necessary,  but
+since  you  can  save over existing files it should  not  be
+necessary  to  use  DOS often. In addition,  the  "full-map"
+graphic routines use an additional file with the same prefix
+as the game file and a .LBM suffix. Again, see the WarPaint÷
+chapter in the Game Manual.
+
+2. LEARNING TO PLAY THE GAME
+Following  hard  upon the Union disaster at Chancellorsville
+in  May  of  1863, Robert E. Lee took the Army  of  Northern
+Virginia  north  into Pennsylvania, into the  heart  of  the
+Union.  The purpose of this hastily organised offensive  was
+no  less  than  the salvation of the Confederacy.  With  her
+coastline  tightly blockaded, most of her ports in  northern
+hands  and  her economy verging on disintegration, President
+Davis   was  desperate  for  some  relief.  This  unexpected
+opportunity  to  put  political  pressure  on  Lincoln,   to
+encourage  European  powers to grant diplomatic  recognition
+and  to follow up on a supposedly demoralised army could not
+be let go to waste.
+President Lincoln viewed the Confederate drive with concern,
+ever  pre-occupied  with  the security  of  his  capital  at
+Washington.  The Army of the Potomac, eager to  reverse  the
+seemingly endless string of defeats it had suffered and with
+George  Gordon Meade now commanding, was sent in pursuit  of
+their Southern foe.
+On  the morning of July 1st, just a little north-west of the
+small,  rural township of Gettysburg, the brigades of  Henry
+Heth's division ran into a detachment of Union cavalry under
+the  command  of  John  Buford. The battle  was  joined  and
+throughout  the  day troops from both armies  poured  in  to
+reinforce  the  escalating struggle.  Commanding  the  Union
+forces  on this day was Maj-Gen John F. Reynolds; Meade  did
+not arrive on the battlefield until July 2nd.
+You  are  invited, in this tutorial, to take on the role  of
+John  Reynolds. You will command those elements of the  Army
+of  the Potomac which became available throughout the  first
+day  and you will be expected to blunt the Confederate drive
+on  or about the historic Cemetery Hill. Your computer  will
+command the Rebels.
+As well as this manual, you'll need to have the data card in
+front of you.
+
+(a). Starting Up
+Start  up  your computer using the procedure  given  on  the
+start  side of the menu card. Menu A (Start Up Menu) appears
+to  the  right of the title page. As is the case with  every
+menu  in  the  game, you use the arrow keys to  locate  your
+choice  from the menu and then type (RET) to select it.  IBM
+users  may  alternatively use a function key to  locate  and
+select a menu item. The <SET-UP> line in Menu A is the third
+line in the menu; therefore f3 will select it. Similarly, f4
+will select the <GOTO DOS> line.
+If  you select the wrong menu, don't worry. Apple II and IBM
+users  type (ESC) to go back to the previous menu;  C-64/128
+users type (f1). IBM and Apple II users should note that the
+(DEL) key will serve as the (ESC) key in most situations.
+IBM  users can turn the sound on/off through Menu 12 of  the
+Game Routines. Apple II and C-64 users should type Cntl  (S)
+to turn on/off the sound. Apple II and C-64 users with a B&W
+monitor should type Cntl (B).
+
+(b). Selecting the Gettysburg Day 1 Scenario
+Before  we  can start play, we have to select the Gettysburg
+Day  1 scenario, tell the computer that we will control  the
+North forces and decide which game options we wish to use.
+Use  either  arrow key to locate the <GAME>  line  and  type
+(RET) to go to Menu B (Location Select). At this point,  IBM
+owners using 5.25" floppy disks should remove Disk One  from
+the drive and replace it with Disk Two. Apple II owners with
+one disk drive should remove the game disk, turn it over and
+put it back in the drive.
+Use  an  arrow  key to locate the <SCENARIO> line  and  type
+(RET) to go to Menu C (Scenario Menu).
+Use an arrow key to locate the <GETTY 1> line and type (RET)
+to go to Menu E (Edit Utility). The scenario briefing screen
+is  displayed to the left of the menu window. IBM users must
+select  the  <LOAD GAME> line and then position  the  cursor
+over the <Gettysburg Day 1> line and type (RET).
+Use an arrow key to locate the <EDIT> line and type (RET) to
+go  to  Menu N (Game Options). There are two (IBM) or  three
+(Apple  II  and C-64) options available when  you  play  the
+game.
+(i). Exposed. When the exposed flag is set, all units on the
+map will be visible at all times. If the exposed flag is not
+set,  only  currently sighted units will be visible  on  the
+battlefield.
+(ii).  Enhanced (Apple II and C-64 Only). When the  enhanced
+flag  is  set,  computer controlled  forces  will  be  given
+certain  bonuses.  For  example, unit size,  leadership  and
+staff ratings may be increased.
+(iii).  Radio.  When the radio flag is set,  you  will  have
+automatic communications with every unit in your command. If
+the  radio  flag  is  not  set, only  those  units  directly
+attached to the army HQ and within communications range  can
+be given orders.
+For tutorial purposes, we will choose to set the exposed and
+radio flags but leave the enhanced flag alone. Position  the
+cursor on the <EXPOSED> line and type (RET). The cursor will
+return  automatically to the <CONTINUE> line. Select <RADIO>
+in the same way. Select <CONTINUE> to go to Menu F (Handicap
+Utility).  An Options in Effect box has appeared  below  the
+menu  window showing that the exposed and radio  flags  have
+been set.
+Since  this  is  only a tutorial, we will give  ourselves  a
+break. The handicaps below the <NO EFFECT> line benefit  the
+South,  those  above  benefit the North.  The  effect  of  a
+handicap is to modify the victory point awards, it does  not
+affect  the  artificial intelligence nor the composition  of
+the  forces. Note that the handicap structure for IBM  users
+asks  you  to  select a veteran, normal or novice  opponent.
+Select  a  novice.  AII/C64 users select the  <MAJOR>  north
+line.
+You  have  been processed through to Menu G (Player Select).
+Locate the <NORTH> line and type (RET). The cursor has  been
+thrown into the briefing screen and you have the opportunity
+to  change  the  commanders' names. Do  this  if  you  wish,
+otherwise  type  (RET) until you get back to  Menu  E  (Edit
+Utility).
+Have  a last look at the briefing screen and you'll see  the
+North  has  a  major handicap advantage (IBM users  will  be
+opposed  by  a  novice computer general which is  an  unfair
+description of Lee?), the South forces will be  run  by  the
+computer and the exposed flag is set.
+Use  an arrow key to locate the <START> line and type  (RET)
+to go to Menu H (Game Master).
+That's  the preliminaries over with. We're just about  ready
+to play.
+Turn your menu card over to the game side.
+
+(c). The First Turn
+This  tutorial is a brief introduction as to  how  the  game
+plays.  It is not intended to be a description of everything
+that  can  happen. The Game Manual describes in  detail  the
+full  use  of each menu. Once you have some experience  with
+the  game menus, we recommend you read Chapter 5 in the Game
+Manual   for  an  explanation  of  the  major  game  systems
+controlled by the computer.
+Back  to  Menu H. A current turn briefing appears above  the
+menu window. The date is July 1st, 1863, it is 9 am and this
+is  the  first of the fourteen turns in the game. Below  the
+menu  window you can see it is daylight and the  weather  is
+clear.
+In  the  centre  of  the  map is  the  town  of  Gettysburg.
+Reynolds'  head-quarters (that's you) is  stationed  in  the
+middle of town.
+The  <SOUTH>  and  <RUN  5> lines  in  the  menu  have  been
+overprinted with a solid bar to show that you cannot  access
+them.  The  solid bar will disappear from the <RUN  5>  line
+after  the <NORTH> line has been accessed. This is to  guard
+against  accidentally selecting <RUN 5> before issuing  your
+orders.  The <SOUTH> line will always be overprinted  during
+the  game. The computer does not want you to see what it  is
+doing!
+Locate the <NORTH> line and type (RET). This brings up  Menu
+2  (Operations  Master). Your choices here  are  <PERSONAL>,
+<COMMAND>,  <ORDER>, <RESIGN> or <OPTIONS>, <MAP  WALK>  and
+<ROSTER> (IBM Only).
+The  map  has  not changed, just the information  above  and
+below the menu window. Above the menu window you can see the
+army I.D. Below the menu window you are given a casualty and
+victory point summary. The small number of casualties  shown
+are  stragglers from those brigades which have  been  force-
+marching  since dawn. The VPs show what your score would  be
+if the game was to end at this moment.
+The  <PERSONAL>, <COMMAND> and <ORDER> lines are  the  menus
+you  use  to  give orders to your forces, the <RESIGN>  line
+ends the game immediately and the <MAP WALK> line allows you
+to  review  your  forces, enemy forces, the battlefield  and
+objectives.  The <ROSTER> line displays your complete  Order
+of Battle.
+
+(d). Reviewing Your Forces
+Before  issuing  orders we'll examine the  battlefield,  the
+objectives and the enemy forces.
+Select  the <MAP WALK> line to go to Menu 3. The screen  has
+centred  on  a hollow, flashing cursor. Use the arrow  keys,
+the  I,  J, K and M or the 1-6 keys to move the cursor  over
+the  map.  The map will scroll once the cursor  reaches  the
+edge. Type (0) to centre the screen on the cursor.
+At the very bottom of the information panel, you will see  a
+three-part icon display. From left to right this  shows  you
+the  type of terrain in the hex, which sections of  the  map
+are  in  use  for this scenario together with  the  relative
+position of the cursor and which side currently controls the
+hex.  The name of the terrain type appears immediately above
+the display.
+Move  the  cursor to Pitzer School. It is in  the  southeast
+corner  of the map. IBM owners can use the f1 - f9  keys  to
+scroll  the  map in large increments. Pitzer  School  is  an
+objective. Its name appears above the terrain type name  and
+its victory point details are described.
+Move  the  cursor to any one of the Confederate brigades  in
+the  northwest sector of the battlefield. The icons  at  the
+top  of  the  information panel tell you it is  an  infantry
+brigade  while  below that you are told  its  formation  and
+condition.  Note  that  one  of  the  four  brigades  is  an
+artillery formation.
+Type  (RET)  to bring up the map walk menu. Select  <ROADS>;
+all  roads are removed from the map. Type (RET) to bring  up
+the  menu  again  then select <ROADS> to  replace  the  road
+network.
+<CONTROL> allows you to see which side controls a particular
+hex. <CLEAR> removes all units on the map so you can see the
+terrain underneath.
+Move the cursor to the Union brigade two hexes south-east of
+the   northernmost  Confederate  brigade.  This  is  Devin's
+cavalry   brigade  from  Buford's  cavalry   division.   The
+information  provided  is  mostly  self  explanatory;   more
+details are available in Chapter 5 of the Game Manual.
+
+(e). Operations
+Go  back  to Menu 2. The <PERSONAL> line is the place  where
+you must decide where to put your army HQ and how personally
+involved  you  want  to get in the battle. Select<PERSONAL>.
+Below  the  menu  window  you will  see  that  your  current
+condition is OK. In the battle you can get captured, wounded
+or even killed!
+Select  <PROFILE> and you will be presented  with  the  four
+profiles  you  may choose from. You may change your  profile
+each  turn. Your profile will not change from turn  to  turn
+unless  you enter this menu and change it. You always  begin
+with  the  default value set to <SENSIBLE>. The  words  here
+mean  pretty  much  what they say. Heroic will  inspire  all
+troops  within four hexes of your position while  increasing
+the  likelihood of a nasty accident. Cautious will keep  you
+safe  and  sound  but  the effect  on  your  men  may  prove
+disastrous.  For  this  tutorial,  keep  your   profile   on
+<SENSIBLE>. Historically, Reynolds assumed a heroic  profile
+on this day. At the end of it, he was dead!
+Select  <MOVE HQ>. This is the mechanism by which  you  move
+your  HQ around the map. <STAND> tells the army HQ to remain
+exactly where it is. <CURSOR> gives you access to the cursor
+so  that you can use the I,J,K,M keys, the arrow keys or the
+1-6  keys  to  move your HQ to the location of your  choice.
+Note  that  you  will  not be allowed  to  select  an  enemy
+controlled hex as your destination.
+<CONTROL> directs the army HQ to move as quickly as possible
+to  a  friendly corps HQ for the purpose of placing it under
+direct command. <OBJECTIVE> allows you chose an objective as
+the destination for the army HQ, using either the arrow keys
+or the name routine.
+For the moment, leave your HQ in Gettysburg.
+Now  that the personal matters have been taken care of, it's
+time  to  give  orders to your subordinates.  Type  (ESC/f1)
+until you get back to Menu 2 and then select <COMMAND>.  The
+<COMMAND>  line  gives  you  access  to  all  your  division
+commanders presently on the battlefield. There is  only  one
+of  them at the moment; Buford's cavalry division. Note that
+when  the radio flag is set all corps commanders, and  their
+icons, are removed from the game.
+Buford's defensive order is to hold Herr Tavern. Type  (RET)
+to  bring up Buford's order menu. We will keep Buford on the
+defensive  but move his defensive position from Herr  Tavern
+back to the McPherson house. Select the <DEFENSIVE> line and
+you  will  see the data for the Herr Tavern objective.  It's
+#23 of 23. McPherson is #22. Tap the left arrow key once  or
+the  right  arrow key 23 times. You can also  use  the  Name
+routine  to find an objective. Type (n) then (mcp). As  soon
+as  the routine recognises an exclusive group of letters, it
+will jump to that objective.
+Type  (RET)  again  to  get  back to  the  Command  Display.
+Buford's  defensive order is now centred  on  the  McPherson
+house.
+Type  (ESC/f1) until you get back to Menu 2 and then  select
+<ORDER>.  The <ORDER> line gives access to all the  brigades
+currently on the map. There are just 2 at the moment.
+Each brigade is identified by a 3 (IBM 9) character ID;  the
+Order of Battle details in Part 2 of this booklet will  tell
+you   each  brigade  commander's  full  name.  For  example,
+Gamble's  brigade (Gam) is cavalry, it belongs  to  Buford's
+division, it is in skirmish formation, it has 1600 men and 6
+guns,  its  cohesion rating is excellent and its  leadership
+and experience ratings are fair. Use the arrow keys to cycle
+through the two brigades so far on the battlefield.
+Locate Devin's cavalry brigade (Dev). Type (RET) to bring up
+the brigade order menu. Just to be on the safe side, we will
+order  Devin to fall back. Use the arrow keys to select  the
+<WITHDRAW>  line  and type (RET). Likewise,  order  Gamble's
+cavalry brigade (Gam) to withdraw.
+We  are  now  ready to end the turn. Go back to menu  H  and
+select  <RUN  5>.  Battle reports are  presented  one  after
+another and you should tap the <SPACE> bar to move on to the
+next  report. A full explanation of the combat mechanics  is
+given  in  Chapter  5 of the game Manual. Basically,  firing
+units  are shown as arrows pointing in the direction of  the
+target  unit.  Once the battles are over, the computer  will
+begin  moving troops. If the exposed flag had not been  set,
+only those units visible to each other would have been seen.
+
+(f). What to Do Next
+Read  the scenario notes for this battle in Part 2. You must
+try  to  delay  the Rebs as long as possible before  falling
+back  to Cemetery Hill. Experiment with the order menus.  If
+you're  uncertain  about what to do, accept  the  computer's
+advice and do not change the order. Refer to Chapters 4  and
+5 of the Game Manual when necessary.

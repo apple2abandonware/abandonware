@@ -1,0 +1,2386 @@
+EUROPE ABLAZE (SSG 1985)
+The Air War Over England and Germany 1939-1945
+
+DESIGN MANUAL
+=============
+
+Table of Contents
+-----------------
+1. INTRODUCTION
+2. USING THE DESIGN MENUS
+3. PREPARING A DISK
+4. VARYING A SCENARIO
+5. THE DESIGN HANDBOOK
+   MAP CREATION
+   Plane Class Creation
+   Squadron Creation
+   Airbase Creation
+   Centre Creation
+   Radar Station Creation
+   Shipping Lane Creation
+   Flak Unit Creation
+   Review Utility
+   Weather Creation
+   Names Creation
+   Time Creation
+   Cursor Creation
+   Score Creation
+   Doctrine Creation
+6. ROCKETS ETC
+7. GENERAL MATTERS
+8. THE 'MTO' SCENARIO
+
+APPENDIX A
+   The 'MTO' Scenario
+APPENDIX B
+   Airborne Radar/ECM
+APPENDIX C
+   Ground Radar/ECM
+APPENDIX D
+   Blank Design Forms
+BIBLIOGRAPHY
+DESIGN KIT MENU DISPLAY
+
+
+1. INTRODUCTION
+===============
+
+By the time you get around to reading this booklet you should have some idea of
+how the game works and what we are attempting to simulate.
+
+Like any new thing, creating your first original scenario, even a scenario
+variant, is a time-consuming and no doubt confusing experience.  It will be
+next to impossible if you haven't at least played the introductory tutorial.
+We further recommend that you play the historical scenarios two or three times
+as well.  The more you know about the game, the more self-explanatory will be
+the design routines.  Those of you who have used the design routines from our
+first historical simulation Carriers at War will find them just about identical
+to those in Europe Ablaze.
+
+
+2. USING THE DESIGN MENUS
+=========================
+Examine the back page of this booklet.  It is a schematic display of the design
+menus.  They operate in the same way as the Start and Game menus you are
+already familiar with.
+
+Boot your disk and select Menu J from the Start menus.  This is the master menu
+from which all the design menus depend.
+
+The design menus are grouped into four main categories.
+
+(a) Branch Menus (No's 3,4,13).  No editing of these menus is possible.  They
+signpost the route to other menus.
+(b) Direct Function Menus (No's 2,6).  These menus perform a single function
+upon being selected.
+(c) Direct Edit Menus (No's 1,5,7,8,9,10,11,12).  These menus are used for
+editing a once only routine.  The relevant section in the Design Handbook
+describes their use.
+(d) Create Menus (No's 14,15,16,17,18,19,20).  the general procedure for
+editing a create menu is explained below.
+
+NUM - This is the number you allocate to an item
+CLEAR - This will clear the display screen.
+LIST - This will give you a look at all the items of this type you have created
+so far.
+LOAD - This will load into the display screen whatever data (if any) has
+already been assigned to that particular <NUM>
+EDIT - This will throw the cursor into the display screen.  Use (RET) to cycle
+through the values, entering data as appropriate.  The (UP) arrow key will move
+the cursor in the opposite direction.  Type (ESC/f1) to go back to the menu
+window from the display screen.
+
+SAVE - Select this when you are happy with the data you have entered in the
+display screen.  Note you will still need to save everything to disk before
+switching off your computer.
+
+Map (Menus 16-20) - Certain facilities in the game must be located on the map.
+The x and y values can be entered using the <EDIT> routine described earlier
+OR the <MAP> routine can be utilized instead.  Type (Y)(RET) to obtain the
+strategic map.  Use the I,J,K,M keys to position the strategic cursor in the
+approximate location and then type (RET) to obtain the tactical map.  Position
+the tactical cursor in the exact hex and type (RET).  The x and y values will
+be entered in the display screen.
+
+
+3. PREPARING A DISK
+===================
+
+Whether making a variation to an historical scenario or creating an original
+scenario, the procedure for preparing a scenario disk is essentially the same.
+Examine the Start and Design menus.
+
+When making a change to an historical scenario, select the <CREATE> line from
+Menu A and type (Y)(RET) to obtain Menu I.  Select the scenario you intend to
+modify and type (Y)(RET) to obtain Menu J (the Master Design menu).
+
+Select the <DISK> line to obtain Menu 1 and then select the <INIT> line.  Type
+(Y)(RET) and follow the instructions on the screen until the initialization
+procedure is complete. (You can omit the initialization procedure if you have
+already prepared an initialized save game disk.)
+
+Select the <EDIT> line and type (Y)(RET) to enter the screen display.  Position
+the cursor on the <SAVE> line of the first empty location and type (Y)(RET).
+Enter a comment at your discretion (up to 17 characters) and type (RET).  The
+scenario variation has been flagged as a creation file.
+
+Type (ESC/f1) to go back to Menu J.  Select the <CREATE> line and edit the
+menus you wish to modify.  When you have completed the scenario variation, go
+back to Menu 1 and resave in the same location.  The modified scenario is ready
+for play.  Simply select the <LOAD> line on the display screen corresponding to
+the modified scenario's location and type (Y)(RET).  Select the <GAME> line
+when prompted and that's it.  Or you can use the procedure on the menu data
+card.
+
+When you wish to create an original scenario, repeat the above procedure but
+before entering data use the <CLEAR> line in Menu J to erase the map and/or
+data bases.
+
+
+4. VARYING A SCENARIO
+=====================
+
+Before attempting to create an original scenario, it's a good idea to make a
+few simple changes to an historical scenario to get the feel for the design
+mechanics.  The following example together with some screen illustrations will
+show you how.
+
+In 1935, Generals Wever (Chief of Staff) and Milch (Secretary of State for Air)
+, proposed the creation of a strategic bomber force for the luftwaffe.  Both
+Dornier and Junkers produced prototypes, the latter being much superior.
+
+fortunately for the Allies, this project was abandoned soon alter Wever's
+accidental death and Milch's falling out with Goering.  The Ju89 four-engined
+heavy bomber never saw action in its intended role, the pre-production models
+being used as transports.
+
+This scenario variation postulates that the Luftwaffe's heavy bomber programme
+had been more resolutely carried out and that a Kampfgeschwader (KG) was
+operational by August 1940 and available for use against England in the
+'Battle of Britain'.
+
+Follow the directions for changing an historical scenario from the previous
+chapter (using the 'Their Finest Hour' scenario as the base) until you reach
+the point where a comment to identify the scenario can be entered.  Type in
+(WEVER'S PLAN) then (RET).
+
+Fig 1 illustrates what should be on your screen.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ LOAD (N)                           ³                       ³
+³ SAVE (Y)       (Creation file)     ³                       ³
+³ Comment - WEVER'S PLAN             ³                       ³
+³                                    ³                       ³
+³ LOAD (N)                           ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³
+³ SAVE (N)        (spare)            ³   ³     DISK      ³   ³
+³ Comment -                          ³   ³  -- MENU --   ³   ³
+³                                    ³   ³               ³   ³
+³ LOAD (N)                           ³   ³ EDIT        N ³   ³
+³ SAVE (N)        (spare)            ³   ³               ³   ³
+³ Comment -                          ³   ³ INIT        N ³   ³
+³                                    ³   ³               ³   ³
+³ LOAD (N)                           ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³
+³ SAVE (N)        (spare)            ³                       ³
+³ Comment -                          ³                       ³
+³                                    ³                       ³
+³ LOAD (N)                           ³                       ³
+³ SAVE (N)        (spare)            ³                       ³
+³ Comment -                          ³                       ³
+³                                    ³                       ³
+³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿      ³                       ³
+³ ³ Hit (ESC) to restart game ³      ³                       ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ      ³                       ³
+³                                    ³                       ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+                        FIG 1
+
+
+Type (ESC/f1) to go back to Menu J from the design menus.  Select <CREATE> and
+type (Y)(RET) to obtain Menu 3.  Select <DATA> and type (Y)(RET) to obtain Menu
+13.
+
+The first thing we will make is the Ju89 itself.  Select <PLANES> and type (Y)
+(RET).  A blank plane creation display awaits your attention.  Select <LIST>
+and type (Y)(RET).  The creation display is replaced with a list of all the
+plane types in the scenario.  There is no plane type 37.  We will use this
+number for the Ju89.  Type (ESC/f1) to go back to the plane creation display.
+
+Select <NUM> and type (37).  Select <EDIT> and type (Y)(RET) to enter the plane
+creation display.  Type in this data (Ju89)(RET) (2)(RET) (6)(RET) (170)(RET)
+(46)(RET) (19)(RET) (12)(RET) (15)(RET) (9)(RET) (2)(RET) (4)(RET) (0)(RET)
+(4)(RET) (3)(RET) (2)(RET) (0)(RET) (N)(RET) (N)(RET).
+
+The cursor should have returned to the top of the display and your screen
+should look like that illustrated by fig 2.  If it does, type (ESC/f1) to exit
+the display.  Otherwise, try again.
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³         ÚÄÄAIRCRAFTÄÄÄ¿            ³  PLANE CLASS          ³
+³         ³ Ju89        ³            ³  CREATE               ³
+³         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ            ³                       ³
+³                   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³                       ³
+³  ROLE (0-3) =  2  ³ bomber       ³ ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³
+³  CREW (0-7) =  6  ³ 6-8 men      ³ ³   ³ NUM= 37       ³   ³
+³                   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³   ³               ³   ³
+³ (1-255) -                          ³   ³ CLEAR       N ³   ³
+³   FUEL CAP.= 170   (1-15)-         ³   ³ LIST        N ³   ³
+³                    CLB RATE=  2    ³   ³               ³   ³
+³ (0-63) -                           ³   ³ LOAD        N ³   ³
+³     PAYLOAD=  46   (0-7)-          ³   ³ EDIT        Y ³   ³
+³                     FIREPWR=  4    ³   ³ SAVE        N ³   ³
+³ (11-41)-                MAN=  0    ³   ³               ³   ³
+³ SER CEILING=  19        VUL=  4    ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³
+³ (1-41)-               RADAR=  3    ³                       ³
+³  MAX. SPEED=  12   REP-RATE=  2    ³                       ³
+³ (1-31)-                 ECM=  0    ³                       ³
+³ OPTIMUM ALT=  15                   ³                       ³
+³ CRUS. SPEED=   9                   ³                       ³
+³                                    ³                       ³
+³ (Y/N)-                             ³                       ³
+³      ALLIED (N)                    ³                       ³
+³       NIGHT (N)                    ³                       ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+                     FIG 2
+
+
+Select <SAVE> and type (Y)(RET).  If you don't do this, the data entered for
+the Ju89 will be lost !
+
+The next step is to create the squadrons which will fly the new plane.  Type
+(ESC/f1) to go back to Menu 13.  Select <SQUADS> and type (Y)(RET) to obtain
+a blank squadron creation display.  The <LIST> facility shows us that <NUM>'s
+greater than 225 are not in use.  We will use 241-243 to create the 3 squadrons
+(gruppen) which make up the Kampfgeschwader.
+
+The data for the first squadron appears in fig 3.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³   ÚÄÄI.D.ÄÄ¿      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³  SQUADRON             ³
+³   ³ 1/KGA  ³      ³ unassigned   ³ ³  CREATE               ³
+³   ÀÄÄÄÄÄÄÄÄÙ      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³                       ³
+³                   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³                       ³
+³ (1-37)-           ³ Ju89         ³ ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³
+³   AIRCRAFT = 37   ³ bomber       ³ ³   ³ NUM= 241      ³   ³
+³                   ³ 6-8 men      ³ ³   ³               ³   ³
+³                   ³ axis         ³ ³   ³ CLEAR       N ³   ³
+³                   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³   ³ LIST        N ³   ³
+³ PLANE NUMBERS                      ³   ³               ³   ³
+³ (1-31) - OFFICIAL= 30              ³   ³ LOAD        N ³   ³
+³           INITIAL= 26              ³   ³ EDIT        Y ³   ³
+³ PILOTS                             ³   ³ SAVE        N ³   ³
+³ (0-31) -  VETERAN=  3              ³   ³               ³   ³
+³       EXPERIENCED= 15              ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³
+³                                    ³                       ³
+³ RATINGS                            ³                       ³
+³ (0-7) -   FATIGUE=  7              ³                       ³
+³                                    ³                       ³
+³ (Y/N) - NIGHT OPS (N)              ³                       ³
+³         RECON OPS (N)              ³                       ³
+³         NAVAL OPS (Y)              ³                       ³
+³    PATHFINDER OPS (N)              ³                       ³
+³                                    ³                       ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+                     FIG 3
+
+
+Enter the data yourself and don't forget to use <SAVE>.  For convenience we
+will keep the squadron data unaltered for the two remaining squadrons, except
+to change the unit I.D.  Thus, <NUM>'s 242-243 have I.D.'s 2/KGA, 3/KGA.
+Again, use <SAVE> alter each entry.
+
+Finally, we can create an airbase to deploy the Kampfgeschwader.  Go back to
+Menu 13, select <BASES> and use fig 4 for the data to complete the airfield
+creation display.
+
+The next step is vital !  The data entered must be saved to the disk.  Type
+(ESC/f1) until you have recovered Menu J, select <DISK> and resave the scenario
+in the same location.
+
+Once this has been done, you're ready to play the scenario.  It gives the
+Germans some real bombing power.
+
+For dedicated gamers and/or historians, Appendix A contains the information
+necessary to create original scenario.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³   ÚÄ-AIRFIELDÄÄ¿    ÚÄ-MAP LOCÄÄÄ¿ ³  BASE CREATE          ³
+³   ³ ARRAS      ³    ³ (26, 32)   ³ ³                       ³
+³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ    ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ ³                       ³
+³                                    ³                       ³
+³ ASSIGNED SQUADRONS                 ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³
+³          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³   ³ NUM= 100      ³   ³
+³ (1)- 241 ³ 1/KGA - Ju89          ³ ³   ³               ³   ³
+³ (2)- 242 ³ 2/KGA - Ju89          ³ ³   ³ CLEAR       N ³   ³
+³ (3)- 243 ³ 3/KGA - Ju89          ³ ³   ³ LIST        N ³   ³
+³ (4)-   0 ³       -               ³ ³   ³ LOAD        N ³   ³
+³          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³   ³ EDIT        N ³   ³
+³                                    ³   ³ SAVE        N ³   ³
+³             THEATRE (1-5)=  2      ³   ³ MAP         N ³   ³
+³      DAMAGE STATUS (0-15)= 15      ³   ³               ³   ³
+³      DAMAGE CONTROL (0-3)=  2      ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³
+³                                    ³                       ³
+³ (Y/N)- ALLIED (N)                  ³                       ³
+³        SEALED (Y)                  ³                       ³
+³                                    ³                       ³
+³                                    ³    (3 x 3 hex         ³
+³                                    ³     tactical map      ³
+³                                    ³     display here)     ³
+³                                    ³                       ³
+³                                    ³                       ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+                     FIG 4
+
+
+5. THE DESIGN HANDBOOK
+======================
+
+The Design Handbook contains the information and explanations necessary to
+convert your historical research into the game format.  It is not absolutely
+necessary to build up the data bases in the order prescribed, but our
+experience suggests that this is the most convenient sequence.
+
+5.1 Map Creation (Menu 7)
+-------------------------
+Select Menu 7 to enter the map creation routine.  Examine Appendix A for a
+completed example.
+
+The strategic map is displayed together with the hollow cursor.  Each 2 by 2
+grouping of terrain elements on the strategic map represents a block of 9
+hexes (3 by 3) on the tactical map.  Each hexagon is 20 statute miles from
+side to side for a total map area of slightly more than 600,000 square miles.
+
+The x and y values for the hexagon highlighted by the cursor on either the
+strategic or tactical map are shown above the menu window.  To edit a
+particular hex or hex-side, position the strategic cursor in the approximate
+hex location using the I,J,K,M keys then type (RET) to obtain the tactical
+map.  Position the tactical cursor directly over the chosen hex using the I,J,
+K,M keys or the 1-6 keys and edit (create) the hex using the following
+procedure.  Note that you may type (0) to centre the screen on the tactical
+cursor.
+
+OCEAN HEXES (T1) - Type (T1) to create an ocean or lake hex.  Coastal hex-sides
+are entered automatically where appropriate.  The default hex on a blank map is
+an ocean hex.  Ocean hexes are treated as neutral territory for game purposes.
+
+LAND HEXES (T2-T3) - Each land hex must be identified as Axis or Allied.  Thus
+(T2) = Axis land, (T3) = Allied land.  A hex-side border will be created
+automatically between Axis and Allied hexes.  Observer Corps detection is not
+possible over enemy territory and pilot recovery rates are much improved in
+friendly territory.  Note that facilities such as centres, airbases, radar
+stations etc, are not entered by this routine but rather placed by the computer
+once they have been built up in their appropriate creation routines.
+
+RIVER HEX-SIDES (S1-S3) - River hex-sides may be created between any two land
+hexes.  They play an important role in navigation and target location.  Type
+(S1)-(S3) to build north, north-eastern and/or south-eastern hex-sides
+respectively.  Note that the south hex-side of one hex is the north hex-side of
+the hex directly below it.  In this way, all 6 hex-sides can be edited.  Type
+(S0) to clear all hex-sides from a particular hex.
+
+The terrain elements on the strategic map are built up as a consequence of the
+topography of the tactical map.  The priority given to the strategic display
+is facilities, land ocean.
+
+5.21 Plane Class Creation (Menu 14)
+-----------------------------------
+This routine is used to define the characteristics and performance of the
+various aircraft types employed in the scenario.  Examine Appendix A for a
+completed example.  A maximum of 37 aircraft types may be created per scenario.
+
+PLANE NUMBER - Assign a number from 1-37 to the aircraft type.  Each aircraft
+type must have a different number assigned to it.
+
+PLANE TYPE - Enter any combination of letters or numerals (to a maximum 11)
+which will distinguish the aircraft (e.g. Hurricane I).
+
+COMBAT ROLE - Enter the primary role for which the aircraft was designed.
+0=fighter, 1=fighter bomber, 2=bomber, 3=recon.
+
+CREW NUMBER - Enter the usual crew size for the aircraft type.  0=no crew (i.e.
+pilotless plane or rocket), 1=one man crew, 2=two man crew, 3=three man crew,
+4=four man crew, 5=five man crew, 6=six to eight man crew, 7=nine-plus crew
+members.
+
+FUEL CAPACITY - This value measures the length of time a plane type with
+minimum combat loading can remain airborne.  The unit of measurement is a five
+minute time period.  To calculate the value, divide the maximum operational
+range (in miles) of the aircraft by its cruising speed (in mph) and multiply
+the result by 12.  The maximum value is 255 (21.5 hours) and the minimum value
+is 1 (5 minutes).  Note that any value under 12 would be completely useless in
+practice.
+
+PAYLOAD - This characteristic is measured in increments of 300lbs of bombs.
+For example, a payload of 10,000lb has a value of 34.  The maximum value which
+can be entered is 63.  Aircraft without a bombing capability are given a value
+of 0.  Round up any fraction.
+
+SERVICE CEILING - Enter the service ceiling (maximum operable altitude) for the
+aircraft type.  The unit of measurement is '000ft.  The maximum value is 41
+(41,000ft) and the minimum value is 11 (11,000ft).
+
+MAXIMUM SPEED - Enter the aircraft's maximum speed.  The unit of measurement is
+hexes per hour.  Note that each hex is 20 statute miles across.  To calculate
+the value, divide the maximum speed of the aircraft by 20.  The maximum value
+is 41 (820 mph) and the minimum value is 1 (20 mph).  Round off fractions to
+the nearest value.
+
+OPTIMUM ALTITUDE - Enter the altitude at which the aircraft achieves its
+maximum speed.  The unit of measurement is '000ft.  The maximum value is 31
+(31,000ft) and the minimum value is 1 (1,000ft).
+
+CRUISING SPEED - Enter the aircraft's most economic air speed.  The unit of
+measurement is hexes per hour.  To calculate the value, use the same formula
+as that used to determine maximum speed.  The maximum value is 31 (620 mph)
+and the minimum value is 1 (20 mph).  Round off fractions to the nearest value.
+
+CLIMB RATE - This value measures the time taken for an aircraft to gain
+altitude.  The unit of measurement is '000ft per five minutes.  The maximum
+value is 15 (15,000ft/5 mins) and the minimum value is 1 (1,000ft/5 mins).
+
+FIREPOWER - This characteristic measures the quality and quantity of the
+aircraft's armament.  Generally 1 point is awarded for every 1-2 fixed forward
+guns and/or 2-6 flexible guns.  The value obtained is modified (+/-1) by the
+suitability of the aircraft as a firing platform and/or the type of mounting
+provided for the flexible guns.  the maximum value is 7.  Only unarmed aircraft
+should be given a value of 0.
+
+MANEUVERABILITY - This characteristic measures the aircraft's agility
+primarily through an evaluation of wing loading.  In general the lower the wing
+loading the more maneuverable the aircraft will be.  Pilot reports and
+comments, where available, are also a useful source of information.  The
+maximum value is 7.  The minimum value is 0.
+
+VULNERABILITY - This characteristic measures the protection afforded the crew,
+the fuel tanks and other vital equipment as well as an overall estimate of the
+airframe's structural soundness.  the maximum value is 7.  The minimum value is
+0.
+
+RADAR - This characteristic measures the effect of any electronic assistance
+afforded the aircraft.  In the case of fighters, the value represents their
+ability to electronically detect enemy aircraft, including any assistance
+afforded by Ground Controlled interception (GCI) facilities.  In the case of
+bombers and recons, the value represents their ability to electronically locate
+their ground target, again incorporating any ground-linked facilities; for
+example Oboe and X-gerat.  The maximum value is 7.  The minimum value is 0.  As
+an aid to design, Appendix B is our evaluation of WWII airborne and ground
+radar systems formatted into game terms.
+
+REPLACEMENT RATE - This characteristic measures the number of aircraft of each
+type available each day as reinforcements, 0=1 plane/4 days, 1=1 plane/2 days,
+2=1 plane/day, 3=2 planes/day, 4=4 planes/day, 5=8 planes/day, 6=16 planes/day,
+7=32 planes/day.
+
+ECM - this characteristic measures the extent of any electronic counter-measures
+available to the aircraft.  It represents their ability to avoid detection by
+electronic instruments.  This value has nothing to do with ground based
+counter-measure systems.  Again, Appendix B is our evaluation of such equipment
+in game terms.  The maximum value is 7.  The minimum value is 0.
+
+ALLIED - (Y)es or (N)o.
+
+NIGHT - Is the aircraft designed to operate primarily at night ? (Y)es or (N)o.
+
+
+5.22 Squadron Creation (Menu 15)
+--------------------------------
+This routine is used to assign the aircraft types created in the previous
+section to their historical organizations.  Examine Appendix A for a completed
+example.  Up to 255 individual squadrons may be created, each one of which can
+accommodate up to 31 aircraft.  All aircraft in a particular squadron must be
+of the same type.
+
+SQUADRON NUMBER - Assign a number from 1-255 to the squadron.  Each squadron
+must have a different number assigned to it.
+
+SQUADRON IDENTIFICATION - Enter any combination of letters or numerals (to a
+maximum of 6) which will distinguish the squadron (e.g. 3/KG54).
+
+AIRCRAFT TYPE - Enter the <NUM> corresponding to the aircraft type created in
+the previous routine.
+
+OFFICIAL ESTABLISHMENT - Enter the maximum number of aircraft which may be
+assigned to the Squadron.  This number is usually the historical squadron size.
+The maximum value is 31.  The minimum value is 1.
+
+INITIAL ESTABLISHMENT - Enter the number of aircraft (operational or otherwise)
+to be assigned to the squadron at the start of the scenario.  The maximum value
+is 31.  The minimum value is 1.
+
+VETERAN PILOTS/CREWS - Enter the number of veteran pilots or crews in the
+squadron.  A veteran pilot is an 'ace' (5+ kills).  A veteran crew has
+completed 15+ bombing missions.
+
+EXPERIENCED PILOTS/CREWS - Enter the number of experienced pilots or crews in
+the squadron.  An experienced pilot has combat experience.  An experienced crew
+has completed 3-15 bombing missions.
+
+FATIGUE - This value measures the level of exhaustion/strain on the squadron's
+combat and ground personnel.  Enter a number between 0 and 7.  7=bright-eyed
+and bushy failed, 0=too fired to stand.
+
+NIGHT OPERATIONS - Is the squadron trained and equipped for night-operations ?
+(Y)es or (N)o.
+
+RECON OPERATIONS - Is the squadron trained and equipped for reconnaissance
+operations ? (Y)es or (N)o.
+
+NAVAL OPERATIONS - Is the squadron trained and equipped to attack shipping ?
+(Y)es or (N)o.  Note that naval operations performed at night are minelaying
+operations.
+
+PATHFINDER SQUADRON - Is the squadron especially trained and equipped to
+locate ground targets ? (Y)es or (N)o.
+
+
+5.23 Airbase Creation (Menu 20)
+-------------------------------
+This routine is used to establish airfields.  Examine Appendix A for a
+completed example.  A total of 127 airfields may be created for each scenario.
+Any number of airfields may be located in the same hex.
+
+AIRFIELD NUMBER - Assign a number from 1-127 to the airfield.  Each airfield
+must have a different number assigned to it.
+
+NAME - Enter any combination of letters or numerals (to a maximum of 11) which
+will distinguish the airfield (e.g. Biggin Hill).
+
+LOCATION - Enter the x and y map values of the airfield.  These can be obtained
+from a reference to your draft map or by using the map option in the menu.  The
+range of values is x:0-41, y:0-35.
+
+THEATRE/COMMAND - Up to 5 separate commands per side can be created for each
+scenario.  These commands are essentially independent from each other.  Each
+airfield must be assigned to a particular command.  1=theatre 1....5=theatre 5.
+
+ASSIGNED SQUADRONS - Enter the <NUM>'s of the squadrons which are to be
+assigned to this airfield.  The number of squadrons assigned to the airfield
+cannot exceed four.
+
+DAMAGE STATUS - This value measures the degree of damage currently sustained
+by the airfield.  0=inoperable, 15=pristine.  Air operations are seriously
+affected by damage levels below 10 and almost impossible when the damage level
+is below 5.  Furthermore, aircraft may be temporarily prevented from launching
+by any damage level.
+
+DAMAGE CONTROL - This value measures the experience and effectiveness of the
+airfield's personnel in repairing damage to their airfield.  0=hopeless,
+1=adequate, 2=good, 3=excellent.
+
+SEALED - Is the airfield an all-weather surface ? (Y)es or (N)o.
+
+ALLIED - (Y)es or (N)o.
+
+
+5.24 Centre Creation (Menu 19)
+------------------------------
+This routine is used to create the various type s of centres available to each
+side as targets.  Examine Appendix A for a completed example.  Up to 63 centres
+may be created.  However, only one may be deployed in each hex.
+
+CENTRE NUMBER - Assign a number from 1-63 to the centre.  Each centre must have
+a different number assigned to it.
+
+NAME - Enter any combination of letters or numerals (to a maximum of 11) which
+will distinguish the centre (e.g. Birmingham).
+
+LOCATION - Enter the x and y map values of the centre.  These can be obtained
+from a reference to your draft map or by using the MAP option in the menu.  The
+range of values is x:0-41, y:0-35.
+
+POPULATION SIZE - This value measures the population density of the centre.
+0=insignificant, 1=minor, 2=major, 3=vital.  A vital population centre is no
+larger than a major centre but rather is one of especial importance in the
+particular scenario.  More victory points are awarded for the destruction of
+vital centres than major centres.
+
+INDUSTRY - This value measures the industrial capacity of the centre.
+0=insignificant, 1=minor, 2=major, 3=vital.  A vital industrial centre is no
+larger than a major centre but rather is one of especial importance in the
+particular scenario.  More victory points are awarded for the destruction of
+vital centres than major centres.
+
+PORT FACILITIES - This value measures the extent of port facilities at the
+centre.  0=none, 1=minor, 2=major, 3=vital.  A vital port facility is no larger
+than a major port facility but rather is one of especial importance in the
+particular scenario.  More victory points are awarded for the destruction of
+vital port facilities than major port facilities.
+
+COMMUNICATIONS - This value measures the importance of the road, rail and/or
+river transportation facilities in or close by the centre.  0=insignificant,
+1=minor, 2=major, 3=vital.  A vital communications centre is no larger than
+a major centre but rather is one of especial importance in the particular
+scenario.  More victory points are awarded for the destruction of vital centres
+than major centres.
+
+ALLIED - (Y)es or (N)o.
+
+
+5.25 Radar Station Create (Menu 18)
+-----------------------------------
+This routine is used to create the radar station facilities available to each
+side.  These radar stations are ground installations designed to detect enemy
+aircraft.  Don't confuse them with the radar rating assigned to plane types.
+Examine Appendix A for a completed example.  Furthermore, Appendix C lists by
+nationality the major ground radar installations in use throughout WW2.  Up to
+63 stations may be created and there is no restriction on the number which may
+be placed in each hex.
+
+STATION NUMBER - Assign a number from 1-63 to the radar station.  Each radar
+station must have a different number assigned to it.
+
+TYPE - Enter a single letter or number to distinguish the type of station (e.g.
+F for Freya sets, W for Wurzsburg sets).  Note that the <NUM> assigned to the
+station will appear after the type designation to facilitate identification.
+
+LOCATION - Enter the x and y map values of the radar station.  These can be
+obtained from a reference to your draft map or by using the MAP option in the
+menu.  The range of values is x:0-41, y:0-35.
+
+MINIMUM DETECTION ALTITUDE - This value measures the minimum altitude at which
+the radar station is operational.  The station will not detect aircraft below
+this altitude.  The unit of measurement is '000ft.  The maximum value is 15
+(15,000ft).  The minimum value is 1 (1,000ft).
+
+MAXIMUM DETECTION ALTITUDE - This value measures the maximum altitude at which
+the radar station is operational.  The station will not detect aircraft above
+this altitude.  The unit of measurement is '000ft.  The maximum value is 41
+(41,000ft).  The minimum value is 1 (1,000ft). (Note that if you enter a
+greater minimum detection altitude than maximum detection altitude, the very
+peculiar results will occur !)
+
+DETECTION RANGE - This value measures the distance (in hexes) out to which the
+radar station is operational.  The maximum range is 8 hexes.  The minimum range
+is 1 hex.
+
+RELIABILITY - This value is a subjective assessment of the quality of the
+equipment and the competence of its users.  0=hopeless, 1=adequate, 2=good,
+3=excellent.
+
+DAMAGE STATUS - This value measures the degree of damage currently sustained by
+the radar station.  0=inoperable, 15=undamaged.  Detection is seriously
+affected by damage levels below 10 and not possible when the damage level is
+below 5.
+
+DAMAGE CONTROL - This value measures the experience and effectiveness of the
+radar station's personnel in repairing damage to their equipment.  0=hopeless,
+1=adequate, 2=good, 3=excellent.
+
+360 SCAN - Most ground radars of this period could detect aircraft at any
+direction from their origin.  Some could not and in there cases it was
+necessary to deploy several in order to get a full coverage.  The most notable
+examples were the British Chain Home radar sets.  Rather than assign an arc of
+detection (and use huge amounts of memory handling some nasty programming
+problems), radar stations defined as unable to scan 360 degrees will only
+detect aircraft over neutral and enemy territory.  In practice, this solution
+works very neatly.  (Y)es or (N)o.
+
+ALLIED - (Y)es or (N)o.
+
+
+5.26 Shipping Lane Create (Menu 17)
+-----------------------------------
+This routine is used to create the shipping lanes used by each side.  They are
+a subjective measure of the relative importance of certain hex paths in
+channeling merchant shipping.  Examine Appendix A for a completed example.  Up
+to 63 such hexes may be created per scenario.
+
+SHIPPING LANE NUMBER - Assign a number from 1-63 to the shipping lane.  Each
+shipping lane must have a different number assigned to it.
+
+TYPE - Enter a single letter or number to distinguish the port of origin of
+the shipping lane (e.g. P for Portsmouth, K for Kiel).  Note that the <NUM>
+assigned to the shipping lane will appear after the identification code.
+
+LOCATION - Enter the x and y map values of the shipping lane.  These can be
+obtained from a reference to your draft map or by using the MAP option in the
+menu.  The range of values x:0-41, y:0-35.
+
+SHIPPING DENSITY - This value is a subjective measure of the likelihood of
+locating merchant shipping in the shipping lane.  0=unlikely, 7=almost certain.
+
+ALLIED - (Y)es or (N)o.
+
+
+5.27 Flak Unit Creation (Menu 16)
+---------------------------------
+This routine is used to create the flak units used by each side.  They are used
+to organize and deploy the anti-aircraft batteries available to each side.
+Examine Appendix A for a completed example.  Up to 63 such flak units may be
+created per scenario.
+
+FLAK UNIT NUMBER - Assign a number from 1-63 to the flak unit.  Each flak unit
+must have a different number assigned to it.
+
+TYPE - Enter a single letter or number to distinguish between regional
+groupings of flak units.  For example, designate all flak units in the Ruhr
+region as R.  Note that the <NUM> assigned to the flak unit will appear after
+the identification code.
+
+LOCATION - Enter the x and y map values of the flak unit.  These can be
+obtained from a reference to your draft map or by using the MAP option in the
+menu.  The range of values is x:0-41, y:0-35.
+
+NUMBER OF HEAVY AA GUNS - This value is a measure of the size of the flak unit.
+Award 1 point for each pair of AA guns.  the maximum value is 255.  The minimum
+value is 0.  Note that flak units are stationary.  However, by reallocating AA
+guns via the flak reserve, the C-in-C can respond to new enemy thrusts.
+
+ALLIED - (Y)es or (N)o.
+
+
+5.3 The Review Utility (Menu 6)
+-------------------------------
+This utility allows a quick and easy review of the data created in menus 14-20.
+Select Menu 6.  Select the data base of your choice.  Use the arrow keys to
+review each item in the data base.
+
+
+5.4 Weather Creation (Menu 5)
+-----------------------------
+Select Menu 5 to enter the weather creation routine.  Examine Appendix A for a
+completed example.  Superimposed on the strategic map are 12 weather boxes.
+The weather box indicates the probable weather condition for the area
+described.  The actual weather condition in a particular hex is determined by
+the computer when necessary.  The cloud cover and wind strength values entered
+in each box determine the initial weather conditions for the game.  Both values
+are entered in tenths.  Thus, for cloud cover, 0=clear skies....10=complete
+cloud cover.  Cloud ceiling is variable and is determined locally by the
+computer.  Target location is pretty well impossible in cloud cover of 8 or
+greater.
+
+For wind strength, 0=still air .... 10=gale force winds.  Bomb accuracy and
+air-to-air interception deteriorates rapidly in wind strengths greater than 7.
+
+In general, cloud cover tends to build up over land masses while wind strength
+is greatest over large bodies of water.
+
+Storms are produced by a combination of cloud cover and wind condition.
+Whenever the sum of the two values exceeds 14, storms are probable in any hex
+described by that weather box.  Navigation and combat are next to impossible in
+such conditions.  In fact, aircraft foolish enough to be out in a storm can
+count themselves lucky if they just survive, let alone accomplish a mission.
+
+Ground fog occurrence is determined by season, proximity to the ocean, and
+current weather conditions.
+
+Storm and/or fog prone areas are identified by highlighted weather boxes.
+
+The computer determines the season from the data entries made in Menu 11 and
+the developing weather pattern throughout the course of the scenario is based
+upon European meteorology.
+
+
+5.5 Names Creation (Menu 8)
+---------------------------
+Select Menu 8 to enter the names creation routine.  Examine Appendix A for a
+completed example.  This menu is optional in the sense that the game will run
+normally even if the C-in-Cs and Commanders are not identified by name.  It
+looks much better, however, if the names are present.  Either historical names
+or your own may be entered.  The maximum length allowed is 11 characters per
+name.
+
+
+5.6 Time Creation (Menu 9)
+--------------------------
+Select Menu 9 to enter the time creation routine.  Examine Appendix A for a
+completed example.  This routine is used to establish the start and finish
+times for the scenario, the hours of dawn and dusk and the phase of the moon.
+The game can be set in any year from 1900 to 1963.  Air operations after this
+date cannot be properly simulated by the game's mechanics, primarily because
+of the proliferation of guided missiles and really hot jets.  (In fact,
+scenarios set later than 1954 will probably be a bit shaky.)
+
+DATE - Enter the day of the month that the scenario is to begin.  The values
+range from 1-31.  All scenarios begin at midnight (0000 hrs).
+
+MONTH - Enter the month.  The values range from 1-12.
+
+YEAR - Enter the year.  The values range from 0-63.
+
+LENGTH - Enter the number of days that the scenario is to continue.  The values
+range from 1-31.  Note that this entry is the number of days in the scenario,
+not the date on which it ends.  All scenarios end at midday (1200 hrs).
+
+DAWN - Determine the hour of daybreak.  The values range from 3-10; i.e. dawn
+must occur between 0300 hrs and 1000 hrs.
+
+DUSK - Determine the hour of nightfall.  The values range from 15-22; i.e. dusk
+must occur between 1500 hrs and 2200 hrs.
+
+MOON - Determine the phase of the moon.  The values range from 0-27.  0=full
+moon, 13=new moon.  Find out the date of the last full moon before the
+scenario start date and count the number of days between the two dates.  This
+is the value to be entered.
+
+
+5.7 Cursor Creation (Menu 10)
+-----------------------------
+Select Menu 10 to enter the cursor creation routine.  Examine Appendix A for
+a completed example.  This routine is used to establish the cursor shape which
+will represent the forces of each C-in-C and Commander.  0=general cursor.
+1=Commonwealth, 2=American, 3=German, 4=Italian.
+
+
+5.8 Score Creation (Menu 11)
+----------------------------
+Select Menu 11 to enter the score creation routine.  Examine Appendix A for a
+completed example.  There are two values to be entered in this routine; a
+points threshold and a priority rating.
+
+THRESHOLD - During the course of a scenario, all commanders are awarded points
+for the progressive destruction of enemy facilities and aircraft.  The
+threshold value represents the minimum number of points which must be achieved
+by a commander before he can begin accumulating a positive point total.  The
+C-in-C's point total is the sum of his commanders' final scores.  Negative
+scores cancel positive scores.  Furthermore, negative scores count double
+points when calculating the C-in-C's final score.  Enter a point value between
+1-250 (10-2500).  A value of 0 should be given to non-active commanders.
+
+To balance a scenario, it is best to assign each commander an initial threshold
+of 1.  Make all commands computer controlled and run through the scenario 10-
+25 times, recording the final scores in each case.  Average these results,
+enter them, then make a further three or four test runs.  Make further changes
+only if you achieve peculiar results.
+
+PRIORITY - This value serves two separate and unrelated purposes.  The values
+entered in the creation screen affect only the first of these purposes.  Air
+formations (squadrons) begin a scenario with an initial establishment which
+represents the total number of aircraft assigned to them.  The number of these
+aircraft which begin the scenario in an operational condition is determined by
+the priority rating awarded to their commander.  0=20%-40%, 1=30%-50%,
+2=40%-60%, 3=50%-70%, 4=60%-80%, 5=70%-90%, 6=80%-100%, 7=90%-100%.
+
+The second purpose of the priority rating is used during the play of the
+scenario.  Each C-in-C has access to the priority ratings of his commanders and
+may manipulate them as he sees fit.  The differences in importance assigned to
+these ratings determine the priority accorded for replacement aircraft and the
+exchange between commands of exhausted for fresh squadrons.
+
+
+5.9 Doctrine Creation (Menu 12)
+-------------------------------
+Select menu 12 to enter the doctrine creation routine.  Examine Appendix A for
+a completed example.  This routine is used to enter a mixed bag of information,
+all of which is described below.
+
+THE MULTIPLIER - Every target type in a scenario must be given a multiplier.
+These values are crucial in that they determine the importance of the various
+target types as appreciated by the respective high commands at the time of the
+scenario.  For example, ports and shipping lanes were a much more vital target
+for the RAF in 1940 than they were in 1944.  In game terms, the multiplier
+modifies the points gained from the bombing of the various target types; i.e.
+to win the game you must direct your operations primarily against high priority
+targets.  0=0.125, 1=0.25, 2=0.5 3=1, 4=1.5, 5=2, 6=4, 7=8.
+
+Note that these multipliers will not remain constant throughout the scenario.
+Insufficient operations against a particular target type may decrease its
+multiplier.
+
+SUPREME COMMAND - This value represents the competence of the supreme commander
+;generally the national leader or the person ultimately responsible for the
+direction of the nation's war effort.  He is always a computer controlled
+personality.  The rating awarded to the supreme commander will determine how
+accurately he will appreciate and implement his sides' multipliers.  0=complete
+nincompoop.... 7=military genius (i.e. never makes a mistake - just like RJK!).
+In practice, target types ranked lower by the supreme command than their actual
+place will have their multipliers reduced by the extent of their displacement;
+target types ranked higher will gain no benefit.
+
+COMMANDER IN CHIEF - This value represents the competence of the C-in-C when
+computer controlled.  A human C-in-C can make his own decisions.  The rating
+awarded to the C-in-C will determine how much latitude he allows his
+subordinates to have.  0=literal and narrow-minded .... 7=perceptive and
+liberal.  In practice, incompetent C-in-C's will make it much more difficult
+to deceive and/or surprise your opponent.
+
+GROUND ECM - This value represents the extent to which ground-based ECM
+equipment could protect targets from electronic detection by enemy aircraft.
+Appendix C provides a listing of ground-based ECM systems evaluated into game
+terms.  The maximum value is 7.  The minimum value is 0.
+
+ORDNANCE EFFECT - This characteristic measures the quality of the high
+explosive available at the time of the scenario.  0=hopeless, 1=adequate,
+2=good, 3=excellent.
+
+AA FIRE CONTROL - This value measures the experience and target locating
+equipment available to the AA forces at the time of the scenario.  0=hopeless,
+1=adequate, 2=good, 3-excellent.
+
+
+6. ROCKETS & PILOTLESS PLANES
+=============================
+
+None of the scenarios in the game cover periods of time when self-propelled
+rockets or pilotless planes were in use.  Nonetheless, the game system has the
+facilities to simulate their use and effect.  These guidelines will help you
+organize and deploy them.
+
+An aircraft type, regardless of its other characteristics, will be considered
+a rocket/pilotless plane if its crew number is set to 0.  There is no limit
+(other than 31) on the number of such missiles which can be assigned to a
+squadron.  However, to best simulate the V1/V2 attacks, squadron size should
+be kept to a maximum of three.
+
+Rocket squadrons fly harassment ops against enemy population centres under the
+computer's direction, it is not possible for a human player to manipulate
+rocket squadrons in any way.
+
+Obviously there are no survivors from a rocket op to you will need to allow a
+generous replacement rate if you wish to keep up a good level of attack.
+
+
+7. GENERAL MATTERS
+==================
+
+Unlike Carriers at War, there are no special map constraints in Europe Ablaze.
+In fact, we can't think of any constraints at all.  Those of you who use the
+map creation facilities will notice that more than one type of land hex can
+be built.  You can use these for aesthetic purposes if you wish.  They have no
+function in the game.  Thus, T2/T3=clear, T4/T5=wooded, T6/T7=rough, T8/T9=
+mountainous.
+
+The data entry routines are for the most part 'self-checking' in the sense that
+you will not be able to enter values outside the given parameters.  Other
+mistakes may show up in peculiar ways, so be careful.
+
+One word of warning, however.  The game's design revolves around more or less
+realistically evaluated forces.  If you decide to create fantasy scenarios
+with 'amazing' aircraft, be prepared for some amazing results.
+
+
+8. THE 'MTO' SCENARIO
+=====================
+
+In late 1943, the Allied forces in Italy were sufficiently well established to
+begin a major strategic air offensive against targets in Southern Germany,
+Austria, France, Italy, Bulgaria, Greece, Hungary, Jugoslavia and Rumania.
+Most of these targets had hitherto been beyond the range of Britain-based air
+groups.  Now there was virtually no region in the Third Reich which would
+enjoy immunity from Allied air attack.
+
+The principal weapon the Allies were to use to spearhead this southern thrust
+was their US Fifteenth Air Force, formed in November 1943 under the command of
+Maj. Gen, James H, Doolittle, from the heavy bomber core of the Twelfth Air
+Force.
+
+We pick up the story in March 1944.  Maj. Gen. Nathan F.  Twining has replaced
+Doolittle and the Fifteenth has some 15 heavy bomber groups and 4 fighter
+groups to carry the war to the Axis.
+
+Bad weather has seriously hampered operations for most of the past two months.
+German ground forces tenaciously cling to their defensive line south of Rome
+and two frontal assaults against the fortified Monte Cassino bastion have
+been bloodily repulsed.
+
+The amphibious invasion behind enemy lines at Anzio has failed to realize the
+breakthrough expected of it and survives principally on massive air and naval
+support.
+
+The Fifteenth, supported by the Twelfth, has a lot to do.  It must support
+ground operations in Italy through attacks against communication facilities,
+air fields and, wherever possible, the Luftwaffe itself.  Furthermore, it must
+contribute to the Combined Bombing Offensive (CBO) by striking at vital
+industrial and communications targets, especially in Austria and Rumania.
+
+Opposing these efforts will be two formidable obstacles.  Bad weather is
+certain to frustrate some 50%-60% of all missions flown.  The Luftwaffe's
+fighter strength, albeit scattered, is not inconsiderable, especially in those
+regions beyond the escort protection afforded by the P-38's and P-47's.
+
+Defending the Reich are elements of two German Air Forces; Luftflotten 1 and 2.
+Luftflotte 1, spread between Bucharest in the east, Salonika in the south and
+Budapest in the north, is a purely fighter force and its principal concern is
+the protection of the vital oil facilities at Ploesti and Brasov.
+
+Luftflotte 2 contains all of the limited Axis striking power committed to
+the Mediterranean theatre.  some 200 bombers and fighter-bombers are deployed
+in the Udine-Villaorba and Orvieto areas.  This force must achieve some
+positive results, both against Allied shipping and communications.
+
+The principal components of Luftflotte 2 are the fighter groups
+(Jagdgeschwaden), also based in the Udine area.  Together with aircraft from
+the fascist Republica Sociale Italiana (RSI) they must defend the industrial
+areas of Southern Germany and Austria as well as provide protection for the
+vulnerable bombers.
+
+The scenario runs for only 17 days so neither side has time to waste.  Every
+opportunity to inflict casualties needs be taken, most especially by the
+Americans.
+
+
+
+Appendix A
+==========
+
+PLANE TYPES
+-----------
+
+    1         2         3         4        5        6          7
+-------------------------------------------------------------------------------
+Fortress  Liberator  Mitchell  Marauder  Havoc  Lightning  Thund'bolt
+    2         2         2         2        2        0          0
+    7         7         5         6        3        1          1
+  246       140        75        60       47       91         47
+   59        43        10        14       14        6          8
+   36        38        21        20       26       41         41
+   15        15        14        14       17       21         22
+   25        30        15         5       12       25         30
+    8         9        12        11       14       15         18
+    3         4         5         5        7       12          9
+    6         5         4         5        4        5          6
+    1         1         2         2        3        4          5
+    6         5         5         5        4        5          7
+    3         3         0         0        0        5          5
+    5         5         3         2        2        4          3
+    3         3         0         0        0        0          0
+    Y         Y         Y         Y        Y        Y          Y
+    N         N         N         N        N        N          N
+
+    8       9        10         11      12    13      14          15
+-------------------------------------------------------------------------------
+Mustang  Warhawk  Mosquito  B'fighter  F-5C  Ju88A  Ju88A (R)  Fw190 FB
+   0        1        0          0        3     2       3           1
+   1        1        2          2        2     4       4           1
+  51       38       55         62      115    85     110          41
+   0        2        0          0        0    26       4           5
+  41       31       28         29       41    27      29          37
+  22       18       19         15       23    14      18          18
+  30       16       13         13       28    20      22          20
+  18       15       15         12       18    12      13          14
+  15       10       13          8       14     4       5          11
+   5        6        5          7        0     2       1           5
+   6        5        4          3        5     2       3           6
+   6        4        3          4        5     4       4           5
+   5        5        4          4        4     2       4           4
+   1        2        1          1        2     4       2           2
+   0        0        0          0        0     0       0           0
+   Y        Y        Y          Y        Y     N       N           N
+   N        N        Y          Y        Y     Y       Y           N
+
+  16       17     18      19     20      21      22      23      24
+---------------------------------------------------------------------
+Bf109F  Bf109G  Fw190A  Mc202  Mc205  IAR 80A  Bf110G  Do217N  Ju88C
+  0        0       0      0      0        0       0       0       0
+  1        1       1      1      1        1       3       4       3
+ 22       22      26     23     30       35      55      50      57
+  0        0       0      0      3        0       0       0       0
+ 36       39      37     38     36       35      26      33      32
+ 19       19      20     19     20       17      17      16      15
+ 20       23      20     16     24       13      23      20      20
+ 16       14      15     17     16       10      14      13      13
+ 15       15      12     14     15       13      11       7       8
+  4        4       5      4      4        5       6       7       6
+  6        6       7      6      7        5       4       3       3
+  4        5       5      4      5        4       4       4       4
+  2        4       4      4      4        2       4       4       4
+  0        6       3      0      1        1       1       0       0
+  0        0       0      0      0        0       0       0       0
+  N        N       N      N      N        N       N       N       N
+  N        N       N      N      N        N       Y       Y       Y
+
+
+SQUADRONS
+ ---------
+
+
+  1       2       3       4       5        6      7        8      9      10
+-------------------------------------------------------------------------------
+20 HB   49 HB   96 HB   429 HB  340 HB  341 HB  342 HB  414 HB  343 HB  344 HB
+  1       1       1       1       1        1      1        1      2       2
+ 16      16      16      16      16       16     16       16     16      16
+ 12      11      10      14      16       12     15       11     14      14
+  6       5       3       5       4        2      1        2      2       3
+  6       6       6       6       6        6      6        6      6       6
+  N       N       N       N       N        N      N        N      N       N
+  N       N       N       N       N        N      N        N      N       N
+  N       N       N       N       N        N      N        N      N       N
+  N       N       N       N       N        N      N        N      N       N
+
+
+
+  11      12      13      14      15      16     17      18      19      20
+-------------------------------------------------------------------------------
+345 HB  415 HB  346 HB  347 HB  348 HB  416 HB  32 HB  352 HB  353 HB  419 HB
+  2       2        1       1       1       1      1       1       1       1
+ 16      16       16      16      16      16     16      16      16      16
+ 12      11       13      10       9      14     14      13      14      14
+  2       3        4       1       2       3      2       3       1       2
+  3       3        3       4       5       4      4       4       3       3
+  6       6        6       6       6       6      6       6       6       6
+  N       N        N       N       N       N      N       N       N       N
+  N       N        N       N       N       N      N       N       N       N
+  N       N        N       N       N       N      N       N       N       N
+  N       N        N       N       N       N      N       N       N       N
+
+
+  21      22      23      24      25      26      27      28      29      30
+-------------------------------------------------------------------------------
+512 HB  513 HB  514 HB  515 HB  716 HB  717 HB  718 HB  719 HB  720 HB  721 HB
+  2        2       2       2       2       2       2       2       2       2
+ 16       16      16      16      16      16      16      16      16      16
+ 15       16      13      12      13      15      10      14      14      15
+  3        2       2       1       1       2       4       2       3       0
+  4        5       2       3       4       4       3       4       4       4
+  6        6       6       6       6       6       6       6       6       6
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+
+
+
+  31      32      33      34      35      36      37      38      39      40
+-------------------------------------------------------------------------------
+722 HB  723 HB  724 HB  725 HB  726 HB  727 HB  736 HB  737 HB  738 HB  739 HB
+  2       2        2      2        2       2       2       2       2       2
+ 16       16      16      16      16      16      16      16      16      16
+ 14       11      13      12      12      12      12      14      14      13
+  1        0       1       0       2       1       0       2       1       3
+  3        3       3       2       5       4       3       2       2       3
+  6        6       6       6       6       6       6       6       6       6
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+
+
+  41      42      43      44      45      46       47     48      49      50
+-------------------------------------------------------------------------------
+740 HB  741 HB  742 HB  743 HB  744 HB  745 HB  746 HB  747 HB  756 HB  757 HB
+   2       2       2       2       2       2       2       2       2       2
+  16      16      16      16      16      16      16      16      16      16
+  15      15      14      12      13      13      12      14      16      15
+   2       0       0       1       2       1       0       0       1       0
+   2       2       1       3       2       3       1       2       1       1
+   6       6       6       6       6       6       6       6       7       7
+   N       N       N       N       N       N       N       N       N       N
+   N       N       N       N       N       N       N       N       N       N
+   N       N       N       N       N       N       N       N       N       N
+   N       N       N       N       N       N       N       N       N       N
+
+
+
+  51      52      53      54      55      56       57     58      59      60
+-------------------------------------------------------------------------------
+758 HB  759 HB  760 HB  761 HB  762 HB  763 HB  772 HB  773 HB  774 HB  775 HB
+  2        2      2        2       2       2        1      1       1       1
+ 16       16      16      16      16      16       16      16      16      16
+ 15       16      16      14      15      14       15      16      14      16
+  0        1       1       0       0       0        1       1       0       1
+  2        1       0       1       1       2        0       1       2       0
+  7        7       7       7       7       7        7       7       7       7
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+  N        N       N       N       N       N       N       N       N       N
+
+
+  61      62      63      64      65      66      67     68      69      70
+-------------------------------------------------------------------------------
+27 F    71 F    94 F    37 F    48 F    49 F    95 F    96 F    97 F    317 F
+  6       6       6       6       6       6       6       6       6       7
+ 16      16      16      16      16      16      16      16      16      16
+  9      10      11       8      10      10      11      12      14      12
+  1       2       2       3       3       2       3       1       2       1
+  7       7       8       5       6       8       8      10       8       3
+  5       5       5       5       5       5       6       6       6       6
+  N       N       N       N       N       N       N       N       N       N
+  N       N       N       N       N       N       N       N       N       N
+  N       N       N       N       N       N       N       N       N       N
+  N       N       N       N       N       N       N       N       N       N
+
+
+  71      72      73      74      75      76       81      82     83      84
+-------------------------------------------------------------------------------
+318 F   319 F   154WRS  32 PRS  32 PRS  15 AF   445 MB  446 MB  447 MB  448 MB
+   7       7      12      12      12       2       1        3      3       3
+  16      16      16      10      10      16      16       16     16      16
+  14      12      13       9      10      12      10       11      8      12
+   1       2       2       1       1       2       3        0      3       1
+   4       3       4       2       3       3       2        1      5       2
+   6       6       6       6       6       7       6        6      6       6
+   N       N       N       N       N       N       N        N      N       N
+   N       N       Y       Y       Y       Y       N        N      N       N
+   N       N       N       N       N       N       N        N      N       N
+   N       N       N       N       N       N       N        N      N       N
+
+
+  85      86      87      88      89      90      91      92      93     94
+-------------------------------------------------------------------------------
+486 MB  487 MB  488 MB  489 MB  84 LB   85 LB   86 LB   87 LB   522 F   523 F
+  3       3       3        3      4       4       5       5        9      9
+ 16      16      16      16      16      16      16      16       16      16
+ 10      14      11      10      12      13      10      10        8       7
+  2       1       0       0       4       2       2       3        3       3
+  0       1       2       5       4       2       3       1        2       0
+  6       6       6       6       5       5       5       5        5       5
+  N       N       N       N       N       N       N       N        N       N
+  N       N       N       N       N       N       N       N        N       N
+  N       N       N       N       N       N       N       N        N       N
+  N       N       N       N       N       N       N       N        N       N
+
+
+  95      96     97       98      99     100     101     102     103     104
+-------------------------------------------------------------------------------
+524 F   307 F   308 F   309 F   64 F    65 F    66 F    85 F    86 F    87 F
+  9       8      8        8       7       7       7       7       7       7
+ 16      16      16      16      16      16      16      16      16      16
+  8      14       8      14      10      13       9      12       8      12
+  0       1       2       1       0       1       2       3       0       1
+  1       1       3       2       4       3       2       1       3       3
+  5       6       6       6       6       6       6       6       6       6
+  N       N       N       N       N       N       N       N       N       N
+  N       N       N       N       N       N       N       N       N       N
+  N       N       N       N       N       N       N       N       N       N
+  N       N       N       N       N       N       N       N       N       N
+
+
+ 105     106     107     108     109     110     111     112     113     114
+-------------------------------------------------------------------------------
+525 F   526 F   527 F   314 F   315 F   316 F   100 F   301 F   302 F   415 NF
+  7       7       7       9       9       9        7       7       7      7
+ 16      16      16      16      16      16       16      16      16     20
+ 10      14      11       7       8      10        7      11       8     13
+  0       1       1       1       3       1        2       1       3      4
+  1       3       2       3       3       1        3       3       2      6
+  7       7       7       5       5       5        6       6       6      7
+  N       N       N       N       N       N        N       N       N      Y
+  N       N       N       N       N       N        N       N       N      N
+  N       N       N       N       N       N        N       N       N      N
+  N       N       N       N       N       N        N       N       N      N
+
+
+  115     116     117     141     142     143     144     145    146     147
+-------------------------------------------------------------------------------
+416 NF  15 PRS  15 PRS  4/JG27  4/JG27  3/JG53  3/JG53  3/JG53  3/JG53  3/JG27
+  11      10      12      12      17      17      17       17     17      17
+  20      10      10       9       9       9       9        9      9       9
+  14       8      10       7       7       6       4        8      8       9
+   4       1       1       2       1       3       2        1      2       3
+   7       3       4       2       3       2       1        2      2       2
+   7       7       7       4       4       3       3        4      4       5
+   Y       N       N       N       N       N       N        N      N       N
+   N       Y       Y       N       N       N       N        N      N       N
+   N       N       N       N       N       N       N        N      N       N
+   N       N       N       N       N       N       N        N      N       N
+
+
+ 148      149     150    151      152    153     154     155     156     157
+-------------------------------------------------------------------------------
+1/JG52  1/JG4   1/JG53  1/JG77  2/JG77  1/RSI   2/RSI   3/RSI   1/SG4   2/SG4
+  18      17      17     17       17     19      20      20       15      15
+  30      30      30     30       30     15      18      18       30      30
+  28      18      21     22       16     15      16      17       12      14
+   6       5       7      5        4      1       1       0        3       5
+  15       6       6      7        6     10       1       4        2       4
+   6       4       4      5        4      6       6       6        5       6
+  N        N       N      N        N      N       N       N        Y       Y
+  N        N       N      N        N      N       N       N        N       N
+  N        N       N      N        N      N       N       N        Y       Y
+  N        N       N      N        N      N       N       N        N       N
+
+
+  158     159     160     161    162     163     164      165     166     167
+-------------------------------------------------------------------------------
+1/SG10  3/SG10  4/SG10  1/LG1   3/LG1   KG30pt  1/KG76  3F/121  2F/100  2/JG53
+  15      15      15      13     13      13      13       14       14      14
+  30      30      30      30     30      20      30       10       10      10
+  16      12      15      11     14      14      18        7        7       8
+   4       2       1       2      2       3       2        3        1       1
+   4       4       6       6      5       5       7        3        2       3
+   6       6       6       6      6       6       6        6        6       6
+   Y       Y       Y       Y      Y       Y       Y        N        N       N
+   N       N       N       N      N       N       N        Y        Y       Y
+   Y       Y       Y       Y      Y       Y       Y        N        N       N
+   N       N       N       N      N       N       N        N        N       N
+
+
+  168     169     170     171    172      173    174      175     176     177
+-------------------------------------------------------------------------------
+2/JG53  2/ZG26  2/ZG26  2/JG51  3/JG27  3/JG77  R1/JG2  R6/JG2  3/NJG6  3/NJG6
+  17      17      22      23      17      17      17       21     21       24
+  18      12       9       9      30       9      30       20     20       12
+  16      11       9       6      26       7      30       15     17       12
+   4       2       2       1       2       0       3        1      1        2
+   4       3       3       3       8       2      10        3      1        3
+   6       6       7       7       6       7       6        6      6        7
+   N       N       Y       Y       N       N       N        N      N        Y
+   N       N       N       N       N       N       N        N      N        N
+   N       N       N       N       N       N       N        N      N        N
+   N       N       N       N       N       N       N        N      N        N
+
+
+  178     179     180     181
+-------------------------------
+3/NJG6  3/NJG6  KSI100  KSI100
+  23      22      16      16
+   6      10      12      16
+   6      10      10      14
+   0       2       1       3
+   2       2       2       5
+   7       Y       7       6
+   Y       Y       N       N
+   N       N       N       N
+   N       N       N       N
+   N       N       N       N
+
+
+
+
+
+
+
+
+
+WEATHER
+-------
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿    ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿    ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³
+³ C  ³ 6 ³   ³    ³ C  ³ 7 ³   ³    ³ C  ³ 7 ³   ³
+³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³
+³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³
+³ W  ³ 5 ³   ³    ³ W  ³ 7 ³   ³    ³ W  ³ 5 ³   ³
+³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ    ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ    ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿    ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿    ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³
+³ C  ³ 5 ³   ³    ³ C  ³ 6 ³   ³    ³ C  ³ 7 ³   ³
+³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³
+³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³
+³ W  ³ 4 ³   ³    ³ W  ³ 6 ³   ³    ³ W  ³ 6 ³   ³
+³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ    ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ    ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿    ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿    ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³
+³ C  ³ 5 ³   ³    ³ C  ³ 4 ³   ³    ³ C  ³ 4 ³   ³
+³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³
+³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³    ³    ÚÄÄÄ¿   ³
+³ W  ³ 4 ³   ³    ³ W  ³ 4 ³   ³    ³ W  ³ 5 ³   ³
+³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³    ³    ÀÄÄÄÙ   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ    ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ    ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
++------------+    +------------+    +------------+
+|    +---+   |    |    +---+   |    |    +---+   |
+| C  | 4 |   |    | C  | 3 |   |    | C  | 3 |   |
+|    +---+   |    |    +---+   |    |    +---+   |
+|    +---+   |    |    +---+   |    |    +---+   |
+| W  | 3 |   |    | W  | 3 |   |    | W  | 3 |   |
+|    +---+   |    |    +---+   |    |    +---+   |
++------------+    +------------+    +------------+
+
+
+AIRFIELDS
+---------
+
+
+    1           2         3        4          5        6          7
+---------------------------------------------------------------------------
+Amendola 1  Amendola 2  Lecce  Torforella  Lucera  Pancrazio  Grottaglle
+  12,26       12,26     16,31    12,26     11,25     15,30      15,29
+    1           1         1        1         1         1          1
+   1-4         5-8       9-12    13-16     17-20     21-24      25-28
+   15          15        15       15        15        15         15
+    2           2         2        2         2         2          2
+    Y           Y         Y        Y         Y         Y          Y
+    Y           Y         Y        Y         Y         Y          Y
+
+
+
+   8          9            10           11         12       13
+---------------------------------------------------------------------------
+Manduria  Castelluclo  San Glov. 1  San Glov. 2  Stornara  Giulia
+ 15,30      11,26         12,27        12,27      12,27    13,26
+   1          1             1            1          1        1
+ 29-32      33-36         37-40        41-44      45-48    49-52
+  15         15            15           15         15       15
+   2          2             1            1          1        1
+   Y          Y             Y            Y          Y        Y
+   Y          Y             Y            Y          Y        Y
+
+
+
+    14        15      16        17         18        19        20
+---------------------------------------------------------------------------
+Spinazzola  Celone  Salsola   Triolo    Vincenzo 1  Lesina  Vincenzo 2
+   13,27    12,26    12,25    12,25       13,26     12,24     13,26
+     1        1        1        1           1         1         2
+   53-56    57-60   61-63,73  64-66,75   67-69,74   70-72     89-92
+    15       15       15       15          15        15        15
+     1        1        2        2           2         2         2
+     Y        Y        N        N           N         N         Y
+     Y        Y        Y        Y           Y         Y         Y
+
+
+
+
+
+  21     22         23          24         25          26           27
+---------------------------------------------------------------------------
+Gaudo  Pompeil  Parmigliani  Cercola 1  Cercola 2  C. Volturno  Marcianise
+ 8,25    7,25       10,24       8,25       8,25        7,25         7,24
+  2       2           2          2          2           2            2
+81-84   85-88    105-7,115    99-101     108-110    96-98,117    93-95,114
+ 15      15          15         15         15          15           15
+  2       2           2          2          2           2            2
+  Y       Y           N          N          N           N            N
+  Y       Y           Y          Y          Y           Y            Y
+
+
+     28          29         35       36        37       38         39
+---------------------------------------------------------------------------
+Capodichina  Mon Corvino  Canine  Tarquinia  Orvieto  Viterbo  Fab di Roma
+    8,25        8,25       3,18     3,19      4,18     4,19       4,19
+     2           2          2        2         2        2          2
+  101-103     111-3,116    143      142      146,158   141,157  144-5,156
+    15          15         12       13        15       13          11
+     2           2          2        2         2        2           2
+     N           N          N        N         N        N           N
+     Y           Y          N        N         N        N           N
+
+
+
+    40          41      42      43        44       45       46        47
+----------------------------------------------------------------------------
+Reggio Emil  Treviso  Aviano  Maniago  Villaorba  Udine   Gorizia  Lavariano
+   3,10        8,9     9,6     10,7      10,7     11,7     11,7      11,8
+    2           2       2        2         2        2        2         2
+ 147,159-60  151,154   152    148,153  151-2,166  150,155  149,167  163-165
+   15          15      15       15        15       15       15        15
+    2           2       2        2         2        2        2         2
+    N           N       N        N         Y        N        N         Y
+    N           N       N        N         N        N        N         N
+
+
+
+
+    48       49      50      51         52       53       54       55
+----------------------------------------------------------------------------
+Kiagenfurt  Graz     Nis    Salonika  Bucharest  Mizil  Rosiorii  Otopeni
+   15,6     17,6    29,23    30,33     39,21     40,20    37,22    40,21
+     2        2       1        1         1         1        1         1
+ 169-170   168,171  172       173       176       174      175    177-179
+    15       15      15       15        15        15       15        15
+     2        2       1        1         2         2        2         2
+     Y        Y       N        N         Y         N        N         Y
+     N        N       N        N         N         N        N         N
+
+
+
+ 56      57
+-------------
+Gyor   Tokol
+23,26  24,8
+  1      1
+ 180    181
+ 15     15
+  1      1
+  N      N
+  N      N
+
+
+CENTRES
+-------
+
+
+
+   1        2         3        4        5       6       7        8
+--------------------------------------------------------------------------
+Palermo  Messina  Brindisi  Taranto  Salerno  Foggia  Naples  Cassino
+  2,34     6,35     16,29    14,28     8,27    11,25   7,25     8,24
+   0        0         0        0        0       0       1        0
+   0        0         0        0        0       1       0        0
+   1        2         1        2        2       0       2        0
+   0        1         1        1        1       2       1        3
+   Y        Y         Y        Y        Y       Y       Y        Y
+
+
+
+
+  9       10        11        12     13       14       15      16
+--------------------------------------------------------------------------
+Anzio  Nettuno  Mon Cassino  Rome  ancona  Fabriano  Perugia  Sienna
+ 5,22    5,23      7,23      4,21    8,17    6,17      5,16    3,15
+  0        0        0          0      0       0          0       0
+  0        0        0          1      0       0          0       0
+  3        3        0          0      1       0          0       0
+  3        3        2          1      1       1          2       1
+  Y        Y        N          N      N       N          N       N
+
+
+
+
+  17      18        19        20      21        22       23       24
+--------------------------------------------------------------------------
+Arezzo  Rimini  Pontassieve  Prato  Piombino  Bologna  Ferrara  Modena
+ 4,15    7,14      4,14       3,13    1,13     4,12      5,11    3,10
+   0       0        0          0       0         0        0        0
+   0       0        0          0       0         0        0        0
+   0       1        0          0       1         0        0        0
+   1       1        2          1       1         2        1        1
+   N       N        N          N       N         N        N        N
+
+
+
+
+   25        26      27     28     29      30      31      32      33
+--------------------------------------------------------------------------
+La Spezia  Mantua  Verona  Milan  Venice  Padua  Trieste  Flume  Zagreb
+  1,10      4,9     4,8     1,5    7,9     7,8    12,9    12,11   17,10
+   0         0       0       0      0       0       0       0       0
+   0         0       0       1      1       0       0       1       1
+   1         0       0       0      2       0       2       1       1
+   1         1       1       1      1       1       2       1       2
+   N         N       N       N      N       N       N       N       N
+
+
+
+
+
+
+ 34     35     36     37       38      39         40      41     42      43
+-----------------------------------------------------------------------------
+Bihac  Zara   Knin   Brod   Sibenek  Melkovic  Belgrade  Nis    Sofia  Vrattsa
+16,14  13,16  16,17  21,15  15,18     17,21     25,17    29,23  32,26   33,24
+  0     0       0      0      0         0         0        1      2       0
+  0     0       0      0      0         0         1        1      1       1
+  0     1       0      1      0         0         0        0      0       0
+  1     1       1      1      1         1         1        2      2       1
+  N     N       N      N      N         N         N        N      N       N
+
+
+
+
+  44         45         46        47       48       49      50      51
+-----------------------------------------------------------------------------
+Salonika  Turnu Sev  Bucharest  Ploesti  Brasov  Budapest  Gyor  Fishamend
+ 30,33      32,19      39,21     39,19    39,16    25,7    23,6    21,4
+   0          0          2         0        0        2       1       0
+   0          0          2         3        2        2       2       2
+   1          0          0         0        0        0       0       0
+   1          2          2         2        1        2       1       1
+   N          N          N         N        N        N       N       N
+
+
+
+  52         53       54
+----------------------------
+Vienna  Wiener Neu  Steyr
+20,4       19,4     16,3
+  2          1        1
+  2          3        2
+  0          0        0
+  2          2        1
+  N          N        N
+
+
+RADAR STATIONS
+--------------
+
+  1     2     3     4      5      6      7    8     9     10    11    12   13
+-------------------------------------------------------------------------------
+  U     U     U     U      U      U      F    F     F      F     F     F    F
+7,24  5,22  9,22  12,24  14,27  16,30  1,10  2,13  4,19  4,22  8,20  7,15  8,11
+  2     2     2     2      2      2      2     2     2     2     2     2    2
+ 41    41    41    41     41     41     41    41    41    41    41    41   41
+  6     6     6     6      6      6      5     5     5     5     5     5    5
+  2     2     2     2      2      2      2     2     2     2     2     2    2
+ 15    15    15    15     15     15     15    15    15    15    15    15   15
+  3     3     3     3      3      3      2     2     2     2     2     2    2
+  Y     Y     Y     Y      Y      Y      Y     Y     Y     Y     Y     Y    Y
+  Y     Y     Y     Y      Y      Y      N     N     N     N     N     N    N
+
+
+
+ 14    15    16     17    18     19     20
+---------------------------------------------
+9,9  11,11  16,7  14,15  14,18  17,20  38,21
+ F     F      F      F     F      F      F
+ 2     2      2      2     2      2      2
+41    41     41     41    41     41     41
+ 5     5      5      4     4      4      4
+ 2     2      2      1     1      1      1
+15    15     15     15    15     15     15
+ 2     2      2      1     1      1      1
+ Y     Y      Y      Y     Y      Y      Y
+ N     N      N      N     N      N      N
+
+
+
+SHIPPING LANES
+--------------
+
+
+  1     2     3    4      5    6      7    8     9     10    11    12    13
+-----------------------------------------------------------------------------
+  W     W     W    W      W    W      W    W     W      W     W     W     W
+0,31  1,30  2,30  3,29  4,29  5,28  6,28  6,27  6,26  5,25  4,25  3,24  3,23
+  5     5     5    5      5    5      6    6     7      6     6     6     7
+  Y     Y     Y    Y      Y    Y      Y    Y     Y      Y     Y     Y     Y
+
+
+
+ 14    15    16    17    18    19    20    21    22    23    24      25
+-----------------------------------------------------------------------------
+  W     W     W     W     W     W     W     W     W     W     E       E
+4,23  7,27  7,28  7,29  7,30  7,31  7,32  7,33  7,34  7,35  14,29  14,30
+  7     3     3     3     3     3     3     3     3     3     3       3
+  Y     Y     Y     Y     Y     Y     Y     Y     Y     Y     Y       Y
+
+
+
+  26     27     28     29     30    32    33     34    35     36     37
+-----------------------------------------------------------------------------
+   E      E      E      E      E     A     A      A     A      A      A
+14,31  14,32  14,33  14,34  14,35  9,10  10,10  11,9  10,11  10,12  11,12
+   3      2      2      2      2     2     3      3     2      1      1
+   Y      Y      Y      Y      Y     N     N      N     N      N      N
+
+
+
+
+  38     39     40     41    42     43     44     45
+--------------------------------------------------------
+   A      A      A      A     A      A      G      G
+12,12  13,11  13,12  13,13  13,14  13,15  30,34  30,35
+   2      2      1      1     1      1      2      2
+   N      N      N      N     N      N      N      N
+
+
+
+
+
+FLAK UNITS
+----------
+
+ 1     2     3     4     5     6     7      8      9     10     11     12
+---------------------------------------------------------------------------
+ I     I     I     I     I     I     I      I      I      I      I      I
+2,34  6,35  8,27  7,25  8,24  5,23  5,22  10,24  12,24  11,25  13,26  14,28
+ 8     8    16    24    72     56    48     12    16      8      8      8
+ Y     Y    Y      Y    Y      Y     Y      Y      Y      Y      Y      Y
+
+
+ 13     14     15   16   17    18    19    20    21    22    23   24    25
+----------------------------------------------------------------------------
+  I      I      I    I    I     I     I     I     I     I     I    I     I
+16,29  16,31  1,5  4,8  1,10  3,10  3,13  4,15  4,19  4,21  7,23  8,17  5,16
+  8      8      6    6   14     6    12    20    42    38    66   12     8
+  Y      Y      N    N    N     N     N     N     N     N     N    N     N
+
+
+ 26    27    28    29   30    31    32     33     34     35     36     37
+----------------------------------------------------------------------------
+  I     I     I     I    I     I     J      J      J      J      J      J
+7,14  5,11  7,9  10,7  11,7  12,9  12,11  17,10  16,14  21,15  16,17  15,18
+  6     6    22    48   44    28    12     24      6      6      8      8
+  N     N     N     N    N     N     N      N      N      N      N      N
+
+
+ 38     39     40     41     42     43     44     45     46     47     48
+----------------------------------------------------------------------------
+  I      J      J      G      B      B      R      R      R      R      H
+17,21  25,17  29,23  30,33  32,26  33,24  39,21  39,19  39,16  32,19  25,7
+  6     32     16     12     26      6     68     42     12     12     30
+  N      N      N      N      N      N      N      N      N      N      N
+
+
+ 49    50    51    52    53
+------------------------------
+  H     A     A     A     A
+23,6  21,4  20,4  19,4  16,3
+ 14    12    54    26    32
+  N     N     N     N     N
+
+
+
+
+DOCTRINE
+--------
+
+                     AXIS     ALLIED
+MISSIONS    0-15       2        7
+POP         0-7        3        1
+IND         0-7        2        6
+COM         0-7        7        6
+PORT        0-7        7        4
+AIRFIELDS   0-7        4        7
+RADAR       0-7        2        2
+SHIPPING    0-7        7        3
+SUPCOM      0-7        4        5
+C-IN-C      0-7        4        5
+GR ECM      0-7        3        5
+ORD EFF     0-3        2        3
+AA FC       0-3        2        2
+
+
+
+
+ALLIED COMMAND DETAILS
+----------------------
+
+             NAME      CURSOR   THRESHOLD  PRIORITY
+              11         0-4      0-250      0-7
+C-IN-C      TWINING       2         -         -
+COM #1        15 AF       2         -         5
+COM #2        12 AF       2         -         4
+COM #3         -          -         -         -
+COM #4         -          -         -         -
+COM #5         -          -         -         -
+
+
+AXIS COMMAND DETAILS
+--------------------
+
+             NAME         CURSOR   THRESHOLD  PRIORITY
+              11            0-4      0-250      0-7
+C-IN-C      KESSELRING       3         -         -
+COM #1      Luftflotte 1     3         -         4
+COM #2      Luftflotte 2     3         -         4
+COM #3         -             -         -         -
+COM #4         -             -         -         -
+COM #5         -             -         -         -
+
+
+START DETAILS
+-------------
+
+DATE      1-31     14
+MONTH     1-12      3
+YEAR      0-63     44
+LENGTH    1-31     17
+DAWN      3-10      6
+DUSK     15-22     18
+MOON      0-27      9
+FCAST     0-3       1
+
+
+Appendix B
+==========
+
+Airborne Radar/ECM Values (5.21)
+--------------------------------
+
+                           1939  1940  1941  1942  1943  1944  1945
+UK   RADAR (fighters) *1   4/0   6/0   6/1   6/2   6/2   7/3   7/3
+     RADAR (others)   *2    0     0     0     3     4     6     6
+     ECM (airborne)   *3    0     0     0     0     3     3     3
+US   RADAR (fighters) *1   2/0   2/0   2/0   4/0   6/2   7/3   7/3
+     RADAR (others)   *2    0     0     0     0     4     4     4
+     ECM (airborne)   *3    0     0     0     0     3     3     3
+Ge   RADAR (fighters) *1   2/0   3/0   3/1   4/2   4/3   5/4   5/4
+     RADAR (others)   *2    2     3     4     4     4     4     4
+     ECM (airborne)   *3    0     0     0     0     2     2     2
+It   RADAR (fighters) *1   1/0   1/0   2/0   3/0   3/0    -     -
+     RADAR (others)   *2    0     0     0     0     0     -     -
+     ECM (airborne)   *3    0     0     0     0     0     -     -
+
+NOTES 1. The number to the left of the slash applies to day fighters, the
+         number to the right of the slash applies to night fighters.
+      2. Target-locating radar was generally only available to medium and
+         heavy bombers.
+         UK - GEE (3), H2S (4), Oboe (6).  GEE and H2S were fitted to the
+         majority of bomber command aircraft; Oboe was fitted to specialist
+         pathfinding Mosquito aircraft.
+         US - H2X (4).  A slightly improved modification of the British H2S.
+         Ge - Knickebein (2), X - Gerat (3), Y - Gerat (4).  Unlike most Allied
+         target locating radar, German sets were not mounted in the aircraft
+         but rather beam transmissions along which the attacking aircraft
+         navigated.
+      3. The only airborne ECM available during WWII was Window (Duppel); small
+         aluminum strips which confused radar identification.  The higher
+         Allied rating is due to an additional noise jamming component.
+
+
+Appendix C
+==========
+
+Ground Radar (5.24)
+-------------------
+
+                    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                    ³        ALLIED          ³        AXIS             ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÁÄÂÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄ´
+³                   ³ '39 - '42   ³ '43 - '45  ³ '40 - '42 ³ '43 - '45 ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÂÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄ´
+³ MIN DETECTION ALT ³   5  ³   1  ³      1     ³     1     ³    5      ³
+³ MAX DETECTION ALT ³  41  ³  10  ³     41     ³    41     ³   41      ³
+³ DETECTION RANGE   ³   6  ³   3  ³      7     ³     4     ³    5      ³
+³ RELIABILITY *1    ³   2  ³   2  ³      3     ³     1     ³    2      ³
+³ 360 DEGREE SCAN   ³   N  ³   N  ³      Y     ³     Y     ³    Y      ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÙ
+
+NOTES 1. German radar sets in Axis satellite hands were usually much less
+         reliable.
+
+Ground ECM (5.9)
+----------------
+
+1939      0
+1940      2
+1941      3
+1942 +    4
+
+
+
+Appendix D
+==========
+
+Blank Design Forms
+------------------
+
+MAP AND WEATHER
+---------------
+
+(Use any 36 x 42 hex to draw your map and place here)
+
+
+
+(This area should be rectangular, due to fit in one page, so it
+ look like a square in here)
+                |
+                |
+                v
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿
+³                               ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³
+³                               ³  ³ C ³  ³  ³  ³ C ³  ³  ³  ³ C ³  ³  ³
+³                               ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³
+³                               ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³
+³                               ³  ³ W ³  ³  ³  ³ W ³  ³  ³  ³ W ³  ³  ³
+³                               ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³
+³                               ³  ÀÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ
+³                               ³  ÚÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿
+³                               ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³
+³                               ³  ³ C ³  ³  ³  ³ C ³  ³  ³  ³ C ³  ³  ³
+³                               ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³
+³                               ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³
+³                               ³  ³ W ³  ³  ³  ³ W ³  ³  ³  ³ W ³  ³  ³
+³                               ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿
+³                               ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³
+³                               ³  ³ C ³  ³  ³  ³ C ³  ³  ³  ³ C ³  ³  ³
+³                               ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³
+³                               ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³
+³                               ³  ³ W ³  ³  ³  ³ W ³  ³  ³  ³ W ³  ³  ³
+³                               ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³
+³                               ³  ÀÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ
+³                               ³  ÚÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄ¿
+³                               ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³
+³                               ³  ³ C ³  ³  ³  ³ C ³  ³  ³  ³ C ³  ³  ³
+³                               ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³
+³                               ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³  ³   ÚÄÄ¿  ³
+³                               ³  ³ W ³  ³  ³  ³ W ³  ³  ³  ³ W ³  ³  ³
+³                               ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³  ³   ÀÄÄÙ  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ  ÀÄÄÄÄÄÄÄÄÄÙ
+
+
+AXIS COMMAND DETAILS
+--------------------
+
+            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄ¿
+            ³     NAME      ³  CURSOR  ³  THRESHOLD  ³  PRIORITY  ³
+            ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+            ³     [11]      ³    0-4   ³    0-250    ³     0-7    ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  C-IN-C   ³               ³          ³:::::::::::::³::::::::::::³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #1   ³               ³          ³             ³            ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #2   ³               ³          ³             ³            ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #3   ³               ³          ³             ³            ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #4   ³               ³          ³             ³            ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #5   ³               ³          ³             ³            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ALLIED COMMAND DETAILS
+----------------------
+
+            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄ¿
+            ³     NAME      ³  CURSOR  ³  THRESHOLD  ³  PRIORITY  ³
+            ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+            ³     [11]      ³    0-4   ³    0-250    ³     0-7    ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  C-IN-C   ³               ³          ³:::::::::::::³::::::::::::³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #1   ³               ³          ³             ³            ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #2   ³               ³          ³             ³            ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #3   ³               ³          ³             ³            ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #4   ³               ³          ³             ³            ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM #5   ³               ³          ³             ³            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+(Notes: ':::::::' means not use in that field)
+
+
+DOCTRINE
+--------
+                      ÚÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                      ³   AXIS     ³   ALLIED    ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  MISSIONS  ³  0-15  ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  POP       ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  IND       ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  COM       ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  PORT      ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  AIRFIELDS ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  RADAR     ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  SHIPPING  ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  SUP COM   ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  C-IN-C    ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  GR ECM    ³  0-7   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  ORD EFF   ³  0-3   ³            ³             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  AA FC     ³  0-3   ³            ³             ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+START DETAILS
+-------------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿
+³  DATE     ³  1-31  ³          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄ´
+³  MONTH    ³  1-12  ³          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄ´
+³  YEAR     ³  0-63  ³          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄ´
+³  LENGTH   ³  1-31  ³          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄ´
+³  DAWN     ³  3-10  ³          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄ´
+³  DUSK     ³ 15-22  ³          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄ´
+³  MOON     ³  0-27  ³          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄ´
+³  F'CAST   ³  0-3   ³          ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÙ
+
+
+PLANE TYPES
+-----------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄ¿
+³  NUM      ³  1-37  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  TYPE     ³  [11]  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  ROLE     ³  0-3   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  CREW     ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  FUEL     ³  1-255 ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  PAYLOAD  ³  0-63  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  CEILING  ³ 11-41  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  MAX SPD  ³  1-41  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  OPT ALT  ³  1-31  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  CRS SPD  ³  1-31  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  CLIMB    ³  1-15  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  FIRE     ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  MAN      ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  VUL      ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  RADAR    ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  REPL     ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  ECM      ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  ALLIED   ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  NIGHT    ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÙ
+
+
+RADAR STATIONS
+--------------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄ¿
+³  NUM      ³  1-63  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  TYPE     ³  [1]   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  LOC      ³  [x,y] ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  MIN ALT  ³  1-15  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  MAX ALT  ³  1-41  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  RANGE    ³  1-8   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  REL      ³  0-3   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  DAM ST   ³  0-15  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  DAM CON  ³  0-3   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  360      ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  ALLIED   ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÙ
+
+
+SQUADRONS
+---------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄ¿
+³  NUM      ³  1-255 ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  SQD I.D. ³  [6]   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  PL TYPE  ³  1-24  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  O.E.     ³  1-31  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  I.E.     ³  1-31  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  VET      ³  1-31  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  EXP      ³  1-31  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  FAT      ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  NITE OPS ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  REC OPS  ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  NAV OPS  ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  PATHFR   ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÙ
+
+
+SHIPPING LANES
+--------------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄ¿
+³  NUM      ³  1-63  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  TYPE     ³  [1]   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  LOC      ³  [x,y] ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  DENSITY  ³  0-7   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  ALLIED   ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÙ
+
+
+AIRFIELDS
+---------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄ¿
+³  NUM      ³  1-127 ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  NAME     ³  [11]  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  LOC      ³  [x,y] ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  THEATRE  ³  1-5   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  AS. SQDS ³  [4]   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  DAM ST   ³  0-15  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  DAM CON  ³  0-3   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  SEALED   ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  ALLIED   ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÙ
+
+
+FLAK UNITS
+----------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄ¿
+³  NUM      ³  1-63  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  TYPE     ³  [1]   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  LOC      ³  [x,y] ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  AA GUNS  ³  0-255 ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  ALLIED   ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÙ
+
+
+CENTRES
+-------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄÂÄÄÄÄÄ¿
+³  NUM      ³  1-63  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  NAME     ³  [11]  ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  LOC      ³  [x,y] ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  POP      ³  0-3   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  IND      ³  0-3   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  PORT     ³  0-3   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  COMM     ³  0-3   ³     ³     ³     ³     ³     ³     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄÅÄÄÄÄÄ´
+³  ALLIED   ³  Y/N   ³     ³     ³     ³     ³     ³     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÁÄÄÄÄÄÙ
+
+
+DESIGN KIT MENU DISPLAY
+=======================
+
+MENU J             MENU 1            MENU 2           MENU 3
+------             ------            ------           ------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³   DESIGN   ³   ³   DISK     ³   ³   CLEAR    ³   ³            ³
+³            ³   ³   MENU     ³   ³  ALL DATA  ³   ³ MAP      N ³
+³ CREATE   N ³   ³            ³   ³            ³   ³            ³
+³ REBOOT   N ³   ³ EDIT     N ³   ³ MAP      N ³   ³ DATA     N ³
+³            ³   ³            ³   ³            ³   ³ REVIEW   N ³
+³ CLEAR    N ³   ³ INIT     N ³   ³ DATA     N ³   ³            ³
+³            ³   ³            ³   ³            ³   ³ W'THER   N ³
+³ DISK     N ³   ³            ³   ³            ³   ³            ³
+³            ³   ³            ³   ³            ³   ³ BRIEF    N ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+MENU 4              MENU 5           MENU 6           MENU 7
+------              ------           ------           ------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³   BRIEF    ³   ³            ³   ³   REVIEW   ³   ³            ³
+³            ³   ³            ³   ³            ³   ³            ³
+³ NAMES    N ³   ³  WEATHER   ³   ³ PLANES   N ³   ³    MAP     ³
+³ TIME     N ³   ³            ³   ³ SQUADS   N ³   ³            ³
+³ CURSOR   N ³   ³   CREATE   ³   ³ BASES    N ³   ³   CREATE   ³
+³ SCORE    N ³   ³            ³   ³ CENTRE   N ³   ³            ³
+³ DOC'NE   N ³   ³  UTILITY   ³   ³ RADAR    N ³   ³  UTILITY   ³
+³            ³   ³            ³   ³ LANES    N ³   ³            ³
+³            ³   ³            ³   ³ FLAK     N ³   ³            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+MENU 8              MENU 9           MENU 10          MENU 11
+------              ------           -------          -------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³            ³   ³            ³   ³            ³   ³            ³
+³            ³   ³            ³   ³            ³   ³            ³
+³   NAMES    ³   ³    TIME    ³   ³   CURSOR   ³   ³   SCORE    ³
+³            ³   ³            ³   ³            ³   ³            ³
+³   CREATE   ³   ³   CREATE   ³   ³   CREATE   ³   ³   CREATE   ³
+³            ³   ³            ³   ³            ³   ³            ³
+³  UTILITY   ³   ³  UTILITY   ³   ³  UTILITY   ³   ³  UTILITY   ³
+³            ³   ³            ³   ³            ³   ³            ³
+³            ³   ³            ³   ³            ³   ³            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+MENU 12             MENU 13          MENU 14          MENU 15
+-------             -------          -------          -------
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³            ³   ³    DATA    ³   ³ NUM=     1 ³   ³ NUM=     1 ³
+³            ³   ³            ³   ³            ³   ³            ³
+³  DOCTRINE  ³   ³ PLANES   N ³   ³ CLEAR    N ³   ³ CLEAR    N ³
+³            ³   ³ SQUADS   N ³   ³ LIST     N ³   ³ LIST     N ³
+³   CREATE   ³   ³ BASES    N ³   ³            ³   ³            ³
+³            ³   ³ CENTRE   N ³   ³ LOAD     N ³   ³ LOAD     N ³
+³  UTILITY   ³   ³ RADAR    N ³   ³ EDIT     N ³   ³ EDIT     N ³
+³            ³   ³ LANES    N ³   ³ SAVE     N ³   ³ SAVE     N ³
+³            ³   ³ FLAK     N ³   ³            ³   ³            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+MENU 16             MENU 17          MENU 18          MENU 19
+-------             -------          -------          -------
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿   ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ NUM=     1 ³   ³ NUM=     1 ³   ³ NUM=     1 ³   ³ NUM=     1 ³
+³            ³   ³            ³   ³            ³   ³            ³
+³ CLEAR    N ³   ³ CLEAR    N ³   ³ CLEAR    N ³   ³ CLEAR    N ³
+³ LIST     N ³   ³ LIST     N ³   ³ LIST     N ³   ³ LIST     N ³
+³ LOAD     N ³   ³ LOAD     N ³   ³ LOAD     N ³   ³ LOAD     N ³
+³ EDIT     N ³   ³ EDIT     N ³   ³ EDIT     N ³   ³ EDIT     N ³
+³ SAVE     N ³   ³ SAVE     N ³   ³ SAVE     N ³   ³ SAVE     N ³
+³ MAP      N ³   ³ MAP      N ³   ³ MAP      N ³   ³ MAP      N ³
+³            ³   ³            ³   ³            ³   ³            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ   ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+MENU 20
+-------
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ NUM=     1 ³
+³            ³
+³ CLEAR    N ³
+³ LIST     N ³
+³ LOAD     N ³
+³ EDIT     N ³
+³ SAVE     N ³
+³ MAP      N ³
+³            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+INDEX TO DESIGN MENUS
+=====================
+
+1.  DISK EDIT UTILITY
+2.  CLEAR SELECT
+3.  DESIGN SELECT
+4.  BRIEFING SELECT
+5.  WEATHER UTILITY
+6.  REVIEW UTILITY
+7.  MAP UTILITY
+8.  NAMES UTILITY
+9.  TIME UTILITY
+10. CURSOR UTILITY
+11. SCORE UTILITY
+12. DOCTRINE UTILITY
+13. DATA SELECT
+14. PLANE CLASS EDIT
+15. SQUADRON EDIT
+16. FLAK UNIT EDIT
+17. SEA LANE EDIT
+18. RADAR EDIT
+19. CENTRE EDIT
+20. AIRFIELD EDIT
+
+
+KEY SUMMARY
+===========
+
+To cycle within a menu, type (RET).
+To select from a menu, type (Y)(RET).
+To edit a menu, type (RET) to locate entry line then (#)(RET) or (Y/N)(RET).
+To go back to the previous menu, type (ESC)[(f1) on C-64)].
+To move the cursor on the strategic map, use the I,J,K,M keys.
+To move the cursor on the tactical map, use the 1-6 keys.
+
+
+BIBLIOGRAPHY
+============
+
+ANGELUCCI, ENZO.  The Rand McNally Encyclopedia of Military Aircraft
+                  1914-1980.  The Military Press, New York 1981.
+ASHWORTH, CHRIS.  Action Stations 5. Military Airfields of the South-West.
+                  Patrick Stephens, Cambridge, 1982.
+BIRDSALL, STEVE.  B-26 Marauder in Action. Squadron Signal, Carrollton, Texas,
+                  1981.
+BOWYER, MICHAEL J.F.  Action Stations 1. Wartime Military Airfields of East
+                      Anglia 1939-1945. Patrick Stephens, Cambridge, 1979.
+____________________  Action Stations 6. Military Airfields of the Cotwolds
+                      and the Central Midlands. Patrick Stephens, Cambridge,
+                      1988.
+____________________  Intercepter Fighters for the Royal Air Force 1939-45.
+                      Patrick Stephens, Cambridge, 1984.
+CHRISTY, JOE & JEFF ETHELL  P-40 Hawks at War. Ian Allan, London 1979.
+DAVIS LARRY.  B-17 in Action. Squadron Signal, Carrollton, Texas, 1984.
+ESPOSITO, VINCENT J. (ed.)  The West Point Atlas of the American Wars. Vol II
+                            1900-1953. Praeger, New York 1972.
+HALPENNY, BRUCE BARRYMORE.  Action Stations 2. Military Airfields of
+                            Lincolnshire and the East Midlands. Patrick
+                            Stephens, Cambridge, 1981.
+____________________  Action Stations 4. Military Airfields of Yorkshire.
+                      Patrick Stephens, Cambridge, 1982.
+____________________  Action Stations 8. Military Airfields of Greater London.
+                      Patrick Stephens, Cambridge, 1984.
+HASTINGS, MAX.  Bomber Command. Michael Joseph, London, 1979.
+HELD, WERNER & HOLGERNAUROTH.  The Defence of the Reich. Arms and Armour Press,
+                               London, 1982.
+HESS, WILLIAM N.  A-20 Boston at War. Ian Allan, London, 1979.
+JONES, LLOYD S.  US Bombers 1928-1980's. Aero, Fallbrook, 1980.
+McDOWELL, ERNEST R.  B-25 Mitchell in Action. Squadron Signal, Carrollton,
+                     Texas, 1978.
+MENDENHALL, CHARLES A.  Deadly Duo.  The B-25 and B-26 in World War II.
+                        speciality Press, Osceola, 1981.
+MESKO, JIM.  A-20 Havoc in Action. Squadron Signal, Carrollton, Texas, 1983.
+MESSENGER, CHARLES.  'Bomber' Harris and the Strategic Bombing Offensive,
+                     1939-1945. Arms and Armour Press, London, 1984.
+MOYES, PHILIP.  Bomber Squadrons of the RAF and their Aircraft MacDonald and
+                Jane's, London, 1976.
+MUNSON, KENNETH.  American Aircraft of World War 2, Blandford, Poole, 1982.
+MUSGROVE, GORDON.  Operation Gomorrah The Hamburg Firestorm Raids. Jane's,
+                   London, 1981.
+PHILPOTT, BRYAN.  RAF Fighter Units Europe 1942-45, Osprey, London, 1978.
+________________  RAF Bomber Units 1942-1945. Osprey, London, 1978.
+PRICE,ALFRED.  Instruments of Darkness. Macdonald and Jane's, London, 1977.
+PROBERT, H.A. (et al).  The Rise and Fall of the German Air Force 1933-1945.
+                        Arms and Armour Press, London, 1983.
+RAWLINGS, JOHN.  Fighter Squadrons of the RAF and their Aircraft.  MacDonald
+                 and Jane's, London, 1975.
+RUST, KENN C.  Ninth Air Force Story.  Historical Aviation Album, Temple City,
+               Calif, 1982.
+_____________  Eighth Air Force Story. Historical Aviation Album, Temple City,
+               Calif, 1983.
+_____________  The 9th Air Force in World War II. Aero, Fallbrook, 1970.
+SCUTTS, JERRY.  B-25 Mitchell at War.  Ian Allan, London, 1983.
+_____________  USAAF Heavy Bomber Units ETO & MTO 1942-45. osprey, London,1977.
+_____________  Luftwaffe Fighter Units Europe 1939-41. Osprey, London, 1977.
+_____________  Luftwaffe Bomber Units 1939-41. Osprey, London, 1978.
+SHORES, CHRISTOPHER.  USAAF Fighter Units MTO 1942-1945.  Osprey, London, 1978.
+_____________  Luftwaffe Fighter Units Europe 1942-45. Osprey, London, 1979.
+_____________  Luftwaffe Fighter Units Russia 1941-45. Osprey, London, 1978.
+SMITH, DAVID J.  Action Stations 3.  Military Airfields of Wales and the North-
+                 West. Patrick Stephens, Cambridge, 1981.
+_____________  Action Stations 7. Military Airfields of Scotland, the North-
+               East and Northern Ireland.  Patrick Stephens, Cambridge, 1983.
+SMITH, J.R. & ANTONY KAY,  German Aircraft of the Second World War. Putnam,
+                           London, 1972.
+STAFFORD, GENE B.  P-38 Lightning in Action. Squadron Signal, Carrollton,
+                   Texas, 1976.
+van ISOVEN, ARMAND.  The Luftwaffe in the Battle of Britian.  Ian Allan,
+                     London, 1980.
+WAGNER, RAY AND HEINZ NOWARRA.  German Combat Planes.  Doubleday, New York,
+                                1971.
+WEAL. ELKE C. (et al)  Combat Aircraft of World War Two.  Arms and Armour
+                       Press, London, 1977.
+WOOD, DEREK.  Attack Warning Red.  MacDonald and Jane's, London, 1976.
+_____________  Target England. Jane's, London, 1980.
+
+
+
+

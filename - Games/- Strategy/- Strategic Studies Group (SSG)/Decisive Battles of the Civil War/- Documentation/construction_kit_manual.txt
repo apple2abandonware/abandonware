@@ -1,0 +1,811 @@
+DECISIVE BATTLES OF THE CIVIL WAR
+Strategic Studies Group (SSG)
+CONSTRUCTION KIT MANUAL
+
+1. INTRODUCTION
+The  following  notes  are  meant as a  guide  to  WarPlan.  The
+information they contain will also provide some insights into how
+the  game  works, and should be read at some stage  even  if  you
+never construct your own scenarios.
+Varying  an existing scenario is fairly straight-forward and  the
+easiest  way  to  get  the most out of  your  game.  All  of  the
+scenarios in the game come with suggested variations which can be
+easily implemented. However, designing an original scenario  will
+require a reasonable degree of familiarity with the game itself.
+We  publish  complete  scenarios for the  Decisive  Battles  Game
+System  in  our  magazine Run 5. The magazine  contains  all  the
+information required to create entirely new games using  WarPlan
+and  WarPaint.  For details on Run 5 magazine,  please  contact
+Strategic Studies Group (SSG).
+
+2. USING THE DESIGN MENUS
+The  data card contains a schematic display of the design  menus.
+They  operate  in the same way as the Game Menus  that  you  have
+already used.
+You  cannot  make changes to the historical scenarios themselves;
+rather you must save the scenario onto a save game disk and  then
+edit   the  data.  This  is  to  prevent  you  from  accidentally
+corrupting the historical scenarios. Nor can you edit a  game  in
+progress. Only scenarios with a game turn number of zero  may  be
+edited.
+
+3. PREPARING A DISK
+Whether  making a variation to an historical scenario or creating
+an  original  scenario, the procedure for preparing a  save  game
+disk is essentially the same. Examine the Start and Design menus.
+If  you  have  not formatted a Decisive Battles save  game  disk,
+prepare  one using the procedure given in Chapter 3 of  the  Game
+Routines.
+When  making  a  change  to an historical  scenario,  select  the
+<CREATE> line from Menu A and type (RET) to obtain Menu B.
+If  the  template which is providing the source for the variation
+is on a scenario disk, select the <SCENARIO> line and type (RET).
+Select  the  chosen  scenario from  Menu  C.  The  computer  will
+automatically process you through to Menu J (Create Master).
+If  the  template which is providing the source for the variation
+is  on  a save game disk, select the <DISK> line and type  (RET).
+Load   the   chosen  file  from  Menu  D.   The   computer   will
+automatically process you through to Menu J (Create Master).
+Use  WarPlan and WarPaint to make whatever changes you wish  to
+the data and then come back to Menu J.
+Select  the <DISK> line to go to Menu D. Select the <SAVE>  line.
+Locate  the desired save location in the catalog with  the  arrow
+keys  and then type (RET). You will be offered an opportunity  to
+enter  a comment. Use it if you wish, otherwise select the  <SAVE
+GAME> line and type (RET).
+IBM  users can store scenario and save games in the same catalog.
+Thus, there is no Menu D in the IBM routines.
+When  you  wish to create an original scenario, repeat the  above
+procedure but before entering data use the <CLEAR> line in Menu J
+to erase the data bases.
+
+4. THE WARPLAN DESIGN MENUS
+This  section  describes the various menus in  WarPlan  together
+with explanations of their functions. The order in which they are
+presented represents a convenient sequence for the creation of  a
+new  scenario. Once you completed your new scenario,  we  suggest
+you  run it through in <OBSERVE> mode several times to fine  tune
+the  game balance. To assist with this process, type Cntl (F)  at
+any time to enter the fast resolution mode.
+(a). MAP DATA (Menu 5)
+(i). Map Size/Info (Menu 6)
+The map size in Decisive Battles is variable. Each map element is
+9  hexes  wide by 9 hexes deep. There may be up to three elements
+across and three down. Thus, the maximum size of a battlefield is
+27  by 27 hexes. At a suggested ground scale of 300-500 yards per
+hex,  this represents an area somewhere between 20 and 60  square
+miles.
+In  creating  a  scenario, map size must be set  before  anything
+else.  Select the smallest map size that can comfortably  support
+the  action  you wish to represent. Apart from being  less  work,
+smaller maps will mean faster games.
+The  top  left sector should always be set to 0. Set  the  bottom
+right sector variable to the appropriate value. To make a 9  x  9
+grid  (i.e. a 1 sector map), set the bottom right sector variable
+to 0!
+IBM  users can choose colours for river, coast-line and  map-edge
+hex-sides. Road and cursor colours are also selectable.
+(ii). Define Terrain (Menu 7)
+There  are  thirty-two (32) terrain shapes in  Decisive  Battles.
+Each shape can be completely redrawn using our powerful WarPaint
+graphics  editor.  The names and sighting,  movement,  cover  and
+fortification effects of each terrain type are defined  here.  It
+is possible to represent the ground conditions of any battlefield
+by  judicious  use  of names and effects. Use the  (RET)  key  to
+advance the cursor through the screen.
+Examine  any (or all) of the game scenarios and the blank  design
+form in Appendix A.
+For  each  terrain shape you wish to use, enter a 1-11  character
+name.
+The  sighting  value represents the ease of visibility  into  and
+through  the  hex.  A  value  of 0 specifies  that  there  is  no
+impediment to visibility; i.e. the hex is easy to see through.  A
+value  of  15  specifies  that the line of  sight  is  completely
+blocked. Values of 8-15 will create super dense terrain  and  may
+result in adjacent units being unable to see each other.
+The  movement  value of a hex specifies how many movement  points
+each  unit  must  expend  when traversing  it.  Units  in  column
+formation  will pay only 1 MP when using visible roads no  matter
+what  terrain type is underneath. Hidden roads do not affect  the
+movement value of a hex. Note that terrain types with an MP value
+of 0 prohibit entry for any unit.
+The terrain symbol along the top of the screen corresponds to the
+line currently being edited by the cursor.
+The  cover  value  of  a  hex  measures  the  extent  of  natural
+protection  from enemy attack provided by the terrain type.  This
+does  not include any man-made structures. A value of 0 specifies
+that there is little or no protection afforded to units occupying
+the  hex. A value of 7 indicates tremendous protection. Note that
+brigades defending hexes with high natural cover values may  have
+more  difficulty  in bringing fire to bear on the  enemy  than  a
+brigade  in  more  open terrain. Assaults launched  from  heavily
+covered  hexes are less effective than assaults from open ground.
+There  is a balance to be struck . Brigades assaulting from  open
+terrain  will suffer more severely than brigades assaulting  from
+heavily covered terrain.
+The  fortification  value measures the extent of  man-made  rifle
+pits,  breastworks and basic field defences in a given hex  type.
+We  have  allowed  the use of 31 hex types to  ensure  there  are
+enough  to  construct  detailed field  defences.  A  value  of  7
+specifies the extensive development of field defences. A value of
+0  specifies none. A separate entry should be used for North  and
+South fortifications.
+By  examining  the terrain data bases in each of  the  historical
+scenarios, you can quickly see how to implement these  values  in
+your  own designs. Field defence construction became an ever more
+important battlefield tactic to both sides as the war progressed.
+The  Confederacy,  particularly, excelled in the  preparation  of
+complex and deadly entrenchments.
+In many instances, you will note several hex shapes with the same
+name  and  effect values. The large number of hex types available
+has  allowed us to customise terrain features to produce  a  more
+aesthetically pleasing battlefield.
+(iii). Map Create Utility (Menu 8)
+It's  probably  a  good  idea to make a  draft  version  of  your
+battlefield before completing the rest of the map data.  However,
+we  strongly advise you not to edit the map screen until all  the
+information  in Menus 6 and 7 has been compiled and entered  into
+the  program. IBM users should read the note at the end  of  this
+section.
+A  9 x 9 hex section of the map will appear with a white, hollow,
+flashing cursor. In the top right of the screen you will find the
+hex  co-ordinate of the cursor's current location. In the  bottom
+right  of  the  screen you will see the terrain  name,  the  icon
+corresponding to the name, the relative position of the cursor in
+relation to the whole map and the icon identifying the side which
+controls  the hex.  If the hex has been defined as an  objective,
+the name appears immediately above the terrain name.
+There  are  32 terrain types which can be entered. River,  bridge
+and ford hex-sides can be entered. Roads can be added to a hex  .
+Every hex must be identified as North or South controlled.
+The  I,J,K,M  and  1-6  keys  will move  the  cursor  around  the
+battlefield. Type (0) centre the screen on the cursor.
+IBM  users can use the f1 - f9 function keys to select sequential
+9x9  sectors of the map; i.e. f1 selects the top left sector,  f9
+selects the bottom right sector.
+To create a terrain type in a hex, type (T)(n) where n = a number
+between  0 and 31. Please see the blank terrain effects chart  in
+Appendix A. Note that terrain types T1-T3 require you to type (T)
+(n)  (SPACE).  This  is  to distinguish them  from  double  digit
+terrain types which use 1-3 as the first number. Terrain types T0
+and T1(SPACE) are water hexes. T0 cannot be entered by any units.
+T1(SPACE)  can be entered by all units and is therefore  suitable
+as  a  bridge, ferry, ford or pontoon link across a wide body  of
+water.  Terrain types T2(SPACE)-T31 can be entered  by  all  unit
+types  and it is these types which make up the land component  of
+the battlefield.
+The road structure needs some explanation. There are two types of
+roads; functional roads and cosmetic roads. Functional roads  are
+those used by the movement routines to march columns of men  long
+distances. Cosmetic roads are those which end in dead  ends,  the
+map  edge  or  anywhere which could confuse the computer.  Use  a
+cosmetic road if you don't want the computer to treat the hex  as
+a road when moving troops in column or determining march routes.
+Units using either type of road pay 1 MP per road hex entered. To
+add a functional road to a hex, type (R) while the cursor is over
+the  hex.  Type (R) again to remove the road. To add  a  cosmetic
+road  to  a hex, type (C) while the cursor is over the hex.  Type
+(C) again to remove the cosmetic road.
+Functional roads are one of two types; normal or hidden. Type (R)
+(X)  to  specify a hidden road. The road icon is  masked  by  the
+terrain  icon and any units using the road will pay the  movement
+value of the terrain in the hex.
+The movement routines will nonetheless use hidden roads as though
+they  were normal roads when determining march routes and  column
+movement.  This  technique is suited  for  picking  out  a  track
+through  dense terrain where placing a normal road  would  confer
+too great an advantage on the user. Type (X) again to convert the
+hidden road back to a normal road.
+To  create a river hex-side, you must type three keys. The  first
+is  (S).  This  identifies a hex-side. The  second  is  a  number
+between 1 and 3. This identifies north, north-eastern and  south-
+eastern  hex-sides respectively. Note that the south hex-side  of
+one  hex is the north hex-side of the hex directly below  it.  In
+this  way, all 6 hex-sides can be edited. The third is  a  number
+between 1 and 3. (1) identifies a river. (2) identifies a bridge.
+(3) identifies a ford.
+Type  (S0)  to clear all hex-sides from a particular hex.  Rivers
+cannot  be  crossed except at fords or bridges. The  presence  of
+small streams can be accounted for in the terrain types.
+Unlike our previous design kits, cities are created by using  the
+terrain types; they are not a separate flag.
+To set control of a hex to North or South, type (RET) to bring up
+the   map  menu  and  select  <SET  NORTH>  or  <SET  SOUTH>   as
+appropriate. All hexes, except T0s, will have their terrain  icon
+replaced by the North or South control icon. As the cursor moves,
+it will leave a trail of the appropriate control icons behind it.
+To change control, type (RET) to bring up the map menu and select
+<RESET  ALL>.  You  are back at square one  and  can  repeat  the
+procedure using the other control icon. When editing hex  control
+from scratch, the default value is South.
+For  convenience, you can set the cursor to automatically produce
+a  terrain shape. With the cursor flashing on the chosen terrain,
+type  (RET).  This  brings up the map menu on the  right  of  the
+screen.  Selecting  <SET  SHAPE> from this  menu  will  lock  the
+current terrain shape to the cursor. You may now move the  cursor
+and  the  selected shape will be created wherever the  cursor  is
+moved.  Type (RET) again to go back to the menu and select <RESET
+ALL> to turn off the shape.
+We  suggest you keep the map size as small as possible  for  your
+first original scenario.
+All maps are compromises between the actuality of the terrain and
+its  representation.  Do  not feel afraid  to  be  creative  with
+terrain to make the map work properly within the game system.
+Important Note for IBM Users. If your IBM supports an EGA or  VGA
+card  and you have a colour monitor, you will be able to use  our
+"full-map" graphics. There are a few changes you need to be aware
+of  when you are building a new map. There are up to 250 full map
+icons  which  can be used to create the map. However,  there  are
+still  only 32 different terrain types. In other words,  the  new
+graphics are purely an overlay covering the basic terrain shapes.
+What  you  must do is first create a map using the basic graphics
+(i.e.  go  to DOS and re-enter the program, disabling the  "full-
+map"  graphics). For example, the Decisive Battles Vol I game  is
+usually  started with the command db1. To start  up  without  the
+"full map" graphics, use the command db1 f.
+Build  up the map using the standard graphics and save as normal.
+Return  to DOS and restart with the "full-map" graphics  enabled.
+You  can  now go to the WarPaint routines and prepare brilliant,
+16 colour terrain shapes and unit icons.
+These  icons  are  stored  in a .lbm file  and  are  DPAINT2  (c
+Electronic Arts) compatible. Note that when you place these full-
+map  hexes  on the map, the original terrain type and  name  will
+remain in the lower right of the screen.
+Finally.  Issue  14 of our Run 5 magazine contains  an  extensive
+article on the use of "full map" graphics.
+
+(b). UNIT DATA (Menu 9)
+(i). Limits (Menu 10)
+The  limits  menu  is  used to divide the available  unit  blanks
+between  the North and South. Select <FORCES> and by  typing  the
+(RET)  key repeatedly you will see there are three values  to  be
+entered.
+There  are a maximum of 15 Corps which may be created.  When  you
+type  a  number  into  the <CORPS> line you  are  allocating  the
+available  Corps  between  the North  and  South.  The  South  is
+allocated  a  number  of Corps equal to 1 less  than  the  number
+entered. For example, if you type (8) the South will be allowed a
+maximum  of 7 Corps. This number appears in the <max>  column  of
+the Southern Corps line.
+The procedure for allocating divisions and brigades is identical.
+For  example, a value of 19 in the division line would mean  that
+the Rebs could use a maximum of 18 divisions, the Union 21.
+We have chosen this way of unit allocation so that we can produce
+the largest possible force pool in the smallest amount of memory.
+Note  that  the value range displayed to the left  of  the  North
+forces shows the current, legitimate range for each entry.
+(ii). Weapons (Menu 13)
+Examine  the blank weapons roster in Appendix A. If the  scenario
+you  are  preparing is set in the American Civil  War,  then  the
+weapons roster used in all of the historical scenarios should  be
+more than adequate. Otherwise, you will have to make your own.
+There  are  31 possible weapon types you may use. These  must  be
+divided  between artillery types and small arms types.  You  will
+have already used Menu 10 (Define Limits) to select the number of
+each type you require.
+Artillery
+To create an artillery type, complete the following steps.
+I.D. Enter a 1-11 character name to identify the artillery type.
+RANGE.  Enter  a  value between 0 and 5. This  is  the  effective
+range, measured in hexes, of the artillery type. For example,  in
+a  scenario  where  the  ground scale is  500  yards/hex,  a  6pd
+smoothbore would have an effective range of 2 hexes.
+RATE  OF FIRE. Enter a value between 0 and 7. This value measures
+the reliability, ease of use and rate of fire of a gun.
+EFFECTIVENESS. Enter a value between 0 and 7. This value measures
+the performance of the gun at close range; i.e. the effectiveness
+of its fire into an adjacent hex.
+PENETRATION.  Enter a value between 0 and 7. This value  measures
+the fall-off in performance as the range of the gun increases.  A
+value  of 0 means that the gun has little effect beyond the first
+hex.  A  value  of  7  means that the gun  retains  much  of  its
+effectiveness at its maximum range.
+Small Arms
+To create a small arms type, complete the following steps.
+I.D. Enter a 1-11 character name to identify the small arms type.
+RANGE.  Enter a value of 0 or 1. A value of 0 indicates that  the
+small  arms  type  is  primarily for melee  use.  A  value  of  1
+indicates  that  the  small arms type is primarily  a  projectile
+weapon.  Troops  armed  with both melee  and  projectile  weapons
+should be assigned a value corresponding to their primary type.
+FIRE  EFFECT.  Enter a value between 0 and 7.  This  value  is  a
+quantitative  measure of the firepower  delivered  by  the  small
+arms type.
+MELEE  EFFECT.  Enter a value between 0 and 7. This  value  is  a
+quantitative measure of the melee performance of the  small  arms
+type.
+For  example, Civil War cavalrymen used firearms for  skirmishing
+but  switched  to  sabres on the occasion of a charge.  The  fire
+effect of the pistol should be 1 or 2 while the melee effect of a
+sabre  in  the hands of a mounted cavalryman should be  5  or  6.
+However,  Civil War cavalrymen were not primarily employed  in  a
+charging role so the range should be set at 1.
+(iii). Forces (Menus 11)
+Examine  the  blank force rosters in Appendix  A.  One  of  these
+should be prepared for each formation in the game. Do not attempt
+to edit the screen until these rosters have been completed.
+The  most  important thing to note about troop  creation  in  the
+Decisive  Battles System is that there is no fixed organisational
+structure. For example, brigades may be attached to divisions, or
+corps, or even directly to the Army HQ. Such a flexible structure
+is  the  best way to reflect the operational employment of troops
+in the nineteenth century.
+Army HQs
+COMMANDER. Enter a 1-11 character name to identify the  commander
+of the Army.
+SECOND IC. Enter a 1-11 character name to identify the second  in
+command  of the Army. This variable should only be used  where  a
+second in command was officially appointed such as Beauregard  at
+Shiloh.  A  2IC  will  reduce the adverse  effects  of  a  C-in-C
+casualty.
+HQ  I.D.  Enter one or two 1-11 character names to  identify  the
+Army.
+LOCATION. Enter the x, y map co-ordinates of the Army HQ's  start
+or arrival hex.
+ARRIVAL.  Enter a number between 0 and 95. This is the turn  that
+the  Army HQ will arrive on the map. An arrival number of 0 means
+the  HQ begins the game deployed on the map. A human player  will
+have  no  control over his subordinates until the Army HQ appears
+on the map.
+OFFENCE  #1.  Enter  a  value between 0 and  23.  A  value  of  0
+specifies  that there is no offensive objective; any other  value
+identifies the chosen objective. Only enemy controlled objectives
+should be chosen.
+OFFENCE  #2. Enter a value between 0 and 23. As above. A computer
+Army commander will attempt to capture the first objective before
+moving on to the second objective.
+DEFENCE  #1.  Enter  a  value between 0 and  23.  A  value  of  0
+specifies  that there is no defensive objective; any other  value
+identifies  the chosen objective. Friendly controlled  objectives
+must be chosen.
+DEFENCE  #2. Enter a value between 0 and 23. As above. A computer
+Army commander will defend both objectives, giving preference, if
+necessary, to the first defensive objective.
+HQ  MOVEMENT. Enter a value between 0 and 15. It is the number of
+movement points the Army HQ has available each turn to move  over
+the  map. The value should reflect the vigour shown by the Army's
+commander throughout the battle. The value should also be related
+to  the  movement allowances of other troops and to  the  terrain
+effects.  In  general, an Army HQ should have a  higher  movement
+allowance than a Corps HQ.
+STAFF.  Enter a value between 0 and 7. This value is a subjective
+evaluation of the amount of preparation the Army HQ has done  for
+the  battle.  Factors  which  are included  in  this  rating  are
+battlefield  familiarity  (recon),  extent  and  detail  of   the
+briefings given to subordinates, staff experience and the overall
+confidence of the army in its commander.
+STRENGTH.  Enter  a  value between 0 and  7.  This  value  simply
+describes the size of the provost guard accompanying the Army HQ.
+The units are 100s of men. It is not suitable for offensive use.
+LEADERSHIP.  Enter a value between 0 and 7. This  value  is  only
+used  when  the computer is placed in command of an  Army.  Human
+commanders must rely upon their own judgement and intuition  when
+issuing  orders  to subordinates. You can expect a  much  tougher
+battle from a commander with a high leadership value than from  a
+lowly rated duffer.
+Corps HQs
+ARMY  HQ  I.D. Enter 1-9 character name to identify the Corps  or
+its commander.
+LOCATION. Enter the x, y map co-ordinates of the Corps HQ's start
+or arrival hex.
+CORPS  TYPE.  Enter a value of 0 or 1. A value of 0 specifies  an
+infantry corps; a value of 1 specifies a cavalry corps.
+ARRIVAL.  Enter a number between 0 and 95. This is the turn  that
+the Corps HQ will arrive on the map. An arrival number of 0 means
+the  HQ begins the game deployed on the map. You will not be able
+to issue commands to the subordinates of a particular corps until
+that corps' HQ has entered the map. Brigades belonging to a Corps
+not yet on the map may be directed by the Army commander provided
+they are within the four hex immediate command range.
+ORDERS.  Enter  a  number between 0 and 2. 0  =  offensive,  1  =
+defensive, 2 = reserve. A Corps formation must have an  offensive
+order  to move on an enemy controlled objective or to issue  such
+an  objective to a division HQ under its control. A Corps with an
+offensive order may select two objectives, the first defines  the
+route of march to the final destination.
+A  Corps with a defensive order may move, or issue such an  order
+to  a  subordinate  division HQ, only to  a  friendly  controlled
+objective.  Only one objective can be given to  a  corps  with  a
+defensive order. A Corps with a reserve order will hold in place,
+awaiting  further orders. A Corps with a reserve order  will  not
+pay  any  attention to an objective. Note that the Army commander
+can  change  these orders as soon as the Corps  HQ  comes  within
+communication range. The primary function of these orders  is  to
+make  sure that newly arriving troops do not mill about aimlessly
+but move sensibly into battle.
+OBJECTIVE  #1.  Enter a value between 0 and 23.   A  value  of  0
+specifies  no objective; any other value identifies a  particular
+objective. The previous paragraph describes their purpose.
+OBJECTIVE #2. Enter a value between 0 and 23.  As above.
+HQ  MOVEMENT. Enter a value between 0 and 15. It is the number of
+movement points the Corps HQ has available each turn to move over
+the  map. The value should reflect the vigour shown by the Corps'
+commander throughout the battle. The value should also be related
+to  the  movement allowances of other troops and to  the  terrain
+effects.  In  general,  Corps  HQs  should  have  more  MPs  than
+subordinate brigades of the same type.
+DAILY  COMMITMENT.  This  value is used  only  by  computer  army
+commanders. For any particular day of a battle, a corps commander
+can  be  specified as being completely out of communication.  The
+army  commander  will not be able to issue orders  to  the  corps
+commander.  An  example  of where this feature  is  used  is  the
+Chattanooga scenario. Thomas, one of Grant's corps commanders, is
+a  very capable officer. However, on the first day of the battle,
+Grant  wanted  Thomas to remain on the defensive while  Sherman's
+and  Hooker's troops moved into position. For a human  commander,
+implementing this plan is no problem. For the computer, it's  not
+so  easy. The Union is on the offensive on the first day and thus
+the  first time a computer controlled Grant gets in contact  with
+Thomas,  he  will be given an offensive command.  By  using  this
+value  to put Thomas out of communication with Grant on the first
+day  of  the battle, the computer can properly implement  Grant's
+historical plan. Enter 0 if this feature is not to be used by the
+corps.  Enter 1 if the corps is to be isolated on the  first  day
+only,  enter 2 if the corps is to be isolated on the  second  day
+only,  enter  3 if the corps is to be isolated on the  first  and
+second  days only, enter 4 if the corps is to be isolated on  the
+third  day  only, enter 5 if the corps is to be isolated  on  the
+first and third days only... etc; i.e day 1 =1, day 2 = 2, day  3
+=  4  and day 4 = 8. If the corps is to be isolated for more than
+one day, add the value for those days together.
+LEADERSHIP.  Enter a value between 0 and 7. This  value  measures
+the   experience,  confidence  and  determination  of  the  Corps
+commander. It is especially important when the Corps HQ is not in
+communication  with  its  Army  HQ  and  must  rely  on  its  own
+initiative to get things moving.
+STAFF.  Enter a value between 0 and 7. This value is a subjective
+evaluation  of  the amount of preparation the Corps  HQ  and  its
+commander have done for the battle. Factors which are included in
+this  rating  are  battlefield familiarity  (recon),  extent  and
+detail  of  the briefings given to subordinates, staff experience
+and  the overall confidence of the corps in its commander.  These
+are the same criteria used to rate the Army staff values.
+STRENGTH.  Enter  a  value between 0 and  7.  This  value  simply
+describes  the size of the provost guard accompanying  the  Corps
+HQ.  The  units are 100s of men. It is not suitable for offensive
+use.
+LIKELIHOOD.  Enter a value between 0 and 7. This  value  measures
+the  likelihood of a Corps HQ appearing on its start  or  arrival
+hex  at the scheduled time. A value of 7 means that the Corps  HQ
+is  certain to arrive. HQs or brigades on the same side with  the
+same  likelihood  value will be delayed by  the  same  number  of
+turns. Units with values of 4 or less may not arrive at all.
+
+Division HQs
+DIVISION  HQ  I.D.  Enter  1-9 character  name  to  identify  the
+Division or its commander.
+CORPS.  Enter a number between 0 and 15. This number defines  the
+place  the division will occupy in the order of battle. An  entry
+of  0  places the division directly under the command of the Army
+HQ. An entry of 1-15 places the division under the command of the
+Corps HQ identified by that number.
+DIVISION   TYPE. Enter a value of 0 or 1. A value of 0  specifies
+an  infantry division; a value of 1 specifies a cavalry division.
+Mounted  infantry  divisions should  be  classified  as  infantry
+divisions  for  this  purpose. You  should  not  place  artillery
+brigades  in  divisions but rather attach them to Corps  or  Army
+HQs. Division artillery should be distributed among the component
+brigades.
+ORDERS.  Enter  a  number between 0 and 2. 0  =  offensive,  1  =
+defensive,  2 = reserve. A division must have an offensive  order
+to  move  on  an enemy controlled objective. A division  with  an
+offensive order may select two objectives, the first defines  the
+route  of  march  to  the final destination. A  division  with  a
+defensive order may move only to a friendly controlled objective.
+Only  one  objective can be given to a division with a  defensive
+order.  A  division  with a reserve order  will  hold  in  place,
+awaiting further orders. A division with a reserve order will not
+pay  any attention to an objective. Note that the Army commander,
+or  the  Corps commander, can change these orders as soon as  the
+division  comes within communication range. The primary  function
+of these orders is to make sure that newly arriving troops do not
+mill about aimlessly but move sensibly into battle.
+OBJECTIVE  #1.  Enter a value between 0 and 23.   A  value  of  0
+specifies  no objective; any other value identifies a  particular
+objective. The previous paragraph describes their purpose.
+OBJECTIVE #2. Enter a value between 0 and 23.  As above.
+LEADERSHIP.  Enter a value between 0 and 7. This  value  measures
+the  experience,  confidence and determination  of  the  division
+commander. It is especially important when the Division HQ is not
+in  communication with its superior HQ and must rely on  its  own
+initiative to get things moving.
+STAFF.  Enter a value between 0 and 7. This value is a subjective
+evaluation of the amount of preparation the Division HQ  and  its
+commander have done for the battle. Factors which are included in
+this  rating  are  battlefield familiarity  (recon),  extent  and
+detail  of  the briefings given to subordinates, staff experience
+and  the  overall  confidence of the division in  its  commander.
+These are the same criteria used to rate the Army and Corps staff
+values.
+Brigades
+BRIGADE  I.D. Enter a 1-3 character name to identify the  brigade
+or its commander. IBM users can enter a 1-9 character name.
+UNIT SIZE (IBM Only). Enter a 1-3 character name to identify  the
+size  of  the  unit; e. g. Bde, Rgt, Bn or Bty. This is  cosmetic
+only and appears on the unit roster in the IBM version.
+LOCATION. Enter the x, y map co-ordinates of the brigade's  start
+or arrival hex.
+CORPS.  Enter a number between 0 and 15. This number helps define
+the  place  the  brigade will occupy in the order of  battle.  An
+entry  of  1-15 places the brigade directly under the command  of
+the  Corps HQ identified by that number. An entry of 0 means that
+the  brigade is not under the command of any of the corps in  the
+game.
+DIVISION.  Enter  a  number between 0 and 39. This  number  helps
+define  the place the brigade will occupy in the order of battle.
+An entry of 1-39 places the brigade directly under the command of
+the  Division HQ identified by that number. An entry of  0  means
+that the brigade is not under the command of any of the divisions
+in  the game. Note that if both Corps and Division values are  0,
+then the brigade will be under the direct command of the Army HQ.
+ARRIVAL.  Enter a number between 0 and 95. This is the turn  that
+the  brigade will arrive on the map. An arrival number of 0 means
+the brigade begins the game deployed on the map.
+BRIGADE   TYPE. Enter a value of 0-3. A value of 0  specifies  an
+infantry  brigade,  a  value of 1 specifies  a  mounted  infantry
+brigade, a value of 2 specifies a cavalry brigade and a value  of
+3 specifies an artillery brigade.
+OBJECTIVE. Enter a value between 0 and 23. A value of 0 specifies
+no  objective; any other value identifies a particular objective.
+In   general,  the  only  brigades  which  need  objectives   are
+independent  brigades attached to Corps or Army HQs  or  brigades
+scheduled  as reinforcements. If a reinforcing brigade  does  not
+have  an  objective,  it  will mill about  for  one  turn  before
+receiving instructions from its superior HQ.
+SMALL  ARMS  TYPE. Enter a value between 0 and 31. A value  of  0
+specifies  that the brigade is not equipped with  small  arms.  A
+value  of  1-31 specifies which small arms type from the  weapons
+list has been issued to the brigade.
+ARTILLERY  TYPE. Enter a value between 0 and 31.  A  value  of  0
+specifies  that  the brigade is not equipped  with  artillery.  A
+value  of  1-31 specifies which artillery type from  the  weapons
+list has been issued to the brigade.
+TROOP  STRENGTH.  Enter a value between  0  and  31.  This  value
+describes the size of the brigade in increments of 100 men.
+MOVEMENT.  Enter a value between 0 and 15. It is  the  number  of
+movement points the brigade has available each turn to move  over
+the  map.  We  recommend that Infantry and artillery brigades  be
+given  4-8  MPs, mounted infantry and cavalry brigades 6-12  MPs.
+Brigades   which  were  capable  of  particular   initiative   or
+enthusiasm  can be given a 1-3 MP bonus. The final  value  chosen
+should  also  take into account the movement point costs  of  the
+terrain on the battlefield.
+ARTILLERY  STRENGTH. Enter a value between 0 and 15.  This  value
+specifies the number of artillery pieces in the brigade. For  all
+Civil  War  battles, we recommend that 1 point of this  value  be
+equal  to  2  pieces of artillery. Thus, a typical 6 gun  battery
+attached to a brigade would have an artillery strength of 3.
+SHATTERED. Enter a number between 0 and 1. A value of 0 indicates
+that  the brigade begins the game in a normal condition. A  value
+of 1 indicates that the brigade begins the game suffering from  a
+recent mauling. The effect is the same as for a brigade shattered
+in the course of the game.
+LEADERSHIP.  Enter a value between 0 and 7. This  value  measures
+the  experience,  confidence  and determination  of  the  brigade
+commander. It is especially important when the brigade is not  in
+communication  with  its superior HQ and must  rely  on  its  own
+initiative to get things moving.
+COHESION. Enter a value between 0 and 7. This value should be set
+at  7  unless  the  scenario begins in the middle  of  a  battle.
+Cohesion  measures the current fighting condition of the  brigade
+as described in the game routines section.
+EXPERIENCE.  Enter  a  number between 0 and  7.  0  =  green  and
+unreliable (but not necessarily useless), 7 = elite troops of the
+highest  quality (for example the Iron Brigade or  the  Stonewall
+Brigade). The average brigade should have an experience between 3
+and  5, although this value should increase toward the end of the
+war; especially for Confederate brigades.
+REGIMENTS. Enter a number between 0 and 7. This number  specifies
+the  number of regiments (or major sub-units) which make  up  the
+brigade.   It   is  a  very  good  indicator  of  the   brigade's
+flexibility.
+LIKELIHOOD.  Enter a value between 0 and 7. This  value  measures
+the likelihood of a brigade appearing on its start or arrival hex
+at  the  scheduled time. A value of 7 means that the  brigade  is
+certain to arrive. HQs or brigades on the same side with the same
+likelihood value will be delayed by the same number of turns.
+(iv). Objectives (Menu 12)
+Examine the blank objective chart in Appendix A.
+A  maximum  of  23  objectives per scenario can be  created.  The
+<FORWARD> and <BACK> lines in the menu window are used  to  bring
+up  the  next  objective. The <EDIT> line is used  to  enter  the
+objective  and  set  its  parameters.  The  <MAP>  line   is   an
+alternative method of positioning the objective on the map.
+Each  objective must be given a 1-11 character name and an  x,  y
+map location.
+Victory points for each side can be awarded for the possession of
+an  objective on a turn by turn basis throughout the game  and/or
+at the end of the game.
+When  awarding  points throughout the game, you must  select  the
+turn  that point scoring will begin and the turn on which it will
+end.
+If  you wish to create an objective simply as a signpost for  the
+direction  of  your troops, then don't assign  any  VPs  for  its
+possession.
+A  manoeuvre  value  of 0-15 is available to  make  a  particular
+objective  more  attractive to the computer's movement  routines.
+The  higher the value, the more likely is the computer  to  route
+troops through that point. The best way to get the feel for  this
+tool is to have a careful look at the historical scenarios. Then,
+if  the  troops in your scenario are reluctant to go the way  you
+want them to, experiment with the manoeuvre value.
+(c). TITLE (Menu 15)
+Enter  a  1-16 character name for the scenario. There are  up  to
+three  26  character  lines you can use for a  sub-title  to  the
+scenario.
+Enter  a  1-9  character name to identify the North  nationality.
+Enter  a  1-9  character name to identify the South  nationality.
+These  character names will be the ones appearing  in  the  first
+game menu; i.e. Menu H (Game Master).
+(d). BRIEFING (Menu 14)
+(i). Rosters (Menu 15)
+There  are two items to enter here. The advice window allows  you
+to  enter several paragraphs of handy hints for each side.  These
+can be accessed during the game from Menu 12.
+The  roster menu should only be edited once you have entered  all
+the data for your forces. The display shows your forces organised
+in  a  standard military way. All you have to do is tidy  up  the
+appearance  by  inserting line spaces to  make  the  roster  look
+professional.  Look at one of the scenarios to see  what  can  be
+done. To do it, use the arrow keys to select the <EDIT> line  and
+then  the  arrow keys again to move the bar cursor  to  the  line
+below  where you wish to insert a space. Hit (RET) to insert  the
+space. Blank lines are identified by the word <insert>. To remove
+a blank line, position the bar cursor over the blank line and hit
+(RET).
+(ii). Scenario Setup (Menu 16)
+Enter  the  turn, day, month, year and century that the  scenario
+begins.
+A maximum movement distance (in hexes) must be specified for each
+type   of  unit.  A  separate  specification  is  made  for  each
+nationality.  Enter a value between 0 and 15. We  recommend,  for
+Civil War battles, these values; infantry brigades (4-6), mounted
+infantry  brigades  (6-9),  artillery  brigades  (4-9),   cavalry
+brigades (6-12) and HQs (9-15).
+To recreate the conditions of a surprise attack, enter a value of
+1 in the <Encamped> line for a side which is caught unprepared by
+the enemy assault. If there is no surprise, enter a value of 0.
+To  allow  a side to construct battlefield entrenchments  in  the
+course  of  the scenario, enter a value of 1-7 in the  <Entrench>
+line.  A  value  of  0 means a side cannot construct  battlefield
+entrenchments. Entrenchments increase the cover value of  a  hex.
+The  higher  the entrenchment value, the more protection  a  unit
+will receive.
+In  addition to the victory points awarded for the occupation  of
+objectives,  points  are also awarded for causing  casualties  to
+enemy leaders and troops. A value of 0-31 can be entered for each
+category.
+IBM  Only.  A  combat value of 0-7 has been added to reflect  the
+change in unit density in combat as the war progressed; i.e.  the
+lethality  of  the  rifled musket forced troops  to  abandon  the
+exposed formations characteristic of the Napoleonic Wars. A value
+of  0  describes very exposed formations; a value of 7  describes
+formations deployed to minimise enemy firepower.
+(iii). Scenario Details (Menu 16)
+Examine the blank briefing form in Appendix A as well as  any  of
+the scenarios.
+A  scenario may last as long as 4 days. These routines  fill  out
+much  of  the  background information necessary to get  the  game
+moving.
+For  each  day the expected atmospheric weather must be  defined,
+whether  each  side  is expected to take the  offensive  must  be
+decided and three values must be entered for each of the 24 hours
+in a day.
+WEATHER.  Enter a value between 0 and 4. 0 = clear, 1 = overcast,
+2 = drizzle, 3 = rain, 4 = snow.
+NORTH  OFFENSIVE. Enter a value of 0 or 1. A value of 0 puts  the
+North  on the defensive for the day. A value of 1 puts the  North
+on the offensive for the day.
+SOUTH  OFFENSIVE. Enter a value of 0 or 1. A value of 0 puts  the
+South  on the defensive for the day. A value of 1 puts the  South
+on the offensive for the day.
+MODE.  Enter a value between 0 and 3. 0 = night, 1 =  dawn,  2  =
+dusk, 3 = day.
+MOVE. Enter a value between 0 and 3. 0 = no move, normal cohesion
+recovery  will occur; 1 = normal move, both sides will  move  and
+fight; 2 = end game, a normal move is completed and then the game
+ends; 3 = skip, no move and no cohesion recovery is allowed.
+FOG. Enter a value between 0 and 2. 0 = no fog, 1 = light fog,  2
+= heavy fog.
+
+5. WARPAINT
+WarPaint  is entirely new to wargame construction. Even  we  are
+amazed  at just how useful it is. Every icon in the game  can  be
+edited, including all unit and terrain icons.
+5.1 WARPAINT (Menu 17)
+The  <GRAPHICS> line gives access to the icon editor. The <STORE>
+and  <RECALL> lines are used to install or extract a graphics set
+from any save game or scenario disk.
+To  transfer the graphics from one scenario to another, you would
+execute  the following steps. Load the source scenario,  and  use
+the  <STORE>  line  to load the graphics. Remove  that  disk  and
+insert  the  destination disk. Load the destination scenario  and
+use  <RECALL>. The graphics that were in the source scenario  are
+now  in  the destination scenario. Save the altered scenario  and
+the change is permanent.
+The  <FULL  MAP>  line gives IBM users access to  the  "full-map"
+graphic routines.
+5.2 DESIGN GRAPHICS (Menu 18)
+The screen shows a large boxed section on the left. This shows  a
+pixel  by pixel representation of an icon. Below it the  icon  is
+shown  in  white and the allowable colours as it would look  upon
+the  screen.  The icon number is shown above the  menu  box.  The
+current  selected colour is shown below the menu  box.  Selecting
+the  <EDIT> line shows a flashing cursor in the top left  of  the
+icon  box.  The  box is fourteen elements across by  16  elements
+down. The presence of a pixel is shown by a white square and  its
+absence by a white dash.
+The  I,  J, K, and M keys or the arrow keys are used to move  the
+cursor around the icon box. At any location the (RET) key creates
+a  pixel if none is present and removes it if one is. As you make
+changes  in the large icon box these are reflected in  the  small
+icons at the bottom of the screen.
+The  rules  for  manipulating  the  screen  icons  are  a  trifle
+complicated  and  may vary from computer to  computer.  They  are
+explained in detail below.
+After  using the edit function type (ESC) to leave. Apple  II/C64
+users will be asked to <SAVE> or <IGNORE> their changes and  must
+make  this  choice before returning to Menu 21.  Choosing  <SAVE>
+incorporates any changes you have made while <IGNORE> returns the
+icon  to its previous shape. IBM users have access to the  <CLIP>
+function described below.
+The  <COLOR> option allows you to change the selected  colour  of
+the icon. The <STORE> and <RECALL> options allow you transfer  an
+icon  between  different icon numbers, allowing easy  variations.
+The  <CLEAR> option blanks the screen, and for IBM users, at  the
+same time transfers the previous image to the clip location.  The
+<CLIP> option restores the screen with the image currently in the
+clip location.
+5.3 "FULL-MAP" GRAPHICS (Menus 19-21)
+These  notes offer some suggestions for the use of the "full-map"
+graphics  available  to IBM users with EGA or  VGA  cards  and  a
+colour  monitor. Read the note at the end of text in Menu 8  (Map
+Create  Utility).  It  explains how to  disable  the  "full  map"
+graphics so the basic map can e created.
+Users  with  EGA  or  VGA cards can access our enhanced  graphics
+routines  for  the 250 icons which make up the different  terrain
+shapes  and  the  60 odd icons which represent  units  and  other
+functions.
+The  cumbersome  <SAVE>  and <IGNORE>  lines  from  the  standard
+graphic routines have been replaced by a 'Clip' feature. Whenever
+you edit a shape, the original shape is transferred to the 'clip'
+window.  To  restore the original shape, select <CLIP>  from  the
+menu window.
+The  enhanced  graphics  routines have  a  number  of  additional
+features. Select <PAINT> to bring up the enhanced graphic menu.
+<EDIT>  will take you into the icon image. Use the arrow keys  to
+locate the pixel you wish to edit. Use the Tab/Shift Tab keys  to
+select  a  colour from the palette at the bottom of  the  screen.
+Type  <d> to set the drag key. This will trail the chosen  colour
+after the cursor. Type <d> again to turn off the drag feature.
+<TRIAL MAP> will show you what your terrain shape will look  like
+on a full screen.
+<CHNGE  CLR> allows you to change a particular colour to another.
+Select  <CHNGE CLR> and then use the arrow keys to locate on  the
+terrain shape the colour you wish to change. Now hit (ENTER)  and
+use  the arrow/tab keys to locate from the palette the colour you
+wish to substitute.
+<SHIFT>  shunts the terrain shape in the direction  specified  by
+the  chosen  arrow  key. Use this feature to  vary  a  particular
+terrain shape.
+<FLIP HORZ> will flip the shape horizontally.
+<FLIP VERT> will flip the shape vertically.
+<MAKE HEX> will bring in the corresponding terrain shape from the
+standard graphic routines.
+The f1-f8 and Alt f1-f8 keys will select a particular colour. The
+f9 key will select the colour under the cursor. Tab/Shift Tab and
++/- will select the next colour in either direction.
+A  little familiarity with these routines will teach you all  you
+need to know.
+
+TECHNICAL NOTES
+(a).  IBM  Users. IBM users have neither pixel nor  colour-mixing
+problems!  The  CGA card has fewer colour choices  than  the  EGA
+card.  Note  that  Tandy  users have the same  number  of  colour
+choices as an EGA user.
+(b). Icon Functions. All icons have a particular function. In the
+case  of  the terrain icons (numbers 0 to 31), the functions  and
+the name are defined in the terrain menu. All other icons serve a
+particular  purpose  which  does not  change.  If  you  edit  the
+Confederate  Army HQ icon to look like a woods  symbol,  it  will
+still function as an Army HQ.
