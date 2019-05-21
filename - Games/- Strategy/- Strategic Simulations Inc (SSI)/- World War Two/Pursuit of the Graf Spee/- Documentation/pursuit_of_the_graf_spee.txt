@@ -1,0 +1,810 @@
+PURSUIT OF THE GRAF SPEE
+
+1.0 INTRODUCTION
+
+Pursuit of the Graf Spee is a strategic game that allows
+the players to recreate the historic search for the German
+pocket Battleship, Graf Spee in late 1939. This search
+ultimately led to the Battle of the River Plate which sealed
+the fate of the German warship. In the game, players will
+control individual ships moving on a map of the South Atlantic.
+
+1.1 Starting a game (DOS 3.2 or DOS 3.3)
+
+To begin a game; boot your disk (Insert the disk in drive one
+and turn on your computer) and the game will begin automatic
+-ally. If you are using an Apple II with Pascal, You must use
+your BASICS disk. If you are using an Apple III, you must first
+go into Apple II Emulation mode.
+
+1.2 Saving a Game
+
+At the end of each turn the player(s) will be asked if they
+wish to save the game in progress. If you choose to save the
+game, you will need a scratch disk to store the data. The
+scratch disk must be initialized for SSI use by following the
+instructions included in the program. Once the game is saved,
+you will be able to restart it from the point at which you
+left off.
+
+2.0 GENERAL DESCRIPTION
+
+2.1 Parts Inventory
+
+A. Box
+B. Battle Manual
+C. 5-1/4" Game Disk
+D. Two Ship Data Cards
+
+2.2 Definition Of Terms
+
+2.2.1 Damage level - A percentage rating of the amount of
+battle damage a ship has incurred. A value of 0% indicates
+no damage while a value of 100% indicates that the ship
+has been sunk.
+
+2.2.2 Fuel - The amount of oil in a ship's oil tanks, it
+is expended during the movement of a ship.
+
+2.2.3 Shadow - The act of following an enemy ship.
+
+2.2.4 Visibility level - A measure of the severity of the
+weather. The map is given one visibility level each turn.
+The levels are 1 = calm seas, 2 = rough seas, 3 = stormy seas
+
+
+
+
+2.3 Mapboard Codes
+
+Each ship is given a one letter ID which identifies the
+location of the ship on the mapboard. British ports are
+indicated by a red anchor, while neutral ports are indicated
+by a white Anchor.
+
+2.4 Mapboard Coordinates
+
+To read the map coordinates first read the row number and
+then the column number. Example Capetown is on row 22 and
+column 28, and thus is considered to be at square 2228.
+
+3.0 SEQUENCE OF PLAY
+
+Each scenario is played by repeating a series of game-turns.
+Each game-turn consists of seven major parts listed below.
+The parts are listed in their order of occurance during a
+game-turn.
+
+3.1 Shadow Phase
+
+During this phase the computer will alert you if you have
+spotted the Graf Spee, and if so allow you to attempt to
+shadow. If a shadow is attempted the German player will
+be asked to move the Graf Spee.
+
+3.2 Order Entry Phase
+
+3.2.1 British Orders Phase
+
+The British player secretly enters his orders to his ships.
+
+3.2.2 German Orders Phase
+
+The German player(or the computer) secretly enters his orders
+to his ships.
+
+3.3 Computer Activity Phase
+
+3.3.1 Ship movement Phase
+
+The computer obeys the Player's orders and moves all units
+to their new positions, while updating the fuel status of
+each ship.
+
+3.3.2 Search Phase
+
+The computer checks for the spotting of enemy ships and
+alerts the players of any sightings.
+
+3.4 Combat Phase
+
+If ships have been spotted, combat may occur in the
+following order:
+
+1. Attacks by Graf Spee on unescorted aircraft carriers.
+2. Aircraft attacks from the Ark Royal and/or Hermes.
+3. Surface Combat.
+
+The players conduct combat while the computer resolves
+the attacks, records damage, calculates withdrawals.
+
+3.5 Merchant Ship Spotting Phase
+
+The computer determines whether any enemy merchant ships
+have been spotted and sunk and whether the merchant ship
+was able to send a radio message of its location before
+it was sunk.
+
+3.6 Victory Determination Phase
+
+If both the Altmark and the Graf Spee have been sunk, or it
+is the December 25 PM turn, the game will end and the final
+victory point totals for each side will be displayed. The
+British player will now have an opportunity to display the
+paths taken by the German ships during the game.
+
+3.7 Save The Game Option
+
+At this time the players may save a game in progress for
+resumption at a later date. Note: After a game has been
+saved, the player's may continue to play.
+
+4.0 GENERAL COMMANDS
+
+4.1 After the player has entered his password. The locations
+of his ships are displayed on the computer screen. The computer
+will ask the player to enter a general command.
+
+4.2 O = Order Ships. Allows the player to give orders to his
+ships as described in section 5.0
+
+4.3 P = Patrol(British Player Only) Places all British ships
+into patrol mode.
+
+4.4 L#### = List Ships(British Player Only) Lists the ships in
+square ####.
+
+4.5 S = Order a Single ship. Allows a player to give orders
+to any one of his ships.
+
+4.6 C = Check ship status. This command allows the player to
+look at the status of any of his combat ships.
+
+4.7 F = Finished. This command ends the player's order
+entry phase.
+
+4.8 E = End game. This command will end the game. The Game
+will go directly to the victory determination phase.
+
+5.0 SHIP COMMANDS AND CAPABILITIES
+
+5.1 During each order entry phase the player may order any,
+all or none of his ships to move. The "O" command is used
+to get to the "Order Ships" section of the program. When
+this is done the computer displays one ship at a time and
+asks for a movement command. The "O" command can be given
+as many times as the player wishes to until the player is
+satisfied with the orders given. The "S" command may also
+be given as many times as desired.
+
+5.2 Movement Commands
+
+5.2.1 N  = Move one square north.
+5.2.2 NE = Move one square northeast.
+5.2.3 E  = Move one square east.
+5.2.4 SE = Move one square southeast.
+5.2.5 S  = Move one square south.
+5.2.6 SW = Move one square southwest.
+5.2.7 W  = Move one square west.
+5.2.8 NW = Move one square northwest.
+
+5.2.9 P = Patrol mode. Do not move the ship this turn. If
+this ship is in port then it automatically refuels and
+attempts to repair any damage (the Graf Spee will attempt
+to refuel if in the same hex as Altmark).
+
+5.2.10 A ship that is not ordered will continue to execute
+the last order it was given.
+
+5.3 Legal Squares For Ships
+
+5.3.1 British ships may move into and out of any All-Sea
+square on the map and into and out of any port.
+
+5.3.2 German ships may move into and out of any All-Sea
+square and into and out of any port, however, if a German
+ship enters a British port than it is automatically sunk.
+
+5.3.3 A ship will automatically be given a P order if it
+is ordered to enter any hex which it is not allowed to enter.
+
+5.3.4 The Altmark may exit off the north edge of the board
+if it moves north while on row 11. If the Altmark exits it may
+not return to the game.
+
+5.4 The Ship Detail Line is the line of text displayed by the
+computer when the player is ordering his ships. Below is the
+Ship Detail Line for the British Battlecruiser Renown used
+as an example.
+
+(1)    (2)    (3)    (4)    (5)    (6)    (7)    (8)
+ R   RENOWN  1420     29    000%   100     20     SW
+
+(1) Ship Code
+(2) Name
+(3) Square the ship is in at the beginning of the turn.
+(4) Maximum Speed in knots.
+(5) Damage Level
+(6) Victory Points
+(7) Fuel Remaining
+(8) Current Orders
+
+5.5 Ship Movement And Fuel
+
+All ships with a maximum speed of at least 1 knot may move
+one square on AM turns. All ships with a maximum speed of
+20 knots may move one square on PM game turns.
+
+5.5.1 All ships lose one fuel factor on Am turns (irregardless
+of movement).
+
+5.5.2 Ships which move on PM turns lose three fuel factors.
+Ships in patrol mode do not expend fuel during PM numbered turns.
+
+5.6 When a ship's remaining fuel reaches 0 the ship may only
+move on AM turns and may not shadow. For each turn a ship
+spends at sea without fuel, the opponent player receives one
+victory point. A ship which has 1 or 2 fuel factors remaining
+may move on a PM turn, but would end the turn with 0
+fuel remaining.
+
+6.0 SEARCH: HOW TO FIND THE ENEMY
+
+6.1 During the computer search phase the computer judges
+whether opposing ships have spotted each other. The computer
+uses the number of British ships in a square and the weather
+conditions to determine if German ships have been sighted.
+
+6.2 The computer uses the following formula to determine
+whether German ships are spotted by British ships in the
+same square: % chance of spotting = 1-{.1X [(3 X visibility level)
+-(.4 X number of British ships in square)]}
+
+6.3 Each turn a new visibility level (VL) is selected and
+displayed on the upper right hand corner of the map. There is
+a 30% chance of calm seas(VL=1), a 30% chance of rough seas
+(VL=2), and a 40% chance of stormy seas (VL=3).
+
+6.4 Spotting is considered to be mutual. All ships in a
+square are spotted by both players as soon as the British
+have successfully spotted a German ship.
+
+6.5 Players will only be given information about enemy ships
+that are spotted. Thus the British player will not see the
+german ships displayed on his mapboard until he actually
+spots a ship. Once the Graf Spee is spotted it will appear
+on the British player's mapboard. British ships will never
+be displayed on the German player's mapboard.
+
+6.6 For search purposes (only) the Ark royal is considered
+to be three ships, and the Hermes is considered to be two
+ships (this is dure to their aircraft).
+
+6.7 Ships in patrol mode are considered to be three ships
+for search purposes (Ark Royal) in patrol equals nine, Hermes
+in patrol equals six).
+
+6.8 The probability of spotting the Altmark is 30% less than
+the probability derived from the formula in 6.2 above. The
+Altmark could easily be mistaken for a British merchant ship.
+
+7.0 SHADOW
+
+7.1 If the Graf Spee has been spotted and the British player
+wishes to maintain contact with it (shadow) the computer
+will allow him to do so during the shadow phase of each turn.
+The ships involved will be displayed on the screen and the
+computer will ask the German player to secretly give orders
+to the Graf Spee. The computer will then calculate the results
+and report "SHADOW SUCCEEDED" or "SHADOW FAILED", and if
+succeeded will givw the direction of the Graf Spee's movement.
+If shadowed, the Graf Spee may not be given orders during the
+next German order entry phase, but in place of this it will
+execute the orders just entered.
+
+7.2 Shadow Resolution. The computer uses the following formula
+to determine the results of a potential shadow:
+
+probability of successful shadow = (3 + # of ships attempting
+to shadow - VL)/6
+
+7.3 The Ark Royal and the Hermes may not be used to shadow
+the Graf Spee and are not counted when using the formula
+given above.
+
+7.4 A successful shadow does not guarantee that the Graf Spee
+will be spotted during the next search phase.
+
+7.5 Only ships with a current maximum speed equal to or greater
+than the current speed of the Graf Spee may attempt to shadow.
+
+8.0 SOLITAIRE
+
+When playing solitaire the computer will make all of the
+decisions for the German navy. All normal rules apply
+during solitaire.
+
+9.0 LOCATING MERCHANT SHIPS
+
+9.1 Each turn the british player has a chance of spotting
+a German merchant ship. The probability is based on the
+number of British ships in patrol mode:1/2% chance for each
+ship in patrol mode. There is a 50% chance that the German
+ship is able to radio its last position and the name of one
+of its attackers.
+
+9.2 british shipping lanes are indicated on the mapboard
+with white dots. nine dots in a square represents areas with
+the largest amount of ship traffic, three dots in a square
+represents medium traffic areas, and one dot represents light
+traffic areas. The Graf Spee has a 455 chance of sighting and
+sinking a British merchant ship in the highest density areas,
+a 25% chance in the medium traffic areas, and a 5% chance in
+the light density areas. The Graf Spee also has a 1% chance
+of sinking a ship in a non-shipping lane square. The chance
+of sinking a merchant ship is divided by 5 if the Graf Spee
+moves during the turn, divided by 1.5 if the visibility is
+three, and multiplied by 2 if the visibility is one.
+
+9.3 When a british mechant ship is sunk there is a 50% chance
+that the ship is able to radio a message giving the location
+of the Graf Spee.
+
+9.4 The German supply ship altmark is a non-combat ship
+which is automatically sunk if sighted by a British ship,
+unless the Graf Spee is in the same square.
+
+10.0 REFUELING
+
+10.1 The Graf Spee may refuel in any South American port
+or from the Altmark(if in the same square) by giving a
+P order.
+
+10.2 All British ships may refuel in any port by giving a
+P order.
+
+10.3 When refueling, a ship's current fuel level is set
+equal to its maximum level.
+
+11.0 REPAIRS
+
+11.1 When in port a ship with a P order will repair 0-10%
+of its current damage (determined randomly). Exaple: The
+Graf Spee repairs while having 40% damage. At the end of
+the turn it will have between 30-40% damage.
+
+11.2 Items which may be repaired are:
+1) Hull
+2) Superstructure
+3) A,B,X.Y, turret strength(but not guns), thus a damaged
+   turret can be brought up to full strength, but a destroyed
+   turret may not be rebuilt.
+
+11.3 Each turn a ship with its maximum speed reduced will
+regain between 0 and 10 knots to its maximum speed.
+
+12.0 NEUTRAL PORTS
+
+12.1 Whenever the Graf Spee enters a South American port
+(squares 1817, 2016, 2313) the british player is informed
+of its location. Also, the first time that the Graf Spee
+enters a neutral port there is a 50% chance that it will
+scuttle itself. if it does not scuttle itself at that time
+it may reenter neutral ports without having to check for
+scuttling.
+
+12.2 The Graf Spee and the Altmark may be attacked while
+in port and the Graf Spee may be shadowed when it leaves port.
+
+13.0 AIRCRAFT CARRIER COMBAT
+
+13.1 Whenever an unescorted (no friendly non-aircraft carrier
+ship in the same square) aircraft carrier is found by the
+Graf Spee, there is a chance that the carrier will be sunk.
+The following formula is used to determine the probability
+of the carrier being sunk:
+
+% chance of being sunk = [(Graf Spee current speed + 15 -
+carrie current speed) X .33 X visibility level].
+
+13.2 If an aircraft carrier survives an attack (or is escorted
+and thus is not attacked) it will launch an airstrike at the
+Graf Spee. Airstrikes will not be launched if the visibility
+level is 3. The Ark Royal has a 50% chance of scoring a
+torpedo hit with its airstrike, while the Hermes has a 17%
+chance of scoring a torpedo hit. If a hit is scored the Graf
+Spee will lose up to a maximum of 6 hull points and 15 knots.
+
+14.0 SURFACE COMBAT (Off-line Combat)
+
+Surface combat occurs whenever non-carrier British ships
+occupy the same square with the Graf Spee and the Graf Spee
+has been spotted. Before combat begins the players will be
+offered the opportunity to resolve the combat off-line(using-
+any method the players desire) or on-line using the tactical
+game provided by the computer,
+
+14.1  If the players decide to resolve combat off-line they
+will be asked to input the status of each ship involved in
+the combat as of the completion of the battle. The following
+values for each ship must be entered:
+
+1) Number of guns remaining in each turret.
+2) Strength remaining of each turret.
+3) Hull points remaining.
+4) Superstructure points remaining.
+5) Secondary guns remaining.
+6) Current maximum speed
+
+Be careful not to enter something illegal (such as adding-
+secondary guns to a British ship)for there is no guarantee
+that the program will not crash if this is done. After stats
+for a ship have been entered the player will have a chance to
+reenter these stats if a mistake has been made. When using
+the off-line feature, players should take note of the prevailing
+visibility level when setting up the engagement.
+
+15.0 SURFACE COMBAT (On-line Combat)
+
+15.1  If the players decide not to use off-line combat the
+computer will set up the tactical combat game. The following
+sequence will be used during tactical combat:
+
+15.1.1 German order entry phase
+
+The German player will secretly give orders to the Graf Spee
+by answering a series of questions.
+
+15.1.2 British order entry phase
+
+The British player will secretly give orders to one ship at a
+time through answering of a series of questions, until all ships
+have received orders.
+
+15.1.3 Gunfire and torpedo fire execution phase
+
+All gunfire and torpedoe attascks will be resolved by the
+computer simultaneously with the results given on the screen.
+
+15.1.4 Ship movement phase
+
+The computer will move all ships to their new locations based
+on the orders given to them and the damage sustained during
+the preceeding gunfire and torpedoe fire execution phase.
+
+15.1.5 Disengagement check
+
+The computer will determine if opposing ships are still within
+sight of one another and if so will return to step 15.1.1.
+If no enemy ships are within sight of each other combat will
+end and the computer will return players to the strategic game.
+
+15.2 Tactical combat Setup
+
+Tactical combat is resolved on a x,y coordinate grid system
+with each point on the grid representing 100 yards and each
+turn representing 3 minutes.
+
+Compass headings are as follows:
+
+000 = toward the top edge of the computer screen (North).
+090 = toward the right edge of the computer screen (East)
+180 = toward the bottom edge of the computer screen (South).
+270 = toward the left edge of the computer screen (West).
+
+At the beginning of combat the Graf Spee is placed at co-
+ordinates 5000,5000 with a course of 000 degrees and a speed
+equal to its current maximum speed. All British ships are
+placed on the board due south of the Graf Spee also with
+headings of 000 and speeds set to their current maximums.
+The distance between the British ships and the Graf Spee is
+determined based on the current visibility level as follows:
+
+Visibility = 1 randomly between 24000-28000 yards(240-280 x,y
+points).
+Visibility = 2 randomly between 16000-20000 yards (160-200 x,y
+points).
+Visibility = 3 randomly between 8000-12000 yards(80-120 x,y points)
+
+15.3 The Order Entry Phase
+
+The order entry phase contains of 4 major questions concerning
+the ship being ordered:
+
+1) Does the ship wish to change speed?
+2) Does the ship wish to change course?
+3) Does the ship wish to change targets its guns are firing upon?
+4) Does the ship wish to fire its torpedoes?
+
+Some of these questions may be skipped over if inappropriate
+to the ship being ordered (i.e. a ship with out torpedoes will
+not be asked whether it wishes to fire torpedoes), and some
+questions may be automatically answered because of some other
+action taken (i.e. a ship that changes its course by greater
+than 30 degrees in the same turn must automatically change
+its targets so it will not be asked the question).
+
+15.4 Speed
+
+A ship may be given any speed between 0 and its current maximum
+speed. A ship damaged during combat such that its current maximum
+speed is lower than its current speed will automatically lower
+its speed so that it is equal to its current maximum speed.
+A ship may speed up or slow down at will within the limits
+given above, however most players will discover that they will
+in most cases desire to travel at their maximum speed (the
+slower you travel the greater the chance of being hit by
+enemy fire). For each knot of speed a ship will traverse 1
+point on the x,y coordinate grid each turn. Example: A ship
+with a speed of 25 knots with a heading of 90 degrees and a
+location of 0,0 will end its turn at location 25,0(assuming it
+is not slowed due to damage from enemy fire).
+
+15.5 Course
+
+A ship may be given any course between 0 and 359 degrees.
+All ships may turn immediately to any course desired. The
+turn is executed at the beggining of the ship movement
+phase (as if the ship could turn on a dime). The only
+penalty associated with drastic course changes is that
+new targets must be selected whenever a ship orders a new
+course which is a change greater than 30 degrees from its
+previous course. Although the new targets fired at may remain
+the same, the process of choosing new targets causes a new set
+of ranging shots on the target, thus decreasing the chances
+of hitting the target during the turn (see selecting targets).
+Thus players are advised to limit their course changes to 30
+degrees or less if possible. A ship sustaining temporary
+rudder damage may not change course for the duration of the
+tactical combat.
+
+15.6 Selecting Targets
+
+In order to fire its guns, a ship must choose a target for its
+guns. Each British ship has two sets of guns(bow guns A+B turrets,
+and stern guns, X+Y turrets), while the Graf Spee has four sets
+of guns (bow,stern,starboard secondaries, port secondaries).
+Each set has a different firing Arc as listed below:
+
+Bow guns have a 240 degree arc of fire all but the back
+120 degrees.
+
+Stern guns also have a 240 degree arc of fire all but the
+front 120 degrees.(for British ships and the Graf Spee)
+
+For the Graf Spee only. Starboard secondaries have a middle
+arc of 120 degrees off the right side of the ship. Port
+secondaries also have a middle arc of 120 degrees off the
+left side of the ship.
+
+When entering the target desired, the computer will list the
+code of the current target for the guns being considered, with
+a 0 if no target currently exists. To enter a target enter the
+letter ID code of the ship you wish to fire at. If this is an
+illegal target (guns cannot bear on target or target is out of
+range, see data card) the computer will ask for another target.
+If you wish to keep the same target press return. If you desire
+not to fire press 0. The first turn a ship fires on a target,
+the fire will be at one third effectiveness, for the ship is
+considered to be ranging in its guns on the target. On the
+second and future consecutive turns of firing on the same target
+the guns will fire at full effectiveness. Whenever a ship changes
+course by greater than 30 degrees the computer will eliminate
+previous targets, requiring the ship to once again range in on
+enemy ships. If a player states that he does not wish to
+change targets the computer will check to see whether all
+current targets are legal targets, and if they are not, the
+player will be forced to enter new targets. Remember that each
+set of guns fires independently (one set may be ranging in on
+a new target while another may be already ranged in on a
+different target).
+
+15.7 Torpedo fire
+
+Ships with torpedoes will be given the opportunity to fire
+torpedoes at enemy ships. Torpedoes may be fired once during
+each tactical combat (i.e. they may not be reloaded during
+combat). Torpedoes have a range of 8000 yards with the chance
+hitting the enemy reduced at longer ranges and when trying
+to hit a fast moving ship. If the Graf Spee is firing its
+torpedoes it will be asked to enter the code of the desired
+target. A torpedo hit will cause the loss of up to 12 hull
+points and 30 knots. torpedo damage to the Graf Spee and
+Renown is halved.
+
+15.8 Combat Ship Detail Line
+
+When giving orders, a ships characteristics will be displayed
+on the screen in the following manner:
+
+Name Hull Aguns Bguns Portsec Starbsec Xguns Yguns Maxspd Curspd Curcou
+  G   20    0     3      4       4       3     0     26     26     000
+
+Name = ship ID code
+Hull = hull points remaining
+Aguns = number of guns remaining in A turret
+Bguns = number of guns in B turret
+Portsec = number of port secondaries
+Starbsec = number of starboard secondaries
+Xguns = number of guns in X turret
+Yguns = number of guns in Y turret
+Maxspd = maximum speed possible
+Curspd = current speed
+curcouse = current course
+
+15.9 Possible Responses to Questions
+
+When a major question is aked the computer will allow the
+following answers:
+
+Y = yes
+N = no
+C = check staus of a friendly ship
+X = display x, y coordinates of each ship
+P = display current speed, course, and range to the Graf Spee
+    of each ship
+
+15.10 Visibility and Disengagement
+
+A ship may not fire at a ship it cannot see. Visibility limits
+are as follows:
+
+Visibility     Range
+
+    1          28000 yards (280 points)
+    2          20000 yards (200 points
+    3          12000 yards (120 points)
+
+Combat will end when no British ship is within sighting
+range of the Graf Spee.
+
+15.11 Gunfire Combat Resolution (hits scored)
+
+Combat is resolved by first determining the number of hits
+scored on an enemy ship. The number of hits is determined
+by the type of guns (guns with less strength fire more often
+and thus have a greater chance of hitting), the speed of the
+target (slower the target is moving the greater the number
+of hits), the range to the target(the closer the target the
+greater the number of hits), and the number of guns firing at
+the target(the greater the number of guns firing the greater
+the number of hits). The number of hits scored is also affected
+by the following:
+
+Ranging in on target ship                     33%
+Visibility = 2                                90%
+Visibility = 3                                80%
+Firing ships fire control center destroyed    67%
+Firing ship has temporary rudder damage       67%
+
+These affects are cumulative, thus a ship in visibility 3
+with its fire control center destroyed would score only
+(.8 X .67 = .536) 53.6% of the hits it would have otherwise
+scored.
+
+15.12 Gunfire Combat Resolution (location of hits scored)
+
+When a hit is scored the location of the hit on the target
+ship is determined. The following is a breakdown of possible
+locations of hits based on the range to the target ship:
+
+Location of Hit        Range > 16000yards  Range<16000yards
+
+Superstructure(no armor)       15%               15%
+Secondary gun(no armor)        15%               15%
+Hull (no armor)                 5%                5%
+Main turret (no armor)          1%                1%
+Hull (belt armor)              14%               30%
+Fire control center (belt)      3%                3%
+Rudder (belt armor)             1%                1%
+Hull (deck armor)              21%                5%
+Main turret (turret armor)     25%               25%
+
+The Graf Spee has a 6% greater chance of being hit on the
+hull deck armor and a 6% lower chance of being hit on the
+turret armor. Some hits on armor protected hull will also
+cause the destruction of a turret, while hits on the hull
+deck armor at greater than 16000 yards and the hull belt
+armor at less than 16000 yards have a small chance of
+hitting a main magazine and sinking the ship.
+
+15.13 Gunfire Combat Resolution (armor penetration)
+
+When the location of a hit is discovered the computer will
+check to see if  the shell penetrated any protective armor
+encountered. Refer to the data card to see what guns
+penetrate what armor at what range. If the hit is on the
+Belt or Deck armor and shell does not penetrate the  armor,
+the hit does no damage to the target ship. If the hit is on
+the Turret armor and the shell does not penetrate the armor
+then the strength of a main turret(determined at random) on
+the target ship is reduced by the value of the gun firing.
+If the strength of a turret is reduced to 0 the turret is
+destroyed and the number of guns in the turret becomes 0.
+Example: the Exeter scores one hit on the Graf Spee's X-
+turret, but does not penetrate the armor(range greater than
+12000 yards), thus reducing the strength of the X turret by
+2 points(value of Exeter's guns). If the Graf Spee's X turret
+strength has been reduce to 1 or 2 then this hit would
+destroy the turret.
+
+15.14 Gunfire combat resolution(damage caused by penetrating hits)
+
+Hits on the superstructure will reduce the strength of the
+superstructure by the value of the gun firing. If the Super-
+structure is reduced to 0 then all future superstructure hits
+reduce the hull. hits on the secondary guns will cause the
+loss of one secondary gun. If secondary guns are reduced to
+0 then all future secondary hits will cause damage to the
+superstrucure. Hits on the hull will reduce the strength of
+the hull by the value of the gun firing while also causing
+a reduction in maximum speed of up to 30 knots. It is possible
+for the hull to be reduced by more than the value of the gun
+firing, although the chance of this is never greater than 30%.
+Hits on a main turret will cause the destruction of the turret.
+repeated hits on an already destroyed turret will cause no
+further damage.
+
+16.0 SCENARIOS
+
+16.1 The December 1 scenario begins with the December 1 AM
+turn and ends after the December 25 PM turn.
+
+16.2 The December 13 scenario begins with the computer
+execution phase of  the December 13 AM turn and ends after
+the December 25 PM turn. All ships are considered to be in
+patrol mode during the first turn of the game. The german
+player begins with 40 victory points. The Graf Spee is auto-
+matically sighted on the first turn of the game.
+
+17.0 VICTORY CONDITIONS
+
+17.1 Victory is determined by comparing victory point
+totals of both sides at the end of the game and referring
+to the chart provided below. There are three possible ways
+in which the game may end.
+1) The game ends if the graf Spee and the altmark are both
+sunk or exited from the board.
+2) The game ends after the december 25 PM turn.
+3) The game ends when a player decides to end the game by
+giving an E command(this is not an official way of ending
+the game, and should only be done if both players agree to it.
+
+17.2 The computer records all victory points scored and
+reveals the totals at the end of the game. Each player receives
+victory points for sinking enemy ships. Players also receive
+victory points for damaging enemy ships which are not yet sunk.
+The following formula is used to allocate victory points for
+damaged ships: vp = .005 X %damaged X vp's for sinking.
+
+17.3 The German player begins the december 13 scenario with
+40 victory points.
+
+17.4 Viictory is decided by subtracting the British victory
+points from the German victory points and comparing the
+arrived at total with the following chart:
+
+ VP TOTAL                  LEVEL OF VICTORY
+
+ 115 or more               German decisive
+ 85 to 114                 German substantive
+ 55 to 84                  German Marginal
+ 45 to 55                  Draw
+ 15 to 44                  British Marginal
+-15 to 44                  British substantive
+-16 or less                British Decisive
+
+18.0 ACKNOWLEDGEMENTS
+
+This game is dedicated to the R+D staff of SSI. To John Lyon for
+his computer Bismarck code which formed the foundation of the
+strategic game, and to Paul Murray for his triginometry formulas
+which allowed me to conquer the tactical game system.
+
+19.0 CREDITS
+Game Design and Programming: Joel Billings
+Historical Notes: Robert billings
+Customized Disk Operating System: Richard Gustafsson
+Art and Graphic Design: Loius Hsu Saekow and Kevin Heney
+Typesetting: Abracadabra Type
+Printing: A&a Printers
