@@ -1,0 +1,1470 @@
+BREAKTHROUGH IN THE ARDENNES MANUAL
+===================================
+
+TABLE OF CONTENTS
+-----------------
+ 1.0 INTRODUCTION
+        Description of Action
+        Talking to the Computer
+        Saving a Game
+        Game Scale and Map
+        Units
+        Starting the Game (Commodore 64)
+        Starting the Game (Atari)
+        Starting the Game (Apple)
+        Parts Inventory
+ 2.0 SEQUENCE OF PLAY
+        Determining Conditions of Play
+        Historical Set-Up
+        Sequence of Play
+        Sequence of Play Exceptions
+ 3.0 AIR PHASE
+        Air Point Schedule
+        Air Mission Menu
+        Interdiction
+ 4.0 SUPPLY PHASE
+        Supply Trace
+        Supply States
+        Supply Effects
+        Supply Exceptions
+ 5.0 REINFORCEMENT PHASE
+        Entry Hexes
+        Delayed Arrival
+ 6.0 UNIT ORGANIZATION PHASE
+        Cursor Menu
+        Unit Menu
+        Unit Organization Menu
+        Artillery Transfers
+        Replacements
+        Build-ups and Breakdown
+        Bridges
+ 7.0 OPERATION PHASE
+        Cursor Menu
+        Unit Menu
+        Command Menu
+        Operation Point Allowances
+        Moving a Unit
+        Zone of Control, Movement Restrictions and Stacking
+        Travel Mode and Road Movement
+        Fortifications
+        Plotting Combat and Advancing After Combat
+        Exiting German Unit
+ 8.0 COMBAT
+        Efficiency
+        Combat Strength Modifiers and Bonuses
+        Casualties
+        Retreats and Advances
+ 9.0 WEATHER
+10.0 VICTORY CONDITIONS
+        Victory Points
+        End of Game and Victory Levels
+11.0 HISTORICAL COMMENTARY
+12.0 STRATEGY & TACTICS
+        German Player
+        American Player
+13.0 CHARTS, TABLES, AND EXAMPLES OF PLAY
+        Unit Symbol Legend
+        Order of Battle Chart
+        Unit Statistics and Conditions Example
+        Artillery Corps Table
+        Operation Cost Table
+        Combat Modifiers
+        Supply Examples
+14.0 DEDICATION
+
+
+1.0 INTRODUCTION
+================
+On December 16, 1944 the Germans launched their final offensive in the West.
+Hitler planned to cross the Meuse River through the Ardennes Forest and reach
+Antwerp, isolating several Allied division.  The result could have very well
+ended in regional peace favoring the Axis    offensive became known as the
+Battle of the Bulge.  BREAKTHROUGH IN THE ARDENNES is a regimental level
+simulation of Germany's last effort on the western front.
+
+1.1 Description of Action
+-------------------------
+Each game turn represents a full day of operations.  These operations include
+supply, air strikes, allocating corps artillery, building-up and breaking down
+regiments and divisions, constructing and destroying bridges, fortifying,
+changing modes, moving units and allocating and resolving combat.
+
+1.2 Talking to the Computer
+---------------------------
+To enter a response to the computer that consists of numbers (such as the
+number of artillery points) type in the number into the computer and press the
+<RETURN> key.  To select a routine from a menu or answer a Yes/No question just
+press the desired key.
+
+1.3 Saving a Game
+-----------------
+At the end of the Reinforcement Phase and every phase thereafter the computer
+will allow the player(s) to save the game in progress.  You will need a scratch
+disk to store the saved game data.  Save game disks for the Apple must be
+initialized for SSI use during a game by following instructions included in the
+game program.  Atari and Commodore 64 users may use any disk that has been
+properly formatted for use on their computer.  Once a game is saved you will be
+able to restart it at the point where you left off.
+
+1.4 Game Scale and Map
+----------------------
+The game begins December 16, 1944 and ends December 27, 1944 for a total of
+twelve turns.  Units in the game range from battalions to divisions.
+   The map includes parts of France, Belgium, Luxembourg and Germany super-
+imposed on a 32 by 31 hexagon grid.  Each hexagon contains a specific terrain
+type (clear, rough, forest, and town) and represents an area of about two miles
+,  Hexagons with a small white dot in the middle show German Ownership.
+American ownership is shown by a hexagon with no white dot.  Ownership changes
+when a unit moves into an enemy hexagon (very important for supply).  Rivers
+are represented by blue hexsides.  Hexagons connected by a road have white
+hexsides in common (brown on C64).
+   The lower portion of the battle south of the Clerf and east of the Alzette
+River is not depicted in the game.  Units of both sides that fought in that
+general area are not included.  As a result of this detection and also to allow
+ample room for American reinforcements to deploy on the southern edge.  German
+units are not allowed to enter the zero hexrow of the x coordinate.  Also, not
+depicted on the map is the portion of the battlefield west of Rochefort (the
+tip of the bulge).  This area is represented in the game by allowing units to
+exit the northern portion of the west map edge.
+   The map is oriented to the German view of the battle which means that the
+top of the screen is west, the right is north, the left is south and the east
+is at the bottom.  German units start at the bottom of the screen and fight
+their way to the top of the screen.  If you have a difficult time envisioning
+this please refer to the map provided.
+
+1.5 Units
+---------
+The various units depicted in the game are represented graphically, by standard
+military symbols for type and size (see Unit Symbol Legend at back of rules
+book).  Units are given a number of characteristics, unit and parent unit
+designations, combat strength, efficiency, fortification level, supply status,
+mode, artillery support content, stacking value, and remaining operation points
+.  Units are either module or non-module (see Order of Battle Chart).  Module
+units are those such as tank or mechanized infantry that have transportation
+organic or inherent to the unit.  Non-module units have little or no such
+transportation and must rely on truck pools or travel by foot.
+   The standard unit of the game is the regiment/combat command.  These
+regiments may build up into divisional units which in turn may breakdown into
+component regiments.  Various armored support battalions and independent
+brigades have also been included.  Abbreviations used in unit designations are
+listed below:
+
+     PZ - Panzer
+   PZGR - Panzergrenadier
+    RCN - Reconnaissance
+    ENG - Engineer
+     VG - Volksgrenadier
+    ARM - Armored
+    CAV - Cavalry
+    INF - Infantry
+     AB - Airborne
+    DIV - Division
+    REG - Regiment
+   BRIG - Brigade
+   BATT - Battalion
+     TD - Tank Destroyer
+     FB - Fuehrer Begleit
+      G - Glider
+
+1.6 Starting the Game (Commodore 64)
+------------------------------------
+To begin the game, insert the game disk and type LOAD "*",8 and press <RETURN>.
+When READY appears type RUN and press <RETURN>.
+
+1.7 Starting the Game (Atari)
+-----------------------------
+Remove all cartridges from your computer.  To begin the game, boot up the
+Scenario side of the disk (800XL owners will have to hold down the OPTION key
+when they turn on their computer to boot the game).  After selecting the
+starting values for your game, you will be told to insert the Game Side of your
+disk.
+
+1.8 Starting the Game (Apple)
+-----------------------------
+To begin the game, boot your game disk and the game will start automatically.
+If you are using an Apple II with Pascal you must first use your BASICS disk.
+If you are using an Apple III you just first go into Apple II emulation mode.
+If you are using the Apple IIe, keep the CAPS LOCK key pressed down throughout
+the game.
+
+1.9 Parts Inventory
+-------------------
+Your game should contain the following parts:
+
+a. Game box
+b. Rule book
+c. One 5-1/4" game disk
+d. Two map cards
+
+2.0 SEQUENCE OF PLAY
+====================
+BREAKTHROUGH IN THE ARDENNES is a two-sided game.  German vs American.  The
+German forces must be commanded by the human player.  The American forces may
+be commanded by either a human or the computer.
+
+2.1 Determining Conditions of Play
+----------------------------------
+At the start of the game the player(s) must determine the conditions under
+which the game will be played from the menu below:
+
+1. NEW GAME            SAVED GAME
+2. LEVEL O PLAY           1 2 3 4
+3. HISTORICAL      NON-HISTORICAL
+4. SOLITAIRE           TWO PLAYER
+5. COLOR      BLACK/WHITE (ATARI)
+6. Scenarios
+     First Seven Days (16th-22nd)
+     Last Seven Days (21st-27th)
+     Twelve Days (16th-27th)
+
+If you choose a saved game all options will be pre-determined by that saved
+game.
+   The level of play represents handicaps given to the German forces.  Level
+four is the easiest level and level one is the hardest.  Level three is the
+historical level.  At level four the German player is given one more air point
+when due air points, double the normal replacement rate, and 50% more artillery
+points.  At level three no modifications are made to either side.  At level two
+the American player receives 25% more artillery points, double the amount of
+replacements, and two additional air points.  At level one the American
+receives 50% more artillery points, triple the amount of replacements, and four
+additional air points.
+   The historical/non-historical option allows the player(s) to experience the
+special command control problem the Americans had that prevented them from
+blocking the advance of the 116th and 2nd Panzer divisions to Houffalize and
+across the Ourthe River early in the battle.  Hexrows 13 through 17 may be
+entered only by selected American units (see Order of Battle).
+   The color option (Atari only.) gives the German player blue units and the
+black/white option gives him white units.
+   Three scenarios have been provided to allow players in experience the first
+or second half of the battle as well as the full twelve days.  Except for the
+Last Seven Days scenario the game begins with the Supply Phase at the beginning
+of the turn.
+
+2.2 Historical Set-Up
+---------------------
+At the start of the game the computer will assign all combat forces in their
+locations, depending on the scenario, when the Germans launched their
+offensive.
+
+2.3 Sequence of Play
+--------------------
+1. Air Phase
+2. Supply Phase
+3. Reinforcement Phase
+4. Unit Organization Phase
+5. American 1st Operation Phase
+6. American 1st Combat Phase
+7. German 1st Operation Phase
+8. German 1st Combat Phase
+9. American 2nd Operation Phase
+10. American 2nd Combat Phase
+11. German 2nd Operation Phase
+12. German 2nd Combat Phase
+
+2.4 Sequence of Play Exceptions
+-------------------------------
+The first turn (December 16), the Americans have no unit Organization Phase.
+Only a few American units are given operation points.  The Germans on December
+16th (the first turn) may not move during the 1st phase they may perform any
+other action (including allocating combat).  Some German units are given zero
+operation points and some receive decreased operation point allowances.  On
+December 17th (turn two) some American units have their operation points
+reduced.
+   The Americans are automatically supplied on December 16th and 17th (turns
+one and two).  The Germans are supplied through December 18th (turn three).
+
+3.0 AIR PHASE
+=============
+During this phase, players will allocate and execute ground attack and
+interdiction air missions.
+
+3.1 Air Point Schedule
+----------------------
+The American player receives air points according to the weather:
+
+     Clear - six points
+       Fog - two points
+  Overcast - zero points
+
+The German player receives two air points on December 18th (turn three) and
+receives the air point every turn with Fog weather.
+
+3.2 Air Mission Menu
+--------------------
+Either or both players receive air points a menu will appear with the following
+commands available:
+
+  (0-6): 0, centers the screen, 1-6: moves
+  the cursor in the indicated direction.
+
+  (Q)uit: Exits the menu.
+
+  (I)nterdiction: Adds an air point to interdiction of enemy movement.
+
+  (G)round Attack: Executes an attack on the hex beneath the cursor.
+
+3.3 Interdiction
+----------------
+Every air point allocated to interdiction acts as reduce operation points
+received by enemy units.  The more points allocated the greater the effect.
+Enemy units are randomly effected.
+
+3.4 Ground Attack
+-----------------
+Every enemy unit in the hex under attack has a 50% chance of being disrupted.
+In addition, units in travel mode have a 33% chance of being strafed. Disrupted
+units use half of their efficiency. Strafed units use 30% of their combat
+strength and are changed to normal mode.
+
+3.5 Air Drops
+-------------
+Air points not used in the Air Phase may be used air drops in the unit
+Organization Phase.  An air drop in a hex brings all units up one supply level
+(isolated to unsupplied and unsupplied to supplied).
+
+4.0 SUPPLY PHASE
+================
+Unit may be in three supply states: supplied, unsupplied, or isolated.  Units
+must have a supply line to a road that exits off a friendly map edge.  See 13.7
+for examples of supply.
+
+4.1 Supply Trace
+----------------
+to be in supply a unit must be able to trace a line of supply no more than two
+hexes, unblocked by enemy hexes, to a supplied road.  A supplied road is one
+that can trace a line of mad hexes off a friendly map edge, unblocked by enemy
+hexes. American friendly map edges are the north, south and west edges.  The
+Germans have only the east map edge.  An enemy hex is one that either contains
+an enemy unit or one that was last entered by an enemy unit.  Players do not
+need to concern themselves with the actual trace.  The computer does it for all
+units.  Note that enemy zones of control (hexes next to enemy units) do not
+block the supply trace.
+
+4.2 Supply States
+-----------------
+A unit is supplied if its supply trace is successful.  A unit is unsupplied if
+not successful.  A unit is isolated if it is unsupplied, surrounded by enemy
+zones of control or units (zones of control must be exerted by a adjacent enemy
+units to be effective), and not under the command control of a division.  A
+unit is under the command control of a division by being itself a divisional
+unit, or by being on or adjacent to a hex containing a divisional unit.
+
+4.3 Supply Effects
+------------------
+Unsupplied units have their operation points halved.  They not only fail to
+recover efficiency, but also suffer an additional efficiency loss.  They have
+their modified combat strength cut by 25% when defending and 50% when attacking
+and may not transfer artillery in or out.  Bridge blowing or building and
+fortifying may not be performed by unsupplied units.  Isolated and unsupplied
+units may not change to travel mode.  In addition such units are automatically
+changed to normal mode if in travel mode when their status changes in the
+Supply Phase unless their status changes due to the random fuel effect.
+   Isolated units suffer the same penalties as unsupplied units with some
+differences.  Their modified combat strength is cut by 50% when defending, they
+receive zero operation points, and three is a 40% chance that they will
+surrender when attacked.  As implied, isolated units may not attack.
+
+4.4 Supply Exceptions
+---------------------
+American units are automatically considered in supply on December 16th and 17th
+(the first two game turns).  German units are in supply through December 18th
+(turn three).
+   Starting on December 20th (turn five) there is a 12% chance that any
+isolated German unit will run out of fuel, such units are given an unsupplied
+status.  In respective of the supply trace.
+
+5.0 REINFORCEMENT PHASE
+=======================
+The computer will automatically enter reinforcements on the map edges according
+to the Order of Battle Chart located at the back of the rules book.
+
+5.1 Entry Hexes
+---------------
+If the entry hex of a reinforcement unit is enemy occupied or its entry would
+violate stacking the unit will enter a nearby map edge road hex.  Entry hexes
+are listed on the Order of Battle Chart for reinforcing units.
+
+5.2 Delayed Arrival
+-------------------
+Each side is allowed only so many units on the map at one time.  The American
+may have fifty-seven and the German seventy.  If a reinforcing unit would
+violate this limit then the unit's arrival is delayed that turn.  The player
+would have to build up units or through combat, lose & unit in order for the
+reinforcing unit to appear the next turn.  For every 50 combat points exited
+off the map by the German player the American player has the very next
+reinforcing unit on the north or west map edge permanently delayed.
+
+6.0 UNIT ORGANIZATION PHASE
+===========================
+During the phase players may perform several operations including artillery
+transfer, unit build-up and breakdown, bridge blowing and building, inputting
+replacements, and exiting units from the map.
+
+6.1 Cursor Menu
+---------------
+while in this menu a player may choose the following functions:
+   (0-6): 0, centers the screen and 1-6, moves the cursor in the indicated
+   direction.
+
+   (G)et: Accesses the unit in the hex beneath the cursor.
+
+   (Q)uit: Exits the current player's Unit Organization Phase.
+
+   (D)isplay: Pressing this key will change the time its takes for the
+   computer to clear the screen after certain displays.  The number in
+   parentheses is the current display time.  The higher the number, the
+   longer the displays will stay on the screen.  Pressing the key will change
+   the number by one.  When ten is reached, the next number accessed is zero.
+
+   (T)errain: Removes all unit shapes from the map to expose the terrain under-
+   neath.  Press any key to return units.
+
+6.2 Unit Menu
+-------------
+When the (G)et function is used from the cursor menu and there is more than one
+unit in the hex, a list of the units is displayed.      from one to two or
+three.  Pressing a number will access that unit while pressing (Q)uit will
+return to the cursor menu.
+
+6.3 Unit Organization Menu
+--------------------------
+An accessed unit will have it's statistics and conditions displayed (see
+example at end of rules book for explanation of display).  At the bottom of the
+display is a list of actions of functions that may be performed.
+
+   (A)rtillery: Artillery transfers
+   (M)ax Artillery: Gives the unit maximum artillery allowed.
+   (R)eplacements: Replacement allocation Numbers indicate available
+   replacement pools.
+   (B)uild up Breakdowns: Allows building up and breaking down of regiments and
+   divisions.
+   (P)ools: Display artillery pools available in the corps for transfer.
+   (D)estroying Bridges: Activates bridge blowing.
+   (C)onstructing Bridges: Activates bridge building.
+   (Q)uit: Returns to cursor menu
+   (G)et: Accesses units in hex.
+   (S)upply Air drop: Drops supplies (see 3.5 Air Drops)
+
+6.4 Artillery Transfers
+-----------------------
+All units that belong to a division may transfer to or from their corresponding
+Artillery Corps Pool (see Artillery Corps Pool Table).  Only units that belong
+to a division may contain artillery.  Isolated units may not transfer artillery
+.  At the beginning of the turn all artillery points contained by units are
+transferred back into the Artillery Corps Pools.
+   American units may contain up to 30 artillery points per stacking point.
+German units may contain up to 33 points for the first three turns and 15
+points thereafter.  A unit automatically returns half of its artillery to the
+pool for every hex moved into (except retreats).  Artillery points may be
+permanently lost due to combat.
+   Artillery Corps Pool may receive additional points as reinforcements (see
+Artillery Corps Pool Table).  German pools actually use points early in the
+game to reflect the mobility of their artillery.
+
+6.5 Replacements
+----------------
+Starting December 19th (turn four) both players may input replacements into
+infantry and armored formations.  Independent units and battalion formations
+may not receive replacements.  Units must be supplied to receive replacements.
+The American may input 15 infantry points and 10 armored points per turn.  The
+German may input 10 infantry and 15 armored points.  Replacements may not be
+accumulated from turn to turn.  Replacements available are displayed on the
+Unit Organization Menu.
+
+6.6 Build-ups and Breakdowns
+----------------------------
+Two or three regiments of the same division may build-up into a divisional
+unit.  A regiment may also build into its already present divisional unit.
+Units must be in the same hex to build-up into the parent divisional unit.
+A divisional unit may breakdown into a component regiments.  Unit strengths,
+efficiencies, and fort level are added together to averaged as appropriate in
+the build-up and breakdown process.  A unit(s) assumes in supply status of the
+unit issuing the command.  Built-up or broken down units assume a normal mode.
+   Breakdown will not be permitted if the unit limit of the player would be
+exceeded.  The remaining number of available unit slots is displayed in
+parentheses, following the build-up Breakdown command.  A divisional unit will
+have a stacking value equal to the number of units built into it.  Some
+divisions contain four regiments.  Only three of those may build up into the
+divisional unit since only three stacking points are allowed in a hex.
+   Divisional units may not change into travel mode.  They receive a 25% combat
+strength bonus.
+
+6.7 Bridges
+-----------
+Bridges may be blown and rebuilt at bridge sites (see map) by adjacent units
+for an operation point cost (see Operation Costs Table).  Only engineer units
+may build bridges for the Germans.  Any American unit may conduct bridge
+operations.  Isolated units or units in travel mode may not perform bridge
+operations.
+   A unit may only make a bridge blowing attempt once a turn.  Engineer units
+have 50% chance of being successful and all others have a 35% chance.  Bridge
+building is automatic.  Units cannot build bridges when next to an enemy unit.
+   Mobile units except for engineers and panzergrenadiers may cross a river
+only through a bridge when in travel mode.  The first German unit across a
+bridge (that current turn) incurs no additional operation point cost.  Each
+German unit thereafter has two more operation point cost (+2) to cross that
+bridge than the previous unit.
+
+7.0 OPERATION PHASES
+====================
+During these phases players expend operation points performing actions that
+include: moving, changing mode, plotting combat and advances, and fortifying.
+
+7.1 Cursor Menu
+---------------
+While in this menu a player may choose the following functions:
+
+  (0-6): 0, centers the screen and 1-6, moves the cursor in the indicated
+  direction.
+
+  (G)et: Accesses the unit(s) in the hex beneath the cursor.
+
+  (C)ombat: Exits the Operations Phase and activates combat resolution.
+
+  (T)errain: Removes all unit shapes from the map to expose the terrain
+  underneath.  Press any key to return units.
+
+7.2 Unit Menu
+-------------
+When the (G)et function is used from the cursor menu and there is more than one
+unit in the hex, a list of the units is displayed, numbered from one to two or
+three.  Pressing a number will access that unit while pressing (Q)uit will
+return to the cursor menu.
+
+7.3 Command Menu
+----------------
+An accessed unit will have a number of available commands displayed with some
+unit statistics below the actual game map.  Below are listed the commands from
+which the unit may choose.
+
+  (A)dvance: Order unit to advance after combat.  An "Y" after this command
+  signifies that the unit will advance while an "N" signifies that it will not.
+
+  (0-6): Centers and moves unit under the cursor.
+
+  (F)ort: Fortify one level.  The number following is the current fort level.
+
+  (M)ode: Changes mode.  Letter indicate present mode (T=Travel and N=Normal).
+
+  (D)isplay: Displays unit conditions and statistics.
+
+  (G)et: Accesses units in the hex.
+
+  (Q)uit: Returns to cursor menu.
+
+  (T)errain: Removes units from the map.
+
+  (E)xit: Exits German unit from eligible map edge.
+
+7.4 Operation Point Allowances
+------------------------------
+Units of both sides receive operation points at the beginning of the turn and
+then again at the beginning of the second operation phase.  The number of
+operation points received is dependent upon a unit's base allowance, air
+interdiction mode, and supply state.  The following are base allowances of the
+various unit types (#/#, first number is operation points received at beginning
+of turn and second is number received the second operations phase):
+
+   German
+
+   PZ divisions and regiments           - 24/10
+   PZ brigades and PZGR units            - 20/10
+   Piper's PZ regiment                  - 32/10
+   RCN (reconnaissance) units           - 28/10
+   ENG                                  - 20/10
+   VG, FJ, and ENG                      - 12/6
+
+
+   American
+
+   Armored units                        - 15/20
+   Cavalry units                        - 20/20
+   Infantry, Airborne, and ENG          -  9/9
+
+In addition to the second phase's base allowance a unit will accumulate a
+portion of the beginning allowance, unused in the first phase.  American mobile
+units may have a maximum of 24 and German mobile 20 operation points for the
+second phase and non-mobile units 12 points.  Non-mobile American units receive
+double their regular allowance if in travel mode.  Operation point allowances
+are cut in half for unsupplied units and reduced to zero for isolated units.
+There is no second phase allowance on December 16th (the first turn of the
+game).
+
+7.5 Moving a Unit
+-----------------
+To move a unit simply press 1-6, corresponding to the direction you wish to move
+(as indicated by the compass on the display).  The operation point cost of the
+hex moved into will be subtracted from the unit's remaining operation points
+(see Operation Costs Table for complete list of costs).
+   If a unit has insufficient operation points to move into a hex it will not
+move unless the unit hasn't yet moved that turn and the hex being moved into is
+not adjacent to an enemy unit.  The unit is then moved and its operation points
+is reduced to zero.
+
+7.6 Zones of Control, Movement Restrictions and Stacking
+--------------------------------------------------------
+The six hexagons surrounding a unit constitutes its zone of control (ZOC).
+Units must pay an additional operation point cost to enter or leave an enemy
+ZOC.  Units moving in normal mode directly from one enemy ZOC to another have
+their operation points reduced to zero.  Fortifying costs more when in an enemy
+ZOC.  To be isolated unsupplied units must be surrounded by enemy ZOC (of enemy
+units adjacent to them).  Bridge building may not be conducted in enemy ZOC.
+Units that must retreat into an enemy ZOC lose extra casualties.  The 150th
+German Panzer Brigade does not pay ZOC costs through December 17th (turn two).
+This unit had a special infiltrating mission and was composed mainly of
+captured American equipment.
+   German units may not move into the zero hexrow of the X coordinate of the
+map (the leftmost vertical hexrow).  This rule exists to limit unrealistic
+German control of the southern hexrow and allows ample room for reinforcing
+American units.  American units except (or those indicated on the Order of
+Battle Chart, may not enter X coordinate hexrows eleven through seventeen
+inclusive through December 22nd (turn seven).  This restriction is in effect
+only if the Historical option is used when first setting up the game.  This
+restriction reflects the command control and communications problems the
+Americans experienced between the northern and southern portions of the
+battlefield that allowed German Panzer formations to reach Houffalize and cross
+the Ourthe River relatively early.
+   Units may not use road movement costs unless in travel mode (see 7.2 Travel
+Mode).  Mobile units except for engineers and Panzergrenadiers may only cross
+a river in Travel mode at a bridge.  Engineer units reduce operation point
+costs for units crossing rivers in normal mode if the engineer unit occupies
+either hex of the river crossing.
+   Each non-divisional unit has a stacking value of one.  A divisional unit has
+a stacking value equal to the number of units built into.  No more than three
+stacking points may be in a hex at any one time.  Units in travel mode pay one
+more operation point to stack with friendly units to normal mode.  Units in
+travel mode may not stack together (except receiving reinforcements).
+
+7.7 Travel Mode and Road Movement
+---------------------------------
+   Unit may change from normal to travel mode or from travel to normal mode at
+the cost of operation points (see Operation Costs Table).  An unsupplied or
+isolated unit may not change to travel mode.  American non-mobile units have
+their remaining operation points doubled when they enter travel mode.  Units
+in travel mode change automatically to normal mode when strafed.  Travel mode
+units have their modified combat strength reduced by 40%.
+   Units may only use road movement costs when in travel mode.  Units in travel
+mode may only move into a hex that hex a white hexside in common with its
+current hex.  That white hexside represents a road connecting the two hexes
+thrown on the C64).  Travel mode units expand an additional point to stack.
+Travel mode units may not stack with each other except when first received as
+reinforcements.
+
+7.8 Fortifications
+------------------
+Unit may fortify to five levels by expending the operation point cost (see
+Operation Cost Table).  Fortification costs more when the unit is next to an
+enemy unit.  Fortification costs less when an engineer unit in normal mode is
+present.  When a unit moves its fortification level returns to zero.  A unit's
+modified combat strength when defending is increased by 30% per level of
+fortification.  A unit's chances of retreating are also decreased when
+fortified.
+
+7.9 Plotting Combat and Advancing After Combat
+----------------------------------------------
+Both the defender and attacker expend operation points in combat if a unit
+attacks in the second operations phase all remaining operation points are used.
+A unit that attempts to move onto an enemy unit will plot combat against that
+hex provided the unit has sufficient operation points.  The direction that the
+unit attacked will now be displayed whenever the unit is accessed.  Combat
+plots may not be rescinded.
+   A unit may designate itself to advance after combat.  It will advance if
+eligible.
+
+7.10 Exiting German Unit
+------------------------
+The German player may exit units off the map from specific hexes (see map) on
+the west and north map edges.  Such units may never reenter the game.
+   Exited German units gain victory points every turn.  These points are not
+added to the score until the end of the game, provided that the hex exited from
+is still in German supply.  For every 50 combat points of units exited the
+American player has his very next reinforcing unit on the north of west map
+edge permanently delayed from entering the game.
+
+8.0 COMBAT
+==========
+When the Combat Phase is initiated each combat plotted by the player is
+resolved in order of the actual plotting.  The combat strengths for both sides
+are added up and modified by various factors to determine the battle odds.
+Losses are then determined and distributed among the participating units.
+Retreats and advances are executed by the computer for eligible units.  Odds,
+losses, and retreat results are displayed on the screen.  In addition, the
+approximate, unmodified combat strength and hex location of the defender are
+also displayed.
+
+8.1 Efficiency
+--------------
+Each unit has an efficiency that ranges from 40% to 100%.  A unit's combat
+strength is directly modified by its efficiency (a combat strength of 50 with
+80% efficiency would have a modified strength of 45).  Efficiency represents
+fatigue and disruption incurred by a unit from movement and combat.  A unit
+loses efficiency for every hex it moves into (except when in travel mode).  A
+unit loses efficiency in battle according to its losses.  Attacking units will
+lose more efficiency than defending units on a per loss basis.  Isolated and
+unsupplied units lose efficiency at the beginning of each turn.
+   Units supply regain some efficiency at the beginning of each turn.  Any
+unused operation points from the previous movement phase recover efficiency on
+a point for point basis at the beginning of the turn.
+
+8.2 Combat Strength Modifiers and Bonuses
+-----------------------------------------
+The terrain of the defender will modify his strength according to the Combat
+Modified Table.  The attacker will be cut by 25% attacking across a river
+hexside.  A units fortification level will increase its strength when defending
+by 30% per level.  Unsupplied units have their attack strengths cut by 50% and
+their defense cut by 25%.  Isolated units may not attack and are cut by 50%
+when defending.
+   After the above modifiers are applied, the unit any divisional bonuses are
+the applied.  Artillery points for the attacker and defender are then added to
+the strength totals.  Artillery points for the attacker are halved against
+towns and reduced by 10% per fort level.  A unit may not be modified by more
+than triple its combat strength, excluding divisional bonus and artillery.
+
+8.3 Casualties
+--------------
+The attacker's losses are based on its unmodified combat strength, a random and
+a constant.  The defender's losses are based on the attacker's losses, odds and
+a random.  In addition losses are incurred by artillery.  The defender loses
+one strength point per twenty enemy artillery points and the attacker loses one
+strength point per ten enemy artillery points.  Losses are distributed to units
+proportionately based on combat strength.
+
+8.4 Retreats and Advances
+-------------------------
+Retreats are based on the percent of casualties lost, unit efficiencies,
+fortification levels and a random.  Units in towns and units without retreat
+routes will not retreat, but will incur an additional strength loss.  Unit
+retreating into an enemy ZOC will incur additional casualties.
+   The computer will automatically retreat and advance units.  Generally, units
+will retreat toward friendly lines away from the attacking force.  The first
+unit to plot the attack will advance first if eligible.  Units will not advance
+or retreat where normally prohibited in regular movement.  Units expend
+operation points when retreating on advancing (except ZOC costs).  A unit will
+advance or retreat even if it has insufficient operation points.
+
+9.0 WEATHER
+===========
+Weather affects the number of air points that each side receives.  A ground
+freeze starting December 24th (turn nine) and lasting until the end of the game
+is independent of the weather (see Operation Combat Table).  Below is a chart
+that shows the chances of the various types of weather occurring by turns:
+
+  December 16th and 17th - 100% Overcast
+
+  December 18th through 21st - 80% Overcast and 50% Fog
+
+  December 22nd through 24th - 18% Overcast and 34% Fog and 50% Clear
+
+  December 25th through 27th - 34% Fog and 66% Clear
+
+
+10.0 VICTORY CONDITIONS
+=======================
+The German gains victory points taking the exiting units eliminating
+American units, having a lesser percent of its combat strength eliminated, and
+controlling road hexes north of St. Hubert and west of the Ourthe River.  The
+German player loses points for eliminated German units and having a greater
+percent of its combat strength eliminated than the American.  The total points
+are used to determine the level of victory.
+
+10.1 Victory Points
+-------------------
+At the end of the game the German receives 25 point per town that he controls
+(50 points for Bastogne).  He also will receive 25 points per turn for holding
+the towns below the German receives 50 points per turn for Bastogne 7.13).
+
+               LOCATIONS                        LOCATIONS
+
+ Rochefort       14,2          Hotten             18,7
+ Marche          17,4          Ouffet             26,7
+ Elsenborn       27,25         Durbuy             22,7
+ St. Vith        19,23         Aywaille            8,13
+ Malmedy         26,21         Spa                28,16
+ Stavelot        24,19         Stoumont           25,16
+ Trois Ponts     23,17         Havelange          24,1
+ Manhay          20,13         Huy                30,3
+ Aerbomont       23,12
+
+German units that exit the eligible west or north map edges (see map) receive
+points based on the turn they exit and combat strength.  A unit receives one
+victory point per three combat point per turn that it has exited provided the
+road hex it exited from is still in supply at the end of the game.
+   The German receives 50 points per eliminated American stacking point and
+loses 50 points per eliminated German stacking point.  Engineers and battalion
+sized units do not count.
+   At the end of the game the percent of combat strength left for each side
+will be determined.  For every percentage point that the German has more than
+the American, he receives 20 points.  For every percentage point less than the
+American, he loses 20 points.
+   At the end of the game the German will receive 3 points per controlled,
+supplied road hex north of St. Hubert and west of the Ourthe River.
+
+10.2 End of Game and Victory Levels
+-----------------------------------
+When the game ends the program will continue to the next turn's Supply Phase to
+calculate victory points.  At this time you will be allowed to access units on
+both sides to examine them.
+   The German score at the end of the game is compared to the chart below for
+the level of victory.
+
+   (1)     (2)      Level of Victory
+
+  1000    1600      American Strategic
+  1100    1700      American Tactical
+  1200    1800      Draw
+  1700    2300      German Tactical
+  1900    2700      German Strategic
+
+The (1) column refers to the First Seven Day scenario and the (2) column refers
+to the Last Seven Day scenario and the Twelve Day scenario.  The points listed
+are the minimum needed to attain that level of victory.
+
+11.0 HISTORICAL COMMENTARY
+==========================
+In September 1944 the German army was on the verge of defeat.  On the Western
+Front the Germans were outnumbered nearly 2:1 in divisions.  The British/U.S.
+forces had reached the Westwall defenses on the German border.  On the Eastern
+Front the Russians had driven to East Prussia and had conquered most of
+Rumania.  In Italy the Germans had been slowly pushed back to the Po Valley in
+northern Italy.  During June, July and August the Germans had suffered
+tremendous losses in manpower and there were shortages in tanks, ammunition
+and fuel.
+   Hitler then had an inspiration to launch a counterattack from the Ardennes
+with the objective being the large port of Antwerp which the British had
+captured intact.  If Antwerp could be taken, it would cut off the entire
+British/Canadian Armies, the Ninth U.S. Army and part of the First U.S. Army
+in Holland and Belgium.
+   During August and September the Western Allies had driven across France and
+Belgium to the German border.  The Germans still held onto some of the major
+ports on the coast which forced the Allies to haul supplies from the Normandy
+beachhead.  The Allied supply line was therefore extremely stretched and
+incapable of supplying all the forces at once.  Hitler guessed that this would
+give him time to prepare his defenses along the Westwall and build up his
+strength in order to launch the counterattack.  The autumn rain and mud would
+also help to slow down the Allied attacks.
+   Due to the powerful Allied air force which controlled the skies.  Hitler
+needed a few days of overcast weather to begin this attack and break through
+to reach Antwerp.  The Ardennes sector was thinly held by both sides and was
+used as a resting place for worn out units which had taken heavy losses (4th
+and 28th Infantry Divisions) or a place to put newly arrived units in the line
+(106th Infantry Division).  By concentrating the German forces on a narrow
+front.  Hitler hoped to quickly pierce the front line and strike for the Meuse
+River crossings and then take Antwerp.  The heavily wooded Ardennes area would
+provide excellent cover to conceal the buildup of forces near the front line.
+   Initially the Germans had 13 Infantry and 7 Panzer Divisions in the assault.
+Against them were 5 Infantry Divisions, 3 Cavalry Regiments, and 1 Armored
+Division.
+   During the early morning hours of December 16, 1944 the Germans unleashed
+their long awaited counteroffensive.  A tremendous artillery barrage was fired
+disrupting Allied communications and causing panic in some of the green
+American units.  The Germans quickly infiltrated through the scattered U.S.
+positions and soon had overrun or surrounded the 28th and 106th Infantry
+Divisions and the 14th Cavalry Division.  Two regiments of the 106th Infantry
+were isolated, their retreat route blocked by advancing German units.  They
+surrounded on December 19th.
+   By December 19, the 2nd 99th, and 9th Infantry Divisions securely held the
+line extending northward and from Elaenborn.  Any further attacks would be
+repulsed with heavy losses.  Piper/1SS had managed to get to Stoumont, but was
+now out of fuel and nearly surrounded by reinforcing American units.  The 1st
+and 30th Infantry Divisions held the area from Elsenborn to Stoumont.  The 7th
+Armored, 424/106, and 112/28 held the Fortified Goose Egg which included the
+area around St. Vith stretching to Vielsam.  The 82nd Airborne was deploying
+along the Salm River from Trois Ponts to Vielsam and westward to a point a few
+miles south of Manhay.  The 101st Airborne Division had just barely arrived
+in Bastogne in time.
+   By the 19th the 116th Panzer Division had reached Houflalize and was looking
+for a bridge site over the Ourthe River.  The 2nd Panzer Division was north of
+Bastogne and Panzer Lehr was just to the east of Bastogne.  The 5th
+Fallschirmjager Division was about to enter Wiltz and the 352nd Infantry had
+taken Diekirch and was moving on Ettelbruck.
+   By December 23, Bastogne was surrounded by the German 26th VG Division and
+part of Panzer Lehr.  The 2nd Panzer Division was close to Marche.  The 116th
+Panzer was attacking the U.S. 3rd Armored in Hotton.  The remnants of the
+American forces who had held the Fortified Goose Egg had just withdrawn across
+the Salm River by Vielsam.  They had held against German advance for a full
+week giving the Allies the precious time needed to form a defensive line
+further to the west.  The 1st SS and 9th SS Panzer Divisions were attacking
+from Trois Ponts to Vielsam.
+   By December 27, the 2nd Panzer Division had been mauled by the U.S. and
+2nd Armored Division near Celles and had to retreat back to Rockhefort.  The
+9th Panzer was attacking the 84th Infantry near Marche.  The 9th SS Panzer had
+pushed the 82nd Airborne which was now holding a line from Trois Ponts to
+Manhay.  The U.S. 4th Armored Division managed to open a narrow corridor into
+Bastogne and had linked up with the valiant defenders of the 101st Airborne.
+On the south flank the Germans held positions across the Sure River against
+attacks by the 80th, 26th and 35th Infantry Divisions.
+   On January 2 the Allies would begin their counterattack to reduce the bulge
+created by the German offensive.  By the end of January the front lines would
+be back to where they were on December 16.
+   The German breakthrough in the Ardennes failed for a number of reasons.  The
+tenacious American defense at key road functions delayed the German advance
+enough to allow American reinforcements to arrive on the battlefield and deploy
+American reinforcements arrived much sooner than the Germans thought possible
+whereas German reserves were committed too late.  The road net quickly became
+very congested, traffic being jammed far behind the forward advancing units.
+In addition poor weather conditions created extremely treacherous roads.
+American airpower proved devastating to any German vehicles moving along the
+roads during daylight hours in clear weather.  The failure to capture key road
+centers also caused traffic to back up soon after the initial German assault
+was made.  German stocks of fuel and artillery ammunition were running low.
+All of these factors doomed the German breakthrough in the Ardennes and ended
+any hope of a quick German victory.
+
+12.0 STRATEGY & TACTICS
+=======================
+After playing the game several times the designers and playtesters give the
+following suggestions:
+
+German Player
+-------------
+Plan ahead where you wish to make your major attacks.  Earmark those areas to
+receive fresh reinforcing divisions and artillery assignments.  When units
+arrive at the front build up into divisions for maximum penetrating power.
+Make the most out of the first few turns when American reaction is slow.
+Taking the divisions at hand, drive up the Houttalize corridor and cross the
+Ourthe River as soon as possible.  Once across the Ourthe strike toward
+Rochefort and the edge of the map.  As you do this, surround and contain
+Bastogne, bringing up fresh divisions to wear down the defenses.  Allocate two
+or three divisions to protect the southern flank from reinforcing American
+units.  Remember that roads are the key to supplying your units.  Seize and
+maintain a good road net along your avenues of advance.  Examine the victory
+conditions carefully and plan accordingly.
+
+American Player
+---------------
+You must use your forces at hand carefully to maximize slowing down the German
+advance.  Holding key road junctions or placing road junctions in your ZOC will
+most effectively slow the German advance.  Take special care in placing the
+independent units that are allowed to enter the Houffalize corridor.  The
+German potential for deep penetration and/or breakthrough is greatest in this
+area.  Blow the bridges across the Ourthe River to slow the German advance.  If
+units are being encircled by German forces either pull back or divisionalize to
+prevent from being isolated.  Towns are potential strongpoints (and worth
+victory points), so think twice before you abandon one.  When your reinforce-
+ments have arrived at the front and the German advance has been slowed, plan
+your counterattacks carefully, utilizing divisionalized units, fresh units, air
+strikes, and artillery.  Attack where the German is vulnerable and where a
+supply route can be exposed.  Retake towns and push the German east of the
+Ourthe River where possible.
+
+13.0 CHARTS, TABLES, AND EXAMPLES OF PLAY
+=========================================
+
+13.1 Unit Symbol Legend
+-----------------------
+
+
++--------+
+| \    / |
+|   \/   |     - Airborne or Fallschlemjager
+|  / \   |
+|/     \ |
++--------+
+
+
++--------+
+|        |
+|        |     - Infantry or Bolkagrenadier
+|  / \   |
+|/     \ |
++--------+
+
++--------+
+| \    / |
+|   \/   |     - Engineer
+|  / \   |
+|/     \ |
++--------+
++--------+
+|    |   |
+
++--------+
+| \----/ |
+| | \/ | |     - Panzergrenader
+| |/ \ | |
+|/ ----\ |
++--------+
+ o  o  o
+
+
++--------+
+|  ____  |
+| |    | |     - Panzer, Tank or Armored
+| |____| |
+|        |
++--------+
+
++--------+
+|      / |
+|    /   |     - Recon or Cavalry
+|  /     |
+|/       |
++--------+
+
+  X - Brigade
+ XX - Division
+
+ || - Battalion
+||| - Regiment
+
+
+  X   X   <----- Size (Division)
++--------+
+| \    / |
+|   \/   |     - Type (Infantry)
+|  / \   |
+|/     \ |
++--------+
+
+
+13.2 Order of Battle Chart
+--------------------------
+
+                         Com- Start-  Start-
+   11,111/XX/XXX   Type  bat  Date    Loc.      Mob
+   ------------------------------------------------
+   American
+
+   422/106/XVII    INF   40   16th    19,28     N
+   423/106/XVII    INF   40   16th    18,28     N
+   424/106/XVII    INF   40   16th    16,25*    N
+   112/28/VII      INF   45   16th    13,24*    N
+   -/28/VIII       INF   15   16th     2,26     N
+   -/28/VIII       INF   15   16th     2,24     N
+   -/28/VIII       INF   15   16th     4,25     N
+   -/28/VIII       INF   15   16th     7,22     N
+   -/28/VIII       INF   15   16th     9,22     N
+   -/28/VIII       INF   15   16th     9,20     N
+   -/IND           INF   30   16th    26,21     N
+   9/2/V           INF   50   16th    29,27     N
+   23/2/V          INF   50   16th    27,26     N
+   38/2/V          INF   50   16th    28,28     N
+   393/99/V        INF   40   16th    26,29     N
+   394/99/V        INF   40   16th    25,28     N
+   395/99/V        INF   40   16th    27,28     N
+   CCB/9/VIII      ARM   55   16th    21,24     Y
+   H/9/VIII        ARM   15   16th     7,15     Y
+   R/9/VIII        ARM   15   16th     8,17     Y
+   18/14/XVII      CAV   15   16th    22,30     Y
+   30/14/XVII      CAV   15   16th    19,18     Y
+   102/-/V         CAV   40   16th    30,27     Y
+   1102/-/VIII     ENG   10   16th     7,13*    N
+   1128/-/VIII     ENG   10   16th     6,19*    N
+   1111/-/VIII     ENG   10   16th    23,17*    N
+   1107/-/VIII     ENG   10   16th    19,23*    N
+   CCA/7/XVII      ARM   55   18th    30,13     Y
+   CCB/7/XVII      ARM   55   17th    30,15     Y
+   CCR/7/XVII      ARM   55   18th    30,13     Y
+   C/10/XII        ARM   15   17th     0,14     Y
+   D/10/XII        ARM   15   17th     0,14     Y
+   O/10/XII        ARM   15   17th     0,14     Y
+   16/1/V          INF   50   19th    30,22     N
+   18/1/V          INF   50   19th    30,22     N
+   26/1/V          INF   50   17th    30,22     N
+   TD-A/-/-        ARM   25   18th    30,9*     Y
+   39/9/V          INF   45   18th    30,22     N
+   47/9/V          INF   45   18th    30,22     N
+   60/9/V          INF   45   22nd    30,16     N
+   117/30/XVII     INF   45   18th    30,12     N
+   119/30/XVII     INF   45   18th    30,13     N
+   130/30/XVII     INF   45   18th    30,16     N
+   TD-B/-/-        ARM   25   19th    30,12*    Y
+   327G/101/VIII   AB    40   19th     1,0      N
+   501/101/VIII    AB    40   19th     1,0      N
+   502/101/VIII    AB    40   19th     3,0      N
+   506/101/VIII    AB    40   19th     3,0      N
+   327G/82/XVII    AB    40   19th    19,0      N
+   504/82/XVII     AB    40   19th    19,0      N
+   505/82/XVII     AB    40   19th    22,0      N
+   508/82/XVII     AB    40   19th    22,0      N
+   CCA/3/VII       ARM   65   21st    30,12     Y
+   CCB/3/VII       ARM   60   19th    30,12     Y
+   CCR/3/VII       ARM   55   20th    30,12     Y
+   354/-/-         ENG   10   20th     9,0*     N
+   1313/-/-        ENG   10   20th    19,0*     N
+   333/84/VII      INF   45   21st    30,2      N
+   334/84/VII      INF   45   20th    30,6      N
+   335/84/VII      INF   45   21st    30,6      N
+   TD-C/-/-        ARM   25   21st     0,14*    Y
+   517/-/-         AB    40   22nd    30,9*     N
+   317/84/XII      INF   45   22nd     0,23     N
+   318/84/XII      INF   45   22nd     0,23     N
+   319/84/XII      INF   45   22nd     0,23     N
+   101/26/III      INF   45   22nd     0,20     N
+   104/26/III      INF   45   22nd     0,20     N
+   328/26/III      INF   45   22nd     0,20     N
+   CCA/4/III       ARM   45   22nd     0,14     N
+   CCB/4/III       ARM   45   22nd     0,14     Y
+   CCR/4/III       ARM   45   22nd     0,14     Y
+   CCA/2/III       ARM   65   22nd    30,2      Y
+   CCB/2/III       ARM   65   22nd    30,6      Y
+   CCR/2/III       ARM   55   22nd    30,9      Y
+   1308/-/-        ENG   10   22nd    19,0*     N
+   289/75/VII      INF   40   23rd    30,2      N
+   290/75/VII      INF   40   23rd    30,6      N
+   291/75/VII      INF   40   23rd    30,6      N
+   TD-D/-/-        ARM   25   23rd    30,6      Y
+   329/83/VII      INF   45   25th    30,2      N
+   330/83/VII      INF   45   25th    30,6      N
+   331/83/VII      INF   45   25th    30,6      N
+   134/35/III      INF   45   25th     0,20     N
+   137/35/III      INF   45   25th     0,20     N
+   324/35/III      INF   45   25th     0,14     N
+
+
+
+                         Com- Start-  Start-
+   11,111/XX/XXX   Type  bat  Date    Loc.      Mob
+   ------------------------------------------------
+   German
+
+   2/2/XLVII       PZGR  45   16th     9,23     Y
+   3/2/XLVII       PZ    55   16th     9,24     Y
+   304/2/XLVII     PZGR  45   16th     9,23     Y
+   1/1SS/ISS       PZGR  65   16th    23,31     Y
+   2/1SS/ISS       PZGR  65   16th    23,31     Y
+   Piper/1SS/ISS   PZ    85   16th    23,31     Y
+   39/26/XLVII     VG    55   16th     8,24     N
+   77/26/XLVII     VG    55   16th     8,24     N
+   78/26/XLVII     VG    45   16th     7,24     N
+   16/116/LVII     PZ    55   16th    13,26     Y
+   60/116/LVII     PZGR  45   16th    13,25     Y
+   156/116/LVII    PZGR  60   16th    13,25     Y
+   5/3/ISS         FJ    32   16th    23,30     N
+   8/3/ISS         FJ    32   16th    24,31     N
+   9/3/ISS         FJ    45   16th    24,30     N
+   12/12SS/ISS     PZ    60   16th    28,31     Y
+   25/12SS/ISS     PZGR  60   16th    27,30     Y
+   26/12SS/ISS     PZGR  60   16th    28,31     Y
+   190/LEHR/XLVII  PZ    32   16th     8,27     Y
+   901/LEHR/XLVII  PZGR  32   16th     7,26     Y
+   902/LEHR/XLVII  PZGR  32   16th     8,26     Y
+   REC/LEHR/XLVII  CAV   40   16th     7,27     Y
+   969/277/ISS     VG    25   16th    27,29     N
+   990/277/ISS     VG    25   16th    26,30     N
+   991/277/ISS     VG    15   16th    26,30     N
+   914/352/LXXXV   VG    25   16th     3,26     N
+   915/277/ISS     VG    25   16th     3,26     N
+   916/277/ISS     VG    25   16th     3,26     N
+   164/62/LXVI     VG    25   16th    16,26     N
+   183/62/LXVI     VG    25   16th    15,25     N
+   190/62/LXVI     VG    25   16th    16,26     N
+   27/12/ISS       VG    25   16th    25,29     N
+   48/12/ISS       VG    25   16th    25,29     N
+   89/12/ISS       VG    25   16th    25,30     N
+   1128/560/LVIII  VG    32   16th    12,25     N
+   1129/560/LVIII  VG    15   16th    12,25     N
+   1130/560/LVIII  VG    25   16th    12,25     N
+   293/18/LXVI     VG    25   16th    17,27     N
+   294/18/LXVI     VG    25   16th    22,31     N
+   295/18/LXVI     VG    25   16th    21,30     N
+   13/5/LXXXV      FJ    32   16th     5,25     N
+   14/5/LXXXV      FJ    32   16th     5,25     N
+   15/5/LXXXV      PZGR  40   16th     5,25     Y
+   150-SK-SS-/-/-  PZ    40   16th    27,30     Y
+   PZ/-/XLVII      PZ    25   16th     9,25     Y
+   PZ/-/LVIII      PZ    25   16th    10,27     Y
+   560/-/-         PZ    25   16th    22,31     Y
+   11/-/LXXXV      PZ    25   16th     4,27     Y
+   PZ/-/LXVI       PZ    25   16th    19,29     Y
+   ENG/-/ISS       ENG   10   16th    27,30     Y
+   ENG/-/IISS      ENG   10   16th    24,31     Y
+   ENG/-/XLVII     ENG   10   16th     9,23     Y
+   ENG/-/LXXXV     ENG   10   16th     7,24     Y
+   ENG/-/LVIII     ENG   10   16th     2,31     Y
+   ENG/-/LXVI      ENG   10   16th     5,27     Y
+   -/272/LXVII     VG    25   16th    30,28     N
+   751/326/LXVII   VG    25   16th    29,28     N
+   752/326/LXVII   VG    25   16th    29,28     N
+   753/326/LXVII   VG    20   16th    28,22     N
+   JPZ/-/LXXX      PZ    40   17th    23,31     Y
+   FB/-/-          PZ    99   19th    23,31     Y
+   519/-/-         PZ    25   19th    19,31     Y
+   9/9SS/IISS      PZ    60   19th    19,31     Y
+   19/9SS/IISS     PZGR  60   19th    19,31     Y
+   20/9SS/IISS     PZGR  55   19th    16,31     Y
+   2/2SS/IISS      PZ    65   19th    16,31     Y
+   3/2SS/IISS      PZGR  65   19th    16,31     Y
+   4/2SS/IISS      PZGR  60   19th    14,31     Y
+   8/3/IISS        PZGR  60   19th    14,31     Y
+   9/3/IISS        PZGR  60   19th    14,31     Y
+   FGR/-/-         PZGR  60   22nd    19,31     Y
+   208/79/LXXXV    VG    25   23rd    23,31     N
+   212/79/LXXXV    VG    25   23rd    23,31     N
+   226/79/LXXXV    VG    25   23rd    23,31     N
+   10/9/XLVII      PZGR  45   23rd    19,31     Y
+   11/9/XLVII      PZGR  40   23rd    19,31     Y
+   33/9/XLVII      PZ    45   23rd    19,31     Y
+   104/15/XLVII    PZGR  45   23rd    16,31     Y
+   115/15/XLVII    PZGR  45   23rd    16,31     Y
+
+Note: All American engineer u nits have a combat value of 5 and TD units have a
+combat value of 15 in two-player games instead of values listed above.
+
+* = those American units allowed to enter the corridor (see 7.6).
+
+
+13.3 Unit Statistics and Conditions Example
+-------------------------------------------
+When # unit is accessed during the Unit organization Phase or when a unit is
+displayed within the command menu of the Operations Phase the following
+statistics and conditions of the unit are displayed:
+
+   GER 116 PZ DIV  ADVANCE-N
+   COMBAT: 105 ARTILLERY: 30
+   OPERATION: 20 FORT:2 EFF: 100%
+   STACK: 2 NORMAL  SUPPLIED
+   LVIII CORPS ARTILLERY: 40
+
+In the example above the German 116th Panzer Division:
+
+ - will not advance after combat
+ - has 105 combat strength points
+ - has 30 artillery points
+ - has 20 remaining operation points
+ - has a fortification level of two
+ - has an efficiency of 100%
+ - has a stacking value of two
+ - is in normal mode
+ - is in a supplied state
+ - belongs to the LVIII Corps which has 40 remaining artillery points to
+   distribute (this line will only appear in the Organization Phase if the unit
+   belongs to a Corps Artillery Pool).
+
+13.4 Artillery Corps Table
+--------------------------
+
+Corps            Composite Div.    Art. Pts.   Rein. Pts/Date
+
+American
+--------
+V Corps          1,2,9,99            115         30/Dec 18
+VII Corps        83,84,75,2A,3A        0         60/Dec 18
+XVII Corps       14C,82,30,106,7A      0         90/Dec 18
+III Corps        26,35,4A              0         60/Dec 21
+VIII Corps       28,101,9A            40         45/Dec 19
+XII Corps        80                    0         30/Dec 22
+
+German
+------
+LXVII Corps      272,326             65
+ISS Corps        12,277,3FJ,1SS,    130
+                 2SS,12SS,3 PZGR
+IISS Corps       2SS,9SS              0          15/Dec 19
+LXVI Corps       18,62               25
+XLVII Corps      26,2PZ,Lehr,        75
+                 9PZ,15 PZGR
+LVIII Corps      560,116 PZ          65
+LXXXV Corps      79,352,5FJ          55
+
+
+13.5 Operation Cost Table
+-------------------------
+                           Mobile             Non-Mobile
+Terrain/Action              Units               Units
+
+Clear (Freeze) 1            3(3)                3(3)
+Rough (Freeze)              6(4)                3(3)
+Town (Freeze)               4(4)                3(3)
+Forest (Freeze)             8(6)                3(3)
+Road (Town) 2               1(2)                1(2)
+Bridge 3                    +2                  +2
+River (Engineers) 4        N/A(3)               5(3)
+Enter Enemy Hex              1                   1
+Enter Enemy ZOC 3            2                   2
+Leave Enemy ZOC (T. Mode)   4(6)                4(6)
+Change Mode (American) 6    7(10)               3(6)
+Construct Bridge            ALL                 ALL
+Destroy Bridge              15                   5
+Defend in Combat             3                   3
+Attack in Combat 8           6                   6
+Fortify (Eng.)             10(5)                6(3)
+Fortify in ZOC (Eng.)      20(10)              12(6)
+
+Notes
+-----
+(1) The ground freeze start DEC 24
+(2) Units must be in travel mode
+(3) +2 per German unit that crosses the bridge that turn.  No additional cost
+    for American units.
+(4) Engineer rate applies if engineer is at either side of river crossing
+(5) If a unit in normal mode has just exited an enemy ZOC, its operation points
+    are reduced to zero
+(6) American non-mobile units incur double (twelve) the cost to leave travel
+    mode
+(7) Exception: Panzergrenadiers may cross rivers at a cost of 4 points with an
+    engineer and 8 points without
+(8) Units that attack in the second operation phase have their operation points
+    reduced to zero
+
+
+13.6 Combat Modifiers
+---------------------
+
+Terrain/Condition       Def. Modifier            Att. Modifier
+
+Clear                      1.0                      1.0
+Rough                      1.3                      1.0
+Town                       2.0                      1.0
+Forest                     1.7                      1.0
+River                      1.0                       .75
+Travel Mode                 .60                      .60
+Fortification           1+(.3 x Level)              N/A
+Divisional                 1.25                     1.25
+Efficiency              EFF# x .01               EFF# x .01
+Unsupplied                  .75                      .50
+Isolated                    .50                     N/A
+
+
+13.7 Supply Examples
+--------------------
+
+               _____         _____         _____
+              /   Y \       /  Y  \       /  Y  \
+        _____/   o   \_____/  Y    \_____/  Y    \
+       / ||| \  Y  Y /  |  \ Y  Y  /  Y  \ Y   Y /
+      /  ___  \_____/  / \  \_____/  Y    \_____/
+      \ |_1_| / ||| \/     \/     \ Y  Y  / ||| \
+       \__|__/  ---  \_____/   o   \_____/  ---  \    T - Town
+       /  |  \ |_B_| / ||| \    T  / ||| \ |_5_| /
+      / Y o   \_____/  ---  \_____/  ---  \_____/     Y - Forest
+      \ Y | Y /   Y \ |_3_| / ||| \ |_C_| /  Y  \
+       \__|__/  Y    \_____/  ---  \_____/  Y    \    o - German Hex
+       /  |  \ Y  Y  /  Y  \ |_4_| / x x \ Y   Y /
+      /  /|   \_____/  Y    \_____/  ---  \_____/
+      \ / |   / ||| \ Y  Y  /   Y \ |_D_| / ||| \
+       \__|__/  ---  \_____/   Y   \_____/  ---  \
+       / ||| \ |_2_| /     \  Y  Y / Y   \ |_6_| /
+      /  ---  \_____/   o   \_____/  __ / \_____/
+      \ |_A_| /     \       /     \/   Y  /
+       \_____/       \_____/       \_____/
+
+
+Units numbered 1-6 are American and units lettered A-D are German.  American
+units 1,3,4,5 and 6 are supplied.  Unit 2 is unsupplied because it cannot trace
+supply within two hexes of a friendly supplied road hex.  German A is supplied.
+Unit B is isolated and units C and D are unsupplied.  Unit B is isolated
+because it is unable to trace supply and is surrounded by enemy ZOC (of enemy
+units next to it).  Unit C is unsupplied due to a blocked supply trace.  It
+would be isolated if it wasn't next to a divisional unit since it is surrounded
+by enemy ZOC.  Unit D has a blocked supply trace and would be isolated if it
+wasn't a divisional unit.
+
+14.0 DEDICATION
+===============
+We would like to give our appreciation to Joel Billings, whose assistance and
+support helped make this game.
+
+
+
+OPERATION COST TABLE
+====================
+
+
+                           Mobile             Non-Mobile
+Terrain/Action              Units               Units
+
+Clear (Freeze) 1            3(3)                3(3)
+Rough (Freeze)              6(4)                3(3)
+Town (Freeze)               4(4)                3(3)
+Forest (Freeze)             8(6)                3(3)
+Road (Town) 2               1(2)                1(2)
+Bridge 3                    +2                  +2
+River (Engineers) 4        N/A(3)               5(3)
+Enter Enemy Hex              1                   1
+Enter Enemy ZOC 3            2                   2
+Leave Enemy ZOC (T. Mode)   4(6)                4(6)
+Change Mode (American) 6    7(10)               3(6)
+Construct Bridge            ALL                 ALL
+Destroy Bridge              15                   5
+Defend in Combat             3                   3
+Attack in Combat 8           6                   6
+Fortify (Eng.)             10(5)                6(3)
+Fortify in ZOC (Eng.)      20(10)              12(6)
+
+Notes
+-----
+(1) The ground freeze start DEC 24
+(2) Units must be in travel mode
+(3) +2 per German unit that crosses the bridge that turn.  No additional cost
+    for American units.
+(4) Engineer rate applies if engineer is at either side of river crossing
+(5) If a unit in normal mode has just exited an enemy ZOC, its operation points
+    are reduced to zero
+(6) American non-mobile units incur double (twelve) the cost to leave travel
+    mode
+(7) Exception: Panzergrenadiers may cross rivers at a cost of 4 points with an
+    engineer and 8 points without
+(8) Units that attack in the second operation phase have their operation points
+    reduced to zero
+
+
+WEATHER
+=======
+
+December 16th and 17th - 100% Overcast
+
+December 18th through 21st - 50% Overcast and 50% Fog
+
+December 22nd through 24th - 16% Overcast, 34% Fog, and 50% Clear
+
+December 25th through 27th - 34% Fog and 66% Clear
+
+
+
+ARTILLERY CORPS TABLE
+=====================
+
+Corps            Composite Div.    Art. Pts.   Rein. Pts/Date
+
+American
+--------
+V Corps          1,2,9,99            115         30/Dec 18
+VII Corps        83,84,75,2A,3A        0         60/Dec 18
+XVII Corps       14C,82,30,106,7A      0         90/Dec 18
+III Corps        26,35,4A              0         60/Dec 21
+VIII Corps       28,101,9A            40         45/Dec 19
+XII Corps        80                    0         30/Dec 22
+
+German
+------
+LXVII Corps      272,326             65
+ISS Corps        12,277,3FJ,1SS,    130
+                 2SS,12SS,3 PZGR
+IISS Corps       2SS,9SS              0          15/Dec 19
+LXVI Corps       18,62               25
+XLVII Corps      26,2PZ,Lehr,        75
+                 9PZ,15 PZGR
+LVIII Corps      560,116 PZ          65
+LXXXV Corps      79,352,5FJ          55
+
+
+
+COMBAT MODIFIERS
+================
+
+Terrain/Condition       Def. Modifier            Att. Modifier
+
+Clear                      1.0                      1.0
+Rough                      1.3                      1.0
+Town                       2.0                      1.0
+Forest                     1.7                      1.0
+River                      1.0                       .75
+Travel Mode                 .60                      .60
+Fortification           1+(.3 x Level)              N/A
+Divisional                 1.25                     1.25
+Efficiency              EFF# x .01               EFF# x .01
+Unsupplied                  .75                      .50
+Isolated                    .50                     N/A
+
+
+-------------------------------------------------------------------------------
+Game Design: Chuck Kroegel
+Programming: David Landrey
+Development: David Landrey & Chuck Kroegel
+Art & Graphic Design: Louis Hsu Saekow, Kathryn Lee & James C. Sommerville
+
+SSI 1984
+-------------------------------------------------------------------------------
+
+
