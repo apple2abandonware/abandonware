@@ -1,0 +1,1045 @@
+
+Carrier Force
+
+
+
+1.0  INTRODUCTION
+     Carrier Force is an operational level game featuring combat between
+     American and Japanese carrier task forces in 1942. Included are scenarios
+     covering the battles of CORAL SEA, MIDWAY, EASTERN SOLOMONS and SANTA
+     CRUZ.
+
+1.1  Description of Action
+     Each game turn represents one hour of actions. Actions consist of
+     maneuvering task forces, launching search, patrol and bomber missions,
+     arming & fueling aircraft, recovering aircraft, moving air groups and
+     resolving combat situations.
+
+1.2  Talking to the Computer
+     To enter a response to the computer that consists of numbers (such as
+     ship identification numbers) type the number into the computer and press
+     the <RETURN> key. To select a routine from a menu or answer a Yes/No
+     question, just press the desired key. TO EXIT A ROUTINE WHERE THE EXIT
+     COMMAND IS NOT SPECIFIED, PRESS <Q> THEN <RETURN>.  Some menus do not
+     require the user to press <RETURN> after pressing the <Q> key.
+
+1.3  Saving a Game
+     At the end of each game turn the computer will allow the Player(s) to
+     save the game in progress. You will need a scratch disk to store the
+     saved game data.  Apple Save-Game disks may be initialized for SSI use
+     during the game by following instructions included in the game program.
+     Atari games may be saved on any properly initialized Atari diskette. Once
+     a game is saved You will be able to restart it at the point you left off.
+     When restarting a saved game you must set the correct scenario, solitaire
+     level and number of players on the opening menu.
+
+1.4  The Map
+     There are two maps included with the game. The Midway scenario employs a
+     map of the Central Pacific centering on the Island of Midway. All other
+     scenarios use a map of the Southwest Pacific centering on the Solomon
+     Islands. Movement around the maps is controlled by a hexagon grid system
+     (31 X 32 hexes.) with each hexagon representing 50 nautical miles.
+
+1.5  Starting the Game (Apple DOS 3.2 or 3.3)
+     To begin the game, boot your game disk and the game will begin
+     automatically. If you are using an Apple II with Pascal, you  must first
+     use your BASICS disk.  If you are using an Apple III, you must first go
+     into Apple II emulation mode.
+
+
+2.0  GENERAL DESCRIPTION
+
+2.1 Parts Inventory:
+     A. Game box
+     B. Rule Book
+     C. 5 1/4" game disk
+     D. Two map data cards
+
+2.2 Abbreviations:
+     Abbreviations used in the game are listed below.
+
+     CV   aircraft carrier         MG   main guns
+     CVL  light aircraft carrier   AA   anti-aircraft guns
+     BB   battleship               TT   torpedoes
+     CA   heavy cruiser            AM   bombardment ammunition
+     CL   light cruiser             SP   seaplane
+     CLAA anti-aircraft cruiser    MS   maximum speed
+     CS   seaplane carrier         AS   assault points
+     AV   seaplane tender          DM   damage percentage
+     DD   destroyer                FL   fire level
+     DE   destroyer escort         CAP  base capacity
+     APD  patrol boat              A/C  aircraft
+     ML   minelayer                OL   operation limit
+     TR   transport                OU   operations used
+     TK   tanker/oiler             BO   bomber ordnance
+     SS   submarine                TF   task force
+
+
+3.0  SEQUENCE OF PLAY
+     CARRIER FORCE is a two-sided game: American vs. Japanese. The American
+     forces must be commanded by a human player. The Japanese forces may be
+     commanded by either a human or the computer.
+
+3.1  Scenario Selection Phase
+     During the scenario selection phase, the player(s) select a scenario and
+     determine the conditions under which the game will be played. On the
+     Apple version the set-up may be changed by entering the following numbers:
+
+     (1) New Game or Saved Game
+     (2) 1 Disk Drive or 2 Disk Drives
+     (3) Solitaire or 2 players
+     (4) Solitaire Level of Difficulty
+
+     The scenario may be altered by entering the following numbers
+
+     (5) Coral Sea
+     (6) Midway
+     (7) Eastern Solomons
+
+3.2  Historical Set-Up
+     At the start of each game the computer will assign all ships and aircraft
+     to their historical locations prior to the battle.
+
+3.3  Random Set-Up
+     The players may randomize the set-up somewhat in all scenarios except
+     CORAL SEA. In the MIDWAY scenario both American and Japanese carrier TFs
+     will have their historical locations altered. In EASTERN SOLOMONS and
+     SANTA CRUZ all Japanese TFs will have their locations altered.
+
+3.4  Sequence of Play
+     1. American TF Adjustment Phase
+     2. Japanese TF Adjustment Phase
+     3. Japanese Adjust TF Heading
+     4. Japanese Launch Air Missions
+     5. Japanese Arm & Fuel Aircraft
+     6. Japanese Land Aircraft
+     7. Japanese Move Air Missions
+     8. American Radar Report
+     9. American Adjust TF Heading
+    10. American Launch Air Missions
+    11. American Arm & Fuel Aircraft
+    12. American Land Aircraft
+    13. American Move Air Missions
+    14. Combat Resolution Phase
+    15. Save-Game Phase
+
+3.5  Keeping Time
+
+     Each game turn represents one hour. At the start of each turn the clock,
+     calendar and weather are adjusted to reflect the passage of time and the
+     changing battle conditions. Daylight hours are 600 to 1800 (inclusive)
+
+
+4.0  TASK FORCE ADJUSTMENT PHASE
+     During the task force adjustment phase, the computer will display a menu
+     listing two options for adjusting the composition of your task forces and
+     five options for viewing the current status of your forces. To enter the
+     desired routine, just press the corresponding numbered key.
+
+4.1  Dividing Task Forces
+     Enter the number of the task force you wish to divide. The computer will
+     list the ships in the selected task force and display their maximum
+     speed, damage and fire levels. The maximum number of task forces that the
+     Japanese player may use is equal to 10 minus the number of Japanese land
+     bases for that scenario. The maximum number of task forces that the
+     American player may use is equal to 9 minus the number of American land
+     bases for that scenario. If you are currently using the maximum number of
+     task forces then the computer will not allow you to divide a task force.
+     If you currently have less than the maximum number then the computer will
+     display the number of the new task force you are creating. Enter the ID
+     number for each ship you wish to transfer to the new task force.  When
+     you have concluded your transfers just press <RETURN> to exit the
+     routine. If you are currently using fewer than the maximum number of task
+     forces then the divide task force routine may be used to 'scuttle'
+     crippled ships.  Just enter the letter "S" following the ID number of the
+     ship you are transferring (entering a "5S" would scuttle ship #5).
+
+4.2  Transferring Ships
+     Enter the numbers of the "gaining" and "losing" task forces. The two task
+     forces must occupy the same hexagon on the map. The procedure for
+     transferring ships is the same as de- scribed in 4.1.  A task force may
+     never contain more than 20 ships. When a ship transfer occurs, the
+     gaining task forces movement points will be adjusted to equal that of
+     either the gaining or losing task force (whichever is lowest).
+
+4.3  Ending the Game
+     Both players should agree before ending the game The computer will
+     display the final score and a list of all ships sunk during play.
+
+4.4  The Map Display
+     The maps used in Carrier Force employ a hexagon grid 32 hexes high by 31
+     hexes wide.  Only a fraction of the map (7 hexes high by 13 hexes wide)
+     can be viewed at one time.  By pressing the keys 1-6 the cursor can be
+     moved around the map (1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW). If the cursor is
+     moved to the edge of the display then the map display will scroll to
+     reveal the hidden portions of the map. American task force symbols will
+     be colored blue and Japanese task force symbols will be colored orange
+     (on the Apple computer American task forces that occupy an island or base
+     hex will be colored purple, Japanese task forces that occupy an island or
+     base hex will be colored green) American and Japanese TFs stacked
+     together will have a WHITE symbol. To check the friendly task force
+     numbers in the hex occupied by the cursor press the (8) LOOK key. To
+     return to the main menu Press the (Q)EXIT key.
+
+
+5.0  TASK FORCE MOVEMENT
+     Task force movement occurs at the end of each game turn after all combat
+     has been resolved.  A task force that has accumulated 50 or more movement
+     points will move one hex (the direction of movement is determined by the
+     task force heading). A task force that moves will have 50 subtracted from
+     its movement point total.
+
+5.1  Fleet Speed
+     At the start of each turn a task force will gain movement points equal to
+     its fleet speed. The fleet speed will be equal to 30 OR the maximum speed
+     of the slowest ship in the task force, which ever is lower.
+
+5.2  Loss of Movement Points
+     During the course of each turn a task force may perform certain actions
+     that will cause it to LOSE movement points.  A task force that changes
+     heading will lose 50% of its movement points for each compass point shift
+     in direction (the movement point total will never be reduced below the
+     TFs FLEET SPEED when changing direction) A task force will lose movement
+     points if it contains aircraft carriers that launch or recover aircraft
+     AND the task force is not moving in the same direction that the wind is
+     blowing FROM.  If the task force heading is one compass point different
+     from the wind direction (example: wind is blowing from the NE and the
+     task is moving N) it will lose 5% of its movement points for each
+     aircraft that is launched or landed in the task force. If the task force
+     heading is more than one compass point different from the wind direction
+     it will lose 10% of its movement points for each aircraft that is
+     launched or landed in the task force.  This movement loss is due to the
+     need for carriers to turn into the wind whenever they launch aircraft,
+     thus preventing their task force from moving forward at full speed.
+
+5.3  Movement Restrictions
+     A task force may never move through a white hexside, but instead will
+     continue to accumulate movement points up to a maximum of 79.  A task
+     force may move off the edge of the map (it will not be allowed to
+     return).
+
+
+6.0  LAUNCHING AIR MISSIONS
+     Land bases and aircraft carriers may launch fighter and bomber
+     missions.Land bases and Japanese BB, CA, CL, CS and AV type ships may
+     launch seaplane missions.  Each player may have a maximum of 20 air
+     missions active at any one time.
+
+6.1  Seaplane Missions
+     A seaplane mission consists of one seaplane with the single function of
+     searching for enemy ships. Ship launched seaplanes have an endurance of 6
+     turns.  Land based seaplanes have an endurance of 18 turns.  Seaplanes
+     may only be recovered by the ship/base from which they were launched.
+     Launching or recovering seaplanes does not count against a bases
+     operation limit.
+
+6.2  Combat Missions
+     The type of mission that may be flown by combat aircraft is determined by
+     the type of aircraft included and/or the type of ordinance being carried.
+     Listed below are the types of missions and their descriptions.
+
+     F (fighter patrol) Consists, entirely of fighter type aircraft.  Used to
+     protect friendly bases or task forces.
+
+     AS (anti-ship) Consists of bombers carrying torpedoes and/or armor
+     piercing bombs.  May not be used to attack enemy bases.  May include a
+     fighter escort.
+
+     HE (high-explosive) Consists of bombers carrying high explosive bombs.
+     Best suited for attacking enemy bases.  May attack enemy ships at reduced
+     effectiveness.  May include a fighter escort.
+
+     N (not armed) Consists of unarmed bombers that have completed/aborted
+     their mission or were launched for search only.  May include a fighter
+     escort. Also may consist of unarmed Judy reconnaissance planes without a
+     fighter escort.
+
+     In order to launch an AS mission, the bombers must have been readied
+     during a previous turn with AS ordnance. In order to launch an H E
+     mission, the bombers must have been readied during a previous turn with
+     HE ordnance.
+
+6.3  Operation Limits
+     Each base and carrier is assigned a limit to the number of aircraft it
+     may launch and land in one turn (each launched or landed equals one
+     flight operation). Carriers have a flexible operation limit that varies
+     with the carrier TF heading in relation to the wind direction.  The land
+     base operation limits never change. If a carrier TF heading is TWO or
+     more compass points different from the wind direction then the carrier
+     must conform to its MINIMUM OPERATION LIMIT for that turn.  If a carrier
+     TF heading is ONE compass point different from the wind direction then
+     the carrier must conform to its INTERMEDIATE OPERATION LIMIT for that
+     turn. If a carrier TF heading is the same as the wind direction then the
+     carrier must conform to its MAXIMUM OPERATION LIMIT for that turn. The
+     intermediate operation limit will always be DOUBLE the minimum operation
+     limit.  The maximum operation limit will always be TRIPLE the minimum
+     operation limit. Listed below are the MINIMUM operation limits for
+     carriers included in the game:
+
+     Akagi     12        Lexington      12
+     Kaga      12        Saratoga       12
+     Hiryu     12        Yorktown       12
+     Soryu     12        Enterprise     12
+     Shokaku   12        Hornet         12
+     Zuikaku   12        Wasp           11
+     Junyo      9
+     Shoho      6
+     Zuiho      6
+     Ryujo      6
+     Hosho      3
+
+     If for any reason during a turn an aircraft carrier is unable to conduct
+     further air operations, then its operations used (OU) will be set to 99.
+
+6.4  Forming Air Missions
+     Air missions may be formed from available seaplanes or readied combat
+     aircraft. lt is possible to form a new mission from one carrier/base and
+     then reinforce it with aircraft from another carrier/base within the same
+     hex. When reinforcing a mission that has been in the air for one or more
+     turns the reinforcing aircraft will be assumed to have been in the air as
+     long as the original aircraft. Bombers carrying AS ordnance may not be
+     combined in the same mission as bombers carrying HE ordnance. Air
+     missions cannot be split up after they have formed. Large air missions
+     will suffer a movement point loss on the turn they are launched. Missions
+     that have been in the air for one or more turns will suffer no movement
+     loss if reinforced. There is a loss of one movement point for
+     approximately every 15 planes in the mission (this will vary randomly)
+     plus the loss of one MP automatically on the first turn a mission is in
+     the air. A maximum of 3 movement points may be lost in this manner.
+
+
+7.0  ARMING & FUELING AIRCRAFT
+     Combat aircraft must be armed & fueled (readied) and moved onto the
+     deck/runway before they may be launched on air missions.
+
+7.1  Bomber Ordnance Selection
+     A bomber ordnance selection (AS, HE or N) must be made for each carrier
+     and base.  All bombers readied on a carrier or base will be armed with
+     the selected ordnance type.
+
+7.2  Deck/Runway Capacity
+     The deck/runway capacity for a carrier/base represents the maximum number
+     of aircraft that may be readied at one time (readied aircraft are always
+     considered to be on the deck/runway). The deck/runway capacity is equal
+     to the carrier/base MAXIMUM OPERATION LIMIT.
+
+7.3  Removing Aircraft From the Deck/Runway
+     Readied aircraft may be removed from the deck/runway.  Enter the READY
+     AIRCRAFT routine and type a minus number for the quantity of each type of
+     aircraft you wish to un-ready.
+
+
+8.0  AIR MOVEMENT
+     During the air movement phase, air missions may move, search, initiate
+     combat and/or enter a landing pattern. Air missions movement is completed
+     sequentially according to air mission number.
+
+8.1  Air Mission Status Display
+     Prior to moving each air mission, the players may view the status display
+     for that mission.  The status display lists the data:
+          (1) mission location
+          (2) mission number
+          (3) time in the air
+          (4) ordnance carried by each aircraft
+          (5) ordnance carried by each aircraft type
+          (6) air time remaining for each aircraft type
+     For bomber type missions you will be allowed to jettison ordnance before
+     moving the air mission. This increases the air units movement allowance
+     by 1.
+
+8.2  Air Move Display
+     After exiting the mission status display, the map will be drawn on the
+     screen with the cursor indicating the current location of the air
+     mission. The menu at the bottom of the screen will indicate the players
+     options:
+     (1) move north
+     (2) move northeast
+     (3) move southeast
+     (4) move south
+     (5) move southwest
+     (6) move northwest
+     (7) land
+     (8) search current hex using all remaining move points
+     (9) identify TF numbers of friendly TFs in same hex
+     (0) search current hex using only 1 move point
+
+     Also displayed is the air mission's X/Y LOCATION coordinates and its
+     remaining MOVEMENT POINTS. Seaplane (SP) missions that select option (7)
+     will land immediately if their home base/ship is in the same hex. Other
+     missions that select option (7) will enter a landing pattern if a
+     friendly base is in the same hex.
+
+8.3  Searching
+     Each time an air mission moves into a hex it will search for enemy TFs in
+     that hex.  An air mission may search its current hex without moving by
+     using the SEARCH options (8) or (0). In 0% overcast weather an air
+     mission has a 50% chance of locating each enemy TF in the hex for each
+     movement point it spends searching that hex (100% in a base/island hex).
+     The 50% chance of locating assumes 20 ships in the TF.  For smaller TFs,
+     the chance maybe as low as 40%. In addition, bad weather will further
+     lower the % chance of spotting enemy TFs. Only HE missions may locate
+     (and attack) enemy bases.  Air missions may fly at night, however no
+     searching will occur.
+
+8.4  Sighting Reports
+     When an air mission locates an enemy TF the player will receive a
+     "sighting report."  The sighting reports lists the ship type
+     abbreviations for each ship sighted. Sighting reports will not be
+     entirely accurate. Sighting reports will not be received if non-bomber
+     missions locate an enemy TF that had been previously located in the same
+     turn. Bomber missions will be given the option to declare an attack after
+     sighting an enemy TF.
+
+8.5  Engaging Enemy Aircraft
+     For each movement point an air mission expends in a hex containing enemy
+     aircraft, there is a chance of initiating air-to-air combat.  The chance
+     of initiating combat varies with the size of friendly and enemy air
+     missions and the weather.  Air-to-air combat will only occur if one of
+     the airmissions involved is a fighter patrol (F). If a fighter mission
+     expends movement points in a hex containing enemy aircraft, then it may
+     only engage the enemy missions armed with bombs.  If a non-fighter
+     mission expends move points in a hex containing enemy aircraft, then it
+     may only engage the enemy fighter missions in the hex.  When opposing air
+     missions engage in combat, the mission with the fewest aircraft will be
+     unable to move any further that turn.
+
+8.6  Movement Points
+     An air mission assumes the speed of the slowest aircraft type included in
+     the mission.  One movement point is subtracted from this speed if any of
+     the aircraft in the mission are carrying bombs or torpedoes.  If a bomber
+     mission declares an attack before it has used all of its movement points,
+     then the unused points will be added to its next turns move. Listed below
+     are the maximum speeds of the aircraft in the game
+
+     ZEKE      4    SBD       4
+     VAL       4    SB2U      3
+     KATE      4    TBD       3
+     BETTY     4    TBF       4
+     NELL      3    B26       4
+     JUDY      4    B25       4
+     F4F       4    B17       4
+     F2A       4    A24       4
+     P39       5    SEAPLANE  3
+
+(See illustration for following example)
+(1) Form 20 SBD Plane strike.  Loss of 1 MP due to size of strike. Automatic
+    loss of 1 MP from take-off (total loss of 2MP).
+(2) Movement during first turn in air
+(3) Movement during second turn in air.  One MP is expended over the enemy TF
+    but it is not spotted
+(4) Spends two MP during third turn in the air searching for enemy and finds
+    enemy TF on second MP.  Bombing of TF occurs.  If the strike had failed
+    to locate a target on its second MP, it would have been forced to give up
+    the search and fly north in order to return to its carrier before running
+    out of fuel.
+(5) With 0 time remaining in the air the strike must land on its base this
+    turn.  The strike has 5 MP (4 without bombs +1 for the MP that was not
+    used on the previous turn due to bombing of the enemy TF).  On the fifth
+    movement point the strike enters a landing pattern. The strike will land
+    on its carrier during the next turn if at that time all conditions for
+    landing are met.
+
+
+9.0  LANDING AIRCRAFT
+     Aircraft that enter a TF landing pattern must land during the next turn
+     or be forced to ditch. Aircraft in a TF landing pattern may land on any
+     eligible carrier (or base) present in the subject TF.
+
+9.1  Restrictions on Landings
+     A carrier/base is eligible to recover aircraft only if the following
+     conditions are met.
+
+     (1) the flight operations USED during the turn are less than the
+     OPERATION LIMIT.
+     (2) the readied aircraft on deck do not exceed the carrier's MINIMUM
+     OPERATION LIMIT.
+     (3) the total number of aircraft on the carrier/base is less than the
+     maximum capacity.
+
+     Land bases do not have to conform to item (2) above.  Also, land bases
+     may always land a number of planes equal to their MAXIMUM OPERATION LIMIT
+     without regard to the number planes that have been launched during that
+     turn (i.e. Midway with an OL of 75 could launch up to 75 planes during a
+     turn and then land up to 75 planes during the same turn)
+
+9.2  Emergency Landings
+     After the landing phase has been completed all planes remaining in a
+     landing pattern will attempt emergency landings if possible. These planes
+     will land on any base or operational carrier in the same hex, as long as
+     it has not exceeded its operation limit. The computer will conduct
+     emergency landings automatically.
+
+
+10.0 COMBAT RESOLUTION
+     During the Combat Resolution Phase the computer will automatically
+     perform the following functions:
+          (1) air to air combat resolution
+          (2) air to surface combat resolution
+          (3) surface combat resolution
+          (4) submarine combat resolution
+          (5) coastal bombardment
+          (6) unload transports
+
+10.1  Air to Air Combat
+     Air to air combat is initiated during the Air Movement Phase. Air to air
+     combat consists of a fighter mission attacking a non-fighter mission. If
+     the non-fighter mission has a fighter escort then the surviving escorts
+     will counter attack the fighter mission.  Each fighter in the attacking
+     group will select a target from the aircraft types in the defending
+     group. If the defending air craft survives the attack then it will
+     counterattack with DEFENSIVE FIRE.
+     Each type of aircraft is rated for air-attack and survivability as shown
+     below:
+     AIRCRAFT     ATTACK   SURVIVE
+     C. ZEKE        20        20
+     L. ZEKE        17        17
+     F4F            17        20
+     F2A            10         5
+     P39            12        10
+     VAL            (2)        3
+     KATE           (2)        3
+     BETTY          (2)        3
+     NELL           (2)        3
+     JUDY           (2)        5
+     SBD            (4)        9
+     TBD            (1)        1
+     TBF            (4)        8
+     SB2U           (1)        1
+     B26            (5)       10
+     B25            (5)       10
+     B17            (12)      25
+     A24            (4)        9
+     SEAPLANE       (0)        0
+The ( ) indicate defensive fire only.
+
+10.2  Air to Surface Combat
+     Each bomber that survives air to air combat will select a target ship
+     from those in the target TF and attempt to penetrate the TFs flak and
+     deliver its ordnance. Target selection is accomplished in the following
+     manner: each ship is assigned a selection value (SV) equal to its defense
+     factor plus its aircraft and/or assault point capacity (add 1000 to the
+     SV if the ship is a carrier). The chance of a particular ship being
+     attacked is equal to the SV of that ship divided by the combined SV of
+     the target TF. The chance of a bomber being shot down by flak is equal to
+     the TF flak strength divided by 1200.  The TF flak strength is equal to
+     the combined AA ratings (number of AA guns) of all the ships in the TF.
+     AA fire directed at B17s will be only 10% as effective as against all
+     other aircraft. The AA ratings of American ships will be adjusted for
+     each scenario as follows:
+
+     Coral Sea              x1.5
+     Midway                 x2.0
+     Eastern Solomons       x2.5
+     Santa Cruz             x3.0
+
+     Submarines may be sighted and bombed the same as surface ships.
+     Submarines may "dive" be fore all of the bombers in a mission can
+     complete their attacks.
+
+10.3  Bomber Accuracy
+     The chance of a bomber hitting the target is affected by: (1) bomber
+     accuracy (2) maximum speed of target (3) flak intensity (4) size of
+     target. The relative accuracy of each bomber is listed below:
+     *VAL15    15        TBD-B     1
+     *KATE-T   7         TBF-T     2
+     *KATE-B   3         TBF-B     1
+      BETTY-T  4         SB2U      1
+      BETTY-B  2         A24       1
+      NELL     1         B26       1
+     *SBD      9         B25       1
+      TBD-T    2         B17       1
+      T = torpedo  B = high explosive bomb
+     * In the Midway scenario the land based SBDs have an accuracy of 1. The
+       land based VALs and KATEs are 50% as accurate as the carrier based versions.
+
+10.4  Bombing Bases
+     All bombers are equally accurate when attacking enemy bases. Base attacks
+     may result in damage to the airfield and/or destroy aircraft on the
+     ground (including seaplanes) and assault points. During base attacks,
+     aircraft on the runway are easier to destroy than aircraft in the hangar.
+
+10.5  Surface Combat
+     Surface combat may occur between opposing TFs that occupy the same hex on
+     the map.  Surface combat may require up to four rounds of action as
+     listed below:
+
+               Round 1: fire BB main guns
+               Round 2: fire BB, CA main guns
+               Round 3: fire all main guns Round
+               Round 4: fire all main & AA guns, fire torpedoes
+
+     In daylight, surface combat begins with round 1 and continues through
+     round 4 OR until the TFs disengage.  At night surface combat begins with
+     round 3. After each round of combat there is a 50% chance that the TFs
+     will disengage. During each round of combat each eligible ship may select
+     a target and fire its eligible weapons. Target selection is similar to
+     bomber attacks (as a general rule the large guns will concentrate on
+     large targets while AA guns and torpedoes will ignore target size). In
+     surface combat the larger, slower ships will be easier to hit than the
+     smaller,faster ships. Japanese torpedoes will be 10 times more accurate
+     than American torpedoes There is a 36% chance that any task force will
+     engage any enemy task force in the same hex.  Exception: enemy task
+     forces in a base hex will always engage in surface combat.
+
+10.6  Submarine Combat
+     Submarine groups patrol an area equal to the hex they occupy plus the six
+     adjacent hexes. Each turn, submarine groups have a chance to attack any
+     enemy TF that is within its patrol area. The chance of attacking an enemy
+     TF varies with (1) the number of submarines in the attacking group, (2)
+     the number of ships in the target group.  Only one of the submarines in
+     the group will actually conduct the attack. The attacking submarine will
+     fire up to six torpedoes at a ship in the target TF. The accuracy of
+     Japanese submarine torpedoes is 5 times greater than the accuracy of
+     American submarine torpedoes.  As in surface combat the larger, slower
+     targets will be easier to hit than the smaller, faster targets. After the
+     submarine attacks, each escort (DD, DE, APD) in the target TF will
+     attempt to locate and depth charge the submarine. Each escort has a 10%
+     chance of locating and attacking the submarine. Each Japanese depth
+     charge attack has a 1% chance of sinking the submarine. Each American
+     depth charge attack has a 4% chance of sinking the submarine.
+
+10.7  Coastal Bombardment
+     In the Midway scenario Japanese ships may bombard Midway.  In the Eastern
+     Solomons and Santa Cruz scenarios, if a Japanese TF occupies the
+     Midway/Henderson Field hex then all ships in the TF with bombardment
+     ammunition may bombard the airfield. Ships may perform only 1 bombardment
+     per game.  The effects of bombardments are similar to the effects of air
+     attacks on bases. Listed below is the relative bombardment effectiveness
+     of Japanese ships.
+
+     battleship     40
+     heavy cruiser  15
+     light cruiser   5
+     destroyer       1
+
+     The above ratings may vary with the different number of guns mounted on
+     each class of ship. NOTE: the above ratings indicate that a battleship is
+     as effective as 40 bombers, etc.
+
+10.8 Unloading Transports
+     Japanese transports and some other ship types (DD,MSW, ML, CS, AV, APD)
+     may carry assault points.  Assault points are combinations of troops,
+     equipment and supplies used in the invasion of an enemy base. In all of
+     scenarios the Japanese Player may score victory points by unloading
+     assault points on a particular base:
+
+     SCENARIO                 BASE
+     Coral Sea                Port Moresby
+     Midway                   Midway
+     Eastern Solomons         Henderson Field
+     Santa Cruz               Henderson Field
+
+     To unload at a base the transport TF must occupy the same hex as the
+     base. Japanese transports may not unload on Midway when the base is at
+     less than 50% damage.  Transports may unload only ONE assault point per
+     turn.
+
+10.9  Capturing Midway
+     In the Midway scenario only, the Japanese player may capture an American
+     base if the number of Japanese assault points unloaded on Midway is
+     greater than the number of American assault points defending Midway then
+     the Japanese will capture the island. If Midway is captured then all
+     American aircraft and assault points on the island will be destroyed. The
+     Japanese player may never USE the airfield during the game
+
+10.10  Battle Reports
+     As the computer resolves the combat situations the players will receive
+     battle reports. Reports of aircraft destroyed or hits scored on ships
+     will be exaggerated. Damage estimates will be displayed after each
+     bombing attack to report the visible damage to an enemy base or ships in
+     the target TF.  The damage estimate will display "*" for each ship with
+     "light damage'; "**" for each ship with moderate damage; "***" for each
+     ship with "heavy damage." Damage estimates will be frequently
+     exaggerated. During surface combat, gun fire hits maybe followed by one
+     or more "*"symbols. The number of symbols displayed indicates the calibre
+     of the firing gun.
+
+
+11.0  GENERAL OPERATIONS
+
+11.1  Aircraft Endurance
+     Each aircraft type is assigned an endurance rating that represents the
+     number of hours it may remain in the air.
+
+     C. ZEKE   4         P39       2
+     L. ZEKE   9         SBD       3
+     VAL       4         TBD       3
+     KATE      4         TBF       4
+     BETTY    12         SB2U      4
+     NELL     10         A24       3
+     JUDY      4         B26       5
+     F4F       3         B25       6
+     F2A       3         B17      10
+
+     SEAPLANES.
+     land based     18
+     ship based      6
+
+     Aircraft with "0 MIN" of fuel remaining must enter a landing pattern by
+     the end of their current move (it requires 1 move point to enter a
+     landing pattern) or they will automatically "ditch" at the start of their
+     next move. Bombers with "0 MIN' of fuel will automatically jettison their
+     ordnance. Fighter missions with "0 MIN" of fuel will be unable to
+     initiate air to air combat. Example: A VAL group could fly 4 turns, enter
+     a landing pattern on the 5th turn and land on the 6th turn.
+
+11.2  Ship Damage
+     Ships receive damage each time they are hit by bombs, torpedoes or
+     gunfire. Ships with damage greater than 50% or with fires on board may
+     receive additional self-inflicted damage. Listed be1ow are the AVERAGE
+     damage points caused by each type of weapon.
+
+         AA gun     1    American BB
+    CL main gun     1       main gun    8
+    CA main gun     2     21 torpedo    5
+YAMATO main gun     9     24 torpedo    7
+  NAGATO, MUTSU              AP-bomb    4
+       main gun     7        HE-bomb    2
+ other Japanese
+      BB maingun     6
+
+     Only Japanese surface ships may fire the 24 torpedo.
+     AA guns will be only 50% as accurate as main guns.
+     Each time a bomb, torpedo or gun hit is scored on a ship, the computer
+     checks to see if an ARMOR PENETRATION has occurred.  The chance of a
+     penetration is equal to three times the explosive rating of the weapon
+     (see above) divided by the defense factor of the ship. Bomb or gun hits
+     that penetrate will cause norma; damage plus possible fires, propulsion
+     loss and/or destruction of the ships weapon systems. Bomb or gun hits
+     that fail to penetrate will cause only 1 damage point. Torpedo hits that
+     penetrate will cause DOUBLE damage, a loss of at least 5kts speed plus
+     possible fires, and destruction of weapon systems. Torpedo hits that fail
+     to penetrate will cause normal damage and a loss of at least 5kts speed.
+     Carriers hit by bombs, torpedoes or gunfire may sustain additional damage
+     if there are readied aircraft on the decks. The weapon hit wi1l randomly
+     select an aircraft type and if that type of aircraft is on deck then 1/2
+     of those aircraft will be destroyed and the fire level will be increased
+     approximately by 1 for each aircraft destroyed. If the destroyed aircraft
+     were armed with bombs or torpedoes then the fire level would increase
+     approximately by 3 for each aircraft destroyed.
+
+11.3  Damage Effects
+     A ship that sustains damage points greater than or equal to its defense
+     factor will sink.  Any ship with a fire level greater than zero may
+     sustain additional damage each turn until the fire is put out. On the
+     average a ships fire level will be reduced by one point each turn unless
+     the fire is out of control.  If the fire level is greater than the ships
+     defense factor, it is out of control and will gain an average of 3 fire
+     levels per turn. Ships that have suffered more than 50% damage may
+     sustain additional damage each turn. Ships with over 50% damage will
+     frequently suffer loss of propulsion. Damage to carriers may prevent them
+     from conducting flight operations. Flight operations will be suspended if
+     any of the following conditions exist: (1) fire level is greater than 4,
+     (2) damage is greater than 25%, (3) maximum speed is less than 5kts.
+     Fires will prevent ships from operating at maximum speed. The adjusted
+     maximum speed of a burning ship is equal to the maximum speed minus the
+     fire level.
+
+11.4  Base Damage
+     Bases may suffer damage if subjected to bombing or coastal bombardment.
+     Bases suffer 1-2% damage each time they are hit. At the end of each turn
+     bases will repair 10%~ of their damage.  Bases with over 25% damage will
+     be unable to operate aircraft. In the Midway scenario, Japanese
+     transports may not unload on Midway unless there is 50% or more damage on
+     the base.
+     EXAMPLE A base with 40% damage will repair to 36% damage after one turn.
+
+11.5  Weather
+     The two elements of weather that affect game operations are WIND
+     DIRECTION and CLOUD COVER.  Wind direction affects the ability of
+     carriers to launch and recover aircraft, while cloud cover affects the
+     ability of air missions to to locate enemy TFs/bases. The weather
+     conditions are subject to change at the start of each turn. There is a
+     20% chance that the wind direction will change (the new direction is
+     determined randomly). Cloud cover may vary by plus or minus 25% each
+     turn. The ability of aircraft to locate enemy TFs and bases is reduced by
+     the cloud cover percentage. Also the number of ships spotted in the
+     SIGHTING REPORT will be reduced by the cloud cover percentage.
+
+11.6  Non-Combat Aircraft Losses
+     Air missions are subject to non-combat losses each time they enter a
+     landing pattern. In daylight with 0% overcast air missions will average
+     0.5% (each aircraft has 1 chance in 200) losses per landing.  Losses are
+     increased by 1% for every 10% of cloud cover and by 10% if it is a NIGHT
+     turn.
+     EXAMPLE On a night turn with 40% overcast the loss rate will be 14.5%.
+
+11.7 Scenario Duration
+     The computer is programmed to end each scenario on a particular date:
+     CORAL SEA             8 MAY 42
+     MIDWAY               7 JUN 42
+     EASTERN SOLOMONS    25 AUG 42
+     SANTA CRUZ          27 OCT 42
+     For each scenario the game will automatically end at the completion of
+     the 2100-hour turn.
+
+11.8  Aircraft Classification
+     Aircraft used in the game are classified as follows:
+     FIGHTERS: ZEKE,F4F, F2A, P39
+     TORPEDO BOMBERS: KATE,TBD,TBF
+     TORPEDO BOMBERS: KATE,TBD,TBF
+     LEVEL BOMBERS: BETTY, NELL, B17, B25, B26
+     RECONNAISSANCE: JUDY
+     Although the BETTY and B26 may sometimes carry torpedoes they are still
+     CLASSIFIED as level bombers.
+
+11.9  Aircraft Base Restrictions
+     Aircraft with a name prefix of "C." are carrier based aircraft. Aircraft
+     with a name prefix of "L." are land based.  Carrier based aircraft may
+     operate from either carrier or land bases.  Land based aircraft may never
+     land on a carrier.  Aircraft classified as level bombers may not be
+     READIED at a base with an operation limit less than 60.
+
+11.10  Radar
+     During all scenarios, the American player will receive radar reports of
+     Japanese air missions in the same hex with friendly TFs. Radar reports
+     will be rough estimates (usually exaggerated) of the number of aircraft
+     in the enemy air mission.  Radar may occasionally fail to detect some
+     enemy missions (the chance of failure varies with the size of the
+     mission).
+
+11.11  Pilot Ability
+     The differing abilities of the pilots in the four scenarios is accounted
+     for by altering bomber accuracy and air-attack survivability ratings as
+     follows:
+
+     SCENARIO       US PILOTS      JAPANESE PILOTS
+     Coral Sea           -1             -1
+     Midway              +1              0
+     Eastern Solomons    +1              0
+     Santa Cruz          +1              0
+
+
+12.0  SCORING
+     At the end of the game, the players score points for sinking and damaging
+     enemy ships/bases and points for each surviving combat aircraft. The
+     Japanese player scores points for successfully unloading "assault points"
+     at an enemy base.
+
+12.1  Sunk Ships
+     Points awarded for sinking enemy ships equals TWO X DEFENSE FACTOR. If
+     enemy carriers have been sunk, additional points are awarded equaling the
+     aircraft capacity of the carrier. If Midway is captured the Japanese
+     player receives points as if he had "sunk" a carrier with a defense
+     factor of 80  and a capacity of 150 (310 points).
+
+12.2  Damaged Ships/Bases
+     Points received for damaging enemy ships/bases equals 1 per damage point
+     plus 1 per fire level (Your opponent may score more points if you let
+     your ship burn than if you SCUTTLE it)...
+
+12.3  Surviving Aircraft
+     One point is scored for each friendly combat aircraft ON A CARRIER OR
+     BASE at the end of the game.
+
+12.4  Japanese Assault Points
+     One point is received for each Japanese assault point unloaded at an
+     enemy base.
+
+12.5  Handicap Points
+     The Japanese player will receive 100 points in the Eastern Solomons
+     scenario. The U.S player will receive 100 points in the Santa Cruz
+     scenario.
+
+
+13.0  VICTORY CONDITIONS
+     At the end of the game victory points will be calculated and the level of
+     victory will be determined by comparing the scores of the two players.
+
+13.1  Victory Levels
+     Subtract the Japanese Victory Points from the American Victory Points and
+     compare the results to the following table to determine the victory
+     level:
+
+      600 and up    American 0Decisive Victory
+      300 to 599    American Substantive Victory
+      100 to 299    American Marginal Victory
+      -99 to 99     Draw
+     -299 to -100   Japanese Marginal Victory
+     -599 to -600   Japanese Substantive Victory
+     -600 or less   Japanese Decisive Victory
+
+
+14.0  SOLITAIRE PLAY
+     When playing solitaire games the computer will command the Japanese
+     forces. There are 4 levels of solitaire difficulty.  The level of
+     difficulty is determined when starting a new game and may be altered when
+     restarting a saved game. As the level number is decreased the Japanese
+     forces will perform searches more efficiently. These levels may be used
+     to handicap a two Player game if desired.  Level 3 is considered the
+     "historical" level.
+
+     It is possible to start a game in solitaire mode, save it, and then
+     restart it as a two-player game. To do this, set the main menu to
+     two-player mode before reloading the saved game data. It is possible to
+     save a two player game and restart it as a solitaire game. This should
+     only be done experimentally as the computer may be confused by many human
+     devised deployments.
+
+
+15.0  STRATEGY NOTES
+15.1  Task Force Movement
+     Each turn the players will have the chance to change a TFs direction. The
+     TF will move automatically when it accumulates 50 or more movement
+     points. Carrier TFs that are conducting air operations will move very
+     slowly unless they are facing the same direction that the wind is blowing
+     from. The loss of movement points is caused by the carriers alternating
+     between their assigned course and the "WIND FROM" direction to launch/
+     recover aircraft.
+
+15.2  Searches
+     Searches should be performed by seaplanes whenever possible. Searches are
+     necessary to pinpoint the location of enemy TFs so that they may be
+     attacked. When the general location of the enemy carriers is unknown,
+     then it is important to concentrate the search planes in the areas
+     surrounding friendly carriers.  The total number of search missions
+     should seldom exceed 7 or 8.
+
+15.3  Fighter Patrols
+     Fighter patrols may be used to attack enemy seaplanes and bomber groups
+     that enter their patrol area.  During daylight turns, Carrier TFs should
+     maintain at least one fighter mission airborne at all times to shoot down
+     enemy seaplanes.  On turns when enemy bomber attacks are expected, the
+     carrier TFs should maintain at least half of their fighter strength in
+     protective fighter patrols. In scenarios where the U.S. player has radar,
+     the carriers can launch 40 to 60 fighters on the turn the incoming
+     bombers are detected.
+
+15.4  Bomber Missions
+     When launching bomber missions, the crucial factors are (1) the number of
+     fighter escorts included and (2) the total number of aircraft formed into
+     each mission. As a rule of thumb a bomber mission should include at least
+     1 fighter for every 3 bombers to prevent the bombers from being
+     slaughtered by enemy fighter patrols. Bomber missions attacking targets
+     at normal range should form large groups of bombers and escorts. Bomber
+     groups attacking targets at extended range should form several smaller
+     groups of less than 15 aircraft each. Extended range for Japanese bombers
+     is 6 or 7 hexes. Extended range for U.S. bombers is 4 or 5 hexes.
+
+15.5  Carrier Operations
+     Carrier operations consist of launching and recovering aircraft. Carriers
+     are limited in the number of operations they may perform each turn due to
+     their limited space. Carriers that spend too many of their operations
+     launching aircraft maybe unable to recover aircraft on the same turn.
+     Likewise carriers with overcrowded decks (aircraft on deck exceed minimum
+     operation limit) will also be unable to recover aircraft on the same
+     turn.  On turns when a large number of aircraft are in landing patterns,
+     the receiving carriers should turn into the wind and clear the decks of
+     excess aircraft. The total aircraft launched should be regulated to
+     insure sufficient remaining operations to land all of the aircraft.
+
+15.6  Coral Sea
+     The JAPANESE PLAYER should move the transport TFs to Port Moresby and
+     unload the troops. The Japanese carrier TFs should hang near the
+     transport TFs and bomb any U.S. TF that moves into range. Land-based
+     aircraft should concentrate on bombing Port Moresby to reduce the U.S.air
+     presence near the invasion site.
+
+     The US. PLAYER can get some early target practice using Yorktown's
+     airgroups to bomb the small Japanese TF at Tulagi.  The two U.S. carrier
+     groups should rendezvous by the end of the first day and move west during
+     the night hours. The U.S. cruiser TF should move Northwest and attempt to
+     engage the Japanese Transport TFs in daylight surface combat. Weather
+     Permitting, a major carrier engagement should occur on the second or
+     third day of the game.
+
+15.7  Midway
+     All JAPANESE TFs should proceed directly to Midway. There they can unload
+     transports and bombard the U.S. base.  When playing the historical
+     set-up, the Japanese carriers should ready their bombers for a major
+     strike against the U.S. carrier TFs.  When playing the random set-up the
+     Japanese player should launch a dawn strike to bomb Midway (range
+     permitting). Japanese battleship TFs should make an effort to bombard
+     Midway and then attempt to engage the U.S. TFs in surface combat.
+
+     The U.S. PLAYER should reserve all available resources to attack the big
+     Japanese carriers.  Air strikes against the transports should be
+     attempted only after the big carriers have all been sunk or disabled. The
+     U.S. player should be careful to avoid a surface engagement with the
+     Japanese battleship TFs.
+
+15.8  Eastern Solomons
+     The JAPANESE PLAYER should send his carrier TFs Southeast as fast as
+     possible to force an engagement with the U.S. carriers before the WASP
+     group can join them. The transport TF should move to Henderson Field and
+     unload.The transport TF should abort its mission and retreat North if the
+     Japanese carriers are knocked out. Japanese land based bombers should fly
+     one mission per day to bomb Henderson Field. The Japanese battleship TF
+     may bombard Henderson Field or attempt to engage the U.S. carrier TFs in
+     a surface combat.
+
+     The U.S. PLAYER should transfer all F4Fs, SBDs and TBFs from Espiritu
+     Santo to Henderson Field at the start of the game.  Aircraft based on
+     Henderson should be used to bomb the Japanese transport TFs; U.S. carrier
+     aircraft should be reserved to attack the Japanese carrier TFs. If the US
+     player delays combat to wait for the WASP group to catch up, then the
+     Japanese will have a free hand to pound Henderson Field on the first day.
+
+15.9  Santa Cruz
+     The JAPANESE PLAYER should send his carrier TFs directly south to force
+     an engagement with the U.S.carriers. The Junyo force should move in the
+     same hex as the other Japanese carrier TF to provide mutual fighter
+     support. The Japanese battleship TFs may bombard Henderson Field or
+     attempt to engage the U.S. TFs in surface combat. Japanese land based
+     aircraft should bomb Henderson Field once per day.  The Japanese
+     destroyer TF that starts near Buin may be used to unload troops on
+     Henderson.
+
+     The U.S. PLAYER should steer his carrier TFs as close as possible to
+     Henderson Field before engaging the Japanese Carriers.  The U.S. carriers
+     should withdraw South at night to avoid the possibility of Surface Combat
+     with the Japanese battleship TFs.
+
+
+               AIRCRAFT CHARACTERISTICS
+
+Aircraft  Max    Aircraft   Bomber    Air to Air Combat
+Type     Speed  Endurance  Accuracy   Attack   Survive
+-------------------------------------------------------
+C. Zeke   4         4         -         20        20
+L. Zeke   4         9         -         17        17
+VAL       4         4         15*       (2)       3
+KATE      4         4         7/3*      (2)       3
+BETTY     4         12        4/2       (2)       3
+NELL      3         10        -         (2)       3
+JUDY      4         4         -         (2)       5
+F4F       4         3         -         17        20
+F2A       4         3         -         10        5
+P39       5         2         -         12        10
+SBD       4         3         9*        (4)       9
+SB2U      3         4         1         (1)       1
+TBD       3         3         2/1       (1)       1
+TBF       4         4         2/1       (4)       8
+B26       4         5         1         (5)       10
+B25       4         6         1         (5)       10
+B17       4         10        1         (12)      25
+A24       4         3         1         (4)       9
+SEAPLANE  3         6,18      -         (0)       0
+---------------------------------------------------------------------- ---
+( ) = Defensive fire only          *In the Midway scenario the land based
+ / = torpedo/high explosive bombs  SBDs have an accuracy of 1.
+
+                             The land  based VALs and KATEs are
+ , = ship-based, land based        50% as accurate as the carrier based
+                                   versions.
+---------------------------------------------------------------------- ---
+          MINIMUM OPERATION LIMITS
+     Akagi     12             Lexington 12
+     Kaga 12             Saratoga       12
+     Hiryu     12        Yorktown       12
+     Soryu     12        Enterprise     12
+     Shokaku   12        Hornet         12
+     Zuikaku   12        Wasp           11
+     Junyo      9
+     Shoho      6        Ryujo           6
+     Zuiho      6        Hosho           3
+--------------------------------------------
+
+               PILOT ABILITY
+
+Scenario       U.S. Pilots    Japanese Pilots
+Coral Sea           -1             -1
+Midway               0             +1
+Eastern Solomons    +1              0
+Santa Cruz          +1              0
+

@@ -1,0 +1,2266 @@
+THE DAYLIGHT BOMBING OF NAZI EUROPE BY
+U.S.A.A.F.
+UNITED STATES ARMY AIR FORCE
+======================================
+
+TABLE OF CONTENTS
+-----------------
+
+ 1.0 INTRODUCTION
+     Starting a Game (Apple)
+     Starting a Game (C-64)
+     Starting a Game (Atari)
+     Saving a Game
+     Sound
+ 2.0 GENERAL DESCRIPTION
+     Parts Inventory
+     The Map
+     Definition of Terms
+ 3.0 STARTING THE GAME
+     Determining Conditions of Play
+     Player Determination
+     Handicap Level
+     Delay Length
+     Selecting a Scenario
+ 4.0 SEQUENCE OF PLAY
+     Luftwaffe Morning Briefing
+     USAAF Morning Briefing
+     USAAF Target Assignment
+     Luftwaffe Deployment
+     Combat Phase - Luftwaffe Situation Room
+     Overnight Activity Phase
+ 5.0 LUFTWAFFE MORNING BRIEFING
+     Yesterday's Operations
+     Weather Report
+     Air Group Status
+     Industry Status
+     Replacement Aircraft
+     Aircraft Production
+     Aircraft Factories
+ 6.0 USAAF MORNING BRIEFING
+     Yesterday's Operations
+     Weather Report
+     Air Group Status
+     Industry Status
+     Replacement Aircraft
+ 7.0 USAAF TARGET ASSIGNMENT
+     Assign Raid
+     Examine Raid
+     Weather Report
+     Map Display
+ 8.0 LUFTWAFFE DEPLOYMENT
+     Fighter Gruppe Status
+     Airfield Status
+     Flak Status
+     Weather Report
+     Assign Fighter Tactics
+     Move Fighter Gruppe
+     Move Airfield
+     Move Flak
+ 9.0 LUFTWAFFE SITUATION ROOM
+     Fighter Gruppe Status
+     Airfield Status
+     Flak Status
+     Weather Report
+     Intercept Raid
+     Establish Patrol
+     Patrol Adjust
+     Luftwaffe Fuel Usage
+10.0 COMBAT PHASE
+     Game Clock
+     Raids Display
+     Changing the Map
+     USAAF Raid Resolution
+     Luftwaffe Fighter Mission Resolution
+     Air-to-Air Combat
+     Flak Resolution
+     Possible Kills
+     Bombing Results
+     Switzerland
+11.0 MISCELLANEOUS
+     Calculating Effective Industry Levels
+     Calculating Axis Industrial Damage Level
+     Aircraft Replacements
+     Luftwaffe Aircraft Availability
+     USAAF Allowable Targets
+     USAAF Political Targets
+     Flak Production
+     Airfield Fuel Replenishment
+     Reinforcement Groups
+     Experience
+     Morale
+     building Industry
+     Allied Fighter Cover Zones
+     Advancing Allies
+     Jet and Rocket Aircraft
+12.0 AIRCRAFT DATA
+13.0 ORDER OF BATTLE
+14.0 VICTORY DETERMINATION
+     Calculating the Score
+     Loss Ratio
+     Victory Level
+15.0 SCENARIOS
+     Phase I
+     Phase II
+     Phase III
+16.0 STRATEGY NOTES
+     USAAF Player
+     Luftwaffe Player
+17.0 AIRCRAFT DIAGRAMS
+
+
+1.0 INTRODUCTION
+================
+U.S.A.A.F. is a simulation of the daylight startegic bombing offensive against
+the Third Reich in World War II.  The game covers the period from August 1943
+to the end of the war.
+
+1.1 Starting a Game (Apple)
+---------------------------
+To begin the game, boot side one and the game will begin automatically.  If you
+are using an Apple III you must first go into Apple II emulation mode.  After
+you have selected a scenario the computer will instruct you to insert side two
+of the disk for the remainder of the game.
+
+1.2 Starting a Game (C-64)
+--------------------------
+To begin the game, insert the game disk into your disk drive.  Type: LOAD "*",8
+and press <RETURN>.  When READY appears, type RUN and press <RETURN>
+
+1.3 Starting a Game (Atari)
+---------------------------
+To begin, boot the Scenario side of your disk.  Before beginning remove all
+cartridges from your computer.  Owners of the 800XL will have to hold down the
+OPTION key when they turn on their computer to boot the game.  After you have
+selected the starting conditions for the game, the computer will ask you to
+insert the Game side of your disk.
+
+1.4 Saving a Game
+-----------------
+At various points during each turn the computer will allow the player(s) to
+save a game in progress.  You will need a scratch disk to store the save game
+data.  Save game disks may be initialized for SSI use during a game by
+following instructions included in the game program.  Each save game disk will
+hold approximately 6 games.  Once a game is saved you will be able to restart
+it at the point your left off.
+
+1.5 Sound
+---------
+During the Combat Phase, the players may toggle the sound ON/OFF by pressing
+the (O) key.  The new sound status will take effect when the game clock display
+is updated.
+
+2.0 GENERAL DESCRIPTION
+=======================
+
+2.1 Parts Inventory
+-------------------
+    A Game box
+    B Rules manual
+    C 5 1/4" game disk
+    D 2 player aid cards
+
+2.2 The Map
+-----------
+The game map displays England and Nazi-occupied Europe including the area from
+France in the west to Rumania in the east and from Denmark in the north to
+Italy in the south.  A 48 x 32 square grid is used to control movement.  Each
+square is 33 miles across.
+   Terrain features on the map include American Flag symbols that represent
+USAAF bases; blue areas represent seas and oceans; black areas represent open
+land; green 'x' symbols represent Luftwaffe airfield sites; white 'x' symbols
+represent active Luftwaffe airfields (displayed only to the Luftwaffe player);
+orange areas represent Axis cities; white striped areas represent neutral
+Switzerland.
+
+2.3 Definition of Terms
+-----------------------
+ACTIVE AIRFIELD
+A Luftwaffe airfield site that includes the necessary personnel and equipment
+to effectively repair, fuel and arm fighter aircraft.
+
+AIRFIELD SITE
+Squares on the map that are eligible to contain active airfields.  There are
+over 100 airfield sites on the map and only 48 may be active at any one time.
+
+ALTITUDE
+The elevation in thousands of feet that a raid or patrol is assigned to fly in
+performing its mission.
+
+DAMAGE
+Individual target damage is displayed when reviewing a previous day's operat-
+ions.  This number reflects the percentage loss in production of an industrial
+target, percentage loss in guns of a flak target or percentage loss in operat-
+ing capability for airfield targets.  For scoring purposes an overall damage
+level is displayed on the Morning Briefing menu.  This number represents the
+cumulative effects of strategic bombing on the German war effort.
+
+EXPERIENCE
+A measure of the average amount of flying or combat experience of the pilots in
+a Group Gruppe.  Numbers range from 0 (no experience) to over 100 (very
+experience).
+
+FEINT
+A USAAF mission undertaken for the purpose of deceiving the Luftwaffe into
+committing fighters needlessly.
+
+FLAK
+Up to 200 heavy and 200 light flak batteries may be used to defend target
+cities.  Heavy flak is effective against aircraft flying below 30,000 feet;
+light flak is effective against aircraft flying below 6,000 feet.
+
+GROUP
+The basic USAAF organizational unit used in the game.  Bomber groups contain up
+to 48 aircraft (usually no more than 37).  Fighter groups contain up to 55
+aircraft.
+
+GRUPPE
+The basic Luftwaffe organizational unit used in the game.  Gruppes contain up
+to 50 aircraft.
+
+MORALE
+A measure of the spirit and dedication of the pilots and crews of a Group/
+Gruppe.  Values range from 20 (demoralized) to over 100 (hungry for action).
+Morale is reduced by flying and may be increased by resting.
+
+RANDOM NUMBER
+A number randomly determined that is greater than or equal to 0 and less than
+1.
+
+ROCKETS
+Air-to-air rockets were used primarily to disrupt heavy bomber formations.
+Aircraft armed with rockets suffered from greatly reduced manueverability and
+were dead meat when opposed by Allied fighters.
+
+SERVICEABLE AIRCRAFT
+The number of aircraft in a Group/Gruppe available for immediate operations.
+Aircraft may become unserviceable (unavailable) due to battle damage or normal
+wear and tear from just flying.
+
+TIME
+The passage of time is displayed on a 24-hour game clock during the combat
+phase.  At the start of each day, the clock will begin at 520 and will
+increment in 10 minute pulses until all USAAF raids have been completed.  Raids
+landing at night (after 1700) will suffer higher operational losses.
+
+WEATHER
+Weather in the game is expressed as a percentage of overcast or cloud cover.
+Cloud cover may adversely after the ability of bombers to locate or accurately
+bombe their targets.  Weather will adversely affect the ability of fighters to
+locate targets for air-to-air combat.  Aircraft taking off or landing in poor
+weather will suffer higher operational losses and USAAF raids forming up in
+poor weather may be forced to abort their missions.  During short game
+scenarios the overcast levels will be reduced by an average of 20%.
+
+WEATHER ZONES
+There are a different weather zones on the map; northwest, north-central,
+north-east, southwest, south-central and southeast.  Cloud cover is specifical-
+ly defined for each weather zone.  On the average, cloud cover in the south-
+west and south-central zones will be 20% less than the other zones on the map.
+Flying conditions will be best during the summer months, average during the
+spring and fall months, and poorest during the winter months.
+
+
+3.0 STARTING THE GAME
+=====================
+
+3.1 Determining Conditions of Play
+----------------------------------
+At the start of the game, the player(s) must determine the conditions under
+which the game must be played.  On the APPLE version the conditions may be
+changed by entering the following numbers:
+
+(1) NEW GAME or SAVED GAME
+(2) 1 DISK DRIVE or 2 DISK DRIVES
+(3) SOLITAIRE or TWO PLAYERS
+(4) HANDICAP LEVEL
+(5) DELAY LENGTH
+(6) SELECT SCENARIO
+
+On the ATARI and COMMODORE 64 versions:
+
+(1) NEW GAME or SAVED GAME
+(2) SOLITAIRE or TWO PLAYERS
+(3) HANDICAP LEVEL
+(4) DELAY LENGTH
+(5) SELECT SCENARIO
+
+3.2 Player Determination
+------------------------
+U.S.A.A.F. may be played by zero, one or two players and this is determined by
+the option selected on the opening menu.  For example, if you wish watch a
+computer controlled USAAF face a computer controlled Luftwaffe, you should
+select the option BOTH COMPUTER.
+
+3.3 Handicap Level
+------------------
+At the start of the game the player(s) must determine the handicap level (1-5).
+The effects of the handicap level are such that LEVEL 1 would significantly
+favor the USAAF player and LEVEL 5 will significantly favor the Luftwaffe
+player.  LEVEL 3 is the historical level.
+   Handicap level will affect the USAAF replacement rate, the ability of Allied
+Intelligence to determine critical targets and teh ability of the Axis war
+industry to accelerate the development of advanced aircraft types (such as the
+ME262A jet fighter).
+
+3.4 Delay Length
+----------------
+The delay length affects messages displayed during the Combat Phase.  The
+greater the delay length, the longer these message will remain displayd.  A
+delay length of 1 will speed up the game but will cause the messages to be
+difficult to read.  A delay length of 9 will slow the game considerably but
+will allow the player(s) maximum time to study the various combat reports.
+
+3.5 Selecting a Scenario
+------------------------
+The players may select from three different time periods in which to start the
+game:
+
+PHASE I   (1 AUGUST 1943)
+PHASE II  (1 FEBRUARY 1944)
+PHASE III (1 OCTOBER 1944)
+
+It is strongly suggested that beginning players start with a Phase II game.
+   In addition to selecting the time period, the player(s) may elect to play
+either a Short Game or a Campaign Game.  The Short Game will end after one
+month.  The Campaign Game will end when the Axis Industrial Damage Level
+exceeds 99 or on 1 August 1945, whichever comes first.  The SHORT or COMPAIGN
+decision is not made from the opening menu; it is made after the initial data
+has been read from the disk.
+
+
+4.0 SEQUENCE OF PLAY
+====================
+Each game turn represents one day of real time.  The game turn is divided into
+6 phases in which the player(s) may review intelligence reports and then plan
+and execute their daily missions.  On the first turn of each new game, the
+Luftwaffe morning briefing phase is skipped.
+
+4.1 Luftwaffe Morning Briefing*
+------------------------------
+The Luftwaffe player may (1) review the results of the previous day's
+operations, (2) check the weather forecast, (3) inspect the status of his
+fighter gruppes, (4) inspect the status of the German war industries, (5) check
+the numbers of aircraft available in the replacement pools, (6) change the
+types of aircraft being produced in aircraft factories, (7) review the
+production status for each type of aircraft.
+
+4.2 USAAF Morning Briefing
+--------------------------
+The USAAF player may: (1) review the results of the previous day's operations,
+(2) check the weather forecast, (3) inspect the status of his bomber and
+fighter groups at each of his bases, (4) inspect the status of the German war
+industries.
+
+4.3 USAAF Target Assignment
+---------------------------
+The USAAF player may: (1) assign bomber and fighter groups to fly raids over
+Axis Europe, (2) examine data from previously assigned raids with the option of
+canceling unsatisfactory raids, (3) check the weather forecast, (4) examine the
+map display.
+
+4.4 Luftwaffe Deployment*
+------------------------
+The Luftwaffe player may: (1) review the status of his fighter gruppes, (2)
+review the status of his active airfields, (3) check the number of heavy and
+light flak batteries protecting each of his cities, (4) check the weather
+report, (5) assign tactics to his fighter gruppes, (6) move fighter gruppes to
+different active airfields, (7) move active airfields to a different airfield
+site, (8) move flak batteries to protect different cities.
+
+4.5 Combat Phase - Luftwaffe Situtation Room
+--------------------------------------------
+The Luftwaffe player may (1) alter the map display to view different portions
+of the map, (2) review the size and altitude of any USAAF raids that have been
+detected, (3) go to the Luftwaffe Situation Room.
+   From the Situation Room the Luftwaffe player may: (1) review the status of
+his uncommited fighter gruppes, (2) check the status of his active airfields,
+(3) inspect the flak batteries in each of his cities, (4) check the weather
+report, (5) assign fighter gruppes to intercept USAAF raids, (6) assign fighter
+gruppes to fly patrols over particular areas, (7) instruct fighter patrols to
+intercept USAAF raids or change their patrol locations, (8) resume the Combat
+Phase.
+
+4.6 Overnight Activity Phase
+----------------------------
+During this phase the computer will automatically perform various book-keeping
+functions such as repairing damage, assigning replacements, calculating the
+score etc.
+
+
+5.0 LUFTWAFFE MORNING BRIEFING
+==============================
+
+5.1 Yesterday's Operations
+--------------------------
+For each raid flown the previous day the computer will list:
+
+(1) TARGET: if the target was a city then the city name will appear, otherwise
+            AIRFIELD FLAK FEINT or DEEP ESCORT will be shown.
+(2) BG: number of USAAF bomber groups included in the raid.
+(3) BL: USAAF bombers lost due to air-to-air combat or flak.
+(4) FG: number of USAAF fighter groups included in the raid.
+(5) FL: USAAF fighters lost due to air-to-air combat or flak.
+(6) IG: the number of times the raid was intercepted by Luftwaffe fighter
+        groups.
+(7) IL: the number of intercepting Luftwaffe fighters destroyed in air-to-air
+        combat.
+(8) TD: target damage percentage.
+(9) C: class code of target (A-L) will be shown for city targets to indicate
+       the type of target bombed within that city.
+
+       A. railyard (Overlord)
+       B. ball bearings
+       C. chemicals
+       D. oil
+       E. aviation gas
+       F. electric power
+       G. steel
+       H. rubber
+       I. U-boat
+       J. armaments
+       K. aircraft
+       L. V-weapon
+
+USAAF losses shown on this display may be inaccurately reported (usually higher
+than actual losses).
+
+5.2 Weather Report
+------------------
+Lists the predicted cloud cover for each or the six weather zones on the map.
+
+5.3 Air Group Status
+--------------------
+Lists the following data for each available Luftwaffe fighter gruppes:
+
+(1) ID: gruppe identification number
+(2) GROUP: the historical gruppe designation
+(3) AS: aircraft serviceable
+(4) AU: aircraft unserviceable
+(5) EX: experience rating
+(6) MO: morale rating
+(7) TYPE: type of aircraft used by the gruppe
+(8) the gruppe's airfield ID number will be displayed at the right edge of the
+    screen.
+
+* indicates the game may be saved following this phase
+
+
+5.4 Industry Status
+-------------------
+The Luftwaffe player may inspect the status for each type of industry.  For
+each city containing the selected industry the computer will display the city
+ID number, city name and production level for that city.  A total industry
+level will be displayed at the bottom of the list.  The number to the right of
+the slash is the unadjusted industry level.  The number to the left is the
+industry level adjusted for critical industry damage (except for the aircraft
+industry).  The adjusted levels will be set to 100 at the beginning of each
+game.
+
+5.5 Replacement Aircraft
+------------------------
+The player may inspect the number of replacements for each type of aircraft.
+For each type of aircraft available the computer will display the type ID
+number, type designation and the quantity of aircraft available as replace-
+ments.
+   The Replacement Aircraft routine may be used to change the type of aircraft
+being used by a particular gruppe.  This is done by exchanging the aircraft
+currently used by the gruppe for a different aircraft type available in the
+replacement pool.  The USAAF player may not exchange fighters for bombers or
+bombers for fighters.
+   Type in the gruppe ID# for the gruppe you wish to change, then enter the
+type ID# to indicate the new type of aircraft.  The old aircraft will be added
+to those of the same type already in the replacement pool.  The new aircraft
+will be subtracted from the replacement pool and added to the exchanging gruppe
+in UNSERVICEABLE condition.  The exchange transaction will not be allowed if
+the replacement pool does not contain adequate numbers of the selected type to
+allow a 1 for 1 exchange.
+   The exchange procedure will result in a reduction of pilot experience.  When
+exchanging for aircraft of the same class (i.e. single engine for single engine
+), there will be a loss of 20% of the group's experience points.  When exchang-
+ing for aircraft of a different class (i.e. single engine for twin engine),
+there will be a loss of 50% of the group's experience points.
+
+5.6 Aircraft Production
+-----------------------
+The Aircraft Production routine may be used to examine or alter the types of
+aircraft being produced in a particular city.  The computer will display all
+cities that include aircraft factories.  The player must enter the city ID# for
+the city he wishes to examine/alter.
+   Aircraft cities contain three production slots.  Each slot will contain an
+aircraft type or will be empty.  Aircraft cities with only one slot in use will
+devote their entire production to that one type of aircraft.  Aircraft cities
+with two slots in use will devote half of their production to each of the two
+listed types of aircraft.  Aircraft cities with all three slots in use will
+devote one third of their production to each of the three listed types of
+aircraft.
+   The Aircraft Production routine may be used to add a new type of aircraft to
+an empty slot, remove an aircraft type to create an empty slot or change an
+occupied slot to a different type of aircraft.  The player must be enter the
+type ID number for the new aircraft type and the slot number that is to be
+altered.  Aircraft type ID numbers are listed in section 12.0.  If you wish to
+remove an aircraft type to create an empty slot, just enter aircraft type
+number '0' for a currently occupied slot.
+   Altering the production of an aircraft city will reduce the aircraft
+production level of that city.  The production level reduction will be
+determined as follows:
+
+(1) 60% reduction if subtracting an aircraft type to create an empty slot
+(2) 20% reduction if adding an aircraft type to fill an empty slot
+(3) 20% reduction if changing an occupied slot to a similar aircraft type
+    (i.e. ME109G changed to ME109K).
+    Note: FW190A, FW190D, FW190F and TA152H are considered to be similar
+    aircraft types.
+(4) 60% reduction if changing an occupied slot to a non-similar aircraft type
+
+   You cannot change the production characteristies of a city if the city has
+a production level less than 5.
+
+5.7 Aircraft Factories
+----------------------
+The player must select the aircraft type.  The computer will display each city
+involved in the production of that aircraft type and the production level
+devoted to that type.
+
+
+6.0 USAAF MORNING BRIEFING
+==========================
+
+6.1 Yesterday's Operations
+--------------------------
+Similar to that described in section 5.1.  On this display the Luftwaffe
+fighter losses will be inaccurately reported.
+
+6.2 Weather Report
+------------------
+Same as that described in section 5.2.
+
+6.3 Air Group Status
+--------------------
+Similar to that described in section 5.3.  The player must first specify the
+base (England, Italy, Tunisia, Libya) whose groups he wishes to examine.
+
+6.4 Industry Status
+-------------------
+Sames as that described in section 5.4.
+
+6.5 Replacement Aircraft
+------------------------
+Same as that described in section 5.5.
+
+
+7.0 USAAF TARGET ASSIGNMENT
+===========================
+
+7.1 Assign Raid
+---------------
+For each raid assigned the USAAF player must perform the following actions:
+
+(1) select raid ID letter (A-Z)
+(2) select origin base; the player must determine the base from which the raid
+    will begin.  Before 1 OCTOBER 1943, England, Tunisia or Libya may be
+    selected.  After 30 SEPTEMBER 1943, England or Italy may be selected.
+(3) select target: the following types of targets or missions may be selected:
+    A  railyard
+    B  ball bearings
+    C  chemicals
+    D  oil
+    E  aviation gas
+    F  electric power
+    G  steel
+    H  rubber
+    I  U-boat
+    J  armaments
+    K  aircraft
+    L  V-weapon
+    M  Overlord
+    N  flak
+    O  airfield
+    P  feint
+    Q  deep escort
+(4A) select target city: the computer will list all cities that contain the
+     selected target type.  The palyer must choose the city to be bombed.  This
+     applies only to target types A-M.
+(4B) select target point: the map will be displayed with the cursor over the
+     starting base.  The player must move the cursor over the target to be
+     bombed and press the (X) key.  If the target type is FLAK then the cursor
+     should be placed over a city square.  If the target type is AIRFIELD, then
+     the cursor should be placed over an airfield site square.  If the target
+     type is FEINT, then the cursor may be played anywhere.  This paragraph
+     applies only to target types N.O.P.
+(5)  select secondary target city: secondary target type must be the same as
+     the primary target.  Selection of secondary targets is optional.  This
+     paragraph applies only to target types A-M.
+(6)  select offset point: the computer will display the map with the cursor
+     over the primary target location.  Move the cursor to the desired offset
+     point and press the (X) key.  The raid will fly through the offset while
+     returning to its base.  If the raid bombed a secondary target or if it is
+     shuttling to a different base, then it will not fly through the offset
+     point AFTER it has bombed or passed through the target point.  If an
+     offset point is not desired, then press the (X) key without moving the
+     cursor from the target square.  Applies to target types A-P.
+(7)  shuttle to different base: only heavy bombers (B17F, B17G, B24D, B24J) may
+     fly to a base that is different than the origin base.
+(8)  select bomber type and assign bomber groups: the player may include as
+     many of his available groups as he wishes in a single raid.  Different
+     types of bombers may be combined in the same raid.  Heavy bombers may not
+     fly in flak attack or deep escort raids.  A group (fighter or bomber) must
+     have at least 10 serviceable aircraft in order to fly a mission.
+(9)  select fighter type and assign fighter groups: fighter groups that fly in
+     the same raid as bomber groups will act as 'close escort' protection
+     against enemy fighters.  Fighter groups in deep escort missions are not
+     required to depart at the same time as the bomber raid they are escorting.
+     Deep escorts may join up with the bombers at various points on the route
+     to or from the target.  Fighter groups may be used to bomb AIRFIELD, FLAK,
+     and RAILYARD (OVERLORD) targets.  Fighter groups will not bomb if they are
+     flying in the same raid with heavy bomber groups.  When acting as bombers,
+     fighter groups will fly to the target at their assigned altitude dive to
+     1000 feet to attack the target, then climb back in the assigned altitude
+     for the return to base.
+(10) determine which raid to escort: this applies only to deep escort missions.
+(11) assign raid altitude: the computer will display the altitude limits for
+     each raid.  Raids on AIRFIELD, FLAK, and RAILYARD (OVERLORD) targets may
+     not fly over 24000 feet.  For the best results, deep escorts should fly
+     1 to 3 thousand feet above the raid they are escorting.
+(12) set departure time: may set any time from 600 to 1700 as departure time.
+     Deep escorts may not depart BEFORE the raid they are escorting.
+
+7.2 Examine Raid
+----------------
+This routine may be used to examine data from previously assigned raids.
+Included in the raid data display is the range to target (including offset
+point), raid speed and climb rate.
+
+7.3 Weather Report
+------------------
+Same as that described in section 5.2
+
+7.4 Map Display
+---------------
+The map display may be used as an aid in planning raids.  The cursor may be
+moved around the map by pressing keys 1-8 (1=NORTH, 2=NE, 3=EAST, 4=SE, 5=
+SOUTH, 6=SW, 7=WEST, 8=NW).  If the cursor is moved over a city square and the
+(L) key is pressed then the city name will be displayed.
+
+
+8.0 LUFTWAFFE DEPLOYMENT
+========================
+
+8.1 Fighter Gruppe Status
+-------------------------
+Same as that described in section 5.3.
+
+8.2 Airfield Status
+-------------------
+Lists the following data for each active airfield:
+
+(1) AF: airfield identification number
+(2) LOC: the x,y location of the airfield
+(3) D%: damage percentage, airfields with over 49% damage may not operate
+        aircraft
+(4) FR: fuel reserve points stored at the airfield.  Each fuel reserve point is
+        sufficient to fly 1 aircraft on 1 sortie.
+(5) GRUPPE & TYPE: lists the historical designation and type of aircraft for
+                   each gruppe based at the airfield
+
+8.3 Flak Status
+---------------
+For following data will be displayed for each city on the map:
+
+(1) ID: city identification number
+(2) CITY: the city name
+(3) HVY FLAK: the number of heavy-flak batteries protecting the city
+(4) LT. FLAK: the number of light flak batteries protecting the city
+
+8.4 Weather Report
+------------------
+Same as that described in section 5.2.
+
+8.5 Assign Fighter Tactics
+--------------------------
+Each day, the Luftwaffe player may alter the tactics assigned to some or all
+of his gruppes.  The five tactical options are described below:
+
+(1) ATTACK FIGHTER - BOUNCE
+    The gruppe will attempt to engage USAAF fighter groups but will not attack
+    unless a positional advantage can be attained.  Will engage bombers if no
+    fighters are present.
+
+(2) ATTACK FIGHTERS - DIRECT
+    The gruppe will attempt to engaged USAAF fighters and will attack
+    regardless of the tactical position.  Will engage bombers if no fighters
+    are present.
+
+(3) ATTACK BOBMERS - BOUNCE
+    The gruppe will attempt to engage USAAF bombers but will only attack if a
+    positional advantage can be attained.  Will NOT engage fighters.
+
+(4) ATTACK BOMBERS - DIRECT
+    The gruppe will attempt to engage USAAF bombers and will attack regardless
+    of the tactical position.  Will NOT engage fighters.
+
+(5) ATTACK BOMBERS - ROCKET
+    The gruppe will attempt to engage USAAF bombers.  Will not attack unless
+    the proper rocket launch position can be attained.  Following a rocket
+    launch, the gruppe will engage the bombers with cannon fire.  Will NOT
+    engage fighters.
+
+    There are two methods for assigning tactics.  THE DEFAULT TACTICS method
+    allow a tactic to be assigned to all gruppes with a particular type of
+    aircraft.  The SPECIFIC GRUPPE TACTICS method allows tactics to be
+    assigned to individual gruppes as desired.
+
+8.6 Move Fighter Gruppe
+-----------------------
+This routine may be used to move gruppes to different active airfields.  The
+player must input the ID numbers for the gaining and losing airfields and
+then the ID numbers of the gruppes to be moved.  Gruppes will lose 5% of their
+morale each time they are moved in this manner.  The MOVE AIRFIELD routine
+contains an alternate (and easier) method of moving fighter gruppes.
+
+8.7 Move Airfield
+-----------------
+This routine may be used to move active airfields to vacant airfield sites or
+move fighter gruppes to different active airfields.
+
+(1) move airfield: move the cursor on the map display to the active airfield
+    wish to move.  Press the (G) key to get the airfield.  Move the cursor to
+    the new airfield site and press (M) to move the airfield.  The airfield
+    move procedure will result in 90% damage to the relocated airfield.
+    Airfields may not be moved to sites that are currently occupied by active
+    airfields.
+(2) move gruppe: move the cursor on the map display to an active airfield.  The
+    airfield ID number displayed at the bottom of the text window will be
+    inversed if the airfield contains one or more fighter gruppes.  Press the
+    (L) key to look at the first gruppe.  If you do not wish to move the
+    gruppe then press the (N) key to look at the next gruppe or the (Q) key to
+    return to the map menu.  If you wish to move the gruppe you are looking at
+    then move the cursor to the desired active airfield and press (M) to move
+    the gruppe.  Gruppes moved in this manner will have their morale reduced
+    by 5%.
+
+8.8 Move Flak
+-------------
+This routine may be used to move flak to enhance protection of key cities.
+Move the cursor to the 'losing' city and press (T), move the cursor to the
+'gaining' city and press (X), then specify the quanties of heavy and light
+flak you wish to move.  A maximum of 100 flak batteries may be moved in a
+single day.
+
+9.0 LUFTWAFFE SITUATION ROOM
+============================
+The Luftwaffe player may 'enter' the Situation Room by pressing the (S) key
+during the Combat Phase.  In the Situation Room the real time game clock is
+frozen while the Luftwaffe player examines his available forces and orders
+his various gruppes to intercept detected raids or patrol areas where activity
+is expected.
+
+9.1 Fighter Gruppe Status
+-------------------------
+Similar to that described in 5.3. Gruppes that are flying patrols or intercept
+missions will not be displayed.
+
+9.2 Airfield Status
+-------------------
+Similar to that described in 8.2. Gruppes that are flying patrols or intercept
+missions will not be displayed.
+
+9.3 Flak Status
+---------------
+Same as that described in 8.3.
+
+9.4 Weather Report
+------------------
+Same as that described in 5.2.
+
+9.5 Intercept Raid
+------------------
+The detected raids will have their ID letters displayed.  To examine a raid,
+press the key corresponding to be raid's ID.  The cursor will move to the
+raid's location and the estimated raid size and altitude will be displayed.
+   To intercept the raid, move the cursor to a nearby active airfield.  The
+computer will display the airfield (AF) identification number and the fuel
+reserves (FR) stored there.  If one or more gruppes are located at the base
+then the display will show the gruppe ID number, historical designation, number
+of serviceable aircraft, type of aircraft, experience and morale ratings for
+the first gruppe.
+   If you do NOT wish to assign the displayed gruppe to intercept then press
+the (N) key to view the next gruppe or the (Q) key to return to the main menu.
+   Type the (A) key to assign the displayed gruppe to intercept the raid.  It
+is possible to assign more than one gruppe from the same airfield to fly in the
+same mission.  Gruppes flying intercept missions will have the option of
+returning to a different airfield.  To select a different return airfield move
+the cursor to the desired location and press (X).
+
+9.6 Establish Patrol
+--------------------
+Gruppes are assigned to patrol missions in the same manner that they are
+assigned to intercept missions.  Press the (A) key to assign the gruppe to a
+patrol mission.  Move the cursor to the desired patrol area and press the (X)
+key.  The patrol altitude must be set and the gruppe may be ordered to return
+to a different base.
+
+9.7 Patrol Adjust
+-----------------
+The status of previously assigned patrols may be changed using the Patrol
+Adjust routine.  The location and fuel status of the existing patrols will be
+displayed one at at time.
+   If you do NOT wish to adjust the displayed patrol then press the (N) key to
+locate the next patrol or the (Q) key to return to the main menu.
+   By pressing the (A) key the player may change the patrol area, altitude and
+return base.
+   By pressing the (I) key the patrol may be ordered to intercept a detected
+raid.
+
+9.8 Luftwaffe Fuel Usage
+------------------------
+When fighter gruppes are assigned to fly intercept or patrol missions, then 1
+fuel point will be subtracted from the airfield fuel reserve for each service-
+able aircraft in the assigned group.  If there are more flying aircraft than
+fuel reserve points, then the fuel will be reduced to zero and the aircraft
+wll fly the mission with their endurance reduced.
+
+
+10.0 COMBAT PHASE
+=================
+During the Combat Phase, both players should be at the computer viewing the
+action.  The USAAF player should turn away when the Luftwaffe player is using
+the Situation Room routines.  Only the Luftwaffe player is allowed to make
+keyboard inputs during the Combat Phase.
+   Certain equations in this section are printed in a lighter color; beginners
+need not read these to play the game.  Intermediate and Advanced players,
+however should find that the formulas contribute to a better understanding of
+how the computer determines values and percentages.
+
+10.1 Game Clock
+---------------
+Each day the clock will start at 520 AM and run continuously until all raids
+have been completed.  Game time is divided into 10-minute pulses.  Each pulse
+all raids, patrols and intercept missions will move, search and possibly engage
+in combat.  The Luftwaffe player may stop the clock's progress by using the
+Raids display routine or entering the Situation Room.
+
+10.2 Raids Display
+------------------
+At any time during the Combat Phase the Luftwaffe Player may examine the
+detected USAAF raids by pressing the (R) key.  The ID letters for detected
+raids will be listed.  To examine a raid, press the key that corresponds to the
+raid's location on the map and the raid's estimated size and altitude will be
+displayed.
+
+10.3 Changing the Map
+---------------------
+The U.S.A.A.F. Game Map covers a 48 x 24 square grid.  Only a 20 x 10 area can
+be viewed at any one time.  During the Combat Phase, the Luftwaffe player may
+alter the portion of the map being displayed by pressing keys 1-9.  The map is
+divided into 9 areas that are situated as follows:
+
+          1  2  3
+          4  5  6
+          7  8  9
+
+Thus by pressing the (1) key, the display will change to show the northwest
+portion of the map; by pressing the (9) key, the southeast portion of the map
+will be shown etc.
+
+10.4 USAAF Raid Resolution
+--------------------------
+(1) FORMING UP: the time required to form up is equal to assigned altitude
+    divided by the climb rate.  Raids that spend an entire pulse climbing will
+    not move during the pulse.  Raids that spend only part of the pulse climb-
+    ing will receive partial movement.
+(2) MOVEMENT: raids will move in a straight line towards an objective.  A
+    movement objective may be either a target or an offset point.  Deep escorts
+    will move towards the raid they are designated to escort.
+(3) FUEL CONSUMPTION: groups spend 1 fuel point each turn they are in the air.
+    Fighter groups spend 4 fuel points each time they participate in air-to-air
+    combat.  Fighter groups that exceed their operational fuel limit will turn
+    back.  Groups that turn back will be removed from the map.  Groups will
+    never be forced to ditch for lack of fuel.
+(4) FLAK: raids may be subjected to flak attacks each pulse they spend in a city
+    square.  Airfield flak will only fire at raids that are attacking the air-
+    field from less than 6000 feet.  Raids flying in the TARGET square will be
+    subjected to full strength flak.  Raids flying through a non-target square
+    will be attacked by 1/3 strength flak.  Flak is primarily useful in
+    disrupting bomber formations before they drop their bombs.
+(5) LOCATING THE TARGET: bombers that enter a target square will attempt to
+    visually sight the target.  If the visual sighting fails due to cloud cover
+    then the raid will proceed towards the secondary target.  If the visual
+    sighting fails and no secondary target has been assigned then the bombers
+    will attempt to bomb using radar.  Radar bombing will be only 10% as
+    effective as visual bombing.  The probability that a raid will fail to
+    'sight' the target is equal to the cloud cover percentage in the target's
+    weather zone.
+(6) OFFSET POINTS: raids will fly through their assigned offset points before
+    proceeding directly to the target.  Raids will fly through the offset point
+    when returning to base unlesss the following exceptions apply (a) the raid
+    is shuttling to a different base. (b) the raid bombed a secondary target.
+    Offset points may be useful in flying around heavy flak and fighter
+    concentrations or in concealing the intended target until the last moment.
+(7) RETURN TO BASE: after dropping their bombs or passing through their target
+    points, the raids will set their return course.  Shuttle raids will return
+    to their origin base.  Returning raids will be removed from the map when
+    they reenter the Allied fighter cover zone (see 11.13).  Bomber raids will
+    have their speed increased by 25 mph after dropping their bombs.
+(8) RAID DETECTION: The Luftwaffe player will always receive advance notice of
+    impending raids.  A 'RAID FORMING UP' message will be displayed immediately
+    after a raid takes off from its base.  The 'RAID FORMING UP' message will
+    be displayed each 10-minute pulse until the raid is detected.  When a raid
+    is detected, the cursor will move to the raid's current location, and the
+    raid's estimated size and altitude will displayed.
+       Raids that are still within the Allied Fighter Cover Zone will have a
+    random chance of detection. (The higher the assigned altitude, the greater
+    the chance of detection)   Raids that fly beyond the Fighter Cover Zone
+    will be automatically detected.
+
+10.5  Luftwaffe Fighter Mission Resolution
+------------------------------------------
+
+(1) TAKING OFF; gruppes that have been assigned to fly or patrol missions must
+first spend 1 pulse `on the runway' preparing to take off.  If the airfield is
+bombed while the fighters are on the runway then they will abort their
+mission.
+
+(2) CLIMBING; following take off the fighters will climb to their assigned
+altitudes.  Intercept missions will climb to the same altitude as the raid
+they are attempting to intercept.  Fighter missions will suffer the same
+movement penalties as those described for USAAF raids.
+
+(3) MOVEMENT; patrol missions will move in a straight line towards their
+assigned patrol area where they will remain until: (a) a different patrol
+areas is assigned, (b) the patrol is assigned to intercept a USAAF raid, (c)
+the patrol sights a raid which it will automatically intercept, (d) the patrol
+runs low on fuel and returns to its assigned airfield.  Intercept missions
+will move toward the raid they are attempting to intercept.
+
+(4) FUEL CONSUMPTION;  fighter missions will spend 1 fuel point each pulse
+they are in the air.  Fighters use 2 fuel points each time they INITIATE
+air-to-air combat.  Fighters (but not jets and rockets) use 4 fuel points when
+DEFENDING in air-to-air combat. Fighters use 10 fuel points to initiate a
+rocket attack.  Fighter gruppes that exceed their operational fuel limit will
+turn back.
+
+(5) LANDING & REFUELING; gruppes that turn back will be removed from the map
+display and will spend a variable period of time in `landing mode'. The number
+of pulses required to land the gruppe is equal to the distance in squares from
+the turn-back point to the assigned airfield.  Following the landing interval,
+the gruppe will spend an additional 3 pulses refueling.  When refueling is
+complete, the gruppe will be ready for reassignment to intercept or patrol
+missions.
+
+10.6 Air-to-Air Combat
+----------------------
+Air-to-Air combat is a two step procedure: combat initiation and combat
+resolution.
+
+(1) REQUIREMENTS; only fighters may attempt to initiate air-to-air combat.
+Air-to-air combat may only occur between groups that occupy the same square on
+the map.  Luftwaffe fighters may only initiate combat against raids they have
+been assigned to intercept.  All air-to-air combat situations are resolved as
+a single attacking group vs. a single defending group.  If more than one
+fighter group exists in the attacker raid/mission then each group will be given
+a separate chance to initiate combat.  If more than one group is present in
+the defending raid/mission then the defending group will be determined
+randomly.
+
+(2) FAILURE TO INITIATE COMBAT; if the requirements for air-to-air combat
+exist the fighters may still fail to initiate combat due to poor visibility,
+altitude difference or improper positioning.
+ (a) visibility - the probability of failure due to poor visibility is equal
+     to the percentage of cloud cover in the weather zone.
+ (b) altitude - the probabilities of failure due to altitude differences are
+     listed below:
+          3000 ft or less       0%
+          5000 ft              33%
+          7000 ft              67%
+          9000 ft or more     100%
+ (c) position - the probability of failure due to improper position varies
+     with the fighters tactics:
+          DIRECT                0%
+          BOUNCE               70%
+          ROCKET               80%
+          all USAAF fighters   70%
+
+(3) FIGHTER VS FIGHTER COMBAT RESOLUTION;  combat is resolved by comparing the
+`effectiveness' and size of the attacking group with the `effectiveness' of
+the defending group.  Fighter effectiveness is calculated as follows:
+    effectiveness = maneuverability # X (400 - disruption) / 400 X (experience
+    + 100) / 200 X (morale _ 100) / 200
+
+The effectiveness of the attacking group is increased by 50% if it is a USAAF
+group attacking from an altitude advantage or a Luftwaffe group using `bounce'
+tactics.  The following formula is used to determine the number of POSSIBLE
+KILLS suffered by the defender:
+    possible kills = defender effectiveness / (1 + attacker effectiveness) X
+    number of surviving defender aircraft X random number / 8
+
+After the defender losses have been deducted the number of POSSIBLE KILLS
+suffered by the attacker is determined:
+    possible kills = defender effectiveness / (1 + attacker effectiveness) X
+    number of surviving defender aircraft X random number / 8
+
+(4) FIGHTER VS BOMBER RESOLUTION: fighter effectiveness is calculated as
+follows:
+    effectiveness = (70 + cannon # X3) X (400 - disruption) / 400 X (experience
+    + 100) / 200 X (morale + 100) / 200
+
+The effectiveness of the fighters is increased by 50% when using `bounce'
+tactics.  Bomber effectiveness is calculated as follows:
+    effectiveness = 50 X (400 - disruption) / 400
+
+The formula used to calculate the number of POSSIBLE KILLS suffered by the
+bomber group:
+    possible kills = bomber effectiveness / (1 + fighter effectiveness) x
+    defensive fire rating # X number of bombers X random number / 24
+
+(5) ROCKET ATTACK RESOLUTION:  rocket attacks may only be initiated by gruppes
+that have been assigned BOMBER ATTACK - ROCKET tactics.  The rocket
+effectiveness if calculated as follows:
+    rocket effectiveness = rocket rating # X number of fighters X experience
+    / 100
+
+Effectiveness of rocket attacks is doubled after 30 June 1944.
+
+The number of POSSIBLE KILLS caused by rocket attacks is calculated:
+    possible kills = effectiveness X (200 - bomber disruption) / 200 X random
+    number / 100
+
+The amount of disruption caused by rocket attacks is calculated:
+    disruption = effectiveness X (200 - bomber disruption) / 200
+
+The disruption caused by rocket attacks will have LESS effect against bomber
+groups that have been previously disrupted.  Rocket attacks worked best
+against tight formations of bombers.
+
+After executing rocket attack the fighters will immediately attack the
+same bomber group.  This attack is resolved using the FIGHTER VS BOMBER COMBAT
+procedure described above.
+
+10.7 Flak Resolution
+--------------------
+City flak will fire at USAAF raids whenever they begin their move in the city
+square.  Airfield flak will only fire at raids that are attacking that
+airfield.  Airfields will always be protected by 50 batteries of light flak.
+Cities may be protected by a maximum of 200 heavy and 200 light flak
+batteries.
+
+When firing at USAAF raids, flak will attack each group within the raid with
+the entire effective flak strength.  Flak effectiveness is calculated:
+    effectiveness = heavy flak X (30 - altitude) / 20 + light flak X (6 -
+    altitude)
+------------------------------
+# - see 12.0 for aircraft data
+
+
+Flak effectiveness is divided by three when firing at a raid that is not in its
+target square. Flak effectiveness is divided by three when firing at USAAF
+fighters.  The POSSIBLE KILLS resulting from flak are calculated:
+    possible kills = effectiveness X Random number / 200 X (200 - disruption)
+    / 200
+
+The disruption resulting from flak is calculated:
+    disruption = effectiveness X random number X (200 - disruption) / 200
+
+NOTE: Flak will be LESS effective when fired at groups that have been
+previously disrupted.
+
+10.8 Possible Kills
+-------------------
+     During air-to-air combat or flak resolution, messages will be displayed
+indicating that aircraft have been destroyed or damaged.  Each of these
+messages represents a POSSIBLE KILL.  In determining how many possible kills
+have occurred, a random number between 0 and 1 will be added to the `possible
+kill' number calculated in 10.6 or 10.7.  Thus if the possible kill number was
+calculated as 1.45 then this would be adjusted to TWO 45% of the time and ONE
+55% of the time.
+
+Each time a possible kill is reported, the computer will randomly select
+one of three possible outcomes; false report, aircraft damaged, aircraft
+destroyed.  Listed below are the probabilities of each occurrence:
+    33%   false report
+    33%   aircraft destroyed
+    34%   aircraft damaged
+          (compare attacker firepower with defender durability)
+In the last occurrence, the damage/destroyed determination is calculated:
+DAMAGED if: durability X random number > attacker firepower X random number
+DESTROYED if: durability X random number <= attacker firepower X random number
+
+IN FLAK or ROCKET attacks, the firepower will always be 30.  For bomber
+defensive fire, the firepower will always be 2.  In all other instances the
+firepower will be equal to the fighter's CANNON rating.
+
+10.9 Bombing Results
+--------------------
+When a USAAF raid bombs a target, the computer will calculate separately the
+damage percentage caused by each bomber group.  The effectiveness of a bomber
+group is calculated:
+    effectiveness = (2 X experience + morale) / 3 X (125 - disruption) / 125 X
+    (36 - altitude) / 36 X (200 - cloud cover) / 200
+Effectiveness will be doubled if the disruption is less than 6%.
+
+The damage caused by each bomber group is calculated:
+    damage = effectiveness X number of bombers X bomb load X random number
+    / (target defense X 50)
+
+The `bomb load' is calculated by comparing the bomb rating for that type of
+aircraft to the distance in squares flown to the target:
+    bomb load = bomb rating # X (50 - disruption) / 50
+
+Fighters that are attacking ground targets add their cannon # to their bomb
+load.
+
+Each type of target is rated separately for its defense (durability)
+    railyard (Overlord)  6
+    ball bearings       12
+    chemicals            7
+    oil                  9
+    aviation gas         9
+    electric power      30
+    steel               12
+    rubber              10
+    U-boat              13
+    armaments           12
+    aircraft            12
+    V-weapon            10
+    submarine pens      20
+    airfields           20
+    flak                20
+    Nordhausen          50
+Submarine pens are the U-boat targets located in Brest, St. Nazaire and
+Bordeaux.  Nordhausen was a large underground factory complex.  All target
+types located in Nordhausen will have a defense strength of 50.
+
+Target defense strengths for targets with small industrial levels will be
+reduced as follows:
+   Industrial Level     Defense Adjustment
+        1 - 4                X 1/3
+        5 - 9                X 1/2
+        10+                  X 1
+
+When attacking from altitudes greater than 25000 ft, there is a chance that
+some or all of the attacking bomber groups will completely miss the target.
+    chance of missing target = (altitude - 25) X (100 - experience) / 500
+Each attacking bomber group will roll separately to see if it misses the
+target.
+
+When an airfield is damages, aircraft and fuel on the base will also be
+damaged.  For each 1% of damage to the airfield, %1 of fuel will be destroyed,
+1/1% of the aircraft caught on the ground will be damaged, and 1/2% of the
+aircraft will be destroyed.  Fighter attacks on airfields will cause four
+times the amount of damage to aircraft as to the airfield itself.
+
+10.10  Switzerland
+------------------
+Planes flying over Switzerland will be attacked by Swiss forces.
+
+
+11.0  MISCELLANEOUS
+===================
+
+11.1 Calculating Effective Industry Levels
+------------------------------------------
+The industry levels of each city are combined to find the total industry
+level for each type of industry.  The total industry level may be reduced if
+that industry is `dependent' on other `critical' industries that have been
+extensively damaged.
+
+An industry is considered to be `extensively damaged' if it is reduced
+below its `critical level'.  Listed below are the critical industries and the
+industries that are dependent on them:
+
+    Critical Industry        Dependent Industries
+    -----------------        ---------------------------
+    Railyard                 U-Boat, Armaments, Aircraft
+    Ball Bearings            Armaments, Aircraft
+    Chemicals                Oil, AvGas, Rubber, Armaments
+    Electric Power           All Other Industries
+    Steel                    U-boat, Armaments
+    Rubber                   Armaments
+
+At the start of the game, all critical industries have a critical level
+of 50 except for railyards which have a critical level of 100.  I f a critical
+industry is reduced below its critical level then the following formula is
+used to find the effective industry level:
+    effective industry level = dependent industry points X (100 - (critical
+    level - critical industry strength) / 100
+
+EXAMPLE: the industry level for chemicals is reduced to 10, the critical level
+for chemicals is 50 and the industry level for oil is 100.  The `effective
+industry level' for oil will be 60 (- 100 X (100 - (50 - 10)) / 100)
+
+EXCEPTION: extensively damaged railyards will affect the aircraft industry in
+a different manner than that described above.  Individual aircraft cities will
+be reduced in the following manner if railyards are reduced below 80:
+    Reduction       Aircraft Industry Size
+     10%            greater than 9
+     75%            less than 10
+
+At the end of each turn that a critical industry is below its critical
+level there is a random chance that the critical level will be REDUCED by 10.
+The chance of reduction is equal to HANDICAP LEVEL / 500.  The 0layers will
+not be informed when the critical level has been reduced.
+
+11.2 Calculating Axis Industrial Damage
+---------------------------------------
+The Axis Industrial Damage Level (AIDL) is used to measure the USAAF player's
+success in hindering the Axis war effort.  Damage points are added to the AIDL
+when various industries are reduced to various levels.  The matrix displayed
+in the chart to the right reflects the points scored for reducing each
+industry.
+   THE AIDL (DAMAGE) will be displayed at the top of the Intelligence Briefing
+menus.
+
+11.3 Aircraft Replacements
+--------------------------
+Replacement aircraft will be added at the end of each day.  USAAF replacements
+will arrive on a fixed schedule.  Luftwaffe replacements will vary with
+Luftwaffe players production decisions and the effective aircraft industry
+levels.
+
+USAAF REPLACEMENT SCHEDULE
+--------------------------
+
+AIRCRAFT    AIRCRAFT      AIRCRAFT      AIRCRAFT
+  TYPE       PER DAY      PER DAY        PER DAY
+
+ P40E       8/43 = 9      1/44 = 1
+ P47B       8/43 = 3      9/43 = 1
+ P47D       8/43 = 0      9/43 = 12     1/44 = 18
+ P51B       8/43 = 0     11/43 = 3      4/44 = 1
+ P51D       8/43 = 0      3/44 = 18
+ P38G       8/43 = 9     12/43 = 1
+ P38J       8/43 = 0     12/43 = 12
+ B17F       8/43 = 1
+ B17G       8/43 = 18
+ B24D       8/43 = 3     10/43 = 1
+ B24J       8/43 = 0     10/43 = 12     1/44 = 18
+
+          LUFTWAFFE
+AIRCRAFT PRODUCTION RATES
+
+              AIRCRAFT          LATEST
+              PRODUCED         POSSIBLE
+               PER 100        AVAILABILITY
+              FACTORIES          DATE
+
+ ME109G         15               8/43
+ ME109K         12               8/44
+ FW190A         10               8/43
+ FW190D          9               6/44
+ FW190F          8               8/43
+ JA152H          8               1/45
+ DO335A          7               3/45
+ ME410A          7               8/43
+ ME110G          8               8/43
+ JU88G           0*              8/43
+ ME262A          4              11/44
+ ME163B          6               9/44
+ HE162A         10               3/45
+
+* Only a fraction of the production of this type of aircraft was available for
+daylight air defense of the Reich, so the German player will automatically
+receive one JU88G per day.
+   The daily replacements for each type of aircraft are calculated by comparing
+the production rate with the aircraft industry level for that type of aircraft:
+   replayments = production rate x industry level / 100
+
+ INDUSTRY        0-19  20-29  30-39  40-49  50-59  60-69  70-79  80-89  90+
+
+ railyard         20    15     10      5      4      3      2      1     0
+ ball bearings     5     4      3      2      1      0      0      0     0
+ chemicals         5     4      3      2      1      0      0      0     0
+ oil              20    15     10      5      4      3      2      1     0
+ aviation gas      5     4      3      2      1      0      0      0     0
+ electric power   20    15     10      5      4      3      2      1     0
+ steel             5     4      3      2      1      0      0      0     0
+ rubber            5     4      3      2      1      0      0      0     0
+ U-boat            5     4      3      2      1      1      1      0     0
+ armaments              25     20     15     10      5      3      1     0
+
+ Divide armaments level by 10 before comparing to the damage martix
+
+Daily replacements will be added to the replacement pool.  The replacement pool
+may contain a maximum of 255 aircraft of any one type.  The adjusted industrial
+level of an aircraft type can never exceed 255.
+   Each turn replacement aircraft may be distributed to depleted groups.  A
+maximum of 3 aircraft per day will be added to groups that receive replacements
+.  All replacement activity is controlled by the computer.
+
+11.4 Luftwaffe Aircraft Availability Certain Luftwaffe aircraft types are not
+available at the start of the game (8/43).  Availability dates are listed on
+the LUFTWAFFE AIRCRAFT PRODUCTION RATE chart.
+   Each month there is a random chance that the availability date for each
+aircraft type will be accelerated by 1 month:
+   availability acceleretion chance = handicap level x aircraft factories /1000
+
+EXAMPLE: In hope of receiving ME262A jets sooner than 11/44 the Luftwaffe
+player has converted 100 aircraft factories to ME262A production.  At handicap
+level 3, there will be a 30% chance each month that ME262A availability will be
+accelerated.
+   The players will not be informed that the availability date has been
+accelerated.
+   At the start of the Phase III scenarios, the ME262A is available.
+
+11.5 USAAF Allowable Targets
+----------------------------
+The USAAF player may be limited in the targets, he is allowed to bomb.  At the
+start of the game chemicals, electric power and steel industries may not be
+attacked.  Each turn there will be a 1/1000 chance that one of these industry
+types will become an allowable target.  These industries will automatically
+become allowable on the following dates:
+
+   chemicals            6/44
+   steel                9/44
+   electric power       1/45
+
+11.6 USAAF Political Targets
+----------------------------
+At various times during the Campaign Games, the USAAF player will be restricted
+to bombing specific targets for political reasons.  U-boats, V-weapons and
+Overlord (railyards in France, Belgium and Italy) may be seleted as political
+targets at various points in the game.
+   Only the USAAF bombers based in England (8th Air Force) will be affected by
+the political target restrictions.  When a political target has been declared,
+no other target types except airfields and flak may be targeted by the 8th Air
+Force.  The political target will remain in effect until the USAAF has
+inflicted satisfactory damage to the political target industry or the Allied
+High Command loses interest in that industry.
+   In 1943 and 1945, U-boats may become political targets.  In 1943, unchecked
+growth of the sub-pens in France will trigger a political reaction.  A
+significant reduction in the sub-pens or the submarine factories will satisfy
+the High Command.  In 1945, the advanced U-boat designs may take their toll of
+Allied shipping and trigger a political reaction.  At this stage of the war
+a 'token' raid against a U-boat factory will satisfy the High Command.
+   From April through August 1944, V-weapons may become political targets.
+Unchecked growth of 'launch sites' in Cherbourg, Calais and LeHavre may trigger
+a political reaction.  A significant reduction in the launch sites or the V-
+weapons factories will satisfy the High Command.
+   During May through August 1944, the USAAF must assist in preparation for the
+invasion of France.  During this period, the USAAF must reduce the Overlord
+railyards to less than 15 total points.
+
+11.7 Flak Production
+--------------------
+Flak replacements are produced in cities with armaments factories.  Each day
+there is a chance that new flak batteries will be added to armaments cities.
+The formula for adding flak is as follows:
+  new flak = armaments industry level + 100 x random number / 100 (fractions
+  rounded down)
+
+EXAMPLE: if the city armaments level is 60, there is a 60% chance that 1 heavy
+flak battery will be added a 40% chance that no heavy flak will be added.  The
+procedure would be repeated to determine light flak reinforcements.
+
+EXAMPLE: if the city armaments level is 140 there is a 40% chance that 2 heavy
+flak batteries will be added and a 60% chance that only 1 heavy flak battery
+will be added, etc.
+
+   For the purpose of determining flak reinforcements, the armaments industry
+level is NOT affected by damage to critical industries.
+
+11.8 Airfield Fuel Replenishment
+--------------------------------
+Each day the effective industry total for aviation gas will be added to the
+National Aviation Fuel Reserve (NAFR; this number will not exceed 200).  Also,
+each day a number of fuel points equal to the handicap level will be added to
+the NAFR.  If the NAFR total is greater than 99 then airfield fuel replenish-
+ment will occur.
+   Fuel replenishment will only affect active airfields that contain at least
+1 fighter gruppe and with damage less than 50%.
+   Airfields with less than 101 fuel will add 100 fuel points and 2 points will
+be subtracted from the NAFR.
+   Airfields with less than 151 fuel will add 50 fuel points and 1 point will
+be subtracted from the NAFR.
+
+11.9 Reinforcement Groups
+-------------------------
+Reinforcement groups will become available during the game in accordance with
+the Reinforcement Schedule (see 13.0).
+   New reinforcement groups will only be received if there are adequate numbers
+in the aircraft replacement pool to 'buy' the new group.  Certain Luftwaffe
+gruppes represent transfers from other fronts.  Transfered reinforcement
+gruppes are not 'bought' from the replacement pool.
+
+11.10 Experience
+----------------
+Fighter groups add 1 experience point each time they participate in air-to-air
+combat.  Groups add 1 or 2 experience points each time they bomb a target.
+Groups with experience less than 50 will automatically gain 1 experience per
+turn.  However if the German fuel reserve is less than 100, their gruppes will
+not receive this automatic experience gain.  Groups with experience less than
+71 gain experience for just flying:
+
+           CURRENT          EXPERIENCE
+          EXPERIENCE          GAINED
+           51-70                1
+           31-50                2
+            0-30                3
+
+Groups with experience greater than 90 lose experience for just flying:
+
+           CURRENT          EXPERIENCE
+          EXPERIENCE          LOST
+           91-110               1
+          111-130               2
+            131+                3
+
+Groups will lose experience when replacements are added.  USAAF replacement
+crews will have experience equal to 2/3 of the experience rating of the group
+they are joining.  Luftwaffe replacements will have experience equal to zero.
+   The computer will keep track of how many pilots are available in Luftwaffe
+fighter gruppes.  When German aircraft are destroyed in combat, there is 50%
+chance that the pilot will be lost.  When German aircraft are destroyed during
+takeoffs or landings the pilot will always be lost.  Replacement pilots will
+be added (and experience will be reduced) only when there are more serviceable
+aircraft than there are pilots in a gruppe.
+
+11.11 Morale
+------------
+At the end of each day groups with morale ratings less than their experience
+ratings will add 2 morale points for USAAF groups and 4 morale points for USAAF
+groups and 4 morale points for Luftwaffe groups.  Groups lose 5% of their
+morale each time they fly.  Groups lose 5% of their morale for each aircraft
+destroyed in combat.  Luftwaffe gruppes that are bombed on the ground will lose
+1 morale point for each point of damage the airfield sustains.
+
+11.12 Building Industry
+-----------------------
+At the end of each day there is a chance that cities will increase their
+industry strength.  The table below shows the chance for building industry
+strength and the optimum level for each type of industry:
+
+ TYPE                  BUILD         OPTIMUM
+ railyard (Overlord)     8%             2
+ ball bearings           5%             5
+ chemicals               5%             6
+ oil                     7%             5
+ aviation gas            7%            10
+ electric power          1%             3
+ steel                   2%             8
+ rubber                  5%            10
+ U-boat                  3%             8
+ armaments              *4%            50
+ aircraft               *4%            50
+ V-weapon                4%            10
+
+* The build chance for armaments will increase to 12% and the build chance for
+aircraft will increase to 20% starting 1/44.
+
+   If the industry strength for a city is equal to ZERO then the build chance
+will be divided by 5.  If the industry strength for a city is greater than or
+equal to the optimum level then the build chance will be divded by 5.  If the
+industry strength is greater than 3 x optimum level then the industry strength
+may not be increased.
+   The build chance for all industries will be reduced by 1% for each point
+that STEEL is reduced below 25.  Thus if steel is reduced to 10 points then new
+industries will build only 85% as fast as normal etc.
+   A city will only build types of industry that are in that city at the start
+of the game.  Thus Nordhausen which starts the game with only aircraft and
+V-weapon industries will only build aircraft and V-weapon industry during the
+game.  EXCEPTION: At the start of the game there are certain cities with
+industrial sites for ball bearings, aircraft and V-weapons under construction.
+These industries may build during the game even though they started with a
+strength of zero.
+
+11.13 Allied Fighter Cover Zones
+--------------------------------
+Certain areas of the map will be designated as Allied Fighter Cover Zones (see
+player aid map).  Luftwaffe aircraft may not enter a fighter cover zone and
+USAAF raids will be more difficult to detect while flying through these zones.
+   At the start of the game (8/43), the fighter cover zone will be limited to
+the area in and around England.  During the game, fighter cover zones will
+expand to cover the following areas:
+
+SOUTHERN ITALY                   10/43
+NORMANDY                          6/44
+CENTRAL ITALY, FRANCE, BELGIUM    9/44
+
+11.14 Advancing Allies
+----------------------
+During the campaign games certain areas that start the game in German control
+will be captured by the advancing Allied Armies.  These areas will include the
+Allied Fighter Cover Zone areas described in 11.13.  In addition the Soviet
+Armies will overrun EASTERN EUROPE in 9/44 (the area east of Warsaw, not
+inclusive).
+   In areas captured by the Allies, all German industry, flak and active
+airfields will be destroyed.  Fighter Gruppes based on captured airfields will
+be removed from the game and returned as reinforcements within 2 months.
+
+11.15 Jet and Rocket Aircraft
+-----------------------------
+The following special rules apply to Luftwaffe jet (ME262A, HE162A) and rocket
+(ME163B) aircraft.
+
+(A) Fuel Consumption: jets and rockets do NOT require or consume fuel points
+when flying combat missions.  These aircraft did not use the specially refined
+aviation gas that the piston engined fighters used.  Jets and rockets do not
+expend fuel when defending against USAAF fighter groups.
+
+(B) Air to Air Combat: when jets and rockets engage in air to air combat they
+will suffer 1/20 of the 'possible kills' calculated in 10.6.  This applies when
+encountering USAAF fighters or bomber defensive fire.
+
+12.0 AIRCRAFT DATA
+==================
+
+ID#     TYPE     CN   MV   DU   RR   SP   FU   MA   CL   C
+ 1     ME109G     8   38   17    2   42    7   38   30   1
+ 2     ME109K     7   50   17    2   46    6   41   41   1
+ 3     FW190A    10   44   18    2   44    8   37   18   1
+ 4     FW190D     6   48   19    2   46    8   39   28   1
+ 5     FW190F    15   32   25    6   42    8   35   12   1
+ 6     TA152H    13   48   24    2   50   10   49   48   1
+ 7     DO335A    19   45   19    2   50   13   37   30   3
+ 8     ME410A    13   22   20    6   40   17   33   18   2
+ 9     ME110G    18   18   19    4   36   13   26   12   2
+10     JU88G     12   18   23    4   36   21   32   12   2
+11     ME262A    20   14   14    6   68    5   38   28   7
+12     ME163B    10   40   10    0   96    2   40   40   8
+13     HE162A    10   21    7    2   52    4   39   39   6
+14     P40E       6   37   14    1   40   10   30   18   1
+15     P47B       8   44   22    2   40   10   42   18   1
+16     P47D       8   46   23    3   40   12   40   24   1
+17     P51B       4   46   18    2   42   16   42   24   1
+18     P51D       6   48   18    2   42   23   42   24   1
+19     P38G       6   36*  19    2   36   19   39   20   2
+20     P38J       6   44*  23    3   40   25   44   26   2
+21     B17F       9    0   42    9   28   90   33    8   4
+22     B17G      10    0   43   16   28   90   31   12   4
+23     B24D       9    0   32    9   30   90   25    6   4
+24     B24J       9    0   33   13   30   90   24    8   4
+
+* At altitudes greater than or equal to 20000 feet, the maneuver ratings of
+the P38G and P38J are reduced to 27 and 33 respectively.
+
+CN  cannon rating: this is the defensive fire rating for heavy bombers
+MV  manueverability rating
+DU  durability rating
+RR  rocket rating
+BL  bomb load rating
+SP  speed ratings miles per 10-minute pulse
+FU  operational fuel limit: fuel used before turning back
+MA  maximum altitude
+CL  climb rate: thousands of feet per 10-minute pulse
+C   aircraft class
+
+13.0 ORDER OF BATTLE
+====================
+LUFTWAFFE
+FW190A GRUPPES
+1.2.3/JG1
+1.2.3/JG2
+1/JG11
+1.2.3/JG26
+3/JG54
+3/JG11                     5/44  NEW
+1GR200                     7/44
+1.2.4/JG54                 8/44
+1GR10                     11/44
+
+FW190F GRUPPES
+1.2.3.4/SKG10
+1.2.3/SG4                 10/43
+1/SG2                      4/44
+2/SG2                      7/44
+2.3/SG1                    9/44
+2.3/SG3                    9/44
+1/SG5                     10/44
+1.2.3/SG10                10/44
+1.2/SG77                  10/44
+3/SG77                    11/44
+1.2.3/KGJ6                11/44  NEW
+1.2.3/KGJ27               11/44
+1.2.3/KGJ30               11/44
+1/SG1                     12/44
+
+ME109G GRUPPES
+1/JG4
+2/JG11
+1/JG25
+1.2.3.4/JG27
+2/JG51
+1.2.3/JG53
+1.2.3/JG77
+RJG1                   RUMANIAN
+HJG101                HUNGARIAN
+BJG6                  BULGARIAN
+1JG3                    ITALIAN
+1JG150                  ITALIAN
+1.2.3/JG3                  8/43
+4/JG3                     12/43
+1/JG5                      1/44
+1/JG50                     1/44
+1/JG76                     5/44
+2/JG5                      6/44
+3/JG76                     6/44
+1.3.4/JG51                 8/44
+1.2.3/JG52                 8/44
+1.2.3.4/EJG1              11/44
+
+ME110G GRUPPES
+2/ZG1
+3/ZG26
+1/ZG1                      8/43
+1/ZG26                    11/43
+1/ZG76                     4/44
+2/ZG76                     5/44
+
+ME410A GRUPPES
+3/ZG1
+2/KG51                    10/43
+2/ZG26                    11/43  NEW
+1.3/KG51                   2/44
+
+JU88G GRUPPES
+1.2/NJG2                   8/43
+3/NJG2                     9/43
+
+ME262A GRUPPES
+JV44                       6/44* NEW
+1/JG7                      6/44* NEW
+2/JG7                      6/44* NEW
+3/JG7                      6/44* NEW
+4/JG7                      6/44* NEW
+1/EJG2                     6/44* NEW
+2/EJG2                     7/44* NEW
+3/EJG2                     8/44* NEW
+1.2.3/KGJ54                9/44* NEW
+1.2.3/KGJ55               11/44  NEW
+4/EKG1                    12/44  NEW
+
+
+USAAF
+-----
+B17F GROUPS
+ENGLAND
+91.92.94.95.96.100.303.305.306.351.379.381.384.385.388.390BG
+
+TUNISIA-ITALY
+2.97.99.301BG
+
+
+B17G GROUPS
+ENGLAND
+482BG                      8/43
+401BG                     11/43
+447BG                     12/43
+452.457.493BG              1/44
+4.398.486.487
+490BG                      4/44
+
+ITALY
+463BG                      3/44
+483BG                      4/44
+
+B24D GROUPS
+ENGLAND
+392BG                      8/43
+
+LIBYA-ITALY
+44.93.98.376.389BG
+
+B24J GROUPS
+ENGLAND
+445.446.448BG             11/43
+453BG                     12/43
+491.492BG                  1/44
+458BG                      2/44
+466BG                      3/44
+467.489BG                  4/44
+
+ITALY
+449.450.451
+454.455.456BG              1/44
+459.460.461BG              2/44
+464.465.484
+485BG                      4/44
+
+P40E GROUPS
+TUNISIA-ITALY
+33.57.79FG                 9/43
+324FG                     10/43
+
+P47B GROUPS
+ENGLAND
+4.56.352.353.
+355FG
+356FG                     8/43
+
+P47D GROUPS
+ENGLAND
+358.359FG                10/43
+361.362FG                11/43
+365FG                    12/43
+366FG                     1/44
+368FG                     2/44
+48.371.405FG              3/44
+50.373.404.406FG          4/44
+
+ITALY
+325FG                    10/43
+86FG                      1/44
+332FG                     2/44
+
+P38G GROUPS
+ENGLAND
+78FG
+20FG                      8/43
+25FG                      9/43
+
+TUNISIA-ITALY
+14.81.82FG
+350FG                    11/43
+
+P38J GROUPS
+ENGLAND
+370FG                     2/44
+474FG                     3/44
+367FG                     4/44
+
+P51B GROUPS
+ENGLAND
+354FG                    11/43
+357FG                    12/43
+364FG                     2/44
+
+ITALY
+31FG                     11/43
+52FG                      2/44
+
+P51D GROUPS
+ENGLAND
+339FG                    4/44
+479FG                    5/44
+
+
+14.0 VICTORY DETERMINATION
+==========================
+
+14.1 Calcuating the Score
+-------------------------
+In all scenarios (both short and compaign) the USAAF player's base score will
+equal the AIDL (see 11.12).
+   In short scenarios the FINAL SCORE will be equal to the AIDL x loss ratio.
+In the campaign game the FINAL SCORE equals 12 + 4 x the number of months
+before May 1945 that the game ended (if the game ends after May 1945 this will
+be a negative number).
+
+14.2 Loss Ratio
+---------------
+The loss ratio is calculated:
+
+loss ratio = Luftwaffe fighter losses x 2 / (2 x USAAF bomber losses + USAAF
+             figher losses).
+
+In Phase III games, divide the loss ratio by 2.  In all games, if the number of
+bombers destroyed is less than 1000 and the loss ratio is less than 1.0 then
+the loss ratio will be increased to 1.0.
+
+14.3 Victory Levels
+-------------------
+The final score is compared to the following chart to determine the level of
+victory for each scenario:
+
+                   SHORT SCENARIOS     COMPAIGN
+                   PHASE I  II  III      ALL
+
+    LUFTWAFFE        -       -   -        -
+    DECISIVE         0      20   50       0
+
+    LUFTWAFFE        1      21   51       1
+    MARGINAL         3      35   65      15
+
+    USAAF            4      36   66      16
+    MARGINAL         7      49   79      30
+
+    USAAF            8      50   80      31
+    DECISIVE         +       +   +        +
+
+
+15.0 SCENARIOS
+==============
+The players may select from three time periods or 'Phases' at the start of the
+game.
+
+15.1 Phase I
+------------
+Starts 1 August 1943.  The USAAF has been in action against Germany for over a
+year but has only recently received bombers in sufficient quantities to fly
+'deep penetration' raids.  USAAF fighters consist of the short winded P47B and
+the awkward P38G.
+   In response to the growing USAAF threat, the Reich Air Defense has been
+heavily reinforced with gruppes from the Mediterranean and Eastern Fronts.
+Experienced German pilots flying ME109G and FW190A fighters are more than a
+much for their USAAF opponents.  Heavily armed ME110G, ME410A and JU88G
+'destroyer' aircraft have been introduced to deal exclusively with USAAF bomber
+formations.
+   When playing the Phase I SHORT game it is recommended that experienced
+players play the USAAF side.  We also recommend that only experienced players
+play Phase I.
+
+15.2 Phase II
+-------------
+Starts February 1944.  After some serious reverses in the second half of 1943,
+the USAAF has reinforced and requipped its fighter groups.  Flying large
+numbers of P47Ds and P38Js and a few precious groups of P51Bs, the USAAF can
+at last provide escorts continuously to and from the target on deep penetration
+raids.
+   As the USAAF has gained experience and improved equipment.  Luftwaffe
+quality has remained unchanged.  The ME109G is still widely used despite being
+outclassed by new USAAF fighter types.  Axis production has been reorganized
+and development of advanced fighter designs has begun.
+
+15.3 Phase III
+--------------
+Starts 1 October 1944.  After crippling the German fuel industries in the
+Summer of 44, the USAAF has victory within its grasp.  As the Allied Armies bog
+down on the German border it is hoped that strategic bombing can hasten the
+collapse of the Axis war machine.
+   The Luftwaffe has been reduced to a shambles by the past 9 months of heavy
+fighting.  Axis aircraft production has reached record heights but shortages of
+fuel and experienced pilots have made this irrelevant.  Luftwaffe hopes rest on
+increased availability or advanced fighter types such as the FW190D, ME109K and
+ME262A.
+   All critical industries have their critical level set to 30.  The ME-262A
+has already begun production at the start of Phase III.  When playing the Phase
+III SHORT game, it is recommended that advanced players play the Luftwaffe
+side.
+
+
+16.0 STRATEGY NOTES
+===================
+
+USAAF Player
+------------
+Short Games - In the short games you should pick one industry (preferably a
+critical industry) that can give you a lot of points quickly and then destroy
+that one industry.  Ball bearings and/or rubber are good targets as is
+chemicals/steel/electric power if they are available as targets.  In phase I
+and phase II games railyards can be a good target due to its high critical
+level.  Do not waste your time bombing targets in many different industries, as
+this will not score points in the short run.
+
+Aviation Gas - By reducing aviation gas to below 5 (and keeping it there) you
+will be able to ground the Luftwaffe.  Bombing chemicals if available is a good
+way to help keep up an aviation gas shortage, so a good time to bomb aviation
+gas is just after chemicals is discovered as a target.  Keep in mind that you
+may have to wait several weeks to begin seeing the effect and that you will
+have to make many deep raids against 1 and 2 point targets to maintain the fuel
+shortage, but the results can be well worth the effort.
+
+Escorts - Proper use of your escorting fighters can make or break your grand
+strategy.  Remember to send out your fighters on deep escort from 30-50 minutes
+later than the bombers so that they don't waste fuel while waiting for the slow
+climbing bombers to form up and send them out at 1-3000 feet above the bombers
+(by staggering the elevation of your escorts the high groups will be able to
+bounce German fighters that are attacking your low groups).  Also don't forget
+to send fighters out to cover the bombers on their return trip, otherwise the
+Luftwaffe will devastate your home-bound bombers.  Let's assume you have the
+following fighters available to cover a raid on Berlin which will form up at
+600 at 22000 feet: 10 x P47D, 8 x P51D, 3 x P38J.
+
+A matching escort schedule could look like this:
+630 - 6 P47 23000 feet
+640 - 3 P51 24000 feet
+700 - 3 P38 25000 feet
+710 - 2 P51 25000 feet
+800 - 3 P51 23000 feet
+920 - 4 P47 24000 feet
+
+This plan provides escort cover all the way to Berlin and back.  This is just a
+suggested allocation of escorts and it is left to you to discover the optimum
+escort tactics.
+
+Luftwaffe Player
+----------------
+Flak - You should attempt to concentrate flak in those cities you expect to be
+bombed.  For example if you see that the American player is attempting to
+destroy your rubber plants, place 195 heavy batteries in each of the major
+rubber targets as soon as possible.  Also, protect those industries that are
+especially important in your defense (i.e. aviation gas, aircraft factories,
+chemicals).  Never place 200 batteries in a city for you will lose any
+batteries that the cities armament factories produce.  Placing flak is purely
+a matter of anticipating the USAAF palyer's intentions.
+
+Aircraft - Keep your single engine fighters based on airfields in France,
+Northwest Germany and Italy and base your rocket firing bomber-destoryers in
+central and southern Germany.  It is wise to concentrate a large number of
+airfields and air gruppes around Essen.  Use your high manueverability fighters
+(greater than 35) to bounce enemy fighters especially P-38 and P-51 long-range
+fighters.  If you are successful at forcing these fighters to turn back, you
+can unleash your bomber-destroyers to attack deep raids into Germany.  The
+ME410, ME110 and JU88 should be equipped with rockets and launched last but
+be forewarned that if they are attacked by American fighters they will be
+decimated.  Do not fly units with less than 20-25 serviceable planes and pull
+units back to the safety of central German airfields if their morale is reduced
+below 40.  Try to keep your best units poised on the front line airfields but
+realize that you will lose morale each time you shuttle an air gruppe from one
+field to another.
+
+Patrols - Patrols are useful in two ways.  First they can be used to mass a
+large number of aircraft in one spot.  This will allow you to launch a
+coordinated attack that may be able to overwhelm the escorts.  Patrols can also
+be used to shield the French coast against USAAF fighter raids on German
+airfields.
+
+Aircraft Production - This is your chance to build the Luftwaffe to suit your
+own style of warfare.  It's usually a good idea early in the game to convert
+some or all of your ME109G factories to the production of FW190A fighters.
+Although this will result in lower production, you will generally find that
+you have all of the ME109G's you would ever want especially when you begin to
+convert whole gruppes to the new plane types.  If you believe that the USAAF
+player is going to concentrate on destroying your aviation gas (and most do),
+it's a very good idea to convert some of your factories to ME262A production in
+order to speed up the arrival of your jets (remember that jets do not require
+aviation gas to fly).  If the USAAF player does not bomb your aircraft
+factories, you will find that you have plenty of production capacity that can
+be spared on jet production.  If however, the USAAF player concentrates on
+your aircraft factories, and he catches you converting all of your factories
+to new production, you may find yourself facing a critical shortage of
+aircraft.
+
+17.0 AIRCRAFT DIAGRAMS
+======================
+
+ME109G
+cannon: 3 x 20mm, 2 x 13mm
+rockets: 2
+cruise speed: 260
+climb rate: 3000 ft/min
+max altitude: 38000 ft
+endurance: 105 min
+
+ME109K
+cannon: 1 x 30mm, 2 x 15mm
+rockets: 2
+cruise speed: 278
+climb rate: 4100 ft/min
+max altitude: 41000 ft
+endurance: 90 min
+
+FW190A
+cannon: 4 x 20mm, 2 x 13mm
+rockets: 2
+cruise speed: 265
+climb rate: 1800 ft/min
+max altitude: 37000 ft
+endurance: 120 min
+
+FW190D
+cannon: 2 x 20mm, 2 x 13mm
+rockets: 2
+cruise speed: 280
+climb rate: 2800 ft/min
+max altitude: 39000 ft
+endurance: 120 min
+
+FW190F
+cannon: 2 x 30mm, 2 x 20mm, 2 x 7.9mm
+rockets: 6
+cruise speed: 255
+climb rate: 1200 ft/min
+max altitude: 35000 ft
+endurance: 120 min
+
+TA152H
+cannon: 1 x 30mm, 4 x 20mm
+rockets: 2
+cruise speed: 293
+climb rate: 4800 ft/min
+max altitude: 49000 ft
+endurance: 150 min
+
+DO335A
+cannon: 3 x 30mm, 2 x 20mm
+rockets: 2
+cruise speed: 295
+climb rate: 3000 ft/min
+max altitude: 37000 ft
+endurance: 195 min
+
+ME410A
+cannon: 6 x 20mm, 2 x 7.9mm
+rockets: 6
+cruise speed: 245
+climb rate: 1800 ft/min
+max altitude: 33000 ft
+endurance: 255 min
+
+ME110G
+cannon: 2 x 30mm, 4 x 20mm
+rockets: 4
+cruise speed: 220
+climb rate: 1200 ft/min
+max altitude: 26000 ft
+endurance: 195 min
+
+JU88G
+cannon: 6 x 20mm
+rockets: 4
+cruise speed: 220
+climbe rate : 1200 ft/min
+max altitude: 32000 ft
+endurance: 316 min
+
+ME262A
+cannon: 4 x 30mm
+rockets: 6
+cruise speed: 410
+climb rate: 2800 ft/min
+max altitude: 38000 ft
+endurance: 75 min
+
+ME163B
+cannon: 2 x 30mm
+rockets: 0
+cruise speed: 550 +
+climb rate: 8000 + ft/min
+max altitude: 40000 ft
+endurance: 8 min
+
+HE162A
+cannon: 2 x 30mm
+rockets: 2
+cruise speed: 307
+climb rate: 4200 ft/min
+max altitude: 39000 ft
+endurance: 60 min
+
+P40F
+cannon: 6 x 50 cal
+bomb load: 1000
+cruise speed: 245
+climb rate: 1800 ft/min
+endurance: 150 min
+
+P47B
+cannon: 8 x 50 cal
+bombs load: 2000
+cruise speed: 231
+climb rate: 1800 ft/min
+endurance: 150 min
+
+P47D
+cannon: 8 x 50 cal
+bomb load: 3000
+cruise speed: 231
+climb rate: 2400 ft/min
+max altitude: 40000 ft
+endurance: 180 min
+
+P51B
+cannon: 4 x 50 cal
+bomb load: 2000
+cruise speed: 253
+climb rate: 2400 ft/min
+max altitude: 42000 ft
+endurance: 240 min
+
+P51D
+cannon: 6 x 50 cal
+bomb load: 2000
+cruise speed: 260
+climb rate: 2400 ft/min
+max altitude: 42000 ft
+endurance: 345 min
+
+P38G
+cannon: 1 x 20mm, 4 x 50cal
+bomb load: 2000
+cruise speed: 220
+climb rate: 2000 ft/min
+max altitude: 39000 ft
+endurance: 285 min
+
+P38J
+cannon: 1 x 20mm, 4 x 50 cal
+bomb load: 3000
+cruise speed: 235
+climb rate: 2600 ft/min
+max altitude: 44000 ft
+endurance: 375 min
+
+B17F
+machine guns: 10
+bomb load: 9000
+cruise speed: 168
+climb rate: 800 ft/min
+max altitude: 33000 ft
+endurance: 900 + min
+
+B17G
+machine guns: 13
+bomb load: 16000
+cruise speed: 168
+climb rate: 1200 ft/min
+max altitude: 31000 ft
+endurance: 900 + min
+
+B24D
+machine guns: 10
+bomb load: 9000
+cruise speed: 180
+climb rate: 600 ft/min
+max altitude: 25000 ft
+endurance: 900 + min
+
+B24J
+machine guns: 10
+bomb load: 13000
+cruise speed: 180
+climb rate: 800 ft/min
+max altitude: 24000 ft
+endurance: 900 + min
+
+VICTORY POINT MATRIX
+====================
+
+INDUSTRY        0-19  20-29  30-39  40-49  50-59  60-69  70-79  80-89  90+
+railyard         20    15     10      5      4      3      2      1     0
+ball bearings     5     4      3      2      1      0      0      0     0
+chemicals         5     4      3      2      1      0      0      0     0
+oil              20    15     10      5      4      3      2      1     0
+aviation gas      5     4      3      2      1      0      0      0     0
+electric power   20    15     10      5      4      3      2      1     0
+steel             5     4      3      2      1      0      0      0     0
+rubber            5     4      3      2      1      0      0      0     0
+U-boat            5     4      3      2      1      1      1      0     0
+armaments*       30    25     20     15     10      5      3      1     0
+
+* Divide armaments level by 10 before comparing to the damage matrix.
+
+AIRCRAFT DATA
+=============
+
+ID#   TYPE        CN  MV  DU  RR  SP  FU  MA  CL  C
+1     ME109G       8  38  17   2  42   7  38  30  1
+2     ME109K       7  50  17   2  46   6  41  41  1
+3     FW190A      10  44  18   2  44   8  37  18  1
+4     FW190D       6  48  19   2  46   8  39  28  1
+5     FW190F      15  32  25   6  42   8  35  12  1
+6     TA152H      13  48  24   2  50  10  49  48  1
+7     DO335A      19  45  19   2  50  13  37  30  3
+8     ME410A      13  22  20   6  40  17  33  18  2
+9     ME110G      18  18  19   4  36  13  26  12  2
+10    JU88G       12  18  23   4  36  21  32  12  2
+11    ME262A      20  14  14   6  68   5  38  28  7
+12    ME163B      10  40  10   0  96   2  40  40  8
+13    HE162A      10  21   -   2  52   4  39  39  6
+14    P40E         6  37  14   1  40  10  30  18  1
+15    P47B         8  44  22   2  40  10  42  18  1
+16    P47D         8  46  23   3  40  12  40  24  1
+17    P51B         4  46  18   2  42  16  42  24  1
+18    P51D         6  48  18   2  42  23  42  24  1
+19    P38G         6  36* 19   2  36  19  39  20  2
+20    P38J         6  44* 23   3  40  25  44  26  2
+21    B17F         9   0  42   9  28  90  33   8  4
+22    B17G        10   0  43  16  28  90  31  12  4
+23    B24D         9   0  32   9  30  90  25   6  4
+24    B24J         9   0  33  13  30  90  24   8  4
+
+* At altitudes greater than or equal to 20000 feet, the maneuverability ratings
+of the P38G and P38J are reduced to 27 and 33 respectively.
+
+CN  cannon rating: this is the defensive fire rating for heavy bombers
+MV  manueverability rating
+DU  durability rating
+RR  rocket rating
+BL  bomb load rating
+SP  speed ratings: miles per 10-minute pulse
+FU  operational fuel limit: fuel used before turning back
+MA  maximum altitude
+CL  climb rate: thousands of feet per 10-minute pulse
+C   aircraft class
+
+
+CRITICAL INDUSTRY EFFECTS
+=========================
+
+CRITICAL IND.              DEPENDENT INDUSTRIES
+Railyard                   U-boat, Armaments, Aircraft
+Ball Bearings              Armaments, Aircraft
+Chemicals                  Oil, AvGas, Rubber, Armaments
+Electric Power             All Other Industries
+Steel                      U-boat, Armaments
+Rubber                     Armaments
+
+
+INDUSTRY DEFENSE, REBUIILD RATE, & OPTIMUM LEVEL
+================================================
+
+INDUSTRY TYPE             DEFENSE    REBUILD RATE    OPTIMUM LEVEL
+railyard                     6            8%               2
+ball bearings               12            5%               5
+chemicals                    7            5%               6
+oil                          9            7%               5
+aviation gas                 9            7%              10
+electric power              30            1%               3
+steel                       12            2%               8
+rubber                      10            5%              10
+U-boat                      13            3%               8
+armaments                   12           *4%              50
+aircraft                    10           *4%              50
+V-weapon                    10            4%              10
+
+* The build chance for armaments will increase to 12% and the build chance for
+aircraft will increase to 20% starting 1/44
+
+USAAF REPLACEMENT SCHEDULE
+==========================
+
+AIRCRAFT TYPE   AIRCRAFT PER DAY   AIRCRAFT PER DAY   AIRCRAFT PER DAY
+
+  P40E           8/43 = 9           1/44 = 1
+  P47B           8/43 = 3           9/43 = 1
+  P47D           8/43 = 0           9/43 = 12           1/44 = 18
+  P51B           8/43 = 0          11/43 = 3            4/44 = 1
+  P51D           8/43 = 0           3/44 = 18
+  P38G           8/43 = 9          12/43 = 1
+  P38J           8/43 = 0          12/43 = 12
+  B17F           8/43 = 1
+  B17G           8/43 = 18
+  B24D           8/43 = 3          10/43 = 1
+  B24J           8/43 = 0          10/43 = 12           1/44 = 18
+
+
+LUFTWAFFE AIRCRAFT PRODUCTION RATES
+===================================
+
+                       AIRCRAFT             LATEST
+                       PRODUCED            POSSIBLE
+                       PER 100           AVAILABILITY
+                       FACTORIES             DATE
+
+  ME109G                  15                 8/43
+  ME109K                  12                 8/44
+  FW190A                  10                 8/43
+  FW190D                   9                 6/44
+  FW190F                   8                 8/43
+  TA152H                   8                 1/45
+  DO335A                   7                 3/45
+  ME410A                   7                 8/43
+  ME110G                   8                 8/43
+  JU88G                    0*                8/43
+  ME262A                   4                11/44
+  ME163B                   6                 9/44
+  HE162A                  10                 3/45
+
+* Only a fraction of the production of this type of aircraft was available for
+daylight air defense of the Reich, so the German player will automatically
+receive one JU88G per day.
+
+-------------------------------------------------------------------------------
+Published by             : SSI 1985
+Game Design & Programming: Gary Grigsby
+Atari & C-64 conversions : Keith Bcore
+Game Development         : Joel Billings
+Game System              : Inspired by FIGHTER COMMAND
+                           by Charlie Merrow & Jack Avery
+Historical Research      : Micheal Musser
+Playing Testing          : Michael Musser, Tom Cheche, Jefferson Guy,
+                           William Thompson, bill Newman, Lisa Eugenides,
+                           Charlie Merrow, Jack Avery, John Gray,
+                           Jim McPherson & Jeff Johnson
+Art & Graphic Design     : Louis Hsu Saekow, Kathryn Lee & Ben Willemsen
+-------------------------------------------------------------------------------
+

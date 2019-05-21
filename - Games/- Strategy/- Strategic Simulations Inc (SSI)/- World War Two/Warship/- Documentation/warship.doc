@@ -1,0 +1,1551 @@
+1.0 INTRODUCTION
+
+WARSHIP is a game of tactical-level naval combat between Japanese and 
+Allied ships from 1941 to 1945.
+
+1.1 Description of Action
+
+Each game turn consists of two phases.  In the orders phase, the 
+players, one at a time, give orders to the ships that they control.  In 
+the action phase all ships will carry out their orders.  During the 
+action phase, ship and torpedo movement will be updated every 30 
+seconds; searches and gunfire will be resolved every 2 minutes.  Players 
+may interrupt the action phase after each 2-minute period to modify 
+their orders or check the status of their ships.
+
+1.5 Saving a Game
+
+At the end of the deployment phase and before each orders phase, the 
+computer will allow the players to save the game in progress.  You will 
+need a scratch disk to store the save game data.
+
+When restarting a saved game, you must set the correct number of players 
+on the opening menu.
+
+1.6 The map
+
+The Warship map is a 60 x 60 square grid with each square measuring 1000 
+yards across.  Players may elect to fight their battles on an open sea 
+map, on a Savo Sound map, or on a custom map that the players design 
+themselves.
+
+1.7 Sound
+
+During the action phase, the players may toggle the sound on/off by 
+pressing the <S> key.
+
+2.0 GENERAL DESCRIPTION
+
+2.2 Abbreviations
+
+Abbreviations used in the game are listed:
+	BB	Battleship
+	BC	Battlecruiser
+	CA	Heavy cruiser
+	CL	Light cruiser
+	CLAA	Anti-aircraft cruiser
+	DD	Destroyer
+	DE	Destroyer escort
+	AK	Cargo ship
+
+3.0 STARTING THE GAME
+	
+3.2 Player Determination
+
+Warship may be played by either zero, one or two players, and this is 
+determined by the option selected on the opening menu.
+
+3.3 Handicap Level
+
+At the start of the game the players must determing the handicap level 
+(1-5).  The effects of the handicap levels are listed below:
+	Level 1	Allied strength reduced 20%
+	Level 2	Allied strength reduced 10%
+	Level 3	No reduction
+	Level 4	Japanese strength reduced 10%
+	Level 5	Japanese strength reduced 20%
+
+A player’s ‘strength’ is reduced by lowering the number of ship 
+selection points that he may use to buy his force.  The handicap does 
+not affect play of the historical scenarios.
+
+3.4 Delay length
+
+The delay length affects the messages displayed during the action phase.  
+The greater the delay length the longer these messages will remain 
+displayed.  A delay length of 1 will greatly speed up the game but will 
+cause some messages to be virtually unreadable.  A delay length of 9 
+will slow the game considerably, but will allow the player maximum time 
+to study the various reports provided during the action phase.  No delay 
+will be provided after the display of non-penetrating hits during the 
+action phase.
+
+3.5 Selecting a Scenario
+
+You may select one of 4 historical scenarios (see 14.0), or you may 
+elect to build your own scenario.  If you select a historical scenario, 
+the computer will skip the deployment phase and go directly to the 
+orders phase to start the game.
+
+If you elect to build your own scenario, you will be asked several 
+questions regarding the time and conditions of battle (see 4.0)
+
+New players are advised to begin by playing scenarios they have created 
+themselves.  Creating and playing a small battleline scenario on an open 
+sea map is recommended.
+
+4.0 Building Scenarios
+
+When building scenarios the players must answer questions regarding the 
+time and conditions of battle.  Players will have the option of 
+selecting/buying the ships or allowing the computer to automatically 
+select an appropriate force.
+
+4.1 Selecting the Battle Area Map
+
+Players have the option of selecting:
+	1. Open Sea
+	2. Savo Sound
+	3. Custom Map
+
+Open Sea - A 60x60 square grid with no land masses.  When playing 
+battleline scenarios on an open sea map, the map will attempt to shipft 
+to prevent ships from sailing off the edge.
+
+Savo Sound - A 60x60 map including Savo Island in the center, 
+Guadalcanal in the south and Florida Island in the NE.  Five major 
+surface actions were fought in this area during the latter months of 
+1942.
+
+Custom Map - The player may recall a custom map that he previously 
+constructed and stored on a scratch disk (see 15.0)
+
+4.2 Build Scenario or Design Map
+
+Players wishing to design a new map or modify an existing custom map 
+should select the D option.  To build a new custom map the player should 
+have selected the open sea option in 4.1.  To modify an existing custom 
+map the player should have recalled the appropriate custom map in 4.1.  
+Instructions for constructing custom maps are described in 15.0.
+
+4.3 Setting the Time and Date of Battle
+
+Players may adjust the time and date of battle by using the following 
+menu options:
+	Year		from 1941 to 1945
+	Month
+	Day
+	Hour
+	Minute
+	Accept displayed time/date
+
+The year selected will determine the availability of various ship 
+classes and the availability and quality of radar on the ships.  The 
+hour selected will determine if day, night, dawn, or dusk visibility 
+conditions are in effect.
+	Dawn	500 to 559
+	Day	600 to 1759
+	Dusk	1800 to 1859
+	Night	1900 to 459
+
+4.4 Set Game Length
+
+The players may select a game length of either 1 to 4 hours.  It is 
+recommended that at least 2 hours be allowed for battles where the 
+opposing forces start out of contact.  When the game ends, players may 
+elect to continue the game if they so desire.  If a game is continued, 
+the computer will stop the game after 30 additional minutes have been 
+completed.
+
+4.5 Set Visibility Level (VL)
+
+A visibility level from 1 to 9 may be selected.  A VL of 1 would 
+represent poor visibility conditions such as fog while a VL of 9 would 
+represent excellent visibility conditions.
+
+The VL is used in conjunction with the time of day to determine the 
+range at which ships may sight each other.
+
+4.6 Air Control Over Battle Area
+
+Air control over the battle area may be either Allied, Japanese, or 
+Neutral.  If a player has air control then his opponent will score fewer 
+points for damaging ships.  In the historical scenarios, the Allied 
+player automatically has air superiority.
+
+4.7 Set Damage Control Levels
+
+Damage control abilities must be set for both the Japanese and Allied 
+forces.  A number from 1 to 4 must be selected for each player.  The 
+higher the number selected the better the players’ ships will be at 
+repairing damage and putting out fires.  In the historical scenarios, 
+Japanese damage control is always set at 2, while Allied damage control 
+is always set at 3.  These are considered to be the historical values.
+
+4.8 Selecting the Type of Action
+
+The players may select from 5 different types of battle:
+
+Japanese Transport - The Japanese players scores points for ‘exiting’ 
+cargo loaded ships off the east map edge.  Both players score points for 
+damaging or sinking enemy ships.  The Japanese plalyer may designate any 
+of his ships to carry cargo but the Allied player scores double points 
+for damaging or sinking these ships.
+
+Japanese Bombardment - The Japanese player scores points for exiting 
+combat ships off the east map edge.  Both players score points for 
+damaging or sinking enemy ships.  Points scored for exiting is 
+determined by the size and number of main guns on the ship.
+
+Battleline - Players score points only for damaging or sinking enemy 
+ships.
+
+Allied Bombardment - The Allied player scores points for exiting combat 
+ships off the west edge of the map.  Both players score points for 
+damaging enemy ships.
+
+Allied Transport - The Allied player scores points for exiting cargo 
+ships (AK only) off the west edge of the map.  Both players score points 
+for damaging or sinking enemy ships.
+
+4.9 Selecting a Large or Small Battle
+
+The number of ship selection points (SSPs) that a player may use to buy 
+his force is determined by the type of action and the size (large or 
+small) of the battle.  Listed below are SSPs provided for each type of 
+battle:
+		
+					Large			Small
+Transport				480/400		240/200
+Bombardment				360/320		180/160
+Battleline				1200			600
+
+When two numbers divided by a ‘/’ are shown, the first number is the 
+number for the player attempting to exit ships and the second number is 
+for his opponent.
+
+When selecting small bombardment or transport type actions the players 
+may not include battleships or battlecruisers in their forces.
+
+The SSPs shown above are for battles fought at handicap level 3 (see 
+3.3).
+
+4.10 Selecting Ships
+
+The Allied player may select from 53 different American, British, and 
+Dutch ships.  The Japanese player may select from 27 different ship 
+classes.  If the auto-select option is used then the computer will 
+select a force to suit the type of battle.  When using auto-select the 
+computer will sometimes exceed the SSP limit (this will happen when 
+selecting both human and computer forces).
+
+The computer will only allow the selection of ships that were available 
+during the year selected as the time of the battle.  The computer will 
+decide the radar level for each ship based on the year of the scenario 
+and a random factor.  No points are awarded for unused SSPs, so the 
+players should find a way to spend them all.  Each player is limited to 
+selecting a maximum of 20 ships.
+
+5.0 Deployment Phase
+
+During the deployment phase, the players may alter the starting 
+location, speed, and facing of their ships..  Also, utilities may be 
+employed to designate ships as ‘transports’, change their starting 
+division, rename the ship and even alter the ship’s characteristics 
+(such as # of guns, radar, speed, etc.)  The computer will never alter 
+its automatically generated deployment, and will never modify a ship.  
+When playing a scenario against the computer, you should accept the 
+deployment created by the computer.  Players may agree between 
+themselves on allowed deployment changes.
+
+If you have created a map, be sure to check the deployment of both 
+sides’ forces; otherwise, they may be deployed on land.
+
+5.1 Map Menu
+
+The deployment phase starts with the map menu displayed in the text 
+window below the map display.  The following items are included on the 
+menu:
+
+(1-8) Move Cursor - By pressing the keys 1-8 the cursor may be moved 
+around the map.  The map may scroll if the cursor is moved to the edge 
+of the screen display.
+
+			   8	1  2
+			    \	| /
+			     \|/
+		        7---+---3
+			     /|\
+			    /	| \
+			   6	5  4
+
+(A-?) Select Ship - Ships are assigned an ID letter (A,B,C...)  By 
+pressing akey that corresponds to an active ship the computer will shift 
+to the ship display menu and the selected ships will be displayed.
+
+(U) Change Terrain - Allows the player to change the type of terrain in 
+the square covered by the cursor (see 15.0)
+
+(Z) Get Ship - Allows the player to select a friendly ship in the square 
+covered by the cursor.  The computer will shift to the ship display 
+menu.
+
+(X) Exit - Exits deployment phase.
+
+5.2 Ship Display Menu
+
+Ship status data will be displayed at the top of the ship display menu.  
+An example of the ship status data is shown:
+
+E	BB	YAMATO	C:180		S:15		D:2L
+
+	E		ship ID
+	BB		ship type
+	YAMATO	ship name
+	C:180		ship course
+	S:15		ship speed
+	D:2L		ship division: the ‘L’ means lead ship
+
+Below the ship data the following menu items are listed:
+
+(M)ove - Current ship is moved to cursor location
+(L)ook - Cursor is moved to current ship’s location
+(C)ourse - Enter desired starting course (0-358). Even #’s only.
+(S)peed - Enter starting speed.
+(D)ivision - Enter starting division number (1-9)
+(T)ransport - Designate current ship for cargo transport. A ‘T’ is 
+displayed next to the division number for cargo carrying ships.  Can be 
+toggled on/off.
+(R)ename - Renames current ship (maximum 14 characters).  Ships start 
+the game with their class name.
+(W)eapon - Change some or all of the ships’ characteristics (see 16.0)
+(N)ext - Searches for next friendly ship.
+(X) Exit - Exits ship display menu
+
+6.0 Orders Phase
+
+Players may stop the action phase and enter the orders phase by pressing 
+the (O) key.  The computer will shift to the orders phase at the end of 
+the current 2 min. action segment.
+
+6.1 Command Modes
+
+There are two different ways to control ships in the game.  In division 
+mode the players give general orders to groups of ships. In the ship 
+mode the players give specific orders to individual ships.  The players 
+may toggle back and forth between the different command modes during the 
+orders phase.  The command mode last chosen during the orders phase will 
+be active during the action phase.
+
+6.2 Map Menu
+
+At the start of the orders phase the map menu will be displayed in the 
+text window at the bottom of the map display.
+
+(1-8) Move Cursor
+(A-?) Select Ship - This option is only available in ship mode.  The 
+computer will shift to the ship menu for the selected ship.
+(V) Division - By pressing the (V) key the player may then enter a 
+number (1-9) of an active division.  The computer will shift to the 
+division menu for the selected division.
+(W) Command Mode - Change to a different command mode.
+(X) Exit
+(Z) Get Ship - Select friendly ship at cursor location and switch to 
+ship menu.  Only available in ship mode.
+(0) Score - Show current points score.
+
+6.3 Division Menu
+
+The player may check the current division orders by examining the data 
+listed at the bottom of the text window.  An example of the divisional 
+orders data is shown:
+
+	HOLD FIRE		C:134		S:25		F:L
+
+HOLD FIRE - All ships in the division have orders to hold their fire.
+C:134 - Division has been assigned a course of 134 (southeast)
+S:25 - Division’s ships have been assigned a speed of 25 knots.
+F:L - Division’s ships have been ordered to assume line formation.
+
+The following menu options may be used to modify the current division 
+orders or examine ships:
+
+(H)old Fire - Instructs division to hold its fire.  Ships will not fire 
+guns or torpedoes while in effect.
+(T)orpedo Fire - Instructs division to fire torpedoes only.  Ships will 
+not fire guns while in effect.  Torpedoes will be fired when computer 
+judges it wise to do so.
+(G)un Fire - Instructs division to fire guns only.  Torpedoes will not 
+be fired.
+(O)pen Fire - Instructs division to fire both guns and torpedoes.
+(S)peed - Change assigned division speed.
+(C)ourse - Change assigned division course
+(F)ormation - Change division formation to/from line/parallel (see 7.4)
+(E)xamine Ships - Examine division’s ships (changes to ship mode) 
+starting with division’s lead ship.
+(X)Exit
+
+6.4 Ship Menu
+
+Ship status data will be listed at the top of the text window.  An 
+example of the data is shown:
+
+A	CA	MYOKO		C:120		S:20/34	D:1L
+
+A		ship has ID letter ‘A’
+CA		ship type is ‘CA’
+MYOKO		ship name
+C:120		ship’s current course (ESE)
+S:20/34	ship’s current speed (20 knots) and maximum speed (34 knots)
+D:1L		ship is in division 1 and is lead ship
+
+The ship menu contains the following routines:
+
+(W)eapons - By pressing the (W) key the player may view all of the 
+ship’s weapons.  A sample weapons display is shown:
+
+CA 	MYOKO
+
+2 x 8/50 GUN		F:BOW			A:120
+2 x 8/50 GUN		F:BOW			A:120
+2 x 8/50 GUN		F:CENTER		A:120
+2 x 8/50 GUN		F:STERN		A:120
+2 x 8/50 GUN		F:STERN		A:120
+4 X 5/40 GUN		F:LEFT		A:250
+4 X 5/40 GUN		F:RIGHT		A:250
+8 X TYPE 93 TORPEDO	F:LEFT		A:16
+8 X TYPE 93 TORPEDO	F:RIGHT		A:16
+
+ARMOR:	B4	D2	T4/0
+RADAR:	0	PROPULSION:	34
+
+In the above example the Myoko has a main armament of 10-8 inch 50 
+caliber guns (in 5 double turrets) with 120 rounds of ammo per gun.  The 
+secondary armament consists of 8 5 inch, 40 cal guns with 250 rounds per 
+gun.  Torpedo armament consists of 16 torpedo tubes with 1 reload per 
+tube.
+
+Also listed in the display, the ship’s armor protection consists of 4 
+inches of belt armor, 2 inches of deck armor, 4 inches of primary turret 
+armor and no secondary turret armor.  The ship has no radar and is 
+capable of 34 knots maximum speed.
+
+(D)amage - By pressing the (D) key the player may view the ship’s 
+damage.  Flooding damage, electrical damage, and bridge damage is 
+expressed as a percentage.  Rudder damage is also a percentage, unless 
+it is jammed or detached.  Fires are expressed numerically, with a 
+larger number, the greater the fire.  When a ship’s fire control is 
+knocked out, the display will display KO.  Any number displayed next to 
+the fire control is the radar level of the ship.
+
+(K)Smoke - Pressing the (K) key causes the current ship to ‘make smoke’.  
+An ‘S’ will be displayed next to the ship’s division number.  Can be 
+toggled on/off.  Only DD’s, DE’s, and Japanese CL’s may make smoke.
+
+(G)Target - Pressing the (G) key views the ship’s current target.  The 
+computer will display the type of target being engaged, the target size, 
+the range to the target, and whether or not the target is ‘ranged in’ 
+(and if so, by what method of fire control).
+
+(C)hange Division - Assigns current ship to any division (1-9).  Only 
+used in division mode.
+
+(S)peed - Assigns new speed (only in ship mode)
+
+(C)ourse - Assigns new course or instruct it to ‘follow’ friendly ship 
+(ship mode only)
+
+(T)orpedo - Used in ship mode.  The player must determine if a slow or 
+fast torpedo setting is used, aim the torpedo mount at a particular 
+point on the map and then fire a salvo consisting of some or all of the 
+mount’s torpedoes.
+
+(V)isual - Select enemy ship as target using visual fire control (ship 
+mode)
+(R)adar - Select enemy ship as target using radar fire control (ship 
+mode)
+(L)ook - Cursor moves to current ship’s location.
+(N)ext - Displays next ‘friendly’ ship.
+(X)Exit
+
+7.0 Movement
+
+7.1 Movement Rate
+
+Each square on the map is 1000 yards across.  The game is scaled such 
+that a ship travelling at 30 knots will enter a new square every minute.  
+Shipe moving diagonally will take longer (based on the angle) to move 
+one square.
+
+7.2 Changing Speed
+
+When ships are assigned a new speed, their current speed will be 
+gradually increased or decreased until it equals the assigned speed.  
+The rates of acceleration and deceleration are shown below:
+
+				Acceleration		Deceleration
+BB,BC				1 kpm				40% per min
+CA,CL,CLAA			2 kpm				55% per min
+DD,DE				4 kpm				55% per min
+
+Ships in division mode will always change speed at the BB rate.
+
+7.3 Course and Turning
+
+Ships may travel on any courses with even numbers between 0 and 358.
+
+			315   0   45
+			    \	| /
+			     \|/
+		      270---+---90
+			     /|\
+			    /	| \
+			225  180  135
+
+When ships are assigned a new course, their current course will be 
+gradually changed until it equals the assigned course.  The rates that 
+ships change course are shown below:
+
+	DD,DE							48 per min
+	BB,BC,CA,CL,CLAA					32 per min
+	Division Mode					32 per min
+(Note: A lead ship in a division in line formation will only be able to 
+turn 24 per min if player is in division mode)
+	Rudder Damage> 25% or 
+	Bridge Damage > 49%				20 per min
+	Rudder Detached					12 per min
+
+Undamaged ships in ship mode will use the top two turn rates.  Undamaged 
+ships in division mode uses division mode turn rate.  Ships with damaged 
+bridge or rudder uses last two turn rates.
+
+7.4 Moving in Formation
+
+In division mode only, ships will move in formation.  Divisions may be 
+assigned either line or parallel formation.
+
+In line formation, the lead ship will assume the division’s assigned 
+course, the second ship will follow the lead ship, etc.  A ship that is 
+more than one square away from the ship which it is following will speed 
+up (if possible) and attempt to catch up to the leading ship.  Ships 
+within one square of the ship they are following will set their speed to 
+match that of the ship they are following.
+
+Ships in division mode will always have their course rounded to the 
+nearest 45 degree increment for movement purposes, although the ship 
+display will show the unrounded number. e.g. a ship in division mode 
+with an ordered course of 200 will actually mov in course 180.  This 
+will enable ships to maintain line formations.
+
+In parallel formation, all ships in the division will assume the 
+divisions assigned course.
+
+7.5 Running Aground
+
+A ship that moves into a land square will immediately have its 
+propulsion reduced to 0.  There are no other effects from running 
+aground.
+
+7.6 Collisions
+
+Ships in the same square may collide with one another if at least one 
+ship is going at least 10 knots.  Ships travelling on the same course 
+will have a greatly reduced change of collision.  Ships will usually not 
+collide with the ship they are following.  If a collision occurs, both 
+ships will be reduced in speed to less than 10 knots and will suffer 
+damage based on the size of the ships and their speed at the moment of 
+collision.
+
+8.0 Gunfire
+
+8.1 Selecting Targets for Gunfire
+
+When using division mode, ships will automatically select targets for 
+gunfire if their division has been assigned gun fire or open fire 
+instructions.
+
+When using ship mode, the players may select targets for individual 
+ships by using the visual or radar commands on the ship menu.  Ships 
+with a radar rating of zero and ships with their fire control destroyed 
+may not use radar target selection.  Ships using the visual routine to 
+select their targets will employ visual fire control and use the visual 
+gunfire accuracy modifiers.  Ships using the radar routine to select 
+targets will employ radar fire control and use the radar gunfire 
+accuracy modifiers.
+
+8.2 Gunfire Accuracy
+
+The probability of a gunshot hitting its target is equal to 1/a where a 
+represents the ‘inverse gunfire accuracy’ of a particular gunfire.  The 
+list of accuracy modifiers used to calculate a are shown below:
+
+	FC	EFFECT	DESCRIPTION
+	all	add		target speed/2
+	all 	add		target turn*/2
+	all	add		firer speed/2
+	all	add		firer turn*/2
+	V	add		10, if other ships firing at target
+	V	add		30, if ranging in
+	V	add		20, if visibility<21; add 5 if firing ship is
+				Japanese OR
+	V	add		30, if visibility<7; add 15 if firing ship is 
+				Japanese
+	R	add		30, for radar fire control
+
+* - The difference between the ship’s current course and its assigned 
+course.  Ships following other ships consider their assigned courses to 
+be that which aims them directly at the ship they are following.
+
+After all additions have been made, the following multipliers may be 
+applied:
+
+	all x	1/2, if crossing the target ship’s ‘T’
+	all x (10-radar)/10, x2 if fire control is KO’d
+	all x range/gun max range
+	V   x 1/2, if ranged in
+
+After all multipliers have been applied:
+
+	all	add 5
+	all	add 5, if CA, CL, CLAA, AK target
+	all 	add 25, if DD,DE target
+
+V -- Visual fire control only
+R -- Radar fire control only
+
+Example:  The Fuso without radar is visually ranging in on the New 
+Mexico at a range of 30,000 yards.  Both ships are travelling at their 
+maximum speeds, and neither ship is turning.  The New Mexico is not 
+being fired upon by any other ship.  The visibility is 30; therefore the 
+change to hit it 1/46:
+
+a = (( 24/2 + 22/2 +30)*30/38)+5=46	
+
+If the Fuso is successful in ranging in, it will have a 1/14 change on 
+its next attempt:
+
+a = (( 24/2 + 22/2 )*30/38*1/2)+5=14
+
+Note that round off errors of +-1 may occur.
+
+The probability of a gunshot hitting will never be worse than 1/230.
+
+8.3 Ranging In
+
+Ships using visual fire control must spend at least 1 turn of ‘ranging 
+in’ fire before firing for full effect..  Ships succeed in ranging in if 
+accuracy a x RND < 50.  During a ranging fire turn, ships will only fire 
+1 shot per gun.  Ships using radar fire control are never required to 
+range in.
+
+8.4 Ammo Use
+
+The number of shells fired per gun is equal to 1+ammo/50.  The ammo 
+number shown on the weapons display represents the number of rounds 
+remaining for each gun.  Ships ranging in on a target will fire only 1 
+shot per gun.
+
+8.5 Gun Hit Location and Armor Penetration
+
+When a ship is hit by gunfire the computer will randomly determine the 
+section of the ship that was hit and calculate the change of the shell 
+penetrating the armor.  Possible hit locations are:
+
+	Near Miss	
+	Belt Hit
+	Deck Hit
+	Superstructure Hit (side or top)
+	Primary Turret Hit (side or top)
+	Secondary Turret Hit (side or top)
+	Tertiary Turret Hit
+	Torpedo Mount Hit
+
+Shell hits that penetrate a ship’s armor can cause significant damage to 
+the ship.  To determine if a shell penetrates, the gun’s adjusted 
+penetration rating (APR) must be compared to the armor protecting the 
+hit location.  If the APR is greater than the ship’s armor, the hit 
+automatically penetrates.  If the APR is equal to the ship’s armor, the 
+hit has a 50% chance of penetrating.  A ship’s armor is listed on the 
+weapons display section of the ship menu.  Superstructure side armor is 
+the same as belt armor.  Superstructure top armor, is the same as deck 
+armor.  Turret top armor is equal to 1/3 or the turret side armor 
+listed.  Tertiary turrets and torpedo mounds are unarmored.  Possible 
+damage caused by a near miss is determined by comparing the shell size 
+(not penetration) to the belt armor.
+
+Two APRs are calculated for each gunfire, horizontal and vertical 
+penetration.  Vertical penetration is used against deck, superstructure 
+top and turret top armor.  Horizontal penetration is used against all 
+other armor.
+
+	P - Gun penetration rating
+	R - Range to target
+	M - Gun maximum range
+
+vertical penetration = 1 + (PxR)/(Mx4)
+horizontal penetration = 1+((1+M-R)xP)/(Mx2)+P/2-(PxR)/(Mx4)
+
+Example: Using the example in section 8.2, the Fuso would be firing with 
+a vertical penetration of 5 and a horizontal penetration of 10.
+
+Vertical penetration may be reduced for certain shell sizes:
+
+	6 inch		x 2/3
+	3-5.5 inch		x 1/3
+
+8.6 Weapon Facing
+
+Weapons (both guns and torpedoes) on a ship may have 5 possible facings:
+
+	Bow - Center - Left - Right - Stern
+
+Weapons with the wrong facing relative to the target will be unable to 
+fire at that target.  A facing diagram is shown below
+
+				\  B   /
+				 \    /
+				  \  / 
+			     L   OO   R
+				  /  \
+                         /    \
+                        /  S   \
+
+The above diagram represents the field of fire of a ship travelling on 
+course 0.  The field is divided into four 90 degree arcs labelled 
+B,L,R,S.
+
+- Bow faced guns may not fire at targets in the S arc
+- Center faced guns may not fire at targets in the B or S arcs
+- Left faced guns may only fire at targets in the L arc
+- Right faced guns may only fire at target in the R arc
+- Stern faced guns may not fire at targets in the B arc
+
+8.7 Secondary Targets
+
+In many situations a ship has certain gun mounts that are unable to 
+‘face’ the ship’s primary target.  In these situations the gun mount 
+will fire at the nearest visible enemy ship that it can face.  Secondary 
+and tertiary gun mounts, such as 5 inch guns on battleships and 
+cruisers, will always fire at the nearest visible enemy ship that can be 
+faced.
+
+8.8 Crossing the T
+
+A ship’s T is crossed if it is being fired at by an enemy ship from 
+within either of the areas shown below:
+
+			   22 deg ________  22 deg	
+		Bow       _____/        \_____	Stern
+				   \________/	
+			   22 deg		  22 deg
+
+8.9 Gun Data
+
+Twenty-four different gun types are included in the game.  Gun ratings 
+are listed below:
+
+	ID	Description		Size		Range		Pen
+	6	18.1/45		35		46		26
+	7	16/50			30		42		26
+	8	16/45			27		40		25
+	9	15/42			22		32		23
+	10	14/50			18		36		23
+	11	14/45			18		38		23
+	12	12/50			14		33		17
+	13	8/55			6		31		9
+	14	8/50			6		30		8
+	15	6/60			4		30		7
+	16	6/53			4		26		7
+	17	6/50			4		20		7
+	18	6/47			4		26		7
+	19	6/45			4		18		7
+	20	5.5/50		4		19		5
+	21	5/51			3		13		5
+	22	5.25/50		4		22		5
+	23	5/50			3		20		4
+	24	5/40			3		16		4
+	25	5/38			3		17		4
+	26	5/25			3		14		4
+	27	4.7/45		3		16		4
+	28	4.7/50		3		18		4
+	29	4.5/45		3		17		4
+	30	4/50			2		14		4
+	31	4/45			2		16		3
+	32	3.9/65		2		20		4
+	33	3.9/60		2		18		4
+	34	3/60			1		15		3
+
+The gun description consists of two numbers: gun barrel size in inches / 
+gun caliber.  Numbers listed in the size column represent the weight of 
+the shell.  Numbers listed in the range column reflect the range of the 
+gun in 1000s of yards.  Numbers listed in the pen column reflect the 
+armour penetration effectiveness of the gun.
+
+8.10 Combat Gunfire Display
+
+When one ship fires its guns at another ship during the action phase, a 
+message such as the one below will be displayed
+
+	BB UNDER FIRE FROM 16/50 GUNS
+	ACCURACY: 1/38	PEN 	22 3
+	BELT HIT*
+	PRIMARY TURRET HIT
+
+In this example, a battleship is being fired at by a turret of 16/50 
+guns, with each shell fired having a 1 in 38 chance of hitting.  The 
+shells have a horizontal penetration capability of 22 and a vertical 
+penetration capability of 3.  The firing ship has scored two hits, the 
+first penetrating the belt armour (a * indicates penetration; a second * 
+indicates flotation damage), the second bouncing off the armour of a 
+primary turret.  There will be no delay after the display of a non-
+penetrating hit.
+
+9.0 Torpedoes
+
+9.1 Torpedo Salvoes
+
+Torpedoes are fired in salvoes of 1 or more torpedoes.  All torpedoes in 
+a salvo move together.  When a salvo enters a square occupied by a ship, 
+each torpedo will have a change of hitting the ship.
+
+9.2 Torpedo Intercept Angle
+
+The torpedo intercept angle (ia) is important in determining the chance 
+of torpedoes hitting the ship.  The ia is calculated by comparing the 
+torpedoes’ course to that of the ship they are attacking.
+
+ia = abs(torp course - ship course)
+
+If ia>180 then ia=ia-180
+if ia>90  then ia=180-ia
+
+Example: Torpedo course=300 Ship course=20
+	abs(300-20)=280
+	280>180 so: 280-180=100
+	100>90  so: 180-100=80
+	ia=80
+
+9.3 Torpedo Hit Probability
+
+Each torpedo in a salvo will have a chance of hitting a ship in the same 
+square.  The chance of a torpedo hit is calculated using the ia, ship 
+evasion capability and torpedo speed:
+
+Ship Evasion (EV) = 225 for DD & DE, 135 for all others
+If ship speed <10 then EV=EVxspeed/10
+hit% = torp speed x (ia+5)/EV
+
+The hit% formula above shows that the larger the ia, the better the 
+chance of a torpedo hit.  For any ship travelling at a speed greater 
+than 4 knots there will be a 50% that the ship will make an evasive turn 
+to reduce the ia.  After the evasive turn the ia will be reduced by a 
+number equal to 1/2 the ship’s turn rate (see 7.3).
+
+9.4 Dud Torpedoes
+
+Torpedoes that hit a ship and explode will cause significant damage to 
+the ship.  Ten percent of all torpedoes will be duds that do not explode 
+(the MK-15 torpedo will have a 50% dud rate during 1941-42). Dud 
+torpedoes will cause no damage.
+
+9.5 Torpedo Symbols
+
+For solitaire games, only the human-fired torpedoes will be visible but 
+the computer-fired torpedoes will not.
+
+9.6 Torpedo Data
+
+There are 5 different types of torpedoes included in the game.  Torpedo 
+ratings are listed below:
+
+	ID	Description		Size		Speed		Range
+	1	MK-IX			9		35/40		14/10
+	2	MK-15			8		25/40		14/6
+	3	MK-VII		9		33/38		16/11
+	4 	Type 6		10		25/35		16/8
+	5	Type 93		20		35/50		45/22
+
+The numbers listed in the size column represent the size of the torpedo 
+warhead.  There are two numbers listed for both the speed and range of 
+the torpedo.  The first number is the speed or range of the torpedo at 
+the ‘slow setting’ and the second number is the speed/range at the ‘fast 
+setting’.
+
+9.7 Torpedo Reloads
+
+Most Japanese ships carry reloads for their torpedo mouonts.  After 
+these ships fire their torpedoes the reload procedure will begin 
+automatically.  Reloading torpedo mounts will normally take 30 minutes; 
+however, it may be delayed in certain situations.  Ships moving at 
+greater than 21 knots will temporarily suspend the reloading until the 
+speed can be reduced.
+
+9.8 Torpedo Combat Displays
+
+Whenever a torpedo enters a square occupied by an enemy ship, a message 
+will be displayed stating the class of the ship being attacked, the 
+course of the torpedoes, and any hits scored by the torpedoes.  The 
+display will also state any dud torpedo hits.
+
+10.0 Searching
+
+Every two minutes of game time, ships will perform both radar and visual 
+searches to locate and target enemy ships.
+
+10.1 Search Procedure
+
+The search segment occurs at the end of each two minutes of the action 
+phase.  At the start of the search segment all ships will become 
+‘unsighted’.  During the search segment each ship may search and sight 
+any enemy ship within detection range.
+
+10.2 Visual Search
+
+To determine if any enemy ship (target) is within visual detection 
+range, the following formula is used:
+
+	V = Visibility
+	R = Range to Target
+	SS = Searcher Size (flotation)
+	TS = Target Size (flotation)
+	TF = Target Fire Level
+	DR = Detection range
+
+Night Detection (V < 21):
+
+	DR = V + TF
+		+5 if target is firing
+		+5 if target is under fire
+
+To calculate visibility when V<21, multiply V by 0.75 for Allied ships 
+conducting visual search.
+
+Day Detection (V > 20):
+
+	DR = 10 + V/2 + SS/20 + TS/20 + TF
+		+5 if target is under fire
+
+If DR >= R then target is sighted.
+
+10.3 Radar Search
+
+Only ships with a radar rating greater than zero may perform a radar 
+search.  The formula for radar detection is shown below:
+
+	RR = Radar Rating
+
+Radar Detection
+
+	DR = 10 + RR x 10
+	if DR >=R then detection except if
+	R > DR/2 and TS<R then no detection
+
+10.4 Smoke
+
+A ship cannot see through a square in which another ship is making 
+smoke.  However, ships can see into and can see out of a square 
+containing a ship making smoke.  And ships may always use radar to see 
+and fire through smoke.
+
+10.5 Land
+
+Ships may not see through full land (terrain type N; see 15.2) squares 
+(visually or with radar), but they  may see through partial land squares 
+(terrain types B-M).
+
+11.0 Damage
+
+Ships may be damaged when hit by torpedoes or gunfire.  Ships may 
+receive additional damage from uncontrolled fires and flooding.  All 
+damage is cumulative.
+
+11.1 Torpedo Damage
+
+When a torpedo explodes against a ship, the following types of damage 
+may be expected:
+
+flood% = (1+warheadxrnd)/flotation
+	    fire + 4xrnd
+
+In addition, the following types of damage are probable:
+
+50% chance		propulsion - 5 knots
+30% chance		propulsion - 10 knots
+20% chance		rudder damage = 25 + 75 x rnd
+20% chance		above damage doubled
+4%  chance		above damage tripled
+
+11.2 Gunfire Damage
+
+The types of damage caused by gunfire will vary with the location and 
+armour penetration.  Shots that fail to penetrate the armour will have a 
+chance of adding 1 to the fire level; this chance is equal to the shell 
+size divided by 40 (i.e. an 8/55 shell will have a 6/40 or 15% chance of 
+adding one to the fire level), but will cause no other damage.
+
+S - Shell size
+R - Random number between 0 and 1
+F - Target flotation
+
+Near Miss
+
+If S x R < Belt armour then no effect otherwise flood%= 3 x R / F
+
+Belt Hit
+
+60%	Flood% = 1 + R x S / 2 x F
+ 5%	Flood% = 1 + R x S / F and propulsion - 5 knots
+15%	Propulsion - 5 knots
+ 5% 	Rudder damage = 25 + S x R
+13%	Fire + 1
+ 2%  	Magazine Explodes
+
+Deck Hit
+
+15%	Flood% = 1 + R x S / 2 x F
+10%	Flood% = 1 + R x S / F and propulsion - 5 knots
+ 5%	Rudder damage = 25 + S x R
+20%	Propulsion - 5 knots
+46%	Fire + 1
+ 4%	Magazine Explodes
+
+Superstructure Hit
+
+15%	Bridge Damage = 25 + 5 x S x R
+15%	FC/Radar KO’d
+ 5%	Electric Damage = 10 x S x R
+65%	Fire + 1
+
+Turret Hit
+
+99%	Turret KO’d
+ 1%	Magazine Explodes
+
+11.3 Fire Damage
+
+Uncontrolled fires on a ship may cause damage to ship systems.  
+Additional damage ay occur on a burning ship every two minutes if rnd x 
+20 < fire level.
+
+20%	Weapon KO’d
+50%	Fire + 1
+15%	Propulsion - 5 knots
+ 5%	Bridge Damage + 10
+ 5%	FC/Radar KO’d
+ 4%	Electric Damage + 25
+ 1%	Magazine Explodes
+
+11.4 Flood Damage
+
+Ships with uncontrolled flooding may suffer additional damage to ship 
+systems.
+
+If flood% > 25 and rnd x 10 < 2 then additional flood% damage = 
+	1 / flotation = 2
+
+If flood% > 50 then additional electric damage = 25 x rnd
+
+11.5 Repairs
+
+At the start of each two minute segment, a ship’s damage control parties 
+will  have a chance to repair damage.  The ability to repair damage will 
+be affected by the damage control rating (DC) assigned when building the 
+scenario.
+
+Repairs
+
+5%	Flood% -1 / flotation x 2
+15%	Fire - 1
+5%	Electric damage - 10
+5%	Bridge damage - 10
+3%	Jammed rudder detached
+3%	Rudder damage - 25
+
+The chances of repair listed above will be multiplied by the player’s DC 
+rating.  Thus a player with a DC rating of 3 will have a 45% chance of 
+reducing the fire level on his ships every 2 minutes.
+
+12.0 Damage Effects
+
+A ship’s damage will reduce its combat effectiveness and, in the case of 
+severe flooding, cause it to sink.
+
+12.1 Fire Effects
+
+Uncontrolled fires burning on a ship may cause additional damage to ship 
+systems (see 11.3)
+
+12.2 Flooding Effects
+
+Heavy flooding may cause additional damage to ship systems (see 11.4).  
+At the start of each 2 minute segment, a ship with 100% flood damage 
+will have a 10% chance of sinking (the ship will automatically sink if 
+the fire level is greater than two times the ship’s flotation rating).  
+Flooding will proportionally reduce a ship’s maximum speed.  For example 
+a ship with propulsion of 30 knots and 50% flood damage will have a 
+maximum speed of only 15 knots.  If the flood damage is repaired then 
+the maximum speed will increase towards the propulsion rating.
+
+12.3 Electric Damage
+
+Damage to a ship’s electric system will affect its ability to fire its 
+weapons or use radar.  Ships with greater than 49% electric damage will 
+be unable to fire guns or torpedoes, or use radar.  Ships with less than 
+50% damage will randomly use or lose electric power during each 2 minute 
+segment.  For example, a ship with 25% electric damage will have a 50% 
+chance of losing electric power during each 2 minute segment (damage x 2 
+equals chance of failure).
+
+12.4 Bridge Damage
+
+Ships with bridge damage greater than 49% will have their ability to 
+maneuver impaired (see 7.3)
+
+12.5 Rudder Damage
+
+Ships with rudder damage between 26% and 49% and ships with their rudder 
+‘detached’ (DT) will have their ability to maneuver impaired (see 7.3).  
+Ships with rudder damage greater than 49% will have their rudder 
+‘jammed’ in a particular direction, either left (JL), right (JR), or 
+straight ahead (JS).  Ships with a jammed rudder must move or turn in 
+the direction the rudder is jammed.  During the repair segment a jammed 
+rudder may be either repaired, detached, or jammed in a different 
+direction.
+
+12.6 Fire Control and Radar Damage
+
+When a ship’s fire control is KO’d its radar will also be KO’d.  Ships 
+with fire control KO’d will have their gunfire accuracy halved.  Fire 
+control and radar may not be repaired during the game.
+
+12.7 Propulsion Loss
+
+Propulsion loss represents a reduction in a ship’s maximum speed.  
+Propulsion systems may never be repaired during the game.
+
+12.8 Magazine Explosion
+
+Magazine explosions in the game are usually fatal.  100% flooding and 
+100 fire levels are added by a magazine explosion.
+
+12.9 Weapons Mount KO’d
+
+Weapon mounts (gun or torpedo) KO’d may not be repaired during the game.  
+When a torpedo mount is destroyed, its ammo will be set to 0.
+
+13.0 Scoring
+
+Points may be scored for damaging or sinking enemy ships and sometimes 
+for exiting ships off a particular map edge.
+
+13.1 Points for Ships Sunk
+
+Points scored for sinking enemy ships is equal to the ship selection 
+points (SSPs) required to buy the ship.  Points will be doubled for 
+sinking ships designated for cargo transport.
+
+13.2 Points for Ships Damaged
+
+Points scored for damaging enemy ships varies with the level of damage 
+and the SSP value of the ship.
+
+F = Flotation
+d% = Damage level
+P = Propulsion
+
+d% = FIRE / F + flood%
+	If rudder jammed or detached then d% + F / 4
+	If P < 15 then d% + (F/2) x (15-P) / 15
+	If d% > 0.9 then d% = 0.9
+
+Points scored = d% x SSP
+If damaged ship has air cover then Points x 5/9
+If damaged ship is designated for cargo transport then Points x 2
+
+13.3 Points Scored for Transport
+
+In transport scenarios the attacking player scores points for exiting 
+designated transport ships off a particular map edge.  The Japanese 
+player must exit his transports off the east map edge to score points.  
+The Allied player must exit his transports off the west edge to score 
+points.  The points scored vary with the type of ship exited:
+
+	AK		50
+	BB,CA,CL	10 (Japanese only)
+	DD		 5 (Japanese only)
+
+No points are scored if the transport has a fire level greater than 4.
+
+13.4 Points Scored for Bombardment
+
+In bombardment scenarios the attacking player scores points for exiting 
+combat ships off a particular map edge.  The number of points scored 
+varies with the number and size of the ship’s main guns.
+
+	BB, BC		8 per main gun
+	CA			4 per main gun
+	CL			2 per main gun
+	CLAA,DD,DE		1 per gun
+
+The Japanese player may only score points for exiting ships off the east 
+map edge.  The Allied player may only score points for exiting ships off 
+the west map edge.
+
+13.5 Victory conditions
+
+The player scoring the most points is considered the victor.  In 
+bombardment scenarios, the bombarding player must score at least twice 
+the number of points as the defending player in order to win (if he does 
+not, the defending player is victor).
+
+14.0 Scenarios
+	
+14.1 Guadalcanal I (13 Nov 1942)
+
+This is a Japanese bombardment scenario with a 1 hour game length.  The 
+Japanese SSP total is 449, while the US SSP total is 268.  An American 
+force of 8 destroyers and 5 cruisers engaged a Japanese force of 2 
+battleships, 1 light cruiser and 11 destroyers.  The Allies lost 2 light 
+cruisers and 4 destroyers while the Japanese lost 1 battleship and 2 
+destroyers.
+
+14.2 Guadalcanal II (14 Nov 1942)
+
+This is a Japanese bombardment scenario with a 2 hour time length.  The 
+Japanese SSP total is 428, while the US SSP total is 442.  This was one 
+of only 2 WWII Pacific engagements between opposing battleships.  Two 
+American battleships and 4 destroyers fought 1 Japanese battleship, 2 
+heavy cruisers, 2 light cruisers, and 11 destroyers.  Two American 
+destroyers, 1 Japanese battleship and 1 Japanese destroyer were sunk.
+
+14.3 Empress Augusta Bay (2 Nov 1943)
+
+This is a Japanese bombardment scenario with a 2 hour game length.  The 
+Japanese SSP total is 251, while the US SSP total is 288.  An American 
+force of 4 new radar-equipped CL’s and 8 DD’s turned back a Japanese 
+bombardment group consisting of 2 CA’s, 2 CL’s and 6 DD’s.  One Japanese 
+light cruiser and one destroyer were sunk.
+
+14.4 San Bernardino (25 Oct 1944)
+
+This is a battleline scenario with a 2 hour game length.  The Japanese 
+Ssp total is 1150, while the US SSP is 1514.  This is a hypothetical 
+engagement between battlelines during the Leyte invasion.
+
+15.0 Designing Custom Maps
+
+If the (D)esign Map option is selected (see 4.2) then the may build 
+routine may be used to create a custom map.
+
+15.1 Map Build Menu
+
+The following menu options may be used to examine the map and change 
+terrain:
+
+(1-8) Move Cursor
+(A-N) Set Terrain - Each letter, A-N, represents a different terrain 
+symbol which replaces the current terrain at the cursor location.
+(U) Auto Shift - When autoshift is activated then the cursor location 
+will shift 1 square in the selected direction (1-8) after each set 
+terrain key has been pressed.  This function is useful in reducing the 
+number of key strokes required to create a new map.
+(X) Exit - Computer exits map build routing and enters save to disk 
+routine.
+
+15.2 Terrain Types
+
+(Just a general description)
+
+A - 0pen		 	B - Land left w/reef	C - Land bottom w/reef
+D - Land top w/reef	E - Land right w/reef	F - Land top rt w/reef
+G - Land bottom rt “	H - Land bottom lf “	I - Land top lf   “
+J - Land top		K - Land right		L - Land bottom
+M - Land left		N - Solid land
+
+16.0 Modifying Ship Data
+
+Players may create custom ships by modifying some or all ship data.
+
+16.1 Modifying Weapons Data
+
+Ships have a maximum of 10 weapon mounts.  Main guns are always listed 
+1st, followed by secondary and tertiary weapon. Secondary and tertiary 
+turrets that have the same facing may be grouped together on one 
+‘mount’.  The number of guns/tubes per turret must be designated to 
+determine how many guns/tubed are destroyed when a turret is KO’d.  The 
+number of guns/tubes must be evenly divided by the gun/tubes per turret 
+or the guns/tubes per turret will automatically be set to 1.
+
+When changing weapon mounts, the following data elements may be altered:
+
+Weapon Type - Use ID numbers listed in 8.8 and 9.6 (0 - no weapon)
+Number Guns/Tubes
+Facing (1-5) - See 8.6
+Ammo/Torpedoes
+Main, Secondary or tertiary mount
+Guns/Tubes per Turret - Does not apply to main gun turrets
+
+16.2 Modifying Non-Weapons Data
+
+The following non-weapons data elements may be altered:
+
+Maximum Speed
+Flotation - Equals 1 + Ship Displacement / 500 (tons)
+Radar (0-4)
+Belt Armour (Inches)
+Deck Armour
+Main Turret Armour
+Secondary Turret Armour - Tertiary turrets are always unarmoured.
+Ship Selection Points - Used for scoring
+	
+17.0 Ship Data
+
+General Data format
+
+Type	Class			Main gun	Sec gun	Tert gun	Spd	Flot
+------------------------------------------------------------------------
+	Radar	Belt	Deck	Prim Turr	Sec turr	SSP’s		Earliest yr
+		Arm	Arm	Arm		Arm				Available
+
+Japanese
+-----		
+BB	Yamato		9x18.1/45	12x6/60	12x5/40	27	125	
+	0	16	9	24		2		250		42
+-----
+BB	Nagato		8x16/45	16x5.5/50	8x5/40	27	80
+	0	12	4	14		5		175		41
+-----
+BB	Kongo			8x14/45	16x6/50	8x5/40	30	70	
+	0	8	4	9		3		133		41
+-----
+BB	Fuso			12x14/45	14x6/50	8x5/40	24	70
+	0	12	4	12		4		161		41
+-----
+BB	Ise			8x14/45	16x5/50	--		24	70
+	0	12	4	12		1		136		44
+-----
+CA	Aoba			6x8/50	4x4.7/45	8x93TT	33	20
+	0	3	2	4		0		38		41
+-----
+CA	Tone			8x8/50	8x5/40	12x93TT	35	28
+	0	4	2	4		0		52		41
+-----
+CA	Takao			10x8/50	8x5/40	16x93TT	34	30	
+	0	4	2	4		0		58		41
+-----
+CA	Mogami		10x8/50	8x5/40	12x93TT	35	28
+	0	4	2	4		0		55		41
+-----
+CL	Tenryu		4x5.5/50	6x6TT		--		33	9
+	0	2	1	0		0		16		41
+-----
+CL	Kuma			7x5.5/50	8x93TT	--		33	11
+	0	2	1	0		0		23		41
+-----
+CL	Kitakami		4x5.5/50	40x93TT	--		33	11
+	0	2	1	0		0		44		41
+-----
+CL	Nagara		7x5.5/50	8x93TT	--		36	11
+	0	2	1	0		0		23		41
+-----
+CL	Yubari		6x5.5/50	4x93TT	--		35	8
+	0	2	1	0		0		16		41
+-----
+CL	Agano			6x6/60	4x3/60	8x93TT	35	15
+	1	2	1	1		0		26		43
+-----
+CL	Oyodo			6x6/60	8x3.9/60	--		36	22
+	1	2	1	1		0		31		44
+-----
+DD	Minekaze		2x4.7/50	2x6TT		--		36	3
+	0	0	0	0		0		5		41
+-----
+DD	Kamikaze		3x4.7/50	6x6TT		--		36	3
+	0	0	0	0		0		7		41
+-----
+DD	Mutsuki		2x4.7/50	6x93TT	--		33	4
+	0	0	0	0		0		9		41
+-----
+DD	Fubuki		6x5/50	9x93TT	--		38	5
+	0	0	0	0		0		15		41
+-----
+DD	Hatsuharu		5x5/50	6x93TT	--		33	4
+	0	0	0	0		0		11		41
+-----
+DD	Shiratsuyu		5x5/50	8x93TT	--		34	5
+	0	0	0	0		0		14		41
+-----
+DD	Kagero		6x5/50	8x93TT	--		35	6
+	0	0	0	0		0		15		41
+-----
+DD	Shimakaze		6x5/50	15x93TT	--		39	7
+	1	0	0	0		0		21		43
+-----
+DD	Akizuki		8x3.9/65	4x93TT	--		33	7
+	0	0	0	0		0		14		42
+-----
+DE	Mutsu			3x5/50	4x93TT	--		27	4
+	0	0	0	0		0		8		44
+========
+American
+========
+BB	Nevada		10x14/45	12x5/51	8x5/25	21	60
+	0	13	4	16		1		146		41
+-----
+BB	New Mexico		12x14/50	8x5/38	--		22	65
+	0	14	6	16		1		161		41
+-----
+BB	Maryland		8x16/45	16x5/38	--		21	70
+	0	16	5	16		1		172		41
+-----
+BB	N. Carolina		9x16/45	20x5/38	--		28	75
+	2	16	4	16		1		201		42
+-----
+BB	S. Dakota		9x16/45	16x5/38	--		28	75
+	2	16	6	17		1		204		42
+-----
+BB	Iowa			9x16/50	20x5/38	--		33	95
+	2	16	6	18		1		224		44
+-----
+BC	Alaska		9x12/50	12x5/38	--		33	60
+	2	9	4	13		1		224		44
+-----
+CA	Pensacola		10x8/55	8x5/25	--		33	18
+	0	3	2	2		0		40		41
+-----
+CA	Northampton		9x8/55	8x5/25	--		33	18
+	0	3	2	2		0		38		41
+-----
+CA	Portland		9x8/55	8x5/25	--		33	20
+	0	4	2	2		0		41		41
+-----
+CA	New Orleans		9x8/55	8x5/25	--		33	20
+	0	5	2	6		0		46		41
+-----
+CA	Baltimore		9x8/55	12x5/38	--		33	30
+	0	6	2	6		1		57		44
+-----
+CL	Omaha			12x6/53	6x15TT	--		33	14
+	0	4	2	4		0		34		41
+-----
+CL	Brooklyn		15x6/47	8x5/25	--		33	20	
+	2	5	2	6		0		48		41
+-----
+CL	Cleveland		12x6/47	12x5/38	--		33	24
+	2	5	2	6		1		50		43
+-----
+CLAA	Atlanta		16x5/38	8x15TT	--		33	14
+	1	4	2	1		0		28		41
+-----
+CLAA	Oakland		12x5/38	8x15TT	--		33	14	
+	2	4	2	1		0		26		44
+-----
+DD	Flush Deck		4x4/45	12x15TT	--		35	3
+	0	0	0	0		0		8		41
+-----
+DD	Farragut		5x5/38	8x15TT	--		36	4
+	0	1	0	1		0		9		41
+-----
+DD	Porter		8x5/38	8x15TT	--		37	5
+	0	1	0	1		0		11		41
+-----
+DD 	Mahan			4x5/38	12x15TT	--		36	4
+	0	1	0	1		0		9		41
+-----
+DD	Craven		4x5/38	16x15TT	--		38	4
+	0	1	0	1		0		10		41
+-----
+DD	Benson		4x5/38	5x15TT	--		35	5
+	0	1	0	1		0		9		41
+-----
+DD	Fletcher		5x5/38	10x15TT	--		38	6
+	1	1	0	1		0		11		42
+-----
+DD	Gearing		6x5/38	10x15TT	--		37	6
+	2	1	0	1		0		12		45
+-----
+DD	Sumner		6x5/38	10x15TT	--		36	6
+	2	1	0	1		0		12		44
+-----
+DE	Rudderow		2x5/38	3x15TT	--		23	4
+	1	0	0	0		0		5		44
+=======
+British
+=======
+BB	Nelson		9x16/45	12x6/50	6x4.7/55	23	70
+	1	14	6	15		2		197		41
+-----
+BB 	King George V	10x14/45	16x5.25/50	--		28	70
+	1	15	6	13		2		163		41
+-----
+BB	Repulse		6x15/42	20x4/50	8xIXTT	28	65
+	1	9	4	11		1		129		41
+-----
+BB	Warspite		8x15/42	8x6/45	8x4/45	24	65
+	0	13	4	11		2		142		41
+-----
+BB	Revenge		8x15/42	14x6/45	--		21	65
+	0	13	4	11		2		142		41
+-----
+CA	Australia		8x8/50	8x4/45	8xVIITT	32	22
+	0	4	2	2		0		42		41
+-----
+CA	Exeter		6x8/50	8x4/45	6xIXTT	32	18
+	0	3	2	2		0		35		41
+-----
+CL	Leander		8x6/50	8x4/45	8xVIITT	33	18
+	0	3	2	1		0		33		41
+-----
+CL	Enterprise		6x6/50	4x4/45	8xIXTT	33	18
+	0	3	1	1		0		28		41
+-----
+CL	Adelaide		7x6/50	2x4/45	--		24	12
+	0	3	1	1		0		21		41
+-----
+CL	Caledon		5x6/50	2x4/45	--		30	10
+	0	3	1	1		0		17		41
+-----
+CLAA	Carlisle		8x4/45	--		--		30	10
+	0	3	1	1		0		17		41
+-----
+CL	Danae			6x6/50	12xIXTT	--		30	10
+	0	3	1	1		0		20		41
+-----
+CL	Fiji			12x6/50	8x4/45	6xIXTT	32	18
+	1	3	2	2		1		38		41
+-----
+CLAA	Dido			10x5.25/50	6xIXTT	--		32	12
+	1	3	2	1		0		23		41
+-----
+DD	Sabre			3x4/45	4xIXTT	--		36	3	
+	0	0	0	0		0		6		41
+-----
+DD	Vampire		4x4/45	6xIXTT	--		36	4
+	0	0	0	0		0		7		41
+-----
+DD	Electra		4x4.7/45	8xIXTT	--		36	4	
+	0	1	0	0		0		8		41
+-----
+DD	Jupiter		6x4.7/45	10xIXTT	--		36	5	
+	0	1	0	0		0		11		41
+-----
+DD	Battle		4x4.5/45	8xIXTT	--		35	6	
+	2	1	0	0		0		10		45
+=====
+Dutch
+=====
+CL	Tromp			6x6/50	6xVIITT	--		33	8
+	0	2	1	1		0		18		41
+CL	De Ruyter		7x6/50	--		--		32	12
+	0	2	1	1		0		20		41
+CL	Java			10x6/50	--		--		30	13
+	0	3	1	2		0		26		41
+DD	Van Ghent		4x4.7/45	6xVIITT	--		36	4	
+	0	1	0	0		0		8		41
+DD	Sweers		5x4.7/45	8xVIITT	--		37	5	
+	0	1	0	0		0		10		41
+=========
+Transport
+=========
+AK	Transport		2x3/60	--		--		15	10	
+	0	0	0	0		0		20		41	

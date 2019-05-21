@@ -1,0 +1,530 @@
+Battalion Commander
+
+GETTING STARTED
+What You Need
+* Commodore 64 or Apple II 64k
+* Color monitor
+* Single disk drive
+* Joystick(optional)
+
+Loading Instructions
+
+Commodore
+1. plug joystick into port 2.
+2. Insert Battalion Commander disk label side up into the disk drive.
+3. Turn on disk drive, monitor and computer.
+4. Type LOAD"*",8 and press RETURN. Then type RUN and press RETURN.
+5. The program will load automatically.
+
+Apple_II
+1. plug joystick into game port.
+2. Insert the Battalion Commander disk label side down into drive.
+3. Boot computer the program will load automatically.
+
+INTRODUCTION
+Battalion Commander puts you in command of a modern fighting force the size of
+an army battalion. The game lets you experience small unit combat on the
+modern battlefield. As the battalion commander, your role in the game is to
+issue orders to company and platoon commanders. Subordinate commanders issue
+orders to their subordinates so that companies or plattons will work together
+to overcome the enemy forces. How well you can coordinate your forces will
+determine the outcome of the battle.
+
+GAME_OPTIONS
+After the game loads the computer will ask you to set up the game options.
+
+Select_a_Game
+
+1.Novice: destroy a Soviet tank battalion which is out of sight of your units
+to the north. The Soviet tank battalion consists of two companies. similar in
+structure to yours. Receive points for destroying enemy units.
+
+2.Pursuit_and_Exploitation: This refers to the actions taken by an attacker to
+penetrate an enemy's weakened defense system and then to claim victory.
+Receive points for destroying enemy units and for capturing special units,
+including artillery batteries, supply depots, and Headquarters units.
+
+3._Meeting_Engagement: This is a sort of military chess, with victory going to
+the side that displays greater skill. Each side is equally weighted in
+relative strength. However, one side may be better in combat than the other
+side but have fewer forces. Receive points for destroying the opponents
+forces.
+
+4._Attack: In this game, your objective is to break through the enemy defenses
+to occupy a key terrain feature marked with a blue "X". Although you have
+twice the strength, the enemy is quick and cunning.
+
+5.Defense: This basically the same as the attack game. however, you're the one
+who must defend the objective position, marked by a blue "X", from attack by
+the enemy.
+
+Nationality: You may select ground forces from either the United States, the
+Soviet Union, or China for either your side or the enemy's side. The strength
+of a U.S. battalion will be reduced by about 20% when opposing a Soviet
+battalion and 50% when opposing a Chinese battalion. A Soviet battalion is
+reduced about 30% when opposing a Chinese battalion. The purpose of these
+reductions is to provide play balance between forces of differing intrinsic
+strengths.
+
+Terrain Maps: Forty terrain maps are available. When the computer asks for the
+number of a terrain map, type the two digit number from 01 to 40,
+corresponding to the terrain map you want for the game. A list of the terrain
+maps and symbols is at the back of this manual.
+
+Relative Strengths: The game may be made more difficult or less difficult by
+changing the relative strength of the two sides. Press the following keys to
+adjust the relative strengths;
+
+  1 - reduces your strength by 50%
+  2 - reduces your strength by 20%
+  3 - reduces neither side
+  4 - reduces enemy's strength by 20%
+  5 - reduces enemy's strength by 50%
+
+GAME PLAY
+
+Game Control
+
+Cursor_Movement: The cursor may be controlled with either a joystick or by holding down the Control key and pressing the direction keys:
+
+                                 I  = UP
+                 J = LEFT                     K = RIGHT
+                                M = DOWN
+
+Keyboard_Commands: The following commands are available.
+
+  Spacebar     Pause, press again to resume play.
+  Control + E  End game.
+  Return       Start another new game after end of a game.
+    R          Repeat last message received.
+  Control + S  Special scrolling in Pursuit and Explotation game: screen
+               scrolls twice to reach the enemy units.
+  Control + A  Accelerate time, double the speed of unit activity; time
+               returns to normal when first shots are fired.
+  Control + N  Returns to normal time speed.
+  Control + X  Examine direction of unit movement; to see what direction a
+               unit is moving or facing, position the cursor over the unit 
+               and either press the joystick fire button or press Control + X
+  Escape       Toggle sound on/off (apple only).
+
+
+Chain of_ Command
+The Battalion Commander normally issues orders to company commanders.
+Company Commanders in turn issue orders to Platoon Commanders, and so on,
+until everyone has orders consisetent with the intentions of the Battalion
+Commander.
+
+ The Battalion Commander issues orders directly to Battalion Headquarters, platoons in the Combat Support Company, and platoons of companies temporarily under his direct command. The battalion Commander may
+take command of one company at a time. When he does this he still remains in command of the battalion.
+
+Units under your Command
+1. Companies - You may command up to four companies, depending on the game
+selected and nationality of each side. Companies are designated by letters
+ A, B, C, D. To tell the computer which companieyou want to give an order to,
+press the letter key corresponding to that company.
+
+2. Platoons_- If you are in direct command of a company, you may issue orders
+directly to its platoons. Platoons are numbered 1 to 6. Press the number key
+of the platoon you want to give an order to.
+
+3. Combat Support Company - In addition to the combat forces under your
+command, you also command a battalion headquarters and some platoons of the
+Combat Support Company:
+
+   Supply Train - This unit delivers ammunition, fuel, and other supplies to
+    your units. The operation of this unit, unlike the others, is automatic.    
+    To find out which company is being supplied, position the cursor over the       
+    Supply Train. If you would like to change the company receiving supplies
+    from the Supply Train, simply press the corresponding key for the unit
+    you would like supply, and press P for "Priority unit for resupply."
+    If a Supply Train is destroyed, it will be replaced.
+
+    Battalion Headquarters - This is where you are located. It is an 
+    important unit, so big points are awarded for its destruction. If a 
+    Battalion Headquarters is destroyed it will be replaced.
+
+    Scout Platoon - This consists of infantry mounted in infantry carriers
+    (U.S.) or trucks (China). The infantry may be dismounted from the 
+    vehicles and can operate independently of the carriers. Select the 
+    Scout Platoon by pressing the S key. If the infantry may be dismounted, 
+    you can do so by pressing the I key.
+
+    Heavy Mortar platoon - United States and Soviet Battalions both have a
+    Heavy Mortar Platoon assigned to their Combat Support Companies.
+
+    Antitank Platoon - A United States Infantry Battalion will have an
+    Antitank Platoon assigned. Tank battalions do not include this platoon.
+    an Antitank Platoon includes vehicles that mount highly sophisticated
+    and deadly antitank guided missles.
+
+   Engineer Platoon - This platoon is used for fighting and for bridge  
+   construction. To remove a bridge, position cursor above or below the 
+   bridge on the screen. Then tell the Engineer Platoon to remove the bridge  
+   by pressing R. The Engineer Platoon will go to the position you designate
+   and, after a few minutes the bridge will disappear. In the game, only
+   straight, horizontal stretches of river are suitable for constructing   
+   bridges. If you send the Engineer to the wrong area, you will receive a   
+   warning message. Place the cursor above or below the area where you would  
+   like the bridge and press B. Bridge construction takes a couple of minutes   
+   to complete. Remember, do not place the cursor over the bridge or bridge   
+   site when removing or constructing a bridge.
+
+4 Fire Support Officer - This menber of your Battalion Headquarters staff is 
+responsible for coordinating artillery support for your battalion. No heavy
+artillery is assigned to a battalion. Artillery is assigned to higher headquarters, including brigade and division level. To obtain fire support, you must give an order to the Fire Support Officer, who passes on the request to higher headquarters. Up to two fire requests may be acted on at a time and
+two targets engaged. A fire support mission will terminate after 5 minutes
+unless you renew it by issuing the order again.
+
+The following keys are used to select the units to which you will be sending
+orders:
+
+      A    Company A
+      B    Company B
+      C    Company C
+      D    Company D
+      1 - 6 Platoons within a company
+      E   Engineer Platoon 
+      H   Battalion Headquarters
+      S   Scout Platoon (Carriers)
+      I   Scout Platoon (Infantry)
+      M   Heavy Mortar Platoon
+      T   Antitank platoon
+      F   Fire Support Officer
+
+If you press the wrong key, or do not wish to give an orders to the unit
+corresponding to the key pressed, hit the DELETE key.
+
+Unit Status
+To find out more about a unit, position the cursor over the unit. Information
+on the unit contains the number of personnel(PERS) and the number of
+vehicles(VEH). The supply condition and troop condition are also displayed.
+
+ 1. Unit Title- If the unit is a mechanized infantry(US) or motorized Rifle  
+ (Soviet) platoon, it may contain infantry that can be dismounted and 
+ controlled as a separate platoon. If so , there will be a "+" after the unit 
+ title. After the title of the Supply Train, the computer will indicate which 
+ company it is in the process of resupplying.
+
+ 2. Unit Strength- The report will show the number of personnel and vehicles.
+
+ 3. Supply Condition- The amount of fuel and amount of each type of ammunition
+ are represented as numbers from 0 to 9.
+
+ 4. Troop Condition- In the lower left-hand corner of the report you will see  
+ a one-word description of the condition of the troops. The condition is a 
+ composite rating of fatigue and morale.
+
+ Unit Direction- A unit can face in one of 8 different directions. If the platoon is moving, it will face in the direction of movement. If stationary, the unit will face in the direction of its target. Certain units will have a lower chance of seeing an enemy unit approaching from the flanks or rear. To change a unit direction, the unit must be stationary. You can then either issue an order for indirect fire, which will force the unit to face the direction of the enemy; or issue an order for as normal fire target, which will force the unit to face in the direction of the cursor position.
+
+Issuing Orders
+Orders are passed on to your subordinates via the message Center every 15 seconds. When the Message Center is in the process of sending a message, an "M" appears in the bottom right-hand corner of the text area of the screen. Because all orders go through the Message Center , there is a slight delay between the time an order is issued and the time it is carried out, the computer will not recognize the key press corresponding to the order. To issue an order, you must press the key of the unit that is to receive the order; then press the key that corresponds to the order you are giving. The orders are:
+
+  Key       Description of Order                    Available to              
+  G         Go to position marked by the cursor       All units except FSO
+  N         Provide normal fire                       All units except FSO
+  H         Hold your fire                            All units
+  F         Request supressive fire                   All units
+  S         Provide smoke screen at cursor position   All units
+  T         Priority target                           All units except FSO
+  B         Build bridge at cursor location           Engineer Platoon
+  R         Remove bridge at cursor location          Engineer platoon
+  D         Dig in your troops                        All units except FSO
+  A         Assuming command of your company          Company Commander
+  C         Returning command of your company         Company Commander
+  P         Priority unit for resupply                All units except FSO
+  +         Mount your infantry                       Carrier Platoon
+  -         Dismount your infantry                    Carrier Platoon
+
+STRATEGY___________________________________________________________________________
+
+The objective of Battalion Commander is to make the decisions that will enable your forces to work together in an effort to destroy the enemy units. In order to do this, you must fully understand the structure of your forces and their capabilities.
+
+Organization of Forces
+Army forces are organized into units. The basic unit of Battalion Commander is
+the platoon. A platton will usually contain 20 to 40 soldiers.  A platoon is
+commanded by a lieutenant. A company, which contains a group of platoons, is
+commanded by a captain. And a battalion which is made up of 3 or 4 companies,
+is commanded by a lieutenant colonel. Each unit has a particular function:
+
+  Rifle Platoon is the basic fighting force.
+  Tank Platoon acts as a fast striking force.
+  Antitank Platoon protects other units from tanks.
+  Supply Train provides fuel and ammunition to other units.
+  Scout Platoon obtains information on enemy forces and acts as a screen between the 
+  enemy and the main body of forces.
+  Engineer Platoon constructs fieldworks to facilitate or restrict the movement of 
+  forces.
+  Machine Gun Platoon provides extra firepower to key areas of the battlefield.
+  Motorized Rifle Platoon is the same as the rifle Platoon except that it is more 
+  mobile since it is transported by infantry carriers.
+  Mortar Platoon provides indirect fire at long ranges.
+  Headquarters Platoon directs the actions of the other units.
+
+Combat Power
+The main components of modern ground combat are infantry and armor. Each has
+certain capabilities and limitations:
+
+Infantry
+
+Capabilities:
+ - Protect tanks and antitank guided missiles (ATGM) from dismounted infantry and 
+   antitank (AT) gunners.
+ - Able to move mounted troops as rapidly as tanks.
+ - Can negotiate water barriers with relative ease.
+ - effective use of machine guns and small arms.
+ - Kill tanks and other armored vehicles with medium AT guns out to 1000 meters (10 
+   characters on the screen) and light AT guns out to 200 meters.
+ - Dismount to: 
+   * Clear enemy infantry out of close terrain.
+   * Dig in and hold ground against infantry assaults.
+   * provide security_outposts and patrols.
+   * lay mines.
+
+Limitations:
+ - Armored personnel carriers (APC) have thin armor and are easier to disable than 
+   tanks. A portion of mounted infantry become casualties when the APC they are 
+   riding in is destroyed.
+ - When dismounted, infantry is vulnerable to tanks, small arms, and artillery and 
+   mortar fire.
+
+Tanks (& Assault Guns)
+
+Capabilities:
+ - Major advantages are mobility, armor protection, and firepower.
+ - One of the few units which have the ability to kill tanks and enemy troops out to 
+   a range of about 2500 meters.
+ - Invulnerable to artillery and small arms enables these units to penetrate enemy 
+   forces.
+
+Limitations:
+ - Units are vulnerable to ATGM, AT guns, tanks, and mines.
+ - Difficulty in identifying infantry and AT gunners is close terrain (woods & 
+   cities) slows progress in tight terrain.
+
+ - Units are unable to cross water barriers, except over bridges. This applies to 
+   American M60A1 and Chinese Type 59 tanks only. Amphibious Soviet T-62 tanks are 
+   able to swim across rivers as are the American and Soviet APC's in the game.
+
+Weapons
+Each platoon possesses a certain number of rifles and may also have one or two
+heavy weapons. The weapons available are:
+
+Rifles - These have a maximum range of about 1000 meters, and a maximum
+effective range of 200-300 meters.
+
+Light Machine Guns - These weapons have an effective range of about 1000
+meters and a high rate of fire.
+
+Heavy Machine Guns - These are part of the armament of APC's and tanks with an
+effective range about 1500 meters. These can disable thin-skinned armored
+vehicles such as APC's.
+
+Light Antitank Weapons - These include rifle-proppelled grenades and
+bazooka-type weapons. They have an effective range of about 200-300 meters,
+but are not particularly effective against tank armor.
+
+Medium Antitank Weapons - The American units are equipped with antitank guided
+Missiles (ATGM) which are more effective the Soviet or Chinese recoiless AT
+guns since they can be guided towards the target after it is fired.
+
+Heavy Antitank Weapons - Only the US and Soviet units have long range weapons.
+This weapon has a range of 3000 meters, but an effective range of about 500
+meters; The US version of this weapon is slightly faster than the soviet.
+
+Mortars - Heavy mortars can cover large areas, but with a slower rate of fire.
+Light mortars cover smaller areas, but can be fired more rapidly. US and
+chinese units have both heavy and light mortars; Soviet units have only heavy
+mortars.
+
+Howitzers - These are a type of heavy artillery used by ground support forces.
+they are long-range (10,000 meters) weapons which provide indirect fire, like
+mortars.
+
+Tank Guns - Tank guns fire high explosive, armor piercing ammunition,
+effective at ranges under 2500 meters.
+
+Grenades - All infantry carrt both hand grenades and rifle-propelled grenades.
+the range varies from 500 & 600 meters for Chinese and US units to 800 meters
+for Soviet units.
+
+Mines - Combinations of antipersonnel and antiarmor mines may be laid by
+either infantry of engineer units. These result in few casualties, but can
+slow down the enemy units and force them into open areas.
+ 
+Vehicles
+There are four types of vehicles in Battalion Commander. Only one type of
+vehicle in each unit. 
+
+Trucks - Trucks lack the protection of armor. for that reason they can be
+destroyed by small arms fire. Trucks do not move very well off the road and
+must cross water at bridges.
+
+APC's - The US and Soviet armies are the only ones that have armored personnel
+carriers as a part of the battalion organization. the chinese have a shortage
+of carriers, and the infantry carriers are assigned to the regimental
+headquarters, which can assign them to battalions as circumstances dictate.
+The soviet version is more heavily armed than its American counterpart, but
+both have thin armor and are vulnerable to heavy machine gun fire.
+
+Assault Guns - Only the Chinese have assault guns in this game. The main
+difference between assault guns and tanks is that the tanks have aturret which
+can revolve to face in any direction. Assault guns are vulnerable to rear and
+flank attacks.
+
+Tanks - The Soviet tank is the only amphibious one in the game. The Chinese
+tank is substantially inferior to both the Soviet and US tanks in terms of
+firepower and armor.
+
+Basic Tactical Doctrine
+The following are some of the concepts on combat doctrine generally held by
+all modern military powers.
+
+Offense and Defense
+The primary theory of war is that decisive results are achieved only through
+offensive action. The best defense cannot bring victory - it can only postpone
+defeat. Defense is considered a necessary form of combat used only to gain
+time to develope the capability to commence offensive action. When
+circumstances and enemy actions force a commander to assume a defensive
+posture, he must assume the initative and resume offensive actions at the
+earliest possible time.
+
+Surprise Attack
+To maintain the initiative, commanders must seize every opportunity to strike
+the enemy when and where he is not prepared for battle. Surprise is sought at
+all times to paralyze the enemy's will to resist and deprive him of the
+ability to react effectively.
+
+Suppression and Obscuration
+Suppression refers to directing heavy fire against an enemy force for the
+purpose of temporarily removing the unit's ability to fire at friendly forces.
+Heavy machinegun fire will not completely destroy an enemy unit, but will
+reduce it's effectiveness. Obscuration refers to the use of cover and
+concealment to allow units to maneuver on the battlefield without being
+subjected to enemy fire. Where no natural cover exists, smoke may be used to
+hide the maneuvering force.
+
+Offensive Maneuvers
+Although the objectives of offensive maneuvers may vary, there are two basic
+maneuvers used by modern ground forces: envelopement and penetration.
+
+1) Envelopement is a maneuver primarily directed against one or both flanks of
+an enemy force in conjunction with assistance from units attacking frontally.
+
+2) Penetration is normally employed only when the enemy does not have an
+assailable flank. This is not as desireable as an envelopement maneuver since
+it uses a frontal assault, which can result in high casualties. Penetration
+can also be used after an envelopement has been initiated. 
+
+TERRAIN SYMBOLS
+
+ a. Mines                                  i. Combat units :
+ b. Rough Area                             (1) Platoon equipped with tanks
+ c. Forest Area                            (2) Platoon with APC's
+ d. River                                  (3) Platoon with trucks
+ e. Road or Contour line                   (4) Platoon without vehicles
+ f. Village                                
+ g. Objective Position                     j. Non-Combat Special Units
+ h. Burning Vehicles                       (Pursuit and explotation Game)
+
+                                          (1) Artillery Battery
+                                          (2) Supply depot
+                                          (3) Higher Headquarters
+
+
+Terrain Characteristics
+Map#   Cities     Rivers    Roads      Woods       Hills         Rough Area
+1        1          0         1       scattered    none           very rough
+2        2          1         1       moderate     none           moderate
+3        0          2         2       moderate     none           moderate
+4        3          0         1       thick        none           smooth
+5        0          0         3       thick        none           smooth
+6        1          2         0       thick        none           smooth
+7        1          1         2       dense        none           smooth
+8        0          2         2       dense        none           moderate
+9        0          0         1       scattered    few            very rough
+10       0          0         0       moderate     few            very rough
+11       0          1         1       scattered    few            very rough
+12       0          0         1       moderate     few            rough
+13       0          0         0       moderate     few            moderate
+14       3          0         1       moderate     few            smooth
+15       0          1         2       thick        few            moderate
+16       0          1         1       moderate     few            smooth
+17       2          1         2       thick        few            smooth
+18       0          0         3       thick        few            rough
+19       0          2         0       thick        few            moderate
+20       0          0         0       thick        few            moderate
+21       0          0         1       thick        few            smooth
+22       1          1         3       dense        few            rough
+23       0          0         3       dense        few            moderate
+24       1          1         1       dense        few            smooth
+25       0          2         1       dense        few            smooth
+26       0          0         1       scattered    few            very rough
+27       0          1         0       moderate     hilly          rough
+28       1          2         1       moderate     hilly          moderate
+29       3          1         3       moderate     few            smooth
+30       2          2         2       moderate     few            smooth
+31       0          0         0       thick        hilly          smooth
+32       0          2         1       thick        few            moderate
+33       1          2         2       thick        hilly          smooth
+34       0          0         1       dense        hilly          smooth
+35       0          2         1       dense        hilly          smooth
+36       1          1         1       dense        hilly          smooth
+37       0          0         0       thick        mountainous    smooth
+38       0          1         1       moderate     mountainous    smooth
+39       1          2         1       moderate     mountainous    moderate
+40       2          1         2       moderate     mountainous    moderate
+
+
+
+WEAPONS & VEHICLE DATA
+
+Unit title       #of rifles   #1 Hvy Wpn Type  notes  #2 Hvy Wpn Type    notes
+US Units:
+Battalion HQ        31          5 Heavy MGs             5  Lt AT Guns       S
+Supply Platton      22          5 Light MGs     
+Engineer Platoon    18
+AntiTank Platoon    24         12 Heavy MGs    V       12  Heavy AT Guns    V
+Scout Platoon(car.) 11          5 Heavy MGs    V        4  Heavy At Guns    V
+Scout platoon(Inf.) 24          2 Light MGs             4  Light AT Guns    S
+Hvy Mortar Platoon  27          4 Hvy Mortar   V,S      4  Heavy MGs        V
+Tank Company HQ     14          4 Heavy MGs    V        2  Tank Guns        V,S
+Tank Platoon        20         10 Heavy MGs    V        5  Tank Guns        V,S
+Mech Inf Co HQ (MI) 39          3 Light Mortar V,S      5  Heavy MGs        V
+MI Carrier Section  12          5 Heavy MGs    V        1  Heavy MG         V
+MI Infantry Section 30          7 Lt AT Guns   S        3  Med. AT Guns
+Rifle Company HQ    13          3 Light MGs
+Rifle Platoon       38          7 Lt AT Guns   S        3  Med. AT Guns
+Mortar Sec,HW Plt   20          3 Lt Mortars            1  Light MG
+Antitank Sec,HW Plt 10          2 Hvy AT Guns           1  Light MG
+
+Soviet Units 
+Battalion HQ        30          5 Light MGs             1  Light AT gun     S
+Supply Platoon      15          3 Light MGs
+Engineer Platoon    16
+Mortar Platoon      36          6 Hvy Mortars  S        3  Med. AT Guns
+Tank Company HQ      3          2 Heavy MGs    V        1  Tank Gun         V,S
+Tank Platoon        12          8 Heavy MGs    V        4  Tank Gun         V,S
+Mot Rifle Co. HQ     6          1 Heavy MG     V        1  Hvy AT Gun       V
+MR Carrier Section   4          3 Heavy MGs    V        3  Hvy AT Gun       V
+MR Infantry Section 20          6 Lt MGs       V        3  Lt. AT Gun       S
+
+Chinese Units
+Battalion HQ        25
+Supply Platoon      12
+Engineer Platoon    16
+Scout Platoon(car.) 11
+Scout Platoon(inf.) 22          2 Heavy MGs
+Tank Company HQ      3          1 Heavy MGs   V         1  Tank Gun         V,S
+Tank Platoon         7          6 Heavy MGs   V         3  Tank Guns        V,S
+Assault Gun Co. HQ   3          1 Heavy MGs   V         1  Tank Gun         V,S
+Assault Gun Platoon  7          3 Heavy MGs   V         3  Tank Guns        V,S
+Rifle Company HQ    16
+Rifle Platoon       33          3 Lt AT Guns  S         3  Light MGs
+Lt Mortar Platoon   11          1 Lt Mortar   S         3  Lt AT Guns       S
+Hvy MG Platoon      21          6 Heavy MGs
+Lt MG Platoon       16          3 Light MGs
+Hvy Mortar Platoon  27          3 Hvy Mortars S
+Antitank Platoon    27          3 Med AT Guns           3  Lt AT Guns       S
+
+Notes: V = vehicle mounted weapon; S = Weapon can fire smoke ammunition.
+

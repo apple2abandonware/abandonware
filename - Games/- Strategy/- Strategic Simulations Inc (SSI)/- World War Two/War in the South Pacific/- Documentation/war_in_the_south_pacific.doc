@@ -1,0 +1,1183 @@
+1.0 INTRODUCTION
+
+WAR IN THE SOUTH PACIFIC (WITSP) is a strategy game covering naval, air and
+land combat in the South Pacific from May 1942 to early March 1943.
+
+1.1 Description of Action
+Combat and movement are resolved simultaneously during the real time 'Action
+Phase'. The players may halt the action at the end of each hour to check the
+status of their forces and issue new orders. All actions are resolved in 1
+hour pulses.
+
+1.2 Talking to the Computer
+To enter a response to the computer that consists of a number, type the number
+into the computer and press the <RETURN> key. To select a routine from a menu
+or answer a Yes/No question, just press the desired key. Where the exit
+command is not specified, press <Q> to quit the menu.
+
+1.3 Saving a Game
+At the end of each Orders Phase the computer will allow the players to save
+the game in progress. You will need a scratch disk to store the save game
+data. Save game disks may be initialized for SSI use during a game by
+following instructions included in the game program. Each save game disk will
+hold 4-6 games. Once a game is saved, you will be able to restart it at the
+point you left off. WHEN RESTARTING A SAVED GAME, YOU MAY ADJUST THE NUMBER OF
+PLAYERS, HANDICAP LEVEL AND DELAY LENGTH ON THE OPENING MENU.
+
+1.4 128K Version (Apple Only)
+At the beginning of each game, you will be asked if you have a Saturn RAM card
+or compatible. If you answer YES, the computer will take advantage of the
+extra memory and minimize the amount of disk access. We advise users of
+"speed-up" cards to answer NO to the question, as simultaneous use of both a
+speed-up card and a 128 K card will cause serious errors to occur during game
+play.
+
+1.5 Starting the Game (Apple)
+To begin the game, boot side one and the game will begin automatically. If you
+are using an Apple II with Pascal you must first use your BASICS disk. If you
+are using an Apple III you must first go into Apple II emulation mode.
+
+1.6 Starting the Game (Commodore)
+To begin the game, insert the game disk into your disk drive. Type LOAD "*",8
+and press <RETURN>. When READY appears, type RUN and press <RETURN>.
+
+2.0 GENERAL DESCRIPTION
+
+2.1 Parts Inventory:
+A. Game box
+B. Rules manual
+C. Game disk
+D. one player aid card
+
+2.2 The Map
+The game map displays the South Pacific areas from Truk in the north to
+Brisbane in the south and from Port Moresby in the west to Fiji in the east. A
+48 x 40 square grid is used to control movement. Each square is 50 nautical
+miles across.
+
+Terrain features on the map include blue areas representing ocean, black areas
+representing land, black areas with white dots representing land with roads,
+American Flag symbols representing Allied bases, armies or task forces, and
+Japanese Flag symbols representing Japanese bases, armies or task forces.
+
+2.3 Abbreviations Ship Types:
+BB battleship
+CV aircraft carrier
+CVL light aircraft carrier
+CVE escort aircraft carrier
+CS seaplane carrier
+CA heavy cruiser
+CLA anti-aircraft cruiser
+CL light cruiser
+DD destroyer
+SS submarine
+APD destroyer transport
+DMS destroyer minesweeper
+AP transport
+APA attack transport
+AKA attack cargo transport
+AO oiler
+AV seaplane tender
+ML minelayer 
+
+Ship Status Display:
+SD system damage
+FD fire/flooding damage
+FU fuel remaining
+SA supplies carried or ammo 
+INF infantry companies carried
+
+Ship Data Display:
+FP float plane
+AC aircraft
+CAP capacity
+TR transport
+
+Air Group Display:
+EX experience rating
+MO morale rating
+U  number of unserviceable aircraft
+F  number of aircraft fueling/in hangar
+R  number of aircraft ready for launch
+A  number of aircraft in the air (not landing)
+L  number of aircraft landing
+M  air group's current mission number
+
+Aircraft Types:
+F   fighter
+MB	medium bomber
+HB	heavy bomber
+VF	carrier fighter
+VB	carrier dive bomber
+VT	carrier torpedo bomber
+
+2.4 Aircraft Data
+        C   B   M   D   R   T
+P40     8   1   35  20  4   F
+P39    13   1   31  27  4   F
+P38    12   1   36  25  9   F
+B17     9  12    0  45 25   HB
+B25     4   7   10  29 15   MB
+B26     4   6   12  29 12   MB
+F2A		8	1	30	19	4	VF
+F4F    12   1   35  20  4   VF
+SBD		4	2	28	22	6	VB
+TBD		2	2	11	18	S	VT
+TBF		4	4	21	23	9	VT
+A5M		2	1	32	 7	4	VF
+A6M     8   1   38   7 6/12 VF
+D3A     2   2   33  15  8   VB
+B5N     2   3   26  14 10   VT
+G4M     3   4   16  16 30   MB
+G3M     2   4   17  16 20   MB
+
+(C)annon rating (B)omb load (M)anuever rating
+(D)urability rating (R)ange rating (carrier/land) (T)ype of aircraft
+
+The range ratings listed previously may be modified for certain types of air
+missions:
+
+STRIKE - HE BOMB X 2/3
+STRIKE - AP BOMB X 2/3
+STRIKE - TORPEDO X 1/2
+TRANSFER         X 4
+
+3.0 STARTING THE GAME
+
+3.1 Determining Conditions of Play
+At the start of the game the player(s) must determine the conditions under
+which the game will be played. On the Apple version the conditions may be
+changed by entering the following numbers:
+
+(1) NEW GAME / SAVED GAME
+(2) 1 DISK DRIVE / 2 DISK DRIVES
+(3) SOLITAIRE / TWO PLAYERS
+(4) HANDICAP LEVEL
+(5) DELAY LENGTH
+(6) SELECT SCENARIO
+(7) SOUND ON/OFF
+
+On the COMMODORE 64 version:
+
+(1) NEW GAME / SAVED GAME
+(2) SOLITAIRE / TWO PLAYERS
+(3) HANDICAP LEVEL
+(4) DELAY LENGTH
+(5) SELECT SCENARIO
+(6) SOUND ON/OFF
+
+3.2 Player Determination
+WITSP may be played by zero, one or two players as determined by the option
+selected on the opening menu. For example, if you wish to watch
+computer-controlled American forces play against computer-controlled Japanese
+forces, you should select BOTH COMPUTER.
+
+3.3 Handicap Level
+At the start of the game the players must determine the handicap level (1-5).
+The effects of handicap level are such that LEVEL 1 would significantly favor
+the JAPANESE player and LEVEL 5 would significantly favor the AMERICAN player.
+LEVEL 3 is the historical level.
+
+Handicap level will affect the ability to damage or sink enemy naval forces,
+the starting experience for replacement pilots and the availability of naval
+and army reinforcements.
+
+3.4 Delay Length
+The delay length affects the messages displayed during the Action Phase. The
+greater the delay length, the longer these messages will remain displayed. A
+delay length of 1 will speed up the game but will cause these messages to be
+difficult to read. A delay length of 9 will slow the game considerably but
+will allow the player(s) maximum time to study the various combat or sighting
+reports.
+
+3.5 Selecting a Scenario
+The players may select from three different time periods in which to start the
+game:
+
+PHASE I (1 MAY 1942)
+PHASE II (8 AUG 1942)
+PHASE III (17 OCT 1942)
+
+It is strongly suggested that beginning players start with a Phase III game.
+
+3.6 Game Length
+The player(s) may determine the length of the game by pressing a key (1-8)
+representing the number of weeks the game will last, or pressing the <C> key
+to play the campaign game. Campaign games will end during the first week in
+March 1943 as follows:
+
+PHASE I (5 MARCH 1943) 
+PHASE II & III (6 MARCH 1943)
+
+3.7 Start of Game Play
+Game play will begin with 1 hour pulse mode and the action phase executing. We recommend that players first change the pulse length to 8 (see 21.1) and then enter the orders phase (see 4.0).
+
+4.0 ORDERS PHASE
+During the Action Phase, movement and combat are resolved during 1, 4, or 8 hour pulses (see 21.1). Players may exit the Action Phase and enter the Orders Phase by pressing the 'O' key. Upon completion of the current 'pulse' the computer will enter the Orders Phase.
+
+4.1 Orders Menu
+During the Orders Phase the player(s) may access the following routines to check the status of and give orders to their forces:
+(T)ASK FORCE ORDERS
+(V) CARRIER ORDERS
+(A)IRFIELD ORDERS
+(P)ORT ORDERS
+(I) ARMY ORDERS
+(C)OMMITM ENTS
+(W) TIME
+(S)UNK SHIPS
+(E)ND GAME
+(N) SOUND
+(Q)U1T
+
+5.0 TASK FORCE ORDERS
+Each player is allowed to have a maximum of 20 TFs in operation at the same
+time. The computer will list the ID numbers of your active TFs. Enter the
+number of the desired TF and press <RETURN>. The cursor will move to the
+location of the selected TF and the following data will be displayed in the
+text window:
+
+ID number for the current TF
+the number of SHIPS in the TF
+the MISSION number
+the assigned SPEED
+
+Also displayed in the text window will be a menu listing the subroutines the
+player may use to check status and change orders for the current TF:
+
+(E)XAMINE
+(M)ISSION
+(D)IVIDE
+(C)OMBINE
+(V) MOVE
+(S)PEED
+(P)ORT
+(L)OAD
+(F)IND
+(N)EXT
+(Q)UIT
+
+5.1 Examine Ships Display
+The players may examine the status of each ship in the current TF by using the
+(E)XAMINE subroutine. First all ships in the TF will be displayed in the
+following format: ship type / ship name
+
+SD:(system damage)
+FD:(fire/flood damage)
+FU:(fuel)
+SA:(supplies or ammo)
+INF:(infantry companies)
+
+The two types of damage are reflected as a percentage. System damage
+represents the semipermanent destruction of the ship's propulsion, combat and
+damage control systems. Fire/flooding damage has the same effect as system
+damage but may be repaired while a ship is at sea. If either type of damage
+exceeds 99%, the ship will sink.
+
+The number in the FU field represents the units of fuel remaining on the ship.
+Ships in a moving TF spend fuel at a rate determined by the speed of the TF
+(TS) compared to the maximum speed of the ship (MS).
+
+TS/MS			FUEL USED PER DAY
+0.50 or less 		1
+0.51 - 0.75 		3
+0.76 or more 		6
+
+Ships with less than 2 fuel points may not exceed 1/3 of their maximum speed.
+
+The number displayed in the SA field may represent either supplies or ammo.
+
+The number either represents the number of supply units on board the ship, or
+the number of rounds of gun ammo remaining on the ship (0-10). If the ship has
+torpedoes then 100 will be added for each salvo of torpedoes remaining.
+EXAMPLE: SA:209 indicates 2 salvoes of torpedoes and 9 rounds of gun ammo on
+the ship. For submarines the SA field will show only the number of torpedoes
+remaining.
+
+The number displayed in the INF field reflects the number of infantry
+companies (100 men) being transported by the ship.
+
+Each ship in the TF may be viewed in greater detail by pressing the (N)EXT
+key. Information will be displayed on each ship's main guns, flak guns,
+torpedo tubes, maximum speed, armor, flotation, float plane or transport
+capacity (float plane capacity may be used to carry infantry and supplies),
+current system and fire/flood damage, fuel, ammo/ supplies on board, and
+infantry on board.
+
+The player may exit the Ship Display at any time by pressing the (Q)UIT key.
+
+5.2 Selecting TF Missions
+The (M)ISSION routine may be used to assign one of the following missions:
+1. PATROL
+2. CV
+3. BOMBARDMENT
+4. MOVE
+5. REFUEL
+6. UNLOAD - AMPHIB
+7. UNLOAD - DOCK
+8. REPLENISH - DOCK
+9. DOCK
+0. SUBMARINE*
+* '0' missions are automatically assigned to TFs with submarines. TFs without subs may never assume a '0' mission.
+
+5.2.1 Patrol Missions
+The assigned TF may move and initiate surface combat.
+
+5.2.2 CV Missions
+The assigned TF may move.
+
+5.2.3 Bombardment Missions
+The assigned TF may move and bombard enemy bases or armies in the destination
+square.
+
+5.2.4 Move Missions
+The assigned TF may move. The computer will return to the Orders Phase when
+the TF reaches its destination square.
+
+5.2.5 Refuel Missions
+The assigned TF will attempt to refuel at sea. AO, CV, CVL, CVE, BB, CA, CL,
+CLA and CS type ships with 30 or more fuel will transfer up to 5 fuel units
+per hour to ships in the same TF that are low on fuel.
+
+TF speed may not exceed 1/3 that of the slowest ship when assigned a REFUEL
+mission. A TF will automatically assume a REFUEL mission if any of its ships
+has less than 2 fuel points. When the fueling process is comleted the TF will
+assume a MOVE mission.
+
+5.2.6 Unload - Amphib Missions
+The assigned TF's ships will transfer their infantry and supply units into
+ARMY units on the same square. If no ARMY unit exists in the square then a new
+army will be formed.
+
+5.2.7 Unload - Dock Missions
+The assigned TF's ships will transfer their infantry and supply units into
+PORT units on the same square.
+
+5.2.8 Replenish - Dock Missions
+The assigned TF's ships will reload to their full allowance of fuel and ammo. The TF must be in an operational PORT with a capacity of at least 50 and at least 50 supply points.
+
+5.2.9 Dock Missions
+The assigned TF will be eligible to LOAD infantry and/or supplies.
+
+5.2.10 Submarine Missions
+Submarine TFs may move and attack enemy TFs in the same square. Submarine TFs
+will automatically attempt to REPLENISH if they are in the same square with an
+operational PORT with a capacity of at least 50.
+
+5.3 Dividing TFs
+The current TF may be split into 2 TFs by using the (D)IVIDE routine. Each
+ship in the current TF will be displayed in the text window. Press the (T) key
+to transfer the displayed ship to the new TF. The (N) key will allow you to
+skip the displayed ship without transferring it. The (D)ATA key will allow you
+to examine the ship's characteristics before making the transfer decision. The
+(Q) key will return the program to the TF Orders Menu.
+
+When transferring badly damaged ships, the computer will give the option of
+'scuttling' the ship. Your opponent will receive only 90% points for ships
+scuttled.
+
+5.4 Combining TFs
+The (C)OMBINE routine may be used to merge the current TF with another friendly TF in the same square. This routine may not be used to combine TFs whose total ships would exceed 20. Submarine TFs may not combine with other TFs (including other sub TFs).
+
+5.5 Assigning TF Movement Orders
+The (V)MOVE routine may be used to instruct the current TF to move. The TF Move routine will display the following menu:
+(1-8) MOVE CURSOR
+(S)ELECT DESTINATION
+(C)URRENT DESTINATION
+(F)IND
+(T)ERRAIN
+(X) STOP
+(Q)UIT
+The 1-8 keys may be used to move the cursor to the desired 'destination'
+square. The (S) key may be used to set the cursor location as the move
+destination for the current TF. The (X) key may be used to stop a task force
+from leaving its current location and erase its previously selected
+destination. If the TF has received prior movement orders then the (C) key
+will cause the cursor to move to the previously assigned destination. If the
+(F) key is pressed then the cursor will return to the current TF's location.
+The (T) key may be used to temporarily erase all TFs, bases and armies from
+the screen so all of the terrain may be viewed. The (Q) key will return you to
+the TF Orders menu.
+
+When executing move orders, the TF will move in a straight line from its
+original location to its assigned destination. The computer will not allow
+move orders that would cause a TF to move through land.
+
+EXAMPLE: A TF moving at 25 knots will take 2 hours to move 1 square (3 hours
+if moving diagonally).
+
+5.6 Setting TF Speed
+The (S)PEED routine may be used to assign the speed at which the current TF
+will move. The player may select a number from 0 to the TF's maximum speed.
+The TF's maximum speed is equal to the 'adjusted' speed of the slowest ship in
+the TF. To determine a ship's adjusted speed, the ship's maximum speed is
+reduced by its combined damage percentage divided by two.
+
+EXAMPLE: A ship with 20 max speed, 10% system damage and 30% fire/flood damage
+will have an adjusted speed of 16 (20 - (20 x 40% / 2)).
+
+A TF's speed will be set to zero if assigned a mission # greater than 5.
+
+5.7 Returning Ships to Port
+The (P)ORT routine may be used to deactivate the current TF and return its
+ships to the port on the same square. Ships in a port may have system damage
+repaired.
+
+If the port is FIJI for the American player or TRUK for the Japanese player,
+then some of the ships may be returned to Pearl Harbor/Japan instead of the
+port. AP, APA and AKA type ships that are not loaded with infantry or supplies
+may be returned to Pearl/Japan. Ships with greater than 5% damage may be
+returned to Pearl/Japan.
+
+The number of weeks needed to repair a ship return to Pearl/Japan is equal to
+2 + (SYSTEM DAMAGE / 3). Due to American efficiency, there is a 50% chance
+that an American ship's damage will be halved before calculating the repair
+time.
+
+5.8 Loading Infantry and Supplies onto Ships
+The (L)OAD routine may be used to load infantry and/or supplies into ships
+assigned to the current TF. The TF must be assigned a DOCK mission (9).
+
+Before beginning the loading procedure, the player must answer the LOAD
+INFANTRY ONLY Y/N question. If the player answers YES then the current TF will
+be unable to move for only 2 hours by the loading process. If the player
+answers NO then the TF will be unable to move for 16 hours due to the loading
+process.
+
+The computer will display each ship in the TF that is eligible to transport
+infantry or supplies along with the infantry and supplies remaining in the
+port. For each displayed ship the player must answer the questions LOAD HOW
+MUCH INFANTRY and LOAD HOW MANY SUPPLIES. If you wish to load nothing then
+just press <RETURN>.
+
+A ship may not exceed its transport capacity when loading. Each infantry
+company uses 1 transport point and each supply unit uses 5 transport points.
+Thus a ship with 20 transport capacity could load 20 infantry companies or 4
+supply units or 10 infantry and 2 supplies, etc. Japanese CS and AV ships have
+a transport capacity equal to their float plane capacity (this is in addition
+to their float plane capacity, as float planes are always considered to be on
+board).
+
+5.9 Map Display Menu
+The player may exit the TF Orders Menu and enter the Map Display Menu by
+pressing the (Q) key. The Map Display Menu contains the following options:
+
+(1-8) MOVE CURSOR
+(W)EATHER
+(T)ERRAIN
+(G)ET
+(Q)UIT
+
+The 1-8 keys are used to move the cursor around the map. The (W) key will
+inverse all areas on the screen that are covered by a weather front. The (T)
+key will erase all units from the screen and display only 'terrain'. If the
+cursor is moved onto a square that contains a friendly TF and the (G) key is
+pressed then that TF will become the new 'current' TF and the computer will
+return to the TF Orders Menu. If the (Q) key is pressed then the computer will
+return to the Main Orders Menu.
+
+5.10 The Next TF
+When orders for the current TF are completed, the player can access the 'next' active TF by using the (N)EXT routine. If there are no other active TFs then the computer will return to the Main Orders Menu.
+
+6.0 CARRIER & AIRFIELD ORDERS
+In the Carrier Orders routine the computer will automatically start with the first carrier in the lowest numbered TF. In the Airfield Orders routine the computer will list the numbers of the active airfields and the player(s) may select from the list. Carriers in port but not in a task force are accessed through the airfield orders option and the next key.
+The following data will be listed at the top of the Carrier Orders menu:
+ship type / ship name
+AC:       the number of aircraft assigned to the carrier
+CAP:      maximum aircraft allowed on board / operations allowed per hour*
+DAMAGE:   system damage / fire & flood damage to the carrier
+
+* refers to the number of take-offs and landings.
+
+The following data will be displayed at the top of the Airfield Orders menu:
+base ID number
+AC:       the number of aircraft assigned to the base
+CAP:      maximum aircraft allowed / operations allowed per hour
+DAMAGE:   damage percentage for the airbase
+
+Also displayed in the text window will be a menu listing the subroutines the player may
+use to check status and change orders for the current CV/airfield:
+(E)XAMINE
+(G)ROUP
+(N)EXT
+(Q)UIT
+
+6.1 Examining the Assigned Air Groups
+The (E)XAMINE routine may be used to view a full-screen display listing all of the air groups assigned to the current CV/airfield. The following will be listed for each air group:
+group ID number type of aircraft unserviceable aircraft (U) fueling aircraft (F)
+ready aircraft (R) aircraft in the air (A) aircraft landing (L) group mission number (M)
+
+6.2 Air Group Orders
+The (G)ROUP routine may be used to give orders to air groups assigned to the current CV/airfield. The lowest numbered group will be displayed as in 6.1 with two additional data elements:
+EX: group experience rating
+MO: group morale rating
+
+Also displayed in the text window will be a menu listing routines the player may use to change orders or alter the composition of the group:
+(C)OMBINE
+(D)IVIDE
+(E)XCHANGE
+(A)SSIGN
+(R)EINFORCE
+(T)ARGET
+(N)EXT
+(Q)UIT
+
+6.2.1 Combining Air Groups
+The (C)OMBINE routine may be used to combine the aircraft from the current group with those of another group assigned to the same base with the same type of aircraft. To combine, the player must select another group that is assigned a REST mission (0). If the current group is assigned a TRANSFER mission then it may not combine with another group.
+The aircraft totals for the two groups will be added together and the experience and morale ratings will be adjusted according to a weighted average.
+
+6.2.2 Dividing Air Groups
+The (D)IVIDE routine may be used to remove aircraft from the current group and use them to form a 'new' group. Only aircraft in FUELING and READY status may be transferred to the new group. The Experience and Morale of the new group will be the same as the current group.
+
+6.2.3 Exchanging Aircraft
+The (E)XCHANGE routine may be used to change the type of aircraft used by the current group.
+The computer will list the aircraft available in the REPLACEMENT POOL. To perform an exchange, the quantity of the 'new' aircraft in the pool must be greater than or equal to the total aircraft in the group. Following an exchange, all of the new aircraft will be in unserviceable condition.
+Following an exchange, the experience rating of the group will be reduced. The reduction will be 20% when exchanging for the same 'class' (type) of aircraft and 50% when exchanging for a different class of aircraft.
+
+6.2.4 Assigning Air Group Missions
+The (A)SSIGN routine may be used to change the current group's mission. The player may select from the following missions:
+0. REST
+1. CAP
+2. LR-CAP
+3. STRIKE-ESCORT
+4. STRIKE-HE BOMB
+5. STRIKE-AP BOMB
+6. STRIKE-TORPEDO
+7. TRANSFER
+8. RETURN
+9. SEARCH
+
+If a group currently has some of its aircraft in the air or landing then that group may only have a RETURN mission assigned.
+REST: Groups assigned Rest missions will have all serviceable aircraft placed in 'fueling' status. Resting groups with MORALE ratings lower than their EXPERIENCE will gain 2 morale points per hour between the hours of 500 and 1900. All groups, regardless of their assigned mission, will gain morale points for resting overnight (NEW MORALE = (EXPERIENCE + MORALE) /  2).
+
+CAP (Combat Air Patrol): Groups assigned CAP missions will attempt to protect their home base/TF (and any friendly base, TF or army in the same square) by attackirig incoming enemy bombers. Groups on CAP will attempt to maintain between 25% and 50% of their aircraft in the air at all times. If enemy bombers attack the group's base/TF then the aircraft in READY status will attempt to REINFORCE the aircraft already in the air.
+
+LR-CAP (Long Range Combat Air Patrol): Groups assigned to LR-CAP may protect any base, TF or army within their range. The percentage of aircraft that may be maintained on station will vary depending on the aircraft's range rating and the distance that must be flown to the patrol area. LR-CAP groups may not REINFORCE with their READY aircraft when enemy bombers attack.
+
+STRIKE-ESCORT: Groups assigned to strike escort will attempt to protect groups of friendly bombers from enemy CAP/LR-CAP aircraft. Strike escort groups may only protect bomber groups that are based on the same airfield or carrier. Although escorts are assigned to protect only one group of bombers, theywill also protect other friendly bomber groups from the same AF or CV that attack the target on the same turn.
+
+STRIKE-HE BOMB (high explosive): Groups assigned to strike HE bomb will attempt to attack enemy targets with high explosive ordnance. HE bomb missions will be at maximum effectiveness when attacking enemy bases or armies and reduced effectiveness when attacking enemy ships.
+
+STRIKE-AP BOMB (armor piercing): Groups assigned to strike AP bomb will attempt to attack enemy ships with armor-piercing ordnance. AP bombs may not be used against enemy bases or armies. AP bombs hitting enemy ships will cause 2-3 times the damage as HE bombs.
+
+STRIKE-TORPEDO: Groups assigned to strike torpedo missions will attempt to attack enemy ships with torpedoes. Torpedoes may not be used against enemy bases or armies. Torpedoes hitting enemy ships will cause 2-3 times the damage of AP bombs.
+
+TRANSFER: Groups assigned transfer missions may be flown to a new base. A transfer mission is only allowed if the transferring planes do not cause the capacity of the receiving base to be exceeded.
+
+RETURN: Strike groups that complete or abort their mission will assume a RETURN mission status. The player may assign a return mission to any group he wishes to 'recall' from another mission. If a group is assigned a return mission and all its aircraft have landed then it will switch to a rest mission.
+
+SEARCH: Groups assigned to search missions will scout for enemy TFs and subs. A single group may search in only a 90-degree arc. The player must decide from one of eight possible search directions. Search effectiveness is a function of group experience, morale, number of aircraft searching, and weather. Groups assigned to search will continue searching until they are reassigned to another mission. Search groups may have between 25 and 75 percent of their aircraft in the air.
+
+6.2.5 Target Display
+The (T)ARGET routine may be used to examine the current group's assigned target. If the group is performing a strike mission then the target will be an enemy base, TF or army. If the group is performing an LR-CAP mission then the target will be a friendly base, TF or army. If the group is performing a transfer mission then the target will be friendly base or carrier TF. If the group is performing a search mission then the group's assigned search arc will be inversed on the map.
+
+6.2.6 The Next Group
+When orders have been completed for the current group then the (N)EXT routine may be used to find the next higher numbered group assigned to the current airfield/CV. If there are no other groups then the computer will return to the Airfield/Carrier Orders Menu.
+
+6.2.7 Reinforcing Air Groups
+Aircraft in the reinforcment pool may be transferred to land-based air groups or carrier groups if the carrier is in port and not part of a task force. The experience rating of the group may be changed when the experience of the 'new' pilots is averaged in. New pilots have an experience of 50.
+
+6.3 The Next Carrier/Airfield
+If orders have been completed forthe current CV/airfieid then the (N)EXT routine may be used to find the next higher numbered active CV or airfield. If there are none remaining then the computer will return to the Main Orders Menu.
+
+6.4 Map Display Menu
+Similar to the routine described in 5.9, but the (G)ET may only be used to access friendly CV/airfields.
+
+7.0 PORT ORDERS
+The computer will list the ID numbers of your active ports. Enter the number of the desired port and press RETURN. The cursor will move to the location of the selected port and the following data will be displayed:
+ID number for the current port
+the number of SHIPS in the port
+PORT capacity * percentage of current construction completed
+AF (airfield) capacity * percentage of current construction completed
+SUPPLY units at the port
+DAMAGE percentage to the port/airfield
+Also displayed are the following menu options:
+(G)ARRISON
+(T) BUILD TF
+(A) BUILD ARMY
+(E)XPAND
+(N)EXT
+(Q)UIT
+
+7.1 Examine Garrison Display
+The (G)ARRISON routine may be used to examine the status of the infantry garrison protecting the current port. The display will list the INFANTRYCOMPANIES, ENTRENCHMENTS, and DISRUPTION percentage of the garrison. A port can never contain more than 255 infantry companies or 255 supply points.
+
+7.2 Building a New TF
+The (T) BUILD TF routine allows the players to take ships from the current port and place them in a NEW TF. If the player already has 20 active TFs he will not be allowed to create a new TF. The new TF may contain from 1 to 20 ships. At this time the computer will assign a number for the task force. By pressing the N key the player may increase the TF number by one (this may be done several times). NOTE: It is recommended that you give your sub TF's high numbers as this has been found to make game play easier.
+The player must select the type of ship he wishes to add to the TF by pressing the keys 1 -5 :
+(1) CV, CVL, CVE, CS
+(2) BB, CA, CL, CLA
+(3) DD
+(4) SS
+(5) AUX (transports)
+(Q)UIT
+The computer will display each available ship of the selected type. Press the (S)ELECT key to add the current ship to the TF. Press the (N)EXT key to skip past the current ship and display the next ship at the port. Press the (Q)UIT key when you are ready to select a different type of ship or end the TF selection. Subs may never be included in a TF with another type of ship.
+
+7.3 Building New Armies
+The (A) BUILD ARMY routine may be used to form a new army unit from infantry and supply units attached to the current port. The player must input how many infantry companies and how many supply units he wishes to transfer to the new army. An army can never contain more than 255 infantry companies or 255 supply points.
+
+7.4 Expanding Ports and Airfields
+The (E)XPAND routine may be used to expand the capacity of the current port/airfield to a maximum of 200 capacity for each. The expansion project will immediately consume 10 supply units and will take between 50 and 100 days to complete. Upon completion, the port/airfield will have its capacity increased as follows:
+port      +25
+atoll AF  +25
+normal AF +50
+The current port may expand both the port and airfield at the same time for a cost of 20 supply points. Once an expansion project has been started, an '*' will be added next to the port/airfield capacity number on the current port display. The '*' will be removed when the project is completed. Expansion work will be delayed if the port or airfield being worked on has 50% or more damage.
+
+7.5 The Next Port
+When orders for the current port are completed, the player may access the 'next' active port by using the (N)EXT routine. If there are no other active ports then the computer will return to the Main Orders Menu.
+
+7.6 Map Display Menu
+Similar to the routine described in 5.9, but the (G)ET may only be used to access friendly ports.
+
+8.0 ARMY ORDERS
+The computer will list the ID numbers of your active armies. Enter the number of the desired army and press RETURN. The cursor will move to the selected army and the following data will be displayed:
+ID number of the current army
+the number of INFANTRY COMPANIES
+the number of SUPPLY units
+the ENTRENCHMENT level
+the DISRUPTION level
+
+Also displayed are the following menu options:
+(V) MOVE
+(N)EXT
+(M)ERGE
+(Q)UIT
+(A)TTACK
+
+8.1 Army Move Orders
+The (V) MOVE routine may be used to instruct the current army to move. The following menu will be displayed:
+(1 -8) MOVE CURSOR
+(S)ELECT DESTINATION
+(C)URRENT DESTINATION
+(F)IND
+(T)ERRAIN
+(X) STOP
+(Q)UIT
+The 1-8 keys are used to move the cursor to the desired destination square. The (S) key is used to set the cursor location as the move destination. The (X) key is used to stop an army from moving by erasing the army's previously selected destination. If the army has received prior move orders then the (C) key will cause the cursor to move to the previously assigned destination. If the (F) key is pressed then the cursor will return to the current army's location. The (T) key may be used to temporarily erase all units from the screen so all of the terrain may be viewed. The (Q) keywill return you to the Army Orders Menu.
+Armies will move at a rate of 1 square every 120 hours when entering normal land squares and 1 square every 60 hours when entering a road square. Armies may not move across bodies of water.
+
+8.2 Merging Armies Into Bases
+The (M)ERGE routine may be used to add the infantry companies and supply units attached to the current army to the garrison of a friendly port located in the same square. If no port (friendly or enemy) exists in the square and there are presently less than 10 friendly active ports, then a NEW PORT WILL BE CREATED in the square. Following the transfer of infantry and supplies to a port the current army will be removed from play.
+
+8.3 Army Attacks
+The (A)TTACK routine may be used to order the current army to attack an enemy army or base in the same square. The current army must have at least 5 supply units and a disruption level less than 25% to be eligible to attack. Attacks will be resolved immediately (during the orders phase).
+
+8.4 The Next Army
+When orders for the current army are completed, the player may access the 'next' active army by using the (N)EXT routine. If there are no other active armies then the computer will return to the Main Orders Menu.
+
+9.0 COMMITMENTS
+The Commitment routine may be used to 'buy' naval units stationed at Japan or Pearl Harbor. Players must 'spend' COMMITMENT POINTS to move these forces to the South Pacific. Newly committed Japanese ships will be placed in Truk; American ships will be placed in Fiji.
+Listed below are the number of points received by the players each day (at 2400):
+
+             MAY - JUNE 1942     JULY 1942 - END
+AMERICAN          5                    5
+JAPANESE          6                    4
+The number of points received will be adjusted by handicap level.
+
+9.1 The Commitment Displays
+The player must press the 1-5 keys to select the type of unit he wishes to be displayed:
+(1) CV, CVL, CVE, CS
+(2) BB, CA, CL, CLA
+(3) DD
+(4) AUX
+(5) SS
+The computer will list each ship ofthe selected type that is stationed at Japan/Pearl. Also, for each ship the computer will list COST in commitment points and the DELAY in weeks before the ship is available. For each ship that has a '0' delay the computer will stop the listing and allow the player to (S)ELECT the ship, skip to the (N)EXT ship or (Q)UIT the list and view a different type of ship.
+The player may only select ships that have a DELAY of zero and a COST that is less than or equal to the remaining COMMITMENT POINTS.
+
+9.2 Infantry Reinforcements
+When CS, AP, APA or AKA type ships are committed they will arrive in the South Pacific with 5 infantry companies on board. This is the ONLY manner in which infantry reinforcements may be added to the South Pacific. Thus if you need infantry send your transports back to Japan/Pearl and then recommit them when they become available.
+
+9.3 Emergency Supply Airlift
+Airfields with less than 10 supply points will receive one 'airlift' supply point per day at a
+cost of 1 commitment point. Airfields with greater than 49% damage will not airlift supplies.
+
+10.0 VICTORY POINTS
+Victory points are awarded for sinking enemy ships and maintaining operational ports and airfields in the South Pacific. To list the ships that have been sunk, use the (S)UNK SHIPS option on the orders menu.
+
+10.1 Points for Sinking Ships
+Points awarded for enemy ships sunk equals:
+FLOTATION + 2 X ARMOR
+Points awarded for sunk aircraft carriers are calculated differently:
+2 X AIRCRAFT CAPACITY
+For ships sunk by scuttling, only 90% of the normal points will be awarded.
+When starting Phase II scenarios, all ships that were historically lost between May 1 and August 7 will be scored as sunk and VPs will be awarded. When starting Phase III scenarios, all ships lost between May 1 and October 16 will be scored as sunk.
+
+10.2 Operational Airfields
+The Japanese player receives points for operational airfields located south of Y-coordinate 16. The American player receives points for operational airfields located north of Y-coordinate 19 or in rows 19 and 20 if west of X-coordinate 23. To be operational, an airfield must have less than 50% damage and have at least 10 supply units. Points scored for operational airfields will be equal to 2 X AIRFIELD CAPACITY.
+
+10.3 Operational Ports
+Points are awarded for ports in the same geographical areas described in section 10.2. To be operational a port must have less than 50% damage and at least 50 supply units. Points scored for operational ports will be equal to 2 X PORT CAPACITY.
+
+10.4 Japanese Advanced Bases
+The Japanese player will receive double the normal points for operational airfields and ports located south of Y-coordinate 21 .
+
+10.5 Non-Operational Airfields and Ports
+Players receive 1/2 of the points otherwise received for bases that are non-operational at the end of the game, yet fall within the other criteria given in sections 10.2, 10.3 and 10.4.
+
+11.0 LOGISTICS
+
+11.1 Refueling at Sea
+In TFs assigned (5) REFUEL missions, ships with less than 15 fuel points will attempt to take fuel from AO (tanker) type ships with greater than 30 fuel points. Each AO may transfer 5 fuel points to a ship in the same TF every hour.
+If there are no AOs in the refueling TF then one non-AO ship with greater than 30 fuel will attempt to transfer 5 fuel to a ship with less than 6 fuel points. TFs may only move at 1/3 speed when refueling. TFs which contain a ship with less than 2 fuel points will automatically shift their mission to refuel.
+Submarine TFs will always attempt to refuel when in the same square as a friendly operational port with a capacity of at least 50. 
+
+11.2 Unloading Ships - Amphibious
+In TFs assigned a (6)UNLOAD-AMPHIB mission, ships transporting infantry or supplies will attempt to transfer their cargos to an army unit that occupies the same square. If no army unit is in the square and there are currently fewer than 10 friendly active armies, then a new army unit will be created in the square. Infantry will be unloaded before the supply units. A ship may unload 1 infantry company every hour or 1 supply unit every 24 hours. Unloading of supplies will only occur at 800 hours.
+
+11.3 Unloading Ships in Port
+TFs assigned (7)UNLOAD-DOCK missions will attempt to transfer their passengers/cargo to a port that is in the same square. The rate at which a ship may unload is multiplied by the PORT MULTIPLIER (PM) which is calculated: PM = 1 + (PORT CAPACITY / 50)
+(fractions rounded down)
+A ship may unload PM infantry companies per hour or PM supply units every 8 hours. Unloadihg of supplies will only occur at 0800, 1600 and 2400. If the port has damage of greater than 49%, then unloading will occur at the rate for amphibious unloading. If the port capacity is less than 50 then unloading will occur at the rate for amphibious unloading.
+
+11.4 Replenishing Ships in Port
+In TFs assigned (8) REPLENISH-DOCK missions, ships will attempt to load their maximum levels of fuel and ammo. Replenishment may only be performed at a port with less than 50% damage, 50 or more supply units and a port capacity of at least 50.
+Replenishing ships may load PM ammo every hour and PM fuel every hour. Surface ships will reload their torpedoes at the same time that their tenth round of ammo is loaded.
+Submarines replenish when they refuel (see 11.1 ).
+
+11.5 Supply Usage
+Supply units are consumed during land combat and base expansion. Ten supply units are consumed in starting an airfield or port expansion project. In land combat, attacking armies consume 20% of their total supply units and defending armies/bases consume 10% of their supply units. Supplies are heavy equipment and are not therefore required to sustain the existence of a land force.
+
+11.6 Ship Fuel Usage
+Ships in a moving TF spend fuel at a rate determined by the speed of the TF (TS) compared to the maxirnum speed of the ship (MS). 
+
+TS/MS           FUEL USED PER DAY
+0.50 or less            1
+0.51 - 0.75             3
+0.76 or more            6
+
+Ships with less than 2 fuel points may not exceed 1/3 of their maximum speed.
+
+11.7 Truk/Fiji Resupply
+Each day 10 supply points will be added to the port at Truk and 15 supply points will be added to the port at Fiji. However, the total number of supplies at each base can never exceed 255.
+
+12.0 SEARCHING
+Enemy TFs will remain invisible to the player(s) until they are sighted by friendly search aircraft. There are 3 types of air search: (1) seaplane, (2) float plane, and (3) air group.
+
+12.1 Seaplane Search
+Operational ports have an intrinsic seaplane search capability. The number of seaplanes searching from a port equals: 9 + PORT CAPACITY / 10. Seaplanes search the entire 360 degrees around the port out to a range of 12 squares (600 miles). For seaplane search purposes only, a port needs only 10 supply points (not 50) to be considered operational.
+
+12.2 Float Plane Search
+Japanese CS, AV, BB and CA type ships carry float planes (listed in the FP-CAP field of the ship data display). Float planes search the entire 360 degrees around their TF out to a range of 6 squares (300 miles).
+
+12.3 Air Group Search
+Air groups that are assigned (9) SEARCH missions will search a 90-degree area out to a range equal to their aircraft's range rating. The A6M will always search out to a range of 6.
+
+12.4 Search Calculations
+The percentage chance that a search will sight an enemy TF is calculated:
+SEARCHING AIRCRAFT x (EX + MO) / (400 x (1 + RANGE))
+When air groups are searching, SEARCHING AIRCRAFT will be equal to aircraft with 'in the air' status. Float plane and seaplane crews have EXperience and MOrale ratings of 70. For float plane and seaplane search the SEARCHING AIRCRAFT total is halved due to the 360 search.
+There is a chance that a search will fail due to overcast over the enemy TF: FAILURE% = OVERCAST% / 75.
+The chance for sighting an enemy submarine is 1 /100 that of sighting a TF.
+
+12.5 Sighting Reports
+When a TF is sighted the cursor will move to the TF location and a unit symbol will be added to the map. The symbol will remain on the map for 3-5 hours; this period may be extended if the TF is sighted again. The sighting report may list some or all of the ship types in the TF, and it may report bad information regarding the types of ships in the task force. If a sub is sighted there is a chance that the sighting aircraft will attack the sub.
+
+13.0 AIR GROUP OPERATIONS
+
+13.1 Unserviceable Aircraft
+Unserviceable aircraft are unavailable for operations due to damage or maintenance failure. Aircraft may only be repaired between the hours 400 and 2400. The repair chance equals 2% for each unserviceable aircraft each hour. Repaired aircraft will have their status changed to 'fueling'. If the total aircraft on a carrier exceeds 90% of the carrier's maximum capacity, then unserviceable aircraft will not be repaired.
+
+13.2 Fueling Aircraft
+Aircraft must spend 1 hour in fueling status before changing to 'ready' status. Groups assigned REST missions and groups unable to fly due to base damage or supply shortage will not change their aircraft from fueling to ready status.
+
+13.3 Ready Aircraft
+Aircraft in 'ready' status are available for immediate take-off. An airfield must have at least 10 supplies in order to launch aircraft. Groups assigned STRIKE or TRANSFER missions will launch all of their ready aircraft at one time. Groups assigned CAP, LR-CAP or SEARCH missions will launch a maximum of half of their ready aircraft each hour.
+Groups assigned CAP missions may launch ALL of their ready aircraft when their home TF/base is attacked by bombers (American ready CAP aircraft will always launch, Japanese Ready CAP will launch 50% of the time). Ready CAP aircraft will not be able to launch if their home carrier has exceeded its operation limit during the last hour (see 13.6).
+Groups will be unable to launch their ready aircraft if the OVERCAST% at the home airfield/TF is greater than 74%.
+Carrier-based CAP groups will remain in ready status and not take-off until their TF has been sighted. Land-based CAP groups will remain in ready status until 'radio signals intelligence' determines that enemy raids are taking off.
+Medium bombers (MB) and heavy bombers (HB) may only take off from a base with 100 or more CAPACITY.
+Carrier aircraft may not take off unless their carrier is assigned to an active TF.
+Groups cannot enter ready status during the hours between 1800 and 400. Thus, each morning the planes may be readied at 500 hours for take-off at 600 hours. Groups may not take off after 1700 hours.
+
+13.4 Aircraft in the Air
+Aircraft must be in 'air' status to execute a combat, search or transfer mission. Aircraft performing strike missions will fly toward the target at a speed of 3 squares per hour. Aircraft with return missions will fly toward their base at a speed of 4 squares per hour.
+Groups performing CAP, LR-CAP or SEARCH missions will be forced to land a percentage of their flying aircraft each hour. Search groups must land 50% of their flying aircraft each hour after the group's aircraft have flown out to their max range limit. CAP and LR-CAP groups must land flying aircraft equal to:
+RND(1) + FLYING - FLYING x (MAX RANGE - DISTANCE TO STATION) / (MAX RANGE + M1 )
+
+IF CAP THEN M1 = 1
+IF LR-CAP THEN M1 = 2
+
+Flying air groups may gain experience but lose morale. Each day groups with flying aircraft and less than 70 experience have a chance of gaining 1 experience point equal to MORALE/50. Groups will lose 1 morale point each turn that aircraft are flying (down to a minimum of 20). Air groups in combat may gain experience and may lose morale, based on their performance in the combat.
+
+13.5 Landing Aircraft
+SEARCH, CAP and LR-CAP aircraft that land go directly from 'air' status to 'fueling' status. TRANSFER and returning STRIKE aircraft must spend 1 hour in 'landing' status before going to fueling status.
+Aircraft attempting to land may be damaged or destroyed. The total casualties are calculated using the following formula: CASUALTIES = LANDINGAC x OVERCAST% / 400
+
+Losses are doubled when landing during twilight (1700 hours). Losses are x 4 if landing after dark (1800+ hours). If making carrier landings with EXPERIENCE less than 60, losses will be multiplied by (1 + (60 - EX) / 5) but the group will gain 1 experience point. Twilight will have no effect when using the 4 or 8 hour pulse option (see 21.1). When using the 8-hour pulse mode no landings will be considered to be after dark. When using the 4 hour pulse mode, only landings after 2100 hours (inclusive) will be considered to be after dark.
+Approximately 90% of the landing losses will be damaged and 10% destroyed.
+
+13.6 Aircraft Operation Limits
+Aircraft carriers are restricted in the number of take-offs and landings that may be performed in an hour. The OPERATION LIMIT is listed on the (E)XAMINE CV display (see 6.1).
+Carriers use 1 operation point for each take-off and landing performed during an hour. A carrier will not launch aircraft after it has exceeded its operation limit for the hour. A carrier may launch a strike group (bomber group plus escort group) or a transfer group that will cause it to exceed its operation limit. Carriers may always land aircraft, regardless of the number of operations previously used.
+Carriers that exceed their operation limit will be unable to launch READY CAP when their TF is attacked. Carriers that exceed their operation limit will have it reduced during the next hour by the amount they exceeded it.
+
+13.7 Night Orders Removal
+During 2400, all air groups other than those on missions 1, 2, or 9 will have their mission automatically set to 0.
+
+13.8 Operational Bases
+Only airbases with less than 50% damage and with at least 10 supplies can launch planes. Carriers with 50% or more combined damage may not launch or land aircraft.
+
+13.9 Air Group Activity
+During the action phase, the computer will print the pulse length in inverse during periods in which air group activity is being performed.
+
+13.10 Radar/Early Warning
+All aircraft carriers and airbases have radar or other early warning capabilities. American early warning will always detect incoming air raids, while Japanese early warning will only detect incoming air raids 50% of the time. If an air raid is detected, all CAP in ready mode on the base/carrier will immediately take off, join any planes in their group already in the air, and attempt to engage the enemy raid. Also, if the raid is detected, the base/carrier will attempt to place all readied planes into fueling mode before the enemy attack is executed. If the operations limit of the base/carrier was exceeded during the previous hour, then the readied planes will remain in ready mode.
+
+14.0 WEATHER
+Weather in the game is expressed as OVERCAST percentage. Weather affects the ability of air search and strike groups to locate enemy TFs and bases and the ability of CAP and LR-CAP groups to locate and attack enemy bombers.
+At the start of each 1 hour pulse, all areas on the screen that contain weather fronts will be inversed (this will appear as green on a color monitor). The inversed areas will have an overcast percentage of between 25 and 99. The non-inversed areas will have overcast percentages between 0 and 24.
+Weather fronts will move each hour in a westerly direction at a speed of approximately 25 mph. These fronts may also move north or south. Many weather fronts will begin near the west edge of the map (due to the bad weather in New Guinea), otherwise the fronts will enter on the east edge of the map.
+Players may examine weather fronts during the Orders Phase by using the Map Display routines described in 5.9.
+
+15.0 AIR COMBAT
+
+15.1 Sighting Base and Army Targets
+Strike groups assigned to attack enemy bases or armies must first'sight' their targets before attacking. The chance of sighting a base or army is equal to (EX + MO) x AIRCRAFT x 400. There is also a chance of not sighting the target due to weather which is equal to OVERCAST% / 75. When using 8 hour pulse the chance is (OVERCAST% - 25) / 75. If the strike group successfully sights the target, then it will automatically attempt an attack.
+
+15.2 Sighting and Selecting TF Targets
+Strike groups assigned to attack a TF target may attack any TF that is successfully sighted in the target TF's square. The chance of strike groups sighting TFs is the same as for search missions described in 12.4. Strike groups will search only the square occupied by the target TF. There will be a sighting report (see 12.5) for each TF sighted, followed by the message BOMBERS ATTACK Y/N. If the player answers YES then the search process will end and the bombers will attack the selected TF. If the player answers NO then the bombers will continue searching for TFs in the target square. Once a player says NO to a target he may not go back and select it as a target during the same hour. Strikes will continue to search as long as their range will allow them. Example: An SBD group with bombs can spend two hours over a target with a range of 3 or less, or one hour over a target at range 4.
+
+15.3 CAP vs. Escort Fighters
+Escort fighter groups will attempt to engage each enemy CAP group that is protecting the target (one at a time). Escort groups may fail to engage a CAP group if RND(1) < OVERCAST% / 100. If the number of aircraft in the CAP group exceeds the number of aircraft in the escort group, then the CAP will match up against the escorts 1-1 and the remaining CAP will attempt to attack the bombers.
+Air-to-air combat losses are calculated by comparing the EFFECTIVE STRENGTH (ES) of the opposing air groups.
+ES = (EX + MO + 5 x MANEUVER) / 500
+If the maneuver rating (MR) of the defending aircraft is 50% greater than that of the attacker, then the attacker ES is multiplied by 2/3. If the MR of the defender is 100% or more greater than the attacker, then the attacker ES is multiplied by 1/3.
+POSSIBLE KILLS = (ESattacker + (1 - ESdefender) / 4) x RND(1) x ATTACKER AIRCRAFT
+Combat is resolved with CAP and escort groups attacking each other simultaneously.
+
+15.4 Possible Kills
+During air-to-air combat or flak resolution, messages will be displayed indicating that aircraft have been destroyed or damaged. Each of these messages represents a POSSIBLE KILL. In determining how many possible kills have occurred, a random number between 0 and 1 will be added to the POSSIBLE KILL number calculated and then truncated. Thus if the possible kill number was calculated as 1.45, this would be adjusted to TWO 45% of the time and to ONE 55% of the time.
+Each time a possible kill is reported on the computer screen, the computer will randomly select one of three possible outcomes: false report, aircraft damaged, aircraft destroyed. Listed below are the probabilities of each occurrence:
+30% false report
+30% aircraft destroyed
+40% aircraft damaged or destroyed (compare attacker CANNON with (defender DURABILITY)
+In the last occurrence the damaged/destroyed determination is calculated:
+DAMAGED if: durability x RND(1) > attacker CANNON x RND(1)
+DESTROYED if: durability x RND(1) <= attacker CANNON x RND(1)
+No more than 15 POSSIBLE KI LLS can be scored during any one combat between opposing air groups.
+
+15.5 CAP vs. Bomber Combat
+CAP aircraft that are not engaged fighting escorts may attempt to engage the attacking bomber group. The CAP may fail to engage the bombers if RND(1) x 20 > BOMBERS or RND(1) x 100 < OVERCAST% or RND(1) > CAP EFFECTIVE STRENGTH (see 15.3). When defending a base, the CAP does not need to check the last factor (ES).
+The effective strength of bomber groups is calculated:
+ES = (EX + MO + 5 x MANEUVER) / 5000 + CANNON / 10
+If the bombers are carrying torpedoes then the ES of the attacking fighters is doubled.
+If the number of aircraft in the bomber group is greater than the number of CAP aircraft, then the number of bombers that actually fire is equal to the number of CAP aircraft. POSSIBLE KILLS are calculated the same as 15.3.
+Bombers that suffer 15 POSSIBLE KILLS from one enemy CAP group will abort their mission and return to base.
+
+15.6 Flak Resolution
+The FLAK STRENGTH (FS) for armies, ports and airfields are calculated:
+ARMY: INF CO x (100 - DISRUPTION) / 100
+PORT: PORT CAPACIIY x (100 - DAMAGE%) / 100
+AIRFIELD: AFCAPACITY x (100-DAMAGE%) / 100
+If there are less than 10 supply units in the army or base then the FS is halved.
+
+The FLAK STRENGTH of a TF is calculated by adding the AA ratings of the ships in the TF. There is a 30% chance that a ship will be unable to add its AA to the FS (if this happens the ship may not be selected as a target). A ship that has ZERO remaining gun ammo will have its AA rating halved (CS, AO, AP, APA, AKA, APD, DMS, ML and AV ships will always have ZERO ammo).
+FS may be modified for the type of tactics employed by the bombers:
+torpedo bomber x 1
+dive bomber x 1
+level bomber vs. ship x 1/8
+level bomber vs. base/army x 1/2
+high level bomber x 1/40
+
+American TFs will have their FS multiplied by 1.5 + (0.05 x MONTHS AFTER MAY 1942) POSSIBLE KILLS = RND(1) + FS x RND(1) / 25. For the purpose of calculating possible kills, flak weapons have a cannon rating of 20.
+Ships that fire flak will usually expend 1 ammo and 1 fuel point. If the attacking air strike contains less than 15 planes, there is a chance that no ammo and fuel will be expended (the smaller the strike the greater the chance of not expending ammo and fuel).
+
+15.7 Bombing Land Targets
+Bomb effectiveness (BE) is calculated:
+BE = (EX + MO) x ((MAX RANGE (RANGE x 0.67)) / MAX RANGE) x BOMB LOAD x BOMBERS x TACTICS / 200.
+There are 3 possible tactics for bombing land targets. The tactics multipliers are:
+
+TACTICS
+dive bombing       x 1
+level bombing      x 1/2
+high level bombing x 1/10
+VB aircraft will use dive bombing, HB aircraft will use high level bombing, and all other aircraft will use level bombing tactics.
+
+15.7.1 Damage to Land Targets
+
+DAMAGE% = BE X RND(1) + BE / 10
+
+The damage effect on armies and bases is calculated below:
+SUPPLIES LOST = RND(1) + SUPPLIES x DAMAGE% / 200 (only if port or army is attacked)
+ENTRENCHMENTS DESTROYED =  ENTRENCHMENTS x DAMAGE% / 500 (only if port or army is attacked)
+DISRUPTION = 4 X DAMAGE% (only if port or army is attacked)
+INFANTRY LOST = INF x DAMAGE% / ((1 + INF + ENTRENCH) x 2000) (only if port or army is attacked)
+AIRFIELD DAMAGE% = DAMAGE% (only if airfield is attacked)
+PORT DAMAGE% = DAMAGE% (only if port is attacked) 
+FUELING AC DESTROYED = DAMAGE% x AC / 4
+FUELING AC DAMAGED = DAMAGE% x AC / 4
+READY AC DESTROYED = DAMAGE% x AC / 2
+READY AC DAMAGED = DAMAGE% x AC / 2
+SHIP IN PORT SYSTEM DAMAGE% = DAMAGE% x RND(1) (only if port is attacked)
+Note: Naval bombardments attacking a base attack both the port and the airfield.
+
+15.8 Selecting Ship Targets
+When attacking a TF, a bomber group will select the two ships with the highest flotation ratings as possible targets. Carriers have their flotation multiplied by 5 for target selection purposes. If the number of surviving bombers is greater than 11 then the group will split into two waves and attack separately. If there are fewer than 12 surviving bombers then they will attack in one wave.
+In a one-wave attack the largest target will be attacked. Normally, a two-wave attack will attack the largest ship with the first wave and the second largest ship with the second wave. If the largest ship is a carrier and the second largest ship is a non-carrier then both waves will attack the carrier.
+Ships that were unable to fire their AA guns (a 33% chance) may not be selected as targets (these ships were out of position or not seen by the attacking planes due to local weather conditions).
+
+15.9 Bombing Ships
+The chance of hitting a ship depends on bomber effectiveness (BE), and ship evasion (SE).
+BE = BOMBERS x TACTICS x (EX + MO) x RND(1) / 2000
+SE = ((50 - MS) / 50) x (0.5 + FT / 60)
+POSSIBLE HITS = RND(1) + BE x SE
+
+MS = maximum speed
+FT = flotation
+
+There are 4 possible bombing TACTICS when attacking ships. The TACTICS multipliers are listed below.
+
+TACTICS
+dive bombing                 x 6
+torpedo bombing - American   x 1
+torpedo bombing - Japanese   x 3
+level bombing                x 1
+high level bombing           x 1/5
+
+Only VB type aircraft may use dive bombing tactics. VT and MB type aircraft may use torpedo bombing or level bombing (depending on the type of ordonance carried). HB type aircraft may only use high level bombing. All other aircraft must use level bombing.
+There is a 20% chance that a 'possible hit' will be a false report. The remaining 80% of the time the ship will be damaged (see 20.0)
+
+16.0 SURFACE COMBAT
+TFs assigned to Patrol Missions may initiate surface combat with enemy TFs in the same square.
+
+16.1 Locating Enemy TFs
+For surface combat to occur, the patrol TF must be able to locate an enemy TF in the same square. In a base square the enemy TF will automatically be located. In open sea squares during daylight there is a 50% chance of locating a TF. In open sea at night there is only a 5% chance of locating a TF.
+
+16.2 Range of Engagement
+There are 3 possible ranges at which surface combat may occur. At LONG RANGE (3), only battleship main guns may fire. At MEDIUM RANGE (2), only battleship and cruiser main
+guns may fire. At SHORT RANGE (1 ), all main guns, AA guns and torpedos may fire.
+At nigh (1900-500), surface combat will always be fought at short range. During daylight, surface combat may begin randomly at range 2 or 3. After a round of combat there is a chance that another round may be fought at the next shortest range. After fighting at range 1, the surface combat for that hour will end.
+In base squares there is a 50% chance that the TFs will disengage after fighting at a range greater than 1. In open sea there is a 95% chance that TFs will disengage after fighting at a range greater than 1 .
+
+16.3 Target Selection
+During surface combat the opposing ships will pair off against each other in a series of one-on-one combats. If one of the TFs has more ships than the other, then the 'unpaired' ships will concentrate their fire against the 'most dangerous' enemy ship. If a ship is paired against an opponent that is out of range and cannot return fire, then that ship will fire at the most dangerous enemy ship instead.
+
+16.4 Gunfire Resolution
+When resolving gunfire the number of POSSIBLE HITS is determined by gun effectiveness (GE) and ship evasion (SE).
+GE = 2 x RND(1) x GUNS / RANGE The SE calculations are discussed in 15.9.
+SE = ((50 - MS) / 50) x (0.5 + FT / 60)
+POSSIBLE HITS = GE x SE + RND(1)
+
+There is a 20% chance that a possible hit will be a false report. The remaining 80% of the time the ship will be damaged (see 20.0).
+
+16.5 Torpedo Resolution
+When resolving torpedo fire, the number of possible hits is determined by torpedo effectiveness (TE) and ship evasion (SE).
+TE = RND(1) x RND(1) x TORPEDOES / (20 - TQ x 15)
+TQ represents Torpedo Quality which is 1 for Japanese torpedoes and 0 for American torpedoes. Japanese torpedo effectiveness will be doubled at night. SE calculations are in 15.9.
+POSSIBLE HITS = TE x SE + RND(1)
+20% of the possible hits will be false reports. The remaining 80% will cause damage to the ship (see 20.0).
+
+16.6 Ammo
+When a ship fires at range 3 it consumes 3 ammo points. When a ship fires at range 2 it consumes 4 ammo points. When a ship fires at range 1 it consumes 5 ammo points. If a ship does not have the required ammo, it will fire at 1/4 effectiveness. When a ship fires its torpedoes it uses one torpedo ammo point. American ships have only one ammo point while Japanese ships have two torpedo ammo points.
+
+17.0 SUBMARINE COMBAT
+
+17.1 Initiating Sub Attacks
+Submarine TFs have a chance of attacking enemy TFs in the same square. A sub will attack if (RND(1) x 200) < (NUMBER OF SUBS IN TF) x (PULSE LENGTH). At night the chance of attack is reduced by 75%. Submarines very rarely attack TFs performing DOCK missions (7, 8, 9) or enemy submarines.
+
+17.2 Target Selection
+
+Submarines will randomly select a target ship from the enemy TF. If the ship is an 'escort' (DD,DMS,APD,ML), then there is a 50% chance that the attack will be aborted.
+
+17.3 Torpedo Attack
+There is a 50% chance that the sub will fire all of its torpedo tubes and a 50% chance that it will fire half of its tubes. The number of possible hits is determined by torpedo effectiveness (TE) and ship evasion (SE).
+TE = TORPEDOES x RND(1) / (2 - TQ)
+TQ is 1 for Japanese torpedoes and 0 for American torpedoes. SE is calculated in 15.9. POSSIBLE HITS = TE X SE + RND(1)
+20% of all possible hits will be false reports. The remaining 80% will cause damage to the ship (see 20.0).
+
+17.4 Escort Attack
+Following the submarine attack, each escort ship in the defending TF will attempt to locate and attack the sub. Each escort has a 20% chance of locating the sub. If the sub is located by an escort then it may attack the sub. An American escort has a 5% chance of scoring a POSSIBLE HIT, Japanese escorts have a 2% chance of scoring a POSSIBLE HIT.
+Possible hits will be displayed on the screen with a SUB HIT message. After a SUB HIT message the escorts will break off the attack. 50% of all SUB HIT messages will be false reports.
+
+17.5 Damage to Submarines
+When submarines are 'hit' by escorts or search planes theywill suffer SYSTEM DAMAGE only. A sub hit will cause system damage equal to 150 x RND(1). If a sub's accumulated system damage exceeds 99% then the sub will be destroyed.
+
+18.0 LAND COMBAT
+Army units may be ordered to attack enemy armies or bases that occupy the same square. Army attacks are resolved immediately during the orders phase. An army unit may attack only one base or army per hour.
+
+18.1 Attack Requirements
+To initiate an attack, an army unit must have at least 5 supply units and less than 25% disruption.
+
+18.2 Combat Sequence
+Land combat consists of (1) defensive fire followed by (2) offensive fire and if the defending unit is a base and its garrison is destroyed by offensive fire, or the attacking army does not end the battle with 75 disruption, then (3) base capture.
+
+18.3 Defensive Fire
+Defensive fire may destroy and disrupt attack ing infantry BEFORE they attack. The calculations for killing infantry companies and disruption are:
+DISRUPTION = (DEF INF + SUPPLY + ENTRENCH) x (100 - DEF DISRUPT) x 5 / ATT INF
+INF CO LOST = (DEF INF + SUPPLY + ENTRENCH) x (100 - DISRUPT) / 500
+
+18.4 Offensive Fire
+Offensive fire may destroy and disrupt the defending infantry AFTER suffering the effects of defensive fire. The calculations for disrupting and killing defending infantry are:
+DISRUPTION = (ATT INF + SUPPLY) x (100 - ATT DISRUPT) / (DEFINF + 1)
+INF CO LOST= (ATT INF + SUPPLY) x (100 - ATT DISRUPT) / 200
+
+18.5 Base Capture
+If the defending unit is a base and all of the infantry in the garrison is destroyed or the attacking army does not end the battle with 75 disruption, then the attacking army may capture the base. If the attacking player has already used the maximum of 10 bases then the defending base will be destroyed instead.
+When capturing a base, all infantry and supplies from the attacking army are placed in the new base garrison and the attacking army is deactivated. When a base is captured, the port and airfield will suffer 99% damage and all of the defender's supply and infantry units will be destroyed.
+
+18.6 Land Combat Supply Usage
+During land combat the attacking army will consume 20% of its supply units and the defending army will consume 10%.
+
+18.7 Army Disruption Limit
+An army or garrison may never have disruption greater than 75. If an army or garrison is attacked (by air, land, or sea) and the disruption calculated is over 75, then the unit's disruption will be set to 75.
+
+19.0 NAVAL BOMBARDMENT
+TFs assigned bombardment missions may bombard enemy bases or armies in the destination square.
+
+19.1 Bombardment Target Selection
+If there is more than one enemy unit in the bombardment square then the computer will automatically select the priority target. If an enemy base is in the square with 1 or more supply units then the base will be the bombardment target. If more than 1 enemy army is in the square then the lowest numbered army with 1 or more supply points and less than 75 disruption will be the target. If a base is the target, the ships will bombard both the port and the airfield.
+
+19.2 Calculating TF Bombardment Strength
+A TF's bombardment effectiveness (BE) is calculated by combining the gun strengths of the ships in the TF. A ship's gun strength is equal to MG x GC x GC + AA x 2. If a ship has less than 7 gun ammo then it may not add its gun strength to the total. Ships that add their gun strength to the BE will use 4 gun ammo. A TF's BE may not exceed 500; once this total is reached the remaining ships in the TF will conserve their ammo.
+Damage caused by bombardments is the same as in 15.7.1, with the following exceptions:
+1) multiply the BE by RND(1) 
+2) at night multiply by RND(1)
+3) if attacking an airfield multiply by RND(1)
+These three exceptions are cumulative.
+
+20.0 Damage to Ships
+
+20.1 Maintenance Failures
+Ships assigned to moving TFs may suffer system damage due to maintenance failure. Each time a ship uses a fuel point there is a 5% chance that it will receive 1 % system damage.
+
+20.2 Weapons Damage Ratings
+The various weapons used in the game are rated for their ability to damage ships.
+
+Bomber Ordnance
+American Torpedo        900
+Japanese Torpedo       1200
+American AP-Bomb       1000
+Japanese AP-Bomb        800
+HE-Bomb                 300
+
+Ship Ordnance
+American Torpedo       1000
+Japanese Torpedo       1800
+Main Guns       GC x GC x 8
+AA Guns                 150
+
+Submarine Ordnance
+American Torpedo        800
+Japanese Torpedo       1200
+
+20.3 Armor Protection
+Ship armor may reduce the effect of bomb and gun hits. The ship armor rating (AR) is compared to the damage rating (DR) of the weapon. If AR x RND(1) x 100 > DR x RND(1) then DR is divided by 4. Torpedo damage is never affected by armor.
+
+20.4 Calculating Damage
+Calculations for system and fire/flood damage are shown below:
+DAMAGE= DR / FT; if damage is not reduced by armor there is a 50% chance that DAMAGE is multiplied by 2 for a critical hit.
+SYSTEM DAMAGE = DAMAGE x RND(1) x 2
+FIRE/FLOOD DAMAGE = DAMAGE x RND(1) x 2; for GUN and BOMB hits FLOOD DAMAGE is multiplied by RND(1) / 2
+
+20.5 Carrier Damage
+If aircraft carriers are hit then aircraft on board may be damaged or destroyed. For each air group based on the carrier there is a 25% chance that aircraft in 'fueling' and 'ready' status will be destroyed or damaged. The carrier will suffer 1% of additional DAMAGE for each 'ready' aircraft DESTROYED.
+If an air group is 'hit' then between 6 and 18% of the 'fueling' aircraft will be damaged and 6-18% will be destroyed. Between 12 and 37% of the 'ready' aircraft will be damaged and 12-37% will be destroyed.
+Carriers that have 50% or more combined system and fire/flood damage cannot conduct air operations. Planes attempting to land on a non-operational carrier will attempt to land on another carrier or airbase that is within their range if there is space available.
+
+20.6 Uncontrolled Fire and Flooding
+Fire/flood (FD) damaged may be repaired while a ship is at sea; however, each hour that FD is greater than 0 there is a chance that the ship will suffer additional damage.
+Each hour there is a chance equal to FD / 400 that the ship will gain 10% x RND(1) SD. Also each hour there is a chance equal to FD / 400 that the ship will gain 20% x RND(1) FD.
+If a ship's FD or SD exceeds 100 in this manner then the ship will immediately sink (there will be no message on the display that this has occurred).
+
+20.7 Repairing Ship Damage
+The two types of damage, SYSTEM and FIRE/FLOOD, are repaired differently. FIRE/FLOOD damage may be repaired at seawhile SYSTEM damage must be repaired in port or JAPAN/PEARL HARBOR.
+Ships in active TFs may repair their FD. Each hour, if RND(1) x 100 > SD then FD is multiplied by 0.95. When ships are removed from an active TF and placed in an operational port with a capacity of at least 75, all of their FD will be immediately repaired.
+Ships in port may repair their SD. Each hour, if RND(1) x 20000 < PORT CAPACITY then SD is reduced by 1. To repair damage the port must have at least 50 supply units, less than 50 damage and 50 or greater PORT CAPACITY.
+
+20.8 Action Phase Damage Reports
+When ships absorb damage, the computer will display the name of the ship and between 1 and 4 asterisks. Each asterisk represents approximately 50% accumulated combined damage. This estimate may be incorrect, although it is usually accurate.
+
+21.0 MISCELLANEOUS
+
+21.1 Pulse Length
+During the ACTION PHASE the players may alter the pace of the game by pressing the 1, 4 or 8 keys to set the 'pulse length'. FOUR or EIGHT pulse lengths are recommended to speed up the action during 'quiet' periods. ONE pulse length is recommended during periods when there is the greatest chance of combat.
+When using FOUR or EIGHT pulse length the computer will update unit status and allow combat only during hours that are equally divisible by the pulse length. EXCEPTION: TF and army movement, and land combat may occur each hour. Orders may be given at anytime and theywill be executed as soon as allowable under the rules. Many of the formulas in the game are adjusted to account for 4 or 8 hour pulses, e.g. in pulse length 4 there is an 8% chance of repairing unserviceable planes each 4 hours, while in pulse length 8 there is a 16% chance of repairing unserviceable planes each 8 hours. There will be some minor roundoff differences from using 4 or 8 hour pulse lengths.
+Computer-controlled American aircraft launching from a carrier will have their strike ranges increased by 1 when using pulse length 8.
+
+21.2 Base Repairs
+Bases may receive damage during aerial or naval bombardment or when captured following land combat. Base damage (airfield and port) will be repaired by multiplying the damage percentage by 0.99 each hour.
+
+21.3 Infantry Disruption
+Infantry companies in armies or base garrisons may be disrupted by aerial or naval bombardment or land combat, but never to exceed 75%. Infantry will recover by multiplying the current disruption by 0.98 each hour. An army with greater than 24% disruption may not initiate land combat. Infantry will have its offensive and defensive fire effectiveness reduced by the disruption percentage.
+
+21.4 Infantry Attrition
+There is a chance each day that armies and port garrisons will suffer attrition of their infantry strength. The chance of attrition for each army or garrison is equal to Number of Infantry Companies / 250. If attrition is called for, an army will lose 2% of its infantry companies, while a garrison will lose 1% of its infantry companies.
+
+21.5 Aircraft Replacements
+Each day the players will receive replacement aircraft using the following replacement rates: 
+P40 1     A5M 0
+P39 2     A6M 6
+P38 2*    D3A 1
+B17 1     B5N 1
+B25 2     G4M 1 (2)
+B26 0     G3M 1
+F2A 0
+F4F 2 (4)
+SBD 2 (3)
+TBD 0
+TBF 1
+* = starting OCT 1942
+( ) = numbers in parentheses are reinforcements for the computer only (yes, it cheats)
+The number of replacement aircraft received each day will equal the REPLACEMENT RATE x RND(1) + RND(1).
+
+21.6 Night
+Night iime is considered to exist during the hours between 1800 and 0500 inclusive. For air landing purposes, during 8-hour pulse mode all landings are considered to be during daylight, and during 4-hour pulse mode landings before the 2100 hour turn are considered to be during daylight. During 4-hour pulse mode, night begins at 2100 hours.
+
+21.7 Inland Bases
+The American base in square 4, 27 cannot be reached by sea. Players may build bases in squares that cannot be reached by sea, but they should not expand ports on these bases
+(the computer won't stop you, but it certainly doesn't make sense, although you could score points for doing it). We appeal to the player's good sportsmanship and ask that they don't take advantage of this.
+
+21.8 Placing Friendly Forces Under Computer Control
+The players may place friendly AIRFIELDS and TFs under computer control at any time by toggling the (C)ONTROL key listed on the AIRFIELD/TF orders menu. An '*' following the word (C)ONTROL on the menu indicates that the AF/TF is currently under computer control. Carrier air operations may be controlled by the computer in the same manner as airfields.
+Non-submarine TFs which are shifted from human to computer control while 'at sea' will automatically return to FIJI/TRUK. Submarine TFs will continue patrolling until they run low on fuel before returning to FIJI/TRUK.
+Computer controlled airfields and carriers will automatically assign air groups to CAP, search and strike missions and will distribute aircraft reinforcements. Computer controlled airfields will initiate Airfield or Port expansion whenever possible. Computer controlled airfields in 'quiet zones' may return active aircraft to the reinforcement pool.
+If FIJI or TRUK are placed under computer control then the computer will take strategic command of friendly forces. The computer will spend commitment points and form computer controlled TFs to perform Submarine, Carrier, Patrol, Bombardment, or Transport missions.
+At the start of the game all airfields and TFs will be computer controlled.
+
+22.0 VICTORY LEVELS
+Upon the conclusion of a game, the computer will display the total points scored by each side, and the net points scored (American points less Japanese points). When playing Phase II or Phase III games, 700 points should be subtracted from the net score. Compare the adjusted net score with the following chart to determine the victor.
+
+ 1000 or more              American decisive victory
+  500 to 999               American substantive victory
+  100 to 499               American marginal victory
+   99 to -99               draw
+ -100 to -499              Japanese marginal victory 
+ -500 to -999              Japanese substantive victory 
+-1000 or less              Japanese decisive victory
+Players may end the game at any time by using the (E)ND GAME option in the orders menu. They will be shown the final score and then be allowed to resume the game so they can check the final status of all forces.
+
+24.0 STRATEGY NOTES
+
+24.1 Japanese Phase I
+You have two basic options at the beginning of phase I - either attempt to capture Port Moresby as a prelude to a possible invasion of Australia, or invade an island in the Solomons and begin base construction in orderto prepare for a move towards Espiritu Santo or Fiji.
+If you move on Port Moresby, first soften up the American base with Rabaul bombers and carrier plane strikes, and then send in a CA (or BB if available) force along with your transport force to provide a means of neutralizing the American infantry immediately prior to your land assault. Be sure to send some infantry from Lae to Port Moresby, as it will take between 60 and 100 infantry companies to capture the American base. Also, use longrange CAP from Lae and Rabaul to protect your ships and land troops, and keep your carriers away from operational bases that contaain SBD dive bombers.
+If you elect to ignore Port Moresby, you should invade Tulagi to remove the American threat, and then put most of your resources onto a major island such as Guadalcanal. Be sure to fill your carriers to the 90% of capacity limit (especially with fighters), and be careful of the American carriers.
+Be sure to save up your commitment points so that you can commit all of your carriers at the end of May. Then force the American carriers into a decisive action as soon as possible. Once the first major carrier battle is fought, you must decide whether you have the strength to continue an offensive, or whether you should simply defend your newly acquired bases.
+
+24.2 American Phase I
+Try to convoy supplies to Espiritu Santo as soon as possible and begin base expansion at all bases. Try to build up a large landbased air force in Australia with which to defend Port Moresby, and use B-25's from Port Moresby to neutralize Lae (and Rabaul when possible especially with P-38 escorts late in the game). Fill your carriers with every fighter possible and take on the Japanese carriers to prevent early landings in New Guinea and the Solomons. This can be risky with only two carriers, but if you can bring up a third carrier fast enough, your chances will be greatly increased. However, do not move within range of escorted Betty strikes from Rabaul without at least 4 carriers.
+If you can reinforce Tulagi before the Japanese main fleet arrives it may be worthwhile, but don't try to engage the 10 Japanese carriers until you have at least 5 major carriers. Try to weaken the Japanese carrier strength through submarine and land based air attacks before allowing a major engagement. Remember, if you can hold Port Moresby through the summer, you have done well. You can always begin an offensive afteryou have been able to build up your strength. The American player gets stronger as the game goes on, as long as you don't allow yourself to waste your carrier power too early.
+
+24.3 Japanese Phase II
+Use airstrikes from Rabaul to weaken the American transport forces, build up your carrier and battleship forces, and then launch a major effort in September to take Guadalcanal or Port Moresby. Guadalcanal will be easier, if you can close the airfield with a fast battleship bombardment, and then keep the American carriers out of the battle by using your carriers in a war of attrition. Try to keep Lae supplied and expanding, even if your main effort is in the Solomons.
+
+24.4 American Phase II
+Resupply Guadalcanal and put together a strong 4-carrier strike force with which to ward off Japanese thrusts. Attempt to neutralize Rabaul with major B-25 and B-17 strikes. If you succeed, you will be able to keep surface ships near Guadalcanal to intercept Japanese bombardment missions aimed at damaging your airfield on Guadalcanal. Neutralize or capture Lae as soon as the threat to Guadalcanal has ended.
+
+24.5 Japanese Phase 111
+Attack! Send in your bombardment groups to keep Guadalcanal neutralized and place your carriers in a position to block the American forces from resupplying Guadalcanal. Send all the infantry and supplies you can get to reinforce your army on Guadalcanal, and maintain a constant chain of bombardment missions by refueling in Rabaul. Ifyou can keep American transports from getting to Guadalcanal, you will eventually be able to destroy the American army there (in about two to four weeks of constant fighting). Once Guadalcanal is secured, concentrate on strengthening Lae and reducing Port Moresby.
+
+24.6 American Phase III
+Send B-25's with P-38's to bomb Rabaul, and then try with your carriers to close on the enemy forces off Guadalcanal. Put together a major surface group with which to stop Japanese bombardment missions, and try to reinforce Guadalcanal with a major transport mission. It's worth suffering high losses among your tranports and cruisers in order to keep the base on Guadalcanal functioning, but don't stick around without carrier support, unless you have also eliminated the Japanese carrier force. If things go poorly, wait for the Saratoga and the 6 CVE's in December, as this plus the Hornet or Enterprise is a potent enough force to spearhead a counterattack to retake Guadalcanal. Remember, hold Guadalcanal if possible, but as long as you can knock out some of the Japanese carrier force you will grow stronger than the Japanese
+as the game progresses, and this will allow for a comeback.
+
+24.7 Other Notes
+When beginning a game, we suggest that you immediately type 0 when the action phase begins. Be sure to take control away from the computer of any bases and task forces you wish to control (we suggest doing this for all forces when you first begin so you don't get confused by the computer's use of your forces). Begin expanding ports and airfields if they have enough supply, certainly all bases which would still have over 50 supplies after the expansion cost. Then when returning to the action phase, press 8 so that you will begin using 8-hour pulse length. It is recommended that you shift back to 1-hour pulse whenever a carrier battle is imminent, or whenever you have an opportunity to fly two anti-ship missions in one day (i.e. bombing slow-moving ships moving towards your base).
+It's usually better to have one large fighter group flying CAP over each of your key advanced bases as opposed to having several smaller. groups. As the American player, be sure to use your best fighters (P-40 and F4F for CAP over Port Moresby and Guadalcanal) whenever possible, and use P-38 fighters for long-range escort and CAP missions. Use P-39's only when you are short of better fighters. The Japanese player should use all of his A5M's either on a small carrier for CAP, or as an extra CAP group at Rabaul.
+As the Japanese player, don't waste your G4M and G3M bombers piecemeal against land targets. Put them all in Rabaul and save them for large strikes against Port Moresby when they can receive adequate escort, or for use against American shipping. As the American, concentrate your B-25's in one group in Port Moresby (when secure) and bomb Lae and Rabaul. Use B-17's and B-26's in Australia to support these operations. When Port Moresby is threatened you can put your B-26's in Port Moresby, and your B-25's in Cooktown and use them both against Lae without fearing the loss of your valuable B25 force.
+When forming task forces, always try to have 20 ships in the TF, with at least 6 to 10 DD's, as this will maximize your combat ability and protect against sub attacks. Save your best flak ships for your carrier task forces if at all possible, and put all of your carriers in one task force for maximum mutual protection (if not, at least keep them all in the same square so as to provide mutual CAP protection). As the Japanese player, use the 2 Tone class cruisers and the other CA'swith yourcarriers to provide maximum float plane searching, thus saving your carrier planes for air strikes. The American player should use at
+least 20-30 TBF's for search missions from each carrier task force.
+Be aware of your fuel situation. Ships should normally steam at a speed equal to: (maximum speed of slowest ship - 1) / 2. This will allow for minor system damage to the slowest ships and keep them from burning extra fuel. Only travel at faster speeds for immediate combat purposes (bombarding an airbase at night, running from an enemy carrier force, etc.). Use your tankers to refuel your carriers at sea whenever possible, and place a tanker in every transport mission for 'at sea' refueling. The best speed for a transport group is 11 knots (7 knots if they are moving an exceptionally long way).
+Try not to attack an enemy army or garrison unless it has been 75% disrupted by a heavy air or land bombardment in the same hour. The number of explosion sounds from your computer is an indicator of the damage caused by a bombardment (each explosion is roughly 10% damage), and should be used in deciding whether the target has been disrupted sufficiently to justify an attack.
+Be sure to group your submarines by maximum speed and fuel capacity. It is best to move your sub groups to the general area in which you want them to patrol, and then turn them over to computer control when they arrive in the area. When under computer control, they will automatically attempt to follow and attack enemy task forces that move within a few squares of their location.
+Send ships with over 10%-20% damage back to Japan/Pearl for repairs, unless it is a carrier with under 50% damage and it cannot be missed, or unless you will not have the commitment points to recommit the ship when it is repaired. If you do not send the ship home, be sure to keep it-in a large port whenever possible, as you can repair on average one system damage every four days in a 200 capacity port. This and the need for 75 capacity ports to repair fire/flood damage is reason to quickly expand the ports at Truk, Fiji, Rabaul, and Espiritu Santo.
+Usually it is best to keep your carriers loaded with only 90% of their aircraft capacity, as it is important to be able to repair unserviceable planes. You can directly reinforce your carriers in port with new aircraft, but it is better to fly more experienced planes onto the carriers when they are in a docked task force. Keep small groups of unneeded planes (especially carrier planes) flying search missions from rear area bases. If you continue to periodically reinforce these groups with new pilots, you can use this as a training ground for new pilots (building their experience up to 70), and even occasionally damage/sink an enemy submarine.

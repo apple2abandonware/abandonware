@@ -1,0 +1,85 @@
+The following disk images are revisions to SSI's USSAF published in 1985
+and can only be played using an Apple Emulator.
+
+These images are revised USAAF1.DSK images.  To use just start them instead
+of the USAAF1.DSK.  At the bottom of first menu screen the alternate version
+number will be highlighted instead of the game version number.  Note that
+if you start the game in Feb '44 or Sept '44, these changes are also
+in effect.  If you play Alt #1, the FW 190D will be availabile in the
+Feb '44 scenario.
+
+I would normally make up an editor for this, but limited interest in this
+game precludes me from spending the time.  Coding an editor for this would
+be time consuming because of the sector structure of the disk images.
+Data is scattered all over the image instead of being in a single block.
+
+Hex editing the files is much easier and quicker.  I will be happy to
+hack any suggestions within my capablility, so please drop me a line
+if you want to see some variant.
+
+What I can edit:
+
+1.  Aircraft characteristics, cost to produce, and availibility.  You cannot
+add any planes, so if you want a new plane it has to take the place of an
+existing aircraft.
+
+2.  Aircraft Unit characteristics including type and number of serviceable
+and unserviceable planes, training level, morale, and arrival date.
+
+3.  Industry growth rates, defense levels, optimal levels.
+
+4.  Target industry types, flak levels, types of aircraft produced.
+
+5.  Weather, month, date, etc.
+
+What the Alternate DSK's contain:
+
+Alt #1	Accelerates arrival of German aircraft types by about 6 months.
+I've never agreed with the game that factory space is directly related
+to technological advances.
+
+Alt #2  As #1 with new German units having an initial training level
+of 50.
+
+Alt #3. Per original game, except replace ME-109 with HE-100.  This
+alternate assumes that Messerschmidt's political connections were
+not as good as they were and the BETTER plane actually was chosen
+by the Luftwaffe.  Since they both used the same engine I have
+extrapolated the following data:
+
+HE-100F:
+Cannon:  1 x 30mm (prop hub), 2 x 20mm (in wing root)
+Rockets: 2
+Cruise Speed: 276 mph
+Climb Rate:  2200 fpm
+Ceiling:  38,000'
+Endurance:  105 min
+Durability: 18
+Manuever Rating:  46
+
+HE-100G:
+Cannon:  1 x 30mm (prop hub), 2 x 20mm (in wing root)
+Rockets: 2
+Cruise Speed: 300 mph
+Climb Rate:  3000 fpm
+Ceiling:  40,000'
+Endurance:  105 min
+Durability: 18
+Manuever Rating:  50
+
+The HE-100 was a pure interceptor - lightweight, very small wings, and
+fast.  The real He-100D-1 max speed in 1940 was 416 mph at 16,400'!
+
+In Alt #3 the He-100G appears when the Me-109K does.
+
+I am also working on improving the "fun" but very inaccurate USAAF
+Order of Battle.  See attached Excel file for the actual US
+Fighter Group OB looked like, as an example.
+
+For comments and suggestions, please contact me at:
+NicholasBell@compuserve.com
+
+Enjoy!
+Nick
+11-21-97
+

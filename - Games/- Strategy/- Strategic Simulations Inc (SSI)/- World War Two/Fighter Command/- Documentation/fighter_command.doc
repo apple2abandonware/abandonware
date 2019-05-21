@@ -1,0 +1,1160 @@
+FIGHTER COMMAND
+
+The Battle of Britain
+
+TABLE OF CONTENTS
+
+ 1.0 Introduction..................................2
+ 2.0 General Description...........................2
+ 3.0 Sequence of Play..............................2
+ 4.0 German forces.................................3
+ 5.0 British forces................................4
+ 6.0 German Commands...............................5
+ 7.0 British Commands..............................6
+ 8.0 Intelligence..................................7
+ 9.0 Radar and Visual Search.......................8
+10.0 Combat........................................9
+11.0 Production, Maintenance and Repair...........11
+12.0 Pilot Replacements...........................12
+13.0 Unit Quality.................................13
+14.0 Unit Availability............................14
+15.0 Weather......................................15
+16.0 Scenario Descriptions........................16
+17.0 Victory Conditions...........................17
+18.0 Strategy Notes...............................18
+19.0 Credits......................................18
+     Historical Notes.............................18
+1.0 INTRODUCTION
+
+   Fighter Command is a strategic game that allows players to recreate the 
+Battle of Britain The game covers the critical period from 13 August through 
+15  September 1940, when the few hundred pilots of RAF Fighter Command held 
+the fate of England in their hands. Players direct the RAF squadrons and 
+Luftwaffe Gruppen which participated in the battle, observing the movement of 
+units in response to their tactical guidance on any of four maps of southern 
+England.
+       Fighter Command can be played either as a 2-player game, or solitaire, 
+with the computer playing the German Side. Before playing the game for the 
+first time, it is recommended that you read the rules at least through 
+section 10, paying particular attention to sections 5 and 6, which describe 
+the commands and options available to the German and British players. Then 
+become familiar with the Player Aid cards, especially the map showing the 
+location of cities, airfields, radar sites, assembly points, etc. Finally, 
+boot the game disk and select the one-day Eagle Day scenario from the 
+start-up menu, since it is the shortest and easiest to learn.
+1.1 Starting a Game (DOS 3.2 or DOS 3.3)
+    To begin a game, boot your game disk and the game will begin 
+automatically if you are using an Apple II with Pascal, you must first use 
+your BASICS disk. If you are using an Apple III, you must first go into Apple 
+II Emulation Mode.
+1.2 Saving a Game
+    At the end of each "day", and at the end of each player's briefing and 
+orders phase, you will be asked if you wish to save the game in progress. If 
+you choose to save the game, you will need a scratch disk to store the data. 
+The scratch disk must be initialized for SSI use by following the 
+instructions included in the program Once the game is saved, you will be able 
+to restart it from the point at which you left off.
+
+2.0 GENERAL DESCRIPTION
+
+2.1 Parts Inventory
+        A  Game Box
+        B  Battle Manual
+        C  s  1/4" Game Disk
+        D  Map of Southern England
+        E  German Player Aid Card
+        F  British  Player  Aid  Card
+        G  Counters
+2.2 Definition of Terms
+2.2.1 Altitude - The elevation in thousands of feet that a unit is assigned 
+to fly in performing its mission.
+2.2.2 Assembly Point - One of 4 locations over German-occupied france where 
+Luftwaffe forces assemble before moving in formation toward their objective. 
+A fifth North Sea "Assembly Point" is really an "arrival point", where 
+Lufflotte % aircraft from Norway first appear on the map.
+2.2.3 Bomb load - The weight, in hundreds of pounds, of bombs typically 
+carried on a mission against England by a single Luftwaffe aircraft in 1940.
+2.2.4 Damage Points - A measure of total damage inflicted by Luftwaffe 
+aircraft on British cities, airfields or radar sites. One damage point is 
+equal to a one per cent reduction in the production or operating capability 
+the target.
+2.2.5  Endurance - The length of time a particular aircraft type may remain 
+in the air before being forced to land for refueling.
+2.2.6 Escort Tactic - The procedures to be followed by German fighters 
+while escorting bombers on a mission. Options are High, low and Close.
+2.2.7 Experience - A measure of the average amount of combat experience of 
+the pilots in a unit. Values range from a low of 0 to a high of 9. Experience 
+and morale are measured in increments of .1 (tenths).
+2.2.8 Feint/Sweep - A German mission undertaken for the purpose of 
+deceiving the RAf into committing fighters needlessly or to engage RAf 
+fighters in attrition dogfights.
+2.2.9 Luftwaffe/Luftflotte - The Luftwaffe is the German Air force; a 
+Luftflotte, or Air fleet, is the highest organizational subdivision of the 
+Luftwaffe.
+2.2.10  Morale - A measure of the enthusiasm, spirit, dedication, etc , of 
+a unit. Values range from a low of 0 to a maximum of 9.
+2.2.11 Radar Site - An installation located on the southern or eastern 
+coast of England, which was used to detect groups of flying aircraft There 
+were two types of radar sites. Chain Home (CH), designed to detect 
+high-flying aircraft, and Chain Home low (CHL), for the detection of low 
+flying aircraft.
+2.2.12 RAF/Fighter Command/Group - The RAF is the Royal Air Force; Fighter 
+Command is the RAF organization containing aIl fighter aircraft, and a Group 
+is the highest organizational subdivision of fighter Command.
+2.2.13 Readiness - The alert state of a British unit. Extremes are Runway 
+Alert, where the planes are lined up on the runway with engines running, 
+waiting to take off, and 2-Hour Call, where units don't have to be available 
+until 2 hours after being notified.
+2.2.14 Sector Airfield - A major airfield which is the headquarters for 
+several squadrons, some of which may be based at separate satellite 
+airfields.
+2.2.15  Serviceable Aircraft - The number of aircraft available for 
+immediate operations, usually about 75 -90% of the total aircraft in a unit.
+2.2.16 Time/Time Step - Time is indicated according to the 24-hour clock. 
+Possible hours of play each day are 0600-1 800. Play proceeds in time steps 
+of 2 minutes each, during the time German aircraft are in the air.
+2.2.17 Unit - The smallest operational air organization in the game for the 
+RAF, this is the Squadron, usually consisting of 12-18 aircraft, and 
+identified by a number (eg, 74 Squadron) The standard Luftwaffe unit is the 
+Gruppe, which normally contains 30-36 aircraft. It is identified by a type 
+abbreviation and one or two numbers (eg, JG 26/1).
+2.3 Map Descriptions
+  The basic game map is a section of southern England, northwestern france, 
+and the English Channel A status board summary of currently detected German 
+raids is shown on the right side of the screen, with the current time 
+displayed just below this area Text messages are displayed on the bottom 
+portion of the screen British airfields are denoted on the map by a green 
+plus (+) symbol, radar sites by a white dot, and cities by an orange region 
+The estimated location of German raids are indicated by a swastika symbol, 
+and British squadrons in the air are denoted by a rounded symbol.
+   The scale of the basic map is approximately 2 miles per screen plotting 
+element (pixel); the map covering a 270 by 200 mile area, Three additional 
+maps are available, covering important portions of the main map on a more 
+detailed scale of approximately one-half mile per pixel. These maps each 
+cover an area of approximately 90 by 60 miles.
+
+3.0 SEQUENCE OF PLAY
+
+   There are 5 different scenarios in Fighter Command covering from one to 34 
+days. The sequence of play for each day is summarized below.
+3.1 German Briefing Phase
+   During this phase the German player will be able to review the results of 
+the prevIous day's action, determine the operational readiness of the 
+different types of aircraft in each of his 3 Luftflotten, examine the latest 
+intelligence estimates on damage to targets in England and on RAF strength, 
+and check the latest weather forecast.
+3.2 German Orders Phase
+   The  German  player orders  his  units to conduct  missions against the 
+British.
+3.3 British Briefing Phase
+   The British player is able to review yesterdays action, check on Fighter 
+Command readiness, examine intelligence on Luftwaffe strength and possible 
+intentions, and learn what his weather forecasters are predicting.
+3.4 British Orders Phase
+   The British player may order changes in the readiness state or disposition 
+of his units, establish dawn patrol stations, or change his default tactics 
+options.
+3.5  British Intercept Phase
+   The British player observes information presented to him on the mapboard 
+display, and takes various actions to defend against the attacking German 
+aircraft- He may request information, change readiness states, re-deploy 
+units, establish new patrol stations, and assign units t intercept German 
+formations The German player may watch the screen during this phase but is 
+not allowed to look at displays other than the four maps
+3.6 Computer Overnight Activity Phase
+   The computer determines the number and disposition of replacement aircraft 
+and pilots, updates unit experience and morale factors, evaluates the extent 
+of repairs to damaged aircraft and British targets, and prepares reports for 
+the following morning briefings.
+3.7 Victory Determination Phase
+   If the scenario is completed, or if specified victory conditions have been 
+achieved, the game is concluded and the final results are displayed.
+
+4.0 GERMAN FORCES
+
+   There are six different German aircraft types which were involved in the 
+Battle of Britain. Two of these are fighters, and the other four are 
+bombers.Additional information about each aircraft type is available on the 
+Player Aid cards, and in the Historical Notes.
+4.1.1 ME-109E 'Emil'
+   The best German fighter in the game is the Me-109. It is superior to every 
+British aircraft, except the Spitfire. The Me-109 also is available in 
+greater numbers than any other German aircraft. The one weak point of the 
+Me-109 is its endurance; It is only able to escort raids about as far as 
+London (See the Player Aid map for a line showing the approximate range limit 
+for the Me-109). One Me-109 unit, EG 210/3, can be used as dive bombers.
+4.1.2 ME-110C 'Zerstorer'
+   The Me-110 is a fast aircraft with good endurance, but is outclassed as a 
+fighter by the Spitfire and Hurricane. There are two Me-110 units, EG 210/1 
+and EG 210/2, which can be used as dive bombers. 
+4.1.3 JU-88A
+   The JU-88A is able to outrun the slower British interceptors, but can't 
+defend itself very effectively if intercepted.
+4.1.4 DO-17Z
+   The Do-17 is only found in Luftflotte 2, but it appears there in fairly 
+sizable numbers. It is a fast level bomber, with average performance in most 
+other categories. 
+4.1.5 HE-111H
+   Having the heaviest bomb load of a ny German bomber, the He-111 is 
+probably best utiIized against industrial targets. It has a relatively low 
+ceiling, and is sLower than the other German leveL bombers. 
+4.1.6 JU-87B 'Stuka'
+   The Stuka is a sLow, vulnerable dive bomber, with a light bomb load, and 
+very limited endurance. It can onLy go about as far as the Me-109 (see the 
+range limit on the map). In sufficient numbers, however, it can be very 
+effective against radar installations in low, hit-and-run raids. 
+4.2 Organization
+4.2.1 Luftflotte
+   The three Luftflotten which participated in the Battle of Britain are 
+numbers 2, 3, and 5. The largest of these, Luftflotte 2, also pLayed the most 
+important roLe in the Battle from the German side. Located in the northwest 
+corner of occupied france, it is in the closest proximity to England.
+    Luftflotte 3 is based to the south and west of Luftflotte 2, placing it 
+more to the south of England. This Luftflotte contains the bulk of the Stuka 
+dive bombers, but no DO-17's.
+    Luftflotte 5 is located initially in Norway, a distance of more than 300 
+miles from targets in central EngLand. Only 6 units in Luftflotte 5 
+participated in the Battle of Britain, and one of these, JG 77/2, could not 
+reach England and return with its ME-109s. The German player
+will be given the opportunity on 7 September to transfer some or all of the 
+Luftflotte 5 units to France. This transfer will have the penalties of 
+removing squadrons from action for one day, and of potentially releasing some 
+British squadrons from 13 Group to be transferred south.
+4.2.2 Geschwader and Gruppe
+     The next organizational level below the Luftflotte is the 
+Geschwader.These are identified as to type of aircraft according to the 
+following notation:
+Name                       Description                    Aircraft
+JG  Jagdgeschwader          Single-engine fighters         ME-109E
+ZG  Zerstorergeschwader     Twin-engine fighters           ME-110C
+KG  Kampfgeschwader         Level bombers                  JU-88A
+                                                           DO-17Z
+                                                           HE-111H
+STG Stukageschwader         Dive bombers                   JU-87B
+EG  Erprobungsgeschwader    Experimental units             ME-109E
+                                                           ME-110C
+LG  Lehrgeschwader          Elite training units           Various
+  Each Geschwader is composed typically of three Gruppen, designated by Roman 
+numerals (Conventional numbers replace Roman numerals in the game, for the 
+sake of brevity and display compactness. Three special detached units are 
+included in Luftflotte 2. These are termed Kampfgruppe (KGR), and are elite 
+specially-trained units.
+4.3 Tactics
+   The Tactical elements which are within the German players control in 
+Fighter Command are formation size, mission altitude, approach direction, 
+multiple raid timing, primary and secondary target selection, fighter escort 
+doctrine, and the use of feints and sweeps. These options are described more 
+completely in the German Raid Scheduling section (6.2)
+
+5.0 BRITISH FORCES
+
+5.1 Aircraft Types
+    Five British aircraft types are included in Fighter Command, although 
+only two - the Spitfire I and the Hurricane I - participate in significant 
+numbers. Additional information about each aircraft type is available on the 
+Player Aid cards and in the Historical Notes
+5.1.1 Spitfire I 
+    The Spitfire is the best British fighter in the game. It is the fastest, 
+fastest climbing, and best at dogfighting with German Fighters, particularly 
+the Me-109 
+5.1.2 Hurricane I
+    The most numerous British fighter is the Hurricane. It is second best in 
+ability to the Spitfire, being slower, less maneuverable, and having less 
+endurance. However, the Hurricane is more than able to deal effectively with 
+any German aircraft except the Me-109
+5.1.3 Blenheim I
+    Designed as a light bomber rather than a fighter, the Blenheim is really 
+out of its element going after anything other than unescorted German bombers. 
+It has excellent endurance, but is rather slow, and is at a decided 
+disadvantage against any German fighters.
+5.1.4 Defiant
+     The Defiant is, like the Blenheim, fairly effective against German 
+bombers, but very ineffective against German Fighters. It is faster than the 
+Blenheim, but with much more limited endurance.
+5.1.5 Gladiator
+    There is only one Gladiator squadron in the game, and it starts with less 
+than a full complement of aircraft, so it doesn't play a major role. The 
+Gladiators one advantage is a high climb rate, but, like the Blenheim and 
+Defiant, it's only effective against German bombers.
+5.2 Organization
+5.2.1 Groups
+      Four Fighter Command Groups were active during the Battle of Britain, 
+with 11 Group, located in southeast England, playing the dominant role. 11 
+Group contains the best, and the most, aircraft of any of the Groups. Located 
+to the west of 11 Group is 10 Group. Its responsibility is the defense of 
+southwest England and Wales, particularly against attacks by Luftflotte 3 
+from the south. To the immediate north of 11 Group is 12 Group. It serves as 
+a back-up to 11 Group for raids to the south and east of London, and defends 
+the interior of England. The northernmost Group is 13 Group. Its airfields do 
+not appear on the game maps, and so its fighters appear on an initial entry 
+point on the north edge of the map, after a suitable delay. The role of 13 
+Group is both as a place to allow units to rest and improve their morale, and 
+to defend against raids from Norway by Luftflotte 5.
+5.2.2 Sectors
+   The control of individual Fighter Command squadrons was exercised during 
+the Battle of Britain through a network of sector airfields. Controllers at 
+the sector airfields directed the squadrons located at the sector airfield, 
+as well as squadrons based at satellite airfields. Extensive damage to a 
+sector field can have a delaying effect on the operation of squadrons at 
+these satellite airfields, as well as at the damaged sector field. (All 
+squadrons based at some sector fields were occasionally referred to as a 
+Wing, eg, the Kenley WIng.)
+5.2.3 Squadrons
+     The basic British organizational unit is the squadron. Squadrons are 
+designated by a number, with no particular pattern for different aircraft 
+types (for example, 600 squadron contains Blenheims, 601 Squadron has 
+Hurricanes, and 602 Squadron flies Spitfires)
+5.3 Tactics
+   Tactical options for the British player include unit deployment locations, 
+setting readiness conditions, specifying which German raids are to be 
+intercepted by which squadrons, assigning priority to escorts or bombers as 
+interception targets, and designating attack urgency and aggressiveness. 
+These options are described under the appropriate British Commands sections 
+(7.2 and 7.3)
+
+6.0 GERMAN COMMANDS
+
+   The German player initiates the action each day with his Briefing and Raid 
+Scheduling phases. Once German forces have been assigned to their targets, 
+the role of the German player becomes that of observing the British player's 
+responses to his raids.
+6.1 German Briefing Phase
+   Information is presented to the German player at the beginning of each new 
+day in the form of a morning staff briefing. The same four topics - 
+Yesterdays operations, readiness, intelligence, and weather - are covered 
+each day. A briefing report may be reviewed by pressing the left or right 
+arrows until the report name is highlighted, then pressing the space bar.
+6.1.1 Yesterdays Operations
+     This briefing report presents a summary of the results of any raids 
+conducted yesterday.
+6.1.2 Intelligence
+    The intelligence report provides a summary of damage to British targets 
+and British aircraft losses since the start of the scenario. This is in 
+contrast to the report on yesterdays operations, which contains intelligence 
+on only one days activities. The target damage summary lists all targets 
+which have received more than 50% damage, and which German intelligence 
+believes have not yet been repaired to less than a 50% damage level. 
+Estimates of British initial strength, losses and replacements are used to 
+prepare the table of RAF Fighter Command estimated current strength. 
+6.1.3 Readiness
+   The current status of the Luftwaffe is portrayed in the readiness report. 
+Separate pages for each of the three Luftflotten indicate, by aircraft type:
+         number of Gruppen
+         total number of aircraft
+         number of aircraft available for operations
+         number of pilots available
+         average experience and morale levels
+   Totals for all aircraft types in each Luftflotte also are shown, and the 
+grand totals for the entire Luftwaffe are shown at the end of the report.
+6.1.4 Weather
+    The German meteorologists best estimate of the expected percent cloud 
+cover over southern England is provided in this report, along with a short 
+interpretation of the likely effects of that amount of cloud cover on 
+operations. A more complete description of weather and its effects is given 
+in section 15.
+6.2 Raid Scheduling Phase
+    This phase begins with the question "Do you want to launch any raids 
+against the British today?" if the answer is "No", then the British intercept 
+Phase will be omitted, and play will proceed directly from the subsequent 
+British Briefing and Orders Phases to the Computer Overnight Activity Phase. 
+if your answer is "Yes"(you do want to launch raids today), then you will be 
+prompted through the raid-scheduling process as described below. 
+6.2.1 Target Type Selection
+    There are three ground target types; airfields, industrial centers, and 
+radar stations. There is also the option of assigning units to a FEiNT or 
+SWEEP mission (if bombers are present it is a feint. if only fighters are 
+assigned, it is a sweep). When all raids have been assigned, the DONE option 
+will complete the German Raid Scheduling Phase and all German activity for 
+the current day.
+6.2.2 Target Selection
+    Each raid against a ground target may be assigned both a primary and a 
+secondary target. A raid will always proceed to its primary target first, and 
+will attack that target unless unable to because of clouds. If the Primary 
+target is obscured, the raid will attempt to fly to and bomb its secondary 
+target. Feints and sweeps are assigned a turn-around point instead of a 
+target. This is the point the raid will fly to before turning around and 
+returning to base. There are no secondary targets for feints and sweeps.
+    Targets maybe selected either by typing in the name of the target, or 
+moving the highlight cursor to the desired target name and pressing the space 
+bar.
+6.2.3 Assembly Point Selection
+    There are five locations used by German aircraft to assemble into their 
+bombing formations. These assembly points, and the Luftflotten which can use 
+them are:
+              Location                  Luftflotte
+              Calais                        2
+              Dieppe                      2 or 3
+              Le Havre                    2 or 3
+              Cherbourg                     3
+              North Sea                     5
+    Selection of an assembly point also determines the Luftflotte assignment 
+in three of the five cases, and narrows it down to two in the other two 
+cases. Each raid (except from Luftflotte 5) will spend an amount of time 
+orbiting its assembly point before proceeding to its assigned target; the 
+length of time being proportional to the size and assigned altitude of the 
+raid.
+6.2.4 Offset Approach Point Selection
+    A raid will proceed straight towards its primary target, unless an offset 
+approach point is selected. The offset approach point is an intermediate 
+point which can be used to deceive the British player about the location of 
+the intended target. The penalty for using an offset approach is, of course, 
+that the raid will spend more time in the air. This may permit additional 
+British squadrons to intercept the raid, and may force short endurance German 
+aircraft to return home early. The location of the offset approach point is 
+selected using a cursor (+) symbol on the game map. The L, J, K, and M keys 
+will move the cursor up, left, right and down, respectively; the space bar 
+stops cursor movement, and the A key selects the current cursor location as 
+the offset approach point.
+6.2.5 Target Arrival Time Selection
+    The desired arrival time over the target is entered as a single 3 or 4 
+digit number in 24-hour notation (eg, 715, 1430). This will be converted to 
+an assembly point departure time, based on the total flying distance to the 
+target and the speed of the slowest aircraft in the raid.
+6.2.6 Assignment of Forces
+     Bomber units are assigned to a raid first, followed by the escorting 
+fighters. A running total of the number of fighters and bombers assigned is 
+continuously displayed on the top left-hand side of the screen. After a 
+particular aircraft type has been chosen, all available German units of that 
+type in the previously identified Luftflotte will be displayed on the right 
+side of the screen. The left and right arrows can be used to move the 
+selection cursor up or down. The number of serviceable aircraft available, 
+and the experience and morale levels of the highlighted unit, are shown on 
+the left side of the screen. The space bar will select the currently 
+highlighted unit.
+      Escort tactics must be specified each time a fighter type (ME-109E or 
+ME-110C) is selected. The tactics options and their implications for German 
+fighter and bomber losses, and British fighter losses, are shown below.
+             Escort     German Losses       British Losses
+             Tactic   Fighters   Bombers      Fighters
+             Close    High       Low           Low
+             Loose    Medium     Medium        Medium
+             High     Low        High          High
+6.2.7 Altitude Selection
+    The final item to be specified for a raid is the altitude over the 
+target, in kilofeet (thousands of feet). The raid will fly at this same 
+altitude from the time it leaves the assembly area until it returns there at 
+the completion of its mission. One exception to this is that dive bombers 
+will always dive below one thousand feet when releasing bombs over their 
+target.
+6.2.8 German Availability
+    German bombers may only fly one mission per day. German fighters may fly 
+two missions per day as long as the target arrival times are at least four 
+hours apart.
+
+7.0 BRITISH COMMANDS
+
+7.1 British Briefing Phase
+    The British morning briefing covers the same four topics as are covered 
+in the German briefing - yesterdays operations, intelligence, readiness, and 
+weather - plus a fifth topic - damage summary. To review a report, use the 
+right and left arrow keys until the desired report is highlighted, then press 
+the space bar.
+7.1.1 Yesterdays Operations
+    This briefing report summarizes the results of any raids conducted 
+yesterday. Information presented includes the number of German raids 
+detected, number of targets bombed, and the number of friendly and enemy 
+aircraft lost. All numbers are accurate, except for enemy losses, which is an 
+estimate (usually optimistic).
+7.1.2 Intelligence
+    The British intelligence report contains an estimate of the German 
+aircraft losses and replacements since the start of the scenario, and the 
+estimated Luftwaffe current strength. Just like the German intelligence 
+report, the Luftwaffe current strength estimate can be expected to be high 
+early in a scenario, and tending toward the low side late in the scenario 
+because of the overly optimistic enemy loss estimates.
+7.1.3 Readiness
+     The current status of each RAF squadron is presented in the readiness 
+report. Separate listings for each of the four RAF Groups indicate the number 
+of serviceable aircraft, number of pilots, aircraft type and experience, and 
+morale levels. A summary at the end presents the total number of serviceable 
+aircraft of each type for all of Fighter Command.
+7.1.4 Damage Summary 
+    The current damage state of each target is presented in this report, 
+grouped by target type for airfields and radar sites, the current operational 
+status also is indicated.
+7.1.5 Weather
+    British weather forecasts of the expected cloud cover over southern 
+England will usually be more accurate than the German forecasts, but seldom 
+perfect. The forecast for the current day is presented in this report, 
+accompanied by an interpretation of the likely operational effects of that 
+weather.
+7.2 British Orders Phase
+    Orders which the British player may issue to his forces at the start of 
+each day are:
+       Change Default Readiness and Tactics
+       Establish Fighter Patrol Stations
+       Change individual Squadron or Airfield Readiness
+       Transfer Squadrons Between Airfields
+    Most of the above orders also can be given during the intercept Phase, 
+and their use will be covered in more detail in the intercept Phase section 
+(7.3).
+7.2.1 Change Default Readiness and Tactics
+    Default values are used in the absence of any other information as a 
+means of minimizing the number of decisions the British player must make 
+during the intercept phase. A default readiness state can be specified for 
+each of the four Air Groups. All units in a Group will be placed in the 
+default readiness state at the start of the day, unless a different state was 
+specified using the Change Squadron/Airfield Readiness order.
+    Three default tactics can be specified for each British aircraft type 
+These tactics are target priority, urgency, and aggressiveness. Target 
+priority options are to attack fighters, bombers, or either. The presence of 
+German escorting fighters and their tactical doctrine affects the probability 
+of attacking the desired target type. Intercept urgency options are immediate 
+attack, intermediate, and bounce. An immediate attack will result in the 
+highest probability of successful intercept in the shortest possible time, 
+but will also cause friendly losses to be higher.The bounce option will take 
+longer, but will cause higher enemy losses and lower friendly losses, if 
+intercept occurs. Aggressiveness can be specified using a scale of 1 to 9, 
+with 1 being cautious and 9 being daring. Increased aggressiveness causes the 
+expected losses on both sides to increase.
+7.3 British Intercept Phase
+   The "play of the game" in fighter Command really takes place during the 
+British intercept Phase. In this phase, the British player receives contact 
+reports on German raids, assigns interceptors, and adjusts squadron locations  
+and readiness states. The commands which are available to allow the British 
+player to perform these tasks are described below.
+7.3.1 Airfield Status (A)
+    This command provides information on the damage state of an airfield. It 
+also lists all squadrons currently at the field, their aircraft type, number 
+of serviceable aircraft, and alert state.
+7.3.2 Britain Map (B)
+    This command is used to return the original map of southern England, 
+along with the Raid Status Summary Display, to the screen.
+7.3.3 Change Readiness (C)
+    The readiness state of an individual squadron, or all the squadrons at a 
+particular airfield can be changed using this command.
+7.3.4 Establish Patrols (E)
+    British squadrons can be assigned to patrol stations using this command. 
+The cursor is used to select the patrol station location, and then the number 
+of the squadron which will occupy that station is requested. The standard 
+altitude for patrol stations is ten thousand feet. There may be up to ten 
+patrol stations occupied at one time. When  a squadron on patrol has 20 
+minutes remaining before being forced to return to refuel, the British player 
+will be asked if he wants to send a replacement squadron, or abandon the 
+patrol station. Squadrons on patrol which sight a German raid will attempt to 
+intercept and attack that raid. Squadrons on patrol may be told to intercept 
+a raid by using the 
+"I" command and entering the squadron number. In order to 
+intercept, the squadron must first reach its own station position.
+7.3.5  German Raid identification (G)
+    This command will show you the plot symbol for a given raid.
+7.3.6 intercept German Raids (I)
+    This is the command which permits interceptors to be ordered into the air 
+against German raids. The selection of which squadrons to assign can be made 
+in one of three ways: identifying the squadron directly, selecting an 
+airfield and then choosing a squadron from that field, or listing all 
+available squadrons in a particular Group and selecting the intercepting 
+squadron from that list. The plot symbol for the squadron will appear as  
+soon as the squadron is in the air.
+7.3.7 London Map (L)
+    This command causes the detailed map of the area around London to be 
+displayed.
+7.3.8 Midlands Map (M)
+    This command causes the detailed map of the Midlands region, just north 
+of London, to become the background map.
+7.3.9 Pause (P)
+    Pause simply causes program execution to be suspended temporarily.
+7.3.10 Radar Status (R)
+    This command permits determination of the current damage state of all 
+radar stations.
+7.3.11 Southern Map (S)
+    This command causes the detailed map of the southernmost region to be 
+displayed.
+7.3.12 Transfer Units (T)
+    This command is used to move squadrons from one airfield to another. The 
+squadron to be transferred is first identified, and then a list of all 
+airfields is displayed to aid in the selection of the destination. Transfers 
+cause a unit to become unavailable for a 2-hour period upon arrival at its 
+new base. Transferred units will remain at their new airfield until 
+transferred again. Transfers executed during the British Orders phase will 
+occur during the evening (thus the planes will be available for use at 0600) 
+Each group may contain up to 35 squadrons.  Each sector airfield may hold up 
+to four squadrons while non-sector airfields may hold up to two squadrons.
+7.3.13 Group Status (O, 1, 2, 3)
+    These commands are used to list all squadrons in a Group, together with 
+the aircraft type, number of serviceable aircraft, airfield and alert state. 
+The command to use is the last digit of the Group number, eg, a "1" will call 
+up the report for 11 Group.
+
+8.0 INTELLIGENCE
+
+    Intelligence is information on the status of enemy forces and targets, 
+and on enemy intentions. The accuracy of intelligence information varies from 
+very good, to wild guesses. In general, British intelligence will be more 
+accurate than the German intelligence, in addition, the British player will 
+receive occasional reports on his opponents intended bombing targets, which 
+simulates  the use of UlTRA to break the German codes.
+8.1 Enemy Forces and Targets
+    The morning briefing for each side contains an estimate of the      
+current strength of the opponent's air forces. This estimate is based on an 
+accumulation of the estimated enemy losses and replacements during the 
+battle, and an assumed strength at the start of the scenario. All of these 
+estimates will tend to be higher than what is actually true, especially for 
+enemy losses. This will cause the total strength estimate to be high early, 
+and to tend toward the low side late in the scenario. For the German report, 
+the level of opposition encountered in the most recent days raids is used to 
+"validate" the intelligence information. The RAF strength estimates will be 
+revised upward if higher than expected opposition is encountered, and 
+downward if the opposition is lighter than intelligence predictions.
+    The German intelligence report contains a listing of all British targets 
+which are estimated to have a current damage level greater than 50%. The 
+contents of this report are derived from original damage reports from 
+returning raids, and from the presumed occurrence of reconnaissance flights. 
+Reconnaissance flights do not actually occur in the game, but their likely 
+results are reflected in the damage estimates. Therefore, these estimates are 
+likely to be better if there was  good weather yesterday, and worse if the 
+weather was  bad.
+8.2 Special Intelligence
+    The British intelligence report occasionally will contain a special piece 
+of intelligence information, which is presumed to have come from the breaking 
+of German codes. This intelligence will contain the target of one of the 
+German raids scheduled for the current day. This information is normally 
+quite reliable, and can be used to optimize the British defense against this 
+particular raid.
+
+9.0 RADAR AND VISUAL SEARCH
+
+    The two principal means of detecting German raids are radar and visual 
+search. German raids will not be reported to the British player until they 
+have been detected by one or the other of these methods, or until they bomb 
+their target.
+9.1 Radar Search
+    The British have 26 radar stations located along the south and east 
+coasts of England. These radar stations are of two types; Chain Home (CH), 
+used to detect high-flying aircraft; and Chain Home low(CHL), used to detect 
+low-flying aircraft. There are 12 CH sites and 14 CHL sites, which are 
+identified on the map on the Player Aid card, and in the Radar status and 
+Damage Summary reports. The CH radars are capable of detecting aircraft up to 
+80 miles away, although detection ranges of 30-50 miles are more common. The 
+minimum altitude for CH radar detection is 3,000 feet. CHL radars can detect
+aircraft flying below 6,000 feet, at ranges out to 40 miles. Radar detection 
+probabilities are proportional to the number of aircraft in a raid and the 
+altitude at which the raid is flying.
+9.2 Visual Detection
+    The British Observer Corps are able to detect aircraft flying over 
+England. Detection is more likely in better weather and at lower altitudes. 
+Large raids are more readily detected than small ones. British fighter 
+squadrons on patrol also can make visual detections. This is a useful tactic 
+for filling in for damaged radar sites.
+
+10.0 COMBAT
+
+10.1 Air-to-Air
+     Combat between aircraft in the air occurs whenever British aircraft 
+intercept German raids. Each air-to-air combat is assumed to take place 
+between a single British squadron and a single German Gruppe. If more than 
+one type of aircraft is  present in a raid, then the particular Gruppe    
+which will be engaged by an intercepting squadron is determined by a 
+combination of the British target priority tactic, and the German escort 
+tactic. Losses inflicted on both sides also are a function of these same 
+tactics. Other factors which affect aerial combat results are; weather,  
+altitude difference, experience, morale, aircraft types, and British 
+aggressiveness and urgency. If a Bomber Gruppe is  engaged by a British 
+squadron and German fighter escorts are available, then there is a 
+possibility that a fighter Gruppe will counter-attack against the British 
+squadron.
+    Losses occur to aircraft and pilots separately. An aircraft may be either 
+damaged or destroyed, and its pilot may be killed, wounded, or survive. The 
+probability of both aircraft and pilot survival is higher the closer a unit 
+is to its  home base. All British fighter units will head for their home base 
+immediately upon engaging in aerial combat. German bomber units which have 
+sustained losses greater than 10% may abort their mission and return to base, 
+depending upon the experience and morale of the unit. Once a unit has aborted 
+its mission, it may no longer engage or be engaged in combat. German fighter 
+units may remain after an engagement (this is influenced by the number of 
+enemy planes damaged, ie, the more enemy planes that are damaged in an 
+engagement the greater the likelihood that the German unit will head home).
+10.2 Air-to-Ground
+     The only units which may conduct air-to-ground combat are the German 
+bomber Gruppen, and a few specialized fighter-bomber units. These latter 
+units are indicated by the designator EG (Erprobungs Gruppe). Whenever
+these units are assigned to attack a target, with no pure bomber aircraft 
+types present, they will be assumed to be carrying bombs. However, if 
+attacked prior to reaching the target, they will jettison their bombs and 
+become normal fighters again. The damage inflicted by a German Gruppe bombing 
+a target depends upon the number of aircraft their altitude, the type of 
+aircraft, the type of target, experience, morale, and the weather. Damage to 
+radar stations is subject to considerable variability, since it takes a 
+critical hit on the antenna or transmitter building to knock the station off 
+the air. Damage to airfields is also quite variable, and damage to aircraft 
+on the ground also can vary considerably. Aircraft on runway alert and 
+aircraft that take off during the same 2-minute increment in which an 
+airfield is bombed will not suffer damage to their aircraft.
+    Some aircraft types are more effective against particular target types 
+than against others. Dive bombers and fighter-bombers are most effective 
+against radar sites, and least effective against industrial targets, while 
+the opposite is true of level bombers.
+    Each German bombing raid has a 15% chance that it will not attack the 
+target due to poor intelligence. Many German missions were flown against 
+worthless targets during the campaign due to poor German intelligence. Since 
+we do not attempt to hide potential targets from the German player, the 15% 
+rule was designed to account for this fog-of-war factor.
+10.3 Ground-to-Air
+    Each target is defended by anti-aircraft (AA) fire. The intensity of AA 
+fire varies by target type, as indicated in the following list of descending 
+AA intensity:
+       London
+       Aircraft industrial targets 
+       Other industrial targets 
+       Sector airfields
+       Satellite airfields
+       Radar sites
+    Industrial targets are the only ones that have AA capability against 
+aircraft flying above 5,000 feet, since very little damage can be inflicted 
+on airfields or radar sites by high-flying bombers. Losses to AA fire will be 
+less at higher altitudes and in poorer weather.
+
+11.0 PRODUCTION, MAiNTENANCE AND REPAiRS
+
+11.1  Production of New Aircraft
+    Each side receives new aircraft at the end of each days' play in 
+approximately the same numbers as occurred during the actual Battle of 
+Britain. Production of new aircraft for the British is  affected by damage to 
+its aircraft industry, however.
+    At full capacity, British production of new aircraft is about 6 per day 
+for Hurricanes, 3 per day for Spitfires, and 2 per day for Blenheims and 
+Defiants. Damage to each aircraft type production centers will reduce output 
+in proportion to the current damage level. Damage to avionics industry cities  
+will affect the production rate of all aircraft types. There is a 5-day delay 
+before damage affects the delivery of aircraft, eg, damage inflicted on the 
+first day of play will not affect aircraft deliveries until after the fifth 
+day of play.
+    German aircraft production rates are approximately 4 per day for Me-109s, 
+3 per day for JU-88s, and between 1 and 2 per day for the other aircraft 
+types.
+    The computer automatically assigns newly delivered aircraft to the units 
+which have the fewest number of that particular aircraft type.
+11.2 Repair of Damaged Aircraft
+    Each squadron or gruppe can repair 1 or 2 aircraft per day, returning 
+them to the serviceable category. There is an upper limit of between 75 and 
+90% on the number of serviceable aircraft in a unit.
+11.3 Repair of Airfields, Radar Stations and Industries
+    Targets which have sustained damage will have the amount of damage 
+reduced during the Computer Overnight Activity Phase. The amount of damage 
+repaired depends on the target type: roughly 4% per day for industries, 10% 
+per day for airfields, and 12% per day for radar stations. The repair rate is 
+highly variable for radar stations, and fairly predictable for airfields and 
+industries.
+
+12.0 PILOT REPLACEMENTS
+
+    Pilots who are lost in combat are replaced from a reserve pool of pilots. 
+The number of replacement pilots available is different for each aircraft 
+type, and is essentially proportional to the number of aircraft of that type 
+at the beginning of the game. The pilot replacement rate is about 80% of the 
+new aircraft production rate for most aircraft types. This means that it is  
+more difficult to replace pilot losses, than aircraft losses  The British 
+will usually feel the effect of any pilot shortage more rapidly than the 
+Germans, since they start with fewer extra pilots in each unit. Replacement 
+pilots are assigned automatically to the units which have the lowest ratio of 
+pilots to aircraft.
+
+13.0 UNIT QUALITY
+
+13.1 Experience
+    Experience represents the average amount of exposure to combat by the 
+pilots in a unit. This is a number from 0 to 9, with 0 representing no 
+experience, and 9 a highly veteran unit. At the start of the fighter Command 
+time period, the German fighter units have the most experience, followed by 
+the British Spitfire and Hurricane squadrons. A unit will undergo a 
+fractional increase in experience each time it engages an enemy unit (only if 
+friendly unit has an experience level under 5) and/or destroys an enemy 
+aircraft and a fractional decrease in experience whenever a new pilot is  
+assigned to the unit.
+13.2 Morale
+    Morale is a subjective measure of the attitude or spirit of a unit, 
+represented by values from 0 (low) to 9 (high). Morale will be affected 
+positively by shooting down enemy aircraft, inflicting heavy damage on a 
+target, being assigned to the 2-hour call (or to a lesser extent 30-minute 
+alert) readiness state, or having a day off from combat. Negative morale 
+changes are the result of combat losses, flying missions (including transfer 
+missions), bombing of a squadron's home base (irrespective of whether the 
+squadron is on the base at the time of the bombing), or remaining at a high 
+readiness state for extended periods of time. A units morale will never rise 
+above 6.0 from resting (ie, success in combat is the only way to raise morale 
+over 6).
+13.3 Effects of Unit Experience and Morale
+    Units with higher morale and experience will be more accurate with their 
+bombs, and will be more successful in dogfights. Units with morale under 3 
+will have a much greater chance of being unable to locate the enemy. Note a 
+squadron with E/M of 5/5 will be much more effective than a squadron with E/M 
+of 9/1 or 1/9.
+
+14.0 UNIT AVAILABILITY
+
+14.1 Readiness
+    British squadrons can be assigned to any of 5 readiness states, which 
+represent the time required before they can take off to intercept a German 
+raid. Readiness can be assigned either on a default basis for a Group or an 
+airfield, or for an individual unit.
+    The highest readiness state is  RUNWAY ALERT, where pilots are in their 
+planes on the runway with the engines running. This is the only readiness  
+state from which aircraft on the ground will automatically take off and avoid 
+damage if their base is attacked. The maximum time a unit can be in this 
+state is two hours. When this  maximum time is reached, the unit will be 
+unavailable for 20-40 minutes while refueling, and then will return to its 
+Group's assigned readiness state.
+    COCKPIT ALERT is the next highest readiness state. The entire squadron 
+can be in the air in 4 minutes from this alert condition. Assigning a unit to 
+either Cockpit or Runway Alert will lower the morale of the unit (Runway 
+alert will cause a greater reduction in morale than Cockpit Alert).
+    The intermediate readiness condition is HUT ALERT. The time required to 
+take-off is 8 minutes. A unit can remain in this readiness state indefinitely 
+with no positive or negative morale effects.
+     As the name implies, it takes 30 minutes for a squadron to respond to an 
+order if it is in the 30-MINUTE AlERT state. If a unit is not assigned to a 
+higher alert state during the day, it will have a slight morale increase.
+     The least responsive readiness condition is 2-HOUR CAll. Units which are 
+in this condition receive an increase in morale if they remain in it for the 
+entire day.
+14.2 Endurance
+     Each aircraft type has a maximum time that it can remain in the air. 
+This  endurance time affects both the distance German aircraft can fly in 
+reaching their targets, and the amount of time a British squadron can remain 
+on patrol or searching for a raid. Endurance values are shown in the data 
+presented for each aircraft type. The units most affected by limited 
+endurance are the German ME-109E fighters and JU-87B Stuka dive bombers. 
+These units usually can only conduct raids about as far away as London. 
+Larger raids, and raids at higher altitudes spend more time in the assembly 
+area, and thus reduce the distance which limited endurance aircraft can 
+cover. The maximum range shown on the map assumes small raids at low 
+altitude.
+14.3 Refueling
+     When British aircraft return from a mission they must spend 20-40 
+minutes on the ground refueling before being able to return to action    
+(determined at random).
+
+15.0 WEATHER
+
+15.1 Weather Generation and Prediction
+     Weather is expressed in terms of percentage of cloud cover. The actual 
+cloud cover percentage is assigned using a procedure which insures having at 
+least 3 days of relatively good weather and at least 2 days of relatively 
+poor weather each week. Fair to good weather also is insured for the first 
+and last day of each scenario.
+     Weather forecasts provided to the players are estimates of the actual 
+cloud cover percentage, and can be in error by as much as 30 percent. The 
+forecasts given to the British player are usually more accurate than those 
+given to the German player.
+15.2 Weather Effects
+     The cloud cover percentage significantly affects the likelihood that a 
+German raid will be able to find and bomb its assigned target(s). Similarly, 
+the probability that a patrolling or intercepting British squadron will spot 
+a German raid depends on the percent of cloud cover. Non-combat aircraft 
+losses also are much more likely when missions are flown in poor weather.
+
+16.0 SCENARIO DESCRIPTIONS
+
+16.1 Campaign (13 August - 15 September 1940)
+    This scenario covers the 34-day period from Eagle Day on 13 August 
+through the climactic great air battle on 15 September, celebrated as Battle 
+of Britain day in England.
+16.2 Phase I (13 August - 23 August 1940)
+    The Phase I scenario covers the critical opening week and one-half of the 
+battle. The Germans primary targets during this phase were the radar stations 
+and RAF airfields.
+16.3 Phase II (24 August - 6 September 1940)
+    The middle 2 weeks of the battle are covered in Phase II. The intensity 
+of the German raids was least during this phase of the actual battle, partly 
+due to poor weather. The primary targets during this phase were the RAF 
+sector airfields.
+16.4 Phase III (7 September - 15 September 1940)
+     The principal German target during the final week of the battle was 
+London. Operations orders issued early in September also ordered Luftwaffe 
+units to begin concentrating attacks on British aircraft factories.
+16.5 Eagle Day (13 August 1940)
+    The start of the German air offensive against Britain was given the code 
+name Adlertag, or Eagle Day. The two principal targets for this day were 
+radar stations and airfields. However, because of faulty intelligence, 
+several of the airfields the Germans actually attacked this day were Bomber 
+and Coastal Command fields, and not fighter Command's. This scenario, 
+introductory in nature, is intended to produce an all-out assault by the 
+Germans.
+
+17.0 VICTORY CONDITIONS
+
+    The Germans have the obligation to initiate attacks in Fighter Command, 
+and the victory conditions reflect the necessity for the Germans to achieve 
+certain objectives. The British players role is to prevent the German player 
+(or the computer) from achieving these objectives.
+    Victory points are used to quantify the degree to which the German player 
+is able to achieve each of his objectives in the multi-day scenarios (all 
+except Eagle Day), victory points are awarded for the following damage to 
+each of the 3 target types , difference in Luftwaffe average morale and 
+fighter Command average morale, ratio of German fighters to British fighters, 
+British aircraft losses, and forcing the British player to pull back from 
+basing any units in the three closest airfields (Manston. Lympne and 
+Hawkinge). The German player loses points for German aircraft losses, and if 
+the fighter ratio favors the British. The victory points associated with each 
+item in each scenario are shown in the table on the next page. It also 
+indicates the levels of victory associated with different victory point 
+totals.
+
+  Victory points are awarded during the day for each of the following:
+
+                                        SCENARIO
+CONDITION                CAMPAIGN  PHASE  PHASE  PHASE  EAGLE
+                                     I      II    III    DAY
+Each British aircraft
+lost                         +1     +1      +1     +1     +1
+Each damage point to
+British aircraft industry
+(except london)             +1/2   +1/2    +1/2    +1    +1/2 
+Each damage point
+to British general
+industry                     1/4    1/4     1/4   +1/2    1/4
+Each damage point
+to London                    +2*     0       0      0      0
+Each German
+bomber lost                  -1     -1      -1     -1     -1
+Each German fighter
+lost                          0      0       0      0     -1
+Victory points are accumulated at the end of each day, according to the 
+following criteria:
+All British radars 
+operational                 -10    -20     -10     -10    -50**
+Each Sector Airfield
+out of operation             +6     +9     +12      +6    +12@
+Each Satellite Airfield
+out of operation             +2     +3      +4      +2     +4@
+Ratio of German fighters
+to British fighters (FR)   15xFR  15xFR   15xFR   15xFR     -
+Average German morale
+level less average British
+morale level (M)            10xM   10xM    10xM    10xM    10xM
+If no British fighters 
+are based at Hawkinge,
+Lympne or Manston            +5    +10     +10      +5       -
+Each Radar Station
+out of operation             +2     +3      +2       +2     +3
+Every 5% cloud cover          -     -      -        -        -
+* - after 6 September only
+@ -  points awarded for partial damage
+** -  All British Radars excluding Ventnor operational
+To determine the winner of a game, compare the victory point totals with this  
+chart:
+                   PHASE    PHASE    PHASE    CAMPAIGN    EAGLE
+                     I       II       III                  DAY
+BRITISH DECISIVE    <350    <500      <350     <1100       <10
+BRITISH MARGINAL  250-499  500-699  350-499  1100-1499    10-24
+GERMAN MARGINAL   500-699  700-999  500-699  1500-2099    25-44
+GERMAN DECISIVE     >699    >999      >699     >2099       >45
+
+18.0 STRATEGY NOTES
+
+18.1 German Player
+1. A good general rule to follow in assigning raids is to use at least as 
+many escorting fighters as you have bombers. The farther into England the 
+raid must go, the more fighters you need (and remember the ME-109 endurance 
+limit).
+2. Use your elite units carefully. Their initial high experience and morale 
+levels afford them a distinct advantage. 
+3. If your bomber losses are running too high, put more escorts with each 
+raid, and assign more of them to the Close escort tactic. If fighter losses  
+are too high, assign more escorts to the High escort tactic. 
+4. It is usually a good idea to concentrate your attacks in both time and 
+area, ie, saturate the British defenses. Use offset approach points to bring  
+all raids in along the same path as much as possible.
+5. A good strategy to follow is to make initial attacks against radars so 
+that they won t be able to detect subsequent raids. Attack airfields after 
+other targets, in the hope of catching more aircraft on the ground refueling.
+6. It is generally best to attack radars at low altitude (below 1000 feet), 
+airfields between 1 and 5 thousand feet, and cities above 5 thousand feet.
+7. Don't fly many raids when the weather gets bad. There is too much chance 
+of the target being obscured by clouds, and operational losses go up in bad 
+weather.
+18.2 British Player
+1. Avoid demoralizing units unnecessarily by keeping too many of them 
+assigned to high readiness states for too long. Give units with low morale 
+the day off occasionally, or send them to 13 Group to rest up for a few days.
+2. Use patrols to help screen against hit-and-run attacks on the radar 
+stations and airfields located closest to France. They also can be used to 
+fill in detection gaps caused by damaged radar stations, and to protect 
+airfields where several squadrons are refueling.
+3. Move your squadrons around occasionally so the German player doesn't 
+know which airfields are in use.
+4. Avoid over-committing your interceptors to the first two or three raids.  
+Some of these could be feints, and there could be many more raids coming.
+5. Use your less capable aircraft to attack deep penetration raids, or 
+raids which have been attacked several times already by Spitfires or 
+Hurricanes.
+
+19.0 CREDITS
+
+Game Design and Programming..............Charlie Merrow, Jack Avery
+Art and Graphic Design.................Louis Saekow and Kevin Heney
+Typesetting...............................................Abra Type
+Printing.............................A&a Printers and Lithographers
+Customized Disk Operating System..................Roland Gustafsson
+
+HISTORICAL NOTES
+
+BACKGROUND
+     In the summer of 1940, the German armed forces were recovering from 
+their victorious battle for France in the West, only Great Britain, whose 
+army had lost nearly all its equipment at Dunkirk, still resisted. ln fact, 
+the British position was so hopeless the Germans expected them to accept a 
+peace settlement, leaving Germany in control of the continent and in position 
+to deal with their real perceived enemy, the Soviet Union. When the British, 
+led, and encouraged by Winston Churchill, refused all German peace offers the 
+German armed forces prepared for an invasion of the British Isles as the only 
+way of finally subduing Britain.
+     As it had for centuries, the Royal Navy stood between Britain and its 
+continental enemy. Since Germany could not hope to match British sea power in 
+the channel, their only hope for a successful invasion lay in complete 
+control of the air. If the Royal Air force could be decisively defeated, the 
+Luftwaffe could insure the success of the planned invasion of Britain.
+LUFTWAFFE
+    As the Luftwaffe fighter and bomber Geschwaders established themselves on 
+their newly won airfields on the french coast, they constituted what was 
+undoubtedly the most powerful air force in the world. Losses over France and 
+the Low Countries had been light and the Luftwaffe, under its arrogant and 
+boisterous leader Hermann Goering, was prepared to deal the Royal Air Force 
+the same quick defeat it had administered upon every other air force they had 
+opposed.
+     While Goering provided more show than leadership, the Luftwaffe 
+possessed ample strategic and tactical talent in men like Chief of the Air 
+Staff, General Major Hans Jeschonnek and the commander of Luftflotte 2, 
+General der Fleiger Albert Kesselring. Thanks to combat experience gained 
+over Spain, Poland, Norway, Belgium, the Netherlands. and France, Luftwaffe 
+aircrews, and particularly the fighter pilots, were the most skilled and 
+capable combat fliers in the world. The German combat aircraft, tested in 
+combat, had proven superior to anything it had faced. Surely, it would do so 
+again against the Royal Air Force
+     ME-109E.  The "Emil", as it was affectionately called by its pilots, was  
+the universal single seat/single engine fighter of the Jagdgeschawaders as 
+they entered the Battle of Britain. lt was fast, maneuverable, and well 
+armed. It was clearly superior to any British fighter, with the exception of 
+the Spitfire, which was pretty much its equal below 20,000 ft. The 109 had 
+but one major flaw - it lacked range. This had not been significant over the 
+continent. It would prove fatal in the Battle of Britain.
+     ME-110C. The Me-110 was the long-range escort and strike fighter of the 
+Luftwaffe. It possessed the range capability which the Me-109 lacked. lt was 
+fast, well armed, and against the French and Poles, had proven very capable. 
+Over Britain, however, its lack of maneuverability and its sluggish 
+acceleration would make it no match for the British single-seat fighters.  
+The inability of the Me-110 to perform its long-range escort duties  
+effectively over Britain would prove to be one of the decisive factors in the 
+Battle Of Britain.
+HE-111H. To the British civilian, the He-111H, with the dull throbbing of its 
+unsynchronized engines and its unmistakable silhouette, personified the 
+"Jerry Blitz" better than any other German warplane. The 111 could carry an 
+adequate bombload to any target in Britain, and conducted some highly 
+successful attacks, including raids on Bristol and the Spitfire works in 
+Southampton in September. However, it lacked the firepower or robustness  to 
+defend itself against the British 8-gun fighters and, if caught unescorted by 
+109s, its formations were often decimated.
+     DO-17Z. The Dornier DO-17Z was known as the flying pencil due to its 
+extremely slim fuselage. It shared, with the HE-111, the major medium bomber 
+duties in the Battle of Britain and, while somewhat faster, also shared the 
+Heinkel's vulnerability to fighter attack if unescorted. The Dornier flew 
+many hundreds of sorties over Britain during the summer of 1940. and its  
+derivatives served actively throughout the war.
+     JU-87B. Throughout the series of German successes in Europe in 1939 and 
+1940, the JU-87 "Stuka" established a reputation as a supremely effective 
+aerial weapon. However, against the aggressive fighter encountered over 
+southern England, the slow speed and inadequate armament of the JU-87 led to 
+disastrous losses. The Stuka was quickly limited to channel and coastal 
+operations only, and then withdrawn from the battle altogether.
+      JU-88A. Of the several bomber types employed over Britain, the JU-88 
+was, by far, the finest. While vulnerable to fighter attack when unescorted 
+as were all bombers of the time period, the JU-88 was fast and maneuverable 
+enough to make effective interception difficult for spitfires and Hurricanes, 
+and nearly impossible for Blenheims, Gladiators, or Defiants. The aircraft's 
+most spectacular accomplishment over Britain occurred on the evening of 16 
+August when two JU-88 s came in low and fast over an RAF training field and 
+destroyed or damaged 63 aircraft, including 11 Hurricanes. One measure of the 
+success of the JU-88 is the fact that it would eventually be built in greater 
+numbers than all other German bomber types combined
+ROYAL AIR FORCE
+     After withdrawing from France, including nearly two weeks of constant 
+combat over Dunkirk, the RAF prepared to meet the Germans over Britain its 
+elf. RAF Fighter Command was badly outnumbered, most of its fighters were 
+significantly inferior to the ME-109, and its  pilots lacked the combat 
+experience of their German counterparts. Fighter Command did enjoy several 
+advantages of its own, however. The British pilots would be flying over their 
+own country, they would be guided and controlled by the best air defense 
+system in the world, and their spirit, dedication, and courage was  
+unsurpassed.
+     Perhaps as significant as any advantage possessed by Fighter Command was 
+the strategic insight possessed by its commander, Air Vice Marshal Sir Hugh 
+Dowding. He realized that to win the Battle of Britain, the Luftwaffe had to 
+gain control of the air over Southern England and the Channel. Fighter 
+Command, on the other hand, had only to survive. Time alone would tell which 
+way the scales of victory would tip, and it would be, in the end, by the 
+narrowest of margins.
+     SPITFIRE I. The Spitfire I was the first aircraft capable of meeting the 
+German ME-109 on an equal basis. It often took on the escorting fighters 
+while the Hurricanes went after the bombers. Flown by skillful and 
+experienced pilots like Doug Bader, Al Deere or Johnnie Johnson, the Spitfire 
+was indeed deadly.
+     HURRICANE I. ln the Battle of Britain, the Hurricane constituted 
+approximately 60% of Fighter Command strength, and accounted for more enemy 
+aircraft than any other type. The Hurricane was at a definite disadvantage 
+against the ME-109, which was significantly faster, but it held its own on 
+many occasions. Moreover, it was  an excellent bomber interceptor and, if 
+given an altitude advantage, could decimate a bomber formation quickly with 
+its eight wing-mounted 
+machine guns. The Hurricane, although not an 
+outstanding performer, was there in numbers when the RAF needed it 
+desperately.
+      DEFIANT. The Defiant was the first fighter in the world to incorporate 
+a power-driven gun turret as its major armament. It achieved considerable 
+initial success over Dunkirk, when German fighters wouLd "bounce" it as they 
+would a conventional fighter and thereby walk right into the considerable 
+firepower of the dorsal turret The Luftwaffe fighter pilots learned quickIy, 
+however, and began to attack the vulnerable underbelly of the Defiant, whose 
+performance was  considerably penalized by the weight of the turret and 
+second crewman. The Defiant was withdrawn from regular day combat in late 
+July when a formation of six was decimated by a flight of Messerschmitts       
+      GLADIATOR. The GIadiator was the last biplane fighter to serve in the 
+RAF. It was totally unsuited for interceptor duties against the fast and well 
+escorted German formations, and was an easy victim for the ME-109.
+      BLENHEIM I. The Blenheim was a light bomber whose speed was superior to 
+the pre-war fighters which were its contemporaries. For that reason, it was  
+given a fixed forward firing armament and pressed into service as a fighter. 
+Under the right circumstances, it could deal with an unescorted bomber 
+formation but, if caught by escorting fighters - even the usually inept 
+ME-110 - it was in for a bad time.
+
+THE ACTUAL BATTLE
+    The long-anticipated Eagle Day, the start of the Luftwaffe aerial assault 
+on Britain, actually opened with a series of blunders. The weather was not 
+the best, so the attack was ordered delayed. But some units didn't get the 
+word, and in the confusion which resulted the Germans eventually managed to 
+mount only 1500 sorties, losing 45 aircraft to the British loss of 13.
+    The attack tempo remained heavy throughout the first week, with the 
+Germans twice losing more than 70 aircraft in a single day, and British 
+losses reaching 34 planes destroyed in one day, on 15 August. The major 
+German targets were the radar stations and airfields. Fortunately for the 
+British, the Germans did not concentrate their attacks strictly on Fighter 
+Command fields, thus  sparing these hard-pressed facilities from the brunt of 
+the intitial attacks.
+     British tactical doctrine during this period was to make defense of     
+the sector airfields their top priority, and to have all interceptors go 
+after the bombers, avoiding combat with the German fighters whenever 
+possible.
+     During the second phase of the Battle, the Germans began to focus their 
+attention almost exclusively on the 11 Group sector airfields. By the        
+first of September, these raids were beginning to have devastating effects.  
+Six of the seven 11 Group sector fields were heavily damaged, and the British 
+were losing about twice as many aircraft as they were receiving. Their pilot 
+total was reduced almost 25%, and British morale was  declining rapidly. 
+German intelligence reports began to indicate that the British had very few 
+operational fighters remaining.
+      But with victory apparently within their grasp, the Germans began  
+shifting targets to the aircraft factories, and to London. Granted an 
+unexpected respite from the steady pounding they had been taking, the sector 
+airfields soon were back in business. London, on the other hand, was heavily 
+hit for the first time on 7 September. Most of the German bombers sent to 
+attack London on 9 September were turned back by vigorous British opposition, 
+but a more determined attack on 11 September caused extensive damage. The 
+Spitfire factory at Southampton was also badly damaged this same day, and the 
+British lost more aircraft than the Germans for one of the few times during 
+the Battle. Things were again Looking bleak for the British.
+    On Sunday, 15 September, the final decisive daylight battle was fought. 
+Almost 1,0000 German sorties were flown, and 60 aircraft failed to return. In 
+the face of such a high loss rate, Hitler two days later ordered OperatIon 
+Sea Lion, the planned invasion of England, to be postponed until further 
+notice, and the Battle of Britain was, in essence, declared lost by the 
+Germans.

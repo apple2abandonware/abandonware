@@ -1,0 +1,1445 @@
+NATO DEFENSE OF THE FULDA GAP
+REFORGER '88 MANUAL
+=============================
+
+TABLE OF CONTENTS
+-----------------
+
+ 1.0 INTRODUCTION
+     Description of Action
+     Talking to the Computer
+     Saving a Game
+     The Map
+     Starting the Game (Apple)
+     Starting the Game (Atari)
+
+ 2.0 GENERAL DESCRIPTION
+     Pans Inventroy
+     Abbreviations
+
+ 3.0 SEQUENCE OF PLAY
+     Determining Conditions of Play
+     Historical Set-Up
+     Sequence of Play
+     Keeping Time
+     Game Duration
+     Limited Intelligence
+
+ 4.0 GROUP ADJUSTMENT PHASE
+     Combat Groups
+     Combat Units
+     Dividing Combat Groups
+     Transfering Units
+     The Map Display
+     Ending the Game
+     Renumbering Combat Groups
+     Declaring Chemical Warfare
+     Air Group Display
+     Delay Adjustments
+     Casualty Reports
+
+ 5.0 SUPPLY PHASE
+     Depot Movement
+     Supply Distribution
+     New Depots
+     Supply Usage
+     Refugees
+     NATO Replacements
+
+ 6.0 TACTICAL PLOT - ROAD MOVEMENT PHASE
+     Selecting Combat Groups
+     Mode Selection
+     Road Movement
+     Plotting Tactical Movement
+     Combat Situations
+     Plotting Bombardments
+     Plotting Recon Missions
+     Plotting Bridge Demolition
+     Plotting Bridge Construction
+
+ 7.0 AIR MISSIONS
+     Air Superiority Missions
+     Planning Airstrikes
+     Combat Aircraft
+     Flying Conditions
+     Airborne Missions
+     Air Recon Missions
+
+ 8.0 COMBAT RESULTS CALCULATIONS
+     Weapon Systems
+     Disrutpion
+     Disruption Effects
+     Terrain Effects
+     Zones of Control
+     Attack Strength Allocation
+     Morale Reduction
+     Chemical Warfare
+     Sighting Enemy Forces
+
+ 9.0 TACTICAL EXECUTION & COMBAT PHASE
+     Air Superiority Resolution
+     Airstrike Resolution
+     Air Recon Resolution
+     Non-Combat Aircraft Losses
+     Air Drop Resolution
+     Bombardment Resolution
+     Bridge Construction
+     Bridge Demolition
+     Recon Reports
+     Tactical Movement
+     Opportunity Fire
+     Assault Combat
+     Retreats
+     Advance After Combat
+     Combat Reports
+     NATO Cities
+10.0 WEATHER
+11.0 VICTORY DETERMINATION
+     Scoring
+     Victory Levels
+12.0 SOLITAIRE PLAY
+13.0 ORDER OF BATTLE
+
+
+1.0 INTRODUCTION
+================
+REFORGER '88 is a ground tactical game of combat between the forces of NATO and
+the Warsaw Pact which takes place at the Fulda Gap in the year 1988.  The game
+covers the first week of the war.  The Warsaw Pact attacks with 12 divisions in
+an attempt to capture Frankfort and destroy Rhein-Main Air Force Base, NATO
+defending with 5 divisions must fight a desperate delaying action.
+
+
+1.10 Description of Action:
+--------------------------
+Each game turn consists of 12 hours of operations.  Operations consist of
+supplying and moving combat forces, changing formation, planning assaults, air
+strikes, airborne mission and artillery bombardments and resolving combat
+situations.
+
+1.2 Talking to the Computer:
+---------------------------
+To enter a response to the computer that consists of numbers (such as a unit ID
+number), type the number into the computer and press the <RETURN> key to select
+a routine from a menu or answer a Yes/No question just press the desired key.
+
+WHERE THE EXIT COMMAND IS NOT SPECIFIED. PRESS <RETURN> TO QUIT THE ROUTINE.
+
+1.3 Saving the Game:
+-------------------
+At the end of each player's ORDERS PHASE and at the end of each turn the
+computer will allow the player(s) to save the game in progress.  You will need
+a scratch disk to store the saved game data.  Save game disks for the Apple
+must be initialized for SSI use during a game by following instructions
+included in the game program.  Atari users may use any disk that has been
+properly formatted for use on the Atari.  Once a game is saved, you will be
+able to restart it at the point where you left off.
+
+WHEN RESTARTING A SAVED GAME YOU MUST SET THE CORRECT SOLITAIRE LEVEL AND
+NUMBER OF PLAYERS ON THE OPENING MENU.
+
+1.4 The Map:
+-----------
+The game map covers the battlefields in Central Germany from Kassel in the
+north to Wurzburg in the south.  Movement around the map is controlled by a
+hexagon grid system (31 x 32 hexes) with each hexagon representing 6 kilo-
+meters.
+
+1.5 Starting the Game (Apple):
+-----------------------------
+To begin the game, boot your game disk and the game will begin automatically.
+If you are using an Apple II with Pascal you must first use your BASICs disk,
+if you are using an Apple III you must first go into Apple II emulation mode.
+
+1.6 Starting the Game (Atari):
+-----------------------------
+To begin the game, boot the Scenario side of your disk.  After selecting the
+starting values for your game, you will be told to insert the Game side of
+your disk.  Remove all cartidges from your computer before booting your disk.
+
+
+2.0 GENERAL DESCRIPTION
+=======================
+
+2.1 Parts Inventory:
+-------------------
+  a. Game box
+  b. Rule Book
+  c. 5 1/4" game disk
+  d. Two map/data cards
+
+2.2 Abbreviations:
+-----------------
+Abbreviations used in the game are listed below:
+
+  DIV   division
+  BDE   brigade
+  DET   detachment
+  RGT   regiment
+  BN    battalion
+  GDS   Guards
+  MECH  mechandized
+  MOT   motorized
+  PZG   panzergrenadier
+  INF   infantry
+  RIF   rifle
+  ART   artillery
+  AT    anti-tank
+  SPH   self-probelled howitzer
+  FH    field howitzer
+  M     mortar
+  RL    rocket launcher
+  ENGR  engineer
+  APC   armored personnel carrier
+  G/M   gun/missile systems
+  AA    anti-aircraft
+
+
+3.0 SEQUENCE OF PLAY
+====================
+REFORGER '88 is a two-sided game: NATO vs Warsaw Pact.  The NATO forces must be
+commanded by a human player.  The Warsaw Pact forces may be commanded by either
+a human or the computer.
+
+3.1 Determining Conditions of Play:
+----------------------------------
+At the start of the game the player(s) must determine the conditions under
+which the game will be played.  On the Apple version, the conditions may be
+changed by entering the following numbers:
+
+     (1) NEW GAME or SAVED GAME
+     (2) 1 DISK DRIVE or 2 DISK DRIVES
+     (3) SOLITAIRE or TWO PLAYERS
+     (4) SOLITAIRE LEVEL OF DIFFICULTY
+     (5) SCENARIO SUPPRISE or EARLY WARNING
+
+On the ATARI version:
+
+     (1) NEW GAME or SAVED GAME
+     (2) SOLITAIRE or TWO PLAYERS
+     (3) SOLITAIRE LEVEL OF DIFFICULTY
+     (4) SCENARIO SUPPRISE or EARLY WARNING
+
+
+3.2 Historical Set-Up:
+---------------------
+At the start of the game, the computer will assign air combat forces to their
+starting locations prior to the battle.
+
+3.3 Sequence of Play:
+--------------------
+  1   NATO Group Adjustment Phase
+  2   NATO Supply Phase
+  3   NATO Tactical Plot & Road Movement Phase
+  4   NATO Air Mission Allocation Phase
+  5   NATO Save Game Phase
+  6   Warsaw Pact Group Adjustment Phase
+  7   Warsaw Pact Supply Phase
+  8   Warsaw Pact Tactical Plot & Road Movement Phase
+  9   Warsaw Pact Air Mission Allocation Phase
+ 10   Warsaw Pact Airborne Phase
+ 11   Warsaw Pact Save Game Phase
+ 12   Tactical Execution & Combat Phase
+ 13   End of Turn Save Game Phase
+
+3.4 Keeping Time:
+----------------
+Each game turn represents 12 hours, AM turns are daylight turns and PM turns
+are night turns.  The calendar days adjusted at the start of each AM turn.  The
+"Suprise" scenario starts on 5/8/88 AM.  The "Early Warning" scenario starts on
+5/8/88 PM.
+
+3.5 Game Duration:
+-----------------
+Either player may end the game during his GROUP ADJUSTMENT PHASE.  Both players
+should agree when ending the game in this manner.  The game will end automatic-
+ally at the end of the 5/15/88 AM turn.
+
+3.6 Limited Intelligence:
+------------------------
+The players' knowledge of the opposing forces location and strength will be
+limited.  Opposing forces will be displayed on the map only if they have been
+in contact with friendly ground forces or sighted by friendly recon aircraft.
+All NATO units are considered sighted on the first turn of the suprise attack
+scenario.
+
+
+4.0 GROUP ADJUSTMENT PHASE
+==========================
+During the group adjustment phase the player(s) may divide their combat groups,
+transfer units from one group to another, renumber their groups, view the map
+display, air group display, casually display, declare chemical warfare, adjust
+the delay loop or end the game.
+
+4.1 Combat Groups:
+-----------------
+Combat groups may contain from 1 to 5 brigades, regiments or battalions (units)
+.  Each combat group (CG) has an identification number and a divisional
+designation.  It is possible for more than one CG to have the same divisional
+designation.  Different CGs will never have the same group idenification (ID)
+number.
+   Group ID numbers 1-63 are reserved for NATO CGs.  Group ID numbers 64-127
+are reserved for Warsaw Pact CGs.
+
+   EXAMPLE    12 PANZER   GROUP 5
+
+The example shows the CG's divisional designation and group ID number as it
+would appear on your display, 12 PANZER is the divisional designation and "5"
+is the group ID number.
+
+4.2 Combat Units:
+----------------
+Each CG may contain from 1 to 5 combat units (CUs).  CUs are given a
+descriptive name to reflect its basic function.  Each CU may contain up to 6
+different weapon systems.
+
+   EXAMPLE    PZG BN
+              36 MARDER  39 MILAN  6 120M
+              12 JPZ-RK
+
+In the example a CU is shown as it would appear on your display, PZG BN is the
+descriptive name.  The CU contains 4 different weapon systems, 36 Marder armor-
+ed personnel carriers (each containing 1 squad of infantry), 39 Milan missile
+teams, 6 120mm mortar teams and 12 JPz Rakete self propelled missile systems.
+
+4.3 Dividing Combat Groups:
+--------------------------
+Enter the group ID number of the CG you wish to divide.  The computer will
+automatically select the lowest numbered "empty" group to receive the divided
+units.  The computer will then list the units in the dividing CG.  Enter the
+unit number (0-4) for each unit you wish to transfer to the new CG.  When you
+have completed your transfers just press <RETURN> to quit the routine.
+   The newly formed CG will have the same divisional designation morale rating
+and supply level as the dividing CG.
+
+4.4 Transferring Units:
+----------------------
+Units may be transferred between two CGs that occupy the same hexagon on the
+map.  Both the "gaining" and "losing" CG must have the same divisional
+designation.
+   Enter the group ID number of the losing CG.  The computer will automatically
+select the other CG in the hex as the gaining CG.  The procedure for transferr-
+ing units is the same as described in 4.3.  A CG may never contain more than 5
+units.
+   If the morale rating of the gaining CG is greater than the morale rating of
+the losing CG, then the morale of the gaining CG will be reduced to the level
+of the losing CG.
+
+4.5 The Map Display:
+-------------------
+The map used in REFORGER '88 employs a hexagon grid 32 hexes high by 31 hexes
+wide.  Only a fraction of the map (7 hexes high by 13 hexes wide) may be viewed
+at one time.  By pressing the keys 1-6 the cursor can be moved around the map
+(1-N, 2-NE, 3-SE, 4-S, 5-SW, 6-NW).  If the cursor is moved to the edge of the
+display then the map display will scroll to reveal the hidden portions of the
+map.
+   West German combat group symbols contain the letters "GE", American combat
+group symbols will contain "US", Soviet combat group symbols contain the
+letters "SU", East German combat group symbols will contain the letters "EG".
+Two Warsaw Pact groups stacked together will contain the symbols "WP" or "W".
+Two NATO groups stacked together will contain the symbols "NA" or "N".  All
+frinedly CGs will be shown on the display.  Enemy CGs will be displayed only if
+they were "sighted" during the previous turn's Combat Phase.
+
+4.6 Ending the Game:
+-------------------
+The players may elect to end the game during the Group Adjustment Phase.  The
+computer will display the final score.
+
+4.7 Renumbering Combat Groups:
+-----------------------------
+CGs may be renumbered using the RENUMBER GROUP routine.  Enter the number of
+the CG you wish to renumber and the new number you wish to assign it.  The new
+number may not duplicate the ID number of a CG currently on the map.
+
+4.8 Declaring Chemical Warfare:
+------------------------------
+Only the Warsaw Pact player may declare chemical warfare.  After chemical
+warfare has been declared the effects of all airstrikes and bombardments (both
+Warsaw Pact and NATO) will be enhanced (see 8.8).
+
+4.9 Air Group Display:
+---------------------
+The AIR GROUP DISPLAY routine may be used to view the current operational
+aircraft levels for each NATO squadron or Warsaw Pact air regiment available to
+the players.
+
+4.10 Delay Adjustments:
+----------------------
+During the Tactical Execution and Combat Phase flexible delay loops have been
+inserted to allow the players to accelerate or slow the pace.  The DELAY ADJUST
+routine may be used to alter the delays as desired.
+
+4.11 Casualty Reports:
+---------------------
+Players may look at a report listing friendly and enemy losses incurred during
+the previous turn.  The report of friendly losses is accurate, but the report
+of enemy losses is usually exaggerated.  Players may look at the report of
+enemy losses only once per turn.
+
+
+5.0 SUPPLY PHASE
+================
+Supply points are used each time a CG moves or performs a combat function.
+During the supply phase the player(s) move their depots to the front line areas
+to replenish the supplies of their CGs.
+
+5.1 Depot Movement:
+------------------
+NATO depots always start their movement on an autobahn hex on the west edge of
+the map.  Warsaw Pact depots always start their movement on an autobahn hex on
+the east edge of the map.  Depots always start their move with a supply level
+of 25.  A depot's supply level represents the maximum number of supply points
+it may distribute to EACH friendly CG.
+   Depots may be moved in the various directions by pressing keys 1-6 (1-N,
+2-NE, 3-SE, 4-S, 5-SW, 6-NW).  For each hex a depot moves its supply level will
+be decreased.  The supply level reduction varies with the type of terrain
+entered as shown below:
+
+     clear       1
+     woods       1
+     rough       4
+     city        1
+     autobahn    1/4
+
+To qualify for the autobahn supply reduction rates the depot must be moving
+directly from one autobahn/city hex to another autobahn/city hex.
+   The players may elect to use the AUTO-MOVE DEPOT function to move their
+depots near the front line.  Auto-moved depots will always follow their
+programmed path until they are stopped by an enemy ZOC.
+   A depot that moves adjacent to an enemy CG will be lost for the remainder
+of the turn (each player has 4 depots).  Warsaw Pact depots may never enter a
+NATO controlled city hex.  A depot may not cross an unbridged river hexside.
+
+5.2 Supply Distribution:
+-----------------------
+At any time during a depot's move the depot may distribute supplies by pressing
+the (S)UPPLY key.  All friendly CGs within 2 hexes of the depot may receive
+supplies.  CGs may only receive supplies once per supply phase.  CGs that
+receive supplies will disappear from the map for the remainder of the supply
+phase.
+   The number of supply points received by a CG will be equal to the supply
+level of the depot.
+
+5.3 New Depots:
+--------------
+The player(s) may request new depots at any time during the supply phase by
+pressing the (N)EW DEPOT key.  The new depot will begin on the same side of the
+map, but on a different autobahn hex.  NATO depots may enter on four different
+autobahn hexes on the west edge of the map.  Warsaw Pact depots may enter on
+four different autobahn hexes on the east edge of the map.  The entry autobahn
+hexes will be changed each time a new depot is requested.  The player should
+continue pressing the (N) key until the depot begins in the desired area.
+
+5.4 Supply Usage:
+----------------
+CGs use supply points for all movement and most fire missions.  Supply costs
+and restrictions are listed below:
+
+                             COST         MINIMUM
+        road move              1             1
+        tactical move          3             3
+        retreat                3             3
+        opportunity fire       2             6
+        offensive fire         3             6
+        defensive fire         3             6
+        1/2 def fire           0             0
+        bombardment            6            12
+        build bridge           6            12
+
+
+The number listed in the MINIMUM column is the number quantity of supplies a
+CG must have to perform a particular mission.  Thus a CG must have 12 supply
+points to perform a bombardment even though it will only use 6 of them.
+   Unsupplied CGs may not move or perform any fire missions except defensive
+fire (at 50% normal effectiveness).
+
+5.5 Refugees:
+------------
+In the first two days of the war the Autobahns in West Germany will be jammed
+with relugees fleeing the war zone.  Prior to the 5/10/88 AM game turn both the
+Warsaw Pact and NATO will be unable to use the autobahns to move supplies or
+combat groups
+   Prior to 5/10/88, depots will not receive the road movement bonus.
+
+5.6 NATO Replacements:
+---------------------
+Starting 5/10/88 AM the NATO player may receive replacements for some of his
+depleted battalions.  Replacements will be automatically added to depleted
+battalions during the supply distribution process.
+   Replacement will be added under the following conditions:
+
+   PANZER BATTALIONS with less then 37 LEOPARDs will receive 17 LEOPARDs
+
+   TANK BATTALIONS with less than 37 ABRAMS will receive 17 ABRAMS
+
+   PZG BATTALIONS with less than 25 MARDERs will receive 12 MARDERs and 12
+   MILANs
+
+   MECH INF BATTALIONS with less than 19 M-2s will receive 9 M-2s and 9
+   DRAGONs
+
+The number or replacement weapon systems received each turn varies with the
+SOLITAIRE LEVEL as shown below:
+
+       LEVEL           1         2         3         4
+       LEOPARD         0        12        34        51
+       MARDER          0        12        24        36
+       MILAN           0        12        24        36
+       M-2             0         9        18        27
+       DRAGON          0         9        18        27
+
+Replacements will be distributed to the FIRST ELIGIBLE BATTALIONS that receive
+supplies during the turn.  Unused replacements will be accumulated for use
+during later turns.
+
+
+6.0 TACTICAL PLOT - ROAD MOVEMENT PHASE
+=======================================
+During the tactical plot/road movement phase the player(s) may alter the mode
+of their CGs perform road movement with CGs in "road" mode, plot tactical
+movement for CGs in "assault" or "mobile" mode or plot bombardment fire for CGs
+in "static" mode.  CGs may also plot recon, bridge demolition or bridge
+contruction missions.
+
+6.1 Selecting Combat Groups:
+---------------------------
+Move the cursor over the CG to be moved/plotted and press the (G)ET UNIT key.
+The computer will display the CG's designation, group ID number and mode.  If
+there are two CGs in the hex and you wish to go to the other CG then press
+(Q)UIT key to get the bottom CG in the stack.
+   When you have completed your movement/Plots for a CG you may hit the (Q)UIT
+key and move the cursor to get another friendly CG instead of the (Q)UIT key,
+you may hit the (N)EXT GROUP key and the computer will automatically "get" the
+CG with the next highest group ID number.
+
+6.2 Mode Selection:
+------------------
+A CG's mode will affect its ability to move and fight during the current turn.
+CGs in road mode may fire only their tank type weapon system during the current
+turn.  The movement rates and defense adjustments for each mode are shown
+below:
+
+
+                    MOVE    DEFENSE
+    static           0      x 1.5
+    assault          1      x 1.0
+    mobile           3      x .75
+    road            18      x .62
+
+
+You may alter the current mode of a CG by pressing the S, A, M or R keys.  A
+CG may not be placed in road mode unless it currently occupies an autobahn or
+city hex.  CGs may not be placed in road mode if they are currently adjacent to
+an enemy CG.
+
+6.3 Road Movement:
+-----------------
+Only CGs in road mode may employ road movement.  When using road movement, a CG
+may only enter autobahn or city hexes.  CGs may never move adjacent to an
+enemy CG when using road movement.  A CG may never enter a hex that is
+currently occupied by TWO friendly CGs.  CGs may never use road movement across
+an unbridged river hexside.  Soviet units in road mode may not enter a NATO
+controlled city.
+   It is possible to use part of a CG's road movement allowance, then move or
+plot other groups, and finish the CG's movement later in the turn.
+   CGs may not enter ROAD MOVE or use road movement prior the 5/10/88 AM turn
+(see 5.5).
+
+6.4 Plotting Tactical Movement:
+------------------------------
+All movement except road movement must be planned in advance (plotted) during
+the TACTICAL PLOT - ROAD MOVEMENT PHASE.  CGs perform their planned moves
+during the TACTICAL EXECUTION & COMBAT PHASE.
+   A tactical plot consists of from 1 to 3 number with each number representing
+an instruction to move in a particular direction during a particular TACTICAL
+EXECUTION segment.  There are 3 movement segments during the TACTICAL EXECUTION
+& COMBAT PHASE.  The first number in the tactical plot instructs the CG to move
+in a particular direction during the first movement segment, the second number
+in the tactical plot refers to the second segments, etc.
+   Listed in the next columns a summary of the legal movement plots.
+
+      1    move north
+      2    move northeast
+      3    move southeast
+      4    move south
+      5    move southwest
+      6    move northwest
+      0    do not move this segment
+
+EXAMPLE:     PLOT 032
+
+In the example tactical plot shown above the CG would not move during segment
+1, would move southeast during segment 2 and northeast during segment 3.
+   Only CGs in assault or mobile mode may perform tactical movement.  The
+number of hexes that may be moved using tactical movement is affected by the
+CG's mode.  Tactical movement allowances are shown below:
+
+     assault    1
+     mobile     3
+
+CGs in assault mode may execute their 1 move during any of the three movement
+segments (a plot of 003 would instruct a CG to save its move until the 3rd
+movement segment).
+   The AFB RHEIN-MAIN unit may never be moved.
+
+6.5 Combat Situations:
+---------------------
+Combat situations will occur whenever a CG attempts to execute a tactical move
+into a hex occupied by an enemy CG.  If more than one friendly CG attempt to
+enter a particular enemy occupied hex during the same movement segment then
+these friendly CGs will combine their combat strengths to attack the enemy
+CG(s) in the hex.
+   An "S" command may be inserted at the end of a CG's tactical plot if you
+want to CG to attack in a particular direction but no move or advance.  The S
+should be the last figure in the tactical plot, any instructions that appear
+after the S will be ignored.  The S command will affect only the last segments
+in which movement is plotted.
+
+EXAMPLE:     PLOT  111S
+
+In the example, the CG would move north during segments 1 & 2. During segment
+3 the CG would attack if the hex to the north is enemy occuped but would not
+move on advance after combat.
+   The maximum length of a tactical plot is four symbols.
+
+6.6 Plotting Bombardments:
+-------------------------
+Only CGs in static mode may perform bombardments.  To perform a bombardment a
+CG must contain long-range weapon systems:
+
+     M107         M109         M110           110RL
+     122SPH       152SPH       122FH          152FH
+
+     122RL        203RL        204RL
+     130FH        180FH
+
+Eligible CGs may bombard enemy CG either 1 or 2 hexes away.
+   Bombardments are plotted the same as tactical movement bombardment of plots
+must start with a "B" symbol.  The 2nd (and 3rd) sysmbol(s) indicate the
+direction the guns are firing.
+
+EXAMPLE:   PLOT  B12
+
+In the example plot the target hex is located 2 hexes away one hex in direction
+1 and one hex in direction 2.
+
+EXAMPLE:   PLOT  B3
+
+In the example plot the target hex is located one hex in direction 3.
+
+6.7 Plotting Recon Missions:
+---------------------------
+CGs may perform recon missions to "observe" the contents of an adjacent hex.
+Recon plots must start with an "R" symbol.  The second symbol indicates the
+direction (from the recon CG) to be searched.
+
+EXAMPLE:   PLOT  R4
+
+In the example plot, the CG will search the adjacent hex to the south.
+   Recon missions are executed BEFORE the tactical movement segments.
+
+6.8 Plotting Bridge Demolition:
+------------------------------
+Players may attempt to destroy bridge hexsides by plotting bridge demolition
+missions for their CGs.  A bridge demolition plot must start with an "X" symbol
+followed by a number (1-6) representing the direction of the bridge hexside
+relative to the CG.
+
+EXAMPLE:   PLOT  X3
+
+In the example shown above bridge demolition has been plotted for the bridge
+hexside located southeast of the plotting CG.
+   CGs that do not contain engineer battalions will have a 30% chance of
+destroying the bridge hexside.  CGs that contain an engineer battalion will
+have their chance of destroying the bridge enhanced (95% for a full strength
+and undisrupted engineer battalion).
+
+6.9 Plotting Bridge Construction:
+--------------------------------
+CGs that contain engineer battalions may plot a bridge construction mission.  A
+bridge construction plot must start with a "C" symbol followed by a number (1-
+6) representing the direction of the river hexside to be bridged relative to
+the building CG.
+
+EXAMPLE:   PLOT  C4
+
+In the example shown above the CG will attempt to construct a bridge across the
+river hexside located to the south.
+   A full strength and undisrupted NATO engineer battalion will have a 90%
+chance of successfully constructing the bridge hexside.  A full strength and
+undisrupted Warsaw Pact engineer battalion will have a 70% chance.  The chance
+of success will be reduced if the engineer battalion has suffered losses and/or
+disruption.
+
+
+7.0 AIR MISSIONS
+================
+The players may assign friendly air group (squadrons/regiments) to fly air
+superiority group attack air recon or bridge attack missions.  The Warsaw Pact
+may assign its three airborne regiments to be air dropped.
+
+7.1 Air Superiority Missions:
+----------------------------
+At the start of the Air Missions Phase, the players may assign air groups to
+air superiority missions.  The computer will display the air group one at the
+time, showing the type and quantity of aircraft.  The player may assign the
+group to air superiority by pressing the <A> key.  If the <N> key to pressed
+the current group will NOT be assigned to air superiority and the computer will
+display the next air group.  If the <S> key is pressed, the current group will
+NOT be assigned and the computer will skip past all remaining groups with the
+same aircraft type as the current group if the <E> key is press then the
+computer will EXIT the air superiority selection routine.
+
+7.2 Planning Airstrikes:
+-----------------------
+Each player may plan up to 10 airstrikes each turn.  The player may move the
+cursor to the desired target by pressing 1-6 directional keys.  Press the
+(S)ELECT TARGET key when the cursor is over the hex you wish to attack.  Air
+groups are assigned to  stike missions in the same manner that they are
+assigned to air superiority missions.
+   After all air groups have been assigned to a particular strike, press the
+<E> key to EXIT the group assignment routine.  The computer will allow you to
+choose either BRIDGE, RECON or GROUND ATTACK in the target hex.  To attack a
+bridge hexside in the target hex press a numeric key (1-6) to indicate the
+direction of the bridge hexside from the target cursor.  Air Recon missions
+will attempt to sight enemy CGs within two hexes of the "target" hex (see 7.6).
+
+7.3 Combat Aircraft:
+-------------------
+Combat aircraft included in the game are listed below including their ratings
+for air superiority (AS), ground attack (GA), defense (DF) and all-weather
+avionics (AW):
+
+
+       F-15                12     10      9       6
+       F-16                10      6      7       4
+       PHANTOM              7     12      7       6
+       TORNADO              9     14      8       9
+       F-111                3     20      8       9
+       A-10                 2     16      2       3
+       PAH-1                0      6      3       1
+       AH-64                0     10      8       5
+       RF-4                 1      0     14       9
+
+       MIG-29               9      6      7       5
+       MIG-23               8      1      4       4
+       SU-25                3      8      5       4
+       SU-24                3     10      6       7
+       SU-17                2      6      4       4
+       MIG-27               4      7      6       6
+       MI-8                 0      1      2       1
+       MI-24                0      5      4       1
+       MIG-25R              1      0      8       6
+
+Aircraft with an AS rating of zero are helicopters.  Aircraft with a GA rating
+of zero are recon naissance aircraft.  It is strongly suggested that the NATO
+player use his F-15, F-16, PHANTOM, and TORNADO aircraft on air superiority
+missions until an advantage over the Warsaw Pact is achieved.  The Warsaw Pact
+player should use his MIG aircraft on air superiority missions.
+
+7.4 Flying Conditions:
+---------------------
+The ability of the aircraft to perform the missions may be affected by two
+element time of day (AM/PM) and the weather (clear, overcast).  These two
+elements are combine to form the following conditions:
+
+      GOOD     AM & CLEAR weathter
+      FAIR     AM & OVERCAST weather
+      FAIR     PM & CLEAR weather
+      POOR     PM & OVERCAST weather
+
+When conditions are GOOD all aircraft perform at 100% effectiveness.  When
+condition are FAIR  or POOR aircraft will preform at only a fraction of their
+normal effectiveness a determined by their all-weather (AW) ratings.
+
+           AW      FAIR        POOR
+            9       90%         81%
+            8       80%         64%
+            7       70%         49%
+            6       60%         36%
+            5       50%         25%
+            4       40%         16%
+            3       30%          9%
+            2       20%          4%
+            1       10%          1%
+
+The weather is determined at the start of each turn.  There is a 50% chance
+that the weather will be OVERCAST.
+
+7.5 Airborne Missions:
+---------------------
+The Warsaw Pact has three airborne regiments that may be air dropped onto the
+map.  Selection of the drop zone is similar to selecting an airstrike target
+hex.  Airborne regiments may not be air dropped into NATO controlled cities or
+hexes occupied by NATO CGs (if attempted the drop will be aborted).
+
+7.6 Air Recon Missions:
+----------------------
+Recon missions are flown for the purpose of sighting enemy CGs.  Recon missions
+count towards the maximum limit of 10 airstrikes per turn.  ANY TYPE OF
+AIRCRAFT MAY FLY RECON MISSIONS.  The specialized recon aircraft (RF-4 and MIG-
+25R) are best suited for the reconnaissance role.  Aircraft with higher AW
+ratings will have the best chance of sighting enemy CGs.  FAIR or POOR flying
+conditions will reduce the chance of sighting enemy CGs.
+
+
+8.0 COMBAT RESULTS CALCULATIONS
+===============================
+There aer 5 types of combat that occur in the game: (1) airstrike, (2)
+bombardment, (3) opportunity fire, (4) defensive fire, (5) offensive fire.  All
+forms of combat use the same general method for calculating casualities ATTACK
+STRENGTH/DEFENSE STRENGTH = CASUALTIES.  The attack and defense strengths may
+be modified according to the type of combat terrain, or CG mode.  Also a random
+factor is added to all combat calculations.
+
+8.1 Weapon Systems:
+------------------
+Listed below are the weapon systems used in the game including their attack
+strength (AS), defense strength (DS) and weapon type (WT):
+
+
+   tanks
+      ARRAMS
+      M60A3
+      LEOPRD
+      T-80
+      T-72
+      T-55
+      ASU-85
+      LUCHS
+      BRDM
+
+   anti-tank guns
+      100AT
+      SPG-9
+
+   atgm systems
+      M-901
+      JPZ-RK
+      SAGGER
+      SPANDL
+      DRAGON
+      MILAN
+   apc
+      M-2
+      M-3
+      M-113
+      MARDER
+      BMP
+      BMP-R
+      BMD
+      BTR-70
+      ENGR
+   short range artillery
+      120M
+      M-106
+      M-125
+      82M
+      140RL
+   long range artillery
+      110RL
+      122RL
+      203RL
+      240RL
+      M-107
+      M-109
+      122SPH
+      152SPH
+      122FH
+      152FH
+      130FH
+      180FH
+   short range anti-aircraft
+      STINGR
+      DIVAD
+      CHAP
+      GEPARD
+      ROLAND
+      ZSU-23
+      23AA
+      SA-7
+      SA-9
+      SA-8
+   long range anti-aircraft
+      HAWK
+      PATR'T
+      SA-4
+      SA-6
+   infantry-disembarked
+      INF
+      ENGR
+
+
+All systems that have a DS greater than 3 are considered to be HARD target
+types.  Systems with a DS less than 4 are considered to be SOFT target types AP
+and GM type weapons are designed to destroy HARD targets while HE and I type
+weapons are designed to destroy SOFT targets.  AP and GM weapons are assumed to
+have an AS of 1 when attacking SOFT targets.  HE and I weapons are assumed to
+have an AS of 1 when attacking HARD targets.
+   Armored Personnel Carriers (APCs) each carry one squad of infantry.  When a
+CG is in STATIC or ASSAULT mode then its APCs will have DISMOUNTED INFANTRY and
+will be treated as SOFT targets.  When a CG is in MOBILE or ROAD mode then its
+APCs will have their infantry embarked and will be treated as HARD targets.
+Dismounted infantry may perform an active combat role, embarked infantry will
+add nothing to combat situations.
+   Weapons that have a DF of 4 are defined as PROTECTED WEAPONS.  Protected
+weapons are treated as HARD targets if their CG is in MOBILE or ROAD mode.
+Protected weapons are treated as SOFT targets if their CG is in STATIC or
+ASSAULT mode.  Protected weapons are most effective in their SOFT target
+configuration.
+   TANK type weapons are assumed to have an AS of 6 when using OFFENSIVE FIRE
+against SOFT targets.
+   I type weapons have their AS enhanced when using DEFENSIVE FIRE against
+TANKS IF ,the attacking TANKS outnumber the attacking DISMOUNTED INFANTRY squads
+(the degreee of enhancement varies with the attacking TANK to DISMOUNTED
+INFANTRY ratio).
+   CGs in road mode may only fire with their tanks.
+   CGs in static mode have their AS DOUBLED.
+   During OPPORTUNITY FIRE, HE and AP type weapons may fire using 1/2 of their
+normal AS.  GM type weapons fire using their normal AS.  I type weapons may not
+perform opportunity fire.
+
+8.2 Disruption:
+--------------
+In addition to taking casualties, a CG will suffer "disruption" when attacked.
+The disruption will be equal to the ATTACK STRENGTH/TOTAL TARGETS.
+   CGs that are attacked more than once in a turn will accumulate disruption
+points (up to 99).  At the start of each turn all CGs will have their
+disruption points returned to ZERO.
+   After combat, assaulting CGs will have their disruption level reduced by
+their morale rating (if the morale rating is 80 then the disruption level is
+reduced by 80%).
+
+8.3 Disrutpion Effects:
+----------------------
+Following OFFENSIVE FIRE, if a defending CG's disruption level is greater than
+its morale rating and the attacker disruption level is less than 90, then the
+defending CG will be forced to retreat (unless the attacker has insufficient AP
+strength to match the defender's number of tanks).
+   If a CG's disruption level is greater than its morale rating then it will be
+unable to move any further that turn.
+   When firing a CG's attack strength will be reduced by its disruption level
+(if the disruption level is 50 then the AS is reduced by 50%).
+
+8.4 Terrain Effects:
+-------------------
+HARD targets defending in a WOODS ROUGH or CITY hex will have their defense
+strength DOUBLED SOFT targets defending in a CITY or ROUGH hex will have their
+defense strength QUADRUPLED.  SOFT targets defending in WOODS have their
+defense strength DOUBLED.
+   CGs may only cross river hexsides if they are in ASSAULT or ROAD mode.  CGs
+in ROAD mode may only cross bridged river hexsides.  CGs in ASSAULT mode gain
+between 25 and 100 disruption points when moving or attackin across a river
+hexside.
+   Warsaw Pact CGs may only enter a NATO controlled city hex using tactical
+movement.  After a Warsaw Pact CG enters the city hex it becoms an OVERRUN CITY
+and its symbol on the map will change.
+
+8.5 Zones of Control:
+--------------------
+Evely CG has a zone of control (ZOC) that consists of the hex that it occupies
+and the six adjacent hexes.
+   Friendly depots or CGs in road mode may never enter an enemy ZOC.  If a CG
+moves directly from one enemy ZOC into another enemy ZOC (except as a result of
+a forced retreat from combat), then that CG may be attacked by enemy
+OPPORTUNITY FIRE (see 9.4).  CGs may not retreat into an enemy ZOC unless the
+retreat hex is currently occupies by a friendly CG in either static or assault
+mode.
+
+8.6 Attacks Strength Allocation:
+-------------------------------
+In most combat situations, the CG being attacked will consist of several
+different weapon systems in calculating combat results the total attack
+strength is divided to attack each weapon system sperately.  The percentage
+of the total attack strength to attack each weapon system is equal to NUMBER
+IN WEAPON SYSTEM/TOTAL TARGETS
+
+EXAMPLE:     DEFENDING CG CONTAINS
+             30 T-80   20-T72
+
+In the example, 60% of the total attack strength would be used against the
+T-80s and 40% would be use again the T-72s.
+
+8.7 Morale Reduction:
+--------------------
+CGs have their morale rating reduced by 1 point each time they perform an
+assault or are attacked CGs with a morale less than 50 will gain 1 morale point
+at the start of each trun.
+   Additional morale reduction may occur as at result of bombardments or
+airstrikes using chemical weapons.
+
+8.8 Chemical Warfare:
+--------------------
+After chemical warefare has been declared effectiveness of a airstrikes and
+bombbardments will be enhanced.  Only Warsaw Pact airstrikes and bombardments
+will be enhanced on the turn chemical warfare is declared.  The effectiveness
+of chemical air strikes and bombardments is adjusted as follows.
+   (1) DOUBLED
+   (2) DOUBLED on the turn chemical warfare is declared
+   (3) DOUBLED when used against American CGs (only for the first two times
+       that the unit experiences a chemical attack).
+   (4) HALVED when used against a CG that has previously experienced a chemical
+       attack.
+
+The adjustments shown above are cumulative
+   CGs will suffer a 4-point morale loss the first time they are attacked with
+chemical weapons and a 2-pont morale loss for any subsequent chemical attack.
+American CGs will suffer a 10-point morale loss for the first, a 4-point morale
+loss for the second and a 2-point morale loss for any subsequent chemical
+attack.
+
+8.9 Sighting Enemy Forces:
+-------------------------
+Enemy CGs may only be sighted during the Combat Phase.  Enemy CGs will be
+sighted as follows:
+
+   (1) successful air reconnaissance
+   (2) enemy CG moves adjacent to friendly CG
+   (3) enemy CG uses OFFENSIVE, DEFENSIVE or OPPORTUNITY FIRE
+   (4) enemy CG adjacent to friendly CG at the end of the Combat Phase
+
+Enemy CGs sighted during the Combat Phase will remain "visible" for the
+duration of the following turn.
+
+
+9.0 TACTICAL EXECUTION & COMBAT PHASE
+=====================================
+During the tactical execution & combat phase (TEC phase), movement and combat
+functions are performed in the following sequence:
+
+   1. air superiority airstrike & air recon resolution
+   2. air drop, bombardment, construction, demolition & land recon resolution
+   3. segment 1
+      a. NATO movement
+      b. NATO attack resolution
+      c. Warsaw Pact movement
+      d. Warsaw Pact attack resolution
+   4. segment 2
+   5. segment 3
+
+There is a 20% chance that the Warsaw Pact will move and attack before NATO
+when playing at solitaire level 3.  This chance is increased by 20% per level
+as the solitaire level is DECREASED.
+
+9.1A Air superiority Resolution:
+-------------------------------
+During air superiority combat the total air wuperiority points (TASP) for each
+side are used to attack the enemy air superiority squadrons/regiments.  Air-to-
+air forces for each air group are equal to ENEMY TASP/(NUMBER FRIENDLY AIR
+SUPERIORITY GROUPS x DEFENSE STRENGTH).  A random factor is included in the
+calculation of aircraft losses.
+   The interception points (IP) are equal to one-half of the difference between
+NATO and Warsaw pact TASP.
+
+EXAMPLE:   TASP   NATO = 1200
+           WARSAW PACT = 1000
+           IP = NATO + 100
+           ((1200 - 1000)/2 = 100)
+
+The IP will intercept each enemy airstrike
+
+9.1B Airstrike Resolution:
+-------------------------
+Prior to attacking the target each air group in the airstrike must be attacked
+by the enemy IP and the area flak strength (AFS).  AFS is equal to the combined
+attack strengths of air short range anti-aircraft weapons in the target hex
+plus all long range anti-aircraft weapons within two hexes of the target hex.
+   The IP and AFS are used to destroy the bombing aircraft and/or reduce their
+effectiveness.  The percentage of effectiveness loss is equal to (IP+AFS)/1000.
+   Airstrikes will cause casualties and disruption in the target CS(s).
+Targets which are highly concentrated (over 300 weapons systems) will suffer
+additional losses.  The greater the number of weapons systems, the larger the
+amount or additional losses.  Airstrikes directed against bridge hexsides
+should include 250 ground attack points (adjusted for weather etc.) to have a
+50% chance of success.
+
+9.1R Air Recon Resolution:
+-------------------------
+Recon aircraft may be destroyed or reduced in effectiveness by flak/intercept-
+ion in the same manner as bombing aircraft.  Surviving recon aircraft will
+search the area within two hexes of the target.  The SEARCH ABILITY of the
+recon mission is euqal to NUMBER AIRCRAFT x AW RATING.  Search effectiveness
+is also reduced by FAIR or POOR flying conditions.
+
+9.1X Non-Combat Aircraft Losses:
+-------------------------------
+Air groups will suffer 5% losses (on the average) each turn that they fly a
+combat mission.
+
+9.2A Air Drop Resolution:
+------------------------
+Airborne Groups that are "dropped" onto the map will suffer casualties and
+disruption from the terrain they land in, NATO flak and interception and/or
+adverse flying conditions.
+
+     rough    200         night (PM)      200
+     woods    100         overcast        100
+
+The above numbers are added to the NATO interception points and flak strength
+to "attack" the air-dropped CG (the attack has the same effect as an airstrike)
+
+9.2B Bombardment Resolution:
+---------------------------
+Only the long range artillery (LRA) type weapons may fire bombardments.  During
+PM turns, bombardment effectiveness will be HALVED Bombardments cause
+casualties and disruption in the target CG(s).  The effectiveness of the
+bombardment may be reduced if the firing CG had been previously hit by air-
+strikes or bombardments.  Target which are hihgly concentrated will suffer
+additional losses (see section 9.1B).
+
+9.2C Bridge Construction:
+------------------------
+Bridge Construction is resolved during the TEC phase.  The chance of consturct-
+ion may be reduced by casualities/disruption that occur during prior airstrikes
+/bombardments.
+
+9.2D Bridge Demolition:
+----------------------
+Bridge demolition occurs during the TEC phase.  The chance or demolition may be
+reduced by casualities/disruption that occur during prior airstrikes/bombard-
+ments.
+
+9.2R Recon Reports:
+------------------
+For each recon mission the computer will display the approximate number of
+TANKS, G/M, and APCs in the searched hex.  all artillery and AA systems will be
+included in the G/M total.
+
+9.3 Tactical Movement:
+---------------------
+CGs will execute tactical movement in accordance with their tactical plots.
+Tactical movement may initiate OPPORTUNITY FIRE or ASSAULT COMBAT.
+   CGs that have a disruption level greater than their morale rating will be
+unable to execute their remaining tactical plots.  A CG may not move into a
+hex that is currently occupied by TWO friendly CGs (its remaining tactical plot
+will be aborted).
+
+9.4 Opportunity Fire:
+--------------------
+If a CG moves directly from one enemy ZOC into another enemy ZOC the the CG may
+be targeted for OPPORTUNITY FIRE.  Enemy CGs may fire if they are adjacent to
+the hex in which the moving CG started AND adjacent to the hex that the moving
+CG enters.  CGs in road mode may not use opportunity fire.
+   Only AP, HE and GM type weapon systems will perform opportunity fire.
+Opportunity fire is resolved at 1/4 of the normal attack strength for AP and HE
+weapons and at 1/2 for GM weapons.  During PM turns, opportunity fire attack
+strengths will be HALVED.
+   During opportunity fire the computer will display the ANTI-SOFT/ANTI-HARD
+attack strengths of the firing CGs.
+
+9.5 Assault Combat:
+------------------
+Assault combat is initiated whenever a CG attempts to enter a hex occupied by
+an enemy CG.  Assault combat is resolved at the end of the movement segment.
+All CGs that attempted to enter the same enemy hex will combine their attack
+strengths.
+   Assault combat consists of (1) defensive fire, and (2) offensive fire.  The
+CG(s) in the "enemy" hex combine their attack strengths to perform defensive
+fire.  During offensive fire all weapon systems except tanks and dismounted
+infantry will have their attack strengths halved.
+   Offensive and defensive fire are resolved simultaneously.
+
+9.6 Retreats:
+------------
+Following assault combat, defending CGs will be forced to retreat if their
+disruption level is greater than their morale rating and the attackers'
+disruption is less than 90.  CGs may not retreat into a hex that is currently
+occupied by TWO friendly CGs.  CGs may not retreat if they have less than 3
+supply points if the defending CG(s) are unable to retreat then they will be
+destroyed instead.
+
+9.7 Advance After Combat:
+------------------------
+Following assault combat, if the defender was forced to retreat then the
+attacking CG(s) may advance into the vacated hex.  CGs may not advance if their
+disruption level is greater than their morale rating.  A maximum of TWO of the
+attacking CGs may advance after combat.  CGs that FAIL to advance after assault
+combat will have the remainder of their tactical plot canceled.  CGs that
+advance after combat will have their disruption level reduced according to
+their morale rating (if the morale rating is 80 then the disruption level is
+reduced by 80%).
+
+9.8 Combat Reports:
+------------------
+As each type of attack is being resolved the computer will display the DISRUPT-
+ION points added to the defending and attacking forces.
+
+9.9 NATO Cities:
+---------------
+Whenever a Soviet unit enters a city hex the city is considered to have been
+overrun.  A city once overrun is no longer considered to be NATO controlled.
+The NATO player may never regain control of a city that has been overrun.
+
+10.0 WEATHER
+============
+The weather may be either CLEAR or OVERCAST.  The weather is subject to change
+at the start of each turn.  There is a 50% chance of OVERCAST each turn when
+playing as solitaire level 3.  The chance of OVERCAST is decreased 10% per
+level as the solitaire level is decreased.
+
+11.0 VICTORY DETERMINATION
+==========================
+At the end of the game the computer calculates the score.  Victory is
+determined based upon point differentials.
+
+11.1 Scoring:
+------------
+Victory Points (VPs) are awarded for the control of cities and for surviving
+combat forces.  NATO receives 2000 VPs for each NATO controlled city hex.
+Warsaw Pact scores 100000 VPs for destroying the Rhein-Main AFB.  The Warsaw
+Pact is awarded 50000 VPs if chemical warfare is not declared during the game.
+In the surprise attack scenario the NATO player will receive 25,000 points.
+   Points awarded for each surviving WEAPON are equal to the weapon's AS plus
+its DS.
+
+EXAMPLE    T-80 = 24 VP  (13 + 11)
+           157FH = 5 VP  (4 + 1)
+
+VPs are awarded for surviving aircraft equal to the aircraft's AS + GA + DF +
+AW ratings.
+   Warsaw Pact will have their points per weapon system multiplied for CGs that
+have advanced west of hex column 21.  The MULTIPLE will be equal to 3/(((X-1)/
+10)+1) with X being the x-coordinate of the CG.
+
+11.2 Victory Levels:
+-------------------
+To determine the victory level, subtract the total NATO VPs from the total
+Warsaw Pact VPs and compare the result to the following table.
+
+         0 or less          NATO decisive
+         1 -   25000        NATO substantive
+     25001 -   50000        NATO marginal
+     50001 -   75000        Draw
+     75001 -  100000        WP marginal
+    100001 -  125000        WP substantive
+    125001 or more          WP decisive
+
+
+12.0 SOLITAIRE PLAY
+===================
+When playing solitaire games the computer will command the Warsaw Pact forces.
+There are 4 levels of solitaire difficulty.  The level of difficulty is
+determined when starting a new game and may be altered when restarting a saved
+game.  As the level number is DECREASED, the balance of air power will shift in
+favor of the Warsaw Pact.  CLEAR weather will occur more frequently NATO
+reinforcements will arrive later thatn normal.  Warsaw Pact reinforcements will
+arrive earlier than normal and NATO will receive fewer replacements.  These
+levels may be used to handicap a two player game if desired Level 3 is
+considered the "historical" level.
+   It is possible to start a game in solitaire mode, save it and restart it as
+a two-player game.  To do this set the main menu to two-player mode before
+reloading the saved game data.
+
+
+13.0 ORDER OF BATTLE
+====================
+
+NATO
+----
+
+WEST GERMAN III CORPS:
+---------------------
+2nd Panzergrenadier Divison:
+4 x Pz Bn, 5 x PzG Bn, 1 x Recon Bn,
+3 x Art Bn, 1 x Art Rgt, 1 x Engineer Bn
+
+5th Panzer Division:
+5 x Pz Bn, 4 x PzG Bn, 1 x Recon Bn,
+3 x Art Bn, 1 x Art Rgt, 1 x Engineer Bn
+
+12th Panzer Division:
+5 x Pz Bn, 4 x PzG Bn, 1 x Recon Bn,
+3 x Art Bn, 1 x Art Rgt, 1 x Engineer Bn
+
+III Corps Artillery:
+2 x Art Bn
+
+US ARMY V CORPS:
+---------------
+11th Armored Cavalry Regiment:
+3 x Cav Sqn, 1 x Art Bn
+
+3rd Armored Division:
+6 x Amor Bn, 5 x Mech Inf Bn, 1 x Cav Sqn,
+4 x Art Bn, 1 x Engineer Bn
+
+4th Mechanized Division (-):
+1 x Armor Bn, 2 x Mech Inf Bn, 1 x Art Bn
+
+V Corps Artillery:
+3 x Art Bn
+
+4th Mechanized Division Reinforcements:
+      May 10   1 x Armor Bn, 2 x Mech Inf Bn
+(Entry Hex C)  1 x Art Bn
+      May 12   1 x Armor Bn, 2 x Mech Inf Bn
+(Entry Hex C)
+
+Rhein-Main AFB:
+1 x Art Def Bn
+
+NATO AIR SQUADRONS:
+------------------
+4 x F-15, 4 x F-16, 3 x PHANTOM
+4 x TORNADO, 4 x F-111, 4 x A-10
+3 x PAH-1, 3 x AH-64, 5 x RF-4
+
+
+WARSAW PACT
+-----------
+
+SOVIET 8th GUARDS ARMY:
+----------------------
+79th Guards Tank Divsion:
+3 x Tank Rgt, 1 x Mot Rif Rgt, 1 x Recon Bn,
+1 x Engineer Bn, 1 x Art Rgt
+
+20th Guards Motorized Rifle Division:
+1 x Tank Rgt, 3 x Mot Rif Rgt, 1 x Tank Bn,
+1 x Recon Bn, 1 x Engineer Bn, 1 x Art Rgt
+
+39th Guards Motorized Rifle Division:
+(same as 20 GMRD)
+
+57th Guards Motorized Rifle Division:
+(same as 25 GMRD)
+
+8th Guards Army Artillery:
+1 x Art Bde
+
+
+EAST GERMAN 3rd ARMY:
+--------------------
+7th East German Tank Divsion:
+(same as 79 GTD)
+
+4th East German Motorized Rifle Division:
+(same as 20 GMRD)
+
+11th East German Motorized Rifle Division:
+(same as 20 GMRD)
+
+
+WARSAW PACT REINFORCEMENTS:
+--------------------------
+
+SOVIET 1st GUARDS TANK ARMY:
+---------------------------
+7th Guards Tank Division (May 12)
+Entry Hex A:
+(same as 79 GTD)
+
+11th Guards Tank Division (May 11)
+Entry Hex A:
+(same as 79 GTD)
+
+9th Tank Division (May 11) Entry Hex B:
+(same as 79 GTD)
+
+34th Artillery Division (-) (May 13)
+Entry Hex B:
+1 x Art Det
+
+103rd Guards Airborne Division (air drop)
+3 x Airborne Rgt
+
+
+WARSAW PACT AIR REGIMENTS:
+-------------------------
+3 x MIG-29, 9 x MIG-23, 3 x SU-25,
+3 x SU-24, 6 x SU-17, 3 x MIG-27, 6 x MI-8
+3 x MI-24, 5 x MIG-25R
+
+
+SUPPLY COSTS AND RESTRICTIONS
+=============================
+
+                    COST       MINIMUM
+road move             1           1
+tactical move         3           3
+retreat               3           3
+opportunity fire      2           6
+offensive fire        3           6
+defensive fire        3           6
+1/2 def fire          0           0
+bombardment           6          12
+build bridge          6          12
+
+
+COMBAT AIRCRAFT RATINGS
+=======================
+
+                    AS     GA    DF    AW
+F-15                12     10     9     6
+F-16                10      6     7     4
+PHANTOM              7     12     7     6
+TORNADO              9     14     8     9
+F-111                3     20     8     9
+A-10                 2     16     2     3
+PAH-1                0      6     3     1
+AH-64                0     10     8     5
+RF-4                 1      0    14     9
+
+MIG-29               9      6     7     5
+MIG-23               8      1     4     4
+SU-25                3      8     5     4
+SU-24                3     10     6     7
+SU-17                2      6     4     4
+MIG-27               4      7     6     6
+MI-8                 0      1     2     1
+MI-24                0      5     4     1
+MIG-25R              1      0     8     6
+
+(AS) = air superiority
+(GA) = ground attack
+(DF) = defense
+(AW) = air-weather avionics
+
+
+WEAPON SYSTEMS
+==============
+
+                 AS   DS   WT                         AS  DS   WT
+
+tanks                                long range artillery
+   ABRAMS        13   12   AP           110RL          4   1   HE
+   M60A3         12    9   AP           122RL          4   1   HE
+   LEOPRD        14   11   AP           203RL          7   1   HE
+   T-80          13   11   AP           240RL          8   1   HE
+   T-22          11   10   AP           M-107          4   4   HE
+   T-55           8    7   AP           M-109          4   4   HE
+   ASU-85         5    6   AP           122SPH         3   4   HE
+   LUCHS          1    5   AP           152SPH         4   4   HE
+   BRDM           1    5   HE           122FH          3   1   HE
+anti-tank guns                          152FH          4   1   HE
+   100AT          6    1   AP           130FH          3   1   HE
+   SPG-9          5    4   AP           180FH          5   1   HE
+atgm systems                         short range anti-aircraft
+   M-901         11    5   GM           STINGR         3   4   AA
+   JPZ-RK        11    5   GM           DIVAD          6   4   AA
+   SAGGER         8    5   GM           CHAP           4   1   AA
+   SPANDL        11    5   GM           GEPARD         5   4   AA
+   DRAGON         9    4   GM           ROLAND         8   1   AA
+   MILAN         11    4   GM           ZSU-23         5   4   AA
+                                        23AA           1   1   AA
+apc                                     SA-7           1   4   AA
+   M-2            4    7   HE/I         SA-9           4   1   AA
+   M-3            4    7   HE/I         SA-8           8   1   AA
+   M-113          1    4   HE/I      long range anti-aircraft
+   MARDER         4    7   HE/I         HAWK          12   4   AA
+   BMP            8    6   GM/I         PATRT         18   4   AA
+   BMP-R          8    6   GM/I         SA-4           4   1   AA
+   BMD            8    6   GM/I         SA-6           7   1   AA
+   BTR-70         1    5   HE/I      infantry-disembarked
+short range artillery                   INF            3   3   I
+   120M           2    4   HE           ENGR           3   3   I
+   M-106          2    4   HE
+   M-125          1    4   HE
+   82M            1    2   HE
+   140RL          5    1   HE
+
+(AS) = attack strength
+(DS) = defense strength
+(WT) = weapon type
+

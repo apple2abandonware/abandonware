@@ -1,0 +1,862 @@
+                             Computer Air Combat
+
+                              Table of Contents
+
+          1.0 Introduction.........................................2
+          2.0 General Description................................. 2
+          3.0 Sequence of Play.................................... 2
+          4.0 General Commands.....................................3
+          5.0 Moving Your Aircraft.................................4
+          6.0 Visibility...........................................8
+          7.0 Combat...............................................8
+          8.0 Scenario Selection..................................10
+          9.0 Familiarization Flight Example......................10
+          10.0 Hints on Tactics...................................10
+          11.0 Designers Notes....................................11
+
+1.0 Introduction 
+        Computer Air Combat is a simulation of aerial warfare during World War
+        II. Players have the option of flying American, British, German or
+        Japanese aircraft in a variety of different air combat missions. Each
+        of the different aircraft types will maneuver, attack and absorb
+        damage in the game according to how it actually performed in combat.
+        These rules are intended to introduce you to basic concepts necessary
+        to play the game. They do not provide details of the extensive
+        mathematical formulas and data used to simulate aircraft performance
+        or determine the outcome of attacks. These details are left for each
+        player to discover as he plays the game, just as a new fighter pilot
+        often had to "learn the hard way" by climbing into the cockpit and
+        taking off to engage the enemy. If you are playing this game for the
+        first time, it is recommended that you read the rules up through
+        section 8, then play along with the instructional flight example
+        presented in section 9. After that, you're ready to solo.
+ 
+2.0  General Description
+2.1 Parts Inventory 
+A.  Game Box 
+B.  Rule Book 
+C.  5 1/4" Game Disc 
+D.  Two Mapboard Cards 
+E.  Two Aircraft Data Cards 
+F.  Game Selection Card 
+G.  Two Grease Pencils
+
+2.2 Game Units
+        Horizontal distances and attitudes are measured in kilofeet (1000
+        feet, abbreviated kft). Distances are displayed to the nearest tenth
+        of a kilofoot (100 feet); altitudes are displayed to the nearest
+        hundredth of a kilofoot (10 feet). Speed is displayed in miles per
+        hour (mph), rounded to the nearest 10 mph. Each game turn represents
+        approximately seven seconds of real time. The precise value was
+        selected so that in one turn the distance move a in kilofeet is equal
+        to speed in miles per hour divided by 100. For example, an aircraft
+        traveling 250 mph will move 2.5 kft per turn.
+
+2.3 Passwords
+        At the start of each two player game both players will be required to
+        enter a password of one to five characters. It is important that each
+        player keep his password to himself. This will ensure that secret
+        information held by the computer is revealed only to the appropriate
+        player.
+
+2.4 Saving a Game
+        A game in progress may be saved at the start of any move or combat
+        phase for either player. Saving a game allows you to resume a game
+        from the point at which play was suspended. The option of saving a
+        game before any move or combat phase permits playing a game by
+        correspondence. Saving a game is accomplished through the use of the
+        (Q)uit command described in section 4.8.
+
+2.5  Talking to the Computer
+        The computer will prompt you for whatever information is needed. These
+        prompts will usually take the form of asking you to answer a question,
+        enter a number, or select a command from a menu of options. After
+        responding to each information request from the computer, complete
+        your response by pressing the (return) key. To correct a mistake, use
+        the (left arrow) key to backspace, then type over the mistake. Most
+        inputs require only a single letter, except for the 2 letter movement
+        commands described in section 5. Yes or No replies are entered by
+        typing the single letter (Y) or (N). If the first letter of a possible
+        response is enclosed in parentheses, it means that only that single
+        letter should be entered; examples are the general commands described
+        in section 4. In a few instances you may only have to press the
+        (return) key. This technique is used either to select a "default"
+        value, such as a resume program execution after pausing to permit
+        viewing of displayed data.
+
+3.0  Sequence of Play 
+        Computer Air Combat is played in a series of game turns until all
+        aircraft on one side are destroyed, or the engagement is terminated by
+        mutual agreement.  Each game turn consists of a standard sequence of
+        phases.
+
+3.1  Scenario Selection and Set-up Phase (Start Of Game Only)
+        At the start of a game both players decide which scenario they want to
+        play (see the Game Selection Card), the number and type of aircraft
+        each player will control, and the starting location, scenario and
+        options selected. Some of these starting conditions may be chosen
+        randomly by the computer.
+
+3.2 First Player Movement Phase
+        The first player secretly moves all of his aircraft.  Before moving
+        any aircraft, he may request aircraft position or status reports, or a
+        global position plot.
+
+3.3 Second Player Movement Phase
+        The second player, or the computer in solitaire scenarios, secretly
+        moves all of his aircraft Player 2 may also check position or status
+        reports, or examine a global position plot before beginning movement.
+        Any information on aircraft locations provided to Player 2 at this
+        time will be as of the start of the turn; the results of Player 1 's
+        movement this turn is not made available to Player 2.
+
+3.4 Second Player Combat Phase
+        The second player may now check the positions of all aircraft visible
+        to him, and initiate combat against any enemy aircraft which are
+        within range. All positions shown at this time are those resulting
+        from movement during the present turn. Before initiating combat, he
+        again has the option of examining position or status reports, or plots
+        of aircraft locations.
+
+3.5  First Player Combat Phase
+        The first player enters his password and checks for possible combat
+        opportunities for his aircraft, in the same manner as the second
+        player.
+
+3.6 Combat Results Phase
+        The effects of any attacks conducted during the preceding combat
+        phases are determined, and damage recorded. The computer checks to see
+        if all aircraft on either side have been shot down, thus ending the
+        game. If not, the next turn begins with the First Player movement
+        phase.
+
+4.0  General Commands
+        At the beginning of each movement and combat phase there are several
+        commands available to the player. These commands are described in this
+        section and summarized on the Game Information Card.
+
+4.1 Position Report (P)
+        Displays the position, course, speed, and bank and nose attitude of
+        all friendly aircraft and all visible enemy aircraft. In the Night
+        Fighter scenario, if no enemy aircraft are visible, a radar contact
+        report on the currently assigned target will be given.
+
+4.2 Status Report (S)
+        Provides information on the amount of damage an aircraft has taken and
+        on the amount of ammunition remaining. Damage categories and their
+        interpretation are:
+
+        None No damage
+        Hit Less than 50%
+        Major Between 50% and 75% damage
+        Critical Greater than 75% damage
+        Out       Engine disabled (Multi-engine aircraft only)
+
+Ammunition supplies refer to number of attacks remaining for forward-firing 
+guns only (turret guns do not run out of ammunition). Separate totals are 
+shown for cannon and machine gun ammunition.
+
+4.3 Global Plot (G)
+        Plots all friendly and all visible enemy aircraft on an 80 kilofeet by
+        140 kilofeet display. The plot is initially centered on X = 0, Y = 0),
+        but you have the option to re-center the global display on any point
+        in the XY-plane. The X-axis and Y-axis are indicated on the plot,
+        except when no longer present due to re-centering. When not centered
+        at the origin, the global plot center is indicated by a small cross.
+        The global plot is always oriented with north toward the top. Friendly
+        aircraft are displayed as an open-centered rectangle; hostile aircraft
+        as a solid square. Course, speed, altitude, etc., on all visible
+        aircraft are available through the (P)osition command described in
+        section 4.1.  If present, the direction of the sun will be indicated
+        by a solid color rectangle on the W, SW, S, SE, or E edge of the plot.
+
+4.4 Movement (M)
+        The movement command permits you to move all friendly aircraft as
+        described in section 5.0.
+
+4.5 Tactical Plot (T)
+        Plots all aircraft visible in the immediate vicinity of a single
+        friendly aircraft. This is the same plot which is shown when moving an
+        aircraft except that positions are shown at the completion of all
+        movement. This command is normally used to decide whether or not to
+        initiate combat by seeing if there are  any enemy aircraft which can
+        be attacked. A firing arc is plotted in front of your aircraft to aid
+        in determining whether there are any aircraft in position to be
+        attacked by your forward-firing guns. The tactical plot is
+        aircraft-centered, and the top of the display is always in the
+        direction of aircraft heading. A small window in the lower right hand
+        corner displays the compass heading of the display orientation, e.g.,
+        N, NW. The tactical plot extends 6 kft ahead, 2 kft behind, and 7 kft
+        to the sides of the center aircraft.  The length of each firing arc
+        symbol is 2.5 kft, The size of the aircraft symbols is not to scale;
+        the length of The size of the aircraft symbols is not to scale; the
+        length of each symbol is 0.45 kft, about 10 times the length of a WWII
+        fighter.  Symbols for aircraft which are within 0.45 kft each other
+        horizontally may overlap; however, collisions only occur when aircraft
+        end a turn within .03 kft of each other. All friendly and visible
+        hostile aircraft located within this 8 x 14 kft region are displayed
+        oriented relative to the aircraft whose tactical plot is being
+        presented. Aircraft outside this region can be plotted using the
+        global plot described in the previous section. Friendly aircraft are
+        indicated by a white identification stripe just forward of the tail.
+        Hostile aircraft are a solid color and do not have this identification
+        stripe. The bank attitude of each aircraft is visually indicated on
+        the display. The following symbols are used to show the different bank
+        attitudes:
+
+(See Illustration)
+
+        Note that the three inverted attitudes are all indicated by a "white
+        stripe" painted on the lower surface of each wing. The  tactical plot
+        perspective is always looking down from above on an aircraft
+        regardless of relative altitudes. You will notice a size increase in
+        symbols plotted at a relative angle of 45, 135, 225 or 315 degrees;
+        this distortion is introduced by the Apple hi-res graphics. The
+        following are the symbols used for V-1's, bombers in level flight, and
+        air race pylons:
+
+(See Illustration.)
+
+        Bombers in level flight are shown with engine nacelles on the wings
+        for ease of separating bombers from fighters, even though there are
+        single-engined bombers and twin-engined fighters in the games. An
+        (ID)entification option is available on the tactical plot to provide
+        identity, course, speed, altitude, etc., on each aircraft displayed;
+        this option is described in more detail in section 5.
+
+4.6 Combat (C)
+        Checks all friendly aircraft to determine if there are any enemy
+        aircraft which are subject to attack. You will be informed of each
+        possible attack in order, and given the range, target aspect and type
+        of guns available.  You will then be asked if you want to make an
+        attack or not. If you answer yes, the attack will be conducted and you
+        will be informed whether or not your attack scored any hits. Each type
+        of gun may only attack one target per turn.
+
+4.7  Unload Aircraft (U)
+        Aircraft can begin the game loaded with either bombs or auxiliary fuel
+        tanks. Loaded aircraft have degraded climb and dive rates,
+        maneuverability, etc. At the start of each movement phase, you can use
+        the (U)nload command to drop whatever load the aircraft is carrying
+        and thereby improve your aircraft's performance (but with a possible
+        penalty in victory conditions).
+
+4.8 Quit (Q)
+        Suspends play of the game and asks if you want to save the current
+        game conditions. After saving a game you are given the option of
+        resuming play. If you do not save the game or resume play then the
+        final results of the game will be displayed. It should be noted that
+        the (Q)uit command is not shown on the command menus which are
+        displayed. This command always may be given whenever the other command
+        options in this rules section are available.
+
+5.0 Moving Your Aircraft
+        Aircraft movement is controlled by maneuver commands which affect
+        aircraft speed, direction, altitude, and bank and nose attitude. The
+        response to each maneuver command will depend on the type of aircraft
+        you are flying, its altitude, speed, whether or not it is loaded, and
+        the amount of damage it may have sustained. All movement is assumed to
+        occur simultaneously, although Player 1 moves all of his aircraft
+        before Player 2 moves his aircraft.  When moving an aircraft, the
+        player will be presented with a tactical plot showing all visible
+        aircraft up to 6-7 kft ahead and 2 kft behind the aircraft being
+        moved, as described in section 4.5. Beneath the plot will be displayed
+        the altitude, speed, initial heading, current heading, bank and nose
+        attitude, maneuvers currently in progress, and distance already moved
+        this turn. Information about maneuver capabilities at the aircraft's
+        current speed and attitude can be obtained by using the CK command.
+        Other aircraft displayed on the tactical plot can be identified using
+        the ID command. These 2 non-maneuver commands are described in section
+        5.7.
+
+        There are nine different maneuver commands available:
+                ST - Move aircraft straight ahead
+                RR - Roll to the right (clockwise)
+                RL - Roll to the left (counter-clockwise)
+                TR - Turn right
+                TL - Turn left
+                SR - Sideslip right
+                SL - Sideslip left
+                NU - Nose up
+                ND - Nose down
+
+        Each of the maneuvers, except for move straight (ST), require the
+        aircraft to move a certain distance, based on aircraft type, speed and
+        altitude, before the maneuver is executed.  While this distance is
+        being moved, the maneuver being executed is displayed as a "current
+        maneuver." More than one maneuver of different types may be executed
+        simultaneously, as long as a required nose or bank attitude is not
+        changed during a turn, sideslip or half-loop maneuver. The computer
+        will check the validity of all maneuvers and inform you whenever you
+        attempt to execute an illegal maneuver. When you give the ST command
+        the computer will ask you how far you want to move (from 0.1 kft up to
+        the distance remaining to be moved). If you simply type (return), the
+        distance moved will be the amount necessary before the next completion
+        of a maneuver in progress. If there are no current maneuvers listed,
+        then typing (return) will cause the aircraft to move the distance
+        necessary to complete the current game turn. The remaining eight
+        maneuver commands are described in sections 5.3 - 5.6.
+
+5.2 Speed
+        The current speed of an aircraft is displayed in miles per hour, to
+        the nearest 10 mph. During each game turn an aircraft will move, in
+        kilofeet, a distance equal to its speed divided by 100. Certain
+        maneuvers will immediately reduce an aircraft's speed, so that the
+        distance moved in the current turn also will be reduced. All maneuver
+        commands except ST cause a delayed speed reduction. Delayed speed
+        losses are not applied until the end of a turn, and so may be offset
+        by speed gains resulting from applying power or diving.
+
+5.2. Speed Regions
+        It is important to be aware of three speed limits for your aircraft:
+        stall speed, maximum level speed and maximum dive speed. These three
+        speeds are shown, in order, on the aircraft capabilities display (see
+        section 5.71). Stall speed is a function of bank attitude, increasing
+        by 10 mph when in a standard bank or inverted, and by 20 mph in a
+        steep bank. If an aircraft's speed at the start of a turn is below
+        stall speed, then it will enter a spin, unless it is on the ground
+        (zero altitude). Aircraft can move below stall speed along the ground
+        to taxi, take off or land.  An aircraft in a spin will fall out of
+        control at its maximum dive rate. It will move straight ahead the
+        distance corresponding to its initial speed, but will end the turn
+        with a randomly-determined heading. The speed gained in the dive will
+        eventually end the spin when stall speed is once more exceeded.
+        Maximum level speed is the highest speed an aircraft can attain in
+        level flight Maximum dive speed is the highest speed an aircraft can
+        move normally in a dive.  Speeds between level speed and dive speed
+        can only occur as the result of acceleration due to gravity in a dive.
+        On occasion a diving aircraft may exceed its maximum dive speed. If
+        this should occur, the aircraft will become more difficult to control,
+        with significant increases in the distances required to execute
+        maneuvers - including pulling the nose up to come out of the dive!
+
+5.22 Speed Changes
+        Speed maybe increased by diving or by the application of power. Speed
+        decreases may occur as the result of maneuvers, climbing or reducing
+        power. After all movement commands have been executed in a given turn,
+        You will be asked to select a power setting, an integer value from 0
+        to 10. The available power range will be reduced, as required, to
+        maintain speed above stall speed and below maximum dive speed. A power
+        setting of 10 represents full throttle, while a setting of 0
+        represents all possible actions which can be taken to reduce speed,
+        except climbing or maneuvering. The speeds which the upper and lower
+        power settings will produce are provided to help in determining the
+        proper power setting. Speed changes resulting from climbing, diving or
+        maneuvers are automatically factored into the upper and lower speeds
+        available. if the currently displayed speed of your aircraft is
+        between the upper and lower speeds available, then you may maintain
+        that speed by simply typing (return) instead of entering a specific
+        power setting.
+
+5.3 Roll Maneuvers (RR, RL)
+        Roll maneuvers are used to change an aircraft's bank attitude. There
+        are eight possible bank attitudes:
+
+                LV Wings level in normal flight
+                R1 Standard right bank
+                R2 Steep right bank
+                IR Inverted right bank
+                IV Wings level in inverted flight
+                IL inverted left bank
+                L2 Steep left bank
+                L1 Standard left bank
+
+        A change from one bank attitude to an adjacent attitude will result
+        from a one-point roll. If the roll is to the right (RR command), the
+        bank attitude will change to the next lower attitude on the above
+        list, e.g., from LV to R1 . A one-point roll to the left (RL command)
+        will cause a change to the next higher attitude on the list, e.g.,
+        from L1 to L2. When either the RR or RL commands are given, you will
+        be given the option of rolling 2 or more points with a single command.
+        Rolling 2 or more points with a single command can be accomplished
+        more rapidly than rolling the same number of points with a series of 1
+        - point rolls, since in the latter case additional time is required to
+        stop at each intermediate bank attitude. Each roll maneuver causes a
+        delayed speed reduction of 10 mph.
+
+5.4 Turn Maneuvers (TR, TL)
+        A turn maneuver will cause a 45-degree change in an aircraft's heading
+        in the direction of the turn. A turn to the right (TR) can be made in
+        an R1 , R2 or IR bank attitude. An aircraft must be in an L1 , L2 or
+        IL bank in order to make a left turn (TL). Turns made in the R2 and L2
+        bank attitudes can be made in one-third the distance required for the
+        other four attitudes. There is, however, both an immediate speed
+        reduction of 20 mph and a delayed speed reduction of 30 mph for each
+        turn maneuver made in an L2 or R2 bank. Turns made in the R1, IR, L1
+        or IL attitudes suffer only a 10 mph delayed speed reduction. An
+        aircraft which is moving below stall speed along the ground may turn
+        either direction while in a LV bank attitude.
+
+5.5 Sideslip Maneuver (SR, SL)
+        The sideslip maneuver is used to move an aircraft to the side without
+        a change of heading. The maneuver can only be made in a standard or
+        inverted bank attitude. A sideslip to the right (SR) is possible when
+        in either an R1 or IL bank attitude. An aircraft must be in an L1 or
+        IR attitude in order to execute a sideslip left (SL). Note that when
+        inverted, the sideslip will move the aircraft in the opposite
+        direction from the bank. This is because a sideslip always occurs in
+        the direction of the lower wing. A sideslip will result in a loss of
+        0.3 kft in altitude and a sideways movement of 0-3 kft The altitude
+        loss occurs immediately upon completion of the maneuver and is
+        separate from any changes specified as a result of climbing or diving.
+        There is an immediate speed reduction of 30 mph due to a sideslip, and
+        a 20 mph delayed speed loss.
+
+5.5 Pitch Maneuvers (NU, ND)
+        Pitch maneuvers are used to bring the nose of your aircraft up (NU) or
+        down (ND). There are five possible nose attitudes for an aircraft: H2
+        nose up in steep climb, H1 nose up in normal climb, LV nose level, L1
+        nose down in shallow dive, L2 nose down in steep dive.  The NU command
+        will cause the nose of your aircraft to move to the next higher
+        attitude on the above list, unless already in the H2 attitude.
+        Similarly, unless in the L2 attitude, the ND command will move the
+        nose of your aircraft to the next lower attitude. Issuing the NU
+        command in H2 nose attitude or the ND command in L2 attitude will put
+        your aircraft into a half-loop; this maneuver is discussed in section
+        5.63. For an aircraft in a steep bank attitude, an NU command executed
+        white in a steep dive (L2 nose attitude) will result in a 45-degree
+        heading change in the bank direction, and a simultaneous change from
+        steep bank to standard bank attitude, e.g., R2 to R1.
+
+5.61  Climbing
+        The nose of your aircraft must be in the H1 or H2 nose attitude in
+        order to gain altitude by climbing. Aircraft in a steep bank attitude,
+        R2 or L2, can only climb if in H2 nose attitude; for them the H2
+        attitude is like H1 , and H1 is equivalent to LV. The H1 attitude is
+        used for normal climbing, while the H2 attitude is used only to trade
+        speed for altitude in a "zoom" climb, or to enter a climbing
+        half-loop. Inverted aircraft may not be in an H2 nose attitude.
+        Maximum altitude gain for a complete turn spent in the H1 nose
+        attitude is shown on the capabilities display obtained using the CK
+        command (section 5.71); minimum altitude gain is 0.01 kft. Aircraft
+        which spend more than half a turn in an H1 nose attitude must climb at
+        least 0.01 kft, unless they are in a steep bank attitude. For purposes
+        of making this determination, time spent diving will offset time spent
+        climbing. Maximum climb ability white in the H2 attitude is increased
+        by an amount which depends upon the speed and type of aircraft.
+        Aircraft suffer a delayed speed reduction while climbing. This speed
+        loss varies according to aircraft type, but is between 10 and 50 mph
+        per 0.1 kft in attitude gain. Most aircraft have sufficient power
+        available, particularly at low altitude, to offset the speed loss due
+        to climbing, and thereby maintain a constant speed in a maximum climb
+        at H1 nose attitude. Speed loss in a zoom climb will occur very
+        rapidly, however, so that remaining in H2 attitude for more than one
+        turn will usually result in a stall. The climb rate of an aircraft
+        drops to zero at its ceiling (maximum attitude, which is indicated on
+        the Aircraft Data Card).
+
+5.62 Diving
+        Aircraft in an L1 or L2 nose attitude will lose altitude by diving.
+        Altitude loss also occurs as a result of the sideslip maneuver, and
+        for aircraft whose noses are level and are in a steep bank (L2 or R2)
+        attitude. The maximum altitude loss indicated in the capabilities
+        displayed using the CK command can only occur for a full turn spent in
+        the L2 nose attitude. Minimum altitude loss in the L2 nose attitude is
+        half of the maximum dive distance; this is also the maximum which can
+        be lost while in the L1 nose attitude. The minimum altitude loss in
+        the L1 attitude is 0.01 kft. If in a steep bank attitude, minimum
+        altitude loss with the nose level will be between 0.1 and 0.2 kft; in
+        the L1 nose attitude it will be half the maximum dive distance; and
+        the L2 nose attitude forces an aircraft to dive to its maximum amount.
+        Time spent climbing will offset time spent diving in making this
+        determination. Diving results in a delayed speed increase of between
+        10 and 30 mph for each .1 kft of altitude loss, depending on aircraft
+        type. For most aircraft, speed will build up rapidly in a steep dive.
+        Using minimum power will offset some of the speed build-up, but for
+        many aircraft this will not be enough to allow it to spend very many
+        turns diving its maximum amount before exceeding maximum dive speed.
+        It is not advisable to exceed maximum dive speed, since distance which
+        must be moved to execute maneuvers will be greatly increased.
+
+5.63 Half-loops
+        Executing an NU command with an aircraft in H2 nose attitude will
+        cause your aircraft to perform a climbing half-loop. Similarly, an ND
+        command while in L2 nose attitude will initiate a diving half-loop. At
+        the completion of a half-loop, an aircraft will undergo a bank
+        attitude reversal (the equivalent of what happens in a half-roll) and
+        a heading reversal. For example, an aircraft heading north in an L1
+        bank will complete a climbing half-loop heading south in an IR bank
+        attitude. Half-loops cannot be performed in a steep bank (R2 or L2)
+        attitude. An aircraft must be inverted in order to execute a diving
+        half-loop, and cannot be inverted in a climbing half-loop. An aircraft
+        therefore will complete a climbing half-loop in an inverted bank
+        attitude, and since the H2 nose attitude is prohibited while inverted,
+        the nose attitude will change to H1. When executing a half-loop,
+        aircraft must climb or dive a fixed distance; this distance depends on
+        the speed at which the aircraft begins the maneuver. There is an
+        immediate speed reduction of 10 mph when entering a half-loop, in
+        addition to the delayed speed reduction of 10 mph associated with the
+        ND or NU maneuver. It is advisable to enter a climbing half-loop at a
+        relatively high speed to avoid a stall, and a diving half-loop at low
+        speed to prevent maximum dive speed from being exceeded.
+
+5.7 Check Capabilities (CK) and identify Aircraft (ID) Commands
+        There are two non-maneuver commands which may be given during the
+        movement phase. One of these commands is used to obtain information on
+        the maneuver capabilities of your aircraft at its present speed and
+        altitude; the other to identify aircraft appearing on the tactical
+        plot.
+
+5.71 Check Capabilities (CK) 
+        The CK command will provide a 3-line summary of the current
+        capabilities of the aircraft you are moving. Below is a sample display
+        of the information presented:
+
+                RR .3   RL .5   TR 3.9   SR 1.1
+                NU .2   ND .5   CL .52   DV 1.09
+                PWR  -20 to +50   SPD 90,330,420
+
+        The first line shows how far the aircraft must move to execute roll,
+        turn or sideslip maneuvers. Only maneuvers which are possible in the
+        current bank attitude will be displayed, so the aircraft in the
+        example above must be in an R1 bank. If this airplane should roll
+        right (RR) to an R2 attitude, then the top line would change to:
+
+                RR .8   RL .3   TR 1.3
+
+        The second line in the CK display indicates the distance which must be
+        moved for pitch maneuvers, and the maximum climb and dive distances.
+        The climb distance assumes a full turn in the H1 nose attitude and the
+        dive distance a full turn in the L2 nose attitude. The last line shows
+        the maximum amounts speed can be decreased or increased by changing
+        the power setting; it also shows the limits for the different speed
+        regions - stall speed, minimum level speed and maximum dive speed.
+
+5.72 Indentification Command (ID)
+        The ID command is used both to determine the identity of aircraft
+        whose symbol appears on the tactical plot, and to obtain information
+        about the altitude, speed, nose attitude, etc., of such aircraft.
+        Below is an example of the information presented:
+
+                GE V-1 #1  ALT 2.6  SPD 370
+                HDG W   BNK LV   NOSE LV
+                RANGE 4.9  ALTITUDE DIFFERENCE -1.1
+
+        When the ID command is issued, one aircraft symbol on the display will
+        begin flashing on and off. If you wish to obtain the above data on
+        this aircraft, type (Y), but do NOT type (return). To move on to
+        another aircraft, type (return) and a different aircraft symbol will
+        start to flash. This selection process is continued until you have
+        been given an opportunity to identify all aircraft on the screen.
+
+6.0 Visibility
+        Many World War II pilots first became aware of the presence of enemy
+        aircraft when they were attacked, and by then it was often too late!
+        In Computer Air Combat each player is made aware only of those
+        aircraft which are currently visible to one of his own aircraft. The
+        following factors determine whether or not an aircraft will be seen by
+        an opponent.
+
+6.1 Aircraft Type
+        The cockpit design, location and other structural features of an
+        aircraft influence how difficult it is for its pilot or crew to spot
+        other planes. Aircraft with multiple crew members can sight other
+        aircraft more readily than can single-seat fighters. In the game, each
+        aircraft type is rated for visibility in 12 separate relative bearing
+        and altitude sectors.
+
+6.2 Enemy Aircraft Size
+        The larger an airplane, the farther away it can be seen. Each aircraft
+        has a size factor which determines both how far away it can be spotted
+        and how easy it is to hit when fired upon.
+
+6.3 Enemy Aircraft Relative Location
+        Relative bearing and altitude have the greatest influence on
+        visibility. An aircraft directly ahead can be detected at ranges about
+        25 times greater than one directly behind. Aircraft are also easier to
+        spot if they are near or above your own altitude.
+
+6.4 Relative Motion
+        An aircraft which is moving directly towards or away from you is more
+        difficult to see than one which is moving across your field of view.
+
+6.5 Environment
+        Scenarios can occur either during daylight or at night. Night
+        visibility ranges are considerably less than during daytime. The
+        location of the sun, if present during day scenarios, can
+        significantly affect visibility. Aircraft are much harder to spot if
+        you have to look for them into the sun. There is a 50% chance of the
+        sun being present for daytime scenarios starting at 5 kft or below.
+        This probability increases slightly for higher starting altitudes,
+        reflecting the increased likelihood of action taking place above the
+        clouds.
+
+6.6 Pilot Quality
+        An ace often got that way partly by being able to see enemy aircraft
+        before they saw him, and this ability is reflected in the game. An
+        inexperienced pilot, on the other hand, is not able to spot other
+        aircraft as well as an average pilot.
+
+7.0 Combat (C)
+        The (C)ombat command will initiate a check for all possible
+        opportunities for friendly aircraft to attack enemy aircraft As each
+        opportunity is determined by the computer, you will be given the
+        option of whether or not to make the attack. This procedure continues
+        until all attack possibilities have been presented. After both players
+        have completed their combat phases, a damage report will be displayed,
+        showing all aircraft which were damaged or destroyed.
+
+7.1 Aircraft Armament
+        There are two basic types of armament: forward-firing guns and turret
+        guns. Forward-firing guns can fire only at targets located in front of
+        the aircraft. Turret guns have fields of fire which vary according to
+        the type of aircraft.
+
+7.11 Forward-firing Guns
+        All fighters have forward-firing guns as their principal armament.
+        There are two different varieties of forward-firing gun: Cannon (CN)
+        and Machine Gun (MG). In the game, the only difference between these
+        two varieties is in their ammunition supply, which is described in
+        more detail in section 7.5. Each forward-firing gun has a firepower
+        factor associated with it, which is used to calculate the damage it
+        can inflict on another aircraft. The number of forward-firing guns,
+        their type and firepower, are indicated on the airplane
+        characteristics card. This information is also obtainable using the
+        (S)tatus command (section 4.6). Any guns which have been knocked out
+        as the result of an enemy attack will not appear on the status
+        display. For each aircraft with forward-firing guns there is a
+        firepower quality parameter which indicates the relative quality of
+        the aircraft as a firing platform. Firepower quality includes such
+        factors as the location of the guns and the quality of the gunsight
+        The firing arc of forward-firing guns extends 45 degrees to the side
+        (as shown by the firing arc lines on the tactical display), and 45
+        degrees above and below the firing aircraft. Each up or down shift in
+        the nose attitude moves the vertical firing arc limits up or down 22.5
+        degrees.
+
+7.12 Turret Guns
+        All bombers and some twin-engined fighters in the game have turret
+        guns. The firepower of all turret guns possessed by an aircraft is
+        represented by a single factor. Therefore all turret guns must fire at
+        the same target in a single turn. Relative target location is
+        expressed in terms of whether the target is above, below, or at nearly
+        the same altitude as the firing aircraft, and whether it is ahead,
+        ahead and to the side, behind and to the side, or behind.
+
+7.2 Attack Effectiveness
+        Several factors influence whether or not an attack will be successful
+        in hitting the target aircraft. The most important is firing range,
+        followed by target aspect. Other factors include target size, pilot
+        quality, maneuvers performed by the firing aircraft, and its firepower
+        quality parameter. The maximum firing range is 2.5 kft, where there is
+        less than a 50% chance of hitting a bomber-sized target from behind.
+        The likelihood of successful attack increases steadily as range
+        decreases, until almost any attack from within 0.4 kft will score some
+        hits. The number of hits scored on the target from a successful attack
+        is primarily a function of the firepower factors of the firing
+        aircraft and the firing range.
+
+7.3 Damage Assessment
+        Damage assessment occurs at the conclusion of both players combat
+        phases. The number of hits scored on each target aircraft from all
+        attacks on it are allocated to various parts of the aircraft wings,
+        fuselage, cockpit, engine and guns. This allocation is based on a
+        random distribution corresponding to the general type of aircraft. The
+        total damage received by each part of the aircraft that was hit is
+        compared to the maximum damage which can be taken by that particular
+        part. Once the maximum is exceeded for any one part, the aircraft is
+        destroyed. There is a slight chance of scoring a critical hit which
+        would destroy the aircraft each time a cockpit, engine or wing is hit.
+        These critical hits correspond to hitting the pilot, a crucial engine
+        part, or igniting the fuel tanks. The extent of damage received by an
+        aircraft is known only to the player who controls it, and is
+        obtainable using the (S)tatus command (section 4.6). The player making
+        the attack is told only whether or not any hits were scored.
+
+7.4 Damage Effects
+        Damage received by an aircraft can affect its performance
+        characteristics, as described below.
+
+7.41 Cockpit Hits
+        Aircraft which have received cockpit hits become more difficult to
+        maneuver, because of injuries to the pilot or damage to instruments or
+        controls.
+
+7.42 Engine Hits
+        Hits on the engine result in reduced power and climb rate.
+        Multi-engine aircraft can continue to fly. Each engine which is lost
+        will reduce maximum level speed as well as power and climb rate.
+
+7.43 Fuselage Hits
+        Fuselage hits on aircraft with turret guns have a slight chance of
+        reducing the total turret firepower.
+
+7.44 Gun Hits
+        Each gun hit on an aircraft with forward-firing guns will knock out
+        one gun. If there are no forward-firing guns, then turret firepower is
+        reduced by one factor.
+
+7.45 Wing Hits
+        The effect of each wing hit is to reduce the maximum level speed and
+        maximum dive speed of an aircraft.
+
+7.5 Ammunition Supply
+        Each attack conducted by a plane with forward-firing guns will reduce
+        the ammunition supply by one for each type of gun (CN or MG) firing.
+        When the ammunition supply for a gun type is reduced to zero, then
+        that type of gun may no longer fire. The current ammunition supply is
+        indicated on the (S)tatus display (section 4-6). Turret guns are
+        assumed always to have an adequate supply of ammunition.
+
+8.0 Scenario Selection
+        The five scenarios in Computer Air Combat are described on the Game
+        Selection Card- Briefly, the Air Race scenario permits you to hold
+        multi-player air races, to learn the procedures for moving an airplane
+        in the game if you have not done so before, or to become more familiar
+        with the maneuver characteristics of a particular aircraft type. The
+Night Fighter scenario challenge the solitaire player to intercept and destroy
+randomly-appearing targets while flying a single aircraft.  The Bomber
+Formation intercept and Dogfight scenarios provide the opportunity to have
+several aircraft controlled by each player. The computer "Otto" pilot will
+also control the player 2 aircraft to permit solitaire play of these two
+scenarios - Starting conditions either can be selected by the players or
+chosen at random by the computer- You can use your imagination or knowledge of
+actual World War II aerial engagements to set up your own scenario variations.
+
+9.0 Familiarization Flight Example
+        This section describes the first few turns of a familiarization flight
+        in a P-47D. This description is intended to help players learn some of
+        the procedures involved in flying an aircraft in Computer Air Combat.
+        It is recommended that new players follow the play of this example
+        using their computer.
+
+9.1 Scenario Set
+        Up After loading the program from the game disc you will first
+        indicate that you want a (N)ew game, and then select scenario 1.  Next
+        specify that you don't want an air race course set up, that you want 1
+        aircraft, and that it is a US P-47D (Type index 4). When asked to
+        enter a speed and altitude, select a speed of 300 mph and an altitude
+        of 25 kft.
+
+9.2 Maneuver Examples
+        When Turn 1 begins, you will be shown a menu of command options.
+        Select (M)ove aircraft and you will shortly see a tactical display for
+        your aircraft, with status information and a request for a maneuver
+        command below the plot.  Let's first try a standard turn to the left.
+        We must be in an L1 bank attitude to make this turn, so our initial
+        maneuver command is RL (roll left) 1 point.  Now move straight until
+        the roll maneuver is completed by executing the ST command, followed
+        by (return) when asked "How Far (.1-3)?". Now initiate the turn
+        maneuver using the TL command, and again move straight until the
+        maneuver is completed- This time, however, the game turn ends without
+        having completed our left turn. We end Turn 1 by using maximum power,
+        10, to increase speed to 330.
+        At the start of Turn 2 movement we see that TL still shows as a
+        current maneuver. Moving straight to complete this maneuver, we find
+        that it takes an additional 2.6 kft, making an overall total of 5.1
+        kft. Now let's try a left turn in a steep bank attitude. First we must
+        roll left 1 more point; this maneuver is completed in 0.3 kft. Next
+        enter the TL command and notice that our speed drops to 310- Move
+        straight to complete the game turn, using maximum power to maintain a
+        speed of 310.
+        For Turn 3, let's move straight until our left turn is completed (1.6
+        kft), and then for the remainder of the game turn. At the end of this
+        turn, even though our nose is level we must lose at least 0.2 kft
+        since we are in a steep bank.  Losing this altitude does have the
+        effect of permitting us to build our speed up to 370, if desired.
+        However, let's prepare to enter a diving half-loop next turn by
+        cutting our speed to 300 (power setting 0). In order to execute a
+        diving half-loop, we must be inverted and drop the nose below L2. We
+        can initiate both actions simultaneously by entering the ND and RL ( 1
+        point) commands at the start of Turn 4. Moving straight, we find that
+        the ND command is completed first, after moving .3 kft, and we issue
+        another ND command at that point continuing to move straight, .g kft.
+        Execute ND, followed by ST, which ends the game turn and completes the
+        half-loop, with our aircraft heading S in an R1 bank altitude. Note
+        the large dive distance and speed increase which has occurred during
+        the diving half-loop - now it is clear why we cut back on power at the
+        end of Turn 3! And with that observation, we leave you to continue
+        this familiarization flight on your own.
+
+10.0  Hints on Tactics
+        Tactics employed by successful fighter pilots in World War II are the
+        same tactics which will lead to success in Computer Air Combat.  Some
+        of these basic tactical principles are presented here to help increase
+        your enjoyment of the game.
+
+10.1 Expect the Unexpected
+        Finding the enemy is the first step in any conflict. Obviously you
+        can't shoot what you can't see, yet it's all too easy to be shot at by
+        a plane you have not seen. So anytime you have not spotted any hostile
+        aircraft, be on the lookout.  Change the heading of your aircraft
+        every now and then in order to vary your blind spot, and possibly
+        upset the timing of an unseen aircraft which may be setting up for an
+        attack on you. Be especially wary of attacks out of the sun, or from
+        behind and below. If you have more than one aircraft, position and
+        maneuver them so that they can mutually support each other.
+
+10.2 Be Aggressive
+        Fighter pilots are fundamentally offense-minded.  Good defense may win
+        football or basketball games, but it usually won't work in a dogfight;
+        the best defense here is truly a good offense! Step one of being
+        aggressive is to point the nose of your aircraft at the enemy.
+        Whenever you turn away from an opponent you run the risk of losing
+        sight of him, or worse yet, finding him on your tail. Make a head-on
+        pass, if necessary, and then maneuver to again point your aircraft's
+        nose at your opponent as quickly as possible.
+
+10.3 Know Your Aircraft
+        Each type of aircraft has a different combination of strengths and
+        weaknesses. It is important to know your aircraft's strengths and
+        weaknesses relative to your opponent's aircraft.  Among the most
+        essential performance characteristics are turn rate. climb rate and
+        dive rate, particularly how these vary with speed and altitude -
+        Acceleration and deceleration ability, and maximum and minimum speed
+        values are also important. Once you know your relative strengths,
+        exploit them! Use superior climb rate to gain an altitude advantage
+        whenever possible. Fight "in the horizontal" by turning towards your
+        opponent if your airplane has a better turn rate - Use superior
+        acceleration in a dive to build up speed more quickly, or to escape
+        when in trouble. If your aircraft's performance improves more than
+        your opponent's at a higher or lower speed or altitude, then attempt
+        to move the engagement in that direction - When attacking bombers,
+        usually it is safest to attack from below and either directly ahead or
+        behind, and at as high a speed as possible.
+
+10.4 Conserve Speed and Altitude
+        Speed and altitude are both easily lost in a dogfight, so it is
+        important not to lose either needlessly. These two factors are
+        somewhat interchangeable, since you can trade altitude for speed by
+        diving, and speed for altitude in a zoom climb. Acquire and maintain
+        an altitude advantage whenever possible, since this will usually
+        permit you to initiate an attack when you choose to do so. Maneuvers
+        will cost you speed, so it's usually a good idea to keep your speed up
+        when not maneuvering.
+
+11.0  Designer's Notes
+        Achieving a proper balance between realism and playability is one of a
+        game designer's foremost challenges- Our intent in designing Computer
+        Air Combat was to create a game that was first and foremost
+        interesting and fun to play, but would still contain enough realism to
+        give players the "feel" of tactical aerial combat.  Another design
+        philosophy was to place greater emphasis on involving players in the
+        decision-making process (e.g., climb, turn, accelerate) of flying a
+        plane in combat, and less emphasis on the mechanical process
+        (e.g.,stick and rudder movements). The game design also reflects the
+        unique advantages afforded by computers in permitting the use of
+        incomplete information regarding hostile aircraft locations and extent
+        of damage, and in taking care of the numerous record-keeping details,
+        thus allowing the players to concentrate on the more exciting aspects
+        of the game. Players are given both a commander's overview
+        perspective, by being able to fly more than one plane at a time and
+        view a global plot of the action, and a pilot's perspective when it
+        comes to moving each individual aircraft. The selection of which
+        aircraft to include in the game was not easy. The original plan was to
+        focus on about a dozen of the most famous allied and axis fighters,
+        but the list rapidly expanded to the present three dozen fighter and
+        bomber types, and it easily could have increased still more. The final
+        decisions on aircraft types and variants to include were made on the
+        basis of providing a balance of early ('39-'43) ad late ('44-'45)
+        types, and of providing principal opponents of both sides of the major
+        aerial campaigns of World War II - the Battle of Britain, the Pacific
+        carrier battles, and the strategic bombing offensives against Germany
+        and Japan. Considerable effort was expended to make the performance
+        data as accurate and consistent as possible, and numerous sources were
+        used in this process. Unfortunately, these sources were not uniformly
+        complete or consistent in the data presented. Qualitative comments and
+        judgements therefore had to be relied upon in several instances, it is
+        our hope that any disagreements with these design decisions will not
+        detract unduly from the enjoyment of what we believe is fundamentally
+        a fun game to play.
+                                         - Charlie Merrow, Jack Avery.
+

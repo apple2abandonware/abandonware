@@ -1,0 +1,1592 @@
+THE ROAD TO GETTYSBURG
+ 
+
+1.0 INTRODUCTION
+  1.1 Parts Inventory
+  1.2 Starting a Game
+  1.3 Saving a Game
+  1.4 Game Scale
+  1.5 The Units
+2.0 GLOSSARY
+3.0 SETTING UP THE GAME
+  3.1 Numbering Corps
+  3.2 Assigning Starting Urgency
+  3.3 Assigning Starting Contact Mode
+4.0 SEQUENCE OF PLAY
+  4.1 Reconnaissance Phase
+  4.2 Confederate Player Phase
+  4.3 Union Player Phase
+  4.4 Order Receipt Phase
+  4.5 Execution Phase
+  4.6 Fatigue Phase
+5.0 ZONES OF CONTROL
+6.0 UNIT MODES
+  6.1 Contact Mode
+  6.2 Combat mode
+  6.3 March Mode
+  6.4 Patrol Mode
+  6.5 Deployment Mode
+7.0 STACKING
+8.0 MOVEMENT
+  8.1 Night Turns
+  8.6 Rain Turns
+  8.7 Movement Cost Chart
+  8.8 Morning Turns
+  8.9 Effects of Urgency and Leadership on Movement
+  8.10 Stragglers
+9.0 COMBAT
+  9.1 Which Units Participate in Combat
+  9.6 Casualties
+10.0 DISPATCHES
+11.0 CORPS MORALE AND FATIGUE
+12.0 ORDER TYPES
+13.0 THE ORDERS
+  13.1 Menu A: Strategic Orders
+  13.2 Menu B: Orders to Corps
+  13.3 Menu C: Force Orders
+14.0 FORCES AND HOW TO USE THEM
+15.0 OPTIONAL BATTLE
+16.0 ORDER OF BATTLE
+
+
+Page 1
+
+1.0 INTRODUCTION
+
+THE ROAD TO GETTYSBURG: is a corps/division level game simulating the week 
+surrounding the Battle of Gettysburg. Each player will receive only limited 
+knowledge of the location of his own and his enemy's troops. this will be 
+achieved from the intelligence display and dispatches from subordinate 
+commanders. During a game each player is given a unit representing the army 
+commander and attached staff and escort. A player will only be able to exert 
+immediate control over units within a 5-hex radius of the Commander unit. All 
+units may only be ordered through the sending of dispatches which will be 
+interpreted by the individual corps commanders(played by the computer). The 
+intention is to accurately recreate the command control problems that were 
+prevalent during the Civil War.
+
+Note: Many times while playing this game, you will believe that something has 
+gone wrong with the program. Although there is no way to guarantee that the 
+program works 100% of the time, it is more likely that you have 
+misinterpreted a rule or one of your corps commanders did something you 
+didn't expect(like resting his corps when you wanted him to march to the 
+sound of the guns). At first, this game will confuse and frustrate you, and 
+only after several games will you begin to grasp what's happening.
+
+1.1 Parts Inventory
+
+A) Game Box
+B) Rule Book
+C) 5-1/4" Game Disc
+D) Two Mapboards
+E) One Command Card
+F) 100 Die cut Counters
+
+
+1.2 Starting a Game (DOS 3.2 or DOS 3.3)
+
+To begin a game boot your game disc (insert the disc in drive one and turn on 
+your computer) and the game will begin automatically. If you are using an 
+Apple II with PASCAL, you must use your BASICS disc. If you are using an 
+Apple III, you must first go into Apple II emulation Mode.
+
+
+1.3 Saving a Game
+
+During the Order Entry Phase, the players will be allowed to save a game in 
+progress (see Menu A:). Enter the order SG and the computer will give 
+appropriate instructions. If you choose to save the game, you will need a 
+scratch disc to store the data. The scratch disc must be initialized for SSI 
+use by following the instructions included in the program. Once the game is 
+saved, you will be able to restart it from the point at which you left off.
+
+
+
+Page 2
+
+
+
+1.4 Game Scale
+
+Each hex represents 4 miles. Each day turn represents 4 hours with each night 
+turn representing 8 hours. Each strength point represents 100 men or one 8 
+pound artillery piece.
+
+
+1.5 The Units
+    ______       _______       _______      _______
+    |     |      |     |       |  |  |      |     |
+    |  E  |      |  F  |       |  |  |      |     |
+    |     |      |     |       |  |  |      |     |
+
+     Enemy       Friendly     Friendly&     Activity
+                               Enemy         Report
+
+2.0 GLOSSARY
+
+Aggressive Rating - The relative aggressiveness of a commander ranging from 
+-30 to +30;
+negative ratings represent underaggressiveness, positive rating represent 
+over-aggressiveness.
+
+Battle Odds - A ratio of the combat strengths of the two opposing forces
+
+Cavalry Corps - A corps which has no infantry or foot guns.
+
+Combat Mode - The indication of what action a force is taking in the face of 
+the enemy.
+
+CORPS/DIVSN - The basic unit used in the game. The Union player's units are 
+referred to as corps(CORPS), while the confederate units are refferred to as 
+divisions(DIVSN). For simplicity, the rulebook always uses the term CORPS, 
+but there no differences between CORPS and DIVSN.
+
+Corps Morale - A rating showing a corps' fatigue and willingness to fight.
+
+Estimated Battle Odds(EBO) - The battle odds (expressed as a ratio) that the 
+commander thinks exists between the enemy and friendly forces involved (not 
+including leadership ratings).
+
+Fatigue Level - An indication of how tired a corps is. A unit's fatigue level 
+= (2-total fatigue suffered).
+
+Force - One or more corps under the primary commander's personal orders.
+
+Infantry Corps - Any corps with infantry or foot guns in it.
+
+Leadership Rating - The tactical ability of a commander, ranging from 1 to 9.
+
+March Mode - the indication of the speed in which a unit is moving; modes are 
+rest, normal, and force. the march mode determines the number of movement 
+points a unit has available for movement.
+
+Movement Allowance - The number of movement points a unit has to expend each 
+turn.
+
+Page 3
+
+
+Movement Points(MP) - The quantification of time spent performing an action.
+
+Secondary Army Commander - A deputy army commander whose only function is to 
+coordinate and lead combat units during combat when the primary commander is 
+not there.
+
+Zone of Control(ZOC) - The area a unit can extend its influence into. This 
+includes the six hexes surrounding a unit and the hex the unit occupies.
+
+
+3.0 SETTING UP THE GAME
+
+Each player in turn will define each of his corps' starting urgency and 
+contact modes. The players will also number their corps as desired.
+
+3.1 Numbering Corps
+
+The number of a corps is very important to marching priorities. A low 
+numbered corps will have the right of way over a high numbered corps. 
+Therefore, to decrease traffic jams and have the desired corps at the head of 
+a column, thought should go into the numbering of corps.
+Note: Headquarters detachments are always number 11. Each player will be 
+shown his corps, their strengths, and leaders. With this information, he will 
+be asked to number each of his corps.
+Note: Eff indicates average effectiveness rating of the corps.
+
+3.2 Assigning Starting Urgency
+
+The starting urgency is next assigned. The urgency will effect the actions of 
+the corps.
+
+3.3 Assigning Starting Contact Mode
+
+In assigning the starting mode, it is important to realize that while a 
+contact mode of Initiative (I) will increase the chance of the corps doing 
+the right thing, there is a (sometimes fatal) loss in reaction time.
+
+4.0 SEQUENCE OF PLAY
+
+4.1 Reconnaissance Phase
+
+During this phase the corps reconnoiter the hexes they occupy and those 
+immediately surrounding them. Corps in patrol mode will reconnoiter in a 2 
+hex range. Corps which are in an enemy ZOC and have an initiative contact 
+mode will determine their combat mode.
+
+4.2 Confederate Player Phase
+
+4.2.1 The computer will print "Confederate Player Turn. Type Return to 
+Continue" If an "X" is typed, the computer will skip to step 4.2.6.
+
+4.2.2 The player will receive any activity reports. Activity reports report 
+current positions of enemy or friendly troop concentrations. Some activity 
+reports may be false.
+
+4.2.3 The player will receive any arriving battle reports. Battle reports 
+include the time of the battle, the friendly corps involved, the hex, whether 
+the player's forces were attackers or attacked, estimated casualties and 
+enemy exact strength before the battle.
+
+Page 4
+
+
+4.2.4 The player will receive any arriving reconnaissance reports. These 
+include the time sent, the friendly corps performing the reconnaissance, the 
+estimated enemy strength, and their hex.
+
+4.2.5 The player will receive any arriving location reports. These include 
+the time sent, the hex occupied, and, in some cases, the combat actions 
+planned by the reporting corps. Confederate units also report any foraging 
+which took place. Also, any leader casualties will be shown.
+
+4.2.6 The player may issue any order in Menu A:. A command of "OF" will pass 
+the player to Menu C: a command of "OC" will pass the player to Menu B: and a 
+command of "ET" will end the player's phase. From Menu B: or Menu C: a 
+command of "EX" will return the player to Menu A: From Menu B: a command of 
+"OC" will pass the player to Menu B: for another corps specified by the 
+player.
+
+4.3 Union Player Phase
+
+Identical to Confederate Player Phase except it is the Union player who is 
+receiving reports and issuing orders.
+
+4.4 Order Receipt Phase
+
+Any corps receiving orders will read the orders. All orders previously 
+received will be lost if non-immediate orders arrive, and any movement points 
+currently being spent are lost. Therefore: do not continually send new orders 
+to a corps. Hurrying a unit along will simply cause it to march in place. 
+Instead, several turns of orders should be sent at once. Note: also, that 
+sometimes corps may be a little slow to follow orders.
+
+4.5 Execution Phase
+
+Both players corps will be moved and battles will be fought. Corps in enemy 
+ZOC's with a contact mode other than that of initiative will enter combat 
+mode. This phase will last from 1/2 to 2 minutes.
+
+4.6 Fatigue Phase
+
+Corps which are in force march mode gain 1 fatigue point (i.e. become tired). 
+Corps which are in normal march mode and have spent movement points will 
+remain unchanged. Corps which were in rest march mode or spent no movement 
+points will lose 1 fatigue point. Fatigue effects of actions performed at 
+night cause triple fatigue(i.e. the 2100 turn fatigue update effects are 
+tripled).
+Note: Each game will begin with an initial fatigue phase before the first 
+reconnaisance phase.
+
+5.0 ZONES OF CONTROL
+
+Corps' ZOC consists of the hex it occupies and the six surrounding hexes. All 
+corps leave patrol mode when in an enemy ZOC. ZOC's do extend across river 
+hexsides.
+
+6.0 UNIT MODES
+
+Modes are representations of troop dispositions and actions. There are Five 
+types of Modes: contact, combat, march, patrol and deployment mode.
+
+
+Page 5
+
+
+
+MODES
+
+CONTACT                 COMBAT
+
+  Initiative              Withdraw
+                              Withdraw                Stand
+                              Stand                   Attack
+                              Attack                  Hasty Attack
+                              Hasty Attack
+
+
+                MARCH                 PATROL               DEPLOYMENT
+
+                Rest                                       Road
+                Normal                                     Deployed
+                Force
+
+
+6.1  Contact mode represents the orders that the player (as the army 
+commander) gives to the corps commanders concerning what the corps should do 
+when it enters an enemy ZOC (or vice-versa). These orders are binding to the 
+corps and must be obeyed even if the corps commander dislikes them. 
+Exception: Demoralized corps always withdraw.
+
+6.1.1 Initiative 
+
+In this mode, the corps commander is given the opportunity to decide for 
+himself the combat mode he will enter during the next reconnaisance phase. 
+The decision is based on the estimated battle odds, the aggressiveness of the 
+commander and the urgency of his orders.
+
+6.1.2 Withdraw, Stand, Attack, Hasty Attack (see Section 6.2)
+
+The Army commander(the player) orders the corps to enter the designated 
+combat mode (listed above) whenever it is in an enemy ZOC regardless of the 
+size of the enemy unit(s) or the risk involved.
+
+
+6.2 COMBAT MODE
+
+Combat mode orders govern the actions of the corps when in an enemy ZOC. A 
+combat mode is only chosen when the corps is in an enemy ZOC. If the corps 
+has a Contact Mode of Initiative, this combat mode is chosen during the next 
+Reconnaissance Phase. At the end of any Execution Phase, when the corps is no 
+longer in an enemy ZOC, the corps leaves its combat mode assuming an INACTIVE 
+COMBAT MODE. Combat modes are either withdraw, defend, attack, or hasty 
+attack.
+
+
+
+
+
+
+
+
+
+Page 6
+
+
+
+6.2.1 Withdraw
+
+Withdraw mode means the unit enters force march mode, then road deployment 
+mode, and moves under the following priorities: 
+1) the unit may not withdraw into mountains.
+2) the unit may not withdraw into an enemy occupied hex or through enemy 
+lines as given in 6.2.1.1
+3) The friendly unit will attempt to withdraw into the hex it was ordered to 
+retreat to(see Command RT on Menu B - Section 13.2.4
+4) The friendly unit will attempt to withdraw in the direction last moved.
+5) The friendly unit will attempt to withdraw in any available direction, 
+starting at direction 1 and moving clockwise.
+
+Corps attempting to withdraw have only a chance of being able to safely 
+withdraw. In order to withdraw safely the corps morale must be greater than 
+or equal to a random number between 1 and 4. If the morale check fails, then 
+all corps not in withdraw contact mode will change their combat mode to 
+stand. Corps in withdrawal mode will make another morale check. If it is 
+successful the corps will withdraw safely. If unsuccessful, then the corps 
+will still withdraw, but it will lose 50% of its strength(less 5% for each 
+leadership point of the corps commander). Losses to artillery due to an 
+unsuccessful withdraw are doubled, This is called routing.
+Note:If a corps is in the hex occupied by the primary army commander, the 
+player will determine whether the corps will make its second attempt to 
+withdraw.
+
+6.2.1.1 - Enemy lines are defined as follows:
+
+Whenever a unit enters an enemy occupied hex which contains no friendly 
+units, the battle lines are drawn, with the direction from which the unit 
+enterd the hex, and the two adjacent directions, becoming the lines of the 
+side with the entering unit(the other directions become the lines of the 
+enemy unit). Once the enemy lines have been drawn, additional units entering 
+the hex will only change the lines if they belong to the side that had the 
+original entering unit. In this case new units could increase the lines of 
+the entering side while decreasing the lines of the unit originally in the 
+hex.
+Example: If a confederate unit enters a Union-occupied hex from direction 4 
+(coming from the south), then the Confederate lines are considered to be in 
+direction 3,4,and 5, while the Union lines are directions 1, 2, and 6. If 
+later in the game another Confederate corps enters the hex from direction 2, 
+then the Confederate lines would include directions 1, 2, 3, 4, and 5, while 
+the Union lines would be reduced to direction 6, In this way the Union army 
+may be surrounded by another Confederate corps entering from direction 1, 5, 
+or 6.
+
+6.2.2 Stand
+
+In this mode, the unit enters normal march mode, deployment mode, then enters 
+rest march mode.
+
+6.2.3 Attack
+
+When given this order, the unit will enter normal march mode. If no enemy 
+occupies the hex, it will enter road march mode and move into an enemy 
+occupied hex on the same priorities as withdrawing(ignoring priority two). 
+When in an enemy occupied hex, the corps will deploy, if not deployed, and 
+attack the enemy unit(s). Attacks in hexes in which there are other friendly 
+corps are made separately unless an army commander is "leading the attack".
+
+Page 7
+
+
+
+6.2.4 Hasty Attack
+
+The corps so ordered behaves in the same manner as an attacking corps except 
+that 
+1) it enters force march mode, and 2) it will not bother deploying in the 
+enemy occupied hex, When attacking, undeployed units will suffer more 
+casualties than deployed units.
+
+
+6.3 MARCH MODE
+
+This is the speed at which a corps executes its orders. Possible march modes 
+are rest, normal, and force march.
+
+6.3.1 Rest Mode
+
+Units in rest mode have no movement allowance but may recover from fatigue.
+
+6.3.2 Normal Mode
+
+Units in normal mode have a movement allowance of 3 if infantry corps and 4 
+if cavalry corps. they suffer fatigue if they move at night.
+
+6.3.3 Force March Mode
+
+Units in force march mode have a movement allowance of 4 if infantry corps 
+and 6 if cavalry corps. But they suffer fatigue gains.
+
+6.4 Patrol Mode
+
+Patrol mode may only be used by cavalry corps. Corps in patrol mode have a 
+reconnaisance radius of 2 hexes, and assume a normal march mode. Corps in 
+enemy ZOC's or which move leave patrol mode and must be given a new order to 
+once again enter patrol mode.
+
+6.5 Deployment Mode
+
+6.5.1 Road Mode
+
+A corps organized in a column along a road not necessarily in a road hex is 
+in Road Mode.
+
+6.5.2 Deployed Mode
+
+A corps deployed in battle order is in deployed mode. Corps in Road Mode may 
+move. Corps in deployed mode may not move from hex to hex.
+
+7.0 STACKING
+
+7.1 A corps may only enter a hex if there are no friendly units in road mode 
+in the hex. Corps wishing to enter a hex in which there is a friendly unit in 
+road mode will force the friendly unit to deploy. If the moving corps has a 
+lower unit number. For example, if corps 2 tries to enter a hex containing 
+corps 1, corps 2 will wait until corps 1 deploys or leaves the hex. If corps 
+1 tries to enter a hex containing corps 2, corps 2 will be forced to deploy in
+ order to allow corps 1 to enter the hex.
+
+7.2  Army HQ units may always stack with friendly units and not block 
+friendly units from entering their hex.                      Page 8
+
+
+
+
+7.3 Units with an active combat mode do not count for stacking purposes.
+
+
+8.0 MOVEMENT
+
+During the execution phase the computer will move each player's units as per 
+their orders. A unit's movement allwance is dependent on its march mode and 
+corps type (infantry or cavalry). Each unit will deduct from its movement 
+allowance a number of movement points for each action performed during the 
+turn. Unused movement points are not transferred from unit to unit nor 
+accumulated from turn to turn; However the effects of spent movement points 
+do accumulate from turn to turn. Example: A normal marching infantry corps 
+spends two movement points to move one hex and then spends its last movement 
+point towards entering another hex. On the next turn, the unit will only use 
+one movement point to enter the next hex. Corps receiving an SU, PT, or CM 
+order while not in a ZOC will be slightly delayed despite the fact that there 
+is no movement cost associated with these commands.
+
+8.1 Night Turns (2100)
+
+During night turns, units have 1-1/2 their normal movement allowance and gain 
+fatigue at three times the normal rate. No combat may occur at night. Units 
+normal marching at night gain one fatigue point. Units withdrawing at night 
+withdraw in normal march mode instead of force march mode.
+
+8.2  Units not moving from one road hex to another road hex gain 1/2 of a 
+fatigue point (In effect, these units are moving on secondary roads which is 
+not as easy to do as moving on the main roads shown on the mapboard).
+
+8.3  If two opposing units try to enter each others's hex, at the same 
+instant, then only the confederate forces would move.
+
+8.4  Rivers not crossed from a road hex to another road hex (i.e. an 
+unbridged hexside) cause the gain of a fatigue point. Confederate units may 
+never cross rivers.
+
+8.5  Mountain hexes may never be entered.
+
+
+8.6 Rain Turns
+
+During rain turns, all movement point costs are doubled. All orders which 
+have begun to be executed during a rain turn will take twice as long to 
+execute. Thus a unit which begins to cross a river during a rain turn would 
+spend 8 movement points crossing the river and entering the hex, even if the 
+move was completed during a non-rain turn. No combat may occur during rain 
+turns.
+
+8.7 Movement Cost Chart
+
+ACTION                        MOVEMENT POINT COST
+
+Enter Hex                              2
+Change Deployment Mode                 1
+Conduct Attack                         1
+Conduct Hasty Attack                   1
+Cross River Hexside                   +2
+
+Page 9
+
+
+
+8.8 Morning Turns (0500)
+
+During 0500 turns all units have 1/2 their normal movement allowance but gain 
+and lose fatigue normally.
+
+8.9 Effects of Urgency and Leadership on Movement
+
+A corps will choose its march mode based on the urgency given the corps and 
+the aggressiveness of the leader of the corps. The higher the urgency the 
+greater the chances a unit will force march and less the chance a unit will 
+rest. Also, the higher the leader's aggressiveness the greater the chance of 
+force march and the lower the chance of rest. At night units will move as if 
+their urgency was set 3 lower than it actually is. Units which have had their 
+march mode set for them(either by force movement or the SM command) will 
+follow the march mode given and will not look at their urgency or leadership.
+
+8.10 Stragglers
+
+Infantry corps in normal or force march mode may suffer the loss of infantry 
+from straggling. Infantry corps in rest mode (or corps expending 0 movement 
+points) regain infantry lost from straggling. Infantry lost from straggling 
+are considered eliminated for all purposes except that they may be regained 
+through rest.
+
+8.10.1 Corps lose the following percentage of their infantry strength per 
+turn due to straggling (determined at random).:
+
+                                           FORCE         NIGHT        NIGHT
+                             NORMAL        MARCH         NORMAL       FORCE
+                              MODE          MODE          MODE         MODE
+         UNION                0-1           0-4           0-6          0-12
+   CONFEDERATE                 0            0-2           0-2          0-6
+
+8.10.2 Corps in rest mode (or corps expending 0 movement points) regain 1 
+strength point (100 men) of stragglers per turn.
+
+9.0 COMBAT
+
+Any time a hex is occupied by two opposing forces during a non-rain day turn, 
+and one of the forces is undemoralized, combat may occur. Combat occurs when 
+either or both of the forces expends a movement point to attack the opposing 
+force.
+
+9.1 Which Units Participate in Combat
+
+All enemy units in the battle hex will be attacked. If a friendly army 
+commander with attack orders is in the hex then all friendly units with 
+attack orders will participate. 
+Note: This is the only difference between a secondary army commander and a 
+normal corps
+commander. If there is no friendly army commander with attack orders in the 
+hex, each friendly unit with attack orders will attack independently. Note: 
+This tactic can be devastating if each attacking corps can get acceptable 
+odds. Under most circumstances a unit will only be permitted to attack once 
+during a turn. However, if the army commander(or secondary army commander, if 
+the army commander in not present) starts spending movement points after a 
+combat has occurred, and does attack during the turn, the other friendly 
+corps with attack orders will join in.
+
+Page 10
+
+
+
+ Example: Union units in hex 12,5 attack a Confederate unit at the beginning 
+of a turn, and later during the same turn Meade enters the hex and initiates 
+an attack. The Union units will join the superior leader in the attack and 
+thus attack twice in the same turn.
+
+9.2  Reconnaisance will be performed prior to each battle. If one side thinks 
+it is outnumbered by 1:1.75 or worse, it will temporarily assume an urgency 
+of 1 if its contact mode is initiative, it will assume: stand combat mode.
+
+9.2.1 Reconnaisance is performed by comparing the cavalry strengths of the 
+opposing sides. The more cavalry strength that a side has over his 
+opponent(including morale and effectiveness), the more accurate will be his 
+reconnaisance. Error in reconnaisance will vary from_+10% to _+50%, Forces 
+with equal cavalry strengths will have a reconnaisance error of _+35%.
+
+9.2.2 The combat strengths of both sides will be adjusted by applicable 
+combat shifts as follows: A combat multiple is determined for each unit type 
+for each corps and is multiplied by the unit type strength. Example: a corps 
+has 50 infantry strength points and 20 foot gun strenth points. The multiple 
+for the infantry might be 8 and the multiple for the foot guns 12. The combat 
+strength for the corps would be 640 (8 X 50 + 12 X 20 = 640).
+The multiple is made up of all applicable combat shifts listed below:
+
+Cavalry                             +1.5        Confederate                 +2
+Cavalry in withdraw combat mode     +1          Horse guns                  +3
+Cavalry in a town hex               -2          Foot guns                   
++2.5
+Cavalry in road mode                +1          Corps morale -              +1
+unit deployed                       +5          per morale point
+unit in stand combat mode           +6          Unit effectiveness -        +1
+unit in attack combat mode          +3          per effectiveness point
+unit in hasty attack combat mode    +2
+
+9.2.3 If the army headquarters is in the battle hex the player will be given 
+the estimated battle odds by using the estimated strengths determined in 
+9.2.1 and 9.2.2. With this information the player will be asked  what urgency 
+is desired in the battle. The response should be a number between 0 and 9, 
+Inclusive. An army headquarters unit which is attacking may give an urgency 
+of 0. which tells the attacking units to abort the attack in 
+progress(however, the units will remain in combat mode attack).A defending 
+army head-quarters unit which gives an urgency of 0 will have its urgency 
+automatically set to 1.
+
+9.3 Now the real battle odds are determined in a manner identical to above, 
+except that no reconnaisance error is factored. These battle odds are 
+expressed as a ratio of 1:n or n:1, where n is a number greater than or equal 
+to 1. Example: 3:1, 1:4, 2.2:1.
+
+9.4 Next, the leadership odds are determined. The leadership odds are the 
+ratio of each side's average leadership(with the controlling leader valued as 
+three leaders when determining the average). The controlling leader is the 
+senior army commander , or if no army commander is present, the leader of the 
+lowest numbered corps.
+
+9.5 The two ratios determined in 9.3 and 9.4 when multiplied together give 
+the combat odds. Example: The battle odds are 2:1, the leadership odds are 
+1:1.5. the combat odds would be approximately 2:1.5 or 1.3333:1 ( there is a 
+random factor thrown in).
+
+
+
+
+Page 11
+
+
+
+9.6 CASUALTIES
+
+Casualties are based on three things: the ferocity of the battle, the combat 
+odds, and the unit types involved.
+
+9.6.1 Ferocity is what controls the number of losses. ferocity is determined 
+by taking the urgency of each commander and, for each point odf difference 
+between their leaderships, temporarily adjusting the urgency of the inferior 
+commander 1 point towards that of the superior commander. Now average the 
+superior leader's urgency with the adjusted urgency. This is the ferocity of 
+the battle. Example: Leader A has an urgency of 3 and a leadership of 8. 
+leader B has an urgency of 9 and a leadership of 5. the adjusted urgency 
+would be 6 and the ferocity would be 4 (3 + 6) / 2 = 4. The table below shows 
+the percentage casualty rate due to ferocity.
+
+FEROCITY   1    2    3    4     5     6     7     8      9
+CASUALTY   3    6    9   12    15    18    21    24     27
+
+9.6.1.1 The Effects of Leadership Aggressiveness on Combat Urgency
+
+In order to determine the final urgency used by each commander in a battle, 
+first find the average aggressiveness of each side's leaders involved in the 
+combat and divide the number for each side by 10. Add this number to the 
+urgency of the leader commanding the battle(primary, secodary, or lowest 
+number leader) to find the actual urgency used by each side. Example: Union 
+leaders have an aggressiveness of -30, 10, 0, -20, 0 and the Union commander 
+has given an urgency of 7 for the battle. The average of the leader 
+aggressiveness ratings is -8 ((-30+10+0-20+0)/5) and this divided by 10 is 
+-8. adding this to the 7 urgency creates an urgency of 6.2 or 6(round to the 
+nearest integer). Thus, the Unaggressiveness of some of the Union leaders has 
+reduced the Union battle urgency.
+
+9.6.1.2 Union Echelon Attacks (deciding who is in the front lines and who is 
+in reserve)
+
+Before a battle each army commander (or the computer if there is no friendly 
+primary commander in the battle0 will be asked to rank his corps for combat 
+purposes. Based on the urgency of the battle each army's corps will be 
+divided into three echelons, with the higher ranked corps(numbers closer to 
+1) being in the first echelons(front lines) and the lower ranked corps in the 
+second and third echelons (different states of reserve). The higher the 
+battle urgency the greater the number of troops placed in the first echelon 
+(it is assumed that the commander desires more troops to be in the initial 
+assault. Units in the front lines (echelon one and to a lesser extent echelon 
+two) have a greater impact on the combat odds, but they also suffer greater 
+losses. In this way a commander must decide when to commit his high 
+effectiveness corps by giving them a high combat priority, for by doing so 
+the combat odds will increase, but of course, so will the losses sustained by 
+the guard corps.
+
+9.6.2  The combat odds determine the ratio of casualties between the two 
+forces. For instance, if the ferocity were 6 and the combat odds were 3:1, 
+then the casualty rate would be 18%. The loser(the weaker force) would lose 
+18% and the winner lose 6%. The losses are a percentage of the smaller force. 
+However, if a corps is demoralized its loss will be a percentage of the 
+larger force. Example: In the above case, the winning force had 50,000 men. 
+The losing force had 30,000 men. Therefore, the losing force would lose 
+5400(30,000 X .18) men and the winning force would lose 1,8000(30,000 X .06) 
+men. In this case the winner actually lost only 3.6% or 3% of his force 
+involved and that is what the battle report would read.
+
+Page 12
+
+
+
+9.6.3 Once the number of losses are determine, these losses are distributed 
+throughout the involved corps.
+
+9.7 If the combat odds are either 1:15 or 15:1 then the weaker force is 
+destroyed (surrendered).
+
+9.8 If corps' strength falls below 15% of its original strength due to 
+combat, it is destroyed.
+
+9.9 When the Union 11th corps is eliminated it will reappear immediately at 
+hex 20,18. When the Confederate 11th corps is eliminated it will reappear 
+immediately at hex 1,7. Eliminated headquarters units will be assigned a 
+random leadership value.
+
+9.10 Corps leaders may be lost due to combat. If a leader is killed, he is 
+replaced by another leader with a semi-randomly assigned leadership and 
+aggressiveness rating. Lee and Meade may never be killed, unless their HQ 
+corps is eliminated. A corps gains 1/2 of a fatigue point when its leader is 
+killed.
+
+9.11 Each side in combat may suffer additional fatigue from their adjusted 
+urgency as shown below:
+
+Adjusted Urgency    1     2     3    4     5     6     7     8     9
+Fatigue Gained      1    3/4   1/2  1/4    0    1/4   1/2   3/4    1
+
+Thus commanders are advised to use urgency 5 unless they are willing to 
+suffer the additional fatigue.
+
+
+10.0 DISPATCHES
+ 
+Dispatches take two forms: The report and the order. During his Player Phase, 
+a player will receive reports that were sent during previous Reconnaisance 
+and/or Execution Phases.
+During the Order Receipt Phase, the corps will receive orders which were 
+issued during previous Player Phases.
+
+10.1 Battle reports are sent during any Execution Phase in which a battle 
+occurs. Battle reports arrive during the friendly Player Phase of the 
+following turn, adding one turn for each six hexes distance between the primar
+y headquarters and the battle.
+
+10.2 Reconnaisance reports and location reports are sent during each 
+Reconnaisance Phase. They arrive during the friendly Player Phase of the same 
+turn, adding one turn for each six hexes distance between the primary 
+headquarters and the reporting corps.
+
+10.3 Activity reports are not dispatches but are intelligence estimates of 
+current troop concentrations(derived from such things as sun glinting on 
+metal, fires, shots, spies, etc.) for each occupied hex on the map there is a 
+16% chance that an activity report will be issued on it each turn. There is 
+also the possibility of false reports.
+
+10.4 Orders are sent each turn during the friendly Player Phase and arrive 
+during the Order Receipt phase of the same turn, adding one turn for each six 
+hexes distance between the primary headquarters and the receiving corps at 
+the time the orders are sent.
+
+
+
+Page 13
+
+
+
+11.0 CORPS MORALE AND FATIGUE
+
+Corps morale represents the corps' fatigue and willingness to fight. When 
+corps morale reaches zero, the corps is demoralized. Demoralized corps suffer 
+higher casualties in combat. A demoralized corps is automatically given a 
+contact mode of withdraw, an urgency of 1, and loses all its previous 
+non-immediate and combat immediate orders. Demoralized corps may not be sent 
+new contact mode or urgency orders(if they are sent they are purged from the 
+orders and are not read by the corps). The clearing of orders and the setting 
+of contact mode withdraw for demoralized corps occurs only just after a 
+combat or during the fatigue phase. Note: An army commander may not stop a 
+demoralized corps from withdrawing. The morale of a corps is equal to CORPS 
+EFFECTIVENESS / FATIGUE LEVEL.
+
+11.1 Fatigue is increased due to combat. For every 5% casualties suffered, 
+the corps gains one fatigue point. Partial fatigue may be gained from lower 
+casualties. Example: 6% losses + 1.5 fatigue points gained.
+
+11.2 Corps in force march mode gain one fatigue point per turn.
+
+11.3 All corps in rest mode or corps that have not expended any movement 
+points lose 1 fatigue point.
+
+11.4 The gain of fatigue is tripled at night. Units normal marching at night 
+gain 1 fatigue point.
+
+11.5 Each unit gains 1/2 of a fatigue point when moving to or from a non-road 
+hex.
+
+11.6 Each unit gains 1 fatigue point when crossing an unbridged river 
+hexside. This is in addition to the fatigue gained through provisions of 
+section 11.5.
+
+11.7 Non HQ corps with 15 or more fatigue points are destroyed.
+
+
+12.0 ORDER TYPES
+
+There are three types of orders that may be given...immediate orders, combat 
+immediate orders, and non-immediate orders. Immediate orders are orders which 
+are executed during the orders phase such as RT(retreat), or any order from 
+Menu A. Non-immediate orders are those which are entered into the dispatch, 
+and, when they arrive, they will eliminate any orders the receiving corps has 
+been working on or had not yet started to execute. Non-immediate orders will 
+also eliminate any movement points spent towards executing an action. Combat 
+immediate orders are orders which are sent by dispatch. If the unit receiving 
+the orders is in a ZOC at the time of receipt, then the orders are treated as 
+immediate orders. If the corps is not in a ZOC, then the combat immediate 
+orders are treated as non-immediate orders. it is important that the player 
+understand that issuing orderseach turn is much less efficient(and probably 
+futile) than sending one dispatch with series of orders that will take many 
+turns to execute. Also, note that reissuing orders to a corps during the same 
+orders phase after having returned to Menu A will cause the loss of the 
+orders already issued to that corps during that orders phase.
+Note: Since combat immediate orders being received are executed at once if 
+the corps is in a ZOC at the time of receipt, the corps will execute even 
+those combat immediate orders which are at the end of the dispatch. This can 
+cause a corps to assume stand mode when you wanted it to stand after it had 
+finished executing its movement orders.
+
+
+Page 14
+
+
+
+
+13.0 THE ORDERS
+
+A player may give orders which 1) do not go to the player's corps(but which 
+give information or decisions affecting the strategic situation) 2) orders to 
+the corps or 
+3) orders to a group of corps or 'force'.
+
+13.1 Menu A: Startegic Orders
+
+Orders from Menu A are given in response to the question "What are your 
+orders, sir?". 
+The following is a list of possible answers to that question.
+
+13.1.1 LM: Look at Map
+
+1. The player is first aked "Hexon?" an answer of"Y" will cause the hex grid 
+to appear with the map. Any other key will eliminate the hex grid.
+
+2. The player is then asked "What corner hex(X, Y)?". The response should be 
+the x,y coordinates of the desired upper lefthand corner hex inputed as two 
+numbers separated by a comma. the x coordinate must be the integer number 
+between 1 and 9, the y coordinate an integer between 1 and 13.
+
+3. The map is now displayed. then following is a key to the map 
+(SEE THE MAP TERRAIN KEY AT THE LEFT SIDE OF THE MAP)
+
+4. The computer now asks " Do you wish to continue looking at the map (Y or 
+N)?". If the answer is yes, the computer repeats the routine from step 2, If 
+the answer is no, the computer returns to Menu A.
+
+13.1.2 SR: Status Report
+
+The computer will display the current status of all units in one turn 
+dispatch distance (demoralized corps will be shown in inverse). The display 
+might look like this:
+
+CORPS   EFF   FAT   INF   CAV   GUNS   STR   URG   %
+
+1W      3.8    3    103    0     25     3     7    50
+
+6A      5.2    0    125    0    102    11     5   100
+
+11S     9.0    0      0    4      0     0     1   100
+
+Under Corps is the corps number and current contact mode: Eff is the Average 
+Effectiveness Rating of the Corps and FAT is the amount of fatigue suffered 
+(the FAT is a truncated value). The Corps morale is equal to the Average 
+Effectiveness Rating +2 -Fatigue suffered. In the above example, the 6th 
+Corps would have a morale of 7.2 and the 1st Corps a morale of 2.8 (See Corps 
+Morale). INF and CAV are the current number of infantry and cavalry, measured 
+in hundreds of men. GUNS is the number of eight pounder equivalent cannons 
+the corps has. For Example, four six-pounders would be rated as 3. STR is the 
+number of current stragglers, measured in hundreds of men. URG is the current 
+urgency rating of the corps and CON is the current contact mode. % is the 
+percentage of the corp's original strength remaining.
+
+
+Page 15
+
+
+
+
+13.1.3 DC: Designate Commander
+
+This will redesignate the secondary army commander. The computer will ask 
+"What Corps Commander?". This corps commander will instantly become the 
+secondary army commander. While the previous secondary army commander will 
+join the ranks.
+
+13.1.4 SG: Save Game
+
+This allows the players to save a game in progress.
+
+13.1.5 ET: End Turn
+
+This will end the current turn.
+
+13.1.6 OC: Order Corps
+
+The player gives orders to a specific corps (Menu B). If any non-immediate 
+orders(see Menus B & C) are given and arrive on a turn in which previously 
+given orders arrive, then the previously given orders are replaced by the new 
+orders (i.e., the last issued set of orders are the ones that count). The 
+computer asks "Orders to Whom?". When the answer (the corps to be given 
+orders) is received, the computer transfers the player to Menu B.
+
+13.1.7 Order Force
+
+The first thing the computer does is find all corps eligible to be in the 
+force and asks the player one by one if that corps is desired in the force. 
+To be eligible, a corps must be within two hexes of its army HQ unit. The 
+computer will ask "What march rate do you wish (R, N, F)?. The answer will 
+apply to the slowest corps in the force, while the march rate for each corps 
+will be the slowestthey can manage while travelling at the given speed. 
+Example: A force of one cavalry corps and one infantry corps(the slowest) 
+receive orders to march at force march rate. Theentire force would have 4 
+MP's that turn which for the infantry corps, would be force marching, but for 
+the cavalry corps this is normal marching. Thus, part of the force may force 
+march while another part normal marches, but they will all move with the same 
+speed(Note: This ability to specify the march rate can be helpful in 
+preventing a unit in the lead of a column from blocking the column by 
+resting. The march mode forced upon the corps only lasts one turn). The 
+computer now transfers the player to Menu C. As with OC, The last set of 
+orders issued are the ones that are executed ( Note: the defined force and 
+march speed last only one turn, though any orders given last as long as they 
+normally would).
+
+13.1.8 LD: Look at Dispatches
+
+The turn's dispatches will be shown to the player.
+
+13.2 Menu B: Orders to Corps
+
+Orders from Menu B are given in response to the question "ORDERS?" The 
+following is a list of possible answers to the question.
+
+
+
+Page 16
+
+
+
+
+13.2.1 SU: Set Urgency
+
+This is a combat immediate command in which the player orders a change of 
+urgency for the corps. This change, like all non-immediate orders (see 
+section 13.1.6), is made when the order is reached in the order set. Thus, 
+the corps could move 3 hexes with an urgency of 5, change the urgency to 7 
+and continue moving under the new urgency. however, this would necessitate 2 
+MV commands in that set. The computer prompts the player with the question
+"SET TO WHAT URGENCY (1-9)?".
+
+13.2.2 SM: Set March Mode
+
+This is an immediate command (it is not put into the orders but executed 
+immediately) and can only be given to the 11th Corps. If you wish to give 
+march mode orders to a corps it must be done by an OF command from Menu A or 
+by an SU command from Menu's B & C (though this will only influence the 
+chance of a given march mode). The prompt by the computer is
+"SET TO WHAT MARCH MODE (R, N, F)?".
+
+13.2.3 CM: Set Contact Mode
+
+This is a combat immediate command which sets the contact mode of the corps. 
+After this command is given, the moment the corps enters an enemy ZOC the 
+combat mode will automatically turn to whatever the contact mode of the unit 
+is set at (if the contact mode is initiative the corps will, of course wait 
+until it has performed reconnaisance before choosing its combat mode). The 
+computer prompts with " WHAT CONTACT(I,W,S,A,H)?" and will
+require confirmation.
+
+13.2.4 RT: Retreat to Hex
+
+This is an immediate command which sets the number 1 priority hex to which a 
+corps should withdraw. This command can only be given a corps within one turn 
+dispatch distance and the hex must not be a forest hex. The computer asks 
+"RETREAT TO WHAT HEX(X,Y)?". The player should respond with the coordinates 
+of a hex adjacent to the withdrawing corps. This order does not force a corps 
+to withdraw; it just sets the retreat priority hex in the event of a 
+withdrawal. This order will last until the unit is moved one hex. this order 
+may only be given to units in immediate dispatch range.
+
+13.2.5 AT: Attack Hex
+
+This is an immediate command which sets the number 1 priority hex to move 
+into and attack. The AT command has identical restrictions as the RT command 
+and the prompt "ATTACK WHAT HEX (X,Y)?" is responded to in the same way. this 
+order, once given, will last until a unit moves one hex. This order may only 
+be given to units in immediate dispatch range.
+Note: this does not place a corps in attack mode.
+
+13.2.6 RE: Reinforce Hex
+
+This is an immediate command which tells a corps that it should attempt to 
+reinforce a hex containing friendly units without attacking eneny units in 
+the hex. The corps must have a combat mode of attack or hasty attack in order 
+for this command to be executed. The order is treated exactly as if it were 
+an AT order wxcept that combat will not be initiated. Unlike an AT orderwhich 
+will last until the unit has moved. An RE order will last for only one turn.
+
+Page 17
+
+
+
+
+If an army commander has an RE order and enters a hex where a battle is about 
+to occur the battle will not occur (unless the entering unit is a secondary 
+army commander and it enters a hex containing the primary commander). This 
+order may only be given to units in immediate dispatch range.
+
+13.2.7 MV: Move
+
+This is a non-immediate command which controls the movement of the corps. The 
+computer Asks "STARTING HEX (X,Y)?" to determine where the player believes 
+the corps will be when it receives the orders. The computer will center the 
+map arounfd the starting hex and then ask "DIRECTION?". The answer is the 
+direction in which the cursor should be moved. defined as follows:
+
+                                   ____1___
+                                  /        \
+                               6 /          \ 2
+                                /            \
+                                \            /
+                               5 \          / 3
+                                  \        /
+                                       4
+
+The cursor will move to the new hex, the cursor and current hexes listed will 
+be updated and the computer will ask for directions again. If the direction 
+given leads the cursor off the screen the current hex will remain unchanged, 
+but the map will be recentered about the cursor. The path of the cursor will 
+become the intended movement path of the unit being ordered. If the corps is 
+not within 1 hex of the starting hex when the MV order is executed, the corps 
+will force march until it arrives on the path defined.
+
+13.2.8 PT: Patrol
+
+This is a non-immediate command which will cause the corps to assume normal 
+march and patrol mode until it moves or occupies a hex in an enemy ZOC.
+
+13.2.9 CD: Change Deployment Mode
+
+This is a non-immediate command which will cause the corps to enter the 
+deployment mode given in response to the question "CHANGE DEPLOYMENT TO WHAT 
+(R<D)?. R: Road Mode, 
+D: Deployed.
+
+13.2.10 EX: Exit Menu
+
+This immediate command returns the player to Menu A.
+
+13.2.11 OC: Order Corps
+
+This is the equivalent to giving an EX order followed by an OC order.
+
+13.2.12 CS: Corps Status
+
+This order may only be given to corps within one turn dispatch distance. When 
+given the command it will cause the display of the corps' current combat 
+mode, deployment mode, current hex, and a list of all orders the unit will 
+attempt to execute.
+
+                                    Page 18
+
+
+
+13.2.13 XU: Exit Unit
+
+This is an immediate command which will result in the unit exiting the map if 
+it is on washington exit hex. This command can only be given to a corps 
+within one turn dispatch distance. The order will result in the immediate 
+exiting of the unit. If a headquarters unit is exited, the player can still 
+give orders and receive reports as if the HQ unit was located in the hex from 
+which it exited.
+
+13.3 Menu C: Force Orders
+
+Orders from Menu C are given in response to the question "FORCE ORDERS?". The 
+following is a list of possible answers to the question.
+
+13.3.1 SU: Set Urgency
+
+See 13.2.1
+
+13.3.2 CM: Set Contact Mode
+
+See 13.2.3
+
+13.3.3 MV: Move
+
+See 13.2.7
+
+13.3.4 PT: Patrol
+
+See 13.2.8
+
+13.3.5 CD: Change Deployment Mode
+
+See 13.2.9
+
+13.3.6 EX: Exit Menu
+
+See 13.2.10
+
+13.4 It is important to realize that under normal circumstances it is not 
+necessary to order corps to enter road or deployed mode, for movement orders 
+and contact mode orders will automatically shift corps into the proper 
+deployment mode for the action being performed.
+
+14.0 FORCES AND HOW TO USE THEM (or, the care and feeding of your corps)
+
+As related previously, forces are made up of one or more corps within two 
+hexes of the primary army commander (the army commander does not have to be 
+part of the force). Two or more forces may be formed during a given turn as 
+long as each corps meets the above conditions. However, if one corps is made 
+a member of two forces it will only receive the orders given to the second 
+force. Forces last only one turn, though their orders are not destroyed.
+
+
+                
+Page 19
+
+
+
+14.1 Forces make it easy to issue orders to many corps at once, instead of 
+each individually. Any movement orders should use as a starting hex the 
+location of the rearmost corps, tracing the movement path through the other 
+members of the force (if they are not in the same hex0. The front units will 
+not wait for the rest of the force but will act on their orders 
+independently, moving along the movement path until they reach the 
+destination hex.
+
+14.2 Forces can be used to control the speed of the corps and thus control a 
+stack, keeping the cavalry corps from moving way ahead. Likewise, the force 
+can be used to make corps rest, normal, or force march as desired.
+Note: The speed of a force is the speed of the slowest unit. Therefore, if a 
+cavalry corps and an infantry corps compose a force which receives force 
+march orders, then the infantry corps will force march (MP=4) and the cavalry 
+corps will normal march (MP=4).
+
+14.3 If a force is given no new orders which would normally cause it to lose 
+its old orders, then the commander can still control the speed (march mode) 
+of the force without changing its orders. This can be repeated every turn.
+
+15.0 OPTIONAL BATTLE
+
+Players may elect to resolve combat situations by using methods of their own 
+choosing (such as with the use of minitures). if optional combat is selected 
+at the beginning of the game the computer will give the players the option to 
+resolve each combat off-line (without the computer). if the players choose 
+off-line combat, the computer will list the statistics of all units involved 
+in the battle and then allow the players to save the game. when the game is 
+restarted, the players will be asked to enter the casualties and fatigue 
+suffered by each corps in the battle.
+
+COUNTERS
+       
+            Information Units                        Combat units
+            ______        ______                  ______       ______
+           |  E   |      | ____ |                |      |     |  IV  |
+           |5,000 |      | |  | |                |  IV  |     |   D  |
+           |______|      |______|                |______|     |______|
+
+            Enemy        Activity                 Corps        Corps
+           Strength       Report                 Counter      Counter
+                                                           (Demoralized)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page 20
+
+
+
+
+16.0 ORDER OF BATTLE       JUNE 28
+
+
+
+                                  (HORSE
+CONFEDERATE                (CAV)   GUNS)      HISTORICAL      HISTORICAL   
+CORPS      HEX    LEADER    INF    GUNS  STR  UNIT            LEADER      INF 
+ CAV  GUNS
+
+A          6,5      4/0      65     40    0   McLaws Div      McLaws      
+6500  0    40
+B          5,7      4/0      50     18    0   Pickett's Div   Pickett     
+5000  0    18
+C          6,6      7/0      70     29    0   Hood's Div.     Hood        
+7000  0    29
+D         19,6      6/20     60     16    0   Early's Div     Early       
+6000  0    16
+E         13,1      5/-10    65     47    0   Johnson's div   Johnson     
+6500  0    47
+F         12,1      4/10     80     16    0   Rode's Div      Rodes       
+8000  0    16
+G          6,6      6/0      75     17    0   Anderson's Div  Anderson    
+7500  0    17
+H          7,7      5/0      75     39    0   Heth's Div      Heth        
+7500  0    39
+I          7,7      6/-10    60     32    0   Pender's Div    Pender      
+6000  0    32
+J         16,18     7/30    (88)   (29)   0   Cavalry Div     Stuart        0 
+ 8800  29
+HQ         6,6      8/0      (4)     0    0   HQ Staff        Lee           0 
+  400   0
+
+UNION
+
+A          6,14     7/0     117     28    3   I Corps         Reynolds   
+11700  0    28
+B          9,16     6/10    122     28    3   II Corps        Hancock    
+12200  0    28
+C          9,16     5/30    113     30    2   III Corps       Sickles    
+11300  0    30
+D          9,16     4/0     112     26    3   V Corps         Sykes      
+11200  0    26
+E          9,17     7/0     156     48    4   VI Corps        Sedgewick  
+15600  0    48
+F          7,15     3/-10   101     26    4   XI Corps        Howard     
+10100  0    26
+G          5,17     4/-10    98     20    2   XII Corps       Slocum      
+9800  0    20
+H          6,13     6/0     (30)   (12)   0   Buford's Div    Buford          
+ 3000  12
+I          9,15     5/10    (85)   (44)   0   Cavalry Corps   Pleasanton    0 
+ 8500  44
+                                             - Buford's Div
+J          9,16     5/0      0     108    0   Artillery Res.  Hunt          0 
+  0   108 
+HQ         9,16     7/0     (4)     0     0   HQ Staff        Meade         0 
+  400   0
+ 
+                                   INFANTRY    CAVALRY    GUNS      STRAGGLERS
+     TOTAL CONFEDERATE FORCES       60,000      9,200     283            0
+     TOTAL UNION FORCES             81,900     11,900     370         2100
+
+
+KEY
+
+HEX - Starting hex
+LEADER - Leadership value/aggressiveness
+INF(CAV) - Infantry (numbers in () are Cavalry).
+GUNS (HORSE GUNS) - Artillery (Numbers in () are horse guns).
+STR - Stragglers
+
+
+
+
+
+
+
+
+Page 21
+
+
+
+JULY 1
+
+                                  (HORSE
+CONFEDERATE                (CAV)   GUNS)      HISTORICAL      HISTORICAL   
+CORPS      HEX    LEADER    INF    GUNS  STR  UNIT            LEADER      INF 
+ CAV  GUNS
+
+A          7,7      4/0      65     40    0   McLaws Div      McLaws      
+6500  0    40
+B          5,8      4/0      48     18    2   Pickett's Div   Pickett     
+4800  0    18
+C          7,7      7/0      68     29    2   Hood's Div.     Hood        
+6800  0    29
+D         12,7      6/20     55     16    5   Early's Div     Early       
+5500  0    16
+E         12,5      5/-10    59     47    6   Johnson's div   Johnson     
+5900  0    47
+F         12,7      4/10     80     16    0   Rode's Div      Rodes       
+8000  0    16
+G         10,7      6/0      71     17    4   Anderson's Div  Anderson    
+7100  0    17
+H*        12,8      5/0      75     39    0   Heth's Div      Heth        
+7500  0    39
+I         12,8      6/-10    60     32    0   Pender's Div    Pender      
+6000  0    32
+J         13,1      7/30    (84)   (29)   0   Cavalry Div     Stuart        0 
+ 8400  29
+HQ         9,7      8/0      (4)     0    0   HQ Staff        Lee           0 
+  400   0
+
+UNION
+
+A         12,8      4/0     116     28    4   I Corps         Doubleday  
+11600  0    28
+B         14,12     6/10    118     28    7   II Corps        Hancock    
+11800  0    28
+C         12,11     5/30    112     30    3   III Corps       Sickles    
+11200  0    30
+D         15,10     4/0     108     26    7   V Corps         Sykes      
+10800  0    26
+E         19,11     7/0     142     48   18   VI Corps        Sedgewick  
+14200  0    48
+F         12,9      3/-10    92     26   13   XI Corps        Howard      
+9200  0    26
+G         13,10     4/-10    90     20   10   XII Corps       Slocum      
+9000  0    20
+H*        12,8      6/0     (26)    (6)   0   Buford's Div    Buford          
+ 2600   6
+I         17,14     5/10    (83)   (50)   0   Cavalry Corps   Pleasanton    0 
+ 8300  50
+                                             - Buford's Div
+J         14,12     5/0      0     108    0   Artillery Res.  Hunt          0 
+  0   108 
+HQ        14,12     7/0     (4)     0     0   HQ Staff        Meade         0 
+  400   0
+ 
+                                   INFANTRY    CAVALRY    GUNS      STRAGGLERS
+     TOTAL CONFEDERATE FORCES       57,900      8,800     283         1900
+     TOTAL UNION FORCES             77,800     11,300     370         6200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page 22
+
+
+
+THE ROAD TO GETTYSBURG  SCENARIO DATA CARD
+I. CAMPAIGN GAME JUNE 28 - JULY 4, 1863
+
+In this scenario the Confederate army is trying to live off the land while 
+avoiding combat unless an opportunity for a major victory presents itself.
+
+A. Game Time
+
+The game begins on June 28 (day 1) with the 0500 turn and ends after the 
+fatigue phase of the 2100 turn on July 4 (day 7). Rain is expected by July 4, 
+but is may occur a day or two earlier or it may never occur.
+
+B. Special Rules
+
+1) In solitaire mode the computer will control the Union forces. 
+2) Confederate Units in rest mode (or Confederate units which expend no 
+movement points during the turn) which are not in an enemy occupied hex are 
+considered to be foraging. Each hex may only support a limited amount of 
+foraging before being depleted. Town hexes may be foraged five times (one 
+unit five turns, five units one turn, two units, for two turns and one unit 
+for one turn,etc.), road hexes three times, and clear hexes twice. however, 
+as each hex is foraged, the victory points scored for that hex decreases. The 
+first time a town hex is foraged the Confederate player will receive 5 
+victory points, the second time 4 points, etc., until one point is received 
+on the fifth forage in the same town hex. The first time a road hex is 
+foraged the Conferderate player will be awarded three victory points, the 
+second time, two points and the third time one point. The first time a clear 
+hex is foraged the Confederate player will receive two points, the second 
+time one point. No foraging will occur in a hex that has been depleted.(i.e. 
+foraged the maximum number of times allowed by terrain of the hex).
+3) We suggest that the Confederate player place a blank counter in any hex 
+foraged(one blank counter per forage). In thids manner the confederate player 
+will know at a glance the extent of the forAging which has taken place in 
+each hex.
+
+C. Victory Conditions
+
+The Confederate player receives victory points for the following:
+Points Received      Action Performed
++300                 Union 11th corps eliminated
++150                 Each Union corps eliminated
++50                  Each Union corps demoralized at the end of the game
++10                  Each 10% of a Union corps destroyed at the end of the 
+game
+                     (not counting eliminated Union corps)
++1                   Each Confederate Strength point over 300 exited towards 
+Washington         
+                     (i.e. 450 exited points would yield 150 Confederate 
+victory points)
+-10                  Each 10% of a confederate corps destroyed at the end of 
+the game 
+                     (not including eliminated confederate corps)
+-50                  Each Confederate corps demoralized at the end of the 
+game.
+-150                 Each Confederate corps eliminated
+-300                 Confederate 11th corps eliminated
+
+Victory is determined by comparing the total Confederate Victory points at 
+the end of the game with thw following schedule:
+
+500+            Confederate Decisive Victory
+250 to 499      Confederate Substantive Victory
+ 
+Page 23
+
+
+
+125 to 249      Confederate Marginal Victory
+75 to 124       Draw
+-50 to -74      Union Marginal Victory
+-300 to -75     Union Substantive Victory
+-301 or less    Union Decisive Victory
+
+
+II. THE BATTLE OF GETTYSBURG, JULY 1 - JULY 3, 1863
+
+With the accidental meeting of Heth's and Buford's divisions outside 
+Gettysburg, battle is forced upon the Confederate Army. Lee must strike 
+quickly and win the battle on the first day, or face a united Union army 
+larger than his own.
+
+A. Game Time
+
+This game begins on july 1 (day 4) with the 0900 turn and ends after the 
+fatigue phase of the 2100 turn on July 3 (day 6). There is a slight chance of 
+rain towards the end of the game.
+
+B. Special Rules
+
+1) In solitaire mode the computer will control the Union forces.
+2) Heth's division and Buford's division begin the game with 2 fatigue points.
+3) The game begins with enemy lines drawn in Gettysburg based on the 
+following: Buford entered Gettysburg from hex 12,9 and was the first unit in 
+the Hex. Doubleday entered gettysburg from hex 12,8, Heth and Pender entered 
+gettysburg from 11,8. Thus Union lines are in directions 2,3,4. confederate 
+lines are in directions 1,5,6. and the Union army is considered to have the 
+original entering units in hex 12,8.
+
+C. Victory Conditions
+
+The confederate player receives victory points for the following:
+
+Points Received          Action performed
++300                     11th Union corps eliminated
++150                     Each Union corps eliminated
++100                     Confederate units are considered to be the original 
+entering 
+                         units in hex 12,8 (Gettysburg at the end of the game 
+(this can 
+                         happen if at any time there are confederate units in 
+Gettysburg 
+                         and no Union units in Gettysburg, See section 
+6.2.1.1 for details 
+                         on original entering unit.)
++50                      Each Union corps demoralized at the end of the game.
++1                       Each 1% of a Union corps destroyed at the end of the 
+game.
++1 to +5                 Points awarded for foraging as explained in section 
+B. campaign
++1                       Each Confederate strength point over 300 exited 
+towards 
+                         Washington(same as for the Campaign scenario)
+-1                       Each 1% of Confederate corps destroyed at the end of 
+the game.
+-50                      Each Confederate corps demoralized at the end of the 
+game.
+-100                     Union units are considered to be the original 
+entering units in 
+                         hex 12,8 Gettysburg at the end of the game.
+-150                     Each Confederate corpd eliminated.
+-300                     Confederate 11th corps eliminated.
+
+
+Page 24  
+         
+                           
+
+
+Victory is determined by comparing the total Confederate victory points at 
+the end of the game with the following schedule:
+
+ 375+                Confederate Decisive Victory
++125 to 374          Confederate Substantive Victory
+   0 to 124          Confederate Marginal Victory
+ -50 to -1           Draw
+-175 to -51          Union Marginal Victory
+-425 to -174         Union Substantive Victory
+-426 or less         Union Decisive Victory
+
+SPECIAL NOTE:
+For the purposes of determining fatigue, forage and straggling the computer 
+will check the march mode of the unit at the end of the execution phase. 
+Example, A confederate unit is in hex 5,8 with force orders to force march to 
+hex 5,9 withcontact mode initiative while union unit stands in hex 5,10. 
+during the execution phase the confederate unit enters 5,9, enters normal 
+march and deploys, then enters rest mode due to the initiative order(units 
+with initiative contact mode will always initially assume stand combat mode, 
+changing the contact mode only after the next reconnaisance phase. Since the 
+unit is in rest mode at the end of the execution phase it would recover one 
+fatigue point, regain 100 stragglers, and forage hex 5,9.
+
+
+THE ROAD TO GETTYSBURG ORDERS SUMMARY CHART
+
+MENU A (Strategic Orders)              MENU B (Orders to Corps)
+LM = Look at Map                              SU = Set Urgency (combat immediate)
+SR = Status Report                            SM = set March mode (immediate),but
+DC = Designate Commander                           may only be given to 11th corps.
+SG = Save Game                                CM = set contact mode (combat immediate)
+ET = End Turn                                 RT = retreat to hex (immediate)
+OC = Order Corps                              AT = attack hex (immediate)
+OF = Order Force                              RE = reinforce hex(immediate)
+LD = Look at Dispatches                       XU = exit unit (immediate confederate only)
+MENU C (Orders to Force)                      MV = Move
+SU = set urgency (combat immediate)           PT = Patrol (units with cavalry only)
+CM = set contact mode (combat immediate)      CD = change deployment mode
+MV = move                                     CS = corps status (immediate)
+PT = patrol mode (units with cavalry only)    EX = exit menu B (immediate)
+CD = change deployment                        OC = order new corps(equivalent to giving
+EX = exit menu C (immediate)                       an EX order followed by an OC order)
+
+COMMANDS USED DURING MOVEMENT
+
+1-6 moves cursor as follows:
+
+1 = North
+2 = North East
+3 = South East
+4 = South
+5 = South West
+6 = North West
+
+0 = allows the player to restart or abort a MV or LC order, any other key 
+will end action.

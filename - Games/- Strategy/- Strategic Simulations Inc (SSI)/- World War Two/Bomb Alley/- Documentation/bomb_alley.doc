@@ -1,0 +1,2627 @@
+BOMB ALLEY RULE BOOK
+====================
+
+ 1.0 INTRODUCTION
+ 2.0 GENERAL DESCRIPTION
+ 3.0 SEQUENCE OF PLAY
+ 4.0 TASK FORCE ADJUSTMENT PHASE
+ 5.0 TASK FORCE MOVEMENT
+ 6.0 PLANNING LAND ATTACKS
+ 7.0 AIR OPERATIONS
+ 8.0 COMBAT RESOLUTION
+ 9.0 GENERAL OPERATIONS
+10.0 MINI GAMES
+11.0 SOLITAIRE PLAY
+12.0 TWO-PLAYER GAMES
+13.0 ORDER OF BATTLE
+14.0 SHIP DATA
+     Campaign and Pedestal Scenarios
+     Crete Scenario
+15.0 STRATEGY NOTES
+16.0 CREDITS
+17.0 HISTORICAL COMMENTARY
+
+
+1.0 INTRODUCTION
+================
+    BOMB ALLEY is an operational level game featuring combat between British
+and Axis air, land, surface-naval and submarine forces for control of the
+Mediterranean and North Africa in 1942.  Every ship, airplane or infantry
+company available to the local British and Axis commanders in the summer of
+1942 are now under your control.  You will need to organize your ships into
+task forces to perform various missions: sea lane, interdiction, land
+bombardment, supply/troop transport, evacuation, etc.  All play revolves around
+the creation and manipulation of these task forces and the effective
+concentration of air power.  Included are a campaign game covering June 11 to
+August 31, 1942, and minigames covering the invasion of Crete in May 1941 and
+Operation Pedestal in August 1942.
+
+1.1 Description of Action:
+-------------------------
+    Each game turn represents the passage of 12 hours.  A game turn consists
+of:(1) building and adjusting friendly task forces;(2) moving your task
+forces;(3) launching air missions during daylight turns;(4) combat resolution.
+
+1.2 Talking to the Computer:
+---------------------------
+    To enter a response to the computer that consists of numbers (such as ship
+or task force identification numbers or the number of aircraft performing a
+mission), type the number into the computer and press the <return> key.  To
+select a routine from the Task Force Menu or answer a Yes/No question, just
+press the desired key.  If you wish to halt the game during the combat
+resolution phase, type <CNTRL-C>.  This will cause the program to pause until
+you press another key.
+
+1.3 Saving a Game:
+-----------------
+    Upon completion of the combat phase of each turn, the computer will allow
+the player(s) to save the game in progress.  You will need a scratch disk to
+store the saved game data.  The disk must be initialized for SSI use by
+following the instructions included in the game program.  Once the game is
+saved, you will be able to restart it from the point at which you left off.
+
+1.4 The Map:
+-----------
+    The map is a 40 x 40 square grid representation of the Mediterranean
+Theatre.  Each square measures 60 miles in width.  Land Squares are yellow,
+orange, or green; black squares are ocean; while squares are bases; red squares
+are British TFs; and blue squares are Axis TFs.  The range between squares is
+calculated between the center of the first square and the center of the second
+square.  The number thus obtained is rounded up.
+
+Example: 5 squares over and 1 square up equals range of 5.099 or 6.
+
+         +-+-+-+-+-+-+-+-+-+-+
+         | | | | | | | | | | |
+         +-+-+-+-+-+-+-+-+-+-+
+         | | | | | | |X| | | |
+         +-+-+-+-+-+-+-+-+-+-+
+         | |X| | | | | | | | |
+         +-+-+-+-+-+-+-+-+-+-+
+         | | | | | | | | | | |
+         +-+-+-+-+-+-+-+-+-+-+
+            ^         ^
+            |_________|
+
+
+1.5 Starting a Game (DOS 3.2 or 3.3):
+------------------------------------
+    To begin a game, boot your game disk and the game will begin automatically.
+If you are using an Apple II with Pascal, you must first use your BASICS disk.
+If you are using an Apple III, you must first go into Apple II emulation mode.
+
+
+2.0 GENERAL DESCRIPTION
+=======================
+
+2.1 Parts Inventory:
+-------------------
+A. Game Box
+B. Rule Book
+C. 5 1/4" game disk
+D. Two map data cards
+
+2.2 Passwords:
+-------------
+    At the start of a non-solitaire game both sides will be required to enter
+a password.  The password may contain any combination of letters and numbers
+totaling less than 256 characters.  It is important that both sides keep their
+passwords secret to insure that the computer will give secret information only
+to the proper side.  Some sample passwords are: "AXIS", "1942", and "Q".
+
+2.3 Abbreviations:
+-----------------
+    Abbreviations used in the game are explained below:
+
+CV   aircraft carrier           DML   minelayer
+BB   battleship                 MTB   torpedo boat
+CA   heavy cruiser              MG    main guns
+CL   light cruiser              AA    light guns
+CLAA anti-aircraft cruiser      TT    Torpedoes
+DD   destroyer                  CC    cargo/aircraft capacity
+DE   destroyer escort           SU    supply units on board
+SS   submarine                  IF    infantry units on board
+TR   transport                  DM    damage percentage
+TK   tanker                     MS    maximum speed
+BBT  old battleship transport   CAP   combat air patrol
+DMS  minesweeper                TF    task force
+
+
+3.0 SEQUENCE OF PLAY
+====================
+    BOMB ALLEY is designed to be a two-sided game: British vs. Axis.  The Axis
+forces may be commanded by either a human or the computer.
+
+3.1 Scenario Selection Phase:
+----------------------------
+    During the scenario selection phase, the player(s) select a scenario and
+determine the conditions under which the game will be played.  The set-up may
+be changed by entering the following numbers:
+
+        (1) New Game or Saved Game
+        (2) Color TV or Black & White TV
+        (3) Solitaire or two player
+        (4) Solitaire level of difficulty (1-4)
+
+The scenario may be altered by entering the following numbers:
+
+        (5) Campaign (June 11 - Aug 31, 1942)
+        (6) Pedestal (Aug 10 - Aug 15, 1942)
+        (7) Crete (May 20 - May 31, 1941)
+
+3.2 Historical Set-Up:
+---------------------
+    At the start of each game, the computer will assign all ships, aircraft,
+infantry and supplies to their historical locations prior to the battle.
+
+3.3 Daytime (AM) Sequence:
+-------------------------
+A. Axis TF Adjustment Phase
+B. Axis Movement Phase
+C. British TF Adjustment Phase
+D. British Movement Phase
+E. British Air Operations Phase
+F. Axis Air Operations Phase
+G. Combat Resolution Phase
+H. Save Game Phase
+
+3.4 Nighttime (PM) Sequence:
+---------------------------
+    The PM sequence is the same as the AM sequence except steps E and F are
+deleted.
+
+3.5 Keep Time:
+-------------
+    An AM turn followed by a PM turn equals one day.  The calendar is adjusted
+at the end of the PM turn.
+
+
+4.0 TASK FORCE ADJUSTMENT PHASE
+===============================
+    At the start of the task force adjustment phase, the computer will display
+a menu listing four options for adjusting your forces and seven options for
+reviewing the status of your forces.  To enter the desired routine, just press
+the corresponding numbered or lettered key.
+
+4.1 Forming Task Forces:
+-----------------------
+A. Enter the code for the port in which you will assemble your TF (I,G,A).
+B. Enter the code for the mission your TF will perform.  See Section 9.2 for
+   a list of the possible missions.
+C. The computer will list those ships in the selected port that are eligible
+   to perform the selected mission.  Each ship will be displayed with its I.D.
+   number.
+D. Assemble your TF by entering the desired ship numbers.  In some cases, the
+   screen cannot list all of the eligible ships at once; if you do not see the
+   ships that you want, press <RETURN> and another batch of ships can be
+   listed.
+E. When the computer prompts "CONTINUE SELECTION Y/N", press (N) if you are
+   satisfied with your selection, or press (Y), and the computer will run
+   through the list again.
+
+4.2 Combining TFs:
+-----------------
+    Two TFs occupying the same grid location may be combined in the following
+manner:
+A. Enter the number of the "gaining TF" and the "merging TF"
+B. All ships in the "merging TF" will be added to the "gaining TF" and the
+   "merging TF" will be deleted.
+C. If the "merging TF" had a lower endurance than the "gaining TF", then the
+   "gaining TF" will assume the lower endurance.
+D. Submarine TFs may not combine with non-submarine TFs.
+
+4.3 Dividing TFs:
+----------------
+A. Enter the number of the TF you wish to divide.  The computer will list the
+   ships in the selected TF.  A ship with "***" printed after its name is
+   crippled.
+B. the Axis player is allowed 9 active TFs, the British player is allowed 11.
+   If you are currently using the maximum number of TFs, then the computer will
+   display the message "TOO MANY ACTIVE TFs" and return to the menu.
+C. Enter the number of the ships you wish to transfer to a new TF.  The
+   computer will set up a new TF for you.  The new TF will have the same
+   mission and endurance as the original TF.
+D. If you are currently using fewer than your maximum number of TFs, then the
+   DIVIDE TF function may be used to "scuttle" crippled ships.  Just enter the
+   letter "S" following the number of the ship you are transferring.  Your
+   opponent will receive one less victory point for ships that are scuttled
+   than would ordinarily be awarded for a ship sunk involuntarily. (Your crew
+   is assumed to have been removed safely)
+
+4.4 Loading Transports:
+----------------------
+    Troops and supplies may be loaded onto ships which are located in a
+friendly port (Italy, Gibraltar, Alexandria).
+A. Use the LOAD TRANSPORTS - TRAIN CV PILOTS routine, enter the code for the
+   port in which the loading is to take place.  The computer will list all
+   eligible ships in that port with a cargo capacity greater than zero.
+B. Enter the number of the ship you wish to load and then enter the number of
+   infantry companies and/or supply units you wish to load.  Each infantry
+   company represents 100 men.
+C. If you wish to unload cargo while still in port, type a "U" in response to
+   the question "number of infantry companies/supply units to be loaded?".
+   By typing a "U" the current cargo will be unloaded.
+D. Only supply units may be loaded into tanker (TK) type ships.
+
+4.5 Training Carrier Pilots:
+---------------------------
+    To replace losses for depleted carrier air groups, land based aircraft
+(pilots) must be trained for carrier operations.
+A. Use the LOAD TRANSPORTS - TRAIN CV PILOTS routine.  Select the code for the
+   port that is furnishing the aircraft for training.  The carrier must already
+   be assigned to this port.
+B. Enter the number of the carrier that is to receive the aircraft.
+C. The computer will list all of the eligible aircraft available in the port.
+   Enter the quantity you wish to transfer.
+D. The carrier will be taken out of circulation for two days while the
+   "training" is being accomplished.
+
+4.6 Checking the Pipeline:
+-------------------------
+    Reinforcements and repaired ships will periodically be sent to ports you
+control.  To check the status of these ships, you may wish to request the
+current condition of your ship "pipeline".
+A. Enter the code (I,G,A) for the port you wish to check.
+B. The computer will list all ships currently in that port and all ships due
+   to arrive there.
+C. For ships in the repair, refit or reinforcement "pipeline", the computer
+   will list the time in days before that ship can return or arrive.
+
+4.7 Sunk Ships Display:
+----------------------
+    The computer will list all ships that have been sunk and the points awarded
+for their sinking.
+
+4.8 Air Group Display:
+---------------------
+    The computer will display the number of each type of aircraft assigned to
+each friendly airbase or carrier that is active.
+
+4.9 List Active TFs:
+-------------------
+A. The computer lists the TF number, mission, and endurance for each friendly
+   TF currently active.
+B. The computer will prompt "ENTER TF NUMBERS." If you wish to examine the
+   ships in a particular TF, enter the TF number and <return>.  If you do not
+   wish to examine a TF just press <return>.
+
+4.10 Map Display:
+----------------
+    The computer will display the map and all friendly active TFs.  If you
+wish to locate a particular friendly TF on the map, enter that TF's number.
+The TFs square will flash to indicate its location.
+
+4.11 Malta Status Display:
+-------------------------
+    The computer will display the number of troops and supply dumps you control
+on Malta.
+
+4.12 Base Display:
+-----------------
+A. The computer will display the infantry companies, supply dumps, fighters,
+   and bombers available at each friendly base.
+B. The computer will prompt "REINFORCE AFRICA CORP Y/N" or "REINFORCE EIGHTH
+   ARMY Y/N".
+C. If you press (Y), the computer will ask which African base you wish to use
+   as a reinforcement source.  Enter the desired base code.
+D. The computer will ask you how many infantry companies, supply dumps, and
+   aircraft of each type you wish to transfer.  To transfer from the base to
+   the front lines, enter a positive number.  To transfer from the front back
+   to the base, enter a negative number.  If you do not wish to transfer a
+   particular item, just press (RETURN).
+E. When listing aircraft transfers, the computer will display two numbers,
+   separated by a colon.  The first number is the quantity of the aircraft type
+   at the source base.  The second number is the quantity of the aircraft type
+   at the front.
+F. When transferring supplies from a base to the front, part of the quantity
+   transferred will be "consumed" in transit.  The percentage consumed will be
+   equal to the distance from the base to the front divided by 100.
+
+4.13 Ending the Game:
+--------------------
+    Both players should agree before ending the game.  The computer will
+display the final score.
+
+
+5.0 TASK FORCE MOVEMENT
+=======================
+    TFs move by expending movement points.  The number of movement points a TF
+is allowed is dependent on the TFs "fleet speed".
+
+5.1 Fleet Speed:
+---------------
+A. A TFs fleet speed is calculated as 25 knots or the speed of the slowest ship
+   in the TF, whichever is lower.
+B. the speed of a TF assigned a "T", "E" or "ES" mission (see 9.2) will be 30
+   knots or the speed of the slowest ship in the TF, whichever is lower.
+
+5.2 Movement:
+------------
+A. A TF receives one movement point for each 2-1/2 knots of fleet speed, A TF
+   will receive a minimum of three movement points.
+B. A TF expends two movement points for each square moved in directions N, S,
+   E, W.
+C. A TF expends three movement points for each square moved in directions NW,
+   NE, SW, SE.
+D. A TF with fewer than two points remaining in its move, may not move any
+   further, but it may still "dock".
+E. If you accidentally press the wrong key while moving, you may press the
+   (A)bort key and start your move over.  This may not be done after you have
+   docked a TF.
+F. A TF may never enter a land square.  A TF may move freely through any other
+   square.
+
+5.3 Entering Harbor - Unloading Ships:
+-------------------------------------
+A. A TF that begins its move on a friendly base square may enter the harbor and
+   unload cargo by pressing (9) for "dock".  If a TF begins its turn in harbor
+   and wishes to remain there, the player must press (9).  If a TF begins its
+   turn in harbor and wishes to exit the harbor while remaining on the base
+   square, the player should press (0).
+B. Each ship may unload a maximum of six infantry companies or three supply
+   units or an equivalent combination of infantry and supply.  Tankers may
+   unload maximum of 6 supply points per turn.
+C. While "in harbor" a TF may never be attacked by enemy ships or submarines.
+D. While "in harbor" a TFs ships are more vulnerable to air attack, bomber
+   accuracy is doubled when attacking ships "in harbor".
+E. Axis ships may unload on Malta (amphibious assault).  Follow the
+   procedure in A above.  Ships will unload infantry/supplies at a rate of
+   4/2 instead of 6/3.  Tankers will unload 2 supplies per turn.  When
+   assaulting Malta, Axis ships will never enter the harbor.
+F. Once Axis forces have captured Malta no British troops or supplies may
+   be unloaded on Malta.
+
+5.4 Movement Sequence:
+---------------------
+A. During the movement phase, TFs must be moved sequentially according to
+   TF number.  Once a TF has completed its move, the action cannot be reversed.
+B. A player may examine the ships in a TF at any time during the TFs movement
+   segment.  Press the (S) ships key and the computer will give a complete
+   status display for each ship in the TF.  The column heads for the display
+   are explained in section 2.3.
+
+
+6.0 PLANNING LAND ATTACKS
+=========================
+    During the AM turns, the computer will display the number of troops and
+supplies available on your African Front, and will ask the question "DO YOU
+WISH TO ATTACK Y/N".
+A. Enter the level of your attack (0-5); zero means no attack.
+B. A level 1 attack is a reconnaissance in force and consumes one supply dump.
+   A level 5 attack is an all-out Blitz and will consume five supply dumps,
+   etc.
+C. If you wish to avoid combat, enter (R) to retreat, the front will shift
+   one square (60 miles) away from the enemy.  Combat may still occur if the
+   British retreat and the Axis employs a level 5 attack.
+
+
+7.0 AIR OPERATIONS
+==================
+    During the Air Operations Phase, a player may (1) launch CAP and search
+aircraft, (2) observe search results, (3) launch air strikes, (4) transfer
+aircraft.
+
+7.1 CAP and Search Missions:
+---------------------------
+A. At the start of each Air Operations Phase, each player must determine how
+   many of his fighters will fly CAP missions and how many of his bombers will
+   fly search missions.  Aircraft performing CAP or search may not participate
+   in air strikes or transfers during that turn.
+B. Fighters may fly two types of CAP missions: (1) normal CAP, and (2) long-
+   range CAP.  Normal CAP will protect only the TF or airbase from which it
+   originated. Long-range CAP will protect any friendly TF within a five square
+   range of the launching base or carrier.  CAP will never protect a friendly
+   submarine task force.  Only a fraction of an air group performing long-
+   range CAP will intercept an enemy air strike (the greater the distance
+   between the CAP's home base and the airstrike target, the smaller the
+   fraction).  The percentage of planes intercepting is as follows:
+
+        Range to Target                 % of CAP Intercepting
+               0                                 76
+               1                                 43
+               2                                 30
+               3                                 23
+               4                                 18
+               5                                 15
+
+C. Bombers may fly two types of search missions: (1) normal search, (2)
+   submarine search.  Normal search missions can detect only enemy surface TFs.
+   Submarine search missions can detect only enemy submarines.
+D. Each active airbase is equipped with ten float planes which automatically
+   fly normal search missions every AM turn.  These planes fly independently
+   (not in conjunction with searching bombers from the same airbase).  These
+   float planes may never be destroyed.
+E. Search ranges for aircraft are listed below:
+
+   SWORDFISH    12      SM79    20      JU88    20
+   BEAUFORT     20      DO17    20      JU87    10
+   FLOAT PLANE  20
+
+   Range is calculated as shown in section 1.4.
+F. The maximum search range of a base or TF is equal to the search range of
+   the lowest-range search plane.
+
+7.2 Launching Air Strikes:
+-------------------------
+    Enemy bases and enemy TFs sighted on the search results display may be
+attacked by available friendly aircraft within range.
+A. The computer will request a target for each friendly active airbase/carrier.
+   Type in the ID number of the enemy TF/base you wish to attack.  The computer
+   will list the range to the target and ask you how many of each type of
+   aircraft you want to launch.  The computer will not allow you to attack
+   unsighted enemy TFs.  A player may launch a maximum of 20 airstrikes per
+   AM turn.  Within this restriction there is no limit to the number of strikes
+   that may be launched from a friendly carrier or airbase, or the number of
+   strikes that may be launched against a single enemy TF or base.  The first
+   airstrike launched from a base will consume 1 supply dump; subsequent
+   strikes launched from that base will not consume supplies.  The maximum
+   range of an anti-ship airstrike is eight spaces.
+B. The following bases may be attached by typing in the target numbers listed
+   below:
+
+   GIBRALTAR    1       ITALY     16      TRIPOLI      20
+   ALEXANDRIA   2       SICILY    17      BENGHAZI     21
+   MALTA        3       SARDINIA  18      ATHENS       16
+   TOBRUK       4       CRETE     19      MOLAOI       17
+
+C. The attack ranges for aircraft are listed below:
+
+   SPITFIRE     5       SM79      10      DO17         10
+   FULMAR       6       JU88      12      JU52         12
+   ME109        5       JU87       5
+   SWORDFISH    6       BEAUFORT  12
+
+D. Spitfire, Fulmar, and ME109 aircraft may be included in airstrikes, but
+   they may never attack enemy surface or submarine targets.  They function
+   as escorts to protect the bombers and shoot down enemy CAP.
+
+7.3 Aircraft Transfers:
+----------------------
+    Aircraft may be transferred between airbases and/or carriers with the
+following restrictions:
+A. Only two air transfer missions may be performed each AM turn.
+B. Aircraft may never transfer from an airbase to a carrier. (This requires
+   pilot training, see paragraph 4.5).
+C. For transfer purposes, aircraft have their range tripled.
+
+7.4 Air Transport Operations:
+----------------------------
+    The Axis player may transport troops or supplies between friendly airbases
+by using the JU52 transport aircraft.
+A. Whenever the JU52 aircraft is included in an air transfer mission (see 7.4),
+   the computer will ask "TRANSPORT TROOPS OR SUPPLIES T/S".  Press (T) to
+   transport infantry, press (S) to transport supplies; press (RETURN) if you
+   do not wish to transport any cargo.
+B. If the transfer range is less than five, then each JU52 may transport one
+   infantry or 1/6 of a supply unit.  If the transfer range is greater than or
+   equal to five, then each JU52 may transport 1/10 of an infantry company or
+   1/60 of a supply unit.
+
+7.5 Airborne Assault:
+--------------------
+A. An Axis airborne assault will occur the first time during the game in which
+   Sicily-based JU52s are included in an airstrike against Malta.  Each JU52
+   included in the strike will attempt to transfer one infantry company from
+   Sicily to Malta.  If a JU52 is destroyed by a CAP or AA fire, an infantry
+   company is also destroyed.
+B. An airborne assault may only occur once during the game, after which JU52s
+   may not be included in airstrikes.
+
+7.6 Fighter Effectiveness:
+-------------------------
+    The law of diminishing returns applies to both air combat over North Africa
+and CAP interceptors.  That is, the effectiveness of each additional fighter
+will decrease as the total fighters used increases.
+
+
+8.0 COMBAT RESOLUTION
+=====================
+    During the combat resolution phase, the computer will automatically perform
+the following functions:
+(1) Air Combat over Africa
+(2) Air Strike Resolution
+(3) Surface and Submarine Combat Resolution
+(4) Return aircraft to their bases/carriers
+(5) Resolve land combat
+(6) Repair & Refit of ships
+(7) Activate reinforcements
+
+8.1 Air Combat over Africa:
+--------------------------
+    Each AM turn, the Eighth Army based aircraft will exchange blows with the
+Afrika Corps-based aircraft.  This occurs using the following sequence:
+A. Each Afrika Corps ME109 will engage an Eighth Army fighter/bomber.  The
+   type of aircraft engaged is determined randomly.
+B. Each Eighth Army Spitfire will engage an Afrika Corps fighter or bomber.
+   The type of aircraft engaged is determined randomly.
+C. Afrika Corps and Eighth Army bombers that survive air combat over Africa
+   will perform ground support missions during the subsequent land combat
+   phase.
+D. In Air Combat over Africa the ME109 will enjoy a slight tactical advantage
+   over the Spitfire (will shoot down enemy aircraft better).
+
+8.1.1 Air Combat Over Malta:
+---------------------------
+    Air combat over Malta occurs each AM turn in which Axis troops have a
+foothold on Malta.
+A. Air combat will follow the sequence listed below:
+     (1) Sicily-based long-range CAP will attack Malta-based bombers and
+         fighters available for ground support missions.
+     (2) Malta-based long-range CAP will attack Sicily-based bombers and
+         fighters available for ground support missions.
+
+8.2 Air Strike Resolution:
+-------------------------
+    Each air strike is resolved in three segments:
+(1) CAP resolution, (2) Flak resolution, (3) Bomb or torpedo hit resolution.
+A. Before an air strike group can attack an enemy TF or base if must first
+   survive the onslaught of each CAP fighter group protecting the target
+   individual CAP fighters will randomly select a bomber or escort fighter
+   target and attack it.  If the attack fails to shoot down the target
+   aircraft, then the target aircraft will counterattack.  This sequence is
+   repeated for each participating CAP fighter.
+B. An example of CAP target selection is as follows:
+   If an air strike has 10 escort fighters and 20 bombers, then each CAP
+   fighter will have a 33% chance of selecting an escort fighter for a target
+   and a 67% chance of selecting a bomber for a target.
+C. The following table shows the chances for a CAP fighter to destroy each type
+   of aircraft and the chances of a counterattack destroying the CAP fighter:
+
+                        Aircraft                Aircraft Shoots
+                       Shot Down                Down CAP Fighter
+   ME109                  18%                          22%
+   SPITFIRE               18%                          22%
+   FULMAR                 18%                          22%
+   SWORDFISH              39%                           1%
+   BEAUFORT               32%                           8%
+   SM79                   32%                           8%
+   JU88                   32%                           8%
+   JU87                   39%                           1%
+   DO17                   32%                           8%
+   JU52                   39%                           1%
+   BOSTON                 32%                           8%
+
+    The odds for fighter combat may be changed in situations where the CAP
+fighters greatly outnumber the escort fighters.  The CAP kill percentage may
+be increased up to 25% and the escorts' kill percentage reduced to as low as
+15%.  the following aircraft are fighters: ME109, SPITFIRE AND FULMAR.
+D. Each bomber that survives CAP combat will select a target ship from those
+   in the target TF and attempt to penetrate the TFs flak and deliver its
+   ordnance.  Target selection is accomplished in the following manner, each
+   ship is assigned a selection value (SV) equal to its defense factor plus
+   five times its cargo/aircraft capacity; the chance of a particular ship
+   being attacked is equal to the SV of that ship divided by the combined SV
+   of the target TF.
+E. The chance of a bomber being shot down by flak is equal to the TF flak
+   strength, divided by 500.  The TF flak strength is equal to the combined
+   AA ratings of all ships in the TF.  If there are more than 12 ships in the
+   TF, then the TF flak strength is equal to the average AA ratings of the
+   ships in the TF times 12.
+F. The chance of bomber hitting its targets is affected by (1) bomber accuracy,
+   (2) maximum speed of target, (3) flak intensity, (4) range of the strike,
+   (5) size of the target.  The relative accuracy of each bomber is listed
+   below:
+
+   DO17         1       JU88       2       SWORDFISH       4*
+   SM79         1*      BEAUFORT   2*      JU87            4
+
+   * indicates torpedo ordnance
+
+   All bombers are equally accurate when attacking enemy bases.  Air strikes
+   against bases can only destroy parked aircraft or supply dumps.
+G. the first air strike on any particular submarine will cause the submarine
+   to submerge.  The act of submerging will protect the submarine from further
+   air attacks during that turn.
+
+8.3 Surface Combat Resolution:
+-----------------------------
+    Surface combat may occur between opposing TF's that occupy the same space
+if at least one of the TF's performing a combat patrol mission (C) and
+endurance of a least 9.
+
+A. Surface combat is resolved using the following sequence.
+(1) each British ship in a TF performing a "C" mission will fire at one of the
+ships from one of the Axis TFs in the same space, (2) each Axis ship that
+occupies the same space as the attacking British TF will fire at one of the
+ships from the attacking TF, (3) each Axis ship in a TF performing a "C"
+mission will fire at one of the ships from any British TF that occupies the
+same space; (4) each British ship that occupies the same space as the
+attacking Axis TF will fire at one of the ships from the attacking TF.
+
+B. Target selection for surface combat is similar to that used for air attacks.
+In surface combat, a ship's selection value is equal to that ship's defense
+factor.
+
+C. When attacking, each ship will (1) fire torpedoes, (2) fire main guns,
+(3) fire secondary guns.  Ships carrying 12 or more torpedoes will fire half of
+them at the target.  Ships carrying less than 12 torpedoes will fire all of them
+at the target.
+
+D. The accuracy of gunfire and torpedoes is adjusted according to the speed and
+size of the target.  Axis ships will suffer a major disadvantage in surface
+combat that occurs at night.  There is a 67% chance that an Axis ship will fail
+to locate a target at night.  This rule does not apply to Axis MTBs.
+
+E. The following restrictions apply during daylight surface combat: (1) AA guns
+will not fire at ships with main guns; (2) torpedoes will only be fired at
+crippled ships.  MTB's will fire torpedoes normally.
+
+F. TRs, TKs, and CV type ships will never fire during surface combat.  A ship
+that picks a carrier as its target will only fire if it has a speed greater
+than the carrier.
+
+G. A TF performing an "MT" (Motor Torpedo Boat) mission will perform exactly
+like a TF performing a "C" mission except that an "MT" TF may initiate combat
+regardless of its endurance.
+
+H. MTBs have their torpedo accuracy doubled at night MTBs may only be damaged
+by enemy gunfire.  (Enemy aircraft will employ strafing instead of bombs or
+torpedoes).
+
+I. On PM turns, MTBs selected as targets will have a 50% chance of evading the
+attack (the attacker ship will not fire).
+
+J. Combat ships (BB,CA,CL,DD,DE,DMS,DML) that are loaded with supplies will
+have their surface combat efficiency reduced.  There is a 50% chance that
+loaded combat ships will be unable to fire at a target during surface combat.
+
+
+8.4 Submarine Combat:
+--------------------
+A. Submarines patrol an area up to two spaces away from their actual TF
+location.
+
+B. Each sub in a TF will have about a 12% chance of attacking an enemy surface
+TF within its patrol area.  (Italian subs have a 1% chance).  Each sub in a
+TF will have less than 1% chance of attacking an enemy sub TF within its
+patrol area.
+
+C. The chance of engaging and torpedoing an enemy ship will be reduced by the
+number of escorts (DD,DMS, DML,DE) present in the defending TF.
+
+D. A sub that has been sighted by enemy sub search will have its chance for
+successful attack reduced and its chance of being sunk by "depth charge"
+increased.
+
+E. When attacking submarines will fire a salvo of 4 torpedoes, or all of
+their remaining torpedoes, whichever is less.
+
+F. Italian submarine torpedoes will be only half as effective as British and
+German torpedoes.
+
+G. After a submarine launches an attack, escorts in the opposing TF will
+attempt to locate and depth charge the sub.  Each escort in the TF has a 15%
+chance of locating the sub for Italian escorts and a 30% chance of locating
+the sub for British escorts.  Escorts that locate the sub have a 1% chance of
+sinking it.
+
+
+8.5 Aircraft Returning to Base:
+------------------------------
+A. After completing their missions aircraft will attempt to return to the same
+base or carrier from which they were launched.
+
+B. If launched from a carrier which received a 26% or more damage or had its
+speed reduced below 15 knots, the aircraft will try to make an "emergency"
+landing on another carrier or airbase.
+
+C. Emergency landings will occur automatically if there is a friendly base or
+carrier within 3 squares of the origin carrier.
+
+D. If an emergency landing is required and there are no eligible bases or
+carriers within 3 squares, then the aircraft will ditch in the ocean.
+
+
+8.6 Land Combat:
+---------------
+    Land combat is automatic when Axis forces are present on Malta.  Land
+combat in North Africa must be planned at the end of the previous Movement
+Phase.
+
+A. when Axis forces are present on Malta, they will automatically launch a
+level 5 attack against the British Malta Garrison.  The Axis force will
+consume 5 supply units in this attack, and the British force will consume 1
+supply unit if the Axis force does not have the required supply units for thus
+level of attack, then Axis casualties will be doubled.  If the British force
+does not have the required supply unit, then the British defensive fire will
+be normal.  Due to fortifications, British troops on Malta will suffer only
+1/4 casualties.  the British garrison may surrender if it is attacked (but do
+not expect this to happen until the British are greatly reduced in strength).
+
+B.  Land attack procedure is as follows: (1) defender forces open fire,
+inflicting casualties on the attacker, (2) surviving attacker forces inflict
+casualties on the defender.
+
+C. As a general rule, the greater the attack level (1-5), the greater the
+casualties on both sides.  Attacks made without adequate supplies will suffer
+doubled casualties.  Defensive fire from an unsupplied force will be half as
+effective.
+
+D. In North Africa, Axis-controlled areas are colored yellow, British-controlled
+areas are colored orange.  The "front line" is the junction of the yellow and
+orange areas.  The front line will shift east or west depending on the outcome
+of land combat in Africa.  When the front line touches the Qatar Depression.
+British defensive fire will be increased by 50%.  Germany defensive fire is
+always increased by 50% in North Africa.
+
+E. British forces will automatically capture Benghazi when the front line
+advances to the west of that base.  The British may never use Benghazi as a
+base, but the Axis will be denied its use until the front line is pushed back
+to the east of that base.
+
+F. Axis forces will lay siege to Tobruk when the front line advanced to the
+east of that base.  When this state of "siege" exists, all Afrika Corps.
+attacks will be directed against the Tobruk Garrison instead of the Eighth
+Army.  If the Tobruk Garrison is reduced to zero, then the Axis will capture
+Tobruk and its supplies, and the British will be denied its use as a base.
+The Axis may not garrison Tobruk or use it as a base.  The British will
+automatically recapture  Tobruk if the front line is pushed to the west of
+that base.  An Axis attack on Tobruk may result in the Garrison's immediate
+"surrender".  The surrender odds are determined by the ferocity of the Axis
+attack compared to the strength of the Garrison.
+
+G. The British Malta Garrison may have enhanced defensive fire depending on
+their supply status.  For each supply unit on Malta the effectiveness of their
+defensive fire will increase 20% up to 1 maximum of 300%.
+
+
+8.7 Ground Support and Bombardment:
+---------------------------------
+    The outcome of land combat may be affected by bombers performing ground
+support missions and ships performing bombardment (B) missions.
+
+A. Bombers will perform ground support missions under the following
+circumstances; (1) bombers attached to the Eighth Army or Afrika Corps will
+automatically perform ground support for their respective armies; (2) Tobruk-
+based bombers may perform ground support when Tobruk is under siege; (3) Malta-
+based bombers may perform ground support for British Forces when combat occurs
+on Malta; (4) Sicily-based bombers may perform ground support for Axis forces
+when combat occurs on Malta; (5) ground support bombers may not perform
+search, strike, or transfer missions during the turn in which the ground
+support is provided.
+
+B. Ships in Tfs with "B" missions will provide bombardment support for friendly
+forces on Malta when they occupy the Malta square.
+
+C. Bombardment points have the same effect as ground support points.  Each
+bomber provides 1 ground support point; Battleship main guns are worth 5
+bombardment points each; Cruiser main guns are worth 1 bombardment point each,
+all AA guns are worth 1/2 bombardment point each.  A ship with 5% or more
+damage will not provide bombardment support.
+
+D. Bombardment/Ground Support has the following effect on Land Combat; (1) each
+B/GS point will "suppress", on the average, 5 companies worth of enemy
+defensive/offensive fire; (2) each B/GS point will add, on the average, 2-1/2
+companies worth of friendly offensive/defensive fire.
+
+E. The Afrika Korps or Eighth Army may never receive ground support benefits
+on turns during which their supplies are inadequate for full offensive or
+defensive fire.  The Afrika Korps and Eighth Army are limited in the number of
+bombers that may provide ground support.  The maximum support allowed each turn
+is equal to 3 x SUPPLY POINTS AVAILABLE TO ARMY.  Thus, if the Afrika Korps has
+50 supplies they will only use up to 150 bombers as ground support (planes over
+the limit are considered to have remained on their airfields).
+
+F. British bombers in the 8th army will provide ground support at 50% of normal
+effectiveness.
+
+G. Axis ground support and bombardment provided for troops on Malta will act at
+25% effectiveness for the purposes of suppressing British defensive fire
+(normal effectiveness in attack capabilities).
+
+
+8.8 Advance After Combat:
+------------------------
+A. Following an Axis attack in North Africa the front line will "advance" one
+space to the east if the Axis total combat strength (TCS) is greater than the
+British TCS in North Africa.  Attacker TCS is computed as follows:
+(INF COMPANIES + GROUND SUPPORT POINTS x 2) x ATTACK LEVEL.
+Defender TCS is: (INF COMPANIES + GROUND SUPPORT POINTS x 2) x 3.
+
+B. Following a British attack in North Africa, the front line will "advance"
+one space to the west if the British TCS is triple (not double) or more the
+Axis TCS.
+
+C. Advance after combat will only occur following a level 4 or level 5 attack.
+Advance after combat will not occur following an inadequately supplied attack.
+
+D. The Qatar Depression is displayed on the map as a brown patch located
+between Alexandria and Tobruk.  When the front line touches the Qatar
+Depression, the following will occur; (1) to advance after combat, the
+attacking Axis TCS must be triple or more the British TCS; (2) the effects of
+British defensive fire will be doubled.
+
+
+8.9 Repair and Refit of Ships:
+-----------------------------
+A. Damaged ships which docked during the previous movement phase are placed
+in the Repair Pipeline.  Undamaged CV,BB,TR and SS type ships will be placed
+in the Refit Pipeline.  Damaged CV,BB,TR,TK and SS type ships must complete
+both Repair and Refit Pipeline functions before they can be reactivated.
+Refit time is four days.  A TF that docks with an endurance remaining greater
+30 will not be required to refit.  Transports and tankers must always refit.
+
+B. Undamaged ships (other than those mentioned in paragraph A) which docked
+during the previous movement phase, do NOT require Refit.  These ship may be
+placed in a TF with a full endurance during the next TF adjustment phase.
+
+C. The average number of turns needed for repair is equal to 9 x damage points
+suffered.  The number of damage points suffered is equal to the ship's
+defense factor x damage percentage.  Repair time for a ship may be doubled with
+smaller ships having a greater chance of lengthened repair time (There is a
+71% chance that an average DD's repair time will be doubled while and Italian
+BB has only a 6% chance of requiring double repair time.)
+
+
+8.10 Reinforcement Arrival:
+--------------------------
+    Ship reinforcements will arrive on a day-to-day basis as scheduled on the
+pipeline display.  Infantry, supply, and aircraft reinforcements will be as
+follows:
+
+    Option          Location         Inf Co         Supply      Spitfire
+      (1)           Gibraltar           5             20           12
+      (2)           Alexandria         45             30           18
+
+    Option          Location        Swordfish      Beaufort      Boston
+      (1)           Gibraltar           0              2            0
+      (2)           Alexandria          0              0           18
+
+    Option          Location         Inf Co         Supply        ME109
+      (3)             Italy            10             25             9
+      (4)             Italy             0             20             9
+
+    Option          Location          SM79           JU88          Ju87
+      (3)             Italy             0              6             3
+      (4)             Italy             6              0             0
+
+
+A. Each turn there is a 1/8 chance of arrival for each of the above listed
+reinforcement options.
+
+B. Boston Bombers arrive attached to the Eighth Army.
+
+C. There is a 50% chance that the Pedestal Convoy reinforcements will become
+available to the British player earlier then they were historically (August
+10th).  If they arrive earlier, then the Axis player will receive 2 points for
+each day of earlier arrival.  This rule applies only to the Campaign game.
+
+D. During the first week of the Campaign game the British are more likely to
+receive reinforcements in Alexandria than they are later on.  During the second
+and third weeks of July the Germans are more likely to receive reinforcements
+in Italy.
+
+
+9.0 GENERAL OPERATIONS
+======================
+
+9.1 Damage to ships:
+-------------------
+    Ships accrue damage "points" when they are hit by bombs, torpedoes or
+gunfire.  When the total damage points are greater than or equal to ship's
+defensive factor (DF), that ship will sink.  When total damage points are
+greater than or equal to 50% of a ship's DF, that ship is "crippled".
+
+A. A table listing the average damage points caused by each type of weapon is
+shown below:
+
+Light (AA) gun     0.5      BB main gun          7
+CL main gun        1        Bomb                 3
+CA main gun        2        Torpedo              5
+
+B. Torpedo hits will reduce a ship's maximum speed by at least 5 knots.
+
+C. Whenever a ship is hit, it may suffer additional damage due to a critical
+hit.  The message "EXPLOSION ON BOARD ..." reveals that a critical hit has
+been scored.
+
+D. CV class ships with 26% or more damage or maximum speed less than 15 knots
+may not launch or land aircraft.  Note: This means that carriers in TFs reduced
+to 5 knots due to zero endurance will not be able to launch aircraft.
+
+E. Crippled ships may accrue additional damage while returning to port.  Major
+additional damage will be shown by the message "EXPLOSION ON BOARD ..."  It is
+also possible for a ship to repair itself while at sea.  Repairs will be
+attempted until a ship is no longer crippled.
+
+
+9.2 TF Mission:
+--------------
+   Listed below are the missions that may be assigned to a TF and the endurance
+allowed for each mission:
+
+       Mission                     Endurance
+C  - Combat Patrol               40 turns (20 days)
+B  - Bombardment                 40 turns
+T  - Transport                   40 turns
+E  - Evacuation                  40 turns
+ES - Emergency Supply            40 turns
+U  - Submarine                   60 turns
+MT - Motor Torpedo Boat           6 turns
+R  - Return                      NA
+
+A. CV type ships may only perform "C" missions.
+
+B. TR type ships may only perform "T" missions or "E" missions.
+
+C. SS type ships may only perform "U" missions.
+
+D. MTB type ships may only perform "MT" missions.
+
+E. Only TFs with "C" or "MT" mission may initiate surface combat.  A TF with a
+"C" mission may only initiate combat if its endurance is greater than 8.
+
+F. Surface combat may cause a Bombardment (B) TF to abort its mission.  Aborted
+bombardment TFs will have their mission changed to "R".
+
+G. An evacuation (E) TF that loads troops during the movement phase will have
+its mission changed to "T".  It may then unload these troops at any base.
+(Note: To load troops, an evacuation TF must begin its move on a friendly base
+square - press (9) to dock and all transports in the TF will automatically load
+friendly troops up to their capacity).
+
+H. All ships present in an evacuation TF will have the capacity to transport
+troops.  Any ship with a cargo capacity of zero will have its capacity
+increased at the moment it is placed in the "E" TF (in-port only).  The
+adjusted cargo capacity will be equal to the ship's DF divided by 6 (fractions
+dropped).
+
+I. Emergency Supply missions may only be performed by ships with a speed of at
+least 25 knots and a DF of at least 6.  Ships included in an ES mission will be
+automatically loaded with supply units.  Ships that normally have a capacity of
+zero will instead have a capacity equal to their DF divided by 6 for ES
+missions only.  Ships in an ES mission will only load up 1/5 of a supply point
+per supply capacity.  When the ships unload they will only unload 1/5 of a
+supply point per point listed as its capacity.  Example: One CL with a DF of 23
+and 4 DD's with a DF of 7 form an ES mission.  They will load (and unload) a
+total of 2 supplies ((3+1+1+1+1)/5 rounded up), although the ships will show
+that they are carrying 7 supplies.  ES missions may not combine with non-ES
+missions.
+
+
+9.3 TF Endurance:
+----------------
+A. A TFs endurance is reduced by one for each turn that it spends at sea.  A
+TF that ends its move in a harbor will not have endurance reduced.
+
+B. A TFs endurance is reduced to 15 if the TF is attacked by enemy bombers.  If
+the endurance is already less than 15, then it is unaffected.  Transport and
+Evacuation TFs will never be reduced.
+
+C. A carrier TFs endurance will be reduced by 5% for each airstrike that it
+launches.
+
+D. A Bombardment TF will have its endurance reduced by 10% for each turn that
+it provides bombardment support.  If the endurance falls below 9 due to this
+reduction then the TFs mission will be changed to "R".  A bombardment group
+with endurance less than 9 may not provide bombardment support.
+
+E. Surface Combat reduces endurance as follows: The attacking TFs endurance is
+reduced to 8 (if currently greater than 8) if the defending TFs combined
+defensive factors multiplied by a random number between 0 and 1 is greater than
+25.  The defending TFs endurance is reduced to 8 (if currently greater than 8)
+if the total attacker main guns multiplied by a random number between 0 and 1
+is greater than 15.  For these purposes, the MG of a battleship is multiplied
+by 4 (battleships will lend to scare off enemy TFs).
+
+F. If a TFs endurance reaches zero and it fails to dock during that turn, then
+all of its ships will have their maximum speed reduced to 5 knots.
+
+G. Subs with zero endurance may not fire torpedoes.
+
+
+9.4 Supply:
+----------
+   Supply units are used for (1) Infantry daily supply; (2) land combat; (3)
+Forming TFs; (4) performing air missions.
+
+A. Bases and front line armies must spend daily supplies to maintain their
+troops.  The daily supply cost for each base or army is equal to the number of
+infantry companies divided by 150 fractions rounded up.  EXAMPLE: An army of
+330 infantry companies must have 3 supply units for daily supply (330/150 =
+2.2, rounded up to 3).  Bases or armies that have supply levels inadequate to
+meet daily supply requirements will lose 1% of their infantry strength per day,
+fractions rounded up.  Gibraltar, Alexandria, Italy and Sicily are exempted
+from daily supply requirements.
+
+B. Supplies are consumed in land combat.  Land combat on Malta will consume 5
+Axis supply dumps and 1 British supply dump.  Attacker forces in North Africa
+will consume 1 supply dump for each level of attack while defender forces will
+consume 1 supply dump regardless of the attack level.  Attacker casualties will
+be doubled when there is inadequate supply for the level of attack.  Defensive
+fire will be halved if the defending force does not have the required supply
+unit.
+
+C. The major ports (Italy, Gibraltar and Alexandria) must have adequate
+supplies to form ships into TFs.  The cost of placing a ship in a TF is equal
+to 1/5 of that ship's DF (fractions rounded down).
+   Thus, an Italian Battleship requires 16 supply points (81/5 = 16.2 = 16) and
+a MTB requires 0 supply points (2/5 = 4 = 0).  If a port runs out of supply
+points as you are forming a TF, then you will not be allowed to place any more
+ships in that TF.
+
+D. A TF that returns to port with an endurance greater than 20 will return its
+unused "fuel" to the port.  The quantity of fuel (supply) returned is equal to
+each ship's DF divided by 10 (fractions rounded down).
+
+E. Airbases consume 1 supply point for each airstrike launched.  CAP, search
+and transfer  missions do not consume supply points.  If a base's supply level
+falls below 3, then no air operations will be permitted from that base.
+
+
+9.5 Scoring:
+-----------
+A. Players receive victory points (VPs) for sinking enemy ships equal to that
+ship's Defense Factor plus its cargo/aircraft capacity.  Players receive 1 VP
+for each damage point inflicted on an enemy ship at sea at the end of the game.
+Players also receive 1 VP for each week a ship is out of action at the end of
+the game.  However, they do not receive points for the first one week that a
+ship is out of action at the end of a game.  (This allows time for refitting
+as opposed to repair time).  In campaigns that end before August 10, no victory
+points will be awarded for damaged ships in the pipeline.
+
+B. The British Player received 1 VP for each infantry company in the Eighth
+Army or Tobruk at the end of the game.  The Axis Player receives 1 VP for each
+infantry company in the Afrika Corps at the end of the game.
+
+C. The players receive VPs for possession of geographical objectives.  The
+British Player receives points for controlling the followings:
+
+MALTA   - 500    ALEXANDRIA - 500   TOBRUK - 500    TRIPOLI - 500
+
+The Axis players receives points for controlling the following:
+
+ALEXANDRIA - 1000   MALTA - 200   TOBRUK - 200
+
+D. The game ends immediately if the Axis player captures Alexandria.  The game
+will end immediately if the British player captures Tripoli.  The game will
+automatically end after the August 31 PM turn.
+
+E. The Current score is summarized at the beginning of each turn.
+
+F. Subtract British VPs from the Axis VPs and compare the results to the
+following table to determine the victor:
+
+       1000 and up   Axis Decisive Victory
+        500 to 999   Axis Substantive Victory
+        100 to 499   Axis Marginal Victory
+         -99 to 99   Draw
+      -499 to -100   British Marginal Victory
+      -999 to -500   British Substantive Victory
+    -1000 and less   British Decisive Victory
+
+
+9.6 Weather:
+------------
+   There are three levels of weather: clear, partly cloudy, and cloudy.  The
+weather will be cloudy at the start of the campaign.
+A. Weather will influence the ability to spot enemy TFs at ranges greater than
+1.5.  The chance of spotting TFs at ranges over 1.5 is reduced by 1/3 during
+partly cloudy and 2/3 during cloudy weather.
+B. There is a random chance each turn that the weather will change.  The
+weather is graduated such that in any one turn the weather should not change
+from clear to cloudy, it would have to change to partly cloudy before it could
+become cloudy.  The weather can change a maximum of one level per turn.
+C. There is a chance that airstrikes against enemy shipping will fail to locate
+their targets.  Listed below are the "failure to locate" chances for each range
+and weather type:
+
+                           Range
+                 2    3    4    5    6    7    8
+
+Clear            4    6    8   10   12   14   16
+Partly Cloudy   10   15   20   25   30   35   40
+Cloudy          16   24   32   40   48   56   64
+
+9.7 Airbase Capacity:
+---------------------
+   The maximum aircraft capacity for each airbase is listed below:
+
+Gibraltar          500            Italy         500
+Alexandria         500            Sicily        500
+Tobruk             200            Sardinia      500
+Malta              300            Crete         500
+Tripoli            500            Benghazi      100
+
+A. The JU52s are ignored when computing the maximum allowed at an airbase.
+
+
+10.0 MINI-GAMES
+===============
+   BOMB ALLEY includes 2 mini-games: Pedestal and Crete.  Due to their limited
+scope, each mini-game includes some special rules and restrictions.
+
+10.1 Pedestal Exclusive Rules:
+------------------------------
+   Rules for the Pedestal mini-game are the same as those for the Campaign,
+with the following exceptions:
+
+A. Scoring: In addition to the scoring outlined in section 9.5 (Exception: No
+points are awarded for possession of geographical objectives), the British
+player receives 10 VPs for each supply unit on Malta at the end of the game.
+The Axis player receives 5 VPs for each supply unit controlled by the Afrika
+Corps and 1 VP for each supply unit in Italy at the end of the game.  Players
+do not receive points for geographical objectives in the Pedestal mini-game.
+Also, all VPs scored are doubled after the conclusion of the game.  Each
+player receives 1 victory point per plane remaining all the end of the game
+(not including JU52 aircraft).
+
+B. The weather is clear at the start of the game.
+
+10.2 Crete Exclusive Rules:
+---------------------------
+   Rules for the Crete mini-game are the same as the rules for the Campaign,
+with the following exceptions:
+
+A. The Axis player may only form new TFs or dock TFs in Athens.  The Axis
+player may operate aircraft from Athens (capacity = 500) and Molaoi (capacity
+= 500).  The British airbase on Crete is #3.  The British Airbase on Malta is
+#1.  The Axis player may operate aircraft from Crete only after the Axis
+forces have captured an airfield on that island.
+
+B. An airborne assault will occur the first time during the game in which
+Molaoi-based JU52s are included in an airstrike against Crete.  All rules
+discussed in section 7.6 apply here - simply change Sicily to mean Molaoi and
+Malta to mean Crete.
+
+C. The Axis forces will capture an airfield on Crete if following the land
+combat phase the Axis Total Combat Strength (TCS) on Crete is greater than the
+British TCS.  For this scenario the Axis TCS is equal to INF COMPANIES +
+GROUND SUPPORT POINTS X RANDOM NUMBER (between 0 and 1), the British TCS is
+equal to INF COMPANIES + GROUND SUPPORT POINTS X RANDOM NUMBER + SUPPLY UNITS.
+
+D. The British forces may recapture an Axis-held airfield if following the
+land combat phase the British TCS is ten or more times greater than the Axis
+TCS.
+
+E. If Axis forces begin a land combat phase on Crete, they must attack the
+British Garrison.  The Axis player will consume 5 supply units in this attack,
+the British player will consume 1 supply unit (see section 8.6 C for the
+effects of inadequate supply).
+
+F. Scoring Points awarded for sinking or damaging ships are the same as in
+section 9.5 A.  If the Axis player controls an airfield on Crete at the end of
+the game, then "Strategic Points" are awarded in the following manner.  The
+Axis player scores 2 points for each infantry company on Crete, the British
+player scores 1 point for each infantry company in Alexandria (it pays for the
+British to evacuate his troops if he loses the airfield).  If the Axis player
+does not control an airfield on Crete at the end of the game, then Strategic
+Points are awarded as follows: the British player scores 500 points plus 1
+point for each infantry company on Crete; the Axis player scores 1 point for
+each infantry company in Athens.  (It pays for the Axis to evacuate his troops
+from Crete if he will be unable to capture the airfield).
+
+G. During this scenario only, the Axis player may use the AUTO-LOAD TRANSPORTS
+function.  When employed, this function will automatically load infantry into
+all eligible empty transports in Athens.  If you wish some of the transports to
+carry supplies, they should be manually loaded prior to using the AUTO-LOAD
+TRANSPORTS function.
+
+H. During this scenario only, the Axis player may use the AUTO-FORM TF function
+.  When employed this function will automatically form all eligible ships in
+Athens into one TF.  The mission for an AUTO FORM TF must be "T" or "E".
+
+I. Air Combat over Crete will occur each AM turn in which Axis troops have a
+foothold on Malta.  The Air combat will follow the sequence listed below:
+(1) Molaoi-based long-range CAP will attack Crete-based bombers and fighters
+available for ground support missions.
+(2) Crete-based long-range CAP will attack Molaoi-based bombers and fighters
+available for ground support missions.
+(3) Crete-based long-range CAP will attack Athens-based bombers and fighters
+available for ground support missions.
+
+J. Only JU52 aircraft may be transferred to a captured German airbase on Crete.
+
+K. German transports do not have to refit after returning to ports.
+
+L. The weather will be CLEAR at the start of the game.
+
+M. Ground support/bombardment provided for forces on Crete will be greatly
+reduced in effectiveness (and yet still quite powerful).
+
+10.3 Mini-Game Duration:
+------------------------
+   Mini-games will end after a specified number of turns.  Mini-game durations
+are as follows: Pedestal - 12 turns, Crete - 24 turns.
+
+10.4 Mini-Game Levels of Victory:
+---------------------------------
+   The computer will automatically DOUBLE the points scored by each player
+prior to computing the level of victory.  The adjusted point totals may then be
+applied to the table in 9.5 F.
+
+
+11.0 SOLITAIRE PLAY
+===================
+   When playing solitaire games, the computer will command the British Forces.
+
+A. There are 4 levels of solitaire difficulty.  The level of difficulty in
+determined at the start of the game.  At level 3, the British will perform
+according to their historical accuracy.  As the level number is decreased, the
+British bomber, torpedo, and gunfire accuracy will increase.  These levels may
+be used to handicap a two-player game if desired.
+
+B. It is possible to start a game in solitaire mode, save it, and then restart
+it as a two-player game.  To do this set the main menu to two-player mode
+before restarting the saved game.
+
+C. It is possible to save a two-player game and restart it as a solitaire game
+when using the following restriction: All British TFs must end the two player
+segment IN-PORT.
+
+12.0 TWO-PLAYER GAMES
+=====================
+   When using the two-player format, the following procedure should be observed
+
+A. While the Axis player is giving commands to his forces, the British player
+should turn away or leave the room.
+
+B. While the British player is giving commands to his forces, the Axis player
+should turn away or leave the room.
+
+C. During the combat resolution phase, both players should view the results.
+
+
+13.0 ORDER OF BATTLE
+====================
+
+CRETE SCENARIO
+--------------
+
+BASE         INFANTRY  SUPPLIES  AIRCRAFT        SHIPS
+
+AXIS
+ATHENS         6800      500       340
+MOLAOI        11000      150       350
+AT SEA         5000       13         0    2DE 63TR 11SS
+
+BRITISH
+ALEXANDRIA    10000      500         8    1CV 4BB 5CL 5CLAA 31DD 2DE 1DME 6TR
+CRETE         40000        5         0
+TOBRUK            0       50         8
+AT SEA            0        0         0    5MTB 6SS
+
+
+PEDESTAL SCENARIO
+----------------
+
+AXIS
+ITALY         20000      300        24    1BB 3CA 5CL 24DD 4DE 3TK 6TR
+SICILY        15000       75       312
+SARDINIA          0       30       132
+CRETE             0       30        48
+TRIPOLI           0       10        24
+BENGHAZI          0        5        24
+AFRIKA KORPS  90000       50       156
+AT SEA            0        0         0    20MTB 19SS
+
+BRITISH
+GIBRALTAR      2000      300       172    4CV 2BB 3CL 4CLAA 23DD 7DE 1DMS 1TK
+                                          13TR
+ALEXANDRIA     2000      300        18
+MALTA         15000       15       166
+EIGHTH ARMY   90000      100       138
+AT SEA            0        0         0    10SS
+
+
+CAMPAIGN GAME
+-------------
+
+AXIS
+ITALY         20000      500        24     2BB 4CA 5CL 25DD 3DE 20MTB 5TK 25TR
+                                           36SS
+SICILY        20000       75       332
+SARDINIA          0       30       102
+CRETE             0       30        72
+TRIPOLI           0       10        54
+BENGHAZI          0        5        66
+AFRIKA KORPS  90000       50       180
+AT SEA            0        0         0     21SS
+
+BRITISH
+GIBRALTAR      2000      900        78     5CV 3BB 4CL 4CLAA 31DD 10DE 1DML
+                                           4DMS 2TK 18TR
+ALEXANDRIA     2000      300        12     3CL 5CLAA 17DD 14DE 3DMS 11TR 1BBT
+                                           11SS
+MALTA         15000       40       153
+TOBRUK        25000       20        66
+EIGHTH ARMY   80000      100        96
+AT SEA            0        0         0     10SS
+
+
+
+14.0 SHIP DATA
+==============
+
+CAMPAIGN and PEDESTAL SCENARIOS
+===============================
+
+Axis Ships
+----------
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    ITALY                      0   50    0   20  500    0   16      0
+    SICILY                     0   50    0   20  500    0   17      0
+    SARDINIA                   0   25    0   20  500    0   18      0
+    CRETE                      0   25    0   20  500    0   19      0
+    TRIPOLI                    0   20    0   20  500    0   20      0
+    BENGHAZI                   0   10    0   20  100    0   21      0
+    BB-LITTORIO                9   16    0   25    0   80   16      0
+    BB-VITTORIO VENETO         9   16    0   25    0   80   16      0
+    CL-EUGENIO DI SAVOIA       8    6    6   30    0   22   16      0
+    CL-MONTECUCCOLI            8    6    4   30    0   20   16      0
+    CA-GORIZIA                 8   12    0   30    0   26   16      0
+    CA-TRIESTE                 8   12    8   30    0   24   16      0
+    CA-BOLZANO                 8   12    8   30    0   25   16      0
+    CL-ATIENDOLO               8    6    4   30    0   20   16      0
+    CA-TRENTO                  8   12    8   30    0   24   16      0
+    CL-GARIBALDI              10    8    6   30    0   23   16      0
+    CL-DUCA D'AOSTA            8    6    6   30    0   22   16      0
+    DD-ORIANI                  0    4    6   35    0    7   16      0
+    DD-ASCARI                  0    4    6   35    0    7   16      0
+    DD-GIOBERTI                0    4    6   35    0    7   16      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    DD-VIVALDI                 0    6    6   35    0    8   16      0
+    DD-MALOCELLO               0    6    6   35    0    8   16      0
+    DD-PREMUDA                 0    4    6   35    0    7   16      0
+    DD-ZENO                    0    6    6   35    0    8   16      0
+    DD-LEGIONARIO              0    5    6   35    0    8   16      0
+    DD-FOLGORE                 0    4    6   35    0    7   16      0
+    DD-FRECCIA                 0    4    6   35    0    7   16      0
+    DD-SAETTA                  0    4    6   35    0    7   16      0
+    DD-ALPINO                  0    4    6   35    0    7   16      0
+    DD-BERSAGLIERE             0    4    6   35    0    7   16      0
+    DD-PIGAFETTA               0    6    6   35    0    8   16      0
+    DD-MITRAGLIERE             0    5    6   35    0    8   16      0
+    DD-AVIERE                  0    4    6   35    0    7   16      0
+    DD-GENIERE                 0    4    6   35    0    7   16      0
+    DD-CAMICIA NERA            0    4    6   35    0    7   16      0
+    DD-CORAZZIERE              0    4    6   35    0    7   16      0
+    DD-CORSARO                 0    5    6   35    0    8   16      0
+    DD-MAESTRALE               0    4    6   35    0    7   16      0
+    DD-TURBINE                 0    4    6   35    0    7   16      0
+    DD-GRECALE                 0    4    6   35    0    7   16      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    DD-FUCILIERE               0    4    6   35    0    7   16      0
+    DD-STRALE                  0    4    6   35    0    7   16      0
+    DE-CALLIOPE                0    3    4   25    0    6   16      0
+    DE-ORSA                    0    2    0   25    0    7   16      0
+    DE-PEGASO                  0    2    0   25    0    7   16      0
+    MTB-S36                    0    1    2   40    0    2   16      0
+    MTB-S54                    0    1    2   40    0    2   16      0
+    MTB-S55                    0    1    2   40    0    2   16      0
+    MTB-S56                    0    1    2   40    0    2   16      0
+    MTB-S58                    0    1    2   40    0    2   16      0
+    MTB-S59                    0    1    2   40    0    2   16      0
+    MTB-S60                    0    1    2   40    0    2   16      0
+    MTB-S30                    0    1    2   40    0    2   16      0
+    MTB-MS16                   0    1    2   35    0    2   16      0
+    MTB-MS22                   0    1    2   35    0    2   16      0
+    MTB-MS31                   0    1    2   35    0    2   16      0
+    MTB-MS23                   0    1    2   35    0    2   16      0
+    MTB-MS25                   0    1    2   35    0    2   16      0
+    MTB-MS26                   0    1    2   35    0    2   16      0
+    MTB-MAS552                 0    1    2   40    0    2   16      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    MTB-MAS553                 0    1    2   40    0    2   16      0
+    MTB-MAS554                 0    1    2   40    0    2   16      0
+    MTB-MAS556                 0    1    2   40    0    2   16      0
+    MTB-MAS557                 0    1    2   40    0    2   16      0
+    MTB-MAS564                 0    1    2   40    0    2   16      0
+    SS-U81                     0    0   16   10    0    7   22      0
+    SS-U205                    0    0   16   10    0    7   23      0
+    SS-U431                    0    0   22   10    0    7   23      0
+    SS-U565                    0    0   22   10    0    7   23      0
+    SS-U331                    0    0   22   10    0    7   16     11
+    SS-U453                    0    0   22   10    0    7   23      0
+    SS-U559                    0    0   22   10    0    7   22      0
+    SS-U77                     0    0   16   10    0    7   23      0
+    SS-U83                     0    0   16   10    0    7   22      0
+    SS-U97                     0    0   16   10    0    7   22      0
+    SS-U561                    0    0   22   10    0    7   22      0
+    SS-U372                    0    0   22   10    0    7   22      0
+    SS-U375                    0    0   22   10    0    7   23      0
+    SS-U562                    0    0   22   10    0    7   23      0
+    SS-U73                     0    0   16   10    0    7   16     11
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    SS-GALATEA                 0    0   12   10    0    6   23      0
+    SS-NEREIDE                 0    0   12   10    0    6   16      0
+    SS-ASTERIA                 0    0   10   10    0    7   16     10
+    SS-PLATINO                 0    0   10   10    0    7   24      0
+    SS-BEILUL                  0    0   12   10    0    6   16      0
+    SS-MOCENIGO                0    0   16   10    0    7   16      0
+    SS-OTARIA                  0    0   14   10    0    7   16   10.5
+    SS-DESSIE                  0    0   12   10    0    6   16   10.5
+    SS-BRIN                    0    0   14   10    0    7   16     11
+    SS-MALACHITE               0    0   12   10    0    6   24      0
+    SS-CORALLO                 0    0   12   10    0    6   16      0
+    SS-ONDINA                  0    0   12   10    0    6   16      0
+    SS-SIRENA                  0    0   12   10    0    6   22      0
+    SS-ZAFFIRO                 0    0   12   10    0    6   24      0
+    SS-VELELLA                 0    0   10   10    0    7   24      0
+    SS-BRONZO                  0    0   10   10    0    7   16   10.5
+    SS-EMO                     0    0   16   10    0    7   16   10.5
+    SS-UARSCIEK                0    0   12   10    0    6   16     11
+    SS-GIADA                   0    0   10   10    0    7   16     11
+    SS-ACCIAIO                 0    0   10   10    0    7   24      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    SS-ALAGI                   0    0   12   10    0    6   16   10.5
+    SS-ONICE                   0    0   12   10    0    6   16      0
+    SS-ASCIANGHI               0    0   12   10    0    6   16   10.5
+    SS-ARADAM                  0    0   12   10    0    6   16      0
+    SS-AXUM                    0    0   12   10    0    6   16   10.5
+    SS-MICCA                   0    0   10   10    0    7   24      0
+    SS-ZOEA                    0    0    8   10    0    7   16      0
+    SS-ATROPO                  0    0    8   10    0    7   16      0
+    SS-PERLA                   0    0   12   10    0    6   16      0
+    SS-DAGABUR                 0    0   12   10    0    6   16     11
+    SS-BRAGADIN                0    0    6   10    0    6   16      0
+    SS-SCIESA                  0    0   16   10    0    7   16      0
+    SS-TOTI                    0    0   16   10    0    7   16      0
+    SS-SANTAROSA               0    0   12   10    0    6   16      0
+    SS-NARVALO                 0    0   12   10    0    6   16      0
+    SS-CORRIDONI               0    0    6   10    0    6   16      0
+    SS-DANOLO                  0    0   16   10    0    7   16   10.5
+    SS-SCIRE                   0    0   12   10    0    6   16      0
+    SS-VOLFRAMIO               0    0   10   10    0    7   16     11
+    SS-GRANITO                 0    0   10   10    0    7   16   10.5
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    SS-AVORIO                  0    0    8   10    0    7   16   10.5
+    SS-COBALTO                 0    0   10   10    0    7   16   10.5
+    TK-GIULIANO                0    2    0   15   18   20   16      0
+    TK-MANTOVANI               0    2    0   15   18   20   16      0
+    TK-CORRADO                 0    2    0   15   18   20   16      5
+    TK-SAGONA                  0    2    0   15   18   20   16     10
+    TK-SAN ANDREA              0    2    0   15   18   20   16     15
+    TR-CONTE ROSSO             0    1    0   30    8   20   16      0
+    TR-MARCO POLO              0    1    0   30    8   20   16      0
+    TR-NEPTUNIA                0    1    0   30    8   20   16      0
+    TR-VULCANIA                0    1    0   30    8   20   16     10
+    TR-OCEANIA                 0    1    0   30    8   20   16     25
+    TR-ANKARA                  0    2    0   15    8   16   16      0
+    TR-ANDREA GRILLI           0    2    0   15    8   16   16      0
+    TR-BARBARO                 0    2    0   15    8   16   16      0
+    TR-CAPO FARO               0    2    0   15    8   16   16     25
+    TR-CAPO VITA               0    2    0   15    8   16   16     25
+    TR-VERDE                   0    1    0   15    6   14   16      0
+    TR-DUISBURG                0    1    0   15    6   14   16      0
+    TR-MANARA                  0    1    0   15    6   14   16      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    TR-MONTELLO                0    1    0   15    6   14   16     10
+    TR-NAPOLI                  0    1    0   15    6   14   16     25
+    TR-OGADEN                  0    1    0   15    4   10   16      0
+    TR-PADENNA                 0    1    0   15    4   10   16      0
+    TR-PERSIANO                0    1    0   15    4   10   16      0
+    TR-PREUSSEN                0    1    0   15    4   10   16      0
+    TR-RUHR                    0    1    0   15    4   10   16      0
+    TR-TEMBIEN                 0    1    0   15    4   10   16     10
+    TR-WACHTFELS               0    1    0   15    4   10   16     10
+    TR-ROSOLINO PILO           0    1    0   15    4   10   16     10
+    TR-MARITZA                 0    1    0   15    4   10   16     25
+    TR-BIANCHI                 0    1    0   15    4   10   16     25
+    DE-ANTARES                 0    3    4   25    0    6   16 Pedesta
+                                                               Scenari
+                                                               Only
+
+
+British Ships
+-------------
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    GIBRALTAR                  0   50    0    0  500    0    1      0
+    ALEXANDRIA                 0   50    0    0  500    0    2      0
+    MALTA                      0   25    0    0  300    0    3      0
+    TOBRUK                     0   20    0    0  200    0    4      0
+    CV-EAGLE                   0    4    0   25   33   32    1    0.5
+    CV-ARGUS                   0    6    0   20   20   20    1    0.5
+    CV-VICTORIOUS              0   12    0   30   36   60    1     60
+    CV-FURIOUS                 0   12    0   30   36   45    1     60
+    CV-INDOMITABLE             0   16    0   30   56   60    1     60
+    BB-MALAYA                  8   16    0   25    0   66    1    0.5
+    BB-NELSON                  9   18    0   25    0   72    1     60
+    BB-RODNEY                  9   18    0   25    0   72    1     60
+    CLAA-CHARYBDIS             0   10    6   30    0   15    1    0.5
+    CLAA-CAIRO                 0    8    0   30    0   13    1    0.5
+    CL-KENYA                  12    8    6   30    0   20    1    0.5
+    CL-LIVERPOOL              12    8    6   30    0   22    1      0
+    CLAA-CLEOPATRA             0   10    6   30    0   15    2      0
+    CLAA-DIDO                  0   10    6   30    0   15    2      0
+    CLAA-HERMOINE              0   10    6   30    0   15    2      0
+    CLAA-EURYALUS              0   10    6   30    0   15    2      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    CL-ARETHUSA                6    8    6   30    0   15    2      0
+    CL-BIRMINGHAM             12    8    6   30    0   22    2      0
+    CLAA-COVENTRY              0   10    0   30    0   13    2      0
+    CL-NEWCASTLE              12    8    6   30    0   22    2      0
+    CL-NIGERIA                12    8    6   30    0   20    1     60
+    CL-MANCHESTER             12    8    6   30    0   22    1     60
+    CLAA-PHOEBE                0   10    6   30    0   15    1     60
+    CLAA-SIRIUS                0   10    6   30    0   15    1     60
+    DD-HERO                    0    4    8   35    0    7    2      0
+    DE-HURWORTH                0    6    0   25    0    6    2      0
+    DE-ERIDGE                  0    6    0   25    0    6    2      0
+    DD-PARTRIDGE               0    4    8   35    0    7    1      0
+    DD-ITHURIEL                0    4    8   35    0    7    1    0.5
+    DD-ANTELOPE                0    4    8   35    0    7    1    0.5
+    DD-WISHART                 0    3    3   35    0    6    1    0.5
+    DD-WESTCOTT                0    3    3   35    0    6    1    0.5
+    DD-WRESTLER                0    3    3   35    0    6    1    0.5
+    DD-VIDETTE                 0    3    3   35    0    6    1      0
+    DE-GROVE                   0    6    0   25    0    6    2    4.5
+    DE-BEDOUIN                 0    8    4   35    0    8    1      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    DD-MARNE                   0    6    8   35    0    8    1      0
+    DD-MATCHLESS               0    6    8   35    0    8    1      0
+    DE-BLANKNEY                0    6    0   25    0    6    1      0
+    DE-MIDDLETON               0    6    0   25    0    6    1      0
+    DE-BADSWORTH               0    4    0   25    0    6    1      0
+    DD-KUJAWIAK                0    3    3   35    0    6    1      0
+    DD-ONSLOW                  0    4    8   35    0    7    1      0
+    DD-ICARUS                  0    4   10   35    0    7    1    0.5
+    DD-ESCAPADE                0    4    8   35    0    7    1      0
+    DD-FORTUNE                 0    4    8   35    0    7    2      0
+    DD-GRIFFIN                 0    4    8   35    0    7    2      0
+    DD-HOTSPUR                 0    4    8   35    0    7    2      0
+    DE-DULVERTON               0    6    0   25    0    6    2      0
+    DE-EXMOOR                  0    4    0   25    0    6    2      0
+    DE-CROOME                  0    6    0   25    0    6    2      0
+    DE-AIREDALE                0    4    0   25    0    6    2      0
+    DE-BEAUFORT                0    6    0   25    0    6    2      0
+    DE-TETCOTT                 0    6    0   25    0    6    2      0
+    DE-ALDENHAM                0    4    0   25    0    6    2      0
+    DD-NAPIER                  0    6   10   35    0    7    2      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    DD-NESTOR                  0    6   10   35    0    7    2      0
+    DD-NIZAM                   0    6   10   35    0    7    2      0
+    DD-NORMAN                  0    6   10   35    0    7    2      0
+    DD-JERVIS                  0    6   10   35    0    7    2      0
+    DD-KELVIN                  0    6   10   35    0    7    2      0
+    DD-JAVELIN                 0    6   10   35    0    7    2      0
+    DD-PAKENHAM                0    4    8   35    0    7    2      0
+    DD-PALADIN                 0    4    8   35    0    7    2      0
+    DD-INCONSTANT              0    4    8   35    0    7    2      0
+    DD-SIKH                    0    8    4   35    0    8    2      0
+    DD-SULU                    0    8    4   35    0    8    2      0
+    DD-HASTY                   0    4    8   35    0    7    2      0
+    DD-ASHANTI                 0    8    4   35    0    8    1     60
+    DD-INTREPID                0    4   10   35    0    7    1     60
+    DD-FORESIGHT               0    4    8   35    0    7    1     60
+    DD-FURY                    0    4    8   35    0    7    1     60
+    DD-PATHFINDER              0    4    8   35    0    7    1     60
+    DD-PENN                    0    4    8   35    0    7    1     60
+    DE-DERWENT                 0    4    0   25    0    6    1     60
+    DE-BRAMHAM                 0    6    0   25    0    6    1     60
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    DE-BICESTER                0    6    0   25    0    6    1     60
+    DE-LEDBURY                 0    6    0   25    0    6    1     60
+    DD-LAFOREY                 0    6    8   35    0    8    1     60
+    DD-LIGHTNING               0    6    8   35    0    8    1     60
+    DD-LOOKOUT                 0    6    8   35    0    8    1     60
+    DD-QUENTIN                 0    4    8   35    0    7    1     60
+    DD-ESKIMO                  0    8    4   35    0    8    1     60
+    DD-TARTAR                  0    8    4   35    0    8    1     60
+    DD-VANSITTART              0    3    3   35    0    6    1     60
+    DD-ZETLAND                 0    6    0   25    0    6    1     60
+    DE-WILTON                  0    6    0   25    0    6    1     60
+    DD-KEPPEL                  0    2    6   35    0    7    1     60
+    DD-MALCOLM                 0    2    3   35    0    7    1     60
+    DD-WOLVERINE               0    3    3   35    0    6    1     60
+    DD-VENOMOUS                0    3    3   35    0    6    1     60
+    DMS-HEBE                   0    2    0   15    1    6    1      0
+    DMS-SPEEDY                 0    2    0   15    1    6    1      0
+    DMS-RYE                    0    1    0   15    1    6    1      0
+    DMS-HYTHE                  0    1    0   15    1    6    1      0
+    DMS-BOSTON                 0    1    0   15    0    6    2      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    DMS-SEAHAM                 0    1    0   15    0    6    2      0
+    DMS-PARKTOWN               0    1    0   15    0    6    2    4.5
+    DML-WELSHMAN               0    6    0   40    2    9    1    2.5
+    DE-COLTSFOOT               0    1    0   15    0    6    1      0
+    DE-DELPHINIUM              0    1    0   15    0    6    2      0
+    DE-PRIMULA                 0    1    0   15    0    6    2      0
+    DE-ERICA                   0    1    0   15    0    6    2      0
+    DE-SNAPDRAGON              0    1    0   15    0    6    2      0
+    SS-TURBULENT               0    0   22   10    0    6    2     60
+    SS-THRASHER                0    0   22   10    0    6    5      0
+    SS-PROTEUS                 0    0   16   15    0    6    5      0
+    SS-THORN                   0    0   22   10    0    6    5      0
+    SS-TAKU                    0    0   20   10    0    6    5      0
+    SS-PORPOISE                0    0   12   10    0    6    5      0
+    SS-UNA                     0    0    8   10    0    6    2      0
+    SS-UPRIGHT                 0    0    8   10    0    6    2    4.5
+    SS-PARTHIAN                0    0   16   15    0    6    2    4.5
+    SS-REGENT                  0    0   16   15    0    6    2    4.5
+    SS-RORQUAL                 0    0   12   10    0    6    2    4.5
+    SS-CACHALOT                0    0   12   10    0    6    2    4.5
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    SS-UNBEATEN                0    0    8   10    0    6    2     60
+    SS-UNBROKEN                0    0    8   10    0    6    6      0
+    SS-SAFARI                  0    0   12   10    0    6    6      0
+    SS-UPROAR                  0    0    8   10    0    6    2    4.5
+    SS-ULTIMATUM               0    0    8   10    0    6    2    4.5
+    SS-UNISON                  0    0    8   10    0    6    6      0
+    SS-UNRUFFLED               0    0    8   10    0    6    6      0
+    SS-UMBRA                   0    0    8   10    0    6    6      0
+    SS-UNITED                  0    0    8   10    0    6    2     60
+    TK-KENTUCKY                0    2    0   15   18   20    1      0
+    TK-OHIO                    0    2    0   15   18   20    1     60
+    TR-TROILUS                 0    1    0   15    6   14    1      0
+    TR-BURDWAN                 0    1    0   15    4   10    1      0
+    TR-CHANT                   0    1    0   15    4   10    1      0
+    TR-TANIMBAR                0    1    0   15    6   14    1      0
+    TR-ORARI                   0    2    0   15    8   16    1      0
+    TR-C.O. PRETORIA           0    1    0   15    6   14    2      0
+    TR-BHUTAN                  0    1    0   15    4   10    2      0
+    TR-POTARO                  0    1    0   15    4   10    2      0
+    TR-C.O. CALCUTTA           0    1    0   15    6   14    2      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    TR-BULKOIL                 0    1    0   15    6   14    2      0
+    TR-REMBRANDT               0    1    0   15    6   14    2      0
+    TR-AAGTEKERK               0    1    0   15    4   10    2      0
+    TR-C.O. EDINBURGH          0    1    0   15    6   14    2      0
+    TR-C.O. LINCOLN            0    1    0   15    6   14    2      0
+    TR-ELIZABETH BAKKE         0    1    0   15    6   14    2      0
+    TR-AJAX                    0    1    0   15    6   14    2      0
+    TR-DEUCALION               0    1    0   15    6   14    1     60
+    TR-EMPIRE HOPE             0    2    0   15    8   16    1     60
+    TR-GLENORCHY               0    1    0   15    6   14    1     60
+    TR-BRISBANE STAR           0    2    0   15    8   16    1     60
+    TR-CLAN FEGUSON            0    1    0   15    6   14    1     60
+    TR-ROCHESTER CASTLE        0    1    0   15    6   14    1     60
+    TR-SANTA ELISA             0    1    0   15    6   14    1     60
+    TR-ALMERIA LYKES           0    1    0   15    6   14    1     60
+    TR-WAIRANGI                0    2    0   15    8   16    1     60
+    TR-DORSET                  0    2    0   15    8   16    1     60
+    TR-PORT CHALMERS           0    1    0   15    6   14    1     60
+    TR-MELBOURNE STAR          0    1    0   15    6   14    1     60
+    TR-WAIMARAMA               0    2    0   15    8   16    1     60
+
+    BBT-CENTURION              0    2    0   20    4   50    2      0
+
+
+CRETE SCENARIO
+==============
+
+AXIS SHIPS
+----------
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    ATHENS                     0   80    0    0  500    0   16      0
+    MOLAOI                     0   40    0    0  500    0   17      0
+    CRETE                      0   40    0    0  500    0   17      2
+    DE-LUPO                    0    3    4   25    0    6   23      0
+    DE-SAGITTARIO              0    3    4   25    0    6   24      0
+    SS-TRICHECO                0    0   16   10    0    7   22      0
+    SS-UARSCIEK                0    0   12   10    0    6   22      0
+    SS-FISALIA                 0    0   12   10    0    6   22      0
+    SS-TOPAZIO                 0    0   12   10    0    6   22      0
+    SS-ADUA                    0    0   12   10    0    6   22      0
+    SS-DESSIE                  0    0   12   10    0    6   22      0
+    SS-MALACHITE               0    0   12   10    0    6   22      0
+    SS-SQUALO                  0    0   16   10    0    7   22      0
+    SS-SMERALDO                0    0   12   10    0    6   22      0
+    SS-NEREIDE                 0    0   12   10    0    6   22      0
+    SS-SIRENA                  0    0   12   10    0    6   22      0
+    TR-K241                    0    1    0    5    1    2   23      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    TR-K242                    0    1    0    5    1    2   23      0
+    TR-K243                    0    1    0    5    1    2   23      0
+    TR-K244                    0    1    0    5    1    2   23      0
+    TR-K245                    0    1    0    5    1    2   23      0
+    TR-K246                    0    1    0    5    1    2   23      0
+    TR-K247                    0    1    0    5    1    2   23      0
+    TR-K248                    0    1    0    5    1    2   23      0
+    TR-K249                    0    1    0    5    1    2   23      0
+    TR-K250                    0    1    0    5    1    2   23      0
+    TR-K251                    0    1    0    5    1    2   23      0
+    TR-K252                    0    1    0    5    1    2   23      0
+    TR-K253                    0    1    0    5    1    2   23      0
+    TR-K254                    0    1    0    5    1    2   23      0
+    TR-K255                    0    1    0    5    1    2   23      0
+    TR-K256                    0    1    0    5    1    2   23      0
+    TR-K257                    0    1    0    5    1    2   23      0
+    TR-K258                    0    1    0    5    1    2   23      0
+    TR-K259                    0    1    0    5    1    2   23      0
+    TR-K260                    0    1    0    5    1    2   23      0
+    TR-K261                    0    1    0    5    1    2   23      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    TR-K262                    0    1    0    5    1    2   23      0
+    TR-K263                    0    1    0    5    1    2   23      0
+    TR-K264                    0    1    0    5    1    2   23      0
+    TR-K265                    0    1    0    5    1    2   23      0
+    TR-K266                    0    1    0    5    1    2   24      0
+    TR-K267                    0    1    0    5    1    2   24      0
+    TR-K268                    0    1    0    5    1    2   24      0
+    TR-K269                    0    1    0    5    1    2   24      0
+    TR-K270                    0    1    0    5    1    2   24      0
+    TR-K271                    0    1    0    5    1    2   24      0
+    TR-K272                    0    1    0    5    1    2   24      0
+    TR-K273                    0    1    0    5    1    2   24      0
+    TR-K274                    0    1    0    5    1    2   24      0
+    TR-K275                    0    1    0    5    1    2   24      0
+    TR-K276                    0    1    0    5    1    2   24      0
+    TR-K277                    0    1    0    5    1    2   24      0
+    TR-K278                    0    1    0    5    1    2   24      0
+    TR-K279                    0    1    0    5    1    2   24      0
+    TR-K280                    0    1    0    5    1    2   24      0
+    TR-K281                    0    1    0    5    1    2   24      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    TR-K282                    0    1    0    5    1    2   24      0
+    TR-K283                    0    1    0    5    1    2   24      0
+    TR-K284                    0    1    0    5    1    2   24      0
+    TR-K285                    0    1    0    5    1    2   24      0
+    TR-K286                    0    1    0    5    1    2   24      0
+    TR-K287                    0    1    0    5    1    2   24      0
+    TR-K288                    0    1    0    5    1    2   24      0
+    TR-K289                    0    1    0    5    1    2   24      0
+    TR-K290                    0    1    0    5    1    2   24      0
+    TR-K291                    0    1    0    5    1    2   24      0
+    TR-K292                    0    1    0    5    1    2   24      0
+    TR-K293                    0    1    0    5    1    2   24      0
+    TR-K294                    0    1    0    5    1    2   24      0
+    TR-K295                    0    1    0    5    1    2   24      0
+    TR-K296                    0    1    0    5    1    2   24      0
+    TR-K297                    0    1    0    5    1    2   24      0
+    TR-K298                    0    1    0    5    1    2   24      0
+    TR-K299                    0    1    0    5    1    2   24      0
+    TR-K300                    0    1    0    5    1    2   24      0
+    TR-K301                    0    1    0    5    1    2   24      0
+
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    TR-K302                    0    1    0    5    1    2   24      0
+    TR-K303                    0    1    0    5    1    2   24      0
+
+
+British Ships
+-------------
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    MALTA                      0   40    0    0  500   99    1      0
+    ALEXANDRIA                 0   80    0    0  500   99    2      0
+    CRETE                      0   10    0    0  500   99    3      0
+    TOBRUK                     0   40    0    0  500   99    4      0
+    CV-FORMIDABLE              0   12    0   30   36   45    2      2
+    BB-BARHAM                  8   16    0   25    0   66    2      0
+    BB-WARSPITE                8   16    0   25    0   66    2      0
+    BB-VALIANT                 8   16    0   25    0   66    2      0
+    BB-QUEEN ELIZABETH         8   16    0   25    0   66    2      0
+    CL-CLOUCESTER             12    8    6   30    0   22    2      0
+    CL-FIJI                   12    8    6   30    0   20    2      0
+    CL-AJAX                    8    4    8   30    0   16    2      0
+    CLAA-DIDO                  0   10    6   30    0   15    2      0
+    CL-ORION                   8    4    8   30    0   16    2      0
+    CL-PERTH                   8    4    8   30    0   16    2      0
+    CLAA-NAIAD                 0   10    6   30    0   15    2      0
+    CLAA-PHOEBE                0   10    6   30    0   15    2      0
+    CLAA-CALCUTTA              0    8    0   30    0   13    2      0
+    CLAA-CARLISLE              0    8    0   30    0   13    2      0
+    DD-NAPIER                  0    6   10   35    0    7    2      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    DD-NIZAM                   0    6   10   35    0    7    2      0
+    DD-KANDAHAR                0    6   10   35    0    7    2      0
+    DD-KELVIN                  0    6   10   35    0    7    2      0
+    DD-KIPLING                 0    6   10   35    0    7    2      0
+    DD-KINGSTON                0    6   10   35    0    7    2      0
+    DD-KIMBERLEY               0    6   10   35    0    7    2      0
+    DD-KELLY                   0    6   10   35    0    7    2      0
+    DD-NUBIAN                  0    8    4   35    0    8    2      0
+    DD-JUNO                    0    6   10   35    0    7    2      0
+    DD-JANUS                   0    6   10   35    0    7    2      0
+    DD-JERVIS                  0    6   10   35    0    7    2      0
+    DD-JACKAL                  0    6   10   35    0    7    2      0
+    DD-ISIS                    0    4    8   35    0    7    2      0
+    DD-IMPERIAL                0    4    8   35    0    7    2      0
+    DD-ILEX                    0    4    8   35    0    7    2      0
+    DD-HERO                    0    4    8   35    0    7    2      0
+    DD-HOTSPUR                 0    4    8   35    0    7    2      0
+    DD-HEREWARD                0    4    8   35    0    7    2      0
+    DD-HASTY                   0    4    8   35    0    7    2      0
+    DD-HAVOCK                  0    4    8   35    0    7    2      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    DD-GRIFFIN                 0    4    8   35    0    7    2      0
+    DD-GREYHOUND               0    4    8   35    0    7    2      0
+    DD-DECOY                   0    4    8   35    0    7    2      0
+    DD-DEFENDER                0    4    8   35    0    7    2      0
+    DD-STUART                  0    2    6   35    0    7    2      0
+    DD-VOYAGER                 0    2    6   35    0    7    2      0
+    DD-VENDETTA                0    2    6   35    0    7    2      0
+    DD-WATERHEN                0    2    6   35    0    7    2      0
+    DE-AUCKLAND                0    8    0   20    0    6    2      0
+    DE-FLAMINGO                0    6    0   20    0    6    2      0
+    DD-KASHMIR                 0    6   10   35    0    7    2      0
+    DD-JAGUAR                  0    6   10   35    0    7    2      0
+    MTB-67                     0    1    2   35    0    2    5      0
+    MTB-213                    0    1    2   35    0    2    5      0
+    MTB-214                    0    1    2   35    0    2    5      0
+    MTB-216                    0    1    2   35    0    2    5      0
+    MTB-217                    0    1    2   35    0    2    5      0
+    DML-ABDIEL                 0    6    0   40    2    9    2      0
+    SS-URGE                    0    0    8   10    0    6    6      0
+    SS-UPHOLDER                0    0    8   10    0    6    6      0
+
+                              MG   AA   TT   MS   CC   DF   TF    ARV
+    SS-TETRARCH                0    0   20   10    0    6    6      0
+    SS-RORQUAL                 0    0   12   10    0    6    6      0
+    SS-REGENT                  0    0   16   15    0    6    6      0
+    SS-TRUANT                  0    0   20   10    0    6    6      0
+    TR-CLAN CAMPBELL           0    1    0   15    6   14    2      0
+    TR-CLAN CHATTAN            0    1    0   15    6   14    2      0
+    TR-CLAN LAMONT             0    1    0   15    6   14    2      0
+    TR-GLENEARN                0    2    0   15    8   16    2      0
+    TR-GLENGYLE                0    2    0   15    8   16    2      0
+    TR-GLENROY                 0    2    0   15    8   16    2      0
+
+
+15.0 STRATEGY NOTES
+===================
+
+AXIS STRATEGY
+-------------
+   Axis strategy should aim for the eventual collapse of Alexandria as this is
+the only likely means of achieving a decisive victory.  There are three basic
+approaches to the Alexandria strategy: (1) Ignore Malta and commit all Axis
+resources towards an immediate North African blitzkrieg; (2) Suppress Malta
+(destroy all supplies and aircraft) through continuous air attack prior to
+launching the North African offensive; (3) Capture Malta through airborne and
+amphibious assault prior to launching the North African offensive.
+
+SUPPRESSING MALTA
+-----------------
+   Suppressing Malta is a two-phase operation that requires (1) the reduction
+of Malta's fighter strength and (2) the destruction of Malta's supplies.  Phase
+1 can be accomplished by launching Sicily and Tripoli-based fighter sweeps to
+attrition the Spitfires down to a manageable level.  The sweeps should
+include enough ME109s to equal or outnumber Malta's Spitfires and no more than
+a handful of bombers.
+   In Phase 2 of the suppression the Axis player can launch formations of 100
+or more bombers to attack Malta's supply dumps.  These attacks should include
+a substantial fighter escort as long as Malta can put Spitfires in the air.
+When supplies have been reduced below 3.  Malta's aircraft will be unable to
+fly and may be destroyed on the ground.  Suppression of Malta will usually
+require 2 to 3 weeks and a loss to the Axis of approximately 100 fighters and
+40 bombers.  Malta will recover quickly from the suppression unless the Axis
+is successful in its blockade.
+
+THE BLOCKADE
+------------
+   The Axis player has a powerful mix of air, submarine, MTB and heavy surface
+units available to blockade Malta.  With proper coordination and a little luck
+the Axis forces can devastate even the best protected of British convoys.
+   Axis air and submarine forces must be divided to guard both the eastern and
+western approaches to Malta.  Bombers based in Sardinia and Crete are
+positioned to take early shots at the British convoys.  British ships slowed by
+damage near the start of their journey have almost no chance of reaching Malta.
+Bombers based in Sicily or Tripoli can guard both the eastern and western
+approaches to Malta but they often take frightful losses from Malta-based CAP.
+Sicily and Tripoli-based bombers usually inflict their greatest damage after
+the British transports have unloaded their cargo.
+   Axis submarines should be positioned in the areas south of Crete and south
+of Sardinia.  These submarines will be well-positioned to pounce on ships
+crippled by air attacks.  The submarine TFs should contain 6-10 subs with at
+least 2 U-boats included.  Although their numbers are impressive, the Italian
+submarines will usually perform poorly.
+   The Axis forces are guaranteed one shot at the British convoys before they
+enter Malta's harbor.  The Axis player should form two surface TFs: one
+containing all available BB, CA, CL and DD units and one containing all
+available MTB units.  The heavy surface TF should seek combat only during
+daylight turns.  The MTB force should only seek combat during night turns.  The
+point of interception is the Malta square as all British TFs must stop there
+before entering the harbor.
+
+SUPPLYING THE AFRIKA KORPS
+--------------------------
+   Supplying the Afrika Korps will require weekly convoys from Italy to Africa.
+The Afrika Korps consumes about 40 supply dumps a week when doing nothing and
+75 supply dumps a week during an all-out offensive.  The Axis may air-transport
+21 supply dumps per week into Africa.
+   The Axis player can usually achieve victory in the first month if the flow
+of supplies into Africa is unrestricted.  To achieve the unrestricted flow of
+supplies the Axis player must suppress Malta.  The suppression of Malta
+requires the transfer of vital air strength out of the Afrika Korps, which
+makes it costly to suppress Malta and attack in North Africa at the same time.
+   The Axis player is confronted with the same strategic decisions that
+confronted Hitler, Mussolini and Rommel in the summer of 1942: Immediately
+pursue the weakened Eighth Army and possibly break through to Alexandria ?
+Suppress Malta first to take the pressure off the supply convoys ?  Attempt to
+capture Malta and secure the supply line once and for all ?
+
+AXIS SUPPLY CONVOYS
+-------------------
+   Axis supply convoys should contain approximately 2 CLs, 10 DDs, 2 DEs and
+all available TRs and TKs.  Transport space should not be wasted with infantry
+since infantry can be flown into Africa in sufficient quantities.
+   Tripoli is usually the safest of destination harbor for the supply convoys;
+the route is shorter and almost entirely within range of Sicily or Tripoli CAP.
+Benghazi is closer to the front line so fewer supplies will be consumed in
+transit.  Also, due to its greater distance from Malta, Benghazi harbor may be
+a safer place to unload the cargo.
+
+ASSAULT ON MALTA
+----------------
+   The assault on Malta should be a combined airborne and amphibious operation.
+The amphibious TF should plot a "T" mission and contain all available
+transports loaded with 50% troops and 50% supplies.  The screen for the
+amphibious force should be the same as for an Axis supply convoy.  The Axis
+should also include for this operation a bombardment TF consisting of all
+remaining BB, CA, CL and DD units.
+   The Axis paratroops should be dropped on the same turn that the amphibious
+TF unloads on Malta.  As long as opposition remains on Malta the Sicily-based
+bombers should restrict their anti-ship and anti-base missions to ensure
+adequate ground support for the assault.  The bombardment force should loiter
+in the Malta square until its endurance falls below 9.  The assault will be
+successful if the following conditions are met: (1) the Malta garrison remains
+unsupplied; (2) the assault force is kept in supply; (3) Axis bombardment and
+ground support are continuous and heavy.
+
+BRITISH STRATEGY
+----------------
+   The British hold Alexandria at all cost; failure to do this will probably
+result in an Axis decisive victory.  The best way to stop the Axis in Africa
+is to maintain a potent air force on Malta.  To remain effective as a base.
+Malta must receive periodic air reinforcements and supplies.  After the Axis
+captures Tobruk the British may no longer fly reinforcements directly from a
+base into Malta.  Spitfires may be flown from aircraft carriers into Malta if
+the carriers are within 15 spaces of Malta.
+
+BRITISH SUPPLY CONVOYS
+----------------------
+    British supply convoys to Malta will lose 60-100% of their participating
+transport.  Convoy operations are so costly that the British can only afford
+2 or 3 of them per campaign game.  Convoy operations should employ all
+available transports and escorts.  Carrier TFs may be used to escort the
+convoys and provide fighter cover.  The carriers should only be used for cover
+when 3 or more of them are available.
+
+EMERGENCY SUPPLY MISSIONS
+-------------------------
+   When supplies run low on Malta and there are not enough transports to send
+a normal supply convoy, the British must use cruisers and destroyers on an
+emergency supply mission.  An "ES" TF should contain about 4 cruisers and 8
+destroyers.  The British have enough ships to send 3 or 4 emergency supply TFs
+at once.
+
+ASSAULT ON MALTA - BRITISH REACTION
+-----------------------------------
+   When the Axis paratroopers land on Malta the British may perform the
+following actions to thwart the invasion: (1) resupply Malta with "ES" missions
+; (2) send Combat TFs to intercept the Axis bombardment TFs; (3) send British
+bombardment TFs to support the Malta garrison.
+   A successful "ES" mission is the surest way to defeat the invasion; a
+supplied British garrison will inflict heavy casualties on the attackers.  The
+bombardment effect of the two Axis TF battleships is equal to 90 ground support
+bombers; therefore it may be desirable to use a Combat Patrol TF to engage
+Axis bombardment forces and send them home.  The British should only send a
+bombardment TF if one or more battleships are available.  The British player
+should not hesitate to commit the bulk of his fleet in reaction to the Axis
+invasion.  Although the loss in ships will be high, the Axis cannot effectively
+attack all of them at once.  The flak density of the pure combat TFs (as
+opposed to transport TFs) will inflict heavy casualties on the attacking
+bombers and distract them from their ground support role.
+
+ATTACKING AXIS SUPPLY CONVOYS
+-----------------------------
+   The Swordfish and Beauforts based on Malta are the hub of the British
+anti-shipping force.  These valuable aircraft are best employed against Axis
+supply convoys.  They should be used sparingly against high CAP or flak density
+targets.  The British should maintain 2 or 3 submarine TFs in the central
+Mediterranean at all times.  A good place to pounce on an Axis convoy is near
+the entrance to a North African harbor.  Ships torpedoed off the African coast
+will seldom make it back to Italy.
+   At least once during the game the British player should attempt to intercept
+an Axis convoy with a surface combat TF.  It is possible for the British to
+form a cruiser-destroyer force in Alexandria or Gibraltar and send it to the
+central Mediterranean.  Such a force could remain in Malta harbor during the
+day (under a powerful CAP umbrella) and prowl the Axis shipping lanes of night.
+
+
+16.0 CREDITS
+============
+
+Game Design and Programming - Gary Grigsby
+Game Development - Joel Billings
+Historical Commentary - Robert S. Billings
+Customized Disc Operating System - Roland Gustafsson
+
+
+17.0 HISTORICAL COMMENTARY
+     MALTA: ROCK IN A HARD PLACE
+     By Robert S. Billings
+================================
+
+   On the 21st of June, 1942, General Erwin Rommel had achieved the victory for
+which his Afrika Korps had been fighting in the desert for many long months.
+Tobruk had at last fallen to his lightning assault.  And with Tobruk captured,
+the dream of an advance to the British naval base at Alexandria, and even to
+Cairo and the Suez Canal beyond, had suddenly ceased to be a desert mirage and
+had become a reality awaiting merely a leader hold enough to bring it to
+fruition.
+   The desert war, with its armored jousting, its hundreds of tanks and
+vehicles racing across the blazing sands up and down the North African coast in
+attacks and retreats lasting for hundreds of miles, had always been a war of
+supply.  for those hundreds of tanks and vehicles seemed always mad with thirst
+- for petrol and ammunition, for replacement tanks and vehicles, for provisions
+for the men for whom these "brazen chariots" had become master, slave, and often
+enough, blazing coffin as well.  With all the glamour of racing maneuver and
+tactical skill, victory most often came down to a simple matter of supply - the
+winner was whoever could replace destroyed tanks first and keep them fueled for
+maneuver.  Now, with the sudden capture of Tobruk, a veritable cornucopia of
+supply had been opened to the Desert Fox.
+   The capture came so unexpectedly that there had been no time for the British
+to destroy the vast storehouse of supplies they had accumulated there.  Now it
+was all Rommel's the glory, the 30,000 prisoners, the 1400 tons of petrol,
+the replacement vehicles (2,000 of them), the ammunition (German as well as
+British).
+   It was these supplies, in addition to the state of his troops (flushed with
+a clear-cut victory that has sent the British Eighth Army scampering back into
+Egypt) which could make the General's dream possible - a final victory in the
+desert to crown the glorious victories that had just won him promotion to
+Field Marshal.  It was all waiting - but it would require, he felt, a leader of
+boldness and vision who would take the gambit, who would not shrink from
+another spin of battle's wheel of fortune.
+   Mussolini, of course could stop him.  The Italian dictator, in nominal
+command of the war in North Africa, could insist Rommel stick to the original
+plan: first the brilliant desert victory, driving the British back to Egypt;
+then a shift of emphasis, direction, and air support to the little clean-up job
+that had been waiting now for years.  Malta! A small piece of real estate in
+the middle of the Mediterranean.  A chunk of rock overlaid with soil a few
+miles off the coast of Sicily, closer to Italy than Africa, intimidated by
+hundreds of bombings, starving and unprovisioned, nearly ready, so far as the
+Axis leaders could tell, to surrender.  Hitler and Mussolini had met on April
+30 and set July 10 as D-Day for the final assault on that impotent little patch
+of dirt.  That was now hardly more than two weeks away.  There would be just
+time - If Rommel would call a halt to his operations and shift all his air
+power and other needed forces toward Malta.  But that should not be.  Here
+Rommel was poised on the final leg of a march that could virtually eliminate
+the British from the Middle East.  Should such an opportunity be lost for a
+minor operation against a small island now ready to fall - and no earthly good
+to the British anyway, once his victorious panzers were clanking through the
+streets of Cairo and lining the banks of the Suez Canal ?  Unmindful of his
+earlier warnings concerning the need for eliminating Malta, Rommel sat down
+and composed a message to be sent, not to his immediate Italian commander, but
+to Hitler himself.  Mussolini would not dare to insist if the Fuehrer himself
+decided to change the time schedule and let one of his favorite commanders
+push on to Alexandria, the great British base, just a few miles away.
+   Thus are made, in the rush of the moment and by the advice of eager,
+ego ridden battle commanders, decisions to come back later to haunt first the
+commanders themselves, and later the historians and strategists poring over
+the documents and endlessly wondering "What if .. ?"
+   To fully understand the events of that crucial summer of 1942 in the
+Mediterranean, one must be aware of the geography of the area and the history
+of the war in that theater.  The Mediterranean was first of all a long naval
+battlefield with British power clustered at only three points in the west end
+at Gibraltar, where Naval Force it was stationed; in the east at the fine
+harbor at Alexandria, not far from Cairo; and, finally, in one small island.
+Malta, nearly midway (both east-west and north-south) in the Mediterranean.
+Dwarfed by the neighboring island of Sicily, Malta could launch, at the
+beginning of the war, torpedo planes to range over a two-hundred-mile circle
+in the precise area where transports and supplies would have to pass should
+they take the shortest route from Italy to North Africa.  And with the increase
+in the range of torpedo planes, this circle kept expanding until, by the end
+of 1942, it was eight hundred miles in diameter and covered all of Sicily,
+much of Italy, Sardina, and North Africa, and even touched the western coast of
+Greece.  By this point in the war, then it was almost literally impossible
+for an Axis convoy to sail to North Africa without passing through this circle
+- without spending, in fact, the largest portion of its voyage within it.
+   But of course that worked two ways.  Malta itself was extremely vulnerable
+to attack - especially to waves of airplanes attacking from the many airfields
+to Sicily.  Whenever German airpower began operations against it, the island's
+use as an offensive base quickly diminished, and life on Malta was forced to
+become a life underground.  And if it was to remain a point of British power,
+it had to be supplied regularly with fuel and ammunition for the submarines,
+the planes, the ships and the anti-aircraft batteries based there.
+   Malta's fortunes had risen and fallen with the British fortunes of war in
+the theater as a whole.  When the power of the British navy seemed in rule
+supreme on the Mediterranean.  Malta could be well-provisioned and used as an
+offensive base for deadly air raids, submarine attacks, and even surface-ship
+battles; but when the Axis air power increased and its army faced along the
+North African coast toward a beckoning Egypt, the ships had to leave, the
+submarines had to sneak in for rest and repair at night and remain submerged
+during the day, the planes so laboriously brought in were often destroyed on
+the ground before getting a chance at the enemy.
+   For the war in North Africa had indeed been a wildly shifting one.  At first
+Italy had seemed to have the far superior force overshadowing the puny British
+force of 30,000 men under General Wavell in Egypt.  Yet the Italian force
+turned out to be a paper tiger, despite its vast numbers.  Early in December,
+1940, General Wavell's troops attacked.  He had fewer than 225 tanks, far
+fewer than the Italians, but of far better quality.  And in just two months his
+troops had advanced nearly 600 miles, defeating the Italians and chasing them
+past Bardia, Tobruk, Derna, and even Benghazi.  His small force had captured
+130,000 men and 400 tanks at an astonishingly low total cost of 2,000 British
+casualties.
+   Just a month before, the British navy had had its own glorious victory.  On
+November 11 the carrier ILLUSTRIOUS had sailed from Alexandria with 24
+Swordfish torpedo planes.  On the night of November 11-12, 170 miles from the
+base at Taranto where the Italian battleships were moored, the first of two
+flights of planes took off carrying torpedoes, bombs, and illuminating flares.
+At 2300 the first flares were dropped over the Italian fleet, and the planes
+maneuvered between barrage-balloon cables and dove in to drop their bombs and
+torpedoes.  All aircraft except two had returned to the carrier by 0250.  They
+had left behind three Italian battleships sunk; one out of action for the
+entire war, and two more that could not be raised and repaired for six months.
+   These were heady days for the Royal Navy, for the British Army, and for
+Malta.  A year that had begun with defeat in Europe, had passed through the
+bombings of London and the Specter of a German invasion, had finally ended in
+a glow of triumph.  But events were to show it was a temporary glow only.
+   Hitler had decided that he would have to go to the relief of his over-
+extended partner, who not only had lost an army in North Africa, but had
+decided to invade Greece as well - with no more success.  So the Tenth Air
+Fleet of the Luftwaffe was sent to Sicily.  And the bold tank commander who had
+led the way across France, General Erwin Rommel, was dispatched, with the
+beginnings of what was to become the Afrika Korps, to take command on the North
+African coast.  And on March 31, 1941, he struck.
+   Wavell, never possessing much actual strength had meanwhile lost most of
+what he had possessed.  He had been asked to send a large part of his best
+troops including armor, to Greece to stop an expected German invasion there.
+Most of his supply vehicles had been cannibalized in this attempt, and he was
+left with nothing to do but retreat - especially when confronted with an
+audacious commander of great tactical skill.  In a very short time the formerly
+triumphant British army was racing back toward Egypt, losing tanks as they ran
+out of gas and managing to held Tobruk only by leaving a strong garrison there
+among its vast assembled stores.
+   And then the blow fell on Greece.  In three weeks German troops had overrun
+the entire country, forcing the British soldiers to leave much of their armor
+and vehicles behind as they gathered on the beaches for a desperate rescue by
+the hard-pressed Royal Navy.  The British troops and armor which might have
+served so well in Africa, had done absolutely no good in Greece.  And after a
+German paratroop attack on Crete had succeeded, there was nothing to show for
+the whole disastrous spring except huge losses in the Royal Navy for its
+desperate attempts to save the remnants of the stranded expeditionary force.
+   During these early days of the war.  Malta had established itself as an
+important part of the British effort by its continued use as a base for attacks
+on convoys and shipping proceeding from Italy to Africa.  Despite its own
+initial lack of preparedness in defense, especially in numbers of planes, it
+was able to continue servicing and repairing the submarines sent out to prey on
+both merchant and naval ships; its docks could be used for repair of surface
+vessels and even serve part of the time, as base for a smaller force of the
+Royal Navy.  But although from the beginning Churchill himself had recognized
+Malta's importance for the British strategic plan, there was such a need for
+planes in England that for a time only a carefully measured few could be sent
+to the center of the Mediterranean.  Nevertheless, as the war progressed,
+greater and greater efforts were made to fill this desperate need.  A
+relatively safe means to deliver these planes was worked out with carriers
+loading their decks with planes to be carried part way from Gibraltar, launched
+before passing through the narrow strip of water between Sicily and North
+Africa, and flown to the island under their own power.
+   Thus, although in April of 1941 the pounding of Malta from the air had so
+neutralized the island's offensive potential that only two per cent of the
+Axis supply shipping was sunk, and Rommel's force had been able to reach Africa
+intact, every time the air attacks eased up.  Malta would once again make
+itself felt.  By November of 1941, when the British were busy readying a new
+offensive against Rommel, the losses inflicted on both supply and naval ships
+of the Axis could not be ignored by the frustrated dictators.
+   On the night of November 7-8, for example, an Axis convoy of seven merchant
+ships on route for Africa and guarded by cruisers and destroyers was
+intercepted by Force K (the surface ships based on Malta) which not only
+destroyed all seven, but a destroyer as well.  And a second destroyer was sent
+down with a torpedo from a British submarine.  On November 20 the same force
+attacked the escort of another convoy, torpedoing a cruiser and causing the
+entire convoy to be ordered back to port before it could be completely
+destroyed.  Four days later the same Malta-based Force K intercepted another
+convoy and sank two ships.  In fact, when the enraged Mussolini saw the total
+figures for the month, he saw that 70% of all his supply ships sent out had
+been destroyed.  And it was clear that little Malta was perhaps more than any
+other single cause, responsible for these tremendous losses.
+   Due to large part to this great loss of supplies intended for Rommel, the
+British left they had gained enough advantage to take the offensive in the
+desert lighting.  The British army had had the advantage of a long but
+relatively safe supply route - around South Africa and up through the Red Sea
+and the Suez Canal.  Rommel himself was planning a new offensive, and when the
+two forces came together the tricks of the Desert Fox, while effective, could
+not counter the tremendous difference in supplies, and consequently the British
+finally relieved the siege of Tobruk and forced Rommel to withdraw by January
+of 1942 to El Agheila.  For a brief moment it seemed that the British had
+reconquered all their losses, shown their superiority to the great German
+tank commander, and reasserted British power throughout the whole Mediterranean.  But this time, too, the great hopes quickly dissipated like a fading desert
+mirage.
+   Hitler and Mussolini had now both learned their lesson, it appeared,
+concerning Malta and the supply situation in the Mediterranean.  Hitler, in a
+directive dated November 17, 1944, made clear his intentions for Malta.  Field
+Marshal Kesselring was made Commander-in-Chief South, he would be provided with
+an entire new Air Fleet II from the Russian front, and he would be expected to
+"suppress" Malta as well as take control of the Central Mediterranean Sea.
+   Meanwhile, despite the good news of the North African campaign, the British
+navy was suffering a series of disasters.  On 13 November a submarine torpedoed
+and sank the carrier ARK ROYAL 90 miles from Gibraltar.  On the 25th another
+submarine dove under the screening vessels and put torpedoes into the
+battleship BARHAM, which sank within ten minutes.  And then on the 21st of
+December, all three cruisers of the Malta force ran into mines - one cruiser
+and an accompanying destroyer went down; the other two cruisers were badly
+damaged and had to be taken out of action.  And this happened just a day after
+six brave Italians had maneuvered three piloted torpedoes into the Alexandria
+harbor and altered the entire naval situation in the Mediterranean by sinking
+the two remaining battleships there (QUEEN ELIZABETH and VALIANT).  Thus, in
+the eastern Mediterranean, the British were left with no carriers, no
+battleships, and only three light cruisers as "heavy" ships.  The entire naval
+struggle in the area now would have to fall on destroyers and submarines alone.
+And although the two British battleships had been sunk in shallow water, it
+would be a very long time before either could be raised and repaired.  So
+desperate was their situation that the British tried to conceal the forces -
+but by late January they had become generally known.
+   The supply situation for the Axis began to change immediately.  Shortly
+after an affair called the "First Battle of Sirte",  Mussolini had complained
+to Hitler that although the Italians had managed to get four supply ships
+through to North Africa, they had had to use 100,000 tons of warships to
+protect 20,000 tons of supply ships.  It had been tremendously costly in fuel
+for such an armada to protect only four ships, and shortage of fuel was one of
+the big reasons the larger Italian ships had thus far been seldom used in
+combat operations.  But now with the increased attention to Malta, and the
+weakened position of the British Navy in the area, the Axis shipping losses
+began to decline dramatically.  And by the beginning of April, Kesselring was
+ready with even stronger medicine for Malta.
+   With 2,000 planes under his command, the Field Marshal determined to
+completely devastate the small island with nearly continuous bombing raids.
+During one month alone his planes dropped 6,700 tons of bombs, concentrating
+most of it on the harbor installations.  Those ships that could get out had to
+leave.  Those that could not, could not stay afloat long - destroyers, mine-
+layers, submarines were sunk with relative ease.  The entire island, even the
+city streets, was becoming a mass of debris.  And by his target date of May
+10, Kesselring felt the island had indeed been "suppressed."  To finish it off,
+an airborne invasion, supported by a naval landing was planned - first for
+June, but later postponed until July.
+   By this time Rommel had broken loose again.  In late January in fifteen days
+he had pushed all the way back to El Gazala, not far from Tobruk.  There
+receiving supplies regularly now (in January not a single supply ship had been
+lost), he could rest and prepare for his next step.
+   Malta itself had received four supply ships in January; after that another
+attempt had been made to run a convoy in, but all the supply ships had been
+sunk.  From that point on there had been virtually nothing.  All supplies were
+running low, and even provisions to keep the population from starving had
+struck so far that the leaders were beginning to count the number of weeks they
+could continue.  Malta could do almost nothing to prevent what was about to
+happen in Africa.
+   During the evening of May 26th, the Afrika Korps gathered its forces for the
+assault; the next morning they attacked.  There followed the lighting success
+described at the beginning of this account - and by June 21st Tobruk, with its
+storehouse of supplies, was Rommel's nearly intact, and he was anxious to
+continue the battle straight to Alexandria.
+   This was one of those moments of decision that strategists hope for and at
+the same time dread.  One can rarely do everything one wants to do on all
+fronts.  Choices must be made.  There are never "enough" resources.  The
+decision whatever it is, must take from one operation to give to another.  And
+the "leader" must choose which Peter is to be robbed to pay which Paul.
+   Malta had been effectively suppressed for months - yet some Axis commanders
+felt it must be eliminated by invasion if the supply situation in North Africa
+was not to be continually endangered.  The troops, the planes, the ships had
+already been committed for that invasion and they were ready or gathering.  The
+plans had been made, the day set.  The Italian Navy, starved for fuel by Hitler
+during the course of the war (their only fuel supplies came from the German
+Fuehrer) was at last about to be given a major role and the capability to carry
+it out.  The German planes were also committed.  They could easily be pulled
+from supporting Rommel and shifted north the few miles necessary.  A brief,
+perhaps costly campaign, and then it would be over, and never again would the
+Axis be faced with the inability to supply their African troops - all because
+of that dirt-covered rock in the Mediterranean.
+   Was that the way to go ?
+   But there was Rommel, breaking loose and racing nearly all the way to
+Alexandria.  One more little push, while the great commander and his desert
+troops were high from their remarkable successes.  Perhaps that would be just
+the amount necessary to lead to a breakthrough - a British rout to Alexandria
+and out into the open again.  And then British power would be truly broken.
+They might defend their "tight little island", but their great empire in the
+Middle East would topple like nine-pins.
+   Hitler was indeed between a rock and a hard place.
+   But that little voice of reason-blinded-by-hope spoke up: if you give
+everything to  Rommel, he can break the back of British resistance.  And then
+the whole strategic situation will change.  There will be another route to the
+Caucasus oil, another last-minute disastrous pull-out for what will be left of
+the British troops.  And this time they will be too far away to be brought home
+on sailboats and private yachts.  They will all be in the bag.
+   Hitler did not hesitate.  It would be Rommel.  All supplies available would
+be rushed to him.  The enthusiastic commander would be given his head.  Malta
+would have to wait.  If Rommel could do what he had said he could, Malta
+wouldn't matter.  It was nearly starved out, anyway.
+   And so the word was rushed to Rommel.  He could attack, finish his enemy
+off.  He would be supported, troops and planes diverted to him as necessary.
+Mussolini had agreed.  What else could be do ?  Without Hitler's help, he
+didn't even have oil to fuel his fleet.  Besides, the Duce would like to go to
+Africa in triumph when the British finally were humiliated and their place
+taken by the Italians - and Mussolini himself.
+   Rommel's attack at first succeeded as he had expected.  By June 27th he was
+at El Alamein, where the British had stopped their retreat and establish a
+defensive position.  Alexandria was hardly 60 miles away.  So close - and yet,
+as events would soon prove, so very far.
+   The Field Marshal did not pause but immediately attempted an attack on the
+British positions.  Yet his exhausted forces could not break through.  Then,
+on July 3rd, he tried again, throwing everything he could into the attack.
+Once again it failed.  Finally, facing the fact that he would have to await
+reserves and reinforcements before crossing those crucial 60 miles, Rommel went
+on the defensive.
+   Rommel called for his reinforcements.  They were sent - among them, airborne
+regiments from Sicily, where they had been waiting to take part to the planned
+invasion of Malta.  The die had been truly cast; Malta would no longer be
+considered to have priority.  Rommel's operations must take precedence.
+   Meanwhile, Malta had been having a change of fortune also.  Knocked to her
+knees in the terrible six weeks of air bombardment in April and May, she had
+begun to recover even while the bombardment was on.  The day before its formal
+lifting on May 10, 60 Spitfires had been flown in to Malta from the decks of
+the British carrier EAGLE and the American WASP.  Other planes had been flown
+in by the same method earlier, but the island had not been well prepared to
+receive them and many had been destroyed on the ground.
+   This time the islanders were ready.  Some of the planes were in the air
+within 35 minutes after landing, taking part in the defense against the bombing
+raid in progress.  (The result was 12 attacking German planes lost for only 3
+spitfires.)  No longer could German planes fly in at will and make the citizens
+suffer with no hope of making the attackers pay.  More Spitfires were coming
+in all the time.  And when, in July, the Axis decided that the bombing of Malta
+must be resumed, that island was already sufficiently every bomb he dropped.
+The July "suppression" turned out to be a flop.
+   But there were other problems on Malta.  It could not be restored as an
+offensive base until it could be supplied more regularly.  After devastating
+losses in the early spring, the British had decided to call off further supply
+convoys until they could be better protected from the air.  Yet supplies were
+so low that something had to be done if the island was not to surrender.  It
+was decided, therefore, to make a desperate double attempt to run the gauntlet
+again - from both ends of the Mediterranean at the same time.
+   The plan was in send from Alexandria a convoy of ten supply ships, escorted
+by seven cruisers and almost three times that many destroyers (as noted above,
+there were no longer any serviceable battleships or carriers left in the
+Alexandria fleet).  At the same time a convoy, including six supply ships,
+would be sent from Gibraltar.  There would be an escort of cruisers and
+destroyers for this group also; furthermore, they would be covered by Force H,
+a group of heavier ships which would include two carriers and a battleship.
+   The Italians placed priority on destroying the convoy from Alexandria.  Thus
+they dispatched two battleships, four cruisers and three whole divisions of
+destroyers to attack it; in addition, they concentrated heavy air attacks
+against it.  Ninety planes attacked it on June 14, sinking one supply ship and
+damaging another.  On the 15th the losses began to pile up.  One cruiser was
+sunk by a motor torpedo boat, and a destroyer went down from a submarine's
+torpedo.  Shortly after, a second cruiser was hit and damaged.  At this point
+the commander learned of the heavy Italian surface fleet ahead of him.  He
+quickly pulled back and asked for air attacks to even the unbalanced odds
+against his force.  Although a battleship was hit and damaged in these attacks,
+it was able to proceed in the action against the convoy.  One cruiser was
+damaged enough to be taken out of the action and was later sunk by a submarine.
+Yet Axis planes returned to renew their attack and two British destroyers were
+sunk.  Warship losses were piling up, anti-aircraft ammunition was running low,
+and the large Italian surface fleet had not yet been encountered.  The convoy
+commander decided he would have to cut his losses and return to Alexandria.
+Thus, not one supply ship from this convoy made it through to the nearly
+starving Malta.
+   The convoy coming from the west was also having heavy slogging.  Air attacks
+on the 13th and 14th had been nearly continuous, but only one cruiser had been
+forced to drop out to return for repairs.  On the evening of the 15th the
+heavier ships of Force H turned back to Gibraltar as they were accustomed to do
+when reaching the narrow waters between Sicily and Tunisia.  The convoy would
+have to run the rest of the way with only one light cruiser and nine destroyers
+as escort and yet they had to face another Italian surface fleet - smaller than
+the one sent east, but still much superior to the small British force.
+   On the morning of the 15th, the Italian ships made contact and immediately
+attacked.  The British warships gamely advanced to meet the threat, sending the
+vulnerable supply ships away to the southwest.  The action between the surface
+warships was almost foreordained.  One British destroyer was sunk and another
+damaged before they could turn away.  Nevertheless, the supply ships had been
+temporarily saved.  They were soon to be attacked by aircraft, however, and
+three more of the cargo ships went down.
+   What was left of the convoy finally arrived at Malta after dark - but there
+was more loss to come.  Running into a minefield, one destroyer was sunk and
+two more, along with a minesweeper and a supply ship were damaged.
+   The end result of all these losses from two separate convoys, therefore, was
+the arrival in Malta of only two supply ships.  Nevertheless, so great was the
+need for supplies on Malta that even this slight success was significant.  For
+it enabled the island to stretch out for a few more weeks the day on which it
+would be forced to surrender, if more supplies could not be obtained.  So as
+it turned out, this "Italian victory" was, in a strategic sense, rather a
+victory for the British.
+   Malta was indeed reviving.  First had come the Spitfires flown in from the
+American and British carriers.  By July 12th the channel had been cleared of
+mines and submarines were again operating from their old base.  How effective
+they were to be was seen by the fact that, during the next month, 34% of the
+supplies intended for Rommel were sunk on route.  And it was not long before
+surface ships were again using Malta for a base.
+   Meanwhile, help that would make a big difference to life on Malta was being
+planned.  The long suffering citizens of that island, emerging cautiously from
+their bomb shelters deep down in the rock, could not of course be told, but on
+July 24th the decision was made by the British and American leaders to invade
+North Africa in the west.  When that invasion took place, a whole new situation
+would be created, with tremendously increased naval and air forces driving the
+dreaded German bombers from the skies.  And the Desert Fox, despite all his
+clever stratagems, would be boxed in from front and rear.
+   but that was in the unknown future.  For now there were more desperate
+problems.  The two ships in June had saved the island and its population.  But
+now supplies were again growing very short, and once again the commander of the
+island had figured out to the exact day how long he could ask the people to go
+on without additional supplies too, and they finally determined to try
+again, with a far greater escort than had ever been employed in the
+Mediterranean before to run the gauntlet with another supply convoy.  it was
+called the "Pedestal Convoy." and it has gone down in naval history as one of
+the heroic exploits of British sailors and merchant seamen.
+   The Convoy was formed at Gibraltar.  It consisted of eleven cargo ships
+escorted by no fewer than four carriers, seven cruisers, and twenty-five
+destroyers.  By August 11th they were under attack by Axis forces.  The
+submarines were there first, and they took a costly first-blood, sinking the
+carrier EAGLE.  Then there followed, in the next two days, wave after wave of
+German and Italian planes rushing to the attack.  A second carrier was hit by
+three bombs and had to turn back.  At the end of the day of August 12th the
+main escort's work was done and it turned back for Gibraltar as the cargo ships
+entered the narrow waters between Sicily and Tunisia.  They were now shepherded
+by a mere three cruisers and ten destroyers.  That night Axis submarines
+surfaced and sank the cruiser CAIRO and four cargo ships.  Then motor torpedo
+boats joined the attack and sank a tanker and more cargo ships.
+   The next morning more planes appeared.  But by evening two cargo ships had
+made it through to Malta.  Later there arrived another cargo ship and one
+priceless oil-laden tanker, the OHIO, heavily damaged and given up for lost
+time and time again.  but always the desperately working, exhausted sailors
+returned to attack new low lines, moving ships alongside to keep the tanker
+afloat, dragging, pushing, and almost literally holding up the badly damaged
+ship until it was safe in harbor.  It had been a very costly operation for the
+British navy.  But Malta, whose commander had already picked his "surrender
+day" if supplies did not appear, could relax for a moment of satisfaction.  The
+bitterly fought over remnant of the convoy had arrived just four days before
+the commander's "surrender day."  There were now supplies and fuel enough to
+last until the Mediterranean could once again become a British sea.
+   And now Rommel, realizing that his Fuehrer had placed all the stakes on the
+invincible Desert Fox and his promise to push through to Alexandria and beyond,
+perhaps feeling the first twinges of doubt that he could carry out his
+prediction, made a last desperate effort.  On the night of August 30-31,
+despite his complaints that no longer were sufficient reinforcements and
+supplies getting through to him, he attacked the left, center, and right of the
+British line at El Alamein.  It was the usual Rommel attack, with the 15th and
+21st Panzer and 90th Light Divisions trying to make an end run around the left
+of the British while the other forces made feints or holding attacks.
+Montgomery, now in command of the British Eighth Army, had purposely refused
+his left flank, drawing it back into an "L" shape.  Thus, when Rommel moved in
+and turned north to come in behind the British forces, he was opposed by an
+impassable line of anti-tank fire, aided by close support air attacks.  The
+Desert Fox was out of tricks, low on supplies, and before long would be out of
+Africa.
+   For when Montgomery was ready to attack in October, his army had been
+supplied far beyond anything it had had in the past.  Supplies and
+reinforcements had been coming in a solid stream around the Cape of Good Hope
+and up the Suez Canal, while Rommel's still had to run the gauntlet of British
+air and sea power in the Mediterranean - aided and abetted by that piece of
+rock, bristling now with offensive weapons, which the Field Marshal had begged
+Hitler not to invade, so that the desert attack might proceed.  Montgomery had
+150,000 men to Rommel's less than 100,000.  And while the Axis forces had
+between 500 and 600 tanks, half of them were Italian, and thus much inferior.
+The British had 1114, including nearly 400 Grants and Shermans.
+   The battle could be dragged out for some time - even after the American and
+British landings in November in northwest Africa.  But with the heavy supplies
+pouring in to the Allies, and very little getting through to Rommel's forces,
+there could be little doubt how it would end.
+   And right there in the middle of the final act, effective again in
+preventing supplies from reaching the Field Marshal was that damnable pile of
+rock - Malta, now fully recovered well supplied and dangerous as ever.
+
+
+-------------------------------------------------------------------------------
+
+TF MISSIONS              ENDURANCE
+
+C  - Combat Patrol          40
+B  - Bombardment            40
+T  - Transport              40
+E  - Evacuation             40
+ES - Emergency Supply       40
+U  - Submarine              60
+MT - Motor Torpedo Boat      6
+R  - Return                N/A
+
+
+ATTACK RANGES
+-------------
+
+JU88             12
+BEAUFORT         12
+JU52             12
+DO 17            10
+SM 79            10
+FULMAR            6
+SWORDFISH         6
+SPITFIRE          5
+ME 109            5
+JU 87             5
+
+
+SEARCH RANGES
+-------------
+
+BEAUFORT        20
+SM 79           20
+DO 17           20
+JU 88           20
+SWORDFISH       12
+JU 87           10
+FLOAT PLANE     20
+
+
+RELATIVE ACCURACY
+-----------------
+
+DO 17        1 (Bomb)
+SM 79        1 (Torpedo)
+BEAUFORT     2 (Torpedo)
+JU 88        2 (Bomb)
+SWORDFISH    4 (Torpedo)
+JU 87        4 (Bomb)
+
+
+DAMAGE CAUSED BY HIT
+--------------------
+
+AA (Secondary) Gun      1/2
+CL Main Gun               1
+CA Main Gun               2
+Bomb                      3
+Torpedo                   5
+BB Main Gun               7
+
+
+SEARCH SUCCESS FREQUENCY
+------------------------
+
+
+           0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+
+     1    98 60 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+     2    98 80 60 40 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+     3    98 86 73 60 46 33 20  6  0  0  0  0  0  0  0  0  0  0  0  0  0
+     4    98 89 80 69 60 50 40 30 20 10  0  0  0  0  0  0  0  0  0  0  0
+     5    98 91 84 76 67 60 52 43 35 28 20 10  3  0  0  0  0  0  0  0  0
+     6    98 93 86 80 73 66 60 53 46 40 33 26 20 13  6  0  0  0  0  0  0
+     7    98 94 88 82 77 71 65 60 54 48 42 37 31 25 20 14  8  2  0  0  0
+     8    98 94 89 85 80 75 69 64 60 55 50 44 40 34 30 25 20 15 10  5  0
+     9    98 95 91 86 82 77 73 68 64 60 55 51 46 43 37 33 28 24 30 15 11
+    10    98 95 91 87 84 80 76 71 67 63 60 56 52 47 43 40 35 31 28 23 20
+    11    98 96 92 89 85 81 78 74 70 67 63 60 56 52 49 45 41 38 34 30 27
+    12    98 96 93 89 86 83 80 76 73 69 66 63 60 56 53 50 46 43 40 36 33
+    13    98 96 93 90 87 84 81 78 75 72 69 66 63 60 56 53 50 47 44 41 38
+    14    98 97 94 91 88 85 82 80 77 74 71 68 65 62 60 57 54 51 48 45 42
+    15    98 97 94 91 89 86 84 81 78 76 73 70 67 65 62 60 57 54 52 49 46
+    16    98 97 94 92 89 87 85 82 80 77 75 72 69 67 64 62 60 57 55 52 50
+    17    98 97 95 92 90 88 85 83 81 78 76 74 71 69 67 64 62 60 57 55 52
+    18    98 97 95 93 91 88 86 84 82 80 77 75 73 71 68 66 64 62 60 57 55
+    19    98 97 95 93 91 89 87 85 83 81 78 76 74 72 70 68 66 62 62 60 57
+    20    98 97 95 93 91 89 87 86 84 82 80 78 76 73 71 69 67 65 63 62 60
+    21    98 98 96 94 92 89 88 86 84 82 80 79 77 75 73 71 69 67 65 63 61
+    22    98 98 96 94 92 90 89 87 85 83 81 80 78 76 74 72 70 69 66 65 63
+    23    98 98 96 94 93 90 89 87 86 84 82 80 79 77 75 73 72 70 68 66 65
+    24    98 98 96 94 93 91 89 88 86 85 83 81 80 78 76 75 73 71 69 68 66
+    25    98 98 96 95 93 91 90 88 87 85 84 82 80 79 77 76 74 72 71 69 67
+    26    98 98 96 95 93 91 90 89 87 86 84 83 81 80 78 76 75 73 72 70 69
+    27    98 98 97 95 94 92 91 89 88 86 85 83 82 80 79 77 76 74 73 71 70
+    28    98 98 97 95 94 92 91 89 88 87 85 84 82 81 80 78 77 75 74 72 71
+    29    98 98 97 95 94 92 91 90 88 87 86 84 83 82 80 79 77 76 75 73 72
+    30    98 98 97 95 94 93 91 90 89 87 86 85 84 82 81 80 78 77 76 74 73
+    31    98 98 97 96 94 93 92 90 89 88 87 85 84 83 81 80 79 78 76 75 74
+    32    98 98 97 96 94 93 92 91 89 88 87 76 85 83 82 81 80 79 78 76 75
+    33    98 98 97 96 95 93 92 91 90 89 87 86 85 84 83 81 80 79 78 76 75
+    34    98 98 97 96 95 93 92 91 90 89 88 87 85 84 83 82 81 80 78 78 76
+    35    98 98 97 96 95 94 93 91 90 89 88 87 86 85 84 82 81 80 79 78 77
+    36    98 98 97 96 95 94 93 92 91 89 88 87 86 85 84 83 82 81 80 78 77
+
+
+-------------------------------------------------------------------------------
+
+Source Used:
+Browne, Stewart. The Siege Within the Walls: Malta 1940-194, Hodder and
+Stronghton, London 1970
+De Belote, Raymond. The Struggle for the Mediterranean 1939-1945. Greenwood
+Press New York 1951.
+Fuller, Major General J.F.C. The Second World War 1939-1945. Meredith Press,
+New York 1948
+Macintyre, Donald. The Naval War Against Hitler, Charles Scribner's Sons,
+New York, 1974.
+Morison, Samuel Eliot. The Battle of the Atlantic September 1939-May 1943.
+Little Brown and Compan, Boston, 1950.
+Smith, Peter C, Pedestal: The Malta Convoy of August 1942. William Kimber,
+London 1970.
+
+Produced By SSI 1981
+-------------------------------------------------------------------------------
+

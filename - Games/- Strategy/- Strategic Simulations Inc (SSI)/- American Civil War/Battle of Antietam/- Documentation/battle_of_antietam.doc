@@ -1,0 +1,1655 @@
+BATTLE OF ANTIETAM
+
+TABLE OF CONTENTS
+
+QUICK START RULES - THE BASIC GAME
+1.0 START-UP
+    Starting the Game (C-64/Atari/Apple/IBM) * Main Menu
+2.0 ACTIVATION
+3.0 OPERATION PHASE
+    Cursor Menu * Unit Information * Command Menu * Moving a Unit * Stacking
+     Zones Of Control * Fire Plots * Melee Plot
+4.0 COMBAT PHASES
+    Fire and Melee Phases * Advances and Retreats * Root and Rally
+5.0 FATIGUE
+6.0 REINFORCEMENTS
+7.0 HOW TO WIN
+    Victory Points * Victory Levels
+
+INTERMEDIATE AND ADVANCED GAME RULES
+
+ 1.0 INTRODUCTION
+    Description of Action * Talking to the Computer * Game Scale and Map * Saving a Game 
+     * Units * Starting the Game (C-64/Atari/Apple/IBM) * Parts Inventory
+ 2.0 SEQUENCE OF PLAY
+    Determining Conditions of Play * Historical Set-up * Sequence of Play for a Game Turn
+ 3.0 ACTIVATION PHASE
+    Activation Cycle * Activation Limits * Activation Effects * Confederate Activation
+ 4.0 COMMAND CONTROL PHASE (Advanced Game Only)
+    Command Control Trace * Divisional Trace * Automatic Command Control * Effects of 
+     Command and Control
+ 5.0 RECOVERY/RALLY PHASE
+    Disruption Recovery * Rally * Fatigue Recovery * Ammo Replenishment
+ 6.0 REINFORCEMENT PHASE
+ 7.0 OPERATION PHASE
+    Cursor Menu * Unit Statistics * Command menu * Operation Point Allowances/Costs
+     Moving a Unit * Zones of Control * Stacking * Unit Modes * Facing * Force Marches
+     Fortification * Leaders and Leader Movement(Advanced Game only)* Fire and Melee Plots
+ 8.0 COMBAT PHASES
+    Fire Phases * Casualties * Line of Sight and Range * Melee * Retreats * Morale, Rout, 
+     and Rally * Advances * Disruption * Ammo * Fatigue
+ 9.0 MID-TURN RECOVERY PHASE
+10.0 VICTORY DETERMINATION PHASE
+     Victory Points * Victory Levels
+11.0 STRATEGY AND TACTICS
+     Union Strategy * Confederate Strategy * Tactics
+CONFEDERATE ORDER OF BATTLE
+UNION ORDER OF BATTLE
+CONFEDERATE ORGANIZATIONAL CHART
+UNION ORGANIZATIONAL CHART
+CHARTS AND TABLES
+     Operation Costs Table * Weapon/Range Casualty Table * Melee Combat Results Table
+      Fatigue Recovery Table * Fatigue Gain Table * Disruption Recovery Table
+      Ammo Resupply Tables * Fire and Melee Strength/Casualties Terrain modifiers
+      Mode Modifiers on Fire and Melee Strength/Casualties * Other Modifiers on Fire and 
+      Melee Strength/Casualties
+  
+
+INITIAL SET-UP
+HISTORICAL SITUATION MAP 1: Attack of Hooker's Corps (6:00 AM to 7:30 AM)
+HISTORICAL SITUATION MAP 2: Attack of the Union 12 Corps (7:30 AM to 9:00 AM)
+HISTORICAL SITUATION MAP 3: Attack of the Union Second Corps (9:00 AM to 1:00 PM)
+HISTORICAL SITUATION MAP 4: Attack of the Union 9th Corps (1:00 PM to 1:30 PM)
+ANTIETAM: Indecision's Triumph       
+
+QUICK START RULES - THE BASIC GAME
+
+1.0 START-UP
+These rules allow the player to quickly get into a simple and straightforward
+game with a minimum of rules reading. Those of you who wish more complexity
+and realism are invited to play the INTERMEDIATE and ADVANCED games.
+
+1.1 Starting the Game (C-64)
+To begin the game, insert the game disk and type LOAD"*",8 and press (RETURN).
+When READY appears, type RUN and press (RETURN).
+
+1.2 Starting the Game (Atari)
+Remove all cartridges from your computer. Boot-up the front side of the disk
+(800XL owners will have to hold down the OPTION key when they turn on their
+computer to boot). After selecting the starting values for your game, you will
+be instructed to insert the Game side of your disk.
+
+1.3 Starting the Game (Apple)
+To begin the game, boot your game disk with the front side up and the game
+will start automatically. If you are using the Apple Iic or Iie, keep the CAPS
+LOCK key depressed throughout the game.
+
+1.4 Starting the Game (IBM)
+To begin the game, remove the BASIC cartridge (if using the IBM Pcjr) and
+insert your 2.0 to 3.2 DOS disk in the drive. Turn on the computer system and
+DOS will boot in. Press RETURN until you see the ready "A>". Insert your game
+diskette. Type START, press ENTER, and the game will boot. On the start-up
+menu, you will find an option to use an RGB, composite (including TV), or
+black and white (green screen included) monitor. The IBM version has
+additional menus that allow you to choose the 10-key option (movement compass
+using "8" for moving North instead of standard "1") and also allow you to
+adjust the screen to the right or left and change the colors. On these menus,
+simply press the key that corresponds to the desired options.
+
+1.5 Main Menu
+When the game is booted and past the title page, you will see a menu with a
+list of options. At a later time you may wish to use these menu options. See
+2.1 of the INTERMEDIATE and ADVANCED Game rules. For Quick Start purposes,
+leave the default selections and press the RETURN key.
+
+
+2.0 ACTIVATION
+
+Not all Union units will be allowed to move. Porter's Corps cannot move until
+turn five (10:00AM), Franklin's Corps until turn seven (12:00 Noon),
+Pleasanton's Division until turn eight (1:00 PM). The above limits may be
+changed due to a random factor or if the enemy moves next to the above units.
+If you wish to have this restriction removed, then set the Activation
+Option,#9, on the Main Menu to NO. In the IBM version, Union cavalry unit may
+not be activated until turn 3.
+
+
+3.0 OPERATION PHASE
+During this phase you are allowed to move and plot melee  combat for all your
+troops. Most actions require you to spend operation points (see Operation
+Costs Table).
+
+3.1 Cursor Menu
+When you first enter the Operation Phase, you will see the following menu
+below the map.
+
+(V)         = Highlights all the squares that a unit could see from that square.
+(0)         = Centers the map at the cursor.
+(1-8)       = Moves the cursor in the desired direction according to the compass on the 
+              right hand side of the display.
+(T)         = Removes unit shapes from the map so you can see the terrain underneath.
+(C)         = Takes you the Combat Phase - press this key when you are finished moving.
+(SPACE BAR) = Picks up the unit under the cursor to allow you to give it commands. If two 
+              or more units are in the square, you will pick. up the first unit. You are 
+              now in the command Menu for that ynit.
+
+3.2 Unit Information
+When you pick up a unit, the unit statistics are displayed below the map such
+as the example below:
+
+CONFED RIPLEY - A INF 501 MEN
+RFL   EFF:83 FT:0 MORALE:83
+OP:7     MELEE:N  FIRE:17,34
+ROAD(3)      X,Y:16,34
+
+The above display shows that the Confederate unit, RIPLEY A is INFANTRY with
+501 men. Its men are armed with RIFLES, has an EFFICIENCY of 83, a FATIGUE of
+0, and a MORALE of 83. It has 7 OPERATION POINTS left, does not wish to MELEE
+and has plotted FIRE into square 17,34. The unit is on a ROAD square with an
+elevation of (3). It is located on square 16,34. The direction compass is
+located on the right hand side. Units have different shapes on the map
+according to the type of unit (Infantry, Cavalry, Artillery) and the stacking.
+
+3.3 Command Menu
+As soon as you pick up a unit the Command Menu fot that unit is ready for any
+commands. The commands you may select are listed below:
+
+(0)   = Centers map on the unit.
+(1-8) = Moves unit in the desired direction as indicated by the compass.
+(M)   = Plots the unit to MELEE combat.
+(F)   = Takes you to the Target Menu. which allows you to set a priority fire square.
+(V)   = Allows you to view all squares that you can fire into.You see in a 360 degree arc.
+(T)   = Removes unit shapes from the map so you can see the terrain underneath.
+(H)   = Displays list of commands available in this menu.
+(U)   = Picks up the next unit in the square.
+(N)   = Goes to the next unit on the map in promotion order (this is the order of units 
+        present in the Order of Battle).
+(Z)   = Aborts or cancels the actions of the unit you have currently picked up. The unit 
+        returns to its original square.
+(Q)   = Puts down the unit and takes you back to the Cursor Menu.
+
+3.4 Moving A Unit
+When you have picked up a unit you may move it in the desired direction
+according to the compass. Moving costs you operation points, according to the
+Operation Costs Chart. Your units receive 10 operation points each OPERATION
+PHASE. If you don't use up all your operation points, up to two points will be
+added to your allowance of 10 for the next phase of the turn. If you don't
+have enough operation points you won't be allowed to move into the square. You
+can't move into a square that would cause it to have too many units. If you
+move an artillery unit, it may not fire until the next phase.
+
+3.5 Stacking
+A square may have one or two infantry or cavalry units. In addition it may
+have one artillery unit.
+
+3.6 Zones of Control
+The eight squares that a unit is next to is defined as its Zone of Control
+(ZOC). This Zone of Control costs enemy units 2 extra operation points to move
+into. Routed units are eliminated if forced to retreat into an enemy Zone of
+Control. A unit must have 10 operation points to move ZOC to ZOC. Artillery
+may not move ZOC to ZOC.
+
+3.7 Fire Plots
+A unit will fire at the closest enemy unit it can see unless you have set a
+priority fire square it can fire into. To plot the square, press "F" in the
+Command menu. It will take you to the Target menu that allows you to move the
+cursor over the square and press "T" to set it as the priority target. In the
+Target menu you may also press "V" to view your line of fire or "E" to exit
+the menu.
+
+3.8 Melee Plot
+If you wish to plot a unit to engage in melee (hand-to-hand) combat, press "M"
+in the Command menu. The unit will melee the enemy unit it fired at if it is
+adjacent to the enemy unit. If it isn't, it will not melee.
+
+4.0 COMBAT PHASES
+During this phase, all fire phases and melees are resolved. Casualties are
+taken.
+
+4.1 Fire and Melee Phases
+There are a total of five fire phases and one melee phase during a combat as
+outlined below:
+
+* Defensive Artillery Fire Phase
+* Offensive Artillery Fire Phase
+* Defensive Fire Phase
+* Offensive Fire Phase
+* Defensive Melee Fire Phase
+* Melee Phase
+
+Units will fire if they have a line of sight and are within range of the
+target unit. Ranges of weapons are found on the Weapon Range/Casualty Table.
+All fire phases are automatically resolved by the computer.
+
+4.2 Advances and Retreats
+Units will retreat and advance after combat automatically by the program.
+
+4.3 Rout and Rally
+Units will change to the rout shape and retreat when their morale breaks.
+After they have rested they may rally and return to the combat shape. When
+routed they may move only one square per phase by the player.
+
+5.0 FATIGUE
+A unit's fatigue rating is a measure of how tired it is. It gains fatigue when
+it moves and takes losses. See the Fatigue Gain and Fatigue Recovery Tables
+for details. Fatigue also affects morale.
+
+6.0 REINFORCEMENTS
+Each side receives reinforcements according to the Order of Battle.
+
+7.0 HOW TO WIN
+Players receive victory points. A score is calculated by subtracting the
+Confederate points from the Union. You may examine the map and look at the
+units of both sides when the game has ended.
+
+7.1 Victory points
+Players receive points based on enemy casualties according to the schedule
+below:
+* 1 pt per Infantryman lost
+* 3pts per Cavalryman lost
+* 150 pts per Artillery Gun lost
+
+For Union only:
+In possession of square
+17,2  =  1000 (500 if in ZOC)
+18,9  =  1000 (500)
+21,14 =  1000 (500)
+31,18 =  1000 (500)
+25,3  =  1000 (500)
+28,11 =  2000 (1000)
+32,7  =  4000 (2000)
+33,1  = 10000 (5000)
+
+7.2 Victory Levels
+The score is compared to the chart below:
+
+Union Major Victory          = 6000+                          
+Union Minor Victory          = 2000 to 5999
+Draw                         = -1000 to 1999
+Confederate Minor Victory    = -6000 to -1001
+Confederate Major Victory    = Less than -6000
+
+The Union may attain a major or minor victory only if he has inflicted at
+least 5000 casualties on the Confederates. If he doesn't meet this
+requirement, the Confederates automatically win at least a Minor Victory.
+
+
+INTERMEDIATE AND ADVANCED GAME RULES
+
+1.0 INTRODUCTION
+BATTLE OF ANTIETAM is a grand-tactical level game of the Civil War battle
+centered at Sharpsburg, Maryland along the Antietam Creek. It has become known
+as the bloodiest day of the Civil War.
+
+1.1 Description of Action
+Each game turn represents an hour of real time. The execution of a game turn
+includes activation and rally, movement, mode changes, facing changes, and
+resolution of artillery fire, offensive fire, defensive firem and melee.
+
+1.2 Talking to the Computer
+To select a routine from a menu or answer a YES/NO question, just press the
+desired key.
+
+1.3 Game Scale and Map
+There are eleven turns in the game each representing one hour from 6:00AM to
+5:00PM of September 17, 1862. The map is situated on a 42 X 36 square grid.
+Each square represents 200 yards from side to side. The various terrain
+depicted includes clear, town, woods, cornfields, fords, roads, streams,
+rivers, and bridges. One to seven randomly placed fords may appear in addition
+to the two historical ones. four elevations are represented by contour lines.
+See Figure 1.4 below for terrain symbols.
+
+1.4 Saving a Game
+At the end of each combat phase, the computer will allow the player(s) to save
+the game in progress. You will need a blank disk to store the saved game data.
+Players must initialize their blank disk from within the program as offered by
+the Save Game Menu. Once a game is saved, you may restart it at the point
+where you left off. You may not change selected options when you restart a
+game in progress.
+
+1.5 Units
+There are three unit types in the game: Infantry, Cavalry, and Artillery. Each
+unit is rated for manpower (guns for artillery), effectiveness, fatigue,
+morale, weapon type, mode, facing, operation points, command control, rout
+status, and disruption status. Units are represented by specific graphic
+shapes depending on unit type and stacking. See Figure 1.5 below. On your
+screen , Union symbols are blue and Confederate symbols are white. Note that
+the symbols will change shape to reflect different facings. Each unit
+represents about two to three regiments or one half of a brigade. A unit is
+named after its brigade commander with an "A" or "B" designation attached.
+Attached to units are divisional and corps commanders. the brigade commander
+is assumed to be present at both A and B units of its brigade.
+
+Figure 1.4 Terrain Symbols
+
+Ridge        = an orange line
+Road-Ridge   = white line crossing an orange line.
+River        = Blue square
+Stream       = blue line
+Road         = white line
+Bridge       = white I-beam shape 
+Ford         = white dashed line 
+Town         = four wite boxes with white crossroads
+Cornfield    = orange lines
+Woods        = Green 
+
+Figure 1.5 Unit Symbols
+
+Infantry                      = solid rectangle
+Two Infantry                  = two solid rectangles
+"One" Infantry plus Artillery = one rectangle flanked by six circles
+"Two" Infantry plus Artillery = two rectangle flanked by six circles
+Unlimbered Artillery          = six circles
+Column or Mounted Cavalry     = two solid boxes
+Routed                        = three solid boxes
+Limbered Artillery            = hollow square with circle in center
+
+1.6 Starting the Game (C-64)
+To begin the game, insert the game disk and type LOAD"*",8 and press (RETURN).
+When READY appears, type RUN and press (RETURN).
+
+1.7 Starting the Game (Atari)
+Remove all cartridges from your computer. Boot-up the front side of the disk
+(800XL owners will have to hold down the OPTION key when they turn on their
+computer to boot). After selecting the starting values for your game, you will
+be instructed to insert the Game side of your disk.
+
+1.8 Starting the Game (Apple)
+To begin the game, boot your game disk with the front side up and the game
+will start automatically. If you are using the Apple Iic or Iie, keep the CAPS
+LOCK key depressed throughout the game.
+
+1.9 Starting the Game (IBM)
+Refer to the Quick Start Rules under section 1.4.
+
+1.10 Parts Inventory
+Your game should contain the following parts:
+
+a. Game box
+b. Rule book
+c. One 5-1/4" game disk
+d. One map card
+
+2.0 SEQUENCE OF PLAY
+
+BATTLE OF ANTIETAM is a two-sided game: Union vs. Confederate. Both sides may
+be played by either a human player or the computer opponent.
+
+2.1 Determining Conditions of Play
+At the start of the game the player(s) must determine the conditions under
+which the game will be played from the menu below:
+
+0. NEW GAME    SAVED GAME
+1. LEVEL OF PLAY    1 2 3 4 5
+2. UNION  HUMAN  COMPUTER
+3. CONFEDERATE
+     HUMAN  COMPUTER
+4. BASIC  INTERMEDIATE
+     ADVANCED
+5. HIDDEN UNITS   NON-HIDDEN
+6. TIMELIMIT   NO TIME LIMIT
+7. COLOR TV   BLACK/WHITE
+8. ACTIVATION  YES    NO
+9. ICONS   SYMBOLS
+
+Type"0-9" to make your choice and RETURN to continue. You will be asked to set
+the delay loop for displayed messages in the game. Set it at 4 or 5 if you are
+a beginner.
+
+* The #0 option allows you to select a new game or continue with a game in
+progress. When you select a saved game, the options on the menu are defaulted
+to the options selected in your saved game. When you select the "SAVED GAME"
+option and press RETURN, you will be prompted to insert your saved game
+diskette and type in the name of the file (you will be allowed to catalog thw
+save game disk if you wish). You may not change game options when you boot up
+a saved game.
+
+* The #1 option selects the difficulty level. Level 3 is Historical and makes
+no modification to either side. Levels 1 and 2 favor the Confederate player
+(level 1 more so than level2). Levels 4 and 5 favor the Union (5 more so than
+4). Levels affect the casualties inflicted in fire and melee combat and also
+the number of activations for the Union.
+
+* Options #2 and #3 allow you to set the Confederate or Union player to be
+controlled by a human or the computer. Please note that you may have the
+computer play against itself for a demo game.
+
+* Option #4 gives you a choice of three games of varying complexity. the
+differences are explained under the appropriate headings of the rulebook. The
+INTERMEDIATE Game is exactly the same as the ADVANCED Game except for the
+deletion of leaders and command control and the addition of automatic
+fortification rule.
+
+* Option #5 allows you to play a game where only sighted enemy units of both
+sides will appear on the map during the combat phase. Hidden units will also
+become visible when moved adjacent to during the operation phases.
+
+* Option #6 gives you the ability to set a time limit to how much time a
+player has to complete his operations phase.
+
+* Option #7 gives the black and white or monochrome user better suited unit
+shapes.
+
+* Option #8 gives you the choice of using the Activation rules or having every
+Union formation automatically activated.
+
+* Option #9 allows you to play with icons (figure profiles) or Symbols (bars).
+Symbols are recommended for INTERMEDIATE and ADVANCED play since they show
+facing and mode changes. Icons are automatically used for the BASIC game.
+
+2.2 Historical Set-up
+At the start of the game, the computer will assign all combat forces to their
+locations the early morning of September 17, 1862 when J.Hooker launched his I
+Union Corps against the Confederate line.
+
+2.3 Sequence of Play for a Game Turn
+
+ 1. Activation Phase
+ 2. Command Control Phase
+ 3. Recovery/Rally Phase
+ 4. Reinforcement Phase
+ 5. Union 1st Operations Phase
+ 6. Union 1st Combat Phase
+ 7. Confederate 1st Operations Phase
+ 8. Confederate 1st Combat Phase
+ 9. Mid-Turn Recovery Phase
+10. Union 2nd Operations Phase
+11. Union 2nd Combat Phase
+12. Confederate 2nd Operations Phase
+13. Confederate 2nd Combat Phase
+14. Victory determination Phase
+
+3.0 ACTIVATION PHASE
+ 
+The Union army commanded by George McClellan was slow to be committed into
+action. Only when encouraged by the battle or hounded by his officers and
+aides did he commit troops. Even though he actually out-numbered the
+Confederates by 2 to 1, he believed the Confederates outnumbered him 2 to 1.
+Even units ordered to attack lost momentum after an hour or so due to lack of
+generalship of McClellan. Corps were orderedto the attack in piecemeal
+fashion. The activation rules attempt to recreate these leadership factors. In
+this phase the Union player is allowed to cycle through his various divisional
+commanders on the map and activate those he wishes, up to the activation
+limit.
+
+3.1 Activation Cycle
+The program will flash the cursor over Union units where a divisional
+commander is present, inverse all squares that contain units of that division,
+and prompt you to activate or bypass them. All Union divisions on the map will
+be cycled through until you have activated up to your limit of divisions.
+
+3.2 Activation Limits
+You will be allowed to activate a base number of four divisions per turn with
+a random number added to that. In addition, as your score goes up and the day
+wears on, you will be allowed to activate additional divisions. Divisions are
+activated on a turn by turn basis. Being activated one turn does not ensure
+activation the next turn. When the computer plays the Union, it will follow
+the restrictions placed on the Union player in the BASIC game (see 2.0 in the
+BASIC game rules) instead of the limits listed here. In the IBM version, Union
+cavalry units may not be activated until turn 3.
+
+3.3 Activation Effects
+Units belonging to activated divisions may move normally (assuming they are in
+command control). Union Corps artillery units are activated with any division
+of their corps. Unactivated units may not move, but may perform any other
+actions up to their operation allowance. Union artleery CAV units are
+activated with the CAV division.
+
+3.4 Confederate Activation
+All Confederate units are activated each turn.
+
+4.0 COMMAND CONTROL PHASE (ADVANCED GAME ONLY)
+
+During this phase, leaders and units execute a command control trace to
+determine if they are in command control or out of command control. This phase
+is skipped for the INTERMEDIATE Game, (All units are always in command
+control).
+
+4.1 Command Control Trace
+Infantry and cavalry units make their command control trace to their
+appropriate divisional leader. Confederate units must be within six squares
+and Union units within four square of their divisional leaders to be in
+command control. Units are also in command control if within one square of
+their corps commander. Union artillery must be within six squares of their
+corps leader. Confederate artillery units are automatically in command
+control.
+
+4.2 Divisional Trace
+Divisional commanders must also trace to be in command control, divisional
+commanders must be within six squares of their appropriate corps commanders
+for the Union and Unlimited for the Confederate.
+
+4.3 Automatic Command control
+All cavalry units, cavalry artillery units, Confederate artillery units, and
+units of the Confederate Evan's Brigade are automatically considered in
+command control. Corps leaders are also automatically in command control.
+
+4.4 Effects of command Control
+Units out of command control have operation point allowances cut in half. in
+addition, units out of command do not have ammo resupplied or disruption
+recovered. They may not rally.
+
+5.0 RECOVERY/RALLY PHASE
+
+Units in this phase recover disruption and fatigue. they also receive ammo.
+Routed units will rally if eligible.
+
+5.1 Disruption Recovery
+Units in command control have a chance of changing from disrupted to
+undisrupted status. see the disruption recovery Table.
+
+5.2 Rally
+Units in command control will change from routed to normal status(Rally) if
+their morale is 40 or greater, they are in command control, and they have more
+than 100 men for Confederate and 300 men for Union.
+
+5.3 Fatigue Recovery
+Units recover fatigue at a certain percent of their effectiveness rating (see
+Fatigue recovery Table).
+
+5.4 Ammo Replenishment
+Units out of ammo will replenish their ammo according to the Ammo Resupply
+Tables at the beginning of the turn and at the Mid-Turn Recovery Phase.
+
+6.0 REINFORCEMENT PHASE
+
+Reinforcements are automatically put on the map at designated entry squares.
+units are delayed if stacking would be violated or the entry squares are enemy
+occupied. See Order of Battle.
+
+7.0 OPERATION PHASE
+
+During this phase players may perform a variety of actions including movement,
+force marches, fire and melee plots, leader transfers, mode changes, and
+facing changes.
+
+7.1 Cursor Menu
+In this menu the player may do the actions listed below:
+
+(V)       = Prompts you to indicate a direction and then displays the line of sight.
+(0)       = Centers map at cursor
+(1-8)     = Moves cursor in desired directions
+(T)       = Removes units from map to see terrain.
+(S)       = Stops time clock.
+(C)       = Exits to Combat phase(press this key when you are finished moving).
+(SPACEBAR)= Accesses first unit in square if friendly. Command menu for unit that is now 
+            active.
+
+Also displayed is the terrain type, elevation, and X,Y coordinates of the
+square.
+
+7.2 Unit Statistics
+When you access the first unit in a square, you will see the following display
+(examples):
+
+CONFED RIPLEY - A INF 501 MEN
+DS:N AMMO:Y MEL:Y MRL:83 FIRE:17,34
+NORMAL  OP:7 DIR:5 ADV:N ACT:Y   
+ROAD(3)      X,Y:16,34
+
+The display above shows that the Confederate unit, RIPLEY -A, is INFANTRY with
+501 men.
+It is not DISRUPTED, still has AMMO, is plotted for MELEE, and has a MORALE of
+83. The unit is plotted for priority FIRE at square 17,34. It is in NORMAL
+mode, has seven remaining operations points, is facing DIRECTION five, and is
+not plotted for ADVANCE. It is ACTIVATED (Union only) and on a road square
+with an elevation of 3. The unit occupies square with X,Y coordinates 16,34.
+There is a compass showing directions of movement and facing. A second page of
+unit statistics may be accessed by typing "P".
+
+CONFED RIPLEY - A INF  501 MEN
+FORT:0 NORMAL CC.IN
+RFL EFF:83 FT:0
+ROAD (3)   X,Y:16,34
+
+The second display above shws that the Confederate unit, RIPLEY - A is
+INFANTRY with 501 men. The unit has a FORT value of 0, is in NORMAL mode, and
+is in COMMAND CONTROL. Its weapon type is RIFLE, EFFECTIVENESS is 83, and
+FATIGUE 0. It is on a road square with an elevation of 3 on X,Y coordinates
+16,34.
+
+7.3 Command Menu
+When a unit is accessed a number of commands are available. The commands can
+be enacted by pressing the appropriate key in either page of the unit
+statistics.
+
+(0)    = Centers map on unit.
+(1-8)  = Moves unit in desired direction as indicated by the compass changing  its facing 
+         automatically
+(X)    = Force March (adds to the unit more operation points at a cost of fatigue.)
+(D)    = Prompts you to input a new facing (1-8) for the unit.
+(L)    = (Advanced Game Only) Displays a menu with the name of the divisional or corps 
+         commander attached and allows you to transfer that leader if you desire. The menu 
+         also allows you to go to the divisional or corps commanders.
+(I)    = All units that belong to the same division as the accessed unit will be inversed. 
+         The square with the divisional leader will be inversed and blinking (Advanced 
+         game).
+(A)    = Plots the unit to advance if given the opportunity in fire phases or melee.
+(M)    = Plots the unit to Melee in the direction of facing.
+(F)    = Takes you to the Target menu which allows you to set a priority fire square.
+(S)    = Changes the mode of the unit.
+(B)    = (Advanced game only) Builds one level of fortification.
+(V)    = Allows you to view all squares in the LOS of the accessed unit(squares are 
+         inversed).
+(T)    = Removes units on map to view terrain underneath.
+(P)    = Displays the other page of unit statistics.
+(H)    = Displays Help Menus
+(U)    = Accesses next unit in the same square.
+(N)    = Accesses next unit in the unit order.
+(Z)    = Abort move, The unit you have accessed will return to its original square, 
+         facing, and mode with its original operation points and fatigue.
+(Q)    = Exits Command menu and goes to the Cursor menu.
+
+7.4 Operation point Allowances/Costs
+At the beginning of each operation phase units receive ten operation points,
+unless they are out of command control in which case they receive five points.
+Up to Two unused operation points are carried over to the second operation
+phase of a turn, thereby giving some units 12 operations points to begin the
+second phase. Some Confederate units receive 0 operation points for the entire
+first turn. most actions require the expenditure of operation points that
+differ with unit type. Refer to the Operation Costs table for a complete list
+of the costs.
+
+7.5 Moving a Unit
+Once a unit is accessed it may be moved by pressing keys "1-8" in the desired
+direction. Operation points expended to move depend on unit type, unit mode,
+terrain of the square, and other factors (see Costs table). Units may always
+move one square if activated at the cost of 5 operation points when out of
+command control and 10 operation points when in command control. Units may
+move as part of an advance during the combat phase without expending operation
+points. The advance is allowed if plotted and the unit is otherwise eligible.
+Units may not move into streams or rivers unless a bridge or ford is present
+(and the unit is in column mode for bridge crossing). Artillery may not move
+unless limbered. Units may not move onto enemy units or violate stacking
+limits of friendly units. Press "Z" to abort if you have made a mistake with
+the unit you are moving to put it back to its original place.
+
+7.6 Zones of Control
+The eight square next to a unit constitute its zone of control. Zones of
+control affect movement costs per the Operation Costs table. Movement from an
+enemy ZOC to another will cost extra operation points in addition to normal
+costs and will be allowed if no other movement has been made by that unit (see
+Costs Table). ZOC to ZOC movement is also allowed during advances in the
+combat phase. Limbered Artillery may not move ZOC to ZOC. Routed units forced
+to retreat through an eneny ZOC suffer losses and stop their retreat.
+
+7.7 Stacking
+No more than two non-artillery units may stack together. No more than one
+artillery unit may be in a single square regardless of the presence of other
+units. You may have a maximum of two non-artillery units and one artillery
+unit in a square. Only one unit may occupy a town, ford, or bridge square.
+Stacking shapes are dependent on what is in the square. All units in a square
+assume the direction of facing of the last unit to end its turn on the square.
+When a square is fired upon by non-artillery units or artillery at greater
+than one range, casualties are distributed among the defenders with one of the
+defending units receiving 3 times the casualties of the others. Artillery only
+takes losses if in a square alone or fired upon by another artillery unit. A
+square fired upon by artillery at a range of two or more will affect each unit
+in the square. units in column receive the road rate only if the road square
+being moved onto does not contain another unit. When routed units stack onto
+friendly units each unit gains five fatigue points.
+
+7.8 Unit modes
+Units may be in one of two modes which affect movement and combat. Infantry
+units may be in column or normal. Cavalry may be mounted or dismounted.
+Artillery may be limbered or unlimbered. When a unit changes mode its graphic
+shape on the map also changes. Changing modes requires the expenditure of
+operation points as listed on the costs table. Unlimbered artillery may not
+move. Units must be limbered, mounted, or in column to cross a bridge.
+Dismounted cavalry has a .75 modifier applied against its strength
+(horse-holders). Infantry in column, limbered artillery, and mounted cavalry
+are considered to be flanked when fired upon from any direction.
+
+7.9 Facing
+A unit may have eight different facings from 1 to 8. Facing may be changed at
+any time during the operations phase at no cost. facing automatically changes
+during movement as a unit faces the square it is moving into. In addition, all
+units in a square will assume the facing of the last unit accessed in the
+square. All units in a square have the same facing. this way you may change
+the facing of an entire stack by changing the facing of just one unit. Units
+and stacks of units will assume appropriate shapes on the map to reflect their
+facing. Facing determines a unit's line of sight. A unit has a line of sight
+equal to 90 degree angle radiating in a V shape from the unit. See 8.3 for
+further details on line of sight. A unit fired at through a direction not in
+its line of sight is considered to be flanked.
+
+7.10 Force Marches
+A unit may receive extra operation points by force marching at a cost of
+fatigue points on a one to six basis. Pressing "X" command will increase the
+fatigue level by six and increment the operation points remaining by one.
+Units with fatigue levels of 40 or higher may not force march.
+
+7.11 Fortification
+A unit may have a fortification value of 0 to 5 that modifies combat results
+(See Modifier Table). Fortifications are built by pressing the "B" key at a
+cost of operation and fatigue points (see costs table). Units automatically
+fortify themselves when they have remaining operation points at the end of the
+combat phase of the Confederate turn in the INTERMEDIATE game.
+
+7.12 Leaders and Leader movement (Advanced game Only)
+Leaders are assigned to specific units. Each leader commands a formation.
+Formations are brigades, divisions, and corps. Leaders are organized into a
+chain of command that must be updated when a leader is wounded. A corps
+commander that is wounded will be replaced by one of the divisional commanders
+in his corps. That divisional commander will be replaced by a brigade leader
+of his division. Brigade commanders are assumed to be present at both units of
+their brigade. They are not attached to a particular unit as long as they are
+a brigade commander. Brigade commanders promoted to command a division act as
+divisional commanders. Divisional and Corps commanders may be transferred to
+any unit within their formation. Pressing "L" when a unit is accessed will
+list any leader present and prompt you to transfer it. If you wish to
+transfer, the cursor will cycle through eligible units. Pressing "I" will
+inverse all units belonging to the same division as the accessed unit. The
+location with th e divisional leader will blink. Each time a unit with a
+leader takes caualties, there is a check to see if a leader is wounded. Each
+leader has a combat bonus. A leader with a bonus of 20 will increase
+casualties, inflicted by the unit it is with by 20%. See the Order of Battle
+for each leader's bonus. Corps and divisional leaders are important to command
+control. Divisional leaders affect the resupply of ammo. Brigade leaders
+affect rally. When a leader dies, the unit it is attached to gains five
+fatigue points.
+
+7.13 Fire and Melee Plots
+During the operations phase, units may plot priority fire, melee, and advances
+if they wish to perform those actions during combat. To plot melee, press "M".
+To plot advance press "A". For both these plots you may toggle between Y for
+yes and N for no by pressing the appropriate command key. Note also that
+plotting melee will automatically plot advance, as a convenience to the
+player, since advances are usually desired in melee attacks. You may toggle it
+back to N for no by pessing "A". An important note is that a unit will melee
+only if it has also fired at the square it intends to melee. Plotting melee
+automatically plots fire into the square directly in front of the unit.
+Consequently, do not plot melee until after you have moved your unit. You may
+melee a unit not directly in front of you by plotting melee and then
+retargeting the fire plot. To plot fire press "F", which will display a menu
+that will allow you to move the cursor to the target square and press "T" to
+plot it. Pressi ng "V" will inverse all squares eligible to be target squares
+and pressing "E" will return you to the command menu, inserting a "No Plot"
+into the fire plot. A fire plot will only be accepted if the targeted square
+is within range and in line of sight (see line of sight 8.3). A unit that
+plots a melee will automatically plot the square directly in front for fire.
+Units that are unable to execute their priority fire plot or units with no
+plot will fire at the nearest enemy unit in range and in line of sight.
+
+
+8.0 COMBAT PHASES
+During this phase, all fire phases and melees are resolved. Casualties are
+taken. Routs, retreats, and advances are all executed.
+
+8.1 Fire phases
+There are a total of five fire phase and one melee phase during a combat phase
+as outlined below:
+
+* Defensive Artillery Fire Phase
+* Offensive Artillery Fire Phase
+* Defensive Fire Phase
+* Offensive Fire Phase
+* Defensive Melee Fire Phase
+* Melee Phase
+
+Defensive fire phases are executed by the non-phasing player and offensive
+fire phases by the phasing player. Messages will appear on the screen and the
+map will scroll to fired upon units. Casualties and other combat results will
+be printed on the screen.
+
+8.2 Casualties
+A unit inflicts casualties with its fire based upon a number of factors. See
+the strength/casualties modifier tables to give you an idea of what the
+factors are and what effects they have. Artillery units lose guns and fatigue.
+They are eliminated when their gun count reaches 0. Artillery guns are lost
+due to combat only when enemy artillery is firing upon them. In addition,
+artillery takes fatigue losses from infantry fire, only if alone in the
+square. An artillery unit will take gun losses and retreat in melee combat if
+their fatigue exceeds 75 or if forced to retreat by the combat results.
+
+8.3 Line of Sight and Range
+In order for a unit to plot or even execute its priority fire plot it must
+have a line of sight and be in range of the target. ranges of weapon types are
+listed on the Weapons/range Casualty Table. You may view the line of sight of
+any unit by pressing "V" when the unit is accessed in the command menu or
+target menu or when in the cursor menu. There are four elevation levels on the
+map representing 40 - 50 feet of elevation per level. Woods represent a 20
+foot elevation obstacle, towns 30 feet, cornfields 6 feet, and units 5 feet.
+In addition to the normal line of sight and range limitations, there is an
+additional visibility limit built into each level. A unit at level 1 may see
+no further than four squares, regardless of its weapon range or normal line of
+sight. Eight squares is the limit at level 2, twelve at level 3, and sixteen
+at level 4. these visibility levels will be proportionately modified downward
+by the overall percent visibility of the battlefield.
+
+8.4 Melee
+To melee, a unit must be plotted for melee and be undisrupted. it will melee
+into the square fired into if the square is adjacent. All units plotted
+against the same square are added together as a group. Defending units in
+melee have an extra defensive fire before melee is resolved. Units expend
+operation points to melee. Units must have enough operation points to fire and
+melee the same square, otherwise their melee is cancelled. See the modifier
+tables and the Melee Combat Results Table for details.
+
+8.5 Retreats
+As a result of rout or melee, units may be forced to retreat up to four
+squares. Retreated units will generally retreat away from enemy units towards
+the rear of their lines. The rear of the Confederate lines is considered to be
+the upper right corner of the map and the lower left corner for the Union.
+Routed units suffer casualties and stop their retreat if thay have to enter an
+enemy ZOC. Unlimbered artillery is forced to retreat when it gains over 75%
+fatigue in melee. It will also retreat and take extra losses if so indicated
+by the Melee Results Table. Friendly units retreated onto gain five fatigue
+points.
+
+8.6 Morale, Rout, and Rally
+A unit's morale is equal to its effectiveness minus its fatigue. A unit with a
+morale of less than 15 has a 40% chance of routing. A morale check is made for
+possible rout whenever a unit takes losses. Units with less than 80 men will
+automatically rout when they take losses. When a unit routs it retreats four
+squares. It may move only one square per phase until rallied. A unit will
+rally when its morale reaches 40 or more and it is in command control (and has
+more than 100 men for the confederate and 300 for the union).
+
+8.7 Advances
+Units plotted to advance will advance in the combat phase if defending units
+are retreated. Advancing ZOC to ZOC is allowed.
+
+8.8 Disruption
+Every time a unit suffers losses, there is a chance it will become disrupted.
+A unit has about a 40% chance of becoming disrupted per 100 casualties. A
+disrupted unit loses its priority fire plot. It may not fire except for
+defensive melee fire nor may it execute melee plots. A unit has a chance of
+becoming undisrupted at the beginning of the turn and at the Mid-Turn Recovery
+phase. It chances and conditions for recovery are outlined on the Disruption
+Recovery Table.
+
+8.9 Ammo
+Every time a unit fires it has a chance of running out of ammo.
+Infantry/Cavalry have a 7% chance and artillery has about a 10% chance.
+Casualties inflicted by a unit that runs out of ammo in that phase will be
+greatly reduced. At the beginning of each turn and at the Mid-Turn Recovery
+phase a unit may be resupplied with ammo if in command control (see Ammo
+Resupply table). Units without ammo may not fire, but may melee at reduced
+strength.
+
+8.10 Fatigue
+A unit starts the game with zero fatigue points. As it moves and loses
+casualties it will gain fatigue (see Fatigue Gain Table). It also gains five
+fatigue points when a routed unit stacks onto the same square or a leader
+attached to the unit dies. fatigue has a proportional effect on fire strength.
+Fatigue is subtracted from effectiveness to yield a unit's morale which
+affects routs. A unit will recover fatigue at the beginning of the turn (see
+Fatigue Recovery Table).
+
+9.0 MID-TURN RECOVERY PHASE
+
+During this phase units will check to recover disruption and resupply ammo,
+according to the appropriate tables.
+
+10.0 VICTORY DETERMINATION PHASE
+
+during this phase, players are awarded points for casualties and territorial
+objectives. After the eleventh turn (4:00 p.m.) is completed, the game ends
+and the score is compared to the victory levels. You may examine the map and
+access units of both sides after the game has ended.
+
+10.1 victory points
+Players receive victory points according to the chart below:
+*1 pt per infantryman lost
+*3 pts per cavalryman lost
+*100 pts per brigade leader lost
+*300 pts per division leader lost
+*500 pts per Union Corps leader lost
+*1000 pts per Confederate corps leader lost
+*150 pts per artillery gun lost
+ignore leader points for the intermediate game.
+
+
+For Union Player only:
+
+In possession of square:
+17,2  =  1000 (500 if in ZOC)
+18,9  =  1000 (500)
+21,14 =  1000 (500)
+31,18 =  1000 (500)
+25,3  =  1000 (500)
+28,11 =  2000 (1000)
+32,7  =  4000 (2000)
+33,1  = 10000 (5000)
+
+10.2 Victory Levels
+The score is calculated by subtracting the Confederate victory points from the
+union and comparing the result to the chart below:
+
+Union Major Victory = 6000+
+Union Minor Victory = 2000 to 5999
+Draw                = -1000 to 1999
+Confederate Minor   = -6000 to -1001
+Confederate Major   = less than -6000
+
+The Union may attain a major or minor victory only if he has inflicted at
+least 5000 casualties on the Confederates. If he doesn't the Confederates win
+at least a minor victory.
+
+11.0 STRATEGY AND TACTICS
+
+Union Strategy:
+
+The Union has two major stumbling blocks: Activation limits and the Antietam
+Creek. You'll find that there is more than one approach for the Union army.
+Some strategies may include advancing one division to each of the bridges
+opposite Confederate positions on the first turn to secure them. Other
+strategies may activate the Union I Corps and use them to charge the
+Confederate middle or right flank. Still others may decide to keep the union I
+corps inactive and bring additional divisions across the creek, waiting to
+make a concerted attack. The success of the Union strategy will be based on
+how well the confederate reacts with his reserves and how well each side
+tactically deploys its armies. A good strategy with bungled tactics will fail
+miserably.
+
+Confederate Strategy
+
+The Confederate is on interior lines and has flexible control over its
+divisions. Although outnumbered 2 to 1, he can muster a 3 to 1 advantage
+against the Union in localized areas of the battlefield. The Union I Corps is
+usually a likely candidate to attack with the Confederate reserve divisions.
+Counter-attacking the union when they are weak can be devastating. Be careful
+not to overextend yourself. Let the Union come to you. Remember that the
+advantage is with the defensive player.
+
+Tactics
+
+1. Well-placed artillery can be deadly. Put your artillery on a high elevation
+or behind the lines with a clear line of sight.
+
+2. When attacking be sure to counter battery the opposing artillery to make
+them gain fatigue.
+
+3. Avoid attacking and defending with units in column and mounted cavalry.
+
+4. Place leaders with units in key areas of your attack or defense. Their
+bonuses can really make a difference. Place them with units that have a lot of
+men to lessen their chance of becoming a casualty.
+
+5. Place units in a defensive line that asssures channels of retreat for
+routed units.
+
+6. Make sure you will have enough operation points to fire and/or melee.
+
+7. Be aware that stacks of units with over 650 men will incur additional
+casualties.
+
+8. Use force marching judiciously.
+
+9. Fortify whenever you are not in contact with the enemy.
+
+10. Remember to keep routed units in command control when you wish to have
+them rally.
+
+11. Be careful not to have units plotted to advance "from the frying pan into
+the fire".
+
+12. When you attack, make it an all-out attack with reserves ready to exploit
+it.
+
+
+CONFEDERATE ORDER OF BATTLE  
+
+TURN OF
+REIN     NAME               MEN   WEAPON  EFF   DIV             CORPS
+1        Law-A (13)          503    RFL     99   Hood (23)      Longstreet (46)
+1        Law-B               351    RFL     97    "                "
+1        Wofford-A (13)      301    RFL     99    "                "
+1        Wofford-B           603    RFL     98    "                "
+1        Armistead-A (15)    160    MSK     80   R.Anderson (21)   "
+1        Armistead-B         261    RFL     83    "                "
+1        Pryor-A (13)        350    RFL     81    "                "
+1        Pryor-B             349    RFL     84    "                "
+1        Wright-A (13)       351    RFL     82    "                "
+1        Wright-B            302    RFL     95    "                "
+1        Posey-A (15)        455    RFL     82    "                "
+1        Posey-B             405    R/M     83    "                "
+1        Cumming-A (10)      353    RFL     99    "                "
+1        Cumming-B           354    RFL     98    "                "
+1        Parham-A (9)        305    RFL     83    "                "
+1        Parham-B            160    R/M     80    "                "
+1        Kemper-A (19)       202    RFL     91   D.R. Jones (20)   "
+1        Kemper-B            256    RFL     82    "                "
+1        Garnett-A (15)      155    RFL     80    "                "
+1        Garnett-B           151    RFL     82    "                "
+1        Toombs-A (15)       255    RFL     98    "                "
+1        Toombs-B            401    RFL     99    "                "
+1        Drayton-A (13)      303    RFL     82    "                "
+1        Drayton-B           160    RFL     84    "                "
+1        J.Walker-A (15)     352    RFL     99    "                "
+1        J.Walker-B          405    RFL     98    "                "
+1        G.T.Anderson-A (13) 354    RFL     81    "                "
+1        G.T.Anderson-B      451    RFL     82    "                "
+1        Ransom-A (17)       751    RFL     80   J.C. Walker (19)  "
+1        Ransom-B            853    RFL     71    "                "
+1        Manning-A (15)      955    MSK     95    "                "
+1        Manning-B          1203    RFL     81    "                "
+1        Kershaw-A (17)      503    MSK     81   McLaws (19)       "
+1        Kershaw-B           302    MSK     80    "                "
+1        Barksdale-A (16)    453    MSK     83    "                "
+1        Barksdale-B         401    R/M     91    "                "
+1        Semmes-A (13)       451    MSK     90    "                "
+1        Semmes-B            302    R/M     81    "                "
+1        Sanders-A (7)       201    RFL     82    "                "
+1        Sanders-B           203    RFL     80    "                "
+*9       Pender-A (23)       351    RFL     91   A.P. Hill (33)   Jackson (49)
+*9       Pender-B            303    RFL     92    "                "
+*9       Gregg-A (21)        755    RFL     98    "                "
+*9       Gregg-B             451    RFL     99    "                "
+*9       Archer-A (15)       201    RFL     99    "                "
+*9       Archer-B            203    RFL     97    "                "
+*9       Branch-A (13)       451    RFL     87    "                "
+*9       Branch-B            303    RFL     81    "                "
+*9       Broker-A (7)        302    RFL     81    "                "
+*9       Broker-B            300    RFL     83    "                "
+1        Early-A (24)        605    RFL     91   Lawton (19)       "
+1        Early-B             603    RFL     99    "                "
+
+
+
+                Confed. Order of Battle continued
+TURN OF
+REIN     NAME               MEN   WEAPON   EFF   DIV             CORPS 
+1        Hays-A (15)        302     RFL     99   Lawton (19)      Jackson (49)
+1        Hays-B             203     RFL     98    "                "
+1        Douglas-A (9)      651     RFL     82    "                "
+1        Douglas-B          653     RFL     81    "                "
+1        J.A.Walker-A (10)  401     RFL     98    "                "
+1        J.A.Walker-B       352     RFL     91    "                "
+1        Rodes-A (17)       352     RFL     99   D.H. Hill (18)    "
+1        Rodes-B            501     RFL     95    "                "
+1        G.B.Anderson-A(13) 450     RFL     81    "                "
+1        G.B.Anderson-B     753     RFL     83    "                "
+1        Ripley-A (13)      501     RFL     83    "                "
+1        Ripley-B           851     RFL     80    "                "
+1        Colquitt-A (13)    551     MSK     80    "                "
+1        Colquitt-B         803     MSK     99    "                "
+1        McRae-A (7)        302     RFL     63    "                "
+1        McRae-B            451     RFL     61    "                "
+1        Starke-A (9)       251     RFL     99   J.R. Jones (11)   "
+1        Starke-B           351     RFL     97    "                "
+1        Grigsby-A (7)      105     RFL     81    "                "
+1        Grigsby-B          103     RFL     83    "                "
+1        Warren-A (6)       203     RFL     91    "                "
+1        Warren-B           252     RFL     82    "                "
+1        Johnson-A (7)      202     RFL     83    "                "
+1        Johnson-B          203     RFL     92    "                "
+1        Evans-A (9)        153     MSK     81    IND              IND
+1        Evans-B            160     MSK     83    IND              IND
+2        Hampton-A (11)    1052     CRB     81   Stuart (33)       IND
+2        Hampton-B          703     SHG     90    "                "
+1        F.Lee-A (11)      1051     SHG     87    "                "
+1        F.Lee-B            699     R/S     82    "                "
+1        Munford-A (7)      351     PST     98    "                "
+1        Munford-B          450     PST     81    "                "
+1        Long-A              17     SM6     80   Corps Art        Longstreet
+1        Long-B              17     SM6     83    "                "
+1        Long-C              23     P10     79    "                "
+1        Long-D              24     H12     84    "                "
+1        Long-E              18     H24     81    "                "
+1        Long-F              15     RG3     83    "                "
+1        Jack-A              22     RG3     83    "               Jackson
+*9       Jack-B              18     SM6     79    "                "
+1        Jack-C              11     P10     80    "                "
+1        Jack-D              17     H12     84    "                "
+1        Res-A               15     SM6     83    "               R.E. Lee
+1        Res-B               14     P10     82    "                "
+1        Res-C               15     H12     82    "                "
+1        Cavart              11     RG3     83    "                "
+
+Turn 2 Reinforcements appear on square 17,0.
+Turn 9 reinforcements appear on the road from 33,1 to 32,4 unless square 33,1 is enemy occupied, in which case they are delayed.
+* turn 9 is the last possible time these units will come in. There is a chance they will arrive on turn 7 or 8.
+
+Note: numbers in parentheses represent leader bonuses.
+
+UNION ORDER OF BATTLE
+TURN OF
+REIN     NAME               MEN   WEAPON   EFF   DIV             CORPS 
+1       Seymour-A (11)      400      M      80   Meade (16)      Hooker (33)
+1       Seymour-B           701     R/S     87    "               "
+1       Magilton-A (7)      503      M      70    "               "
+1       Magilton-B          451     RFL     84    "               "
+1       Anderson-A (7)      210      M      81    "               "
+1       Anderson-B          450     RFL     76    "               "
+1       Duryea-A (12)       501     RFL     80   Ricketts (13)    "
+1       Duryea-B            503     RFL     81    "               "
+1       Hartstuf-A (11)     753     RFL     90    "               "
+1       Hartstuf-B          651     RFL     98    "               "
+1       Christian-A (7)     251     RFL     79    "               "
+1       Christian-B         402     RFL     81    "               "
+1       Gibbon-A (16)       451     RFL     98   Doubleday (11)   "
+1       Gibbon-B            552     RFL     99    "               "
+1       Patrick-A (9)       455     RFL     79    "               "
+1       Patrick-B           405     RFL     91    "               "
+1       Phelps-A (9)        361     RFL     82    "               "
+1       Phelps-B            263     S/R     99    "               "
+1       Hoffman-A (7)       346     RFL     84    "               "
+1       Hoffman-B           403     RFL     81    "               "
+1       Stainbeck-A (7)     359     RFL     81   Greene (19)     Mansfield (28)
+1       Stainbeck-B         251     RFL     83    "               "
+1       Goodrich-A (6)      299     RFL     81    "               "
+1       Goodrich-B          452     RFL     83    "               "
+1       Tyndale-A (6)       400     RFL     90    "               "
+1       Tyndale-B           603     RFL     76    "               "
+1       Crawford-A (15)    1149     RFL     75   Williams (13)    "
+1       Crawford-B         1348     RFL     72    "               "
+1       Gordon-A (12)      1299     RFL     81    "               "
+1       Gordon-B            948     RFL     78    "               "
+2       Griffin-A (12)     1050     R/M     84   Morell (16)     Porter (21)
+2       Griffin-B          1010     RFL     80    "               "
+2       Barnes-A (12)       902     RFL     80    "               "
+2       Barnes-B            751     RFL     75    "               "
+2       Stockton-A (9)     1005     RFL     70    "               "
+2       Stockton-B          953     RFL     90    "               "
+1       Warren-A (4)        550     RFL     99   Sykes (13)       "
+1       Warren-B            451     CRB     98    "               "
+1       Buchanan-A (7)      903     RFL     92    "               "
+1       Buchanan-B          905     RFL     93    "               "
+1       Lovell-A (6)        651     RFL     81    "               "
+1       Lovell-B            405     RFL     83    "               "
+3       Hancock-A (15)     1203     RFL     84   Smith (17)      Franklin (24)
+3       Hancock-B          1100     RFL     75    "               "
+3       Brooks-A (13)       801     RFL     81    "               "
+3       Brooks-B            803     RFL     86    "               "
+3       Irwin-A (7)         853     RFL     62    "               "
+3       Irwin-B             850     RFL     80    "               "
+3       Newton-A (12)       801     RFL     81   Slocum (15)      "
+3       Newton-B            799     RFL     79    "               "
+3       Bartlett-A (9)      800     RFL     80    "               "
+3       Bartlett-B          803     RFL     83    "               "
+3       Torbert-A (9)       801     RFL     83    "               "
+3       Torbert-B           803     RFL     82    "               "
+
+
+TURN OF
+REIN     NAME               MEN   WEAPON   EFF   DIV             CORPS
+1       Meagher-A (15)      755     R/M     98   Richadson (16)  Summer (26)
+1       Meagher-B           603     RFL     99    "               "
+1       Caldwell-A (12)     751     RFL     89    "               "
+1       Caldwell-B          602     R/M     89    "               "
+1       Brooks-A (9)        601     R/M     80    "               "
+1       Brooks-B            651     RFL     86    "               "
+1       Dana-A (10)         801     RFL     99   Sedgwick (17)    "
+1       Dana-B             1150     RFL     78    "               "
+1       Gorman-A (11)       800     R/M     90    "               "
+1       Gorman-B            951     RFL     92    "               "
+1       Howard-A (5)        850     R/M     41    "               "
+1       Howard-B            852     RFL     62    "               "
+1       Kimball-A (10)      701     RFL     97   French (13)      "
+1       Kimball-B          1051     RFL     82    "               "
+1       Weber-A (7)         705     RFL     78    "               "
+1       Weber-B            1052     RFL     76    "               "
+1       Morris-A (7)       1505     R/C     75    "               "
+1       Morris-B           1453     RFL     77    "               "
+1       Fairchild-A (7)     349     RFL     83   Rodman (17)     Burnside (20)/ Cox (19)
+1       Fairchild-B         553     RFL     80    "               "
+1       Hartland-A (6)      849     RFL     87    "               "
+1       Hartland-B         1001     RFL     68    "               "
+1       Christ-A (7)        649     RFL     79   Wilcox (10)      "
+1       Christ-B            748     RFL     81    "               "
+1       Welsh-A (6)         699     RFL     83    "               "
+1       Welsh-B             901     RFL     87    "               "
+1       Ferrero-A (15)      851     RFL     83   Sturgis (10)     "
+1       Ferrero-B           699     RFL     81    "               "
+1       Nagle-A (9)         698     RFL     83    "               "
+1       Nagle-B             701     RFL     80    "               "
+1       Ewing-A (7)         403     RFL     81   Scammon (9)      "
+1       Ewing-B             550     RFL     80    "               "
+1       Crook-A (6)        1201     RFL     79    "               "
+1       Crook-B             653     RFL     81    "               "
+1       Farnworth-A (7)     802     CRB     81   Pleasonton (11)  IND
+1       Farnworth-B         403     RFL     83    "               "
+1       Davis-A (6)         301     CRB     98    "               "
+1       Davis-B             299     CRB     83    "               "
+1       Rush-A (6)          303     CRB     82    "               "
+1       Rush-B              301     PST     99    "               "
+1       McReynolds-A (6)    303     CRB     61    "               "
+1       McReynolds-B        300     PST     60    "               "
+1       Whiting (6)         402     CRB     89    "               "
+1       I Corps-A            26     N12     80    
+1       I Corps-B            19     RG3     79
+1       II Corps-A           18     P10     83
+1       II Corps-B           22     N12     81
+1       V Corps-A            28     N12     98
+1       V Corps-B            30     P20     98
+3       VI Corps-A           28     RG3     80
+3       VI Corps-B           12     N12     81
+1       IX Corps-A           19     H12     79
+1       IX Corps-B           29     P10     80
+1       XII Corps-A          18     RG3     83
+1       XII Corps-B          16     P10     84
+1       Cav-A                10     N12     93
+1       Cav-B                12     RG3     93
+
+turn 2 reinforcements appear on squares 0,18 to 0,20.
+turn 3 reinforcements appear on squares 0,25 to 0,32.
+
+                CONFEDERATE ORGANIZATION CHART
+                               XXXX 34,780 men             45 guns
+                            R.E. LEE ------------------ RES ART
+                                |
+         -----------------------------------------------
+        |              |                |               |
+       XXX 15,586     XXX 14,575        XX 4306         X 313
+      LONGSTREET      JACKSON           STUART          EVANS
+
+                                     XXX  15,586            114
+                                 LONGSTREET ------------ CORPS ART 
+                                      |
+     --------------------------------------------------------------------
+     |              |                 |                |                | 
+     XX 1758        XX 3805           XX 3445          XX 3762          XX 2816
+     HOOD           R. ANDERSON       D. JONES         J.G. WALKER      Mc LAWS         
+         |              |                |                |                |
+         X LAW          X ARMISTEAD      X KEMPER         X RANSOM         X KERSAW
+         |              |                |                |                |
+         X WOFFORD      X PRYOR          X GARNETT        X MANNING        X BARKSDALE
+                        |                |                                 |
+                        X WRIGHT         X TOOMBS                          X SEMMES
+                        |                |                                 |
+                        X POSEY          X DRAYTON                         X SANDERS
+                        |                |
+                        X CUMMING        X J.WALKER
+                        |                |
+                        X PARHAM         X G.T. ANDERSON
+
+                                      XXX 14,575                   68
+                                    JACKSON ------------------ CORPS ART
+                                       |
+        -------------------------------------------------------------
+        |                   |                   |                   | 
+        XX 3620             XX 3770             XX 5515             XX 1670
+       A.P. HILL            LAWTON              D.H. HILL           J.R. JONES
+         |                   |                   |                   |
+         X PENDER            X EARLY             X RODES             X STARKE
+         |                   |                   |                   |
+         X GREGG             X HAYS              X G.G. ANDERSON     X GRIGSBY
+         |                   |                   |                   |
+         X ARCHER            X DOUGLAS           X RIPLEY            X WARREN
+         |                   |                   |                   |
+         X BRANCH            X J.A.WALKER        X COLQUITT          X JOHNSON
+         |                                       |
+         X BROCKENBROUGH                         X Mc RAE
+
+                                     XX 4306           11
+                                   STUART --------- CAV ART
+           X HAMPTON 1755          X F.LEE 1750            X MUNFORD 801
+
+
+
+
+
+
+UNION ORGANIZATIONAL CHART
+
+                             XXXX Mc CLELLAN 66,824 men
+                               |
+   -----------------------------------------------------------------------------
+   |             |           |           |            |            |           |
+  XXX 9010      XXX 15,834  XXX 9536    XXX 10,417   XXX 11,505   XXX 7108    XX 3414
+  HOOKER        SUMNER      PORTER      FRANKLIN     BURNSIDE     MANSFIELD   PLEASONTON
+   I Corps       II Corps     V Corps    VI Corps     IX Corps     XII Corps    CAV
+
+ I 
+XXX 9016                 45 guns
+HOOKER  --------------- CORPS ART
+  |
+  |------ XX 2715
+  |       MEADE ---- X SEYMOUR ---- X MAGILTON ---- X ANDERSON
+  |
+  |------ XX 3061
+  |       RICKETTS ---- X DURYEA ---- X HARTSUFF ---- X CHRISTIAN
+  |
+  |------ XX 3240
+          DOUBLEDAY --- X GIBBON --- X PATRICK --- X PHELPS --- X HOFFMAN
+
+ II
+XXX 15,834               40
+SUMNER -------------- CORPS ART
+  |
+  |----- XX 3963
+  |      RICHARDSON ---- X MEAGHER ---- X CALDWELL ---- X BROOKE
+  |
+  |----- XX 5404
+  |      SEDGWICK ---- X DANA ---- X GORMAN ---- X HOWARD
+  |
+  |----- XX 6407
+         FRENCH  ---- X KIMBALL ---- X WEBER ---- X MORRIS
+
+ V
+XXX 9536                 58
+PORTER -------------- CORPS ART
+  |
+  |----- XX 5671
+  |      MORRELL ---- X GRIFFIN ---- X BARNES ---- X STOCKTON
+  | 
+  |----- XX 3865
+         SYKES   ---- X WARREN ---- X BUCHANAN ---- X LOVELL
+
+ VI
+XXX 10,417              40 guns
+FRANKLIN ------------ CORPS ART
+  |
+  |----- XX 5610
+  |      SMITH ---- X HANCOCK ---- X BROOKS ---- X IRWIN
+  |
+  |----- XX 4807
+         SLOCUM ---- X NEWTON ---- X BARTLETT ---- X TORBERT
+
+
+
+
+UNION ORGANIZATIONAL CHART CONTINUED
+
+ IX
+XXX 11,505               48
+BURNSIDE* ----------- CORPS ART
+  |
+  |----- XX 2752
+  |      RODMAN ---- X FAIRCHILD ---- X HARLAND
+  |
+  |----- XX 2997
+  |      WILCOX ---- X CHRIST ---- X WELSH
+  |
+  |----- XX 2949
+  |      STURGIS ---- X FERRERO ---- X NAGLE
+  |      
+  |----- XX 2807
+         SCAMMON ---- X EWING ---- X CROOK
+
+
+XII
+XXX 7108                34
+MANSFIELD ---------- CORPS ART
+  |
+  |----- XX 2364
+  |      GREENE ---- X STAINBECK ---- X GOODRICH ---- X TYNDALE
+  |
+  |----- XX 4744
+         WILLIAMS ---- X CRAWFORD ---- X GORDON
+
+
+XX 3414                 22
+PLEASONTON --------- CAV ART
+  |
+  |--- X FARNSWORTH
+  |
+  |--- X DAVIS
+  |
+  |--- X RUSH
+  |
+  |--- X Mc REYNOLDS
+  |
+  |--- X WHITING
+
+* Although Cox was not a divisional commander, he was first in line to command the corps.
+
+
+
+CHARTS AND TABLES
+OPERATIONS COSTS TABLE
+(Numbers in parentheses refer to diagonal moves - directions 2,4,6, and 8. Ignore the numbers and letters printed in blue for the BASIC game. P = Prohibited.)
+
+TERRAIN             INF/DIS.CAV.   CAV    LIMB. ART.   UNLIMB. ART.
+Clear                   2(3)       1(2)      2(3)           P
+Town                    6(9)       3(5)      3(5)           P
+Woods                   5(7)       2(3)      2(3)           P
+Cornfield               3(5)       2(3)      2(3)           P
+River                    P          P         P             P
+Stream                   P          P         P             P
+Ford                    4(6)       1(2)      3(5)           P
+Bridge (1)              2(3)       1(2)      2(3)           P
+Road bonus (2)          1(P)       1(P)      1(P)           P
+Enter higher            +2         +1        +3             P
+  Elevation.(3)
+Enter or leave          +2         +1        +3             P
+  enemy ZOC
+Move ZOC to ZOC         +8         +5         P             P
+Change Mode (5)          2          2         4             4
+Unlimber in ZOC         N/A        N/A        8            N/A
+Fortify                 12          P         P             P 
+Fire Phase               2          2         P             4
+Melee: Att.(4)           2          2         P             P
+Melee: Def.              1          1         2             2
+ 
+Notes:
+1. Units using the road bonus pay only 1 operation point to enter.
+2. Diagonal moves are not allowed using the road bonus. Infantry must be in column mode to use the road bonus.
+3. Units using the road bonus pay only 1 operation point to enter a higher elevation.
+4. A unit must fire at the square it is to melee.
+5. Mode change for CAV ART is 2.
+
+WEAPON/RANGE CASUALTY TABLE:           RANGE IN SQUARES
+WEAPON TYPE       ABREV.     1     2     3    4-6   7-10 11-15
+Rifle              RFL       4     2     0     0     0     0
+Musket             MSK       3     0     0     0     0     0
+Rifle/Musket       R/M       3     1     0     0     0     0
+Rifle/Sharps       R/S       6     2     0     0     0     0
+Rifle/Shotgun      R/G       4     1     0     0     0     0
+Sharps Rifle       SHR       8     2     0     0     0     0
+Rifle/Carbine      R/C       4     1     0     0     0     0
+Carbine            CRB       4     1     0     0     0     0
+Shotgun            SHG       4     0     0     0     0     0
+Pistol             PST       1     0     0     0     0     0
+6 lb. Smoothbore   SM6       8     2     2     1     0     0
+12 lb. Napoleon    N12      14     4     2     1     0     0
+3" Rifled Gun      RG3       8     5     4     2     1     0
+12 lb. Howitzer    H12      16     2     2     1     0     0
+24 lb. Howitzer    H24      17     4     2     1     0     0
+10 lb. Parrott     P10       8     5     5     2     2     1
+20 lb. Parrott     P20       8     6     6     2     2     1
+The number under the range column is the number of men lost per 100 men for smallarms fire and per one gun for artillery. these numbers are further modified by the various strength/casualty modifiers.
+
+
+MELEE COMBAT RESULTS TABLE
+Compare the results of the following formula with the table below:
+(Attacker's Mod. Strength - Def. Mod. Strength)/50
+
+DIFFERENTIAL 
+FROM ABOVE      ATT. LOSSES            DEF. LOSSES      % ATT. RETREAT  % DEF. RETREAT
+-7 or less      Random of 25 + 150     Random 25               50%            0%
+-5 to -6        Random of 25 + 50      Random 25               50%            0%
+-4 to 4         Random of 25           Random 25               20%           40%
+ 5 to 12        Random of 25           Random 25 + 50           0%          100%
+13 and more     Random of 25           Random 25 + 100          0%          100%
+Defender's retreat is checked first and then the Attacker is checked. Both the attacker and defender (except for routed units) will not retreat at the same time.
+
+FIRE AND MELEE STRENGTH/CASUALTY TERRAIN MODIFIERS
+If defender is in:
+TERRAIN                 FIRE MOD.      MELEE MOD.     MODE MODIFIERS ON FIRE AND MELEE 
+Clear                     1.00            1.00        STRENGTH/CASUALTIES
+Cornfield                 1.00            1.00        MODE       UNIT TYPE  FIRE  MELEE
+Woods                      .80            1.00        Normal        INF     1.00  1.00
+Higher Elevation           .90             .90        Column        INF      .75   .75
+Town                       .70            1.00        Mounted       CAV      .75  1.50
+Bridge/Ford               1.00             .80*       Routed        ALL      .75   .50
+                                                      Lim.or Unlim  ART     1.00  1.00
+* attacker on bridge/ford
+
+OTHER MODIFIERS ON FIRE AND MELEE STRENGTH/CASUALTIES
+Leader Bonus = Direct Modifier (see Order of Battle)
+
+Flank Modifier to Attacker = 1.50
+Flank Modifier to defender = .50
+
+Density Modifier = 1% more or less casualties per 12 men more or less than 650 men in 
+                   square. No more or less casualties than 25%.
+
+Random Modifier = + or - 50% (.5 to 1.5)
+
+Battle time Modifier = (OP remaining)/10
+                       Note:this modifier is for fire combat, not melee. A unit is assumed   
+                        to always have at least five operation points remaining.
+                                                      
+Fortification = levelX.10   Note: this modifies Art Fire Strength
+
+AMMO RESUPPLY TABLES
+Eligibility Table: Chance to go to resupply Table, 50% chance to go to Resupply Table for
+CAV, CAV ART, Confederate ART, and Evan's Brigade.
+RANGE TO DIV. LEADER       PERCENT CHANCE OF GOING TO RESUPPLY TABLE
+    0                       Auto - Resupply *
+    1                       Auto - Resupply *
+    2                              90%
+    3                              70%
+    4                              50%
+    5                              30%
+    6                              10%
+    7                       Auto - No Resupply        * Resupply table  is skipped.
+
+
+
+FATIGUE RECOVERY TABLE
+CONDITION    AMOUNT RECOVERED
+Unit in enemy ZOC = Eff. Rating/3
+Unit not in ZOC   = Eff. Rating/6
+
+
+FATIGUE GAIN TABLE
+ACTION                            FATIGUE GAIN
+Enter square in normal mode              2
+Enter square in column mode              1
+Fortify one level                       20
+Per 2 casualties in men(see below)       1
+Per one operation point of force march   6
+Leader dies in unit                      5
+routed unit passes through friendly unit 5
+
+Note: Units with over 600 men in them will gain proportionaly less fatigue up to 1000 men.
+For example, a 600 man unit gains 1 fatigue point per 3 losses (33% of casualties turn into fatigue). A 900 man unit would gain 1 fatigue per 4.5 men lost (16%).
+
+DISRUPTION RECOVERY TABLE
+Units must be in command control and have a morale of greater than 40.
+
+                                        Percent Chance to Become Undisrupted
+Brigade leader alive & not in ZOC                     80%
+Brigade leader dead or in ZOC                         60%
+Brigade leader dead & in ZOC                          40%
+
+NOTE: In the INTERMEDIATE GAME, the leader is assumed to be alive.
+
+QUICK REFERENCE CHART
+
+CURSOR MENU
+(V) = Prompts you to indicate a direction and then displays the line of sight.
+(0) = Centers map at cursor
+(1-8) = Moves cursor in desired directions
+(T) = Removes units from map to see terrain.
+(S) = Stops time clock.
+(C) = Exits to Combat phase(press this key when you are finished moving).
+(SPACEBAR)= Accesses first unit in square if friendly. Command menu for unit that is now active.
+
+COMMAND MENU
+(0)    = Centers map on unit.
+(1-8)  = Moves unit in desired direction as indicated by the compass changing its facing automatically
+(X)    = Force March (adds to the unit more operation points at a cost of fatigue.)
+(D)    = Prompts you to input a new facing (1-8) for the unit.
+(L)    = (Advanced Game Only) Displays a menu with the name of the divisional or corps commander attached 
+         and allows you to transfer that leader if you desire. The menu also allows you to go to the 
+         divisional or corps commanders.
+(I)    = All units that belong to the same division as the accessed unit will be inversed. The square with 
+         the divisional leader will be inversed and blinking (Advanced game).
+(A)    = Plots the unit to advance if given the opportunity in fire phases or melee.
+(M)    = Plots the unit to Melee in the direction of facing.
+(F)    = Takes you to the Target menu which allows you to set a priority fire square.
+(S)    = Changes the mode of the unit.
+(B)    = (Advanced game only) Builds one level of fortification.
+(V)    = Allows you to view all squares in the LOS of the accessed unit(squares are inversed).
+(T)    = Removes units on map to view terrain underneath.
+(P)    = Displays the other page of unit statistics.
+(H)    = Displays Help Menus
+(U)    = Accesses next unit in the same square.
+(N)    = Accesses next unit in the unit order.
+(Z)    = Abort move, The unit you have accessed will return to its original square, facing, and mode with 
+         its original operation points and fatigue.
+(Q)    = Exits Command menu and goes to the Cursor menu.
+
+OPERATION COSTS TABLE
+(Numbers in parentheses refer to diagonal moves - directions 2,4,6, and 8. Ignore the numbers and letters printed in blue for the BASIC game. P = Prohibited.)
+
+TERRAIN             INF/DIS.CAV.   CAV    LIMB. ART.   UNLIMB. ART.
+Clear                   2(3)       1(2)      2(3)           P
+Town                    6(9)       3(5)      3(5)           P
+Woods                   5(7)       2(3)      2(3)           P
+Cornfield               3(5)       2(3)      2(3)           P
+River                    P          P         P             P
+Stream                   P          P         P             P
+Ford                    4(6)       1(2)      3(5)           P
+Bridge (1)              2(3)       1(2)      2(3)           P
+Road bonus (2)          1(P)       1(P)      1(P)           P
+Enter higher            +2         +1        +3             P
+  Elevation.(3)
+Enter or leave          +2         +1        +3             P
+  enemy ZOC
+Move ZOC to ZOC         +8         +5         P             P
+Change Mode (5)          2          2         4             4
+Unlimber in ZOC         N/A        N/A        8            N/A
+Fortify                 12          P         P             P 
+Fire Phase               2          2         P             4
+Melee: Att.(4)           2          2         P             P
+Melee: Def.              1          1         2             2
+ 
+Notes:
+1. Units using the road bonus pay only 1 operation point to enter.
+2. Diagonal moves are not allowed using the road bonus. Infantry must be in column mode to use the road bonus.
+3. Units using the road bonus pay only 1 operation point to enter a higher elevation.
+4. A unit must fire at the square it is to melee.
+5. Mode change for CAV ART is 2.
+
+WEAPON/RANGE CASUALTY TABLE:           RANGE IN SQUARES
+WEAPON TYPE       ABREV.     1     2     3    4-6   7-10 11-15
+Rifle              RFL       4     2     0     0     0     0
+Musket             MSK       3     0     0     0     0     0
+Rifle/Musket       R/M       3     1     0     0     0     0
+Rifle/Sharps       R/S       6     2     0     0     0     0
+Rifle/Shotgun      R/G       4     1     0     0     0     0
+Sharps Rifle       SHR       8     2     0     0     0     0
+Rifle/Carbine      R/C       4     1     0     0     0     0
+Carbine            CRB       4     1     0     0     0     0
+Shotgun            SHG       4     0     0     0     0     0
+Pistol             PST       1     0     0     0     0     0
+6 lb. Smoothbore   SM6       8     2     2     1     0     0
+12 lb. Napoleon    N12      14     4     2     1     0     0
+3" Rifled Gun      RG3       8     5     4     2     1     0
+12 lb. Howitzer    H12      16     2     2     1     0     0
+24 lb. Howitzer    H24      17     4     2     1     0     0
+10 lb. Parrott     P10       8     5     5     2     2     1
+20 lb. Parrott     P20       8     6     6     2     2     1
+The number under the range column is the number of men lost per 100 men for smallarms fire and per one gun for artillery. these numbers are further modified by the various strength/casualty modifiers.
+
+FATIGUE RECOVERY TABLE
+CONDITION    AMOUNT RECOVERED
+Unit in enemy ZOC = Eff. Rating/3
+Unit not in ZOC   = Eff. Rating/6
+
+
+AMMO RESUPPLY TABLES
+Eligibility Table: Chance to go to resupply
+Table, 50% chance to go to Resupply Table for
+CAV, CAV ART, Confederate ART, and Evan's Brigade.
+
+RANGE TO                 PERCENT CHANCE OF GOING
+DIV. LEADER                 TO RESUPPLY TABLE         RESUPPLY TABLE: Chance to become resupplied with ammo
+    0                       Auto - Resupply *                 UNION (Mid-Turn)          CONFED. Mid-Turn
+    1                       Auto - Resupply *         ART.    70%     (35%)               50%    (25%)
+    2                              90%                INF/CAV 90%     (45%)               70%    (35%)
+    3                              70%
+    4                              50%
+    5                              30%
+    6                              10%
+    7                       Auto - No Resupply
+
+* Resupply table  is skipped.
+
+DISRUPTION RECOVERY TABLE
+Units must be in command control and have a morale of greater than 40.
+
+                                        Percent Chance to Become Undisrupted
+Brigade leader alive & not in ZOC                     80%
+Brigade leader dead or in ZOC                         60%
+Brigade leader dead & in ZOC                          40%
+
+NOTE: In the INTERMEDIATE GAME, the leader is assumed to be alive.
+
+

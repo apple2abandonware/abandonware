@@ -1,0 +1,1249 @@
+KNIGHTS OF THE DESERT
+
+I.    INTRODUCTION
+II.   SETTING UP THE GAME
+III.  SEQUENCE OF PLAY
+IV.   MAIN TEXT OF RULES
+V.    SOLITAIRE PLAY
+VI.   STRATEGY AND TACTICS
+VII.  DISPLAY
+VIII. SUMMARY OF KEYBOARD INPUTS
+IX.   ORDER OF BATTLE
+X.    CHARTS AND TABLES
+
+I. INTRODUCTION
+
+Knights of the Desert is an operational level simulation of Rommel's campaigns in North Africa
+in 1942. Taking command of the afrika Korps, you will match yourself against the Allies
+commanded by the computer or a human opponent.
+
+Loading the Program
+
+   The procedure to load the game varies with each computer and version.
+
+Atari Disk Version
+    This program requires the Atari BASIC cartridge. Turn on the disk drive, insert the disk
+ with the label face up when the drive stops, and turn on the computer. The disk will
+ automatically boot up.
+
+Atari Cassette Version
+    This program version also requires the Atari BASIC cartridge. Insert the Atari side of the
+cassette, as per the label, into the recorder and rewind it. Turn on the computer, press the
+recorder play button, type CLOAD, and press RETURN twice. When READY appears type RUN. Keep
+the play button depressed until the game is in progress and the game map is on the screen.
+This loading process will take several minutes.
+
+Apple Disk Version
+    Boot your game disk and the game will begin automatically. If you are using an Apple II
+with Pascal, you must first use your BASICS disk. If you are using an Apple III, you must first
+go into Apple II emulation. If you have an Apple IIe, be sure to lock your CAPS LOCK key.
+
+TRS-80 Cassette Version
+    Insert the TRS-80 side of the cassette, rewind it, and press the PLAY button. Type CLOAD and
+when READY appears type RUN. Keep the PLAY button depressed until the game is actually in process
+(you are in the Logistics Phase). After you answer the questions in the opening program another
+program will be loaded in. When READY appears type RUN. Press RETURN.
+
+Saving a Game in Progress
+
+Atari and Apple Disk Versions
+    At the end of a turn you will be asked if you wish to save the game (you are given the option
+to continue the game after saving a turn). If you answer yes instructions will appear on the
+screen to allow you to do so. Please note that both versions will require you to insert a
+"saved game diskette" (normal Apple initialized diskettes will not work).
+
+Atari and TRS-80 Cassette Versions
+    The program will ask if you desire to save the game. Before you answer yes insert a blank
+cassette and press the recorder RECORD and PLAY buttons. The Atari version also requires you
+to press RETURN.
+
+      In order to recall a saved game, begin loading as usual and select old game (or say NOto
+the menu option "NEW GAME"). Once this is done, follow the prompts given by the computer.
+
+     NOTE: If you wish to keep the ratings you set at the beginning of your game, do not
+change any of the ratings when you recall the game.
+
+
+II. SETTING UP THE GAME
+
+   Before actually playing the game you will need to set several parameters such as opponent
+type, scenario, difficulty level, etc. Although the parameters are basically the same for all
+computer versions the manner in which you input them into the computer differs.
+
+APPLE Version
+   The selected options are inversed on the screen. If you are in agreement press the space bar
+to continue. If not press the number which corresponds to the option you wish to change and the
+inverse will switch to the alternative.
+
+Atari Versions
+   Insert your joystick into port #1. The selected options are inversed on the screen. If you
+are in agreement toggle the joystick to the last option (CONTINUE) and press the FIRE button.
+If not, toggle the joystick to the numbered option you wish to change and press the FIRE button.
+The selected inversed option will change.
+
+TRS-80 Version
+   Press the number key or Y or N key to select the desired option on the screen.
+
+Most of the parameters and options are self-explainatory, however there are some which deserve
+further clarification as listed below:
+
+Scenarios: Depending on which computer system you are using, there are a maximum of five scenarios
+available as listed below:
+
+Tobruk '41   3/1941             (1 turn)
+Tobruk '42   1/1942 to 6/1942   (3 turns)
+El Alamein   7/1942 to 1/1943   (4 turns)
+Campaign '41 3/1942 to 12/1942  (5 turns)
+Campaign '42 3/1941 to 1/1943   (7 turns)
+Campaign     3/1941 to 1/1943   (12 turns)
+
+Tobruk '41, Camp '41, and Campaign all start on 3/1941. Unit availability and strengths are located
+on the Order of Battle. The chart below gives you a breakdown of what is generally available for
+each scenario at the start.
+
+                            # of              # of              # of            # of
+                           mobile            mobile          non-mobile      non-mobile
+Scenarios                   units         strength pts.        units        strength pts.
+                            Ax/Al            Ax/Al             Ax/Al           Ax/Al
+
+Tobruk '41, Camp '41         4/1           1680/280             6/4           1305/1660
+and Campaign
+Tobruk '42, Camp '42         8/5           1580/2134            5/8            845/1925
+El Alamein                  10/9           2818/3824            6/7           1069/924
+
+Ratings: There are several aspects of the game which you are allowed to change. For each
+rating a number from 0 to 9 must be set. This will alter that aspect of the game by a certain
+percent as listed below:  For the aspects of Combat Points, Replacement Points and German
+Supply Points:
+
+Rating                         % of Historical (Difficulty Level)
+  0                                      70% (expert)
+  1                                      80% (expert)
+  2                                      90% (expert)
+  3                                     100% (Historical)
+  4                                     110% (Intermediate)
+  5                                     120% (Intermediate)
+  6                                     130% (novice)
+  7                                     140% (novice)
+  8                                     150% (novice)
+  9                                     160% (novice)
+
+
+
+
+
+
+
+
+
+For the aspect of Air Points:
+
+Rating:                        % of Historical (Difficulty Level)
+  0                                     40% (expert)
+  1                                     60% (expert)
+  2                                     80% (expert)
+  3                                    100% (historical)
+  4                                    110% (intermediate)
+  5                                    120% (intermediate)
+  6                                    130% (novice)
+  7                                    140% (novice)
+  8                                    150% (novice)
+  9                                    160% (novice)
+
+For the aspect of Reinforcements
+
+Rating:                          Effect
+  1                      arrive up to 4 turns early
+  2                      arrive up to 3 turns early
+  3                      arrive up to 2 turns early
+  4                      arrive up to 1 turn early
+  5                         arrive historically
+  6                      arrive up to 1 turn late
+  7                      arrive up to 2 turns late
+  8                      arrive up to 3 turns late
+  9                      arrive up to 4 turns late
+
+Levels of Difficulty: There are four levels of difficulty: Expert, Historical, Intermediate,
+and Novice. Expert is the highest level of difficulty. The lower the level of difficulty given
+the greater the advantages received by that side (i.e. If an extremely good German player was to
+play a very inexperienced British player the German would choose Expert and the British Novice).
+Setting the level of difficulty will automatically set each rating to that level. Reinforcements
+are given an exception in that the rating is always set to 5 (Historical) for all levels.
+
+Random Initiative: If you answer no then the initiative is historical as shown on the Turn Chart.
+If yes then there is a 50% chance that initiative will go one way or another.
+
+Optional Axis Depot Units: If you answer yes then the Axis will be given two additional depot units.
+
+
+III. SEQUENCE OF PLAY (Also, quick start rules for experienced computer wargamera)
+
+    This section is designed so that an experienced wargamer can read it and get into the game
+immediately. The less experienced player will find it a useful outline. The game consists of
+twelve turns (less if a scenario is selected). Each game turn consists of the following segments
+and phases.
+
+1. Sequence of Play Overview
+
+A. Mobilization Segment
+   1. Reinforcement Phase
+   2. Supply Phase
+   3. Logistics Phase
+   4. Initiative Phase
+
+B. First Player Segment
+   1. Operational Phase - First player: Both player's units receive a full allotment of operation
+      points (axis mobile-36, nonmobile-18/ Allied mobile-28, nonmobile-18). Second Player may
+      be eligible for limited reaction during this phase.
+   2. Resupply Phase
+   3. Depot Movement Phase - First Player
+   4. Enemy Reaction Phase - Second Player: First Player may be eligible for limited reaction
+      during this phase.
+   5. Operations Phase - First Player: First Player's units (only) receive a full allotment of
+      operation points. Second Player may be eligible for limited reaction during this phase.
+   6. Resupply Phase
+   7. Depot Movement Phase - First Player
+
+
+
+
+
+
+C. Second Player Segment
+   1. Operations Phase - Second player: First Player may be eligible for limited reaction
+      during this phase.
+   2. Resupply Phase
+   3. Depot Movement Phase - Second Player
+   4. Enemy Reaction Phase - First Player: Second Player may be eligible for limited reaction
+      during this phase.
+   5. Operations Phase - Second Player: Second Player(only) receives a full allotment of
+      operations points for each unit. First Player may be eligible for limited reaction.
+   6. Resupply Phase
+   7. Depot Movement Phase - Second Player.
+
+D. Finalization Segment
+   1. Victory Determination Phase
+   2. Save Game Phase
+
+2. Phase Description
+
+A. Reinforcement Phase
+   1. All eligible reinforcements arrive at each player's home base.
+   2. A maximum of six units can stack in the home base. A permanent garrison unit is present
+      which counts as one towards the stacking limit.
+   3. If the stacking limit would be exceeded because of arriving units then the excess units
+      are delayed until a turn when room is available.
+   4. Eliminated units may return as cadres which arrive in the same manner as reinforcements
+      the turn following their elimination.
+   5. cadres arrive only after all eligible reinforcements have arrived.
+
+      ùúû$       d       hÿÿ
+  l         1. At this point in time all units of both sides have their supply status checked. A unit
+      is either supplied or unsupplied. Unsupplied units may not receive additional supply
+      or replacements and if they lack supply points for maintenance they are eliminated.
+   2. axis combat units must be within two hexes and Allied combat units three hexes
+      (computer-Allied, 4 hexes) of a supply source to be supplied. Depot units must be
+      within six hexes.
+   3. Home bases, Tobruk (if friendly), and other friendly depot units may serve as supply sources.
+   4. If depot units are used as a supply source then there must be a line of depots no more
+      than six hexes apart from each other back to the home base or Tobruk (if friendly).
+   5. Supply status is determined only by the range of a unit to a supply source. this range
+      may be traced through enemy units or any terrain, including Impassable and ocean hexes.
+
+C. Logistics Phase
+   1. Each player will cycle through their units (including arriving reinforcement and cadres).
+   2. A player may cycle through his units indefinitely by pressing the F key after each
+      unit is displayed and flashed on the map. This gives a player the opportunity to see
+      where his forces are and their current status. Depot units are the exception to this
+      in that you must press the R key and allocate replacements to them when they first appear.
+   3. Pressing the R key for ready will require the player to input replacements, supply, and
+      resupply priority into the unit.
+   4. for each category the player will input a number from zero to nine. For replacements and
+      supply this will result in the unit receiving from 0% to 100% of the maximum amount allowed
+      as shown on the display. For resupply priority the number inputed will indicate the percent
+      (0% to 100%) of supply points to be received by that unit of the total eligible during
+      the resupply phases of the current turn. The amount of supply that the unit actually
+      receives is decreased by 1% per hex away from its home base.
+   5. Allied units are automaticlly given full supply and a resupply priority of nine. As a
+      result the Allied player only inputs replacements into his units (Allied units may not
+      be given replacements in March 1941). Axis supply is limited to what is remining in the
+      overall supply pool. Points remaining in this overall supply pool are located on the
+      display (which can be accessed during play of the game).
+   6. during the logistics Phase, Tobruk if held by the allied is checked to see if it is
+      surrounded by Axis units or ocean hexes. If it is not then the Axis overall supply is
+      cut by 20%. Axis units must be east of Tobruk to trigger this. In addition any Axis depot
+      units alone in a hex within four hexes of Tobruk will be eliminated. The message "DESERT
+      RATS STRIKE", will appear when the above conditions are met.
+
+
+
+
+
+
+
+D. Initiative Phase
+   1. The player with the initiative is asked if he wishes to move first. If he does he then
+      becomes the First Player.
+   2. Refer to the enclosed charts which indicate which side has the iniative for each turn.
+      If you are using the random iniative option the chances will be even each turn as to who
+      will have it.
+
+E. Operations Phase
+   1. during this phase the player may move/attack/fortify, expending operations points and
+      supply points of the individual units as he does so. At the beginning of the first
+      operations phase of each game turn each side receives a full allotment of operations
+      points. At the beginning of each player's second operations phase of his player segment
+      that player's units receive a full allotment of operations points.
+   2.  Refer to the charts enclosed which detail supply and operation point costs.
+   3. Depot units may not be moved during this phase. Garrison units may never be moved.
+   4. To move the cursor on the map press 1 to 6 to go in the direction as indicated by the
+      compass on the display. Pressing T will place the cursor on Tobruk and Pressing B will
+      place it over the player's homebase. APPLE owners have additional features they can access
+      on the screen with their required input to activate them. To move a unit or examine the
+      contents of a friendly hex place the cursor over the hex and press G.
+   5. Atari owners also press the 0 key to center the unit during cursor mode and while the
+      unit is moving. During these two phases or modes, Atari owners may scroll freely around
+      the map by first pressing the START key. Pressing the START kay again returns you to the
+      current phase or mode.
+   6. When G is pressed the units in the hex will be displayed and be numbered one to six
+      followed by their unit number (refer to Order of Battle), combat strength, remaining
+      supply points, and operation points.
+   7. To access a desired unit press the number (1-6) that corresponds to it. Press F to return
+      to the cursor mode. The unit's statistics will now appear on the screen displaying its
+      name, combat strength, mobile or nonmobile status, supplied or unsupplied status, morale,
+      fortification level, remaining supply points, terrain of current hex, and remaining
+      operation points. Units alone in a hex will automatically be accessed when G is pressed.
+   8. To move the unit press 1-6 to indicate the desired direction. To fortify press B to build
+      one level of fortification per input. Pressing the F key will finish the unit for now and
+      return the cursor. APPLE owners may remove all units on the screenby pressing R and then
+      may return the units by pressing any other key. APPLE and ATARI owners may press 0 to
+      center the moving unit on the screen.
+   9. Allied units in Tobruk or Alexandria may use sea movement by pressing S, providing a unit
+      hasn't already used sea movement for that turn and no replacements were taken into units
+      occupying Tobruk during the logistics phase.
+  10. Units moving into a position which does not contain a friendly unit and which is next to
+      an enemy unit may trigger limited reaction for the enemy player (There is a 70% chance that
+      this will occur). Limited reaction may also be triggered after each battle during the
+      operations phase. There is a 25% chance of this occurring.
+
+   a. The enemy player during limited reaction may choose units to be moved using the cursor
+      the same as in any operations phase. Units are allowed up to 1/2 of their operation
+      points allowance or remaining operation points, whichever is less, at any one time they
+      are accessed to be moved.
+   b. After a unit is F keyed the enemy player must pass an initative check before he is allowed
+      to move another unit. There is a 50% chance that he will pass the check.
+   c. If a unit moves into a position adjacent to the enemy and that position is unoccupied
+      by a friendly unit, then the limited reaction is ended and play passes back to the phasing
+      player's operations phase.
+   d. The enemy player may initiate combat during limited reaction only once, after which play
+      passes back to the phasing plaer. Sea movement is not allowed.
+   e. To exit the limited reaction phase voluntarily, press the shift and the # key.
+
+  11. The operations phase will continue until the player presses the shift and the # key.
+       Atari owners choose the option on a menu.
+
+  12. Units attempting to move into a position containing enemy units trigger the combat
+      sequence.
+
+      a. The combat sequence begins by allowing the attacking player to look at each defending
+         unit in the hex and deciding if he wishes to include that unit in the battle by
+         inputing Y or N.
+      b. A player may cycle through the defending units as many times as he desires until he
+         presses F.
+      c. The attacking player will then cycle through his units in the hex which initiated
+         combat, selecting those to be included in the attack. He will continue to cycle
+         through his units until he presses F.
+      d. The attacking player will now select a battle intensity(1-9), a level of risk(1-9),
+         and the number of air points allocated to the battle.
+      e. The defender chooses a level of risk and the number of allocated air points.
+      f. Losses are subtracted from units involved in the battle. Supply costs are subtracted
+         and captured supply added to the gaining units (from an eliminated enemy unit).
+         Operation point cost for the battle by the units is also deducted.
+      g. The results of the battle are displayed showing the intensity, risks, battle odds,
+         casualties ( those caused by risk are put into parentheses), and air combat results
+         (See combat results explaination chart).
+      h. Several factors govern the battle odds of a combat and also modify the amount of
+         losses. Refer to the combat section in the main text for details.
+
+  13. During all phases in which units are allowed to move there is a stacking limit which
+      must be observed at all times. A position may contain up to six units. The position
+      containing Tobruk may only have four units in it.
+
+   
+F. Resupply Phase
+   1. Units of both sides are judged to be in supplied status or unsupplied status according
+      to the criteria listed in the Supply Phase.
+   2. Supplied units receive supply according to the resupply priority which was for units
+      in the Logistics Phase.
+   3. Allied units have an automatic resupply priority of nine which will give each supplied
+      unit 100% of the supply points it is eligible to recieve. Axis units have this priority
+      set by the player in the Logistics Phase from 0 to 9 (0% to 100%). Points actually
+      received are decreased by 1% per hex away from the home base.
+   4. The supply points eligible to a unit during a resupply phase are determined by
+      subtracting the unit's current supply from the unit's supply ceiling. This value is
+      further modified by .25 during the Resupply Phases within the enemy's player segment.
+   5. Depot units are not resupplied during the Resupply phase.
+
+G. Depot Movement Phase
+   1. Only the phasing player's depot units are allowed to move. D               to move during any other phase including limited reaction.
+   2. Depot units are moved using the cursor and movement keys the same as any other unit.
+   3. Depot units do not trigger liited reaction nor do they initiate combat.
+   4. Depot units may participate in combat as attacking units only during the operations
+      phases. Depot units may only be chosen as defending units when only depot units
+      remain in the position.
+   5. You exit this phase by pressing the shift and # keys as in any other phase. Atari
+      owners use the joystick to select the end phase option.
+
+H. Enemy Reaction Phase
+   1. The non-phasing player is allowed what is essentially an operations phase sandwiched
+      in between the operations phases of the phasing player.
+   2. In this phase the non-phasing player may move and have combat the same as any
+      operations phase. Limited reaction on the part of the phasing player may also be
+      triggered. Sea movement is allowed.
+   3. You may exit this phase the same as any other phase.
+
+I. Victory Determination Phase
+   1. Players receive one victory point per three casualty points inflicted on the enemy.
+      These points are received immediately after combat.
+   2. At the end of the turn players receive points for whoever was the last side to occupy
+      the towns of Benghazi, Bardia, and Matruh. Each position is valued at 50 points. Tobruk
+      is valued at 100 points.
+   3. Each unit on the map receives points at the end of the turn as to its range from
+      its home base: 0-3 hexes = 0 VP, 4-12 hexes = 3 VP, 12-21 hexes = 6 VP,
+      22-29 hexes = 9 VP, 30-34 hexes = 12 VP.
+   4. Refer to the victory conditions chart for levels of victory based on points.
+   5. Loss of the home base results in immediate total defeat. The British home base
+      is Alexandria. The German home base is El Agheila.
+
+
+IV. MAIN TEXT OF RULES
+
+ A. Units
+    1. Unit Description: There are twenty-eight Axis units and twenty-eight Allied units.
+       These units have varied characteristics and capabilities as covered below. The units
+       are represented on the map by various symbols which differs from computer to
+       computer. Please refer to the Orders of Battle for both sides as you read this section.
+       a. Unit Name: Contins the historical designation of the unit with its size, type,
+          and nationality included.
+       b. Combat Strength: Represents the unit's capability to inflict losses on the enemy
+          in terms of manpower and weapons.
+       c. Combat Strength Ceiling: Is the maximum strength to which the unit is allowed
+          to build by way of replacements. It also sets the breaking point of a unit since
+          a unit is eliminated when it's combat strength falls below 15% of the ceiling.
+       d. Morale: Represents the cohesiveness of the unit in terms of training, espirit
+          de corps, leadership, and experience. A unit's morale never changes. Morale
+          modifies the number of casualties assigned to a unit by the combat results
+          according to the chart below:
+
+            Morale                Modifier to Losses
+              1                           1.6
+              2                           1.5
+              3                           1.4
+              4                           1.3
+              5                           1.2
+              6                           1.1
+              7                           1.0
+              8                            .9
+              9                            .8
+
+          A unit with a morale of 9 would lose only 80% of the casualties originally
+          assigned to it. A morale of 5 would result in 20% more casualties than
+          originally assigned by the combat results.
+       e. Unit Type: Units are either mobile or non-mobile. This difference affects
+          operation point allowances, operation point costs, and supply costs. Axis
+          mobile units have an operation point allowance of 36 and Allied mobile units
+          are given 28. Axis and Allied non-mobile units have an operation point
+          allowance of 18. refer to the Terrain Effects Chart for details on operation
+          and supply costs for each type.
+       f. Supply Portage: Each unit carries with it a certain amount of supply which is
+          expended during movement, fortification, and combat. A unit whose supply falls
+          below 50 points has its combat strenth cut by one half for defense. In addition,
+          a unit with less than 50 supply points before a combat will not come back as
+          cadre if eliminated. Axis units must have a minimum of 100 supply points to be
+          included in an attack. Allied units must have 200 supply points. Units receive
+          additional supply points during the Logistics Phase, the resupply phases, and
+          during combat after an enemy unit has been eliminated. See Charts for supply costs.
+       g. Supply Portage Ceiling: Mobile units have a ceiling of 600 supply points and
+          non-mobile units have a ceiling of 500 points. This ceiling is the maximum
+          amount of supply that the unit may carry.
+       h. Supply Status: Units are either supplied or unsupplied. Combat units are judged
+          to be in supply if they are within range of a supply sources. Below are listed
+          the ranges for combat units.
+
+               Unit                      Range
+               Axis                        2
+               Human Allied                3
+               Computer Allied             4
+
+
+
+
+
+
+       Depot units are in supply if within six hexes of a supply source. A depot unit may
+       be used as a supply source if it is within six hexes of Tobruk (if friendly) or its
+       home base or a line of depot units no more than six hexes from each other back to
+       Tobruk (if friendly) or home base. Unsupplied units may not receive supply during
+       the Logistics phase or the resupply phases.
+    i. Operation Points: Movement, fortification, and combat consume operation points of
+       the unit. Refer to the charts for actual costs. Axis units must have a minimum of
+       4 operation points and Allied units 6 operation points to conduct an attack. Both
+       sides receive a full allotment of operation points the first operations phase
+       ( regardless of which is the phasing player) of the game turn. Units will receive
+       another allotment the second operations phase of their player segment.
+    j. Fortification Level: This is the level to which the unit has fortified itself within
+       a specific position. A unit fortifies one level at a time by pressing B during any
+       operations phase or limited reaction. Atari owners choose the "fortification" option
+       on the menu. Fortification consumes operations points and supply points. Refer to
+       the charts for actual costs based on unit type and terrain type. Each level of
+       fortification increases the effective strength of the unit on defense by 20%.
+       Terrain and fortification defense modifiers may not exceed 3 times the units
+       original strength. Therefore each terrain type has a limit to which fortification
+       has an effective advantage to the defending unit.
+
+          Terrain                 Maximum Fortification Level(effective)
+          Clear                                   9
+          Rough                                   5
+          Fortress                                3
+          Town                                    5
+          Mountain                                3
+          Coast                                   8
+
+       Fortification past these levels by units would be to no avail. Immediately upon moving
+       from a position the fortification level of the unit returns to 0. Units may still
+       attack from a position and retain their fortification level as long as they do not move.
+    k. Arrival Date: Units will appear on their home base during the Reinforcement Phase
+       of the turn. If stacking would be exceeded then the units will wait until a turn
+       when there is room. Reinforcements appear before returning cadres.
+ 2. Unit Elimination and Cadres: When units are eliminated they may be eliminated from the
+    game or come back as cadres at the player's home base in the Reinforcement Phase.
+    If a unit is eliminated from the game the message "**ELIMINATED**" will appear. If the
+    unit will return as a cadre the message "ELIMINATED-CADRE FORMED" will appear.
+    a. A unit is eliminated when its combat strength falls below 15% of its combat strength
+       ceiling. A unit with a ceiling of 800 would be eliminated if its combat strength
+       fell below 120 points.
+    b. A unit is eliminated during the Logistics Phase if it fails to meet the maintenance
+       cost of 100 supply points after supply allocation.
+    c. Units eliminated as a result of combat have a chance of returning as cadres (See
+       table below). Cadre units will appear at the home base the turn following elimination
+       at the end of the Reinforcement Phase. Units eliminated during combat with less than
+       50 remaining supply points at the beginning of the combat automatically fail to
+       return as cadres and are removed from the game.
+    d. A unit is eliminated without a cadre being formed if it is surrounded by enemy units
+       and/or impassable hexes.
+
+   Unit Morale                   % Chance to Return as Cadre
+        1                                    75%
+        2                                    80%
+        3                                    84%
+        4                                    86%
+        5                                    88%
+        6                                    89%
+        7                                    90%
+        8                                    91%
+        9                                    92%
+
+    e. Attacking units which eliminate a unit, whwether it returns as a cadre or not, divide
+       the eliminated unit's remaining supply points evenly as captured supply which is made
+       readily available to those units.
+
+
+
+
+
+
+    f. During the Logistics Phase, Axis depot units located within four hexes of Tobruk
+       which is Allied occupied and not surrounded by Axis units or ocean hexes are
+       eliminated from the game if not stacked with another unit. This is triggered
+       only if Axis units are east of Tobruk.
+
+B. Logistics
+   1. Logistics Phase Procedure: During this phase the Allied player will allocate
+      replacements into his units. The Axis player will allocate supplies, replacements,
+      and resupply priority to each of his units.
+      a. The Axis player cycles through his units first. Pressing R will allow the player
+         to allocate supplies and replacements into that unit. Depot units may only have
+         replacements allocated to them. They automatically receive 400 supply points
+         and are not resupplied during the game turn. Every unit must eventuall be R keyed
+         to be able to exit this phase.
+      b. Players are first asked to input replacements (this is all that the Allied player
+         will input) by pressing 0-9. The number pressed will be the percent of the
+         maximum replacements allowed into the unit as shown below:
+
+           Input                    Percent
+             0                         0%
+             1                        11%
+             2                        22%
+             3                        33%
+             4                        44%
+             5                        55%
+             6                        66%
+             7                        77%
+             8                        88%
+             9                       100%
+
+         A unit with a maximum of 100 replacements would receive 22 strength points if a
+         2 were pressed. see the turn chart for replacement allocations per side for each
+         game turn.
+      c. Following replacements, supplies are allocated to the unit in the same manner as
+         replacements. The number inputed is the percent of the maximum allowed into the
+         unit will be modified in the resupply phases. This percent is further modified
+         by .25 during resupply phases of the enemy player segment. For example, a unit
+         with a maximum of 400 supply points allowed which has a resupply priority of 5
+         would receive 220 supply points during his player segment's resupply phases and
+         only 55 points during the enemy segment.
+
+   2. Supply: Each unit carries its own supply. In order for a unit to move, fortify, and
+      attack it must consume supply. To receive supply a unit must be within supply lines.
+      a. Mobile units have a supply portage maximum of 600 points and non-mobile units
+         have 500 points. Units receive supply during the Logistics Phase, Resupply Phases,
+         and after combat when a unit has been eliminated. Axis units are limited by the
+         general supply pool. See turn chart which lists supply point reinforcements per
+         game turn. Allied units are always given the maximum supply points allowed since
+         their supply pool is unlimited in game terms. The number of supply points actually
+         received into the unit is modified by 1% per hex away from the home base. A unit
+         16 hexes away from its home base would have the amount actually received cut by 16%.
+      b. Movement, fortification, unit maintenance, and combat consume supply. See the
+         appropriate charts for these costs. Each unit must spend 100 supply points after
+         supply allocation during the Logistics Phase for unit maintenance. A unit unable
+         to do so is eliminated from the game.
+      c. A unit is either in supplied or unsupplied status. Unsupplied units may not receive
+         supply points during the Logistics phase and resupply Phases. To be in supply a
+         unit must be within range of a supply source. Home bases, Tobruk (if friendly), and
+         depots may be used as supply sources. A depot unit may be used as a supply source
+         only if it is within six hexes of the home base or Tobruk (if friendly) or within
+         six hexes of a chain of depot units no further than six hexes apart which lead to
+         the home base or Tobruk (if friendly). The ranges of the different combat units
+         are listed below:
+
+
+
+
+
+
+
+
+
+
+         Unit                          Range
+         German                          2
+         Human Allied                    3
+         Computer Allied                 4
+
+         Supply may be traced through any terrain and even enemy units so long as the range for
+         the unit is not exceeded.
+      d. A unit eliminated has its remaining supply points immediately divided among the
+         enemy units which caused the elimination.
+      e. If during the Logistics Phase, Tobruk is held by the Allies and not surrounded by Axis
+         units or ocean hexes then Axis depot units alone in their hex will be eliminated
+         if within four hexes of Tobruk and the overall Axis supply will be cut by 20%.
+         Axis units must be east of Tobruk in order for the above to be triggered. When this
+         occurs the message "Desert Rats Strike" will appear.
+
+
+C. Movement
+    1. Procedure: movement occurs in the folowing phases: Operations Phase, Enemy Reaction Phase,
+       Depot Movement Phase, and limited reaction. In each phase the procedure for movement is
+       very much the same as outlined below:
+       a. When movement is allowed a white cursor appears on the map screen. This cursor
+          may be moved to any hex on the map by pressing 1-6 to indicate direction and by
+          pressing T for the cursor to appear on Tobruk and B for the cursor to appear on
+          the home base.
+       b. To examine the contents of a friendly hex and to access units in order to move them
+          press G. Units in the hex will be displayed and numbered one to six much like the
+          example below:
+
+          1) 2- 100 400 18          2)  8- 600 450 36
+          3) 9- 250 400 30          4) 11- 300 300 20
+          5)13-  60 250 15          6) 16- 150 300 18
+
+          In the example above there are six units. Each unit has four numbers which are
+          the unit's number in the Order of Battle, combat strength, remaining supply points,
+          and remaining operation points (units in limited reaction will have displayed
+          remaining operation points still eligible to use). The first unit above is
+          unit #2 which is the 1st Depot Battalion. It has 100 combat points, 400 supply
+          points, and 18 operation points. Pressing F at this point will exit this display
+          and return the cursor on the hex. To access a unit press the number 1-6 which
+          corresponds to the desired unit.
+       c. A unit accessed will have its unit information displayed on the screen as in the
+          example below:
+          21 GE PZ DIV COMBAT: 600 MOBILE SUPPLIED
+          MORALE: 9    FORT: 2   SUPPLY: 450
+          TERRAIN: COAST      OPERATION: 18 (36)
+          The unit above is the 21st German Panzer Division with a combat strength of 600,
+          a morale of 9 and a fortification level of 2. It has 450 remaining supply points
+          and 18 remaining operations points for that movement and 36 remaining for the
+          turn segments. It is a mobile unit in a supplied state currently located on a
+          coastal hex.
+       d. To move the accessed unit press 1-6 in the direction desired as indicated by the
+          compass on the screen. Pressing F at this time will return the cursor onto the hex.
+          Pressing B will fortify the unit by one additional level. Allied units eligible
+          for sea movement may press S to do so (see movement restrictions).
+       e. To exit the movement phase press the shift and the # key.
+    2. Allowances and Costs: All units are given allotments of operation points and supply
+       points which are expended during movement.
+       a. Axis mobile units receive 36 operation points per allotment. Axis nonmobile and
+          Allied nonmobile receive 18 operation points. Allied mobile units receive 28
+          operation points. Both sides receive allotments the first operations phase of the
+          game turn. Each side receives another allotment the second operations phase of
+          their player segment.
+       b. Units receive supply points based on several factors during the logistics Phase,
+          Resupply phases, and combat squence. Mobile units have a supply portage maximum
+          of 600 points and nonmobile 500 points.
+       c. Supply and operation point costs for movement are summarized in the table below:
+
+
+
+
+                          Non-mobile                  Mobile
+        Terrain        operation/supply cost    operation/supply cost
+        Clear                  3/9                      3/9
+        Rough                  4/12                     8/24
+        Fortress               1/3                      1/3
+        Town                   1/3                      1/3
+        Coast                  1/3                      1/3
+        Mountain               6/18                    12/36
+        Impassable              P                        P
+
+         The "P" means that it is prohibited for units to enter that hex. A unit may only
+         complete a movement action if it has sufficient supply and operation points.
+      d. Fortification costs for mobile units are 40 supply points and 7 operation points
+         per level. Nonmobile costs are 32 supply points and 3 operation points.
+
+   3. Restrictions: There are several limitations, exceptions, and restrictions to
+      movement are listed below:
+      a. Garrison units may never move.
+      b. Depot units may only move during the Depot Movement Phase.
+      c. Units must have sufficient operation points and supply points to complete an action.
+      d. Units may not enter impassable hexes or ocean hexes.
+      e. No more than six units may ever be in the same hex. In Tobruk only four units
+         may stack together.
+      f. Allied units in Tobruk or Alexandria may be eligible to use sea movement. One unit
+         per game turn may be transferred between Alexandria and Tobruk (or vice versa).
+         If units in Tobruk receive replacements then no sea movement is allowed for that turn.
+         Axis occupation of Tobruk cancels any sea movement orders.
+      g. A unit's fortification level returns to 0 when it moves from its current location.
+      h. During the operations and enemy reaction phases, movement into a hex unoccupied by
+         friendly units next to an enemy unit will end the limited reaction.
+      k. During limited reaction, units may only expend up to 1/2 of their operation point
+         allowance or remaining operation points, whichever is less, each time those units
+         are accessed to be moved.
+
+D. Combat
+   1. Combat Sequence Procedure:          A unit initiates combat whenever it attempts to enter a
+      position containing an enemy unit.
+      a. The combat sequence begins by allowing the attacking player to cycle ation.
+      h. During the operations and enemy reaction phases, move              the defending units as many times as desired. For each unit he inputs Y, N, or F
+         to the question "Attack Unit Y/N?". Inputing Y or N answers yes or no to the
+         question. A F input will finish the selection of defending units. Unless a unit
+         has been entered with a Y the F key will set all units to an N answer. For example,
+         if you press F to the very first defending unit your attack would be cancelled.
+         It would also be cancelled if you press N for every defending unit. Please note
+         that depot units will not appear to be attacked unless they are alone in the
+         hex without another combat unit.
+      b. When F is pressed for the defending unit selection the attacking player will then
+         cycle through his units in the attacking hex and input Y,N, or F in answer to
+         "attack with unit Y/N?". Units with insufficient supply and/or operation points
+         will be so displayed when a Y is inputed. As with the defending units an F input
+         finishes the selection marking units only inputed with a Y as the attacking units.
+      c. The attacking player selects a battle intensity (1-9), a level of risk (1-9), and
+         the number of allocated air points. The higher the intensity chosen the greater the
+         losses of the battle will be and the greater the cost of the battle in terms of
+         operation points and supply points. The higher the level of risk the greater the
+         random introduced in the combat results (see risk table). A player will be able to
+         allocate a maximum of 9 air points, or less if there are fewer remaining air points
+         per battle round. Players receive air points each game turn according to the turn
+         chart. These points are cumulative from turn to turn. The available air points are
+         reusable each phase of the game turn and are subject to air casualties (see air loss
+         table). Each air point increases the attacker's strength by 20% and the defender's
+         by 15%.
+      d. The defender chooses a level of risk (1-9) and the number of allocated air points.
+      e. Losses are displayed for each unit and the combat results for the battle is also
+         (see combat results explanation).
+
+
+    2. Combat Costs: Combat consumes supply and operation points. See the enclosed charts
+       which list costs for combat in supply and operation points. Human Allied units
+       consume 30% more supply in combat. The defender consumes 50% less supply in combat
+       than the attacker. The attacker also consumes more operation points then the defender
+       (see appropriate combat charts).
+    3. Combat Restrictions and Special Cases: A unit must have sufficient operation and
+       supply points to attack. Some other special cases also apply.
+       a. Allied units must have at least 200 supply points and 6 operation points to be
+          allowed to attack. Axis units must have a minimum of 100 supply points and
+          4 operation points.
+       b. Depot units may only be attacked if no other combat units exist in the hex.
+       c. Units with less than 50 supply points have their strength cut by one half.
+       d. Defending units consume less supply and operation points.
+       e. Units eliminated in combat may return as cadres if they have more than 50
+          supply points remaining. See cadre table.
+       f. Victorious units share the remaining supply points of the eliminated unit.
+       g. During a limited reaction phase only one attack is allowed before play is
+          passed to the phasing player.
+    4. Battle Odds Calculation: Several factors govern odds calculation.
+       a. the defender's combat strength is then multiplied by supply. If it has less
+          than 50 points its strength is cut by 1/2.
+       b. The defender's combat strength is then multiplied by the sum of the terrain and
+          fortification modifiers. This value may not exceed three times the original strength.
+          The fortification level of the unit is multiplied by .2 to derive the fortification
+          modifier which is added to one of the terrain modifiers below:
+
+          Terrain                          Modifier
+          Clear                               1.0
+          Coast                               1.5
+          Rough                               2.0
+          Town                                2.0
+          Fortress                            2.5
+          Mountain                            2.5
+       c. The defender's strength is then modified by the air points entered by the defending
+          player. Each point increases the strength by 15%. The modified combat strength
+          after air power may not exceed 4.5 times the original strength. Air points may be
+          lost as a result of combat (see air loss table).
+       d. Example (defender's modified strength): If a defending unit has 100 combat points,
+          200 supply points, is located in a town, has a fortification level of 4, and allocates
+          3 air points, its modified combat strength would be 406. The supply modifier would
+          be 1.0 since the unit has more than 50 supply points. The terrain modifier of 2.0
+          and the fortification modifier of 0.8 add up to 2.8. The original combat strength
+          multiplied by 2.8 equals 280. The 280 is multiplied by the air power modifier of .45
+          (15% per air point) to arrive at amodified strength of 406.
+       e. The attacker's combat strength is first modified by air points allocated by the
+          attacker. each air point increases the attacker's strength by 20%. Air points may
+          be lost as a result of combat.
+       f. The attacker's combat strength is then modified by combat bonuses determined by
+          nearby units not directly involved in combat. The attacker adds 300 combat points
+          per friendly hex next to the defending units. The attacker also adds 100 combat
+          points per non-participating friendly unit in the attacker's hex. The attacker
+          subtracts 200 combat points from its strength for each non-participating enemy
+          unit in the defender's hex and per friendly hex next to the defender's hex. The
+          attacker's modified strength may be no less than 1/3 of, or 2.5 times greater than
+          its original strength.
+       g. Example (attacker's modified strength): If attacking units have a original
+          strength of 1500 points, inputed 5 air power points, had 2 non-participating
+          friendly units in the attacking hex, 1 friendly unit next to the defender's hex,
+          3 non-participating enemy units in the defender's hex, and 2 enemy units next to the
+          defender's hex the modified attacker's strength would be 2500. The 1500 is multiplied
+          by 2.0 for airpower(20% per air point) for an increase to 3000. 200 points are added
+          for the non-participating units in the attacker's hex and 300 for the unit next to the
+          defender's hex for a modified strength of 3500. 600 points are subtracted for the
+          non-participating enemy units in the defender's hex and 400 points for the two enemy
+          units next to the defender's hex for a final modified strength of 2500 points.
+       h. Battle odds are determined by dividing the attacker's modified strength by the
+          defender's modified strength.
+
+ 5. Loss Determination: Several factors determine the losses to the attacking and defending
+    units.
+    a. The overall attacker's losses are determined by first calculating the base loss.
+       The base loss is equal to 5 plus the level of battle Intensity times .006 times
+       the attacker's combat strength (unmodified).
+    b. To arrive at the attacker's losses the base loss is multiplied by the risk factor
+       and then added to the number of defender's air points allocated to the battle.
+       The risk factor is a random depending on the level of risk chosen by the attacking
+       and defending players. The risk factor is randomized separately for the attacker
+       and defender. See risk table below:
+
+       Sum of Att. and Def. Risk                Random
+                   2                         .97 to 1.08
+                   3                         .95 to 1.12
+                   4                         .93 to 1.16
+                   5                         .91 to 1.20
+                   6                         .89 to 1.24
+                   7                         .87 to 1.28
+                   8                         .85 to 1.32
+                   9                         .83 to 1.36
+                  10                         .81 to 1.40
+                  11                         .79 to 1.44
+                  12                         .77 to 1.48
+                  13                         .75 to 1.52
+                  14                         .73 to 1.56
+                  15                         .71 to 1.60
+                  16                         .69 to 1.64
+                  17                         .67 to 1.68
+                  18                         .65 to 1.72
+
+     c. If the attacker's strength was 1000, the battle intensity 9, and the sum of the
+        defender's and attacker's risk 12 then the attacker's overall losses would range from
+        70 to 129.
+     d. The overall attacker's losses are now distributed proportionately (according to size
+        of unit in strength) among the attacker's units. An attacking unit's assignment of
+        losses is further modified by its morale according to the chart below:
+
+        Morale                    Loss Modifier
+           1                           1.6
+           2                           1.5
+           3                           1.4
+           4                           1.3
+           5                           1.2
+           6                           1.1
+           7                           1.0
+           8                            .9
+           9                            .8
+
+        As a result, the total losses of the attacker will probably exceed the original
+        overall losses after being modified by the unit's morale.
+        The defender's losses are determined in the same manner as the attacker's except the
+        number of attacker's air points are used instead of the number allocated by the
+        defender. The second and most important difference is that the defender's losses
+        are increased by the odds. The more favorable the odds for the attacker the more
+        losses the defender will suffer. The formula for the defender's overall losses is
+        therefore, the base loss times the odds times 1/2 added to the base loss times the
+        risk factor added to the number of air points allocated by the attacker.
+
+V. SOLITAIRE PLAY
+     When playing against the computer you will command the Axis forces and the computer
+     the Allied forces. The following rule changes will be in effect.
+     1. The Allies will be luckier by about 20%.
+     2. Allied units have to be within four hexes of a depot.
+     3. Allied units expend less supply in combat than normally.
+     4. Allied units have less of a chance to trigger limited reaction during movement.
+     5. Allied units come on board with more strength as cadre units.
+     6. Allied units have a decreased chance of being eliminated with no cadre being formed.
+     7. Strength points displayed on screen are randomized.
+
+
+
+
+VI. STRATEGY AND TACTICS
+    Below are some helpful hints on how to play the game.
+
+     1. Towns are very important to take since they provide so many victory points. Benghazi
+        and Bardia are especially useful since they control avenues of approach. Tobruk is
+        important as a supply source and also for the number of victory points received.
+        Since points are given for towns each turn the quicker you take a town the longer
+        you hold it the more victory points you will enjoy.
+     2. Protect your home base at all costs since loss of it is an automatic defeat.
+     3. The first turn of the game the Axis should be able to take Bardia and surround Tobruk.
+     4. Always move your units as far forward as you dare since you receive more victory points
+        per unit the farther you are from your home base.
+     5. be careful of your supply lines, since unsupplied units cannot take in supply or
+        replacements and become eliminated if unable to meet their maintenance cost.
+     6. Be aware that if your front line is past Tobruk and Tobruk is not surrounded you will
+        be hit by the Desert Rats which will cost you supply and perhaps depot units.
+     7. When you attack take into account the combat bonuses given by units next to the
+        defender and in the attacker's and defender's hex. also be careful not to overkill
+        your enemy by too intensive an attack. air power is a percent modifier; therefore,
+        it is more effective when used with large attacking groups.
+     8. Be careful not to tatally spend the supply of your individual units since their
+        strength will be 1/2 of normal when defending and if eliminated will not return as cadre.
+     9. When defending keep in mind that units in the hex under attack and units next to
+        the defender's hex serve as a significant combat bonuses. Cadres are good for this
+        role behind lines. Also when defending be aware of the value of fortification, but
+        be sure not to over-fortify. Note also that rough, fortresses, and towns are
+        superior terrain to defend on. Generally speaking, a good defense is an agressive
+        defense with careful and well planned counter-attacks. Keeping strong units in
+        reserve can be a powerful counterbalance to an enemy offensive.
+    10. While on the offensive it is generally better to outflank a strong point and expose
+        its supply line rather than hitting it head on.
+    11. When heavily outnumbered, retreating is the best strategy since the enemy will have
+        burn supply and operation points to pursue you. Weak screening in front of your
+        retreating forces will additionally slow the attacker.
+    12. The El Alamein line can be a difficult nut to crack and almost impossible. The British
+        will be invariably building for a crushing offensive. for that reason the Axis player
+        should attack the El alamein line until he is no longer eliminating units and then
+        fortify. When the british launch their final offensive even a fortified line will
+        not hold and careful planning must be made for an organized retreat.
+    13. Be aware that depots move in their own phase after regular combat unit movement.
+        Until you have an established line they will always be playing "catch-up".
+    14. In the Logistics Phase give high resupply priorities to those units which you expect
+        to be heavily using their supply. To conserve supply use only the minimum number of
+        depots from the home base.
+
+
+VII. DISPLAY
+
+     An example of the disply is shown below:
+
+     DATE: 1-1942   KNIGHTS OF THE DESERT            SCORE: -519
+     ALLIED: AIR 14/20 SP_____ALREPL 138 SEALIFT 1        VP 2285
+     AXIS: AIR 15/18   SP 1186  ITREPL 20   GERREPL 100   VP 1766
+
+         The current turn is January-February 1942. The score is -519 with The Allied Player
+     having accumulated 2285 victory points and the Axis player 1766 victory points.
+         The Allied player has 20 air points available for use with only 14 available to
+     use currently in this Operation Phase. He has used 6 airpoints already on missions in
+     the operations Phase. The Axis player has 18 air points available with 15 ready to use
+     in the current Operation phase. He has used 3 airppoints on missions in this phase.
+        The Axis player has 1186 supply points left. The British player has unlimited supply
+     base so its supply points are not shown.
+        The Allied player has 136 replacement combat points left, the Italian player 20
+     replacements, and the German player 100 replacements left.
+        The Allied player can sealift one unit.
+
+
+VIII. SUMMARY OF KEYBOARD INPUTS
+
+LOGISTICS PHASE
+
+(D) Access Display
+(R) Ready to allocate Repl/Supply/Resupply to unit
+(F) Finished with unit. Skip unit temporarily until next round.
+(0-9) Replacements         Allocate replacements to unit.
+(0-9) Supply               Allocate Supply to unit.
+(0-9) Resupply             Allocate resupply value to unit.
+
+INITIATIVE PHASE
+
+(Y) Yes      Player wishes to move/attack first.
+(N) No       Let enemy player move/attack first.
+
+*OPERATIONS PHASE CURSOR MODE
+
+(T)  Tobruk      Move cursor to Tobruk.
+(B)  Base        Move cursor to friendly home base.
+(G)  Get unit    Display friendly units in hex. (See Selection of Unit.)
+(1-6) Moves cursor across map in directions 1-6.
+(#)  Exits the current Phase.
+
+OPERATIONS PHASE SELECTION OF UNIT
+
+(F)  Finished -  Program returns back to Operations Phase Cursor Mode.
+(1-6) Selects unit to be moved.
+
+**OPERATIONS PHASE MOVEMENT OF UNIT
+
+(B)  Build fortification      Unit's fortification level increased by 1 level.
+(S)  Sea movement            Allied unit moves from Tobruk to Alexandria;vice-versa.
+(F)  Finished                 Unit finished movement. Return to Cursor Mode.
+(1-6) Moves unit across map. An attempt to enter enemy hex results in Combat.
+
+OPERATIONS PHASE - ATTACK ENEMY UNITS
+
+(Y)  Yes  You wish to attack unit displayed.
+(N)  No   You do not wish to attack with the friendly unit displayed.
+(F)  Finished - Proceed to Attacker's Battle Intensity/Risk/Air
+
+ATTACKER'S BATTLE INTENSITY/RISK/AIR
+
+(1-9) Battle Intensity for attacker. 1 is light attack, 9 is heavy attack.
+(1-9) Risk for attacker. 1 is low risk, 9 is high risk.
+(0-9) Air points committed. 0 is no air points, 9 is 9 air points committed.
+
+DEFENDER'S RISK/AIR
+
+(1-9) Risk for defender.
+(0-9) Air points for defender.
+
+ADDITIONAL KEYS
+
+(0) Center cursor on screen
+(R) Removes units from map
+(M) Prints strategic map
+(D) Prints display
+
+
+IX.ORDER OF BATTLE
+
+Abbreviations:
+
+REG = regiment       PZ = Panzer          GE = German        SA = south african
+BATT = battalion     INF = Infantry       IT = Italian       NZ = New zealand
+DIV = division       ARM = armor          BR = British       FR = French
+BRIG = brigade      NMOBILE=non mobile    AUST = Australian  FA = Fascist
+GARR = garrison     MOBILE = Mobile       IND = Indian       GRIN = greek/Indian
+                                                        MISC SAPI= So.Afican/Polish/Indian
+                                        AXIS UNITS
+                                           COMBAT                          DATE
+UNIT#  NAME OF UNIT          COMBAT   CEILING    MORALE    TYPE       ARRIVAL
+ 1     1 AXIS GARR REG         100      300         3     NMOBILE      START
+ 2     1 AXIS DEPOT BATT        30      200         1     NMOBILE      START
+ 3     2 AXIS DEPOT BATT        30      200         1     NMOBILE      START
+ 4     3 AXIS DEPOT BATT        30      200         1     NMOBILE      START
+ 5     4 AXIS DEPOT BATT        30      200         1     NMOBILE      START
+ 6     5 AXIS DEPOT BATT        30      200         1     NMOBILE      START
+ 7     6 AXIS DEPOT BATT        30      200         1     NMOBILE      START
+ 8     21 GE PZ DIV            665      800         9     MOBILE       START
+ 9     200 GE INF REG          280      400         8     MOBILE       START
+10     ARIETE IT ARM DIV       560      600         5     MOBILE       START
+11     7/TRENTO IT MECH REG    175      200         6     MOBILE       START
+12     TRENTO IT INF DIV       385      400         4     NMOBILE      START
+13     BRESCIA IT INF DIV      245      300         4     NMOBILE      START
+14     SABRATHA IT INF DIV      45      300         4     NMOBILE      START
+15     PAVIA IT INF DIV        210      300         4     NMOBILE      START
+16     BOLOGNA IT INF DIV      210      300         4     NMOBILE      START
+17     SAVONA IT INF DIV       210      300         4     NMOBILE      START
+18     15 GE PZ DIV            700      800         9     MOBILE       5-1941
+19     90 GE INF DIV           350      400         6     MOBILE       7-1941
+20     9/TRIESTE IT MECH REG   245      300         5     MOBILE       9-1941
+21     TRIESTE IT INF DIV      210      300         4     MOBILE       9-1941
+22     LITTORIO IT ARM DIV     315      400         4     MOBILE       1-1942
+23     SNDVRBD GE INF REG      245      300         6     MOBILE       3-1942
+24     RANCHE GE INF BRIG      385      400         8     NMOBILE      7-1942
+25     164 GE INF DIV          560      600         6     MOBILE       7-1942
+26     PISTORIA IT INF DIV     210      300         5     NMOBILE      7-1942
+27     FOLGORE IT INF DIV      175      200         5     NMOBILE      7-1942
+28     YOUG FA IT INF DIV      105      200         2     NMOBILE      7-1942
+                                      ALLIED UNITS
+                                            COMBAT                           DATE
+UNIT#   NAME OF UNIT           COMBAT   CEILING   MORALE      TYPE       ARRIVAL
+29      1 BR GARR REG          600      600        3        NMOBILE    AT START
+30      1 BR DEPOT BATT        100      200        1        NMOBILE    AT START
+31      2 BR DEPOT BATT        100      200        1        NMOBILE    AT START
+32      3 BR DEPOT BATT        100      200        1        NMOBILE    AT START
+33      4 BR DEPOT BATT        200      200        1        NMOBILE    AT START
+34      5 BR DEPOT BATT        200      200        1        NMOBILE    AT START
+35      6 BR DEPOT BATT        200      200        1        NMOBILE    AT START
+36      2 BR ARM DIV           280      600        5        MOBILE     AT START
+37      9 AUST INF DIV         590      600        5        NMOBILE    AT START
+38      MISC SAPI INF DIV      290      300        5        NMOBILE    AT START
+39      70 BR INF DIV          350      400        5        NMOBILE    AT START
+40      4 IND INF DIV          390      400        5        NMOBILE    AT START
+41      7 BR ARM DIV           315      900        6        MOBILE     5-1941
+42      22 BR ARM BRIG         245      500        5        MOBILE     5-1941
+43      1 BR ARM BRIG          245      300        5        MOBILE     5-1941
+44      1 SA INF DIV           370      400        3        NMOBILE    5-1941
+45      2 NZ INF DIV           465      600        5        NMOBILE    5-1941
+46      5 IND INF DIV          350      400        5        NMOBILE    7-1941
+47      2 SA INF DIV           315      400        3        NMOBILE    7-1941
+48      1 BR ARM DIV           595      800        6        MOBILE     11-1941
+49      50 BR INF DIV          465      500        5        MOBILE     1-1942
+50      FREE FR INF DIV        245      300        6        NMOBILE    1-1942
+51      10 BR ARM DIV          665      700        5        MOBILE     3-1942
+52      10 IND INF DIV         210      300        5        MOBILE     5-1942
+53      51 BR INF DIV          560      600        5        MOBILE     7-1942
+54      44 BR INF DIV          560      600        7        MOBILE     7-1942
+55      8 BR ARM DIV           700      700        5        MOBILE     7-1942
+56      MISC GRIN INF DIV      140      200        5        NMOBILE    7-1942
+
+
+X. CHARTS AND TABLES
+
+                               REINFORCEMENTS CHART
+
+DATE       INITIATIVE    GE AIR   BR AIR  GE SUPPLY  GE REPL   IT REPL   BR REPL
+
+1941 MAR     GERMAN        3        0        7000       80       250       600
+1941 MAY     BRITISH       0        3        7000       80       250       600
+1941 JULY    BRITISH       3        3        6000       80       175       350
+1941 SEPT    BRITISH       3        3        6000       80       175       350
+1941 NOV     BRITISH       3        3        6000       80       175       350
+1942 JAN     GERMAN        0        3       10000      375       400       350
+1942 MAR     GERMAN        3        3       10000      750       800       350
+1942 MAY     GERMAN        9        3       10000      750       800       350
+1942 JULY    GERMAN        3        9       10000      375       400       350
+1942 SEPT    GERMAN        3        6        6000       80       175       350
+1942 NOV     BRITISH       3        6        6000       80       175      1600
+1943 JAN     BRITISH       3        3        6000       80       175       350
+
+                               TERRAIN EFFECTS CHART
+
+                NMOBILE     MOBILE                          NMOBILE/MOBILE
+TERRAIN         MP COST     MP COST    DEFENSE   MAX FORT     SUPPLY COST
+
+CLEAR              3           3         1.0     LEVEL 9          9/9
+ROUGH              4           8         2.0     LEVEL 5         12/24
+FORTRESS           1           1         2.5     LEVEL 3          3/3
+TOWN               1           1         2.0     LEVEL 5          3/3
+MOUNTAIN           6          12         2.5     LEVEL 3         18/36
+COAST              1           1         1.5     LEVEL 8          3/3
+LAND/IMPASSABLE   N/A         N/A        N/A       N/A            N/A
+Note: for each level of fortification a defending unit adds 20% to its combat strength.
+The terrain defense modifier and the fort level modifier cannot exceed 3.
+
+                                 COMBAT SUPPLY CHART
+
+                           ATTACKER                            DEFENDER
+BATTLE           NONMOBILE          MOBILE          NONMOBILE             MOBILE
+INTENSITY    AXIS     ALLIED   AXIS     ALLIED    AXIS     ALLIED      AXIS    ALLIED
+   1          38        49      45        59       19        19         23       23
+   2          50        65      60        78       25        25         30       30
+   3          63        82      75        98       32        32         38       38
+   4          75        98      90       117       38        38         45       45
+   5          88       114     105       137       44        44         53       53
+   6         100       130     120       157       50        50         60       60
+   7         113       147     135       176       57        57         68       68
+   8         125       163     150       195       63        63         75       75
+   9         138       179     165       215       69        69         83       83
+
+ Note: Supply costs for the computer-allied is the same as for the axis.
+
+         COMBAT LOSS CHART                             COMBAT OPERATION CHART
+
+          BATTLE INTENSITY                      BATTLE      ATTACKER      DEFENDER
+ATT CP   1   2   3   4   5   6   7   8   9      INTENSITY   AXIS ALLIED   AXIS ALLIED
+
+ 100     5   6   6   7   8   8   9   9  10          1        4     5        1     2
+ 200     6   7   8   9  11  12  13  14  15          2        5     6        2     3
+ 300     6   8  10  12  14  15  17  19  21          3        5     6        2     3
+ 500     8  11  14  17  20  23  26  29  32          4        6     7        2     3
+ 800     9  14  19  24  29  33  38  43  48          5        6     7        2     3
+1000    11  17  23  29  35  41  47  53  59          6        7     8        2     3
+1500    14  23  32  41  50  59  68  77  86          7        7     8        2     3
+2000    17  29  41  53  65  77  89 101 113          8        8     9        2     3
+2500    20  35  50  65  80  95 110 125 140          9        8     9        2     3
+3000    23  41  59  77  95 113 131 149 167
+
+
+        AIR LOSS TABLE                                      MORALE TABLE
+
+# pts. allocated    Chance to destroy 1 enemy air pt.     MORALE      MODIFIER
+
+       0                            9%                       1           1.6
+       1                           36%                       2           1.5
+       2                           36%                       3           1.4
+       3                           40%                       4           1.3
+       4                           42%                       5           1.2
+       5                           44%                       6           1.1
+       6                           46%                       7           1.0
+       7                           48%                       8            .9
+       8                           50%                       9            .8
+       9                           52%
+
+
+
+    COMBAT RISK TABLE                             UNIT CADRE TABLE
+
+RISK TOTAL        LOSS MODIFIER          MORALE      %chance to Return as Cadre
+
+   2              .97-1.08                 1                    75%
+   3              .95-1.12                 2                    80%
+   4              .93-1.16                 3                    84%
+   5              .91-1.20                 4                    86%
+   6              .89-1.24                 5                    88%
+   7              .87-1.28                 6                    89%
+   8              .85-1.32                 7                    90%
+   9              .83-1.36                 8                    91%
+  10              .81-1.40                 9                    92%
+  11              .79-1.44
+  12              .77-1.48
+  13              .75-1.56
+  14              .73-1.58
+  15              .71-1.60
+  16              .69-1.64
+  17              .67-1.68
+  18              .65-1.72
+
+
+         DEFENDER ODDS                             AIRPOWER TABLE
+
+  ODDS             MODIFIER                        # AIR            LOSS
+
+  .5-1.               .25                            0                0
+   1-1                .50                            1                1
+   2-1               1.00                            2                2
+   3-1               1.50                            3                3
+   4-1               2.00                            4                4
+   5-1               2.50                            5                5
+   6-1               3.00                            6                6
+   7-1               3.50                            7                7
+   8-1               4.00                            8                8
+                                                     9                9
+
+Attacker Losses: Find the loss in the Combat Loss Chart Multiply this loss by Risk
+and add losses due to Defender's Airpower. These losses are distributed among
+attacking units according to their combat strength. Each unit has its loss
+multiplied by the Morale modifier.
+
+Defender Losses: Same as Attacker except also modify the loss in Combat Loss Chart
+by the odds modifier along with the risk.
+
+
+                                      VICTORY CHART
+
+  Compare your score to the ranges below for the level of victory.
+
+ Tobruk'41  Tobruk'42  El Alamein  Camp.'41  Camp.'42  Campaign      Victory Level
+  <-130       <-60        <-400       <-30      <-700     <-900     Allied Strategic
+-130 to -31   60-179      400-599    30-129    700-899   900-1199   Allied Tactical
+-30 to 49    180-249      600-799   130-219    900-1099  1200-1599  Allied Marginal
+  50-119     250-399      800-999   220-364   1100-1299  1600-1999  Axis Marginal
+ 120-219     400-549     1000-1599  365-479   1300-1499  2000-2399  Axis Tactical
+  220+         550+        1600+      480+      1500+      2400+    Axis strategic

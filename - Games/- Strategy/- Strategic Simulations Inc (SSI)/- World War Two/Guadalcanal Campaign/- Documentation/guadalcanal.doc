@@ -1,0 +1,923 @@
+Guadalcanal Campaign
+1.0  Introduction...........................1
+2.0  General Description....................1
+3.0  Sequence of Play.......................1
+4.0  Task Force Adjustment Phase............1
+5.0  Task Force Movement....................3
+6.0  Planning Land Attacks..................3
+7.0  Air Operations.........................3
+8.0  Combat Resolution......................4
+9.0  General Operations.....................6
+10.0 Mini Games.............................7
+11.0 Solitaire Play.........................7
+12.0 Two-Player Games.......................8
+13.0 Order of Battle........................8
+14.0 Strategy Notes.........................8
+Guadalcanal Campaign Page 
+1.0  INTRODUCTION
+GUADALCANAL CAMPAIGN is an operational level game featuring combat 
+between U.S.and japanese air, land, surface, naval and submarine forces for 
+the control of Guadalcanal in 1942. Every ship, airplane, or infantry company 
+available to the local Japanese and American commanders in 1942 is now under 
+your control. You will need to organize your ships into task forces to 
+perform various missions: sea lane interdiction and combat, land bombardment, 
+support of air operations, and others. All play revolves around the creation 
+of these task forces and your effective manipulation of them. Included are a 
+campaign game (covering all the action from 7 August to 31 December 1942) and 
+4 mini games (featuring the major battles in the Solomons).
+1.1  Description of Action
+Each game turn represents the passage of 12 hours. A game turn consists 
+of (1) building and adjusting friendly task forces; (2) moving your task 
+forces; (3) launching air missions during daylight turns; (4) combat 
+resolution.
+1.2  Talking to the Computer
+To enter a response to the computer that consists of numbers (such as 
+ship or task force identification numbers or the number of aircraft 
+performing a mission), type the number into the computer and press the return 
+key. To select a routine from the Task force Menu or answer a Yes/No 
+question,just press the desired key. if you wish to halt the game during the 
+combat resolution phase, type CNTRL-C. This will cause the program to pause 
+until you press another key.
+1.3  Saving a Game
+Upon completion of the Combat Phase of each turn the computer will 
+allow the player(s) to save the game in progress.You will need a scratch disk 
+to store the saved game data. Each disk may save up to 4 games. The disk must 
+be initialized for SSI use by following the instructions included in the 
+program. Once the game is saved you will be able to restart it from the point 
+at which you left off.
+1.4  The Map
+The map is a 40 X 40 square grid representation of the Southwest 
+Pacific with each square measuring 60 nautical miles in width. Green squares 
+are land, white squares are bases or ports, red squares are Japanese task 
+forces, blue squares are U.S. task forces, black squares are open ocean. Each 
+space is 60 nautical miles wide. The range between two squares is calculated 
+from the center of the first square to the center of the second square. The 
+number thus obtained is rounded up. Example: 5 squares over, 1 square up, 
+equals range of 5.099 or 6.
+1.5  Starting a Game (DOS 3.2 or DOS 3.3)
+To begin a game, boot your game disc and the game will begin 
+automatically. If you are using an Apple II with Pascal, you must first use 
+your BASICS disc. If you are using an Apple III you must first go into Apple 
+II Emulation Mode.
+2.0  GENERAL DESCRIPTION
+2.1  Parts inventory
+A. Game box
+B. Rule book
+C. 5 1/4" Game disc
+D. Two map data cards
+2.2  Passwords
+At the start of a non-solitaire game both sides will be required to 
+enter a password. The password may contain any combination of letters and 
+numbers less than 256 in length. It is important that both sides keep their 
+passwords secret to insure that the computer will give secret information 
+only to the proper side. Some sample Passwords are: "IJN", "1942", and "A".
+2.3  Abbreviations
+Abbreviations used in the game are explained below:
+CV  - Aircraft CarrierCL  - Light Cruiser
+CVL - Light Aircraft CarrierDD  - Destroyer
+BB  - BattleshipDMS - Minesweeper
+ML  - MinelayerCA  - Heavy Cruiser
+CAP - Combat Air PatrolCLAA- Light Anti-Aircraft Cruiser         
+APD - Destroyer TransportCS  - Seaplane Tender
+SS  - SubmarineTK  - Tanker
+TR  - TransportTF  - Task force
+USN - United States NavyIJN - Imperial Japanese Navy
+MG  - Main GunsCC  - Cargo/Aircraft Capacity
+AA  - Light GunsTT  - Torpedoes
+MS  - Maximum SpeedIF  - Infantry Companies On Board
+SU  - Supply Units on BoardDM  - Damage Percentage
+3.0  SEQUENCE OF PLAY
+GUADALCANAL CAMPAIGN is designed to be a two-sided game: American vs. 
+Japanese. The American forces must be commanded by a human player. The 
+Japanese forces may be commanded by either a human or the computer.
+3.1  Scenario Selection Phase
+During the scenario selection phase the player(s) Select a scenario and 
+determine the conditions under which the game will be played. The set-up may 
+be altered by entering the following numbers:
+<1> New game vs. Save game
+<2> Color TV vs. Black & white TV
+<3> Solitaire vs. Two-player
+<4> Solitaire level of difficulty (1-4)
+<5> Sound On vs. Sound Off
+The scenario may be altered by entering the following numbers:
+<5> Campaign game (Aug. 7 to Dec. 31, 1942)
+<6> Coral Sea (May 4 to May 9, 1942)
+<7> Eastern Solomons (Aug. 24 to Aug. 25, 1942)
+<8> Santa Cruz (Oct. 26 to Oct. 27, 1942)
+<9> Guadalcanal (Nov. 12 to Nov. 15, 1942)
+<0> Campaign.2 (Oct. 1 to Dec. 31, 1942)
+3.2  Historical Set-up
+At the start of each game the computer will assign all ships,aircraft, 
+infantry and supplies to their historical locations prior to the battle.
+3.3  Daytime (AM) Sequence
+A. American TF adjustment phase
+B. American movement phase
+C. Japanese Tf adjustment phase
+D. Japanese movement phase
+E. Japanese air operations phase
+F. American air operations phase
+G. Combat resolution phase
+H. Save game phase
+3.4  Nighttime (PM) Sequence
+The PM sequence is the same as the AM sequence except steps E and F are 
+deleted.
+3.5  Keeping Time
+An AM turn followed by a PM turn equals one day. The calendar is 
+adjusted at the end of the PM turn.
+4.0  TASK FORCE ADJUSTMENT PHASE
+At the start of the task force adjustment phase the computer will 
+display a menu listing four options for adjusting your forces and six options 
+for reviewing the status of your forces. To enter the desired routine just 
+press the corresponding numbered or lettered key.
+4.1  Forming Task Forces
+A. Enter the code for the port in which you will assemble your TF (E, 
+B, R,T).
+B.  Enter the code for the mission your TF will perform. See section
+   9.2 for a list of the possible missions.
+C. The computer will list those ships in the selected port that are
+  eligible to perform the selected mission. Each ship will be displayed with 
+its I.D. number.
+D. Assemble your TF by entering the desired ship numbers. In some cases 
+the screen cannot list all of the eligible ships at once; if you do not see 
+the ships that you want, press <RETURN> and another batch of ships will be 
+listed.
+E. When the computer prompts "CONTINUE SELECTION Y/N" Press <Y> if you 
+are satisfied with your selection. Press <N> and the computer will run 
+through the list again.
+4.2  Combining TFs
+Two Tfs occupying the same grid location may be combined. In the 
+following manner:
+A. Enter the number of the "gaining" TF and the "merging" TF.
+B. All ships in the "merging" TF will be added to the "gaining" TF and 
+the merging TF will be deleted.
+C. If the merging TF had a lower endurance level then the gaining TF 
+will assume that endurance level.
+D. If the merging TF had an "R" or "FR" mission then the gaining TF   
+will assume an "R" mission.
+E. Submarine TFs may not combine with non-submarine TFs.
+4.3 Dividing TFs
+A. Enter the number of the TF you wish to divide. The computer will 
+list the ships in the selected TF. A ship with "*** " printed after its name 
+is crippled.
+B. If you already have seven active TFs in play, the computer will   
+display the message "TOO MANY ACTIVE TFS" and return to the menu.
+C. Enter the number of the ships you wish to transfer to a new TF. The 
+computer will set up a new TF for you. The new TF will have the same mission 
+and endurance as the original TF.
+D. When there are six or fewer friendly TFs in play the DIVIDE TF 
+function maybe used to "scuttle" crippled ships, just enter the letter "S" 
+following the number of the ship you are transferring. Your opponent will 
+receive one less victory point for ships that are scuttled than would 
+ordinarily be rewarded for a ship sunk involuntarily (your crew is assumed to 
+have been removed safely).
+4.4  Loading Transports
+Before troops and supplies may be moved to Guadalcanal they must first 
+be loaded onto ships in a friendly port.
+A. Use the LOAD TRANSPORTs-TRAIN CV PILOTS routine, enter the code for 
+the port in which the loading is to take place. The computer will list all 
+eligible ships in that port with a cargo capacity greater than zero.
+B. Enter the number of the ship you wish to load and then enter the 
+number of infantry companies and/or supply units you wish to load. Each 
+infantry company represents 200 men.
+C. If you wish to unload cargo while still in port type a U in response 
+to the question "number of infantry companies/supply units to be loaded". By 
+typing a U the current cargo will be unloaded.
+4.5  Training Carrier Pilots
+To replace losses for depleted carrier air groups, land-based aircraft 
+(pilots) must be trained for carrier operations.
+A. Use the LOAD TRANSPORTS-TRAIN CV PILOTS routine. Select the code for 
+the port that is furnishing the aircraft for training. The carrier must 
+already be assigned to this port.
+B. Enter the number of the carrier that is to receive the aircraft.
+C. The computer will list all of the aircraft available in the port. 
+Enter the quantity you wish to transfer.
+D. The carrier will be taken out of circulation for 15 days while the 
+"training" is being accomplished.
+E. Betty, Nell and fortress aircraft may never operate from carriers.
+4.6  Checking the Pipeline
+Reinforcements and repaired vessels will periodically be sent to ports 
+you control. To check the status of these units, you may request the current 
+condition of your ship "pipeline".
+A. Enter the code (E, B, R, T) for the port you wish to check.
+B. The computer will list all ships currently in that port and all 
+ships due to arrive there.
+C. For ships in the repair, refit or reinforcement "pipeline" the  
+computer will list the time in days before that ship can return or arrive.
+4.7  Sunk Ships Display
+The computer will list all ships that have been sunk and the points 
+awarded for their sinking.
+4.8 Air Group Display
+The computer will display the number of each type of aircraft assigned 
+to each friendly airbase or carrier that is active.
+4.9 List Active TFs
+A. The computer lists the TF number, mission and endurance for each 
+friendly TF currently in play.
+B. The computer will prompt "CHECK SHiP STATUS Y/N". If you wish to 
+examine the ships in a particular TF then press <Y> and then enter the number 
+of the TF you wish to examine.
+4.10  Map Display
+The computer will display the map and all friendly active TFs. If you 
+wish to locate a particular friendly TF on the map then enter that TFs 
+number. The TF's square will flash to indicate its location.
+4.11  Guadalcanal Status Display
+The computer will display the number of troops and supply dumps you 
+control on Guadalcanal.
+4.12  Ending the Game
+Both players should agree before ending the game. The computer will 
+display the final score.
+5.0  TASK FORCE MOVEMENT
+TFs move by expending movement points. The number of movement points a 
+TF is allowed is dependent on the TFs "fleet speed".
+5.1  Fleet Speed
+A.  A TF's fleet speed is calculated as 25 knots or the speed of the 
+slowest ship in the TF, whichever is Lower.
+B. The speed of a TF which is assigned a "fast" mission will be 30 
+knots or the speed of the slowest ship in the TF, whichever is lower.
+5.2  Movement
+A. A TF receives 1 movement point for each 2 1/2 knots of fleet speed. 
+A TF will receive a minimum of 3 movement points.
+B. A TF expends 2 movement points for each square moved in directions 
+N, S, E, W. C. A TF expends 3 movement points for each square moved in 
+directions NW, NE, SW, SE.
+D. A TF with fewer than 2 points remaining in its move may not move any 
+further, but it may still "dock".
+E. If you accidently press the wrong key while moving,you may then 
+press the <A>bort key and start your move over.This may not be done after you 
+have docked a TF.
+F. A TF may never enter a land square. A TF may move freely through any 
+other square.
+5.3  Movement Sequence
+A. During the movement phase friendly TFs must be moved sequentially 
+according to TF number. Once a TF has completed its move the action cannot be 
+reversed.
+B. A player may examine the ships in a TF at any time during the TFs 
+movement segment. Press the <S>hips key and the computer will give a complete 
+status display for each ship in the TF. The column heading abbreviations for 
+the display are as follows: MG = main guns, AA= light guns, TT= torpedoes, CC 
+- cargo/aircraft capacity, MS = maximum speed, IF = infantry companies on 
+board,  SU = supply units on board, DM = damage percentage.
+6.0  PLANNING LAND ATTACKS
+During AM turns the computer will display the number of troops and 
+supplies available and if you are eligible to attack the computer will prompt 
+"DO YOU WlSH TOATTACK Y/N".
+A. To attack press <Y> and then enter the level (1 to 5) of your attack.
+B. A level 1 attack is a reconnaissance in force and will consume 1 
+supply dump. A level 5 attack is an all out Banzai charge and will consume 5 
+supply dumps, etc.
+C. If supply is in sufficient for the planned level of attack then the 
+attack will not occur.
+7.O  AIR OPERATIONS
+During the Air Operations phase a player may (1) launch CAP and search 
+aircraft (2) observe search results (3) launch airstrikes (4) prepare 
+counterstrikes (5) transfer aircraft.
+7.1  CAP and Search Missions.
+A. At the start of each Air Operations Phase each player must determine 
+how manyof his fighters will fly CAP missions and how many of his bombers 
+will fly search missions. Aircraft performing CAP or Search may not 
+participate in Air Strikes during that turn.
+B. Fighters may fly two types of CAP missions: (1) normal CAPand (2) 
+Long Range CAP. Normal CAP will protect only the TF or Airbase from which it 
+originated. Long Range CAPwiII protect any friendly TF within a 5 square 
+range of the launching base or carrier. Only a fractlon of an air group 
+performing Long Range CAP will intercept an enemy air strike (the greater the 
+distance between the CAP's home base and the air strike target - the smaller 
+the fraction). The percentage of planes intercepting is as follows:           
+3O
+Range of Target% of CAP Intercepting
+076
+143
+230
+323
+418
+515
+C. Bombers may fly two types of Search Missions: (1) normaI search and 
+(2) sub search. Normal Search Missions can detect only enemy surface TF's. 
+Sub Search missions can detect only enemy submarines.
+D. Each active airbase is equipped with 10 float planes which 
+automatically fly search missions every AM turn. These planes fly 
+independently (they will not fly in conjunction with bombers flying from the 
+same airbase). Thesefloatplanes may never be destroyed.
+E. All BB, CA, CL, CLAA and CS class ships are equipped with float 
+planes. The cruisers Tone and Chikuma and all CS cIass ships will each add 3 
+float planes to its TFs search mission. All the other listed ships will add 1 
+float plane to its TF's search mission. Float pIanes will only perform normal 
+search. A ship which suffers any damage at all can no longer launch its fIoat 
+planes. Ship launched floatplanes will search separately from bombers.
+F. Search ranges for aircraft are listed below:
+DAUNTLESS10FORTRESS 20BETTY20
+AVENGER10VAL12NELL20
+DEVASTATOR 6KATE12FLOAT20
+Range is calculated as shown in section 1.4.
+G. The maximum search range of a base or TF is equal to the search 
+range of the lowest range search plane.
+7.2  Search Results Display.
+A. During the Search Phase the computer will list the numbers of each 
+enemy TF sighted and display its location on the map with the appropriate Red 
+or Blue square.
+B. If you wish to examine the contents of an enemy TF just type the TF 
+number and press Return. The computer will list the symbols for each ship 
+assigned to that TF. (CV, BB,CA,CL, DD, etc.) The computer will also cause 
+the TFs location square to flash on the map. The ship types reported maybe 
+incorrect as might be the number of ships reported sighted. You may only look 
+at each sighted TF once per search phase.
+C. Press <E> to exit the Search Results Display.
+7.3 Launching Air Strikes.
+Enemy TFs sighted on the Search Results Display may be attacked by 
+available friendly aircraft within range.
+A. The computer wilI request a targed for each friendly active 
+airbase/carrier. Type in the TF number of the enemy TF you wish to attack. 
+The computer will list the range to the target and
+ask you how many of each type of aircraft you want to launch.
+The computer will not allow you to launch aircraft beyond their range. The 
+computer will not allow you to attack unsighted enemy TFs. Each TF or base 
+may launch only one airstrike per turn. However, each TF may launch one 
+airstrike and also prepare a counterstrike.
+B. The Japanese player may bomb Henderson field by targeting TF#1. The 
+Americans may bomb the Cape Esperance Supply Base by targeting TF #11.
+C. The ONLY bases that may be attacked are those listed in paragraph 
+7.3.B.
+D. The Attack Ranges for aircraft are listed below:
+Wildcat5Zeke15
+Dauntless5Val 6
+Avenger5Kate 6
+Devastator3Betty15
+Fortress18Nell15
+E. Zeke and Wildcat aircraft may be included in Air Strikes but they 
+may never attack enemy surface or submarine targets. They function as escorts 
+to protect the bombers and shoot down enemy CAP.
+7.4  Preparing CounterStrikes.
+Aircraft Carriers may reserve none, some, or all of their aircraft for 
+Counterstrike Missions. If the carriers TF is attacked by an enemy carrier 
+air group then the counterstriking aircraft will "follow" that air group home 
+and attack the enemy carriers TF.
+A. Duringthe Counterstrike Preparation Phase the computer will list the 
+remaining (those not flying CAP, Search or Strike missions) carrier 
+aircraftand ask how many of each you plan to reserve for counterstrikes.
+B. If a carrier receives 26% or greater damage or has its speed reduced 
+below 15 knots then it cannot launch its counterstrike.
+C. Airbases may never prepare counterstrikes.
+D. Counterstrikes will never attack enemy airbases.
+E. Counterstrike aircraft on the decks of carriers may explode if the 
+carrier is hit by bombs, torpedoes or gunfire. Each aircraft that explodes 
+will cause 1 damage point. US carriers are only vulnerableto aircraft 
+exploding on deck duringthe Coral Sea minigame.
+7.5  Aircraft Transfers.
+Aircraft may be transferred freely between airbases and/or carriers 
+with the following restrictions.
+A. Only 1 air transfer mission may be performed each AM turn.
+B. Fortress aircraft may never transfer.
+C. Aircraft may never transfer from an airbase to a carrier (this 
+requires pilot training - see para. 4.5)
+D. for transfer purposes aircraft have their range tripled.
+E. The Japanese may transfer only Zeke aircraft into the Shortlands 
+Airbase.
+7.6  Airbases.
+A. The Japanese player may operate aircraft from the following  
+airbases: Rabaul, Truk and Shortlands. The Shortlands Airbase does not become 
+active until October 7th.
+B. The American Player may operate aircraft from the following 
+airbases: Henderson fieId, Espiritu Santo and Brisbane. The Henderson field 
+Airbase does not become active until August 20th.
+8.0  COMBAT RESOLUTION
+During the Combat Resolution Phase the computer will automatically 
+perform the following functions:
+(1) Airstrike Resolution
+(2) Surface and submarine combat resolution
+(3) CoastaI Bombardment
+(4) Return aircraft to their bases and carriers
+(5) Launch and Resolve Counterstrikes
+(6) Return aircraft to carriers
+(7) Unload Transports
+(8) Resovve combat on Guadalcanal
+(9) Repair & Refit of ships
+(10) Activate Reinforcements.
+8.1  Air Strike Resolution.
+Each Air Strike is resolved in 3 segments:
+(1) CAP resolution
+(2) flak Resolution
+(3) Bomb or torpedo hit resolution.
+A. Before an airstrike group can attack an enemy TF or base it must 
+first suurvive the onslaught of each CAP fighter group protecting the target. 
+Individual CAP fighters will randomly select a bomber or escort fighter 
+target and attack it. If the attack fails to shootdown the target aircraft 
+then the target aircraft will counter-attack. This sequence is repeated for 
+each participating CAP fighter.
+B.  An example of CAP target selection is as follows: if an airstrike 
+has 10 escort fighters and 20 bombers then each CAP fighter will have a 33% 
+chance of selecting an escort fighter for a target and a 67% chance of 
+selecting a bomber for a target.
+C. The folIowing table shows the chances for a CAP fighter to destroy 
+each type of aircraft and the chances of a counter-attack destroying the CAP 
+fiChter:
+AIRCRAFT SHOOTS DOWN
+  AIRCRAFT SHOT DOWNCAP FlGHTER
+Zeke18% (27%)22% (13%)
+Wildcat18%22%
+Val35% 5%
+Dauntless35% 5%
+Kate35 5%
+Avenger35% 5%
+Devastator35% 5%
+Betty35% (52%) 5% (1%)
+Fortress10%10%
+The numbers in parentheses are for Rabaul-based aircraft making LONG 
+RANGE STRlKES.
+D. Each bomber that survives CAP combat will select a target ship from 
+those in the target TF and attempt to penetrate the TF's flak and deliver its 
+ordnance. Target selection is accomplished in the following manner: each ship 
+is assigned a selection value (SV) equal to its Defense factor plus ten times 
+its cargo/aircraft capacity. The chance of a particular ship being attacked 
+is equal to the SV of that ship divided by the combined SV of the target TF.
+E. The chance of a bomber being shot down by flak is equal to the TF 
+Flak Strength divided by 500. If there are more than 12 ships in the TF then 
+the TF Flak Strength is equal to the Average AA rating for sips in the TF 
+times 12. For Japanese TFs the Flak Strength will be halved. (Japanese AA 
+fire was usually ineffective.) AA fire directed at B-17's will only be 1/10 
+as effective as against all other aircraft.
+F. The chances of bombers hitting their targets are affected by: (1) 
+bomber accuracy (2) maximum speed of target (3) flak intensity (4) the range 
+of the strike (5) size of target. The relative accuracy of each bomber is 
+listed below:
+FORTRESS 1BETTY 4
+AVENGER 2KATE 8
+DEVASTATOR 2VAL16
+DAUNTLESS12NELL2
+All bombers are equally accurate when attacking enemy bases except the 
+FORTRESS which wiLl cause twice the damage of the other bombers. Air strikes 
+against bases can only destroy parked aircraft or supply dumps.
+G. The first airstrike on any particular submarine will cause the 
+submarine to submerge.The act of submerging will protect the submarine from 
+further air attacks during that turn.
+8.2  Surface Combat Resolution.
+Surface combat may occur between opposing TFs that occupy the same 
+space if at least one of theTF's is performing a Combat Patrol Mission (C) 
+and has an endurance of at least 9.
+A.  Surface combat is resolved using the following sequence: (1) each 
+U.S. ship in a TF performing a "C" mission will fire at one of the ships from 
+one of the Japanese TFs in the same space (2) each Japanese ship that 
+occupies the same space as the attacking U.S. TF will fire at one of the 
+ships from the attacking TF (3) each Japanese ship in a TF performing a"C" 
+mission will fire at one of the ships from any U.S. TF that occuppies the 
+same space (4) each U.S. ship that occuppies the same space as the attacking 
+Japanese TF will fire at one of the ships from the attacking TF.
+B. Target selection for surface combat is similar to that used for air 
+attacks. In surface combat a ship selection value (SV) is equal to that 
+ship's defense factor.
+C. When attacking, each shipwill (1) fire torpedoes (2) fire main guns 
+(3) fire secondary guns. Ships carrying 12 or more torpedoes will fire half 
+of them at the target. Ships carrying less than 12 torpedoes will fire all of 
+them at the target.
+D. The accuracy of gun fire and torpedoes is adjusted according to the 
+speed and size of the target. Japanese surface launched torpedoes will be 8 
+times more accurate than U.S. surface launched torpedoes. Japanese gunfire 
+will be twice as accurate as U.S. gunfire except the U.S. battleships which 
+will be 50% more accurate with gunfire than the Japanese.
+E. During the first 7 days of the campaign game U.S. ships will suffer 
+a major disadvantage in surface combat.
+F. The following restrictions apply during daylight surface combat: (a) 
+AA guns will not fire at ships with main guns. (b) IJN torpedo accuracyis 
+reduced by 2/3 when firing at uncrippled ships. (c) USN ships wilI only fire 
+torpedoes at crippled ships.
+G. APDs and DMSs will fire only 50% of the time during surface combat. 
+TRs, TKs, CVs, and CVLs will never fire. A ship that picks as its target a 
+ship that has already sustained enough damage to sink, will not fire. A ship 
+that picks as its target a carrier, will onIy fire if it has a speed greater 
+than the carrier.
+8.3 Submarine Combat.
+A. Submarines patrol an area up to 2 spaces away from their actual TF 
+location.
+B. Each sub in a TF will have about a 10% chance of attacking an enemy 
+surface TF within its patrol area. Each sub in a TF will have about a 2% 
+chance of attacking an enemy sub TF within its patroI area.
+C. The chance of engaging and torpedoing an enemyship will be reduced 
+by the number of escorts (DD, DMS, APD) present in the defending TF.
+D. A sub which has been sighted by enemy sub search will have its 
+chance for successful attack reduced and its chance of being sunk by "depth 
+charge: increased.
+E. When attacking, submarines will fire a salvo of 6 torpedoes OR all 
+of their remaining torpedoes, whichever is less.
+F. Japanese submarine torpedoes will be 2.5 times more accurate than 
+U.S. submarine torpedoes.
+G. After a submarine launches an attack opposing escorts will fire 
+depth charges at the sub. American depth charges are twice as effective as 
+Japanese depth charges.
+8.4  Coastal Bombardment.
+If a TF with a "B" mission ends its move on the Henderson field base 
+square then it will automatically bombard during the combat resolution phase 
+(unless forced to abort due to surface combat).
+A. Japanese bombardments will destroy parked aircraft and supply dumps 
+on Henderson field.
+B. U.S. bombardments will destroy Japanese supply dumps.
+C. A ship which has sustained 10$ or greater damage will not bombard. 
+D. Only the four "heaviest" ships in a bombardment TF will bombard.
+E. For bombardment purposes BB main guns have 12 times the firepower of 
+all other main guns and 24 times the firepower of AA guns.
+F. Bombardment missions may be aborted if the TF engages in surface 
+combat with a large enemy TF.
+8.5 Aircraft Returning to Base.
+A. After completing their missions, aircraft will attempt to return to 
+the same base or carrier from which they were launched.
+B. If launched from a carrier which received 26% or more damage or had 
+its speed reduced below 15 knots, the aircraft will try to make an 
+"emergency" landing on another carrier or base.
+C. Emergency ;andings will; occur automatically if there is a friendly 
+base or carrier within 3 squares of the origin carrier.
+D. If an emergency landing is required and there are no eligible bases 
+or carriers within 3 squares then the aircraft will ditch in the ocean.
+E. Strike aircraft will land before Counterstrikes are launched. CAP 
+and Search aircraft will land after all other air operations have been 
+completed.
+8.6  Unloading Transports.
+Any ship carrying troops or supplies, whose TF ends its move on the 
+Henderson field space, will unload some or all of its passenger/cargo on 
+Guadalcanal.
+A. A ship can unload a maximum of 2 infantry companies OR 1 supply dump 
+OR 1 infantry company and one supply dump in a single turn.
+B. Infantry and supplies may be used for land combat on the same turn 
+they are unloaded.
+8.7  Land Combat.
+Planned land attacks (see section 6.0) will be executed during the 
+combat resolution phase. First U.S. attack resolution will be completed, then 
+Japanese attack resolution.
+    A.  All available attacker forces will participate in the attack and are 
+subject to casualties. The U.S. force must reserve 9,000 men (45 companies) 
+to defend Henderson FieId, these 9,000 men are NOT AVAlLABLE to attack. The 
+U.S. forces will not attack with less than 10,000 men on Guadalcanal.
+B. Land attack procedure is as follows: (1) defender forces open fire 
+inflicting casualties on the attacker (2) surviving attacker forces inflict 
+casualties on the defender (3) the computer gives an estimate of the 
+remaining defender forces (+/- 50%).
+C. Defending against Japanese attacks will consume 1 U.S.supply dump. 
+If there are no U.S.supply dumps on Henderson field then U.S. casualties will 
+be DOUBLED.
+D. As a general rule, the higher the level of attack (1-5) the greater 
+the casualties infIicted on both sides.
+8.8  Repair and Refit of Ships.
+A. Damaged ships which docked during the previous movement phase are 
+placed in the REPAIR PIPELINE. Undamaged CV, CVL, BB, TR and SS cIass ships 
+will be placed in the REfIT PIPELINE. Damaged CV, CVL, BB, TR and SS class 
+ships must complete both REPAIR and REfIT PIPELINE functions before they can 
+be reactivated. REfIT requires one week in Truk or Brisbane and two weeks in 
+Rabaul or Espiritu Santo. (Submarines require only one week REFIT 
+irrespective of port.) A TF that docks with an endurance remaining greater 
+than 50 will not be required to REFIT.
+B. Undamaged ships (other than those mentioned in para. A), which 
+docked during the previous movement phase, do NOT require REFIT. These ships 
+may be placed in a TF with a full endurance during the next TF Adjustment 
+Phase.
+C. The average number of turns needed for repair is equal to 8 to 10 x 
+damage points suffered. Repairs performed in Rabaul and Espiritu Santo will 
+require 20% longer than the formula given above. The number of damage points 
+sustained by a ship can be calculated by multiplying the ship's DF by the 
+percentage damaged. Also, repair time for a ship may be doubled with smaller 
+ships having a greater chance of lengthened repair time (there is 71% chance 
+that an average DD's repair time will be doubled while a US BB has only a 6% 
+chance of requiring double repair time).
+8.9  Reinforcement Arrival.
+Ship reinforcements will arrive on a day to day basis as scheduled on 
+the Pipeline Display. Infantry and aircraft reinforcement may arrive during 
+AM game turns. Infantry and aircraft reinforcements will be as follows:
+   INF CO.    ZEKE    VAL    KATE    BETTY
+RABAUL11180024R
+TRUK 0 776 0
+SHORTLANDS 018R00 0
+   INF CO.   WILDCAT  DAUNTLESS  AVENGER  FORTRESS
+ESPlRlTU SANTO 8 763 3
+BRlSBANE 0 784 0
+A. Aircraft reinforcements coded "R" are actually replacements. Rabaul 
+will only receive Betty replacements if there are less than 40 Bettys 
+currently on hand. Rabaul or Shortlands will only receive Zeke replacements 
+if there are less than 30 Zekes on hand.
+B. If Shortlands receives Zeke replacements then Rabaul will not 
+receive Zeke replacements.
+C. Shortlands will not receive any aircraft until after October 6th.
+D. Each AM turn there is a 1/7 chance of occurrence for each of the 
+foIIowing events:
+1) Infantry reinforcements arrive in Rabaul and air reinforceforcements 
+arrive in Truk.
+2) Air replacements arrive in Rabaul and Shortlands.
+3) Infantry reinforcements arrive in Espiritu Santo and air 
+reinforcements arrive in Brisbane.
+4) Air reinforcements arrive in Espiritu Santo.
+9.0  GENERAL OPERATIONS
+9.1  Damage To Ships.
+Ships accrue damage "points" when they are hit by bombs, torpedoes or 
+gunfire. When the totaI damage points are greater than or equal to 50% of a 
+ships DF then that ship is "Crippled".
+A. A table listing the average damage points caused by each type of 
+weapon is shown below:
+Light (AA) gun    .5Bomb3
+CL main gun121 inch torpedo5
+CA main gun224 inch torpedo9
+Yamato main gun9
+US BB main gun8
+Mutsu main gun7
+Other Japanese BB main gun6
+21 inch torpedo hits will reduce a ship's maximum speed by at least 5 
+knots. 24 inch torpedo hits will reduce a ship's maximum speed by at least 10 
+knots. Only Japanese surface ships carrythe 24 inch torpedo. Whenever a ship 
+is hit it may suffer additional damage due to a critical hit. The message 
+"explosion on board the..." reveaIs that a critical hit has been scored.
+B. CV and CVL class ships with 26% or more damage or a maximum speed 
+less than 15 knots may not launch or land aircraft. Note: This means that 
+carriers in TFs reduced to 5 knots due to 0 endurance wlll not be able to 
+launch aircraft.
+C. Ships with 10% or more damage will not bombard enemy bases.
+D. Crippled ships have a maximum speed of 5 knots and may accrue 
+additional damage while returning to port. Major additional damage will be 
+shown by the message "explosion on board the...". It is also possible for a 
+ship to repair itself while at sea. Repairs will be attempted until the ship 
+is no longer crippled.
+9.2 TF Missions.
+Listed below are the missions that may be assigned to a TF and the 
+endurance allowed for each mission:
+C - Combat Patrol:endurance = 60 turns (30 days)
+B - Bombardment:endurance = 60
+T - Transport:endurance = 60
+U - Submarine:endurance = 80
+FC- Fast Combat Patrol:endurance =  6
+FB- Fast Bombardment:endurance =  6
+FT- Fast Transport:endurance =  6
+R - Return
+FR- Fast Return
+A. When a TF completes or aborts a mission then its mission will be 
+changed to R.
+B. Carriers (CV, CVL ships) may only perform "C" missions.
+C. Transports (TR ships) may only perform "T" missions.
+D. Submarines (SS ships) may only perform "U" missions.
+E. Only TFs with "C" or "FC" missions may initiate surface combat.
+F. Only TFs with "B" or "FB" missions may perform coastal bombardment.
+G. An FB TF that completes its bombardment will have its mission 
+changed to FC.
+H. A fast TF that aborts its mission due to surface combat (see section 
+9.3 D) will have its mission changed to FR. A TF that has had its mission 
+changed to FR may not unload its cargo on Guadalcanal. 
+L. Surface combat may cause a FB or B TF to abort its mission (see 
+section 9.3 D).
+9.3 TF Endurance.
+A. A TF's endurance is reduced by one for each turn it spends at sea.
+B. A TF's endurance is reduced to 10 if the TF is attacked by enemy 
+bombers. if the endurance is already less than 10 then it is unaffected. 
+Fortress attacks of greater than 7 squares in range will not affect 
+endurance. Transport TFs will never be reduced.
+C. A carrier TF's endurance wiLl be reduced by 5% for each air strike 
+that it launches.
+D. Surface combat reduces endurance as follows: The attacking TFs 
+endurance is reduced to 8 (if currently greaterthan 8) If the defending TF's 
+combined defense factors multiplied by a random number between 0 and 1 is 
+greater than 25 ((total DF of all defending ships) x rnd (1) > 25). The 
+defending TF's endurance is reduced to 8 (if currently greater than 8) If the 
+total attacker main guns multiplied by a random number between 0 and 1 is 
+greater than 15 ( (total MG of all attacking ships) x rnd (1) > 15). For 
+these purposes the MG of battleships is multiplied by 4 (battleships will 
+tend to scare off enemy TFs). The reduction in endurance given above will 
+cause a Bombardment force to abort its mission and prevent fast TF's from 
+unloading cargo on Guadalcanal.
+E. If a TF's endurance reaches zero and it fails to dock during that 
+turn then all of its ships will have their maximum speed reduced to 5 knots. 
+F. Subs with 0 endurance may not fire torpedoes.
+9.4  Supply.
+Supply dumps are used only by infantry and aircraft units on 
+GuadaIcanal.
+A. Supply dumps are consumed as follows:
+Infantry attack  1 to 5
+U.S. daily supply1
+Japanese daily supply1
+Henderson Field Air Strike1
+U.S. Infantry defensive fire1
+Henderson Field search/sub-search/cap missions0
+B. Henderson Field may not conduct air operations if there are less 
+than 3 supply points available.
+C. Both U.S. and Japanese infantry on Guadalcanal will sufter 1% 
+attrition each day there are no supplies available.
+D. U.S. infantry will suffer DOUBLED casualties from Japanese infantry 
+attacks if there are no U.S. supply dumps available.
+9.5 Scoring.
+A. Each player receives 1 victory point (VP) for each infantry company 
+on GuadalcanaI at the end of the game.
+B. Players receive VPs for sinking enemy ships equal to that ships 
+Defense Factor plus its cargo/aircraft capacity. Players receive 1 VP for 
+each damage point inflicted on an enemy ship at sea at the end of the game. 
+Players also receive 1 VP for each week a ship is out of action as of the end 
+of the game. However, they do not receive points for the first two weeks a 
+ship is out of action as of the end of the game. (This allows time for 
+refitting as opposed to repair time.)
+C. The player controlling Henderson Field receives 500 VPs at the end 
+of the game. (The game ends immediately if the Japanese capture Henderson.) 
+Henderson Field is captured by the Japanese if the Japanese attack, reduce US 
+infantry strength on Guadalcanal to 0, and have at least one remaining 
+company on the island.
+D. The current score is summarized at the beginning of each turn.
+E. Subtract US victory points from IJN victory points and compare the 
+result to the following table to determine the victor:
+1,000 and upJapanese Decisive Victory
+  500 to 999Japanese Substantive Victory
+  100 to 499Japanese Marginal Victory
+  +99 to -99Draw
+ -100 to -499American Marginal Victory
+ -500 to -999American Substantive Victory
+-1000 and lessAmerican Decisive Victory
+9.6 Weather
+There are three levels of weather, clear, light overcast and heavy 
+overcast. The weather is clear at the start of each game.
+A. Weather will influence the ability to spot enemy task forces at 
+ranges greater than 1.5. The chance of spotting TF's at ranges over 1.5 is 
+reduced by 1/3 during light overcast, and by 2/3 during heavy overcast.
+B. There is a random chance each turn that the weather will change. The 
+weather is graduated such that in any one turn the weather could not change 
+from clear to heavy overcast, it would have to change to light overcast, 
+before it could become heavy overcast. The weather can change a maximum of 
+one level per turn.
+9.7 Limitations on Airbases
+A. Henderson Field has a maximum capacity for aircraft of 100.
+B. Only Zekes may be transfered onto the Shortlands. Other aircraft may 
+land on the Shortlands if forced to due to the loss of a carriers flightdeck. 
+Shortlands has a maximum capacity of 60 aircraft.
+9.8  Short Campaign Game (October 1 - December 31)
+Players may start the campaign on October 1st by choosing the CAMPAlGN 
+.2 option from the initial menu. All campaign game rules apply, with the only 
+change being that the victory point schedule is changed to the following:
+1200 and upJapanese Decisive Victory
+ 700 to 999Japanese Substantive Victory
+  30 to 699Japanese Marginal Victory
+ 101 to 299Draw
+ 100 to -299American Marginal Victory
+-300 to -799American Substantive Victory
+-800 and lessAmerican Decisive Victory
+10.0  MINI-GAMES
+The Guadalcanal Campaign includes 4 mini games: Coral Sea, Eastern 
+Solomons, Santa Cruz and Guadalcanal. Due to their limited scope the mini 
+games include some special rules and restrictions.
+10.1  Mini Game Special Rules.
+A. The U.S. pIayer does not receive 500 VPs for controlling Henderson 
+Field at the end of a mini-game.
+B. New TFs may not be formed during Mini games. (Exception: the 
+Japanese may form a new TF at Rabaul in the Guadalcanalmini-game)
+C. TFs may NEVER dock during a mini-game.
+D. In the Eastern Solomons Mini game the Japanese player receives 75 
+VPs for play balance.
+E. No reinforcements will arrive during mini games.
+F. The VP total shown each turn includes VPs for infantry on 
+Guadalcanal (or Port Moresby) and damage caused to ships.
+10.2  Coral Sea Exclusive Rules.
+A. Infantry attacks may not occur during the Coral Sea Mini Game.
+B. Japanese Transports may unload infantry units on Port Moresby. Both 
+players receive 1 VP for each infantry company on Port Moresby at the end of 
+the game (0 VPs for infantry on Guadalcanal).
+C. The Japanese may bomb the Port Moresby Base by targeting TF#1 during 
+the Air Strike Phase.
+D. During this scenario only, U.S. aircraft may operate from the 
+following bases: Port Moresby and Cooktown. Port Moresby is limited to a 
+maximum of 100 planes.
+E. The weather is heavy overcast at the start of the mini game.
+F. The U.S. player may use his two tankers to refuel TFs at sea. TFs 
+with an endurance under 20 and in the same square as a tanker will be given 
+an endurance of 25. Each tanker may refuel two TF's during the game with the 
+amount of fuel remaining being shown under supply points remaining on the 
+tanker. The Tippecanoe is considered to have refueled U.S. TF #5 on the first 
+turn of the game and may only refuel one more TF during the game.
+10.3  Mini Game Duration. 
+Mini Games will end after a specified number of turns. MiniGame 
+durations are listed below:
+Coral Sea12 turns
+Eastern Solomons 4 turns
+Guadalcanal 8 turns
+10.4  Mini Game Levels of Victory
+Subtract US victory points from IJN victory points and compare the 
+result to the following table to determine the victory:
+125 and upJapanese Decisive Victory
+ 75 to 124Japanese Substantive Victory
+ 25 to 74Japanese Marginal Victory
+-24 to 24Draw
+-25 to -74American Marginal Victory
+-75 to -124American Substantive Victory
+    -125 and lessAmerican Decisive Victory
+11.0  SOLITAIRE PLAY
+When playing solitaire games, the computer will command the Japanese 
+Forces.
+A. There are 4 levels of solitaire difficulty. The level of difficulty 
+is determined at the start of the game. At level 4 the Japanese weapons will 
+perform according to their historical accuracy. As the level number is 
+decreased the Japanese bomb, torpedo and gunfire accuracy will increase. 
+These levels may be used to handicap a two player game if desired.
+B. It is possible to start a game in solitaire mode, save it, and then 
+restart it as a two-player game. To do this set the main menu to two-player 
+mode before beginning to restart the saved game.
+C. It is possible to save a two-player game and restart it as a 
+solitaire game when using the following restriction: All Japanese TFs must 
+end the two player segment IN-PORT.
+12.0  TWO-PLAYER GAMES
+When using the two player format the following procedure should be 
+observed.
+A. While the U.S. player is giving commands to his forces the Japanese 
+player should turn away or leave the room.
+B. While the Japanese player is giving commands to his forces the U.S. 
+player should turn away or leave the room.
+C. During the combat resolution phase both players should view the 
+results.
+13.0  ORDER OF BATTLE
+Scenario
+Campaign  US      0   0  301  3CV 1BB 11CA 1CL 2CLAA 31DD 19TR 5DMS 2APD 
+9SS
+ IJN   1000   5  138  2CL 4DD 1TR 4APD 13SS
+Coral Sea  US   5000  15  213  2CV 7CA 1CL 13DD 2TK 4SS
+ IJN      0   0  273  2CV 1CVL 6CA 3CL 1CS 14DD 13TR 3ML 4SS
+E. Solomons US  12000  20  338  3CV 1BB 5CA 2CLAA 18DD 6SS
+ IJN   1000   5  281  2CV 1CVL 3 BB 13CA 3CL 1CS 28DD 1TR 4APD 12SS
+Santa Cruz  US  23000  10  279  2CV 1BB 3CA 3CLAA 14DD 11SS
+ IJN  20000  20  373  3CV 1CVL 4BB 8CA 1CL 33DD 12SS
+Guadalcanal US  32000  25  249  1CV 2BB 4CA 3CLAA 35DD 19TR 6DMS 3APD 17SS
+ IJN  28000   5  228  1CV 4BB 3CA 2CL 30DD 11TR 14SS
+Campaing.2  US  18000  25  201  1CV 1BB 6CA 3CL 2CLAA 35DD 19TR 6DMS 3APD 
+17SS
+ IJN   7000  20  307  2CV 1CVL 6BB 13CA 4CL 2CS 56DD 2TR 4APD 22SS
+TOTAL SHIPS IN CAMPAIGN GAMETOTAL
+ ____________________________________________________________________
+|    |
+| US4CV3BB13CA4CL4CLAA58DD20TR6DMS6APD21SS139 |
+|--------------------------------------------------------------------|
+|IJN4CV2CVL6BB14CA7CL3CS69DD18TR4APD27SS154 |
+|____________________________________________________________________|
+TOTAL SHIPS IN CAMPAIGN.2TOTAL
+ ____________________________________________________________________
+|    |
+| US3CV3BB8CA4CL4CLAA55DD19TR6DMS3APD21SS126 |
+|--------------------------------------------------------------------|
+|IJN4CV1CVL6BB13CA6CL3CS64DD16TR4APD25SS142 |
+|____________________________________________________________________|
+14.0  STRATEGY NOTES
+FORMING TFs
+1. Carrier TFs: All available carriers should be combined in one TF. 
+Carrier TFs should include the best available Anti-aircraft ships in their 
+screen. Some sample carrier TF screens are shown here:
+USN: BB,CLAA,CLAA, DD, DD, DD, DD, DD, DD
+IJN: CA, CA, CA, CA, DD, DD, DD, DDr DD, DD
+When possible the IJN player should include CA - Tone and CA - Chikumawith 
+his carriers to best utilize their enhanced search capabilities. At least 6 
+DDs should be incIuded for Anti-sub Protection.
+2. Fast Transport TFs: APD, DMS and Japanese DD units maybe used to 
+rush supplies into Guadalcanal insmall quantities. The USN player should 
+protect the APDs and DMSs with an equal number of DDs. The IJN player can 
+load 6-8 DD's with cargo and plot an "FC" mission.
+3. Transport TFs: 6 to 10 DDs should be included to screen the TRs. 
+Transport missions should not be attempted without strong air cover. The IJN 
+player should "level" Henderson field with Bombardments and have friendly 
+carriers available to support a Transport mission. The USN player should have 
+30 or more fighters on Henderson or have friendly carriers available to 
+support a transport mission.
+4. Bombardment TFs: The USN player should seldom risk his ships to 
+bombard Cape Esperance. The IJN player should bombard Henderson Field as 
+often as possible. A sample Bombardment force is shown here:
+BB, BB, CA, CA, DD, DD, DD, DD, DD, DD
+The IJN player has enough ships to "rotate" 3 battleship groups and 
+continuously suppress Henderson Field. Battleships cause terrific damage when 
+bombarding. Cruiser bombardments are only a nuisance.
+5. Combat patrol TFs: The USN player MUST make an effort to block 
+Japanese Battleship bombardment forces. A force of 3 to 6 crisers and 5 to 10 
+destroyers peforming a "C" mission will usually cause a bombardment force to 
+abort its misssion. CLAA ships should not be used in this role and 
+Battleships should only be used when no CLs or CAs are available.
+6. Submarine TFs: Submarine forces should contain 6 to 60 subs. The 15 
+knot subs should not be combined in the same TF as 10 knot subs. USN subs 
+usually find their best "hunting" when stationed in the slot SE of 
+Shortlands. IJN sub usually do best in the waters SE of Guadalcanal.
+AIR OPERATIONS
+1. Normal CAP: Normal CAP provides the best protection for the "home" 
+TF or base but no protection for other TFs or bases in the area. Normal CAP 
+should be flown over Henderson Field when there are no friendly transport 
+groups "unloadin" at Guadalcanal. Carriers should be protected by normal CAP 
+whenever contact with enemy carriers is expected.
+2. Long Range CAP: Longe Ragne CAP provides protection for friendly 
+units up to 5 spaces away from the launching base/CV. Long Range CAP is best 
+used to protect Transport and Bombardment groups that are within range of 
+enemy land-based aircraft.
+3. Search: Air Search is useful for providing and advance warning of 
+approaching enemy fleets and designating targets for airstrikes. Whenever 
+possible, each base should launch 6 to 12 bombers to supplement its search 
+Planes.
+4. Sub Search: A successful sub search is a powerful deterrent against 
+sub attacks. "sighted" subs have reduced attack effectiveness and are open to 
+attack from enemy bombers. Henderson Field should use 20 to 30 bombers on 
+sub-search on turns when the IJN surface fleet is out of range. Carrier TFs 
+should use a strong sub-search whenever contact with enemy carriers seems 
+unlikely. Bombers should never be wasted on sub-search when a carrier vs. 
+carrier battle seems likely.
+5. Air Strikes: Carrier vs. Carrier combat is critical and often 
+decisive. Carrier air groups should not be frittered away on secondary 
+targets when an engagement with enemy carriers seems probable within a couple 
+of days. Carrier aircraft should never be used to "soften up" Henderson Field 
+- it's too expensive and the results are usually disappointing. Rabaul based 
+aircraft should attack Henderson Field only if there are 40 or more Bettys 
+available OR if you expect that supplies are critically low on Henderson 
+Field. Henderson Field Bombers should attack at every opportunity to inflict 
+damage on enemy ships.
+6. Counterstrikes: Counterstrikes allow you to counterattack following 
+airstrikes from unsighted enemy carriers. U.S.N. carriers may use 
+counterstrikes without penalty (except in the Coral Sea Scenario). IJN 
+carriers prepare counterstrikes at the riskof having their armed and fueled 
+aircraft explode on deck following enemy bomb or torpedo hits.
+7. Aircraft Transfers: Carriers with 10 to 25 percent damage should 
+transfer their aircraft before docking. USN carriers can transfer their air 
+groups to reinforce Henderson Field. Henderson Field should transfer all its 
+aircraft to Espirtu 5anto when supplies fall below 3 and resupply is not 
+immediate.

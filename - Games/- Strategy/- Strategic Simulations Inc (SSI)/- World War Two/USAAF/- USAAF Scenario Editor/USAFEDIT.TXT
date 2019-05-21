@@ -1,0 +1,205 @@
+USAFEDIT v1.0 by Nicholas Bell  An Editor Utility for SSI's USAAF 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This editor enables the user to easily edit existing scenarios, air units,
+aircraft, etc or create new scenarios for SSI's USAAF (by Gary Grisby)
+released in the 1980's for Apple IIs. USAFEDIT.ZIP should contain the
+following files:
+
+        USAFEDIT.TXT (this file)
+        USAFEDIT.EXE
+
+ACKNOWLEGEMENTS:
+Thanks to Randy Spurlock and David Ellsworth for creating ApplePC, 
+Michael O'Brien for AppleWin, and that unnamed person who kindly
+dealt with the hassle of converting USAAF so we could enjoy
+it once again!
+
+Be sure to check out the following sites:
+
+Craig Deaton's U.S.A.A.F. for DOS, Windows 3.1 and Windows 95
+http://www.jacksonville.net/~deaton/Index.htm
+
+Apple Emulator's Wargame Pages
+http://www.concentric.net/~Evin/a2war/
+
+Die Hauptkampflinie
+http://ourworld.compuserve.com/homepages/NicholasBell
+
+DISCLAIMER - AGREEMENT
+~~~~~~~~~~~~~~~~~~~~~~
+Users of this program must accept this disclaimer of warranty:
+
+ "This software is supplied on an AS IS basis. The author specifically 
+  disclaims ANY warranty, expressed or implied, as to the fitness for any 
+  particular purpose of the software. Under no circumstances will the author 
+  be liable for any direct, consequential, special, indirect, or other damages 
+  including, but not limited to, loss of data, profit, or the use of the 
+  software arising from the distribution, use, misuse, or inability to use 
+  the software. YOU USE THIS SOFTWARE AT YOUR OWN RISK. BY USING    THE
+  SOFTWARE, YOU AGREE TO THE TERMS OF USAGE SET FORTH IN THIS DISCLAIMER."
+
+NOTICE
+~~~~~~
+This program is not in any way connected with or endorsed or supported 
+by Strategic Simulations, Inc.
+
+TRADEMARKS
+~~~~~~~~~~
+USAAF is a trademark of Strategic Simulations, Inc.
+
+DISTRIBUTION NOTICE
+~~~~~~~~~~~~~~~~~~~
+This program is being released by the author as freeware. You may copy and
+use the program freely. You may distribute it to whomever you like but:
+
+         1. Do NOT distribute modified versions.
+         2. ALWAYS distribute with the documentation.
+
+No other limitations are placed on the usage of the software. No monetary fee
+is charged for the use of the software.
+
+                           *** WARNING ***
+                           ~~~~~~~~~~~~~~~
+This program can make permanent modifications to *.IMG files created by
+APPLEPC.  Be sure to backup the original *.IMG files.
+                            
+INSTALLATION
+~~~~~~~~~~~~
+Copy the USAFEDIT.EXE file into your main directory where you maintain your
+USAAF game and type "USAFEDIT" <return> to start the editor (if in DOS or a
+DOS Window). USAFEDIT also works fine under Win 3.1 and Win95.  Either run
+USAFEDIT or double click on USAFEDIT.EXE while in your favorite file manager.
+
+You can also change the name of USAFEDIT.EXE to whatever doesn't conflict
+with other programs, if you don't like typing out USAFEDIT.  Just be sure
+to keep it an EXE program.  Example: HACK.EXE
+
+INSTRUCTIONS
+~~~~~~~~~~~~
+This editor only works with SAVE STATE Image files (*.IMG) created by
+ApplePC. (you can still play using AppleWin - see below)
+
+1.  Start USAAF as a 2 player game.  At the first USAAF Morning Briefing
+before doing anything, use the [S] Save State function of ApplePC.
+You can use any allowable file name.  ApplePC will automatically add
+the *.IMG extension.
+2.  Quit ApplePC.
+3.  Start USAFEDIT and load the Save State Image you just made.  Edit away!
+4.  The edited IMG is saved when you quit USAFEDIT.
+5.  Fire up ApplePC and [L] Load State your Image file. 
+6.  Continue the scenario.
+7.  To play using AppleWin, save the game at the earliest point from within
+the game to a *.DSK.  Then restart the saved game using AppleWin.
+Sorry. it's the best I can do at this point.  Hex editing the savegame disk
+images is very difficult because of the small Apple disk sector size.  Data is
+not in complete strings (no arrays here!) with one type of data cutting
+right through the middle of another.
+
+SUGGESTION:  When you're editing make the new day one day earlier than
+the current day.  If you're editing the Full Campaign Game, make the date
+July 31, 1943.  When you restart the Save State, continue playing the game,
+but doing nothing for either side (you did start the game as a 2 player game
+like I said, right <g>?).  Save the game normally (not save state!) at the
+end of the Luftwaffe Deployment Phase.  Exit the game.
+
+Start USAAF over, as a one or two player game as you choose, loading the just
+saved game and continue through the Luftwaffe Situation Room.  Since no raids
+were planned, the game will continue throught the production and repair phase
+to the Luftwaffe or USAAF Morning Briefing (dependent on who you're playing).
+Now you're at August 1st and ready to start the game.  Plus you'll have cloud
+cover on the first turn!  I always thought it was pretty silly having zero
+cloud cover in all zones on the first turn.
+
+DETAILS
+~~~~~~~
+Use of the editor is fairly self-explanatory given familarity with the
+game program and the manual (which explains most of the stuff you can edit).
+There are a few items which require further explaination.
+
+Specific notes by Editing Module:
+
+1.  AIRCRAFT
+I use the raw data values throughout the editor.  You'll note the halfing
+and multiplying from the listed values in the game documentation.  Don't
+know why Gary programmed it this way.
+
+Cannon-Weapon ratings are as follows:
+
+1/2     .30 cal/7.62mm MG
+1       .50 cal/13mm MG
+2       15mm Cannon
+4       20mm Cannon
+5       30mm Cannon
+
+LOAD is either rocket or bomb load, dependent on which side is using the
+plane.  (Consider adding 2 rockets to the Me-163.  The Germans actually
+experimented with upward firing rockets which required the Komet pilot 
+to fly under the US bomber so that the bomber's shadow would activate the
+photocell trigger!)
+
+What CLASS does is not known to me at the moment of writing, but I hope
+it specifies which aircraft benefit from the reduced loss rate of jets,
+or it's going to be tough to add P-80s and Meteors.  This would also make
+it the determinant on which combat (fighter vs fighter or fighter vs bomber)
+the program should use.
+
+FW-190Fs were never used in the Reichsverteidigung.
+
+Sorry, you cannot ADD planes, so if you want to make a new plane type 
+you'll have to give up an existing type.
+
+LUFTWAFFE UNITS
+Pretty self-explanatory.  Note that the value for which month the unit appears
+IS different from the month aircraft are available - this is not an error.
+
+Adding pilots will prevent the dilution of German unit experience levels if
+you make sure the number of pilots is always greater than the number of
+planes.
+
+Note than the Geschwader number is stored as one byte.  Thus the highest
+number is 256.  This precludes including JG 400 (the Komet unit).
+
+If you want to be realistic you should eliminate (set the arrival month into
+1946) all SG's, SKG's, KG(j), and EJG's.  They never participated in the
+Reichsverteidigung.  They were added for play balance.  The various elements
+of JG 300, JG 301, and JG 302 which did participate are missing.  Please
+check my web site for accurate Orders of Battle.
+
+USAAF UNITS
+Instead of tracking the number of pilots (the Allies never ran short!) Gary
+tracks the unit's base location.  (The German unit base location is kept
+in a seperate group of data strings which I decided I wasn't going to
+bother with).
+
+These values are explained well in the documentation and don't require
+any further explanation:
+TARGETS
+FACTORY DEFENSE VALUES
+FACTORY OPTIMUM LEVELS
+FACTORY REBUILD LEVELS
+
+DATES
+An important note! The various scenarios in USAAF all use the SAME DATA with
+the program editing the locations, strengths, experience and morale levels.
+I cannot control this.  So when you edit the 1943, you are also editing the
+raw data for the two 1944 scenarios.
+
+FUEL RESERVE
+Great way to work around the fuel shortage.  Unfortunately it is a single
+byte of data, so the max value can only be 256.
+
+WEATHER
+Be sure to enter a Cloud Cover value in 5% increments.
+
+Please direct any questions or comments to me at: NicholasBell@compuserve.com
+
+Please post modifications or new scenarios for others to enjoy.  Check out
+my homepage at: http://ourworld.compuserve.com/homepages/NicholasBell
+for other wargame utilities and scenarios.  I'll be posting information on
+how to make USAAF more historical and any alternate OB's I make or receive
+from others.
+
+Enjoy!
+Nick
+12-6-97
+end of file

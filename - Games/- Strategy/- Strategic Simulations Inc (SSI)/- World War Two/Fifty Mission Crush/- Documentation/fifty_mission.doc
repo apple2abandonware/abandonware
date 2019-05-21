@@ -1,0 +1,382 @@
+Fifty Mission Crush Page 
+FIFTY MISSION CRUSH
+Introduction...........................1
+Fifty Mission Crush....................1
+Getting Started (Apple)................1
+Getting Started (C64)..................1
+Getting Started (Atari)................1
+Setting Up.............................1
+Playing the Game.......................2
+Enemy Fighters.........................2
+Flak...................................3
+Bombing the Target.....................3
+Aborting the Mission...................4
+Forced Landings and Bailing Out........4
+Fuel...................................4
+Drag Points............................4
+Crew Experience........................4
+Calculating Target Points..............5
+Damage.................................5
+Rewards................................5
+INTRODUCTION
+Fifty Mission Crush, a role playing game, is designed to provide you 
+the player, insight into the frustrations, excitement, boredom, and sometimes 
+terror that made the life of a B-17F pilot in the 8th Air Force from November 
+1942 to December 1943. During this time the 306th bomb group flew 95 
+effective missions, consisting of 1472 sorties, averaging 15.5 aircraft per 
+effective mission. Aircraft losses were 92, while crew losses were 803 killed 
+or missing in action and 119 wounded. This set an average life of an aircraft 
+at 16 missions and the average life of a crew member at 18.33 missions. 
+Surviving 50 missions was not easy. You start as a young first lieutenant 
+arriving at Thurleigh air force base just north of London, home of the 306th 
+bomb group. You will remain with this group during your tour of assignment of 
+twenty-five missions, and then out of necessity, your tour will be extended 
+to fifty missions (if you survive). If you are lucky and prove yourself a 
+resourceful pilot, you will be promoted and decorated. It is possible to 
+complete fifty missions and ZI (return home) as a highly decorated Brigadier 
+General if you are able to make the most out of any situation, if you are 
+aggressive but not foolish, and last but not least, if lady luck smiles on 
+you.
+FIFTY MISSION CRUSH
+A "fifty mission crush" is an Army Air Corps, or Air Force, service cap 
+that has the stiffening ring removed, and is worn crushed and battered. This 
+cap is obviously out of uniform, however steeped in tradition. This tradition 
+was started by the 8th Air force flying personnel as a mark that separates 
+the fledgling from the battle hardened survivor of 25+ combat missions. This 
+mangled cap was frowned upon, but tolerated for those who earned the right to 
+wear it. It you survived we will look the other way as you will have earned 
+the right to wear the fifty mission crush.
+GETTING STARTED (APPLE)
+To begin the game, boot your game disk and the game will begin 
+automatically. if you are using an Apple II with Pascal, you must first use 
+Your BASiCS disk. If you are using an Apple III, you must first go into apple 
+II emulation mode. If you are using an Apple IIe, be sure to press your CAPS 
+LOCK key. You will need to initialize a disk for SSi use before you begin a 
+game (follow the instructions given in the program). You will need one disk 
+for each pilot (i.e. a disk may only contain information for one pilot).
+GETTING STARTED (Atari)
+First format a blank disk for use with your Atari system (any properly 
+formatted Atari disk will do). Note that one disk must be formatted for each 
+pilot (i.e. a disk may only contain information for one pilot). Next, begin 
+the game by inserting the game disk into your disk drive; be sure that your 
+Basic cartridge is plugged into your computer. Turn on the computer and the 
+game will begin automatically.
+GETTING STARTED (Commodore 64)
+Insert a BLANK disk in the drive and type OPEN 15,8,15 (return). Then 
+type PRINT #15,"N0:SAVE,01",(return). When the red light on the disk drive is 
+off remove this disk from the drive and mark it pilot #1. Note that one disk 
+must be formatted for each pilot (i.e. a disk may only contain information 
+for one pilot). Next place the program disk in the drive and type LOAD "*",8 
+(return). When the computer returns a READY prompt type RUN (return). 
+WARNING: When the computer asks you to assign a name to each of your crew 
+members, make sure you enter at least one character for the name. If you do 
+not, you may encounter difficulties later in the game.
+SETTING UP
+1) After the program loads, you will be asked if you wish to play with 
+more than one player. If you elect to play with more than one player, each 
+will control a pilot and the players will take turns flying missions (the 
+players must decide on the order of play). If a pilot is killed during a 
+multi-player game, the computer will once again ask if you wish to play a 
+game with more than one player. If the players so desire, new pilots may be 
+started to replace pilots that have been killed.
+2) Remove the program disk and insert your player pilot disk as 
+instructed. This disk will continue to update your pilot's records after each 
+mission. you can quit playing after any mission and resume later where you 
+left off, but only if you answer "yes" when asked if you want to save the 
+game. Be sure not to stop a game in the middle of a mission, as this will 
+automatically kill your pilot (only stop a game after you have responded 
+"yes" to whether you wish to save the game).
+3) You will be asked if this is your first mission if "yes," then you 
+will be asked to enter the pilot's name. If "no," then the game will continue 
+with your current pilot. At this time, you will be asked to enter the names 
+of your crew members.
+PLAYING THE GAME
+1) You will be assigned a target and assembly altitude and will be 
+asked how much fuel you wish to take. The more fuel you take, the less bomb 
+load you will have. Type a number between 1 and 100 to represent the 
+percentage of maximum fuel you wish to take on your mission. Entering a "1" 
+will get you 1% of your maximum fuel (25 gallons), entering "50" will get you 
+50% of your maximum fuel (1260 gallons), entering "100" will get you 100%  of 
+your maximum fuel (2520 gallons), etc. After you have entered your fuel 
+allocation, you will be given the option to fly overloaded. Flying overloaded 
+will increase your bombload by 20%, but causes you problems if you lose an 
+engine on takeoff.
+2) Upon takeoff, the map will be displayed. Your B-17F will be a small 
+flashing dot over your home base in England. Your plane will be at 5000 feet. 
+You may move your plane by typing in the appropriate number:
+1 = North
+2 = NE
+3 = E
+4 = SE
+5 = S
+6 = SW
+7 = W
+8 = NW
+0 = Hold position
+3)  After each move, you will be presented with a view of your plane. A 
+menu listing your options can be found on the upper left of the screen; and 
+below this, the computer will display the terrain you are currently flying 
+over and the name of your aircraft. (if you lose your aircraft the computer 
+will automatically assign you a new one; but it you lose more than 10 
+aircraft, you will be sent home in disgrace, so be kind to your equipment.) 
+At the bottom of the screen you will find a row of seven digits. Each digit 
+informs you of the weather at each 5000 foot increment up to 35000 feet. The 
+left most digit represents 5000 feet, while the right most digit represents 
+35000 feet. A "0" indicates that there are no clouds at that altitude, while 
+a "1" equals light clouds. Numbers over 1 represent increasingly heavy layers 
+of clouds. The weather is generally better towards the southern end of the 
+map. A weather of "1" at 5000 feet indicates ground fog. Ground fog will not 
+hamper take-offs, but it is better not to land during fog. Enemy fighters 
+will not attack you if fog is present, or if you have any clouds (weather > 
+0) at your altitude. In addition, if you have clouds between you and the 
+ground, flak will not fire and you will be unable to hit your target.
+4) The menu items are explained below:
+ALTxxxx = The altitude you are currently flying at.
+FUEL xxxx GAL = fuel remaining in gallons.
+ENG FIRE EXT 1-4 = To activate an engine fire extinguisher,
+type the number of the appropriate engine (you have two
+per engine).
+HAND FIRE EXT 5 = To activate a portable fire extinguisher
+inside the plane, type "S" (you have 5 of these).
+ALT U/D = Type U to climb 5000 feet or D to dive 5000 feet.
+SALVO S = Type S to drop your bombs on the target.
+MAP M = Type M when you are ready to move again.
+TARGET POiNTS = this will always be -1000 until you hit your
+target or it will show the number of victory points gained
+from bombing the target.
+TOTAL POINTS = Accumulated victory points excluding target points
+from this mission.
+ABORT A = Type A to abort the mission. This will leave you alone
+(the other bombers will continue to the target), but will
+save you 1000 points by setting the target points to 0.
+5) When you type M, the map will be displayed and you will be able to 
+make your next move. If your plane marker is a large dot, then you are at 
+mission altitude and have joined up with your bomber group. When you are 
+flying in formation, you will have the added protection of your comrades and 
+will be confronted with significantly less enemy fighters. If you are flying 
+alone, your location will be shown by a small dot.
+6) You will continue to cycle through steps 2 - 5 until you have 
+completed your mission and returned to base.
+ENEMY FIGHTERS
+1) As you move, you may encounter enemy fighters. The chance of facing 
+enemy fighters varies depending upon your location, formation, and mission 
+number. The map is divided into 4 zones A, B, C, and D (refer to the map on 
+the back of this manual). No fighters will oppose you in zone A. In zone B, 
+you may encounter light fighter opposition, but you will be protected well by 
+your fighter escort. In zone C, you will encounter more enemy fighters and 
+will only have a small amount of protection from your limited escort 
+fighters. In zone D, you will encounter the most enemy fighters and will have 
+no fighter escort (long range fighter escort didn't become a reality until 
+later in the war). In zones B, C and D you will encounter more enemy fighters 
+if you are not flying in formation with your bomber group. As the mission 
+number increases (i.e. as time goes by), the amount of German fighter 
+opposition will increase, as will the amount of friendly fighter protection.
+2) Each time an enemy fighter begins a firing pass you will be 
+presented with a tactical display. A list of all weapons capable of returning 
+fired and the amount of ammo remaining in each weapon will be listed at the 
+upper left corner of the display. Below is a list of all weapons available on 
+your plane.
+IdentifierNameType        AmmoCrewmember
+NNoseGun Single 30 cal.*15Bombardier
+RRightCheek Gun Single 30 cal.*10Navigator
+LLeftCheek Gun single 30 cal.*10Navigator
+ETopTurret Guns Twin 50 cal.20Engineer
+PPortWaist Gun Single 50 cal.10Port Gunner
+SStbdWaist Gun Single 50 cal.10Starboard Gunner
+BBallTurret Gun Twin 50 cal.20Ball Gunner
+TTailGuns Twin 50 cal.20Tail Gunner
+* There is a 5% chance after each mission that your 30 caliber guns will be 
+upgraded to 50 caliber guns. If you lose your plane, your new plane will 
+begin with 30 caliber guns, but the chance will increase to 10%. When 
+upgraded, all three 30 caliber guns will become 50 caliber guns
+3) There are up to 7 rounds of fire during each fighter pass. If you 
+wish to fire a weapon during the round, type the letter of the available 
+weapon. If you don't wish to fire, press any other key. If you fire a weapon, 
+one ammo point will be subtracted from its ammo remaining (this will not be 
+shown immediately on the screen). If your fire did not destroy (or at least 
+claim to destroy) or drive off the enemy fighter, it will fire at you and 
+then move closer to your bomber; and you will once again be given a chance to 
+fire. As the enemy fighter moves closer to your B-17, it will be easier for 
+both planes to hit the other with its weapons. The ability of your gunners to 
+hit or drive away enemy aircraft will improve as they gain experience.
+4) Your 30 caliber weapons are much less effective than your 50 caliber 
+weapons at long range. As the range closes the difference in ability of your 
+weapons decreases. There are 3 types of German fighters each with the 
+abilities given below:
+FW-190 -- This plane is the hardest to hit and has average firepower.
+ME-109 -- This plane is average on defense and has the weakest firepwr.
+ME-110 -- This plane is the easiest to hit but has the greatest firepwr.
+FLAK
+1) If you fly over a target or an A-A battery while at an altitude 
+under 30,000 feet, you will receive flak if there are no clouds between you 
+and the ground. The flak intensity will vary based on your altitude (the 
+lower you are the heavier the flak). Four targets are protected by extra flak 
+concentrations and will fire heavier flak than normal. The four heavy flak 
+targets are La Rochelle, Lorient, Vegesack, and Wilhelmshaven.
+2) If during flak a fire is started on your aircraft, you will receive 
+additional flak (the flak batteries have seen that they have the range and 
+will begin to concentrate on you).
+BOMBING THE TARGET
+1) Once over the target, you may drop your bombs. Once you have dropped 
+your bombs, you will be subject to more flak and fighters.
+2) You will not be able to hit your target if there clouds between you 
+and your target.
+3) When you drop your bombs on target you will first receive 1000 
+points to counteract the -1000 points you begin with each mission; and then 
+you will receive up to an additional 1000 points based on the size of the 
+bombload, the altitude of the bombing run, the experience of the key crew 
+members, and the effect of any applicable damage to the plane and crew.
+4) You may choose to bomb a target other than the one assigned to you; 
+however, the points received for the bombing will be significantly less than 
+those you would receive for bombing the assigned target.
+ABORTING THE MISSION
+At any time prior to dropping your bombs on target, you may opt to 
+abort your mission. If you abort the mission, your bombs will be released and 
+your target points will be set to 0. However, since you have elected to drop 
+your bombs and return home, you will no longer be allowed to fly in formation 
+with your bomber group. Al though you can wait to abort until you have 
+returned to the safety of England (in effect recalling the entire bomber 
+group), don't forget that as long as you have not dropped your bombs there is 
+always a chance that an enemy fighter will detonate them and destroy the 
+plane. You will also use more fuel while carrying your bombs.
+FORCED LANDINGS AND BAILING OUT
+1) If you are forced to land in water, you may be rescued. Your chance 
+of being rescued will be lowered by certain types of damage to your plane and 
+crew (see the section on damage). Ditching always causes the loss of the 
+plane.
+2) If you are forced to land on land other than your airbase, you may 
+crash into a building. If you land in England and do not crash, your crew and 
+plane will be available for your next mission (It is assumed that you landed 
+at an emergency field). If you crash in England, your plane will be destroyed 
+and you may lose some of your crew (including yourself). If you land on the 
+continent, you will always lose your plane but you may escape capture and 
+return to England (sometimes with your crew).
+3) Occasionally you will be forced to bail out of your plane. If you 
+bail out overwater, you may be rescued (but don't count on it). If you bail 
+out over the continent, you may be captured. Your plane will always be 
+destroyed when you bail out.
+FUEL
+In this game, time and distance are measured by the amount of fuel used 
+(Example: since moving northeast (diagonal) uses more fuel than moving north, 
+it is assumed that it also takes more time and thus allows more opportunities 
+for enemy fighter attacks. Standard fuel consumption figures are given below 
+(rounded down):
+move diagonal37
+move non-diagonal25
+hold present position20
+These figures are assuming no bomb load. If you are carrying a bomb 
+load, you will consume 5 additional gallons of fuel each turn. Each 
+windmilling engine will consume an additional 7 gallons each turn. Each fuel 
+leak will cause the loss of an additional 12 gallons each turn. Each time you 
+climb 5000 feet you will use 15 gallons of fuel; while each time you dive 
+5000 feet, you will receive 10 gallons of fuel (to account for the use of 
+less fuel during the dive). These consumption figures are displayed below:
+windmilling engine 7
+fuel leak12
+bomb load 5
+climb 5000 feet15
+dive 5000 feet    -10
+DRAG POINTS
+The combination of damaged engines and carrying a bomb load may 
+restrict the ability of your aircraft and are accounted for by the use of 
+drag points. The following adds drag points to your plane:
+Carrying a bomb load = .5 drag points
+Engine feathering = 1 drag point
+Engine windmilling = 1.5 drag points
+The effects of drag points are as follows:
+1 drag point : No effect.
+1.5 or 2 drag points : Speed reduced, cannot fly in formation with
+bomber group, and chance of additional German fighters
+intercepting.
+2.5 drag points : Even greater chance of additional German fighters
+intercepting.
+3 drag points : Aircraft will lose 5,000 feet per turn, and even
+greater chance of additional German fighters intercepting.
+3.5 or more drag points : Aircraft forced to land.
+CREW EXPERIENCE
+Before each mission the computer will list the names of your crew along 
+with the number of missions each crew member has survived; the greater the 
+number of missions the greater the experience of the crew member. As a crew 
+member's experience increases, so does his ability to perform his job. Thus 
+an experienced radio operator will be able to increase your chances of rescue 
+after ditching (he can quickly radio the proper SOS), while a gunner will be 
+more likely to destroy or drive away an enemy plane. All crew members have 
+specific functions that will improve as they gain experience.
+CALCULATING TARGET POINTS
+The following formula determines the number of points received for 
+bombing a target: (OT * BOMB LOAD * BOMB LOAD * RANDOM NUMBER BETWEEN 1 AND 
+100) / (ALTiTUDE / 100) 100 times the bomb load percentage. OT is a 
+reflection of the amount of plane and crew damage and is a number between 0 
+and 1 (a value of 1 reflects no damage to the plane or crew). When bombing 
+any target other than that which was assigned the value of OT begins at .2 
+instead of 1. If the formula results in a number greater than 1000, the 
+target points will be set to 1000.
+DAMAGE
+Some of the effects of damage are listed below.
+CREW:
+Crew Oxygen hit: The aircraft will lose 5000 feet a turn until it 
+reaches 15000 feet. you will be unable to climb.
+Heater hit: Each turn if you are at an altitude above 10000 feet
+the crew member may incur frostbite. The higher the altitude
+and the longer you remain above 10000 feet the greater the chance
+of frostbite. Frostbite will cause the crew member to become
+incapacitated for the remainder of the mission and will cost you
+mission points.
+Light wound: No effect on crew member, however 2 light wounds on the
+same mission will cause a serious wound.
+Serious wound: Incapacitates crew member and costs you mission points.
+Will be the last mission for all crew members except the pilot who
+may recover from his wounds to fly again.
+Killed in Action (KIA): Costs you mission points and if the pilot is
+killed ends the game.
+Loss of Navigator increases fuel usage when not flying in formation.
+Also reduces chance of survival alter ditching.
+Loss of Radioman: Reduces chance of survival alter ditching.
+Loss of Bombardier: Reduces bombing effectiveness.
+Loss of Copilot: Increases the chance of a crash on landing.
+GENERAL AIRCRAFT DAMAGE:
+Norden sight: Reduces bombing effectiveness.
+Gun hit: Makes the gun inoperable.
+Fire in fuselage.: If put out causes no problem. The plane carries 5
+portable fire extinguishers
+Bomb controls: Reduces bombing effectiveness.
+Autopilot: Reduces bombing effectiveness and increases the chance of a
+crash on landing due to pilot fatigue.
+Control damage: Increases the chance of a crash on landing.
+Wing root hit: Accumulated damage will destroy the aircraft.
+Stabilizer root hit: Accumulated damage will destroy the aircraft.
+Fuel tank leak: Loss of 12 gallons of fuel each turn for each fuel leak.
+Landing gear hit: Increases the chance of a crash on landing.
+Raft destroyed: Reduces the chance of survival after ditching.
+Bomb release damage: Reduces bombing effectiveness.
+Bomb bay doors damaged: Unable to drop bombs.
+Bomb hit. Bombs detonate and kills entire crew.
+Radio hit: Reduces the chance of survival after ditching.
+ENGINE HITS
+Engine runaway: Causes immediate bail out of crew.
+Engine feathered: Adds 1 drag point.
+Engine windmilling: Adds 1.5 drag points and consumes an additional 7
+gallons  of fuel each turn.
+Engine fire: If put out causes no problem. There are 2 fire
+extinguishers per engine.
+Engine oil leak: Will cause the engine to feather when the engine turns
+out of oil.
+REWARDS
+Your rank will increase as your total points increase as follows:
+  7000 points -- Captain
+ 15000 points -- Major
+ 25000 points -- Lieutenant Colonel
+ 38000 points -- Colonel
+ 55000 points -- Brigadier General
+Each mission you will be given mission evaluation points based on the 
+mission difficulty, your ability to follow orders, and your ability to 
+perform your mission. These points are added to your total score and will aid 
+in gaining promotion. If you receive enough ME points in a mission you will 
+be awarded a medal. The following medals are possible:
+The Legion of Merit
+The Distinguished Service Medal
+The Air Medal
+The Distinguished Flying Cross
+Oak leaf Cluster
+You will be awarded a purple heart if you are wounded during a mission.
+

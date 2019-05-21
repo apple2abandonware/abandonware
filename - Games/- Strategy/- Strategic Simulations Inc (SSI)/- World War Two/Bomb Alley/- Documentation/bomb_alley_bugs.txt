@@ -1,0 +1,48 @@
+"Bomb Alley" bugs and undocumented features:
+
+1) Gary Grigsby accidentally carried over a line of code from
+"Guadalcanal Campaign" that halves the effectiveness of the Allied
+torpedo bombers. Thus, the true accuracy rating of the Swordfish is 2,
+and that of the Beaufort is 1.
+
+2) All bombers have a search range of 10. The code that limits the
+search range ends up limiting every non-float-plane aircraft to the
+shortest range, that of the JU87. Also, submarine search range is
+halved; submarines beyond a range of 5 are undetectable. (Except for the
+Computer British player.)
+
+3) The loss of supplies when transferring to the Afrika Korps or Eighth
+Army is twice what the "docs" say it is:  the percentage equals the
+distance to the "front" divided by fifty. Also, the supplies are stored
+in Applesoft integers--this means that ALL fractions are rounded down.
+
+4) A "bug" in Grigsby's code prevents Gibraltar from receiving any
+reinforcement supplies; what the British start with is all they get
+there.
+
+5) One nasty thing that a human British player could do is put all (or
+nearly all) of the 8th Army into Tobruk. In the original game, the Axis
+cannot advance beyond Tobruk until it falls, and the British troops put
+up impressive defensive fire when occupying the fortifications. I
+recommend a "house rule" limiting the number of troops the British can
+put in Tobruk--350 companies sounds like a reasonable maximum.
+
+6) The "docs" are all wet about the effect of sighting a submarine TF.
+All that happens is that the hit probability of each of the submarine's
+torpedoes is reduced to the minimum of 15% -- if it wasn't that low
+already. There is NO change to depth charge attack.
+
+7) Battleship main guns actually do an average of 8 points of damage
+instead of 7 during surface combat. Grigsby meant to give the "Nelson"
+class BB's extra firepower because they had 16-inch guns, but the code
+ends up affecting all the BB's.
+
+8) A special bit of code decreases the accuracy of all air attacks
+against the DML "Welshman" by 80%. An Axis player who wants to sink her
+would be wise to use surface combat.
+
+9) Although transports can only join "T" mission TF's, tankers can join
+almost any TF. I can't think of any good reason to do this, though; the
+tankers would then be subject to TF endurance reductions. Also, tankers
+cannot perform amphibious unloading if they are part of non-"T"
+missions.

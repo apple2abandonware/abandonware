@@ -1,0 +1,603 @@
+
+Torpedo Fire
+
+
+
+ 1.0 Introduction....................1
+ 2.0 General Description.............1
+ 3.0 Sequence of Play................2
+ 4.0 General Commands................2
+ 5.0 Movement........................3
+ 6.0 Combat..........................4
+ 7.0 Search..........................5
+ 8.0 Using the Player Aids...........6
+ 9.0 Victory Conditions..............7
+10.0 Solitaire.......................7
+11.0 Shipyards.......................8
+12.0 Designer's Notes................9
+
+1.0  INTRODUCTION
+     TORPEDO FlRE is a tactical level game featuring combat between submarines and escorts surrounding the convoys of WWII. Battle stations are sounding! As the commander of an American sub you have spent days in the Pacific before finally spotting your first Japanese convoy, and now you're in position to blow it apart. Meanwhile, as commander of a japanese destroyer you realize that you're in waters where American subs are known to prowl. Can you protect your convoy from this menace?
+
+1.1
+Description of Action.
+     All actIon is considered to be continuous except for the once-a-minute interruption for the two sides to enter their orders. This can lead to events such as firing a depth charge in one turn and having it explode during a later turn when it has reachea its depth setting.
+
+1.2  Talking to the Computer.
+     When entering a command to the computer, complete rour command by pressing the "return" key. To correct a mistake, use the "back arrow" key to go backwards, then type over the mistake. Most menus allow you to type a "Q"
+to quit the current sequence.
+
+1.3  Saving a Game.
+     Upon the completion of the Search phase the computer will allow the player(s) to save the game in progress. If you choose to save the game you will need a scratch disc to store the data. The scratch disc must be initialized for SSI use by following the instructions included in the program. Once the game is saved, you will be able to restart it from the point at which you left off.
+
+1.4
+  Mapboard Coordinates.
+     The map is the middle of a body of water. The center of the convoy starts off at X = 0, Y = 0. You may choose coordinates from -20,000 to +20,000 yards in both the X and Y directions. (X runs left/right and Y runs top/bottom on your monitor). Directions within the battle area are given in standard 360 degree bearinrs with 0 degrees representing north (see figure 1)
+
+1.5  Starting a Game (DOS 3.2 or DOS 3.3).
+     To begin a game, boot your game disc and the game will begin automatically. If you are using an Apple II with PASCAL, you must use your BASlCS disc. If you are using an Apple III, you must first go into Apple Il Emulation Mode.
+
+
+2.0  GENERAL DESCRIPTION
+
+2.1  Parts Inventory.
+     A)  Game Box
+     B)  Rule Book
+     C)  5/4" Game Disc
+     D)  Two Mapboard Charts
+     E)  Two Ship Data Cards
+     F)  One Shipyard Card
+     G)  One 180 degree protractor
+
+2.2  Passwords.
+     At the start of a non-solitaire game both sides will be required to enter
+ a two (2) character password. It is important that both sides keep their passwords secret. This will insure that the computer will give secret information only to the proper side.
+
+2.3  Ship Terms.
+     Port = left side              Bow = front
+     Starboard = right side        Stern = rear
+
+2.4  Game Scale.
+     Each turn represents about 60 seconds of real-time with the X,Y coordinate system based in yards (i.e., the distance between point (0,0) and point (0,1000) is 1000 yards).
+
+2.5  The Ships.
+     Figure 2 displays the ships as they appear in the game.
+
+
+3.0  SEQUENCE OF PLAY
+     TORPEDO FIRE is designed to be a two-sided game. The Surface Side commands the convoy of tankers and freighters and the escort ships. The Submarine Side commands the submarine(s). The Sub Side may be commanded by the computer or a human. Both sides enter orders for their ships, the computer then processes the orders, with this sequence being repeated until the game is over.
+
+3.1  Scenario Selection Phase.
+     Playrs select an option from the menu given when the game is initially run. The players may use the Shipyards program to select (or build) their ships and then place them on the map. When this is compteted the scenario may be saved.
+
+3.1  Initial Search Phase.
+     Ship searches are automatically conducted before the beginning of the first game turn.
+
+3.2  Sub Side Order Entry.
+     The Submarine Side enters move and fire orders for each of its subs individually by using the General Commands (Sec. 4.0).
+
+3.3  Surface Side Order Entry Phase.
+     The Surface Side enterst move and fire orders for each of its escorts individually and for the convoy as a whole by using the General Commands (sec. 4.0).
+
+3.4  Computer Activity Phase.
+     The computer processes the orders entered, resolving all movement and combat.
+
+3.5  Search Phase.
+     Visual, radar and sonar searches are conducted during this phase.
+
+3.6  Save Game Phase.
+     This phase allows the player(s) to save a game in
+progress for resumption at a later date.
+
+3.7 Continue with phases 3.2 to 3.6 until the game is ended by the mutual consent of the players. To end the game type GA for game over.
+
+
+4.0  GENERAL COMMANDS.
+     Players use the following commands to give orders to their ships. They allow you to move ships and fire their weapons.
+
+4.1  Movement Orders.
+     Selecting (M)ovement allows you to enter movement orders for your ships. You can order escorts to change both speed and direction. Subs may also change depth. Convoys may only be ordered to change direction. Example: Supposing your escort is cruising along at 10 knots, heading 90 degrees when a sub on the surface is spotted several thousand yards off the starboard side. To order the escort to speed up and turn towards the sub you could enter the following orders: MSS15 (Set speed to 15 knots.) MC180 (Set course to 180 degrees)
+
+4.11  Convoy Orders.
+     Convoys (all freighters and tankers) will hold a steady course until a Set Course co
+mmand is given (Sec. 4.132). Once a change of course has been entered (he convoy must wait 5 turns before another course change may be ordered. If you issue an MC030 order to the convoy on turn two you may not enter another course change until turn seven. Note: The ID of the convoy is "C".
+
+4.12  Speed Changes.
+     Format = MSSkk
+     M= Movement order
+     SS = Set Speed
+     kk = Newspeed in knots (In one turn a ship may speed up, slow down a number of knots equal to one third of its maximum speed.) Example: MSS10 = Set ship speed to 10 knots.
+
+4.13  Direction Changes.
+
+4.l3l  MDCtt = Continue straight for tt seconds (10 to 60). A ship will always assume that it should continue on its present course unless ordered otherwise. Example: MDC22 = continue on present course for 22 seconds.
+
+4.l32. MCddd = Set course to ddd degrees. Example: MC090 = set course for 90 degrees.
+
+4.14  Depth Changes (Subs only).
+     MUfff = Move Underwater to fff feet. Example: MU022 = move underwater to 22
+feet deep.
+
+4.2  Fire Orders.
+     Selecting (F)ire allows you to enter orders for firing a ship's weapons. You can order escorts to fire depth charges, K-guns, and ahead throw weapons. Torpedoes may be fired by submarines, while both escorts and submarines may engage in surface gunnery. At night escorts may fire starshells. Underwater weapons fire orders can be issued to be executed only on 10 second intervals.
+
+4.21  Underwater Weapons.
+
+4.211  FDCtddd = Fire Depth Charges at time t x 10 to explode at ddd feet underwater. Example: FDC2130 = set depth charge to detonate at 130 feet underwater and roll it off the stern 20 seconds into the turn.
+
+4.212  FKGtddd = Fire K-Guns at time t x 10 to explode at ddd feet underwater. Example: FKG4025 = set 2 depth charges to detonate 25 feet underwater and fire one from each side of the ship 40 seconds into the turn.
+
+4.213  FATtIII = Fire Ahead Throw weapon at time t x 10, III + 50 yards ahead of the ship (III must be between 100 and 200). Examp
+le: FAT3I50 = fire ahead throw weapon 200 yards in front of the ship 30 seconds into the turn.
+
+Example: Supposing your escort (equipped with K-guns) is close enough to attack a nearby sub. After plotting your move you decide that 30 seconds into the turn you will commence your attack. You guess that the sub is at 70 feet. You decide to lay down 2 depth charge patterns and fire your K-gun. To do this you would enter the following orders:
+     FDC3050
+     FDC3100
+     FDC3I50 - first pattern complete
+     FDC4050
+     FDC4100
+     FDC4150 - second pattern complete
+     FKG3070 - fire K-gun at 30 seconds
+
+4.22  Torpedoes.
+     FT(B/S)dddtt = Fire Torpedo from (Bow/Stem) tubes on course ddd degrees at time tt.
+Example: FTB33012 = fire a torpedo from a bow tube 12 seconds into the turn. Set its compass to move at 330 degrees. Torpedoes may be fired from a depth of 0-100 feet. Torpedoes may be fired up to +/-120 degrees of current bow/stern heading. If a torpedo fire order comes up when th
+e sub is too deep or the angle setting is > 120 degrees from current heading, then the order is ignored.
+
+4.23  Surface Combat.
+
+4.231  FSGdddlll = Fire Surface Guns ddd degrees at llll yards.
+Maximum range of surface guns is 9,999 yards. A ship may fire its guns only once per turn, and they are fired at the beginning of the execution phase (although they are ordered to fire anytime during the orders entry phase).
+
+4.232  FSSdddllll = Fire Star Shell ddd degrees at range llll Yards.
+Maximum range is 9,999 yards. A ship may only fire two star shells per turn.
+
+
+5.0 MOVEMENT
+     All movement in the game is continuous. The computer keeps track of everything moving and re-computes all positions every few seconds. Every 3 seconds the computer checks to see if any collisions (ship vs. ship, torpedo vs. ship, etc.) have taken place and takes the appropriate action (i.e., combat) for each type of collision. Each
+turn the computer computes 60 seconds of movement (i.e., 1 game turn = 1 game min
+ute).
+
+5.1  Ship Speed.
+     All ships are given a maximum surface speed. Submarines also have a maximum underwater speed. Speed is always given in knots. For a game turn of 60 seconds the following table is given as an aid.
+
+Knots     Yards Traveled In 60 Seconds
+--------------------------------------
+60             2000
+30             1000
+25              833
+15              500
+10              333
+ 5              167
+or at 1 knot a ship moves .5555 yards/second.
+
+5.11  Changing Speed.
+     All ships (except convoy ships) may increase or decrease their speed by up to one-third (1/3) of their maximum speed in one turn. You may enter only one Speed Change order (Sec. 4.12) per ship per turn. A Set Speed order is executed when it is encountered in the the string of movement orders, with the change in speed occurring instantaneously. No ship can either exceed its maximum speed or move backwards.
+
+5.12  A ship with fewer than 5 Damage Points (DP's) remaining is considered dead in the wate
+r and may not move.
+
+5.2  Fuel.
+     For game purposes all ships are assumed to have all the fuel (or batteries) they need.
+
+5.3  Maneuver.
+     Each ship is rated for its ability to turn (TA) on a scale of 1 t0 9. The smaller the TA the longer it takes the ship to turn. If a ship is ordered to a new course (Sec. 4.13) the computer will turn the ship as far as the ship's TA allows in one 60 second turn.
+
+          Maximum direction change
+TA        Per turn (in degrees)
+-----------------------------------
+1                6
+2               18
+3               30 convoys
+4               60
+5               90 escort
+6              120 subs
+7              180
+8              360
+9              720
+
+5.4 Submerging. (Subs only)
+     All submarines may rise and dive underwater. Each sub has a maximum depth allowance which is the deepest it can go without penalty. A sub loses one Damage Point for every turn it is deeper than its maximum depth. Each sub has a Maximum Dive Rate (MDR) and a
+Maximu
+m Rise Rate (MRR) which it will not exceed. A sub is considered on the surface if its depth is zero feet. It is considered to be at periscope depth from 1 to 30 feet.
+
+5.5  Torpedo Movement.
+     Torpedoes move in a straight line (after their initial turn) in the ordered direction until they either detonate or expend their movement allowance. The initial targeting of the torpedo takes 10 seconds and is completed 150 yards from the center of the ship. All torpedoes have a speed of 30 knots and are active for 8 turns after being fired. Torpedoes appear as a small iine on the surface player's map, are listed in the sub player's status report.
+     If a sub is moving faster than it's maximum submerged speed when it goes from the surface to underwater, then it's speed is set to its maximum underwater speed.
+5.6  Convoy Movement.
+     All ships in the convoy (Tankers and Freighters) move in unison. Convoys may change course once every five (5) minutes. A slow convoy moves at 8 knots. A fast
+convoy moves at l2 knots.
+
+5.7  Collisions.
+     If the center of any ship on the surface is within 150 yards of the center of any other ship on the surface then BOTH ships are sunk. Submerged subs collide if their centers are within 150 yards and their depths are within 50 feet of each other. A sub is submerged if it is not on the surface. Submerged subs never collide with ships on the surface. Ships in the convoy never collide with each other. Convoy ships should be initially placed 1000  yards apart in both the X and Y directions in a box-like formation.
+
+5.8  Executing Ship Movement
+     If in response to the menu (M)OVE (F)IRE (E)XECUTE (Q)UIT you enter an "E" the escort you have currently selected will execute the orders you've given it. Its new position will be shown either every 10 seconds or every 10 degrees of a turn. Any fire orders will be executed and an asterisk (*) placed where a depth charge landed and a square placed where a surface gun or starshell landed (see figure
+3). This execution command is only for the player's information, for the actions don't actually occur until the execution phase. Also orders can still be changed after an Execute command has been given.
+
+
+6.0  COMBAT.
+     Combat is initiated by a "Fire" command and is resolved (if possible) during the Computer Activity Phase.
+
+6.1  Depth Charges. Depth charges sink at a rate of 10 feet per second. When a depth charge reaches its pre-set depth then it explodes. It will damage a sub if it is within 50 yards in the X,Y direction and within 50 feet in depth. It will damage a surface ship by its backwash if it is within 50 yards of the ship in the X,Y direction. FDCtddd orders cause a single depth charge to be dropped 60 yards to the stern of the center of the ship. FKGtddd orders cause two depth charges to be fired. One lands 100 yards to the port side and the other lands 100 yards to the starboard side. Surface ships will be damaged by the backwash of the explosion if the ship moves with
+in 50 yards of the spot where the depth charge exploded. Note: A depth charge may be dropped in one turn and explode in the next turn. Each
+escort may drop 0-6 DC's per turn (depending on the class of the escort). An escort may fire 0-2 K-guns per turn (also depending on the class of the escort). The computer allows for up to 19 underwater charges (Depth Charges, K-guns, and Ahead Throw weapons) to be active in the game at one time. The computer ignores additional fire orders if 19 of the above mentioned weapons are already active.
+
+6.2  Ahead Throw Weapons.
+     Ahead Throw charges detonate if a sub's X,Y is within 50 yards. If the charge detonates then it will damage the sub. Surface ships will be damaged if they move within 50 yards of the charge during the turn it is fired. FATtlll orders cause a single depth charge to be placed lll+50 yards directly ahead of the ship's current X,Y center. An escort may fire 0 or 1 charge per turn (depending on class).
+
+6.3  Torpedoes.
+     Torpedo
+es may only be fired from loaded tubes. Torpedoes check for detonation if their X,Y is within 150 yards of the center of a ship on the surface. If the torpedo is ruled to have hit the ship, it will cause damage. Torpedoes may be launched from subs up to 100 feet deep. The computer allows for up to 19 torpedoes to be active in the game at one time. The computer will ignore fire torpedo commands if there are already 19 torpedoes active.
+
+6.31  Torpedo Re-load.
+     All submarines require nine turns to reload a torpedo tube after a torpedo has been fired from it.
+
+6.4  Surface Gunnery.
+     Surface guns may be fired once each turn by any ship (except subs underwater) having them (Sec. 4.231). Only ships on the surface may be damaged by gunfire. Surface gunnery has a maximum range of 9,999 yards. Its Explosive Power (EP) depends on the size and number of guns the firing ship was typically outfitted with during the war. The maximum EP per ship = 99 EP. For game purposes surface gunfire is r
+esolved at the beginning of the execution phase before any movement has occurred.
+
+6.5  Armor Class (AC).
+     Armor class represents a ship's ability to withstand torpedo and depth charge attacks. It is a single digit number from 1 to 9. The higher the AC the greater the amount of damage likely to be sustained. The lower the AC, the better the ship's defensive abitity to prevent damage from occurring.
+
+6.6  Expiosive Power (EP).
+     All weapons have an EP rating which is used to calculate the amount of damage inflicted as a result of combat.
+
+Weapon                                  EP
+------------------------------------------
+Torpedo                                 30
+Depth Charge (also used by K-guns       20
+   and ahead throw weapons)
+
+6.7  Damage Points (DP).
+     This factor represents a ship's ability to absorb damage. The higher it is, the more it must be attacked before it sinks. When a
+ship has fewer than 5 DP's left it is considered to be dead in the water and may not move
+. When a ship has zero (or fewer) DP's left it is considered sunk and is immediately removed from the game. When a submarine has fewer than half its original DP's left then it is forced to rise to the surface.
+
+6.8  Combat Resolution.
+     Beginner's Option: If the player(s) choose the beginner's option, then the distance bewteen an exploding wunderwater wapon and a sub within 250 yards yards of the explosion will be displayed during the computer activity phase.
+
+6.81  Torpedo Combat Resolution.
+     If a torpedo comes close (150 yds.) to a ship on the surface then there's a possibility that the torpedo will detonate. The closer the torpedo is to hitting the ship broadside (90 degrees) and the higher the armor class of the ship, the higher the likelihood of an actual torpedo hit and detonation. If a torpedo detonates, the damage is assessed with torpedoes causing between 15 and 45 damage points. Example: A torpedo (EP=30) approaches a tanker (AC=9 and DP=40) at an angle of 45 degrees o
+ff the heading of the ship (see figure 4). The torpedo will hit the tanker and detonate 49.5% of the time. With average luck the torpedo will cause 30 damage points, reducing the tanker's current DP to 10.
+     During the computer activity phase, if a torpedo comes within 150 yards of a ship, then the computer will print out either "Torpedo Narrowly Missed," "Torpedo Came Close," or Torpedo Went Wide." "Narrowly Missed" is closer than "Came Close" which is closer than "Went Wide."
+
+6.811  American torpedoes fired during 1942-1943 have 50% less chance of detonating
+
+6.82  Depth Charge Combat Resolution.
+     If a depth charge is close (XY < 50 yds., depth < 50 ft.) to a sub when it detonates then it is likely to cause damage to the sub. Ahead throw weapons are assumed to be depth charges they automatically explode if they are within 50 yards of a sub (for purposes of damage the distance in depth from the explosion to the sub is considered to be 0 feet). The amount of damage done by a de
+pth charge is a function of the distance of the sub from the point of explosion, and the AC of the sub being hit. Example: A depth charge (EP=20) explodes close enough (XY difference = 25, depth difference = 25) to a sub (AC=7 and DP=40) to do damage. With average luck the sub is likely to suffer a loss of 7 DP's, with good luck (from the attacker's point of view) l1 DP's, with bad luck 4 DP's.
+     For every damage point an escort loses as a result of comabat, it loses an average of 1 knot from its maximum speed.
+
+6.83  Surface Gunnery Combat ResoIution.
+     If a volley of surface fire (Sec. 6.4) comes close enough (XY distance < 150 yds) to the center of a ship then it may cause damage. The closer the shot is to the target the more DP's are likety to be lost. Also the higher the surface gunnery EP of the firing ship, the more damage done to the target. Example: A sub with a surface gunnery EP = 25 fires at a tanker, with the shells landing 50 yards from the center of the tanker. Wit
+h average luck the tanker will lose 5 DP's, with good luck 8 DP's, with bad luck 3 DP's. Example: An escort with
+EP=80 fires at a sub on the surface and comes within 100 yards. The damage done will range between 4 and 12.
+
+
+7.O  SEARCH.
+     Searches are conducted at the end of every turn during the Search Phase. In order for a player to gain information about an enemy ship it must first be spotted by a friendly ship during the search phase.
+
+7.1  Visual Search.
+     Once an enemy ship has been visually spotted it remains spotted as long as at least one friendly ship is within the appropriate maximum visual spotting range.
+
+7.11  Surface Side Seareh - Day.
+     A sub on the surface may be spotted up to 6,000 yards away. The closer you are the better your chances of successfully spotting the sub. Example: lf the distance is 3,000 yards there is a 50% chance that an escort will visually spot a sub during the day. A sub at periscope depth maybe spotted from up to 1,000 yards away. Example
+: If the distance is 750 yards there is a 25% chance that the sub will be visually spotted. A sub deeper than periscope depth may not be spotted by visual search.
+
+7.12  Sub Side Seareh - Day.
+     A surface ship up to 6,000 yards away may be spotted by a sub on the surface. A sub at periscope depth (1-30 feet deep) may sight a surface ship up to 3,000 yards away.
+
+7.13 Sub Side Search - Night.
+     A surface ship may be spotted by a sub on the surface at a distance of up to 3,000 yards. A sub at periscope depth may spot a surface ship up to 1,500 yards away.
+
+7.14 Surface Side Search - Night.
+     A sub on the surface may be spotted up to 1,000 yards away. Also star shells may be used to spot a sub on the surface. An escort ship may frre up to two (2) Star Shells per turn. The shell illumInates an area (as if day) 600 yards in diameter. If a sub is within the illuminated area then it may be spotted as if it were day (Sec. 7.11). Since a Star Shell lasts only one turn the sub must be s
+potted every turn by firing new Star Shells. The maximum range you can fire a star shell is 9,999 yards.
+
+7.2  Radar Search.
+     Ships equipped with radar automatically conduct a Radar Search during the Search Phase. Only escorts and subs may have radar. Ships found by radar may be found and lost on every turn. Each turn there is a 10% chance of a false radar contact.
+
+7.21  Surface Side Radar.
+     The effectiveness of regular radar is a function of distance and luck. A submarine on the surface maybe spotted by radar up to 4,000 yards away (the closer the better).
+
+7.22  Submarine Side Radar.
+     Samc as Surface Side Radar (Sec. 7.21) plus the searching sub maybe no deeper than periscope depth.
+
+7.23 Japanese radar has a maximum range of 2,000 yards.
+
+7.3 SONAR SEARCH
+     During WWII two types of sonar were deployed: active and passive. Active sonar gear sent out a series of "ping"s and a trained operator could tell both the bearing and range of an enemy sub based on what he heard.
+ Passive sonar gear was like a microphone that picked up underwater sounds. A trained operator could tell what direction the sound was coming from. Although a few ships were equipped with both types of sonar, for game purposes only escorts wilt be equipped with active sonar and only subs will be equipped with passive sonar. Ships eguipped with sonar autcomatically conduct a Sonar Search during the Search Phase. Only escorts and subs may have sonar. Ships may be found and lost by sonar on every turn. Each turn there is a 10% chance of a false sonar contact.
+
+7.31  Surface Side (Active Sonar.)
+     The effectiveness of active sconar is a function of escort speed, distance and luck. Active sonar is not usable at speeds of over 14 knots and is most effective at speeds of under 6 knots. Active sonar has a maximum range of 2,000 yards (the closer the better). Example:
+
+Escort    Escort    Range within which a sub
+speed     luck           would be spotted
+-------------------------------------
+------
+ 2        avg                 2,000
+ 5        worst               1,000
+10        avg                 1,000
+12        best                900
+
+7.311  Disturbed Water is caused by the detonation of an underwater weapon. Its effect lasts for the turn of the explosion. No sub may be spotted by sonar within 250 yards of the location of the explosion.
+
+7.32  Submarine Side (Passive Sonar).
+     The effectiveness of passive sonar is a function of sub speed, enemy ship speed, distance and luck. Passive sonar is not usable at speeds of over 8 knots and has a greater effective range the slower the sub is going. Maximum effective range is acheived at sub speeds of 0 to 3 knots. Passive sonar's effective range is increased the faster the enemy ship is going. Passive sonar has a maximum range (of 3,000 yards. Example:
+
+Sub       Enemy     Sub       Effective
+speed     speed     luck      range
+---------------------------------------
+2          5        avg       1,750
+5          1        av
+g         200
+5          5        best      1,500
+8         30        worst       750
+
+
+8.0  USING THE PLAYER AIDS.
+     Ship ID's are En (n = 1-9) for escorts and Sn (n = 1-9) for subs. The Convoy ID is "C". You may not "get at" the individual ships in the convoy. ID's are assigned in the Shipyard program. Don't forget, entering a "Q" is altmost always legal.
+
+8.1  The Radar Screen (Sub Side only).
+     This is a simulation of the view of a WWII radar screen showing the ships spotted either visually or by radar (including false radar spots). The scan is centered on one of the submarines. To get to this display type "R" in response to (R)ADAR (P)ERlSCOPE (O)RDERS (TDC) (S)TATUS (E)ND (GA)ME OVER. If there is more than one sub in the game you must enter the "ID" of the sub you wish to have at the center of the scan. The screen displayed is the same as the "A" scale of the Surface Side Map.
+
+8.2  The Periscope (Sub Side only).
+     This is a simulation of the view a WWII submarine comman
+der has through his periscope showing all enemy ships visually spotted. A sub may not use its periscope if it is deeper than 30 ft. The grid lines on the screen are 500 yards apart. To get to the periscope type "P" in response to (R)ADAR (P)ERISCOPE (O)RDERS (TDC) (S)TATUS (E)ND (GA)ME OVER. If there is more than one sub in the game then you must enter the "ID" of the sub whose periscpe you wish to view through. In response to ..ENTER DEGREE OF CENTRAL SCAN enter a number from 0 to 359 in order to aim the periscope in a particular direction (see Section 1.4). The screen will now display a simulated view of the ships that have been spotted visually, with the grid lines being 500 yards apart.
+
+8.3  The Map (Surface Side only).
+     This display provides a top down view of a selected portion of the map showing all spotted ships. It provides an number of scales which allow the player to zoom in on a particular area. To get to this display enter "M" in response to (M)AP (S)TATUS (O)RDERS (E
+)ND (GA)ME OVER.  You then chcoose the X,Y coordinates, scale and either the Original (start of turn) or New ship positions. The six (6) scales provided are:
+
+A grid lines are 2000 yards apart
+B grid lines are 1000 yards apart
+C grid lines are  500 yards apart
+D grid lines are  200 yards apart
+E grid lines are  l00 yards apart
+F Same as D except ships are oversize for ease of identification.
+X marks the X,Y coordinates you have chosen as the center of the map.
+     When displaying the map, pressing "Return" instead of entering an X coordinate will keep the last X, Y coordinate.
+     Note: Sometimes when you are Executing an ships orders on the F scale map, lines will appear on the screen as the ship moves off the screen. This is a function of the graphics package and can't be prevented in all cases.
+
+8.4  TDC (Target Data Computer) (Sub Side only)
+     WWII sub commanders had several aids they used when calculating torpedo attacks. But firing a torpedco successfully was not a simple pr
+ocess. To simulate some of the aids a commander had, you have an SSI vetrsion of a TDC. The TDC will give the directin to fire a torpedo in order to hit a particltar target, as well as the time it will take for the torpoedo to hit the target (assuming the target does not change its speed or direction). If you select the TDC you will be given a series of prompts requesting the current positions of the sub and target plus the target's speed and heading. The prompts are:
+..ENTER POSITION WHEN TORPEDO FlRED
+..X = ? (Enter X coordinate)
+..Y = ? (Enter Y coordinate)
+..ENTER POSITlON OF TARGET
+..X = ? (Enter X coordinate)
+..Y = ? (Enter Y coordinate)
+..ENTER TARGET SPEED
+..SPEED = ? (Enter speed in knots)
+..ENTER TARGET HEADlNG
+..DEGREES = ? (Enter degrees)
+     (Note - If you enter a "Q" then you may prematurely Quit the TDC sequence)
+     Errata: TDC prompts have changed and they are self-explanatory. The TDC returns 1) the angle for you FT (B/S) order (assuming you fire at time 00); 2) the
+ probable hit angle; 3) the approximate time till detonation. Don't forget that the torpedo moves straight ahead/astern of the sub before it starts moving in the ordered direction; the TDC accounts for this. You can find the approximate X, Y of a ship by folllowing these steps:
+     1) Use your persicope to get the distance to the enemy ship.
+     2) Mark the sub on your map at the proper X, Y.
+     3) Using the angle and distance from your periscope and your eyeball, mark the target onyour map.
+     4) Read off the target's coordinates.
+
+8.41  There is a 10% chance the TDC will return a projected fire angle 180 degrees out of phase.
+
+8.5  Status DispIays.
+     These displays give the players needed information. They are reached by selecting the (S)TATUS option. Both status displays include the ship's class number.
+
+8.51  Surface Side Status.
+     This display shows an escort's status and gives the "Sighting Report". Items include are: Ship ID, X, Y, direction, knots, DP'S left, curren
+t ship orders and the turn number. The Sighting Report gives the X,Y location of subs spotted by sonar as well as information as to whether the sub is on the surface, underwater, or sighted at periscope depth. Also if the game being played is a solitaire game then VP's are displayed upon request.
+     The escort dsiplay includes the escort's maximum speed. Also, the sub's position given in the spotted report is an approximate position (+/- 300 yards).
+
+8.52  Sub Side Status.
+     This display gives the sub's status, the torpedo status report, and the Sonar Repcort. Status items are: ID, X, Y, knots, direction, DP's left, depth, VP's scored by both sides, current ship orders, and the turn number. The torpedo status is given for 9 bow and 9 stern tubes with L = loaded, Q = not available and # = the number of turns before the tube is reloaded. The Sonanr Report gives the submarine commander an idea of the direction from which enemy ships are coming. An option to receive a listing of the l
+ocation and direction of all torpedoes currently in the water is also given to the submarine commander during his status check.
+     Thesub status display includes a disturbed water flag, which if "yes" indicates that underwater weapons have detonated within 250 yards of the sub during the prevous turn.
+
+
+9.0  VICTORY CONDITIONS.
+     Since this game offers total free form in the setting up of scenarios, it is difficult to determine a specific set of victcory conditions. Generally speaking the side that scores the most Victory Points is the winner, but players should feel free to create their own set(s) of Victory Conditions.
+
+9.1  The Computer accounts for VP's scored for:
+     1. Surface ships and submarines sunk
+     2. Surface ships and submarines damaged
+     3. Torpedoes fired
+     One point is awarded to the escort player for each torpedo fired by the submarine player. Each side receives the victory point value of an enemy ship that is sunk. For the value of each ship, refer to
+the ship data cards. When the game is ended each side receives victory points for damaged enemy ships, with the victory pints being determined by the following formula: Ship Victory Points x 1/2 x (DP's lost/original DP's) Example: If a German VIIB submarine has lost 5 DP's during the game, the escort player would be awarded 25 x 1/2 x (5/22) = 3.125 victory points.
+
+9.2
+     VP's displayed for the sub side in In non-scolitaire scenanrios and for the surface side upon request, although under normal conditions the player should not ask for the VP totall since it discloses whether a submarine has been sunk) in solitaire scenarios.
+
+9.3
+     WWII literature is full of possible scenarios. Players should feel free to anssign a tanker 50 VP's (as if it were an aircraft carrier) and require the escorts to follow the tanker until the first torpedo hits, etc. ...The ways in which Victory can be achieved are as limitless as your imaginantion.
+
+
+10.0  SOLITAIRE.
+     At the beginning of each game
+ you may choose to play against the computer. If you select this option, the sub side will be played by the computer. The computer will (somewhat randomly) place his subs on the map. The computer will then select an overall strategy to follow while making tactical decisions warranted by the current situation.
+
+11.0  THE SSI SHIPYARDS.
+     The shipyards program allows you to create your own fleets. By following the directions on the data card you can create any historical or non-historical ship you wish.
+
+12.0  DESIGNER'S NOTES.
+     For me a game starts when I can visualize what it looks like when played. The first aspect of TORPEDO FlRE that came together was the graphics. I knew that I wanted some kind of a 3-D view for the sub side but didn't want to write the assembly language code to create it. Luckily, along came Bill Budge's 3-D graphics tool and I was in business! Now I could have the 3-D views I wanted.
+     The business I found myself in was looking up Trigonometry formulas
+in old textbooks. There is more mathematics in this game than in all the other programs I've written in over a decade of programming.
+     Then I put together all the major elements of the game. It was great fun to play, but not too historicalty accurate (I had escorts flying along at 60 knots, slowing to 5 knots, turning, speeding up again - all the while spewing lots of depth charges all over the place.)
+     So I did my in-depth historical research. The over-whelming impression is of the bravery of the men that were involved in these battles. One of the worst psychological experiences imaginable has to be sitting in a hot, stuffy sub for hours as depth charges rain about. War sure is Hell! Would that nations coutd devise a better game to settle their differences!
+     RULES, RULES and more RULES! ! This is always the hardest part of any game design for me. Hopefully I ve been able to include  enough to give a feeling for the limitations of the period but not so much as to bog down t
+he playability. The Shipyards should give players a great deal of flexibility in creating all kinds of fun scenarios.
+
+SHIPYARD DATA CARD
+
+I. SCENARIO SET-UP
+     Torpedo Fire allows players to create an infinite number of scenarios by using the shipyard program. Alternatively, the introductory scenario may be played pitting one German IXC submarine against one Tribal class escort, one Black Swan class escort, two tankers, and one freighter. In order to create a scenario using the historical ships provided, just follow the instructions in the program.
+     Example: Suppose you wish to create a battle typical of the North Atlantic with a German U-boat attacking stragglers from a British convoy in 1943. You decide that there will be one sub attacking two merchant men guarded by one escort. After you boot the game disk, select option #3, when the shipyard program is ready, enter the following information:
+
+    1 "RET" - Create a new scenario.
+When you have read the overview, hit "RET"
+
+ B "RET" - Surface side.
+    G "RET" - Sub side.
+    2 "RET" - Time period.
+      "RET" - Set up arrays.
+    1 "RET" - Escort.
+    1 "RET" - Tanker.
+    1 "RET" - Freighter.
+    1 "RET" - Sub.
+    S "RET" - Slow convoy.
+    3 "RET" - British choose a Black Swan escort.
+      "RET" - Set-up convoy
+    2 "RET" - German chooses a IXC sub.
+   E1 "RET" - Escort ID.
+    1 "RET" - New X coordinate.
+ 1000 "RET" - Escort at 1000,0
+    Q "RET" - Quit with Escort 1.
+   F1 "RET" - Freighter ID.
+    1 "RET" - New X coordinate.
+-1000 "RET" - Freighter at -1000,0 (tanker still at 0,0)
+    Q "RET" - Quit with Frieghter 1.
+   S1 "RET" - Sub ID.
+    2 "RET" - New Y coordinate.
+-2000 "RET" - Sub at 0,-2000
+    Q "RET" - Quit with Sub 1.
+    M "RET" - View the map
+You should now see the ships in s "T" formation, i.e.:
+
+            F   T   E
+
+                S
+
+    Q "RET" - Get ready to save your scenario.
+    Y "RET" - Yes.
+At this point folllow the directions given in the program to write the data onto
+a scratch disk.
+     When creating a scenarion, the sub player should be able to watch the surface player set-up his ships, while the surface player should not see where the sub commander places his subs. In solotaire games, the computer will automatically place its submarines during its first turn irrespective of the placement during the scenario creation procedure.
+     Submarines should be set-up at least 2000 yards away from the nearest ship.
+
+II. CREATING NEW SHIPS
+     It is possible to create a scenario with ships designed by the players. This can lead to some interesting scenarios such as a one-on-one duel between a super submarine and a super escort. To create a new ship, first choose sides, thenuse the ability to change a ship's data sring to make a ship to your own specifications. When placing ships on the map, the ship's data string will be displayed and updated as changes are made. The following is a list of each value in the ship data string:
+
+Location in    Description a
+nd
+   String      Commentary
+---------------------------------------------
+    1*         Graphics ID
+  2-3          Ship ID: E1 to E9, T1 to T9, F1 to F9, S1 to S9
+    4          Earliest time period available:
+                    0 = Anytime    1 = 1939-41
+                    2 = 1942-43    3 = 1944-45
+    5          Nationality: A = American, B = British, G = German,
+                    J = Japanese, S = Special
+  6-7          Ship class
+  8-9          Victory points
+   10          Turning ability
+11-12          Maximaum surface speed
+13-14          Current surface speed
+15-16          Maximum underwater speed
+17-18          Current underwater speed
+19-21          Maximum submerged depth
+22-24          Current depth
+25-27          Current heading
+28-30          Maximum dive rate
+31-33          Maximum rise rate
+   34          Spotted flag: X = not spotted,
+                    R = Radar      S = Sonar
+                    D = Day visual N = Night visual
+   35          -
+   36
+ Radar: A = Normal, N = None
+   37          Sonar: A = Normal, N - None
+38-39          Maximum sustainable damage at start
+40-41          Current maximum sustainable damage
+42-43          Explosive power of surface guns
+   44          Armor class
+   45          # of K-guns that may be fired per turn
+   46          # of DC's that may be fired per turn
+   47          # ahead throw weapons that may be fired per turn
+   48          -
+   49          -
+   50          # of torpedo tubes - bow
+   51          # of tropedo tubes - stern
+   52*         -
+* = May not be changed
+
+Example: Whie placing escort E1 on the map youwould do the followinf in order to give it a maximum speed of 99 knots and a surface gun EP of 35.
+ 3 "RET" - Change a field other than X, Y coordinates.
+   "RET" - Read the warning.
+11 "RET" - Start with postion 11.
+ 2 "RET" - Include positions 11-12.
+99 "RET" - New maximum speed.
+ 3 "RET" - Change a field.
+   "RET" - Read the warning.
+42 "RET" - Start with position 42.
+ 2 "RE
+T" - Include positions 42-43.
+35 "RET" - New surface gun value.
+
+SHIP DATA CARD
+
+
+                    ESCORTS:
+  =================================================================
+  Class                Time  Max                S.Gun
+  Number  Name         Avail Spd  ATW K-gun  DC   EP   DP   AC   VP
+  -----------------------------------------------------------------
+     Great Britain
+     1    Tribal         1    36   0    1    4    99   45   5    15
+     2    Battle         3    32   0    1    5    65   50   5    15
+     3    Black Swan     1    18   1    1    5    55   35   6     9
+     4    Flower         1    16   1    1    5    10   20   6     6
+     5    River          2    20   1    1    5    15   30   6     7
+     6    Loch           3    19   1    1    5    10   35   6     9
+     United States
+     1    Benson         2    36   0    1    5    75   35   5    15
+     2    Fletcher       2    35   0    1    5    75   45   5    15
+     3    Flush Deck     2    36   0    1    5
+ 45   25   5    10
+     4    Buckley        2    24   1    2    6    30   30   5     9
+     5    Edsall         2    21   1    2    5    30   25   6     9
+     6    Sub Chaser     2    20   0    0    2    10   10   6     4
+     7    Frigate        3    22   1    2    4    25   30   6     8
+     Germany
+     1    Z-23           1    36   0    0    4    80   50   5    18
+     Japan
+     1    Akitsuki       2    33   0    1    5    99   40   5    15
+     2    Hatsuharu      2    33   0    1    5    75   35   5    15
+     3    Kamikaze       2    37   0    1    5    35   25   5     9
+     4    Matsu          2    27   0    1    5    40   25   5     6
+     Convoy Ships
+          Tanker         1  8/12   0    0    0     0   40   9    30
+          Frieghter      1  8/12   0    0    0     0   30   9    15
+
+
+
+                    SUBMARINES
+  ====================================================================== =====
+  Class           Time  Max Spd   Max  Max   Max   Tubes  S.Gun
+  Number  Name
+    Avail Sur/UW    Dive Rise  Dpth Bow/Stern EP   DP      AC   VP
+  ---------------------------------------------------------------------- -----
+     Great Britain
+     1    S         1    14/10     100  50   250    6/0     15   20      5    30
+     United States
+     1    Sargo     2    20/9      100  50   300    4/4     10   30      7    35
+     2    Gato      2    21/10     100  50   375    6/4     10   35      7    50
+     3    Tench     2    20/10     100  50   600    6/4     15   40      7    55
+     Germany
+     1    VIIC      1    17/8      100  50   750    4/1     10   20      6    25
+     2    IXC       1    17/8      100  50   600    4/2     15   25      6    40
+     3    XXI       3    17/16     175 100   999    6/0      0   35      6    45
+     Japan
+     1    RO 35     2    20/8      100  50   250    4/0     10   25      6    30
+     2    RO 100    2    15/8      100  50   250    4/0     10   15      5    15
+     3    I 15      2    24/8       50  25   325    6/0     25
+  40      8    40
+     4    I 16      2    24/8       75  50   325    8/0     25   40      8    45
+     5    I 176     2    17/8      100  50   250    6/0     25   40      7    40
+
+
+
