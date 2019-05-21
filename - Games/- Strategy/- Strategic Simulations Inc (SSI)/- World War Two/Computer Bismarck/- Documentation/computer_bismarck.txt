@@ -1,0 +1,1307 @@
+                              Computer Bismarck
+
+                              Table Of Contents
+              1.0  Introduction................................1
+              2.0  General Description.........................1
+              3.0  Setting Up The Game.........................2
+              4.0  Sequence Of Play............................2
+              5.0  General Commands............................2
+              6.0  Ship Commands And Capabilities..............3
+              7.0  Moving A Ship...............................4
+              8.0  Plane Commands And Capabilities.............4
+              9.0  Search: How To Find The Enemy...............5
+             10.0  Shadow......................................6
+             11.0  Fast Shadow.................................6
+             12.0  Chance......................................7
+             13.0  Weather.....................................7
+             14.0  Reinforcements..............................7
+             15.0  Solitaire...................................8
+             16.0  Combat......................................8
+             17.0  Victory Conditions.........................10
+             18.0  Designer's Notes...........................11
+             19.0  Notes On Strategy..........................11
+             20.0  Historical Notes: The Triumph And..........12
+                   Agony Of The Bismarck
+
+1.0  Introduction
+
+1.1 On Computer Wargames
+If you have never played a computer wargame before. You are in for a 
+treat. Experienced wargamers will note immediately several advantages of 
+having the game in a computer. Firstly, truly "blind" play is now possible as 
+the computer is ideally suited to act as an impartial referee. Secondly, your 
+opponent cannot "forget" a rule and move illegally. Neither you nor your 
+opponent need know all the rules since the computer will not tolerate 
+violations. You are able to play an enjoyable game because the computer 
+handles all the drudgery while you concentrate on your strategy. Lastly, the 
+computer can simulate the historical circumstances unique to the particular 
+battle without requiring you to remember rules of only minor importance. 
+Players are relieved of the burden of overloaded memories. If you are not an 
+experienced wargamer do not be scared by the length of the rules. The best 
+way to learn how to play Computer Bismarck is to read the rules while sitting 
+in front of the computer. In this way you will be able to test both your 
+knowledge of the rules and the accuracy of the rule book-for only the 
+computer itself knows all of the rules.
+1.2  Talking To The Computer
+After a command is given to the computer. terminate the command by 
+pressing the "return" key (or the "enter key" depending on the computer 
+system being used) . This is indicated in the rules by the symbol "(CR)" 
+which stands for Carriage Return. If you make a mistake while entering a 
+command do not press "(CR)" or the "back arrow". Instead, type in an asterisk 
+(0) and continue on the same line. The error before the asterisk will remain 
+on the screen, but will not be read by the computer. During the course of the 
+game you will encounter an "ILLEGAL ENTRY" response whenever you input an 
+order that is illegal. After the illegal entry has been displayed you may 
+continue the game.
+1.3  Description Of Play
+Computer Bismarck is a simulation of the attempted breakout of the 
+German battleship Bismarck into the North Atlantic in May, 1941 . The game 
+can be played by either two players or by one person playing against the 
+computer. The first player commands the British fleet and naval air forces 
+while the second player (or the computer) commands the German fleet. The 
+players alternate entering movement orders for their ships and aircraft 
+across a mapboard displayed on the computer screen. First the British player 
+enters his orders and then is followed by the German player. Although the 
+players enter their orders at different times, it is important to realize 
+that both players' movement is carried out simultaneously by the computer. 
+After both players have ordered their units, the computer determines whether 
+opposing forces have spotted each other, indicates whether combat is 
+possible, and asks for further instructions from the players. These steps are 
+repeated until the game is completed and a winner is declared. The game ends 
+after thirty complete turns have been played, or sooner if the Bismarck is 
+sunk.
+
+2.0  General Description
+
+2.1  Parts Inventory
+A. Box
+B. Rule Book
+C. 5 1/4 inch Floppy Disc
+D. Two Mapboard/Turn Record Charts
+E. Two Ship/Plane Data Cards
+F. Two System Command Cards
+G. Set Up instructions Sheet
+H. Two Grease Pencils
+2.2  Definition Of Terms
+2.21  Endurance - The number of turns an aircraft unit may remain in the air 
+before it must return to base for refueling.
+2.22  Firepower - The number of salvos a ship may fire at an opposing ship
+during naval combat.
+2.23  Fuel - Used to move the ship full speed, fuel is the amount of oil in a 
+ship's oil tanks.
+2.24  Midships - The number of hits a ship may sustain in combat before it 
+sinks.
+2.25  Search Factor - A Quantitative rating dealing with a unit's ability to 
+spot an enemy unit. The higher the search factor the greater the likelihood 
+of spotting an enemy ship. The search factors employed in each square can be 
+displayed through the use of either the "NS" or PS" commands. (The aficionado 
+will notice that ships with radar have higher search factors at night.)
+2.26  Shadow - The act of following an enemy ship. There are two types of 
+shadow: fast shadow and regular shadow.
+2.27  Visibility Level - A measure of the severity of the weather. Each row 
+of the map is given a new visibility level each turn. The levels displayed on 
+the mapboard are the projected "end of the turn'" visibility levels. The 
+levels range from: 1 = Sunny to 8 = Stormy.
+2.3 Mapboard Codes 
+      B = Battleship or Battlecruiser
+      C = Cruiser
+      A = Aircraft Carrier
+      D = Destroyer Flotilla (1-6 Destroyers)
+      S = Sub Group or Wolfpack (1-3 Submarines)
+      O = Oiler
+      M = Convoy (1-24 Merchant Ships)
+      R = Reconnaissance Aircraft Unit
+      L = Level Bomber Aircraft Unit
+      F = Fog
+      + = Port and Airfield
+      X = Airfield Only
+2.4  Passwords
+At the start of a new game each player will be required to enter a two 
+numeral password. It is important that each player keep his password to 
+himself. This will insure that secret information held by the computer is 
+given only to the appropriate player.
+2.5  Saving A Game
+A decision must be made at the beginning of each turn whether or not to 
+"save" a game. Saving a game allows you to restart a game at a later date 
+from the point at which you left off.
+2.6  Mapboard Coordinates
+To read the map coordinates first read the row number and then the 
+column number. Example: Scapa Flow is on row 18 and column 25, and thus it is 
+considered to be at square 1825.
+
+3.0  Setting Up The Game
+
+To prepare for play refer to the Set Up Instructions sheet contained in 
+the game box. This will bring you to the point where you can begin the game. 
+If this is your first game it is suggested that you begin a solitaire game 
+while you are reading the rest of the rules.
+
+4.0  Sequence Of Play
+
+4.1  Save The Game Option: At this time the players decide whether to save a 
+game. (Note: After a game has been saved, the players may continue to play.)
+4.2  Shadow Phase: During this phase the computer will alert you to enemy 
+ships which have been spotted. At this point they may be shadowed. Players 
+may also be asked to move specified ships.
+4.3  Movement Phase
+4.31  British Movement Phase: British player enters his password and secretly 
+moves his units on the computer mapboard display. At this time he may also 
+consult with the computer regarding ship status and search capabilities.
+4.32  German Movement Phase: German player enters his password and proceeds 
+in the same manner as the British player. In the solitaire game the computer 
+will move the German units.
+4.4  Fast Shadow Phase: The computer reports any fast shadow possibilities, 
+resolves them, and reports the results.
+4.5  Computer Activity Phase
+4.51 Computer Movement Phase: The computer obeys the players' orders and 
+moves all units to their new positions. Fuel and endurance factors are 
+updated.
+4.52  Computer Search Phase: The computer records, in its memory, the 
+spotting of ships and planes.
+4.5  Combat Phase: If units have been spotted, attack possibilities are 
+determined and displayed in the following order:
+   1. Aircraft attacks
+   2. Submarine attacks
+   3. Destroyer attacks
+   4. Surface ship combat
+The players order their units to attack or to withdraw by answering the 
+computer's prompts. The computer then resolves the attacks, records damage, 
+and awards victory points.
+4.7  Victory Point Allocation Phase: The computer awards points for crashed 
+planes and convoys safely moved to their destinations. It also determines 
+whether the game has been won at this time.
+4.8  Chance Phase: The computer will determine whether a chance spotting of 
+the Bismarck or the Prinz Eugen has occurred.
+4.9  Weather Update: The computer calculates new visibility levels for each 
+row of the mapboard.
+
+5.0  General Commands
+
+5.1  After the player has entered his password, the locations of his ships 
+and planes in the North Atlantic are displayed on the computer screen. The 
+computer will ask the player to enter a command.
+5.2  Chart "A" Commands
+5.21.1  SN = Ships Now. Displays the ship positions at the beginning of the 
+             turn.
+5.21.2  SP = Ships projected. Displays projected end of the turn ship 
+             positions.
+5.22.1  PN = Planes Now. Displays the aircraft positions at the beginning of 
+             the turn.
+5.22.2  PP = Planes projected. Displays aircraft positions as they are 
+             projected to be at the end of the turn.
+5.23.1  MS = Move Ships. Allows the player to move his ships as described in 
+             Section 6.0.
+5.23.2  MP = Move planes. Allows the player to move planes as described in 
+             Section 8.0.
+5.24.1  QN#### = Query Now. Lists the ships and airborne planes that began 
+                 the turn in square ####.
+5.24.2  QP#### = Query Projected. Lists the ships and airborne planes that 
+                 are projected to end the turn in square ####.
+5.25.1  NS = Now Search. Displays search values at the beginning of the turn. 
+5.25.2  PS = Projected Search. Displays projected end of the turn search 
+             values.
+5.26  NM = New Map. Displays a new mapboard of the North Atlantic without 
+           displaying ship, plane or search value locations.
+5.27 STxxx = Status Check. Displays the current status of the ship whose name 
+             begins with xxx. In order to execute a status check, enter the
+             first three characters of the ship name, as the computer knows
+             it, including spaces.
+Example: To status check the Prinz Eugen type STPR(space). It is important to
+space once after the R. To status check Prince Of Wales type STP(space)O. By 
+comparing the display to the listed ship characteristics on the ship/plane 
+data cards the players may check the unit for damage. The status check will 
+display the current values of the following characteristics of the ship:
+   1. Fuel
+   2. Midships
+   3. Firepower
+   4. Knots
+   5. Torpedoes
+5.28  DM = Done Moving. This command ends the player's movement phase.
+
+6.0  Ship Commands And Capabilities
+
+6.1  During each movement phase, the player may move any, all, or none of his 
+available ships. The "MS" command is used to get to the "Move Ships" section 
+of the program. When this is done the computer displays one ship at a time 
+and asks for a command from Chart "B".
+6.2  Chart "B" Commands
+6.21  M = Move Mode. Warships (not convoys) in Move Mode may be moved from 
+one square to another according to the rules of movement and the capabilities 
+of the particular ship. Ships in move mode have search factors that are 
+generally lower than search factors in patrol mode, for the ship is moving 
+from one position to another and not patrolling in the best possible pattern 
+to find enemy ships.
+6.22  P = Patrol Mode. Ships in Patrol Mode may not move but they have their 
+search factors increased. It is assumed that the ship is patrolling the 
+square specifically looking for enemy ships.
+6.23  L = Launch/Land planes Mode. Only Aircraft Carriers (A) may enter this 
+mode. An aircraft carrier must be in this mode in order to launch and/or land 
+its Swordfish Torpedo Bombers (T). Aircraft carriers in L mode may move one 
+square.
+6.24  F = Fast Convoy Mode. British convoys that start the game in this mode 
+must remain in this mode for the duration of the game. Other ships may be 
+placed in, and/or taken out of this mode. These would be warships that the 
+British player wanted to leave with the convoy and not attend to until the 
+convoy was once again ready to move. Ships in this mode may move one square 
+on every other turn. The convoys WS8B and Britannic are fast convoys.
+6.2S  C = Slow Convoy Mode. Identical to fast convoy mode except that a ship
+in this mode may move only one square every third turn. The convoys SL1 to 
+SL5 are slow convoys.
+6.26  R = Refuel/Rearm Mode. In this mode a ship's fuel factor and torpedo 
+factor are restored to their maximum capacity. For a British ship to enter 
+this mode it must be in a friendly port. For a German ship to enter this mode 
+it must either be in a friendly port or in the same square an Oiler (O) 
+(Exception: See Section 15.3).
+6.3  Legal Squares For Ships
+6.31  British ships may move into and out of any All-Sea square on the map 
+and into and out of any British port. British ports are Reykjavik (1317), 
+Scapa Flow (1825), Clyde (2125), and plymouth (2425).
+6.31.1  The British convoy WS8B may move off the south edge of the map. 
+6.31.2  The British convoy Britannic may move off the west edge of the map. 
+6.32  German ships may move into and out of any All-Sea square except those 
+comprising the English Channel and the Irish Sea. German ships may move into 
+and out of any German controlled port on the map. The German controlled ports 
+are Trondheim (1228), Bergen (1528), Brest (2626), and St. Nazaire (2727). 
+6.32.1  The German player is not allowed to move his ships into the English 
+Channel squares 2027, 2028, 2426, 2526. This blocks German ships from 
+entering the English Channel.
+6.32.2 The German player is not allowed to move ships into Irish Sea squares 
+2024, 2124, 2324. This blocks German ships from entering the Irish Sea.
+6.33  Except for ports, no ship may move into or out of a square that is part 
+sea and part land.
+6.34  The two British fast convoys are the only units which are allowed to 
+exit from the mapboard.
+6.4 The Ship Detail Line is the line of text displayed by the computer when 
+the player is moving his ships. Below is the Ship Detail Line for the British 
+battleship Hood used as an example.
+
+      (1) (2)   (3)  (4)  (5)  (6) (7) (8) (9) (10) (11) (12)
+       B  HOOD 1662 1662  1/1  4/3  M   M   0    7    2    2
+
+      (1)  Ship Type
+      (2)  Slow Mode Indicator (3) Name
+      (4)  Square the ship is in at the beginning of the turn.
+      (5)  Square the ship is projected to be in at the end of the turn.
+      (6)  Search factor in move mode (day/night).
+      (7)  Search factor in patrol mode (day/night).
+      (8)  Mode the ship is in at the beginning of the turn.
+      (9)  Mode the ship is projected to be in at the end of the turn.
+     (10)  Fuel Remaining
+     (11)  Maximum number of squares ship may move.
+     (l2)  Number of squares ship may move this turn.
+
+6.5 Ship Capabilities. It should be remembered that the computer controls 
+ship capabilities and units that are unable to move-for whatever reasons, 
+e.g., warships not yet active, convoys on non-move turns, planes refueling 
+and rearming, ships and planes on shadow missions-will simply not be 
+displayed for the player's attention. Also units with reduced capabilities 
+will be monitored and regulated by the computer program (Exception: British 
+torpedo planes will often be displayed on turns when they may not move; an 
+attempted move in these cases will result in an illegal entry response from 
+the computer).
+6.51  Battleships (B)
+6.51.1  Movement Allowance. Battleships whose speed exceeds 21 knots may move
+two squares on alternate turns. They may always move one square per turn. 
+Battleships whose speed is 2l knots or less (ships in slow mode) may only 
+move one square per turn. (Exception: The Bismarck may move up to four 
+squares on turn l.)
+6.51.2  Fuel Usage. If a battleship's speed is greater than 21 knots it uses 
+1 fuel factor when it moves more than one square. If a battleship's speed is 
+less than 22 knots and it moves one square, it uses 1 fuel factor if it had 
+moved during the previous turn. (As an aid to the player this status is 
+displayed on the Ship Detail Line of battleships under 22 knots as either a 
+"Y" or "N" between the ship type and name. "Y" means that the ship moved last 
+turn, while "N" means that the ship did not move on the last turn.)
+6.52  Aircraft Carriers (A)
+6.52.1  Movement Allowance. Same as battleships with the addition that if the 
+carrier is in "L" (Launch/Land) mode then it may move only one square.
+6.52.2  Fuel Usage. Same as battleships.
+6.53  Cruisers (C)
+6.53.1  Movement Allowance. A cruiser may move up to 21 knots. If a cruiser's
+speed is 2l knots or less, than it may move up to one square per turn. 
+(Exception: The Prinz Eugen may move up to four squares on turn 1).
+6.53.2  Fuel Usage. A cruiser uses 1 fuel factor every turn it moves more
+than one square.
+6.54  Destroyer Flotillas (D)
+6.54.1  Movement Allowance. Same as cruisers.
+6.54.2  Fuel Usage. A destroyer flotilla uses 1 fuel factor if it moves one 
+square. It uses 3 fuel factors if it moves two squares.
+6.55  Submarines (S)
+6.55.1  Movement Allowance: A submarine unit may move up to one square per
+turn.
+6.55.2  Fuel Usage. None. Submarines are assumed to have all the fuel they 
+need.
+6.56  Convoys of Merchant Ships (M)
+6.56.1  Movement Allowance.
+6.56.11  Fast convoys may move up to one square every other turn.
+6.56.12  Slow convoys may move up to one square every third turn.
+6.56.2  Fuel Usage. None .
+6.57  Oilers (O)
+6.57.1  Movement Allowance. Oilers may move up to one square per turn.
+6.57.2 Fuel Usage. None.
+6.6  Ships whose speed is reduced to 0 knots may not move.
+6.7  When a ship's remaining fuel reaches 0, the ship is only allowed to move 
+one square every other turn.
+6.8  The following units enter the game with their fuel already reduce:
+Bismarck, Renown, Ark Royal, Dorsetshire, Sheffield, DF 1, DF 3.
+
+7.0  Moving A Ship
+
+Once the "MS" command has been given the player will be asked to enter 
+a command from Chart B. In order to move the unit listed on the screen, the 
+player should type an "M","L","F", or "C" (depending on the ship and other 
+circumstances) and then (CR). This will place the ship into a mode in which 
+movement is possible. The computer will respond with:
+ENTER "X" MOVES-
+where X is equal to the maximum number of squares that the unit may move (if 
+the unit cannot move during the turn in question the computer will flash past 
+to the next ship). Units may be moved in eight different directions:
+                              N = NORTH
+                              S = SOUTH
+                              E = EAST
+                              W = WEST
+                             NE = NORTHEAST
+                             NW = NORTHWEST
+                             SE = SOUTHEAST
+                             SW = SOUTHWEST
+The player should respond to the computer's prompt by typing a direction and 
+then (CR). The computer will record this entry as a movement of one square in 
+the indicated direction, and once again ask the player to (enter X moves. 
+Notice that the number of moves to be entered has been reduced by one, to 
+account for the previously entered move. At this point the player may 
+continue to enter directions one at a time. When the player has moved his 
+unit to the desired location, he should (CR). This will cause the computer to 
+erase the unit from its initial location and reappear in its new projected 
+position. It is only at this point that the computer actually moves the unit 
+on the mapboard. It is important that the players realize that orders may be 
+changed at any time prior to the execution of the "DM" command. The player 
+need only repeat the above steps, changing the orders as he proceeds. Example:
+To move the Hood from square 1622 to square 1724 first go to the Ship Display 
+Line that contains the Hood. This is done by responding to "ENTER COMMAND 
+FROM CHART A-" by typing "MS" (CR). Next give the command to move the ship by 
+responding to "ENTER COMMAND -CHART B-" by typing "M" (CR). Finally move the 
+ship by responding to "ENTER 2 MOVES-" by typing "E" (CR) and then "SE" (CR). 
+The ship will disappear from square 1622 and then reappear in square 1724. 
+The computer will then go on to the next ship in the British ship table.
+
+8.0  Plane Commands And Capabilities
+
+During the British player's movement phase the "MP" command is used to 
+get to the "MOVE PLANES" section of the program. Each turn the British player 
+may move any number of his available planes. The computer displays one plane 
+unit at a time and allows the British player to order each unit individually.
+8.2 Chart "C" Commands
+8.21  M=Move Mode. ("R" type planes only.) In this mode the plane may be 
+moved up to six squares, but its search factor is reduced.
+8.22  P = Patrol Mode. ("R" type planes only.) In this mode the plane may 
+move up to two squares while retaining its maximum search factor.
+8.23  R = Reconnaissance Mode. ("L" and "T" type planes only.) In this mode 
+the plane carries extra fuel tanks instead of bombs. Its search factor is at 
+its maximum. planes may not change from reconnaissance mode to attack mode 
+while in the air.
+8.24  A = Attack Mode. ("L" and "T" type planes only.) In this mode the plane 
+is armed with either bombs or torpedoes. Planes in attack mode may attack 
+ships. Planes may not change from attack mode to reconnaissance mode while in 
+the air.
+8.24.1  Level bombers (L) may attack spotted enemy ships in the square where 
+they end their turn. The attack is subject to the rules of combat (Section 
+l6.3).
+8.24.2  Torpedo bombers (T) must begin and end an attack turn on the aircraft 
+carrier's deck. In order to attack with a torpedo bomber the British player 
+must use the following procedure. First, fly the bomber to the square in 
+which you wish to attack. Next, type an "A". Note that the computer does not 
+count this as a square moved. Finally, fly the plane back to the square in 
+which the aircraft carrier will end its turn. Example: Suppose you wish a 
+Torpedo Bomber from the Ark Royal in square 3024 to attack an enemy ship in 
+square 2724. In response to "ENTER MODE FROM CHART C-" the player should type 
+an "A". In response to "ENTER 5 MOVES" the player should type "N" (CR),"N" 
+(CR), "N" (CR), "A" (CR) to order the attack, and "S" (CR), "S" (CR). This 
+causes the plane to fly north three squares, make a torpedo run at the enemy 
+ship, and then fly two squares south to land on the Ark Royal (which had 
+conveniently moved north during the British move. The combat phase and will 
+be subject to the regular rules of combat (Section 16.3).
+8.25  Z = Return to Base Mode. ("R" and "L" type planes only) A plane in this 
+mode will fly at maximum speed directly towards its home base. If the plane 
+is within range it will land at the base.
+8.26  B = Base Mode. We all make mistakes. This command allows a player to 
+avoid the one turn of refueling if he has flown the plane from its base in 
+error.
+8.3  Planes may move into any square on the mapboard. but they may only land 
+at their home bases. Planes may not be transferred from one base to another.
+8.4  Torpedo bombers launch from the square in which the aircraft carrier 
+began its turn and land in the square in which the aircraft carrier ends its 
+turn.
+8.5  The Plane Detail Line is the line of text displayed by the computer when 
+the player is moving his planes. Below is the Plane Detail Line for the 
+British reconnaissance plane based in Reykjavik:
+      (1) (2)        (3)  (4) (S) (6) (7) (8) (9) (10)
+       R  REYKJAVIK 1317 1317 2/1 6/3  B   B   S    S
+
+      (1)  Plane type.
+      (2)  Name of home airfield.
+      (3)  Square plane is in at the beginning of the turn.
+      (4)  Square plane is projected to be in at the end of the turn.
+      (5)  Search factor in Move or Attack Mode (day/night).
+      (6)  Search factor in Patrol or Recon Mode (day/night).
+      (7)  Mode the plane is in at the beginning of the turn.
+      (8)  Mode the plane is projected to be in at the end of the turn.
+      (9)  Endurance Now-Number of turns the plane can remain in the air.
+     (10)  Endurance projected-Number of turns the plane will be able to
+           remain in the air after the current turn.
+8.6  When a plane lands at its home base it must spend one turn refueling 
+before it may move again. The computer will automatically refuel planes by 
+preventing the player from moving the unit on the turn after it has returned 
+to base (Exception: refer to Section 8.26). Planes that do not return to base 
+before their endurance now equals zero are considered to have crashed and are 
+eliminated from play.
+8.7  Plane Capabilities
+8.71  Reconnaissance Planes (R)
+8.71.1  Movement Allowance. In "M" mode the plane may move up to six squares 
+per turn. In "P" mode the plane may move up to two squares per turn.
+8.71.2  Endurance. When this type of plane takes off it can spend up to five 
+turns in the air.
+8.72  Level Bombers (L)
+8.72.1  Movement Allowance. If the plane takes off in "A" mode then it may 
+move up to six squares. If the plane takes off in "R" mode then it may move 
+up to seven squares.
+8.72.2  Endurance. Level bombers may stay aloft for two turns.
+8.73  Torpedo Bombers (T).
+8.73.1  Movement allowance. The plane may move up to five squares per turn. 
+8.73.2  Endurance. If the plane takes off in "A" mode then it must return to 
+the aircraft carrier on the same turn. If the plane takes off in "R" mode 
+then it may remain in the air for two turns.
+8.8  Both "take off" turns and "landing" turns are considered to be "in the 
+air" turns and thus count against plane unit endurance. Example: A level 
+bomber (with an endurance of two turns) that takes off on turn one must 
+return to base on turn two.
+8.9  Plane units are moved in a manner similar to that described in Section 
+7.0. The only mechanical difference between moving planes and moving ships is 
+that planes may move in "M","P","A", and "Z" modes while ships may move in 
+"M", "L", "F", and "C" modes.
+
+9.0  Search: How To Find The Enemy
+
+9.1  During the computer search phase the computer judges whether opposing 
+ships and/or planes have spotted each other. The computer uses search factors 
+and weather conditions to determine if units have contacted enemy units.
+9.2  In order to spot an enemy unit a player must have total search factors 
+in the square equal to or greater than the visibility level of the square in 
+question.
+9.21  To determine a player's search strength in a square just add together 
+the strengths of each unit in the square. Each unit is assigned a search 
+value by the computer depending on the mode of the unit and whether it is day 
+or night in the square being searched. players may find the search values of 
+each unit on the ship data cards.
+9.22  The NS and PS commands are used to have the computer total and display 
+the friendly search factors in each square. A 9 will be displayed whenever 
+search factors in the square total 9 or more.
+9.23  Each row of the mapboard is assigned a visibility level. These numbers 
+can be found on the right hand side of the computer screen. All squares in 
+the same row are assumed to have the same visibility level. Example: On the 
+first turn of every game all squares in row 11 are assigned a visibility 
+level of 3, while all squares in row 12 are assigned a visibility level of 4. 
+Thus to spot an enemy ship in square 1116 on turn one, the player must have 
+at least 3 search factors in square 1116 at the end of his movement phase.
+9.3  New visibility levels are assigned each turn as per Section 13.2.
+9.4  Fog, represented on the mapboard by "F", prevents enemy units from 
+spotting one another (by implication this also means that combat and shadow 
+are not allowed in fog squares). (Exception: Ships that are spotted prior to 
+the creation of new fog may be shadowed. Although the shadow might succeed, 
+if the ship being shadowed moves into a fog square it will be lost during the 
+next computer search phase.)
+9.5  Spotting is considered to be mutual. All units in a square are spotted 
+by both players as soon as one player has amassed enough search values in the 
+square to spot the enemy as per Section 9.2 (Exception: Submarines may only 
+be spotted if the conditions of Section 9.2 are met and an enemy plane unit 
+in the air is in the same square as the submarine unit.).
+9.6  Players will only be given information about enemy units that are 
+spotted. Thus, the British player will not see the German units displayed on 
+his mapboard until he actually spots a unit. Once an enemy unit is spotted it 
+will appear on the opposing player's mapboard, but it will be displayed in a 
+different manner than friendly ships (see Set Up Instructions sheet). British 
+ships will never be displayed on the German mapboard. Spotted German ships 
+will be displayed black on white on the British mapboard
+9.7  Turns 3 and 4, 9 and 10 etc. are night turns with reduced visibility for 
+both players. A player's night adjusted search factors may be found on the 
+night side of the day/night columns on the ship/plane data cards. Note: on 
+turns 3, 9, etc. only the southern board area below line 20 is under night 
+conditions. This accounts for longer summer daylight periods in higher 
+latitudes.
+9.8 planes may not conduct attacks at night or in visibility of 7 or 8.
+
+10.0  Shadow
+
+10.1  If an enemy ship has been spotted and the opposing player wishes to 
+maintain contact with it (shadow) the computer will allow him to do so during 
+the shadow phase of each turn. The units involved will be displayed on the 
+screen and the computer will ask the player which unit is to be ordered to 
+perform the shadow. Next, the computer will ask the shadowed player to 
+secretly move the ship being shadowed. The computer will then calculate the
+results and report "SHADOW SUCCEEDED" or "SHADOW FAILED" (A "SHADOW
+SUCCEEDED" may be changed to a "SHADOW FAILED" if the shadowed ship moved to
+a square that the shadower is not allowed to enter, i.e., a German wolfpack 
+cannot follow the WS8B convoy off the map). Units that move or attempt to 
+shadow during this phase, whether successfully or not, may not be moved 
+during the following regular movement phase.
+10.2  All German battleships (B), cruisers (C), and oilers (O) are eligible 
+to be shadowed. Convoys are the only British units eligible to be shadowed, 
+and of course these may only be shadowed on turns in which they are allowed 
+to move (refer to Section 6.56).
+10.3  Wolfpacks are the only German ships that may conduct a shadow. British 
+battleships (B), cruisers (C), destroyers (D), sub groups (S), and 
+reconnaissance planes (R) may shadow (reconnaissance planes may only shadow 
+if they have at least one more turn left in the air after the current turn).
+10.4  Shadow Conditions. If a unit that is eligible to be shadowed is spotted 
+by a unit that is capable of shadow, the computer will list the pertinent 
+information and request further instructions from the players during the 
+shadow phase. In order for a unit to conduct a shadow it must be at least as 
+fast, in knots. as the ship being shadowed (reconnaissance planes are always 
+considered to be fast enough to shadow any ship).
+10.5  Only one attempt per turn may be made to shadow each enemy ship. Even 
+if the first attempted shadow fails no other shadows on the enemy ship are
+allowed in the same shadow phase.
+10.6  Each eligible ship or plane unit may attempt only one shadow per turn. 
+10.7  Shadow Resolution. The probability of a shadow succeeding is determined 
+in the following manner. 
+   1 - Determine the shadow strength of the unit attempting the shadow (this
+   can be found on the ship/plane data card).
+   2 - Modify this number to account for each of the following factors if they
+   apply:
+
+       If visibility = 8.................................subtract 2
+       If visibility = 6 or 7...........................subtract 1
+       If shadowed ship moves 2 squares this turn.......subtract 1
+       If visibility = 1 or 2................................add 1
+       For  each  other  friendly  unit  in the square that is
+       eligible to shadow....................................add 5
+    3 - Divide the adjusted shadow strength by 6.
+
+Example: The Suffolk attempts to shadow the Bismarck in square 1118 on turn
+4. The visibility level is 7 and the the Suffolk is accompanied by the 
+Norfolk and the reconnaissance unit from Reykjavik. During the shadow phase 
+the Bismarck moves to square 1116. The basic search strength of the Suffolk 
+at night is 4. Due to the visibility 1 is subtracted from this number. Due to 
+the Bismarck's two square move an additional 1 is subtracted. Due to the help 
+of the Norfolk and the Reykjavik air unit 1 is added. There is a 50% chance 
+that this attempted shadow will succeed.
+10.8  Shadow Results. If the shadow attempt succeeds then the shadowing ship 
+is moved to the same square the shadowed ship moved to. Note that in any case 
+both units have made their move for this turn. If the shadow attempt is 
+successful then the shadowing ship is given a search factor of 8 during the 
+following computer search phase in order to account for the fact that the 
+units are still in visual contact.
+10.9  Ships that are successfully shadowed are displayed on the opposing 
+player's mapboard in their "end of the turn" projected positions. Spotted 
+ships that are not shadowed or are shadowed unsuccessfully are displayed on 
+the opposing player's mapboard in their beginning of the turn positions.
+
+11.0  Fast Shadow
+
+11.1  Fast shadow attempts may only be made on turns in which either the 
+Bismarck or Prinz Eugen move two squares. If the first square moved through 
+by either of these ships is a square which includes British units, a fast 
+shadow may be possible.
+11.2  In order to attempt a fast shadow, the British must have sufficient 
+search factors in the square to have spotted the enemy ship had it stopped 
+there at the end of its turn (refer to Section 9.2).
+11.3  During the fast shadow phase the computer will determine whether a fast 
+shadow is possible. If a fast shadow is called for the computer will list the 
+units involved, the square moved through, and the results of the attempted 
+shadow.
+11.4  Only the Bismarck and Prinz Eugen may be fast shadowed. British 
+battleships, cruisers, destroyers, sub groups, and reconnaissance planes may 
+attempt fast shadows (although sub groups are too slow to succeed in an 
+attempted fast shadow).
+11.5  Fast Shadow Conditions. Same as for regular shadow (refer to Section 
+10.4) with the addition that at least one British unit must be in patrol 
+mode. Also, the computer assumes that the British player desires to fast 
+shadow and thus it automatically attempts a fast shadow whenever possible.
+11.6  Fast Shadow Resolution. Same as for regular shadow (refer to Section 
+10.7).
+11.7  Fast Shadow Results. If the fast shadow is successful all British units 
+in patrol mode, that are in the "shadow square", are moved to the square in 
+which the German ship ended its move. The British units so moved are given a 
+search factor of eight during the following computer search phase.
+11.8  If both the Bismarck and the Prinz Eugen move through the same square
+and fast shadows result, the fast shadow of the Prinz Eugen will 
+automatically fail if the fast shadow of the Bismarck had succeeded. This is 
+due to the fact that all the British units in patrol mode will have moved out 
+of the square to follow the Bismarck before the fast shadow attempt on the 
+Prinz Eugen is even attempted.
+
+12.0 Chance
+
+12.1  Once each turn the computer randomly determines whether the Bismarck or 
+Prinz Eugen has been spotted by the British general air search or whether 
+they have revealed their approximate positions by breaking radio silence. 
+These possibilities occur during the chance phase.
+12.2  If the Bismarck or the Prinz Eugen is north of row 19 or east of column 
+17 and the visibility in the ship's square is 4 or less, there is a 5% chance 
+that the ship will be spotted by the British general air search. If the 
+computer calculates that a spotting has occurred, the players will be 
+informed of this and the British player will be told of the exact location of 
+the ship in question.
+12.3  Each turn there is a 1% chance that the Bismarck will break radio
+silence and a 1% chance that the Prinz Eugen will break radio silence. If 
+radio silence is broken, the computer will display this information and then 
+give the British the approximate location of the offending ship. This 
+location will be one of the squares adjacent to the offending ship or the 
+ship's actual square (determined at random by the computer) .
+12.4  German ships that are spotted during the chance phase will not be 
+displayed on the British player's map. board. Also, the general air search 
+does not have the capability to shadow enemy ships once they are found.
+
+13.0  Weather
+
+13.1  The weather (or visibility) is displayed at the right edge of the 
+mapboard. Visibility ranges from 1 (sunny) to 8 (stormy), and certain areas 
+may have fog.
+13.2  During the weather update phase of each turn the computer changes the 
+weather. This change is done in two steps. 1) All visibility levels are moved 
+south one row. 2)  Each visibility level is randomly modified (+3 to -3 on 
+rows 11 to 20; +2 to -3 on rows 21 to 30).
+13.3  Fog may occur in two different areas. Area 1 is north of Iceland and 
+consists of the squares 1116, 1117, 1118, 1119, 1120, 1216, 1220. Area 2 is 
+around Bergen and consists of the squares 1527, 1528, 1627.
+13.31  During the weather update phase the computer determines whether one or 
+both fog areas will contain fog during the next turn. Each fog area is 
+individually checked for the possibility of fog. If fog appears in one square 
+within an area, it will appear in all the squares in the particular area. Fog 
+is only revealed to the players when they ask for their search factors to be 
+displayed (NS or PS), and at this time an F will be displayed in each square 
+containing fog.
+13.32  The probability of fog appearing in a turn is dependent on the time of 
+day of the turn. Fog is more likely to occur during the evening and early
+morning as the following table reveals:
+
+                  Time of Day of Turn  Probability of Fog
+                          400                  67%
+                          800                  50%
+                         1200                  33%
+                         1600                  16%
+                         2000                  33%
+                         2400                  50%
+
+14.0  Reinforcements
+
+14.1  The British player may get reinforcements from Scapa Flow, Clyde, and 
+the south edge of the map. Reinforcements are triggered by events that occur 
+during the course of the game. The German player receives no reinforcements.
+14.2  Reinforcements from Scapa Flow.
+14.21  Units. King George V (B), Victorious (A), Aurora (C), Galatea (C), 
+Hermione (C), Kenya (C), Destroyer Flotilla 2 (D).
+14.22  Trigger Event. The above units may be moved on the turn after either 
+of the following events has occurred: 1) The British player has successfully 
+searched Bergen (square 1527) whether or not an enemy ship is found. 2) The 
+Bismarck has been spotted by regular search.
+14.3  Reinforcements from Clyde.
+14.31  Units. Repulse (B).
+14.32  Trigger Event. Same as 14.22.
+14.4  Reinforcements from the south edge of the mapboard.
+14.41  Units. Reknown (B), Ark Royal (A), Sheffield (C), Destroyer Flotilla 3 
+(D).
+14.42  Trigger Event. The above units may be moved nine turns after the 
+British player has located the Bismarck by regular search. These units arrive
+as a group on a square between 3020 and 3024 (inclusive). The actual entrance 
+square is determined randomly by the computer.
+14.43  Units. Dorsetshire (C).
+14.44  Trigger Event. The Dorsetshire arrives on turn 24 on a square between 
+3020 and 3024 (inclusive). Once again the actual entrance square is 
+determined randomly by the computer.
+
+15.0  Solitaire
+
+15.1  Otto von Computer, your solitaire opponent, is in reality a set of 
+computer subroutines that are part of the program. During solitaire games one 
+of these subroutines is called whenever the German player would have an 
+opportunity to respond in a two player game. Otto does not have access to any 
+information that would not normally be available to the German player. He 
+does follow a strategy, that is he does not move randomly and aimlessly, but 
+with the cool precision of a master wargamer. There are many strategies 
+contained in the computer program, and for each game Otto picks one, but 
+Otto's strategy can change during the course of a game if he feels the 
+situation requires a new approach. We are confident that Otto will provide 
+you with many challenging games.
+15.2  Solitaire Units British - Same as regular game. German - Same as 
+regular game except no oilers.
+15.3  Rule Changes. Any German ship may go into R mode (Refuel/Rearm) when in 
+the special prearranged refueling squares in the North Atlantic (only the 
+computer knows where these are).
+
+16.0  Combat
+16.1  Whenever enemy units are spotted, an opportunity for combat may occur. 
+The computer will display the units involved in each combat situation, ask 
+the players one or more questions, and resolve the battle. The players are 
+relieved of the drudgery of throwing dice and consulting numerous tables. 
+This is all handled by the computer allowing the players to concentrate on 
+their strategy.
+16.2  There are four types of combat.
+    1 - Plane Attack
+    2 - Submarine Attack
+    3 - Destroyer Attack
+    4 - Naval Combat
+16.3  Plane Attack.
+16.31  Level Bomber Attack. If an L type aircraft unit is in attack mode and
+in the same square as a spotted German ship, the computer will ask the 
+British player which (if any) German ship he wishes to bomb. The attack is 
+resolved by the computer, any damage is recorded and any Victory Points
+scored are awarded.
+16.31.1  Eligibility. Only British L type planes in attack mode may launch 
+bomb attacks. The German unit attacked must be a spotted surface ship (not a 
+wolfpack). Level bomber attacks are not allowed during night or in a square 
+where the visibility level is 7 or 8. There is a 5% chance during each attack 
+that the pilots become confused and attack the largest British ship in the 
+square.
+16.31.2  Combat Resolution. The Gunnery Salvo Table (Section 16.81 ) is 
+consulted twice for each attacking level bomber. The British player is not 
+informed of damage done to the ship attacked unless the ship is sunk.
+15.32  Torpedo Bomber Attack. If a T type plane "attacked" a square which 
+contains spotted German surface ships, then the computer will ask the British 
+player which (if any) German ship he wishes to attack. The attack is resolved 
+by the computer, any damage is recorded, and any Victory Points scored are 
+awarded.
+16.32.1 Eligibility. Only British T type planes may launch plane torpedo 
+attacks. The plane unit must have attacked the square as per Section 8.24.2. 
+The German unit attacked must be a spotted surface ship (not a wolfpack).
+Torpedo bomber attacks are not allowed at night or in a square where the
+visibility is 7 or 8. There is a 5% chance during each attack that the pilots
+become confused and attack the largest British ship in the square.
+16.33  Once a plane unit has attacked. it may not attack again until it has
+returned to base to refuel/rearm.
+16.34  Plane units are never adversely affected by combat.
+16.4  Submarine Attack.
+16.41 Submarine units (S) may launch torpedo attacks against spotted enemy 
+surface ships that are in the same square. The ships involved are displayed 
+by the computer and the attacking player chooses which ship (if any) he 
+wishes to attack. The computer then resolves the attack, records damage 
+(including submarines sunk). and awards Victory Points scored.
+16.41.  Eligibility. A submarine attack is possible any time a spotted enemy 
+surface ship (not a submarine unit) and a submarine unit are in the same 
+square.
+16.41.2  Combat Resolution. Submarine attacks are resolved in the following
+manner:
+1 - The Submarine Attack Tables (Section 16.84) are consulted to 
+determine if a submarine is sunk and to determine the number of torpedo 
+factors that are actually fired at the target. The Anti-sub strength of each 
+unit in the square (not just the unit attacked) is added to determine the 
+defending player's anti-sub strength for each attack. The anti-sub strength 
+determines the number of torpedo factors fired and the probability of a sub 
+being sunk (refer to section 16.85).
+2 - The Torpedo Hit Table is consulted once for each torpedo factor 
+that is fired in order to determine whether the target is hit.
+3 - The Torpedo Damage Table is consulted to assess damage to targets 
+that have been hit. Although the attacking player is told whether his 
+torpedoes hit or missed, he is not told of the damage done to the enemy 
+unless the enemy was sunk. The defending player is told whether an attacking 
+submarine was sunk.
+16.41.3  Ammunition Expenditure. All submarine units (S) lose one torpedo 
+factor each turn they attack. When a unit's torpedo factor is reduced to zero 
+it may not attack. Submarine units may regain their capacity of four torpedo 
+factors by entering R (refuel/rearm) mode.
+16.42  Each sub group and wolfpack unit consists of three submarines. The 
+unit continues to exist until all three submarines are sunk. For these units 
+the midships (MS) remaining is in reality the number of submarines remaining 
+in the unit. Each submarine lost from a sub group or wolfpack causes the 
+search factors of that unit to decrease by one. Submarine losses do not 
+affect the combat abilities of a sub group or wolfpack (unless of course all 
+three submarines in the unit are sunk).
+16.5  Destroyer Attack
+16.51  British destroyer flotillas (D) may attack spotted German surface 
+ships (not wolfpacks) in the same square. The British player is notified of 
+this possibility and asked to select an enemy ship to attack (if desired). 
+The computer then resolves the combat.
+15.51.1  Eligibility. A destroyer attack is possible during the combat phase 
+whenever a spotted German surface ship and a British destroyer flotilla are 
+in the same square.
+16.51.2  Combat Resolution. The destroyer attack is resolved in the following 
+manner:
+1 - Each destroyer in the destroyer flotilla conducts a torpedo run 
+toward its target. If in the square, both the Bismarck and the Prinz Eugen 
+may fire at the attacking destroyer. During day turns each ship has a 40% 
+chance of sinking the destroyer. During night turns each ship has a 15% 
+chance of sinking the destroyer. Each destroyer in the flotilla is fired upon 
+in the manner just described if the flotilla attacks.
+2 - The Torpedo Hit Table is consulted once for each destroyer still 
+afloat after its torpedo run. This will determine whether the destroyers have 
+hit their target.
+3 - For each torpedo hit the Torpedo Damage Table is consulted to 
+determine damage to the target ship.
+4 - Damage is recorded and Victory Points scored are awarded. The 
+British player is not informed of the extent of the damage to the target ship 
+unless it is sunk, but he is told whether his torpedoes hit or missed the 
+ship.
+16.51.3 Ammunition Expenditure. Destroyers carry only enough torpedoes for 
+one attack. Once these torpedoes are expended the flotilla must enter R 
+(refuel/rearm) mode in order to replenish their torpedoes.
+16.52  Each destroyer flotilla consists of six destroyers. As with submarine 
+units the midships remaining for each destroyer flotilla reveal the number of 
+destroyers in the flotilla. Individual destroyers lost will not affect the 
+search factors of the destroyer flotilla. The destroyer flotilla continues to 
+exist until all six destroyers in the flotilla are sunk.
+16.6  Naval Combat.
+16.61  Naval combat occurs when opposing surface ships (submarine units are 
+not considered surface ships) spot each other in the same square. When this 
+happens, all surface ships in the square are involved in the combat. Only 
+battleships (B) and cruisers (C) have the ability to attack other ships 
+during the naval combat phase. Aircraft carriers (A), convoys (M), and oilers
+(O) may be sunk if there are no friendly ships (B or C) in the square to 
+defend them. Naval combat occurs in a series of rounds in which each ship 
+fires a number of salvos equal to its current firepower (FP) rating. Under 
+certain conditions the Bismarck is allowed to surprise attack British ships 
+(refer to Section 16.68). After the first round of naval combat, ships that 
+have torpedoes may launch them. Combat is concluded only when both players 
+agree to withdraw, one side is able to withdraw all of his ships, or all the 
+ships of one side (in the square) are sunk.
+16.62  The sequence of events during the naval combat phase is as follows: 
+   1 - Ships involved in a possible combat are displayed on the screen.
+   2 - Each player secretly checks the status of his ships involved in the
+       combat.
+   3 - Before the first combat round the Bismarck may attempt to surprise
+       attack as per Section 16.68.
+   4 - Combat Check. Players declare whether they wish to fight or
+       withdraw. If both players wish to attack, combat wi1l occur. If
+       both p1ayers wish to withdraw, no combat will occur. If only one
+       player wishes to withdraw then withdrawal may be attempted.
+    5 - Withdrawal attempts are conducted.
+    6 - If combat is still possible and at least one combat round has
+        already been fought then ships with torpedoes may launch them.
+    7 - Naval Combat Round. After determining which ships are being fired
+        upon, each ship fires its FP salvos and launches its torpedoes.
+        The computer calculates damage and awards Victory Points as they
+        are scored. Combat fire is simultaneous (a ship sunk during round
+        #2 will still get to fire its guns during round #2).
+    8 - If there are any aircraft carriers (A), convoys (M), or oilers (O)
+        in the square and no friendly battleships (B) or cruisers (C) to
+        protect them from enemy battleships or cruisers in the same square
+        they are sunk (or dispersed if convoys) at this time and Victory
+        Points awarded.
+16.63  Withdrawal. Only battleships, cruisers. and aircraft carriers may 
+withdraw from naval combat. Withdrawal attempts will automatically succeed if 
+the following conditions are met:
+1 - Battleships may withdraw if they are faster (in knots) then any 
+enemy battleship in the square.
+2 - Cruisers and aircraft carriers may withdraw if they are faster than 
+all enemy battleships and cruisers in the square. If the above conditions are 
+not met, an attempted withdrawal has a 25% chance of success.
+16.64  Torpedo Attack. If torpedoes are launched at a ship then the Torpedo
+Hit Table is consulted once for each torpedo factor fired. If the target is 
+hit the Torpedo Damage Table will be consulted to determine damage. Actual 
+damage caused by torpedo hits are not revealed to the attacking player. Once 
+torpedo factors are used, they may only be replenished by putting the ship 
+into R (refuel/rearm) mode.
+16.65  During combat rounds battleships fire at battleships and cruisers fire 
+at cruisers whenever possible.
+16.66  During each combat round each ship fires all of its remaining 
+firepower at one enemy ship. For each firepower factor (salvo) fired the 
+Gunnery Salvo Table is consulted to determine damage to the target ship. Once 
+again the computer calculates damage and only reveals it to the defending
+player. Each individual firepower salvo may cause either MS or FP damage, but 
+not both. Due to the structure of the computer program, knots (KN) are only
+lost when MS damage is incurred.
+16.67  If a convoy is sunk by surface ships, the ships that sank the convoy 
+may not move on the turn following the sinking of the convoy.
+16.68  Surprise attack is a tactic that the Bismarck may use to force enemy 
+ships to fight. Surprise attack may only occur during night turns or in a 
+square with a visibility level of 6, 7 or 8. If these conditions have been 
+met and the Bismarck has been shadowed during the current turn then the 
+German player may automatically surprise attack. If the Bismarck had not been 
+shadowed then there is a 50% chance that surprise attack will occur if the 
+German player so desires. When surprise attack does occur, a normal combat 
+round ensues but with each ship firing only 1/8 of its normal firepower. 
+After the surprise attack round, normal combat rounds begin and withdrawal 
+becomes possible.
+16.7  Damage Recording Procedure. The number of MS (midships), FP 
+(firepower), or KN (knots) that are lost in combat are subtracted from their 
+current values.
+16.71  When a battleship"s, cruiser's, oiler's, or aircraft carrier's MS 
+equals 0 then the ship is sunk and Victory Points are allocated.
+16.72  Each MS factor of a destroyer flotilla, convoy, sub group, or wolfpack 
+represents a single ship. Thus each time a midship factor is lost, one 
+destroyer, merchant ship, or submarine is lost and Victory Points are awarded 
+for the destroyed ship. The unit is eliminated when all ships in the unit are 
+sunk (MS factor reaches 0).
+16.73  If the Bismarck or Prinz Eugen disperses a British convoy, the German 
+player is awarded Victory Points equal to only 1/2 of the convoy's remaining 
+Victory Points. Example: The WS8B convoy has lost two of its five ships when 
+the Bismarck arrives and attacks the convoy. The three ships remaining in the 
+convoy are worth a total of 48 Victory Points (3 x l6). The German player is 
+awarded 1/2 of the 48 points, or 24 Victory points. The other half of the 
+convoy is assumed to have dispersed and is no longer under the control of the 
+British player.
+16.74  If a surface ship suffers FP losses when its current FP = 0 then each 
+2 FP losses = 1 MS lost.
+16.75  For each MS lost there is a 50% chance that 1 fuel factor will be lost 
+(damaged ships may leak oil).
+16.76  If a ship's knots (KN) falls below 22 knots the computer automatically 
+places the ship in "slow mode" by setting the slow mode indicator to N.
+16.8  Combat Tables.
+16.81 Gunnery Salvo Table
+--------------------------------
+  Probability    Result
+     00.1%      Ship sunk*
+     09.0%      - l MS
+     14.0%      - 2 FP
+     01.0%      - 10 KN
+     02.0%      - 5 KN
+     04.0%      - 1 KN
+* If the target is BISMARCK - 1 MS
+16.82 Torpedo Hit Table
+        ----------------------------------------------------------
+         Target's Speed (in knots)  0-10  11-20  21-25  26-30  31+
+         Probability of a Hit        60%   30%    20%    10%   5%
+16.83  Torpedo Damage Table
+If the target is a battleship there is a 60% chance of losing 1 MS and
+a 40% chance of losing 2 MS (Exception: If the target is the Bismarck the 2 
+MS loss is converted to a 0 MS loss). The ship will also lose between 0 and 
+20 knots (Exception: If the target is the Bismarck knots will only be lost 
+from 50% of the torpedo hits) .
+If the target is a cruiser there is a 33% chance that the ship will be 
+sunk, a 33% chance that it will lose 2 MS, and a 33% chance that it will lose 
+1 MS. The ship will also lose between 0 and 30 knots.
+If the target is an aircraft carrier there is a 15% chance that the ship
+will be sunk, a 50% chance that it will lose 2 MS, and a 35% chance that it 
+will lose 1 MS. The ship will also lose between 0 and 20 knots.
+If the target is a convoy, oiler, or destroyer flotilla a torpedo hit 
+results in an automatic loss of 1 MS (one merchant ship, oiler, or destroyer 
+is sunk by each hit).
+16.84  Submarine Attack Tables 
+16.84.1Anti-Sub Strength Table
+                                              Anti-Sub
+                                              Strength
+                     Unit Type              Day    Night
+                     Convoy                  11      3
+                     Aircraft Carrier         5      0
+                     Reconnaissance plane     4      0
+                     Each Destroyer in        2      1
+                     Flotilla
+16.85
+Sub Losses and Torpedo Factor Determination Table
+              ----------------------------------------
+               Anti-Sub# of Torpedo Factor  Chance of
+               Strength Granted to Attacker Sub Sunk
+                   01 to 7 (average - 4)     05%
+                 1-41 to 5 (average = 3)     12%
+                 5-8l to 3 (average = 2)     20%
+                9-120 to 2 (average = 1)     25%
+                 13+0 to 1 (average= .5)     30%
+
+17.0  Victory Conditions
+
+17.1  A player wins by accumulating more Victory Points than his opponent by 
+the end of the game. There are two possible ways in which the game may end. 
+1) The game ends if the Bismarck is sunk and one player has at least 30 more 
+Victory Points than his opponent. 2) The game ends after 30 turns have been 
+completed.
+17.2  The computer awards Victory Points as they are scored and determines if 
+the game should end.
+17.3  British convoys are given missions to accomplish and receive Victory 
+Points if the missions are successfully completed. The German player is 
+awarded Victory Points for each mission that is not completed. In order to 
+complete the assigned mission, each convoy must move directly toward its 
+destination whenever it may move (Exception: The WS8B is allowed two turns to 
+move around Ireland if the British player wishes before it must move south 
+each turn it may move).
+17.4  The British player receives Victory Points for the following events:     
+           Victory
+           Points
+           Awarded    Event
+           -------------------------------------------------------
+             60       Bismarck Sunk
+             20       Prinz Eugen sunk
+              4       Each German submarine sunk
+              4       Each oiler sunk
+              4       Each ship in convoy WS8B that reaches
+                         row 3l during turns 21-25 (inclusive)
+              4       Britannic reaches column 10 on turn 25
+              4       SL1 reaches Clyde on turn 25
+              4       SL2 reaches column 22 by turn 30*
+              4       SL3 reaches Clyde on turn 19
+              4       SL4 reaches column 23 by turn 30*
+              4       SL5 reaches column 21 by turn 30*
+              8       Bismarck at sea after turn 30 with less
+                         than 22 knots*
+              4       Prinz Eugen at sea after turn 30 with less
+                         than 22 knots*
+              4       Each midship (MS) lost by the Bismarck (if
+                         it is not sunk)
+              2       Each midship (MS) lost by the Prinz Eugen
+                         (if it is not sunk)
+      * These Victory points are only awarded after turn 30.
+17.5  The German player receives Victory Points for the following events: 
+          Victory
+          Points
+          Awarded          Events
+          ----------------------------------------------------------
+          see ship/     Each British battleship, cruiser, or aircraft
+          plane         carrier sunk (VP's depends on ship sunk)
+          data card
+           see Sec.     Each convoy dispersed by the Bismarck or
+           16.73        Prinz Eugen
+           16           Each WS8B ship sunk by torpedoes
+            8           Britannic sunk by torpedoes
+            4           Each British submarine sunk
+            4           Each destroyer sunk
+            4           Each plane unit that crashes
+            2           Each slow convoy merchant ship sunk by
+            2           Each midship (MS) lost by a cruiser (if it is
+                            not sunk)*
+            4           Each midship (MS) lost by a battleship or
+                            aircraft carrier (if it is not sunk)*
+            1           0Each British convoy that fails to accomplish
+                            its mission (dispersed convoys are considered
+                            to have failed their missions)**
+    * These Victory points are only awarded after turn 30.
+   ** These points are awarded on the turn in which the convoy was to have
+      completed its mission.
+
+10.0  Designer's Notes
+
+The first (very simple) version of Computer Bismarck was done on a 
+borrowed computer. Although thrown together hastily, it proved that we could 
+program a real historical wargame for a home computer. Many of the concepts 
+developed for historical simulation games have been freely adapted for our 
+current needs. We have used the computer to automate the boring bookkeeping 
+rules that slow down the play of wargames, but which are essential if the 
+historical situation is to be understood and appreciated. Naval and air 
+movement fell out nicely once we had decided on a map scale that could be 
+displayed on most home computers . Combat was added during several all night 
+sessions. Then we began playtesting of the first (incomplete) computer 
+historical wargame. All our playtesters were encouraging and quite patient as 
+we worked the bugs out of both the program and the game. Finally we invented 
+"Otto" and the solitaire game went into playtesting. Plane activities (T's) on
+deck really shouldn't be counted for purposes of spotting subs) and solitaire 
+were the most complex game elements to add. Graphics was the most difficult 
+software addition. One element we knew we wanted but couldn't figure out how 
+to do for some time was allowing the players the capability to save the 
+status of a game in progress. As the game got bigger and bigger (once we 
+hoped for a single 16K program) it turned out that one way to save space was 
+to put the initial ship and plane data on a separate file. Once we had to 
+read in a data file it was almost a trivial matter to read in a file that we 
+had allowed the players to save. And the program continued to grow in size. 
+Finally, the first computer historical wargame was finished. The future 
+arrived in January 1980. Developing this program has been one of the most 
+stimulating and satisfying periods of my life. I hope you enjoy playing the 
+game as much as I have enjoyed creating it. My personal thanks go out to 
+everyone who participated in this project.
+
+19.0  Notes On Strategy
+
+British Strategy: As the British player your goal is clear, find the 
+Bismarck and the Prinz Eugen before they are able to break out into the 
+Atlantic. You must set up a search line so that you are guaranteed to spot 
+the German ships before they move past your main fleet.
+Once this line is formed just sit back and wait, adjusting your units 
+as dictated by the changing weather. Be sure that you have adequate firepower 
+within two squares of every part of the search line. This will allow you to 
+concentrate power before the German ships are able to shake off their 
+shadowers. If the Prinz Eugen escapes alone, you will need to detach some 
+cruisers from your search force to escort the convoys, but don't give up your 
+search line completely.
+Don't forget to move some planes into Bergen as soon as the fog clears 
+so that you are allowed to move your Scapa Flow reinforcements as soon as 
+possible. These forces will allow you to hold your search line when your 
+planes are forced to refuel.
+While you are holding the search line. move your convoys towards their 
+goals, only changing course if absolutely necessary to avoid wolfpacks. Your 
+planes from Plymouth can be used to search for wolfpacks in the paths of your 
+convoys, especially the WS8B. Keep in mind that losing ships from the WS8B is 
+the quickest way to lose the game. Protect it!
+German Strategy: Remember one thing, this is a game of strategy, and 
+although the German position may seem hopeless, the German player can win if 
+he is clever. As the German player you have less ships to move, so you have 
+the time to weigh every move carefully. Do not blunder through the British 
+search screen without a plan. Try to deceive the British player into making a 
+mistake. You have only one major ally, the element of surprise, and this must 
+be used to the fullest. Keeping the Prinz Eugen with the Bismarck will help 
+the Bismarck rid itself of shadowing cruisers, but it is often possible to 
+sneak the Prinz Eugen past the British search net, and this should be 
+considered. Whatever your plan, when you are spotted be sure to do the 
+unexpected, for you will not live long if you are being shadowed. For every 
+enemy ship that you spot, there are probably three more close by. A final 
+note-if all else fails hide in the fog.
+
+SYSTEM COMMAND CARD A
+
+CHART A GENERAL COMMANDS
+Command Description
+SN Ships Now. Displays the ship positions at the beginning of the turn.
+SP Ships projected. Displays projected end of the turn ship positions.
+PN Planes Now. Displays the aircraft positions at the beginning of the turn.
+PP Planes projected. Displays aircraft positions as they are projected to be
+   at the end of the turn.
+MS Move Ships.
+MP Move planes.
+QN#### Query Now. Lists the ships and airborne planes that began the turn
+       in square ####.
+QP#### Query projected. Lists the ships and airborne planes that are
+       projected to end the turn in square ####.
+NS Now Search. Displays search values at the beginning of the turn.
+PS Projected Search. Displays projected end of the turn search values.
+NM New Map. Displays a new map without displaying ship, plane or search
+   value locations.
+STxxx Status Check. Displays the current status of the ship whose name
+      begins with xxx.
+DM Done Moving. This command ends the player's movement phase.
+
+CHART B. SHIP COMMANDS         CHART C. PLANE COMMANDS
+Command    Description         Command     Description
+   M       Move                  M          Move
+   P       Patrol                P          Patrol
+   L       Launch/Land Planes    A          Attack (L & T only) T's only
+   F       Fast Convoy                        when you reach the square where
+   C       Slow Convoy                        you wish to attack-type A.
+   R       Refuel/Rearm          R          Recon (L & T only)
+   X       Exit                  Z          Return to base
+  (CR)     Go to next ship       B          Base plane-used only for errors
+   X       Exit                 (CR)        Go to next plane
+
+SYSTEM COMMAND CARD B
+
+SHIP DETAIL LINE
+ (1)  (2)  (3)  (4)   (5)  (6) (7) (8) (9) (10) (11) (12)
+  B   HOOD 1662 l662  1/1  4/3  M   M   0    7    2    2
+ (1)  Ship Type
+ (2)  Slow Mode Indicator (3) Name
+ (4)  Square the ship is in at the beginning of the turn.
+ (5)  Square the ship is projected to be in at the end of the turn.
+ (6)  Search factor in move mode (day/night).
+ (7)  Search factor in patrol mode (day/night).
+ (8)  Mode the ship is in at the beginning of the turn.
+ (9)  Mode the ship is projected to be in at the end of the turn.
+(10)  Fuel Remaining
+(11)  Maximum number of squares ship may move.
+(l2)  Number of squares ship may move this turn.
+
+PLANE DETAIL LINE
+(1) (2)        (3)   (4)  (5)  (6)  (7)  (8)  (9) (10)
+ R  REYKJAVIK 1317  1317  2/1  6/3   B    B    5    5
+ (1)  Plane type.
+ (2)  Name of home airfield.
+ (3)  Square plane is in at the beginning of the turn.
+ (4)  Square plane is projected to be in at the end of the turn.
+ (5)  Search factor in Move or Attack Mode (day/night).
+ (6)  Search factor in Patrol or Recon Mode (day/night).
+ (7)  Mode the plane is in at the beginning of the turn.
+ (8)  Mode the plane is projected to be in at the end of the turn.
+ (9)  Endurance Now-Number of turns the plane can remain in the air.
+(10)  Endurance Projected-Number of turns the plane will be able to
+      remain in the air after the current turn.
+
+SHIP/PLANE DATA CARD A
+British Ships
+
+          Search Strength   Shadow                                Start
+        Mve Mode Ptrl Mode Strength Max  Fuel                     Square
+Ship      Day/Nt Day/Nt     Day/Nt  Spd  Cap.  MS  FP Kts Trp  VP   &   Mode
+----------------------------------------------------------------------------
+Hood         1/1   4/3      4/3      2    7     6  22  31   1  28  1622 M
+K George V   1/1   4/3      4/3      2    8     7  28  29   0  32  1825 X
+P of Wales   1/1   4/3      4/3      2    8     7  20  29   0  32  1622 M
+Ramilles     1/1   3/2      3/2      1    6     5  24  19   0  16  2911 C
+Renown       1/1   4/2      4/2      2    6     5  16  28   0  20  0000 Y
+Repulse      1/1   4/2      4/2      2    6     5  16  28   1  20  2125 X
+Rodney       1/1   3/3      3/3      1    6     6  28  21   1  24  2023 F
+Ark Royal    1/1   1/1       -       2    9     3   0  31   0  48  0000 Y
+Victorious   1/1   1/1       -       2    8     4   0  32   0  40  1825 X
+Arethusa     1/1   4/3      5/4      2    8     2   4  32   1   8  1519 M
+Aurora       1/1   4/3      5/4      2    8     2   4  32   1   8  1825 X
+Birmingham   1/1   4/2      4/2      2    7     2   8  32   1   8  1521 P
+Cairo        1/1   4/3      4/3      2    8     1   4  29   0   8  2024 M
+Dorsetshire  1/1   4/2      4/2      2    8     2  10  32   1  12  0000 U
+Edinburgh    1/1   4/3      5/4      2    8     2   8  32   1   8  3019 P
+Galatea      1/1   4/3      5/4      2    8     2   4  32   1   8  1825 X
+Hermione     1/1   4/3      5/4      2    8     2   8  33   1   8  1825 X
+Kenya        1/1   4/3      4/2      2    7     2   8  33   1   8  1825 X
+Manchester   1/1   4/3      4/2      2    7     2   8  32   1   8  1420 P
+Norfolk      1/1   4/2      4/2      2    8     2  10  32   1  12  1117 P
+Sheffield    1/1   4/2      4/2      2    7     2   8  32   1   8  0000 Y
+Suffolk      1/1   4/3      5/4      2    8     2  10  31   1  12  1317 M
+DF1 D Flot   1/1   1/1      5/4      2   20     6   0  35   6  24  1622 M
+DF2 D Flot   1/1   1/1      5/4      2   20     6   0  35   6  24  1825 X
+DF3 D Flot   1/1   1/1      5/4      2   20     6   0  35   6  24  0000 Y
+WS8B Convoy  1/1   1/1       -       1    -     5   -  12   -  80  2024 F
+Britannic    1/1   1/1       -       1    -     1   -  12   -   8  2023 F
+SL1 S-Convoy 1/1   1/1       -       1    -   2 4   -   8   -  48  2016 C
+SL2 S-Convoy 1/1   1/1       -       1    -   2 4   -   8   -  48  2112 C
+SL3 S-Convoy 1/1   1/1       -       1    -   2 4   -   8   -  48  2418 C
+SL4 S-Convoy 1/1   1/1       -       1    -   2 4   -   8   -  48  2413 C
+SL5 S-Convoy 1/1   1/1       -       1    -   2 4   -   8   -  48  2911 C
+SG1 Subs     2/1   3/2      4/3      1    -     3   -  12   4  12  1627 P
+SG2 Subs     2/1   3/2      4/3      1    -     3   -  12   4  12  2525 P
+
+SHIP/PLANE DATA CARD B
+German Ships
+
+          Search Strength   Shadow                                Start
+        Mve Mode Ptrl Mode Strength Max  Fuel                     Square
+Ship      Day/Nt Day/Nt     Day/Nt  Spd  Cap.  MS  FP Kts Trp  VP   &   Mode
+----------------------------------------------------------------------------
+Bismarck     1/1   4/3       -      2(4)  9    10  34  29   0  60  1528 M
+Prinz Eugen  1/1   4/3       -      2(4)  7     3  10  32   2  20  1528 M
+Belchen      1/1   1/1       -       1    -     1   -  15   -   4  1511 M
+Hamburg      1/1   1/1       -       1    -     1   -  15   -   4  2914 M
+Lotheringen  1/1   1/1       -       1    -     1   -  15   -   4  1611 M
+WP1 U-boats  3/2   4/4      4/3      1    -     3   -  12   4  12  1812 P
+WP2 U-boats  3/2   4/4      4/3      1    -     3   -  12   4  12  1913 P
+WP3 U-boats  3/2   4/4      4/3      1    -     3   -  12   4  12  2719 P
+WP4 U-boats  3/2   4/4      4/3      1    -     3   -  12   4  12  2822 P
+British Planes
+
+             Search Strength   Shadow    Maximum Speed      Endurance
+           Mve Mode Ptrl Mode Strength Mve/Attk Ptrl/Rec Mve/Attk Ptrl/Rec
+Type Unit   Day/Nt   Day/Nt    Day/Nt    Mode     Mode     Mode     Mode
+---------------------------------------------------------------------------
+R  Reykjavik   2/1    4/2       4/3       6         2        5        5
+R  Scapa Flow   1     2/1       4/2      4/3       62        5        5
+R  Scapa Flow   2     2/1       4/2      4/3       62        5        5
+L  Scapa Flow  2/1    4/2        -        6         7        2        2
+R  Plymouth     1     2/1       4/2      4/3       62        5        5
+R  Plymouth     2     2/1       4/2      4/3       62        5        5
+L  Plymouth    2/1    4/2        -        6         7        2        2
+R  Ulster 1    2/1    4/2       4/3       6         2        5        5
+R  Ulster 2    2/1    4/2       4/3       6         2        5        5
+L  Ulster      2/1    4/2        -        6         7        2        2
+T  Victorious  2/1    4/2        -        5         5        1        2
+T  Ark Royal 1 0/0    4/2        -        5         5        1        2
+T  Ark Royal 2 0/0    4/2        -        5         5        1        2
+T  Ark Royal 3 0/0    4/2        -        5         5        1        2
+                                       ________________________________
+                                      |1         |2         |3         |
+                                      |  May 22  | Day 11-30| Day 11-20|
+                                      |F  1200  C|   1600   |F  2000  C|
+                                      |          |          |Nite 21-30|
+      ________________________________|__________|__________|__________|
+     |4         |5         |6         |7         |8         |9         |
+     |  May 23  | Day 11-30| Day 11-30| Day 11-30| Day 11-30| Day 11-20|
+     |   2400  C|F  400    |  800     |F  1200  C|   1600   |F  2000  C|
+     |Nite 11-30|          |          |          |          |Nite 21-30|
+     |__________|__________|__________|__________|__________|__________|
+     |10        |11        |12        |13        |14        |15        |
+     |  May 24  | Day 11-30| Day 11-30| Day 11-30| Day 11-30| Day 11-20|
+     |   2400  C|F  400    |  800     |F  1200  C|   1600   |F  2000  C|
+     |Nite 11-30|          |          |          |          |Nite 21-30|
+     |__________|__________|__________|__________|__________|__________|
+     |16        |17        |18        |19        |20        |21        |
+     |  May 25  | Day 11-30| Day 11-30| Day 11-30| Day 11-30| Day 11-20|
+     |   2400  C|F  400    |  800     |F  1200  C|   1600   |F  2000  C|
+     |Nite 11-30|          |          |          |          |Nite 21-30|
+     |__________|__________|__________|__________|__________|__________|
+     |22        |23        |24        |25        |26        |27        |
+     |  May 26  | Day 11-30| Day 11-30| Day 11-30| Day 11-30| Day 11-20|
+     |   2400  C|F  400    |  800     |F  1200  C|   1600   |F  2000  C|
+     |Nite 11-30|          |          |          |          |Nite 21-30|
+     |__________|__________|__________|__________|__________|__________|
+     |28        |29        |30        |
+     |  May 27  | Day 11-30| Day 11-30|
+     |   2400  C|F  400    |  800     |
+     |Nite 11-30|          |          |
+     |__________|__________|__________|
+
+                                 LEGEND
+                                __________
+               Turn Number --->|28        |
+                               | Day 11-20|<--- Daytime in Rows 11-20
+                     Date ---->|  May 27  |  (Time below date)
+ Fast Convoy Move Turn (F) --->|F  2400  C|<--- Slow Convoy Move Turn (C)
+                               |Nite 11-30|<--- Nighttime in Rows 11-30
+                               |__________|
