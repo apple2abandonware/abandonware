@@ -1,0 +1,215 @@
+       ***B-1 Nuclear Bomber***
+
+
+LOADING INSTRUCTIONS:
+
+Make sure that basic in place when you load this game. Just turn on the 
+computer after this and it will load itself. Then follow the prompts.
+
+INTRODUCTION:
+
+B-1 is a computer simulation of a manned bomber nuclear strike mission 
+into Soviet Russia. The player gives commands into the computer which 
+'flies' the bomber on the mission. The bomber must fly to within bomb 
+range of its target to deliver its weapon. It is opposed by nuclear 
+MIG's and SAM's of the USSR's air defense system. It defends itself with 
+ECM, evasive action and nuclear tipped multi-purpose Phoenix missiles. 
+It is advised that you obtain a map of the Soviet Union to help you for 
+directional assistance in course setting.
+
+PROGRAM STARTUP:
+
+The program starts by printing an initial display containing the primary 
+target of the mission, the five letter Fail Safe Code which is required 
+to arm the bomb, and a list of alternate targets and Soviet defense 
+complexes. The program then enters the main loop in which it requests 
+and processes the pilot's command and then runs the Soviet Air Defense 
+Command, launching MIG's and SAM's.
+
+BOMBING THE TARGET:
+
+The B-1 bomber in the game carries one Short Range Attack Missile(SRAM) 
+with a one Megaton warhead. This is large enough to completely destroy 
+the target. The SRAM has a range of 250 kilometers(km).
+
+The primary target is chosen at random from the list of targets. All 
+targets have a population of more than one million persons.
+
+The Fail Safe Code is a group  of five random letters. Its purpose is to 
+prevent inadvertent arming of the SRAM. A note of the code should be 
+made prior to giving the first command. It will be used later to arm the 
+SRAM.
+
+THE SOVIET AIR DEFENSE COMMAND:
+
+The air defenses of the Soviet Union consist for the purposes of this 
+game of about twenty Defense Complexes(DC's). Each DC evaluates the 
+range to the B-1 and decides whether to launch every time interval. 
+Launching depends on the range (750km max), altitude (lower less likely) 
+and the state of the SRAM. a B-1 without SRAM is less likely to be 
+attacked; one with an armed SRAM draws a great deal of attention. A 
+launch will cause a message to be displayed on the screen giving  type 
+of unit launched (either a MIG or SAM) and intercept time, as well as 
+the name of the launching DC. Unless prevented in some way each unit 
+will intercept, resulting in a nuclear airburst which can cause 
+destruction if the bomber. It can also cause changes in course and speed 
+and loss of fuel.
+
+SAM's and MIG's may be defended against by the use of Electronic Counter 
+Measures (ECM), evasive action or Phoenix missiles. Phoenix missiles may 
+also be used to eliminate DC's from a range of up to 200 km.
+
+ECM causes MIG's and SAM's to lose their target. Repeated use lowers it 
+effectiveness. ECM is better against SAM's and is not range dependent.
+
+Evasive action is a violent alteration in course and altitude, which 
+works better against SAM's than MIG's. It works only on close units. It 
+poses the risk of flying into the ground when starting at low altitude.
+
+Phoenix missiles are nuclear tipped homing missiles. They may be fired 
+at units within 10 seconds of intercept. They work better against MIG's. 
+they may be fired against DC's in range.
+
+Each type of defense is selected by giving the computer the appropriate 
+command.
+
+COMMANDS:
+
+Commands may be divided into four types: flight control, navigational, 
+combat and bombing. Each command and each target and Defense Complex is 
+recognized by the computer from its first two letters e.g. EC for ECM, 
+PH for Phoenix missile, MO for Moskva, KO for the Konosha Defense 
+Complex.
+
+After each command is entered there will be a short delay while the 
+computer processes Soviet air defenses. For long autopilot times this 
+delay will be longer.
+
+FLIGHT CONTROL COMMANDS:
+
+Flight control commands are Altitude: AL, course: CO and Autopilot: AU. 
+Altitude requests an ordered altitude, which the B-1 wil then climb or 
+dive to at its maximum rate. Although orders greater than 25,000m or 
+less than 100m can be given the computer will not fly the B-1 outside 
+these limits. Altitude affects the probability of a DC launching, lower 
+being less likely. However, enough room should be left for evasive 
+action or the effects of a nuclear airburst. In addition flying below 
+300m runs the risk of a terrain avoidance radar failure, i.e., the B-1 
+flying into the ground. Should evasive action or an airburst change the 
+B-1's altitude it will stay at the new altitude until it receives new 
+orders.
+
+Course requests an ordered course to which the B-1 will turn at maximum 
+rate. If altered by evasive action or airburst the B-1 will stay on the 
+new course until further orders.
+
+Autopilot will request a time for the autopilot to fly the B-1. for 
+convenience this is arranged in seconds, minutes, hours. While the 
+autopilot is in control the player may not interrupt it. Events which 
+occur which generates messages, such as MIG or SAM launch or any target 
+coming into range, will cause the autopilot to return control to the 
+player. The exception to this is a report of a target going out of 
+range, which will not interrupt the autopilot.
+
+NAVIGATIONAL COMMANDS:
+
+The navigational commands are Navigator: NA, Search: SE, Status: ST, and 
+Radar: RA.
+
+Navigator requests a city to fly to. It recognizes all targets and 
+Defense Complexes from the first two letters of their names. It also 
+recognizes TH for Thule AFB, to which the B-1 must return upon 
+completion of its mission. It will produce a range and bearing to the 
+desired city. Use of the navigator takes a large of game time. This is 
+NOT the command to use with a MIG hot on your tail!!!
+
+Search will return the range and bearing of the nearest active DC within 
++/- 45 degrees of the B-1's present course. This is intended as an aid 
+to flak suppression. The search command also requires a large amount of 
+game time.
+
+Status returns a display of important aircraft parameters including fuel 
+and a contact summary. Radar returns only the contact summary. A contact 
+summary is also printed before each request for a command if any 
+contacts are held.
+
+COMBAT COMMANDS:
+
+the combat commands are ECM: EC, Evasive Action: EV, and Phoenix 
+Missiles: PH.
+
+ECM,may cause airborne MIG's and SAM's to lose their targets or self 
+destruct. The effect is not range dependent and works better on SAM's. 
+With each use the effectiveness of ECM is reduced because the Soviets 
+figure out what is happening.
+
+Evasive action is a violent change in course and altitude to throw off 
+pursuers. The size and direction of the change is random. The effect is 
+very range dependent and works better on SAM's than MIG's. If evasive 
+action results in a negative altitude the B-1 will crash.
+
+Phoenix missiles are armed by the PH command and then launched against a 
+close SAM or MIG or a DC within 200 km. A target is requested by the 
+computer. If only ENTER is pressed ('N' for PET) the Phoenix is fired at 
+the closest interceptor if it is in range. This is known from the 'MIG-
+25 in Phoenix range.' message or time to intercept less than 10 sec. for 
+any interceptor. The Phoenix is more effective against MIG's. If a DC's 
+name is input and that DC is in range the Phoenix will destroy it for 
+the balance of the game.
+
+BOMBING COMMANDS:
+
+The bombing commands are Arm: AR, and Bomb: BO.
+
+Arming the SRAM is required prior to dropping it. To do this the Fail 
+Safe Code must be input when requested. Arming the SRAM also results in 
+excessive attention from the Soviet Air Defense Command, so it is wise 
+not to do this too early. Once armed, the SRAM cannot be disarmed.
+
+The Bomb command launches the SRAM. A final verification in Yes/No 
+format is required. A No answer aborts the drop.
+
+ENDING THE GAME:
+
+The game is ended when the B-1 is destroyed or returns to base. To end 
+the game after dropping the SRAM head for Thule AFB (TH). At a certain 
+distance from Russia over the Artic the game is ended.
+
+Note-Although the B-1 may not have enough fuel to reach Thule on its own 
+it is presumed to refuel from a tanker aircraft over the Artic.
+
+No matter how the game is ended a short mission summary is printed and a 
+chance to play again is offered.
+
+LISTS OF TARGETS:
+
+Soviet Targets:
+  Murmansk (MU)
+  Arhangelsk (AR)
+  Sverdlovsk (SV)
+  Moskva (MO)
+  Kiyev (KI)
+  Volgograd (VO)
+  Astrakhan (AS)
+  Sevastopol (SE)
+  Yerevan (YE)
+  Leningrad (LE)
+
+Soviet Defense Complex:
+  Pechenga (PE)
+  Ukhta (UK)
+  Onega (ON)
+  Konosha (KO)
+  Syktyvkar (SY)
+  Vyborg (VY)
+  Tallinn (TA)
+  Pskov (PS)
+  Rostov (RO)
+  Yaransk (YA)
+  Podolsk (PO)
+  Lipetsk (LI)
+  Pinsk (PI)
+  Kharkov (KH)
+  Dubovka (
+.............incomplete....
+
