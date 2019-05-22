@@ -1,0 +1,787 @@
+NORTHERN FLEET, Modern Naval Operations In The Atlantic Ocean.
+
+
+Index:
+1.0	Introduction
+2.0	General Course Of Play
+3.0	Game Equipment
+4.0	Getting Started
+5.0	The Command Segment
+6.0	The Reports Segment
+7.0	The Search Segment
+8.0	The Combat Resolution Segment
+9.0	Ending Or Saving The Game
+10.0     Victory
+11.0      Designer's Notes On Play
+
+Credits:
+Design:  W.J. Nichols
+Development:  J. Baker and S. Newberg
+Playtesting:  J. Butters, P. Hollinger, T. Konczal, D. Markov, D. Winston, and
+              the W.I.T. Group
+Cover Art:  J. Kula, (C) 1988
+Printing: Halcraft Print.
+
+
+The enclosed software program on diskette, rules booklet, and map sheets are copyrighted. These items may not be copied, translated or reduced to any electronic or machine readable form, in whole or in part, without prior written consent from Simulations Canada.  The software program may be copied, by the original purchaser only, to provide a secure backup copy of the provided program diskette. However, such a copy may not be 6iven away or sold to other individuals or firms of any form. We do not protect our software so that purchasers will have no difficulty making a backup copy.  Please do not abuse this policy.
+
+Copyright (C), 1988 by Simulations Canada, P.O. Box 452, Bridgewater, Nova Scotia, Canada, B4V 2X6.  MADE IN CANADA.
+
+
+BACKGROUND:  In the fall of 1995 the Soviet leadership determined that a
+significant shift in the "correlation of forces" had taken place.  Throughout
+the world the forces of socialism were slowly gaining an advantage over the
+West.  The Soviet leaders believed that an opportunity existed for the USSR to
+assert its power and achieve a major strategic breakthrough.  As a result of
+NATO's conventional military weakness and Soviet strategic nuclear
+superiority, the world had been made safe for increased Soviet activism, even
+at the risk of conventional war between the superpowers.  The Soviets now
+turned their attention to what the British press once called "the Achilles
+Heel of NATO".
+
+In early March 1996, the Soviets made it clear to the Norwegian Government
+that they sought a permanent solution to the 'Grey Zone' dispute, revocation
+of the Svalbard Treaty, joint Soviet-Norwegian rule of Svalbard, and
+sovereignty over Bear Island.  The Norwegians stalled, and with tension in the
+region mounting, the Soviets began their annual naval exercise in the
+Norwegian, Barents, and Baltic Seas Units from the Twice Honored Red Banner
+Northern Fleet and Red Banner Baltic Fleet sortied from their bases. The
+Soviets also mobilized the ground and air forces of the Leningrad Military
+District in an obvious attempt to pressure the Norwegians. After two weeks of
+intensive operations, which included an amphibious assault exercise against
+the Kola Peninsula coast, the Soviet ships returned to port for a period of
+reorganization and repair.  On 25 March, a naval group put to sea for what
+appeared to be a second round of operations, but its true intentions soon
+became all too apparent.  At dawn on 27 March 1996, a regiment of the Soviet
+63rd 'Kirkenes' Naval Infantry Brigade with the support of an air assault
+battalion captured the entire Svalbard Archipelago. Norway and NATO were
+presented with a most unpleasant fait accompli.  By mid-afternoon on the 27th,
+the military forces of NATO had been placed on alert and the Norwegians began
+mobilizing their reserves.  An American aircraft carrier battleforce, composed
+of the USS Kennedy and USS Roosevelt, was ordered into the North Atlantic.
+The Battle For The Norwegian Sea was about to begin. [From "Defending Norway
+And The Northern Flank", by M. K. Mahon].
+
+
+1.0     INTRODUCTION: NORTHERN FLEET is a detailed game type simulation of
+modem naval operations in the North Atlantic for one or two players.  Each
+player may control up to ten task forces (composed of individual surface
+ships), individual submarines, and air groups.  They will be responsible for
+the operational control of each unit under their command.  The viewpoint of
+the players is thus that of the Theater naval commander of each side: SACLANT
+for NATO, and the Northern Fleet Commander for the USSR.  As such, the players
+may compose task forces, establish missions and destinations for those forces,
+order major strikes, review intelligence reports, and suggest to their
+national command a conflict level they feel appropriate.  Other operations
+that the theater commander would not deal with directly, such as individual
+ship movement, target selection, weapon employment, and aircraft operations,
+will be handled automatically by the computer.
+
+
+        2.0 GENERAL COURSE OF PLAY:     The game is composed of two major
+sections, the start up of the game and the game itself. The start up allows
+the players to select their own passwords so that only they can play their
+portion of the game.  Start up also lets the players resume a previous game
+that had been saved. The game is played in turns and follows a constant
+sequence of play composed of four segments for each turn.  In the first
+segment the players may give orders for the actions of their forces for the
+turn.  The Soviet player goes first, recommending a conflict level, adjusting
+task forces, giving movement orders, etc.  ' Next the NATO player conducts the
+same operations, thus ending the segment.  In the second segment both players
+will receive any reports available from their forces.  The NATO player
+receives these reports first, and then the Soviet player.  These may include
+reports of contact and/or combat with enemy forces.  The third segment then
+begins with search a us reports, first for the Soviet player, followed by
+similar reports for the NATO player.  Under certain circumstances either or
+both players may be given the option to launch missile and/or airstrikes at
+the close of their portion of this segment. The final segment of the turn
+resolves combat and other events, displaying the results. The players will
+then be asked if they wish to continue the game.  If they do, play proceeds to
+the next turn.  Otherwise, the computer will give them the chance to save the
+game at this point, indicate the current victory point status of the players,
+and allow the players to review the status of their forces at the end of the
+game.
+
+
+3.0   GAME EQUIPMENT: Two identical, laminated maps are included in the game.
+The two colored markers provided with the game can be used to record the
+locations of friendly task forces  and submarines  as well as possible
+locations for opposing units.  Notations from these markers can be erased
+completely by rubbing the map with a damp cloth.  The map is overlaid with a
+grid of squares. Each square is termed a sector. Each sector is identified by
+an alphanumeric designation formed by cross referencing the vertical letter
+designation for the rows with the number designator for the vertical columns.
+All references to locations on the map must be made in this format.  Thus, the
+air base at Bodo, Norway is in sector 017 and the Faroe Islands are in sector
+Q10.  The time/distance scale is 8 hours per turn with sectors approximately
+70 nautical miles square.  Sectors represent either land, open ocean, or
+ice-covered ocean.  Only nuclear submarines (SSN/SSGN/SSBN) may enter
+ice-covered ocea n sectors.  No naval units may enter land sectors.  In
+addition, the map shows NATO and Soviet airbases, naval bases, and the
+location of the Soviet SSBN bastion areas.  These features have no effect on
+movement.
+
+
+4.0	GETTING STARTED:
+
+4.1     BOOTING: Before first booting the game you should format a blank disk
+for saving games onto.  Consult your system documentation for how to format a
+disk.  Apple users must format under ProDOS.  To boot the game, place the game
+disk in the primary drive and turn on the computer.  Commodore users must type
+'LOAD "NF",8' followed by 'RUN'.  IBM-PC users should use DOS 2.0 or later and
+boot the game by inserting the disk in the default drive of an already running
+system and typing 'NF''.  Note that the files can be loaded onto a hard disk
+and the game started from that directory.  Amiga, Atari ST, and MacIntosh
+users should start the file NF.PRG. After starting the game, keep the game
+disk in the disk drive unless told to do otherwise by the program.
+
+4.2     NEW OR SAVED GAME: The program will ask if you wish to start a new
+game or restart a saved game.  If you are restarting a saved game, insert the
+disk with the saved game into. the primary drive and follow the prompts given
+on the screen.
+
+4.3   ONE  OR TWO PLAYERS & PASSWORDS:  When starting a game the computer will
+need to know how many people will play.  By selecting 'O' for One, your
+opponent will be the computer. If playing against the computer you will be
+given a choice of which side you wish the computer to play.  If playing
+against another player, the players will be asked to select a password.
+Simply select a few letters and type them in.  This password will be requested
+by the computer at the start of each player's portion of a segment so that
+only the correct player can play.  When playing against the computer passwords
+are not used.
+
+4.4   STARTING POSITIONS:             The computer will set up the game.  If
+players are restarting a saved game the starting positions will be as when the
+saved game was previously stopped. For a new game the computer will deploy the
+initial forces.  NATO will always be deployed as two aircraft carrier task
+forces, plus submarines.  The Soviets start with only submarines at sea.
+Start locations and arrival times of reinforcements will vary with each game.
+
+4.5       UNIT AND TASK FORCE DESIGNATIONS:     Each player's units are
+assigned an individual unit number and vessel class name, as well as a unit
+type abbreviation.  Thus, '4 CG SLAVA-2' represents unit number 4, which is
+the second Slava class guided missile cruiser.  All communications to the
+computer dealing with a particular ship or submarine must reference that unit
+by its unit number (4 in the above example).  Each player's task forces will
+be assigned a number from one to ten by the computer, starting with one.  A
+player may have a maximum of ten task forces in play at any one time.
+
+4.6     ENTERING INFORMATION: During play the computer detects the completion
+of each information entry by the player pressing the <RETURN> or <ENTER> key.
+'Y' and 'N' are responses for Yes and No questions while digits are used for
+number responses.  If just a return or enter is given the computer will assume
+that no change from the previous state is required.  Note that all entries
+should be made in upper case.  During the display of contact reports and
+combat results, the scrolling of the screen can be paused by simply pressing a
+key.  To resume play, again press a key.
+
+4.7 ABBREVIATIONS:  Unit types are abbreviated as follows: AOE and AOR
+(replenishment ships);           BCN (nuclear battle cruiser);     CG '(guided
+missile cruiser);   CGN (nuclear guided missile cruiser);    CV (aircraft
+carrier);    CVN (nuclear aircraft carrier);            CVH (helicopter
+carrier);          CVHG (guided missile helicopter carrier);          DD
+(destroyer);           DDG (guided missile destroyer); FF (frigate);  FFG
+(guided missile frigate); LPD and LST (amphibious landing ships);    SS
+(diesel attack submarine);       SSN (nuclear attack submarine); SSGN (nuclear
+guided missile submarine);                SSBN (nuclear ballistic missile
+submarine).
+
+Abbreviations for weapon types are: LAM (land attack cruise missile); SSM
+(surface to surface antiship missile); ASW (antisubmarine weapon); SAM
+(surface to air missile); ASM (air to surface antiship missile); TOR
+(torpedo).  Other abbreviations are: co (commanding officer); EW (electronic
+warfare); SOA (speed of advance); KTS (knots - nautical miles per hour); SLOC
+(sea lanes of communication); CAP (combat air patrol).
+
+
+
+5.0     THE COMMAND SEGMENT:
+
+5.1     GENERAL: During the Command Segment the players may give orders to
+their forces.  The Soviet player phase will always be the first in the
+segment.  The player's Command Segment begins by displaying the day, time,
+weather, weather forecast, currently earned victory points, status of Norway,
+and the previous turn's conflict level.  The players may suggest one of four
+levels of conflict: 1) 'Rising Tensions', 2) 'Conventional Warfare', 3)
+'Tactical Nuclear Warfare', or 4) 'Operational Nuclear Warfare'.  The computer
+will indicate if the recommendation is accepted or denied by the player's
+national leadership.  Play will then move to a list of options called the Task
+Force Operations menu.  By typing in the number of the desired selection, play
+will proceed to that selection.  Each of these selections is detailed below. 
+
+5.2     STANDARD SELECTIONS:
+
+5.21    FORM A TASK FORCE: This allows the creation of a new task force from
+available surface ships that have not yet been assigned to a task force.  Each
+available surface ship will be displayed one at a time.  By pressing the
+letter 'A' the ship will be added to the new task force.  The player may have
+no more than ten task forces in play simultaneously.  New Soviet task forces
+will appear in sector M22.  New British forces will appear in sector U11.  New
+US task forces will appear along the south or west map edges.  Note that
+surface ships that have not been formed into a task force are not considered
+to have as yet entered the map area for movement, search, or combat purposes.
+
+5.22    COMBINE TWO TASK FORCES: This selection allows the player to merge two
+task forces into a single task force, provided the task forces involved are in
+the same sector and belong to the same player.
+
+5.23  SPLIT A TASK FORCE: This selection allows the player to form a new task
+force by dividing an existing task force into two parts.  The procedure starts
+by asking which task force is to be split and then forms the new task force by
+the same system as in the normal forming of a new task force (rule 5.21).
+
+5.24    REVIEW A TASK FORCE'S MAKEUP:   This selection displays the location,
+mission, initiative rating, reliability rating, and EMCON level (a measure of
+electronic 'quietness') of a task force.  The ships composing the task force
+will be listed, along with any damage a particular ship has taken (given as a
+percentage number) and the maximum SOA (in knots).  The initiative and
+reliability of a task force will be that of the Commanding Officer of the ship
+leading the task force.  The computer will assign which ship this will be,
+generally on the basis of which is the most valuable vessel and hence would be
+carrying the most senior naval officer.  Reliability is a rating of how well a
+particular CO will carry out his orders while initiative indicates how well
+the CO will deal with situations and opportunities for which he has no orders.
+The SOA represents the fastest rate of advance that a task force can maintain
+over an 8 hour period.  The SOA of a task force will automatically be tha the
+slowest vessel in the task force.  During stormy weather, task forces will not
+travel faster than 24 knots.
+
+5.25 CHECK A UNIT'S STATUS:  This selection lets the player examine a specific
+ship or submarine. The display indicates the vessel, the initiative &
+reliability ratings of its CO, the weapons carried, and a series of numeric
+ratings of the unit's capabilities in various areas.  Higher ratings indicate
+greater capability.
+
+5.26    CHANGE A TASK FORCE'S MISSION:  This selection allows the player to
+change the mission of a task force.  A task force will attempt to carry out
+its assigned mission to the extent of its reliability while it may attempt to
+conduct operations other than that assigned to the extent of its initiative.
+Possible missions are: 'General Purpose', which will have the force move to
+the assigned destination but only enter combat at the task force CO's
+initiative; 'Anti-Surface' which will have the force concentrate on combat
+against opposing surface targets; 'Anti-Submarine', which will' have the force
+concentrate on combat against submarines; 'Attack Shore Targets', which will
+allow the force to conduct strikes against enemy bases; and, 'Shadow Enemy
+Task Force', which will cause the force to follow an enemy task force so as to
+be able to report its position and possibly conduct attacks.  Task forces with
+an Anti-Submarine mission will never travel faster than 24 knots.  Task forces
+givn Attack Shore Targets mission must have a specific enemy target assigned.
+Vessels with gunfire capability will provide shore bombardment, vessels with
+land attack cruise missiles may launch them if within range, and assigned
+aircraft carriers will be able to launch air strikes against the specified
+target.  Resulting damage to air bases may temporarily put the air base out of
+operation, while damage to port facilities may cause the scheduled
+availability of units there to be delayed.  Note that to have a Shadow Enemy
+Task Force mission, the task force need not be in the same sector as an
+opposing task force; it will begin to shadow when it finds something.
+
+5.27    LIST UNIT LOCATIONS & DESTROYED SHIPS: This selection will list the
+locations of all friendly task forces as well as the locations of friendly
+submarines that are in radio contact.  After this listing, a separate list of
+friendly units that are known to have been destroyed and their victory point
+values will be displayed.
+
+5.28    REVIEW UNIT ARRIVALS: This selection will list all the friendly ships
+and submarines that have been committed to the player, but which have not yet
+arrived or been formed into task forces.  Next to each unit will be a number
+indicating how many turns remain before the unit will become available. Also
+indicated is the sector in which the unit will arrive.
+
+5.29    GIVE MOVEMENT ORDERS: Going to this selection will permanently exit
+the player from the Task Force Operations Menu.  After selecting it the player
+will be given a last chance to return to that menu.  By selecting 'M' the
+movement segment will be initiated. In movement the player may issue movement
+orders to each of his task forces and to any submarines that are in radio
+contact.  Each submarine that can accept orders will be listed sequentially.
+Destinations must be ordered for the task force or submarine currently being
+presented before proceeding to the next.  These orders take the form of
+entering the designation of a location toward which the player wishes the task
+force or submarine to proceed.  The unit or task force will move toward that
+destination each turn until it either arrives (and then remains in the sector
+in a patrol pattern) or its destination is changed by further orders.  Units
+that are currently shadowing an enemy task force do not require destination
+order  When a submarine is in radio contact to receive orders, the player will
+also be given a chance to change the mission of the submarine.  Submarine
+missions are the same as those for task forces with the following additions:
+1) Submarines may provide Escort for a friendly task force.  To be ordered to
+do this, they must be in the same sector as the task force when the order is
+given.  They will then automatically go where the task force goes and perform
+both anti-surface and anti-submarine missions. 2) Soviet submarines may be
+assigned to the Anti-SLOC mission.  Subs with an Anti-SLOC mission will
+automatically select a destination on the west or south map edge (between
+coordinates N-U and 1-7) and, once reaching that destination, exit the map to
+attack the Atlantic shipping lanes.  Finally, the player may order a submarine
+to proceed to its destination at a certain SOA.  Note that submarines
+travelling at high speeds will have their sonar effectiveness reduced and will
+be easier to detect by enemy forces.
+
+5.3     SPECIAL SELECTIONS:
+
+5.31    ASSIGN SPETSNAZ TARGET: On the turn that the war begins, and before
+entering the Task Force Operations Menu, the Soviet player will be required to
+assign a target to his SPETSNAZ (special forces).  The target may be any one
+of the NATO airfields, the SOSUS facility in Iceland, or the OTH (Over The
+Horizon) Radar site in the UK.  The results of the SPETSNAZ attack will be
+resolved at the end of the turn.  Successful attacks against airfields will
+destroy one or more aircraft on the ground.  A successful attack against SOSUS
+will severely degrade the NATO player's ability to track Soviet submarines in
+the Norwegian Sea.  As a consequence, the P-3s based in Keflavik will be
+essentially worthless for ASW.  A successful attack against the OTH Radar site
+will mean that NATO will not have advance warning of Soviet airstrikes flying
+out of the Kola bases. Thus maximum defending CAP fighters will seldom be
+airborne when Soviet strikes arrive.
+	
+5.32 LAY MINEFIELDS:           After the war begins each player will have an
+opportunity to attempt to mine one sector each turn.  Minefields are only
+effective against enemy submarines and are considered to be dropped by off-map
+aircraft (for example, U.S. mainland based B-52s for the NATO player).
+Consequently, mines can only be laid in open ocean areas (i.e., sectors
+without ice), enemy fighters can cause mining missions to be aborted, and
+mines cannot be laid during stormy weather.  NATO submarines entering Soviet
+minefields have a 5 percent chance of being sunk.  Soviet submarines entering
+NATO minefields have a 2.5 percent chance of being sunk.  A sector can be
+mined more than once and its effectiveness increases as more minefields are
+laid in it.  Furthermore, note that the approaches to the Soviet bases in M22,
+and the entrance to the White Sea, are considered to be extensively mined at
+the start of the game.  NATO subs ordered to enter these areas do so at
+considerable risk.
+
+5.33 COMMIT 76TH AIRBORNE DIVISION:     One time during the game the Soviet
+player may attempt to destroy a NATO airbase by conducting an airborne assault
+against it.  Permissible targets are Bodo, Trondheim, the Faroes, and
+Keflavik.  A successful attack will destroy the airfield but will not permit
+Soviet aircraft to use the base.  A successful assault at Keflavik will also
+destroy NATO's SOSUS system.
+
+
+6.0     THE REPORTS SEGMENT: When both players have completed the Command
+segment, play will move to the Reports Segment.  This segment consists of
+separate report phases for each player (starting with the NATO player)
+followed by a joint player segment to display combat results occurring during
+movement.  Each player's radio reports will announce the results of any
+encounters with opposing units while in the same sector, dependent on their
+mission, reliability, and initiative.  Out of contact submarines may conduct
+attacks but not report that they have done so.  Attacks will not be conducted
+by forces of a player whose conflict level is Rising Tensions (Level 1) except
+that units with low reliability and high initiative might launch an attack,
+thus unintentionally starting the war.  The longer the game remains at
+conflict level 1, the more likely this is to occur.  Units and task forces may
+counterattack opposing units that have attacked them regardless of the
+conflict level.
+
+
+7.0	THE SEARCH SEGMENT:
+
+7.1     GENERAL: During the Search segment each player will be presented with
+a reports menu that will give the results of intelligence collection, searches
+by task forces and submarines, and aircraft reconnaissance flights.  In
+addition, the player will be able to examine the status of all the aircraft
+currently at his disposal.  Finally, the player may, if it is feasible, be
+given the chance to order the launch of coordinated missile and/or aircraft
+strikes against a particular target or location.
+
+7.2     NATIONAL INTELLIGENCE & ELECTRONIC INTERCEPTS: This selection will
+display the approximate locations of opposing task forces detected by ocean
+surveillance satellites, HF radio intercepts, and other national intelligence
+means.  Opposing units that have communicated extensively with headquarters
+during the proceeding Command segment (i.e., have a low EMCON rating because
+the player made numerous references to the unit or task force while giving
+orders) will be more likely to be detected.  In addition, either player may be
+given information on enemy submarine movements.  SOSUS, if operational, may
+detect Soviet submarines in the Norwegian Sea while NATO submarines in the
+Barents Sea may be detected by Soviet underwater listening arrays.
+
+7.3     ENEMY ORDER OF BATTLE & AIRBASE STATUS REPORTS: This selection will
+display a top level estimate of how many enemy units of each type are at sea
+or in port.  This selection also gives an estimate of the status of each enemy
+airbase, including how many aircraft are estimated to be based there.
+
+7.4     TASK FORCE & SUBMARINE CONTACT REPORTS: Units that are in the same
+sector as an enemy task force may report the location and estimated
+composition of the opposing forces.
+
+7.5 AIR SEARCH REPORTS: The player will be given the results of searches
+conducted automatically by land and aircraft carrier based patrol aircraft
+(BEARS, P-3s, SV22s, and helicopters).  The location and estimated composition
+of opposing forces may be reported.  No air searches will occur during stormy
+weather.
+
+7.6     AIRCRAFT STATUS: This selection will show the status of aircraft
+assigned to each air base and aircraft carrier under the player's command.  An
+availability list will be shown for each aircraft type.  Aircraft indicated as
+'Ready' will automatically go on any strike assigned.  The rest of the
+pipeline is indicated in 8-hour increments, each of which represents one turn.
+Thus, aircraft shown at 24 hours will be 'Ready' in three turns. Aircraft on
+CAP, if any, will be assigned automatically and their quantity indicated.
+NATO fighters that are 'Ready' may be scrambled to augment the CAP if the OTH
+Radar site in the UK detects the launch of Soviet airstrikes from the Kola
+Peninsula.  During stormy weather all aircraft will be grounded. In addition,
+this selection for the NATO player (only) will indicate if the selected
+airbase has sufficient HARPOON missiles for its aircraft. Airstrikes against
+Soviet task forces will employ  Harpoons as long as they are available.
+Subsequent sts will be armed solely with bombs.  Each U.S. replenishment ship
+has a 50 percent chance of being able to replace an aircraft carrier's supply
+of HARPOONS.  The replenishment ship must be in the same task force as the
+aircraft carrier to do this.  Once a replenishment ship has rearmed an
+aircraft carrier, it is considered to have no more missiles on board.
+
+7.7     MISSILE & AIRCRAFT STRIKE ASSIGNMENT:   After indicating completion of
+his review of the search results, the player may be given the opportunity to
+conduct strikes against opposing task forces or land targets.  To reflect
+doctrinal differences, the Soviet and NATO players have slightly different
+options.  The Soviet player may conduct a single coordinated missile and
+aircraft strike each turn.  To indicate where the strike will be targeted, the
+Soviet player must enter the sector location of the strike.  All units and
+aircraft within range will be ordered to launch at that target location.
+Depending on unit mission, initiative, reliability, weather, and
+communications status, they may or may not comply.  For the NATO player, and
+for the Soviet player if he did not launch a coordinated strike, each aircraft
+carrier under his command may recommend airstrikes against sectors thought to
+contain opposing task forces.  The player will be asked to concur with each
+strike recommendati to veto it. In addition to strikes against ships, both
+players may conduct strikes against enemy bases.  Aircraft carriers may only
+launch strikes against ground targets if their task force has been assigned a
+mission to do so.  Finally, if NATO aircraft carriers are within 250 miles of
+Bodo, the NATO player may launch airstrikes to support the ground battle in
+Norway.
+
+
+8.0	THE COMBAT RESOLUTION SEGMENT:
+
+8.1   GENERAL:    When both players have completed the  Search segment and
+have assigned targets for any airstrikes, play progresses to the Combat
+Resolution Segment.  During the first portion of combat resolution each player
+will be asked to separately view the results of missile strikes against his
+forces.  Then the players will be asked to jointly view the results of any
+airstrikes. Next, task forces will conduct shore bombardment.  Following shore
+bombardments (and amphibious assaults, if any), the computer will determine if
+any Soviet SSBNs have been destroyed by NATO ASW forces operating in the
+Soviet bastions.
+
+8.2     SURFACE TO SURFACE MISSILE COMBAT:      In this portion of the
+resolution, surface ships and submarines in range of detected opposing task
+forces may launch attacks against those forces, subject to mission,
+initiative,      and reliability. The effectiveness of such strikes will vary
+with the units involved, the weapons, distance to the target, and weather
+effects.  Each player will separately view the results of these attacks.
+
+8.3     LAND ATTACK CRUISE MISSILE COMBAT:      Task forces and submarines
+with an 'Attack Shore Target' mission may launch land attack cruise missiles
+at enemy air bases.  These attacks may destroy aircraft on the ground, enemy
+air defenses (SAM sites), and may even temporarily put the base out of action.
+Conventional missile attacks by themselves are not very effective, but they
+can be very important when launched in concert with an airstrike against the
+enemy base.
+
+8.4     AIRSTRIKE COMBAT: In this portion of the resolution, airstrikes
+ordered against opposing task forces or shore targets will be resolved.  Both
+players should view the results together.  The effectiveness of such strikes
+will vary with the units involved, the weather, the time of day, and the
+distance to the target.  Note that it is possible for the Soviet Air Force (a
+separate command from that of the Soviet player) to attack Norwegian airbases
+without the Soviet player's foreknowledge or approval.
+
+8.5     SHORE BOMBARDMENT: Task forces of either player having a mission of
+'Attack Shore Target' may conduct shore bombardment when in a sector
+containing an enemy base. 
+
+8.6 AMPHIBIOUS ASSAULTS: Soviet task forces with amphibious ships may land
+troops at Bodo in Norway (Amiga, Atari ST, and IBM-PC versions also allow
+landings at Trondheim in Norway, Keflavik in Iceland, and the Faroes north of
+Scotland).  Each turn that an amphibious ship is in the target sector, there
+is a chance that the associated NATO airbase will fall.
+
+8.7 NORWAY:     Norwegian forces are always under computer control.  Their
+ground and air forces will be committed to the ground battle in defense of
+Norway.  Their naval forces (primarily submarines) may attack any Soviet task
+force that enters Norwegian coastal waters.
+
+8.8     SOVIET SSBNS: Soviet SSBNs are always under the control of the
+computer (representing the SSBN forces commander of the Long Range Rocket
+Forces).  The computer will sortie the SSBNs out of their bases and to their
+assigned patrol bastions. The Soviet player has the responsibility to defend
+the bastions against NATO ASW forces.  Each turn, the computer will determine
+if sufficient defensive forces are present in each bastion area.  If the
+defensive forces are judged to be inadequate against the NATO forces in the
+bastion, there is a chance that a Soviet SSBN will be destroyed.
+
+8.9     CONFLICT LEVEL THRESHOLD: Each turn there is a possibility that the
+national leadership of one side or the other may decide that escalation above
+the current conflict level is acceptable.  The player will not be aware of
+this decision, but if he subsequently requests to escalate the level of
+conflict, his request will be approved.  At the Tactical Nuclear Warfare level
+(Level 3), nuclear weapons may be used against task forces and submarines at
+sea.  At the Operational Nuclear Warfare level (Level 4), nuclear-armed cruise
+missiles may be used against enemy land bases.  At this level, ICBMs may also
+be launched against aircraft carriers and land bases, without the player's
+foreknowledge or approval.  For each game, there is a 50 percent chance
+(determined at the beginning of the game, and not revealed to the players)
+that Operational Nuclear War can ultimately result in a Global Nuclear War,
+thus ending the game.
+
+
+9.0     ENDING OR SAVING THE GAME: The game may end in any of the following
+ways.  Both players may jointly agree to stop at the end of a turn; a
+ceasefire may be imposed; or the conflict level may escalate to Global Nuclear
+Warfare.  In the last two cases, the computer will halt the game.  A ceasefire
+will be imposed sometime after the 35th turn if no other criteria for ending
+the game is achieved.  If the players have ended the game by joint agreement
+then they will be given the option to save the game.  To save the game you
+MUST have available another disk that has been previously formatted.  The
+computer will prompt you through the save routine.  Unless otherwise
+specified, the save routine uses the same drive as the program disk.  Be sure
+to remove the program disk when prompted to do so and insert the disk on which
+the game will be saved. CAUTION: There is insufficient space on the program
+disk to save a game.  Do not attempt to do so.  A spare disk can save up to 5
+games in prog .  Be sure to use one.  After saving the game the computer can
+be shut down or play may be continued on the next turn of the game just saved
+and still in progress.  After ending the game, all destroyed, abandoned, and
+damaged units will be listed and the final victory point total for the players
+will be displayed.
+
+
+10.0    VICTORY: At the end of the game (or when the game is ended) the
+players will be presented with the final victory point total (unless the game
+ends in Global Nuclear War, in which both sides, and everyone else as well,
+lose, thus making a sum up display inappropriate).  If the totals are within
+100 victory points of one another, the game is a draw.  If the difference in
+scores is greater than 100 points the player earning the most points is the
+winner.  The  computer automatically awards victory points to the appropriate
+player for the following:    1. Damage or    destruction of opposing  units
+(variable with unit type and amount of damage to the unit and may be worth up
+to 100 points for U.S. aircraft carriers);   2. Demonstrating initial
+hostilities restraint (by recommending conflict level 1), 10 points/turn (NATO
+player only, since the scenario postulate is based on an aggressive Soviet
+stance); 3. Demonstrating threshold restraint (by recommending conventional
+war after nu ar war breaks out), 5 points/turn (either or both players); 4.
+Sinking Soviet SSBNS, 50 points;  5. Exiting Soviet subs on Anti-SLOC mission,
+points equal to the value of the sub plus the number of SSMs on board; 6.
+Successful assault of a NATO airbase by airborne or amphibious troops, 100
+points;  7. Soviet control of Norway, points equal to the percentage of
+Soviet control, with a bonus of 250 points if Norway falls; 8. Each turn that
+a Soviet bomber base is inoperative, 5 points/base to NATO; 9. Each turn that
+a Soviet bomber base is operational, 3 points/base to USSR;  10. Conducting
+shore bombardment and airstrikes against enemy bases (variable with  conflict
+level, turn number, and damage inflicted; in general, one earns more  points
+for   bombardment and airstrikes against bases when these occur early in the
+war).  The computer automatically subtracts victory points from the
+appropriate player for the following:  1. Each time that the player escalates
+the conflict level above t he highest level previously used in the game (50
+points for going to Conventional War, 150 points for Tactical Nuclear War, 300
+points for Operational Nuclear War);   2. Each turn  that the player is above
+conflict level 2, he loses 10 victory points;  3. Each time that a land base
+is destroyed by a nuclear weapon, the attacking player loses 25 victory
+points.
+
+
+11.0	DESIGNER'S NOTES ON PLAY:
+
+11.1  SOVIET STRATEGIC OPTIONS: The Red Army is the senior branch of the
+Soviet armed forces.  Consequently, the Soviet player (in his role as Northern
+Fleet commander) has a primary responsibility to support the Army's offensive
+against Norway.  The primary means of accomplishing this is by conducting
+amphibious and airborne assaults against Bodo and Trondheim.  Another
+important goal is to prevent the U.S. aircraft carriers from launching
+airstrikes in support of the ground battle in Norway or, even worse, against
+Soviet military facilities on the Kola Peninsula.  Should the Army's offensive
+stall and the war become a prolonged one, it will become necessary to
+interdict NATO's trans-Atlantic SLOCS.  Finally, a major war with NATO may
+ultimately escalate to a nuclear exchange.  It is essential that the Soviet
+SSBN bastions remain secure against NATO ASW forces.  The following
+discussions describe some of the strategic options available to the Soviet
+side to accomplish these goals.
+
+11.11        ATTACKS  AGAINST NORWAY:   During the first few days of war,
+until NATO is able to form a combined force of 3 or 4 aircraft carriers, the
+Soviet player should have essentially a free hand in the northern Norwegian
+Sea.  During this period, one technique is to organize his surface units into
+three task forces with the following objectives.  The helicopter carrier BAKU
+should form the basis of an ASW task force operating under land-based air
+cover in the Barents Sea bastion area.  A task force centered around the
+aircraft carrier TBILISI should be sent approximately 200 nautical miles north
+of Bodo to attack the air base there.  An amphibious task force should transit
+under cover of the TBILISI to conduct assaults at Bodo. 20 to 40 land-based
+bombers should attack Bodo and Trondheim to put the air bases there out of
+operation.  Once it is confirmed that Trondheim is neutralized, and if weather
+permits, an airborne assault should be conducted there.
+
+11.12   ANTI-AIRCRAFT CARRIER OPERATIONS:       The main striking power of the
+NATO fleet resides in its aircraft carrier battlegroups.  Although the Soviet
+surface fleet is impressive, it is no match against the 4-5 aircraft carriers
+that the NATO player can muster.  The Soviet player will have to rely on his
+submarines and land based bombers to counter NATO's carriers.  The carriers
+are relatively safe from air attack as long as they remain west of the Iceland
+- Faroe - U.K. axis, however, they will have to venture north into the
+Norwegian Sea if they are to support the land battle in Norway.  A viable
+option for the Soviet player is to sortie his CHARLIE, VICTOR, and MIKE class
+submarines, assign them shadow missions, and use them to form a barrier in the
+Iceland - U.K. gap.  An alternative employment plan is to send these
+submarines on a 'carrier hunt', aggressively pursuing the carriers based on
+airsearch or intelligence reports.  The four OSCAR class guided missile
+submarines sho tationed northeast of the Faroes in anticipation of the
+carriers entering the Norwegian Sea.  When the carriers do transit north, the
+Soviet player should launch massive, coordinated strikes against them.  As a
+rule of thumb, the Soviet player will need to commit 30-40 bombers for each
+opposing aircraft carrier in range.
+
+11.13   DEFENDING THE BASTIONS:  It is essential that adequate forces be
+committed to defending the Soviet SSBN bastions.  A possible defensive
+deployment is described:   Minefields should be laid between Greenland and
+Norway's North Cape.  An ASW task force based on the helicopter carrier BAKU
+should be assigned to patrol in the Barents Sea bastion and actively prosecute
+submarines detected there.  AKULA and VICTOR III submarines should be given
+ASW missions and sent into the Arctic Ocean and Kara Sea bastions.  The TANGO
+class diesel subs should be ordered to form a defensive barrier between
+Murmansk (M22) and Svalbard.  A reserve force of 3-5 SSNs should be kept in
+the Barents Sea. These SSNs should be used to augment defenses in the Arctic
+Ocean and Kara Sea bastions should NATO succeed in sinking SSBNs in those
+areas.
+
+11.14   ANTI-SLOC OPERATIONS: The success of NATO's strategy of forward
+defense is critically dependent on transatlantic reinforcement and supply.  It
+is estimated that an average of nearly 80 ships per day must arrive in Europe
+to sustain combat and support the population there.  Without reinforcement
+shipping, it is possible that NATO could not sustain the fighting in Western
+Europe for more than ten days.  Nevertheless, current US wisdom is that the
+USSR places a relatively low priority on the anti-SLOC mission, expecting to
+achieve a ` quick win' on the ground.  Soviet players wishing to represent
+this point of view should assign only a handful of the older VICTOR, CHARLIE,
+and TANGO submarines to the Anti-SLOC mission.  Alternatively, one can attempt
+to prove the common wisdom wrong, and 'flush' all available subs into the
+North Atlantic shipping lanes.  When playing against a human NATO opponent,
+this can be worthwhile just to see his reaction.  Note that the Greenland
+coastal wa rs, including the Denmark Straits between Greenland and Iceland,
+are ice covered.  Submarines in these areas need not fear attack by mines nor
+ASW aircraft.  Consequently, this is a good path for subs to take enroute to
+the Atlantic shipping lanes.
+
+11.15   SPETSNAZ ATTACKS: The most worthwhile target for the SPETSNAZ is
+probably the OTH Radar site in the U.K. A successful attack there will make
+the Soviet bombers a much greater threat to the US aircraft carriers.  The
+next most important target is the SOSUS facility in Iceland.  An operational
+SOSUS system is essential if the P3s in Keflavik are to successfully sink
+Soviet submarines.  Least desirable are attacks against airbases, which will,
+at best, only destroy a few planes on the ground.  Of course, should this be
+an airbase that will be promptly attacked, those few aircraft unavailable for
+CAP could prove significant. 
+
+11.16 LAND ATTACK MISSILE STRIKES:      Unlike the U.S., the Soviet Navy has
+not placed great emphasis on deploying land attack cruise missiles at sea.  In
+the game, only SIERRA and YANKEE class submarines are considered to be armed
+with land attack missiles.  Unless at conflict level 4, in which nuclear
+attacks against bases are allowed, only the YANKEE class sub has enough
+missiles to do more than harass the NATO air bases.  A tactic which
+occasionally succeeds is to use the YANKEE's missiles to attack an air base
+that is providing CAP coverage to NATO's aircraft carriers.  At the same time,
+order a coordinated strike against the  enemy task force.  If the LAMs succeed
+in suppressing the air base, then the carriers will find themselves with
+substantially less CAP available.  On the other hand, if the LAMs fail to
+suppress the air base, then the bombers may find themselves to be in an
+uncomfortable (i.e., fatal) situation.
+
+11.2    NATO STRATEGIC OPTIONS: Though the current U.S. doctrine concentrates
+on moving forward against Soviet naval facilities and SSBN bastions, the NATO
+player's primary objective is to prevent the fall of Norway while minimizing
+losses to the US aircraft carriers.  It is also desirable to keep Soviet
+submarines from reaching the North Atlantic shipping lanes and attrite Soviet
+SSBN forces.  The following guidance is provided to help the NATO player
+achieve these goals:
+
+11.21        AIRCRAFT  CARRIER OPERATIONS:      As long as the Kola airbases
+have large numbers of bombers available, NATO task forces should not venture
+east of the Iceland - Faroes - U.K. axis, unless the force includes at least
+2, and preferably 3, full-fledged (i.e., U.S.) aircraft carriers.  This means
+that a Soviet amphibious group will probably be able to reach Bodo, however,
+it is problematic whether Bodo will fall to amphibious assault.  In any case,
+the NATO player will be able to form a four carrier battleforce in time to
+prevent total Norwegian collapse.  Expect to encounter substantial submarine
+and bomber opposition when operating in the Norwegian Sea.  If SOSUS and the
+Keflavik air base are operational, it may be wise to delay coming to Norway's
+aid, thus allowing the P-3s can attrite as many Soviet submarines as possible.
+Any Soviet task forces encountered should be attacked before they are able to
+come within SSM range.  After the situation in Norway is stabilized, an uming
+the aircraft carriers have not taken too many losses, the NATO task forces can
+sortie north to attack Soviet air bases on the Kola Peninsula and Svalbard.
+This should be done with extreme caution, however, as a large number of
+fighters are based on the Kola air fields.  These fighters can escort Badger
+and Backfire bombers to significant distances, thereby neutralizing the
+carriers' CAP and allowing the bombers to launch ASMs against the task forces.
+
+11.22   SUBMARINE OPERATIONS: NATO submarines and other ASW forces should be
+assigned four principal tasks: 1) Clearing the Norwegian Sea of enemy
+submarines and preventing enemy subs from reaching the Atlantic shipping
+lanes; 2) Attacking the Soviet SSBN bastions; 3) Engaging Soviet task forces,
+especially those containing amphibious ships; and, 4) Launching land attack
+cruise missiles against the Kola air bases.  The NATO player should quickly
+seek to establish an antisubmarine barrier in the Greenland Iceland - U.K. gap
+consisting of a mix of submarines (STURGEON and UPHOLDER classes) and
+minefields.  Once the submarine barrier is in place, it can be gradually moved
+northward to sweep the Norwegian Sea clear of Soviet submarines in preparation
+for NATO task forces moving in to support Norway.  LOS ANGELES and TRAFALGAR
+class submarines should transit immediately to the Soviet SSBN bastion areas.
+They should only stop to attack Soviet task forces encountered enroute. Those
+LOS ANGEL class subs that are equipped with vertical launched TLAMs should
+concentrate in the Barents Sea bastion, so that they will be able to attack
+the Kola air bases on short notice.
+
+11.23 LAND ATTACK MISSILE STRIKES:      The NATO player enjoys a considerable
+advantage in his land attack missiles (TLAM-C and TLAM-N).  Most of the US
+subs and many of the US surface ships carry LAMS, with certain of the LOS
+ANGELES subs and SPRUANCE destroyers being very heavily armed.  The NATO
+player must resist the temptation to plaster the Kola airfields, for the
+effects of missile strikes are only temporary.  It is best to wait until the
+carrier groups are ready to sortie into the Norwegian Sea before launching
+missiles.  By knocking out one or more of the Kola bases, effective TLAM
+strikes can thwart the Soviet's plans to launch massed bomber attacks against
+the US carriers.  Be advised that 15-20 (conventional) TLAMs must be launched
+at an air base to have a good chance of putting the field out of operation.
+
+11.3    AIRSTRIKES: Although it is hard to turn down the chance to launch an
+airstrike, many small strikes can cost dearly in aircraft attrition while
+bringing only limited results.  Both players must be willing to be patient,
+building up the number of Ready aircraft to allow an overwhelming attack
+against a valuable target.  Airstrikes are remarkably powerful when used in
+mass since they tend to overwhelm even the most capable defense systems.
+Aircraft losses will be heavy, however, and the supply of F-18s, A-6s,
+Badgers, and Backfires is not infinite.  The Soviet player in particular
+should be aware that to reach NATO task forces beyond the Iceland - Faroes -
+U.K. axis, his bombers will have to run a gauntlet of attacks from enemy land
+based interceptors.  This is even more deadly when NATO's OTH radar site
+provides early warning of the approaching bombers.  When CAP engages multiple
+waves of incoming bombers, the first wave to arrive will take the most losses
+and subsequent waves w be more likely to get through to their targets.
+Finally, note that the U.S. player's A-12 (Advanced Tactical Aircraft) and
+F-23 (Advanced Tactical Fighter) incorporate Stealth technology and thus will
+be much harder to shoot down with air to air or surface to air weapons.
+
+11.4    WEAPON RANGES: The following ranges (given in nautical miles) apply to
+the aircraft and missiles in NORTHERN FLEET: Harpoon and SS-N-22 SSMs (70
+nmi); Tomahawk, SS-N-12, and SS-N-19 SSMs (250 nmi); conventional TLAM,
+SS-N-21, and SS-N24 missiles (250 nmi); nuclear TLAM, SS-N-21, and SS-N-24
+missiles (1500 nmi); F-16, Harrier, and Forger aircraft (250 nmi); P-3C,
+Bear-D, Badger, and Backfire aircraft (1500 nmi); all other aircraft (500 nmi,
+except that CAP is limited to 250 nmi).  Note that after hostilities begin,
+P-3C and Bear-D patrol aircraft will avoid ocean areas that are within range
+of enemy CAP intercept.
+
+11.5    EMCON: The surest way to let the enemy know where your forces are is
+to let a task force's EMCON level drop to zero.  Every time that the player
+communicates with a task force (to give it orders, etc.) its EMCON level is
+reduced by 10 percent.  Because a task force must first be detected before it
+can be attacked, the wise player will try to maintain radio silence except
+when absolutely necessary.
+
+11.6    CONFLICT LEVEL ESCALATION: Every turn each player has the opportunity
+to recommend an escalation of the conflict beyond the previous turns' highest
+level.  Besides the hefty victory point penalties, there are other
+disadvantages to impulsive escalation.  It is not wise to start the war before
+your forces are ready.  On the other hand, delaying too long may allow Soviet
+submarines to freely enter the Atlantic shipping lanes or NATO submarines to
+position themselves in the Soviet bastions.  Escalating to Tactical Nuclear
+Warfare is mostly to the Soviet player's advantage, as NATO has very few
+nuclear weapons in its naval forces (nuclear weapons are indicated by an
+'(N)').  Nuclear land attack missiles can only be used during Operational
+Nuclear Warfare, which may result in Global Nuclear Warfare and a premature
+end to the game.
+
+J. Baker, S. Newberg, & W. Nichols

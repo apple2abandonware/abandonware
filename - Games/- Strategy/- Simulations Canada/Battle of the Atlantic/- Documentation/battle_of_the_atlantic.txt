@@ -1,0 +1,406 @@
+
+BATTLE OF THE ATLANTIC
+A Computer Game Of The Ocean Lifeline,
+1939-1944.
+
+Index:
+       1.0	   Introduction
+ 2.0	General Course Of Play
+ 3.0	Game Equipment
+ 4.0	Getting Started
+ 5.0	The Orders Segment
+ 6.0	The Reports Segment
+ 7.0	The Activity Segment
+ 8.0	Reinforcement & External Events
+ 9.0	Ending Or Saving The Game
+10.0	Victory
+11.0	Designer's Notes On Play
+
+Credits:
+Design &  Programming: L. Howie
+Development:  S. Newberg
+Debugging:  L. Howie & S. Newberg
+Cover Art:  J. Kula, (c) 1984
+Printing:  Hatcraft Print & Reflex Offset
+Die Cutting: Freedman Die Cutters
+
+The enclosed software program on diskette, rules booklet, map sheets, & die cut counters are copyrighted.  All rights are reserved. These items may not be copied, photocopied, photographed, reproduced, translated, or reduced to any electronic or machine readable form, in whole or in part, without prior written consent from Simulations Canada.  The software Program may be copied, by the original  purchaser only, to provide a secure backup copy of the provided program diskette. However, such a copy may not be given away or sold to other individuals or firms of any form.  We do not protect our software so that purchasers will not have difficulty making a backup copy.  Please do not abuse this policy.
+
+@Copyright (c), 1984, Simulations Canada, P.O. Box 452, Bridgewater, Nova Scotia, Canada, B4V 2X6.
+
+1.0  INTRODUCTION: BATTLE.  is a detailed game type simulation of modern naval combat in the North Atlantic for one or two players.  Players control the major naval and naval air forces of 'either Germany or the Allies.  They will be responsible for the strategic planning and operational deployment of all such I forces under their command. The viewpoint of the players is thus that of the Theatre naval commander of each side Germany out of Fleet Headquarters at Kiel or Allied Atlantic & Western Approaches Command out of Scapa Flow.  As such, the players may compose task groups, establish missions & destinations for those groups, and respond to operational events. Other operations that the theatre commander would not deal with directly, such as individual ship or task group movement, convoy logistics, & combat employment will be handled automatically by the computer.
+
+2.0	GENERAL COURSE OF PLAY: The game is composed of 2 major sections, the start up of
+the game and the game itself.  The start up lets the players begin a new game or resume a previous game that had been saved.  The game itself is played continuously, but in impulses segmented at 2 week intervals, while allowing player actions for specific events as they occur in response to particular actions of the opposing forces, as these actions become known.  At these 2 week break points first the Axis and then the Allied player will be given the opportunity to update themselves on the current situation and modify any standing orders they may have instituted.
+
+
+3.0 GAME EQUIPMENT:
+
+3.1 THE MAPS:
+
+3.11  GENERAL: Two identical maps representing the Atlantic Ocean are included
+with the game. Each player should take one of these and place it so that it
+will be out of sight of the other player. These situation maps can be used to
+record the current locations of friendly forces as well as known or suspected
+locations for opposing units as well as weather situations and damaged port
+facilities.
+
+3.12    LOCATIONS ON THE MAP: The maps are broken down into a number of
+irregularly sized areas, each of which is named and numbered.  In addition,
+ports within each of these areas are indicated and have a named and lettered
+box for each. Each of these unique number (for areas) or letter ; (for port)
+designations are the code references to locations on the map that the computer
+uses and all communications about specific areas or port must be made using
+these designations. Thus a reference to the Iberian basin would be area 24
+while a reference to Scapa Flow would be port P.
+
+3.2  THE PLAYING PIECES: The playing pieces are the die cut counters. They
+should be broken free from the frame to be used as individual pieces.  The
+pieces are colored by nationality and by force represented.  Allied forces are
+bright red, two shades of green, yellow, and two shades of blue. German forces
+are tones of grey, bluegrey, and mauve. There are two types of pieces termed
+units, those representing naval forces and those representing air forces.
+These all have an image of the general type of vessel or aircraft they
+represent and a letter code of the unit type (such as BB for battleship as
+well as the name for the unit and a unique identity number that is used when
+referring to that specific unit to the computer In addition, there are a
+number of pieces termed markers which may be used for indicating possible
+locations, weather, and keeping records which are termed markers.
+
+
+4.0   GETTING STARTED:
+
+4.1 BOOTING:  To boot the game you must have the computer indicated by the
+label on the box.  In addition a disk drive is required. Simply place the disk
+in the drive and turn on the computer, or turn on the computer and type the
+boot code, or turn on the computer and type "RUN HELLO".  It is possible that
+your computer may run on a different DOS than that in which the program is
+written.  In a case where normal boot up as above does not work, consult your
+DOS manual for how to boot up via your DOS conversion system.
+
+4.2     NEW OR SAVED GAME: The program will ask you if you wish to start a new
+game or restart an old saved game. Give an 'N' or 'O' as required. 'O' will
+take you to the save game routine.
+
+4.3     ONE OR TWO PLAYERS: When starting a game the computer will need to know how many people will play.  By selecting Computer Plays Allies or Computer Plays Axis, your opponent will be the computer. If playing against another player, select Both Sides Human. It is also possible to have the
+computer play against itself by selecting that option.
+
+4.4     SCENARIOS: Next the players may choice from one of 5 scenarios
+to play. All scenarios start in February, 1940, but they differ in end date.
+Indicate the selected scenario from the provided menu.
+
+4.5     FORCE LEVELS: Finally the player will be asked to indicate the
+starting force levels. These can reflect the historical situation, or several
+variations. Players will find that the longer scenarios will be more balanced
+if one of the variations is used.  After force levels are indicated, the
+computer will set up the game.
+
+4.6     STARTING POSITIONS: The computer will set up the game.  If players are
+restarting a saved game the starting positions will be as when the saved game
+was previously stopped. For a new game the computer will deploy the initial
+forces.  Playing pieces should be deployed on the players' situation maps as
+indicated by the Reports Segment.
+
+4.7     UNIT DESIGNATIONS: Each player's units are given a unit type
+abbreviation, as well as a name and identity number. These have the following
+meanings: CV-aircraft carrier; BB-battleship; BC-battle cruiser; CA-heavy
+cruiser; CL-light cruiser group; DD-destroyer group; SS-submarine group;
+CVE-escort aircraft carrier group; E-escort group; MM-Amphibious group; F-fast
+convoy; S-slow convoy; AIR-aircraft group.
+
+4.8     ENTERING INFORMATION: In casual play the computer detects the
+completion of each information entry by the player pressing the return or
+entry key.  'Y' & 'N' are responses for Yes & No questions while digits are
+used for number responses and Letters for lettered responses.  If just a
+return or entry is indicated the computer will assume that no change from the
+previous state is required. Note that all entries should be made in upper
+case, These entries will move from a main menu to a subordinate menu or will
+provide for specific selection of an option. When returning from a subordinate
+menu to a main menu, pressing escape is used.  In all instances the available
+entries will be listed on the screen.
+
+
+5.0   THE ORDERS SEGMENT:
+
+5.1  GENERAL: The first menu a player is presented with gives him a
+choice of viewing reports or giving orders. This section covers the Orders
+selection.  An escape entry while in either the Orders or Reports section will
+bring the player back to this preliminary menu, allowing entry into either
+selection.  During the Orders Segment of the player phase the player may give
+orders to his forces. The Orders Segment phase for a player begins by
+displaying the date time and a menu of the player's units to which orders may
+be issued.  When selecting a unit a new menu will be displayed which will
+contain only the orders which may be issued to that unit.  When entering an
+order, the player may press escape to return to the menu of possible orders
+without issuing the order that was in progress.  Note that players may go back
+to specific units to change their orders any number of times without penalty.
+
+5.2  AVAILABLE ORDERS:
+
+5.21  PATROL:  The player will be asked to provide the area which is to be
+patrolled (the Station), an area to be passed through en route to the station
+(Proceed Via), and an area to pass through en route to the station (Return
+Via). The computer calculates the shortest route from the unit's current
+location to the Proceed Via area, thence to the station, to the Return Via
+area, and so on, to the unit's base. The unit will proceed to the station, and
+remain there until it has only enough endurance to return to base and then do
+so.  An order may not be issued which exceeds the operational range of the
+unit.  For AIR units the player need only give the station.  In instances
+where it is not desired to have a specified mid point to a route, note that
+the destination area should also be entered as the Proceed Via Area.
+
+5.22  BARRIER:  This is as Patrol, except the player also indicates an area
+For which the barrier is conducted.  The unit is more likely to find enemy
+units moving from the patrol area into the area for which the barrier is
+indicated.
+
+5.23 JOIN GROUP:  This selection causes the unit to which it is issued to join
+a specific group.  Groups are handy in that all units of a group will follow
+the orders given to the specified leader of the group. To indicate the group
+to be joined, the player must enter the ID number of the lead unit of the
+group to be joined.  If the two units are in the same area, it joins
+immediately. Otherwise, the player must give a sea area through which the
+joining unit is to proceed to the rendezvous.  This area need not be on a
+direct line between the unit and the group it is to join.  If the rendezvous
+fails for any reason, the joining unit will wait in the area in which the
+group was located when the rendezvous was ordered until it receives other
+orders, or the rendezvous occurs.  It is also possible to have a group join
+another group in the same manner, with the leader of the group to be joined
+remaining the leader for the new larger group.  Note that, if a unit that is
+part of a grou ven a separate order, it will cease to be a member of that
+group and proceed independently.
+
+5.24    ENTER ESCORT POOL: The unit is made available to be selected as escort
+by any convoy forming in the port where the unit is located when ordered into
+the escort pool.
+
+5.25    ESCORT CONVOY: This is as for joining a group, except the unit
+proceeds to the indicated convoy and joins it as an escort.
+
+5.26    CHANGE BASE: The unit proceeds to the base indicated by the player
+along the player specified route and rests there until new orders are
+received.  To do the Torch landings with the Allied MM type units, a change
+base order should be given to those units with the new base being Gibraltar.
+
+5.27  CONDUCT AMPHIBIOUS OPS: The unit will proceed by the specified route to
+an indicated port and attempt to capture it, This order may only be issued to
+German MM units against Norwegian ports. Allied MM units are only used for the
+Torch landings as a special case convoy.  In the case of MM units for either
+player, when they reach their destination port the unit will cease to be
+active and no longer be reported.
+
+5.28(a) REST IN PORT: This cancels any other orders for a unit that is in
+port, including orders placing the unit in the escort pool. This is also the
+order that must be given to allow repairs to take place for damaged vessels
+that have returned to port.
+
+5.28(b) RETURN TO PORT: This cancels any other order for the unit and has the
+unit return to base via the route specified by the player, if possible.
+
+5.29  BECOME GROUP LEADER: This allows the player to reorganize the group of
+which the unit is a member so that the unit becomes the group leader, or to
+specify the leader of a newly formed group.
+
+
+6.0	THE REPORTS SEGMENT:
+
+6.1  GENERAL: When the player selects the Reports option , he is presented
+with a list of report categories, which are detailed below.  When looking at
+any menu, all valid choices are shown on the screen.  The player may press
+escape to return to a higher menu, or select one of the options.  If no
+options are listed, none are available.  When through looking at a report, the
+player must press escape to return to a menu.
+
+6.2 SELECTIONS:
+
+6.11    UNITS BY NUMBER: The player is given a list of friendly units in play.
+When a unit is selected, a report is shown giving the unit's mission, its
+station, its base, and other applicable information such as current forces
+composing the unit, current course and speed, etc.  The exact information
+depends on the unit's current mission, location, and the general situation.
+
+6.12    UNITS AT SEA BY AREA: The player is given a List of areas which
+contain friendly units or which may be entered by bordering friendly ports.
+The player selects an area, and is shown a menu of friendly units in the area.
+When a unit is selected from this menu, a report is shown as described in 6.11
+above.
+
+6.13    UNITS IN PORT BY PORT: This produces results as in 6.12, but using a
+list of friendly ports, rather than areas.
+
+6.14    UNITS BY GROUP: The player is shown a menu giving all units which are
+group leaders.  When a group leader is selected the player sees a report
+showing units attached to and joining the group of that leader unit. The
+player may select one of these units to see a report for that particular unit
+as described in 6.11.
+
+6.15    AREAS BY NUMBER: The player is given a list of all areas in which he
+has units or which may be entered by bordering friendly ports. He may select
+from this list to see a report showing the weather conditions in the selected
+area and the friendly units it contains.
+
+6.16    PORTS BY LETTER: This selection gives results as in 6.15, except a
+list of friendly ports is given, and information shown relates to the port,
+including units in the port and unallocated reinforcements now at the port
+which will be assigned as reinforcements to any units in that port (this will
+occur automatically).
+
+
+7.0	THE ACTIVITY SEGMENT:
+
+7.1     GENERAL: During the Activity segment both players will come to the
+screen and resolution will occur.  Each player will have the opportunity,
+under certain circumstances, to intervene in response to the activities
+occurring.  Any of the events below may occur any number of times over the
+resolution of each two-week period.
+
+7.2     MESSAGES: During resolution certain messages will appear on the
+screen.  Some will be accurate, and some will be false. These indicate the
+formation of convoys leaving from certain ports, the arrival of convoys at
+certain points (including current Allied victory point levels), and attacks by
+U-Boats on convoys. U-Boat attacks occur automatically, without player
+intervention.
+
+7.3     INTERVENTION:  Units on patrol or barrier operations may locate
+hostile units. Units with any orders may be located by enemy units. When this
+occurs each player, starting with the player whose unit did the locating, will
+be given a chance to intervene.
+
+7.31    SIGHTING: The sighting report shows all known information about the
+enemy forces sighted.  When entering an escape the player will go to suggested
+Tactics.
+
+7.32    TACTICS: The player must, when involved in a sighting, select a tactic
+from a menu of:  EVADE: attempt to escape the enemy units;   SHADOW: Do not
+force an engagement but try to maintain contact;  ENGAGE: Try to bring the
+enemy to battle.  Relative success at these tactics is based on relative
+speeds, local time of day, weather conditions, and various random factors.
+After entering the chosen tactic with a return the player will go to the
+Interception option.
+
+7.33    INTERCEPTION: The player is provided with a list of all friendly units
+in adjacent areas and ports.  Each unit selected from this list will be
+ordered to intercept the hostile sighted unit(a). That is, it will proceed at
+top speed to the area in which the sighted forces are currently located and
+attempt to engage it. If it reaches the area before the enemy leaves, it
+stands a better than normal chance of locating enemy.  If it fails, it will
+patrol the interception area.  Once all desired interception orders have been
+given, enter an escape to proceed.
+
+7.4  COMBAT:  Combat occurs once both sides have selected tactics and ordered
+any interceptions.  Message reports may be given to both players reflecting
+the course of the action, so both players should watch the screen at this
+time. After completion of each particular combat the Activity segment resumes
+until all activities are completed.
+
+
+8.0  REINFORCEMENT & EXTERNAL EVENTS: When the Activity segment concludes
+External Events of importance may be displayed for the players. There are only
+2 events of importance.  One is the fall of France, which brings the ports of
+France under Axis control.  The other is the fall of Norway.  This is
+contingent upon the Axis having taken two of the Norwegian ports by amphibious
+assault.  After this has occurred, other ports of Norway may fall under German
+control at various times and will be so reported.  At the end of external
+events (or the end of the Activity segment if no external events occur) the
+victory point level of the players will be displayed. Following this the
+computer will update forces for both sides by assigning reinforcements. Small
+vessels are assigned automatically while major forces represented by new
+counters (from those not yet in play) will be placed into play and become
+listed as available to the player during his next reports segment.
+
+
+9.0  ENDING OR SAVING THE GAME: The game ends automatically at the conclusion
+of the scenario in play. However, you need not play a scenario to completion
+during a single sitting.   At the conclusion of reinforcement the players will
+be given a chance to save the game for restart at a later time.  To save the
+game you MUST have available another disk that has been previously initialized
+or formatted. The computer will prompt you through the save routine. The save
+routine uses the same drive as the program disk.  Be sure to remove the
+program disk when prompted to do so and insert the disk on which the game will
+be saved.  CAUTION: There is insufficient space on the program disk to save a
+game. Do not attempt to do so. A spare disk can save up to 20 games in
+progress.  Be sure to use one, After saving the game the computer can be shut
+down or play may be continued on the next turn of the game just saved and
+still in progress.  After a scenario ends the players may examine final
+reports to determine the closing status of their forces.
+
+
+10.0 VICTORY: At the end of the game the players will be presented with the
+final victory point totals. These will be the Allied and Axis victory points,
+as welt as an Axis victory point handicap. The total of the Axis points and
+the handicap is compared to the Allied sum.  If the totals are within 500
+points, the game is a draw. If one player is ahead of the other by in excess
+of 500 points, that player wins. The computer automatically calculates victory
+points during the game.  Victory points are awarded for the following: 1, Each
+Allied merchant vessel in a convoy that arrives in Liverpool or Murmansk
+(variable with date, scenario & arrival location, with Murmansk earning more
+points during the winter). 2. Each Allied MM unit moved from North America to
+Gibraltar (for the Torch operation). 3. Successful Axis amphibious operations
+against Norway. 4. Axis SS Gruppes operating in areas 1-5 from January 1942
+through June 1942, if the U.S. has entered the game.  In general the handicap
+s ystem for the Axis gives them points at weekly intervals for their simple
+existence as an opposing force, However the Allies earn large numbers of point
+for their convoy results. To win the German cannot rely on the handicap. He
+must actively threaten the shipping lanes with every surface ship, submarine,
+and aircraft at his disposal.
+
+11.0	DESIGNER'S NOTES ON PLAY:
+
+11.1    THE ALLIES: The Allied forces have two problems. First, the Battle
+Squadrons must operate to contain German surface raiders, which can do very
+nasty things to the convoy routes if allowed into the shipping lanes. Second,
+something must be done about German submarine forces operating in the
+Atlantic. The first problem is very straight-forward. The second is far more
+difficult. While some air coverage may be offered deep in the Atlantic, it is
+in general far more effective nearer the bases. Surface units may be used as
+ersatz hunter-killer groups until CVE's  are available, but this has limited
+usefulness. The historical solution is to place every free unit into the
+escort pool, but that will start to impair anti-surface blockade in the early
+game, when it can least be afforded. The Germany Attacks scenario is
+definitely a hang-on problem, as is the England Stands Alone scenario, though
+to a lesser extent. With the longer scenarios it becomes easier as German
+raiders sall destroyed. The "Happy Time" can be a good chance to try to put a
+dent into German sub forces aimed at otherwise cheap victory points off the
+U.S. east coast.  Both air and surface forces should be assigned to try to
+sink subs while the opportunity is there -- there are plenty of air bases in
+the area for that purpose. Some simple rules of thumb: Unless you are hunting
+a known German raider, keep spread out in single unit forces (two battleships
+and a half dozen destroyers can look after themselves). Keep escorts light
+too. Covering every convoy is more important than putting a lot of cover on
+some.  Remember that your opponent can just ignore the heavily escorted ones.
+Air units are the most responsive, so they should be used to cover problem
+areas on the convoy routes. Air power is your best antisubmarine force, so
+leave the surface raiders to the battleships.
+
+11.2    THE AXIS: You must not succumb to the temptation to form all your
+surface units into a grand fleet and go off to contest the high seas.  The
+Germans have some fine ships, but they are few and far between.  You might win
+some success in the shorter scenarios just through surprise, but remember that
+each of those British BB units represents two full battleships, while a pocket
+battleship is just a heavy cruiser with great styling.  In the longer
+scenarios, you must concentrate on maintaining an effective threat. To do this
+send your raiders out on short cruises at odd intervals.  Your U-Boats will
+score moat of your points, or more accurately deny the Allies moat of theirs,
+but you still want to distract the Allied player so that he cannot concentrate
+all his resources on escort.  The force selection that eliminates U.S.
+participation will vastly improve your U-Boat performance by denying the
+British several critical air bases, a number of major units, and a lot of
+escort re-enfo ments.  On the minus, the potential points for U.S. coastal
+operations in the first half of 1942 are lost.  This means a tot of effort
+must be put into the North Atlantic.  The Enhanced forces option gives you two
+more fine battleships and two aircraft carriers, but it still does not make
+the German surface fleet -something to go hunting the Home fleet with on a
+regular basis, though one good sally becomes possible and the Murmansk convoys
+can be heavily depleted.  The Norwegian operation is important both for
+victory points and to provide bases for raiders and air power.  Air power is
+most effective from Norway against the Murmansk convoys, but can be useful for
+observation of Allied operations as well.  In a no-U.S. game, the Murmansk
+convoys will not occur, so air units may be used to hunt British battleships
+with some effectiveness. Remember, however, that air power effectiveness is
+inversely proportional to distance from base, so try to keep close to
+Norwegian bases.  If the Norwe gian operation fails, you are in a lot of
+trouble, since everything will have to shift to French bases. These are
+further from the trans-Atlantic convoy lanes, and the Murmansk convoys will
+have a field day.
+
+  Les Howie & Stephen Newberg
