@@ -23,7 +23,3 @@ variants and expansions were made for a variety of systems.
 
 Apple Inc. released a version for the Apple II+ called Apple Trek in
 1979.
-
-Numerous hobby projects have continued to port the original game
-versions and enhanced variants to other languages and systems through to
-today
