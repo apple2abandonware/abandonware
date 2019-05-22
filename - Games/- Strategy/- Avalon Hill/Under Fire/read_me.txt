@@ -1,0 +1,2 @@
+You must write protect the game_master, units_and_scenarios, and extended_capabilities_disk_1 side A and side B disks.
+Do not write protect extended_capabilities_disk_2_campaign_setup or the save_game disks.
