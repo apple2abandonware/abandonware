@@ -1,0 +1,1 @@
+This is a non-mockingboard version of Ultima III and works with Ultimore.
