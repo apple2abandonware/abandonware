@@ -1,0 +1,429 @@
+                          Waterloo II - Crystalware
+                          =========================
+
+Apple Movement
+Applesoft 48k
+==============
+
+Although many countries were involved in these events we have made coding only
+for:
+
+     NATION        COMMANDER-IN-CHIEF
+     -----------   -------------------------
+     France   F    Emperor Napoleon
+     England  E    Duke of Wellington
+     Prussia  P    Field Marshal Blucher
+     Russia   R    General Barclay de Tolley
+
+     TYPES OF UNITS          DESCRIPTION
+     ------------------      -------------------------------
+     Infantry        I       Common foot soldiers
+     Cavalry         C       Mounted troops
+     Foot Artillery  A       Slow moving cannons
+     Horse Artillery H       Horse drawn weapons
+     Baggage Train   B       Supply column
+     Flag (Colors)   F       Nation's flag
+     Messenger       M       Courier of battle orders
+     General         G       One of fours commanders
+     Lancers         L       Special unit lethal to cavalry
+     Imperial Guard  N       Napoleon's private guard
+
+
+For both the Apple and Atari the basic movement commands are identical. The
+first letter will be the mnemonic used in coding the instruction. All
+instructions must specify which unit is to operated upon. The first part of
+the code has two letters and one numeral. This is followed by a dash and a
+variety of special commands.
+
+For instance, French Infantry unit #1 would be represented as FI1-/ The
+specialized movement commands are described as follows:
+
+M)ove - this moves a unit, a flag, or a baggage train. You may not ford a
+        river or pass through mountains. You must define the unit, then type a
+        dash, "M" for move and the number of squares you wish to move.
+        Movement will be executed in the direction the unit is facing. If you
+        attempt to move more squares than is possible for that unit, it will
+        move to it's maximum and halt. Infantry can move up to 2 squares,
+        while cavalry can move up to 4.
+
+    Example: if you want to move French Cavalry #2 three squares, input
+             "FC2-M3"
+
+        Weather conditions, troop morale, and terrain will affect your moves.
+        If you are in a forrest and try to advance 2 squares, you will find
+        you have used up the same amount of food as if you had gone forward 2
+        squares, but you will have only moved 1 square. Commands to move into
+        sea or mountains will be ignored. At the start of the battle just the
+        French and English troops will be able to move as these are the only
+        units you will have access to when the game opens. Details about
+        security reinforcements and supplies will be given later.
+
+P)ivot - To change the direction of movement of a unit, you must use the "P"
+         command. After defining the unit, typing a dash and "P", you may turn
+         "R"ight or "L"eft. The orientation of your unit when under attach
+         plays a significant part in the outcome of the engagement.
+
+    Example: To turn Prussian Lancer unit #4 to the right... PL4-PR.
+
+A)ttack - all units, even baggage trains are capable of aggressive action.
+          Everything is considered, morale, weapons, and strength, each unit
+          can be represented at a particular time by a point value. How
+          effectively your combat strength is utilized will be determined in
+          great part by whether you choose a frontal, flank, or rear attack on
+          your enemy. This attack must always be in the direction you are
+          moving.
+
+    Example: You want to attack a unit directly ahead of you and one square
+             away with the English Cavalry #6... input EC6-A. You may only
+             attack a unit one square away and directly ahead of you.
+
+H)ide - This has the effect of having your unit dive for cover. Naturally it
+        makes your troops less vulnerable to attack.
+
+    Example: To order French Infantry #1 to take cover... FI1-H.
+
+U)ncover - This accomplishes the reverse of H)ide. Your forces must be in an
+           uncovered position to attack or move. However, you can fire while
+           undercover.
+
+    Example: To order you concealed unit to come out in the open... FI1-U.
+
+R)est - Since the game does take into account the time of day, and many
+        activities are best performed in daylight, try to take the opportunity
+        of darkness to rest. If there are adverse weather conditions, it is
+        often good strategy to halt your troops, and instead, use your moves
+        on the baggage train.
+
+    Example: To order Prussian Artillery #3 to rest... PH3-R.
+
+        Resting will increase strength and morale. Each five moves represent a
+        time period of 6 hours. The periods extend from 6 a.m. - 12 noon, for
+        one set of moves, and from 6 p.m. - 12 midnight for the next sequence
+        of 5.
+
+F)ire - Cannons may be used by Foot or Horse Artillery, providing you have
+        sufficient ammunition and you may direct your fire over the heads of
+        your own troops. Ranges vary according to type of cannon and
+        ammunition used. The two basic types, ball and grapeshot, differ in
+        effectiveness. In actual combat your cannon range is given along with
+        the numerical strength of your unit. Since one must be able to fire at
+        45 degree increments we have a special system for describing the
+        direction of cannonfire.
+
+          8  1  2
+           \ | /
+          7-- --3
+           / | \
+          6  5  4
+
+    Example: You want to fire at a unit which is diagonally 2 squares away in
+             direction 8. You are using French Artillery #2... FF2-F82.
+
+        The second code refers to a Fire direction of 8, 2 squares distant
+        from your cannon. Of course, the greater the range the less damaging the shot.
+
+S)end - There are three special "units" which may be sent: A nation's flag may
+        be transferred from one unit to another unit to boost morale; a supply
+        train may be sent from one of the four key cities; or a general may
+        ride into the front lines. Only each of these units can be used by a
+        nation at a time. If the nation is not yet in play it cannot be sent a
+        supply train. Each supply train leaving its city of origin is given
+        direction by programmed commands and will deliver its goods to the
+        first troops it is directed to encounter. But if an enemy troop runs
+        across it first, that enemy may sieze the supply train and use the
+        supplies for itself. Prussian supplies are sent from Frankfurt, French
+        from Paris, Russian from Calais, and English from Brussels.
+
+    Example: You want to send you your French supply train from Paris...
+             FB1-S. (although this specifies baggage 1, there never is more
+             than one baggage train per nation).
+
+G)roup - This, literally, is a last ditch effort to regroup a scattered unit
+         during the game. It may be used only once per unit, and is a move of
+         desperation. Morale and fighting strength within that unit will
+         double its normal value for one turn, but if the skirmish is lost,
+         the unit will lose twice as much; a double or nothing gamble.
+
+    Example: Prussian Cavalry #5 is to be regrouped... PC5-G.
+
+C)harge - This just applies to cavalry. Such a command doubles the attacking
+          strength of a unit and also its food an energy usage, as it is
+          extremely exhausting to the men. The direction of your charge must
+          be the same as your direction of movement. The last number in the
+          command sequence is the number of squares away you are charging
+          toward your target. Remember, charging a unit of Lancers is nearly
+          always fatal to a cavalry unit.
+
+    Example: Order you French Cavalry #4 to charge... FC4-C2.
+
+          This move is an attack command, but unlike other moves it may be
+          executed a square at a time in order to slice through an entire
+          army. The maximum number of squares you can charge is 4.
+
+Q)uit - Naturally, Waterloo is very difficult to play in one sitting, so we
+        have included a save game function. Other games may played then an old
+        game recalled. However, only one game may be saved at a time.
+
+
+MULTI-MOVES
+-----------
+Moves are put in alternately, 5 at a time, but both sides. At the end of this
+cycle, the time is increased by 6 hours and the computer alternately executes
+each group of 5 moves. Non-executable moves will be ignored.
+
+
+APPLE FLASH
+===========
+It's a little tougher to scan the battlefield on the Apple. A map divided into
+sectors numbered 1-16, is included in the Apple version. If you wish to
+examine a sector, input "F", return and then key the numbers of the sector. It
+will appear along with data about each of your units located there. As each
+unit is displayed, its strength and direction of travel fill be flashed.
+However, you will not be informed about an enemy unit's strength or direction
+of travel. A final push of the space bar will return you to a play mode.
+
+
+
+COMBAT NOTES:
+=============
+
+Orientation during combat and attack values
+-------------------------------------------
+1. Frontal Attack  1:1     no change
+
+2. Flank Attack    2:1     attack damage= 2 x attack strength
+
+3. Rear Attack     4:1     attack damage= 4 x attack strength
+
+4. Attack on Fortified     attack damage=
+   or Covered Troops       attack strength
+                           ---------------
+                                  3
+
+5. Cavalry Charge          2 x initial attack strength
+                           then normal unless moved
+                           away and charged again 2 spaces
+
+6. Fire & Cannonade  Point Blank    G       Ex
+   grape - I             2          2x      1:1
+   explosive Cannon      4         1:1      1:1
+   & Cor.                6          /2      1:1
+                                    /4      1:1
+
+A. Weapon strengths - Lance, saber, bayonet, musketry - are figured into
+                      combat coeffiency nos.
+
+B. Baggage Train includes: - Food (fatigue)
+                           - Repair tools (bridge bldg, cannon repair, carts)
+                           - Powder (resupply)
+                           - Medical supplies (morale)
+                           - Wounded (slowly release back into units or die)
+                           - Prisoners, if any (for exchange and information)
+
+C. Artillery - 1. Can fire over troops up to six spaces.
+             - 2. Can fire straight or at 45 degrees either side.
+
+TERRAIN
+=======
+The battlefield for this particular wargame occupies 16 full screen high
+resolution graphic pages. There are 25,600 possible combinations for units and
+terrain. Landscape may range from an expanse of flat Belgian farmland to the
+Black Forrest of Germany. Farther south of the Alps are the Pyrenees, and
+a myriad biomes of rolling foothills and rushing rivers.
+
+Different landscape features have their effects on the mobility and sped of
+troops as well as on the outcome of an attack. For instances, maneuvering in a
+wooded area increases your rate of speed by 2. Attacking a unit that has taken
+cover in the woods will increase the force of your attack by 3.
+
+Although the primary battlefield is a flat terrain, its condition of wetness
+or dryness will determine the rapidity with which you can move and this will
+also increase or decrease combat effectiveness. Following main roads will
+enable your troops to maneuver much more quickly. An attempt to take a
+shortcut across a muddy field could have some pretty disastrous consequences.
+
+During the course of battle rivers cannot be forded. But gaining access to a
+bridge will make it possible for your troops to cross that river. Mountains
+may halt progress altogether. You can gain an advantage by cornering an enemy
+unit near a river of in front of a mountain.
+
+
+
+WEATHER
+=======
+Waterloo has a variety of weather conditions. During the course of the
+historical battle, and onslaught of heavy rain greatly affected the situation
+of the combatants. With grassy fields suddenly;y turning into sloshing muddy
+expanses the troops and artillery were forced to an exhausting trudge that
+drained their vigor and confidence. You will see that an attack launched
+during fog, a drizzle, or rain is only half as effective because of the
+energy and time lost in fighting in these conditions. High winds multiply our
+adverse weather factor by 2 and may cause your cannonshot to end up in some
+bizarre places.
+
+As your forces march on the hour, nighttime or daytime, and particular season
+are all taken into consideration. While overcast skies may not prove to be a
+severe setback to the winning of a skirmish, a night attack is only
+one-quarter as effective as the same attack carried on during daylight. As you
+near autumn and finally winter, the weather turns more and more miserable.
+
+Should you be unfortunate enough to have the game drag out through the winter,
+you will be contending with freezing temperatures, deep snow banks, and a
+dropping of morale throughout the ranks. Snow decreases your movement speed by
+a factor of 4 and your combat strength by a factor of 3.
+
+With each series of five moves per player the time of day will advance by 6
+hours. If you begin your sequence of moves at 6 a.m. you will end them at 12
+noon, or if at 12 noon, then they will end at 6 p.m. would end at 12 midnight,
+and so on. During temporary bad weather, such as a rainstorm or heavy fog,
+your best strategy for conserving strength might be to stay put and rest.
+
+
+
+MORALE
+======
+As we have stressed in our advertisements of this game, morale - psychological
+condition of each soldier - plays a significant part in determining the
+outcome of every battle. Morale is influenced by weather conditions, fatigue,
+the presence or absence of a general or a flag, and insufficient supplies. If
+the men are in a safe, covered position, they will be in higher spirits than if
+they were situated in the center of a hundred miles of open fields, facing
+a division of charging cavalry.
+
+The French as a whole are n much better spirits than the allied forces. They
+consider Napoleon to be a god and are highly nationalistic. On the other hand,
+their opponents are no very highly motivated. Many of them are mercenaries,
+some a considerable distance from their homeland. Often a group of allied
+soldiers will speak as many as four different languages, while their commander
+speaks another. Desertion is an all too common occurrence.
+
+Be sure that your men receive enough rest, provisions and good medical
+attention. If the general moral in a unit falls below 25%, then the soldiers
+will desert.
+
+
+
+COMMUNICATION
+=============
+As the battle begins our two generals may communicate only with the French or
+English forces; messengers must be sent if you wish to maneuver your
+additional troops. Unfortunately a country may just just one messenger at a
+time. Once the messenger has been sent out it is possible he may be
+intercepted by enemy troops and killed. Prussian and Russian troops must
+remain stationary until they have received a message from the allied forces,
+and the French reinforcements must wait for word from the Emperor.
+
+Sometimes it is necessary to transfer the "colors" or flag of a nation to
+another unit to bolster morale. Even the generals themselves may advance into
+the battlefield, although it is unwise for them to do so without sufficient
+protection.
+
+One of the biggest problems during the historical battle was a lack of
+communication between the divisions of each army. If certain key instructions
+had been received by the designated units, Napoleon would have won at
+Waterloo. Since in our game the allied armies have a  combined total of 3
+messengers, whereas the French command only has one, it would be well to plan
+your campaign with this dangerous handicap in mind.
+
+
+
+STRATEGY
+========
+The key objective of the French forces is to capture Brussels, since the
+seizure of this city would intimidate Prussian and Russian troops into
+negotiating with Napoleon. A treaty under these circumstances would mean
+immediate withdrawal of Prussia and Russia from the war, leaving the scattered
+British army of Wellington, the Anglo-Hanoverian divisions under Count Alten,
+and those of the Netherlands under Prince William of Orang to bear the brunt
+of a fresh French onslaught. Napoleon's cavalry and foot soldiers are seasoned
+warriors, veterans of tens years of campaigning in various parts of Europe.
+Without the support of Prussian and Russian reinforcements, the efforts of
+allied troops to crush the re-expanding French empire will be futile.
+
+The allied counter offensive must be a flanking attack on Paris and
+simultaneously, the capture of the seaport of Calais. This French port seems
+to be the logical place from which to undertake an invasion of Great Britain.
+It is a strategic necessity for Wellington to seize and hold this city.
+Naturally, the allied occupation of Paris would cause a demoralization of
+French confidence. One actual weak point in the French military structure was
+that the officers, despite their excellent training and morale, were totally
+dependent upon the genius of Napoleon, to the extent that they were unable to
+make their own decisions or initiate even the most crucial counterattack.
+
+Many Belgian were sympathetic with the French cause, even though Napoleon had
+been publicly branded an outlaw. They realized that the tyranny of Louis XVIII
+was not an appetizing alternative. From historical accounts, it is clear that
+Blucher and Wellington were more interested in a glorious military victory
+executed in tactical excellence than in the countries whose soil they declared
+they would defend or in the lives of the men who fought to win them that
+victory. The generals of history have most often preferred to watch their
+strategy unfold from the heights of a conveniently distant hill, while
+underfed troops in mud-stained uniforms stumbled forward like sheep toward the
+carnage.
+
+If both you would-be-generals will take time to recognize and give emphasis to
+these human and material factors, which were so overlooked by the
+commanders-in-chief of the past, then, whatever the outcome of Waterloo you
+can be sure it will be both different in details and vastly more interesting
+than the actual course of European history.
+
+
+
+WINNING
+=======
+One of the most important features which we have attempted to improve is a
+definite win for either the Allied or French forces. If at anytime during the
+battle Napoleon himself is killed, the Allied command is automatically
+victorious. On the other hand if any of the Allied generals are killed, their
+troops will desert to return to their homelands and their pieces will vanish
+from the board. Aside from this quick way to win or lose, there are several
+basic military objectives whihc have been described under Strategy, but which
+we will reiterate because of their crucial importance in the game.
+
+Seizure of Brussels by the French will result in the hasty retreat of the
+Prussians and Russians. The fall of Paris will allow for the advancement of
+Prussian and Russian troops into the battle zone. But if the French are able
+to enter Calais with 6 units of sufficient strength, the invasion of Great
+Britain can be seen to be a foregone conclusion and the game is lost by the
+allies. Neither Napoleon nor his French forces will be considered defeated
+until every unit in his army or Napoleon himself has been destroyed. Good luck
+to you in your Waterloo campaign and we hope to see you at our wargame
+convention in the summer of '82.
+
+=============================================================================
+
+                             Apple Screen Display
+                             --------------------
+
+Typist's Notes: The docs above list 16 sectors. Upon playing with the game, I
+find four sectors on the screen at one time (with no discernable division
+between sectors on screen). Near as I can figure (at this time), your units
+will only flash in the sector you requested although three other sectors may
+be showing on screen. I also note you can't jump to a sector if it's already
+on screen. (i.e you orignally asked for sector 14, which brought up sectors 9,
+13, 10 & 14. If you ask for sector 9 at this time, the game will not do
+anything. You'd have to force the game to give you a different screenful of 4
+sectors elsewhere then come back to sector 9).
+
+                   Sector 1 Sector 5 | Sector  9 Sector 13
+                   Sector 2 Sector 6 | Sector 10 Sector 14
+                   ------------------|--------------------
+                   Sector 3 Sector 7 | Sector 11 Sector 15
+                   Sector 4 Sector 8 | Sector 12 Sector 16
+
+
+
+                              Unit & Map Symbols
+                              ------------------
+
+Two horizontal lines - French coding      Two vertical lines - English coding
+    Corners only box - Prussian coding  Sides & top only box - Russian coding
+               Big X - Infantry           Chess style knight - Cavalry
+              Cannon - Artillery (Foot)     Cannon on wheels - Artillery(Horse)
+  Pentagon on stilts - Baggage Train               Minuteman - Messenger
+                Star - General          Angled partial arrow - Lancers
+      Box on a stick - Flag                            Big I - Imperial guard
+
+           Circled C - Calais                      Circled B - Brussels
+           Circled F - Frankfurt                   Circled P - Paris
+           Circled T - Towns
