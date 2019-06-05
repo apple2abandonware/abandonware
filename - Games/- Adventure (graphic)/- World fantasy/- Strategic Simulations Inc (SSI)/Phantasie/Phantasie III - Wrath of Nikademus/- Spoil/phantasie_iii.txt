@@ -1,0 +1,2144 @@
+
+                          PHANTASIE III
+
+                     THE WRATH OF NIKADEMUS
+
+
+
+
+
+                           SPELL TABLE
+
+
+SPELL     MAGIC     NAME                      TYPE*
+  #        PTS  
+___________________________________________________
+  1         1       HEALING 1                   E
+  2         2       HEALING 2                   E
+  3         3       HEALING 3                   E
+  4         4       HEALING 4                   E
+  5         1       FIREFLASH 1                C/A
+  6         2       FIREFLASH 2                C/A
+  7         3       FIREFLASH 3                C/A
+  8         4       FIREFLASH 4                C/A
+  9         1       QUICKNESS 1                C/P
+ 10         2       QUICKNESS 2                C/P
+ 11         3       QUICKNESS 3                C/P
+ 12         4       QUICKNESS 4                C/P
+ 13         1       ARROW FLAME 1              C/P
+ 14         2       PARTY ARROW FLAME 1        C/P
+ 15         3       ARROW FLAME 2              C/P
+ 16         4       PARTY ARROW FLAME 2        C/P
+ 17         1       PROTECTION 1               C/P
+ 18         2       PROTECTION 2               C/P
+ 19         3       PROTECTION 3               C/P
+ 20         4       PROTECTION 4               C/P
+ 21         1       CONFUSION 1                C/A
+ 22         2       CONFUSION 2                C/A
+ 23         3       CONFUSION 3                C/A
+ 24         4       CONFUSION 4                C/A
+ 25         1       WEAKNESS 1                 C/A
+ 26         2       WEAKNESS 2                 C/A
+ 27         3       WEAKNESS 3                 C/A
+ 28         4       WEAKNESS 4                 C/A
+ 29         1       BINDING 1                  C/A
+ 30         2       BINDING 2                  C/A
+ 31         3       BINDING 3                  C/A
+ 32         4       BINDING 4                  C/A
+ 33         1       MINDBLAST 1                C/A
+ 34         2       MINDBLAST 2                C/A
+ 35         3       MINDBLAST 3                C/A
+ 36         4       MINDBLAST 4                C/A
+ 37         1       FLAMEBOLT 1                C/A
+ 38         2       FLAMEBOLT 2                C/A
+ 39         3       FLAMEBOLT 3                C/A
+ 40         4       FLAMEBOLT 4                C/A
+ 41         1       CHARM                      C/A
+ 42         2       SLEEP                      C/A
+ 43         3       TELEPORTATION              C/A
+ 44         4       RESURRECTION                E
+ 45         1       NINJA 2                    C/P
+ 46         2       FEAR                       C/A
+ 47         3       DISSOLVE                   C/A
+ 48         4       SUMMON ELEMENTAL           C/P
+ 49         1       DISPEL UNDEAD              C/A
+ 50         2       NINJA 1                    C/P
+ 51         3       AWAKEN                     C/A
+ 52         4       MONSTER EVALUATION         N/WD
+ 54         2       TRANSPORTATION             N/T
+ 55         3       ACCURACY                   C/P
+ 56         4       PARTY ACCURACY             C/P
+
+
+
+* SPELL TYPES INCLUDE:
+
+E=Everywhere
+W=Wilderness
+D=Dungeon
+T=Town
+C=Combat
+N=Non-combat
+P=Passive (not cumulative)
+A=Active (cumulative)
+
+
+
+   Spells Available at Different Levels by Class
+
+
+Level     1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 
+_____________________________________________________  
+WIZARD    5 13  6  7 21 25  8 34 11 35 15 36 12 16 47
+          9 41 10 14 54 33 37 45 38  - 39 48  - 40  -
+          - 55  -  -  - 50 46 51  -  -  -  -  -  -  -
+          -  -  -  -  -  - 56  -  -  -  -  -  -  -  -
+_____________________________________________________
+PRIEST    1 21  2 25  3 18 23  4  7  8 31 24 32 20 48
+         51 29 17 42 22 30 26 43 19 37 34 27 39 28  -
+          -  - 49  -  -  -  -  - 44  -  -  -  -  -  -
+_____________________________________________________
+RANGER    1 17 25  2 29  3 18  4  6 30 26 22 33 37 23
+          5  - 49  - 52  - 51  - 21  - 42  - 44  -  -
+_____________________________________________________
+MONK      5 50  6 45 56  7 13  8 33  9 34 14 35 10 36
+         55  - 54  -  -  - 48  -  -  -  -  -  -  -  -
+_____________________________________________________
+FIGHTER   -  - 52 55  -  9  -  - 13 56  - 11  -  - 15
+_____________________________________________________
+THIEF     -  -  - 41  -  - 42  -  - 18  -  -  8  -  -
+_____________________________________________________
+
+
+
+
+
+                        TABLE OF CONTENTS  
+
+
+INTRODUCTION ............................................... 1
+
+ADVENTURERS ................................................ 1
+      Races * Classes * Attributes
+      How Attributes Are Determined * Skills
+      Social Class
+
+TOWNS ...................................................... 4
+      Starting and Ending * Town Menu: Go To
+      The Guild * The Bank * The Armoury
+      The Mystic * The Inn * Leave Town
+      Town Menu: Other Options * Save Game
+
+BEGINNING THE ADVENTURE .................................... 8
+      The Wilderness * Dungeons
+      Dungeon Menu * Skills in the Dungeon
+
+ENCOUNTERS ................................................. 9
+      Melee * After the Battle
+      Mortality: Hit Points and Body Areas
+      Monsters
+
+MAGIC ..................................................... 13
+      Spell List
+
+TREASURE .................................................. 17
+      Combat Equipment * Potions
+      Scrolls * Other Valuables
+
+APPLE SPECIFIC INFORMATION ................................ 19
+      Loading the Game * Utilities Menu
+      Disk Making Utility Menu
+      Other Utilities Menu * Playing the Game
+      Town Menu: Go To * Armoury Menu
+      Guild Menu * Bank Menu
+      Town Menu: Other Options
+      Adventure Menu * Encounter Menu
+      Melee Menu * Other Options Menu
+      Terrain * Saving the Game
+      Backup Disks
+
+APPENDIX I: Quick Start ................................... 22
+      How to Answer Questions
+
+APPENDIX II: Difference between Phantasie III 
+and Phantasie I & II ...................................... 23
+
+APPENDIX III: Tips and Hints .............................. 24
+      Forming a Party * Fighting
+      The Quest
+
+
+
+
+The adventurer strode in through the front gate,  past the  giant 
+cracked doors,  and up to a merchant who leaned against an  empty 
+pickle barrel.  "Merchant,  where am I,  anyway?" he  asked.  The 
+merchant  perked  up at the  question.  "Why,  you're  in  lovely 
+Pendragon," he cried,  "Crossroads of Scandor,  hub of  commerce, 
+and jewel of civilization."
+      The adventurer looked around at the crumbling mortar on the 
+high towers and the slump-shouldered tread of the citizenry.  "Is 
+this a jewel or a piece of glass?" he asked.  "What has  befallen 
+this metropolis?"
+      "You are sharp," the merchant replied.  "Pendragon, nay all 
+of  Scandor,  is  but a shadow of its  former  glory.  Travel  is 
+dangerous,  the populace is fearful,  and even the cows no longer 
+give  milk.  The  monsters rise from the hills and  the  pounding 
+boots of the conqueror are not far from our ancient gates."
+      "Monsters? A conqueror?" questioned the adventurer. "Who is 
+it that threatens the entire continent of Scandor?"
+      The  merchant  glanced  one  way,  then  the  other.  In  a 
+whispered voice he said, "The evil sorcerer Nikademus has finally 
+come to these shores."
+      "But  Nikademus's  plans  on  the  islands  of  Gelnor  and 
+Ferronrah were thwarted!" the adventurer cried,  "and his crystal 
+on the Pookney Islands has been shattered!"
+      "Ah,  a historian!" mused the merchant. "Those were but the 
+first  two  acts of Nikademus's foul play.  The finale is  to  be 
+enacted here on Scandor. Nikademus has learned from these losses. 
+His  power is now such that he can sway even the purest to  evil. 
+His  army has swelled to far larger than  Scandor's  disorganized 
+forces. If only there was a force to stop Nikademus. Even a small 
+group,  with sufficient courage,  might do it. But, alas, none of 
+sufficient  calibre  have  appeared."  The  merchant  sighed,  "I 
+suppose Scandor is doomed!"
+      "Never!" roared the adventurer.  "I myself have the courage 
+of a lion!  With some stout fellows I am sure we could rout  this 
+pretender Nikademus!"
+      "How bold you are," said the merchant,  "perhaps you  could 
+find other bold fellows at the Guild Hall."
+      "I  shall  go  there at once!" cried  the  adventurer  with 
+determination.  He moved to stride off toward the Guild Hall  but 
+then stopped and turned.  "But Scandor is a great continent and I 
+am a newcomer here. How am I to find Nikademus?"
+      "The  Pendragon  Archives just to the south were  once  the 
+finest  collection  of  scroll and  knowledge  in  the  civilized 
+world," said the merchant. "Though they say that the scribes have 
+gone  mad and the archives overrun,  perhaps you could find  more 
+information  there.  Try to find a wise man named Filmon;  he  is 
+almost a legend in these parts."
+      "I   thank  you  for  your  information,   merchant,"   the 
+adventurer  said.  "I  am  off to gather a hearty  band  to  free 
+Scandor!"
+      "Luck  be with you!" the merchant yelled as the  adventurer 
+squared  his  massive shoulders and  strode  away.  The  merchant 
+smiled  to  himself;  another crazy soul off  on  the  impossible 
+quest.  But someone,  someday,  had to defeat Nikademus or all of 
+Scandor would fall.  Who was to say that this adventurer wouldn't 
+be the one?
+ 
+
+Welcome to PHANTASIE III,  the third adventure in the epic battle 
+against  the evil sorcerer Nikademus.  You need not  have  played 
+either  PHANTASIE  I or II to get full enjoyment  from  PHANTASIE 
+III.
+
+      In   PHANTASIE  III  you  will  control  a  party  of   six 
+adventurers.  They  will  start as raw  beginners,  but  as  they 
+adventure through the wilderness and into the dungeons they  will 
+grow  in power,  skill,  and wealth.  During the course of  their 
+adventures the party will gather scrolls and meet beings who  can 
+give clues to the source of the calamity befalling the  continent 
+of Scandor.  The adventurers can use their knowledge and power to 
+bring about a resolution to Scandor's plight.
+      This rule book will be your guide to using PHANTASIE III on 
+your computer. If you've already played a number of fantasy/quest 
+games in the past then you can turn to the Quick Start Section in 
+Appendix I.  If you've already played PHANTASIE I or II then just 
+turn  to the Differences Between PHANTASIE III and PHANTASIE I  & 
+II  Section  in Appendix II to catch the changes that  have  been 
+made  in the new game.  If you haven't played any of these  games 
+before,  don't  worry!  This  rule book will  give  you  complete 
+instructions  on how to play the game,  and some hints on how  to 
+win it!
+      The  rules  begin  with the General  Rules  that  apply  to 
+PHANTASIE   III   on  all  computers.   The   Computer   Specific 
+Instructions  refer  to changes in the game that help  take  best 
+advantage of each different computer.  Finally,  the Quick  Start 
+and Differences Sections will help old hands get into playing the 
+game  as quickly as possible.  So let's get started -  there  are 
+quests to be completed and great deeds to be done!
+
+
+ADVENTURERS
+
+The  basic unit in PHANTASIE III is a party of  six  adventurers. 
+The party will move together, fight together, and gain experience 
+and  treasure together.  Adventurers who have been badly  injured 
+can be dropped from the party and new,  inexperienced adventurers 
+added  whenever the party is in a town.  The capabilities of  the 
+party will depend on the powers and skills of the adventurers  it 
+contains.
+      Each  adventurer  is  defined by his  race,  his  class  or 
+profession, his individual attributes, and his skill percentages. 
+These allow great individualization among the  adventurers.  Many 
+of  these factors interact;  high attributes lead to  high  skill 
+percentages and Dwarf Fighters tend to be stronger than  Halfling 
+Wizards.  The  descriptions and effects of the  different  races, 
+classes, attributes, and skills follow. 
+                 
+RACES
+
+An   adventurer's   race  refers  to  his   biological   species. 
+Adventurers  in  PHANTASIE  III can be selected  from  among  the 
+following major races:
+
+Humans:  medium  sized  humanoids  who look like you  do  in  the 
+mirror. They tend to be equally good at all professions.
+
+Dwarves: shorter than humans, but tougher. They make up for their 
+lack of speed and charm with muscle and grit.
+
+Elves:  lithe,  thin,  beautiful creatures who make up for  their 
+lack of muscle with grace and intelligence.
+
+Gnomes:  like dwarves, only shorter. Not quite so clumsy, but not 
+quite so strong either.
+
+Halflings:   very  short,  fast,  and  tougher  than  they  look. 
+Halflings are surprisingly intelligent and worthy adventurers.
+
+Random Creatures
+
+Some  adventurers  come from the less civilized  humanoid  races, 
+referred to here as random creatures.  Nobody actually likes  the 
+members of this motley crew so they must pay much larger training 
+fees and stay in the back rooms at the inn.
+
+
+                             PAGE 1
+_________________________________________________________________
+
+Random creatures tend to have low Charisma scores,  and can  only 
+be Fighters and Thieves.  I  f you select a random creature  your 
+adventurer's race will be chosen from among the following:
+
+Gnolls:  dog faced humanoids,  and proud of it. Gnolls are strong 
+and tough, but ugly and not very bright.
+
+Goblins: loathsome little guys; short like gnomes but with few of 
+their advantages.
+
+Kobolds:  very short,  quick,  and tough little monsters. Kobolds 
+aren't very bright or beautiful, but they can be survivors.
+
+Lizard  Men:  7  foot,  scaly hunks of  muscle.  Lizard  men  are 
+humanoid ...  barely ...  with great tails,  claws,  and a forked 
+tongue. They eat like pigs but swim like lizards.
+
+Minotaurs: powerful humanoids with the head of a bull, or is that 
+powerful humanoids who are bull headed? Either way, Minotaurs are 
+tough, but not quick, strong, but not smart.
+Ogres:  huge,  ugly  humanoids who are very strong,  but  not  as 
+strong  as trolls,  and tough,  but not as tough  as  trolls.  Of 
+course  they  are also smarter,  more agile,  and  prettier  than 
+trolls ... which isn't saying much.
+
+Orcs:  like  a  gnoll,  but  not  as tough  or  strong  but  more 
+intelligent and prettier.
+
+Pixies:  small fairy creatures with pointed ears and  transparent 
+wings.  Pixies are physically puny,  but they are very quick  and 
+intelligent.
+
+Sprites:  fairy-like creatures who are even quicker than  pixies. 
+Their high dexterity makes them effective thieves.
+
+Trolls:  just about the biggest,  strongest, toughest, stupidest, 
+clumsiest, and ugliest creature around. What more can I say?
+
+
+CLASSES
+
+Each   adventurer  specializes  into  one  of  six   classes   or 
+professions.   These   classes  define  what  the  character   is 
+especially  good at and what he specializes in.  The six  classes 
+are:
+
+Fighters:  the  sword and shield of the party.  Fighters are  the 
+masters of melee combat. Humans, Dwarves, Gnomes, and some random 
+creatures make the best fighters.
+
+Monks: jacks of all trades and masters of none. Monks are average 
+fighters,  know  some  thieving skills,  and have  a  few  combat 
+spells.  Because of the low number of spells they can learn, they 
+must pick their spells carefully.  Humans,  elves,  and halflings 
+make good monks.
+
+Priests:  medic!  Priests  are  average in combat but  have  many 
+defensive  and,  most important,  healing spells.  Make sure  the 
+party priest is on your side! Humans make the best priests.
+
+Rangers:  have sword,  will travel. Rangers are almost as good in 
+combat as fighters,  and know a number of priestly spells. Humans 
+and Dwarves make good Rangers.
+
+Thieves:  masters of the five-finger discount!  Thieves are  poor 
+melee fighters,  but excellent bowmen and skilled  professionals. 
+With  their stealth they can sneak into the second rank  and  hit 
+monsters  fighters can't easily get to.  They are also  great  at 
+spotting and dealing with traps and treasure.  Humans, Halflings, 
+Gnomes, and some of the random creatures make good thieves.
+
+Wizards:  "nothing  up my sleeve ..." Wizards are the masters  of 
+magic.  They get the most spells and Magic Points.  They are poor 
+in melee combat, but are masters of offensive spells and are very 
+important in encounters with monsters. Humans and elves make good 
+wizards.
+ATTRIBUTES
+
+Each adventurer has 5 main attributes that are based on his  race 
+and class.  The value of each attribute ranges from 3 to 22. Each 
+attribute  determines  a different  capability.  The  attribute's 
+common abbreviation is listed after the attribute's name.
+
+Strength (STR):  physical strength,  ability to use heavy weapons 
+and equipment,  and damage in melee combat. Fighters need as much 
+Strength as they can get.
+
+Intelligence (INT):  mental prowess and the basis of the  ability 
+to  cast spells.  Wizards,  Priests,  and Monks need a very  high 
+Intelligence.
+
+
+                             PAGE 2 
+_________________________________________________________________
+
+Dexterity  (DEX):  physical agility and a basis of  hitting  and, 
+more important,  not getting hit by melee attacks. Dexterity also 
+helps determine what weapons an adventurer can use, how good some 
+of his skills are, and how well he can conjure a spell. Everybody 
+needs Dexterity.
+
+Constitution (CON): endurance, physical toughness, and a modifier 
+on  the number of Hit Points an adventurer has.  The  higher  the 
+adventurer's Constitution,  the more hit points he has,  and  the 
+longer that he might live!
+
+Charisma (CHA):  good looks,  charm,  and how to win friends  and 
+influence  people.  Charisma  affects the cost of  a  character's 
+training and learning new spells. Another reason why yucky random 
+creatures pay more for training.
+
+
+                  HOW ATTRIBUTES ARE DETERMINED
+
+When a new adventurer is created,  his attributes are equal to  a 
+random  value modified by the adventurer's class  and  race.  The 
+following  charts give the Attribute Modifiers by Class  and  the 
+Maximum Attributes by Race.
+
+________________________________________________
+         Attribute Modifiers by Class
+
+            STR     INT     DEX     CON     CHA
+Fighter     +2      -2      +1       0      -1
+Monk         0       0      +1       0       0
+Priest       0      +2       0       0       0
+Ranger       0      +1       0       0      +1
+Thief       -2       0      +2       0      -1
+Wizard      -4      +3      -2       0      +1
+________________________________________________
+
+
+          Maximum Attributes by Race
+
+            STR     INT     DEX     CON     CHA
+Human       18      18      18      18      18
+Dwarf       20      17      17      19      17
+Elf         17      19      19      17      18
+Gnome       19      17      18      19      17
+Halfling    16      18      20      18      17
+Gnoll       20      13      17      21      11
+Goblin      17      14      18      17      11
+Kobold      17      15      19      19      13
+Lizard      19      14      17      18      13
+Minotaur    20      14      16      19      12
+Ogre        21      14      16      19      13
+Orc         19      16      17      18      14
+Pixie       16      18      21      16      17
+Sprite      16      18      22      16      17
+Troll       22      13      15      20      12
+________________________________________________
+
+SKILLS
+
+Each  adventurer has nine skills,  each rated with  a  percentage 
+chance.  Situations  and  opponents can reduce  these  percentage 
+chances  so that the actual probabilities can vary  widely.  Each 
+time  an adventurer goes up a level he can increase his  training 
+in three of his skills. The skills are:
+
+Attack:  the adventurer's chance to hit an opponent in melee.  An 
+enemy  may  have  a defence which subtracts from  this  and  some 
+maneuvers may reduce the chance,  so high-level adventurers  will 
+often have Attack skill over 100.
+
+Parry:  the adventurer's chance to get his shield in the way when 
+he does a parry maneuver.  It also makes the character harder  to 
+hit even when not parrying.
+
+Swim:  the  adventurer's chance to cross a water  square  without 
+taking damage from drowning.
+
+Listen:  the adventurer's chance to hear monsters coming.  If the 
+party  hears  the monsters,  it can attempt to flee or  be  fully 
+prepared when the encounter comes.
+
+Spot Trap:  the adventurer's chance to spot a trap that has  been 
+set for the party.  Once a trap has been spotted the party can do 
+something about it.
+
+Disarm Trap: the adventurer's chance to disarm a trap once it has 
+been  spotted.  Only one adventurer will attempt the disarm at  a 
+time.
+
+Find Item:  the adventurer's chance to spot treasure and  goodies 
+after  a  battle.  Monsters who surrender give their  items  over 
+freely, but dead monsters tell no tales.
+
+Pick Lock:  the adventurer's chance to pick the lock on a door in 
+the dungeon.  The locks on some doors can not be picked and  must 
+be opened in some other way.
+
+Fire Bow: the adventurer's chance to hit his target when firing a 
+bow. Some monsters have defences that reduce this chance.
+
+
+                           PAGE 3     
+_________________________________________________________________
+
+SOCIAL CLASS
+
+Each  adventurer  has a social class which denotes his  place  in 
+society.   The  four  social  classes  are:   Peasant,   Laborer, 
+Craftsman,and Noble.  Humans, Elves and Dwarves tend to be in the 
+higher classes.  The adventurer's class determines how much  gold 
+he gets to start and how much he gets for going up a  level;  the 
+higher the social class the more gold the adventurer receives.
+
+
+TOWNS
+
+Starting and Ending
+
+Each  session  of PHANTASIE III begins and ends in  a  town.  The 
+party  will  begin in town number  1,  Pendragon.  Each  town  is 
+identified  by  a  name and number.  Towns provide  a  number  of 
+facilities for the party and serve as havens from monsters.
+      Each  town  operates  exactly the same  way.  In  each  the 
+adventurers will find the same facilities: a Guild where they can 
+train  and find fellow adventurers;  a Bank where they  can  keep 
+their money;  an Armoury where they can buy equipment;  a  Mystic 
+from  whom they can find out how far along on the  quest  they've 
+come;  and an Inn where they can rest and heal.  Adventurers  can 
+also  perform  several  maintenance functions in  towns  such  as 
+Casting  a spell,  Using an item,  Distributing items  among  the 
+party, Inspecting an adventurer in detail, or Saving the game.
+      Actions in town are controlled by the Town Menu.  The  Town 
+Menu is divided into two sections: places to go and things to do.
+
+Town Menu: Go To
+
+The  top  menu  gives the commands that take  the  party  to  the 
+various locations in town:  The Guild, The Bank, The Armoury, The 
+Mystic, The Inn, and Leave town. New players must go to The Guild 
+to gather the adventurers for a party.
+
+The Guild
+
+The  Guild  is where adventurers are generated  and  formed  into 
+parties.  Dozens of different adventurers can be recorded in  the 
+guild, but only six will be in a party at a time.
+      The  Guild  Menu  contains two  kinds  of  commands:  Guild 
+Commands  and  Party Commands.  The Guild  Commands  provide  the 
+following options:
+
+Guild Commands
+
+* Create a New member of the Guild
+* List the members of the Guild
+* Purge an adventurer from the Guild
+* Add a member of the Guild to the party.
+
+New Member: this option creates new members of the guild one at a 
+time.  New members should be carefully chosen.  You must find the 
+optimal  mix  of classes and races to survive  and  complete  the 
+quest.  A  reasonable beginning party has been pre-generated  and 
+pre-equipped  and is listed as the first 6 members of the  Guild. 
+You may choose to use these adventurers or create your own.
+      Once  the  race  and  class of  the  adventurer  have  been 
+selected his attributes will be displayed.  If the attributes are 
+acceptable  the adventurer will be assigned a name and listed  on 
+the Guild roster.  Then the adventurer's full list of  statistics 
+will  be shown along with his starting equipment (See Town  Menu: 
+Inspect for a full explanation of the display).
+
+List:  this  option  shows  all  of the  Guild  members  and  the 
+following  information:  Their number in the Guild (Apple  only), 
+their name,  their class,  and the number of the town where  they 
+are now. The last three names on the list: Mud, Mist, and Air are 
+not adventurers at all.  They are the ELEMENTALS that a wizard or 
+monk  summons with the Summon Elemental Spell.  Notice that  they 
+are fighters,  that they have guild numbers, and that they reside 
+in town 0 which is not found on the material plane. One Elemental 
+can  be  added to the party.  It does not count as a  member  and 
+simply defines which elemental will come when the summoning spell 
+is cast.
+
+
+                             PAGE 4
+_________________________________________________________________
+
+Purge:  this option drops an adventurer from the guild list, from 
+the party,  and out of the game, never to be seen again. Use with 
+caution.
+
+Add to Party:  this option will add an adventurer from the  Guild 
+list  to the party.  The adventurer will still be listed  on  the 
+Guild List.
+
+Party Commands
+
+* Spells
+* Training
+* Drop From Party
+* Rename a Party Member
+
+Spells:  this option allows an adventurer to attempt to learn new 
+spells.  The number of spells the adventurer can learn,  the cost 
+of  each  attempt  to learn the spell,  and  the  specific  spell 
+numbers the adventurer can choose from will be listed.  The  cost 
+of  learning  the spell comes from the party  treasury,  not  the 
+adventurer's  bank  account.   If  there  are  no  numbers  after 
+"POSSIBLE SPELLS:",  then the adventurer can learn no new  spells 
+at this time.
+
+Training:  this option allows an adventurer who has gained enough 
+Experience  Points  to  go  up a level  and  increase  his  skill 
+percentages.  When training the adventurer will be told how  many 
+experience points he needs to go up a level; or, if he has enough 
+experience points,  then how many gold pieces will be required to 
+pay for the training.  Gold to pay for the training comes out  of 
+the party treasury and not the adventurer's bank account.
+      When the adventurer has enough experience points and  gold, 
+the training can begin.  The adventurer will gain additional  Hit 
+Points for going up a level.  He will also get to train up  three 
+of his skills.  Each skill will be listed along with its  current 
+value and its new value after training.  The adventurer may train 
+in  the same skill more than once,  but the advantage  gained  is 
+decreased each time.  After all training the party should get out 
+of  the  Guild and into the Inn to rest up their  Hit  Points  to 
+their new maximum.
+
+Drop  From  Party:  this option takes the adventurer off  of  the 
+party roster.  The adventurer is still on the Guild List and  can 
+be  put  back into the party any time the party is  in  the  same 
+town.
+
+Rename:  this  option allows the player to change the name  of  a 
+member of the party.
+
+Exit Guild: this option returns the Adventurers to the Town Menu.
+
+THE BANK
+
+The Bank has an account for each adventurer,  and there are  Bank 
+branches  in every Scandorian town.  Adventurers can withdraw  or 
+deposit money at any branch.
+      When  each adventurer is created he is given an  amount  of 
+gold  in his account.  Before an adventurer can buy equipment  at 
+the Armoury or Spells at the Guild his gold needs to be withdrawn 
+from his account and put into the party treasury.  A party in the 
+wilderness should carry enough gold to cover stays at independent 
+inns,  bribes,  or purchases in the dungeon.  Each of these costs 
+about 250 gold.      When adventurers first enter the  Bank,  the 
+amount of Gold the party is carrying is displayed along with  the 
+following options:
+
+* Withdraw Gold Pieces
+* Deposit Carried Gold
+* Exit Bank
+
+Withdraw  Gold  Pieces:  this option allows  each  adventurer  to 
+withdraw  gold  from  his  account and  put  it  into  the  party 
+treasury.  From there on only the total gold carried by the party 
+will be shown. A party can carry up to 65,000 Gold Pieces.
+
+Deposit  Carried  Gold:  this option allows  the  adventurers  to 
+divide  the  party's gold into shares and deposit it  into  their 
+bank accounts.  Each adventurer will get either 1,2,  or 3 shares 
+of  the  party's  gold  and  the value  of  each  share  will  be 
+displayed.  An  adventurer's bank account can hold a  maximum  of 
+65,000 Gold Pieces.  A small banking fee will be charged at every 
+deposit.
+
+Exit Bank: this option returns the adventurers to the Town Menu.
+
+
+                             PAGE 5  
+_________________________________________________________________
+
+THE ARMOURY
+
+The  armoury  is  actually a general purpose  store  that  stocks 
+weapons,  armour, shields, scrolls, potions, and other treasures. 
+The  armourer buys his inventory from crazy adventurers who  come 
+into  town  to sell the treasures they found on  their  journeys. 
+Other  adventurers can then purchase the treasures and  equipment 
+from the armourer (at a profit to the armourer, of course).
+      The  stocks of scrolls and other treasures in  the  armoury 
+remain  for future visits.  However,  the stocks of  weapons  and 
+potions can change each time the party enters.
+      When  the  party  enters the  Armoury,  one  adventurer  is 
+defined  as  the buyer.  A list of the Armoury Commands  will  be 
+displayed. To make purchases list the Armoury inventory. The list 
+will show the item Number (used to buy the item),  the item Name, 
+the  Cost (in gold pieces),  and the Point Value of  Weapons  and 
+Equipment.  If  the  buyer does not have  the  necessary  minimum 
+attributes to use an item, the item will be listed as Unusable.
+      The  Equipment Section gives the description of  the  items 
+available in the Armoury.  To complete a purchase, choose the Buy 
+Item  option and the Item Number.  The Item will be added to  the 
+adventurer's inventory and the money will be subtracted from  the 
+party treasury.
+      Remember  that an adventurer can only use one  weapon,  one 
+shield,  one suit of armour, and one bow. This equipment is never 
+lost,  stolen,  or destroyed.  Armour and Shields have a  minimum 
+Strength Requirement. Bows and Weapons have a minimum Combination 
+of  Strength and Dexterity.  Magic Armour and Weapons have  lower 
+requirements.
+      A complete list of the options at the Armoury include:
+* List Items                * Another Shopper
+* Continue List             * Exit Armoury
+* Buy Item
+
+List  Items:  this  option  lists the first dozen  items  in  the 
+Armoury's inventory.
+
+Continue  List:  this  option lists the next dozen items  in  the 
+Armoury's  inventory.  If the Armoury has a lot of items  in  its 
+inventory  the  adventurers  may need to use  the  Continue  List 
+option several times to see all of the items.
+Buy  Item:  this  option purchases the item and puts  it  in  the 
+adventurer's  inventory.  If  the adventurer gets  a  "You  can't 
+Afford That" message, the price is higher than the amount of gold 
+in the party treasury.
+
+Another  Shopper:  this  option allows the party  to  change  the 
+adventurer who is shopping.
+
+Exit Armoury: this option takes the party to the Town Menu.
+
+THE MYSTIC
+
+The  mystic will give the party an overall score that  represents 
+how  far  they have proceeded on the quest and a  rating  of  how 
+experienced the adventurers are.
+
+THE INN
+
+Adventurers who stay at the Inn have all of their Hit Points  and 
+Magic Points restored to their maximum. Inns located in towns are 
+free,  while independent inns in the wilderness cost 250 Gold per 
+stay. Characters who have cast spells while in the wilderness may 
+have their maximum number of Magic Points increased.
+
+LEAVE TOWN
+
+The Leave Town Option takes the party into the wilderness.
+
+TOWN MENU: OTHER OPTIONS
+
+Adventurers  can perform a number of other actions in  town.  The 
+actions we can talk about include Casting a Spell, Using an Item, 
+Distributing  Items  among  adventurers,   Trading  Items   among 
+adventurers, Inspecting an adventurer, and Saving the Game.
+
+Cast  a Spell:  this option allows an adventurer to  throw  those 
+spells that can be used in town such as healing or transportation 
+(see list of Magic Spells for details).
+
+Use an Item:  this option allows an adventurer to read a  scroll, 
+quaff a potion,  or find the unusual properties of an item.  Some 
+items,  like scrolls,  can only be used in town.  The  adventurer 
+carrying  the item to be used is specified.  An inventory of  the 
+items  that the adventurer is carrying is  displayed.  Input  the 
+number of the appropriate item to use it.
+
+
+                             PAGE 6 
+_________________________________________________________________
+
+Distribute and Sell Items: this option allows the party to gather 
+all  of its equipment into one big pile and distribute  it  among 
+the  party.  Anything the party doesn't want can be sold  to  the 
+Armoury.    
+      The items carried by the party will be listed,  along  with 
+which adventurers have the necessary attributes to use the  item. 
+Items  are  listed from best to worst  in  each  category,  first 
+magical items and then non-magical items.
+      It  is  a good idea to have all six of  the  party  members 
+together before you redistribute items. It is also a good idea to 
+redistribute items to their proper owner before saving the  game. 
+Remember  that  each adventurer can only carry nine  items  at  a 
+time.
+
+Trade Items:  this option allows an adventurer to give one of his 
+items to someone else in the party,  or to sell one of his  items 
+to the Armoury. If only a few items are involved, it is faster to 
+trade items than to redistribute them.
+      First define the adventurer with the item to be  traded.  A 
+list  of all of the items in his inventory will be  listed.  Then 
+specify the item number to be traded and the party number of  who 
+the  item will be traded to.  An adventurer may sell the item  to 
+the Armoury by trading it to adventurer 7.
+
+Inspect  Party Member:  this option gives the statistics  for  an 
+adventurer  in the party.  Define the adventurer to be  inspected 
+and his statistics will be displayed.
+      The  display  includes  the  adventurer's  full  name,  his 
+continent of origin, his level, race, class, physical status, and 
+social   class.   The  display  also  includes  a  list  of   the 
+adventurer's  attributes,   skill  percentages,  spells,  general 
+statistics,  and equipment. After the display of the adventurer's 
+statistics, a display of the state of the adventurer's body parts 
+is listed.
+
+Attributes:  these  are listed in the first column along  with  a 
+LUCK score (randomly determined from 8 to 13).  These  attributes 
+are  the basis of how many tasks are performed  (See  description 
+under Individual Attributes).
+
+Skills: these are listed in two columns under the attributes. The 
+nine skills include:  Attack,  Parry,  Swim,  Listen,  Spot Trap, 
+Disarm Trap, Find Item, Pick Lock, and Fire Bow. The numbers list 
+the percentage chance to perform a task based on the skill,  such 
+as SWIM 45 means a 45% chance to swim without taking damage  (see 
+description under Skills).
+
+Spells:  the number representing the spells the adventurer  knows 
+are  listed  under the skills.  SPELLS 1 5 means  the  adventurer 
+knows Healing 1 and Fireflash 1.
+
+Age:  the age of the adventurer in years.  Age adversely  affects 
+the adventurer's attributes after he reaches his declining years. 
+Each race has a different life span; elves live about 3000 years, 
+dwarves  and gnomes live about 200 years,  humans live  about  80 
+years, and most others croak off after only 40 to 50 years.
+
+Hit Points:  two numbers:  the adventurer's current hit points  / 
+the  adventurer's total hit points.  The current hit points  will 
+fall  when  the  adventurer is damaged and rise  again  when  the 
+adventurer  is  healed  or  completes a  stay  in  the  Inn  (See 
+Mortality and Hit Points in the Encounters Section).
+Magic: two numbers again: the adventurer's current Magic Points / 
+the  adventurer's total Magic Points.  The current  Magic  Points 
+will fall as the adventurer throws spells and rise again when the 
+adventurer takes a magic potion or completes a stay in the Inn.
+
+Gold in Bank: the number of Gold Pieces the adventurer has in his 
+bank  account.  This  does  not include any  Gold  the  party  is 
+carrying.
+
+Experience Points: the number of Experience Points the adventurer 
+has  accumulated by killing monsters.  The number  of  Experience 
+Points an adventurer needs to go up a level depends on his  race, 
+attributes,  and  class.  The adventurer's level  determines  his 
+maximum hit points, maximum number of spells that can be learned, 
+etc.
+
+Score: how far the adventurer has progressed along the quest.
+
+
+                             PAGE 7
+_________________________________________________________________
+
+Equipment:  this  lists  the  weapon,  armour,  shield,  bow  and 
+equipment  that  an adventurer carries.  The point value  of  the 
+combat  equipment is listed in brackets - the higher the  number, 
+the more effective the equipment. An adventurer can carry a total 
+of nine items.
+
+Body Parts:  the state of the adventurer's Head, Torso, Arms, and 
+legs is listed.  Each area can be Okay, Injured, Broken, or Gone. 
+Injured  Body  Areas  can be cured with rest  in  the  Inn.  More 
+drastic  problems can be cured with high level Healing Spells  or 
+powerful Healing Potions.
+
+
+SAVE GAME
+
+The  Save Game option can only be accomplished in a  town.  Every 
+time the party leaves a town the game is saved automatically.  If 
+you're  playing  on an Apple,  make sure you remember  the  Guild 
+Number  of  the adventurers in your party;  you'll need  them  to 
+restart a saved game.
+
+
+                     BEGINNING THE ADVENTURE
+
+Once  the  adventurers  leave town they will  embark  upon  their 
+quest.  They will wander through the untamed  wilderness,  inside 
+horrid dungeons, and even into alternate planes of good and evil.
+      When  not  in  town  the adventurers will  be  shown  on  a 
+complete display that is split into several different areas.  The 
+upper area shows the adventurers themselves.  This area  includes 
+the adventurer's name,  class,  current:  maximum number of Magic 
+Points, current: maximum number of Hit Points, and a stick figure 
+representation of the adventurer showing the status of his  Head, 
+Torso, Arms, and Legs. 
+Each body area can be: Okay (O), Injured (I), Broken (B), or Gone 
+(G)(See  Melee for a full description of the effects of  injuries 
+on  body  areas).  The adventurer's status is  also  listed;  the 
+adventurer  can  be:   Okay,   Down,   Sleeping,   Dead,  or  Out 
+(unconscious).
+      The  center  of  the screen is  split  into  two  different 
+windows.   The   left  window  includes  messages   and   terrain 
+descriptions.  The right window will show the Rank and Status  of 
+monsters when the adventurers are in combat.
+      The lower part of the screen is split into three  different 
+windows. The left window shows a map of the area of wilderness or 
+dungeon  the adventurers are in.  The adventurers are assumed  to 
+have maps of the wilderness, so all terrain in the area is shown. 
+The  map  of  the dungeon will be  blank  until  the  adventurers 
+explore  it.  The  center window shows the menu  of  options  the 
+adventurers have at this time. The right window shows the figures 
+of  the  adventurers and the monsters that  they  encounter  (See 
+Melee for more information on Combat).
+
+THE WILDERNESS
+The area outside of towns and dungeons is called the  wilderness. 
+The  Wilderness  display  always  shows a map  of  the  area  the 
+adventurers are in along with the regular party information.  The 
+Wilderness menu includes the following options:
+
+Wilderness Menu
+
+* Cast
+* Inspect
+* Use
+* Time Lag
+* Move North
+* Move South
+* Move East
+* Move West
+
+Cast:  this  option  allows an adventurer to cast  non-combat  or 
+wilderness spells (See Magic section for details).
+
+Inspect:  this option displays the time the party has been out of 
+town,  the Experience Points earned since the last time in  town, 
+the  number of Gold Pieces the party is carrying,  and the  items 
+the party has acquired since the last time in town.  It will also 
+display an individual adventurer's basic stats, including Hit and 
+Magic Points,  Spells known,  usable Potions carried, and Attack, 
+Parry, Swim, Listen, and Fire percentages.
+
+Use:  this  option  allows an adventurer to use a  potion  he  is 
+carrying,  either  on  himself or on another  party  member.  The 
+adventurer  with  the item is specified and then a  list  of  his 
+potions  is  displayed.  The adventurer selects  the  appropriate 
+potion  from  his list and then selects the  recipient  (See  the 
+items section for the effects of potions).
+
+                             PAGE 8
+_________________________________________________________________
+
+Time Lag: this option changes the speed of melee action: 0 speeds 
+it  up and 9 slows it down.  The sound may also be turned on  and 
+off at this time.
+
+Move North,  South, East, West: Moves the party one square. North 
+is at the top of the map.
+      The  map  of Scandor is divided into 25 sections  that  are 
+identified by A-E (West to East) and I-V (North to South). As the 
+party moves off the map, a new map will be displayed.
+      The adventurers must attempt to swim any water obstacles on 
+the map,  be they lakes, seas, or rivers. If any adventurer fails 
+his  swimming  percentage,  then he flounders and  takes  damage. 
+Adventurers  with few hit points are in real danger  of  drowning 
+when crossing water.
+      Independent Inns are scattered about Scandor. These provide 
+the same rest and healing as the Inns in towns,  but they  charge 
+250 Gold Pieces (plus tax).
+
+DUNGEONS
+When the party enters the square with a dungeon, the dungeon will 
+be  identified and the party asked if it wants to  enter.  A  Yes 
+answer puts the party in the dungeon. You will have to put in the 
+dungeon  disk  if you are playing an 8-bit version  of  PHANTASIE 
+III.  Once in the dungeon the party is given a chance to leave. A 
+No answer keeps the party in the dungeon.
+      In  the dungeon the Wilderness map is replaced by  a  blank 
+dungeon  map.  Only  those areas that the  party  has  previously 
+explored  will be shown on the map.  As the party  explores,  the 
+layout of the dungeon will be revealed.
+
+Dungeon Menu
+The  dungeon  menu has the same features as the  wilderness  menu 
+plus a new option: Look. All of the options function just as they 
+do in the wilderness menu.
+
+Look:  this option reveals the layout of the dungeon for  several 
+squares in each direction.  It will not see through  walls.  Some 
+rooms  are so big that a Look option will not reveal  the  entire 
+area.
+
+SKILLS IN THE DUNGEON
+
+Listen: adventurers automatically listen at doors in the dungeon. 
+If  the  adventurers hear anything they will give the  option  to 
+turn back.
+
+Pick  Lock,   Spot  Item,   and  Spot  Trap:   these  skills  are 
+automatically attempted at the appropriate times. Success depends 
+on the adventurer's percentages in these skills.
+
+Disarm Trap:  whenever a trap is spotted,  the party is given the 
+option of trying to disarm the trap or leave. Only one adventurer 
+will  get the chance to disarm a trap (normally a Thief  or  Monk 
+who has a high Disarm percentage).
+
+Leaving the Dungeon:  the party may only leave the dungeon at  an 
+exit.  Whenever the party gets to an exit, it will be  given  the 
+opportunity  to leave.  A Yes answer puts the party back  in  the 
+wilderness.  When the party leaves the dungeon, you will be given 
+the choice of saving the dungeon status or not.
+      When adventurers enter a dungeon for the second  time,  the 
+monsters may be ready for them;  new traps may be set,  new locks 
+on the doors,  and new monsters may be in the  dungeon.  Monsters 
+can only do so much redecorating in a short time, however, and if 
+the party returns shortly after it left, then the monsters it has 
+killed might still be dead.
+
+ENCOUNTERS
+
+Your  party will inevitably encounter monsters in the  wilderness 
+or in the dungeon.  While some monsters may not be hostile,  they 
+will  never  be  helpful.  The  risk is  high  --  death  to  the 
+unprepared and inexperienced.
+      When the party encounters monsters you will  see:  MONSTERS 
+APPROACH on the screen.  Then the picture of the monsters,  their 
+name,  rank,  and  status  will appear.  Monsters in rank  1  are 
+closest to the party. Finally the Encounter Menu will appear. The 
+Encounter Menu includes the following options:
+
+Encounter Menu
+
+* Fight
+* Accept Monster's Surrender
+* Greet Monsters
+* Beg for Mercy from Monsters
+* Flee
+
+
+                             PAGE 9
+_________________________________________________________________
+
+Fight:  this option takes the adventurers directly into melee, no 
+quarter is asked for or given (See Melee rules).
+
+Accept Surrender:  this option demands surrender from a  depleted 
+group of the enemy.  If the enemy surrenders,  the party gets all 
+of their items and gold.
+
+Greet:  this option greets the monsters in the hopes of  avoiding 
+combat. If the monsters don't respond, then the battle is on!
+
+Beg  for Mercy:  this option puts the adventurers down  on  their 
+knees, begging the monsters not to hurt them (not a bad idea when 
+a party of first levelers run into a hoard of Vampires or  Devils 
+or ...).  If the monsters accept the party's surrender they  take 
+all of the party's gold, some of its new items, and then leave.
+
+Flee:  this option puts "Fleet" in the adventurer's feet.  If the 
+adventurers are successful in fleeing, they will avoid combat; if 
+they are unsuccessful the monsters get free shots.
+
+MELEE
+
+If  the party or the monsters decide to  fight,  each  adventurer 
+will choose his tactics from the combat menu. Each adventurer has 
+the following options:
+
+Combat Menu
+
+* Thrust
+* Attack
+* Slash
+* Lunge
+* Aim
+* Spell
+* Parry
+* Fire
+* Other
+* Front
+* Middle
+* Back
+* Time Lag
+* Redo
+
+Thrust:  this option lets the adventurer take one hard,  accurate 
+swing  at a monster.  It has the greatest chance of  hitting  and 
+does 1-2 points more damage than normal.
+
+Attack: this option lets the adventurer take two normal swings at 
+the  monsters.  If  an  adventurer does not have  a  high  enough 
+percentage to Attack, he will Thrust instead.
+
+Slash:  this option lets the adventurer take three or four  quick 
+swings  at the monsters.  Each individual blow is less likely  to 
+hit and does 1-2 points less damage than normal. If an adventurer 
+does  not have a high enough attack percentage to Slash  he  will 
+Attack instead.
+
+Lunge:  this option is only for fighters;  it lets a fighter take 
+one  normal  swing at a monster in the second  rank.  If  a  non-
+fighter attempts a Lunge he will Thrust instead.
+
+Aim:  this option lets the adventurer take one swing aimed at the 
+monster's head or torso. An aimed blow has less chance of hitting 
+than  a  normal attack.  If the adventurer does not have  a  high 
+enough attack percentage to Aim his blow, he will Thrust instead.
+
+Spell:  this  option  allows  an adventurer to cast  any  of  his 
+everywhere or combat spells.  The adventurer will have to specify 
+the spell number, and target when necessary.
+
+Parry:  this option lets the adventurer attempt to parry with his 
+shield.  A  successful parry will be displayed by the  adventurer 
+raising  his  shield  on screen.  A successful  parry  makes  the 
+adventurer  harder  to  hit  and reduces  the  effects  of  enemy 
+attacks.
+
+Fire:  this option lets the adventurer fire his bow.  If there is 
+more than one rank of monsters, then the rank to be attacked must 
+be specified.
+
+Other:  this option opens up a mini-menu of movement and  utility 
+options.  After  moving the adventurer may still assign a  combat 
+option from the Combat Menu. These options include:
+
+Back:  this  option puts the adventurer at the back of the  party 
+where  he is the least likely to hit with,  or be hit  by,  melee 
+attacks. Being at the back does not affect spells or bows.
+
+
+                             PAGE 10
+_________________________________________________________________
+
+Middle:  this  option  puts the adventurer in the middle  of  the 
+party's  fighting ranks where his chances to hit and be  hit  are 
+normal.
+
+Front:  this  option  puts  the adventurer at the  front  of  the 
+party's  ranks where he has the greatest chance to hit or be  hit 
+by melee weapons.
+
+Time Lag:  this utility function defines how long combat messages 
+will  remain  on  screen.  The time lag can  range  from  0  (the 
+fastest) to 9 (the slowest). The sound may also be toggled on and 
+off at this point.
+
+Redo:  the "Woops" option.  This option allows the whole  party's 
+combat  options  to  be reset.  When the  entire  party's  combat 
+options have been assigned, the Redo option will be given again.
+      Thieves,  because  of their stealth and trickery,  have  an 
+advantage in melee; they can thrust, attack, or slash at monsters 
+in any rank, not just the first.
+      After  all of the adventurers' options have been  recorded, 
+this  round of combat begins.  Each figure will act as  his  turn 
+comes  around.  The  effects of the  adventurer's  and  monster's 
+actions  will be displayed in the center-right hand  window.  The 
+effects  on  the character's hit points and body  areas  will  be 
+displayed at the top of the screen.
+      At  the  end  of  every  combat  round  the  monsters  will 
+reorganize.  If they are losing badly,  they may attempt to flee. 
+If  the  fight continues,  the Encounter Menu will  be  displayed 
+again  and an additional round of combat may occur.  Combat  will 
+continue until all the monsters are dead,  the party is dead, the 
+party  accepts  the monsters surrender  successfully,  the  party 
+flees successfully, or the party begs for mercy successfully.
+
+AFTER THE BATTLE
+
+After each battle,  the amount of experience points and gold  the 
+adventurers earned is displayed.  The gold is put into the  party 
+treasury and the experience will be divided among the adventurers 
+when they reach a town.
+      If  the fight took place in the  wilderness,  the  monsters 
+surrendered, or the adventurers make their Spot Item percentages, 
+the  party  might find some treasure (monsters  defeated  in  the 
+wilderness  or who surrendered in the dungeon automatically  give 
+up  all of their treasure).  A general description of  each  item 
+found  is displayed and the party may decide to keep  or  discard 
+the item.  Items can not be used until they are distributed in  a 
+town.  The  party can carry up to 90 items that they  find  while 
+exploring.
+      Some fights occur at night while the party is  asleep.  The 
+party  is  assumed to mount a watch.  If the character  on  watch 
+makes  his Listen percentage,  then he can wake the party  before 
+the monsters attack. Otherwise the sleeping adventurers will have 
+to  wake up during the melee.  A priest or high level ranger  can 
+speed up the process by casting spell 51, Awaken (See Magic).
+
+
+MORTALITY: HIT POINTS AND BODY AREAS
+
+Everything  can  die;  it's a part of the  adventuring  business. 
+Whenever a monster or adventurer sustains damage,  he loses  some 
+of his hit points. When his hit points reach 0 he is dead (though 
+a  high level Priest might bring him back to life with spell  44, 
+Resurrection).
+      The number of hit points an adventurer has is based on  his 
+level,  class,  and constitution.  The hit point chart shows  the 
+number  of  Hit Points an adventurer with a  constitution  of  10 
+would have at any given class and level.
+
+__________________________________________________________________
+Hit Points by Class and Level for Adventurers with 10 Constitution
+
+Level    1  2  3  4  5  6  7  8  9   10  11  12  13  14  15
+
+FIGHTER 10 20 32 44 56 70 82 94 106 120 130 140 150 160 170
+RANGER   8 18 28 40 50 60 72 84  96 110 120 130 140 150 160
+PRIEST   8 12 20 30 40 50 60 70  80  90  98 106 114 122 130
+MONK     8 10 18 22 32 44 54 62  70  80  88  96 104 112 120
+THIEF    6 10 18 22 32 40 48 54  60  70  78  86  94 102 110
+WIZARD   6  8 12 16 22 28 34 38  44  50  56  62  68  74  80
+__________________________________________________________________
+
+                             PAGE 11
+__________________________________________________________________
+
+An  adventurer's hit points can be restored to maximum in  several 
+different ways.  First,  any stay at an Inn in town or an indepen-
+dent  Inn in the wilderness will heal all of an  adventurer's  hit 
+points.  Second,  spells 1-4, Healing 1-4, can be cast by a Priest 
+or  Ranger.  Each spell heals a random number of points  with  the 
+higher  numbered  spells healing many more points than  the  lower 
+numbered versions.  Finally, a Healing Potion (rated from strength 
+1-10) will restore a given number of hit points per dose.  Any  of 
+these methods may be used in combination.
+      Each  character  and monster has  6  Body  Locations:  Head, 
+Torso, Left and Right Arm, and Left and Right Leg. These Locations 
+may be Okay (O),  Injured (I),  Broken (B),  or Gone (G).  In  the 
+wilderness,  the condition of each part of the body is shown in  a 
+stick figure diagram under the character's status.
+      Healing  spells and potions can Heal Body Areas as  well  as 
+Hit Points.  Each healing spell or Potion will heal the most vital 
+area it can.  Each area Gone counts as 1 Broken and 1 Injured area 
+or  3 Injured areas.  Each broken area counts as 2 Injured  areas. 
+The  following  chart  lists the  effects  of  different  strength 
+Healing spells and potions.
+
+HEALING POTION    HEALING SPELL     AREAS INJURED
+
+     1-3               I            1 Injury
+     4-6               II           1 Break or 2 Injuries
+     7-9               III          1 Gone, 1 Break & 1 Injury etc
+     10                IV           More than 1 Gone
+
+
+      Hit Points are used separately from Body Areas.  A character 
+can die from having his Head or Torso removed,  or from enough hit 
+points to an arm to kill him.  It is possible for an adventurer to 
+have  all  of his hit points,  but have a  limb  Gone.  It's  also 
+possible to have no damaged limbs, but be low on hit points. 
+      Staying  at an Inn cures all of an adventurer's hit  points, 
+and will cure 1 Break or 2 Injuries.  A visit to the Inn of a town 
+is still free. A visit to an independent Inn costs 250 Gold.
+      Spells  5-8  (Fireflash)  and  37-40  (Flamebolt)  attack  a 
+specific  body  area.  Spells 33-36 (Mindblast)  only  affect  the 
+monster's hit points.
+      Different  weapons have different chances to  hit  different 
+body  areas.  Bows have the best chance to hit the vital  Head  or 
+Torso  areas.  Spells have an equal chance to hit all body  areas. 
+Hand  held  weapons  have the worst chance to hit  a  vital  area, 
+especially against very tall monsters.  The Aim Blow combat option 
+allows an adventurer with a hand weapon to aim at a vital location 
+at the cost of only taking one blow and a reduced chance to hit. 
+      When  a body area is Broken,  it restricts  an  adventurer's 
+choice of actions.  An adventurer may not fire a bow if any of his 
+Arms  or Legs are Broken.  An adventurer may not cast a  spell  or 
+swing  a weapon if his Right Arm is Broken or Gone.  Parry is  the 
+only combat option for an adventurer with a broken right arm.
+
+MONSTERS
+
+The  land of Scandor is filled with monsters of  all  types.  Most 
+would happily lunch on ground Wizard any day! Each monster has its 
+own   unique  personality  and  set  of   characteristics.   These 
+characteristics include how big a pack the monsters run around in, 
+their attack, damage, defence, armour, hit points, and any special 
+powers and spells the monsters know.  Also, each monster can carry 
+different  amounts  of gold and treasure and  is  worth  different 
+amounts  of  experience.  Finally,  different monsters  will  have 
+different reactions when interacting with adventurers.
+      Beginning  adventurers  should be careful of  very  powerful 
+monsters.  But,  don't worry, there are a number of creatures that 
+your party can take on with a reasonable chance of survival.
+      Monsters  are  the stuff of legend and rumour so  a  Monster 
+Reputation   Table   is  included  to  represent   knowledge   the 
+adventurers  have before the quest.  Of course,  not all  monsters 
+have been mentioned in the legends, and not all rumours are true!
+
+
+                             PAGE 12
+__________________________________________________________________
+
+                     Monster Reputation Table 
+
+MONSTER NAME               FIGHTING SKILL           REPUTATION
+
+Skeleton                      Low                    Bad
+Barbarian                     Med                    Neutral
+Drip Slime                    Med                    Bad
+Giant Bee                     Med                    Bad
+Kobold                        Med                    Neutral
+Lesser Wizard                 Med                    Good
+Orcs  				Med                    Neutral
+Scribe                        Med                    Good
+Sniverling                    Med                    Neutral
+Troll Baby                    Med                    Good
+Any Undead                    High                   Bad
+Baby Dragon                   High                   Good
+Cobra                         High                   Neutral
+Constrictor                   High                   Bad
+Dwarf                         High                   Good
+Ghoul                         High                   Bad
+Goblin                        High                   Bad
+Gremlin                       High                   Neutral
+Illusionist                   High                   Neutral
+Killer Bee                    High                   Neutral
+Panther                       High                   Good
+Priest                        High                   Good
+Ranger                        High                   Neutral
+Small Devil                   High                   Bad
+Sting Beetle                  High                   Neutral
+Viper                         High                   Neutral
+Viper Moth                    High                   Neutral
+Wight                         High                   Bad
+Wild Cat                      High                   Neutral
+Wild Dog                      High                   Neutral
+Zombie                        High                   Bad
+Gnome Mage                    High                   Neutral
+All Beasts                    V High                 Bad
+All Dark Things               V High                 Neutral
+All Dragons                   V High                 Neutral
+All Giants                    V High                 Neutral
+All Lords                     V High                 Neutral
+Asp                           V High                 Neutral
+Death Fly                     V High                 Neutral
+Demon                         V High                 Bad
+Devil                         V High                 Bad
+Forest Elf                    V High                 Neutral
+Giant Wasp                    V High                 Neutral
+Great Troll                   V High                 Neutral
+High Demon                    V High                 Bad
+High Devil                    V High                 Bad
+High Ranger                   V High                 Good
+King Cobra                    V High                 Neutral
+Leopard                       V High                 Neutral
+Spirit                        V High                 Bad
+Vampire                       V High                 Bad
+Wizard                        V High                 Good
+Wolf                          V High                 Neutral
+Wraith                        V High                 Bad
+
+
+The  fighting proficiency ratings relate to low level  adventurers 
+(it  doesn't  actually matter if beginners run into a Demon  or  a 
+High  Demon,  they're chutney either way)!  A beginning party  can 
+take  on  low  and medium (Med) quality  monsters  in  about  even 
+numbers and expect to win.  A party can only expect to win against 
+high proficiency monsters if the party heavily outnumbers them.  A 
+beginning  party should do everything in their power to not  fight 
+the very high (V High) proficiency monsters.  When the adventurers 
+have all gained several levels,  they can come back and try to mop 
+up a gaggle of giants (fat chance)!
+
+MAGIC
+
+Magic is the fertilizer that makes PHANTASIE III bloom.  It is  an 
+important   weapon   against  monsters  and  the  basis   of   the 
+heroes'power in the latter parts of the game.  There are deeds  to 
+be  done  and  battles to be won that can only  be  achieved  with 
+magic.  The proper combination of melee,  bowfire,  and spells  in 
+combat is the basis of success in PHANTASIE III.
+      Every  class  of  adventurers has  some  capacity  to  throw 
+spells.  Spells  can  be thrown in town,  in  the  wilderness,  in 
+dungeons,  and  in combat.  Magic spells are identified  by  their 
+Spell  Number,  Magic Point Cost,  Name,  and Type.  Each time  an 
+adventurer casts a spell,  it costs him between one and four Magic 
+Points depending on the spell.  The adventurer's Magic Points  are 
+restored by resting in an Inn or by drinking a Magic Potion.
+      Each  adventurer gets a number of Magic Points based on  his 
+class and attributes. Whenever an adventurer rests in an Inn after 
+using  Magic  Points,  he  has a chance for his  Magic  Points  to 
+increase.  The  maximum number of Magic Points an  adventurer  can 
+have  depends on his class and level and is given in  the  Maximum 
+Magic Points Chart.
+                             PAGE 13
+__________________________________________________________________
+
+Maximum Magic Points at Different Levels by Class
+
+LEVEL    1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+
+WIZARD  10 11 11 12 13 14 14 15 16 16 17 17 18 19 20
+PRIEST  10 11 12 13 14 15 16 17 18 19 20 20 20 20 20
+RANGER   8  9 10 11 12 13 14 15 16 17 18 18 18 18 19
+MONK    10 10 10 11 11 11 12 12 12 13 13 14 16 18 20
+FIGHTER  7  7  8  8  9  9 10 10 11 12 13 14 15 16 18
+THIEF    6  6  7  7  8  8  9 10 11 12 13 13 14 14 15 
+ 
+All adventurers can eventually learn some spells, but some classes 
+require  a high level before any spells are available.  The  total 
+number of spells an adventurer can learn is limited by his  class, 
+level and intelligence.  Thus, classes that may have many possible 
+spells  but who can only learn a few,  such as Rangers and  Monks, 
+should be very choosy about which spells they learn.
+      Spells  are  divided into a number of  different  categories 
+depending on whether the spells can be used and how they interact. 
+The different types of spells are:
+
+Combat  Spells:  these spells can only be used during  melee  with 
+monsters. They last only for the duration of the combat. There are 
+two types of combat spells:
+    Passive:  these spells always work, and whenever possible they 
+    counter  act  any previously cast spells.  Thus  if  an  enemy 
+    wizard  casts  a Slow spell at the party then a  party  wizard 
+    could override it with a Quickness spell.
+
+    Active:  the  effectiveness of active spells depends upon  the 
+    spellcaster's magic power and experience level as well as  the 
+    strength  of the target.  Active spells may have a  cumulative 
+    effect. A second Fear spell, for example, can cause the victim 
+    to be more afraid than the first spell.  A second Sleep  spell 
+    will not deepen a sleeping target's trance, however.
+
+Non-Combat  Spells:  these spells can be used only out of  combat. 
+There are four types of non-combat spells:
+
+    Town: these spells can only be cast in a town.
+
+    Wilderness: these spells can only be cast in the wilderness.
+
+    Dungeon: these spells can only be cast in the dungeon.
+
+    Everywhere  Spells:  these  spells  can be  cast  anywhere  at 
+    anytime.
+
+The  Spells Available Table lists the spell numbers an  adventurer 
+can  learn  at each level.  The Spell Table lists the  spells  and 
+their details in spell number order.  Finally,  the Spell List  is 
+organized alphabetically and describes each spell in detail.
+
+_____________________________________________________
+   Spells Available at Different Levels by Class
+
+LEVEL     1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+_____________________________________________________
+WIZARD    5 13  6  7 21 25  8 34 11 35 15 36 12 16 47
+          9 41 10 14 54 33 37 45 38 -- 39 48 -- 40 --
+         -- 55 -- -- -- 50 46 51 -- -- -- -- -- -- --
+         -- -- -- -- -- -- 56 -- -- -- -- -- -- -- --
+_____________________________________________________
+PRIEST    1 21  2 25  3 18 23  4  7  8 31 24 32 20 48
+         51 29 17 42 22 30 26 43 19 37 34 27 39 28 --
+         -- -- 49 -- -- -- -- -- 44 -- -- -- -- -- --
+_____________________________________________________
+RANGER    1 17 25  2 29  3 18  4  6 30 26 22 33 37 23
+          5 -- 49 -- 52 -- 51 -- 21 -- 42 -- 44 -- --
+_____________________________________________________
+MONK      5 50  6 45 56  7 13  8 33  9 34 14 35 10 36
+         55 -- 54 -- -- -- 48 -- -- -- -- -- -- -- --
+_____________________________________________________
+FIGHTER  -- -- 52 55 --  9 -- -- 13 56 -- 11 -- -- 15
+_____________________________________________________
+THIEF    -- -- -- 41 -- -- 42 -- -- 18 -- --  8 -- --
+_____________________________________________________
+
+
+                             PAGE 14
+_________________________________________________________________
+ 
+                           SPELL TABLE
+
+SPELL   MAGIC  NAME                     TYPE*
+  #      PTS
+
+  1       1    HEALING 1                  E
+  2       2    HEALING 2                  E
+  3       3    HEALING 3                  E
+  4       4    HEALING 4                  E
+  5       1    FIREFLASH 1               C/A
+  6       2    FIREFLASH 2               C/A
+  7       3    FIREFLASH 3               C/A
+  8       4    FIREFLASH 4               C/A
+  9       1    QUICKNESS 1               C/P
+ 10       2    QUICKNESS 2               C/P
+ 11       3    QUICKNESS 3               C/P
+ 12       4    QUICKNESS 4               C/P
+ 13       1    ARROW FLAME 1             C/P
+ 14       2    PARTY ARROW FLAME 1       C/P
+ 15       3    ARROW FLAME 2             C/P
+ 16       4    PARTY ARROW FLAME 2       C/P
+ 17       1    PROTECTION 1              C/P
+ 18       2    PROTECTION 2              C/P
+ 19       3    PROTECTION 3              C/P
+ 20       4    PROTECTION 4              C/P
+ 21       1    CONFUSION 1               C/A
+ 22       2    CONFUSION 2               C/A
+ 23       3    CONFUSION 3               C/A
+ 24       4    CONFUSION 4               C/A
+ 25       1    WEAKNESS 1                C/A
+ 26       2    WEAKNESS 2                C/A
+ 27       3    WEAKNESS 3                C/A
+ 28       4    WEAKNESS 4                C/A
+ 29       1    BINDING 1                 C/A
+ 30       2    BINDING 2                 C/A
+ 31       3    BINDING 3                 C/A
+ 32       4    BINDING 4                 C/A
+ 33       1    MINDBLAST 1               C/A
+ 34       2    MINDBLAST 2               C/A
+ 35       3    MINDBLAST 3               C/A
+ 36       4    MINDBLAST 4               C/A
+ 37       1    FLAMEBOLT 1               C/A
+ 38       2    FLAMEBOLT 2               C/A
+ 39       3    FLAMEBOLT 3               C/A
+ 40       4    FLAMEBOLT 4               C/A
+ 41       1    CHARM                     C/A
+ 42       2    SLEEP                     C/A
+ 43       3    TELEPORTATION             C/A
+ 44       4    RESURRECTION               E
+ 45       1    NINJA 2                   C/P
+ 46       2    FEAR                      C/A
+ 47       3    DISSOLVE                  C/A
+ 48       4    SUMMON ELEMENTAL          C/P
+ 49       1    DISPEL UNDEAD             C/A
+ 50       2    NINJA 1                   C/P
+ 51       3    AWAKEN                    C/A
+ 52       4    MONSTER EVALUATION        N/WD
+ 54       2    TRANSPORTATION            N/T
+ 55       3    ACCURACY                  C/P
+ 56       4    PARTY ACCURACY            C/P
+
+
+* SPELL TYPES INCLUDE:  E = EVERYWHERE, W = WILDERNESS, D=DUNGEON, 
+T  =  TOWN,  C  =  COMBAT,  N =  NON-COMBAT,  P  =  PASSIVE  (NON-
+CUMULATIVE), A = ACTIVE (CUMULATIVE).
+
+
+SPELL LIST
+
+Accuracy  and  Party Accuracy (#55,56):  these  spells  raise  one 
+adventurer's, or the whole party's Fire Bow percentage to 250.
+
+Arrow Flame and Party Arrow Flame (#13-16):  these spells increase 
+the  accuracy and damage of bow fire for one  adventurer,  or  the 
+whole party.  Arrow Flame 1 increases accuracy by +50 percent  and 
+Bow Point Values by +15.  Arrow Flame 2 increases accuracy by +100 
+percent and Bow Point values by +25.
+
+Awaken  (#51):  this  spell  rouses all  sleeping  adventurers  or 
+neutralizes a sleep spell.
+
+Binding (#29-32):  these spells inhibit the movement of  monsters, 
+making  them easier to hit.  The spells are progressive so that  a 
+Binding  3  is stronger than a Binding 1 and Binding  2  combined. 
+Binding spells are particularly effective against flying creatures 
+and monsters that are difficult to see.
+
+Charm  (#41):  this  spell makes monsters so  friendly  that  they 
+forget that they are in combat, until they are attacked.
+
+Confusion (#21-24): these spells make it difficult for monsters to 
+use their magic.  The spells are progressive so that a Confusion 3 
+is stronger than a Confusion 1 and a Confusion 2 combined.
+
+Dispel Undead (#49): this spell causes skeletons, zombies, ghosts, 
+and other creatures back from the dead to flee or simply dissolve.
+
+Dissolve (#47): this spell causes monsters to simply dissolve away 
+to nothing.
+
+Fear  (#46):  this spell frightens monsters into running  away  in 
+terror.
+
+
+                             PAGE 15 
+__________________________________________________________________
+
+Fireflash  (#5-8):these  spells  shoot a blast  of  flame  at  one 
+monster.  The  spell causes the following damage according to  the 
+level of the spell:
+
+Fireflash 1    1-10 points of damage
+Fireflash 2    1-30 points of damage
+Fireflash 3    1-60 points of damage
+Fireflash 4    1-100 points of damage
+
+Flamebolt  (#37-40):  these  spells shoot a sheet  of  flame  that 
+attacks every monster in the combat.  The attack is reduced by the 
+monster's armor,  however.  The spell causes the following  damage 
+according to the level of the spell:
+
+Flamebolt 1    1-7 points of damage
+Flamebolt 2    1-15 points of damage
+Flamebolt 3    1-31 points of damage
+Flamebolt 4    1-66 points of damage
+
+Healing  (#1-4):  this  spell restores hit points and  cures  Body 
+areas  for one adventurer.  The spell restores the hit points  and 
+cures body areas according to the level of the spell:
+
+Healing 1      1-9 hit points       Cure 1 injury
+Healing 2      1-27 hit points      Cure 1 break or 2 injuries
+Healing 3      1-57 hit points      Cure 1 gone, 1 Break & Injury 
+Healing 4      1-99 hit points      Cure more than 1 Gone
+
+Mindblast  (#33-36):  this  spell transmits a  powerful  blast  of 
+psychic  energy at the monsters.  The spell causes  the  following 
+damage according to the level of the spell:
+
+Mindblast 1    1-5 points of damage
+Mindblast 2    1-11 points of damage
+Mindblast 3    1-41 points of damage
+Mindblast 4    1-81 points of damage
+
+Monster  Evaluation (#52):  this spell determines the  approximate 
+experience  level  of nearby monsters.  Although  it  occasionally 
+yields  inaccurate results,  it is a good idea to cast this  spell 
+immediately  upon  entering  a dungeon  and  occasionally  in  the 
+wilderness.
+
+Ninja  (#45 & 50):  this spell transforms the spellcaster  into  a 
+fighter  of super-human ability.  The spell gives the caster  high 
+attack,  defense,  and  damage abilities regardless of his  actual 
+armor  or weapons.  Ninja 2 is more powerful than  Ninja  1,  even 
+though Ninja 1 costs more magic points.
+
+Protection  (#17-20):  this spell increases the  effectiveness  of 
+each party member's armor.  The amount of additional armor depends 
+on the level of the spell:
+
+Protection 1   +1 point of armor
+Protection 2   +3 points of armor
+Protection 3   +6 points of armor
+Protection 4   +10 points of armor
+
+Quickness (#9-12):  this spell makes the party members move faster 
+so  that  they can swing more times during an  attack.  The  speed 
+increase depends on the level of the spell:
+
+Quickness 1    +10% speed increase
+Quickness 2    +25% speed increase
+Quickness 3    +45% speed increase
+Quickness 4    +70% speed increase
+
+Resurrection  (#44):  this spell attempts to raise  an  adventurer 
+from  the  dead.  The shock of dying will  permanently  lower  the 
+victim's Constitution one or two points, however.
+
+Sleep (#42): this spell causes opponents to fall into a daze where 
+they cannot attack, parry, or cast spells.
+
+Summon  Elemental (#48):  this spell summons up an elemental  that 
+the party has previously loaded in at a guild.  The elementals are 
+listed  on the guild roster and one of them must be loaded in at a 
+guild before he can be summoned in combat.
+
+Teleportation (#43):  this spell will teleport the party out of  a 
+combat.
+
+Transportation (#54):  this spell will transport the party  inter-
+dimensionally from one town to another.
+
+Weakness  (#25-28):  these spells cause monsters to lose  strength 
+and  so  do less damage when they hit adventurers.  The  spell  is 
+progressive  so that Weakness 3 is more powerful  than Weakness  1 
+and Weakness 2.
+
+Divine Spells (#57+): these spells may only be acquired during the 
+course of the game for special purposes.
+
+__________________________________________________________________
+                            PAGE 16 
+
+TREASURE
+
+Treasure is one of the great rewards for the hearty adventurer  in 
+PHANTASIE III. Treasures such as magic weapons, precious gems, and 
+ancient  scrolls  with  clues to Scandor's plight  abound  in  the 
+wilderness  and dungeons.  Unfortunately,  the party will have  to 
+fight  for treasure,  as almost all of these items are guarded  by 
+monsters.  There  are  four types of treasure  in  PHANTASIE  III: 
+Combat Equipment,  Potions,  Scrolls,  and Other  Valuables.  Some 
+items will help the adventurers on their quest.  Other items  will 
+be  sold at Armories in towns for gold.  Each type of treasure  is 
+its own reward.
+
+COMBAT EQUIPMENT
+
+Combat equipment in PHANTASIE III  includes shields,  armor, melee 
+weapons,  and bows. Each item has a set of attribute requirements, 
+normally based on Strength.  Only adventurers with high attributes 
+can  use heavy equipment.  Note that magical equipment  has  lower 
+attribute requirements than normal equipment of equal point value. 
+Each type of equipment is listed with its item number,  its  point 
+value, its attribute requirements, and its name.
+
+__________________________________________________________________
+                      Shields               
+
+Item   Point   Strength     Type
+ #     Value   Required
+
+  1      1        1         Glove
+  2      2        2         Wooden Shield
+  3      3        3         Wooden Shield +1
+  4      4        4         Small Shield
+  5      5        5         Small Shield +1
+  6      6        6         Small Shield +2
+  7      7        7         Small Shield +3
+  8      8        8         Medium Shield
+  9      9        9         Medium Shield +1
+ 10     10       10         Medium Shield +2
+ 11     11       11         Medium Shield +3
+ 12     12       12         Large Shield
+ 13     13       13         Large Shield +1
+ 14     14       14         Large Shield +2
+ 15     15       15         Large Shield +3
+ 16     16       16         Giant Shield
+ 17     17       17         Giant Shield +1
+ 18     18       18         Giant Shield +2
+ 19     19       19         Giant Shield +3
+ 20     20       20         God Shield (Magic)
+__________________________________________________________________
+                             Armor  
+
+Item  Point    Strength     Type
+  #   Value    Required     
+
+ 21      1        2         Clothing
+ 22      2        4         Robes
+ 23      3        6         Leather
+ 24      4        8         Hard Leather
+ 25      5       10         Ring Mail
+ 26      6       12         Scale Mail
+ 27      7       14         Chain Mail
+ 28      8       16         Splint Mail
+ 29      9       18         Banded Mail
+ 30     10       20         Plate Mail
+ 31      2        0         Cloth +1
+ 32      3        0         Robes +1
+ 33      4        2         Leather +1
+ 34      5        4         Leather +2
+ 35      6        6         Ring Mail +1
+ 36      7        8         Ring Mail +2
+ 37      8       10         Chain Mail +1
+ 38      9       12         Chain Mail +2
+ 39     10       14         God Robes (Magic)
+ 40     11       16         God Armor (Magic)
+___________________________________________________________________
+                            Bows     
+
+ 41      1        0         Self Bow
+ 42      2        2         Self Bow +1
+ 43      3        4         Self Bow +2
+ 44      4        6         Short Bow
+ 45      5        8         Short Bow +1
+ 46      6       10         Short Bow +2
+ 47      7       12         Medium Bow
+ 48      8       14         Medium Bow +1
+ 49      9       16         Medium Bow +2
+ 50     10       18         Compound Bow
+ 51     11       20         Compound Bow +1
+ 52     12       22         Compound Bow +2
+ 53     13       24         Gnome Bow
+ 54     14       26         Long Bow
+ 55     15       28         Long Bow +1
+ 56     16       30         Long Bow +2
+ 57     17       32         Crossbow
+ 58     18       34         Old Bow
+ 59     19       36         Crossbow +2
+ 60     20       38         God Bow
+
+
+*Attributes required is based on Strength + Dexterity.
+
+_________________________________________________________________
+                             PAGE 17
+
+
+                          Melee Weapons          
+
+ 61      1        3         Knife
+ 62      2        6         Dagger
+ 63      3        9         Club
+ 64      4       12         Mace
+ 65      4       15         Small Axe
+ 66      5       18         Staff
+ 67      6       21         Short Sword
+ 68      6       24         Flail
+ 69      7       27         Hammer
+ 70      8       30         Spear
+ 71      9       33         Axe
+ 72      9       36         Sword
+ 73     10       39         Heavy Mace
+ 74     11       42         Trident
+ 75     12       45         Large Spear
+ 76     12       48         Large Axe
+ 77     13       51         Pike
+ 78     14       54         Long Sword
+ 79     15       57         Bardiche
+ 80     15       60         Halbred
+ 81      2        3         Knife +1
+ 82      3        6         Knife +2
+ 83      4        9         Club +1
+ 84      5       12         Club +2
+ 85      7       15         Flail +1
+ 86      8       18         Flail +2
+ 87      9       21         Spear +1
+ 88     10       24         Sword +1
+ 89     11       27         Sword +2
+ 90     13       30         Sword +4
+ 91     14       33         Sword +5
+ 92     15       36         Sword +6
+ 93     16       39         Halbred +1
+ 94     17       42         Halbred +2
+ 95     19       45         Sword +10
+ 96     20       48         Halbred +5
+ 97     21       51         Halbred +6
+ 98     22       54         God Knife (Magic)
+ 99     23       57         God Mace (Magic)
+100     25       60         God Sword (Magic)
+
+*Attributes required is based on 2 x Strength + Dexterity.
+
+POTIONS
+
+Potions  are magic concoctions that adventurers drink  to  restore 
+hit points,  damaged body areas,  or spent magic points. There are 
+two different kinds of potions: Healing Potions & Magic Potions.
+
+Healing Potions (#101-110): these potions will restore a number of 
+hit  points  to an adventurer and help heal  damaged  body  areas. 
+Healing  Potions come in ten different strengths;  the higher  the 
+level the greater the power of the healing:
+
+Healing 1        1 pt. healed       1 injury healed
+Healing 2        4 pts. healed      1 injury healed
+Healing 3        9 pts. healed      1 injury healed
+Healing 4        16 pts. healed     1 break or 2 injuries healed
+Healing 5        25 pts. healed     1 break or 2 injuries healed
+Healing 6        36 pts. healed     1 break or 2 injuries healed
+Healing 7        49 pts. healed     1 gone, 1 break & injury, etc.
+Healing 8        64 pts. healed     1 gone, 1 break & injury, etc.
+Healing 9        81 pts. healed     1 gone, 1 break & injury, etc.
+Healing 10       100 pts. healed    More than 1 gone healed
+
+Magic  Potions  (#111-120):  these potions will  restore  a  spell 
+caster's magic points.  They also come in ten different strengths; 
+the  higher  the  level the greater the  number  of  magic  points 
+restored.
+
+Magic 1          3 pts. restored
+Magic 2          6 pts. restored
+Magic 3          9 pts. restored
+Magic 4         12 pts. restored
+Magic 5         15 pts. restored
+Magic 6         18 pts. restored
+Magic 7         21 pts. restored
+Magic 8         24 pts. restored
+Magic 9         27 pts. restored
+Magic 10        30 pts. restored
+
+SCROLLS
+
+A number of people have recorded important information on  scrolls 
+that  are scattered throughout Scandor.  Some of the  scrolls  are 
+available  at  Armories in towns;  others are closely  guarded  by 
+monsters.  All together these scrolls hold many of the secrets  of 
+the  enemy and how he may be defeated.  Remember that  adventurers 
+may only read scrolls by using the Use Item command in a city.
+
+OTHER VALUABLES
+
+Many other valuable treasures exist in the PHANTASIE III universe. 
+These  treasures include gems,  objects d'art,  and  one-of-a-kind 
+masterpieces.
+
+__________________________________________________________________
+                             PAGE 18
+
+
+APPENDIX I: QUICK START
+
+For  those that want to jump right in and "Test  Drive"  PHANTASIE 
+III you can use these quick start instructions.
+
+1)  Before you can begin play you must create 2  disks:  a  Player 
+disk and a Dungeon disk.  Check the machine specific  instructions 
+for  your  computer for information on creating  the  disks.  (Use 
+Utilities Menu from PHANTASIE III game to create disks)
+
+2) After you have made the disks,  get back to the Starting  Menu. 
+Choose "Start in Pendragon" to begin the game.
+
+3)  Once in the town go to the Guild to get adventurers to form  a 
+party.  In  the Guild the List Members command will show  you  six 
+adventurers that are already in the guild.  These adventurers  are 
+beginning  characters,  but  are already  pre-generated  and  pre-
+equipped. They also form a reasonably balanced party to start. Hit 
+the  space bar to return to the Guild Menu.  Use the  Add  Members 
+command to add the Adventurers from the Guild to your  party.  Now 
+exit the Guild.
+
+4)  Go to the bank and withdraw about 500 gold to  cover  expenses 
+while you travel. Exit the bank.
+
+5) Next go to the Armory.  Choose a character to be the buyer  and 
+then List the items available. Continue the list until the scrolls 
+appear.  Buy a couple of scrolls.  Exit the Armory. Choose the Use 
+Item command and the character who bought the scrolls. Then choose 
+the scrolls from the list.  The information on the scrolls  should 
+give  you an idea on what is going on in Scandor and a clue as  to 
+where  you  might  want to go.  You are now ready  to  begin  your 
+adventure. Leave the town and good luck.
+
+HOW TO ANSWER QUESTIONS
+
+Many  questions in the game have a menu of different  options.  If 
+the menu is numbered,  then input the number to make your  choice. 
+If  the names on the menu include a ")" then input the  letter  to 
+the left of the bracket to make your choice.  If a question  gives 
+you a choice such as "Disarm or Leave" then input the first letter 
+of your choice. Many questions want a Yes or No answer; simply hit 
+"Y" or "N" to make a choice.  If a screen does not ask a question, 
+but leaves a blinking cursor, hit RETURN to continue.
+   Whenever you refer to an adventurer outside of the Guild lists, 
+you use the adventurer's number in the party.  So,  after you  say 
+you want to disarm the trap you will specify the adventurer  (1-6) 
+that attempts the disarm.
+   When you are outside a town you can you can move four different 
+directions on the map. Use the mouse to select.
+    This should be enough to get you started into the  world  with 
+the  sample  party.  When  you  run into  a  situation  you  don't 
+understand look up the rule covering that specific situation. When 
+you feel you understand the game and how it works you can go back, 
+make up your own party, and go for the gusto.
+
+
+APPENDIX II: DIFFERENCES BETWEEN PHANTASIE III & PHANTASIE I & II 
+
+Players who have already gone through PHANTASIE I or PHANTASIE  II 
+will recognize most of the rules for PHANTASIE III.  But,  several 
+new rules have been added to PHANTASIE III,  including an expanded 
+combat system, additional spells, and revised screen layouts. What 
+follows is a summary of these changes.
+
+Going  Up  Levels:  each time a character goes up a level  he  can 
+receive  training in three skills.  A chart lists the  character's 
+current  level in each skill,  and the effect of training in  that 
+skill.  The  character  will also receive an amount of  Gold  that 
+depends on his social class.
+
+Social  Class:   each  character  has  a  social  class:  Peasant, 
+Labourer, Craftsman, or Noble. Humans, Elves, Dwarves, Gnomes, and 
+Halflings tend to be of the higher classes.  Social Class  affects 
+starting money and money received for advancing a level.
+
+Trading:  while in town adventurers may trade items without having 
+to redistribute them using the Trading option.
+
+Bows:  bows  have  replaced  thrown rocks as  every  man's  ranged 
+weapon.  It is easier to hit an opponent with a bow,  and Armor is 
+less effective vs.  them. Thieves get a free +30 to their Fire Bow 
+Skill, Elves receive a +15 to Fire Bow Skill.
+
+Body Locations:  each character and monster has 6 Body  Locations: 
+Head,  Torso,  Left and Right Arm,  and Left and Right Leg.  These 
+locations may be Okay (O),  Injured (I),  Broken (B), or Gone (G). 
+In the Wilderness the condition of each part of the body is  shown 
+in a stick figure diagram under the character's status.
+
+Healing: healing spells and potions can Heal Body Areas as well as 
+Hit Points.  Each Healing Spell or Potion will heal the most vital 
+area it can.  Each area Gone counts as 1 Broken and 1 Injured area 
+or  3 Injured areas.  Each Broken area counts as 2 Injured  areas. 
+The  following  chart  lists the  effects  of  different  strength 
+Healing spells and potions.
+
+Healing   Healing   Areas Healed
+ Potion    Spell 
+
+  1-3        I      1 Injury
+  4-6        II     1 Break or 2 Injuries
+  7-9        III    1 Gone, 1 Break & 1 Injury, etc.
+   10        IV     More than 1 Gone
+
+Hit  points are used separately from Body Areas.  A character  can 
+die  from  having his Head or Torso removed,  or from  enough  hit 
+points to an arm to kill him.  It is possible for an adventurer to 
+have  all  of his Hit Points,  but have a  limb  Gone.  It's  also 
+possible to have no damaged limbs, but be low on Hit Points.
+   Staying at an Inn cures all of an adventurer's Hit Points,  and 
+will cure 1 Break or 2 Injuries.  A visit to the Inn of a town  is 
+still free. A visit to an independant Inn costs 250 Gold.
+    Spells 5-8 (Fireflash) and 37-40 (Flamebolt) attack a specific 
+Body Area.  Spells 33-36 (Mindblast) only affect the monster's Hit 
+Points.
+   Different weapons have different chances to hit different  Body 
+Areas.  Bows  have the best chance to hit the vital Head or  Torso 
+Areas.  Spells  have an equal chance to hit all Body  Areas.  Hand 
+Held weapons have the worst chance to hit a vital area, especially 
+against  very tall monsters.  The Aim Bow combat option allows  an 
+adventurer  with a hand weapon to aim at a vital location  at  the 
+cost of only taking one blow and a reduced chance to hit.
+   When a body area is Broken, it restricts an adventurer's choice 
+of actions. An adventurer may not fire a bow if any of his Arms or 
+Legs  are Broken.  An adventurer may not cast a spell or  swing  a 
+weapon  if  his Right Arm is Broken or Gone.  Parry  is  the  only 
+combat option for an adventurer with a Broken Right Arm.
+
+Monster  Status:  during combat three things will be listed  about 
+enemy monsters:  their Rank,  their Name,  and their  Status.  The 
+Status of a monster can be:  Unconscious (U),  Sleeping (S),  Down 
+(D),  and Okay (K). As an example 3 Gnomes in the 2nd rank who are 
+Sleeping, Unconscious, and Down would be listed as:
+        2       Gnome(S)    S U D
+
+Sleeping adventurers and monsters are automatically hit in combat. 
+Down  adventurers  and monsters are much easier to hit  than  Okay 
+targets, but can still dodge.
+
+Adventurer  Positions in Combat:  during combat an adventurer  can 
+assume  one of three  positions:  Back,  Middle,  or  Foreward.  A 
+character who is Foreward has an increased chance to hit with hand 
+weapons,  but an even greater chance to be hit by the monsters.  A 
+character who is Back is harder for the monsters to hit,  but  has 
+an even harder time hitting the monsters with a hand weapon.
+    An adventurer's position has no effect on his chances  to  hit 
+with  a  bow.  An adventurer's combat modifiers for  position  are 
+calculated  relative  to  the rest of the party.  If  all  of  the 
+adventurers  are  Back,  then  none of them  get  any  bonuses  or 
+penalties.
+
+Mapping:  Scandor is divided into a 5x5 area referenced by a  grid 
+labeled  A  -  E West to East and I to V  North  to  South.  Other 
+planes,  dimensions,  have their own labels. All areas are already 
+mapped so spell 53 (Vision) is unnecessary.
+
+
+APPENDIX III: TIPS & HINTS
+
+Playing PHANTASIE III is a big job;  there are hundreds of details 
+to keep track of. This section includes a few hints on "good" ways 
+to handle some of those details. You'll have to experiment to find 
+your own personal "best" solution to the game.
+
+FORMING A PARTY
+
+The  right  combination  of  adventurers is  half  the  battle  in 
+PHANTASIE III.  When you choose an adventurer's race and class you 
+define  the  chance  of getting  particular  attributes,  not  the 
+attributes   themselves.   High  attributes  make  surviving   and 
+advancing levels much easier.
+
+Strength:  fighting types need every point they can get. Often the 
+only advantage of random creatures is a chance for high STR. Don't 
+take a random creature though unless its other Attributes are okay 
+too.
+
+Intelligence: all spellcasters need INT; limited spellcasters like 
+Monks  and Rangers need every point they can get.  Limited  spell-
+casters  receive very few Spells Available,  they shouldn't  waste 
+them on middle level junk like FIREFLASH 2 or HEALING 2 when  very 
+powerful 3 and 4 point spells are just a couple of levels away.
+
+Dexterity:  great  for everyone but especially for low  Hit  Point 
+types like Thieves and Wizards. Try high DEX wizards with no armor 
+in the back rank. They are very difficult for the enemy to hit.
+
+Constitution:  again everybody needs CON,  but low Hit Point types 
+need it the most. Don't get seduced by a high INT and a low CON.
+
+Charisma:   random  creatures  with  very  low  Charisma  can  get 
+prohibitively expensive to train;  watch out! High CHA is a secret 
+advantage of Humans, Elves, and Wizards.
+
+   The next thing you have to worry about is equipping the  party. 
+You  always  want  the biggest weapons  your  fighting  types  can 
+handle.  Grab any bow of 4 points or better for Thieves and  Monks 
+who  are out of magic points.  Buy the heaviest armor you can  get 
+for  fighters  in the front ranks,  none for Wizards in  the  back 
+ranks.
+
+__________________________________________________________________
+                             PAGE 24
+
+Buy all the low point healing potions you can find. After a couple 
+of  levels you'll need all the medium power Magic Potions you  can 
+grab.  Magic Weapons are normally too expensive to buy;  find them 
+instead.  Finally,  buy,  read, and keep track of every scroll you 
+can  get  your hands on;  they're the key to the whole  puzzle  in 
+Scandor.
+
+FIGHTING
+
+Your party will be doing lots of fighting in PHANTASIE III, so you 
+had  better find good strategies from the start.  There are  three 
+things   to  worry  about  when  fighting:   Encounter   Strategy, 
+Adventurer Position, and Melee Tactics.
+    At  the Encounter Menu you have to figure out  your  Encounter 
+Strategy.  Use the Monster Reputation Table to decide if you  want 
+to  fight  or  not.  Trying to greet  possibly  friendly  monsters 
+doesn't cost you anything, even if they decide to fight. Don't try 
+to Accept Surrender right away,  it only works after you've killed 
+a percentage of the enemy.  And don't be afraid to Beg for  Mercy, 
+especially if you're not currently carrying much gold.  The  party 
+should  only try to flee if it is out-matched and  heavily  loaded 
+with gold and goodies. 
+   Remember,  if you flee and fail the monsters get free shots  at 
+your characters.  If you're going to fight, then you need to worry 
+about  everyone's  position.  Fighters  should be  placed  in  the 
+foreward  rank  where they have the highest  chance  of  striking. 
+Spell casters and bowmen can be in the back rank,  where they  are 
+less likely to be hit. Note that the ranks are relative positions. 
+If  everyone  occupies  the  back rank,  then  no  one  gains  any 
+protection.
+    When battle starts,  each adventurer has a choice of  tactics. 
+Fighters  can  choose  between 1  and  3  swings.  Against  normal 
+monsters take as many swings as you can.  Against flying  monsters 
+or  ones that are hard to see take only a few.  Thieves with  good 
+bows (4+ points) can do as much damage as they can in melee;  keep 
+them in the back rank with the Wizards.  Wizards should be careful 
+not to overkill the enemy and waste Magic Points;  sometimes  it's 
+best to parry and let the Fighters take care of a few monsters.
+
+THE QUEST
+
+No  matter where the party goes on its quest it always comes  back 
+to its base, Pendragon. Begin by going into the Pendragon Archives 
+just south of the town.  Work your way through the archives  until 
+you find the wise man Filmon.  He will direct you on how to  begin 
+your quest.  After each adventure go back and consult Filmon again 
+for directions to the next part of the quest.
+    While  you're  on your quest be careful  about  exploring  the 
+dungeons you find. Be ready to retreat if your party gets too beat 
+up,  but  explore  enough  so that you're  sure  you  didn't  miss 
+anything.  Try to go through the adventure in something resembling 
+the  proper  sequence;  if you try to take low  level  adventurers 
+through some of the later dungeons they'll get eaten alive!
+   Finally,  don't take the program too literally.  A limb  that's 
+"Gone"  is probably just so broken that normal rest won't fix  it. 
+Monsters that are "Unconscious" are just so groggy that they can't 
+fight.  PHANTASIE III is packed with flavorful details; enjoy them 
+for the color they add and don't pick too many nits. And remember: 
+The  race  is  not  always to the swift,  or  the  battle  to  the 
+strong...but God fights on the side with the most artillery!  Good 
+luck!
