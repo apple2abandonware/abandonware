@@ -1,0 +1,691 @@
+Andromeda Conquest Manual
+=========================
+
+Andromeda Conquest is Avalon Hill's Trademark Name For Its Computer Game
+of Galactic Colonizing and Conquest
+
+For TRS80, Level II 16K Casette, 32K Disk
+    PET, 16K Cassette
+    Apple II, Applesoft BASIC, 16K BASIC (Cassette): 48K Disk
+    Atari 400 or 800, 32K; 40K Disk
+    IBM Personal Computer, 48K Disk with BASICA
+---------------------------------------------------------------------------
+
+INTRODUCTION
+------------
+ANDROMEDA CONQUEST is a game in which 1 to 4 players compete to form
+galactic empires.  These empires are formed by establishing new colonies
+in far flung star systems and then defending them.  The first player to
+hold len systems for an entire turn wins.
+
+The game is played on a vast scale.  The galaxy itself is made up of 12 to
+48 (depending on the number of players) star systems.  Each star system has
+unique attributes, such as strange life forms and often technologies, that
+make interstellar exploration exciting.
+
+As emperor of your respective species, you will have to consider your
+resources.  Each player begins the game with a home planet and ten resource
+points.  As the game progresses, players accumulate more resources from
+their colonize.  More resources mean faster expansion is possible and defense
+is easier.
+
+Encounters with other players are always a problem, especially if a star
+system is desired by two or more empires.
+
+
+SCENARIO
+--------
+Two events occur simultaneously which put you in charge of your species
+destiny; the development of a faster than light star drive and your rise
+to emperor of your star system.  It is now for you to decide how to expand
+and protect your empire.  Types of starships to build, destinations of ships,
+and diplomatic relations with other empires are all problems that the
+emperor must decide.
+
+As you expand, some star systems will have inhabitants that must be
+conquered before colonization can take place, while others will be
+uninhabited.
+
+COORDINATES
+-----------
+In order to find your location, the galaxy is divided into coordinates.
+Coordinate numbering starts in the upper left corner of the galaxy with 0,
+A flett of the upper left corner of the galaxy would be at X and Y coordinate
+of 0,0.  As a fleet moves from left to right across the screen, its "X"
+coordinate will become greater.  Similarly, as a fleet moves from the top of
+the screen towards the bottom, its "Y" coordinate increases.
+
+HOME SYSTEMS
+------------
+At the beginning of the game each player is given a star system to call his
+own.  This is done of random so it is possible for two players to have home
+systems adjacent to each other or to be separated by the entire galaxy.
+
+Each home system is given ten resource points and all players have a
+technology of 6 and pliability index of 5 (see below).
+
+STARSHIP TYPES
+--------------
+There are three types of starhips; NOVA, ECHO, and RAMA.  Each has unique
+qualities.
+
+   NOVA ships are large star cruisers that are fast and have a lot of
+offensive power (war power).  Nova ships have the ability to destroy star
+systems.  When a system's defenses are reduced to zero or below and you have
+a Nova ship of that system, the computer will give you the option to
+obliterate that system.
+
+   ECHO ships are large colonization vessels that are slow and have no war
+power at all.  They are completely defenseless by themselves.  Expensive, but
+not as expensive as Nova ships.
+
+   RAMA ships are small military or escort vessels.  They can travel very fast
+and have a small amount of war power.  They are very cheap to build and
+therefore will probably form the backbone of most space navies.
+
+LIFE-FORMS
+----------
+Each player is given the opportunity to choose his own life form.  No life
+form has an advantage over others.  Player life forms are used to identity
+players and their colonial possessions.  As the player expands into the
+galaxy he will encounter other life forms, some belonging to other players
+and some neutral.
+
+SYSTEMS
+-------
+Star Systems have certain attributes that the player should be acquainted with.
+
+   System I.D.: A number to the right of the system that identities it.
+   Type: Refers to the magnitude of the star.  Types range from zero (Blue
+         Giant) to Nine (White Dwarf).  The closet a star type is to the type
+         of your home star, the easier it will be to colonize that system.
+         This also means that a system will have a different colonization cost
+         for each player.
+
+   Life: The life form that inhabits the system.  This will change if the
+         system is colonized.
+   Technology: The technology level of the inhabitants.  This value ranges
+               from zero to nine.  All players have a technology of six and
+               can conquer life forms with technologies up to seven.  Systems
+               with technologies of eight of nine are unconquerable.
+   Pliability: An index that shows how much the inhabitants can be pushed
+               around.  A low value indicates sissys.  A high value indicates
+               John Wayne cultures.
+   Defenses: The sum of the technology and pliability index for that systems.
+             If this value falls below one the system is open to colonization
+             or destruction.
+   Resources: The number of resources that the system will be worth if
+              colonized.
+   Colony Cost: The cost to create a colony in the system.
+
+
+THE GAME TURN
+-------------
+
+1. Allocation of Resources
+   The player receives resources from all his star systems including his
+home system.  Resources are not transterable to other turns; any unused
+resources from the turn are lost.
+
+   The first choice a player must make is whether to establish a colony
+(see establishing a colony).  If the player answers YES to the "ESTABLISH A
+COLONY?" prompt, the computer will produce a readout titled "ECHO REPORTS".
+This report is a summary of all star systems that have at least one of your
+Echo ships in it.  Information provided by the Echo Report for each star
+system will include the systems I.D. number, number of resources, and the cost
+in resources it will require to colonize it.  The computer will then ask
+"WHAT SYSTEM?".  Enter the I.D. number of the system that you want to colonize.
+If you don't want it, can't afford it, enter a 0 to continue your turn with
+no loss of resources.  It is only possible to establish one colony per turn.
+
+   Next you must allocate the remainder of your resources for ships and
+defenses.  If you try to use more resources than you have, the computer will
+start the allocation procedure over again.  Note it is only possible to add
+defenses to one system per turn.
+
+
+2. FORMATION OF SPACE FLEETS
+   The player must now form fleets with ships he has built with his resources
+(if no ships were built, this part of the turn will not appear).  Fleets can
+be launched from home or any colonized system.  You can form any number of
+fleets from available ships, but the total number of fleets for your empire
+can never exceed nine.  If you try to create more than nine fleets, you will
+lose all the ships not yet assigned to fleets.
+
+3. FLEET COMMANDS
+   This is the main part of the players turn.  It is entered with the question
+"FLEET CONTROL WHAT FLEET ?".  Enter the number (TRS-80: letter) of the fleet
+you wish to command.  If you have no fleets, enter any number (TRS-80: letter)
+and your turn will end.
+
+   There are eight Fleet Commands that the player may select from:
+
+   1. Tactical - A tactical display from the fleet you are currently commanding
+                 showing stars, colonies, your fleets (displayed as their I.D.
+                 number or letters), and alien fleets (displayed as an # on the
+                 TRS-80, Atari and PET, an A on the Apple and an IoI on the
+                 IBM).  Empire colonies are represented by an asterisk with
+                 the I.D. number to the right of it.  See next page for example
+                 of tactical display.
+
+
+
+      EXAMPLE OF TACTICAL DISPLAY
+      ---------------------------
+
+                                          :
+        Friendly Star Systems ------> *27 :     6 <----+------ Friendly
+                |                \        : /----------+       Fleets
+                |         : : : : *5: : : 3 : : : A : : : :
+                +-------------> *48       :        \
+                                          :         \
+                                          :     A -------  Aliens
+
+
+   2. Strategic - A view of the entire galaxy.  Your colonies are shown with
+                  their I.D. numbers to the right of the star as in the
+                  Tactical mode.  Empire fleets are numbered (lettered on the
+                  TRS-80) as in the tactical display.  No alien systems or
+                  fleets are shown.  This display is very helpful in deciding
+                  strategy.
+
+   3. Attack - Command used to attack system defenses or alien fleets.  See
+               COMBAT for more details.
+
+   4. Probe - If your fleet is in orbit around a star system or at the same
+              position as an alien fleet this command will produce a readout
+              giving information on the system or alien fleet.  If you fleet
+              does not meet appropriate requirements for a probe, the
+              computer will respond with "PROBE NEGATIVE."
+
+   5. Navigation - Command used to move your fleet to a new location.  The
+                   computer will give you a navigational display showing the
+                   magnitudes (types) of the stars in the fleet's vicinity as
+                   well as locations of friendly and alien fleets.  The
+                   navigation display is useful in choosing stars with
+                   magnitudes approximating that of your home star.  Stars
+                   with magnitudes close to your native star will require
+                   less resources to colonize.  Input your moves by utilizing
+                   the grid displayed on the monitor screen.
+
+                          Atari, PET,    7  8  9               1  2  3
+                        TRS-80 & IBM:    4  5  6       Apple:  4  5  6
+                                         1  2  3               7  8  9
+
+                   It is possible to leave the galaxy!  You won't find any
+                   stars out there though.
+
+                   Your fleet represents the center of the grid.  If you wanted
+                   the fleet to move up one space you press 8.  To move the
+                   fleet one space up and to the right press 9.  To end
+                   navigation press 5.  Once you have ended naviagation, the
+                   fleet cannot move again, even if it has movement points
+                   remaining.
+
+                   Rama ships can travel 5 moves per turn.  Nova ships 3 moves
+                   per turn and Echo ships 2 moves per turn.  Fleet maximum
+                   speed is that of the slowest ship in that fleet.  Therefore
+                   a fleet with 5 Ramas could travel 5 moves per turn, but a
+                   fleet with 5 Ramas and one Echo could travel only 2 moves
+                   per turn.
+
+
+   6. Join Fleets - This will allow you to join two of your fleets that are at
+                    the same location.  Enter the numbers (TRS-80: letters) of
+                    the placed into the first fleet entered.
+
+   7. Fleet Control - Use this command to pass control to another fleet.
+
+   8. End Turn - Passes play to the next player or to the next game turn.
+
+
+COLONIES
+--------
+In order to establish a colony at the beginning of a turn, the player must
+meet three conditions:
+
+1. The player must have an Echo ship in the star system to be colonized.
+2. The system to be colonized must have zero or less defenses.  Colonization
+   cannot take place if the system is defended by natives or by another empire.
+3. The player must have sufficient resources to meet the cost of colonization.
+
+Once a colony is established the resources of the colony can be used on
+subsequent turns, ships can be launched from it, and resources can be
+allocated to build defenses there.  Many star systems may be very poor in
+resources but make excellent military bases for further exploration.  All
+colonies belonging to your empire will show your life form and technology (6)
+if probed.
+
+COMBAT
+------
+There are two types of combat that can take place in ANDROMEDA CONQUEST.  One
+is an attack against an alien fleet, the other is an attack against star
+system defenses.  In both types of attack, no losses are ever incurred by the
+attacking fleet.  Losses to the defender are computed by a random number
+between 1 and Attacking Fleet War Power divided by 2.  Only fleets can attack,
+system defenses cannot.  If the defender is an alien fleet, losses are taken
+in ships, not war power.  Therefore, a Nova can be as easily beaten as a Rama
+when it is the only ship in a fleet.  If the defender is a star system, losses
+are taken in defense points.  Any ships orbiting the system are unaffected
+unless attacked seperately.  If all defenses are eliminated and the attacking
+fleet contains a Nova ship, the star can then be destroyed at the option of
+the attacker.
+
+COMBAT vs. MOVEMENT
+-------------------
+A fleet that moves during a turn may only attack once after moving.  If the
+fleet does not move on that turn, it may attack twice.  A fleet that first
+attacks may not move afterwards even if it only attacked once.
+
+
+GALACTIC MAPPING GRID
+---------------------
+For your convenience a mapping grid log pad has been provided (under the
+plastic tray) for your use.  Star systems and fleet locations can be recorded
+on this pad.
+
+                 X
+                   0   1   2   3   4   5   6   7   8   9  10
+andromeda     Y  +---+---+---+---+---+---+---+---+---+---+---+
+conquest         |   |   |   |   |   |   |   |   |   |   |   |
+               0 |   |   |   |   |   |   |   |   |   |   |   |
+                 +---+---+---+---+---+---+---+---+---+---+---+
+                 |   |   |   |   |   |   |   |   |   |   |   |
+               1 |   |   |   |   |   |   |   |   |   |   |   |
+GALACTIC         +---+---+---+---+---+---+---+---+---+---+---+
+MAPPING GRID     |   |   |   |   |.17|   |   |   |   |   |   |
+               2 |   |   |   |   |   |   |   |   |   |   |   |
+                 +---+---+---+---+---+---+---+---+---+---+---+
+.# Uncolonized   |   |   |   |   |   |   |   |.3 |   |.31|   |
+   System and  3 |   |   |   |   |   |   |   |   |   |   |   |
+   I.D. Number   +---+---+---+---+---+---+---+---+---+---+---+
+                 |   |   |   |   |.1 |   |   |   |   |   |.4 |
+               4 |   |   |   |   |   |   |   |   |   |   |   |
+                 +---+---+---+---+---+---+---+---+---+---+---+
+@# Colonized     |   |   |   |   |   |   |   |   |.2 |   |   |
+   System and  5 |   |   |   |   |   |   |   |   |   |   |   |
+   I.D. Number   +---+---+---+---+---+---+---+---+---+---+---+
+                 |   |.8 |   |   |   |   |   |   |   |   |   |
+               6 |   |   |   |   |   |   |   |   |   |   |   |
+                 +---+---+---+---+---+---+---+---+---+---+---+
+                 |   |.9 |   |   |#23|   |   |   |   |   |#  |
+               7 |   |   |   |   |   |   |   |   |   |   |   |
+                 +---+---+---+---+---+---+---+---+---+---+---+
+                 |   |   |   |   |   |   |   |   |   |   |   |
+               8 |   |   |   |   |   |   |   |   |   |   |   |
+                 +---+---+---+---+---+---+---+---+---+---+---+
+
+
+
+MULTI-LAYER GAMES
+-----------------
+To win in a multi-player game, a player must control 10 star systems for one
+entire game turn.
+
+SINGLE PLAYER GAMES
+-------------------
+The object in a single player game is to colonize the ten required star
+systems in as few turns as possible.
+
+
+CASSETTE LOADING INSTRUCTIONS
+-----------------------------
+
+ATARI 400/800
+-------------
+Lift the cartridge door on your Atari 400/800 computer and insert the
+COMPUTING LANGUAGE BASIC cartridge into the computer.  Use the LEFT
+CARTRIDGE slot on the Atari 800 system.
+
+Press the Power switch on the side of the console ON.  With side one of the
+cassette up, put it into your Atari Cassette Recorder and press 'REWIND'
+until the tape stops moving.  Using the keyboard, type:
+
+                  CLOAD
+
+and press the RETURN key on the keyboard.  You will hear one beep.  Push
+PLAY on the recorder and press the RETURN key on the keyboard again.  The
+recorder should start to move and the program will load.  After the program
+has been loaded the recorder will stop and the READY prompt will reappear,
+Type:
+
+                  RUN
+
+and press the RETURN key.
+
+
+APPLE II
+The Apple program is located on Side One after Atari program.  By listening to
+the tape, you can tell the difference between the two programs.  The Apple
+program is easily recognized by the relatively high pitch and pure quality of
+the calibration tone at the beginning of the program.  This tone is free of the
+characteristic Atari buzz.  Find the beginning of the Apple program and
+position the tape to just after the start of the calibration tone.  Set up the
+recorder for input.  On the keyboard, type:
+
+                  LOAD (Don't hit RETURN yet)
+
+Press PLAY on the recorder and immediately press RETURN on the keyboard.  The
+computer will start reading in your program.  The computer will beep twice,
+once at the beginning of the program and once at the end.  When the program
+has loaded, the computer will print READY.  Type:
+
+                  RUN
+
+and press the RETURN key to play the game.
+
+
+TRS-80
+The TRS-80 program is located on Side Two after the PET CBM program.  By
+pulling out the EAR and MIC jacks on the recorder and listening to the tape,
+you can differntiate, the PET program from the TRS-80 program.  The PET
+sounds louder, yet has a lower pitch.  Check that the volume control is set
+to the proper level (between 5 and 6 is normal).  Press PLAY on the recorder,
+and type:
+
+CLOAD (for Mod III only, enter: L after Cass ?  prompt, then CLOAD)
+
+and press the ENTER key on the keyboard.  The recorder should start to move
+and your program will be loaded.  This will be indicated by the flashing
+asterisk at the upper right corner of the screen.  When the tape stops and
+the TRS-80 prints READY on the screen, type:
+
+                   RUN
+
+and press ENTER to play the game.
+
+
+COMMODORE PET CBM
+Turn the tape over to Side Two.  Insert the tape in your recorder and rewind
+to the beginning of the tape.  When ready, type:
+
+                   LOAD
+
+and press the RETURN button on the keyboard, then the play button on the
+recorder.  The tape should start moving and start loading your program.  The
+computer will tell you when it finds the program and starts loading.  When
+done, the computer will print READY, and the tape will stop.  Type:
+
+                   RUN
+
+and press RETURN to play the game.
+
+
+DISKETTE LOADING INSTRUCTIONS
+
+APPLE DISKETTE
+ANDROMEDA CONQUEST is designed to play on your Apple II with Applesoft.  To
+play, insert the disk into your 3.2 or 3.3 disk drive and boot the system.
+
+ATARI DISKETTE
+To load the Atari Diskette insert it into your disk drive.  Turn on your disk
+drive and then the computer.  The program will load and play automatically.
+
+TRS-80 Model I & III
+To play, insert the disk into your disk drive and "boot" the system.  Model III
+owners should refer to the conversion instruction in TRSDOS Manual.
+
+IBM DISKETTE
+Boot the system diskette and get BASICA up on your computer. Type:
+
+                   RUN "ANDROMED
+
+and press the ENTER key.
+
+
+YOU NAME IT, WE'VE GOT A GAME ON IT ...
+The Avalon Hill Game Company is the world's largest publisher of a great
+variety of strategy board games of skill.  We manufacture over 100 games;
+including wargames, sports strategy and statistical replay games, power
+politics games, adventure and role-playing games, and games on fantasy and
+science fiction.  For complete information with pretty pictures, write the
+factory and ask for a Complete Game Catalog.  Consult current parts price
+list for price of catalog.
+
+The Avalon Hill Game Company
+Consumer Relations
+
+QUESTION ON PLAY
+The clarify of these rules has been verified by Software Testers of
+Universal Microcomputer Programmers (STUMP) and deemed "complete" in all
+facets of instruction.  Please re-read them in areas answered by the
+factory only upon receipt of a self-addressed enverlope bearing first-class
+postage.
+
+IF YOU CANNOT LOAD THE PROGRAM
+1. Check your equipment carefully to be sure that all cables and connections
+   are correct.
+2. Re-read the section in your computer's manual that tells you how to load
+   software.  Try to load software again.
+3. If you can adjust the volume on your recorder, try different settings,
+   both higher and lower.
+4. If possible, load another program from a tape or disk you know works on
+   your compuer.  This will prove that your equipment works.  Try once more to
+   load your game.
+5. The normal reason software will not load is tape recorder or disk drive
+   head misalignment.  Your computer may be able to save and load programs on
+   its own recorder, but be unable to read software made on a different
+   recorder for this reason.  Be sure your recorder heads are correctly
+   aligned.  Your local computer store or dealer can help you with this.
+6. If the program still cannot be loaded, send the sofware with a complete
+   description of the problem (what type of computer you have, what the
+   computer says, if anything, when you try to load the sofware or play the
+   game, and what you did to try to get it to load.) to:
+
+   Avalon Hill Microcomputer Games
+
+-----------------------------------------------------------------------------
+Publish by Avalon Hill 1982
+Game Design and Apple II version: David Peterson
+Atari Version: Paul Granachelli
+TRS-80 version: Eric Anderson
+IBM and PET CBM version: David Kuijt
+Artwork & Graphics: Charles Kibler
+Prep Dept. Coordinator: Elaine Adkins
+Playtesters: Sarold R. Stone, Floyd Mathews, John M. Boyle, Richard Spinelli,
+             Harry Dehinger Jr., Dean Luick, Richard Leach, Michael J. O'Connor
+             Robert C. Smith, Russell J. Smith, GallS. Kujawa, Frank L. Rollins
+             Eric Bergan
+
+-------------------------------------------------------------------------------
+
+
+ANDROMEDA CONQUEST
+==================
+
+
+FLEET COMMANDS
+--------------
+
+1. Tactical Display
+2. Stragegic Display
+3. Attack (Star System or Alien Fleet)
+4. Probe (Star System or Alien Fleet)
+5. Fleet Navigation
+
+
+   Atari, PET,     7  8  9
+ TRS-80 & IBM:     4  5  6
+                   1  2  3
+
+
+                   1  2  3
+        Apple:     4  5  6
+                   7  8  9
+
+6. Join Fleets
+7. Fleet Control
+8. End Turn
+
+
+GALACTIC MAPPING GRID
+---------------------
+
+.# Uncolonized system and I.D. Number
+
+@# Colonized System and I.D. Number
+
+
+SUGGESTION:
+   Mark fleet letter notations in soft-lead pencil.  Update movement of
+fleets during each turn.
+   Star Systems' locations and their respective I.D. Number may be recorded
+in pen.  However, keep in mind that "ownership" of any one system is subject
+to change during the course of the game.  Make "colonization" marks in pencil.
+
+   X 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2
+     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7
+Y   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  0 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  1 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  2 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  3 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  4 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  5 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  6 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  7 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  8 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  9 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 10 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 11 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 12 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 13 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 14 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 15 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 16 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 17 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 18 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 19 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 20 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 21 | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
+PROBE DATA RECORD
+-----------------
+
+
++--------+------+--------+-------------+------+------------+-----+-----+------+
+| SYSTEM | TYPE |  LIFE  | COORDINATES | TECH | PLIABILITY | DEF | RES | COST |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    1   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    2   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    3   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    4   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    5   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    6   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    7   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    8   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|    9   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   10   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   11   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   12   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   13   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   14   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   15   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   16   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   17   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   18   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   19   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   20   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   21   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   22   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   23   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   24   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   25   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   26   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   27   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   28   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   29   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   30   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   31   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   32   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   33   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   34   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   35   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   36   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   37   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   38   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   39   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   40   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   41   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   42   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   43   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   44   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   45   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   46   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   47   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+|   48   |      |        |             |      |            |     |     |      |
++--------+------+--------+-------------+------+------------+-----+-----+------+
+
+
+

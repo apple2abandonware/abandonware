@@ -1,0 +1,1487 @@
+IMPERIUM GALACTUM MANUAL
+========================
+
+TABLE OF CONTENTS
+-----------------
+
+ 1.0 INTRODUCTION
+       Talking to the Computer
+       Saving the Game
+       The Map
+       Starting the Game (Apple)
+       Starting the Game (Atari)
+       Starting the Game (C-64)
+ 2.0 GENERAL DESCRIPTION
+       Parts Inventory
+       Definition of Game Terms
+ 3.0 THE GAME SETUP
+ 4.0 USING THE MAP
+       Reading the Map
+       Moving the Cursor
+       The Planet Display
+ 5.0 THE GAME PHASES
+ 6.0 THE TRADE PHASE
+       Trading
+       Example of Planet Economics
+       Depreciation
+       Other Trade Phase Operations
+ 7.0 THE CONTROL ADJUSTMENT PHASE
+       The Map Menu
+       Adjusting Planet Controls
+ 8.0 THE PRODUCTION PHASE
+       The Ship Display
+       The Task Force Display
+       Production
+ 9.0 THE NEGOTIATION PHASE
+       Diplomatic Stances
+       The Diplomatic Stance Table
+       Negotiation with Independent Worlds
+10.0 THE MOVEMENT PHASES
+       The Missions
+       The Map Menu
+       Ordering Your Task Forces
+11.0 THE COMBAT PHASES
+       Ship to Ship Combat
+       Ship to Planet Combat
+       Guerilla Combat
+12.0 SEQUENCE OF PLAY IN A TURN
+13.0 ASSORTED RULES
+14.0 VICTORY CONDITIONS
+15.0 PLAYER NOTES
+
+
+1.0 INTRODUCTION
+================
+IMPERIUM GALACTIUM is an operational level space game of exploration and
+conquest in a star cluster.  You control your empire's economy, the design and
+construction of warships, and negotiations with other races, both player and
+non-player.  The winner is the player who has accumulated the greatest total
+population when you decide to quit.
+   Each game turn is five years in length.  A game turn consists of 1) Commerce
+and Commerce Raiding, 2) Depreciation and Production, 3) Negotiation, 4) Two
+rounds of Movement and Combat.
+
+1.1 TALKING TO THE COMPUTER
+---------------------------
+To enter a response to the computer that could only consist of the character
+(such as a menu command or yes/no question), type the character without
+pressing RETURN.  To enter a response that could consist of more than one
+character (such as a task force number or number of terms to be produced), type
+the entry and a carriage return <CR>.
+
+1.2 SAVING THE GAME
+-------------------
+At the end of each combat phase, the computer provides you with the opportunity
+of saving the game.  The disk must be initialized for SSI use during the game
+by following instructions included in the game program (Atari owners may use
+any Atari formatted disk).  Once a game has been saved, you can resume it at
+the point you left off.
+   Note also that to end the game, you go to the save game routine.  By typing
+'E' you end the game, the computer adds up the victory points and returns you
+to the game with all players set to human so you can see them.
+
+1.3 THE MAP
+-----------
+The map is a 20 x 40 square grid containing fifty star systems of various
+types.  The map shows any friendly task forces at a star system and any enemy
+task forces in star systems containing friendly task forces or planets.  There
+is also a tactical map which shows an area of twenty by ten stars.  This more
+clearly shows at which systems there are task forces.  (See 4.0 USING THE MAP
+for details).
+
+1.4 STARTING THE GAME (APPLE)
+-----------------------------
+Boot the scenario side of your disk; the game will begin automatically.  After
+selecting the starting parameters for your game, you are told to insert the
+Game side of your disk, if you are using Apple II with Pascal, you must first
+use your BASICS disk, if you are using an Apple III, you must first go into
+Apple II emulation mode.
+
+1.5 STARTING THE GAME (ATARI)
+-----------------------------
+Remove all cartridges, then insert the Scenario side of your disk into Drive #1
+and turn on your computer.  If you own an Atari 800XL, hold down the OPTION key
+while booting.  After initializing the game values you will be told to insert
+the Game side of your disk.
+
+1.6 STARTING THE GAME (C-64)
+----------------------------
+To begin the game, insert the game disk and type Load "*",8 and press <RETURN>.
+When READY appears, type RUN and press carriage return <CR>.
+
+
+2.0 GENERAL DESCRIPTION
+=======================
+
+2.1 PARTS INVENTORY
+-------------------
+A. Game box
+B. Rule Book
+C. 5-1/4" game disk
+
+2.2 DEFINITION OF GAME TERMS
+----------------------------
+Population Point (POP): The amount of people on the world.  Each point does not
+represent any given number of people; it just represents the size of the
+population.  A player wins by having the largest population at the end of the
+game.
+
+Industrial Output Point (IO): This is the basic unit of commerce.  Each
+possible product which you can invest in costs a certain number of IOs.
+
+Military Industrial Output Point (Mil IO): This is a unit of commerce which
+need only be spent when buying a ship, an army or a defense base.  Each time
+you buy one of these items you must spent a number of Mil IOs.
+
+IO Pool: This is the total number of IOs which you have accumulated so far in
+the game.  Each time you buy an item it subtracts the cost of the item from the
+IO Pool.  IOs can be spent on any owned or allied planet and may accumulate
+from turn to turn.
+
+Military IO Pool: This is the total number of Mil IOs that may be spent at a
+planet during a given turn.  Each time a product is bought which requires Mil
+IOs, the cost is subtracted from the IO Pool and from the planet's Mil IO Pool.
+Each planet has a Mil IO Pool determined by that planet's industry.  Mil IO
+Pools are zeroed at the end of each Production Phase.
+
+Agriculture (AG): This represents the amount of land under cultivation.  Each
+AG point provides food for four population points and requires one half of a
+population point to work it.
+
+Mine: This represents the amount of land being mined for ore, fuel and other
+materials.  Each mine supplies one industry with enough ore to operate and
+requires one half of a population point to be worked.
+
+Industry (IND): Industry is what is used to manufacture the IOs and Military
+IOs needed to construct new ships, develop planets, and increase your tech-
+nological level.  Each industry produces three IOs and two Military IOs and
+requires one and one half population points to operate.
+
+Active Industry: This is the number of industry that can actually produre IOs
+... the industry with enough workers and ore to operate.
+
+Environment (ENVT): This is how well a planet supports life.  The maximum
+amount of AG that a planet may have is equal to its environment minus 50.
+
+Resource (RSRC): This represents the amount of minerals available on a planet
+and controls the speed at which mines on the planet depredate.  The number of
+mines on a planet may never exceed the planet's resource.
+
+Star Type: This is the spectral class of the star.  There are five star types,
+each with a different chance of having planets and infuencing the characterist-
+ics of the planets they do have:
+
+  B: These have a high chance of having planets.  Their planets will tend to be
+  extremely low environment and extremely high resources.  They are blue in
+  color.
+
+  F: These have a moderate to low chance of having planets.  Their planets will
+  trend to have high resouce and average barely livable environments though this
+  varies considerably.  They are green in color.
+
+  G: This is the spectral class of our sun.  They have a fair chance of having
+  planets and the planets tend to have good environment and resource.  They are
+  yellow in color (white on the Apple).
+
+  K: These are the most common stars and usually will have at least one planet.
+  Their planets tend to have high environments but poor resources.  They are
+  red in color.
+
+  M: These stars are the armpit of the cluster.  Not only do they seldom have
+  planets, but the planets they do have are almost always unusable.  But they
+  MIGHT have a decent planet.  On the Atari, these planets are shown as banded;
+  on the Apple they are violet.
+
+Warships: These are ships which are capable of ship-to-ship and ship-to-planet
+combat.  Each warship is one of eight player-defined classes and has an
+efficiency and technological level.
+
+Efficiency (EFF): This represents the relative readiness of a ship for combat.
+As a ship suffers damage, its EFF drops.  When a ship's EFF reaches zero, it
+is destroyed.  All ships which are not on repair lose four from their EFF each
+turn.
+Ships on repair have their EFF restored to 100.  The loss of EFF reduces the
+ship's ability to attack and defend in combat.  Only warships have EFF.
+
+Ship Class: There are eight user definable ship classes in the game.  Each ship
+is rated for the following characteristics:
+  Planetary Bombardment (PB): Almost useless in ship-to-ship combat, planetary
+  bombardment is extremely useful against SDFs and PDFs.
+
+  Energy Weapons (EN): With a high rating, energy weapons can do a great deal
+  of damage if they hit.
+
+  Missile Systems (MS): Missile Systems do the same amount of damage to matter
+  what the MS; a high MS merely increase the chance of a hit.
+
+  Evasion (EV): A ship's evasion is its ability to dodge energy weapons.  The
+  higher the EV, the greater the chance of the enemy missing with EN or PB.
+
+  Armor (AR): Armor is used to reduce the damage done by EN hits.
+
+  Anti-Missile (AM): AM reduces the chance of a missile scoring a hit on your
+  ship.
+
+  Speed (SP): Speed controls how far the ship may move during the Movement
+  Phase.  A task force may only move as fast as its slowest ship.  A ship's
+  speed is equal to its tech level added to the speed of the ship's class.
+
+  Size (SZ): A ship's size determines its IO cost and the amount of 'design
+  points' available for its other characteristics.  A large ship also takes
+  less relative damage from weapon hits than a small ship.
+
+Technological Level (Tech):  A player's tech determines the tech level of
+any ships being built.  At tech 4 a player may spend IO's to increase a
+friendly planet's ENVT.  If a ship has a higher tech than the ship opposing
+it, all the ship's characteristics (aside from size and speed) are increased
+by one for each level of tech difference.  However, and characteristic that
+was zero may not be increased.
+
+Transports (TRAN):  Transports are heavily armored but fragile ships whose
+purpose is to carry one colonist or one army.  Transports have a speed of
+two plus the current tech level and are assigned to task forces.
+
+Traders:  Traders are fragile ships whose purpose is to carry food and ore
+between worlds.  Each trader can carry one ore point or food point each
+turn.  Traders are not assigned to task forces but are in a player trade
+pool and are provided whenever needed.
+
+Defense Base:  Defense bases are constructions on a planet which defend a
+planet from space attack.  Defense bases are either SDF's or PDF's.
+
+System Defenses (SDF): An SDF is a defensive base built on a planet which
+has a Missile Rating of 32.  It is capable of supporting friendly task
+forces which are defending that planet as well as firing into space at ships
+trying to bomb or invade it's planet.
+
+Planetary Defenses (PDF):  A PDF is a defensive base built on a planet which
+can fire at ships in the planet's atmosphere, but can only be attacked under
+the same conditions.  PDF's have and Energy Weapons rating of 32.  Both PDF's
+and SDF's provide ground support for defending armies.
+
+Armies:  Armies are used to oppose invading armies are used to oppose
+invading armies and fight guerrillas.  When there are only invading armies on
+a planet, the planet is captured.  When there are no invading armies on a
+planet, the planet is recaptured.
+
+Guerrillas:  After a planet has been captured, guerrillas automatically
+appear. In each production phase in which guerrillas are still operating,
+they receive replacements.  During each combat phase, guerrillas fight the
+invading armies.  In each trade phase, guerrillas destroy some industry.
+Once all the guerrillas have been destroyed, the planet belongs to the
+invader as if it were his home world.
+
+3.0  GAME SETUP
+
+Before a game of Imperium Galactum begins, it is necessary to determine the
+conditions under which the game is to be played.  The Starting Menu on the
+Scenario Disk shows the possible parameters.  The highlighted items show what
+conditions go into effect when the space bar is pressed to start the game.
+
+The first option is NEW GAME/SAVED GAME.  IF you are continuing a game you
+saved earlier, press the "1" key.  Note that all the other options turn off.
+This occurs because a saved game automatically operates under the conditions
+existing when it was saved.
+
+   The next four options control the status of the four players.  By pressing
+the appropriate keys (2-5), you determine whether a player is to be run by a
+human or the computer or is not to be in the game at all.
+   The next option is only useful if there is at least one computer player.
+The solitaire level determines the skill of the computer oppoents (actually how
+many advantages are given to the computer).  Playing at level 1 gives the
+computer an enormous edge.  Playing level 4 leave the computer at a disadvant-
+age.  To change levels, press the '6' key, and the hightlight cycles around the
+four levels.
+   Option 7 determines whether or not there is a chance for independent worlds.
+If YES is chosen, there are occassional worlds which are already partially or
+fully developed, but are not run by a player.  Trade agreements may be made
+with independent worlds, allowing the use of their production (but not their
+population or armies).
+   Option 8 determines whether you want to use the map provided with the rules,
+or a map randomly generated by the computer.  If YES is chosen, the stars are
+randomly placed and the players' home systems randomly selected (but always at
+a K, G, or F type star).  If NO is chosen, the map is the one described in the
+rules, and the home systems are fixed as well.  In both cases, the planets
+still are randomly determined, so that each game is different.
+   After the space bar has been pressed, the computer loads the star data.  If
+you chose a random setup, it displays a possible map and asks if it is
+acceptable.  If you think the map is interesting, type 'Y'; if not, type 'N';
+and the computer will display another map.
+   Next you are asked 'Minimum starting industry (0-60)?'.  Type in the
+minimum number of industry you want your home world to have.  (It is suggested
+you use 50).  Each human player has a minimum industry based on this number.
+Each computer player has a minimum industry based on the solitaire level.
+   Finally, you are asked to name each player in the game.  If the setup is not
+random, the computer asks in player order.  If the setup is random, the
+computer asks in a random order.  This allows human players to determine
+randomly which player each will be.  There is a slight edge for player one, so
+determine beforehand who is to type in his or her name first... If the first
+player to be named is four, then the first person is player four.
+
+4.0 USING THE MAP
+=================
+During the course of the game, the map is displayed a number of times.  The
+specific decisions required each time are explained in the sections on the
+phases of the game.  The following are general guidelines to follow in all
+cases.
+
+4.1 READING THE MAP
+-------------------
+The strategic map displays all the star systems in the game.  The tactical map
+displays an area one quarter the size of the strategic map and is useful for
+making out what player task forces are around what systems.  Any star system
+containing a task force of the viewing player shows the player's task force
+symbol at the appropriate corner of the star.
+
+
+PLAYER #1                                                    PLAYER #2
+Task Force      ****                         ********        Task Force
+                   **                           *
+                ***********                  ************
+                   **                           *
+                ****                         ********
+                              ****
+                            *       *
+                           *         *
+                           *         *
+                            *       *
+                              ****
+
+PLAYER #3          *****                            ****     PLAYER #4
+Task Force           *                             **        Task Force
+             ***********                     ***********
+                     *                             **
+                   *****                            ****
+
+
+   A task force which is currently moving, that is, has a number of movement
+phases before it arrives at its destination (ETA) other than zero, will not be
+displayed because it is not in the system.  The task forces of other players
+will be displayed if the enemy task force is in a system which contains one of
+the viewing player's task forces or a planet owned by the viewing player.
+
+4.2 MOVING THE CURSOR
+---------------------
+To look at a star system, give orders to planets in a star system, or give
+orders to task forces in a star system, the cursor must be positioned over the
+star system.  The cursor starts the Control Adjustment and Movement Phases over
+the player's home system.  The cursor starts the Production Phase wherever the
+player left it at the end of the Control Adjustment Phase.  To move the cursor,
+type the key for the direction desired.
+
+
+                                 1
+                          8             2
+                            \    |    /
+                              \  |  /
+                                \|/
+                       7   -------------- 3
+                                /|\
+                              /  |  \
+                            /    |    \
+                                 |
+                         6               4
+                                 5
+
+
+   Whenever the cursor is over a star system the menu at the bottom of the map
+displays the name of the star system and its type.
+
+4.3 THE PLANET DISPLAY
+----------------------
+If a 'P' is pressed during the Control Adjustment or Production Phase, or an
+'S' during the Movement Phase, and you have visited the system (occupied the
+system with a task force at the end of any Combat Phase), you can see any
+planets in the system.
+   If there are no planets in the system, the screen prints 'NO PLANETS'.  If
+there are planets, they are displayed as follows:
+
+PLANET #1
+
+ENVT: 53
+RSRC: 59
+
+IO POOL: 508
+
+PLANET #2     OWNER: INDEPENDENT WORLD
+          ALLIED TO: THE HIVE MIND
+
+NEGOTIATE: YES FRIENDLY
+POP CNTRL: 32  ENVT: 78    AG: 8   POP: 32
+MIN CNTRL: 14  RSRC: 42  MINE: 14  WPP: 32
+
+                IND: 14  ACTV: 14
+GUERILLAS: 0   ARMY: 14   SDF: 4   PDF: 4
+
+   If the world is undeveloped or is owned by another player without a friendly
+task force occupying the system, it will merely show the planet's ENVT and RSRC
+as, for example, in PLANET #1 above. (Please note that the words "world" and
+"planet" are used interchangeably.)  However, the game generally prefers to
+speak of "independent worlds" and "friendly planets" or "enemy planets".  If
+the planet is owned by the viewing player is an independent world, or is an
+enemy occupied planet with a friendly task force occupying the same system, the
+computer displays complete information (as in PLANET #2 above).
+   If the planet is an independent world and is allied to a player, the allied
+player will be displayed directly below the owning player.  If the planet is a
+conquered world with guerilla resistance, the original owner is directly below
+the current owner.
+   If the planet is an independent world, the negotiation status of the viewing
+player is displayed (that is whether the player is currently negotiating with
+the planet).  Next to the negotiation status is the diplomatic stance of the
+planet toward the viewing player.  The diplomatic stance determines the
+likelihood of the planet accepting a trade agreement with the viewing player,
+or, if currently allied with the viewing player the chance of breaking the
+agreement (throwing the player off the planet).
+   During the Control Adjustment Phase and the Production Phase there is an
+entry, the Working Population Points (WPP).  This is the amount of POP needed
+to run all the AG, the MINES as determined by Mine Control (MIN CNTRL) and the
+IND on the planet.  Also, during the Control Adjustment Phase and the
+Production Phase, the IO Pool is displayed.  This is NOT the Mil Pool for that
+planet, but is the player's total IO Pool.
+
+
+5.0 THE GAME PHASES
+===================
+Imperium Galactum is played in game turns.  Each game turn consists of commerce
+followed by two moves.  (Please note that the sequence of player-computer
+interaction in a turn is outlined in SECTION 12.0 SEQUENCE OF PLAY IN A TURN.)
+
+A. The Trade Phase
+B. The Control Adjustment Phase
+C. The Production Phase
+D. The Negotiation Phase
+E. The Post Negotiation Combat Phase
+F. The First Movement Phase
+G. The First Combat Phase
+H. The Second Movement Phase
+I. The Second Combat Phase
+
+6.0 THE TRADE PHASE
+===================
+During the trade phase, the computer acts to create food, ore and IOs and
+trades them.  At this time, task forces on commerce raid or embargo missions
+attempt to destroy traders coming or going from the star they're patrolling.
+After all IOs have been produced, mines and ships depreciate, and ships in
+repair are restored to 100% EFF and set to the owning player's tech level.
+Finally, population increases and guerillas attack factories.
+
+6.1 Trading
+-----------
+The computer handles all trading.  First the computer creates food points.
+Each AG makes four food points and requires one half a population point to use.
+Any AG in excess of the available work force is destroyed before it has created
+any food.  This is done for each of the player's planets and allied planets.
+The computer then finds any friendly planets which have population in excess of
+the available food and any planets which have food in excess of the population
+requirements.  Food is moved via trader between the two planets, one food point
+per trader.  Traders do not move to or from any star system occupied by an
+enemy task force (that is a task force on a garrison, patrol, repair, or move
+mission.)  Traders moving to or from a system where an enemy task force is on
+commerce raid or embargo missions may be destroyed.  Friendly task forces on
+patrol missions in systems where traders have been lost may intercept the enemy
+missions.  Trader captains may refuse to go to any system where other traders
+have been lost.  (Trader decisions, based on the current situation and random
+factors, are, of course, calculated and executed by the computer.)
+   After all food has been traded, any planet with population in excess of the
+new food supply loses the excess population.
+   Now the computer creates ore in each mine for which there are sufficient
+workers.  Each mine produces one ore point and requires one half of a
+population point which has not already worked to create food.  Surplus ore is
+shipped to factories in need of ore, in the same manner as food was.  Only
+traders which have not been used yet may transport ore.
+   Finally, the computer creates IOs from factories, that have a sufficient
+work force available.  Each industry producese three IOs and two Mil IOs and
+requires one and one half population points (not used in mining ore or creating
+food) to operate.
+
+6.2 EXAMPLE OF PLANET ECONOMICS
+-------------------------------
+Let us take as an example a player who has three planets: his home world (#1),
+and two colonies (#2, #3):
+
+#1: ENVT: 96  RSRC: 68  AG: 46  MIN: 63  IND: 70  POP: 184
+#2: ENVT: 55  RSRC: 60  AG: 05  MIN: 31  IND: 24  POP: 54
+#3: ENVT: 55  RSRC: 11  AG: 20  MIN: 06  IND: 06  POP: 19
+
+The player has 40 traders.
+   The first thing the computer does is create food.  On #1, there is a 46 AG,
+so 23 POP (46 AG x 1/2 POP/AG) are required to create the food.  Planet #1 has
+184 POP, easily enough for the job.  The AG creates 184 food points (46 AG x
+4/AG) which is just enough to feed the population of 184 POP.  There is no
+surplus food, and the population does not require any additional food.  On
+Planet #2, there is 5 Ag, so 2-1/2 POP (5 AG x 1/2 POP/AG) are required for the
+job.  Since there is enough population to perform the job, 20 food points
+(5 AG x 4/AG) are produced.  This feeds only 20 of the population, so the
+remaining 34 POP still need food.  On planet #3, there is a 20 AG requiring 10
+POP (20AG x 1/2 POP/AG) which the planet has.  The 20 AG creates 80 food points
+(20AG x 4/AG) which leaves a food surplus of 61 food points (19 POP requiring
+only 19 of the 80 food points).  Since planet #2 needs 34 food points, traders
+attempt to transport the food, one point at a time, between planet #2 and
+planet #3.  This requires 34 traders.  If a trader were to be intercepted by
+commerce raiders at either of the systems containing planets #2 and #3, no food
+points would be lost; but another trader would be send until all needed food
+was moved or the traders refused to attempt the mission.  Now all planets have
+sufficient food for their populations, so none starve.  The remaining excess
+food on planet #3 is lost.
+   The computer now works the player's mines.  Planet #1 has 63 mines requiring
+31-1/2 POP.  There is 161 POP available to work (184 - 23 used for AG), so the
+63 mines produce 63 ore points.  Since seventy Industry require 70 ore points,
+seven are still needed for the IND.  On planet #2 thirty-one mines require
+15-1/2 workers.  There are 51-1/2 POP points available (54 POP - 2-1/2 required
+for AG).  So the mines produce the 31 ore points.  By a not so strange
+coincidence, they have 7 extra ore, which is what is needed on the home world.
+(The player knows what he is doing).  Planet #3 has 6 mines requiring 3 POP.
+With 9 POP left available the planet produces 6 ore points which is exactly
+what it needs for its industry.  The computer now attempts to move 7 ore from
+planet #2 to planet #1 but only has 6 available (40 traders - 34 to move food
+= 6).  Therefore the computer would, if not intercepted, move 6 ore points to
+planet #1 (maybe the player isn't so smart after all).
+   Finally, the computer builds IOs.  At planet #1, the player has 70 IND, 69
+ore points and 120-1/2 POP.  The ore can only supply 69 IND, so using 103-1/2
+workers, planet #1 will have an Active Industry of 69.  The lost industry is
+not destroyed, but simply waits until the next turn when there may be more ore.
+On planet #2, there were 24 IND, 25 ore points and 30 available workers.  The
+extra ore is lost, and the 24 IND has the 36 POP it requires.  Therefore planet
+#2 has 24 Active IND.  Planet #3 has 6 ore points, 6 IND and 6 available
+workers.  Though it has enough ore for its industry the six workers may only
+oerate 4 IND, since each IND requires 1-1/2 POP.  So planet #3 has 4 Active
+IND.
+   At the end of the Trade Phase, planet #1 has a MIL Pool of 138 (69 x 2),
+planet #2 a MIL Pool of 48 (24 x 2), and planet #3 a MIL Pool of 8 (4 x 2).
+The player's IO Pool has 69 x 3 + 24 x 3 +4 x 3 = 291 more IOs than at the
+start of the Trade Phase.
+
+6.3 DEPRECIATION
+----------------
+After the computer finishes trading, it goes through each planet and
+depreciates the mines on the world.  Depreciateion is done by getting a random
+number between 1 and the resources (RSRC) of the planet.  If the random number
+is less than the number of mines on the planet, a mine is destroyed.  This
+process is repeated until the depreciation roll fails.  Thus the higher the
+RSRC of a planet, the more mines it takes to cause a high depreciation.
+   Ships also depreciate.  Ships not on a repair mission automatically lose
+four from their efficiency (EFF) in each Trade Phase.
+
+6.4 OTHER TRADE PHASE OPERATIONS
+--------------------------------
+At the end of the Trade Phase, all ships on repair missions are restored to
+100% EFF and set to the owning player's current tech.
+   Guerillas destroy a certain number of IND and mines based on the number of
+guerillas.
+   Population for each planet increases by 25% but does not exceed the
+population control (POP CNTRL) setting.  (See 7.0 THE CONTROL ADJUSTMENT PHASE)
+
+7.0 THE CONTROL ADJUSTMENT PHASE
+================================
+During this phase, you have the ability to adjust the population and the mining
+controls on friendly planets and the negotiation status on independent worlds.
+You also can break off trade agreements with allied independent worlds.
+
+7.1 THE MAP MENU
+----------------
+At the start of the phase, the strategic map is displayed with the cursor over
+your home system.  At the bottom of the map, you will find the star system's
+name and type and the question 'LOOK AT THE (P)LANETS IN THIS SYSTEM, TYPE 1-8
+TO MOVE THE CURSOR, (T)ACTICAL MAP OR (Q)UIT?'.  To look at the planets in the
+system or adjust their controls, type 'P'.  To move the cursor, type the
+numbers one through eight as explained in Section 4 USING THE MAP.  To use the
+tactical map, type 'T'.  When you have completed the Control Adjustment Phase,
+type 'Q' and you will move on to the Production Phase.
+
+7.2 ADJUSTING PLANET CONTROLS
+-----------------------------
+The Population Control you assign sets the maximum population of the planet.
+The population needs to be fed or it starves, and it increases 25% a turn.  The
+population does not automatically fall off to the population control; it simply
+does not exceed that level, its purpose is to insure that surplus food is
+possible.  To adjust the population control, type 'P'.  When you are asked what
+value you want the control set to, respond with a number within the given
+limits and press <CR>.
+   The Mining Control figure you assign assures that mines which have been lost
+through depreciation in each turn will be replaced.  At the end of the Control
+Adjustment Phase, the computer automatically buys mines on each planet where
+the number of mines is less than the mining control.  Of course this only is
+possible if you have sufficient IOs to pay for all the rebuilt mines.  Mining
+Controls are adjusted in the same manner as Population Controls, except that an
+'M' is typed.
+   Negotiation Status Control determines whether or not you are negotiating
+with an independent world.  To make a trade agreement with an independent world
+(ally to it), type 'N' and the status will be set to YES.  If you do not wish
+an agreement with the planet, type 'N' again; and the status will be set to NO.
+You might choose to do this just prior to invading and independent world since
+you may not attack and independent world with which you are allied.
+   For the same reason you may want to break a trade agreement with an allied
+independent.  To do so, type 'B'.  This will not only break the current trade
+agreement, but will set the negotiation status to NO.
+   To adjust a planet's controls, move the cursor over any system you have
+explored and press 'P'.  If you have visited the system (See Section 4.3), the
+planet display will now be on the screen.  Below the planet display is the
+question 'ADJUST CONTROLS FOR WHICH PLANET (1,2, OR E(X)IT ?'.  Press the
+number of the planet for which you wish to adjust the controls or an 'X' if
+you do not wish to (or are unable to) give orders to any of the planets.  The
+bottom of the screen will now show the question 'ADJUST (P)OP CNTROL, (M)INING
+CONTROL, (N)EGOTIATION STATUS, (B)REAK AGREEMENT OR E(X)IT ?'.  Only if the
+planet is an independent world allied with you will the break agreement option
+be given.  Only if the world is independent will the Negotiation Status option
+be offered.  Players may not adjust the Population or Mining Controls of
+independent worlds.
+
+8.0 THE PRODUCTION PHASE
+========================
+During the production phase, you may construct ships, defense bases and armies,
+develop planets, and spend IOs on research.  At the start of the phase, the map
+is displayed.  The cursor is situated where it was at the conclusion of the
+Control Adjustment Phase.  At the bottom of the map, you are asked to 'LOOK AT
+(P)LANETS OR (W)ARSHIPS, (B)UILD, TYPE 1-8 TO MOVE THE CURSOR, (T)ACTICAL MAP
+OR (Q)UIT ?'.  To build on a friendly or allied independent world, move the
+cursor over the system (using the keys 1-8) and type 'B'.  To see the task
+forces currently in the system, type 'W'.  When you have finished the
+Production Phase type, 'Q'; and you will proceed to the next player's Control
+Adjustment Phase.
+
+8.1 THE SHIP DISPLAY
+--------------------
+If you press 'W', the screen clears and prints the ship display.  The name of
+the player owning the ships is at the top.  Below the name is a list of the
+ship classes and the number and average effectiveness of all the player's ships
+of each class.  Below the ship classes, the number of transports in the system
+is displayed.  Finally, all the task forces in the system are.  Task forces are
+numbered from one to thirty-two.
+   At the bottom of the ship display, the computer now asks 'LOOK AT (T)ASK
+FORCE, (R)ETURN TO THE MAP, LOOK AT (P)LANETS OR (W)ARSHIS, (B)UILD OR (Q)UIT
+PRODUCTION ?'.  This offers the additional option of seeing the indivdual task
+force.
+
+8.2 THE TASK FORCE DISPLAY
+--------------------------
+If you have pressed 'T' to look at an individual task force, the computer asks
+'WHICH TASK FORCE (1-32) ?'.  Respond with the number of the task force you
+wish to see.  The screen will show the Task Force Display for that task force.
+   The number of the task force being examined is at the top.  Below this, the
+computer print the task force's current position (if moving, this is the star
+from which the task force left), the task force's destination, the number of
+movement phases before it arrives at the destination (ETA), and the mission the
+task force is currently performing.  In a column on the right are the number of
+transports in the task force, the number of armies, and the population being
+carried.  Finally, the display shows each ship in the task force.  Each ship
+has an ID, type (or class), efficiency, and tech level.  If there are more
+ships in the task force than are displayed on the screen (i.e. the screen is
+full), type 'M'; and more of the task force's will be shown.  If for any reason
+you wish to destroy any ships in the task force, type an 'S'; and you may
+scuttle the ship by typing in its ID number and a <CR>.  When you finish
+looking at the task force, type 'X'; and the main menu will return.
+
+8.3 PRODUCTION
+--------------
+If you type 'B' (Build) from the main menu, you will be asked 'WHAT PLANET
+NUMBER (1,2, OR X) ?'.  Respond as you did during the Control Adjustment Phase
+with the number of the planet or an 'X' to exit.  If you own that planet or
+are allied to it, you may build on it.
+   When you build on a planet, the screen shows the Active Industry on the
+planet, your ID Pool, the planet's Mil IO Pool, and the minimum recommended
+traders.  The minimum recommended traders is calculated by the computer for all
+your planets.  Next, each of your ship classes is shown; the class name (type),
+the class characteristics and the total number of that ship class that you own.
+Below this are two columns.  The first column contains items which require Mil
+IOs to purchase, and the second column consists of items requiring only IOs to
+purchase.  The transports and traders show the total number of each that you
+own.  Tech shows your current technological level.  All other items show the
+amount of the item on the planet.
+   The cursor appears over the number of ships of your first class.  To
+purchase any of these ships, type the total number you want to own followed by
+a <CR>.  If you don't wish to purchase any new ships, type <CR>; and the cursor
+will move to the next class.  If you type a number, the number must be at least
+as large as the current value.  Once something has been ordered to be
+construced it is constructed, so make sure you want it before you buy it.  To
+buy any item requiring Mil IOs, you must have both the number of IOs and the
+number of Mil IOs required for purchase of that item.  In addition, the
+planet's Active Industry must equal or exceed the Minimum Active Industry
+requirement for the item.  Thus, for example to buy three medium ships, the
+planet must have 24 Active Industry, and must be able to spend 36 ICs and 36
+Mil IOs.
+   As you continue to type in numbers (or <CR> if you don't want or can't
+afford an item), the cursor moves from item to item.  If the value of an item
+is already at its maximum, then the cursor skips over the item.  Armies may not
+be built on captured worlds still containing guerillas.
+
+8.3.1 IO Cost Table
+-------------------
+
+                  IO      MIL IO       MINIMUM             MAX
+  ITEM           COST      COST        ACTV IND           VALUE
+-------------------------------------------------------------------------------
+Small Ship         5         5            10           Total number of
+Medium Ship       12        12            24           warships may not
+Large Ship        35        35            70           exceed 255
+Tranport           5         5            10           255 per task force
+Trader             2         2             4           No limit
+SDF                3         3             6           30
+PDF                3         3             6           30
+Army               1         1             2           255
+-------------------------------------------------------------------------------
+Tech Level       350         0             0           7
+Industry           8         0             0           100
+Mine               5         0             0           RSRC
+Agriculture        2         0             0           ENVT-50
+Environment       10         0             0           100 can't be built
+                                                         until Tech = 4
+
+8.3.2 Designing Ships
+---------------------
+There are two other options available when the cursor is over warships.
+Besides a number or a <CR>, you may type 'R' for revise or 'S' for scuttle.
+When a class is scuttled, every ship in the class is destroyed; and the class
+may be redesigned to any size.  When a class is revised, all ships of the class
+which are not on a repair mission are destroyed.  All ships of the class being
+repaired assume the characteristics of the revised class.  A revised class is
+always the size of its predecessor.
+   When you type 'R' or 'S', the computer asks for confirmation.  After
+confirmation, ships are destroyed as determined above.  If 'S' is pressed, you
+are asked 'WHAT IS THE SIZE OF THE NEW CLASS (L,M,S) ?'.  Type 'L' for a large
+ship, 'M' for a medium ship, or 'S' for a small ship.
+   You are asked to name the new class.  The class name must contain at least
+one and may not have more than four characters.
+   To the right of the number of ships of the class, the number of design
+points that may be spent on the ship class appear.  Each characteristic costs
+the number of design points shown on the following table.
+
+             SHIP DESIGN TABLE
+
+                    SMALL      MEDIUM      LARGE
+                     SHIP       SHIP        SHIP
+
+DESIGN PTS           16          32          64
+PB                    1           1           1
+EN                    1           1           1
+MS                    1           1           1
+EV                    1           2           4
+AR                    1           1           1
+AM                    1           1           1
+SPD                   1           2           4
+
+MINIMUM EV
+ (NOT COST)           4           2           1
+
+   Designing a class is similar to buying a ship.  The cursor appears over the
+previous value of the characteristic.  To alter the value of the characteristic
+type the value you wish.  To use the previous value, simply hit <CR>.  As you
+finish with each characteristic, the number of design points remaining is
+updated; and the cursor will move to the next characteristic.  If it does not,
+you have typed in a value that is either below the minimum or requires more
+design points than you can spend.  When the speed is typed in, the cursor
+returns to the number of ships in the class; and you can continue buying items.
+
+9.0 THE NEGOTIATION PHASE
+=========================
+During the phase, you have the opportunity to change your diplomatic stance
+toward other players, to negotiate with computer players and, at the end of the
+phase, to learn of any agreement formed or broken with independent worlds.
+
+9.1 DIPLOMATIC STANCES
+----------------------
+The diplomatic stance a player has toward another player determines what
+actions the opposing players' ships take during the Combat Phase.  There are
+three stances: Friendly, Neutral, and Hostile.
+   If a player is hostile to another player and each has a task force in the
+same system (not on commerce raid, embargo, or withdraw missions); combat
+occurs.  If a player has a task force on commerce raid or embargo missions in
+a system, he or she must be hostile to another player to destroy that player's
+trders.  If a player has a task force in a system containing another player's
+planet, he or she must be hostile to attack that player's planet.
+   A player who is neutral does not cause combat or occur and does not commerce
+raid or attack planets.  However, the player fights a  hostile opponent at no
+penalty.
+   If two players are friendly to each other and they have task forces in the
+same system as another player with whom they are both hostile, they fight
+together in combat against a common foe.  In the case of invading a world, the
+player who was listed first when the computer announced the combat (the
+controlling player) is considered the owner of any world caputred.
+
+EXAMPLE: Player #1 and Player #3 are attacking a planet.  Both contribute to
+capturing the planet, but because Player #3 was listed first, Player #3 will
+become the owner of the planet.
+
+NOTE: If two human players have made an agreement in which the non-controlling
+player has agreed to get a planet, simply have the controlling player withdraw
+before invading with armies.
+   If the task forces of two players, one of whom is hostile and one of whom
+is friendly, are in a system, combat occurs BUT ON THE FIRST ROUND OF COMBAT,
+THE FRINEDLY PLAYER MAY NOT SHOOT BACK!
+   Players always are considered to be hostile to indepent worlds with whom
+they are not allied and neutral to any independent worlds with whom they are
+allied.  Since being neutral does not allow an attack on a planet, a player
+may not attack an allied independent world.
+
+9.2 THE DIPLOMATIC STANCE TABLE
+-------------------------------
+All operations of the Negotiation Phase are conducted from the Diplomatic
+Stance Table.  This table shows your stance toward each other player and the
+stance each other player had toward you in the LAST TURN.
+   At the bottom of the table, the menu asks 'CHANGE STANCE TOWARD PLAYER
+(2,3,4), (N)EGOTIATE WITH A COMPUTER OPPONENT, OR E(X)IT ?'.  To change your
+stance toward a player, simply type the player number.  Your stance toward the
+player cycles from friendly to neutral to hostile and back to friendly each
+time you type the player's number.  To negotiate with a computer opponent, type
+'N'.  When you are finished with the negotiation phase type 'X'.
+   If you type 'N' for negotiate, the computer asks you with whom you wish to
+negotiate and displays all players run by the computer.  Choose one of these
+players by typing the player number.  You will then be asked if you want the
+player '(F)RIENDLY OR (N)EUTRAL TO YOU, OR HOSTILE TO AN OPPONENT ...' If you
+wish the player to be friendly to you, type 'F'.  If you want the player
+neutral to you, type 'N'.  If you want the player to be hostile toward another
+player, type the number of the other player.  At this point, the computer
+either accepts or refuses your offer.
+
+9.3 NEGOTIATION WITH INDEPENDENT WORLDS
+---------------------------------------
+After you have exited the Negotiation Phase by typing 'X', the computer informs
+you of any changes in trade agreement.  Trade agreements allow you to use the
+production of the independent world.  Before any agreements are made or broken,
+an independent world may change its stance toward you.  There is a 10% chance
+of the world becoming more friendly and a 10% chance of it becoming more
+hostile.  If the world is hostile, there is a chance it will become permanently
+hostile.
+   Hostile independent worlds have a 25% chance of making an agreement with you
+and a 50% chance of breaking an agreement with you.  Neutral independents have
+a 50% chance of making an agreement with you and a 25% of breaking off.
+Friendly independents have a 90% chance of joining you and a 10% chance of
+throwing you out.  You may make an agreement only with an independent world
+which is not currently allied to another player and with which you are
+negotiating (NEGOTIATE = YES).
+
+10.0 THE MOVEMENT PHASES
+========================
+In this phase, the players can move ship between task forces in the same system
+, load and unload transports on friendly planets, and order task forces onto
+missions.
+
+10.1 THE MISSIONS
+-----------------
+There are six missions that can be assigned to task forces.  The first three
+(Garrison, Repair and Patrol) do not cause the task force to move.  The second
+three (Commerce Raid, Embargo and Move) allow the task force to be moved to
+another system.
+   The garrison mission causes the task force to sit at a star system and
+defend it against enemy task forces entering the system.  Task forces on
+garrison do not attempt to fire enemy commerce raid missions.
+   The repair mission may be ordered only the First Movement Phase, and only to
+task forces in a system with (1) a friendly world which has industry or (2) an
+allied independent world which has industry.  In the Production Phase, the
+ships of friendly task forces on repair missions return to 100% EFF and assume
+the TECH which the player had at the start of the phase.  They are not
+destroyed if the player revises the ship's class.  Task Forces on repair or not
+return fire during combat.
+   The patrol mission is identical to the garrison mission, except that task
+forces on patrol attempt to find and engage enemy task forces on commerce raid
+or embargo mission.
+   The Commerce raid mission sends a task force to search for enemy traders
+coming on going from the system where it is stationed.  If encounters a patrol,
+it fights one round at withdraws.  Commerce raiders are not considered to be in
+a system, so they are not involved in any combat within the system.  Nor are
+they considered to have entered the system for the purpose or determining
+whether or not a player may look at the system's planets.
+   The embargo mission is identical to the commerce raid mission, except that
+it is more agressive.  Task forces on embargo have a higher chance of finding
+traders and being found patrols.  Additionally, they are not required to
+withdraw from combat after the first round.
+   The movement mission sends its task force from its current star system and
+moves it toward the system given for its destination.
+
+10.2 THE MAP MENU
+-----------------
+When you first enter the Movement Phase, the strategic map is displayed with
+the cursor over your home system.  At the bottom of the map, the computer asks
+'TYPE 1-8 TO MOVE THE CURSOR, (C)HANGE THE MAP, (O)RDER FLEET, LOOK AT YOUR
+(F)LEET, THE (S)YSTEM OR (Q)UIT ?'.
+   Typing '1' through '8' moves the cursor as it does in other map displays,
+and typing 'S' returns the Planet Display.  Typing 'F' provides the Ship
+Display, but you can choose whether you wish to look at the task forces in the
+system or all of your task forces.  When you have completed all your movement,
+type 'Q' to quit the phase.
+   Typing a 'C' allows you to change the map.  The computer then asks 'CHANGE
+TO THE (T)ACTICAL MAP, THE MISSION DISPLAYED TO (G,R,P,C,E,M,A) OR E(X)IT ?'.
+To use the tactical map, type 'T'.  If you are on the tactical map, type 'S' to
+return to the strategic map.  Normally, the maps show all of your task forces
+which are not in transit.  If you type 'G','R','P','C','E', or 'M', each map
+shows only those of your task forces which are on garrison, repair, patrol,
+commerce raid, embargo, or move missions.  Typing 'A' restores the map showing
+all of your task forces.  Typing 'X' returns you to the map menu.
+
+10.3 ORDERING YOUR TASK FORCES
+------------------------------
+By typing 'O' from the map menu, you can order those of your task forces that
+are in the system under the cursor.  Ordering includes the ability to split
+task forces and transfer the ships of one task force to another, as well as
+loading and unloading transports and assigning missions to task forces.  When
+you type 'O', the computer asks 'WHICH TASK FORCE (1-32) ?'.  Respond with the
+number of a task force within the system.  The computer then will ask '(L)OAD
+OR (U)NLOAD TRANSPORTS, (J)OIN OR (S)PLIT THE TASK FORCE, SET MISSION (G,R,P,C,
+E,M) OR E(X)IT ?'.
+
+10.3.1 Loading Transports
+-------------------------
+The option to load or unload transports is offered only if the task force being
+ordered has transports.  Each transport may carry one army or one colonist
+(POP pt.).  To load transports, type (L).  You are asked the number of the
+planet from which you wish to load.  Typing 'X' returns you to the previous
+menu.  Only planets actually belonging to the player may be entered.
+   Next, the computer asks for the number of armies you wish to take off the
+planet and gives you a range from which to respond.  Enter the number and <CR>.
+If there is any space left on the transports, the computer asks for the number
+of colonists (POP) you wish to take off the planet and gives you a range from
+which to respond.  Enter the number and <CR>.  At this point, the transports
+are loade as you wish them to be.
+
+10.3.2 Unloading Transports
+---------------------------
+Unloading transports occurs in the same manner as loading them.  The planet
+must be a player owned planet, or in the case of colonists, and unclaimed
+planet.  The computer only offers to unload armies or colonists if you have
+some aboard your transports.  Unloading colonists onto an unclaimed world
+asserts your claim on the world; and in the next production phase, you may buy
+AG, Mines, etc.  Remember, however, that the unloaded colonists must be fed!
+
+10.3.3 Splitting Task Forces
+----------------------------
+To split a task force into two or more task forces, type 'S'.  The Task Force
+Display appears on the screen.  At the bottom of the display, the computer
+prints.  'NEW TASK FORCE = # #'.  This is the task force being formed from the
+one to which you are giving orders.  The new task force will be identical to
+the originating task force, except that it will be empty.  Below the new task
+force declaration, the computer asks 'TRANSFER (T)RANSPORTS, WARSHIPS BY
+(E)FFICIENCY OR (I)D, OR E(X)IT ?'.
+   To transfer transports to the new task force, type 'T'.  You are asked for
+the number of transports you wish to transfer.  Respond with a number between
+zero and the maximum transports owned.  Transports carrying armies are
+transferred first, then those carrying colonists, and finally empty transports.
+   There are two ways to transfer warships to the new task force.  If you type
+'I', the computer asks for the ID or the ship to be transferred.  You may
+respond either with a single ship or a range of ships.  To transfer a single
+ship, type the ID number of the ship and <CR>.  To transfer a group of ships,
+type an ID number and a comma, followed by another ID number and a <CR>.  All
+ships in the task force between the first ID number and the second ID number
+(inclusive) then are transferred to the new task force.
+   The other way to transfer warships is to type 'E'.  The computer asks
+'TRANSFER SHIPS AT EFFICIENCY BELOW (1-100) ?'.  Respond with a number between
+1 and 100 and <CR>.  All warships in the task force with an EFF below the
+number entered will be transferred to the new force.  This is a good way to
+break off crippled ships.
+   After transferring ships by ID or EFF, you may transfer more to the same
+group by again typing 'E', 'I' or 'T'.  When you have finished transferring all
+that you wish to type an 'X'.  The Task Force Display appears again, this time
+showing the task force with its new composition.
+
+10.3.4 Joining Task Forces
+--------------------------
+To join two task forces, type 'J'.  The computer prints the Task Force Display
+and asks 'TRANSFER TO WHICH TASK FORCE ?'.  Respond with the number of a task
+force which is in the same system and which is not on a repair mission.  From
+this point, follow the procedure used for splitting a task force.  All ships
+transferred are transferred to the chosen task force.  No more than 255
+transports may be placed in one task force.  If all the ships in a task force
+are transferred, the task force is eliminated.
+
+10.3.5 Setting Missions
+-----------------------
+To set the mission of a task force, type the corresponding letter:
+
+  Garrison   'G'               Commerce Raid     'C'
+  Repair     'R'               Embargo           'E'
+  Patrol     'P'               Move              'M'
+
+   If you order the task force to a commerce raid, embargo or move, the map
+appears; and at the bottom, the computer asks 'WHAT IS THE DESTINATION (TYPE
+THE NAME OR 1-8 TO MOVE THE CURSOR AND <RETURN> WHEN FINISHED) ?'.  If you know
+the name of the destination system, type in the letters of the system without
+a <CR>.  As you are typing the letters of the system name, the computer
+compares the letters with system names.  As soon as it has enough letters to
+determine the destination, the computer prints the star system's name.  The
+other way to indicate the destination system is to move the cursor.  If you
+type a number, the computer moves the cursor as it normally does.  When the
+cursor is over the destination system, type <CR>.
+   Once the destination system has been indicated, the computer prints the
+destintion and the number of movement phases it will take the task force to
+reach the destination (ETA).  At the end of each movement phase, the ETA is
+reduced by one.  When the ETA reached zero, the task force has arrived at its
+destination.  All destinations must be a star system with two turns' travel of
+the task force.  A task force travels with the speed of its slowest ship.
+Transports move with a speed of two plus the player's tech level.
+   If the target is within range of the task force, the computer asks for
+confirmation, type 'Y', you send the task force off to target.  Task forces
+which previously have been ordered in the same Movement Phase may recalled and
+given new orders by attempting order them again.
+
+11.0 THE COMBAT PHASES
+======================
+In this phase, the computer looks for opposing forces in the same system. After
+resolving ship engagements, the computer looks to see any task forces are
+eligible to attack planet.  After all planetary combats are resolved, computer
+resolves all guerilla army combats.
+
+11.1 SHIP TO SHIP COMBAT
+------------------------
+If opposing forces are in the same system, ship to ship combat occurs.  The
+computer announce that there is a fleet engagement at the ship of the battle
+and lists the attackers and defenders.
+
+11.1.1 Choosing the Combatants
+------------------------------
+NOTE: This subsection is for your information only and will not affect your
+decisions.
+   The defender is chosen on the basis which player was in the system first and
+which the players have planets in the system.  After the attacker and defender
+are chosen, the computer draws in all allies of the defender which are in the
+system, if any of these allies are not hostile to the attacker and the attacker
+is not hostile to them, the attacker withdraws rather than fighting.  After the
+defender's allies have been brought in, all of the attacker's allies in the
+system which are hostile to the defender are bought in.
+
+11.1.2 Retreat Options
+----------------------
+Each player in turn is given the option of examining his or her task forces,
+the enemy fleet, and targetable planets.  While examine the task force, the
+player may also join and split the task force.  If the combat is in its second
+round (i.e. the ships have shot at each other once during this engagement),
+the player has the option of withdrawing all, some or none of the task forces
+from combat.
+   To examine a friendly task force, simply type 'F'.  The computer asks which
+task force and prints the Task Force Display, just as it does during other
+phases.  With The Task Force Display shown, the player may join and split task
+forces normally, with the added restrcition that ships may be transferred only
+to other task forces involved in the combat.
+   To look at the enemy fleet, type 'E'.  The computer shows the number of
+ships of each class the computer player has, and an approximation of the
+average weapons rating of the enemy fleet.
+   To see any planets owned by the defending players, if any, type 'L'.
+Independent worlds are not shown as no player owns these worlds.
+   To withdraw all your task forces from the engagement, type 'A'.  If there
+are no enemy left in the system, then your task forces will remain in the
+system.  To withdraw a task force from combat, type 'I'.  The computer asks
+which task force to withdraw.  Type the number of the desired task force and
+<CR>.  This action is extremely useful when combined with splitting and joining.
+If you wish to remove damaged ships from the fight during and engagement.
+
+11.1.3 Combat Options
+---------------------
+In this section, the rules refer to a tactical disadvantage.  This tactical
+disadvantage is a 25% decrease in the affected player's firepower.  After
+looking over your forces, the computer provides you with options based on the
+situation.  The Combat Options are always chosen by the controlling player in
+an alliance (that is the player who was listed first when the computer
+announced the combat.  If you are fighting an enemy fleet, you will either be
+fighting near a planet or far away from a planet.  If the engagement is near a
+planet, the defenders will receive the benefit of the planet's SDFs.  Each SDF
+has a 16 MS (Missile System Rating) when supporting a defending fleet.  If the
+engagement is far from the planet, the defending ships are on their own.
+   If there are no targetable planets, the engagement will automatically be far
+from a planet (you can't use the defenses of a planet not your own).  If there
+are one or two tragetable planets, the attacking player may choose to attack a
+planet (the player designates the target) or may engage the enemy.  Choosing to
+attack a planet is declaring a hit and run raid.  The player recklessly drives
+on the planet, fires all long range weapons and leaves the system.  The
+defender may choose to defend a planet (the player designates which) or engage
+the enemy.
+   If the attacker and defender both choose to engage, the combat occurs in
+deep space, far from any planet.  Any time the battle is in deep space, each
+player has the option of targeting any enemy transports.  If the option is
+chosen, the player's task forces fights at a tactical disadvantage, but shoots
+at enemy transports as well as enemy warships.
+   If the attacker chooses to attack a planet and the defender either engaged
+the enemy or defended the targeted planet, a round of combat is between the
+attackers and defenders, with the attackers having a tactical disadvantage.  At
+the end of the combat round, any surviving attackers will bomb the planet
+destroying industry, mines, agriculture, armies and population.  The amount
+destroyed is based on the strength of the attackers.  Energy weapons are not
+effective in bombing a planet, missiles are partially effective, and planetary
+bombardments are fully effective.  After bombing the planet, the attacking task
+forces must withdraw.  This means the only way to capture a planet when the
+enemy is present is to engage the enemy and destroy them or force them to
+withdraw.
+   If the attacker chooses to attack a planet and the defender is protecting a
+different planet, the attacker fights the planet's SDFs and any survivors bomb
+the planet.  After the attacker bombs a planet, the attacking task forces
+immediately withdraw.
+
+11.2 SHIP TO PLANET COMBAT
+--------------------------
+Any time a ship to ship engagement is fought and the defender withdraws, the
+attacker has the option of attacking the defender's planets in the system.  In
+either the First Combat Phase or the Second Combat Phase, after all ship to
+ship combat is over, players in a system containing enemy planets or non-allied
+independent worlds have the option of attacking those planets.  A player has
+the option to attack only if the attack strength of the fleet is at least
+sixteen.  This is provided so a player will not know whether an enemy scout is
+sitting over an independent world.
+
+11.2.1 Retreat Options
+----------------------
+The abilities to retreat, rearrange task forces, etc, are the same during ship
+to planet combat as with ship to ship combat, with the following execeptions:
+   A player is never required to attack a planet; he or she may break off
+action before the first round of combat.
+   There is no enemy fleet to look at, so there is no option to look at the
+enemy.
+
+11.2.2 Combat Options
+---------------------
+The combat option is chosen by the controlling player in an alliance (that is,
+the player who was listed first when the computer announced the combat).  The
+options available are based on whether or not there are defense bases on the
+target planet.
+   If there are defense bases (SDFs and PDFs) the computer asks '(A)RMY ATTACK,
+(F)LEET AND ARMY ATTACK, ATTACK THE PLANETS (D)EFENSES, (B)OMB EXTRA(NON
+MILITARY) TARGETS OR (G)ARRISON ?'.
+   To eliminate the defense bases, type 'D'.  The computer asks if you wish to
+attack from space of atmosphere.  If the fight tasks place in space, the PDFs
+are not involved in the combat.  Further, the attacker's PB and MS weapons, as
+well as the defending SDFs are at reduced strength while the attacker's EN
+weapons are not useful at all.  If the fight takes place in the planet's
+atmosphere, all weapons and bases contribute to combat.
+   To bomb other targets, such as industry, as you are attacking the planet's
+defenses, type 'B'.  This places your ships at a tactical disadvantage.
+   If you decide you don't want to attack the world after all, type 'G', the
+fight ends, just as if you had typed 'A' during the retreat options.
+   To capture a world, it is usually best to eliminate the enemy defense bases
+first.  However, if you wish to capture the world with the defense bases intact
+so that you may use them, type 'F'.  Your fleet enters the atmosphere, ignoring
+the enemy defense bases.  The defending defense bases gratefully blow as many
+attacking ships out of the skies as they can.  Surviving trasnports unload any
+armies they are carrying and surviving warships stop screening your transports
+long enough to attack opposing armies.  The defending bases also do their best
+to destroy the attacking armies.
+   If you type 'F', the computer in the next combat round thoughtfully allows
+you to abandon your armies with the '(A)RMY ATTACK' option.  If you type 'F',
+your fleet again goes into the atmosphere to support your armies.  If, as is
+more probale, you find that your fleet is heavily battered and you do not wish
+to risk them again, you may type 'A'.  Your armies then fight the enemy armies
+while the enemy defense bases again support the valiant defenders.
+   At the end of a combat round, if there are no enemy armies left on the
+planet, the planet is considered captured; the battle is over.  On the other
+hand, if there are no attacking armies left, the assault has been successfully
+fought off; and the attacker is left to figure out what to do next.
+   If there are no defense bases at the start of a combat round, the computer
+asks, '(B)OMB, (P)URGE, (C)APTURE THE PLANET, OR (G)ARRISON ?'.  Since the
+planet is unable to defend itself, all these actions are without risk to your
+ships.  If you don't wish to attack the planet type 'G'.
+   To cut back on the planet's armies before attempting to capture it, type
+'B'.  Unfortunately, this also destroys some of the industry, mines, and
+population that you are attempting to capture.
+   To capture the planet, type 'C'.  Your fleets and armies attack the planet,
+just as if you had typed 'F' when there were defense bases.  In this case,
+however, there are no defense bases; and your fleet and armies keep attacking
+until there are no friendly armies or there are no enemy armies left on the
+planet.
+   Finally, if you do not want anyone to have the planet, type 'P'.  Purging
+a planet eliminates all traces of life on the planet without disturbing the
+environment.  In fact, the world becomes just the same as any other unclaimed,
+undeveloped world.
+
+11.3 GUERILLA COMBAT
+--------------------
+After a planet is captured, a number of guerillas equal to the planet's AG
+appear on the planet.  These guerillas destroy industry and mines during the
+Trade Phase, and fight your armies at the end of the First and Second Combat
+Phases.  Further, until the last guerilla is destroyed, you are unable to build
+armies on the world, it is not truly yours.
+   Fighting guerillas is somewhat difficult and fleet support does not help.
+Each guerillas attacks an army with a 12% chance of destroying it.  At the same
+time, each army attacks a guerilla with a 25% chance of destroying it and a 12%
+chance of destroying a POP point.
+   If at the end of a Combat Phase there are no guerillas left on the planet,
+the planet is as if he or she were the original owned.  If at the end of any
+combat phase there are no armies on the planet, but there are guerillas, the
+planet considered recaptured and belongs to the original player.  If at the end
+of the Trade Phase, there are still guerillas on the planet; the guerillas
+force will recruit back to the planet's AG.
+
+12.0 SEQUENCE OF PLAY IN A TURN
+===============================
+I.   Computer Action
+     Computer carries out each player's trade in the Trade Phase
+II.  Player Action
+     Each player in turn moves through the following:
+       Control Adjustment Phase
+         Map Display
+         Decision/Action
+       Production Phase
+         Map Display
+         Decision/Action
+III. Human Player Action
+       Negotiation Phase
+         Diplomatic Stance Table Display
+         Decision/Action
+IV.  Computer and Human Player Action
+     Computer carries out negotiations for independent worlds
+       Results Displayed
+         Post Negotiation Combat Phase
+     Computer determines where combat conditions exist and players execute
+     combat
+       Results Displayed
+       Opportunity to Save Game
+V.   Human Player Action
+     Each player in turn moves through the following:
+       First Movement Phase
+         Map Display
+         Decision/Action
+VI.  Computer and Human Player Action
+       First Combat Phase
+         Results Displayed
+         Opportunity to Save Game
+VII. Repeat of V. and VI. for Second Movement and Second Combat Phases
+
+13.0 ASSORTED RULES
+===================
+
+13.1 Any planet which has no POP on it immediately loses any agriculture,
+armies and guerillas.  The owner loses ownership and the first player to land
+any colonists claims the planet along with its mines and industry.
+
+13.2 Task forces which have been in transit for one movement phase may not be
+given any orders until they arrive at their destination.
+
+13.3 At the end of each combat phase, you have the chance to save the game.
+When the computer asks if you wish to save the game, type 'Y'.  The save game
+program loads.  Follow the instructions return to the game after saving it.
+
+13.4 A ship with a movement of one or more adds its tech level to its speed.  A
+ship with a speed of zero is always speed zero.
+
+
+14.0 VICTORY CONDITION
+======================
+Imperium Galactum lasts through as many turns as you wish.  When all players
+agree to end the game, enter the save game program (by typing 'Y' at the
+conclusion of the combat phase) and type 'E'.  The computer asks for a
+confirmation.  Type 'Y' (Yes) to confirm.  The computer calculates the total
+population for each player.  Independent worlds and worlds with guerillas
+provide to victory points to any player.  Otherwise each point of POP is worth
+one victory point.
+   After the victory point totals and the winner have been displayed, the
+computer sets all players to human and allow you to return to the game.  This
+will allow you to look at the opposing players' fleets and planets.
+
+15.0 PLAYER NOTES
+=================
+The following principles and techniques were found to be successful during
+play testing.  If you wish to learn these from your own experience, you may
+cease reading and start the game.
+   The optimum number of mines on a planet is approximately the resource level
+minus five.
+   We found it best to provide escort vessels to screen your large ships.  This
+is especially true when attacking planets, where PDFs can seriously damage
+(if not destroy) your toughest ships.
+   As your tech level increases, occasionally withdraw all ships of one class
+to your home world and place them on repair.  This allows you to revise the
+class and trade the speed you have gained through tech for more armaments and
+defenses.
+   As warships get below an EFF of 88, send them home for repair.  Low EFF
+ships are easier to damage and do not do as much damage as intact ships.
+   Never let a hevily damaged ship fight.  Instead of throwing it away while
+it can't fight well, withdraw it from the combat and let it repair and fight
+another day.  Remember repairing a ship does not cost 10s, while building one
+does.  This holds true especially for large ships.
+   When attacking a planet, attack in the atmosphere.  Do not attack a planet
+until you have a ratio of at least 3:2 of warships of various sizes to
+defense bases.
+   Don't invade a world unless you have at least a 5:2 ratio of armies to the
+planet's AG level.  This ratio is adjusted upward or downward slightly for the
+number of annies the opposing player has.  If you are invading while they still
+have defense bases, count each defense base as an additional AG point.
+   The best way to colonize a planet is to send one colonist down to the world
+to claim it.  During the following production phase, buy all the AG, mines and
+industry that your waiting colonists in the following movement phase.  Remember
+to make sure you have surplus food and a trader to keep that first colonist
+alive.  On the turn BEFORE you load your transports, set the population control
+N=1 points higher than it currently is, where N = the number of colonists you
+plan to load.  Next production phase, the population increases to that level
+(Population increase comes AFTER starvation).  In the Control Adjustment Phase
+of the turn you load the transports reset your population control to its former
+level minus one.  This insures that there is one surplus food.  In the
+following movement phase load your transports and be off.  In this way you lose
+only one POP from your work force.  When you buy for the newly colonized planet
+.  Insure that there is enough AG for the population and enough left over for
+the population to grow.  When the colony has enough AG to feed its POP, restore
+the POP CNTRL of the original world to its starting level.
+
+Map 1
+-----
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. K . . . . . . . B . . . . . . K . . . . . . . M . . . F . . . . . . . . G . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . K . . . . .
+. . . . G . . . . . . . . . . . . . . . . . . . . . . . . . . K . . . . . . . .
+. . . . . . . . . . . . F . . . . . . M . . . . . . . . G . . . . . . . . . . .
+. . . . . . . . . K . . . . . . . . . . . . . K . . . . . . . . . . B . . . . .
+. . . . . . . . . . . . . . . G . . . . . . . . . . . . . . . . F . . . . . K .
+. . . K . . . . . . . . . . . . . . . . . . . . . . . . . K . . . . . . . . . .
+. . . . . . M . . . . . . . . . . . . K . . . . M . . . . . . . . . . . . . . .
+. . . . . . . . . . . . F . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . G . . . . M . .
+. K . . . . . . . . . . . . . . . . M . . . . . . . . . K . . . . . . . . . . .
+. . . . . . . . K . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . G . . . . . . K . . . . . . . . . . . . B . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . K . . . F . . K . . . . . . . M . . . . K . . . . .
+. . . F . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . G . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . K . . . . M . . . . . . . . . . . . . F . . . . K . . . . . . . .
+. . . B . . . . . . G . . . . . . . F . . . G . . . . . . . . . . . F . . . K .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+Map 2
+-----
+
+. . chronos . . . . vega. . . . . artemis . . . . hell. . heimdall. . . . .eden
+. K . . . . . . . B . . . . . . K . . . . . . . M . . . F . . . hestia. . G . .
+. . . . . SOL . . . . . . . . . . . . . . . . . . . . . . . hebe. . K . . . . .
+. . . . G*. . . . . . . . baldur. . . . ross. . . . . . . . . K . . . . . . . .
+. . . . . . . athene. . F . . . . . . M . . . . hermes. G*.paradise . .sirius .
+. . . . . . . . . K . . . . . . mithra. . . . K . . . . . . .thor . B . . . . .
+. . . . apollo. . . . . . . . G . . . . . . . . . . . zeus. . . F . . . . . K .
+. . . K . . . wolfe . . . . . . .poseidon . . . . hades . K . . . . . .ooysseus
+. . . . . . M . . . . . . odin. . . . K . . . . M . . . . . . . . . . . . . . .
+. . . . . . . . . . . . F . . . . . . . . . . . . . . . . . . . . isis. . satan
+. . aphrodite . . . . . . . . . . . . lucifer . . . . . . ajax. G . . . . M . .
+. K . . . . . . . cassandra . . . . M . . . . . . . . . K . . . . . . . . . . .
+. . . eldhim. . K . . . ares. . . . . . . . . . . altair. . . . . . . . . . . .
+. . . . G . . . . . . K . . . gaea. norns . . . B . . . . . ahriman . hector. .
+. . . . fafnir. . . . . . . K . . . F . . K . . . . . . . M . . . . K . .utopia
+. . . F . . . . . . . . . . . . . . . . . . perseus . . . . . . . . . . . G*. .
+. . . . . . . . hera. . . baal. . . . . . . . . . . . loki. . . achilles. . . .
+. . . . . . . K . . . . M . . . . . . frey. . . . . F . . . . K . . . . agamemn
+. . . B . . . . . . G*. . . . . . . F . . . G . . . . . . . . . . . F . . . K .
+. . . . procyon . . . rigel . . . . . . . . . deneb . . . . . . . sigurd. . . .
+
+
+Map Description
+---------------
+
+Map 1 show the star system only.
+
+Map 2 show the star system with the name.
+
+- Upper Character means the star system.
+- Lower Character means the name of the star system.
+- Upper Character with '*' means the capital System.
+
+
+
+PLAYER SYMBOLS
+==============
+
+PLAYER #1                                                    PLAYER #2
+Task Force      ****                         ********        Task Force
+                   **                           *
+                ***********                  ************
+                   **                           *
+                ****                         ********
+                              ****
+                            *       *
+                           *         *
+                           *         *
+                            *       *
+                              ****
+
+PLAYER #3          *****                            ****     PLAYER #4
+Task Force           *                             **        Task Force
+             ***********                     ***********
+                     *                             **
+                   *****                            ****
+
+
+
+
+CURSOR MOVEMENT CONTROLS
+========================
+
+
+                  1
+           8             2
+             \    |    /
+               \  |  /
+                 \|/
+        7   -------------- 3
+                 /|\
+               /  |  \
+             /    |    \
+                  |
+          6               4
+                  5
+
+
+
+ECONOMIC NOTES
+==============
+
+- Each AG makes 4 FOOD and need 1/2 POP
+- Each MINE makes 1 ORE and needs 1/2 POP
+- Each IND makes 3 IOs and 2 Mil IOs and needs 1 ORE and 1-1/2 POP
+
+
+IO COST TABLE
+=============
+
+
+                  IO      MIL IO       MINIMUM             MAX
+  ITEM           COST      COST        ACTV IND           VALUE
+-------------------------------------------------------------------------------
+Small Ship         5         5            10           Total number of
+Medium Ship       12        12            24           warships may not
+Large Ship        35        35            70           exceed 255
+Tranport           5         5            10           255 per task force
+Trader             2         2             4           No limit
+SDF                3         3             6           30
+PDF                3         3             6           30
+Army               1         1             2           255
+
+Tech Level       350         0             0           7
+Industry           8         0             0           100
+Mine               5         0             0           RSRC
+Agriculture        2         0             0           ENVT-50
+Environment       10         0             0           100 can't be built
+                                                         until Tech = 4
+
+
+
+SHIP DESIGN TABLE
+=================
+
+                    SMALL      MEDIUM      LARGE
+                     SHIP       SHIP        SHIP
+
+DESIGN PTS           16          32          64
+PB                    1           1           1
+EN                    1           1           1
+MS                    1           1           1
+EV*                   1           2           4
+AR                    1           1           1
+AM                    1           1           1
+SPD                   1           2           4
+
+* MINIMUM EV (which is free) is 4, 2, and 1 EV for small, medium, and large
+  ships respectively.
+
+
+MISSION ASSIGNMENT
+==================
+
+        MISSION     CODE
+
+       GARRISON      G
+         REPAIR*     R
+         PATROL      P
+  COMMERCE RAID      C
+        EMBARGO      E
+           MOVE      M
+       WITHDRAW      W
+
+* May only be given during first movement in system with friendly or allied
+  independent industrial world.
+
+
+-------------------------------------------------------------------------------
+Game Deisgn and Programming:  Paul Murray
+Game Development           :  Kelth Brors
+Produce by SSI 1984
+-------------------------------------------------------------------------------
+
