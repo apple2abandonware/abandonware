@@ -1,4 +1,4 @@
-find . -type f ! -name ".DS_Store"
+find . -type f ! -name ".DS_Store" 
 
 ./- Personality/Brain Game/- Documentation/brain_game.pdf
 ./- Personality/Brain Game/brain_game_1b.dsk
@@ -203,7 +203,6 @@ find . -type f ! -name ".DS_Store"
 ./- Books/- Hint books/Quest for Clues/_spoil/spellcasting_101_clues.pdf
 ./- Books/- Hint books/Quest for Clues/_spoil/willow_clues.pdf
 ./- Books/- Hint books/Quest for Clues/_spoil/rings_of_zilfin_clues.pdf
-./- Books/- Hint books/Quest for Clues/_spoil/wizardry_iv_clues.pdf
 ./- Books/- Hint books/Quest for Clues/_spoil/tower_of_myraglen_clues.pdf
 ./- Books/- Hint books/Quest for Clues/_spoil/ultima_martian_dreams_clues.pdf
 ./- Books/- Hint books/Quest for Clues/_spoil/escape_from_hell_clues.pdf
@@ -293,10 +292,6 @@ find . -type f ! -name ".DS_Store"
 ./- Graphics/Mouse Paint/- Documentation/section.gif
 ./- Graphics/Mouse Paint/- Documentation/eraser.gif
 ./- Graphics/Mouse Paint/- Documentation/mousepaint.htm
-./- Graphics/Turtle Graphics/Alice in LogoLand/alice_in_logoland.dsk
-./- Graphics/Turtle Graphics/Alice in LogoLand/- Documentation/alice_in_logoland_disks.jpg
-./- Graphics/Turtle Graphics/Lego TC Logo/lego_tc_logo.dsk
-./- Graphics/Turtle Graphics/Krell's Logo/krells_logo.dsk
 ./- Graphics/Koala Painter/koala_painter.dsk
 ./- Graphics/Koala Painter/koala_micro_illustrator.dsk
 ./- Graphics/Koala Painter/koala_graphics_exhibitor.dsk
@@ -318,6 +313,13 @@ find . -type f ! -name ".DS_Store"
 ./- Graphics/Complete Graphics II/- Documentation/complete_graphics_ii_fonts.pdf
 ./- Graphics/Complete Graphics II/- Documentation/complete_graphics_ii_tablet_cmds.pdf
 ./- Graphics/Complete Graphics II/- Documentation/complete_graphics_ii.pdf
+./- Graphics/- Turtle Graphics/Apple Logo II/apple_logo_ii.po
+./- Graphics/- Turtle Graphics/Apple Logo II/- Documentation/apple_logo_ii.pdf
+./- Graphics/- Turtle Graphics/Apple Logo II/logo_plotter_examples.po
+./- Graphics/- Turtle Graphics/Alice in LogoLand/alice_in_logoland.dsk
+./- Graphics/- Turtle Graphics/Alice in LogoLand/- Documentation/alice_in_logoland_disks.jpg
+./- Graphics/- Turtle Graphics/Lego TC Logo/lego_tc_logo.dsk
+./- Graphics/- Turtle Graphics/Krell's Logo/krells_logo.dsk
 ./- Graphics/Graphics Converter/- Documentation/graphics_converter_box_front.jpg
 ./- Graphics/Graphics Converter/- Documentation/graphics_converter.pdf
 ./- Graphics/Graphics Converter/- Documentation/graphics_converter_disk.jpg
@@ -375,7 +377,7 @@ find . -type f ! -name ".DS_Store"
 ./- Simulator/Tomahawk/- Documenation/tomahawk_disk.jpg
 ./- Simulator/Tomahawk/- Documenation/tomahawk_box_back.jpg
 ./- Simulator/Bermuda Race/bermuda_race.dsk
-./- Simulator/F-15 Strike Eagle/f-15_strike_eagle.dsk
+./- Simulator/F-15 Strike Eagle/F-15 Strike Eagle (Cloak crack)/f-15_strike_eagle.dsk
 ./- Utilities/- Dsk software/ADT/adt_source.dsk
 ./- Utilities/- Dsk software/ADT/adt.dsk
 ./- Utilities/- Dsk software/ADT/read_me.txt
@@ -465,7 +467,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy/RobotWar/- Documentation/Published Robots/sample.rw.txt
 ./- Games/- Strategy/RobotWar/- Documentation/robotwar_key_summary_and_programming.txt
 ./- Games/- Strategy/RobotWar/- Documentation/robotwar_box_front.jpg
-./- Games/- Strategy/RobotWar/- Documentation/read_me.txt
 ./- Games/- Strategy/RobotWar/robotwar.dsk
 ./- Games/- Strategy/RobotWar/read_me.txt
 ./- Games/- Strategy/Archon/Archon II - Adept/archon_ii.dsk
@@ -502,9 +503,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy/Broadsides/- Documenation/broadsides_box_back.jpg
 ./- Games/- Strategy/Broadsides/- Documenation/broadsides.pdf
 ./- Games/- Strategy/Destroyer/Destroyer (Blade crack)/destroyer.dsk
-./- Games/- Strategy/Titan Empire/titan_empire.dsk
-./- Games/- Strategy/Titan Empire/- Documentation/titan_empire_box_front.jpg
-./- Games/- Strategy/Titan Empire/- Documentation/titan_empire_box_back.jpg
 ./- Games/- Strategy/Galactic Gladiators/galactic_gladiators.dsk
 ./- Games/- Strategy/Galactic Gladiators/- Documentation/galactic_gladiators_box_front.jpg
 ./- Games/- Strategy/Galactic Gladiators/- Documentation/galactic_gladiators_box_back.jpg
@@ -547,7 +545,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy/Lordlings of Yore/- Documentation/lordlings_of_yore_box_back.jpg
 ./- Games/- Strategy/Lordlings of Yore/- Documentation/lordlings_of_yore_disk.jpg
 ./- Games/- Strategy/Lordlings of Yore/- Documentation/lordlings_of_yore_poster.jpg
-./- Games/- Strategy/Conquering Worlds/conquering_worlds.dsk
 ./- Games/- Strategy/Ancient Art of War/Art of War I/- Documentation/art-of-war_disk.jpg
 ./- Games/- Strategy/Ancient Art of War/Art of War I/- Documentation/art-of-war_box_front.jpg
 ./- Games/- Strategy/Ancient Art of War/Art of War I/- Documentation/art-of-war_ref_a.jpeg
@@ -581,6 +578,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (classic)/- Defender/Repton/- Documentation/repton_box_inside.jpg
 ./- Games/- Arcade (classic)/- Defender/Repton/- Documentation/repton_box_front.jpg
 ./- Games/- Arcade (classic)/- Defender/Repton/- Documentation/repton_disk.jpg
+./- Games/- Arcade (classic)/- Defender/Repton/- Documentation/repoton_box_front.jpg
 ./- Games/- Arcade (classic)/- Defender/Repton/- Documentation/repton_poster.jpg
 ./- Games/- Arcade (classic)/- Defender/Repton/- Documentation/repton_box_back.jpg
 ./- Games/- Arcade (classic)/- Defender/Eliminator/eliminator.dsk
@@ -607,8 +605,12 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (classic)/- Pac-man/Puckman/puckman.dsk
 ./- Games/- Arcade (classic)/- Pac-man/Taxman/Taxman/taxman.dsk
 ./- Games/- Arcade (classic)/- Pac-man/Taxman/Taxman/- Documentation/taxman_box_front.jpg
+./- Games/- Arcade (classic)/- Pac-man/Taxman/Taxman/- Documentation/taxman_disk.jpg
+./- Games/- Arcade (classic)/- Pac-man/Taxman/Taxman/- Documentation/taxman_box_inside.jpg
 ./- Games/- Arcade (classic)/- Pac-man/Taxman/Taxman/- Documentation/taxman_box_back.jpg
 ./- Games/- Arcade (classic)/- Pac-man/Taxman/Taxman II/taxman_ii.dsk
+./- Games/- Arcade (classic)/- Pac-man/Taxman/Taxman II/- Documentation/taxman_box_front.jpg
+./- Games/- Arcade (classic)/- Pac-man/Taxman/Taxman II/- Documentation/taxman_box_back.jpg
 ./- Games/- Arcade (classic)/- Pac-man/-- Compilations/taxman+pac_man+ms_pac+nibbler+dung_beetles.dsk
 ./- Games/- Arcade (classic)/- Pac-man/Hungry Boy/hungry_boy.dsk
 ./- Games/- Arcade (classic)/- Pac-man/Hungry Boy/- Documentation/hungry_boy_box_back.jpg
@@ -678,6 +680,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (classic)/- Breakout/Arkanoid/arkanoid.dsk
 ./- Games/- Arcade (classic)/- Breakout/Super Trick Out/super_trick_out.dsk
 ./- Games/- Arcade (classic)/- Breakout/-- Compilations/littlle_brick_out+chipout+breakthru+super_trick_out.dsk
+./- Games/- Arcade (classic)/- Breakout/Flobynoid/flobynoid_v8.3.dsk
 ./- Games/- Arcade (classic)/- Qbert/Cubit/cubit.dsk
 ./- Games/- Arcade (classic)/- Qbert/Cubit/- Documentation/cubit_poster.jpg
 ./- Games/- Arcade (classic)/- Qbert/Mr. Cool/mr_cool.dsk
@@ -713,6 +716,9 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (classic)/- Frogger/Ribbit/- Documentation/ribbit_box_front.jpg
 ./- Games/- Arcade (classic)/- Frogger/Ribbit/- Documentation/ribbit_disk.jpg
 ./- Games/- Arcade (classic)/- Frogger/Ribbit/ribbit.dsk
+./- Games/- Arcade (classic)/- Frogger/Brainteaser Boulevard/brainteaser_boulevard.dsk
+./- Games/- Arcade (classic)/- Frogger/Brainteaser Boulevard/- Documentation/brainteaser_boulevard_box_front.jpg
+./- Games/- Arcade (classic)/- Frogger/Brainteaser Boulevard/- Documentation/brainteaser_boulevard_box_back.jpg
 ./- Games/- Arcade (classic)/- Frogger/-- Compilations/frogger+ribbit+road_pizza+brainteaser_blvd.dsk
 ./- Games/- Arcade (classic)/- Frogger/Frogger/Frogger II - Three Deep/three_deep.dsk
 ./- Games/- Arcade (classic)/- Frogger/Frogger/Frogger I/frogger.dsk
@@ -721,7 +727,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (classic)/- Frogger/Super Bunny/super_bunny.dsk
 ./- Games/- Arcade (classic)/- Frogger/Super Bunny/- Documentation/super_bunny_box_front.jpg
 ./- Games/- Arcade (classic)/- Frogger/Super Bunny/- Documentation/super_bunny_box_back.jpg
-./- Games/- Arcade (classic)/- Frogger/Brainteaser Blvd/brainteaser_blvd.dsk
 ./- Games/- Arcade (classic)/- Donkey Kong/Cannonball Blitz/cannonball_blitz.dsk
 ./- Games/- Arcade (classic)/- Donkey Kong/Cannonball Blitz/- Documentation/cannon_ball_blitz_box_front.jpg
 ./- Games/- Arcade (classic)/- Donkey Kong/Cannonball Blitz/- Documentation/cannon_ball_blitz_disk.jpg
@@ -851,6 +856,8 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Star Trek/Kobayashi Alternative/kobayashi_alternative_1b.dsk
 ./- Games/- Star Trek/Kobayashi Alternative/- Documentation/kobayashi_alternative.pdf
 ./- Games/- Star Trek/Warp Factor/warp_factor.dsk
+./- Games/- Star Trek/Warp Factor/- Documentation/warp_factor_box_front_alt.jpg
+./- Games/- Star Trek/Warp Factor/- Documentation/warp_factor_box_back_alt.jpg
 ./- Games/- Star Trek/Warp Factor/- Documentation/warp_factor_inside.jpg
 ./- Games/- Star Trek/Warp Factor/- Documentation/warp_factor.pdf
 ./- Games/- Star Trek/Warp Factor/- Documentation/warp_factor_box_back.jpg
@@ -874,6 +881,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade creation/- Arcades/D-Day+Shark Bait+Westward Ho!/d-day+shark_bait+westward_ho!.dsk
 ./- Games/- Arcade creation/- Arcades/Tomb of Doom+Revengeful Rabbit+Bee Crunch/tomb_of_doom+revengeful_rabbit+bee_crunch.dsk
 ./- Games/- Arcade creation/- Arcades/Space Raiders+Beach Party+Poacher Wars/space_raiders+beach_party+poacher_wars.dsk
+./- Games/- Arcade creation/- Arcades/Zulu Raid+Poacher Wars/zulu_raid+poacher_wars.dsk
 ./- Games/- Arcade creation/- Arcades/Ice Cave (Krac-Man crack)/Ice_cave.dsk
 ./- Games/- Arcade creation/- Arcades/Ocean Night+Burgertron+Big-Mac Attack/ocean_night+burgertron+big-mac_attack.dsk
 ./- Games/- Arcade creation/- Arcades/Arcade Insanity/arcade_insanity.dsk
@@ -889,7 +897,11 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade creation/Arcade Machine/- Documentation/arcade_machine_charts.jpg
 ./- Games/- Arcade creation/Arcade Machine/- Documentation/arcade_machine_disk.jpg
 ./- Games/- Arcade creation/Arcade Machine/- Documentation/arcade_machine_grid_paper.pdf
+./- Games/- Arcade creation/Garry Kitchen's GameMaker/- Documentation/gamemaker_box_back.jpg
+./- Games/- Arcade creation/Garry Kitchen's GameMaker/- Documentation/gamemaker_box_front.jpg
+./- Games/- Arcade creation/Garry Kitchen's GameMaker/- Documentation/gamemaker_disk.jpg
 ./- Games/- Arcade creation/Garry Kitchen's GameMaker/- Documentation/gamemaker.pdf
+./- Games/- Arcade creation/Garry Kitchen's GameMaker/- Documentation/gamemaker_addendum.jpg
 ./- Games/- Arcade creation/Garry Kitchen's GameMaker/gamemaker_1b.dsk
 ./- Games/- Arcade creation/Garry Kitchen's GameMaker/gamemaker_1a.dsk
 ./- Games/- Adventure (text)/- Dungeon crawl (text)/Bronze Dragon/Bronze Dragon II - Twisted Speare/twisted_speare_1a.dsk
@@ -1015,6 +1027,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Sierra/Softporn Adventure/- Spoil/walkthough/Softmp1.gif
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Sierra/Softporn Adventure/- Spoil/walkthough/Softmp3.gif
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Sierra/Softporn Adventure/- Spoil/walkthough/Softmp2.gif
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Sierra/Softporn Adventure/- Documentation/softporn_adventure_box_back.jpg
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Sierra/Softporn Adventure/- Documentation/unreleased_images/unreleased_a.jpg
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Sierra/Softporn Adventure/- Documentation/unreleased_images/unreleased_b.jpg
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Sierra/Softporn Adventure/- Documentation/unreleased_images/article.txt
@@ -1095,6 +1108,14 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Hayden/Holy Grail/- Documentation/holy_grail_box_back.jpg
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Hayden/Holy Grail/- Documentation/holy_grail_box_front.jpg
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Hayden/Holy Grail/- Documentation/holy_grail_inside.jpg
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/forbidden_quest.dsk
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/- Documentation/forbiddenquest_box_back.jpg
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/- Documentation/forbidden_quest_print.pdf
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/- Documentation/forbiddenquest_box_front.jpg
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/- Documentation/forbidden_quest_disk.jpg
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/- Documentation/forbidden_quest_reference_card.pdf
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/- Documentation/forbiddenquest.pdf
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/- Documentation/forbidden_quest.pdf
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Edu-Ware/Prisoner II/prisoner_ii.dsk
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Edu-Ware/Prisoner II/- Documentation/prisoner_ii.pdf
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Edu-Ware/Prisoner II/- Documentation/prisoner_ii_box_front.jpg
@@ -1579,6 +1600,13 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Wreck of the Pandora/- Documentation/wreck_of_the_pandora_box_front.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Wreck of the Pandora/- Documentation/wreck_of_the_pandora_disk.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Wreck of the Pandora/- Documentation/read_me.txt
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Aztec/- Documentation/aztec.txt
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Aztec/- Documentation/aztec_disk.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Aztec/- Documentation/aztec_poster.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Aztec/- Documentation/aztec.pdf
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Aztec/- Documentation/aztec_box_front.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Aztec/- Documentation/aztec_box_back.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Aztec/aztec.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Caverns of Freitag/- Documenation/caverns_of_freitag_disk.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Caverns of Freitag/- Documenation/caverns_of_freitag.pdf
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Caverns of Freitag/caverns_of_freitag.dsk
@@ -1729,6 +1757,11 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Maxwell Manor/- Documentation/maxwell_manor_disk.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Maxwell Manor/- Documentation/maxwell_manor.pdf
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Maxwell Manor/- Documentation/maxwell_manor_box_front.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Crypt of the Undead/crypt_of_the_undead__1b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Crypt of the Undead/- Documentation/crypt_of_the_undead_box_front.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Crypt of the Undead/- Documentation/crypt_of_the_undead_box_back.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Crypt of the Undead/- Documentation/crypt_of_the_undead.pdf
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Crypt of the Undead/crypt_of_the_undead_1a.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/gemstone_warrior.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/- Spoil/gemstone_warrior_hintsheet.pdf
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/- Documentation/gemstone_warrior_box_front.jpg
@@ -2181,6 +2214,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (graphic)/- Interactive fiction (graphic)/- Windham/Below the Root/- Documenation/green_sky_trilogy_books/2_and_all_between.jpg
 ./- Games/- Adventure (graphic)/- Interactive fiction (graphic)/- Windham/Below the Root/- Documenation/below_the_root.pdf
 ./- Games/- Adventure (graphic)/- Interactive fiction (graphic)/- Windham/Below the Root/- Documenation/below_the_root_box_front.jpg
+./- Games/- Adventure (graphic)/- Interactive fiction (graphic)/- Infocom/Shogun/- Documentation/shogun_box_front.jpg
 ./- Games/- Adventure (graphic)/- Interactive fiction (graphic)/- Infocom/Shogun/Shogun (.nib)/Shogun side 3.nib
 ./- Games/- Adventure (graphic)/- Interactive fiction (graphic)/- Infocom/Shogun/Shogun (.nib)/Shogun side 2.nib
 ./- Games/- Adventure (graphic)/- Interactive fiction (graphic)/- Infocom/Shogun/Shogun (.nib)/Shogun side 1.nib
@@ -2591,6 +2625,23 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/return_of_werdna_3b_disk_f.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/return_of_werdna_3a_disk_e.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/return_of_werdna_1b_disk_b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_11.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_10.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_9.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_8.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_6.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_7.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_5.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_4.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_0.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_c2.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_1.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_3.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_c1.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/legend.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/wiz_iv_level_2.gif
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/maps/readme.txt
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Spoil/wizardry_iv_clues.pdf
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Documentation/return_of_werdna_disk_c.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Documentation/return_of_werdna_disk_a.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Wizardry/Wizardry IV - Return of Werdna/- Documentation/return_of_werdna.pdf
@@ -2697,6 +2748,13 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Might and Magic/Might and Magic II - Gates to Another World/- Documentation/might_and_magic_ii_box_back.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Might and Magic/Might and Magic II - Gates to Another World/- Documentation/might_and_magic_ii_box_front.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Might and Magic/Might and Magic II - Gates to Another World/- Documentation/might_and_magic_ii.pdf
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Theseus and the Minotaur/theseus_and_the_minotaur.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Theseus and the Minotaur/- Documentation/theseus_and_the_minotaur_box.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Theseus and the Minotaur/- Documentation/theseus_and_the_minotaur_box_front.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Theseus and the Minotaur/- Documentation/theseus_and_the_minotaur.pdf
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Theseus and the Minotaur/- Documentation/theseus_and_the_minotaur_reference_card.pdf
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Theseus and the Minotaur/- Documentation/theseus_and_the_minotaur_box_back.jpg
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Theseus and the Minotaur/- Documentation/theseus_and_the_minotaur_disk.jpg
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Dark Heart of Uukrul/dark_heart_of_uukrul_1a_boot.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Dark Heart of Uukrul/dark_heart_of_uukrul_1b_archive.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Dark Heart of Uukrul/dark_heart_of_uukrul_2b_scenario_b.dsk
@@ -3023,6 +3081,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie I/- Spoil/Maps/dungeons_1-6.png
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie I/- Spoil/Maps/outside.png
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie I/- Spoil/Maps/dungeons_7-10.png
+./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie I/- Spoil/phantasie_i.txt
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie I/- Spoil/phantasie_i_clues.pdf
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie I/- Spoil/phantasie_hintsheet.pdf
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie I/- Spoil/walkthough.txt
@@ -3050,6 +3109,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie III - Wrath of Nikademus/- Spoil/Maps/dungeon_and_underworld.png
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie III - Wrath of Nikademus/- Spoil/phantasie_iii_walkthrough.txt
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie III - Wrath of Nikademus/- Spoil/phantasie_iii_hintsheet.pdf
+./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie III - Wrath of Nikademus/- Spoil/phantasie_iii.txt
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie III - Wrath of Nikademus/- Spoil/phantasie_iii_clues.pdf
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie III - Wrath of Nikademus/phantasie_iii_1b.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Strategic Simulations Inc (SSI)/Phantasie/Phantasie III - Wrath of Nikademus/- Documentation/phantasie_iii_box_back.jpg
@@ -3428,6 +3488,11 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Adventure (graphic)/- World fantasy/- Penguin/Xyphus/- Documentation/xyphus.pdf
 ./- Games/- Adventure (graphic)/- World fantasy/- Penguin/Xyphus/- Documentation/xyphus_box_front.jpg
 ./- Games/- Adventure (graphic)/- World fantasy/- Penguin/Xyphus/xyphus_fix.txt
+./- Games/- Adventure (graphic)/- World fantasy/- Epyx/Dragon's Eye/dragons_eye.dsk
+./- Games/- Adventure (graphic)/- World fantasy/- Epyx/Dragon's Eye/- Documentation/dragons_eye_reference_card.pdf
+./- Games/- Adventure (graphic)/- World fantasy/- Epyx/Dragon's Eye/- Documentation/dragons_eye.pdf
+./- Games/- Adventure (graphic)/- World fantasy/- Epyx/Dragon's Eye/- Documentation/dragons_eye_box_back.jpg
+./- Games/- Adventure (graphic)/- World fantasy/- Epyx/Dragon's Eye/- Documentation/dragons_eye_box_front.jpg
 ./- Games/- Adventure (graphic)/- World fantasy/- Independent/Quest of the Gem/quest_of_the_gem_1a.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Independent/Quest of the Gem/quest_of_the_gem_1b.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Independent/Journey into Darkness/Journey into Darkness (First Class crack)/journey_into_darkness.dsk
@@ -3496,11 +3561,13 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Resource/Taipan!/- Documentation/taipan_cassette.jpg
 ./- Games/- Resource/Taipan!/read_me.txt
 ./- Games/- Resource/Taipan!/taipan.dsk
-./- Games/- Sports/- Strategic Simulations Inc (SSI)/Pro Tour Golf/pro_tour_golf_1a.dsk
-./- Games/- Sports/- Strategic Simulations Inc (SSI)/Pro Tour Golf/pro_tour_golf_1b.dsk
+./- Games/- Sports/- Strategic Simulations Inc (SSI)/Professional Tour Golf/professional_tour_golf_1b_player.dsk
+./- Games/- Sports/- Strategic Simulations Inc (SSI)/Professional Tour Golf/professional_tour_golf_1a.dsk
 ./- Games/- Sports/- Strategic Simulations Inc (SSI)/Computer Quarterback/computer_quarterback.dsk
 ./- Games/- Sports/- Strategic Simulations Inc (SSI)/Ringside Seat/ringside_seat.dsk
 ./- Games/- Sports/- Strategic Simulations Inc (SSI)/Computer Baseball/computer_baseball.dsk
+./- Games/- Sports/- Strategic Simulations Inc (SSI)/Computer Baseball/- Documentation/computer_baseball_box_front.jpg
+./- Games/- Sports/- Strategic Simulations Inc (SSI)/Computer Baseball/- Documentation/computer_baseball_box_back.jpg
 ./- Games/- Sports/Tag Team Wrestling/tag_team_wrestling.dsk
 ./- Games/- Sports/Hardball!/hardball!.dsk
 ./- Games/- Sports/Hardball!/- Documentation/hardball!.pdf
@@ -3578,6 +3645,10 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (other)/- Scroller/Wings of Fury/- Documentation/wings_of_fury_poster.jpg
 ./- Games/- Arcade (other)/- Scroller/Wings of Fury/- Documentation/wings_of_fury_box_front.jpg
 ./- Games/- Arcade (other)/- Scroller/Wings of Fury/- Documentation/wings_of_fury_disk.jpg
+./- Games/- Arcade (other)/- Scroller/Bolo/bolo.dsk
+./- Games/- Arcade (other)/- Scroller/Bolo/- Documentation/bolo_poster.jpg
+./- Games/- Arcade (other)/- Scroller/Bolo/- Documentation/bolo_box_back.jpg
+./- Games/- Arcade (other)/- Scroller/Bolo/- Documentation/bolo_box_front.jpg
 ./- Games/- Arcade (other)/- Scroller/Pegasus II/pegasus_ii.dsk
 ./- Games/- Arcade (other)/- Scroller/Pegasus II/- Documenation/pegasus_ii_disk.jpg
 ./- Games/- Arcade (other)/- Scroller/Pegasus II/- Documenation/pegasus_ii.pdf
@@ -3659,6 +3730,10 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (other)/- Scroller/Night Flight/Night Flight (Data Dragon crack)/night_flight.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Star Cruiser/star_cruiser.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Sputnik Attack/sputnik_attack.dsk
+./- Games/- Arcade (other)/- Galaxian like/Mating Zone/- Documentation/mating_zone_disk.jpg
+./- Games/- Arcade (other)/- Galaxian like/Mating Zone/- Documentation/mating_zone_box_back.jpg
+./- Games/- Arcade (other)/- Galaxian like/Mating Zone/- Documentation/mating_zone_box_front.jpg
+./- Games/- Arcade (other)/- Galaxian like/Mating Zone/mating_zone.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Pest Patrol/pest_patrol.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Pest Patrol/- Documentation/pest_patrol_box_back.jpg
 ./- Games/- Arcade (other)/- Galaxian like/Pest Patrol/- Documentation/pest_patrol_disk.jpg
@@ -3753,6 +3828,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (other)/- Maze/-- Compilations/maze_craze+c'est_la_vie+minotaur+speed_maze.dsk
 ./- Games/- Arcade (other)/- Maze/Night Stalker/night_stalker.dsk
 ./- Games/- Arcade (other)/- Maze/Sheila/sheila.dsk
+./- Games/- Arcade (other)/- Maze/Succession/succession.dsk
 ./- Games/- Arcade (other)/- Maze/Nibbler/nibbler.dsk
 ./- Games/- Arcade (other)/- Maze/Ardy The Aardvark/ardy_the_aardvark.dsk
 ./- Games/- Arcade (other)/- Maze/Bubble-head/bubble-head.dsk
@@ -3791,6 +3867,10 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (other)/- Run and gun/Lost Tomb/Lost Tomb (.nib)/lost_tomb.nib
 ./- Games/- Arcade (other)/- Run and gun/Lost Tomb/lost_tomb.dsk
 ./- Games/- Arcade (other)/- Run and gun/Lost Tomb/Lost Tomb (.woz)/lost_tomb.woz
+./- Games/- Arcade (other)/- Run and gun/Borg/- Documentation/borg_disk.jpg
+./- Games/- Arcade (other)/- Run and gun/Borg/- Documentation/borg_box_back.jpg
+./- Games/- Arcade (other)/- Run and gun/Borg/- Documentation/borg_box_front.jpg
+./- Games/- Arcade (other)/- Run and gun/Borg/Borg (Apple Bandit crack)/borg.dsk
 ./- Games/- Arcade (other)/- Run and gun/Electro Arena/Electro Arena (Ghost Rider crack)/electro_arena.dsk
 ./- Games/- Arcade (other)/- Run and gun/Marauder/marauder.dsk
 ./- Games/- Arcade (other)/- Run and gun/Marauder/- Documentation/marauder_disk.jpg
@@ -3865,13 +3945,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (other)/- Platformer/Impossible Mission/Impossible Mission I/- Documentation/impossible_mission_poster.jpg
 ./- Games/- Arcade (other)/- Platformer/Impossible Mission/Impossible Mission I/- Documentation/impossible_mission_box_back.jpg
 ./- Games/- Arcade (other)/- Platformer/Robotics/Robotics.dsk
-./- Games/- Arcade (other)/- Platformer/Aztec/- Documentation/aztec.txt
-./- Games/- Arcade (other)/- Platformer/Aztec/- Documentation/aztec_disk.jpg
-./- Games/- Arcade (other)/- Platformer/Aztec/- Documentation/aztec_poster.jpg
-./- Games/- Arcade (other)/- Platformer/Aztec/- Documentation/aztec.pdf
-./- Games/- Arcade (other)/- Platformer/Aztec/- Documentation/aztec_box_front.jpg
-./- Games/- Arcade (other)/- Platformer/Aztec/- Documentation/aztec_box_back.jpg
-./- Games/- Arcade (other)/- Platformer/Aztec/aztec.dsk
 ./- Games/- Arcade (other)/- Platformer/Mr. Robot/mr_robot.dsk
 ./- Games/- Arcade (other)/- Platformer/Mr. Robot/- Documenation/mr_robot_box_back_reference_card_back.jpg
 ./- Games/- Arcade (other)/- Platformer/Mr. Robot/- Documenation/mr_robot_box_back_reference_card_front.jpg
@@ -3924,6 +3997,11 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Arcade (other)/- Platformer/Dino Eggs/- Documentation/dino_eggs_box_back.jpg
 ./- Games/- Arcade (other)/- Platformer/Dino Eggs/- Documentation/dino_eggs_disk.jpg
 ./- Games/- Arcade (other)/- Platformer/Dino Eggs/- Documentation/dino_eggs_box_front.jpg
+./- Games/- Arcade (other)/- Platformer/Free Fall/free_fall.dsk
+./- Games/- Arcade (other)/- Platformer/Free Fall/- Documentation/free_fall_box_back.jpg
+./- Games/- Arcade (other)/- Platformer/Free Fall/- Documentation/free_fall_disk.jpg
+./- Games/- Arcade (other)/- Platformer/Free Fall/- Documentation/free_fall_box_front.jpg
+./- Games/- Arcade (other)/- Platformer/Free Fall/- Documentation/Free_fall_manual.pdf
 ./- Games/- Arcade (other)/- Platformer/Zorro/- Documentation/zorro.pdf
 ./- Games/- Arcade (other)/- Platformer/Zorro/Zorro (Majesty crack)/zorro.dsk
 ./- Games/- Arcade (other)/- Platformer/Sammy Lightfoot/- Documentation/sammy_lightfoot_box_front.jpg
@@ -4039,6 +4117,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Pinball/-- Compilations/night_mission+raster_blaster+midnight_magic.dsk
 ./- Games/- Pinball/Raster Blaster/raster_blaster.dsk
 ./- Games/- Pinball/Raster Blaster/- Documentation/raster_blaster_box_front.jpg
+./- Games/- Pinball/Raster Blaster/- Documentation/raster_blaster_disk.jpg
 ./- Games/- Pinball/Raster Blaster/- Documentation/raster_blaster.pdf
 ./- Games/- Pinball/Queen of Hearts/queen_of_hearts.dsk
 ./- Games/- Pinball/Queen of Hearts/- Documentation/queen_of_hearts_poster.jpg
@@ -4049,6 +4128,9 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Board/Clue/Clue (Blade crack)/clue_1b.dsk
 ./- Games/- Board/Clue/Clue (Blade crack)/clue_1a.dsk
 ./- Games/- Board/Clue/- Documentation/clue.pdf
+./- Games/- Board/221B Baker Street/221B Baker Street (Triton crack)/221b_baker_street_1a.dsk
+./- Games/- Board/221B Baker Street/221B Baker Street (Triton crack)/221b_baker_street_1b_case_disk.dsk
+./- Games/- Board/221B Baker Street/- Documentation/221b_baker_street.pdf
 ./- Games/- Board/- Chess/Microchess/- Cassette/microchess_cassette.jpeg
 ./- Games/- Board/- Chess/Microchess/- Cassette/microchess.wav
 ./- Games/- Board/- Chess/Microchess/- Documentation/microchess.pdf
@@ -4096,6 +4178,10 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Various/- Datamost/Goonies/- Documentation/goonies.pdf
 ./- Games/- Various/- Datamost/Goonies/- Documentation/goonies_box_back.jpg
 ./- Games/- Various/- Datamost/Goonies/goonies.dsk
+./- Games/- Various/Spider Raid/- Documentation/spider_raid_box_back.jpg
+./- Games/- Various/Spider Raid/- Documentation/spider_raid_box_front.jpg
+./- Games/- Various/Spider Raid/- Documentation/spider_raid_open.jpg
+./- Games/- Various/Spider Raid/spider_raid.dsk
 ./- Games/- Various/- Sierra/Sabotage/sabotage.dsk
 ./- Games/- Various/- Sierra/Sabotage/- Documentation/sabotage_disk.jpg
 ./- Games/- Various/- Sierra/Sabotage/- Documentation/sabotage_poster.jpg
@@ -4107,15 +4193,12 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Various/- Gebelli/Eggs-It/eggs-it.dsk
 ./- Games/- Various/- Gebelli/Firebird/firebird.dsk
 ./- Games/- Various/- Gebelli/Firebird/- Documentation/firebird_box_front.jpg
+./- Games/- Various/Aliens/aliens.dsk
 ./- Games/- Various/- MIndscape/Paperboy/- Documentation/paperboy_disk.jpg
 ./- Games/- Various/- MIndscape/Paperboy/- Documentation/paperboy_box_back.jpg
 ./- Games/- Various/- MIndscape/Paperboy/- Documentation/paperboy_inside.jpg
 ./- Games/- Various/- MIndscape/Paperboy/- Documentation/paperboy_box_front.jpg
 ./- Games/- Various/- MIndscape/Paperboy/paperboy.dsk
-./- Games/- Various/Bolo/bolo.dsk
-./- Games/- Various/Bolo/- Documentation/bolo_poster.jpg
-./- Games/- Various/Bolo/- Documentation/bolo_box_back.jpg
-./- Games/- Various/Bolo/- Documentation/bolo_box_front.jpg
 ./- Games/- Various/- Electronic Arts/Marble Madness/marble_madness_1a.dsk
 ./- Games/- Various/- Electronic Arts/Marble Madness/marble_madness_1b.dsk
 ./- Games/- Various/- Electronic Arts/Marble Madness/- Documentation/marble_madness_disk.jpg
@@ -4134,6 +4217,10 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Various/Crossbow/crossbow_1a.dsk
 ./- Games/- Various/Crossbow/crossbow_1b.dsk
 ./- Games/- Various/Crossbow/- Documentation/Crossbow.pdf
+./- Games/- Various/Ballblazer/ballblazer.dsk
+./- Games/- Various/Ballblazer/- Documentation/ballblazer_disk.jpg
+./- Games/- Various/Ballblazer/- Documentation/ballblazer_box_front.jpg
+./- Games/- Various/Ballblazer/- Documentation/ballblazer_box_back.jpg
 ./- Games/- Various/Spy v Spy/spy_v_spy_i+spy_v_spy_ii.dsk
 ./- Games/- Various/Spy v Spy/- Documenation/spy_vs_spy_ii.pdf
 ./- Games/- Various/Spy v Spy/- Documenation/spy_vs_spy_i.pdf
@@ -4313,6 +4400,11 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Fighting/Fight Night/- Documentation/fight_night_box_front.jpg
 ./- Games/- Fighting/Fight Night/- Documentation/fight_night_card.jpg
 ./- Games/- Fighting/Competition Karate/competition_karate.dsk
+./- Games/- Fighting/Black Belt/Black Belt (Syndicate crack)/black_belt.dsk
+./- Games/- Fighting/Black Belt/- Documentation/black_belt_inside.jpg
+./- Games/- Fighting/Black Belt/- Documentation/black_belt_booklet.pdf
+./- Games/- Fighting/Black Belt/- Documentation/black_belt_front.jpg
+./- Games/- Fighting/Black Belt/- Documentation/black_belt_back.jpg
 ./- Games/- Fighting/Prince of Persia/- Spoil/prince_of_persia_guide.pdf
 ./- Games/- Fighting/Prince of Persia/prince_of_persia_1a.dsk
 ./- Games/- Fighting/Prince of Persia/- Documentation/prince_of_persia_box_back.jpg
@@ -4322,6 +4414,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Fighting/Prince of Persia/prince_of_persia_1b.dsk
 ./- Games/- Fighting/Karate Championship/karate_championship.dsk
 ./- Games/- Fighting/Karate Championship/- Documentation/karate_championship_box_front.jpg
+./- Games/- Fighting/Bad Dudes/bad_dudes.dsk
 ./- Games/- Fighting/Karate Champ/karate_champ.dsk
 ./- Games/- Fighting/Karate Champ/- Documentation/karate_champ.pdf
 ./- Games/- Fighting/Kung Fu Master/kung_fu_master.dsk
@@ -4390,11 +4483,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Galactic Adventures/galactic_adventures_1b.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Seuis/- Documentation/seuis.txt
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Seuis/seuis.dsk
-./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Imperium Galactum/imperium_galactum_1a_scenario_boot.dsk
-./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Imperium Galactum/- Documentation/southern_command_map_key.gif
-./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Imperium Galactum/- Documentation/imperium_galactum_map_key.gif
-./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Imperium Galactum/- Documentation/imperium_galactum.txt
-./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Imperium Galactum/imperium_galactum_1b_game.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Napoleonic/Napoleon's Campaigns/napoleons_campaigns.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Napoleonic/Napoleon's Campaigns/- Documentation/napoleons_campaigns.txt
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Napoleonic/Napoleon's Campaigns/- Documentation/napoleons_campaigns_leipzig_map_key.gif
@@ -4556,6 +4644,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- World War Two/Knights of the Desert/- Documentation/knights_of_the_desert_map_key.gif
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- World War Two/Knights of the Desert/knights_of_the_desert_v1.1.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- World War One/Eagles/eagles.dsk
+./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- World War One/Eagles/- Documentation/eagles_poster.jpg
 ./- Games/- Strategy (grognard)/- Crystalware/World War III/world_war_iii.dsk
 ./- Games/- Strategy (grognard)/- Crystalware/Waterloo II/- Documentation/waterloo_ii.txt
 ./- Games/- Strategy (grognard)/- Crystalware/Waterloo II/- Documentation/waterloo_ii_map_key.gif
@@ -4581,8 +4670,14 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy (grognard)/- Garde/Blue Powder Grey Smoke/blue_powder_grey_smoke_1b_scenery.dsk
 ./- Games/- Strategy (grognard)/- Garde/High Seas/high_seas_1b.dsk
 ./- Games/- Strategy (grognard)/- Garde/High Seas/high_seas_1a.dsk
+./- Games/- Strategy (grognard)/- Garde/High Seas/- Documentation/high_seas_box_front.jpg
+./- Games/- Strategy (grognard)/- Garde/High Seas/- Documentation/high_seas_box_back.jpg
+./- Games/- Strategy (grognard)/- Garde/High Seas/- Documentation/high_seas_disks.jpg
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Russia - Great War in the East/russia_great_war_in_the_east_1b.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Russia - Great War in the East/russia_great_war_in_the_east_1a.nib
+./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Russia - Great War in the East/- Documentation/russia_great_war_in_the_east_box_front.jpg
+./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Russia - Great War in the East/- Documentation/russia_great_war_in_the_east_inside.jpg
+./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Russia - Great War in the East/- Documentation/russia_great_war_in_the_east_box_back.jpg
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Russia - Great War in the East/- Documentation/russia_great_war_in_the_east.txt
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Battles in Normandy/battles_in_normandy_1b.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Battles in Normandy/battles_in_normandy_1a.nib
@@ -4618,14 +4713,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Europe Ablaze/- Documentation/europe_ablaze_map_key_b.GIF
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Europe Ablaze/europe_ablaze_1a.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Europe Ablaze/europe_ablaze_1b.nib
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/reach_for_the_stars.nib
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/- Documentation/reach_for_the_stars_map_and_reference_card.pdf
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/- Documentation/reach_for_the_stars_poster.jpg
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/- Documentation/reach_for_the_stars_box.pdf
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/- Documentation/reach_for_the_stars_save_labels.jpg
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/- Documentation/reach_for_the_stars_disk.jpg
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/- Documentation/reach_for_the_stars.pdf
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/read_me.txt
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Halls of Montezuma/halls_of_montezuma_1b.NIB
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Halls of Montezuma/halls_of_montezuma_1a.NIB
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Halls of Montezuma/- Documentation/halls_of_montezuma.txt
@@ -4659,13 +4746,11 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy (grognard)/- Avalon Hill/Gulf Strike/gulf_strike.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Gulf Strike/- Documentation/gulf_strike_map_key.gif
 ./- Games/- Strategy (grognard)/- Avalon Hill/Gulf Strike/- Documentation/gulf_strike.pdf
-./- Games/- Strategy (grognard)/- Avalon Hill/Andromeda Conquest/andromeda_conquest.dsk
-./- Games/- Strategy (grognard)/- Avalon Hill/Andromeda Conquest/- Documentation/andromeda_conquest_disk.jpg
-./- Games/- Strategy (grognard)/- Avalon Hill/Andromeda Conquest/- Documentation/andromeda_conquest.txt
 ./- Games/- Strategy (grognard)/- Avalon Hill/Tactical Armour Command/- Documentation/tactical_armor_command_battle_map.gif
 ./- Games/- Strategy (grognard)/- Avalon Hill/Tactical Armour Command/- Documentation/tactical_armor_command.txt
 ./- Games/- Strategy (grognard)/- Avalon Hill/Tactical Armour Command/tactical_armor_command.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Alien/alien.dsk
+./- Games/- Strategy (grognard)/- Avalon Hill/Alien/- Documentation/alien_poster.jpg
 ./- Games/- Strategy (grognard)/- Avalon Hill/Conflict 2500/conflict_2500.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Planet Miners/planet_miners.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Beast War/Beast War (Gonif crack)/beast_war.dsk
@@ -4690,7 +4775,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy (grognard)/- Avalon Hill/Tanktics/tanktics.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/B1 Bomber/- Documentation/b1_bomber.txt
 ./- Games/- Strategy (grognard)/- Avalon Hill/B1 Bomber/b1_bomber.dsk
-./- Games/- Strategy (grognard)/- Avalon Hill/Galaxy!/galaxy.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_initialized_save_game_disk.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_1a_game_master.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_4a_save_disk_for_units_from_ext_cap_disk_2.dsk
@@ -4698,6 +4782,15 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_3a_extended_capabilities_disk_2_campaign_setup.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_1b_units_and_scenarios.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_2b_extended_capabilities_disk_1.dsk
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_poster.jpg
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_rulebook_cover.jpg
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_box_back.jpg
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_scenarios_cover.jpg
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_mapmaker_cover.jpg
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_inside.jpg
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_coupon.pdf
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_box_front.jpg
+./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/- Documentation/under_fire_disks.jpg
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_3b_extended_capabilities_disk_2.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/read_me.txt
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_2a_extended_capabilities_disk_1.dsk
@@ -4706,23 +4799,6 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Strategy (grognard)/- Avalon Hill/Fortress of the Witch King/- Documentation/fortress_of_the_witch_king_disk.jpg
 ./- Games/- Strategy (grognard)/- Avalon Hill/Fortress of the Witch King/- Documentation/fortress_of_the_witch_king_box_front.jpg
 ./- Games/- Strategy (grognard)/- Avalon Hill/Fortress of the Witch King/- Documentation/fortress_of_the_witch_king.pdf
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga IV - Last Redoubt/galactic_last_redoubt.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga IV - Last Redoubt/- Documenation/galactic_last_redoubt_disk.jpg
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga IV - Last Redoubt/- Documenation/galactic_last_redoubt.pdf
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga I - Empire/galactic_empire.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga I - Empire/read_me.txt
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga I - Empire/- Documenation/galactic_empire_box_front.jpg
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga I - Empire/- Documenation/galactic_empire_empire_disk.jpg
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga I - Empire/- Documenation/galactic_empire_poster.jpg
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga I - Empire/- Documenation/galactic_empire_empire.pdf
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/-- Compilations/galactic_saga_i-iii.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga III - Revolution/galactic_revolution.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga III - Revolution/- Documenation/galactic_revolution_disk.jpg
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga III - Revolution/- Documenation/galactic_revolution.pdf
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/- Documentation/doug-gary-cathy.png
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/- Documentation/doug-marc.png
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga II - Trader/galactic_trader.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/read_me.txt
 ./- Games/- Strategy (grognard)/read_me.txt
 ./- Games/- Strategy (grognard)/- Independent/Tank Platoon/tank_platoon_1b.dsk
 ./- Games/- Strategy (grognard)/- Independent/Tank Platoon/tank_platoon_1a.dsk
@@ -4784,6 +4860,7 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Modern/Genius/Genius I - Into the Toy Warehouses/- Documentation/genius_i.pdf
 ./- Games/- Modern/Genius/read_me.txt
 ./- Games/- Modern/Alien Downpour/alien_downpour.dsk
+./- Games/- Modern/Escape from Homebrew Computer Club/escape_from_homebrew_computer_club.dsk
 ./- Games/- Adventure creation/Adventure Creator/adventure_creator.dsk
 ./- Games/- Adventure creation/Adventure Creator/- Documenation/adventure_creator_alt.pdf
 ./- Games/- Adventure creation/Adventure Creator/- Documenation/adventure_creator_box_front.jpg
@@ -4815,6 +4892,65 @@ find . -type f ! -name ".DS_Store"
 ./- Games/- Xmas/Ho Ho Ho/Ho Ho Ho (Digital Gang crack)/ho_ho_ho.dsk
 ./- Games/- Xmas/The Night Before Christmas/the_night_before_christmas.dsk
 ./- Games/-- Famous games/-- Famous games.txt
+./- Games/- Space Exploration/Imperium Galactum/imperium_galactum_1a_scenario_boot.dsk
+./- Games/- Space Exploration/Imperium Galactum/- Documentation/southern_command_map_key.gif
+./- Games/- Space Exploration/Imperium Galactum/- Documentation/imperium_galactum_map_key.gif
+./- Games/- Space Exploration/Imperium Galactum/- Documentation/imperium_galactum.txt
+./- Games/- Space Exploration/Imperium Galactum/imperium_galactum_1b_game.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga IV - Last Redoubt/galactic_last_redoubt.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga IV - Last Redoubt/- Documenation/galactic_last_redoubt_disk.jpg
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga IV - Last Redoubt/- Documenation/galactic_last_redoubt.pdf
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga I - Empire/galactic_empire.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga I - Empire/read_me.txt
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga I - Empire/- Documenation/galactic_empire_box_front.jpg
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga I - Empire/- Documenation/galactic_empire_empire_disk.jpg
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga I - Empire/- Documenation/galactic_empire_poster.jpg
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga I - Empire/- Documenation/galactic_empire_empire.pdf
+./- Games/- Space Exploration/Galactic Saga/-- Compilations/galactic_saga_i-iii.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga III - Revolution/galactic_revolution.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga III - Revolution/- Documenation/galactic_revolution_disk.jpg
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga III - Revolution/- Documenation/galactic_revolution.pdf
+./- Games/- Space Exploration/Galactic Saga/- Documentation/doug-gary-cathy.png
+./- Games/- Space Exploration/Galactic Saga/- Documentation/doug-marc.png
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga II - Trader/galactic_trader.dsk
+./- Games/- Space Exploration/Galactic Saga/read_me.txt
+./- Games/- Space Exploration/Andromeda Conquest/andromeda_conquest.dsk
+./- Games/- Space Exploration/Andromeda Conquest/- Documentation/andromeda_conquest_disk.jpg
+./- Games/- Space Exploration/Andromeda Conquest/- Documentation/andromeda_conquest_cassette.jpg
+./- Games/- Space Exploration/Andromeda Conquest/- Documentation/andromeda_conquest.pdf
+./- Games/- Space Exploration/Andromeda Conquest/- Documentation/andromeda_conquest_inside.jpg
+./- Games/- Space Exploration/Andromeda Conquest/- Documentation/andromeda_conquest.txt
+./- Games/- Space Exploration/Andromeda Conquest/- Documentation/andromeda_conquest_box_front.jpg
+./- Games/- Space Exploration/Andromeda Conquest/- Documentation/andromeda_conquest_mapping_paper.pdf
+./- Games/- Space Exploration/Andromeda Conquest/- Documentation/andromeda_conquest_box_back.jpg
+./- Games/- Space Exploration/Galactic Quest/galactic_quest.dsk
+./- Games/- Space Exploration/Titan Empire/titan_empire.dsk
+./- Games/- Space Exploration/Titan Empire/- Documentation/titan_empire_box_front.jpg
+./- Games/- Space Exploration/Titan Empire/- Documentation/titan_empire_box_back.jpg
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_3.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_2.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_4.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_play.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_1_construction.dsk
+./- Games/- Space Exploration/Universe/- Documentation/universe_guide.pdf
+./- Games/- Space Exploration/Universe/- Documentation/universe.pdf
+./- Games/- Space Exploration/Universe/- Documentation/universe_note.jpg
+./- Games/- Space Exploration/Universe/- Documentation/universe_disks.jpg
+./- Games/- Space Exploration/Universe/- Documentation/universe_poster.jpg
+./- Games/- Space Exploration/Universe/- Documentation/universe_box_front.jpg
+./- Games/- Space Exploration/Reach for the Stars/Reach for the Stars (.nib)/reach_for_the_stars.nib
+./- Games/- Space Exploration/Reach for the Stars/Reach for the Stars (.woz)/reach_for_the_stars.woz
+./- Games/- Space Exploration/Reach for the Stars/- Documentation/reach_for_the_stars_map_and_reference_card.pdf
+./- Games/- Space Exploration/Reach for the Stars/- Documentation/reach_for_the_stars_poster.jpg
+./- Games/- Space Exploration/Reach for the Stars/- Documentation/reach_for_the_stars_box.pdf
+./- Games/- Space Exploration/Reach for the Stars/- Documentation/reach_for_the_stars_save_labels.jpg
+./- Games/- Space Exploration/Reach for the Stars/- Documentation/reach_for_the_stars_disk.jpg
+./- Games/- Space Exploration/Reach for the Stars/- Documentation/reach_for_the_stars.pdf
+./- Games/- Space Exploration/Reach for the Stars/read_me.txt
+./- Games/- Space Exploration/Conquering Worlds/conquering_worlds.dsk
+./- Games/- Space Exploration/Galaxy!/galaxy.dsk
+./- Games/- Pilot/Space Vikings/- Documenattion/space_vikings.png
+./- Games/- Pilot/Space Vikings/space_vikings.dsk
 ./- Games/- Pilot/Horizon V/horizon_v.dsk
 ./- Games/- Pilot/Epoch/- Documentation/epoch_box_back.jpg
 ./- Games/- Pilot/Epoch/- Documentation/epoch_box_front.jpg
@@ -4918,6 +5054,7 @@ find . -type f ! -name ".DS_Store"
 ./- Copy programs/Disk Muncher/disk_muncher_v6.dsk
 ./- Copy programs/Disk Muncher/disk_muncher_v8.dsk
 ./- Copy programs/Disk Muncher/disk_muncher_v9.dsk
+./- Copy programs/Nibble Copy/nibble_copy_v1981.dsk
 ./.gitignore
 ./- Word Processing/Bank Steet StoryBook/bank_street_storybook_1b.dsk
 ./- Word Processing/Bank Steet StoryBook/bank_street_storybook_1a.dsk
@@ -5159,6 +5296,9 @@ find . -type f ! -name ".DS_Store"
 ./- Programming/ProBASIC/probasic_1a.dsk
 ./- Programming/Cat Graphics/cat_graphics.dsk
 ./- Programming/Cat Graphics/- Documentation/cat_graphics.pdf
+./- Programming/Lisa Assembly Language/lisa_assembly_language_v2.5g_1a.dsk
+./- Programming/Lisa Assembly Language/lisa_assembly_language_v2.5g_1b.dsk
+./- Programming/DOS Tool Kit Programming Utils/dos_toolkit_programming_utils.dsk
 ./_notes/c_line_front.jpg
 ./_notes/apple_disk_ii_technical_procedures.pdf
 ./_notes/colors.jpg

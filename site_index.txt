@@ -53,9 +53,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Graphics/Graphics Magician/Graphics Magician - Picture Painter/picture_painter_dblres.dsk
 ./- Graphics/Mouse Paint/mouse_paint_joystick.dsk
 ./- Graphics/Mouse Paint/mouse_paint.dsk
-./- Graphics/Turtle Graphics/Alice in LogoLand/alice_in_logoland.dsk
-./- Graphics/Turtle Graphics/Lego TC Logo/lego_tc_logo.dsk
-./- Graphics/Turtle Graphics/Krell's Logo/krells_logo.dsk
 ./- Graphics/Koala Painter/koala_painter.dsk
 ./- Graphics/Koala Painter/koala_micro_illustrator.dsk
 ./- Graphics/Koala Painter/koala_graphics_exhibitor.dsk
@@ -66,6 +63,9 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Graphics/Complete Graphics II/complete_graphics_ii_1b_dblres.dsk
 ./- Graphics/Complete Graphics II/complete_graphics_ii_1a.dsk
 ./- Graphics/Complete Graphics II/additional_typesets/additional_typesets.dsk
+./- Graphics/- Turtle Graphics/Alice in LogoLand/alice_in_logoland.dsk
+./- Graphics/- Turtle Graphics/Lego TC Logo/lego_tc_logo.dsk
+./- Graphics/- Turtle Graphics/Krell's Logo/krells_logo.dsk
 ./- Graphics/Graphics Converter/graphics_converter_1b.dsk
 ./- Graphics/Graphics Converter/graphics_converter_1a.dsk
 ./- Graphics/Fantavision/fantavision_1a.dsk
@@ -85,7 +85,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Simulator/Solo Flight/Solo Flight (Hires Hackers crack)/solo_flight.dsk
 ./- Simulator/Tomahawk/tomahawk.dsk
 ./- Simulator/Bermuda Race/bermuda_race.dsk
-./- Simulator/F-15 Strike Eagle/f-15_strike_eagle.dsk
+./- Simulator/F-15 Strike Eagle/F-15 Strike Eagle (Cloak crack)/f-15_strike_eagle.dsk
 ./- Utilities/- Dsk software/ADT/adt_source.dsk
 ./- Utilities/- Dsk software/ADT/adt.dsk
 ./- Utilities/- Dsk software/Shrink It/shrink_it_v3.4.dsk
@@ -135,7 +135,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Strategy/Fathom's 40/Fathom's 40 (Gorn crack)/fathoms_40_.dsk
 ./- Games/- Strategy/Broadsides/Broadsides (Ace crack)/broadsides.dsk
 ./- Games/- Strategy/Destroyer/Destroyer (Blade crack)/destroyer.dsk
-./- Games/- Strategy/Titan Empire/titan_empire.dsk
 ./- Games/- Strategy/Galactic Gladiators/galactic_gladiators.dsk
 ./- Games/- Strategy/Lords of Conquest/lords_of_conquest_1a.dsk
 ./- Games/- Strategy/Lords of Conquest/lords_of_conquest_1b.dsk
@@ -148,7 +147,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Strategy/Empire/empire_1a_boot.dsk
 ./- Games/- Strategy/Empire/empire_1b_program.dsk
 ./- Games/- Strategy/Lordlings of Yore/lordlings_of_yore.dsk
-./- Games/- Strategy/Conquering Worlds/conquering_worlds.dsk
 ./- Games/- Strategy/Ancient Art of War/Art of War I/art_of_war_1a.dsk
 ./- Games/- Strategy/Ancient Art of War/Art of War I/art_of_war_1b.dsk
 ./- Games/- Strategy/Ancient Art of War/Art of War II - At Sea/art_of_war_at_sea_1a.dsk
@@ -202,6 +200,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade (classic)/- Breakout/Arkanoid/arkanoid.dsk
 ./- Games/- Arcade (classic)/- Breakout/Super Trick Out/super_trick_out.dsk
 ./- Games/- Arcade (classic)/- Breakout/-- Compilations/littlle_brick_out+chipout+breakthru+super_trick_out.dsk
+./- Games/- Arcade (classic)/- Breakout/Flobynoid/flobynoid_v8.3.dsk
 ./- Games/- Arcade (classic)/- Qbert/Cubit/cubit.dsk
 ./- Games/- Arcade (classic)/- Qbert/Mr. Cool/mr_cool.dsk
 ./- Games/- Arcade (classic)/- Qbert/-- Compilations/qbit+mr_cool.dsk
@@ -219,11 +218,11 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade (classic)/- Missile Command/Surprise Attack!/surprise_attack.dsk
 ./- Games/- Arcade (classic)/- Missile Command/Norad/norad.dsk
 ./- Games/- Arcade (classic)/- Frogger/Ribbit/ribbit.dsk
+./- Games/- Arcade (classic)/- Frogger/Brainteaser Boulevard/brainteaser_boulevard.dsk
 ./- Games/- Arcade (classic)/- Frogger/-- Compilations/frogger+ribbit+road_pizza+brainteaser_blvd.dsk
 ./- Games/- Arcade (classic)/- Frogger/Frogger/Frogger II - Three Deep/three_deep.dsk
 ./- Games/- Arcade (classic)/- Frogger/Frogger/Frogger I/frogger.dsk
 ./- Games/- Arcade (classic)/- Frogger/Super Bunny/super_bunny.dsk
-./- Games/- Arcade (classic)/- Frogger/Brainteaser Blvd/brainteaser_blvd.dsk
 ./- Games/- Arcade (classic)/- Donkey Kong/Cannonball Blitz/cannonball_blitz.dsk
 ./- Games/- Arcade (classic)/- Donkey Kong/Donkey Kong/donkey_kong.dsk
 ./- Games/- Arcade (classic)/- Donkey Kong/Budgie Kong/budgie_kong.dsk
@@ -300,6 +299,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade creation/- Arcades/D-Day+Shark Bait+Westward Ho!/d-day+shark_bait+westward_ho!.dsk
 ./- Games/- Arcade creation/- Arcades/Tomb of Doom+Revengeful Rabbit+Bee Crunch/tomb_of_doom+revengeful_rabbit+bee_crunch.dsk
 ./- Games/- Arcade creation/- Arcades/Space Raiders+Beach Party+Poacher Wars/space_raiders+beach_party+poacher_wars.dsk
+./- Games/- Arcade creation/- Arcades/Zulu Raid+Poacher Wars/zulu_raid+poacher_wars.dsk
 ./- Games/- Arcade creation/- Arcades/Ice Cave (Krac-Man crack)/Ice_cave.dsk
 ./- Games/- Arcade creation/- Arcades/Ocean Night+Burgertron+Big-Mac Attack/ocean_night+burgertron+big-mac_attack.dsk
 ./- Games/- Arcade creation/- Arcades/Arcade Insanity/arcade_insanity.dsk
@@ -366,6 +366,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (text)/- Interactive fiction (text)/-- Compilations/Palace in Thunderland+Empire of the Overmind+Lost Dutchman+Birth of the Phoenix/palace_in_thunderland+empire_of_the_overmind+lost_dutchman+birth_of_the_phoenix.dsk
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Hayden/Holy Grail/Holy Grail (Wasegind crack)/holy_grail_1a.dsk
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Hayden/Holy Grail/Holy Grail (Wasegind crack)/holy_grail_1b.dsk
+./- Games/- Adventure (text)/- Interactive fiction (text)/- Pryority/Forbidden Quest/forbidden_quest.dsk
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Edu-Ware/Prisoner II/prisoner_ii.dsk
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Edu-Ware/Prisoner I/prisoner.dsk
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Adventure International/Dragons of Hong Kong/dragons_of_hong_kong.dsk
@@ -431,6 +432,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Sword of Kadash/sword_of_kadash_1b_master_character.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Sword of Kadash/sword_of_kadash_1a_program.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Wreck of the Pandora/Wreck of the Pandora (Krac-Man crack)/wreck_of_the_pandora.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Aztec/aztec.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Caverns of Freitag/caverns_of_freitag.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/- Dunjonquest/- Starquest/Starquest I - Rescue at Rigel/rescue_at_rigel.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/- Dunjonquest/- Starquest/-- Compilations/rescue_at_rigel+star_warrior.dsk
@@ -453,6 +455,8 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras III - Wylde (1200 Club crack)/warrior_of_ras_iii_wylde.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Warriors of Ras/Warriors of Ras I - Dunzhin/warrior_of_ras_i_dunzhin.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Maxwell Manor/maxwell_manor.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Crypt of the Undead/crypt_of_the_undead__1b.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Crypt of the Undead/crypt_of_the_undead_1a.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior I/gemstone_warrior.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior II - Gemstone Healer/gemstone_healer_1b.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (sprite)/Gemstone Warrior/Gemstone Warrior II - Gemstone Healer/gemstone_healer_1a.dsk
@@ -707,6 +711,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Might and Magic/Might and Magic I - Secret of the Inner Sanctum/might_and_magic_2b_side_d.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Might and Magic/Might and Magic I - Secret of the Inner Sanctum/might_and_magic_1b_side_b.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Might and Magic/Might and Magic II - Gates to Another World/Might and Magic II (nib version)/speedy_copy_for_might_and_magic_ii.dsk
+./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Theseus and the Minotaur/theseus_and_the_minotaur.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Dark Heart of Uukrul/dark_heart_of_uukrul_1a_boot.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Dark Heart of Uukrul/dark_heart_of_uukrul_1b_archive.dsk
 ./- Games/- Adventure (graphic)/- Dungeon crawl (graphic)/Dark Heart of Uukrul/dark_heart_of_uukrul_2b_scenario_b.dsk
@@ -874,6 +879,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Adventure (graphic)/- World fantasy/- New World Computing/King's Bounty/King's Bounty (.nib)/kings_bounty_1b.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Penguin/Expedition Amazon/expedition_amazon_1b_boot.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Penguin/Expedition Amazon/expedition_amazon_1a.dsk
+./- Games/- Adventure (graphic)/- World fantasy/- Epyx/Dragon's Eye/dragons_eye.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Independent/Quest of the Gem/quest_of_the_gem_1a.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Independent/Quest of the Gem/quest_of_the_gem_1b.dsk
 ./- Games/- Adventure (graphic)/- World fantasy/- Independent/Journey into Darkness/Journey into Darkness (First Class crack)/journey_into_darkness.dsk
@@ -898,8 +904,8 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Resource/-- Compilations/santa_paravia+taipan+lemonade_stand.dsk
 ./- Games/- Resource/Three Mile Island/three_mile_island.dsk
 ./- Games/- Resource/Taipan!/taipan.dsk
-./- Games/- Sports/- Strategic Simulations Inc (SSI)/Pro Tour Golf/pro_tour_golf_1a.dsk
-./- Games/- Sports/- Strategic Simulations Inc (SSI)/Pro Tour Golf/pro_tour_golf_1b.dsk
+./- Games/- Sports/- Strategic Simulations Inc (SSI)/Professional Tour Golf/professional_tour_golf_1b_player.dsk
+./- Games/- Sports/- Strategic Simulations Inc (SSI)/Professional Tour Golf/professional_tour_golf_1a.dsk
 ./- Games/- Sports/- Strategic Simulations Inc (SSI)/Computer Quarterback/computer_quarterback.dsk
 ./- Games/- Sports/- Strategic Simulations Inc (SSI)/Ringside Seat/ringside_seat.dsk
 ./- Games/- Sports/- Strategic Simulations Inc (SSI)/Computer Baseball/computer_baseball.dsk
@@ -932,6 +938,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Sports/Batter Up!/batter_up_1b.dsk
 ./- Games/- Arcade (other)/- Scroller/Wings of Fury/wings_of_fury_1b.dsk
 ./- Games/- Arcade (other)/- Scroller/Wings of Fury/wings_of_fury_1a.dsk
+./- Games/- Arcade (other)/- Scroller/Bolo/bolo.dsk
 ./- Games/- Arcade (other)/- Scroller/Pegasus II/pegasus_ii.dsk
 ./- Games/- Arcade (other)/- Scroller/Sea Dragon/sea_dragon.dsk
 ./- Games/- Arcade (other)/- Scroller/Neptune/neptune.dsk
@@ -959,6 +966,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade (other)/- Scroller/Night Flight/Night Flight (Data Dragon crack)/night_flight.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Star Cruiser/star_cruiser.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Sputnik Attack/sputnik_attack.dsk
+./- Games/- Arcade (other)/- Galaxian like/Mating Zone/mating_zone.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Pest Patrol/pest_patrol.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Time Tunnels/Time Tunnels (Intern crack)/time_tunnels.dsk
 ./- Games/- Arcade (other)/- Galaxian like/Gemini/Gemini (Disk Jockey crack)/gemini.dsk
@@ -998,6 +1006,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade (other)/- Maze/-- Compilations/maze_craze+c'est_la_vie+minotaur+speed_maze.dsk
 ./- Games/- Arcade (other)/- Maze/Night Stalker/night_stalker.dsk
 ./- Games/- Arcade (other)/- Maze/Sheila/sheila.dsk
+./- Games/- Arcade (other)/- Maze/Succession/succession.dsk
 ./- Games/- Arcade (other)/- Maze/Nibbler/nibbler.dsk
 ./- Games/- Arcade (other)/- Maze/Ardy The Aardvark/ardy_the_aardvark.dsk
 ./- Games/- Arcade (other)/- Maze/Bubble-head/bubble-head.dsk
@@ -1015,6 +1024,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade (other)/- Run and gun/-- Compilations/alcazar+gremlins+vorpal.dsk
 ./- Games/- Arcade (other)/- Run and gun/Berzap/berzap_v2.1.dsk
 ./- Games/- Arcade (other)/- Run and gun/Lost Tomb/lost_tomb.dsk
+./- Games/- Arcade (other)/- Run and gun/Borg/Borg (Apple Bandit crack)/borg.dsk
 ./- Games/- Arcade (other)/- Run and gun/Electro Arena/Electro Arena (Ghost Rider crack)/electro_arena.dsk
 ./- Games/- Arcade (other)/- Run and gun/Marauder/marauder.dsk
 ./- Games/- Arcade (other)/- Run and gun/Force7/force7.dsk
@@ -1038,7 +1048,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade (other)/- Platformer/Impossible Mission/Impossible Mission II/impossible_mission_ii_1a.dsk
 ./- Games/- Arcade (other)/- Platformer/Impossible Mission/Impossible Mission I/impossible_mission.dsk
 ./- Games/- Arcade (other)/- Platformer/Robotics/Robotics.dsk
-./- Games/- Arcade (other)/- Platformer/Aztec/aztec.dsk
 ./- Games/- Arcade (other)/- Platformer/Mr. Robot/mr_robot.dsk
 ./- Games/- Arcade (other)/- Platformer/Anti Gravity/Anti Gravity (Green Hornet crack)/anti_gravity.dsk
 ./- Games/- Arcade (other)/- Platformer/Vopper/vopper.dsk
@@ -1055,6 +1064,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Arcade (other)/- Platformer/Congo Congo/congo_bongo.dsk
 ./- Games/- Arcade (other)/- Platformer/Black Magic/black_magic.dsk
 ./- Games/- Arcade (other)/- Platformer/Dino Eggs/dino_eggs.dsk
+./- Games/- Arcade (other)/- Platformer/Free Fall/free_fall.dsk
 ./- Games/- Arcade (other)/- Platformer/Zorro/Zorro (Majesty crack)/zorro.dsk
 ./- Games/- Arcade (other)/- Platformer/Sammy Lightfoot/sammy_lightfoot.dsk
 ./- Games/- Arcade (other)/- Platformer/Conan/conan_1a.dsk
@@ -1124,6 +1134,8 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Pinball/Night Mission/night_mission.dsk
 ./- Games/- Board/Clue/Clue (Blade crack)/clue_1b.dsk
 ./- Games/- Board/Clue/Clue (Blade crack)/clue_1a.dsk
+./- Games/- Board/221B Baker Street/221B Baker Street (Triton crack)/221b_baker_street_1a.dsk
+./- Games/- Board/221B Baker Street/221B Baker Street (Triton crack)/221b_baker_street_1b_case_disk.dsk
 ./- Games/- Board/- Chess/Sargon/Sargon III/Sargon III (Buffolo Bill crack)/sargon_iii.dsk
 ./- Games/- Board/- Chess/Battle Chess/battle_chess_1b.dsk
 ./- Games/- Board/- Chess/Battle Chess/battle_chess_1a.dsk
@@ -1139,14 +1151,15 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Various/- Datamost/Argos/argos.dsk
 ./- Games/- Various/- Datamost/Monster Smash/monster_smash.dsk
 ./- Games/- Various/- Datamost/Goonies/goonies.dsk
+./- Games/- Various/Spider Raid/spider_raid.dsk
 ./- Games/- Various/- Sierra/Sabotage/sabotage.dsk
 ./- Games/- Various/- Sierra/BC's Quest for Tires/bc_quest_for_tires.dsk
 ./- Games/- Various/- Gebelli/Phaser Fire/phaser_fire.dsk
 ./- Games/- Various/- Gebelli/Lazer Silk/lazer_silk.dsk
 ./- Games/- Various/- Gebelli/Eggs-It/eggs-it.dsk
 ./- Games/- Various/- Gebelli/Firebird/firebird.dsk
+./- Games/- Various/Aliens/aliens.dsk
 ./- Games/- Various/- MIndscape/Paperboy/paperboy.dsk
-./- Games/- Various/Bolo/bolo.dsk
 ./- Games/- Various/- Electronic Arts/Marble Madness/marble_madness_1a.dsk
 ./- Games/- Various/- Electronic Arts/Marble Madness/marble_madness_1b.dsk
 ./- Games/- Various/Killed Until Dead/Killed Until Dead (Two Knives crack)/killed_until_dead_1a.dsk
@@ -1155,6 +1168,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Various/- Data Trek/Willy Byte/Willy Byte (Dr Micro crack)/willy_byte_1b.dsk
 ./- Games/- Various/Crossbow/crossbow_1a.dsk
 ./- Games/- Various/Crossbow/crossbow_1b.dsk
+./- Games/- Various/Ballblazer/ballblazer.dsk
 ./- Games/- Various/Spy v Spy/spy_v_spy_i+spy_v_spy_ii.dsk
 ./- Games/- Various/Spy v Spy/spy_v_spy_iii.dsk
 ./- Games/- Various/Russki Duck/russki_duck.dsk
@@ -1223,9 +1237,11 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Fighting/Swashbuckler/swashbuckler.dsk
 ./- Games/- Fighting/Fight Night/fight_night.dsk
 ./- Games/- Fighting/Competition Karate/competition_karate.dsk
+./- Games/- Fighting/Black Belt/Black Belt (Syndicate crack)/black_belt.dsk
 ./- Games/- Fighting/Prince of Persia/prince_of_persia_1a.dsk
 ./- Games/- Fighting/Prince of Persia/prince_of_persia_1b.dsk
 ./- Games/- Fighting/Karate Championship/karate_championship.dsk
+./- Games/- Fighting/Bad Dudes/bad_dudes.dsk
 ./- Games/- Fighting/Karate Champ/karate_champ.dsk
 ./- Games/- Fighting/Kung Fu Master/kung_fu_master.dsk
 ./- Games/- Fighting/Death Sword/death_sword.dsk
@@ -1256,8 +1272,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Galactic Adventures/galactic_adventures_1a.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Galactic Adventures/galactic_adventures_1b.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Seuis/seuis.dsk
-./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Imperium Galactum/imperium_galactum_1a_scenario_boot.dsk
-./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Science Fiction/Imperium Galactum/imperium_galactum_1b_game.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Napoleonic/Napoleon's Campaigns/napoleons_campaigns.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Napoleonic/Computer Napoleonics/computer_napoleonics.dsk
 ./- Games/- Strategy (grognard)/- Strategic Simulations Inc (SSI)/- Napoleonic/Battles of Napoleon/battles_of_napoleon_2b_secnario.dsk
@@ -1354,7 +1368,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Strategy (grognard)/- Avalon Hill/Guns of Point Defiance/guns_of_point_defiance.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Class Struggle/Class Struggle (Xavier crack)/class_struggle.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Gulf Strike/gulf_strike.dsk
-./- Games/- Strategy (grognard)/- Avalon Hill/Andromeda Conquest/andromeda_conquest.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Tactical Armour Command/tactical_armor_command.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Alien/alien.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Conflict 2500/conflict_2500.dsk
@@ -1371,7 +1384,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Strategy (grognard)/- Avalon Hill/Space Station Zulu/space_station_zulu.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Tanktics/tanktics.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/B1 Bomber/b1_bomber.dsk
-./- Games/- Strategy (grognard)/- Avalon Hill/Galaxy!/galaxy.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_initialized_save_game_disk.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_1a_game_master.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_4a_save_disk_for_units_from_ext_cap_disk_2.dsk
@@ -1382,11 +1394,6 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_3b_extended_capabilities_disk_2.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Under Fire/under_fire_2a_extended_capabilities_disk_1.dsk
 ./- Games/- Strategy (grognard)/- Avalon Hill/Fortress of the Witch King/fortress_of_the_witch_king.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga IV - Last Redoubt/galactic_last_redoubt.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga I - Empire/galactic_empire.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/-- Compilations/galactic_saga_i-iii.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga III - Revolution/galactic_revolution.dsk
-./- Games/- Strategy (grognard)/- Broderbund/Galactic Saga/Galactic Saga II - Trader/galactic_trader.dsk
 ./- Games/- Strategy (grognard)/- Independent/Tank Platoon/tank_platoon_1b.dsk
 ./- Games/- Strategy (grognard)/- Independent/Tank Platoon/tank_platoon_1a.dsk
 ./- Games/- Strategy (grognard)/- Starfire/Global Thermonuclear War/Global Thermonuclear War (Blade crack)/global_thermonuclear_war.dsk
@@ -1421,6 +1428,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Modern/Genius/Genius II - Into the Toy Caves/genius_ii_r17.dsk
 ./- Games/- Modern/Genius/Genius I - Into the Toy Warehouses/genius_i_r17.dsk
 ./- Games/- Modern/Alien Downpour/alien_downpour.dsk
+./- Games/- Modern/Escape from Homebrew Computer Club/escape_from_homebrew_computer_club.dsk
 ./- Games/- Adventure creation/Adventure Creator/adventure_creator.dsk
 ./- Games/- Adventure creation/Adventure Master/adventure_master_1a.dsk
 ./- Games/- Adventure creation/Adventure Master/adventure_master_1b.dsk
@@ -1437,6 +1445,24 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Xmas/A Christmas Adventure/a_christmas_adventure_1a.dsk
 ./- Games/- Xmas/Ho Ho Ho/Ho Ho Ho (Digital Gang crack)/ho_ho_ho.dsk
 ./- Games/- Xmas/The Night Before Christmas/the_night_before_christmas.dsk
+./- Games/- Space Exploration/Imperium Galactum/imperium_galactum_1a_scenario_boot.dsk
+./- Games/- Space Exploration/Imperium Galactum/imperium_galactum_1b_game.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga IV - Last Redoubt/galactic_last_redoubt.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga I - Empire/galactic_empire.dsk
+./- Games/- Space Exploration/Galactic Saga/-- Compilations/galactic_saga_i-iii.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga III - Revolution/galactic_revolution.dsk
+./- Games/- Space Exploration/Galactic Saga/Galactic Saga II - Trader/galactic_trader.dsk
+./- Games/- Space Exploration/Andromeda Conquest/andromeda_conquest.dsk
+./- Games/- Space Exploration/Galactic Quest/galactic_quest.dsk
+./- Games/- Space Exploration/Titan Empire/titan_empire.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_3.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_2.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_4.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_play.dsk
+./- Games/- Space Exploration/Universe/Universe (Terry Wu crack)/universe_1_construction.dsk
+./- Games/- Space Exploration/Conquering Worlds/conquering_worlds.dsk
+./- Games/- Space Exploration/Galaxy!/galaxy.dsk
+./- Games/- Pilot/Space Vikings/space_vikings.dsk
 ./- Games/- Pilot/Horizon V/horizon_v.dsk
 ./- Games/- Pilot/Epoch/epoch.dsk
 ./- Games/- Pilot/Infiltrator/Infiltrator II/infiltrator_ii_1b.dsk
@@ -1482,6 +1508,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Copy programs/Disk Muncher/disk_muncher_v6.dsk
 ./- Copy programs/Disk Muncher/disk_muncher_v8.dsk
 ./- Copy programs/Disk Muncher/disk_muncher_v9.dsk
+./- Copy programs/Nibble Copy/nibble_copy_v1981.dsk
 ./- Word Processing/Bank Steet StoryBook/bank_street_storybook_1b.dsk
 ./- Word Processing/Bank Steet StoryBook/bank_street_storybook_1a.dsk
 ./- Word Processing/Bank Steet Writer/bank_steet_writer_IIc.dsk
@@ -1600,6 +1627,9 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Programming/ProBASIC/probasic_1b_library.dsk
 ./- Programming/ProBASIC/probasic_1a.dsk
 ./- Programming/Cat Graphics/cat_graphics.dsk
+./- Programming/Lisa Assembly Language/lisa_assembly_language_v2.5g_1a.dsk
+./- Programming/Lisa Assembly Language/lisa_assembly_language_v2.5g_1b.dsk
+./- Programming/DOS Tool Kit Programming Utils/dos_toolkit_programming_utils.dsk
 ./- Graphics/Bill Budge's 3-D Graphics System/Bill Budge's 3-D Graphics System (.nib)/bill_budge_3-D_graphics_system.nib
 ./- Text/First Fleet Convict Database/first_fleet_convict_database.nib
 ./- Games/- Adventure (text)/- Interactive fiction (text)/- Infocom/- Zork Universe/Zork/Zork IV - BeyondZork/BeyondZork (.nib)/beyond_zork_1b.nib
@@ -1695,13 +1725,13 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Decisive Battles of the Civil War/Civil War Vol. I/civil_war_vol_i_1a.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Europe Ablaze/europe_ablaze_1a.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Europe Ablaze/europe_ablaze_1b.nib
-./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Reach for the Stars/reach_for_the_stars.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/MacArthur's War/macarthurs_war_1a.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/MacArthur's War/macarthurs_war_1b.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Rommel - Battles for North Africa/rommel_battles_for_north_africa_1b.nib
 ./- Games/- Strategy (grognard)/- Strategic Studies Group (SSG)/Rommel - Battles for North Africa/rommel_battles_for_north_africa_1a.nib
 ./- Games/- Strategy (grognard)/- Microprose/Decision in the Desert/decision_in_the_desert_1b.nib
 ./- Games/- Strategy (grognard)/- Microprose/Decision in the Desert/decision_in_the_desert_1a.nib
+./- Games/- Space Exploration/Reach for the Stars/Reach for the Stars (.nib)/reach_for_the_stars.nib
 ./- System/DOS/DOS v3.2/DOS v3.2 (.nib)/dos_v3.2_utility.nib
 ./- System/DOS/DOS v3.2/DOS v3.2 (.nib)/dos_v3.2_plus_1979.nib
 ./- System/DOS/DOS v3.2/DOS v3.2 (.nib)/dos_v3.2_standard_1979.nib
@@ -1744,6 +1774,7 @@ find . -name "*dsk" && find . -name "*nib" && find . -name "*woz" && find . -nam
 ./- Games/- Various/Bill Budge/Bill Budge's Space Album/Bill Budge's Space Album (.woz)/bill_budge_space_album.woz
 ./- Games/- Fighting/Karateka/Karateka (.woz)/karateka_1a.woz
 ./- Games/- Fighting/Karateka/Karateka (.woz)/karateka_1b_upside_down.woz
+./- Games/- Space Exploration/Reach for the Stars/Reach for the Stars (.woz)/reach_for_the_stars.woz
 ./- Graphics/Mouse Paint/disk_3.5/mouse_paint.2mg
 ./- Games/- Adventure (graphic)/- Interactive fiction (graphic)/- Infocom/Journey/journey.2mg
 ./- Games/- Adventure (graphic)/- Interactive fiction (pseudo-3D)/- Activision/Neuromancer/neuromancer.2mg
