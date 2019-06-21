@@ -1,0 +1,3 @@
+Freedom! is an educational computer game developed and published by MECC. The game met a mixed reception; some educators found it valuable while others found it racially offensive due to its use of stereotyped speech by slave characters. Freedom! was the first educational game to use an open world environment simulating real world areas of Virginia, Maryland, and Delaware. During gameplay, players were allowed to travel in any direction they wished using the stars, moss, or a compass to orient themselves.
+
+In 1993, a group of offended parents sued a school which had provided the game to students and MECC, the developer. The game was pulled off the market as a result.
