@@ -1,0 +1,1 @@
+The last adventure game published by Spinnaker Software
