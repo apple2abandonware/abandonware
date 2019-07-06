@@ -1,0 +1,1 @@
+word processor similar to MacWrite - originally known as MultiScribe - for 128K Apple IIe/IIc
