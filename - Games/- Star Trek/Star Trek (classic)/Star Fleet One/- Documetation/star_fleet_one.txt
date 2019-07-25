@@ -1,0 +1,623 @@
+<<< STAR FLEET 1 >>>
+extracted from SEWER DOCS by Underdogs
+
+1.Quick reference
+2.Commands
+3.General information
+4.Codes
+
+* QUICK REFERENCE *
+
+SHIELD INFORMATION :
+
+There are two SHIELD DISPLAYS -- In the upper right corner of 
+the screen is a graphic display of your ship and its shields.  
+Below  that  is an energy distribution  display  showing  the 
+total amount of energy and how it is distributed through your 
+ship and shields. (shld1/shld2/shld3/shld4) 
+NOTE:   All shields are referenced to your bearing.   If your 
+ship  is pointing north,  then shield 1 will be facing  north 
+shield 2 will be facing west, etc.
+
+COMPASS HEADINGS :
+
+EAST 		= 0 DEGREES
+NORTHEAST 	=  45 DEGREES
+NORTH		= 90 DEGREES
+NORTHWEST	 = 135 DEGREES
+WEST 		= 180 DEGREES
+SOUTHWEST 	= 225 DEGREES
+SOUTH 	= 270 DEGREES
+SOUTHEAST = 315 DEGREES
+
+PATROL AREA MAP :
+
+    1< ?   ?   ?   ?   ?   ?   ?   ? >
+    2<201 300 000  ?   ?   ?   ?   ? >
+    3<001 252 400  ?   ?   ?   ?   ? >
+    4<002 101 000  ?   ?   ?   ?   ? >
+    5< ?   ?   ?   ?   ?   ?   ?   ? >
+    6< ?   ?   ?   ?   ?   ?   ?   ? >
+    7< ?   ?   ?   ?   ?   ?   ?   ? >
+    8< ?   ?   ?   ?   ?   ?   ?   ? >
+
+The  PATROL AREA MAP is made up of 64 (8x8  grid)  quadrants.  
+Each  quadrant  is  defined  by its  location  in  the  grid.  
+Quadrant "3,2" means row 3, column 2, counting from the upper 
+left corner.   Once scanned or probed a quadrant will display 
+three numbers: (1) the number of enemy ships,(2) ID number of 
+the  starbase if present and (3) the number of star  systems.  
+Zeros mean none exist and "?" means the quadrant hasn't  been 
+checked out.
+EXAMPLE:  Quadrant "3,2" has two enemy ships, starbase #5 and 
+two star systems. 
+
+QUADRANT AREA MAP :
+
+< 1 2 3 4 5 6 7 8 9 0 >
+1< . . . . . . . . . . >
+2< * . . . . . . . . . >
+3< . . . . . . . . E . >
+4< . . . . . 5 . . . . >
+5< . . . . . . . . . . >
+6< . . . E . . . . . . > 
+7< . . . . . . . . . . >
+8< . . . . . # . . . . >
+9< . . . . . . . . * . >
+0< . . . . . . . . . . >
+
+E = enemy ships
+# = your ship
+5 = starbase #5
+* = star system
+
+The QUADRANT AREA MAP is made up of 100 (10x10 grid)  sectors 
+and is always displayed as a tactical map with visible  items 
+in that quadrant.   Sectors are defined in the same manner as 
+quadrants (by row, column).
+
+COMMAND MENUS :
+
+* MENU * KEY * ABBR. * COMMAND/TASK *
+* ====================================*
+*  P   *  1  *  TAR  * Target Calculator (?)
+*  P   *  2  *  LRS  * Long Range Sensors 
+*  P   *  3  *  STA  * Mission Status Report
+*  P   *  4  *  DAM  * Damage Control (?)
+*  P   *  5  *  NAV  * Navigation Control (?)
+*  P   *  6  *  SHD  * Defensive Shields Control (+) 
+*
+*  P   *  7  *  TOR  * Torpedo Control (+)
+*  P   *  8  *  PHA  * Phaser Control (+)
+*  P   *  9  *  CMP  * Ship's Computer
+*  P   *  0  *  2ND  * Secondary Command Menu
+*  S   *  1  *  TRC  * Tractor Beam Control (+)
+*  S   *  2  *  TRN  * Transporters Control (+)
+*  S   *  3  *  MIN  * Mine Control (+)
+*  S   *  4  *  SEC  * Internal Security Control (+)
+*
+*  S   *  5  *  SAV  * Save Game
+*  S   *  6  *  STO  * Stop Game
+*  S   *  7  *  SND  * Sound On/Off
+*  C   *  1  *  PRO  * Probe Launch Control (+)
+*  C   *  2  *  AAS  * Auto Alert Switch
+*  C   *  3  *  NOP  * No Operation (+)
+*  C   *  4  *  BAS  * Starbase Status Report
+*  C   *  5  *  HYP  * Emergency Hyperspace Maneuver (+)
+*  C   *  6  *  SLF  * Self-destruct Sequencer
+
+MENU:  P = PRIMARY
+	(+) = COMMAND USES TIME
+	S = SECONDARY 
+	(?) = COMMAND MAY OR MAY NOT OCCUR
+	C = COMPUTER USES TIME
+
+<<< STARFLEET I - COMMANDS >>>
+
+A command menu is located at the bottom of your display.  You 
+may choose a command by hitting the appropriate number key (1 - 0) 
+or by clicking the mouse on the command location.   Your selection 
+may lead you to a second command menu.   Hitting the ESC key  will 
+usually  cancel a command or get you out of a  sub-menu.   Hitting 
+the RETURN key may be necessary to activate certain procedures  if 
+you are not using the mouse.
+
+* COMMANDS *
+
+TAR :  ( P-1 )
+
+TARGET CALCULATOR >
+Computes the bearing and distance from your starship to  any 
+point  in  the region.   Move the mouse cursor and  click  on  the 
+target quadrant.  Now choose the target sector in the same manner.  
+You may also choose the quadrant and sector by typing the row  and 
+column  numbers  separated  by  a  comma.    TAR  will  make   all 
+navigational  calculations  and allows you to abort  or  fire  the 
+engines.
+
+LRS :  ( P-2 )
+
+LONG RANGE SENSORS >
+Causes  the  contents  of  the  quadrants  surrounding  your 
+starship to be displayed on the Region Map.
+
+STA :  ( P-3 )
+
+MISSION STATUS REPORT >
+Gives information on the current status of your mission  and 
+any alien vessels in your quadrant.
+
+DAM :  ( P-4 ) 
+
+DAMAGE CONTROL >
+Allows  you to list the status of your  ship's  systems  and 
+repair  those  that  are damaged.   If any  of  your  systems  are 
+damaged,  you  will  be asked if you would like to repair  one  of 
+them.   If  you  answer <Y> then the system # will  be  asked  for 
+followed by the amount of energy you wish to use in repair.
+
+NAV :  (P-5)
+
+NAVIGATIONAL CONTROL >
+Allows you to move,  either within your current quadrant  or 
+between quadrants.  You must input COURSE and C-FACTOR (distance - 
+.1 per sector) values before you can fire your engine.
+NOTE:  It is much easier to use TARGET CALCULATOR!
+
+SHD :  ( P-6 )
+
+DEFENSIVE SHIELDS CONTROL >
+Allows you to adjust your defensive shields.   Each time  you  
+are  hit,  the number of units of the hit are subtracted from  the 
+shield facing the enemy.   If the shield is penetrated, damage and 
+casualties  will occur.   The maximum capacity of your shields  is 
+4000  units  of energy - with no shield  over  2000.   A  sub-menu 
+appears from which you choose your shield configuration.
+
+(1) LOWER -- lower all shields to zero. 
+(2) BATTLE -- doubles power to front shield, with none in the rear,
+		    and leaves at least 100 units in reserve.
+(3) MAX -- allocates available power evenly to all shields and leaves 
+		at least 100 units in reserve.
+(4) TOTAL -- you choose total amount to be allocated.
+		 All shields receive equal amounts.
+(5) INDIVIDUAL -- you input amount to each individual shield.
+
+TOR :  ( P-7 )
+
+TORPEDO CONTROL >
+Allows you to fire torpedoes.   You first choose (1) AUTO  or 
+(2) MANUAL.  AUTO will determine the number of targets in view and 
+ask  for  the number of torpedoes (5 max.) to  be  fired.   MANUAL 
+allows you to fire your torpedoes at any location in the quadrant.
+You normally begin with 20 torpedoes but you can carry up to 30.
+
+PHA :  ( P-8 )
+
+PHASER CONTROL >
+Allows you to fire your ship's phasers (6 max.).  Phasers are 
+more  effective  at  close range and may be  used  to  destroy  or 
+disable the enemy.   Phasars will also wrap around objects such as 
+star systems.  AUTO will automatically select target locations and 
+give you the option of disabling or destroying the enemy.   MANUAL 
+requires additional input before firing.
+
+CMP :  ( P-9 )
+
+SHIP'S COMPUTER >
+Allows you to access the computer on-board your  ship.   The 
+COMPUTER MENU will appear on the bottom line of the display.
+
+2ND :  ( P-0 )
+
+SECONDARY MENU >
+Allows you to access the SECONDARY MENU on the bottom line of 
+the screen display.
+
+TRC : ( S-1 )
+
+TRACTOR BEAM CONTROL >
+Activates your ship's tractor beam for placing disabled enemy 
+vessels in tow.  Your tractor beam cannot operate through a shield 
+so the shield facing the disabled ship must be lowered.
+
+HINT:   If  the SHIELD CONTROL is damaged and you need to lower  a 
+shield to gain energy you may “use your tractor beam to lower  your 
+shield.
+
+TRN :  ( S-2 )
+
+TRANSPORTERS CONTROL >
+Activates your ship's transporters to transport  your  space 
+marines into a disabled enemy vessel.   It may take more than  one 
+boarding to capture the vessel.
+
+MIN :  ( S-3 )
+
+MINE CONTROL >
+Allows  you  to lay torpedoes as mines  and  retrieve  them.  
+Mines  are most useful to damage or destroy single enemy  vessels, 
+especially Zaldrons.   As your starship moves it leaves a mine  in 
+each sector you pass through,  until the allocated number has been 
+laid.   If you leave the quadrant all mines not retrieved will  be 
+lost.   Mines cannot be laid if you have a ship in tow.  Mines can 
+be  retrieved after visiting a starbase (increasing the total  you 
+are allowed to carry).
+
+SEC :  ( S-4 ) 
+
+INTERNAL SECURITY CONTROL >
+Allows  you to use your ship's internal  security  force  to 
+apprehend  intruders.   You  may  choose  between  SEARCH  or  MAX 
+options.   If MAX is chosen,  you will be asked the deck on  which 
+you wish to conduct the maximum search.
+
+SAV : ( S-5 ) 
+
+SAVE GAME OPTION >
+This option allows you to save your game in progress.   A TOS 
+window will appear and you will type in a file name to store  your 
+game.
+
+STO :  ( S-6 )
+
+STOP GAME OPTION >
+This option allows you to stop your mission  without  saving 
+it.   Missions that are stopped do not become part of your service 
+record.
+
+SND :  ( S-7 ) 
+
+SOUND OPTION >
+This option allows you to toggle the game sounds on/off.
+
+PRO :  ( C-1 ) 
+
+PROBE LAUNCH CONTROL >
+Allows  you to launch deep space reconnaissance  probes  for 
+exploring remote quadrants in your region.   This task allows  you 
+to  launch three probes per mission.   Both the course and  launch 
+power must be input.  Approximately 80 units of power is enough to 
+send a probe across the diagonal length of your region.
+
+AAS :  ( C-2 )
+
+AUTO ALERT SWITCH >
+This command toggles the AUTO ALERT SWITCH on/off.   When  in 
+the ON position your shields are automatically raised and  lowered 
+to meet with conditions.
+
+NOP :  ( C-3 )
+
+NO OPERATIONS OPTION >
+This  option allows a mission time cycle to  elapse  without 
+doing any operations.
+
+BAS :  ( C-4 )
+
+STARBASE STATUS REPORT >
+Gives you the current status of your starbases.   The  report 
+gives  you  the  quadrant  location,   strength,   remaining  crew 
+replacements, and status for each known starbase.
+
+HYP :  ( C-5 )
+
+EMERGENCY HYPERSPACE MANEUVER >
+Activates your Emergency Hyperspace Control to relocate  your 
+ship at random in the region.   This task permits your starship to 
+enter hyperspace,  usually to escape hopeless situations and is  a 
+very dangerous maneuver.
+
+SLF :  ( C-6 )
+
+SELF-DESTRUCT SEQUENCER >
+Destroys  your starship and all vessels  in  your  quadrant.  
+This is to be used only as a last resort.
+
+<<<   S T A R   F L E E T   I   >>>
+
+***  GENERAL INFORMATION  ***
+
+
+THE ENEMY
+
+There are two races of hostile aliens - the Krellans and  the 
+Zaldrons.   The  destroyer  is  the  only  type  of  Krellan  ship 
+identified so far by Star Fleet Intelligence.   Even less is known 
+about the warships used by the Zaldron.   Star Fleet has not  been 
+able to determine the Zaldron ship's class or type, although it is 
+similar in size to a destroyer.
+
+Krellans  are classified  as  warm-blooded  humanoids.   The 
+Krellan  people  as a race are extremely hostile  and  aggressive.  
+Their  physical strength is greater than most inhabitants  of  the 
+galaxy,  including  humans.   Their  aggressive behavior  and  raw 
+courage are the product of centuries of selective breeding.  Their 
+society is based on conquest.  Krellan children are selected at an 
+early  age  for  their future  career.   All  parents  hope  their 
+children  will  be  selected to be part of  the  Imperial  Krellan 
+assault forces.   If not,  they will grow up in the working class, 
+laboring  all their lives to support the Empire with  little  gain 
+for  themselves.    All  political,   medical,   and  upper  class 
+occupations are held by military officials.   A Krellan's life  is 
+made up of war and conquest;  this is their honor.   For a Krellan 
+to die in battle is the greatest honor of all.
+
+Zaldrons are subterranean dwellers.   They are  cold-blooded 
+reptiloids.    However,   they  are  extremely  intelligent.   The 
+Zaldrons are an imperialistic race,  but unlike the Krellans, they 
+are  not  overly  aggressive.   Their  battles  are  strategically 
+planned  and executed.   Meticulous precision is a  characteristic 
+trait of the Zaldron.   The Zaldrons serve a Queen,  and in  their 
+society  the  females  serve  in all  political  and  upper  class 
+occupations.  This frees their males for war.
+
+
+ENEMY TACTICS
+
+
+Krellan movement depends on your mission level.   For  level 
+one  games they will not move at all.   For level two  games  they 
+will move only within your current quadrant.   For level three and 
+above the Krellans will move within your current quadrant and also 
+from quadrant to quadrant within the region.   There movement  can 
+be detected within the explored quadrants of your region by  using 
+long range sensors and watching the region map.   The fewer  there 
+are  and the higher your rank,  the more likely they are to  move.  
+It is important to know the current location of the enemy.   Using 
+the  region map you can see if a starbase is about to  come  under 
+attack,  or see if you need to change your strategy and head to  a 
+different  part of the region to attack a higher concentration  of 
+enemy forces.  The only known strategy of the Krellan attackers is 
+that  they  tend  to  gather in  and  near  quadrants  where  your 
+starbases are located.
+
+There  will be up to five Krellans in  each  quadrant.   The 
+Zaldron  warships  operate individually and can enter or  leave  a 
+quadrant at will,  but there will only be one hostile Zaldron in a 
+quadrant  at  a time.   The Zaldron ships are  normally  invisible 
+because  of their invisibility screens.   Their presence  in  your 
+quadrant can be detected by your sensors due to their  disturbance 
+of the space-time continuum,  but their exact position is  usually 
+only  determined by accidentally colliding with or shooting  them.  
+However,   the  warping  of  the  space-time  continuum  by  their 
+invisibility screen uses tremendous energy and it is difficult  to 
+maintain in a stable condition.   Consequently,  your short  range 
+sensors may occasionally detect a slight disturbance,  which  will 
+appear  as  a  momentary flicker on the Tactical  Display  of  the 
+sector  containing the Zaldron.   Since the Zaldrons use  so  much 
+energy  to stay invisible,  if they remain in your  quadrant  long 
+enough, they will get so weak that they will become visible and be 
+unable to move.
+
+Each enemy vessel will shoot at your starship each time  one 
+of the following happens:
+
+1. Your starship enters a new quadrant
+2. Your starship moves
+3. Your starship fires phasers or torpedoes
+4. You operate the tractor beam or transporters
+
+Also,  if an entire day goes by without the enemy firing  at 
+you,  they will fire at you anyway, just out of spite.  The closer 
+the enemy is to your starship,  the stronger the hit will be, with 
+a maximum of 475 units for Krellans or 575 units for Zaldrons when 
+in a sector next to yours.   When you damage an enemy vessel,  its 
+strength  is weakened and cannot be regained unless your  starship 
+leaves the quadrant.   However, once you leave their quadrant they 
+will rapidly recharge their energy to full strength.
+
+You  need  not eliminate all the enemy  vessels  (either  by 
+destroying or capturing them) in your region.   There will  always 
+be  more enemy ships in the region than are necessary to  complete 
+your mission.
+
+
+YOUR SERVICE RECORD 
+
+Your promotion history and any awards or decorations you have 
+received are contained in the service record.  Your service record 
+is  updated automatically by the program at the end of each  game.  
+To  be promoted you must complete the required number of  missions 
+with  an  overall  efficiency rating of  75%.   You  will  not  be 
+promoted after a failed mission,  even if your overall  efficiency 
+rating  is above 75%.   You must successfully complete  your  last 
+mission in order to be promoted.
+
+
+STAR FLEET SECURITY SYSTEM
+
+To protect your STAR FLEET I simulation against  unauthorized 
+use  by  enemy agents and other undesirable  sentient  being,  two 
+levels of security have been installed.   The first appears  after 
+the title and credit screens have been shown,  and requires you to 
+enter  a certain word obtained from the Officer's Manual  per  the 
+instructions given on your screen. 
+
+The  second level of security (a  password)  prevents  other 
+authorized  Fleet  members from signing on under  your  name.   If 
+signing on for the first time,  input your name and a  "password".  
+DO NOT FORGET YOUR NAME AND PASSWORD!!   If you do forget you will 
+have to begin again at Star Fleet Academy.
+
+
+ENEMY INTRUDERS
+
+Enemy intruders are dastardly aliens who come aboard and  run 
+amok in your ship sabotaging systems.   There are three sources of 
+intruders:   a Krellan or Zaldron agent who is transported  aboard 
+through  a  lowered defensive shield,  a Krellan agent  who  slips 
+aboard while you are docked with starbase, or an escaped prisoner.  
+There will only be one intruder aboard at a time.
+
+Intruders  are first located when they  sabotage  a  system, 
+which can occur on any deck (1 to 20).  The intruder may then work 
+his way up or down through the decks,  but can only move one  deck 
+at  a  time.   You  can use the Maximum Security  Deck  option  of 
+Security Control to try and intercept the intruder as he works his 
+way towards vulnerable systems.   Intruders do not appear in level 
+one or two games.
+
+
+SHIP DISABLED
+
+
+You can also lose the game by having your ship  disabled  as 
+well as destroyed.  The following will disable your ship:
+
+(1) ALL POWER EXPENDED 
+(2) BOTH LIFE SUPPORT SYSTEMS DESTROYED
+(3) BACKUP LIFE SUPPORT SYSTEM BATTERIES EXHAUSTED
+(4) ENTIRE SHIP'S CREW KILLED (500)
+
+
+STARBASES AND DOCKING
+
+
+Resupply  and repairs are provided by  means  of  starbases.  
+These  starbases  are dispersed throughout  Alliance  space.   For 
+security  reasons,  all starbase locations are kept  secret  until 
+attacked; thus, you will have to find them yourself.
+
+To dock with a starbase, you must move to an adjacent sector.  
+However,  you  cannot dock using main engines and you cannot  dock 
+immediately  after entering the quadrant.   If your move into  the 
+quadrant  puts  you next to starbase,  just use  your  maneuvering 
+engines to dock.
+
+Upon docking,  all damaged systems are repaired,  all  power 
+replenished,   crew   replacements  obtained  and  torpedoes   are 
+replaced.    However,  probes  and shuttlecraft are not  replaced.  
+Starbase  also provides a security force to assist yours if  there 
+is  an intruder aboard.   While docked,  starbase's  shields  will 
+protect  your  ship,  but if starbase is destroyed while  you  are 
+docked,  you  too will be destroyed.   You can fire torpedoes  and 
+phasers, use your tractor beam, transporters, etc., while docked.
+
+If  you are not present in the quadrant and  a  starbase  is 
+attacked  you  will  receive a message  from  Star  Fleet  Command 
+ordering  you to rescue.   You will also receive messages  if  the 
+starbase is critical or has been destroyed.  The successful rescue 
+of  a  starbase will increase your rating,  while a  failure  will 
+decrease  it.   You  will not be credited for a rescue  until  all 
+hostile  ships  in the quadrant have  been  eliminated,  including 
+Zaldrons.   You can deliver an enemy vessel in tow without docking 
+by maneuvering next to starbase.   When asked if you wish to dock, 
+respond  "no" and you will be asked if you want to  deliver  enemy 
+ship.
+
+
+THE TIME FACTOR
+
+Next to the MET (Mission Elapse Time) number of days in  the 
+upper right of your screen is a symbol indicating how well you are 
+doing for time.   An UP ARROW means you are ahead in time.  ARROWS 
+UP  AND DOWN mean you are close in time and DOWN ARROW  means  you 
+are behind in time.   TIME WARNING = 5 days left.  TIME CRITICAL = 
+2 days left.
+
+
+    <<<  S T A R   F L E E T   I --  AUTHORIZATION CODES  >>>
+ 
+[ FORMAT: page # > lines 1 * 2 * 3 * 4 * 5 ]
+
+ 1 > GENERAL * STAR
+ 2 > NOTE * THE * WHICH * AND * IF
+ 3 > I * THIS * BEGIN * INTRODUCTION * STAR 
+ 4 > HOWEVER * NEARBY * IF * MANUAL * I
+ 5 > YOUR * YOU * ASSIGNED * TIC * NUMBER
+ 6 > YOU * BUT * YOUR * THE * HIGHER 
+ 7 > THE * THERE * CHARACTERISTICS * TABLE * BY
+ 8 > THE * HOWEVER * ISTIC * BATTLES * CHARACTERISTIC
+ 9 > THERE * OPERATE * WILL * SHIPS * PRESENCE
+10 > TABLE * KRELLAN * CRUISING * MAXIMUM * PHASERS
+11 > YOUR * YOUR * ARE * MATICALLY * ORD
+12 > THE * STAR * COMPATIBLE * 80-CHARACTER * DISK
+13 > DISKETTE * CYGNUS * THE * ARATE * DISKETTE
+14 > SETTING * TO * STEPS * NING * 1
+15 > BACKING * STAR * INCREASES * COMMENDED * PLAYING
+16 > STARTING * YOU * BACKUP * VERSION * PROGRAM
+17 > MONITOR * THERE * <N> * WOULD * PRESS
+18 > STAR * TO * ENEMY * HAVE * HAVE 
+19 > RETURN * AGAIN * PASSWORD * LATER * PROGRAM
+20 > STARTING * AFTER * THE * SIGN-ON * IF
+21 > PRESS * YOUR * ONLY * THE * LOADED
+22 > THE * TO * WHICH * THE * ONLY
+23 > TABLE * MESSAGE * ZALDRON * QUADRANT * INTRUDER
+24 > TABLE * SYMBOL * . * A-Y * * 
+25 > AREA * AREA * KEYS * 1 * TION
+26 > PICTURE ONLY
+27 > COMMAND * STAR
+28 > STAR
+29 > II * OVERVIEW * THERE * MANDS *TO
+30 > SINCE * HAVE * SHOWN * AFTER * <ENTER>
+31 > DESCRIPTIONS * FOLLOWS * ABBREVIATION * THE * MENU
+32 > AAS * TASK * ABBREVIATION * PURPOSE * OPTIONS
+33 > BAS * TASK * ABBREVIATION * PURPOSE * OPTIONS
+34 > DAM * TASK * ABBREVIATION * PURPOSE * REPAIR
+35 > DAM * STAR
+36 > DIS * TASK * ABBREVIATION * PURPOSE * OPTIONS
+37 > HYP * TASK * ABBREVIATION * PURPOSE * YOUR
+38 > LRS * TASK * ABBREVIATION * PURPOSE * YOUR
+39 > MAP * TASK * ABBREVIATION * PURPOSE * OPTIONS
+40 > MIN * COMMAND * ABBREVIATION * PURPOSE * OPTIONS
+41 > MIN * IF * WILL * WANT * CANCEL
+42 > NAV * COMMAND * ABBREVIATION * PURPOSE * CURRENT
+43 > NAV * FOR * WHILE * ENEMY * ACCELERATE
+44 > NOP * COMMAND * ABBREVIATION * PURPOSE * OPERATIONS
+45 > PHA * COMMAND * ABBREVIATION * PURPOSE * OPTIONS
+46 >v PHA * AUTO-FIRE * POWER * EVENLY * IT
+47 > PRO * COMMAND * ABBREVIATION * PURPOSE * EXPLORING
+48 > SAV * COMMAND * ABBREVIATION * PURPOSE * OPTIONS
+49 > SEC * COMMAND * ABBREVIATION * PURPOSE * APPREHEND
+50 > SHD * COMMAND * ABBREVIATION * PURPOSE * OPTIONS
+51 > SHD * THE * SHIELDS * OPTIONS * FIRST
+52 > SLF * COMMAND * ABBREVIATION * PURPOSE * OPTIONS
+53 > SND * COMMAND * ABBREVIATION * PURPOSE * OPTIONS
+54 > STA * COMMAND * ABBREVIATION * PURPOSE * AND
+55 > STA * TABLE * ITEM * SYS * INOPERATIVE
+56 > STO * COMMAND * ABBREVIATION * PURPOSE * OPTIONS 
+57 > TAR * COMMAND * ABBREVIATION * PURPOSE * ANY
+58 > TOR * COMMAND * ABBREVIATION * PURPOSE * OPTIONS
+59 > TRC * COMMAND * ABBREVIATION * PURPOSE * TOW
+60 > TRC * IF * LOWER * VESSEL * MAND
+61 > TRN * COMMAND * ABBREVIATION * PURPOSE * MARINES
+62 > PICTURE ONLY
+63 > INFORMATION * STAR
+64 > STAR 
+65 > III * THIS * ENEMY * ENEMY * YOUR
+66 > SHIP * YOU * DESTROYED * 1) * SHIELDS
+67 > STARBASES * RESUPPLY * CLASS * THEIR * DEFENSE
+68 > EACH * ENEMY * RANT * IF * AN
+69 > SIGN-ON * EXCEPT * ACADEMY * YOUR * DO
+70 > OPTION * ARE * NAME * YOU * OPTION
+71 > STARSHIP * YOU * SHIPS * INVINCIBLE * 1
+72 > LIST * FUNCTIONS * FOR * FOLLOWING * DECK
+73 > DECORATIONS * OFFICERS * ALL * YOUR * THE
+74 > THERE * PRECEDING * THE * COMPLETE * ING
+75 > EFFICIENCY * AT * HELP * ON * ONLY
+76 > THE * NEXT * SYMBOL * RATE * ENCED
+77 > MAINTENANCE * STAR
+78 > STAR
+79 > IV * OVERVIEW * IN * RECORD * ALONG
+80 > STARTING * IN * FLEET * ENTER * ENTER
+81 > YOU * PRESS * LOWER * EXIT * OPTIONS
+82 > THE * A * STAR * THIS * AND
+83 > SERVICE * THIS * EACH * APPENDS * FOLLOWING
+84 > TABLE * DEC * 1 * 2 * 3
+85 > FOR * LEVEL * 803 * 36 * IT
+86 > MAINTENANCE * THE * LIST * THIS * DATA
+87 > RESET * THIS * I * SINGLE * THIS
+88 > DELETE * PRESS * ASSUMED * BE * ANY
+89 > WANT * PROGRAM * NUMBER * 3) * THIS
+90 > APPEND * THIS * FILE * DELETED * SECTION
+91 > SEQ * EACH * THE * IDENTIFICATION * YOU
+92 > PREVIOUS * QUIRED * AFTER * SF * LOOK
+93 > DISKETTE * IF * PRIOR * CHECKING * ZERO
+94 > REBUILDING * ALTHOUGH * OPERATION * GOING * THREE
+95 > FINAL * STAR
+96 > STAR
+97 > V * STAR * SIMULATIONS * INCORPORATED * CYGNUS
+98 > CYGNUS * THE * BE * PERIOD * THIS
+99 > INDEX * A * AAS * ACADEMY * 20
+100> Q * QUADRANT * 40-43 * R * RANK
