@@ -1,0 +1,1 @@
+Based on the Interstel game "Empire"
