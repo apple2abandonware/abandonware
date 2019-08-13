@@ -1,0 +1,248 @@
+Eamon #74 "DharmaQuest" Walkthrough by Tom Zuchowski
+
+
+In this adventure, you have offended Hokas, and he sends you to another
+land to learn some manners and compassion.
+
+First, the hints for those who wish to solve it on their own:
+
+If you delete line 19050 from the MAIN PGM, you can restart a saved game
+more than once. You will need a separate "Save" disk . This disk will be
+formatted and erased when you save a game to it.
+
+There are two ways to exit the adventure. One is through a simple
+magical portal, which can be done at any time once you find it. The
+other exit is more difficult to achieve, and gives a far more satisfying
+outcome. The maximum outcome ends with the gods boosting every one of
+your major stats. Those of you who use cheater-superman characters will
+not want to return to the Main Hall, as the reward maxes your main stats
+to 25.
+
+Use the Ring of Asroth sparingly. You must kill some enemies in the
+conventional fashion in order to learn every clue you need to completely
+solve this outing.
+
+There is a bug that deposits you in the Temple of Aphrodite if you SAY
+something that the program doesn’t recognize. You will find things less
+confusing if you only SAY things you are reasonably sure that the SAY
+routine should recognize.
+
+There is a random chance that you will be denied entrance at each of the
+four temples. There is nothing in these temples that you have to have in
+order to achieve the maximum outcome. If you want to complete all of the
+temples, here is a workaround:
+
+1) If the statue disappears and your prayers are ignored, halt the game
+with a Control-C, then type:
+
+			R2=xx:POKE51,0:GOTO3500
+
+
+2) Replace "R2=xx" with these values:
+
+            Temple of Poseidon:       R2=39 
+            Temple of Apollo:         R2=45 
+            Temple of Aphrodite:      R2=63 
+            Temple of Artemis:        R2=52
+
+Be aware that the gods cherish their pets!
+
+OK, those are enough hints. Let’s get started!
+
+Many people that you meet have a random chance of being friend of foe.
+Take care of them as necessary if they are enemies. Note that there are
+some exceptions, listed below.
+
+Note the new commands: PRAY, HELP
+
+As you begin, there is nothing to see in any direction but north, so go
+N and meet Gwynnith. Continue N, then go E into a cave and meet
+Polydorus
+
+Continue E deeper into the cave and discover TABLET1. EXAMINE TABLET1
+(NOTE: you MUST use the FULL command! Command abbreviations often do not
+work with the EXAMINE command in this Eamon.)
+
+You learn about 4 great wizards’ magical rings: Ilgaard’s opens locks
+and seals
+
+Twalrep’s cures wounds
+
+Xantec’s gives wisdom
+
+Asroth’s destroys all in its path
+
+
+Return W twice to the canyon, then go N into the valley Climb U into a
+small cave and meet a hermit in trouble. HELP the hermit, and acquire
+the bronze Ring of Ilgaard. Return D to the valley.
+
+Continue N to the river bank, then go N again into the river, and
+discover TABLET2. EXAMINE TABLET2, which reads:
+
+F.OM ..S..TH CAME ….R,THE B.A.. WIZARD .. KIL.ED THE FOUR AND USED A
+SPELL TO WELD THE RINGS INTO THE ULTIMATE RING OF POWER.HE WAS SLAIN BY
+THE GODS FOR THE SIN OF HUBRIS AND THE RINGS SCATTER.. TO THE FOUR
+.INDS. THEY … … ..
+
+That looks interesting! We’ll have to remember that.
+
+Go W upriver and help a drowning boy. He tells you that death lurks west
+of here and east of the ford. Believe him, and return E.
+
+Continue E. Here is the ford, so let’s turn N. Continue N again into the
+village.
+
+There is nothing of real interest in the huts; explore them as you wish.
+
+Continue N into the Grove of Athena. Help the old woman, and acquire the
+golden Ring of Xantec. SAY XANTEC and learn how to use rings (I guess
+you already knew that, though, huh.)
+
+Return S three times. Continue S to the south side of the river and meet
+Deiphobus. Then go W three times along the path.
+
+Don’t go D below the bridge. This is the same point in the river that
+laid W of the boy, and Death awaits there. Instead, go N across the
+bridge and meet Polydamus.
+
+Continue N to the city gate. The gates are locked and you are blocked
+here. This looks like a good place to try out the Ring of Ilgaard – SAY
+ILGAARD. You find yourself on the Main Plaza, where you meet Memnon.
+
+You will get yourself into some combat if you GET the statue of
+Patroclos. There is nothing to be gained apart from the thrill of combat
+and the chance to see a couple Effects. It’s your call.
+
+Go N to the palace, then go W and find a crying girl who can’t get her
+cat. HELP the girl. Have you noticed that none of these people in
+trouble quite seem to be what they appear to be? Return E.
+
+Go N twice to the throne room, then N and meet Machaon.. EXAMINE
+TABLET3. Hmm. To gain the power, you have to not only possess the four
+rings but must also be noble of spirit? Well, we have been helping all
+of these people . . .
+
+SAY XANTEC and learn of a secret passage down. Go D and meet Theoclymus.
+SAY XANTEC again and learn of another secret door down. Continue D and
+meet Xuthus.
+
+You have found a gold box. SAY ILGAARD. Get the black Ring of Asroth and
+some other loot. Do not ever say ASROTH unless you have an enemy
+standing before you! Even then, use it sparingly. When you destroy an
+enemy, you also destroy whatever he is carrying; so only use it when you
+are sure you won’t want what they might have, or if you are perhaps
+trying to leave no evidence. I wound up not using it at all and didn’t
+miss it.
+
+Return U twice and go N into a courtyard. SAY XANTEC and discover
+another secret passage down.
+
+Go D and discover a sarcophagus. EXAMINE INSCRIPTION. The Black Wizard!
+The tablet said that we need his name to forge the rings together. Let’s
+see if we can find any clues in the sarcophagus. SAY ILGAARD.
+
+Oops. He’s not so dead, after all. Kill him with your weapon. Do not use
+the Ring of Asroth! If you use the ring, you will never learn his name.
+As soon as he dies, note his name! It will appear just as he dies. You
+get just this one chance to learn it, so be attentive. Write it down, as
+it changes with each play.
+
+Return U, S, and E. Continue E and meet Phaedra. SAY ILGAARD to open the
+silver box, and discover the silver Ring of Twalrep. If you are injured,
+feel free to use this ring as needed to heal yourself. You may require
+multiple tries before you become totally rejuvenated.
+
+OK, we’ve got all of the rings, and we know the Black Wizard’s name. But
+let’s hold off on that until we’re through exploring everything else.
+
+Return W, then go N and meet Nemo. I expect you’ll have to kill him.
+Continue E into the wizard’s lair. EXAMINE INSCRIPTION over the door. Is
+this the exit? (Yes, this is the quick way out. But we are going for max
+points here, so don’t go through it!)
+
+Return W, then S four times to the Main Plaza. Go D to the Plaza of
+Temples.
+
+Go W into Temple of Aphrodite and PRAY.
+
+(If the statue disappears, this temple is barred to you. You can still
+proceed by halting the game with control-C and then typing:
+	R2=63:POKE51,0:GOTO3500 
+.)
+
+EXAMINE INSCRIPTION over the east door. Big deal, danger, and glory, the
+usual stuff. Yada, yada.
+
+Go E through the door. It becomes blocked behind you – you’re trapped!
+EXAMINE INSCRIPTION on the wall and find a riddle! Luckily, it’s the old
+Sphinx riddle that we’ve all seen on many an outing. Answer MAN and
+learn the magic word to exit (get it right the first time—you just get
+one chance.)
+
+Get the gold ingots, then SAY NAUTA to escape the room.
+
+Explore the south room if you wish, then go into the west room and meet
+Helen. SAY XANTEC and learn of a hidden door behind the mosaic. Go N and
+find yourself back in the little girl’s garden. Return E, S, D to the
+Temple Plaza.
+
+Go N into the Temple of Apollo, and PRAY.
+
+(If the statue disappears, this temple is barred to you. You can still
+proceed by halting the game with control-C and then typing:
+	R2=45:POKE51,0:GOTO3500
+.)
+
+Go N, then W, and get the hamster. Return E. Continue E and meet
+Admetus. Get the chest if you wish. Continue N and meet Cassandra.
+
+SAY XANTEC and find a secret passage down. Go D and find a crown. Get
+the crown. A python appears! Do not kill him. Give him the hamster and
+earn his trust.
+
+Again SAY XANTEC and learn of another hidden passage in the floor.
+Continue D and meet Astynax. Go S and return to the Temple Plaza.
+
+Go E into the Temple of Poseidon, and PRAY
+
+(If the statue disappears, this temple is barred to you. You can still
+proceed by halting the game with control-C and then typing:
+	R2=39:POKE51,0:GOTO3500
+.)
+
+Go W and get the salt. Return E. Explore the south room and return.
+
+Go E and meet Thetis, and then continue N. SAY XANTEC and discover a
+secret passage north, behind the mosaic. Get the golden cup. A sacred
+bull appears! Do not kill him. Give him the salt and earn his trust.
+
+Go D into the pool, and find yourself in the small cave near the
+beginning. Return to the Temple Plaza (D, N, W, W, N, N, SAY ILGAARD, D)
+
+Go S into the Temple of Artemis, and PRAY
+
+(If the statue disappears, this temple is barred to you. You can still
+proceed by halting the game with control-C and then typing:
+	R2=52:POKE51,0:GOTO3500
+.)
+
+Go N, then E, and meet three Amazons (alternatively, you can go S and
+circumnavigate the island until you run into them from the other
+direction.)
+
+Go S, then D and meet Andromache and Clytemnaestra. Get the jewels, then
+return U.
+
+Continue U and meet Penthesilea and her leopard. EXAMINE INSCRIPTION on
+the door. It says THE FIRST SHALL BE LAST AND THE LAST FIRST. SAY DNEIRF
+AND ENTER.
+
+That’s simple enough—SAY FRIEND and find yourself on the path outside
+the city.
+
+OK, we’ve done it all. Time for the finale. SAY the Black Wizard’s name.
+
+Lots of gods here. Let’s try PRAY and see what happens.
+
+Not bad!
