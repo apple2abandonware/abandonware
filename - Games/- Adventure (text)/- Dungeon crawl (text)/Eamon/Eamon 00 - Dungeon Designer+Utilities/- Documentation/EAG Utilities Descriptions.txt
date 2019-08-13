@@ -1,0 +1,134 @@
+EAG Utilities Disk Program Descriptions
+
+NOTE: most of these programs only work with Eamon version 4-6, as noted.
+
+FREESPACE/FILEDUMP (all) A nifty little program with two user-specified
+options: FREESPACE modifies DOS 3.3 so that the CATALOG command lists
+free space at the top. FILEDUMP prints any text file directly to the
+screen. Compatibility notes: FREESPACE prints a blank for free sectors
+on my enhanced lIe but works OK on my 11+ and ROM1 GS. FILEDUMP works
+fine on my 11+ and lIe but crashes into the Monitor on the CS.
+
+CHANGE EAMON NAME (v6) A painless way to change an Adventure name or the
+Adventure number. Caution: make sure that the EAMON ADVENTURE #XXX
+program, the intro program, and EAMON.NAME are unlocked before running.
+
+LAST UPDATE INSTALL (all) Back before the EAG took over Eamon library
+maintenance, Eamon adventures had a blank line in the catalog where the
+LAST UPDATE line is now. This program renames this "blank name" file to
+LAST UPDATE. This program will crash on Eamons that have the LAST UPDATE
+file.
+
+EAMON DOS REMOVER (all) This program frees up an additional 32 sectors
+of disk space by deleting DOS from the disk. It also adds an alert
+message that prints to the screen when the disk is booted.
+
+LCASE KILLER (all) BRUNnIng this program from a running Applesoft
+program will convert all of the text in the program’s PRINT statements
+to upper case.
+
+LC/UC CONV (all) This program will convert any string to all upper case
+text, as noted in the DDD 7.0 Utilities Manual. To make it available,
+simply BLOAD it. To convert the string A$, use this command: CALL 768A$
+
+VERSION ANALYSIS (vl-6) Can identify Eamon versions 1 through 6. Doesn’t
+recognize non-standard formats or 7.x. See UNIVERSAL CHECK FILES.
+
+ROOMS CONVERT (v4-5) This program can change the record size of the
+EAMON.ROOMS data file. It reads in EAMON.ROOMS and writes a new file
+names NEW. ROOMS at the specified record length. You must then delete
+the original EAMON.ROOMS and rename NEW.ROOMS to EAMON.ROOMS to complete
+the change. The new record length is specified in Line 20 of the
+program, which you must modify to the length that you desire.
+
+ROOM NAMES CONVERT (v4-6)
+
+ARTIFACTS CONVERT (v4-5) These two programs work just like ROOMS CONVERT
+above to convert EAMON.ROOM NAMES and EAMON.ARTIFACTS, respectively.
+
+ARTIFACT MAINTENANCE (v4-6) Normally, using dead bodies greatly
+complicates modification of the Artifact database, as the dead bodies
+must all be together and should be at the end of the file. This program
+gives you a quick and easy way to insert extra "DUMMY" artifacts into
+any point in the artifact list. It will also remove excess artifacts
+that you want to get rid of to free up disk and memory space.
+
+REMOVE DUMMY ARTIFACTS (v4-6) A common way to develop Eamon adventures
+is to stick a bunch of extra "DUMMY" artifacts in between the "real"
+artifacts and the dead bodies. Thus you can use the "dummies" to add
+more artifacts without having to monkey with the dead bodies. This
+program can be used to help you get rid of excess dummies once you are
+through with development.
+
+DESC EDIT (v4-6) A very handy program for doing quick fixes of errors in
+the descriptions.
+
+UNIVERSAL CHECK FILES (v4-7) Reports the version and structure of Eamon
+adventures. Recognizes all known non-standard formats. Verifies the
+integrity of the database files and reports any errors.
+
+ADD LIGHT TO ROOMS (v4-6) Adds the "light" data to the room data (if
+it’s not already there) and sets all rooms to "lit".
+
+DUNGEONAID (v4-6) Lists the number and names and selected data fields
+for rooms, artifacts, or monsters. Can list to printer.
+
+LIST EAMON R.A.M. (v4-6) Prints out the numbers and names of rooms,
+artifacts, and monsters. Can list to printer.
+
+ROOM ANALYSIS (v4-6) Lists room numbers and names plus all artifacts and
+monsters in each room. Doesn’t recognize hidden or embedded artifacts.
+Can list to printer.
+
+QUICKY ROOM PRINT (v4-6) Lists room numbers and names plus room exits.
+Does not print light. Can list to printer.
+
+FLEX DUNGEON LIST 2.1 (v4-6) Prints out database in 40-col. format. Does
+not print light.
+
+DUNGEON LIST Z (v4-6) This program incorporates the features of several
+old Eamon utilities not found on this disk. The features: Lists Rooms,
+Artifacts, Effects, and Monsters; makes cleaner printouts than DUNGEON
+LIST does. Room Analysis: same as described above. Walk-Through: enables
+you to go from room to room; does not recognize doors or non-standard
+room connections. The strength of this program is that it only loads
+what it needs to do the task you select, and retains that data in
+memory. Thus you can save a lot of time waiting on disk accesses, making
+it very useful for messing about in the database.
+
+DUNGEON LIST 6.OG (v4-6) Basically the same as the DUNGEON LIST program
+on the 6.2 DDD, but with a couple of minor extras. Makes much cleaner
+printouts than DUNGEON LIST does!
+
+TEST BENCH (all) Allows you to quickly start an adventure without using
+the Main Hall. You can define your test character’s (named "Testor of
+Bench") basic stats, and will play with a basic set of weaponry. Note:
+don’t use the "default" setting, which gives you a nearly helpless
+character.
+
+ADVANCED BENCH (all) Similar to TEST BENCH, but permits you to specify
+more of the character’s stats. Gives you two mundane weapons and one 2D8
+sword.
+
+EAMON CHARACTERS FILE MAINT (all) A comprehensive CHARACTERS file
+maintenance program that enables you to change any aspect of the
+CHARACTERS database. You can also resurrect dead ones, make copies,
+generate new characters, list the contents, and more.
+
+CHAR REBIRTH (all) A simple program that will resurrect a "dead"
+character in the CHARACTERS file. Handy when you’ve been killed out of
+an adventure.
+
+START ADVENTURE (all) This program is similar to the test benches above,
+but gets the data from that stored in the CHARACTERS file. Handy for
+quick startups because it is faster than using the Main Hall and doesn’t
+mark the character as "dead".
+
+FRESH SAM (all) Another program that starts Eamon adventures without
+having to use the Main Hall. This one uses a preset character ("Sam"),
+whose stats represent an advanced character who has earned reasonably
+high stats and decent weapons. I personally use this program for all of
+my Eamon playing.
+
+
+see http://www.eamonag.org/manuals/utility-descriptions.htm
