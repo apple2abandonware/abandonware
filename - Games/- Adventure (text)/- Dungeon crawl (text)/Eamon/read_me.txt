@@ -17,3 +17,8 @@ The Wonderful World of Eamon, see https://eamon.wiki/Portal:Adventures
 The National Eamon User's Club and its successor, the Eamon Adventurer's
 Guild, recognize masters for a number of versions and variants, see
 https://eamon.wiki/Master
+
+____
+
+Better yet, play Eamon online,
+https://eamon-remastered.com
