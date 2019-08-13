@@ -1,0 +1,1 @@
+An entry level Eamon, this is a good pick for the Young Eamonaut.
