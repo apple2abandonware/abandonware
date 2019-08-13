@@ -20,5 +20,5 @@ https://eamon.wiki/Master
 
 ____
 
-Better yet, play Eamon online,
+You can also play Eamon online,
 https://eamon-remastered.com
