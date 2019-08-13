@@ -1,0 +1,1 @@
+Written by an anonymous author, this adventure is known for its lewd content.
