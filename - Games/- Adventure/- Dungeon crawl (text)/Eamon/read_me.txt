@@ -7,17 +7,23 @@ Eamon is notable for being one of the first adventure games designed to
 be modular, with expansion packs written by users forming an integral
 part of the game experience. More than 270 individual Eamon adventures
 have been written by various authors to work with the Eamon system.
-
 ____
 
+Eamon Adventurer's Guild Library Master List
+http://www.eamonag.org/lists/list-master.htm
+____
+
+Eamon Adventure Listing - by Rating
+https://www.lysator.liu.se/eamon/rating.txt
+____
 
 The Eamon Adventure Portal has articles on every adventure in and around
 The Wonderful World of Eamon, see https://eamon.wiki/Portal:Adventures
+____
 
 The National Eamon User's Club and its successor, the Eamon Adventurer's
 Guild, recognize masters for a number of versions and variants, see
 https://eamon.wiki/Master
-
 ____
 
 You can also play Eamon online,

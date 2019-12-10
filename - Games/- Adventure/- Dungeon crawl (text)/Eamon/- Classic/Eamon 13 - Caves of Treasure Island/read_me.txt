@@ -1,0 +1,1 @@
+Rescue a captured adventurer from pirates on a volcanic island.

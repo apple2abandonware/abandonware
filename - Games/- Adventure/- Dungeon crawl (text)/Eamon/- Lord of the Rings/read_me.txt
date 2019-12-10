@@ -1,0 +1,1 @@
+There are a number of good Eamon adventures with a "Lord of the Rings" setting.
