@@ -1,1 +1,1 @@
-There are a number of very good Eamon adventures with a "Lord of the Rings" setting.
+There are a number of quality Eamon adventures with a "Lord of the Rings" setting.
