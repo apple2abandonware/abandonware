@@ -1,0 +1,139 @@
+6 PRINT "WRITING..."
+10 PRINT D$;"OPEN ";F$
+20 PRINT D$;"WRITE ";F$
+30 PRINT "TEST1"
+40 PRINT "TEST2"
+50 PRINT D$;"CLOSE ";F$
+60 PRINT "DONE."
+70 PRINT "READING..."
+90 ONERR GOTO 200
+100 PRINT D$;"OPEN ";F$
+110 PRINT D$;"READ ";F$
+120 INPUT L$: PRINT L$
+125 L$ = L$ + CHR$ (13)
+140 GOTO 120
+200 PRINT D$;"CLOSE ";F$
+210 PRINT "CLOSED."
+
+
+
+
+5 D$ = CHR$ (4):F$ = "TEST.TXT"
+
+6 PRINT "WRITING..."
+7 S$ = CHR$ (34)
+10 PRINT D$;"OPEN ";F$
+20 PRINT D$;"WRITE ";F$
+30 PRINT "TEST,1"
+40 PRINT "TEST,2"
+50 PRINT D$;"CLOSE ";F$
+60 PRINT "DONE."
+70 PRINT "READING..."
+90 ONERR GOTO 200
+100 PRINT D$;"OPEN ";F$
+110 PRINT D$;"READ ";F$
+120 GET L$: PRINT S$;L$;
+125 L$ = L$ + CHR$ (13)
+140 GOTO 120
+200 PRINT D$;"CLOSE ";F$
+210 PRINT "CLOSED."
+LINE 125 is not needed
+
+
+CHR$(34) is the quote character " and tells DOS not to try and interpret the string
+
+
+
+
+5 HOME 
+8 ONERR GOTO 1000
+10 PRINT "ASSEMBLY CODE MINIFIER"
+20 PRINT "-=-=-=-=-=-=-=-=-=-=-="
+30 PRINT 
+35 DIM FC$(1000):C = 0
+40 INPUT "ENTER THE SOURCE FILE NAME: ";FF$
+50 INPUT "ENTER THE DESTINATION FILE NAME: ";DD$
+55 PRINT "WORKING.."
+60 PRINT CHR$ (4);"OPEN ";FF$
+70 PRINT CHR$ (4);"READ ";FF$
+80 GET AA$
+85 REM ? CHR$ (34);"."; 
+90 IF AA$ = CHR$ (13) THEN GOTO 200
+95 S$ = S$ + AA$
+110 GOTO 80
+200 IF LEFT$ (S$,1) = "*" OR LEFT$ (S$,1) = ";" THEN S$ = ""
+500 FC$(C) = S$
+510 S$ = ""
+520 C = C + 1
+990 GOTO 80
+1000 PRINT : PRINT CHR$ (4);"CLOSE ";FF$
+1010 PRINT CHR$ (4);"OPEN ";DD$
+1020 PRINT CHR$ (4);"WRITE ";DD$
+1030 FOR Z = 0 TO C
+1040 IF FC$(Z) < > "" THEN PRINT FC$(Z)
+1050 NEXT Z
+1060 PRINT CHR$ (4);"CLOSE ";DD$
+1070 PRINT "DONE!": PRINT : PRINT : PRINT 
+1080 PRINT CHR$ (7): PRINT CHR$ (7): PRINT CHR$ (7)
+
+
+
+Best example
+
+10 ONERR GOTO 100
+20 D$=CHR$(4):F$="FILENAME"
+30 ?D$"OPEN"F$
+40 ?D$"READ"F$
+50 GET X$
+60 IF X$=CHR$(13) THEN 90
+70 I$=I$+X$
+80 GOTO 50
+90 ?D$:?I$:I$="":GOTO 40
+100 ?D$"CLOSE":?I$
+110 END
+
+...
+
+your error routine should be something like this:
+
+120 ER=PEEK(222): REM error #
+130 LN=PEEK(218)+PEEK(219)*256:REM line number of error
+140 POKE 216,0:REM turns off ONERR GOTO so if your error routine has a problem, applesoft can report it. If you don't do this, it's an endless loop.
+150 CALL -3288:REM cleans the stack
+160 IF ER=5 THEN 100
+170 ? "Error " ER " at line " LN 
+180 END
+
+Change line 10 to ONERR GOTO 120
+
+
+
+
+
+0 ONERR GOTO 100: REM 'NASPITE LABS 12.23.17
+1 PRINT : PRINT "VIEWER 2.0": PRINT 
+2 INPUT "FILE NAME: ";A$
+3 PRINT 
+4 PRINT CHR$ (4);"OPEN";A$
+5 PRINT CHR$ (4);"READ";A$:B$ = ""
+6 GET BB$: IF ASC (BB$) = 13 THEN GOTO 8
+7 B$ = B$ + BB$: GOTO 6
+8 PRINT " ";: PRINT B$:C = C + 1: IF C > 16 GOTO 120
+9 GOTO 5
+100 HTAB 60:D = D + C: PRINT "( LINE ";D;" )": HTAB 60: PRINT "END OF FILE": PRINT CHR$ (4);"CLOSE": END 
+120 HTAB 45:D = D + C: PRINT "Press Any Key... ( Line ";D;" )"
+121 YS = PEEK ( - 16384)
+123 IF YS > 128 THEN GOTO 125
+124 GOTO 121
+125 POKE - 16368,0: IF YS = 155 THEN GOTO 130
+126 YS = 0:C = 0: PRINT : GOTO 5
+130 HTAB 60:D = D + C: PRINT "READ FILE ABORT": PRINT CHR$ (4);"CLOSE": END
+
+
+
+
+
+
+
+
+
