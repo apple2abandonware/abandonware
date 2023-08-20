@@ -1,0 +1,121 @@
+
+; -----------------------------------------------------------------------------
+; Copyright © 2020 Lee Fastenau
+; Tetris™️ is copyright © The Tetris Company, LLC
+; Game Boy™️ is copyright © Nintendo Co., Ltd.
+;
+; This file is part of GB Tetris for Apple II.
+;
+; GB Tetris for Apple II is free software: you can redistribute it
+; and/or modify it under the terms of the GNU General Public License as
+; published by the Free Software Foundation, either version 3 of the
+; License, or any later version.
+;
+; GB Tetris for Apple II is distributed in the hope that it will be
+; useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; GNU General Public License for more details.
+;
+; You should have received a copy of the GNU General Public License
+; along with GB Tetris for Apple II.  If not, see:
+; https://choosealicense.com/licenses/gpl-3.0/
+; -----------------------------------------------------------------------------
+;
+; 🛑 THIS IS A GENERATED FILE. MANUAL EDITS MAY BE LOST.
+;
+
+tune.dance4
+			DC.B $01	; Note Repeats
+			DC.B $03	; Note Duration
+			DC.B $20, $20	; 0
+			DC.B $00, $00	; 1
+			DC.B $00, $00	; 2
+			DC.B $20, $20	; 3
+			DC.B $00, $22	; 4
+			DC.B $00, $00	; 5
+			DC.B $00, $20	; 6
+			DC.B $00, $00	; 7
+			DC.B $00, $00	; 8
+			DC.B $00, $20	; 9
+			DC.B $00, $00	; 10
+			DC.B $00, $00	; 11
+			DC.B $30, $26	; 12
+			DC.B $00, $00	; 13
+			DC.B $00, $00	; 14
+			DC.B $2b, $2b	; 15
+			DC.B $00, $00	; 16
+			DC.B $00, $00	; 17
+			DC.B $26, $30	; 18
+			DC.B $00, $00	; 19
+			DC.B $00, $00	; 20
+			DC.B $26, $26	; 21
+			DC.B $00, $00	; 22
+			DC.B $00, $00	; 23
+			DC.B $20, $2b	; 24
+			DC.B $00, $00	; 25
+			DC.B $00, $00	; 26
+			DC.B $20, $2b	; 27
+			DC.B $00, $2d	; 28
+			DC.B $00, $00	; 29
+			DC.B $00, $2b	; 30
+			DC.B $00, $00	; 31
+			DC.B $00, $00	; 32
+			DC.B $00, $2b	; 33
+			DC.B $00, $00	; 34
+			DC.B $00, $00	; 35
+			DC.B $40, $33	; 36
+			DC.B $00, $00	; 37
+			DC.B $00, $00	; 38
+			DC.B $39, $39	; 39
+			DC.B $00, $00	; 40
+			DC.B $00, $00	; 41
+			DC.B $33, $40	; 42
+			DC.B $00, $00	; 43
+			DC.B $00, $00	; 44
+			DC.B $33, $33	; 45
+			DC.B $00, $2b	; 46
+			DC.B $00, $00	; 47
+			DC.B $33, $39	; 48
+			DC.B $00, $00	; 49
+			DC.B $00, $00	; 50
+			DC.B $39, $39	; 51
+			DC.B $00, $2b	; 52
+			DC.B $00, $00	; 53
+			DC.B $39, $40	; 54
+			DC.B $00, $00	; 55
+			DC.B $00, $00	; 56
+			DC.B $39, $40	; 57
+			DC.B $00, $2b	; 58
+			DC.B $00, $00	; 59
+			DC.B $39, $44	; 60
+			DC.B $00, $00	; 61
+			DC.B $00, $00	; 62
+			DC.B $39, $44	; 63
+			DC.B $00, $2b	; 64
+			DC.B $00, $00	; 65
+			DC.B $39, $39	; 66
+			DC.B $00, $00	; 67
+			DC.B $00, $00	; 68
+			DC.B $39, $39	; 69
+			DC.B $00, $2b	; 70
+			DC.B $00, $00	; 71
+			DC.B $39, $33	; 72
+			DC.B $00, $00	; 73
+			DC.B $00, $00	; 74
+			DC.B $40, $33	; 75
+			DC.B $00, $2b	; 76
+			DC.B $00, $00	; 77
+			DC.B $40, $39	; 78
+			DC.B $00, $00	; 79
+			DC.B $00, $00	; 80
+			DC.B $40, $39	; 81
+			DC.B $00, $2b	; 82
+			DC.B $00, $00	; 83
+			DC.B $40, $20	; 84
+			DC.B $00, $00	; 85
+			DC.B $00, $00	; 86
+			DC.B $33, $2b	; 87
+			DC.B $00, $00	; 88
+			DC.B $00, $00	; 89
+			DC.B $40, $20	; 90
+			DC.B $FF, $00	; Repeat Tune
