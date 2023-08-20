@@ -1,0 +1,196 @@
+Violet
+
+2008
+
+Jeremy Freese
+Style: Parser
+Debuted: Oct 1, 2008 (IF Comp)
+Launch Platform: Z-machine v8
+Language: Inform 7
+
+Opening Text:
+
+	Calm down. All you have to do is write a thousand words and everything will be fine. And you have all day, except it’s already noon.
+
+
+When you die in Adventure 1976, the classic that ushered in the interactive fiction medium, narration that had previously been fairly neutral describing caverns, axes, and trolls goes a little odd:
+
+	OH DEAR, YOU SEEM TO HAVE GOTTEN YOURSELF KILLED. I MIGHT BE ABLE TO HELP YOU OUT, BUT I'VE NEVER REALLY DONE THIS BEFORE. DO YOU WANT ME TO TRY TO REINCARNATE YOU?
+
+The question foregrounds something most parser games take pains to conceal—just whose voice is replying to your words? It’s not you, the player; nor is it you, the character whose adventures you’ve been dictating. It’s some third agent in between, an intermediary apparently interpreting your actions and narrating back the results. Adventure’s death message makes this character suddenly and a bit unexpectedly defined: someone with particular abilities, concerns, and self-doubts. It might make you wonder how much your interactions with Adventure have been filtered through their voice. Who, exactly, is telling you this story?
+
+The role is somewhat akin to a narrator in traditional fiction, though interactivity makes the concept more complex—and just as traditional fiction has experimented with making narrators more visible, so too has IF. In Photopia, the player comes to realize that a very specific narrator is inventing the worlds their character explores, for the benefit of a very particular listener; the realization is key to understanding the story. Fail-Safe [Jon Ingold 2000], in a conceit used more famously by the later mobile hit Lifeline, pretends the intermediary isn’t there at all, with your orders given directly to an astronaut who needs help. Misunderstood commands are explained away as transmissions distorted by static. In Bellclap [Tommy Herbert 2004], you play a god giving commands to a reluctant supplicant sheltering in your temple; the intermediary here is an angel in charge of relaying your commands and reporting back the results.
+
+	>go outside
+	He is refusing, sir. Citing the dangers of the rain and lightning.
+
+	>go outside
+	I shall try again… 
+
+But Violet would become one of IF’s most famous examples of an unusual narrator, sweeping all the community’s awards the year of its release. In the game you play a graduate student in the midst of a years-long dissertation slump, chronically unable either to write or to accept that you’re not going to finish. When the story opens, you’ve been given an ultimatum by your long-suffering girlfriend, Violet, who’s threatened to leave you and fly back home to Australia if you don’t make concrete progress on a final make-or-break day. The game takes place on that day, in a single room—your on-campus office—and challenges you to successfully execute a single command: WRITE. But first you must deal with a seemingly endless parade of amusing distractions and excuses—amusing, that is, for you the player, certainly not you the main character.
+
+What could have been a relatively slight puzzle game is immeasurably improved by its narrator: Violet herself, or at least the version of her in your character’s head, trying her best to keep you on track.
+
+	So now here you are, up in your office. I am sorry that today is a Saturday. I am especially sorry that today is your thirtieth birthday. We had all kinds of adventures planned. I refuse to feel guilty.
+
+	[…] Just so we’re clear: you are actually alone, and presumably I am back at our apartment, packing and crying.
+
+	>write
+	You are trying, I can tell. But each time you begin to think through the opening sentence you get this dull cloudy tired pain right behind your eyes.
+	Everything around you is filtered through Violet’s perspective. Many descriptions change each time you see them, as if Violet is noticing different details. A picture of her on your desk is described as a “framed knockout”; responses are riddled with pet names and in-jokes; an appearance by your ex is narrated in a tone dripping with sarcasm; and even the smallest action or description is a chance to get to know a character who soon comes to feel more real than your own.
+	Of course I’m so used to seeing your bookcase full that it’s strange now to see it nearly empty.
+
+	On the second shelf is a book. On the bottom shelf is a smartly-done snowglobe.  
+
+	>examine snowglobe
+	It’s a glass globe with a plain wooden bottom. Inside is a happy winter scene, with a paunchy, smiling figurine in a white outfit and snow up to his ankles. His hands look like they are covered with chocolate.
+
+	You look out the window for a moment, at the wonderfully serene park across the street. We could be frolicking right now. We could be canoodling in the shrubbery. Please just write.
+
+	>take snowglobe
+	Yours, wallaroo. I still can’t believe I stayed up two nights straight making it.
+
+	>examine book
+	This is the latest “last book you really must read before you are able to write your dissertation without a nagging feeling that there is one more book you really must read.” If you start reading it now, hours will go by, and you won’t write your thousand words.
+
+	>open it
+	Sure, the book looks like something you’d find interesting. I’m not going to describe its contents any further, though, as I don’t want to risk enticing you to start reading it.
+
+The game’s author had successfully defended his own dissertation years before, but hadn’t thought he was the kind of person who could finish writing a computer game. A professor of sociology, Jeremy Freese enjoyed both writing and coding, but he liked to be honest about his chances of success at either as a side hobby. (“Many academics harbor a fantasy that perhaps one day they will write a novel,” he once wrote. “I used to be one of those.”3) Then he heard about a new design language called Inform 7, and began to reconsider his chances. He wasn’t the only one who did.
+
+Inform 7 was announced in 2006, exactly ten years after the release of Inform 6, the stable version of the language Graham Nelson had used to write Curses and revolutionize the indie IF scene. Despite the incremental name, it was a whole new language and a radical departure from its predecessor, inspired by a simple question with far-reaching implications: if the player communicated with a work of interactive fiction in natural language, and the game replied back in natural language as well, was it possible that the most sensible way to create such programs was also natural language?
+
+Inform 6, like most other IF design tools, had used a traditional C-like programming syntax atop an object-oriented foundation. Locations, items, and characters were all represented as objects that could react to various actions a player might try to perform on them. But despite years of iteration into a mature and successful tool, Inform’s approach, Nelson thought, had never quite felt like the right one for the job. One section of the Inform 6 manual, for instance, presented a “formal semantic description” of Inform’s world model: the core assumptions about its simulated universe that underlay all other behavior. It had been written as clearly as possible so that human authors could understand it:
+
+	1.4.2. Some objects are “lockable” and someone with the specified “key” object can switch between mutually exclusive states, “locked” and “unlocked”. These objects represent containers and doors with locks.
+	1.4.3. Some objects are “openable” and therefore in one of two mutually exclusive states, “open” and “closed”. If such an object is closed and also locked then it cannot be opened. These objects represent containers and doors.9
+
+But of course each of those sentences had to correspond to a block of code, often far less readable, somewhere in the compiler’s internals or the standard library of behaviors. Reading over the English descriptions, Nelson found himself wondering, “Why can’t Inform simply read the world-model chapter … and use that as its library?”6
+
+	A door is a kind of thing. A door is always fixed in place. A door can be open or closed. A door is usually closed.
+
+	A door can be lockable. A door is usually not lockable. A door can be locked or unlocked. A door is usually unlocked. A door has an object called a matching key.
+
+And if the behavior underlying a model world could be described this way, why not also the world itself?
+
+	The Gazebo is a room. The Gazebo is east of the Gardens. In the Gazebo are a pair of shears and a clay pot. A pale yellow flower is in the pot.
+
+	Report taking the flower when the flower was in the pot: instead say "You gently pull it free from the soil."
+
+Nelson ran the idea by other IF writers. Emily Short, author of Galatea 2000 and other well-regarded Inform games, was at first unconvinced:
+
+	My reaction was, er, extreme skepticism. I didn’t see how such a system could be anything but infuriating to program in; the natural language bit seemed to be at best a way for the novice to sketch out some rooms and objects, but I imagined the real work would have to be done at the I6 [Inform 6] layer, and that anyone half-competent at I6 would probably find they preferred just staying at that level. So I wrote back what I hope was a polite letter, expressing an interest in seeing what he came up with, but hinting that trading Inform’s native power for this sort of convenience would be a serious mistake.6
+
+But in a long correspondence that would expand into a multiyear collaboration, Nelson made the case that natural language didn’t have to be just verbose syntactic sugar. Language could express complex things about the human experience and do so elegantly, so why couldn’t it do the same within the simplified world of an IF simulation? A natural language syntax had the potential to describe relationships, causes and effects, behaviors, and exceptions in a more readable, elegant, and naturalistic way than code paradigms not optimized for describing simulated worlds. Take, for instance, this Inform 6 code to describe a sack bursting because too many objects have been placed inside it:
+
+	[ Initialise s;
+		! start a daemon for every sack object in game
+		objectloop (s ofclass sack) {
+			StartDaemon(s);
+		}
+	];
+	Class sack
+		with daemon [ unluckyholder;
+			! check to see if sack is bursting and its owner is visible
+			unlucky_holder = parent(self);
+			if ((self.bursting == 1) && TestScope(unlucky_holder, player)){
+				print (The) self, " splits and breaks under the weight! ";
+				if (unlucky_holder == player) {
+					print "You discard";
+				} else {
+					print (The) unlucky_holder, " discards";
+				}
+				print " its ruined remains, looking miserably down at ";
+				WriteListFrom(child(self), DEFART_BIT + ENGLISH_BIT);
+				print " on the floor.^";
+			}
+		],
+	has container;
+
+The equivalent in the Inform 7 syntax Nelson eventually devised would look instead like this:
+
+	Every turn when a container (called the sack) held by someone visible (called the unlucky holder) is bursting, say “[The sack] splits and breaks under the weight! [if the player is the unlucky holder]You discard[otherwise][The unlucky holder] discards[end if] its ruined remains, looking miserably down at [the list of things in the sack] on the floor.”
+
+Another correspondence with Andrew Plotkin, author of So Far and other Inform 6 hits, convinced Nelson that the primary unit of an IF language should really be its rules, not its objects. If a certain especially heavy object would cause the aforementioned sack to burst immediately, an Inform 6 author would have to decide whether to attach the exception code to the sack or the weighty object. In Inform 7, it would just become a few more declarations and rules, which could appear anywhere in the code:
+
+	A thing is either heavy or light. A thing is usually light. The anvil is heavy. After inserting something heavy into the sack, now the sack is bursting.
+
+The change proved “far more radical than had initially been expected,” Nelson wrote.10 “For at least the first year of the project, I wasn’t at all sure it would ever work.”6 But the idea had taken hold. With regular feedback from a small circle of peers and collaborators, he began working toward a fundamental rethinking of interactive fiction language design. Inform 6, he came to realize, “had been a computer programmer’s tool which aimed to be welcoming to creative writers: this aspired to be the other way around.”10 It would be a particular subset of English—readable and, hopefully, writable—that also happened to compile.
+
+After Jeremy Freese discovered the language, it started to seem possible that he might be a person who could finish an interactive fiction after all. “I could be a poster child for the idea that Inform 7 will get people involved in IF who otherwise wouldn’t be,” he would write. “Before I realized that programming my own game was still way more involved than anything I had time for, I was hooked.”5 He began writing Violet’s Inform 7 code in early 2008, vague-blogging about a new “too-dorky-to-confess-to hobby project.”2 He set himself a goal of writing a game good enough to finish at least eighth in that fall’s Interactive Fiction Competition. “In more exuberant moments,” he noted, “I revise this goal upward to fifth.”3
+
+Nelson’s rules-based approach had grown from the realization that most IF code was really a description of the ways a particular story world differed from the platonic norm: a universe where doors locked, containers held objects, and turns passed, but nothing much of interest ever happened. Each individual game was “a world of unintended consequences.”10 In one, magic spells might bypass locked doors with no keys; another might simulate weight to decide if containers should burst, or let nearly bursting containers be used to batter down doors. And Violet would indeed become a game almost entirely defined by exceptions, packed with rules interrupting the player’s initial assumptions that writing a few words ought to be relatively easy to do. 
+
+	Instead of writing when the player is not caffeinated:
+		change statusphrase to “(last try: a bit tired, but come on!)”;
+		say “You start trying to focus on the screen and type, but you are
+		  very tired. […]”;
+
+Much of the charm of play comes from uncovering these exceptions, one by one, and finding ways to overcome them. An ex-girlfriend shows up to the office and loudly flirts with a new conquest through the closed door; even after you find a way to drown her out, you can still smell her perfume, another distraction. Out the open window, an increasingly elaborate and improbable series of events plays out, drawing your attention until you find a way to block the view despite the window’s malfunctioning blinds. And all of it is narrated in imaginary Violet’s memorable voice, made easier to create by Inform 7’s more organic way of overriding behaviors:
+
+	>look at window
+	Your window is immediately behind your desk, about two metres high and one wide. It has an old grey blind, which is raised.
+
+	On the sill I am a bit surprised to see a lighter.
+
+	>get lighter
+	Yours, jellysquish. It’s hard for me to be enthusiastic about lighters as a woman who owns her own blowtorch.
+
+	You run the back of your hand along the book’s spine. If you don’t get the book out of your hands, you will give in and start reading.
+
+	>burn book
+	Gee, budgie. Far be it from me to be the moral conscience when fire is involved, but that’s a library book. There’s bound to be a hefty fine. And it seems a little insane. If you really want to, we can, but it shouldn’t be a rash decision.
+
+	>burn book
+	I was secretly hoping you would. You light the book on fire and it burns magnificently! Yay! That was epic to watch, and now we don’t have to deal with you being tempted anymore to read.
+
+	The coughing and light smoke damage are well worth it. I’ll go halfsies on the library fine.
+
+Freese wrote the game with the Inform 7 project’s other major innovation, what Nelson called “a radically humanising interface”10 for IF authoring: an IDE (integrated development environment) designed specifically for the purpose. Compiling Inform 6 had been as unpleasant as compiling any other programming language from the early 90s, involving command-line invocations, a correctly laid out directory structure of libraries and source files, and error messages whose real causes could be hard to puzzle out. Inform 7 shipped as part of an application—actually two applications at first, one for Mac by Andrew Hunter and one for Windows by David Kinder—which abstracted all the file system and compilation details behind a straightforward interface using the metaphor of an open book. On the left page by default would be the source text for your project, and on the right a running interpreter where you could play it. Other “pages” of the application could show a dynamic map visualizing the rooms you’d defined; an index with summaries of objects, rules, and commands; and documentation and extensive examples. One page, the Skein, could show each path taken through the story as you’d tested it, like branches on a tree; certain paths could be locked, named, and easily replayed at the click of a button, allowing authors to grow their own test sequences as their games evolved. The Inform 7 application made creating an IF world far more accessible to nonprogrammers, and its features helped Freese do extensive playtesting: during the game’s development, he wrangled beta testers through eight separate rounds of bug fixing, continually improving the game as he went. 
+
+Inform 7 was well received. It rapidly displaced its predecessor and, for most of a decade, became the favored language bar none for writing interactive fiction. Violet, too, was a hit: it won the competition in which Freese had hoped to place eighth. Its unique voice “would be memorable enough even if it didn’t work, but more so because it does,”7 wrote one reviewer. It had “a premise that seems virtually untranslatable to any other genre of games,”1 serving as another example of something that a medium based on words could do that more visual storytelling platforms might struggle with. Players delighted in the game’s many cute touches. It had a gender option, for instance, but not the one that might have been expected:
+
+	[…] you are male by default (curse you, patriarchy!). I’m not changing my gender on your behalf, but you are welcome to change yours. Just type FEMALE or, more stylishly, HETERONORMATIVITY OFF.
+
+	>patriarchy off
+	I suspect that’s a fair bit more difficult to program.
+
+Scholar Nick Montfort has noted the irony that Violet has become one of the most fondly remembered IF characters, even though she doesn’t technically even appear in the game bearing her name until its final, non-interactive cutscene. “Violet is conceptual,” a line of the Inform 7 source reads, to indicate she’s not actually part of the simulation and attempts to interact with her should fail. “The game shows how other characters can meaningfully manifest themselves even when they don’t do anything in terms of picking up objects, manipulating the state of the world, or serving as an explicit opponent,” Montfort writes.8 Violet is merely the narrator, but the game named after her effectively demonstrates how rewarding a role that can be in an interactive story. 
+
+	>write
+	You start thinking again about the first sentence. “Previous scholarship has typically conceptualized…” Six seconds later you check your e-mail. You switch back to your word processor for a bit, but then you start reading some blogs. You check your e-mail again. Then back to blogs.
+	 
+	I suspect this is much of how the past several months in your office have gone.
+
+	>x computer
+	The desktop PC is old but perfectly fine for writing. In addition to your word processor, applications you can OPEN include a browser, chat and e-mail.
+	 
+	The computer has a USB port in the front and is connected to the Internet with a cable in back.
+
+	>unplug cable
+	You unplug the ethernet cable. Good! It has to be easier to write if you can’t chat, check e-mail, and surf the web whenever you want.
+
+	>write
+	You resume thinking about the first sentence. You fidget. Your hands tremble a bit. You want to check your e-mail. You want to read blogs. And then: you retrieve the cable and plug it back into the computer.
+	 
+	Ugh. I didn’t know it was this bad, muttonplum. I don’t know what to say.
+
+	>cry
+	You wouldn’t let me cry when that man said the dalmatian sculptures in my MFA exhibit were ‘gimmicky,’ so I’m not going to let you cry now. You can do this.
+
+“The activity of programming IF is a form of dialogue between programmer and computer to reach a state with which both are content,”10 Graham Nelson once wrote. The coder keeps a model of their digital collaborator running in their head to imagine how it will react to each new input; in a way, the computer does the same for the coder. Inform 7 made those models more visible, opening the door to that collaboration a bit wider and making room for people like Jeremy Freese who weren’t quite sure the space beyond was for them. But sometimes it only takes a whisper of encouragement to step through.
+
+
+References
+
+1) Boyer, Brandon. 2009. “The EXAMINE’d Life: Keeping Interactive Fiction Alive.” Boing Boing (blog). Nov 5, 2009. boingboing.net/2009/11/05/the-examined-life-ke.html | a Jul 21, 2021
+2) Freese, Jeremy. 2008a. “Prepping as Procrastination, Continued.” Scatterplot (blog). May 1, 2008. scatter.wordpress.com/2008/05/01/prepping-as-procrastination-continued | a Jul 21, 2021
+3) Freese, Jeremy. 2008b. “My Secret Hobby Project Revealed.” Scatterplot (blog). May 27, 2008. scatter.wordpress.com/2008/05/27/my-secret-hobby-project-revealed | a Jul 21, 2021
+4) Freese, Jeremy. 2008c. “My Secret Hobby Project.” Scatterplot (blog). Nov 18, 2008. scatter.wordpress.com/2008/11/18/my-secret-hobby-project | a Jul 21, 2021
+5) Freese, Jeremy. 2009. “Jeremy Freese (author of Violet).” Interview by Jimmy Maher. SPAG #54, Mar 31, 2009. www.spagmag.org/archives/backissues/spag54.html#freese | a Jul 21, 2021
+6) Maher, Jimmy. 2006. “The SPAG Interview: Graham Nelson and Emily Short on Inform 7.” SPAG #44, Apr 30, 2006. www.spagmag.org/archives/backissues/SPAG44 | a Jul 21, 2021
+7) Merk. 2008. “Merk’s Review: Violet.” Forum post. The Interactive Fiction Community Forum. Oct 19, 2008. intfiction.org/t/merks-review-violet/473 | a Jul 21, 2021
+8) Montfort, Nick. 2009. “Violet” (review). Post Position (blog). May 13, 2009. nickm.com/post/2009/05/violet | a Jul 21, 2021
+9) Nelson, Graham. 2001. The Inform Designer’s Manual. Fourth Edition. St. Charles, Illinois: The Interactive Fiction Library.
+10) Nelson, Graham. 2006a. “Natural Language, Semantic Analysis and Interactive Fiction.” inform7.com. inform7.com/learn/documents/WhitePaper.pdf | s Mar 14, 2018
+11) Nelson, Graham. 2006b. “Inform 7: Public Beta.” Usenet post, rec.arts.int-fiction, Apr 30, 2006. groups.google.com/g/rec.arts.int-fiction/c/9ZGc8bSbraw/m/4Ebs_v4deRcJ | a Jul 21, 2021

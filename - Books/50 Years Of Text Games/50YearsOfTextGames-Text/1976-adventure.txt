@@ -1,0 +1,226 @@
+Adventure
+
+1976
+
+Will Crowther and Don Woods
+Also Known As: ADVENT, Colossal Cave Adventure
+Style: Parser
+Debuted: Early 1976 (ARPANET)
+Launch Platform: PDP-10
+Language: Fortran IV
+
+Opening Text:
+
+	YOU ARE STANDING AT THE END OF A ROAD BEFORE A SMALL BRICK BUILDING . AROUND YOU IS A FOREST. A SMALL STREAM FLOWS OUT OF THE BUILDING AND DOWN A GULLY.
+
+
+“It was the hour of insomniacs,” begins a chapter in Tracy Kidder’s book The Soul of a New Machine,8 a snapshot of hacker culture at the end of the 70s. The author has been taken into a basement computer lab after hours to play Adventure, something of a rite of passage.
+
+	Strewn before me across the surface of his desk, like the relics of a party, lay dozens of roughly drawn maps. They consisted of circles, inside of which were scrawled names such as Dirty Passage, Hall of Mists, Hall of the Mountain King, Complex Junction, Splendid Chamber, Bedquilt, and Witts End. Webs of lines connected the circles, and each line was labeled, some with points of the compass, some with the words up and down. Here and there on the maps were notations—“water here,” “oil here,” and “damn that pirate!” In the midst of all this paper sat Alsing’s computer terminal. On the screen of the tube in white letters, like the little voice that whispers in a wild gambler’s ear, this message stood:
+	
+	ARE YOU SURE YOU WANT TO QUIT NOW?
+
+In May 1977, Adventure became the first computer game blockbuster. While older hits like Hunt the Wumpus 1973 or Super Star Trek 1974 had trickled out slowly through in-person meetups, mail-order paper tape, and listings in magazines—and others like dnd 1975 were confined to niche platforms—Adventure arrived just as a critical mass of computer users began connecting to ARPANET, precursor to the modern internet. As a result, it hit everywhere all at once, shared and reshared from one system to the next, and soon became all anyone with computer access was talking about. A famous anecdote goes that the game proved so distracting it “set the entire computer industry back two weeks.”1 Dave Lebling, later a co-founder of Infocom 1977, recalled: “For a couple of weeks, dozens of people were playing the game and feeding each other clues. Everyone was asking you in the hallway if you had gotten past the snake yet.”4 It would eventually name both the text adventure and graphical adventure game genres. At the time of its release, few people had seen anything like it.
+
+Adventure begins with a description of a forested hill, written in second person as if you are the one there seeing it. Rather than choosing from a list of available options, as in nearly every previous game, the player is invited to type free-form one- or two-word English commands. I WILL BE YOUR EYES AND HANDS, the instructions say: DIRECT ME. Game designer Andrew Plotkin has noted the significance of this novel paradigm: “The help text didn’t offer these commands as a menu, or even as suggestions. You discovered them. The exploration of the game world was the exploration of the parser; it was guided by the game’s narrative and the player’s sense of what was possible.”7 It’s hard to appreciate today what a radical notion this once was.
+
+As you begin to explore, you find a small building, a lamp, a set of keys, and the locked entrance to a cave. While earlier games like Wumpus or Trek let players move through simulated spaces, they were described mostly with numbers, such as grid coordinates or phrases like YOU'RE IN ROOM # 4. In Adventure, each location is unique and brought to vivid life with prose: 
+
+	YOU ARE IN A 20 FOOT DEPRESSION FLOORED WITH BARE DIRT. SET INTO THE DIRT IS A STRONG STEEL GRATE MOUNTED IN CONCRETE. A DRY STREAMBED LEADS INTO THE DEPRESSION.
+
+	THE GRATE IS LOCKED.
+
+	UNLOCK GRATE
+
+	THE GRATE IS NOW UNLOCKED.
+
+	ENTER
+
+	YOU ARE IN A SMALL CHAMBER BENEATH A 3X3 STEEL GRATE TO THE SURFACE. A LOW CRAWL OVER COBBLES LEADS INWARD TO THE WEST.
+
+	THE GRATE IS OPEN.
+
+	GO WEST
+
+	YOU ARE CRAWLING OVER COBBLES IN A LOW PASSAGE. THERE IS A DIM LIGHT AT THE EAST END OF THE PASSAGE.
+
+	THERE IS A SMALL WICKER CAGE DISCARDED NEARBY.
+
+	GET CAGE
+
+	OK
+
+	WEST
+
+	IT IS NOW PITCH BLACK. IF YOU PROCEED YOU WILL LIKELY FALL INTO A PIT.
+
+	LIGHT LAMP
+
+	YOUR LAMP IS NOW ON.
+
+	YOU ARE IN A DEBRIS ROOM, FILLED WITH STUFF WASHED IN FROM THE SURFACE. A LOW WIDE PASSAGE WITH COBBLES BECOMES PLUGGED WITH MUD AND DEBRIS HERE, BUT AN AWKWARD CANYON LEADS UPWARD AND WEST. A NOTE ON THE WALL SAYS 'MAGIC WORD XYZZY'.
+
+While Adventure’s cave is sprinkled with magic words, treasures, and fantastical creatures, it’s the compelling descriptions of a realistic cave that are most often remembered. The text transports the player to another place with an immediacy few games had then achieved:
+
+	YOU ARE AT ONE END OF A VAST HALL STRETCHING FORWARD OUT OF SIGHT TO THE WEST. THERE ARE OPENINGS TO EITHER SIDE. NEARBY, A WIDE STONE STAIRCASE LEADS DOWNWARD. THE HALL IS FILLED WITH WISPS OF WHITE MIST SWAYING TO AND FRO ALMOST AS IF ALIVE. A COLD WIND BLOWS UP THE STAIRCASE. THERE IS A PASSAGE AT THE TOP OF A DOME BEHIND YOU
+
+The text feels convincing because it was drawn from life. Will Crowther and his wife, Patricia, were avid cavers. After courting as MIT undergraduates in the 1950s, they spent their honeymoon getting lost in Virginia’s Breathing Cave. Both had been physics majors who found careers as computer programmers. In the early 70s they’d gotten involved with some cavers in Kentucky on a decades-long quest to connect two adjacent, enormous cave systems. Patricia was instrumental in a culminating 1972 expedition that found the final connection; the small, wiry woman could slip through a tiny squeeze too narrow for any of the men on the trip to attempt. The newly unified Mammoth Cave system, with hundreds of miles of interconnected passages, became the largest in the world. In 1974, while raising two young daughters, the Crowthers embarked on an extensive survey of Colossal Cave (now just another part of Mammoth), producing an official map of the area near the cave’s Bedquilt entrance—as in the game, a steel grate mounted in concrete, set at the bottom of a twenty-foot depression, surrounded by forest.
+
+The Crowthers wrote code to convert hard-won three-dimensional survey data into maps that could be plotted on the equipment at Will’s office. Ironically, his day job involved connecting networks too. He’d been a crucial member of a team at the research firm BBN that developed a key part of ARPANET, the hardware and code that would become the world’s first network routers. A quiet but brilliant coder, Crowther was “loving the fact that people paid me for playing” with new technology and systems. In a 1990 interview he described his time on ARPANET as “just another one—another fun puzzle. I was willing to do an almost unlimited number of those.”11
+
+Then, in 1975, everything changed. Will and Pat separated; their two girls stayed with their mom. Pat continued caving, and after the divorce she remarried to a fellow member of her famous final connection expedition. Will dropped out of the caving group and the hobby. He started looking for a new job. While he has rarely spoken about his personal life, he said much later with quiet understatement that he had felt “a bit pulled apart in various ways” that year.13
+
+Perhaps to fill some of his unexpected spare time, he joined in on a new tabletop game some of his coworkers were playing called Dungeons & Dragons, released the previous year. The group’s dungeon master had created a detailed campaign set in Tolkien’s Middle-earth, with adventures that mostly took place underground in ancient tunnels and dungeons beneath Mirkwood. Crowther, unlike the other players, named his character after himself: Willie the Thief. The game’s focus on mapping and exploration may have been a way of scratching a now-forbidden itch.
+
+Like many other computer users of the time, he began to idly wonder if something like D&D could be made on the computer. In the fall of 1975, he decided to try. The impetus may have been an upcoming school holiday when his daughters would be visiting for a long weekend. In a flurry of coding, he wrote the core of a game that would let them, too, explore a cave like their mom and dad. He based the layout on the Bedquilt area he and Pat had mapped so thoroughly, and he borrowed the framework of a dungeon master describing the world and responding to the player’s actions—a user interface so simple, even a child could grasp it. Writing dense, uncommented code (his usual style) from a teletype hooked into the PDP-10 mainframe at the office, within a few weeks Crowther had created the outlines of a game called Adventure.
+
+The girls were enchanted. Like any good dungeon master, the game hinted at a larger world and greater secrets, even if that was often to disguise its limitations. For example, the command look describes the location, but typing it again in the same spot prints SORRY, BUT I AM NOT ALLOWED TO GIVE MORE DETAIL—as if by design, not necessity. Unlike most earlier games, Adventure responded to commands that didn’t change its state but existed purely for color or increased immersion, creating the pleasing illusion of a storyteller on the other end of the chattering terminal. Typing enter stream, for instance, does not change your position, but the reply is YOUR FEET ARE NOW WET.
+
+Crowther gave the game obstacles to overcome so there was more to do than just explore. Some were obvious (the keys open the locked grate) and others less so, including the relationship between a bird and a dangerous snake. It would even offer hints if it detected you were stuck, again like a helpful dungeon master: ARE YOU TRYING TO CATCH THE BIRD? Or, after observing the player type cardinal directions a few times, it might reply: IF YOU PREFER, SIMPLY TYPE W RATHER THAN WEST. Adventure went to great lengths to create the illusion of a conversation, but unlike with the chatbot ELIZA, this was a conversation connected to an underlying simulation of places, objects, and obstacles. Though limited—only a prototype—it created a virtual world with a working interface that required no technical skills to use.
+
+	YOU ARE IN A LOW N/S PASSAGE AT A HOLE IN THE FLOOR.
+	THE HOLE GOES DOWN TO AN E/W PASSAGE.
+
+	THERE ARE BARS OF SILVER HERE!
+
+	GET SILVER
+
+	OK
+
+	DOWN
+
+	YOU ARE IN A DIRTY BROKEN PASSAGE. TO THE EAST IS A CRAWL.TO THE WEST IS A LARGE PASSAGE. ABOVE YOU IS A HOLE TO ANOTHER PASSAGE.
+
+	E
+
+	YOU ARE ON THE BRINK OF A SMALL CLEAN CLIMBABLE PIT.
+	A CRAWL LEADS WEST.
+
+	D
+
+	YOU ARE IN THE BOTTOM OF A SMALL PIT WITH A LITTLE STREAM, WHICH ENTERS AND EXITS THROUGH TINY SLITS.
+
+	A LITTLE DWARF JUST WALKED AROUND A CORNER, SAW YOU, THREW A LITTLE AXE AT YOU WHICH MISSED, CURSED, AND RAN AWAY.
+
+	GET AXE
+
+	OK
+
+Crowther kept improving the game between his daughters’ visits, so he’d always have new bits for them to play. He showed it off to his D&D friends at work, too, though for a different reason: “Will was very proud—or more accurately amused—of how well he could fool people into thinking that there was some very complex AI behind the game.”6 Much like ELIZA, Crowther’s game reveled in the illusion of an intelligence typing back those words on your printer. It’s a fantasy we might compare to much older traditions like epistolary literature or puppetry—the magical sense that behind the façade is something real. It’s no accident that both chatbots and parser interactive fiction would remain enchanting for decades to come, and that half a century later we’re just as entranced by the possibilities of “virtual humans” and text-generating artificial intelligences.
+
+But once Crowther had pulled off the magic trick, delighting daughters and coworkers alike, he had little interest in expanding or perfecting it. By early 1976 he’d abandoned the game about caving, along with other pieces of his old life. ARPANET had been declared officially operational. He’d accepted a job at Xerox PARC across the country in California. He and Pat were not getting back together. He was turning forty. It must have seemed time to turn the page and move on. But before he logged out of his BBN account for the last time, he did something typical for hackers used to a culture of freely sharing programs, a simple act that would have a profound impact on the history of computer games: he put the unfinished Adventure in a public folder, where anyone browsing the network could find it.
+
+One year later, twenty-two-year-old Stanford grad student Don Woods stumbled across Crowther’s program and became intrigued. Though the game was rough around the edges, Woods saw tremendous potential, and he started to think of ways to extend and complete it (perhaps as a distraction from those first-year graduate courses). But the version he had was only an executable—there was no source code, which meant it couldn’t be modified, and it wasn’t even clear who had created it. Never really expecting anyone other than his BBN coworkers to peek at it, Crowther had left only a single, cryptic message in the instructions hinting at his program’s provenance:
+
+	(ERRORS, SUGGESTIONS, COMPLAINTS TO CROWTHER)
+
+What happened next is one of computer history’s most charming stories—both a revealing time capsule of how small the early internet could be and a testament to Woods’s outside-the-box approach to problem-solving (which had doubtless drawn him to the game in the first place):
+
+	The game mentioned Crowther as its author, so I sent mail to crowther@xxx for all hosts xxx on the Internet, which in those days was still very small.… I got back several error messages from sites that had no person by that name, but did eventually hear from Crowther, who … sent me the source for his program.14
+
+Armed with the source code, Woods first figured out exactly how it worked, adding extensive documentation and comments explaining Crowther’s labyrinthine algorithms. Then he began to revise and expand it. He dramatically increased the size of the game, adding many new rooms, treasures, puzzles, and enemies. He added a scoring system and a way to win (finding all the treasures and returning them aboveground). He made the game smarter by extending the range of inputs it could respond to. He also made it more practical to play by adding the ability to save, restore, and restrict the hours during which it was available (vital to prevent sysadmins of the time from deleting it outright). 
+
+Woods also made Crowther’s unfinished experiment into a more consistent simulation. The original featured a bottle of water you could drink, but Woods extended it to work as a general container for different kinds of liquids that could be filled and emptied at appropriate places, now used in multiple puzzles. He fleshed out dropped threads and unresolved teases in the game’s descriptions—both versions include a room where THERE ARE HOLES ALL OVER, BUT THE ONLY BIG ONE IS ON THE WALL DIRECTLY OVER THE EAST PIT WHERE YOU CAN'T GET TO IT, but only in the Woods version does this foreshadow a new area you can actually reach. Crowther’s magic word xyzzy was a testing shortcut to jump straight into the cave, but Woods invented a more consistent system of magic words that implied an underlying fictional logic. While Crowther’s game was a clever hack, Woods made it closer to a working engine, a consistent simulation of a fictional space that could sensibly respond to a player’s exploration.
+
+Part of the workings of that engine, sketched out by Crowther but more fully exercised by Woods, was a cleaner separation between code and data. In part because of Fortran’s limited string-handling functionality, Crowther had put most of the game’s text in an external data file that the main program could read from when it needed to print room descriptions, player vocabulary, item names, and incidental messages. Scanning through this file gives an impression of the way the game simulates a fictional world, and how it’s capable of responding to a range of attempts to interact with it. 
+
+	104 YOU HAVE NOTHING IN WHICH TO CARRY IT.
+	105 YOUR BOTTLE IS ALREADY FULL.
+	106 THERE IS NOTHING HERE WITH WHICH TO FILL THE BOTTLE.
+	107 YOUR BOTTLE IS NOW FULL OF WATER.
+	108 YOUR BOTTLE IS NOW FULL OF OIL.
+	109 YOU CAN'T FILL THAT.
+	110 DON'T BE RIDICULOUS!
+
+But, significantly, the data file contains not just the text but much of the logic for when to display it. Rows of numbers that Woods dubbed the “travel table” specify how to respond to typing certain words in certain rooms, either by printing a piece of text or moving the player to a new location. Take, for instance, this travel table line:
+	
+	1    2    2   44   29
+
+These numbers meant that from Location 1 (End of Road), move to Location 2 (Hill) if the player’s input contains a word from any of vocab lists 2 (“road”, “hill”), 44 (“w”, “west”), or 29 (“above”, “ascend”). The syntax could also describe conditional logic, such as restricting movement when the right object wasn’t carried or the wrong flag was set. This meant much of the setting could be created solely from its data file, without needing new Fortran code or a recompile of the original program—in theory, at least. In practice, Adventure’s code has special-case exceptions all over the place to enable much of its interesting behavior. But the separation of concerns suggested the intriguing possibility of distinguishing engine programmer from world designer, a notion that would become crucial to the genre’s success in the years to come. 
+
+Adventure also included some of the first complex simulations of characters to appear in a computer game. The hostile dwarves (and one pirate) who wander the cave require over a hundred lines of code, far more than the handful devoted to Klingons or Wumpii in earlier titles. Woods’s comments go some way toward revealing the complexities of their behavior:
+
+	FIRST OFF, DON'T LET THE DWARVES FOLLOW HIM INTO A PIT OR A WALL. ACTIVATE THE WHOLE MESS THE FIRST TIME HE GETS AS FAR AS THE HALL OF MISTS (LOC 15). IF NEWLOC IS FORBIDDEN TO PIRATE (IN PARTICULAR, IF IT'S BEYOND THE TROLL BRIDGE), BYPASS DWARF STUFF. THAT WAY PIRATE CAN'T STEAL RETURN TOLL, AND DWARVES CAN'T MEET THE BEAR. ALSO MEANS DWARVES WON'T FOLLOW HIM INTO DEAD END IN MAZE, BUT C'EST LA VIE. THEY'LL WAIT FOR HIM OUTSIDE THE DEAD END. [...] MOVE EACH DWARF AT RANDOM, EXCEPT IF HE'S SEEN US HE STICKS WITH US. DWARVES NEVER GO TO LOCS <15. IF WANDERING AT RANDOM, THEY DON'T BACK UP UNLESS THERE'S NO ALTERNATIVE. IF THEY DON'T HAVE TO MOVE, THEY ATTACK. AND, OF COURSE, DEAD DWARVES DON'T DO MUCH OF ANYTHING.
+
+Crowther’s code was quite dense. His uncommented version of the dwarf behavior (one small portion of which is shown below) is all but inscrutable to anyone not deeply embedded in the code base:
+
+	63	IDWARF=IDWARF+1
+		ATTACK=0
+		DTOT=0
+		STICK=0
+		DO 66 I=1,3
+		IF(2*I+IDWARF.LT.8)GOTO 66
+		IF(2*I+IDWARF.GT.23.AND.DSEEN(I).EQ.0)GOTO 66
+		ODLOC(I)=DLOC(I)
+		IF(DSEEN(I).NE.0.AND.LOC.GT.14)GOTO 65
+		DLOC(I)=DTRAV(I*2+IDWARF-8)
+		DSEEN(I)=0
+		IF(DLOC(I).NE.LOC.AND.ODLOC(I).NE.LOC) GOTO 66
+	65	DSEEN(I)=1
+		DLOC(I)=LOC
+		DTOT=DTOT+1
+		IF(ODLOC(I).NE.DLOC(I)) GOTO 66
+		ATTACK=ATTACK+1
+		IF(RAN(QZ).LT.0.1) STICK=STICK+1
+
+But the kind of node- and state-based simulation driving Adventure was most effective at representing explorable spaces, not interactive characters. The game’s cave is three-dimensional and complex. Passages often twist such that you leave a room to the east only to arrive in the next one from the south, or from above. One-way tunnels can drop into a new area you must find your own way out of, or may reveal a shortcut to a familiar landmark. Sometimes not all connections from a room are described, or exits are collapsed into vague statements like PASSAGES OFF IN ALL DIRECTIONS, lending a sense of discovery to the otherwise rote task of exhausting each exit. Some exits even lead to different places each time you take them, and the teleporting magic words add another dimension to movement. Even after several sessions, the cave can remain disorienting. Like its real-world inspiration, it can only be tamed with careful, scrupulous mapping. 
+
+Winning also requires mastering two complex mazes. Crowther’s original maze was ten interconnected rooms, each featuring an identical description:
+
+	YOU ARE IN A MAZE OF TWISTY LITTLE PASSAGES, ALL ALIKE.
+
+Moving through them, it’s impossible to tell which of the ten rooms you’re in, and thus how to navigate or escape—the game engenders a sense of dread by removing the information needed to traverse it. But a player who realizes they can drop objects in each room can leave a path like Hansel and Gretel through this textual wilderness, differentiating the identical chambers:
+
+	YOU ARE IN A MAZE OF TWISTY LITTLE PASSAGES, ALL ALIKE.
+
+	THERE IS A LITTLE AXE HERE.
+
+	NORTH
+
+	YOU ARE IN A MAZE OF TWISTY LITTLE PASSAGES, ALL ALIKE.
+
+	THERE IS FOOD HERE.
+
+Woods extended Crowther’s maze, making it even more tangled and interconnected, but at first wasn’t sure how to use the gimmick more than once. But then he hit on an idea for a second maze that took advantage of the medium of delivery. Now the words themselves would matter, not just the imagined space they represented.
+
+	YOU ARE IN A MAZE OF TWISTY LITTLE PASSAGES, ALL DIFFERENT.
+
+	E
+
+	YOU ARE IN A LITTLE TWISTY MAZE OF PASSAGES, ALL DIFFERENT.
+
+	E
+
+	YOU ARE IN A MAZE OF LITTLE TWISTY PASSAGES, ALL DIFFERENT.
+
+	N
+
+	YOU ARE IN A TWISTING LITTLE MAZE OF PASSAGES, ALL DIFFERENT.
+
+The key insight this time is to look at the words, not through them to the space they describe. The variants aren’t randomized: each is a unique signature identifying one distinct room of the maze: TLMP (Twisty Little Maze of Passages) is north of MLTP (Maze of Little Twisty Passages). Armed with this insight, the player can make a map, find the secret at the heart of the maze, and escape.
+
+Woods added several other jokes based on wordplay, including a giant clam that turns out to have a pearl inside (after which the embarrassed narrator consistently refers to it instead as a giant oyster), and the Barren Room, which contains a bear. This kind of linguistic play is a joy unique to text games, and some of most beloved of later decades, like The Gostak [Carl Muckenhaupt 2001] or Counterfeit Monkey [Emily Short 2012], would also involve wordplay that couldn’t work in any other medium.
+
+Woods posted his extended version of Adventure back to ARPANET in the spring of 1977. By May it had become a massive hit—nearly everyone into computers at the time was playing it. Tens of thousands of players poured hours into solving the game or further extending it with their own revisions, additions, or remakes, of which Zork would become the most famous. In years to come, early software companies would release commercial ports to great success, rarely paying or even crediting the original designers. Crowther was surprised and somewhat bemused at his program’s unexpected second life and enduring popularity, eventually coming to appreciate the irony that he’d be remembered less for helping invent the internet than for accidentally creating its first viral success. 
+
+Adventure was a clever program, but also the right program at the right time. It arrived just as regional clusters of hackers were merging into a single online community, and the tantalizing dream of home computing was becoming reality. Computers for the masses would need software regular people were excited to use, and Crowther and Woods’s game became a ready-made demo. It inspired the first generation of commercial game companies and provided a template for their products. It’s no exaggeration to say Adventure jump-started the entire computer gaming industry.
+
+But arguably its key innovation was to demonstrate one of the most powerful illusions a computer can create: the fun of being transported to another reality. While the game industry as a whole would trend toward chasing that illusion with images more than words, the template Adventure provided has become one of the longest-lived models for computer games. Half a century later, people are still writing hundreds of parser interactive fiction games each year with the same basic structure as Crowther’s original. Technology has changed, but the right sentence can still paint a picture in the reader’s mind of unlimited resolution and perfect fidelity, and the right trick—cleverly framed and carefully coded—can lend even the simplest machine a semblance of life.
+
+
+References
+
+1) Anderson, Tim, and Stu Galley. 1985. “The History of Zork.” New Zork Times 4 (1–3).
+2) Brucker, Roger W., and Richard A. Watson. 1987. The Longest Cave. SIU Press.
+3) Buckles, Mary Ann. 1985. “Interactive Fiction: The Computer Storygame ‘Adventure.’” Dissertation, San Diego: University of California.
+4) Dyer, Richard. 1984. “Masters of the Game.” Boston Globe Magazine, May 6, 1984. www.csd.uwo.ca/Infocom/Articles/globe84.html | s Feb 22, 1999
+5) Hafner, Katie, and Matthew Lyon. 1998. Where Wizards Stay up Late: The Origins of the Internet. Simon and Schuster.
+6) Jerz, Dennis G. 2007. “Somewhere Nearby Is Colossal Cave: Examining Will Crowther’s Original Adventure in Code and in Kentucky.” Digital Humanities Quarterly 001 (2).
+7) Jong, Philip. 2011. “Andrew Plotkin - Interview.” Adventure Classic Gaming (blog). Jan 7, 2011. www.adventureclassicgaming.com/index.php/site/interviews/622 | a Jul 26, 2020
+8) Kidder, Tracy. 1981. The Soul of a New Machine. Little, Brown and Company.
+9) Lessard, Jonathan. 2013. “Adventure before Adventure Games: A New Look at Crowther and Woods’s Seminal Program.” Games and Culture 8 (3): 119–35.
+10) Maher, Jimmy. 2011. “The Completed Adventure, Part 1.” The Digital Antiquarian (blog). Jun 2, 2011. www.filfre.net/2011/06/the-completed-adventure-part-1 | a Jul 26, 2020
+11) O’Neill, Judy. 1990. “An Interview With William Crowther (OH 184).” Charles Babbage Institute. www.cbi.umn.edu/oh/pdf.phtml?id=97 | s Aug 21, 2002
+12) Nelson, Graham. 1995. “The Craft of the Adventure: Five Articles on the Design of Adventure Games.” Self-published. mirror.ifarchive.org/if-archive/info/Craft.Of.Adventure.pdf | a Jul 26, 2020
+13) Peterson, Dale. 1983. Genesis II: Creation and Recreation with Computers. Reston Pub. Co.
+14) Woods, Don. 2001. “Interactive Fiction? I Prefer Adventure.” L’avventura è l’avventura (blog). June 2001. www.avventuretestuali.com/interviste/woods-eng | s Feb 21, 2009

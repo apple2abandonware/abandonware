@@ -1,0 +1,225 @@
+Pirate Adventure
+
+1978
+
+Alexis Adams and Scott Adams
+Also Known As: Pirate Cove, Adventure #2
+Style: Parser
+Debuted: Dec 1978 (mail order)
+Launch Platform: TRS-80
+Publisher: Adventure International
+Language: BASIC
+Launch Price: $14.95 (cassette tape)
+
+Opening Text:
+
+	I am in a Flat in london. Visible items:
+
+	Flight of stairs. Sign says: "Bring *TREASURES* here, say: SCORE". Bottle of rum. Rug. Safety sneakers. Sack of crackers.
+
+	  -------> Tell me what to do? 
+
+
+In the overwhelmingly male-dominated world of 1970s hackers, a popular tale was the one about the wife or girlfriend who just didn’t get it. So-called computer widows didn’t or couldn’t understand what was so interesting about the bulky machines and the code they ran—or so the stories went—and sometimes lashed out in “hysterical” ways. One particular oft-retold anecdote went like this:
+
+	One day she had finally had it. I came home to find that she had put all my disks … in the oven. I was not going to program anymore, she said, unless I spent some time with her. Luckily, [she] had been so mad that she’d forgotten to turn the oven on!10
+
+Like all stories, these were shared because they reinforced myths the listeners wanted to believe. If you’d lost a wife or girlfriend to the hobby, maybe it was her fault—or maybe she was too scatterbrained to be a good match, anyway.
+
+But behind this particular story (which did happen, more or less) lies a pretty obvious truth. The woman in it had intended, of course, for the oven to be off. It wasn’t a botched execution. It was a threat.
+
+Her name was Irene Reuben, although she went by Alexis and had taken her husband’s name along with, later, his disks. In 1977 she was an ambitious young Floridian with big dreams. At twenty, she already had her own mail-order business selling cookbooks and recipes, and she helped manage a restaurant chain while studying psychology at Miami-Dade Community College. While working for an early computer dating service, she pulled one particular profile out of the queue to respond to it herself: Scott Adams, an adorable goateed geek with a riot of curly hair. The two were engaged months later and married not long after.
+
+Scott was soon to embark on a quixotic project that only makes sense in the context of that particular year of 1977, when it was becoming possible at last to compute at home. Affordable home computer kits for enthusiasts had started appearing by 1975, but the 1977 releases of the TRS-80, the Commodore PET, and the Apple II took microcomputers mainstream. No longer did you need access to a university or company mainframe to run code—for a thousand dollars or less you could have your very own silicon. But what could you actually do with those micros? Their minuscule memory and graphics capabilities meant they were considered little more than expensive toys by “real” hackers. The idea of running a game more complex than tic-tac-toe on one seemed laughable. Zork 1977 would take up nearly a megabyte of space on a PDP-10 mainframe. What could you possibly create for a far slower machine with only a few thousand bytes of memory? Just this paragraph would have filled up half the space on a 2K machine.
+
+Adventure arrived that year on the mainframe at Scott’s office, and like thousands of others he became briefly obsessed with it. He came into work early and stayed late to play, every day, until he solved it. He wanted to share it with friends but couldn’t, since only badged employees were allowed into his office, so he started to wonder what it would take to make something like Adventure for a microcomputer. He mentioned this plan to his friends. “Fortunately,” he later recalled, “I was not daunted by their laughter.”4
+
+When an upgrade for the TRS-80 came out in 1978 that gave it an improved version of BASIC and 16K of memory—enough to store about ten printed pages of code and data—Adams saw his moment. A systems programmer first and foremost, he devised a minuscule engine that could read an adventure definition from a data file and execute it. The engine had only the bare minimum needed to reproduce the spirit of the earlier adventures: a simple two-word parser, a baked-in set of possible condition checks, sixteen binary flags to track game state, and a minimalist aesthetic for descriptions and messages. Even tiny as the engine was, little room remained for the evocative descriptions and complex behaviors seen in mainframe games. Scott’s would have to entertain more through mechanics than prose. He built a simple editor to create and modify the data format his engine could read—a primitive game construction kit—and by the end of 1978, he’d finished the first game for his system. He called it Adventureland.
+
+	I'm in a hidden grove. Visible items:
+
+	*JEWELED FRUIT*. Sign says "Paul's place."
+
+	    Some obvious exits are: NORTH EAST
+
+	   -------> Tell me what to do? GET FRUIT
+	OK
+	   -------> Tell me what to do? EAST
+	OK
+
+	I am in a dismal swamp. Visible items:
+
+	Cypress tree. Evil smelling mud. Swamp gas.
+	Patches of "OILY" slime. Chiggers.
+
+	    Some obvious exits are: NORTH EAST WEST
+
+	   -------> Tell me what to do?
+
+While Adventureland was a far cry from the glorious sentences and complex puzzles of mainframe adventures, Scott was thrilled he’d managed to capture a spark of their magic on a microcomputer. But his new marriage was already in trouble. He’d told Alexis he was working overtime when he’d spent those early mornings and late nights at the office playing Adventure, rather than admit he was socializing with dwarves and dragons instead of her. When he brought his obsession home, the situation only worsened:
+
+	Alexis was pregnant with our first child when I was writing Adventureland and she was becoming upset with me. I was spending all kinds of hours on the computer. I would come home from work, jump on the computer until midnight, then get up and work on the program from six to eight in the morning before I left for work.10
+
+Alexis started lashing out, hiding Scott’s disks around the house and eventually, yes, in the oven. Scott’s hobby must have seemed a pointless waste of time, not to mention a thoughtless one, while they were trying to start a family together. She finally gave him an ultimatum. When Scott finished his first adventure game, he promised it would be his last.
+
+But then something unexpected happened: Scott shared copies of Adventureland on cassette tape at local computer club meetups, and micro owners went wild over it. There was simply nothing else like it yet available for home machines. He took out ads in the backs of computer magazines, and the game sold. Alexis began to see her husband’s Sisyphean project in a different light: it was a product, a business opportunity, a chance to tap into a massively underserved market. This was more of a leap than modern audiences might intuitively understand—in 1978, only big companies like IBM had a reputation for selling software (though a little startup named Micro-Soft was hoping to change that) and the only commercial software was meant for business, not pleasure. Sure, hobbyists made a few bucks here and there selling amusing programs out of magazines, and the arcade and video game console industries were beginning to take off. But Zork wouldn’t hit the home market for two more years, and the idea of a company selling games for primitive home computers was still laughable.
+
+As an entrepreneur, Alexis may have seen the enormous potential her husband’s game represented. She wanted in. “Once we had sold a few copies,” Scott later remembered, “Alexis decided she wanted to do one.”10 Six months pregnant, she began to collaborate with her husband on a second adventure.
+
+Scott’s engine, reusable by design, meant that a second game was far easier to make than the first. Alexis had no programming experience, but building a new game would largely be a matter of setting up a new world of rooms, objects, and rules in Scott’s database editor. The two devised a method of collaboration:
+
+	She would supply the ideas. She’d say, “There’s a cave,” and I’d say, “What do you see in the cave?” “A door,” she’d answer. “Why can’t we open the door?” “There’s a pit of crocodiles in front of the door.” “How can we get past the crocodile?” “Well, maybe the crocodiles are hungry.” “Great, let’s put some fish out in the ocean.”10
+
+It only took a few weeks to design and code the new game with Scott’s editor and Alexis’s ideas, and then there were two products to sell.
+
+	* Welcome to Adventure number 2: "Pirate Adventure" by Alexis & Scott Adams, dedicated: Ted Heeren & Paul Sharland. Remember you can always ask for "HELP".
+
+The Adamses started advertising the pair of adventures more aggressively. One day in early 1979, Alexis answered a phone call from an electronics store manager in Chicago who wanted fifty copies. Smoothly, she and Scott negotiated a price and closed the deal. Working through the weekend, they made fifty duplicates of the master cassette tape—by hand, one at a time—and dutifully shipped a box of them off. A week later the manager called back, annoyed. The tapes needed to be in some kind of packaging for him to sell them. At a loss, the Adamses called plastic bag manufacturers for quotes, but couldn’t find anyone interested in an order size less than 10,000 units. And then they hit on a novel solution, right in front of their noses: a box of plastic baby bottle liners for their newborn. A cassette tape fit perfectly inside one. They stapled business cards to the top, punched a hole in them so the bag could hang on a pegboard, and invented the first retail packaging for a computer game. The company they would soon found, Adventure International, would be the first in the world to exclusively sell them.
+
+A player who loaded the Pirate Adventure cassette into their TRS-80’s memory—a process that took upwards of twenty minutes—began the game in a modern-day London flat. On a bookshelf with a secret passage behind it the player can find a book with a curious inscription:
+
+	The book is in bad condition but I can make out the title: "Treasure Island". There's a word written in blood in the flyleaf: "YOHO" and a message:  "Long John Silver left 2 treasures on Treasure Island"
+
+Saying the magic word YOHO transports you to a tropical isle with crocodiles, snakes, caves, and a drunken pirate. But the goal of the game was unusual for the time, and Scott credited this to Alexis:
+
+	We created an Adventure that was different from any that had ever been written before. Instead of simply searching for treasures in this Adventure, you now had an added ingredient—a “mission.” (In this case, you had to figure out how to build a pirate’s ship!)4
+
+Ship parts are scattered around the landscape, and most of the game’s puzzles involve collecting and reassembling them. Completing the ship lets you sail to the legendary Treasure Island itself, but the bulk of the game is the challenge of getting there. For the first time, the treasure hunt took a back seat. An adventure game could be something more.
+
+	I am in a sandy beach on a tropical isle. Visible items:
+
+	Small ship's keel and mast. Sand. Lagoon. Sign in the sand says: "Welcome to Pirates Island, watch out for the tide!".
+
+	    Some obvious exits are: EAST
+
+	   -------> Tell me what to do? BUILD SHIP
+	I've no plans!
+	   -------> Tell me what to do? E
+	OK
+
+	I am in a meadow. Visible items:
+
+	Mongoose. Grass shack.
+
+	    Some obvious exits are: EAST WEST
+
+	   -------> Tell me what to do? LOOK MONGOOSE
+	OK
+	I see nothing special
+	   -------> Tell me what to do? GET MONGOOSE
+	OK
+	   -------> Tell me what to do? GO SHACK
+	OK
+
+	I am in a grass shack. Visible items:
+
+	Wicked looking pirate. Treasure chest. Parrot.
+	    Some obvious exits are: WEST
+
+	   -------> Tell me what to do? OPEN CHEST
+	Pirate won't let me
+	The parrot crys: `Check the chest matey`
+
+The Adamses were less interested than earlier adventure authors in monsters and fighting, perhaps because unlike most predecessors they hadn’t played Dungeons & Dragons and been influenced by its integral combat mechanics. Pirate Adventure has no weapons, and no enemies but wild animals. There’s a pirate, but unlike earlier NPCs, he’s less a rival than a besotted companion. A bottle of rum distracts him away from his treasure chest (which contains the required ship plans) and he wanders off with it. Later, when you need a crew for your completed ship, you can find him sleeping off his excesses back in your London flat:
+
+	I am in a musty attic. Visible items:
+
+	Pirate's duffel bag. Empty bottle. Sleeping pirate. Rum bottle smashed into pieces. Sign "Opposite of LIGHT is Unlight".
+
+	    Some obvious exits are: WEST
+
+	   -------> Tell me what to do? WAKE PIRATE
+	Pirate awakens and says "Aye matey we be casting off soon"
+	He then VANISHES!
+
+The pirate accompanies you on your journey to recover Long John Silver’s treasures, but remains more interested in booze than gold. When it’s time to leave the island with your loot, you can find him sleeping off another bender in a graveyard. 
+The game’s puzzles are mostly simpler than the challenges from earlier games designed by hackers to stump their peers. The player can type HELP for in-game hints, and the pirate’s parrot also dispenses advice. Reduced in scope from the sprawling mainframe games, Pirate Adventure has only twenty-six rooms and a handful of obstacles, which shrinks the possibility space and makes the game easier to solve. Points of confusion more often come from the primitive parser and terse messages, which could obscure clear understanding of obstacles or situations. At its best, the minimalist prose has a unique charm all its own, presenting a world not lushly drawn in sentences, but lightly sketched with functional nouns and verbs.
+
+	I am in a pit. Visible items:
+
+	Mean and hungry looking crocodiles. Locked door.
+
+	    Some obvious exits are: UP
+
+	   -------> Tell me what to do? OPEN DOOR
+	Crocs stop me
+	   -------> Tell me what to do? INVENTORY
+	I'm carrying the following: Large blood soaked book. Sack of crackers. Lit torch. Matches. Fish.
+	   -------> Tell me what to do? EAT CRACKER
+	Yummy
+	   -------> Tell me what to do? DROP FISH
+	Dropped.
+	Crocs eat fish and leave
+
+But the tiny engine could also be maddeningly frustrating. Not knowing which words the program will understand—a problem common to all parser-driven games—is worsened by a platform without spare room for extra synonyms or helpful descriptions:
+
+	   -------> Tell me what to do? FEED FISH
+	I must be stupid, but I just don't understand what you mean
+	   -------> Tell me what to do? FIGHT CROCS
+	I don't know how to "FIGHT" something.
+	   -------> Tell me what to do? EXAMINE CROCS
+	OK
+	I see nothing special
+	   -------> Tell me what to do? DODGE CROCS
+	I don't know how to "DODGE" something.
+
+The byte-conscious parser could make it hard to express yourself even when you knew what you wanted to do:
+
+	   -------> Tell me what to do? READ MAP
+	Its a map to Treasure Island. At the bottom it says:     "30 paces then dig!"
+	   -------> Tell me what to do? TAKE 30 PACES
+	It's beyond my Power to do that.
+	   -------> Tell me what to do? 30 PACES
+	I don't know how to "30" something.
+	   -------> Tell me what to do? PACE
+	I need a direction too.
+	   -------> Tell me what to do? PACE NORTH
+	I can't go in THAT direction.
+	   -------> Tell me what to do? PACE 30
+	OK
+	I walked off 30 paces.
+
+Today’s players can also fail to appreciate the incredible tedium of playing any game on a 1978 microcomputer. That twenty-minute load time to read in the data from cassette was only the beginning. The original BASIC version of the engine (before Scott rewrote it in assembler) took agonizing seconds to process each command. Saving your game took four minutes, not counting the setup time of preparing a blank cassette to save it to. To restore that game required first restarting the system and reloading the entire program from scratch, then loading in your save game from the second tape—another thirty minutes of your life gone forever. “No wonder Adams could advertise that Adventureland would take weeks or months to complete,” quipped game historian Jimmy Maher.16
+
+But despite their limitations, the Adamses’ adventure games had a head start over almost any other competition, and their company paved the way for the first generation of computer gaming giants. Doug Carlston became Adventure International’s first outside author with his game Galactic Empire [1980]; he’d use the proceeds to start his own software company, Brøderbund. Another young man who became Adventure International’s West Coast distributor, Ken Williams, would found On-Line Systems (later called Sierra On-Line) with his wife Roberta, whose King’s Quest games would become the most famous of the first generation of graphical adventures. Roberta and Ken took their inspiration in part from the visible success of another power couple selling their games to the growing microcomputer audience.
+
+From 1979 through the early 80s, Adventure International became the computer game industry’s first success story, and Alexis was integral to its growth. She “handles most of the business”6 as the corporate vice president and general manager, Scott noted at the time, and “has been intimately involved in all aspects … from the very beginning.”15 She “is as active in the company as I am”18 and had “a tremendous say in the direction of the company.”12 As the couple expanded their catalog to include dozens of games by other authors, sales grew at a steady and then an explosive rate. Adventure International eventually employed a staff of more than forty people—at one point, nearly half of them women. Scott’s simple engine was easy to port to new platforms, so as the early home computer marketplace fragmented to include over a dozen different systems, Adventure International’s games could run on them all. 
+
+The Adamses worked hard to build an audience and a network of distributors—in one year they traveled to thirty-eight different trade shows and expos. The couple gained a reputation as good souls in a sometimes cutthroat industry. At one show, Roberta Williams had to track down Adventure International’s booth to ask why the then-larger company kept sending customers over to buy Sierra’s games: “Aren’t we supposed to be competitors?”10
+
+“They make an odd couple as they stand together” in their booth, Brøderbund’s Doug Carlston remembered: “Scott is a tall, goateed, curly-haired fellow.… His wife, Alexis, is distinctly shorter and more heavy-set.”13 Many men in the industry no doubt noticed Alexis not only for her gender, but her size. Compared to Roberta Williams, whose long golden hair and slim figure came straight out of a storybook, Alexis didn’t look like the popular conception of a princess—or a game designer. She wrote in later years that her weight had been a frequent source of stress and anxiety during her career in games, and she became a proponent of “size acceptance,” founding a group working against the erasure of people like her from media and public consciousness. It’s still important to remember that when you picture a game executive, a game designer, or an interactive fiction pioneer, you can picture someone like Alexis too.
+
+The Adamses eventually started organizing their own conventions and opened a chain of computer stores in Orlando, where Alexis liked to keep tabs on the customer base:
+
+	I love working in the retail store, even these days. It gives me a chance to learn what people really want.… The immediate feedback has proven invaluable to our product development. We have a network of several hundred local play-testers. When a new product is about to be released, these people are given copies to check thoroughly. They are one of the reasons our products are so well-known for being bug-free.10
+
+Alexis continued to broker deals for the expanding company, even through two more pregnancies and six office moves in three years. In 1983 she negotiated a license to the game rights for 20th Century–Fox’s big sci-fi film of the year, Buckaroo Banzai, and contributed to the game adapted from it. At the end of that year Adventure International landed exclusive rights for ten years to make computer games based on Marvel Comics characters—a deal that a few decades later would have been unimaginably valuable. Scott dedicated the first of his Marvel adventures to Alexis.
+
+While her husband’s name was the only one on the box—the company crafted a mystique around Scott as a solo adventure-making genius—Alexis contributed to many of the titles Adventure International produced. Some games credit her as co-creator on their title screens, if nowhere else, and one gives her sole billing there: 1979’s Voodoo Castle. A few other women designers had published games by that year, including Carol Shaw at Atari, but Alexis was among the first to receive a visible credit. In a contemporary interview, Scott noted that she built the game “95% on her own”1 after learning how to use his database system; this also might make her the first nonprogrammer in history to use a domain-specific tool to make a digital game. She dedicated Voodoo Castle “to all moms!” and it featured multiple female characters, including “Medium Maegen,” a hint-dispensing spiritualist named after her daughter—maybe the first woman with dialogue in a video game.
+
+For a time, Adventure International’s growth prospects seemed limitless. But a few bad deals, the 1983 video game crash, and a sluggish approach to incorporating graphics drove the company out of business by the middle of the decade. Alexis and Scott would divorce not long after. While Scott has rarely mentioned his ex-wife in interviews since, he has often cited Voodoo Castle and Pirate Adventure as some of the company’s best-remembered titles, the latter being the only of their games to get a sequel. Alexis, who almost never spoke to the press during or after the company’s heyday, passed away in 2008 from health complications, at only fifty-one years old. Over time, her part in Adventure International’s success has been largely forgotten. Most histories of the company barely mention her. 
+
+But period sources make it clear Alexis played a huge part in the rise of the world’s first computer game company. She was more than just the madwoman who put her husband’s masterpiece in the oven. The meal, in fact, could not have been served without her.
+
+
+References
+
+1) 80-US: The TRS-80 Users Journal. 1981. “80-U.S. Interviews Scott Adams of Adventure International,” Mar/Apr 1981. 
+2) Adams, Alexis. 1998. “A Note from Alexis.” Adventure International Tribute Site. 1998. www.alphaworks.com.au/scottadams/Alexis.htm | a Jan 20, 2021
+3) Adams, Scott. 1979. “An Adventure in Small Computer Game Simulation.” Creative Computing, Aug 1979.
+4) Adams, Scott. 1980. “Pirate’s Adventure.” Byte 5 (12), Dec 1980.
+5) Adams, Scott. 1984. “Scott Adams.” Interview by Steve Gould. Page 6 Magazine, Jul 1984.
+6) Adams, Scott. 1985. “Great Scott!” Interview by Graeme Kidd. Crash #15, Apr 1985. getlamp.com/cast/20070121adams/FILES/crashint.txt | a Jan 20, 2021
+7) Adams, Scott. 2007. “GET LAMP: Scott Adams Interview.” Interview by Jason Scott, Jan 21, 2007. Video. archive.org/details/GETLAMP-ScottAdams | a Jan 14, 2021
+8) Adams, Scott. 2015. “ANTIC Interview 25 - Scott Adams, Adventure International.” Interview by ANTIC The Atari 8-bit Podcast, Mar 16, 2015. ataripodcast.libsyn.com/antic-interview-25-the-atari-8-bit-podcast-scott-adams | a Jan 20 2021
+9) Adams-Gleaton, Alexis. 1999. “Supersize It.” Bigger and Better October Newsletter. Oct 1999. www.biggerandbetter.net/oct.html | a Jan 20, 2021
+10) Adams III, Roe E. 1983. “The Saga of Scott and Alexis Adams.” Softalk 3 (7), Mar 1983.
+11) Ahab. 2018. “Game 32: Pirate Adventure.” Data Driven Gamer (blog). Nov 7, 2018. datadrivengamer.blogspot.com/2018/11/game-32-pirate-adventure.html | a Jan 20, 2021
+12) Anderson, Carmel. 1984. “Scott Adams: The Fun and Games Man.” Micro Adventurer, April 1984.
+13) Carlston, Douglas G. 1985. Software People: An Insider’s Look at the Personal Computer Software Industry. Simon & Schuster.
+14) Dobson, Dale. 2009. “The Great Scott Project - Adventure #2.” Gaming After 40 (blog). Aug 19, 2009. gamingafter40.blogspot.com/2009/08/great-scott-project-adventure-2.html | a Jan 20, 2021
+15) Jermaine, John. 1985. “Probing QuestProbe.” Commodore Power Play 4 (1), Feb/Mar 1985.
+16) Maher, Jimmy. 2011. “Adventureland, Part 1.” The Digital Antiquarian (blog). Jun 22, 2011. www.filfre.net/2011/06/adventureland-part-1 | a Jan 20, 2021
+17) Mahney, Nathan P. 2016. “Game 10: Pirate Adventure (1978).” CRPG Adventures (blog). Jan 13, 2016. crpgadventures.blogspot.com/2016/01/pirate-adventure-1978.html | a Jan 20, 2021
+18) Mitchell, Ron. 1983. “Scott Adams: Adventuring with the Atari.” Antic 2 (4), July 1983.
+19) Sweasey, Pete. 1987. “Mindplay.” ZX Computing Monthly, Jun 1987.

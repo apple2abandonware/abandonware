@@ -1,0 +1,169 @@
+AI Dungeon
+
+2019
+
+Nick Walton
+Style: Procedural Story
+Debuted: Apr 15, 2019
+(web interface to GPT model)
+Launch Platform: Web
+Publisher: Latitude
+(commercial version)
+Language: JavaScript, Python
+
+Opening Text:
+
+	You enter a dungeon with your trusty sword and shield. You are searching for the evil necromancer who killed your family. You’ve heard that he resides at the bottom of the dungeon, guarded by legions of the undead. You enter the first door and see…  
+
+
+History was burning. On April 15, 2019, the Notre-Dame cathedral in Paris caught fire that evening, causing growing damage to an institution symbolizing fixity and tradition in an uncertain world. The extent of the damage was at first unclear. By 9:40 that night, a Paris fire chief was announcing it was still possible the fire could claim the whole cathedral, making the destruction total. And at almost the same moment—eight time zones to the west, in the American state of Utah—a college student released a project that would start its own kind of fire amidst the long-enduring institution of handcrafted, human-authored text games. It’s still not clear how far the flames will spread. 
+
+The project was AI Dungeon, created by an undergrad at Brigham Young University named Nick Walton. Though he’d started college as a mechanical engineering major, Walton switched to computer science when he became fascinated by artificial intelligence technologies like computer vision and deep learning. He interned at a handful of self-driving car startups and earned a reputation for throwing himself fully into any project he tackled, whether for work, school, or fun.
+
+In the spring of 2019, he participated in a hackathon for which he’d had a great idea. He’d recently started playing Dungeons & Dragons with his brothers and, like many hackers before him, thought it would be an interesting challenge to make a digital dungeon master. “One thing that’s so cool about Dungeons & Dragons is that you can do anything,” he recalled, “and the Dungeon Master can decide what happens as a result of that. You can be so creative compared to other games.”13 Its free-form, improvisational nature was one of the hardest parts of D&D to capture in digital form. But Walton had heard of a new piece of tech he was eager to set loose on the problem: an AI text-generation system called GPT-2.
+
+	You enter the first door and see a giant individual. He flails at you with a longsword that you attack with a special magic. Do you shoot partway through, or do you jump to the upper levels of the stairs, where there are many ghouls waiting? Throw a dungeon you can use as your hideout. Then jump over a passage that includes openings for other monsters.
+
+	Options:
+	0) You attack at the moment both small and great piles of corpses and gnomes.
+	1) You use the “hidden tunnel” in order to escape from the massive, updrafted cloak of hold gun to the false corpse of an innkeeper.
+	2) You tell the creature in front of you that you receive the retribution of your brothers and sisters.
+	3) You go through a passage with other ghouls, but discover that there are two other people there, worse that you think!
+	Which action do you choose? 3
+
+	You go through a passage with other ghouls, but discover that there are two other people there, worse that you think!
+
+As the user selected from each option list, new text would slowly scroll in to mask the long delay while the server-side code came up with the next response. Retro green-on-black text in a fixed-width font evoked an earlier era, perhaps by way of apology. But this text game was fundamentally different from nearly anything that had come earlier, because it hadn’t been written by a human being. 
+
+	Your encounters with the large ghouls are so bad that you end up joining them at the end of another battle. It’s this much deadly chaos that makes dungeon crawls so dangerous, Meg to you.
+
+	Options:
+	0) You attack me with a slice of bread; you don’t get a chance.
+	1) You use down the hand of the eighth skilled adventurer completing a specific quest, as well as completing a few of the dungeon’s more difficult quests.
+	2) You tell Meg to enjoy the story of Alt-Ronin it gives you more random heroes and enemies to fight at case you are curious, but I cant give up on you for that chance yet!
+	3) You go tell them about the content, Meg to you.
+	Which action do you choose?
+
+“Generally, a game—even a procedurally generated game—begins with an idea of what you can do and how exactly it expects things to play out,” wrote one explainer. “AI Dungeon is not one of those games.”19 Other than the starting seed, all the game’s text was assembled by an artificial intelligence system called GPT. In early versions, like those quoted in the excerpt above, this was fairly obvious. But GPT would rapidly improve into a far more coherent text-generation system.
+
+The acronym stood for Generative Pre-Training, and the system had first been announced in June 2018 by a curious nonprofit called OpenAI.20 Originally founded by a consortium of researchers and wealthy Silicon Valley personalities including Elon Musk and Peter Thiel, it had received an improbable billion dollars of seed money with the goal of creating a “positive human impact” by advancing “digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return.”5 GPT accordingly had a fully open first release, meaning all code and training data was free for anyone to download and use. An iteration on the cutting edge of text-generation technology, GPT was, at its heart, quite simple: given a huge corpus of human-authored text to study, it could find patterns in structure, syntax, or content, and encode them as “parameters” that could predict new text that might plausibly carry on from a starter prompt. Given the starter Would you prefer chicken or…, GPT was likely to supply beef? or fish? and unlikely to suggest a nonfood word, add more words to the sentence, or end it with something other than a question mark, because few of those behaviors had been observed in the human-authored texts that trained it. GPT-2, released in April 2019 just before the hackathon Walton took part in, used a model with 117 million learned parameters encoding proper textual behavior, trained on over forty gigabytes of text scraped from up-voted links shared on the aggregator website Reddit. 
+
+The results were passably entertaining, but still largely incoherent. The output could easily go off the rails, get into loops of endless repetition, or fail to maintain any kind of internal logic or sense. “As you can probably tell,” Walton wrote when he released his hackathon project that April, “there’s still a ways to go before AI will be your group’s dungeon master.”26 The game was still novel enough to attract a few thousand players and for Walton to consider commercializing or improving it, but first he had another summer internship at a self-driving car startup, as well as his degree to finish—he was hoping to graduate by the end of the year.
+
+Then, in November, OpenAI released an enhanced version of GPT-2 with a tenfold improvement in the intelligence behind its pattern matching, now using 1.5 billion parameters. The extended version had been created at the same time as the original, but OpenAI had at first refused to release it as an “experiment in responsible disclosure,” citing fears it would be misused to “generate misleading news articles, impersonate others online, [or] automate the production of abusive or faked content to post on social media.”21 But by the end of the year, the experiment was apparently over. That summer the nonprofit had swapped chief executives, and was now run by Sam Altman, former head of trendy startup accelerator Y Combinator. It quickly spawned a for-profit division and brokered another billion-dollar deal, this time with Microsoft—half in cash and half in the cloud computing credits so vital to big data training. A year later the company would license GPT’s tech stack exclusively to Microsoft: while the public model would remain available, only the software giant would get access to iterate and improve on it. OpenAI “was supposed to benefit humanity,” wrote the MIT Technology Review when the deal was announced. “Now it’s simply benefiting one of the richest companies in the world.”10
+
+The full-sized version of GPT-2, months earlier deemed too dangerous to society to release, was released. Walton plugged it into his game and the improvements astonished him. The deeper training produced far more coherent and plausible text. He made a few changes to the game’s structure and interface, including fine-tuning its training by scraping multiple-choice stories from digital gamebook portal ChooseYourStory.com. He also replaced the generated menu options with a free-form text field: the user could type their own narration (a “Story” input) or give a command (“Do”), like in a classic text adventure. But this adventure had no parser or set patterns of inputs that were preprogrammed to be recognized. You could enter any command you wanted into AI Dungeon, and it would do its best to continue your story. This was as radical a paradigm shift as any since perhaps the advent of parsers in the first place. Even a year earlier, most text game fans would have thought it impossible.
+
+“You are Ragnar, a wizard living in the kingdom of Larion,” the new version’s human-authored seed for a fantasy story began, customizing the name and character type to the player’s selections. “You have a staff and a spellbook. You finish your long journey and finally arrive at the ruin you’ve been looking for. You have come here searching for a mystical spellbook of great power called the book of essence. You look around and see that it is indeed there, but…” The game then begins dreaming its own continuation:
+
+	…but unfortunately not as you had hoped. The book has been destroyed by fire or some other kind of heat source.
+
+	“I can’t believe they would do this to me,” you say. “It’s like I’m just another item on their books.”
+
+	Do: search for another book
+	> You search for another book.
+
+	The next day you go back to the ruins and find a small book with an old leather cover. It looks almost exactly like the one you were looking for, except this one is much older than the last one.
+
+	Do: read the book
+	> You read the book.
+	You open up the book and begin reading. As you do so, you notice something strange about it. It seems to be written in a language that no human could ever understand.
+
+	Story: Your mind begins vibrating with some strange, alien frequency.
+	Your body feels very odd as well. You feel weak and tired. In fact, you don’t even know why you’re doing what you’re doing right now.
+	[Regen]
+	Your body feels different too. You feel stronger and more energetic than you ever have before. This must be what the book was talking about when it said you possessed magical powers.
+
+	Do: see if I can fly
+	> You see if you can fly.
+	You attempt to levitate yourself into the air. Unfortunately, you fail miserably and fall straight down. You try again and succeed this time.
+
+	“Wow! That worked!” you exclaim excitedly.
+
+	Do: use my magic to rebuild the library and regenerate the Book of Essence
+	> You use your magic to rebuild the library and regenerate the Book of Essence.
+	You immediately begin rebuilding the library. You make sure to keep all the books intact and don’t destroy any of them. When you’re finished, you put everything back where it belongs.
+
+Story after story, the new model impressed Walton with the way it could remember context, craft plausible sentences, and respond sensibly to player commands. The stories it produced were often wacky, like the one where he started a band with a group of skeletons, or another where he brought a tree to life and became its best friend. But for the first time they felt more like stories than random gibberish. He started seriously wondering whether a GPT-based game could become a commercial hit. Crunching to finish his last quarter of classes, he thought he’d throw the improved version of the game online to see if he could spark a new wave of interest.
+
+This time, the fire spread.
+
+The larger GPT-2 model took a serious amount of storage space and computing power to run, and at first users could only access it via a web interface called Google Colab, which allowed for connecting to cloud-based high-performance computing clusters and interacting with them via Python code. But each time someone spun up a session, five gigabytes of training data had to be transferred from one remote server to another, and Google charged the host for the bandwidth: around thirty or forty cents for each transfer. As the new AI Dungeon began to go viral, costs went through the roof. Walton remembers:
+
+	When the daily bill hit $2,000 per day, BYU’s Perception, Control, and Cognition Lab (PCCL) was kind enough to handle the charges. When the cost hit $7,000, they were fine with it. At $15,000, they started to get nervous. At $20,000, we all agreed we needed to do something. At $30,000, they prepared to pull the plug.
+	
+	By the time all was said and done, the total bill had reached $50,000 in three days.28
+
+Desperate not to bankrupt his department or faculty advisor, Walton pulled the game offline amidst a still-growing wave of popularity. Within days, he worked with fans to move the gigabytes of model data to a torrent that could be shared peer-to-peer, so tech-savvy users could run it on their own machines, and he accelerated plans for a commercial version to offset some of the enormous costs. He founded a company called Latitude with his brother Alan, and began work on a mobile version of the game with in-app subscriptions. 
+
+In the meantime, his experiment had become a sensation. In those first days, Walton recalls, “We hit the top of Hacker News, a few popular gamers posted video play throughs, and Twitter was full of screenshots of ML [machine learning] generated adventure. Within a week we had 100,000 players.”28 By February 2020, the number had passed a million.
+
+Many noticed that AI Dungeon was not limited to telling stories about dungeons. While the model had been fine-tuned with text from interactive stories, its GPT core was perfectly capable of imitating any style of text found in its training set, which included millions of web pages on any topic imaginable. You might start off with a seed suggesting an interview with Mahatma Gandhi, and the text coming back would continue as if Gandhi was answering, maybe emulating his speaking style or even peppering in facts about his life that had become encoded into the model’s parameters, based on hundreds of examples of the real Gandhi’s speeches and biography scraped from the web. OpenAI noted that “topics that are highly represented in the data (Brexit, Miley Cyrus, Lord of the Rings, and so on)” were especially likely to produce plausible answers.21 But GPT could riff on nearly anything ever discussed online.
+
+The game went viral. Most AI in the 2010s was still shared to make fun of how bad it was: NPCs without common sense, Hieronymus Bosch–like horrors of generative cat pics gone wrong. But here was a digital creator that, at times, seemed pretty damn good. People didn’t know what to make of it: some were dismissive, others amused, still others disturbed. “Imagine a book,” wrote one reviewer, “but instead of being a static object of ink on paper, it’s written while you wait, by a room full of unhinged authors hopped up on sherbet and gin.”9 Another described it as like doing “undergrad improv with a really terrible partner,” and even less charitably as “computer-assisted literary masturbation.”2 Other reviewers called it “a wild ride,”24 “messy yet occasionally flabbergasting,”7 and a glimpse into “an endless world of dreamlike storytelling.”9
+
+Like dreams, the outputs from AI Dungeon were often more interesting to the player who generated them than anyone else. The game presented an existential challenge to reviewers: what critique can be offered of a text game where everyone’s text is different? How do you review a story that wasn’t written by a human, with no artistic intention or conscious thought behind it—and why would you bother to try? What role, if any, was left for the critic? Most reviewers, whether articulating this challenge or not, fell back to simply posting lengthy transcripts of their own interactions with the game, reveling in or insulting the mix of absurd and plausible outputs, but mostly just letting the writing speak for itself. Unable to engage with either the writing process or the aesthetic effect, the only thing left to report on was the words.
+
+As the game’s surge of popularity began to attract a sustainable base of paying players, Latitude hired engineers to start improving their product’s core (and only) functionality. They refined the interface to help set player expectations, and added restrictions and assists to help the AI produce more consistent and plausible stories. New buttons could pin facts for the AI to remember: additional sentences that would be fed into each request for more text, alongside the player’s latest input. Tools to edit, undo, or regenerate responses let players more tightly curate a story in progress, keeping it from getting too weird (or too normal, depending on preference). The amount of text fed into the system expanded to include the last eight interaction pairs between human and machine, giving stories more coherence as details from the last few pages, not just the last few paragraphs, might recur. Starting seeds were added for different kinds of stories: horror, cyberpunk, zombie invasions. Eventually fans would gain the ability to publish their own shareable “worlds” for AI Dungeon, combinations of starter prompts and consistent facts that could kick off a story in any milieu imaginable.
+
+But improvements had to work around a looming brick wall. Under the hood of a regular game would be some kind of simulated world model keeping track of characters, locations, or inventory, with logic for activities like movement or combat. GPT’s text algorithm had nothing of the sort. It was, in essence, a clever black box: words went in and new words came out. Nothing was kept track of or simulated in the traditional sense. Earlier AI-driven text games like those from the Oz Project or Versu still had structured assumptions and procedures that humans could refine, customize, and tune, but the millions of learned parameters in GPT models were not accessible or even understandable to human operators. So while adding an inventory system to an in-progress parser game would be relatively trivial, teaching the same sort of concept to a GPT-driven game—other than via the tedious repetition of real-world examples—was almost impossible. Most of Latitude’s workarounds boiled down to clever ways to shove more text into the black box along with the player’s input, or to understand more about its output. A quest-tracking system added in the fall of 2020, for instance, added a separate machine learning model trained to detect strings of text that indicated a goal had been achieved, like “At last, you have claimed the sword!”
+
+The biggest improvements by far continued to be in the underlying model. GPT-3 launched in May 2020 with a mind-boggling 175 billion parameters—a thousandfold increase over the system’s debut only two years earlier—and a training set that now included over a trillion words from Wikipedia, online book libraries, and the web at large. The model had cost millions of dollars in computing power to train, and it required a small mountain of dedicated GPUs to run (ironically, far more than to produce contemporary game graphics). In June, Latitude added access to this new model, under the brand name Dragon, as a premium option for paid subscribers. The stories Dragon told could be disturbingly coherent. 
+
+	The door is locked so you knock. The music suddenly stops and you hear footsteps coming to the door.
+	“Hello?” A voice says behind the door.
+	“I’m looking for the book of essence,” You say.
+	“What do you want it for?” The voice answers, a bit of an edge to it.
+
+	Do: tell them I am a humble seeker of knowledge
+	> You tell them you are a humble seeker of knowledge.
+	“Ah, I see. You seek to learn about the essence of reality, and the universe.” The voice says. “I know of this book. I am the guard of this library. The only way you can get to it, is if you get past me. Are you up for the challenge?”
+
+	Do: ask them what the challenge is
+	> You ask them what the challenge is.
+	“The challenge is, you have to win a game of chess against me. If you win, then you may try to take the book. I will get the board.” The door unlocks and opens.
+
+Some writers began sounding an alarm. The New York Times covered GPT-3 under the headline “How Do You Know A Human Wrote This?” The author called the technology “at once amazing, spooky, humbling and more than a little terrifying.”16 The Daily Beast wrote: “There’s something depressing about language generation when it works well—a machine tapping into one of the few things that feel uniquely human, producing not just speech, but story, character, and jokes.”12 The warnings that OpenAI itself had once made were now taken up by mainstream cultural critics, who in the midst of the Trump administration’s ongoing assault on facts warned of “a future in which we are even less sure if what we are reading is real or fake.”18 Questions of ownership and attribution also had no settled answers, either legally or morally. Could writers claim copyright on text produced by their inputs into AI Dungeon? Could Latitude? What about the thousands of authors whose words were slurped up for training data without their consent? Some of the writers at ChooseYourStory.com became upset when they discovered the scraped contents of their stories posted to a public  GitHub account. In later months, they would notice that some of their characters’ names showed up suspiciously often in AI Dungeon stories.1
+
+Worse, any AI model trained on unfiltered text from the internet ran the risk of mindlessly perpetuating its darker aspects. In 2016 Microsoft had released a chatbot named Tay, designed to improve its conversational skills by interacting with humans on Twitter. Within sixteen hours of its release, the bot was taken down permanently after it began making racist and inflammatory tweets, stoked by an army of online trolls. “Do you support genocide?” a user tweeted at Tay in one of the tamer examples; “i do indeed,” the bot replied. The bot didn’t really know what it was saying, of course—just as GPT doesn’t—but the incident became one of the decade’s most famous examples of the dangers of AI that mindlessly remixed and parroted unfiltered inputs with none of the social, emotional, or cultural understanding of a person. Writing about GPT-3 a few years after Tay, one reporter noted the risk in “its inability to distinguish between truth and lie, between fact and fiction.” GPT-3 will easily generate text that sounds plausible but has no basis in reality. “What makes this dangerous,” the reporter noted, “especially when it comes to questions related to medicine, for example, is that even when the model doesn’t have a clue what it’s talking about, it responds with absolute confidence.”14
+
+The issue of tech like GPT disrupting human creators had also come to seem like more than fantasy by 2020. “I am fairly convinced at this point that people will lose their jobs because of advancements in language models like GPT-3,” wrote one tech analyst. “The only question in my mind is whether this will happen in the next five years or the next ten.”22 Indeed, Walton’s vision of AI Dungeon’s commercial potential seemed to rely on this, framing the system’s future value as a matter of reducing “developer costs”:
+
+	In a game like Skyrim, you’re talking about employing hundreds of people over roughly five years. It’s so expensive. Ideally, AI lets us cut down on a lot of what developers normally do.15
+
+Application of technology to save labor has long been both a utopian dream and a capitalist nightmare. Does the time saved free more people from drudgery, or is it converted into more profit for their bosses? The great cost of mustering enough computational power to feed GPT-based systems might suggest they’re unlikely to become a tool for the masses (although fully open-source models like GPT-J have since appeared as good first steps). But it’s still too early to know whether the fears around GPT will seem laughable or prescient in the years to come. As with the immediate aftermath of the Notre-Dame disaster, we can’t yet appreciate the true extent of the fire. “GPT-3 is going to be this decade’s iPhone, in terms of a singular artefact that is quite clearly the axis around which the next 10 years rotate,” predicted Alex Hern, technology editor for the Guardian, in 2020.14 But tech predictions are a tricky business. GPT or something like it might catch fire—or collapse under its own considerable weight, expense, and inscrutability.
+
+AI Dungeon points to a radically different possible future for text games, one which might seem nearly unrecognizable to fans of a medium that’s always been more lovingly handcrafted than automated. And yet, in another sense, it continues traditions enmeshed in text games from the beginning—not only in its dungeon-crawl and parser aesthetics, but in the way it recalls early chatbots like ELIZA, which fascinated early computer users with illusions of personhood. The yearning for machines to dream and create alongside us has existed since the earliest software written for pleasure. The challenge, as with any new technology, lies in doing the work to make sure it enriches our lives rather than diminish them.
+
+
+References
+
+1) aid702. 2019. “AI Dungeon 2: The Dungeoning!” Forum post, ChooseYourStory.com, Dec 7, 2019. chooseyourstory.com/forums/the-lounge/message/26021 | a Dec 12, 2020
+2) Ars Staff. 2020. “The Machines Are Whispering: We Tested AI Dungeon 2 and Cannot Stop Laughing.” Ars Technica (blog). Jan 20, 2020. arstechnica.com/gaming/2020/01/we-test-ai-dungeon-2-a-text-adventure-that-creates-itself-with-your-help | a Dec 12, 2020
+3) Batorsky, Ben. 2020. “GPT-Who? Exploring the History of GPT.” Ben Batorsky’s Blog. Oct 28, 2020. bpben.github.io/2020/10/28/gpt_explore | a Dec 12, 2020
+4) Boog, Jason. 2020. “AI Storytelling Game May Expand Publishing’s Horizons.” Publishers Weekly. Aug 28, 2020. www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/84224-ai-storytelling-game-may-expand-publishing-s-horizons.html | a Dec 12, 2020
+5) Brockman, Greg, and Ilya Sutskever. 2015. “Introducing OpenAI.” OpenAI. Dec 12, 2015. openai.com/blog/introducing-openai | a Dec 12, 2020
+6) Brown, Tom B., Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan et al. 2020. “Language Models Are Few-Shot Learners.” In Advances in Neural Information Processing Systems 33.
+7) Cox, Matt. 2020. “Console an AI about Its Lack of Sentience in AI Dungeon 2.” Rock, Paper, Shotgun (blog). Aug 3, 2020. www.rockpapershotgun.com/2020/08/03/console-an-ai-about-its-lack-of-sentience-in-ai-dungeon-2 | a Dec 12, 2020
+8) DeBos, Cody. 2019. “Interview: ‘AI Dungeon 2’ Dev Nick Walton Talks Future of AI.” The Burn-In (blog). Dec 21, 2019. www.theburnin.com/games/interview-ai-dungeon-2-creator-nick-walton-android-ios-mobile-release-future-ai-2019-12 | a Dec 12, 2020
+9) Grannell, Craig. 2020. “App of the Week: AI Dungeon Review.” Stuff, Jan 12, 2020. www.stuff.tv/app-reviews/ai-dungeon/review | a Dec 12, 2020
+10) Hao, Karen. 2020. “OpenAI Is Giving Microsoft Exclusive Access to Its GPT-3 Language Model.” MIT Technology Review (blog). Sep 23, 2020. www.technologyreview.com/2020/09/23/1008729/openai-is-giving-microsoft-exclusive-access-to-its-gpt-3-language-model | a Dec 12, 2020
+11) Henley, Jon. 2019. “Notre Dame Cathedral Fire – a Visual Guide and Timeline.” Guardian, Apr 16, 2019, sec. World news. www.theguardian.com/world/2019/apr/16/notre-dame-cathedral-fire-a-visual-guide-and-timeline | a Dec 12, 2020
+12) Hitt, Tarpley. 2019. “Meet the Mormon College Student Behind Viral Artificial Intelligence Game AI Dungeon.” Daily Beast (blog). Dec 9, 2019. www.thedailybeast.com/meet-the-mormon-college-student-behind-viral-artificial-intelligence-game-ai-dungeon | a Dec 12, 2020
+13) Knight, Will. 2020. “Forget Chess—the Real Challenge Is Teaching AI to Play D&D.” Wired, Feb 28, 2020. www.wired.com/story/forget-chess-real-challenge-teaching-ai-play-dandd | a Dec 12, 2020
+14) Lavie, Boaz. 2020. “This Algorithm Speaks Just like Us. I Had a Rare Opportunity to Meet It.” haaretz.com (blog). Sep 3, 2020. www.haaretz.com/israel-news/.premium.MAGAZINE-this-algorithm-speaks-just-like-us-i-had-a-rare-opportunity-to-meet-it-1.9126323 | a Dec 12, 2020
+15) Lim, Hengtee. 2020. “How Nick Walton Created AI Dungeon: The AI-Generated Text Adventure.” Lionbridge AI (blog). Jun 11, 2020. lionbridge.ai/articles/can-ai-make-video-games-how-nick-walton-created-ai-dungeon | a Dec 12, 2020
+16) Manjoo, Farhad. 2020. “How Do You Know a Human Wrote This?” New York Times, Jul 29, 2020, sec. Opinion. www.nytimes.com/2020/07/29/opinion/gpt-3-ai-automation.html | a Dec 12, 2020
+17) Metz, Cade. 2019. “With $1 Billion From Microsoft, an A.I. Lab Wants to Mimic the Brain.” New York Times, Jul 23, 2019, sec. B.
+18) Metz, Cade. 2020. “Meet GPT-3. It Has Learned to Code (and Blog and Argue).” New York Times, Nov 24, 2020, sec. Science. www.nytimes.com/2020/11/24/science/artificial-intelligence-ai-gpt3.html | a Dec 12, 2020
+19) Moyer, Phillip. 2019. “AI Dungeon Is A Game Where You Can Do Anything You Want.” TheGamer (blog). Dec 18, 2019. www.thegamer.com/ai-dungeon-game-do-anything-you-want | a Dec 12, 2020
+20) Radford, Alec, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. 2018. “Improving Language Understanding by Generative Pre-Training.” Report.
+21) Radford, Alec, Jeffrey Wu, Dario Amodei, Daniela Amodei, Jack Clark, Miles Brundage, and Ilya Sutskever. 2019. “Better Language Models and Their Implications.” OpenAI. Feb 14, 2019. openai.com/blog/better-language-models | a Dec 12, 2020
+22) Rao, Tanae. 2020. “Exploring the AI Dungeon.” Tanae Rao (blog). Jul 22, 2020. towardsdatascience.com/exploring-the-ai-dungeon-253ddc577011 | a Dec 12, 2020
+23) Simonite, Tom. 2021. “It Began as an AI-Fueled Dungeon Game. Then It Got Much Darker.” Ars Technica (blog). May 8, 2021. arstechnica.com/gaming/2021/05/it-began-as-an-ai-fueled-dungeon-game-then-it-got-much-darker/ | a Aug 14, 2022
+24) Vincent, James. 2019. “This AI Text Adventure Game Has Pretty Much Infinite Possibilities.” The Verge (blog). Dec 6, 2019. www.theverge.com/tldr/2019/12/6/20998993/ai-dungeon-2-choose-your-own-adventure-game-text-nick-walton-gpt-machine-learning | a Dec 12, 2020
+25) Wakefield, Jane. 2016. “Microsoft Chatbot Is Taught to Swear on Twitter.” BBC News, Mar 24, 2016, sec. Technology. www.bbc.com/news/technology-35890188 | a Dec 12, 2020
+26) Walton, Nick. 2019a. “AI Dungeon Release.” AIDungeon (Patreon blog). Apr 15, 2019. www.patreon.com/posts/ai-dungeon-26134858 | a Dec 12, 2020
+27) Walton, Nick. 2019b. “AI Dungeon 2: Creating Infinitely Generated Text Adventures with Deep Learning Language Models.” Perception, Control, Cognition (blog). Nov 21, 2019. pcc.cs.byu.edu/2019/11/21/ai-dungeon-2-creating-infinitely-generated-text-adventures-with-deep-learning-language-models | a Dec 12, 2020
+28) Walton, Nick. 2020a. “How We Scaled AI Dungeon 2 to Support over 1,000,000 Users.” Latitude Team (blog). Feb 11, 2020. medium.com/@aidungeon/how-we-scaled-ai-dungeon-2-to-support-over-1-000-000-users-d207d5623de9 | a Dec 12, 2020
+29) Walton, Nick. 2020b. “AI Dungeon: Dragon Model Upgrade.” Latitude Team (blog). Jul 14, 2020. medium.com/@aidungeon/ai-dungeon-dragon-model-upgrade-7e8ea579abfe | a Dec 12, 2020

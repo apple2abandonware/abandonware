@@ -1,0 +1,159 @@
+Curses
+
+1993
+
+Graham Nelson
+Style: Parser
+Debuted: May 9, 1993 (Usenet)
+Launch Platform: Z-machine v5
+Language: Inform
+
+Opening Text:
+
+	It’s become a matter of pride now not to give up. That tourist map of Paris must be up here somewhere in all this clutter, even if it has been five years since your last trip. And it’s your own fault. It looks as if your great-grandfather was the last person to tidy up these lofts… 
+
+
+By 1993, it would have been a safe bet to say the text adventure was dead. That year saw the last release of a traditional parser game by a mainstream publisher: Legend Entertainment’s Gateway II: Homeworld, a sequel only greenlit because the 1992 original had sold unexpectedly well. But the unlikely success was not repeated. The bestselling games of the year would be CD‑ROM extravaganzas like Myst [Cyan 1993] and The 7th Guest [Virgin Interactive Entertainment 1993], loaded with animations, music, voice acting, and video. Infocom—once the king of interactive fiction (see 1984)—was out of business, its lauded text games now in the remainder bin (if they could still be found at all). It did not seem likely the genre they helped popularize would ever come back.
+
+Some fans had tried to take up the mantle themselves. But game-making tools, even for text games, were still awkward to use, lacking in power, or expensive. Programs like AGT (Adventure Game Toolkit), PAW (Professional Adventure Writer), or TADS (Text Adventure Development System) were either commercial products or shareware that required paid registrations to unlock their advanced features, and even the full versions had trouble matching the capabilities of the best 80s text games, which had been developed with proprietary engines considered trade secrets. Finding and sharing amateur games was also difficult before the web, with fan communities split between local bulletin boards and standalone services like CompuServe, GEnie, or Prodigy. Some amateurs struggled through these hoops for the joy of making and sharing new games (see The 1990s), but most interactive fiction fans at the time were going through a period of mourning.
+
+Usenet newsgroups were becoming popular service-agnostic hubs for discussion, and by 1993 IF refugees had taken over a pair of them: rec.arts.int-fiction and rec.games.int-fiction. Like many text game communities of the time, they were mostly looking backward. The first week of May that year saw posts in the IF newsgroups on the best and worst Infocom endings, hint requests for Zork 1977 and Planetfall [Infocom 1983], a thread about the Infocom spin-off novels, a comparison of Sierra’s graphical games to Infocom’s text games, and discussion of a bug in one of the company’s last titles, Sherlock [1988]. But on May 9, someone named Graham Nelson interrupted the nostalgia to post something rather extraordinary:
+
+	Infocom game story files are as near to a universal format as we have for interactive fiction games, but until now it has been very difficult to construct them, and I am not aware that anyone has previously created them outside of Infocom itself.
+
+	I have written such a compiler, called “Inform”, the ANSI C source of which is public domain. It is not a marvellously well-written program, but it does work, and it is documented.… I have no objection to anyone using its output for anything they wish.9
+
+The modest announcement was a Promethean moment for the cold and huddling text game masses: a chance for anyone with some coding skills to create their own new games in a beloved studio’s engine. Along with his compiler, Nelson also announced—by the way—a new full-length, Infocom-style game that he’d written to test it. The twin releases of tool and game would lead to an extraordinary resurrection: an interactive fiction renaissance that sparked an explosion of new games and decades of experimentation, some of which would greatly influence both the mainstream game industry and scholarly understanding of the possibilities of interactive narratives.
+
+It almost didn’t happen. Nelson had first made his announcement at the end of April, and became depressed when nobody seemed to care—he received not a single response. It was only a week later that he realized his newsreader was glitching and his message had never been sent. Had he given up before noticing the problem, the history of interactive storytelling might have been rather different.
+
+Nelson, a first-generation college student from a middle-class family, was then working on a mathematics PhD at Oxford. Half a year before his newsgroup announcement, he’d tracked down a hefty box of software called The Lost Treasures of Infocom [1991]. Activision, years after purchasing the beleaguered interactive fiction studio and later shutting it down, had decided to raise some money by reissuing Infocom’s back catalog in an omnibus collection. For fans of a company that had spent nearly a decade creating titles praised for their craft and quality, this was a veritable treasure trove, an entire body of acclaimed work now affordable and at gamers’ fingertips: games like Deadline [1982], Enchanter [1983], Suspended, Hitchhiker’s Guide, A Mind Forever Voyaging, Trinity [1986], and many other influential titles besides. “If Infocom is to be compared with Shakespeare,” Nelson later wrote, “then this was the First Folio.”12 Nelson had played a few of the Infocom games as an undergraduate, but now—not a fan of the turn toward first-person shooters and military themes that mainstream games were taking—he intended to devour the rest. 
+
+But first he faced a more immediate challenge: how to play the Lost Treasures games on his incompatible Acorn Archimedes computer. Due to the fragmented nature of the early home computer market, Infocom had built a system-agnostic virtual machine to run their games, the Z-machine (Z for Zork). Once this existed, they could simply write an interpreter program for that machine that ran on each platform they wished to support, making all current and future titles at once playable on each new architecture. But Nelson’s Archimedes had only been sold in the UK, and US-based Infocom had never built an interpreter for it. Poking around on Usenet, Nelson learned that a group of Australian college students calling themselves the InfoTaskForce had reverse engineered Infocom’s story format to write their own interpreter in C, which was easy enough to compile on most any modern machine. Without much trouble, Nelson built the InfoTaskForce interpreter on his Archimedes and could easily play all the story files from the Lost Treasures disks—the beauty of the virtual machine design meant the games ran just fine on a platform they’d never been tested on or previously compiled for.
+
+But the new interpreter implied an intriguing corollary. If you understood the Z-machine well enough to emulate it, you should also be capable of writing new programs to run on it. All you’d need would be a human-readable way to specify them—a programming language—and a compiler that could turn those specifications into Z-code. While it was known that Infocom had used an in-house language called ZIL (the Zork Implementation Language) to create their games, its specifics had never been made public. Nelson, intrigued by the idea of writing new games in Infocom’s engine, began to hack together his own solution. Having once written a compiler called Teraform, he decided to christen his new one Inform, later retronymically styling it as an “Infocom-format compiler.” The language and compiler were relatively straightforward—at least at first—so Nelson spent most of his time on an ambitious game to thoroughly exercise them, demonstrating that Inform was capable of producing something equal to the complexity of any Infocom release. His game was called Curses, and it was the first released program written in Inform. The decades to come would see thousands more.
+
+When Inform and Curses debuted on the newsgroups, the reaction at first was muted (even after Nelson fixed his newsreader). It might have all felt, perhaps, too good to be true—the year had seemed destined for disappointments, not miracles. Yet responses slowly began to accrue. “Is anyone else playing [Curses],” someone posted a week after Nelson’s announcement. “I’m doing fairly well … but I could use some hints.”16 As players got deeper into a game whose first impression was rather pedestrian—a hunt for a missing map in an overstuffed attic—the hint requests grew more involved. It seemed scarcely possible, to those not yet playing, that these people were asking about the same game with the mildly eccentric British relations and all the tea chests. “I’ve killed the kraken with the flash from the Pharos,” one hint petitioner began,
+
+	but am killed and resurrected, myself, only to find Andromeda still chained. Nor am I able to cross the sacred ground to reach the Temple of Zeus, or attain the ekmek in the taverna. My guess is that these three are related somehow, but how? Is there some alternative way to save Andromeda?? Should I save her at all??? Do I need more than just the flash to do the job????5
+
+“You have to get a coin from the temple of zeus to buy the ekmek,” explained one responder. “To do that you need to use the rod of luck. To use the rod of luck you have to change the nature of the universe.” Gradually more and more people decided to give this new game a shot, downloading it via FTP and running it on their InfoTaskForce interpreters just to see what all the fuss was about. It soon became all anyone on the newsgroups was talking about, and remained that way for most of the next two years.
+
+Curses begins, as mentioned, in the present-day attic of an old British estate called Meldrew Hall. As the latest Meldrew, you’ve climbed the stairs in part to search for an old tourist map of Paris, but also to escape from the hectic bustle of your family preparing for a trip to the continent.
+
+	>south
+	 
+	Old Furniture
+	Scruffy old furniture is piled up here: armchairs with springs coming out, umbrella stands, a badly scratched cupboard, a table with one leg missing… You try to remember why you keep all this rubbish, and fail. Anyway the attic continues to the southeast.
+
+	>search cupboard
+	In the scratched cupboard are a bird whistle, a gift-wrapped parcel and a guaranteed-unbreakable medicine bottle with a child-proof lock.
+
+	>southeast
+
+	Over the East Wing
+	The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+	>south
+	Disused Observatory
+	Once upon a time, this small circular room had a dome and a telescope, but it leaked dreadfully and so now there’s a proper roof.
+	 
+	A circular mural painted with the signs of the zodiac is interrupted by a short flight of stairs leading up to the north, a smoke detector, a west doorway to a shadowy alcove and the continuation of the stairs down and to the south.
+	 
+	Mounted on the old telescope stand is what looks like a solid glass ball.
+
+As you search the expansive nooks and crannies of the attic, its dimensions and the scope of your task begin to expand. Secret doors and dumbwaiters provide access to hidden cellars, precarious rooftops, and long-sealed rooms. Ghosts are met and strange dreams visited, some projecting you to unexpected places:
+
+	Cups and Glasses
+	This basement room is filled with crate after crate of glasses and cups, enough for an entire hotel, or restaurant perhaps. Almost anything might be hidden among them. […]
+
+	You can see a ship in a bottle here.
+
+	>examine ship
+	You look very closely at the fine detail on the model sailing ship. Perhaps it’s the distorting glass of the bottle, perhaps your romantic imagination, but the deck seems more detailed, the rigging might almost be swaying, the little figure by one mast might almost be alive… 
+	 
+	In fact, the closer you look the more sea-sick you feel.
+	 
+	Thank heavens for the deck rail, something to hang on to while this moment of queasiness passes.
+	 
+	>look
+	 
+	Aboard Ship
+	There is a storm tossing the deck, one which drives no rain: you reel from one side to the other, hanging onto the rail, grabbing at the mast or the rigging. Nobody else seems to be aboard. The boat makes no headway in a strange, glassy mist.
+
+Soon you find yourself traveling through time and visiting other eras of the manor and its grounds, the demesnes of previous Meldrews. Each ancestor, you come to learn, had their own quixotic quest they could never quite complete, a familial curse stretching back many centuries. Your own hunt for the map (and perhaps an end to the curse) eventually comes to involve deciphering hieroglyphics, replicating druidic rituals, shouting orders at a robot through a hole in the wall, and altering history with a bottle of weed killer. Before completing the game you’ll visit ancient Greece and meet Homer, take a boat ride with a rather literal Hollow Man (à la T. S. Eliot), and even get hints from a demon:
+
+	Hellish Place
+	Hell, you always imagined, would contain fiery, sulphurous pits and a great many gentlemen with forked tails. You were right about the last part. A demon is sitting behind a flame-proofed desk at the bottom of the stairs. There are some disconcerting screams from further away, but nothing to worry about. Not in this life, anyway.
+
+	“Good afternoon,” says the demon with a memorable smile. “As a reward for your naked greed, may I welcome you to our little information service. We try to be as helpful as possible to explorers who are lost, or can’t think how to solve their problems, you know the kind of thing. So just tell me what you want to know, or show me something to look at. You get the usual three hints.”
+
+	>show tarot card to demon
+	“Clairvoyantes are expert at detecting stacked decks, so it’s no good cheating.”	
+
+	>show Rod of Fire to demon
+	“Under Regulation 3, paragraph 15 (i) clause (f), only one hint per visit to the infernal domain. You’ll have to go away again and come back if you want another. So sorry.”
+
+Curses is scavenger hunt meets Dante’s Inferno, “an allegorical rite of passage,”17 adventure game by way of historical footnote. It certainly owes a great debt to Infocom, recreating the company’s signature style even while literally resurrecting its technical bones. It’s filled with puzzles, magic words, clever mazes, an enormous map, and interesting objects (sidebar opposite).
+
+But Nelson also took much inspiration from history and classics. When asked once about his favorite games and authors, he gave much more space to the latter, listing “Auden, Eliot, Donne, Browning, Elizabeth Bishop.… For plays, Tom Stoppard, Christopher Hampton, David Hare.”10 Curses is steeped in antiquities, from the abandoned odds and ends squirreled away in the Meldrew attics—an old wireless radio, for instance, which seems to do nothing when turned on until you realize it takes a few turns to warm up—to its detailed time-travel excursions to lovingly researched long-ago eras. It’s very much a game about odd corners and margins—interstitial places. As huge as the game is, it never takes its players into Meldrew Hall proper, leaving them instead to scuttle through attics, basements, and secret crawlspaces. If you try to step into the main rooms of the house, or even somewhere you might be spotted from a window or doorway, the game promptly ends as you’re swept up into your family’s quotidian concerns: “You have missed the point entirely,” it admonishes. Nelson, in the midst of his PhD, had also embarked on a quixotic quest that bore little relation to his supposedly more pressing duties. The attics and basements of the Z-machine’s virtual architecture, and the ever-expanding house he was building atop it, seemed perhaps pleasant places to take refuge.
+
+Nelson’s game would take over the IF newsgroups as players who thought they’d seen the last of the great text adventures discovered a worthy modern successor. “Congratulations,” wrote one poster. “Its almost like having Infocom back.”19 Hint requests and discussion of the game proliferated, dominating the newsgroups through the rest of 1993 and 1994 so much that there was a half-hearted proposal for a dedicated new group, rec.games.curses, just so there would be enough oxygen to talk about anything else.3
+
+As popular as Curses was, the Inform language would come to have an even larger impact on interactive fiction history. It had at first been more of “an assembler with delusions of grandeur,”11 with code written close to the virtual metal of the Z-machine. But as Nelson kept improving it, the language began to evolve more elegant features for efficiently crafting simulated worlds. By the release of version 5 in the summer of 1994—just as its author was at last defending his PhD—Inform had become powerful and stable enough for others to start building ambitious projects of their own. Inform 6, appearing two years later, would become the definitive version.
+
+A snippet from example game Toyshop [1994] demonstrates the ease with which an Inform 6 author can create an interesting object—a bag that nothing can be removed from—and a sticky object to defeat it.
+
+	Object -> "toothed bag"
+		with name "toothed" "bag",
+		initial "In one corner is a curious, toothed bag.",
+		description "A capacious bag with a toothed mouth.",
+		before
+			[; LetGo: "The bag defiantly bites itself shut on your
+				hand until you desist.";
+			],
+		after
+			[; Receive:
+				if (noun==cone)
+				{	self.before=0; self.after=0;
+					"The bag wriggles interminably as it tries 
+					to eat the enormous mass of marzipan. That'll 
+					teach it.";
+				}
+				"The bag wriggles hideously as it swallows ", (the)
+				noun, ".";
+			],
+		has  container open;
+
+Among other elegant notions—such as a bare string printing a message and returning from a code block—the before and after segments let authors easily intervene in the behavior of actions, whether directly triggered by the player or implied. When the player tries to remove something from the bag, for instance, its code can interfere by intercepting the action from its own point of view: LetGo.
+
+The set of actions was also a useful contribution from Nelson. He combed through the catalog of Infocom games in Lost Treasures and created a standard library of verbs, rules, and concepts, normalizing behaviors common to many titles but not always consistently implemented, and worked them into a reusable module that an author could simply include in any new project. Nelson’s Standard Library was quite sophisticated, including a mature parser and a uniform framework for simulating locations, containers, doors, locks, light, directions, and many other atomic units of adventure game design. For a generation of IF authors, Inform would establish a standard baseline driven by the simulationist model the 80s games had popularized and the 90s MUDs and MOOs had adapted, enshrining the notion that an interactive story should be built on a simulated virtual world that a player can move through and interact with. That paradigm would not be seriously challenged for many text game writers until the rise of Twine in the 2010s.
+
+In the years after Inform’s release, the community forged in the nostalgia-heavy IF newsgroups would expand and rebrand itself as a place for making, not just reminiscing. The release of Inform and Curses kindled a resurgence of interest in text games and their creation, with languages like TADS also seeing a new surge of popularity. New community institutions soon sprung up to support the new generation of game makers. In 1995, the first annual Interactive Fiction Competition was held, designed to give the increasing number of new authors a place to showcase their games. The competition was still going strong twenty-five years later, attracting over a hundred entries in the 2020 season. The newsletter SPAG (Society for the Preservation, later Promotion, of Adventure Games) launched in 1994, featuring long-form reviews, analyses, and interviews. Another publication, XYZZYnews (named after a magic word in Adventure), debuted in 1995 with a Graham Nelson interview, and would later spin off the annual XYZZY Awards—a text games Oscars. And the quality and success of Inform caused other makers of text game tools to rethink their approaches, with some dropping their commercial pricing models or adding improved features to keep pace with the most popular game creation tools. 
+
+Curses is less remembered today than the Inform games written in the years and decades that followed it. In demonstrating so thoroughly the possibility of making a game as good as anything from Infocom, it naturally inspired the next generation of makers to aim even higher. But to do so, it had by necessity planted its flag squarely in the past. “Curses is not experimental,” one reviewer wrote in 2000. “Curses is conclusional. It does not try to explore the vague borders of the medium; it stays well behind the trenches, ploughs the rich soil and collects the harvest that feeds the experimentalists’ armies.”15 In the years after its release, those “experimentalists” would carry forward a conversation about interactive stories that had begun in the 70s and continues to this day—a conversation in prototypes and playable theories about what games made from words can be, mean, and do. Freed at last from technical constraints, compatibility problems, commercial concerns, and the siloed isolation of the early internet, text games and their authors thrived like never before.
+
+Those who do remember Graham Nelson’s first game do so fondly, despite the challenge of mastering it. “For starters, it’s really really hard,” wrote one reviewer. “Funny! And extremely erudite. But hard.”1 Curses “may be one of the best text adventures ever written,” wrote another reviewer, and “deserves the effort which is required to solve it.”2 Yet another agreed, “Curses is not a game to be solved in a couple of hours. It is a game to be enjoyed for weeks. It is a game to create obsessions.”15 For some fans, it’s “the best Infocom game that Infocom never made”4—and it’s hard to imagine a more satisfying compliment for the author who prised open the back door of the legendary game studio’s glorious, abandoned estate.
+
+
+References
+
+1) Blaheta, Don. 2007. “Curses” (review). Digital Analogue (blog). Aug 26, 2007. www.blahedo.org/blog/archives/001012.html | a May 11, 2021
+2) Bryan, Russ. 1994. “Curses -- Version 12: The Walkthrough.” IF Archive, Nov 11, 1994. ifarchive.org/if-archive/solutions/Curses.sol | a May 11, 2021
+3) DBlaheta. 1994. “REQ: rec.games.curses.” Usenet post, rec.games.int-fiction, Sep 19, 1994. groups.google.com/g/rec.games.int-fiction/c/gLJpuQQDkM8/m/TUAXA_ZjORAJ | a May 11, 2021
+4) De Smet, Alan. 2006. “Curses” (review). Pontifications from the High Programmer. Mar 14, 2006. www.highprogrammer.com/alan/rants/reviews/video_games/if/curses.html | a May 11, 2021
+5) Igou, Rick. 1993. “Curses: A Plea for Help.” Usenet post, rec.games.int-fiction, May 28, 1993. groups.google.com/g/rec.games.int-fiction/c/4yIg-hZApzM/m/657S1A9HE3QJ | a May 11, 2021
+6) Maher, Jimmy. 2019a. “New Tricks for an Old Z-Machine, Part 1: Digging the Trenches.” The Digital Antiquarian (blog). Oct 18, 2019. www.filfre.net/2019/10/new-tricks-for-an-old-z-machine-part-1-digging-the-trenches | a May 11, 2021
+7) Maher, Jimmy. 2019b. “New Tricks for an Old Z-Machine, Part 3: A Renaissance Is Nigh.” The Digital Antiquarian (blog). Nov 22, 2019. www.filfre.net/2019/11/new-tricks-for-an-old-z-machine-part-3-a-renaissance-is-nigh | a May 11, 2021
+8) MLeduc. n.d. “The Solution to Curses 1.6.” GameFAQs. gamefaqs.gamespot.com/pc/564680-curses/faqs/1918 | a May 11, 2021
+9) Nelson, Graham. 1993. “[Announcement: INFORM] Announcing ‘Inform’, an Infocom-Format Compiler.” Usenet post, rec.arts.int-fiction, May 9, 1993. groups.google.com/g/rec.arts.int-fiction/c/CqsdYXYI1Ss/m/ff321YSrIqwJ | a May 11, 2021
+10) Nelson, Graham. 1995. “Interview: Graham Nelson.” In XYZZYnews #1, Jan/Feb 1995. mirror.ifarchive.org/if-archive/magazines/XYZZYnews/XYZZY1.TXT | a May 11, 2021
+11) Nelson, Graham. 1996. “Inform 6.21 Technical Manual.” inform-fiction.org. Apr 27, 1996. www.inform-fiction.org/source/tm/TechMan.txt | a May 11, 2021
+12) Nelson, Graham. 2001. The Inform Designer’s Manual. 4th edition. St. Charles, Illinois: The Interactive Fiction Library.
+13) Nelson, Graham. 2018. “Inform: Past, Present, Future.” Presented at the London IF Meetup, London South Bank University, Jun 9, 2018. www.emshort.com/ifmu/inform.html | a May 11, 2021
+14) Nelson, Graham. 2019. “New Tricks for an Old Z-Machine, Part 2: Hacking Deeper (or, Follies of Graham Nelson’s Youth).” The Digital Antiquarian (blog). Nov 8, 2019. www.filfre.net/2019/11/new-tricks-for-an-old-z-machine-part-2-hacking-deeper-or-follies-of-graham-nelsons-youth | a May 11, 2021
+15) Patavalis, Nick. 2000. “Curses” (review). SPAG #22, Sep 15, 2000. www.spagmag.org/archives/backissues/spag22.html#curses | a May 11, 2021
+16) Ridley, Thomas R. 1993. “Hints Needed for Curses.” Usenet post, rec.games.int-fiction, May 14, 1993. groups.google.com/g/rec.games.int-fiction/c/_GlNZ1Vug7I/m/hwkCO37-uZkJ | a May 11, 2021
+17) Rushton, Brian. 2016. “Effective Design Decisions in Graham Nelson’s Curses!” Forum post, The Interactive Fiction Community Forum, Feb 5, 2016. intfiction.org/t/effective-design-decisions-in-graham-nelsons-curses/9732 | a May 11, 2021
+18) Taylor, Marion. 1996. “CURSES by Graham Nelson” (review). SynTax Adventure Magazine #41, 1996. www.syntax2000.co.uk/issues/41/curses.rev.txt | a May 11, 2021
+19) West, John. 1993. “Curses (SPOILERS).” Usenet post, rec.games.int-fiction, May 17, 1993. groups.google.com/g/rec.games.int-fiction/c/IX33Jw3DLX4/m/lmpr3CqOqDQJ | a May 11, 2021

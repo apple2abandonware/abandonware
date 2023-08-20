@@ -1,0 +1,203 @@
+The Hitchhiker’s Guide to the Galaxy
+
+1984
+
+Douglas Adams and Steve Meretzky
+
+Style: Parser
+Debuted: Oct 1984 (retail)
+Launch Platform: Z-machine v3 (for Apple II, Atari 8-bit, Commodore series, DOS, Macintosh, TI-99/4A, TRS-80)
+Publisher: Infocom
+Language: ZIL
+Launch Price: $39.95 (floppy disk)
+
+Opening Text:
+
+	You wake up. The room is spinning very gently round your head. Or at least it would be if you could see it which you can’t.
+
+
+Douglas Adams, at first, did not like computers. He had built a career out of making fun of them with his Hitchhiker’s Guide franchise, which began on the radio before spilling into other media, most famously a series of bestselling books. Hitchhiker’s is hard to summarize, but one of its themes is that technology, in the hands of big business and bloated bureaucracies, does not make life better—it makes it far, far worse. Hence characters like Marvin, the robot given a “Genuine People Personality” who promptly becomes terminally, insufferably depressed; Deep Thought, a computer tasked with finding the meaning of life and coming back millions of years later with the number forty-two; or the mechanical crew of an interplanetary flight whose departure has been delayed for nine hundred years:
+
+	FORD: What’s happening on this hell ship?
+	AUTOPILOT: There has been a delay. The passengers are kept in temporary suspended animation for their comfort and convenience. Coffee and biscuits are served every ten years, after which passengers are returned to suspended animation for their comfort and convenience. Departure will take place when flight stores are complete. We apologize for the delay.
+	FORD: Delay? Have you seen the world outside this ship? It’s a wasteland, a desert. Civilization’s been and gone. It’s over. There are no lemon-soaked paper napkins on the way from anywhere.
+	AUTOPILOT: The statistical likelihood is that other civilizations will arise. There will one day be lemon-soaked paper napkins. Till then, there will be a short delay. Please return to your seats.1
+
+Corporate-mandated cheerfulness; algorithmically enabled, mutually assured destruction; user interfaces so determined to be friendly they render themselves utterly useless—much of Hitchhiker’s is a prescient and sometimes rather dark prediction of a future that seemed very likely in the 1980s, when IBM, the Cold War, and the rise of automated phone lines were still dominant in the cultural imagination. “Dealing with the American Express computer” to acknowledge a change-of-address form, Adams once complained, “has been beyond Kafka’s worst paranoid nightmares.”21
+
+But then something changed. While living in Hollywood for a year as he attempted to write a Hitchhiker’s screenplay, Adams bought his own computer and got hooked. It was the ultimate procrastination device, of course, but also a tinkerer’s dream. For the first time, a computer wasn’t something imposed on him by a soulless authority; it was a platform and a tool he could approach on his own terms. He taught himself some programming and tried playing a few games, but at first was unimpressed:
+
+	Up till then when people said “computer game,” I thought, oh, it’s shooting down rocket ships and chasing little aliens around mazes and all that kind of boring stuff, which a) I was bored by and b) I didn’t have the hand-to-eye coordination necessary to get any decent score.3
+
+Then Adams discovered interactive fiction. He played Adventure 1976, then got turned on to the games of Infocom—Suspended 1983, in particular, fascinated him. He “discovered that there was a sort of great world of wit and invention and logical problems” in text games. “And I suddenly thought, ‘I would love to be doing this.’”3
+
+Adams got in touch with Infocom, who by 1984 were at peak supremacy. Product manager Mike Dornbrook, noting to an interviewer that there were now two million personal computers in people’s homes, said Infocom’s research suggested their products had penetrated nearly half of those systems. “Our joke is that we have penetrated them all,” he quipped, “if you count the pirated games.”9 Two million was still a small audience compared to traditional media, but publishing and entertainment companies were starting to take note. Spurred by Infocom’s success, the massive popularity of games like The Hobbit, and the booming sales of gamebook series like Choose Your Own Adventure, 1984 saw an enormous influx of half-baked attempts by traditional media outlets to create “interactive books”—playable adaptations of titles from big-name authors like Isaac Asimov, Stephen King, Michael Crichton, and Anne McCaffrey. They were almost universally awful, since few of their developers knew anything about how to make interactive stories work, and few of the famous authors in question were actually involved in the adaptations. Yet publishing houses were beyond keen to get in on that new software money. Simon & Schuster executives met with Infocom about the possibility of an acquisition and were alarmed to learn that Infocom’s hint books alone were outselling many of their paperback titles.
+
+Infocom paired Adams up with Steve Meretzky, author of their well-regarded sci-fi comedy Planetfall [1983]. Meretzky, like Adams, was a converted technophobe. He had first joined the company as a tester, after Dornbrook, his roommate at the time, kept bringing unfinished Zork games home. At first disdainful, Meretzky soon got sucked in and became a passionate champion for the new medium. While Adams originally wanted to do something other than another Hitchhiker’s adaptation, it was by far the most obvious choice for a project. He perked up at the notion that the game could be more experimental than previous incarnations. “I could take stuff out of the book, and didn’t have to follow it slavishly,” he recalled. “The book became a bank of ideas. In fact, I looked for things that weren’t well-developed in the book: odd lines that seemed to go nowhere.”11 In the end he imagined the game would bear “as much relationship to the books as Rosencrantz and Guildenstern are Dead does to Hamlet.”10
+
+As in previous versions, the game of Hitchhiker’s follows hapless Earthman Arthur Dent, who loses first his house and then his entire planet to unscheduled demolitions at the hands of uncaring civil servants, local and galactic. Arthur joins up with Ford Prefect, a roving researcher for the titular Guide—basically space Wikipedia on a tablet, before either such concept had been invented. The Guide provides a useful source of authorial digression and, in the game, occasionally useful information. The plot of the game involves collecting four pieces of fluff from across space and time that will combine to form a seedling of a plant that offers a glimpse of the future—but, as in previous versions of the story, the plot wasn’t really the point. Half the fun was putting the player in bizarre situations that gave Adams’s and Meretzky’s writing a chance to shine.
+
+	>enjoy poetry
+	You realise that, although the Vogon poetry is indeed astoundingly bad, worse things happen at sea, and in fact, at school. With an effort for which Hercules himself would have patted you on the back, you grit your teeth and enjoy the stuff.
+
+
+	>open door
+	The door explains, in a haughty tone, that the room is occupied by a superintelligent robot and that lesser beings (by which it means you) are not to be admitted. “Show me some tiny example of your intelligence,” it says, “and maybe, just maybe, I might reconsider.”
+	>kick door
+	“I suppose you think that since you have legs and I have not, you can get away with that sort of thing. Well,” the door continues stiffly, “maybe you can and maybe you can’t.”
+
+
+	There is a molecular hyperwave pincer here.
+	>examine pincer
+	It looks like every other molecular hyperwave pincer you’ve ever seen.
+
+But the Hitchhiker’s game was more than funny prose. Much of its humor came from poking fun at—even deconstructing—the emerging conventions of the text adventure, playing with the nature of interactivity and with its own limitations in a way that few games had yet attempted. 
+
+	Corridor, Aft End
+	This is one end of a short corridor that continues fore along the main deck of the Heart of Gold. Doorways lead to aft and port. In addition, a gangway leads downward.
+	>aft
+	That entrance leads to the Infinite Improbability Drive chamber. It’s supposed to be a terribly dangerous area of the ship. Are you sure you want to go in there?
+	 
+	>yes
+	Absolutely sure?
+		 
+	>yes
+	I can tell you don’t want to really. You stride away with a spring in your step, wisely leaving the Drive Chamber safely behind you. Telegrams arrive from well-wishers in all corners of the Galaxy congratulating you on your prudence and wisdom, cheering you up immensely.
+
+When the player convinces the parser that they really do want to enter the drive chamber, it sulkily refuses to describe any of the objects therein until the player insists.
+
+The unreliable narrator shows up in other moments of the game:
+
+	You hear the deep and distant hum of a star drive coming from far above. There is an exit to port.
+	>port
+	You can’t go that way.
+
+	>go to port
+	You can’t go that way.
+
+	>move to port
+	You used the word “port” in a way that I don’t understand.
+
+	>starboard
+	You can’t go that way.
+
+	>aft
+	(We were lying about the exit to port.) You emerge from a small doorway… 
+
+Like Tristram Shandy, the eighteenth-century novel that violated every inviolable convention of the book, Hitchhiker’s delights in breaking the rules of its own new medium. The game awards points, for instance, but they don’t really matter: the highest-scoring action by far is simply drinking a cup of tea, a remnant of an early Adams idea that you’d be rewarded not for collecting treasure but for enjoying things. Early on, you can die and the game keeps going:
+
+	You try to think of some suitable last words, but what with the confusion of the moment and the spinning of your head, you are unable to compose anything pithy and expire in silence.
+
+	>look
+	You keep out of this, you’re dead. An ambulance arrives.
+
+	>look at ambulance
+	You keep out of this, you’re dead and should be concentrating on developing a good firm rigor mortis. You are put in the ambulance, which drives away.
+
+At one point (in a passage lifted from the book) the action is interrupted by a long story describing how some random words of Arthur’s are sucked through a freak wormhole in the space-time continuum and end up precipitating an intergalactic war. In the game, the words are a recent player command the parser didn’t understand:
+
+	The creature stirred in its sickly broiling vapour, and at that very moment the words “move to port” drifted across the conference table. Unfortunately, in the Vl’Hurg tongue this was the most dreadful insult imaginable, and there was nothing for it but to wage terrible war for centuries.
+
+	[…] You have destroyed most of a small galaxy. Please pick your words with greater care.
+
+Then there were the puzzles, and it’s impossible to talk about Hitchhiker’s without mentioning the babel fish. Say this phrase to any text game fan alive in the 80s and you’ll get a knowing look: it would become shorthand for puzzles that were outrageously hard or outrageously unfair. The truth, though, is that the babel fish puzzle was neither. To defend this claim will require some explanation of how it worked. Arthur, trapped in the hold of a spaceship, needs to operate a dispenser to retrieve a fish that (for reasons we’re not going to get into) will allow him to understand alien languages:
+
+	>examine dispenser
+	The dispenser is tall, has a button at around eye-level, and says “Babel Fish” in large letters. Anything dispensed would probably come out the slot at around knee-level. It bears a small label which reads “Another fine product of the Sirius Cybernetics Corporation.”
+
+	>press dispenser button
+	A single babel fish shoots out of the slot. It sails across the room and through a small hole in the wall, just under a metal hook.
+
+Arthur is probably wearing a dressing gown at this point with “a small loop at the back of the collar,” so observant puzzle fiends will eventually try:
+
+	>put gown on hook
+	The gown is now hanging from the hook, covering a tiny hole.
+
+	>press dispenser button
+	A single babel fish shoots out of the slot. It sails across the room and hits the dressing gown. The fish slides down the sleeve of the gown and falls to the floor, vanishing through the grating of a hitherto unnoticed drain.
+
+The drain can be covered by a towel, but this produces another complication, and resolving that leads to yet another. It’s a chain of frustrations that work through most of the items you’ve acquired in the game so far; the scene comes early in the story, so there are only a handful of inventory items to consider. It’s a complex and deliberately obtuse puzzle, to be sure, but each step is decently clued, and an experienced adventure gamer has a good chance to get through the sequence without too much trouble.
+
+The problem was that Hitchhiker’s wasn’t sold to experienced adventure gamers. Based on a well-known franchise, arriving in a watershed year for personal computers, an enormous number of its players had not come up through the trenches of Zork and Suspended, solving puzzles like early hackers for sheer masochistic pleasure. They were expecting something more like a story from a game based on a bestselling book. And taken that way—as part of a story—the babel fish puzzle can be infuriating. Why would Arthur have picked up all of these objects in the first place, when his home and planet were about to be demolished? Why can he only hang the dressing gown from the hook, not the towel? How should players know the command cover drain with towel works but put towel on top of drain does not, when the manual says only to “type your sentence in plain English”? Why can’t Arthur enlist Ford’s help with the babel fish (as in the book) or, for that matter, why can’t he just stand directly in front of the damn dispenser and catch the fish as it comes out of the slot? The contortions necessary to marry logic puzzles and a limited simulation with a narrative become strained as the story takes on more importance and the audience grows less familiar with puzzle game conventions. Hitchhiker’s had both the most narrative storyline and the least experienced audience of any previous Infocom title.
+
+Game historian Jimmy Maher has speculated that the babel fish puzzle, appearing early in what was to become the bestselling text adventure of the year, may have marked the beginning of the end for a medium aspiring to be the future of both games and books.14 It frustrated tens of thousands, so much so that Infocom sold T-shirts reading “I Got the Babel Fish” and copious hint books. But folks who didn’t buy either—first-time computer users and interactive fiction novices—may have just given up on the whole concept entirely; Hitchhiker’s may have been both the first and last such game many new computer users played. One reviewer called it “utterly impossible” and “punishingly difficult.”12 Others admitted with rare honesty that they hadn’t actually gotten very far into the thing before their deadlines. “It’s a masterpiece,” wrote one. “Hilarious. Adams has done a marvellous job. And next time I see him, I’ll kill him.”21 While 1984 may have seemed like only the start of Infocom’s meteoric rise, it would in fact begin a terminal decline. It would be the highest-grossing year of the company’s short history.
+
+The babel fish was not the game’s only frustrating moment. Meretzky recalled, “Douglas and I both felt that adventure games were becoming a little too easy; that the original Zork had been much harder than more recent offerings, and the 24/7 obsessive brain-racking was what made these games so addictive. We might have overreacted and gone too far in the other direction.”15 While characters almost never respond to attempts to give them orders, for example, sometimes doing so is the only way to proceed. One scene requires ordering a whole group of guards to not do something, managing to combine several unlikely-to-work ideas into a single command. It’s easy to lose access to seemingly trivial items—like a toothbrush in Arthur Dent’s bedroom, the very first room of the game—that can turn out to be vital hundreds of moves later. And the game at times requires unintuitive actions: if you take the towel Ford offers you in an early scene, something any fan would instantly do, it results in your unexpected death a few moves later.
+
+And yet some of the Hitchhiker’s puzzles are delightful—examples of the text adventure and its unique brand of lateral thinking at their best. Once the early game is finished, you can find an Improbability Generator which, when activated, throws you into a seemingly featureless void:
+
+	Dark
+	You can see nothing, feel nothing, hear nothing, taste nothing, smell nothing, and are not entirely certain who you are.
+	>look
+	Dark
+	You can’t hear anything, see anything, smell anything, feel anything, or taste anything, and do not even know where you are or who you are or how you got there.
+
+The message shifts subtly each time, and the parser responds to none of your commands, but an observant player will soon notice that something about the text has changed:
+
+	Dark
+	You can hear nothing, taste nothing, see nothing, feel nothing, and are not even certain who you are.
+
+	>smell
+	(darkness)
+	It does smell a bit. There’s something pungent being waved under your nose. Your head begins to clear. You can make out a shadow moving in the dark.
+
+The player eventually learns how to reach ten different environments across space and time via the Dark (two for each of the five senses), all of them rather improbable situations as befitting your means of getting there. Some are scenes that have already happened. In one you revisit the opening of the game, but this time as Ford Prefect, not Arthur. In another, you find yourself in the vanguard of the space fleet fighting the war caused by your earlier mistake:
+
+	>talk to g’gugvunt leader
+	You are clearly the worst diplomat that ever lived, and are about to become the worst one that ever died. That is an even worse insult in the G’Gugvunt tongue than “move to port” is in the Vl’Hurg tongue.
+
+Shifting through space, time, and selves, you’ll need to think like a time traveler to solve certain scenes. Generously, if you don’t complete a sequence the first time through, it resets, and you can return as often as you like until you nail it—death is frequent but temporary. Another much-maligned Hitchhiker’s puzzle involves needing to feed a certain cheese sandwich to a certain dog to prevent it from devouring a certain microscopic space fleet, long before you would have any idea you needed to do such a thing. But a closer look at the structure of the game reveals it actually assumes you’ll fail to do this your first time through. It’s only once you replay the scene as a different character, having seen the consequences of the failed action, that you’re meant, à la Groundhog Day, to correct it. 
+
+“The puzzles are tough, but they follow a certain capricious, twisted internal logic,”18 one reviewer admitted; another praised the game’s “consistent illogic.”8 Perhaps the best example comes in a puzzle that requires you to be holding “tea” and “no tea” at the same time (for, again, reasons we’re not going to get into). While “no tea” is indeed listed in your inventory when the game begins, the parser dismisses any attempts to treat it like a distinct object:
+
+	>examine no tea
+	You’re talking complete nonsense; pull yourself together.
+	>drop no tea
+	Your common sense tells you that you can’t do that.
+
+Yet at the same time the game persists in slyly implying “no tea” is an actual object simulated in the game’s code, just one that obviously can’t be held at the same time as tea.
+
+	>get tea
+	no tea: Dropped.
+	 
+	>drop tea
+	no tea: Taken.
+
+In one of the Improbability vignettes, you find yourself wandering a “maze of twisty little synapses”—a nod to Adventure 1976—which are, in fact, the spongy passageways of Arthur’s own brain. Therein you can find “a large black particle [with] some faint markings” blocking a gap between synapses, labelled “Sense, Common for Dent, Arthur.” Removing the particle—your own common sense—lets you at last carry tea and no tea at the same time, a triumph of wordplay and twisted logic fondly remembered by many fans.
+
+Adams and Meretzky proved successful collaborators, with shared sensibilities in both humor and design. “Watching them work together is inspiring, as they thrust and parry understatements,” one reporter wrote. “Brilliant non sequiturs follow jabs of incongruities.”6 Though they spent only a few weeks together in person during the game’s development, they collaborated often via email, swapping ideas, designs, game text, and playable prototypes as they pushed to finish Hitchhiker’s in time for the 1984 holiday season. “Douglas wrote the bulk of the responses to ‘correct inputs,’” Meretzky noted, “but that’s just a small part of the text in an adventure game.” He would end up authoring over half of the content, seamlessly matching the cadences and style of his much more famous collaborator, as well as doing all the coding. “I was gratified,” he proudly recalled, when upon the game’s release Adams “remarked that in many cases he couldn’t tell which bits he’d written and which bits I’d written.”15
+
+As the game moved toward completion and into its marketing phase, Meretzky remained heavily involved. Infocom had become known for a clever style of packaging that included bonus materials and knickknacks, the now-legendary “feelies.” In an age of rampant software piracy, a box full of extras provided an incentive for buying the game yourself rather than copying the disk from a friend. The Hitchhiker’s package would include a full-color brochure advertising the Guide itself, destruct orders for both Arthur’s home and the planet Earth, a bit of fluff, a Don’t Panic! button, and a small plastic baggie labeled “Official Hitchhiker’s Guide to the Galaxy Microscopic Space Fleet” with (apparently) nothing inside. Also included, each listing of the contents took pains to mention, was no tea.
+
+Hitchhiker’s would become one of the most profitable titles in Infocom’s history. Employees in the office were asked to volunteer for overtime shifts on the factory floor to ensure enough copies could ship by Christmas. It would hover at the top of the bestseller lists for most of 1985, eventually selling nearly half a million copies. A promised sequel never appeared—Adams had become weary of more Hitchhiker’s—but he’d go on to collaborate on a different game with Infocom: 1987’s Bureacracy, which takes you on an epic quest to get the post office to acknowledge a change-of-address form.
+
+Adams would remain an enthusiast of computers as tools for self-expression for the rest of his life, becoming an early Mac evangelist and writing regular columns on software and technology for both mainstream and specialist audiences. “I think media are at their most interesting before anybody’s thought of calling them art,” he once observed, “when people still think they’re just a load of junk.”5 As a bona fide writer, he was often asked how he thought text adventures, or bookware, or IL (Interactive Literature, another acronym-of-the-week) compared with the real thing:
+
+You can’t compare IL with literature. If you do, you can very easily make a fool of yourself. When Leo Fender first invented an electric guitar one could have said: “But to what extent is this real music?” To which the answer is: “All right, we’re not going to play Beethoven on it, but at least let’s see what we can do.”10
+
+Adams often expressed his hope that other noncoders and nontechies would try writing interactive stories: “Imagine if everything ever written on a typewriter had been written by the guys who invented the typewriter,” he once remarked.2 While bookware would prove a short-lived fad, doors were indeed opening for new kinds of creators—and the improbable games they’d create were like nothing the big publishing houses could have ever imagined.
+
+
+References
+
+1) Adams, Douglas. 1985a. The Original Hitchhiker Radio Scripts. New York: Harmony Books.
+2) Adams, Douglas. 1985b. “Q. How Do You Make Fiction ‘Interactive’? A. I Dunno. Ask Hitchhiker’s Doug Adams.” Family Computing 3(6), Jun 1985.
+3) Adams, Douglas. 1985c. Interview. Saturday Review (BBC Television Program), Jun 1, 1985. www.bbc.co.uk/archive/hitchhikers_guide_to_the_galaxy_game/zdtff4j | a Feb 6, 2021
+4) Adams, Douglas. 1992. “Douglas Adams on Hypercard.” In The Macintosh Reader, ed. Doug Clapp. New York: Random House.
+5) Adams, Douglas. 1998. “Douglas Adams Interview by Keith Phipps.” Onion AV Club, Jan 28, 1998. www.avclub.com/douglas-adams-1798207882 | a Feb 6, 2021
+6) Adams, Roe. 1985. “Come Cast a Spell With Me: Hitchhiker’s Guide to the Galaxy Leads an Invasion of the Pros.” Computer Gaming World 5 (1), Jan 1985.
+7) Coxon, John. 2008. “The Hitchhiker’s Guide to the Galaxy (Walkthrough) Version 1.8.” www.ign.com/faqs/2008/the-hitchhikers-guide-to-the-galaxy-walkthrough-429003 | a Feb 6, 2021
+8) Cree, Graeme. 1995. “The Hitchhiker’s Guide to the Galaxy” (Review). SPAG #5, Apr 19, 1995. www.spagmag.org/archives/backissues/spag5.html | a Feb 6, 2021
+9) Dyer, Richard. 1984. “Masters of the Game.” Boston Globe Magazine, May 6, 1984.
+10) Gaiman, Neil. 1988. Don’t Panic: The Official Hitchhiker’s Guide to the Galaxy Companion. New York: Pocket Books.
+11) Glatzer, Hal. 1985. “‘Hitchhiker’s’ Trip: From Best Seller To Computer Game.” Wall Street Journal, Jan 31, 1985, sec. Leisure & Arts.
+12) Grasso, Michael. 2019. “Grues and Invisiclues: A Personal Remembrance of Infocom.” We Are the Mutants (blog). Mar 26, 2019. wearethemutants.com/2019/03/26/grues-and-invisiclues-a-personal-remembrance-of-infocom | a Feb 6, 2021
+13) Maher, Jimmy. 2013a. “The Computerized Hitchhiker’s.” The Digital Antiquarian (blog). Nov 14, 2013. www.filfre.net/2013/11/the-computerized-hitchhikers | a Feb 6, 2021
+14) Maher, Jimmy. 2013b. “Hitchhiking the Galaxy Infocom-Style.” The Digital Antiquarian (blog). November 19, 2013. www.filfre.net/2013/11/hitchhiking-the-galaxy-infocom-style | a Feb 6, 2021
+15) Meretzky, Steve. 1984. “Interview with Steve Meretzky, co-author of the Game.” Interview by M.J. Simpson. www.bbc.co.uk/radio4/hitchhikers/stevem.shtml | a Feb 6, 2021
+16) Meretzky, Steve. 2015. The Infocom Cabinet: Hitchhiker’s Guide to the Galaxy. archive.org/details/InfocomCabinetHitchhikersGuide | a Feb 6, 2021
+17) Meretzky, Steve. 2017. “Steve Meretzky (Infocom) - Interview.” Interview by Adrian for Arcade Attack. www.arcadeattack.co.uk/steve-meretzky | a Feb 6, 2021
+18) Powell, Jack, and Michael Ciraolo. 1985. “The Hitchhiker’s Guide to the Galaxy (Review).” Antic 4 (1), May 1985.
+19) Pranevich, Joe. 2018. “Missed Classic: Hitchhiker’s Guide - I Got the Babelfish!” The Adventure Gamer (blog). Aug 19, 2018. advgamer.blogspot.com/2018/08/missed-classic-hitchhikers-guide-i-got.html | a Feb 6, 2021
+20) Punch (magazine). 1985. “Database.” Jan 2, 1985.
+21) Simpson, Mike J. 2003. Hitchhiker: A Biography of Douglas Adams. Boston: Justin, Charles & Co.

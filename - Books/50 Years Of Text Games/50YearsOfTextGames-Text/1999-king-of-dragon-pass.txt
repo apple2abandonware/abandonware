@@ -1,0 +1,199 @@
+King of Dragon Pass
+
+1999
+
+David Dunham (Project Lead), Robin Laws (Lead Writer and Co-Designer), Elise Bowditch (Associate Producer), Greg Stafford (Additional Design and Writing), and others
+Style: Storylet-Driven, Procedural Story
+Debuted: Oct 29, 1999 (retail)
+Launch Platform: Macintosh, Windows
+Publisher: A Sharp
+Language: C++ (engine), Opal Scripting Language (story), mTropolis (UI)
+Launch Price: $37.50 (CD-ROM)
+
+Opening Text:
+
+	There once was a time when gods and people walked the earth together. 
+
+
+It’s “the best game you’ve never played.”24 It’s “one of the best video games ever made.”11 It’s “timeless.… There is nothing like it in the world: a game with a smoothly telescopic scale that alternates seamlessly between fantasy empire-builder and character-driven RPG.”12 It’s “a tough game to describe … part text adventure, part civilization game, and part choose your own adventure book … it feels like a book come to life.”29 It’s “an original game design, something all too rare in this world of big-budget clones.”3 It has “a more convincing illusion of conflict and consequence” than anything one reviewer had ever played.27 It’s “just so different than any other game … it flows like a novel, but one you have a hand in writing … you can play over and over again.”17 It’s “amazing,”29 it’s “basically peerless,”28 it’s “outstanding”17 and “exceptional.”13 It is, one reviewer declared, “the game you’ve been waiting for.”29
+
+And when it first released, it bombed. 
+
+“Call me shallow,” wrote Computer Gaming World upon the publication of King of Dragon Pass in 1999, “but I want gameplay and graphics. And I’ll bet you do, too.” Damningly, the reviewer wrote, Dragon Pass “is just a few icons and pretty, hand-drawn screens away from being a text-based game.”1 At the end of the 90s, when sales of graphics cards were surging and polygon counts were king, “text-based” was a terminal insult. Asking gamers to pay for words was inconceivable. 
+
+David Dunham and his wife, Elise Bowditch, had not expected such a hard sell. Their game did have graphics, after all: hundreds of screens of hand-drawn art, evocative even if it wasn’t 3D or animated. It had deep strategic gameplay, evolved over three years of development into something compelling, unique, and eminently replayable. And it was set in the world of Glorantha, a fantasy setting popularized by the tabletop roleplaying game RuneQuest [The Chaosium 1978] with a rich, deep lore and hundreds of thousands of fans. Yet it would be over a decade before Dragon Pass found an audience and claimed its place as a classic. The story of what went so wrong with the game’s release—and so right with its design and long-term legacy—is a fascinating time capsule of a strange era for video games, poised between the dominance of big publishers and retail stores in the twentieth century and the rise of indies and online distribution in the twenty-first. 
+
+Dunham had begun Dragon Pass in 1996, after a nexus of inspirations came together. He’d started programming in the seventh grade (his first game was “a football simulator that ran on an Olivetti 101 programmable calculator”19), and as an adult he became an Apple developer, working on software for the company’s ill-fated, ahead-of-its-time tablet, the Newton. A lifelong board game fan, he was intrigued by strategy video games like Sid Meier’s Civilization [MicroProse 1991], which gave players complex simulations and great freedom in interaction. In particular, a statement attributed to Meier had caught Dunham’s eye: that “a good game is a series of interesting decisions,” which “must be frequent and meaningful.”6 Dunham had also been a fan of the complex mythology and worldbuilding of the Glorantha setting for many years, particularly stories of the contested region of Dragon Pass, filled with strange monsters and struggling clans. He’d been intrigued, too, by creator Greg Stafford’s tabletop roleplaying game Pendragon [Chaosium 1985], which explored dynasties and generations rather than heroes in their prime, and he’d run a mash-up campaign for a while called, naturally, “PenDragon Pass.” Dunham had started a small software company, A Sharp, with Bowditch—who was also a programmer, not to mention a poet. With her encouragement, he began sketching out ideas for a computer game set in Dragon Pass that would merge strategic gameplay, deep lore, dynamic storytelling, and long-term, generational play:
+
+	I wanted to have characters get born and then grow up and become heroes, maybe, or in some cases you’ll die of old age. And that scale also helped establish that you were going to have long-term consequences, because it had to be something that could matter ten years later. You know, your kid might have to deal with it.9
+
+The game Dunham had in mind didn’t quite fit in any existing genre. It would be more narrative than an empire-building strategy game but more replayable than adventure games, which usually told single, predefined stories. He coined the term “storytelling strategy game” to describe what he had in mind. While he first conceived it as a game for the Newton, the idea soon grew beyond the scope of what the handheld device was capable of. Developing games for desktop Macs in the 90s was financially risky due to their tiny market share, but Dunham and Bowditch found a product called mTropolis that promised an easy way to create cross-platform UI so they could release for Windows too. Securing independent funding that would allow for hiring contract artists, writers, and QA testers, the two began working on the game out of their Seattle home office in January 1997.
+
+Dunham had been in touch with Glorantha creator Greg Stafford, who provided some design ideas and his blessing, but the real creative workhorse on the project would be tabletop roleplaying designer Robin Laws. Already in the process of becoming one of the industry’s most innovative designers, Laws had written for a number of games including Earthdawn [FASA 1993], Feng Shui [Daedalus Entertainment 1996], and GURPS [Steve Jackson Games 1986], and he’d been part of a push for more “narrativist” roleplaying frameworks that prioritized story over systems. He was also a huge Glorantha fan. A chance meeting between Dunham and Laws at a convention led to the latter coming aboard Dragon Pass as a writer, but so many of his ideas worked their way into the final game that he was eventually credited as co-designer. Already familiar with the world’s rich lore, Laws could immediately start writing narrative vignettes for the evolving “storytelling strategy game”—which would, in the end, grow to include over four hundred thousand words of content.
+
+The game that evolved from the collaboration would follow a clan of Orlanthi, one of several humanlike races in Glorantha with Bronze Age technology and divinely gifted magic. Newly arrived in Dragon Pass, your clan struggles to establish a foothold while dealing with vengeful undead, awakening dragons, mystical treasures, and dozens of rival clans with their own agendas. Rather than playing as a specific character, you take a God’s-eye perspective on your clan, setting policies and making big decisions as your people’s story unfolds across years and decades. At the game’s core is a robust economic simulation reminiscent of one of the earliest text games, Hammurabi: fields, grain, and cattle must be carefully managed to keep a growing population fed. But the engine in Dragon Pass is far more complex, encompassing magic, religion, exploration, trade, and relationships with the many other clans. One review’s list of “stuff you do” in the game goes some way toward illustrating the simulation’s depth:
+
+	Selecting and managing a balanced pool of leaders to serve as your advisors on the clan ring (of upmost importance)
+	Clan mood management, both for your farmers and your warriors—taking actions (feasts, etc.) to increase the mood
+	Allocation of crop land vs. grazing land vs. hunting grounds
+	Recruitment and maintenance of weaponthanes (e.g. warriors)
+	Building defenses
+	Conducting full raids, cattle raids, and aggressions on other clans
+	Sending exploration parties to nearby or distant places to search for treasures or other discoveries
+	Erecting shrines to the 20 or so different gods, conducting sacrifices to learn new magic (essentially the game’s technology tree), etc.
+	Trade system for trading goods/cows/food or establishing on-going trade relationships
+	Diplomacy system for creating alliances, tribes, paying tributes, giving gifts, exchanging knowledge/lore, etc.
+	Preparing leaders and sending them on “Hero Quests” to trigger special events or gain an unique/powerful advantage18
+
+But the simulation is only part of the game. As you take actions, frequent narrative events, which the creators called scenes, interrupt you. On the surface these seem like vignettes from a branching-path story: a paragraph or two presenting a conflict or opportunity, followed by a list of choices for how to respond. But what’s happening under the hood is more complex than it seems.
+
+	Prominent members of the Bayberry clan come to your clan for help. “This is not a good thing we have to say, but our chieftain, Robasart, has gone mad. He makes foolish decisions, and will not listen to the counsel of the clan ring. We do not want to risk kinstrife, but something must be done. If you agree to raid us, we will make sure that Robasart falls beneath your blades. Then we will owe you a great debt.”
+	1. Demand a specific reward to do as they ask.
+	2. Do as they ask.
+	3. Politely decline.
+	4. Scold them for betraying Orlanthi values.
+	5. Send a delegation to warn Robasart of their intentions.
+
+While the text and choices in scenes appear to be static, they are filled with custom specifics tied to the state of the simulation. The Bayberry clan above, for instance, might have been picked for this scene because the player had previously established a friendship with them. The name shown for their chieftain is one the player might have seen while trading or negotiating. The scene manager has “an awful lot of flexibility in how [scenes] are coded so that they can handle all kinds of situations,” recalls Dunham:
+
+	There’s a ton of conditionals, there’s placeholders, there’s a little randomness in them … they won’t be the same any two times, either because text will be randomized, or sometimes responses aren’t available depending on things you’ve done before.… In a way you could say, “oh, S-27 is the scene where the visitors from the South show up with their magic instruments,” but that’s not going to be the same any two times because of the other contextual changes.9
+
+To help the player make decisions, the game shows advice from your clan’s ring of seven leaders, drawn from simulated nobles in the clan. The player can change who sits on the ring at any time, and is encouraged to recruit a ring with a range of backgrounds. Each ring member has their own perspective—they might worship different gods, or have different skills and interests—and each gives advice accordingly.
+
+	Renatha: If we succeed in killing their chief, relations with them will improve. If we try and fail, they will get much worse.
+
+	Heortarl: They labor under some kind of curse. This could happen again.
+
+	Orlgard: If you decide to warn old Mad-Blood, send at least five warriors along with our delegate.
+
+	Enderos: Better a specific reward than a vague promise. Maybe they will offer us as many as twenty-five cows!
+
+	Offir: Orlanthi are expected to obey chosen leaders. But since Robasart has gone mad, it could be argued that he is no longer the leader they chose. 
+
+	Harsaltar: Normally I find politics dull, but this is exciting!
+
+After weighing advice from the ring, the player must pick one of the available responses—and each will change the simulation in some meaningful way. Some might invoke other game systems: deciding to attack the mad chieftain jumps to the game’s clan warfare screen. Some responses lead to follow-up questions, like bartering over the specifics of a trade or a punishment. Choices might succeed or fail based on hidden tests of skills: a respected leader is more likely to convince her people to take a dangerous action, for instance, and a deception might pit your chieftain’s cunning against your opponent’s. After the results of the scene are shown, leaders might gain or lose prestige; alliances might strengthen or weaken; goods might change hands; and seasons will advance. And the new simulation state impacts the pool of future scenes now available. If the plan to overthrow the mad chieftain is botched, relations with that clan might plummet, unlocking a new scene about a clan seeking vengeance; choosing to do nothing, however, could weaken your chieftain’s prestige and activate a scene where a more forceful leader among your people jockeys for power. Actions have consequences, and the player’s choices compound into long-term effects. “By the late game,” one reviewer noted, “every decision you’re making is a result of choices made hours ago, the culmination of events that seem inevitable with hindsight.”26 One move at a time, each player builds their own unique story of how their clan survived Dragon Pass—or didn’t.
+
+Surviving isn’t easy. Play reminded one reviewer of “a fairly realistic flight simulator in that you can realize your plane is going down, and you know you need to pull up, but there’s also all these other buttons and switches that need to be hit at the right time and in the right order to make what seems like a simple maneuver actually transpire properly.” He went on to explain:
+
+	You could have a random occurrence that suddenly leads to a disease outbreak amongst your farmers. The more time your farmers spend in bed sick, the less time they spend producing food for your clan. “Heal the farmers” seems like the obvious answer, just like pulling up in a flight simulator, but it’s not that simple. To heal via magical means, you’ll need to sacrifice to gods. If you’re already low on resources, sacrificing even more can make the situation much worse. Alternatively, you could send out warriors to raid a nearby tribe to steal supplies from them, but the raid could fail, or worse yet, you could over-extend yourself and be defenseless if you get raided while your warriors are out on their raid. You could attempt to go out trading for food, but your caravan could be ambushed or not result in enough food anyway.15
+
+The flexibility of the scenes and their tight coupling to the underlying simulation was enabled by the custom Opal Scripting Language, or OSL (“Opal” was the game’s original codename). Dunham’s goal was to enable “a relatively non-technical author” like Laws to “create files that were almost valid code.”6 The notion of the scenarios being almost valid was key: the system was so complex that Dunham expected he’d need to fine-tune each scene to get it to compile and run correctly. But a clean syntax meant that a nontechnical writer could get a scene most of the way there, and that target was far easier to design for than a tool that tried to be one hundred percent usable by a technical novice.
+
+Speaking to the complexity of the simulation, most OSL scenes are more logic than text. At the top of each scene definition, special functions let the system cast the scene’s roles with plausible participants:
+
+	scene: scene_52politicaltrouble
+	music: "ItIsBad"
+	otherclan = BestRelations(KnownClans)
+	anotherClan = WorstRelations(KnownClans)
+	c = .chief
+	y = politician
+	x = y.leadership
+	complainer = MaleName
+
+Functions to cast clans or characters could even be nested. The following line would set c to a friendly neighboring clan with a strong military: 
+
+	c = StrongestMilitary(ClansWithPositiveAttitude(Neighboring Clans))
+
+Variables could easily be referenced in the midst of text shown to the player. The extract below follows after forming an initial phrase like “A number of the clan’s leading men” (depending on the gender of the hidden “politician” hoping to cast doubt on the current leader):
+
+	text: approach the ring. Their leader, <complainer>, has a litany of complaints. "Ever since <c> became chief," <complainer> says,
+	text: "<d3:things have gone from bad to worse/this clan has headed downhill/our reputation has suffered>.
+	text: Our friends the <otherclan.plural> <d4:ridicule our ancestors/tell jokes about us as part of their holy day ceremonies/compare us unfavorably with their livestock/mock us at every chance they get>.
+
+Many possible complaints might be situationally assembled, based on the current simulation state and the particulars of your clan’s current leader:
+	
+	[AntiAldryamiCharacter = c] text: <he/she> sends our weaponthanes into the woods on pointless hunts for the plant-folk.
+	[ProDragonewtCharacter = c AND (dragonAttitude= 'hostile OR dragonAttitude = 'negative)] text: <he/she> gives away clan wealth to those fiendish talking lizards.
+	[ProverbialCharacter = c] text: Half the time when <he/she> says something, nobody can figure out what <he/she> really means.
+	[WeLostOurLastRaid] text: <c> is unlucky in battle.
+	z = d3 # Some randomization to the complaints
+	[z = 1] text: <he/she> sings off-key.
+
+Each possible choice can then define the hidden test that controls whether it will succeed, and the consequences. In one option for this scene—disputing the allegations—the chief’s Leadership score is tested against the Savvy of the hidden politician behind the complaints:
+
+	{
+	test Leadership(c) vs Savvy x
+	win: {
+			text: <c> patiently addressed each of their complaints.
+				<He/She> exposed each one as an exaggeration or
+				misunderstanding, until even <complainer> reaffirmed
+				allegiance to <c> as the clan's chosen leader.
+			.mood += 20
+		}
+	lose: {
+			text: <c> started explaining <his/her> decisions,
+				but after <he/she> was drowned out by laughter, and
+				then shouted down, <he/she> fell silent.
+			.mood -= 5
+			c.leadership -= 0.1
+			r = true
+			i = true
+			goto restart
+		}
+	}
+
+Each scene also provides many possible bits of advice, which different members of the player’s ring might deploy based on their skills and other aspects of the state. The numbers at the end of each line indicate which of the possible courses of action is recommended (45 means both option 4 and 5 are acceptable to that advisor):
+
+	[Animals >= 3 AND ManyCows] No matter what <complainer> may say, our herds are strong, and that's what's really important. [1]
+	[Animals >= 3 AND FewCows] I hate to say it, but <complainer> has some good points. [45]
+	[Leadership >= 3] Somehow, I don't think <complainer> is behind this. [16]
+	[Leadership >= 4 AND NOT s] <complainer> is acting on behalf of someone. [6]
+	[Leadership >= 5 AND s] Unfortunately, <politician> does have more of a knack for leadership than does <c>, and will be able to maintain a strong anti-<c> faction if we don't ask <c> to resign. [35]
+
+Each scene was a complex miniature program, designed to tightly interface with another complex program—the world simulation—running underneath. Eventually Laws wrote over five hundred scenes (with other team members, including Dunham and Bowditch, pitching in) and A Sharp established a steady pipeline for thoroughly testing story content. At its peak, twelve people were working on Dragon Pass, including artists who created hundreds of hand-drawn illustrations for scenes. It took far longer than originally anticipated, but after three years the game was complete, with total development costs—mostly in up-front salaries, rather than royalties or other deferred payments—coming to $500,000. Everyone involved was incredibly excited about what they had produced. Here, at last, was a truly interactive story, responsive to the player’s decisions, drawing from an enormous pool of content, and steeped in a rich and complex lore. It seemed like a game that might forever advance the state of the art.
+
+The small company’s plan had always been to partner with a big-name publisher for release. As the game neared completion, Dunham hit the trade show circuit, scheduling meeting after meeting with distributors. But the uniqueness of his game proved a curse, not a blessing. Publishers at the time were selling games to retail stores conscious of the shelf space allocated to each company and genre. Retail buyers “were kind of looking for, ‘we need a roleplaying game for this month, and a strategy game for this month, and a sports game for this month, which one do you have for me?’ And this wasn’t any one of those, really.”9 Publishers thought Dragon Pass was too niche: they literally couldn’t place it on a store shelf. And so, with half a million dollars already invested, A Sharp realized they’d have to publish the game themselves.
+
+At the end of the 90s, this was nowhere near an easy proposition. While independent game makers had been releasing “shareware” for years via BBS, FTP, and the World Wide Web, or selling direct via magazine ads and catalogs, few had successfully marketed a big game with a six-figure budget that way. Worse, the rise of the CD-ROM meant the size of a competitive game had ballooned far beyond the bandwidth available to most home computer users who might otherwise have bought one online. Broadband was not yet ubiquitous, with many people still connected to the web via dial-up modem. And there were no established digital storefronts yet for video game downloads, no trusted entities like Itch.io or Steam to handle credit card payments and secure game libraries. Putting a game in a box and getting it into a physical store was still crucial to reaching customers. Yet most retail stores would only grant shelf space to big publishers with proven track records. Dunham tried to partner with other small Mac developers in a group called Bunch Media in the hopes that they could collectively negotiate for retail placement, but the measure was largely unsuccessful. Retail stores didn’t know who they were, and they didn’t have the cash or clout to force their way in. 
+
+So A Sharp got creative. Unable to afford the massive fees to advertise in large gaming publications, they took out ads in sci-fi and fantasy fiction mags—one ad in Asimov’s was headlined “Played Any Good Stories Lately?” They made a demo and got it included on the bonus CDs that came with popular computing magazines. They partnered with local hobby stores to get the game on shelves next to Glorantha roleplaying books. They did direct sales on their website—though then, as now, driving traffic there was a perpetual chore. But having to take all these steps without financial support was a massive challenge: “We didn’t have much cash left for marketing,”2 Dunham recalls, and he had to take out a loan to fund mass replication of game CDs and boxes. 
+
+In October 1999, the game was finally released to mixed results. The very concept of an “indie game”—the term had not yet been popularized—was foreign to many review outlets used to the massive hype campaigns drummed up by mainstream publishers. One reviewer noted the novelty of “a totally unknown game—a definite surprise in today’s world.”21 The game’s originality, as well as its complexity—it came with a large and necessary manual, in a time when those were rapidly falling out of fashion—also turned off reviewers, with one describing feeling “overwhelmed” by the amount of freedom the game provided.23 Worse, it was a game that didn’t show off your fancy new graphics card, a deadly sin in the eyes of many reviewers. Some seemed unable to reconcile their instinct to recommend it with their impression that it was commercially nonviable:
+
+	It is a fabulous and rewarding experience. Please note however, that artfully presented as King of Dragon Pass may be, there are zero polygons in the entire game and no moving pictures of even the most rudimentary, flipping the top corners of a comic digest form. The game is completely narrative … 
+
+	King of Dragon Pass is a number of years too late to be a mainstream title. There isn’t even the feedback of moving units on a map a la Civilization. All is static, staid, dull. Still, it has a market. I hope.… I surprise myself at the length of apologetics that I am willing to stoop for this obscure little game.… I’m trying hard to come up with a potential market, but the low system requirements and artful presentation make it a perfect game for many traditional non gamers. It is a game that can appeal to folklorists, historians, old style pen and paper role players, and other people who probably aren’t playing much Quake 3. Who’s going to tell them about it though?14
+
+As it turned out, almost no one would. Many major gaming outlets didn’t cover the game at all. Some that did gave it mixed or negative reviews. While a few of those folks not playing Quake did find Dragon Pass, and many fell in love with it, the game would languish in obscurity for more than a decade.
+
+But the story has a happy ending. Over time, the game’s reputation grew through the slow chatter of word of mouth. It proved fascinating for designers intrigued by the challenge of marrying strong narratives to compelling gameplay, and inspired a small but growing number of further experiments. Among other titles, the popular browser game Fallen London, which debuted ten years after Dragon Pass, was heavily inspired by its core mechanics as well as its success in marrying strategic decisions with personal stories:
+
+	The temptation in strategy games is to treat everything as a resource. Effective strategic play means taking a dispassionate, high-level view of events. But King of Dragon Pass’ parade of feuds, venality, romance and nobility keep your feet firmly planted in the soil.… [It] names everyone and everything: “Thanes and priests from the Tree Brother clan come to accuse one of your young carls, Yanioth, of secret murder. ‘We found our revered god-talker Brenna dead in the temple, a dagger in her back.’” The game never misses an opportunity to remind you that a clan is composed of people, not statistics.13
+
+In the 2010s, the rise of digital gaming storefronts and mobile app stores gave indies an increasing number of routes to finding an audience. Even a niche game now had a way to reach would-be fans. Dunham started wondering whether his game, which began as an idea for the Apple Newton, might be reborn on the Apple iPhone. Buoyed by a resurgence of interest, A Sharp released a mobile version of Dragon Pass in 2011 and a tablet version the following year, with the revamped UI and engine making their way back to PC and Mac in 2015. This time the game would sell, eventually moving a hundred times as many copies as it had in its first retail run. Twenty years after being derided as embarrassingly behind the times, it now seems incredibly modern: a recent move toward narrative games driven by “quality-based narrative” or “storylets”20 directly descends from the core Dragon Pass concept of templated scenes both gated by and altering an underlying simulation. In 2018, A Sharp released Six Ages: Ride Like the Wind, the first of a series of planned sequels.
+
+The original Dragon Pass now sometimes appears on all-time “best of” lists for both the RPG and strategy genres—having failed to fit into either at first, it has now conquered both. “It sometimes takes many in-game years to become obvious,” one modern reviewer wrote of playing Dragon Pass, “but this is a world that never forgets.”27 He meant to invoke the way decisions in the game can come back years later with surprising consequences, but the statement might apply just as well to the real-life story of how A Sharp’s game became a classic. Sometimes it takes some waiting for the right scene to come around before seeds planted ages ago can grow.
+
+
+References
+
+1) Asher, Mark. 2000. “Reading Is Fundamental.” Computer Gaming World #188, Mar 2000.
+2) Asher, Mark. n.d. “Hardcore Gaming’s Salvation?” Quarter to Three. www.quartertothree.com/features/selling_direct/direct_sales_salvation2.shtml | a Apr 12, 2021
+3) Costikyan, Greg. 2000. “King of Dragon Pass” (review). Happy Puppy (blog). Feb 7, 2000. www.happypuppy.com/win/reviews/kingofdrag-win-1.html | s Oct 14, 2000
+4) Dunham, David. 2001a. “King of Dragon Pass Postmortem.” iDevGames (blog). Feb 20, 2001. www.idevgames.com/postmortems/king-of-dragon-pass | s Mar 6, 2010
+5) Dunham, David. 2001b. “Rating System Flawed.” Game Developer, June 2001.
+6) Dunham, David. 2010. “Choices.” King of Dragon Pass (blog). Sep 12, 2010. kingofdragonpass.blogspot.com/2010/09/choices.html | a Jul 6, 2022 
+7) Dunham, David. 2011. “OSL (King of Dragon Pass Scripting).” King of Dragon Pass (blog). Oct 2, 2011. kingofdragonpass.blogspot.com/2011/10/osl-king-of-dragon-pass-scripting.html | a Apr 12, 2021
+8) Dunham, David. 2018a. “Interview with David Dunham, lead designer of Six Ages.” Interview by Runeblog. Jul 6, 2018. elruneblog.blogspot.com/2018/07/interview-with-david-dunham-lead.html | a Apr 12, 2021
+9) Dunham, David. 2018b. “The Legacy of King of Dragon Pass and the Future of Six Ages.” Interview by Perceptive Podcast. Video. Sep 21, 2018. www.youtube.com/watch?v=Alg_RzxVWfU | a Apr 12, 2021
+10) Dunham, David. n.d. “OSL Sample.” A Sharp Homepage. a-sharp.com/kodp/osl.html | a Apr 12, 2021
+11) Edgeworth, Mitch. 2012. “King of Dragon Pass” (review). Grub Street: Margins of the Literary Scene (blog). Sep 4, 2012. grubstreethack.wordpress.com/2012/09/04/king-of-dragon-pass | a Apr 12, 2021
+12) Faraday, Owen. 2013. “A Decade Later, King of Dragon Pass Development Keeps Questing On.” Pocket Tactics (blog). Mar 5, 2013. www.pockettactics.com/2013/03/05/a-decade-later-king-of-dragon-pass-development-keeps-questing-on | s Jul 5, 2013
+13) Gardiner, Chris. 2011. “Echo Bazaar Inspirations: King of Dragon Pass.” Failbetter Games (blog). Oct 4, 2011. www.failbettergames.com/echo-bazaar-inspirations-king-of-dragon-pass | a Apr 12, 2021
+14) Grant, Jules. 1999. “King of Dragon Pass” (review). The Electric Playground (blog). Dec 19, 1999. www.elecplay.com/review.html?article=1763 | s Jun 27, 2001
+15) Hodapp, Eli. 2011. “‘King of Dragon Pass’ Review - ‘Thus Ends Our Sorry Tale, the Tale of Clan Fart.’” TouchArcade (blog). Sep 8, 2011. toucharcade.com/2011/09/08/king-of-dragon-pass-review | a Apr 12, 2021
+16) Hollebone, Bruce. 2000. “King of Dragon Pass Mailing List FAQ.” Dec 2, 2000. www.a-sharp.com/kodp/bh/KoDPfaq.html | a Apr 12, 2021
+17) Johnson, Wes. 1999. “Review of King of Dragon Pass.” RPGnet (blog). Dec 6, 1999. www.rpg.net/reviews/archive/classic/rev_2592.phtml | a Apr 12, 2021
+18) Kiley, Oliver. 2014. “15 Years and Worlds Apart - Autumn Dynasty: Warlords & The King of Dragon Pass.” BoardGameGeek (blog). Mar 5, 2014. boardgamegeek.com/blogpost/28220/15-years-and-worlds-apart-autumn-dynasty-warlords | a Apr 12, 2021
+19) Klaehn, Jeffery, and David Dunham. 2016. “Interview: David Dunham, Lead Designer, Producer and Programmer of the Award-Winning Strategy Storytelling Game, King of Dragon Pass.” Journal of the Canadian Game Studies Association 10 (15), Spring/Summer 2016.
+20) Kreminski, Max and Noah Wardrip-Fruin. 2018. “Sketching a Map of the Storylets Design Space.” In Interactive Storytelling: 11th International Conference on Interactive Digital Storytelling, ed. Rebecca Rouse, Hartmut Koenitz, Mads Haahr, Springer. 
+21) Krol, Scott R. 2002. “King of Dragon Pass” (review). Gameworld Network (blog). Sep 24, 2002. pcgames.gwn.com/reviews/gamereview.php/id/161/p/0/title/King_of_Dragon_Pass.html | s Apr 5, 2007
+22) Laws, Robin. 2018. “The Six Ages Team: Robin Laws.” Six Ages Development Blog. Jul 9, 2018. blog.sixages.com/index.php/2018/07/09/the-six-ages-team-robin-laws | a Apr 12, 2021
+23) MacHOME. 1999. “King of Dragon Pass” (review). www.machome.com/reviews/MacReviewZone.lasso?grr8=34028 | s Nov 5, 2003
+24) Meer, Alec. 2015. “Wot I Think: King Of Dragon Pass.” Rock, Paper, Shotgun (blog). Aug 4, 2015. www.rockpapershotgun.com/king-of-dragon-pass-review-pc | a Apr 12, 2021
+25) Purchese, Robert. 2013. “The Story of King of Dragon Pass: Do You Remember Demolition Man?” Eurogamer (blog). Apr 12, 2013. www.eurogamer.net/articles/2013-04-12-the-story-of-king-of-dragon-pass-do-you-remember-demolition-man | a Apr 12, 2021
+26) Salgado, Filipe. 2011. “Review: Religion, Wars, and Everything Else.” Pitchfork (blog). Dec 9, 2011. pitchfork.com/killscreen/107-review-religion-wars-and-everything-else | s Jan 11, 2012
+27) Stanton, Rich. 2012. “App of the Day: King of Dragon Pass.” Eurogamer (blog). Dec 5, 2012. www.eurogamer.net/articles/2012-12-05-app-of-the-day-king-of-dragon-pass | a Apr 12, 2021
+28) Vega, Sin. 2014. “Remembering King Of Dragon Pass.” Rock, Paper, Shotgun (blog). Oct 17, 2014. www.rockpapershotgun.com/king-of-dragon-pass-retro | a Apr 12, 2021
+29) Zuccarelli, Dan. 2011. “King of Dragon Pass Review.” Gamezebo (blog). Sep 13, 2011. www.gamezebo.com/games/king-dragon-pass/review | s Feb 21, 2013

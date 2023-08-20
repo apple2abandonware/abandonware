@@ -1,0 +1,139 @@
+Hunt the Wumpus
+
+1973
+
+Gregory H. Coresun 
+Style: Roguelike
+First Debuted: April 1973
+Original Retail Price: $4
+Language: BASIC
+Platform: PDP-8
+
+Opening Text:
+
+	WELCOME TO 'HUNT THE WUMPUS'
+	  THE WUMPUS LIVES IN A CAVE OF 20 ROOMS. EACH ROOM
+	HAS 3 TUNNELS LEADING TO OTHER ROOMS. (LOOK AT A
+	DODECAHEDRON TO SEE HOW THIS WORKS-IF YOU DON'T KNOW
+	WHAT A DODECAHEDRON IS, ASK SOMEONE)
+
+
+
+In 1972, a computer advocacy group set up shop at a storefront in Menlo Park, California. The city sat at the nexus of Stanford technologists and Bay Area freethinkers who would soon spark the computer revolution and the behemoths of Silicon Valley—but not just yet. Pursuing a dream that computers could and should be for everyone, the nonprofit group who moved into the small retail space that year called themselves the People’s Computer Company. No sign or plaque marks the space, now an unassuming dry cleaning business, where many seeds of the coming computer game revolution were planted.
+
+The People’s Computer Company was co-founded by Bob Albrecht, a lifelong computer evangelist then in his early forties. Albrecht had been struggling to teach computers in high schools until BASIC appeared in the mid-1960s. The language’s simplicity and accessibility made him into a passionate advocate. “I lobbied, ranted, and raved for BASIC,” he recalled: “I had made big buttons that said SHAFT (Society to Help Abolish Fortran Teaching).”1 By the late 60s Albrecht was in the habit of loading a bulky PDP minicomputer in his Volkswagen bus each weekend to give BASIC seminars at college campuses. On Thursday nights he would “run computer programming, wine tasting, and Greek dancing parties” out of his apartment.1 He also helped found the Portola Institute, the influential Bay Area nonprofit that created counterculture magazine the Whole Earth Catalog.
+
+With the help of his wife Mary Jo, Albrecht and a few other like-minded thinkers spun off the People’s Computer Company from Portola in the early 70s and launched a community meeting space, the People’s Computer Center (both often called just “the PCC”). The idea of the Center was simple: the PCC would convince big companies like DEC and HP to donate hardware, which they would set up and make accessible to members of the public who could stop by to play computer games, “rap about computers,” or attend drop-in classes on BASIC (or folk guitar). Open computer time to do anything you liked was available for a few dollars an hour, or less: “The younger you are the less you pay.” The PCC’s printed newsletter shared a similar spirit, filled with introductory coding tips, annotated program listings, articles on using computers for art or music, and counterculture imagery and slogans. “Liberate Some People From School,” one issue buzzed: “Take them on a field trip to PCC by skoolbus, carpool, or bike brigade.”4
+
+Into this heady environment stumbled a man in his late twenties then called Gregory Yob (later Gregory Coresun). Born in the Pacific Northwest, he had suffered through “a lonely childhood in a relentlessly abusive household that left him with stunted social skills,”8 emerging with a love for mathematics and, eventually, computers. His partner in later years recalled that “under the grumpy exterior, which sooner or later almost everyone who knew him would bump into, lived a brilliant mind, a compassionate heart and a delightful childlike playfulness.”6 After finishing a graduate degree and moving to California, Greg discovered the PCC and became a regular drop-in and newsletter contributor. He had already been involved in developing an interpreted language called Pilot (designed to run on top of BASIC) that simplified the creation of conversational programs. The PCC’s mission of outreach and accessibility no doubt resonated. 
+
+Greg began contributing to the PCC newsletter at the same time a game design conversation had begun within its pages. A hide-and-seek program from June 1972, created by a high school computer class, was playable on the center’s PDP-8. In this game, the player tried to guess where four computer-controlled opponents were hiding on a 10 x 10 grid. After each guess, the program would tell you the distance to each opponent, and students were encouraged to use graph paper and triangulation skills to win.
+
+	TURN NUMBER 1 , WHAT IS YOUR GUESS?
+	? 4, 3
+	YOUR DISTANCE FROM PLAYER 1 IS 6.4 UNIT(S).
+	YOUR DISTANCE FROM PLAYER 2 IS 6.4 UNIT(S).
+	YOUR DISTANCE FROM PLAYER 3 IS 2.8 UNIT(S).
+	YOUR DISTANCE FROM PLAYER 4 IS 1 UNIT(S).
+	TURN NUMBER 2 , WHAT IS YOUR GUESS?
+
+Unshackled from a need to make something with educational value, PCC members created their own amusing variations on the program. A common improvement was to replace the anonymous hiders with a single named monster, which inevitably lent its name to the program; games like Mugwump, Snark, and Hurkle proliferated. Most stuck with the original code’s 10 x 10 grid.
+
+	THE HURKLE IS HIDING. TRY TO FIND HIM.
+
+	WHAT IS YOUR GUESS
+	?5, 5
+	GO SOUTHWEST
+
+	WHAT IS YOUR GUESS
+	?3, 2
+	GO EAST
+
+In Greg’s retelling,9 Hunt the Wumpus was born when he saw several of these monster-hunting program listings side by side in the April 1973 PCC newsletter. Greg, a mathematician fascinated by complex topologies, became annoyed that none of the authors had thought beyond that simple grid. At age nineteen, he’d had a paper accepted by Scientific American on “his experiment on simulating gravitational fields with droplets of water on a soap bubble”;6 more recently, a friend had cited his work in a paper on equations for “homogenous solids from whose center of gravity there are only four normals.”5 Computers were capable of simulating much more interesting spaces, and Greg was capable of visualizing them. By the end of April he’d written his own monster-hunting program. His creature was called the Wumpus, and his map was a dodecahedron.
+
+Greg may also have been influenced by a series of programs floating around the PCC that spring written by fellow member Dave Kaufman. In Caves1, the player navigates through a group of rooms arranged in a tree structure, looking for a way to escape:
+
+	IMAGINE YOURSELF AN EXPLORER OF THE FAMOUS
+	DUZZLEDORF CAVES. YOU'VE BEEN UNDERGROUND
+	FOR DAYS, TRIPPING THROUGH THE CAVERNS AND
+	TUNNELS. UNFORTUNATELY, YOU'RE LOST, AND
+	YOUR FOOD HAS RUN OUT.
+
+	THERE IS ONLY ONE PATH OUT. SEE IF YOU
+	CAN FIND IT.
+
+	YOU'RE IN CAVERN # 1
+	# 2 # 3 # 4 ARE WHERE YOU CAN GO
+	WHERE NEXT? 4
+	YOU'RE IN CAVERN # 4
+	# 5 # 6 # 7 # 1 ARE WHERE YOU CAN GO
+	WHERE NEXT? 5
+	DEADEND
+	WHERE NEXT?
+
+Largely forgotten until game blogger Jason Dyer rediscovered them in 2019,2 the Caves games were some of the earliest where players moved through connected rooms with a fictional theme, a notion that would later become foundational to interactive fiction. The numbered rooms, the conceit of being trapped in a cave, and the language around descriptions and movement are all similar to Wumpus. Regardless of which program influenced the other, it’s clear the PCC authors were in dialogue, both at the Center and in the pages of its newsletter. A game design conversation was happening.
+
+In Wumpus, you explore a network of twenty numbered caves, each with three exits and a complex set of interconnections. The map replicates the points and edges of the dodecahedron, a platonic solid with twelve sides and twenty vertices. While the shape is mathematically simple, it’s difficult for anyone but a mathematician to map sensibly in their head or on a flat piece of paper. The result is a virtual space that feels larger than it ought to: disorienting, claustrophobic, perpetually wrapping in on itself in surprising ways. You can’t get lost on the comfortable axis of a grid; but even twenty rooms in a strange topology are enough to get lost in.
+
+Within this uneasy environment are hazards and foes. When each game begins, two rooms are selected to hold bottomless pits, which mean instant death if you enter those rooms. Two more host “super bats” that will teleport you to another room at random (including, unfortunately, the rooms with bottomless pits). And in a fifth room is the Wumpus, who might kill you if you blunder into him, or simply slink away through one of the three exits. Critically, you can’t see these hazards directly: by the time you stumble into a room containing them, it’s too late. Instead you must infer their existence from a distance, via messages printed when you enter an adjacent room: I FEEL A DRAFT, BATS NEARBY, and I SMELL A WUMPUS. Since each room has three exits, you won’t know for sure which leads to a hazard unless you’re paying close attention, keeping a map, and using basic logic to work out which paths are safe.
+
+	YOU ARE IN ROOM  9
+	TUNNELS LEAD TO  8    10    18
+		
+	SHOOT OR MOVE (S-M)? M
+	WHERE TO? 10
+
+	BATS NEARBY!
+	YOU ARE IN ROOM 10
+	TUNNELS LEAD TO 2 9 11
+
+	SHOOT OR MOVE (S-M)? M
+	WHERE TO? 2
+
+	ZAP--SUPER BAT SNATCH! ELSEWHEREVILLE FOR YOU!
+	I SMELL A WUMPUS!
+	YOU ARE IN ROOM 15
+	TUNNELS LEAD TO  6   14   16
+
+	SHOOT OR MOVE (S-M)?
+
+The Wumpus must also be dealt with from a distance, by firing a “crooked arrow” that can travel a twisting path of up to five rooms to hit its target—once you’ve worked out where that is.
+
+	SHOOT OR MOVE (S-M)? M
+	WHERE TO? 14
+
+	YOU ARE IN ROOM 14
+	TUNNELS LEAD TO  4   13   15
+
+	SHOOT OR MOVE (S-M)? S
+	NO. OF ROOMS(1-5)? 2
+	ROOM #? 15
+	ROOM #? 16
+	AHA! YOU GOT THE WUMPUS!
+	HEE HEE HEE – THE WUMPUS'LL GETCHA NEXT TIME!!
+
+Hunt the Wumpus was a more compelling computer game than nearly any that had come before. Unlike most earlier games, the possibility space was large enough to contain different strategies. In contrast to the inevitable westward movement of a wagon train or downward fall toward the lunar surface, here you could choose which direction to move. Shooting through a dizzying network of rooms opened up interesting, unexpected possibilities (like accidentally shooting yourself). There was randomness enough for surprising events (bats dropping you into a pit; lumbering into the Wumpus by accident) without the game feeling unfairly capricious. The maze was genuinely disorienting when you first dropped into it, encouraging players to keep a paper map and annotate it with observations about which rooms were safe or might contain hazards. The Wumpus’s occasional movements might invalidate previously safe routes and force a rethinking of strategy halfway through play. And there was just enough description in the instructions to lend the Wumpus himself a hint of character:
+
+	THE WUMPUS IS NOT BOTHERED BY THE HAZARDS (HE HAS SUCKER FEET AND IS TOO BIG FOR A BAT TO LIFT). USUALLY HE IS ASLEEP.
+
+In short, Wumpus was fun in a way few earlier computer games had managed to capture: immediate, immersive, replayable, and challenging. It was an evolution of what games might be, and its inclusion in an ongoing conversation about games at the PCC may be part of the reason why. It wasn’t produced in isolation; it was reacting to earlier games. The emergence of local and national communities of computer users would continue to accelerate the speed at which craft wisdom could be learned and shared. It was just one of many computer revolutions.
+
+Greg’s game was widely shared around the PCC and soon became a hit. By May, he was seeing it at computer events around the Bay Area, inevitably with clusters of back seat drivers huddled around the person at the terminal, shouting out their own Wumpus-hunting strategies. He quickly devised a sequel, Wumpus 2 (which added a choice of cave topologies), and began to sell copies of both games on paper tape for four dollars, making him one of the earliest digital game makers to do so. But the idea of copyright for computer code was still nebulous and, indeed, anathema to many early hackers. As with all other successful programs of the time, Wumpus was freely copied, ported, remade, and redistributed, soon spreading across the country. Ken Thompson, the creator of Unix, wrote a version in the new language C. By 1974 a rip-off called Super Wumpus started circulating. The original’s code appeared in Creative Computing magazine in 1975 and would later show up in several of David H. Ahl’s influential books of BASIC programs. By 1981, a graphical Wumpus for the TI-99/4A home computer was on the shelves of stores nationwide, cementing it as an early computing touchstone. “I smell a Wumpus” will still get a smile out of many an aging computer geek. 
+
+Other than the Wumpus sequel, Greg never released another computer game, though he remained passionate about the potential of computers to challenge minds, especially young ones. He became a regular columnist for Creative Computing, and was involved with another walk-in computer center called LO*OP in Cotati, California (north of San Francisco). In 1977 he taught a college course called Computers as a Tool for the Artist. Throughout the 1980s he was heavily involved in the user-friendly Commodore PET community, writing regular columns for magazines and instruction manuals for the PET and its many accessories. Increasingly enamored with the potential for technology to expand consciousness and extend life, he wrote an unfinished book about a spiritual human-machine interface, and adopted the shamanic name Hara Ra. “With a gleeful twinkle in his eye,” his widow later recalled, “he would call himself a Neo-Neuro-Cyber-Shaman.”6 He eventually retired to Santa Cruz, where he went by the name Gregory Coresun and worked on “interactive computer art of ever-changing mandalas” until his passing in 2005.
+
+Wumpus has been identified as one of the earliest ancestors of both the roguelike and the text adventure, a form that would crystallize more fully with Adventure 1976. Like the later game, it has a map that must be explored, challenges to overcome, memorable adversaries, and the first hints of a compelling story. But Greg’s game wasn’t born in a vacuum. It grew from a thriving community of computer evangelists playing, sharing, and remixing each other’s games. In the years to come, these communities would become a common thread across text game makers from different decades, platforms, and technologies, with the most memorable innovations nearly always woven from communal looms. Even for single-player games, the joy of going on adventures (and the joy of creating them) is often best when shared with others. IMAGINE YOURSELF AN EXPLORER, Dave Kaufman’s Caves began—and in the years to come, more and more computer users would do just that.
+
+
+References
+
+1) Cappetta, Jon. 2015. “Interview with Bob Albrecht by Jon Cappetta.” HCLE Virtual Museum (blog). Jul 9, 2015. hclemuseum.wordpress.com/2015/07/09/interview-with-bob-albrecht-by-jon-cappetta-2/ | a Apr 12, 2020 
+2) Dyer, Jason. 2019. “Before Adventure, Parts 1-5.” Renga in Blue (blog). Mar 14, 2019. bluerenga.blog/tag/before-adventure/ | a Apr 12, 2020
+3) Maher, Jimmy. 2011. “Hunt the Wumpus, Parts 1 and 2.” The Digital Antiquarian (blog). May 13, 2011. www.filfre.net/2011/05/hunt-the-wumpus-part-1/ | a Apr 12, 2020
+4) “The People’s Computer Company Newsletter” (Archives). Internet Archive. 1972–4. https://archive.org/search.php?query=creator%3A%22People%27s+Computer+Company%22 | a Apr 12, 2020
+5) Shafer, Robert E. 1973. “A Generalization of Spherical Harmonics.” SIAM Review 15 (3).
+6) Strong, C.L. 1964. “The Amateur Scientist.” Scientific American, Dec 1964.
+7) van de Loo, Andrea. 2007. “Remembering Hara Ra.” CryoNet.Org Mailing List. Oct 3, 2007. www.cryonet.org/cgi-bin/dsp.cgi?msg=29879 | a Apr 12, 2020
+8) White, Dan. 2002. “Together Forever: Local Couple Hopes to Be Frozen through Cryonics and See the Future.” Santa Cruz Sentinel, Jul 12, 2002. www.santacruzsentinel.com/archive/2002/July/12/local/stories/01local.htm | a Apr 12, 2020
+9) Yob, Gregory. 1976. “Hunt the Wumpus.” In The Best of Creative Computing, Volume 1, ed. David H. Ahl. Creative Computing Press.
+

@@ -1,0 +1,54 @@
+
+
+Introduction
+
+
+The earliest version of The Oregon Trail—the text-only original, made long before the green-tinged Apple remake played by 80s kids in their school computer labs—debuted in a Minnesota classroom on December 3, 1971. In the fifty years since, text games—fiction you can play—have evolved from rough-hewn prototypes to mainstream successes to commercial pariahs to underdog heroes. They’ve been resurrected as indie punk games, award-winning art games, viral sensations, and groundbreaking pioneers of interactive storytelling techniques. Their popularity has waxed and waned, but they’ve never been dead, and they’ve never gone away. Often overlooked, frequently dismissed, these games are a vibrant part of gaming history worth remembering, playing, and continuing to make. 
+
+In this book we’ll take a journey through fifty text games, one for each year of the medium’s first half century. We’ll take a close look at how each game works, what it says, who made it, and how it fits into the rapidly changing historical and technological context of its time. These aren’t necessarily the most famous fifty games from these years, nor the best-loved, the most influential, or the most important (whatever that might mean). The constraint of picking one and only one game for each year instead suggests a grand tour, a journey that can’t possibly include everything but aims to stop at many interesting sites along the way.
+
+On our tour we’ll meet games famous and obscure, amateur and commercial, some with millions of words of content and others so small their source code can fit on a single printed page. Our fifty titles hail from a surprising breadth of genres and intertwine with a vast array of technologies, from teletypes to iPhones to virtual machines to virtual reality, from cassette tapes to spoken words to paper tape to Kindles. Collectively, their story cuts a fascinating cross section through the history of computing, from the dawn of stored programs up through the cutting edge of today’s AI.
+
+Why do these games matter? Unlike mainstream computer games, they’re often made by sole creators with something to say, and the freedom to explore and experiment with new ways of saying it. They have pioneered new genres and mechanics years before the same ideas make it into graphical games. They have explored countless ways stories can be dynamic, debuted influential creators who found success in the wider game or publishing industries, and served as a constant source of inspiration as creators redefine what games made of words can do, mean, and be, over and over again.
+
+What is a text game? In brief, it’s a game you want to share excerpts from, not screenshots. The broader game industry is primarily visual, trafficking in colorful screen grabs and trailers full of motion. But a screenshot of a text game is missing the point. There are few screenshots in this book, but many excerpts.
+
+A text game tells its story with words, thus connecting more to written than filmic traditions. Some might have illustrations, as do some books, but these are not required to play (as they are in graphical adventures like Mystery House [On-Line Systems 1980] or Disco Elysium [ZA/UM 2019]), and neither are they foundational to the experience of play (unlike, say, the art in visual novels). Text games are interactive, which differentiates them from animated concrete poetry or digital word art. They use words as words, not as placeholder graphics as in roguelikes (which we’ll mostly skip over but for a few exceptions that also meaningfully engage with language). Finally, the kinds of text games we talk about here are mostly digital (excluding tabletop storytelling games like Dungeons & Dragons) and exclusively narrative (excluding pure wordplay or other kinds of linguistic fun not concerned with story).
+
+While there are many traditions of text games in languages other than English, this book mostly limits its scope to the English-speaking world, with a few exceptions. 
+
+Text game styles can vary considerably, but the games discussed in this book can be roughly clustered by technology, structure, or audience into about a dozen nonexclusive categories. 
+
+* Resource Management. Games primarily concerned with managing a set of numeric qualities. Modern idle and clicker games fall into this category, as do many early computer games. [The Oregon Trail 1971; ROCKET 1972; Universal Paperclips 2017]
+
+* Parser. A simulated world explored by typing imperative commands that are then “parsed” into valid actions. Also called text adventures or interactive fiction, parser games were massively popular in the 1980s and continue to be made today. [Adventure 1976; Zork 1977; Pirate Adventure 1978; The Hobbit 1982; Suspended 1983; The Hitchhiker’s Guide to the Galaxy 1984; A Mind Forever Voyaging 1985; Plundered Hearts 1987; P.R.E.S.T.A.V.B.A. 1988; Silverwolf 1992; Curses 1993; So Far 1996; Photopia 1998; Galatea 2000; The Fire Tower 2004; El Museo de las Consciencias and Lieux Communs 2007; Violet 2008]
+
+* MUD (Multi-User Dungeon). Parser games hooked up to a persistent, multiplayer world. [MUD 1980; LambdaMOO 1990; Achaea 1997]
+
+* Hypertext. A tree of story nodes often explorable in nonlinear order, generally navigated by clicking linked words. [Uncle Roger 1986; Patchwork Girl 1995; Howling Dogs 2012]
+
+* Choice-Based. Story nodes connected by explicit decision points, usually moving forward through a possibly-branching plot. [The Cave of Time 1979; Digital: A Love Story 2010; 80 Days 2014; Lifeline 2015; Choices: The Freshman 2016; Weyrwood 2018]
+
+* Storylet-Driven. An unordered set of story nodes presented to the player in an order based on randomness, simulation qualities, or player stats. [King of Dragon Pass 1999; The Kingdom of Loathing 2003; Fallen London 2009; 80 Days 2014]
+
+* Procedural Story. Interactive narratives shaped by complex procedures as well as player choices, usually offering multiple and sometimes emergent outcomes. [The Hobbit 1982; The Playground 1994; King of Dragon Pass 1999; Dwarf Fortress 2006; Versu: A Family Supper 2013; AI Dungeon 2019; Scents & Semiosis 2020]
+
+* Roguelike. A challenging world with procedurally generated elements, often explored from a top-down perspective. Roguelikes often use text as stand-in graphics rather than primarily as words and sentences. [Hunt the Wumpus 1973; Super Star Trek 1974; dnd 1975; Shades of Doom 2005; Dwarf Fortress 2006]
+
+* ARG (Alternate Reality Game). A live multiplayer game usually running for a limited time, often extending through multiple media and communication channels including text (though many are not primarily text-based). [The Beast 2001]
+
+* BBS. Multiplayer games for a bulletin board system, usually designed to be played by one player at a time rather than simultaneously. [Trade Wars 2002 1991]
+
+* Play-by-Mail. Multiplayer games where players send in orders by mail or email, with a central computer batch processing turns at a slow cadence (often once a week) and sending personalized results as a turn report. [Monster Island 1989]
+
+* Experimental. Text games that don’t fit into any of the above styles. [His Majesty’s Ship “Impetuous” 1981; Screen 2002; Nested 2011]
+
+[Material specific to the presentation in the print book has been cut.]
+ 
+“What has poetry to do with computer software?” asked Robert Pinsky in 1995, precisely the middle of this history. Pinsky, a future US poet laureate, had a decade earlier authored the surreal text adventure Mindwheel [Brøderbund Software 1984]. Still enamored of the possibilities of “the muse in the machine,” he wrote a piece for the New York Times defending interactive text, a uniquely contested art form that, like poetry, “suspicious guardians of the past may hug … protectively” while “preening advocates of the future may scorn … as outmoded.” 
+
+	What has this activity amounted to so far? Less than enthusiasts claim, more than the scornful might assume—an interesting infancy.… On the peculiar terrain of literature-for-the-monitor, where the most innocent science fiction adventure may overlap with the most fashionable of nonreferential language theory, the future and the past are conducting their perennial transaction.
+
+Text and language have endured far longer than most technologies for storing information and sharing stories. The next fifty years of interactive prose, and the next after that, will build on the craft and wisdom of the pioneers in these pages, whose stories we would do well not to forget.
+
+

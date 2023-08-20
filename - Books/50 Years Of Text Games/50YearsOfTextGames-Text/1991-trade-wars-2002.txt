@@ -1,0 +1,190 @@
+Trade Wars 2002
+
+1991
+
+Gary Martin, MaryAnn Martin, and John Pritchett
+Also Known As: TradeWars, TW2002
+Style: BBS
+Debuted: Jun 1991
+(Castle Ravenloft BBS)
+Launch Platform: WWIV / DOS
+Publisher: Martech Software
+Language: Turbo Pascal 6.0
+Launch Price: $20 (sysop registration fee)
+
+Opening Text:
+
+	“What is your name? Zaphod
+	Use ANSI graphics? Y
+
+
+If you first went online after 1996 or so, you might never have connected to a BBS. If you first went online after 2006, you might never even have heard of one.
+
+Reading the histories of online games like dnd 1975, MUD 1980, or LambdaMOO 1990 can give the impression that gamers have been happily playing together on the internet since the 70s. In some special places like university campuses, they have been. But for most early computer users there was no cheap or easy way to connect to the global net. For them, going online meant dialing into a local bulletin board system—and the games on those systems were a curious sort of multiplayer, because only one person could play them at a time.
+
+Backing up: a BBS was simply a regular computer hooked up to a phone line, which anyone dialing in with a modem could control. Often this computer was just a spare in someone’s home, hooked up to a second landline. BBS host software let callers create accounts and provided access to whatever message boards, file archives, and games the system operator (sysop) had made available. Each BBS was its own tiny island with unique user accounts, layouts, information, and entertainment. And since phone companies still charged by the minute for long-distance calls, most users were local, exploring an archipelago of hometown systems via a notepad full of phone numbers collected by word of mouth or found on other BBSes. At the peak of their popularity in the early 90s, there may have been something like 150,000 such systems running around the world.
+
+While a large or commercial BBS might have multiple phone lines, most were hobby operations with just one, meaning only one person could connect at a time. So a multiplayer BBS game had to be played sequentially, not simultaneously, like a board game with person after person taking a turn. Bandwidth over analog phone lines was slow, meaning all interactions were by necessity text-based. Downloading a single jpeg might take ten minutes over 2400 baud, but a few hundred characters of text could be transmitted each second, fast enough to fill a screen in moments.
+
+And that screen didn’t have to be drab. The ANSI text standard, supported by most computers by 1990, allowed sixteen foreground and eight background colors as well as a range of special characters for lines, shapes, and textures—extended ASCII—which together could paint vibrant, blocky pseudographics in an 80 x 24 grid of characters. While standalone games had moved on to 256 colors and CD-ROM video and audio by the 90s, BBS games were forced to attract players and hold their interest with nothing but their text. Their aesthetics were retro even in their prime: their gameplay, and their words, were the only places they could innovate.
+
+Most of these games were standalone MS-DOS programs to which the BBS software could hand over execution, along with some metadata like the name of the logged-in user and their permissions. These were called door games, since the user was in essence passing through an invisible portal between one program on the host’s system and the next. By the early 90s, limits around memory and compatibility that had sharply restricted the size of door games had mostly vanished, paving the way for BBS games to become sophisticated and complex. But to tell the story of how Trade Wars became the most popular BBS door of all time, we need to go back even further, to a pair of games from the 70s. One was covered earlier in this book—Super Star Trek 1974—and the other was called Star Trader.
+
+Star Trader was another popular early BASIC game passed around and improved from one hacker to another, originating with People’s Computer Center member Dave Kaufman (whose Caves games probably influenced Hunt the Wumpus 1973). Kaufman’s program took a very simple premise—buy low, sell high—and gave it a patina of sci-fi excitement by casting its players as interstellar merchants:
+
+	EACH OF YOU IS THE CAPTAIN OF TWO INTERSTELLAR TRADING SHIPS. YOU WILL TRAVEL FROM STAR SYSTEM TO STAR SYSTEM, BUYING AND SELLING MERCHANDISE. IF YOU DRIVE A GOOD BARGAIN YOU CAN MAKE LARGE PROFITS.
+
+Multiple players sharing the same keyboard could take turns navigating a small region of half a dozen stars, looking for deals on goods like uranium, star gems, helium, and (naturally) computer software:
+
+	PLAYER 1, WHICH STAR WILL ARGOSY TRAVEL TO? QUIN
+	THE ETA AT QUIN IS MAY 3, 2070
+
+	ARGOSY HAS LANDED ON QUIN
+	$ ON BOARD: 5000     NET WT 25
+	UR   MET   HE   MED   SOFT   GEMS
+	0     0    15   10    10     0
+	WE ARE BUYING:
+	HE    WE NEED 6 UNITS.
+	HOW MANY ARE YOU SELLING?  6
+	WE OFFER $ 25900
+	WHAT DO YOU BID? 27000
+	WE OFFER $ 26100
+	WHAT DO YOU BID? 26500
+	WE'LL TAKE IT!
+
+Star Trader was a surprisingly clever program for its day. The trading algorithm was smart, involving a hidden range of acceptable prices a merchant might take that would shrink the longer haggling continued. Also, it was fun to out-barter your friends, snatching up all the units of a rare commodity and watching your credits increase at their expense. Republished in a popular early book of BASIC source listings, What to Do After You Hit Return (1975), the game became an early computing standard.
+
+Around the same time, Star Trek games were also big hits, merging the joys of exploring strange new worlds with the thrill of blowing up Klingons, and adding multiplayer to Trek games became a popular hacker pastime. One variant called WAR [author and release date unknown] cast one player as the Klingons and another at the same keyboard as the Federation, and allowed players to claim planets and make them useful starbases. WAR soon evolved into DECWAR [Jeff Potter and Bob Hysick 1978] on the Digital Equipment Corporation’s PDP-11, which supported multiple simultaneous connections and allowed up to ten players divided into two teams, Federation and Klingons, to face off in real time. DECWAR became wildly popular, evolving new multiplayer-specific mechanics and gameplay. When the first commercial internet providers began to appear, the multiplayer mainframe games were exactly the kinds of experiences they wanted to bring to home computer users. CompuServe reskinned DECWAR as MegaWars [1983], removing the Star Trek references (and the original creators’ names), and it became a popular part of the service for well over a decade.
+
+But CompuServe was expensive: twelve dollars an hour for access, even at off-peak times. One of the many gamers who had heard about MegaWars but couldn’t afford to play1 was named Chris Sherrick, and he wanted to bring something like it to his free BBS. Based on secondhand knowledge of the game and his familiarity with the early BASIC classics like Star Trader and Wumpus, he created a game called Trade Wars [1984] and made it available for free to other sysops. In Sherrick’s game, players navigated a maze of sixty numbered sectors with complex interconnections (much like in Wumpus), buying and selling goods (as in Star Trader) while fighting off enemies and operating a starship with a range of advanced capabilities (as in Trek and its many descendants). It was a grab bag of successes from earlier games, put in a new package that anyone with a modem could dial in to play—no credit card required.
+
+Sherrick’s was not destined to become the most famous Trade Wars. After passing through a number of ports and revisions, a version found its way to Kansas coder and sysop Gary Martin, who wanted to get it running on his BBS Castle Ravenloft (“the Loft,” as it was affectionately known). The Loft’s software couldn’t run a BASIC program as a door, so Martin was hunting for a working Pascal port, but the best candidate he could find seemed buggy and kept crashing. He decided to do some major surgery and, while he was in there, to add some tweaks of his own. After fits and starts of tinkering, he released his version of Sherrick’s game in 1987, under the name Trade Wars 2001. Martin’s version was at first quite similar to previous incarnations, with its main innovation the addition of some pop culture sci-fi references (cribbing mostly from Star Trek and Star Wars) to lend it a bit of borrowed character.
+
+Crucially, Martin also made his version of Trade Wars compatible with WWIV, a newer and more powerful BBS platform that would soon become dominant. In 1988, WWIV was rewritten in C, which removed a limitation that restricted doors to no more than 64K in size. With space now for a much bigger game, Martin began a long-term revamp to make “the Trade Wars game that I wanted to play, not just a clone of what previous ones had been.”4 With the help of his new wife MaryAnn, who managed registrations and business affairs while also contributing ideas and designs to the project, Martin released Trade Wars 2002 (or TW2002) in 1991—the version that would become the definitive BBS space trading game.
+
+After launching TW2002 from the games menu of your favorite BBS, you gave your character a name—either the same one you used on that BBS, or an alias if you wanted to play incognito—and claimed your starter ship, perhaps a Merchant Cruiser with twenty cargo holds. You could then begin exploring a galaxy of hundreds or thousands of interconnected, numbered sectors (the exact count, along with many other details, could be customized by each sysop). The game’s core loop remained virtually unchanged from the days of Star Trader: dock at ports to buy and sell goods, warp between star systems, and try to turn your cargo into profit.
+
+	Sector  : 885 in uncharted space (unexplored).
+	Ferrengi: Sheccag Mioqtiap, with 8,000 ftrs,
+	          in Ovaoq Fadavej (Ferrengi Battle Cruiser)
+	Warps to Sector(s):  (383) - (707)
+
+	Command [TL=00:27:51]:[885] (?=Help)? : 383
+	<Move>
+	Warping to Sector 383
+
+	Sector  : 383 in Tarterus (unexplored).
+	Ports   : Huygens, Class 2 (BSB)
+	Traders : Civilian Ender, w/ 30 ftrs,
+	           in Sweet Justice (Impetuoso Merchant Cruiser)
+	Warps to Sector(s):  885 - (249) - (273) - (279) - (620)
+
+	Command [TL=00:27:43]:[383] (?=Help)? : P
+	<A> Attack this Port
+	<T> Trade at this Port
+	<Q> Quit, nevermind
+
+	Enter your choice [T] ? T
+	<Port>
+
+	Docking...
+	One turn deducted, 73 turns left.
+
+Limited turn counts were a ubiquitous mechanic in door games, to prevent overzealous players hogging a phone line indefinitely. Some sysops also enforced a real-world time limit, as the TL (time left) clock counting down above demonstrates.
+
+	Commerce report for  Huygens: 09:55:10 PM Thu Apr 17, 2033
+
+	-=-=-        Docking Log         -=-=-
+	No current ship docking log on file.
+	For finding this neglected port you receive 50 experience point(s).
+	You have been promoted to Staff Sergeant!
+
+	Items      Status  Trading % of max OnBoard
+	---—     ----— -----—------—-------
+	Fuel Ore   Buying    1710    100%      20
+	Organics   Selling   1110    100%       0
+	Equipment  Buying     830    100%       0
+
+TW2002 used the same three core goods as the original Trade Wars: Ore, Organics, and Equipment. It also used a bartering mechanic that had changed little since the 1970s Star Trader:
+
+	You have 220 credits and 0 empty cargo holds.
+
+	We are buying up to 1710. You have 20 in your holds.
+	How many holds of Fuel Ore do you want to sell [20]? 20
+	Agreed, 20 units.
+
+	We'll buy them for 681 credits.
+	Your offer [681] ? 720
+
+	We'll buy them for 687 credits.
+	Your offer [687] ? 690
+	If only more honest traders would port here, we'll take them though.
+	For your good trading you receive 1 experience point(s).
+
+	You have 910 credits and 20 empty cargo holds.
+
+In your first few days of play, a key challenge would be to find the StarDock, a major hub with useful services including stores, a shipyard, and sources of missions and interactions with other players. The StarDock was a key addition to Martin’s version of the game that went a long way toward making its galaxy feel more like a dynamic, living place, filled with things to do such as shopping, gambling, or visiting a theater to watch ASCII sci-fi parody “movies” with titles like Vulcan Thunder.
+
+But the StarDock also provided a major community hub, a key difference from earlier, less social space trading games. At the StarDock’s tavern you can pay credits to post a public message that everyone will see, add to the graffiti scrawled on the bathroom wall, or pay a “grimy Trader” in the back room to learn information about other players, such as what sector their ship was last seen in. The grimy Trader could share a large selection of hints and useful info about the game state, provided you could think of the right things to ask him (and had credits to pay).
+
+	"Why hello der matey! Have a sit and buy me an ale, eh?"
+
+	You sit down and talk to the old Trader.
+	(Enter the subject you want to know about, blank to exit)
+	>FEDERATION
+	"I can tell you something about FEDERATION, but its gonna cost ya!"
+	"Would ye pay me 2,500 credits for it?" Yes
+	"Tryin to cheat me eh? You bum! You ain't got the dough!"
+
+The StarDock also holds secrets. Pressing a key not listed on the menu of available commands lets your character explore seedier, lesser-known parts of the station. A particular unlisted key leads to a locked door and a secret password that, once learned—from the grimy Trader, perhaps, or another player—admits you to the Underground, where nefarious players can buy illicit goods and coordinate against law-abiding Federation forces.
+
+As you build up enough money to buy a better ship and properly equip it, a key challenge becomes finding a secure location to build a base. Planets could be created in any unoccupied sector by purchasing a Genesis Torpedo (a reference to 80s classic Star Trek II: The Wrath of Khan), and colonists could be ferried from Terra in Sector 1 to the new planet to manufacture trade goods. Planets could be defended with space mines or a Planetary Citadel, which could be built up with greater and greater defenses until, after weeks of daily turns, it became near-impregnable. An ideal sector for a home planet would be a dead end, off the well-traveled routes around the StarDock or other key sectors, ideally in a lonely part of the map less likely to be stumbled upon by accident. Each game would require finding such a spot anew, since every BBS would have a different map configuration, randomly generated by the sysop with a program called BIGBANG.EXE before their version of the game went live.
+
+Since combat could not be real-time, successfully attacking another player or their well-guarded base was mainly a matter of which side had the best equipment. While death was never permanent, logging on to find yourself floating in an escape pod—your expensive ship blown to dust—might form the basis of a long-term grudge that could take days or weeks of turns to repay. 
+
+	Your fighters: 5,208 vs. theirs: 7,241
+	Choose your action, Captain : (F)lee, (A)ttack, 
+	(S)urrender, (I)nfo? F
+	  Constellation Attack!
+	Combat computer reports damages of 738 battle points!
+
+
+	You rush to an escape pod and abandon ship...
+	Your Scout Marauder has been destroyed!
+
+	Your trusty Escape Pod is functioning normally.
+	For getting blown up you LOSE 99 experience point(s).
+	Sector 130 will now be avoided in future navigation calculations.
+
+Rivalries could be settled by putting a bounty on another player, or alliances enhanced by banding together with friends in a Corporation, which allowed for sharing goods and resources as well as access to better ships. The Martins were canny enough to realize this feature was less about promoting player cooperation than creating more chaos: 
+
+	The whole point of the TW200x design was the underlying concept that “No one wins in a war.” When it comes down to fighting, both sides lose. It becomes a matter of who loses the most. The whole corporate design was there to stir the pot and cause more conflict amongst players, not to create safety in numbers.4
+
+Deeper than most door games, Trade Wars has enough commands, ship types, upgrades, and strategies to support a wide range of play styles, and there are often multiple possible solutions to any emergent problem. For self-defense you might get a cloaking device to hide your ship, leave it in an out-of-the-way sector, or surround it with mines and booby traps when you log off. You might earn credits by finding a good set of “trading pair” ports to shuttle goods between, by gambling, by fulfilling bounties on NPCs or other players, or by social engineering your way into a Corporation before robbing them blind. Sysops were given back-end tools to customize dozens of details of a particular game’s configuration—from a player’s starting loadout, to the number of sectors in the galaxy, to the specs of available ships, to how aggressive the Ferrengi would be (or whether they were even called Ferrengi)—enabling each BBS to advertise their own unique flavor of the game. Evil-aligned characters could rob ports; good-aligned characters could gain access to the Imperial Starship, a monstrously powerful cruiser capable of bombarding the hell out of evildoers. Every strategy had a counterstrategy and each play style had its strengths and weaknesses. Thanks to this depth, TW2002 spread fast, and within a year it was running on a huge percentage of BBSes. While exact data is impossible to come by, since records were spread out over tens of thousands of individual systems, there may have been over a million regular players at the game’s peak, with more than thirty-five thousand sysops having paid to register the game for their dozens or hundreds of users. Countless more pirated copies were doubtless running on less scrupulous boards.
+
+The Martins’ Trade Wars didn’t change much as time went on, beyond an irregular progression of bug fixes. John Pritchett joined the team in 1994 to work on bugs and updates, eventually taking over development of a version 3 that supported simultaneous multiplayer; there were fewer BBSes by then, and most survivors were larger operations with multiple phone lines. But BBS games were entering a rapid decline as more and more users upgraded to services that connected them to the global internet—increasingly over broadband, not dial-up, which opened a new world of multiplayer gaming filled with graphics and low-latency action. By the end of the decade, Gary Martin had decided there was no point trying to compete:
+
+	You have to remember, this was back in a period where one developer could put out a complete game by himself. It didn’t take an art department, musicians, or celebrity voice actors to create a title. So in a world where all of these text BBS games are thriving, suddenly here comes a title like Wing Commander. Celebrity voice actors, a HUGE art department, coding department, music department, etc. The bar to create a competitive game was suddenly far too high to reach as an individual or even a small development company. Since I didn’t want to create an inferior game in that world, I chose to stop working on it entirely.4
+
+In 2000 Pritchett bought the Trade Wars brand and code base from the Martins and continued maintaining and improving the game, creating versions that could be hosted over the internet and adding other small improvements. But the game was a harder sell in an always-online world. “It was the anticipation of the game that made it so addictive,” Pritchett later reflected.6 The tension of hearing a busy signal and wondering if someone else was smashing up your base; the camaraderie of a small community with usernames you knew from other local boards and other local games; the feeling of handing off the universe from one player to the next, and knowing each time you connected that you were the only person inside it; the surety that each player had the same fixed turn count, no matter how much or how little free time they had in real life—these experiences were hard to recapture on the web, superior though most everyone agreed it to be. Something ineffable had, nonetheless, been lost.
+
+Door games, like play-by-mail 1989, MOOs 1990, and others built around tentative ideas of what online communities might be, suffered a fate far worse than technological obsolescence when the very structure of community changed around them. Today they’ve been almost forgotten—almost. In the 2020s, there are still die-hard fan communities running their own TW2002 servers and playing their daily turns: booby-trapping ships with Corbomite Transducers as a nasty surprise for overnight attackers, saving up for an Interdictor Cruiser or a Corellian Battleship, and posting gloating notes in the tavern for friends and foes to see the next time they log in.
+
+Trade Wars wasn’t trying to change the world. It didn’t boast a serious story or an innovative parser, and it was more focused on perfecting what had come before than innovating anything new. But it was a lot of fun. It would be influential on designers of new generations of complex space games like EVE Online [CCP Games 2003] or the X Series [Egosoft 1999–]. The team behind Star Citizen [Cloud Imperium Games], which raised hundreds of millions of dollars through crowdfunding in the 2010s, cited TW2002 as one of their inspirations; so did the designers of early space MMO Earth & Beyond [Westwood Studios 2002]. In 2009, PC World named the Martins’ game one of the ten best of all time for the platform. It was nice of them to remember the amateur text game that had drawn countless teens away from their CD-ROM drives—even if only for a while.
+
+
+References
+
+1) Cadenhead, Rogers. n.d. “TradeWars 2 by Chris Sherrick and John Morris.” Workbench. workbench.cadenhead.org/news/3165/tradewars-2-chris-sherrick-and-john-morris | a Apr 18, 2021
+2) Games of Fame (blog). 2013. “WAR, DECWAR and MegaWars.” Apr 28, 2013. gamesoffame.wordpress.com/war-decwar-and-megawars | a Apr 18, 2021
+3) Martin, Gary. 1997. “Interview With A Trader.” Interview by Rick Mead. Gypsy’s War Room. wiki.classictw.com/index.php/Interview_with_Gary_Martin_by_Rick_Mead | a Apr 18, 2021
+4) Martin, Gary. 2019. “Gary Martin, creator of ‘TradeWars 2002’.” Interview by Josh Renaud. Break Into Chat (blog). July 19, 2019. breakintochat.com/blog/2019/07/19/gary-martin-creator-tradewars-2002 | a Apr 18, 2021
+5) Mead, Rick. n.d. “Gypsy’s Big Dummy’s Guide to TradeWars.” wiki.classictw.com/index.php?title=Gypsy%27s_Big_Dummy%27s_Guide_to_TradeWars_Text | a Apr 18, 2021
+6) Pritchett, John. 2014. “BBS Door History / John Pritchett Interview.” Interview by BuckGB. Game Banshee (blog). www.gamebanshee.com/interviews/114084-bbs-door-history-john-pritchett-interview.html | a Apr 18, 2021
+7) Pritchett, John. 2022. Email with author. Sep 5, 2022.
+8) Pritchett, John. n.d. “TradeWars Museum.” wiki.classictw.com/index.php/Main_Page | a Apr 18, 2021
+9) Psycho. 1993. “TradeWars 2002 Bible v1.1.” wiki.classictw.com/index.php/TradeWars_2002_Bible_v1.1 | a Apr 18, 2021
+10) Scott, Jason, director. 2005. BBS: The Documentary. Bovine Ignition Systems. 5 hr., 30 min.
+11) “Star Trader Tribute Page.” 2011. langesite.com. www.langesite.com/startrader | s Aug 7, 2011
+12) “TradeWars 2002.” n.d. Break Into Chat - BBS Wiki. breakintochat.com/wiki/TradeWars_2002 | a Apr 18, 2021
+13) Wehner, Fred. 1997. “How To Play TradeWars And Stay Alive!” May 1997. www.electricscotland.com/games/twadvice.txt | a Apr 18, 2021

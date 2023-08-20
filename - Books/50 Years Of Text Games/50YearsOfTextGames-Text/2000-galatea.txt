@@ -1,0 +1,185 @@
+Galatea
+
+2000
+
+Emily Short
+Style: Parser
+Debuted: Apr 8, 2000 (IF Art Show)
+Launch Platform: Z-machine v5
+Language: Inform 6
+
+Opening Text:
+
+	You come around a corner, away from the noise of the opening.
+	
+	There is only one exhibit. She stands in the spotlight, with her back to you: a sweep of pale hair on paler skin, a column of emerald silk that ends in a pool at her feet. She might be the model in a perfume ad; the trophy wife at a formal gathering; one of the guests at this very opening, standing on an empty pedestal in some ironic act of artistic deconstruction—
+
+	You hesitate, about to turn away. Her hand balls into a fist.
+	
+	“They told me you were coming.”
+
+
+On May 13, 1999, an art exhibition opened its doors to the public. The doors were virtual—the gallery was not in SoHo, but on members.aol.com—and the pieces inside were made from words and code, not canvas and paint. The event had originally been called the First Annual Text Art Show, but it proved successful enough that for a while it recurred more than annually, and became known as just the IF Art Show. It had been designed to discover what IF—interactive fiction, the genre descended from Zork 1977 and known for its maps, puzzles, and story—could do if you took almost all of those things away.
+
+The show had grown out of ongoing conversations and an amateur games renaissance on the Usenet interactive fiction newsgroups. Six years after the release of Graham Nelson’s democratizing design language Inform 1993, and not long after Photopia 1998 made the most visible claim yet that story games could work without puzzles, dozens of authors were busy testing the boundaries of what parser IF could do, producing so much innovation and rapidly evolving design wisdom it was hard to keep up. Sam Barlow’s Aisle [1999] took a single moment in time and coded dozens of microstories responding to all kinds of ways the player might respond to its first (and only) prompt. Andrew Plotkin’s Spider and Web [1998] cast players as their own gloriously unreliable narrators, its story playing out in flashbacks as a captured agent spins a selective retelling of their secret mission during an interrogation. Exhibition [Ian Finley 1999] let players move between the minds of visitors to a gallery, each with their own inner thoughts and relationship to the artist. Bad Machine [Dan Shiovitz 1998] begins with a baffling stream of seemingly incomprehensible output before resolving into an obscure robotic dialect the player must learn to speak. It was a watershed time for experimental story games. Completely free from commercial constraints, with a mature ecosystem of tools and support networks at hand, a community of creators was inventing the future of interactive storytelling, one game at a time.
+
+One particular discussion thread in early 1999 drew the attention of Marnie Parker, a newsgroup regular whose online handle was Doe. A post about puzzleless IF had spun out into hundreds of responses and subthreads, some of which (in the best newsgroup tradition) had unraveled into hashing over the very definition of interactive fiction itself. Deep in the reply chain, Parker, struggling to define the differences between writing IF and traditional prose, found herself articulating a metaphor based on visual art:
+
+	For me it is like the difference between creating a painting and a sculpture. One is … meant to be viewed straight on, one is … meant to be walked around and even touched. Both require skills, but they are DIFFERENT skills.… Characters are meant to be “walked around” [and] viewed from more than a straight-on flat-on-the-page perspective—maybe talked to, interacted with in some way, hit, kissed, queried, whatever.… This is what I think is DISTINCTLY interesting about IF, that makes it QUITE different from static fiction.8
+
+A few days later Parker announced plans to host an exhibition for new works that illustrated this principle, “in light of recent discussions about interactive-fiction being like text sculpture.”4 The rules were simple: submissions would be solicited for short interactive fictions that had no puzzles, no complex story, and no sprawling maps. They should focus on a single type of IF entity: objects, with a maximum of three (the Still Life category); rooms (Landscapes); or a single non-player character (Portraits). The pieces, Parker noted, should have “no end goal other than exploration.”5 A jury of IF celebrities—including Mike Berlyn, author of Infocom’s Suspended 1983, and Mike Roberts, creator of design language TADS—would critique the anonymously submitted works and award Best in Show. And the imagined context for the entries was, quite explicitly, a gallery: 
+
+	You have entered a hushed art gallery with high white walls and subdued lighting, except for the bright spotlights aimed at various pedestals around the room. At first the displays look like ordinary sculpture, but then …5
+
+The first event attracted only a handful of entries but an avalanche of discussion, and another was quickly planned.
+
+Around the same time, a newcomer had started posting in the IF newsgroups. Emily Short was in the early years of a classics PhD, studying ancient Greek drama and mythology. Her mother had been a professional programmer, and as a child Short had played several of the Infocom and Adventure International titles, even though she had been too young to make much progress. As she recalled in a 2018 interview:
+
+	Even then, I really wanted to make my own text adventures. There was something intensely appealing about making a world that someone else could enter and explore; and the purposefulness of those games also appealed. It felt as though every object you encountered was there for some important purpose, which made the imaginary world legible the way the real world wasn’t.22
+
+Years later, a chance recommendation from a college friend led her to discover Inform, “a language specifically for text adventure creation … which I could download for free.” She became fascinated with the tool and the possibilities it offered, as well as the radical experimentation happening in the community of authors gathering around it. When Marnie Parker announced the third IF Art Show in early 2000, Short decided she would enter. A handful of intriguing Still Life and Landscape entries had appeared in the first two shows, but no one had yet attempted a Portrait. Short decided she would try.
+
+An idea for the piece crystallized around the ancient story of Pygmalion, the sculptor who carved a statue of a woman so perfect he fell in love with her and begged the gods to bring her to life. In the canonical version told in Ovid’s two-thousand-year-old Metamorphoses, the statue-woman has no name, but by the 1700s the character was generally referred to by the Greek name Galatea, from a root meaning “milk-white” after her marble skin. The legend proved resonant across generations and centuries, and was given new life in the twentieth by George Bernard Shaw’s play Pygmalion, which recast the sculptor as professor Henry Higgins, who hopes to mold working girl Eliza Dolittle into a perfect society dame. Shaw’s play inspired the film My Fair Lady, and retellings for newer generations continued in movies like Pretty Woman and—just before the first IF Art Show was announced—high school remake She’s All That.
+
+Short had always been conscious of the way the Galatea story functions as both a romance but also a revealing metaphor for particular ways men have thought about women: as objects to be owned and molded, or as flawless ideals that flesh-and-blood people could never live up to. Coming across the story again in her classics studies, she became interested in the way “it captured something really interesting and problematic about the way that women are cast in particular roles.” As she explained in a 2018 talk:
+
+	It seemed a really interesting thing to try to bring into a game world, where [characters] were there for very utilitarian reasons. You would interact with a character and the purpose of the character was to give you a quest, or to tell you some particular piece of information. You could ask them the same questions over and over and over again and they would give you the same answers back every time. And I wanted to experiment with what it would be like to make a character for a game who had some kind of interiority, who had feelings about how you treated her, who remembered what you’d said to her before.23
+
+Through her twentieth-century incarnation as Eliza Dolittle, Galatea also echoed an early pivotal moment in the history of text games: Joseph Weizenbaum’s chatbot ELIZA, named after Shaw’s character. Just as professor Higgins had taught Eliza Doolittle relatively simple techniques like diction and posture to improve others’ perception of her station, professor Weizenbaum hoped to demonstrate that, without much effort, a simple computer program could be “taught” how to imitate certain kinds of human conversation. ELIZA proved vastly popular, but while chatbots allowing free-form conversation with virtual characters would prove continually fascinating as standalone toys, characters in games tended only to support far more restricted interactions.
+
+Nearly all parser interactive fictions by the late 90s, for instance, used either a menu-based conversation tree—presenting players with several possible things to say at each prompt, with a prewritten response to each—or a model that revolved around the verbs ASK and TELL for trying different possible topics of conversation. The ask/tell system generally mapped each possible keyword to a single canned response, resulting in conversations that could feel disconnected and mechanical, with little of the dynamism of real human interactions:
+
+	>ask dunbar about murder
+	Ms. Dunbar turns toward you, looking quite confused. “Murder? But… but how do you know it was murder? I’m sure…” She stops short, looking frightened.
+
+	>tell dunbar about murder
+	Ms. Dunbar lets out a loud yawn.
+
+	>ask dunbar about murder
+	Ms. Dunbar turns toward you, looking quite confused. “Murder? But… but how do you know it was murder? I’m sure…” She stops short, looking frightened.
+
+Short realized that Inform provided all the tools necessary to do a better job at simulating conversation, which might in turn lead to a player treating an NPC (non-player character) less like a plot-point vending machine and more like a compelling character who could be related to and empathized with. In the spirit of the Art Show prompt, she conceived of a premise that stripped interaction down to a single conversation: a parser game with most of the standard verbs removed, no puzzles or inventory items, and a single room containing nothing but a woman on a pedestal.
+
+	The Gallery’s End
+	Unlit, except for the single spotlight; unfurnished, except for the defining swath of black velvet. And a placard on a little stand.
+	 
+	On the pedestal is Galatea.
+	 
+	>read placard
+
+	Large cream letters on a black ground.
+	 
+	47.  Galatea
+	 
+	White Thasos marble. Non-commissioned work by the late Pygmalion of Cyprus. (The artist has since committed suicide.)
+	 
+	Originally not an animate. The waking of this piece from its natural state remains unexplained.
+	 
+	>touch galatea
+	You put a hand on her shoulder: the skin is smooth and warm, though it lacks the velvety finish of a vintage Hazar.
+	 
+	“You might try speaking to me,” she prompts. “It’s not polite merely to prod at me. And I’ve gotten very bored, standing here.” 
+
+	(An attempt to engage the audience—the proactive element … you frame the words for your review, but you find that you can’t get as far as a complete first sentence. There’s something more here; anxious, chilly, visceral. Better pay attention.)
+
+	>ask galatea about pygmalion
+	Her head moves—as though she were going to turn and look at you properly—but then she thinks better of it. “I don’t know where he is,” she says. “Or who, or what, for that matter. He sold me immediately after my waking. While he was carving me, there was no strangeness, but afterward…”
+
+	>ask galatea about strangeness
+	“Strangeness? What sort of strangeness?”
+	 
+	“He avoided me. He was uncomfortable; he wouldn’t meet my eye. […]”
+
+Conversation between Galatea and the player character—a jaded art critic at an exhibit of artificial people—was designed to have a natural flow, but also to allow the player to free-associate between different topics at will. At the last prompt above, the player might instead have asked about the sculptor a second time, or about Galatea’s sale, her buyers, her waking, or her carving. They might have continued to touch her, despite her protests; turned around and walked away; or examined the components of scene or statue in more detail before speaking. Each of these entry points would lead to different strands of a web of interlinked topics that stretched into surprisingly myriad corners. While each individual conversation would last only a few dozen turns, Galatea had hundreds of possible things to say; restarting the game again and again would often take the discussion in entirely new directions each time. 
+
+Short had given herself four main goals in designing the piece: 
+
+	Memory. An NPC should remember what has already been said. There should be minimal repetition: people in real life don’t repeat whole chunks of dialogue verbatim… 
+	
+	Sense of context. What gets said on one turn should flow as naturally as possible from what was said in the previous turn.… Moreover, large jumps in topic should be noticed by the NPC.
+	
+	Active promotion of the conversation. If the player character doesn’t say anything, the NPC should, at least sometimes, be able to continue it herself, by making a comment that leads naturally from the previous topic… 
+	
+	Emotional state. It should be possible to affect the NPC’s mood, not only through speech but through action as well.15
+
+While using the familiar ask/tell paradigm as a frame, Short built behind it a far more complex model of conversation and character than had previously been seen in an interactive fiction. The illusion of memory was created in part by tracking which snippets of dialogue had already been spoken. Some might reveal different information if asked about a second time or in a different context—asking Galatea about Pygmalion, for instance, produces a very different response if you’ve first told her about the sculptor’s death. Asking about other topics multiple times might redirect to comments on the repetition. 
+
+	>ask galatea about love
+	Her hand clenches in the fabric of her gown. “You keep asking me things when I’ve told you I don’t know any more. Why is it so hard for you to understand? My life experience is limited. It’s not that I’m trying to hide some great wonderful truth on the subject.”
+	 
+	“I believe you,” you say.
+
+Short gave Galatea a sense of context by placing conversational snippets into a tree of connected ideas. This allowed the program to calculate the conceptual distance between the last mentioned topic and each new one the player brought up. Unlike in a menu-based system, where the author could enforce a conversation that flowed sensibly from beginning to an end, the ask/tell structure couldn’t prevent players from wildly changing the subject from one move to the next. But the program could at least notice an especially abrupt transition and have Galatea comment on it. Topics could also queue new subjects to bring up if the player said nothing, encoding another very human aspect of in-person conversations: sometimes listening is more important than continuing to speak.
+
+	She gains confidence as you do not interrupt. “At the time he seemed glad to have me there, to listen to him—though I think he thought that I was only another dream. It was only afterward that it became strange.”
+
+	>listen
+	For a moment the only sound you can hear is the ticking of your own watch.  
+	Her eyes flicker, but she doesn’t look over. “He didn’t want me to be awake, you see. He didn’t make me to be a live person. He told me he wanted something that belonged to him, and that if I could think and talk, I couldn’t belong to him any more. So he threw me away.”
+
+A basic representation of emotional state provided additional context. The game tracks a hidden sympathy score encoding Galatea’s feelings toward you, with certain actions or topics raising or lowering it. As the game begins, the statue is described as facing away; if sympathy rises, she turns in increments, revealing more of her face and of herself. The game also tracks the tension between you and Galatea, as well as her current mood—some revelations might plunge her into a dark mood affecting what subjects she’s willing to discuss or what details she focuses on, while other interactions might lead her to become bored or angry. Mood also affects interstitial color between snippets, weaving together dialogue and state to help make each playthrough more unique.
+
+	“There were his stories about the gods, of course,” she comments. Her voice is naturally low—alto tones—but there’s something wrong with the modulation, as though at any moment she might start to scream. “Which were I believe intended to teach me about how people think and what forces control them […]”
+
+
+	“There were his stories about the gods, of course,” she comments. Her head moves—as though she were going to turn and look at you properly—but then she thinks better of it. “Which were I believe intended to teach me about how people think and what forces control them […]”
+
+Short wanted Galatea (and Galatea) to feel unpredictable, with each replay taking the conversation in unexpected directions. The tree of connected topics grew organically as she wrote the piece; when reaching a point where the conversation might either continue in a new direction or conclude, she’d add a new snippet or ending. The game grew to encompass hundreds of possible responses and at least seventy distinct conclusions, with far more possible paths to reaching them. And not all the Galateas you meet across the overlapping space of possible playthroughs are the same. “A lot of IF has just one storyline,” Adam Cadre, author of Photopia, has written:
+
+	You’re given chapter one and then you have to figure out how to call up chapter two.… Galatea isn’t like this.… The effect is worlds layered on top of worlds layered on top of mutually exclusive worlds, making Galatea incalculably more replayable than most IF. For once you’re actually not always stepping into the same river.1
+
+“I don’t want people playing to particular endings,” Short wrote in response to completionists who begged for a list of all possible conclusions. “I want them to play the game and get whatever result comes naturally, because that is what the game is built for. It’s a dispenser of stories, customized to the individual who is playing at the moment.”16 The possible stories you can find in the game cover a surprising range of material. Your conversation might end with mild disappointment or with meeting a god. Galatea might turn out to be a friend, a killer, a confidante, a provocateur, a robot, a real person, or even a supernatural force:
+
+	“Are you made of some kind of new material?” you demand, casting about. “Somehow become self-aware? A shape-shifter?”
+
+	Her silence persists.
+
+	“A daemon?”
+
+	She laughs. “That’s a closer explanation than any other that you are likely to come up with,” she says. “And if you’re willing to entertain the notion—”
+
+	You aren’t, of course, not really, but it’s too late to tell her that now, too late to cram reality back into its box. With a laugh like that of a child being let outside, she turns—to wood, the color and style of a product of Old Kingdom Egypt. To glass, faceted, her hair scattering the downshot light to a thousand tiny points. To a sculpture of sand, to a pillar of salt, to flowing water, to flame […]
+
+Some players loved the overlapping possible worlds inside the game and thrilled in seeking out as many variations as they could. Others preferred to guide the story toward their own favored interpretation. “I didn’t want [that] type of ending,” wrote one reviewer; “I could choose. And because I could, I chose the paths that made Galatea a person, if not a human. I chose the paths that showed her her humanity, her freedom.”14
+	>ask her about pain
+	“What do you know of pain?” you ask. “Have you ever been hurt? Can you be?”
+
+	“I’m not sure I find that a reassuring question,” she remarks dryly. “But yes, it hurts being carved. The stone beyond the boundary of oneself is numb, but there always comes a time when the chisel or the point reaches down to where feeling begins, and strikes.”
+
+“I had dozens of different ideas milling around when I wrote Galatea,” Short has reflected,
+
+	about art; about feminism and feminist criticism; about friendship and its abuses; about memory, expectation, and desire; about identity and self-definition; and (of course) about interactive fiction and NPC design. Any short story I could have written would have been torn apart by material so diverse. Even a branching, Choose-Your-Own-Adventure kind of presentation couldn’t have covered all the ground I wanted to cover. In this medium, however, I had the freedom to put all the threads in there, leaving it up to the player to choose.17
+
+Galatea won Best in Show at the event it had been conceived for, and its reputation would grow to eclipse the virtual gallery that had shown it. “I was expecting about fifty people” to ever play it, Short recalled years later.23 Today many thousands have. Her experimental art piece, like Photopia, has become one of the canonical examples of what IF as a medium can do—even though both pieces by design stripped many of that medium’s conventions away. But Galatea captures something compelling about the strengths of text games and the potential for interactive characters, if we could only learn to write and play with them in more human ways. “It’s not only a remarkably detailed and intimate portrait of an unusual NPC,” wrote reviewer Duncan Stevens at the time, “but it’s one without any parallel … a quantum leap.”24 The game would become “a benchmark against which other NPCs are measured,”9 both in interactive fiction and in games writ large. Emily Short would go on to become one of the most acclaimed interactive fiction authors of her time, and an influential presence in the evolution of story and character in mainstream games, where many writers envied the flexibility and complexity a text game NPC could aspire to.
+
+The original IF Art Show, predating the following decade’s debates about whether games could be art, presumed as a baseline that, of course, they could. Marnie Parker had hoped to inspire more interesting questions, like what kind of art they were best at being. Her call for submissions challenged interactive fiction writers to ask themselves if continuing to chisel out the same old statues was good for the form, and whether there might be more interesting ways of bringing them to life. “I hope you [authors] will enjoy feeling the ‘clay of IF’ between your fingers,”5 she wrote. Not everyone on the newsgroups quite followed what her virtual gallery exhibit was meant to achieve. “It’s so simple you may not get it,” she conceded. “But as we head toward more puzzleless IF it is worthwhile exploring the IF ‘medium’ itself more.
+
+“It is also worthwhile exploring just to explore,” she added, “and see what emerges.”4
+
+
+References
+
+1) Cadre, Adam. 2005. “Galatea.” Calendar, adamcadre.ac. Mar 7, 2005. adamcadre.ac/calendar/11/11354.html | a Jul 5, 2021
+2) Denby, Lewis. 2009. “Letters Of Love: Galatea.” Rock, Paper, Shotgun (blog). Jul 20, 2009. www.rockpapershotgun.com/letters-of-love-galatea | a Jul 5, 2021
+3) Dickens, Evan. 2002. “IF Week Part 4: Five IF Personalites.” Adventure Gamers (blog). Sep 24, 2002. adventuregamers.com/articles/view/17555 | a Jul 5, 2021
+4) Doe. 1999a. “[ANNOUNCE] The First Annual Text Art Show (Juried).” Usenet post, rec.arts.int-fiction. Mar 7, 1999. groups.google.com/g/rec.arts.int-fiction/c/jpp1U1A1xrw/m/OGmzExK1IdQJ | a Jul 5, 2021
+5) Doe. 1999b. “[Update] 1999 IF Art Show Clarified Rules, Judges Selected.” Usenet post, rec.arts.int-fiction. Mar 16, 1999. groups.google.com/g/rec.arts.int-fiction/c/X88i9wQ_Bnw/m/A7_xuRunyGwJ | a Jul 5, 2021
+6) Doe. 2000a. “[IF Art Show 2000] Rules.” Usenet post, rec.arts.int-fiction. Jan 5, 2000. groups.google.com/g/rec.games.int-fiction/c/dmKxEi8_Anc/m/NMeGrLHN-vkJ | a Jul 5, 2021
+7) Doe. 2000b. “[IF Art Show 2000] Winners.” Usenet post, rec.games.int-fiction. Apr 2, 2000. groups.google.com/g/rec.games.int-fiction/c/42bTDs0dZQQ/m/7Ez10Rl-CkcJ | a Jul 5, 2021
+8) Doeadeer3. 1999. “Re: Why so Little Puzzleless IF?” Usenet post, rec.arts.int-fiction. Mar 4, 1999. www.iffydoemain.org/iffyart/quotes.htm | s Dec 28, 2013
+9) Granade, Stephen. 2011. “The Evolution of Short Works: From Sprawling Cave Crawls to Tiny Experiments.” In IF Theory Reader, ed. Kevin Jackson-Mead and J. Robinson Wheeler. Boston: >TRANSCRIPT ON PRESS.
+10) Jerz, Dennis G. 2000. “Eliza — Joseph Weizenbaum (1966).” Jerz’s Literacy Weblog. Jan 2000. jerz.setonhill.edu/intfic/eilza | a Jul 5, 2021
+11) Merical, Joe. 1999. “Why so Little Puzzleless IF?” Usenet post, rec.arts.int-fiction. Feb 28, 1999. groups.google.com/g/rec.arts.int-fiction/c/mvbEKiOe6Vw/m/xhRt31DjaUwJ | a Jul 5, 2021
+12) Palop, Cassandra. 2007. “User:Cassandra Palop/Galatea.” IF WIki. Feb 19, 2007. www.ifwiki.org/index.php/User:Cassandra_Palop/Galatea | a Jul 5, 2021
+13) Parker, Marnie. 2000. IF Art Gallery. members.aol.com/iffyart | s Sep 19, 2000
+14) Rosebaugh, Jonathan. 2001. “A Trinity.” IF-Review. www.ministryofpeace.com/if-review/reviews/20010126.html | s Feb 17, 2001
+15) Short, Emily. 2000. “NPC Conversation.” Emily Short Interactive Fiction (blog). www.mindspring.com/~emshort/convo.htm | s Apr 5, 2003
+16) Short, Emily. 2001a. “Galatea Cheats and Walkthroughs.” Emily Short Interactive Fiction (blog). emshort.home.mindspring.com/cheats.htm | s Jan 3, 2006
+17) Short, Emily. 2001b. “Multilinear Interactive Fiction.” Emily Short Interactive Fiction (blog). emshort.home.mindspring.com/multi.htm | s Jan 3, 2006
+18) Short, Emily. 2001c. “NPC Characterization: Being a Compendious Guide to the Asstd. Tricks of the Trade, as Far as the Author Has Been Able to Identify Them or to Devise Them Anew.” Emily Short Interactive Fiction (blog). emshort.home.mindspring.com/NPC3.htm | s Jan 6, 2006
+19) Short, Emily. 2004. “Magic Words: Interactive Fiction in the 21st Century.” Interview by Andrew Vestal and Nich Maragos for 1UP (blog). www.brasslantern.org/community/interviews/magicwords-d.html | a Jul 5, 2021
+20) Short, Emily. 2006. “Andrew Plotkin and Emily Short: The CGM Interviews.” Interview by Lara Crigger. Brass Lantern (blog). www.brasslantern.org/community/interviews/cgm-c.html | a Jul 5, 2021
+21) Short, Emily. 2016. “Emily Short - The Past, Present and Future of Interactive Fiction.” Conference talk presented at AdventureX, London. www.youtube.com/watch?v=C5bdYfifXLI | a Jul 5, 2021
+22) Short, Emily. 2018a. “Emily Short.” Interview by British Council Creative Economy. Medium Post. Aug 30, 2018. medium.com/games-story-telling/emily-short-is-one-of-the-leading-figures-in-the-interactive-fiction-if-scene-winning-awards-for-6acd48af9009 | a Jul 5, 2021
+23) Short, Emily. 2018b. “Galatea, Versu, Character Engine.” Conference talk presented at the Digital Cultures 2018, Lüneburg, Sep 2018. www.youtube.com/watch?v=S4hZOTRsILI | a Jul 5, 2021
+24) Stevens, Duncan. 2000. “Galatea” (review). SPAG #22, Sep 15, 2000. www.spagmag.org/archives/backissues/spag22.html | a Jul 5, 2021

@@ -1,0 +1,168 @@
+Photopia
+
+1998
+
+Adam Cadre (as Opal O’Donnell)
+Style: Parser
+Debuted: Oct 1, 1998 (IF Comp)
+Launch Platform: Z-machine v5
+Language: Inform 6
+
+Opening Text:
+
+	The streetlights are bright. Unbearably bright. You have to squint as hard as you can to keep your retinas from bursting into flame.
+
+
+Nothing felt momentous about Photopia’s first release. Indeed, twenty-six other games came out the same day. The fourth annual Interactive Fiction Competition unveiled the year’s new entries on the first of October, and as per its rules, no open discussion of the games in competition was allowed during the six-week judging period. The rule aimed to put all games on equal footing and keep early front-runners from dominating the conversation. Sometimes a game by a well-known author would attract lopsided attention anyway, but Opal O’Donnell was not a well-known name, and most players came to the game under that byline without preconceptions. In later years Photopia would often be called one of the best interactive fictions of all time, kindling one of the form’s most significant turns. But for those first six weeks, it was as anonymous as any other stick of wood.
+
+By 1998, IF Comp was already an established tradition with its own norms and conventions, not all of them written down. An axiom not explicitly stated by its rules was that interactive fiction fundamentally involved a marriage between story and puzzles. The lateral thinking problems popularized by early games like Adventure 1976 and Zork 1977 were seen as a necessary part of the medium Graham Nelson 1993 famously called “a narrative at war with a crossword”8—both story and puzzles were necessary for the analogy to make sense. Puzzles differentiated IF from choice-based interfaces like in Choose Your Own Adventures 1979, which (supposedly) required no skill to navigate. They gave players something meaningful to do within a simulated world; they provided pacing; and they offered a sense of accomplishment and ownership for reaching an ending. They were present in the graphical adventures still on retail shelves, like Grim Fandango [LucasArts 1998] or The Curse of Monkey Island [LucasArts 1997]. The previous year’s Comp winner, The Edifice [Lucian P. Smith 1997], had been a much-loved tour de force of puzzle design centered on deciphering an alien language, and nearly all high-ranking Comp games to date had worked hard to balance an interesting story with memorable challenges.
+
+In contrast, Photopia had few or no puzzles (depending on your definition). There had certainly been earlier experiments in puzzleless games, some quite high-profile: Joe Mason’s In the End [1996], Andrew Plotkin’s The Space Under the Window [1997], and Chris Klimas’s Mercy [1997] had all tried various flavors of puzzle-light or puzzle-free design, leaving copious amounts of discussion in their wake. Hypertexts like Patchwork Girl or Uncle Roger came from a separate tradition of interactive text without gameplay challenges. Even Infocom had experimented with near-puzzle-free designs in titles like A Mind Forever Voyaging. But to the IF newsgroup community these were all exceptions, not rules. Many reviewers still gave points for puzzles and story separately, such that a game that left out one would inherently get a lower score than a game with both. Some reviewers would even give a game without puzzles the lowest possible ranking, as a protest against what they felt was an abuse of the form—by their definition, puzzleless games were not interactive fiction at all. Releasing a puzzle-free game in IF Comp was not, at the time, a good strategy for winning it.
+
+If you’d asked a film historian around the time of Photopia’s release to name the greatest movie of all time, the title you’d probably hear would be Citizen Kane. This could be baffling to newer generations of movie fans. Kane was a good film, but the best ever? Really? The root of the disconnect is historical context: Orson Welles’s film became remembered as the most visible example of a momentous shift in cinematic style. It popularized so many technical and narrative innovations that became part of the new lexicon of filmmaking, it’s hard for later generations to realize they were ever absent. Photopia’s fame has sometimes left newer cohorts of IF fans similarly perplexed. “I guess this was groundbreaking?” one skeptical review from 2019 begins; “[it’s] fun to read, but it’s not a masterpiece or anything.”7 IF author Emily Short has noted that “a number of its features look perfectly ordinary now,”12 even though they were revolutionary at the time. At the risk of overfitting the analogy, we might note both Orson Welles and Adam Cadre (Photopia’s true author) were twenty-four years old when they began work on their bellwether titles, and neither of their audiences quite grasped the changes that were coming.
+
+As Photopia begins, you find yourself in the passenger seat of a speeding car. You and a drunken frat buddy are on the way to a late-night meetup with some girls you met at a ski lodge. Within a handful of turns, a predictable disaster strikes:
+
+	You look up. “Hey, it’s red,” you say.
+
+	“Huh what?” Rob says.
+
+	“The light,” you say. “You know, red? As in STOP?”
+
+	But you don’t stop. You don’t even slow down as you fly into the intersection, and the light stays an unmistakeable red… 
+
+The screen empties so only the word RED remains, the text color shifting to a red font against a black background. Now you’re somewhere and someone else: an astronaut named Wendy, “first girl on the red planet,” exploring the wreckage of a prior mission and looking for salvage. You play for long enough to start believing this must surely be the game’s main story, despite its incongruous prelude and some oddities in the narration you can’t at first explain:
+
+	Every remnant of the colony you’ve encountered so far has left a depression. (“Remnant” means a remaining piece. “Depression” means a sort of bowl-shaped hole in the ground.)
+
+And some of it suggests this reality isn’t quite what it seems:
+
+	>examine spaceship
+	This is your trusty spaceship, which you recently renamed from the Space Pony to the Aspiration—a wise choice, if I may say so.
+
+	>sleep
+	You may be feeling drowsy in real life, but not in the story!
+
+But just when you start to get a handle on the kind of story you’re in and who might be telling it, the setting shifts again, the colors snapping back to monochrome. Now you’re a suburban mom rescuing her young daughter from a near-fatal drowning. But then comes a segue into another fantastical bedtime story—this one SEA-BLUE—and as successions of colorful dream worlds and monochrome everyday vignettes continue, the out-of-order scenes cohere into a single story of a teenage girl named Alley whose life is cut short far too early. While you never play Alley herself, by the final scene you’ve been many of the people whose lives intersected with hers or who will mourn her once she’s gone, coming to understand what she meant to each of them. It’s a tragedy you must piece together yourself, as if the loss it narrates is so senseless it can’t be told directly but apprehended only in shattered fragments, one piece at a time. 
+
+Shortly after Photopia’s release, Adam Cadre described himself in a similarly fragmented way:
+
+	I’m 25 (but look somewhere between 13 and 17.) … I’m straightedge. I’m multiracial. I’m overeducated.… I suppose I can call myself a professional writer now that I’ve sold my first novel, but it still seems a bit silly to say that.… I suppose I can also call myself a professional musician, since I’m in a band which has a CD for sale.… I feel equally uncomfortable calling myself a teacher, since even though I work as a substitute teacher and in-home tutor, I don’t have a class of my own.… I’m not a capitalist and so I suppose that defining myself in terms of how I make money, as the culture seems to demand, is bound to feel wrong to me.10
+
+Unlike many IF authors, Cadre hadn’t discovered the genre as a kid, but years later. He picked up a compilation of Infocom games in the mid-90s, finding Steve Meretzky’s haunting and literary A Mind Forever Voyaging especially fascinating. The collection had included the winners of the first IF Comp as a bonus feature, and Cadre was thrilled to learn the medium he’d just discovered wasn’t dead: there were still people writing and sharing and theorizing about text games. He wrote one of his own that became a surprise hit, so he decided to release his second under a pseudonym, to see if the concept would work on its own terms without a known author’s name behind it. Picking an idea that he thought he could finish in time for the IF Comp deadline, he began work on a story he’d later say was inspired by everything from the film The Sweet Hereafter to Carl Sagan’s Cosmos to the death, years before, of his infant sister. His new game would be part of a growing body of interactive fiction taking inspiration more from life and literature than fantasy novels or other games.
+
+Photopia can be read as a tragedy, all the more affecting because you’re both invited to help enact it and powerless to prevent it. But it can also be understood as a critique of the tropes then foundational to IF design. The game begins with two unattributed lines of dialogue, which the player later realizes are spoken by Wendy—the girl listening to the fantastical bedtime stories—and Alley, her babysitter:
+
+	“Will you read me a story?”
+
+	“Read you a story? What fun would that be? I’ve got a better idea: let’s tell a story together.”
+
+This promise of collaboration has often been at the heart of IF’s appeal. It’s appeared in one form or another throughout its history—as marketing copy promising tales that adapt to every choice you make, in academic essays arguing for the potency of an interactive medium, in the mouths of fans gushing about why interactive stories are so much better than linear ones. “Let’s tell a story together.” And yet Photopia makes the case that this promise is usually made with crossed fingers. “You have to admit,” Wendy later observes, that “even though she SAYS you’re making up the stories together, Alley does most of the work.” 
+
+Photopia’s first storybook scene, RED, clothes itself in familiar IF trappings: a large area to explore on the red planet; interesting damaged equipment that seems primed for involvement in later salvage and repair puzzles. In fact, it’s an elaborate shell game. The rooms of the map are laid out in a fixed sequence, placed in the same order no matter which directions the player happens to go; and when you read the descriptions more closely, you’ll find few items you can actually interact with or acquire. Try to find something to TAKE in this room description:
+
+	Inside the housing unit
+	Since no one ever moved into this unit, it’s really nothing but an empty gray box, no bigger than your bedroom back home. These quarters weren’t designed with anything but sleeping in mind: the first colonists were expected to take their meals in a central dining commons, and bathrooms were to be in a separate structure, with each one shared by a number of people. Still, you can’t help but feel a twinge. This was going to be someone’s HOME. The first thing they saw when they woke up, the place they looked forward to retreating to after a hard day doing research or exploring the planet’s surface or helping to maintain the colony. There were going to be pictures on these walls, footprints on the floor. Now the only footprints left here will be yours.
+
+In fact only a single object can be claimed from the desolate landscape, and there’s only one thing you can do with it. As the game continues, it becomes increasingly clear the player is being led, step by step, through an entirely preordained story. “Whispering voices tickle the edge of your hearing,” implying you should listen to continue; a character tosses you a remote control and says you can “push the white button,” leaving little doubt as to what your next command should be. All good IF uses these tricks to a certain extent, of course, but Photopia often pushes them to extremes that make them uncomfortably visible. In one scene, a man on the phone with paramedics gives your character step-by-step instructions for reviving a young Alley pulled face-down from a pool:
+
+	“First you must tilt her head back!”
+
+	>tilt head
+	You tilt her head back.
+	 
+	“Good!” Gabriel says. “Now you must breathe into her mouth.”
+	 
+	>breathe into mouth
+	You breathe into Alley’s mouth.
+	 
+	“Good!” Gabriel says. “Now you must press her chest.”
+
+If you fail to comply with these prompts, Gabriel shoves you aside and performs them himself. Earlier in this scene, if you don’t investigate the sounds of a worrying splash, your character drifts toward it of her own volition regardless of what you instruct her to do. In another sequence your commands are even typed out for you, removing your ability to interact entirely.
+
+Yet expectations of agency—of the chance to influence outcomes, to meaningfully interact with an interactive fiction—are so ingrained that the player can’t help but try to intervene. In a scene playing as Wendy’s father, driving Alley home after a night of babysitting, the player is meant to have a heart-stopping revelation. “Suddenly, in the middle of the conversation,” one reviewer noted,
+
+	I realized, “Oh no, we’re going to crash! Maybe I have the opportunity to change what will happen!” I typed “STOP” and [skidded into the intersection, to be] hit by the other car. I had this awful feeling of being just barely too late.17
+
+The game, as replay makes clear, ensures you are always just barely too late, no matter what you type or when you type it. But the moment still has power, precisely because the medium has so trained players that bad outcomes are their own fault. If you lose in a world where “your choices really matter,” it must be because you weren’t good enough to win. The player feels the same guilt as the characters who couldn’t keep Alley safe, even if there was nothing they could have done to save her.
+
+Some players resented this. “If there had been some way to alter the central event,” wrote one, “indeed some way of interacting to go down anything other than the one ordained path, I’d have been a whole lot happier with this piece.”5 Others have assumed Photopia means to tell a story about predestination: the railroaded structure as the inevitability of fate. But IF author Victor Gijsbers has noted that Cadre’s project seems less concerned with removing the player’s free will than pointing out it had never really been there in the first place:
+
+	How much of the interactive fiction that precedes Photopia allows the player to change the outcome of the story? (And indeed, how much of the interactive fiction that came after Photopia allows it?)
+	
+	The answer is, of course, “almost none.”6
+
+Most interactive fiction has only one ending—or one “correct” ending, and many unsatisfying ways to lose. If plot lines branch, they generally rejoin. Gijsbers argues that IF’s promise of meaningful agency has often been an emperor with no clothes, and Photopia is merely the first game to so nakedly point this out.
+
+Gijsbers proposes that Cadre’s project is less about exploring themes of predestination than of how we make meaning through stories, regardless of the manner in which we tell them. Much of the game hinges around the stories Alley hears from others and the way she passes them on in turn, part of a chain of human meaning-making that continues even when her link is abruptly removed. Her father shares his love of astronomy with her in a late-night stargazing session, speaking of the way elements like iron and gold are ejected from supernovas. Later Alley spins Wendy a story of a beach filled with gold fallen from the sky. The supernova anecdote was encoded by Cadre from a story he perhaps heard from Carl Sagan, and in telling it, no matter whether the medium is interactive or not, he passes it on to us. When we play Photopia, we’re telling a story together—and that matters; we’re a real part of the chain of retellings—even if Cadre is the one doing most of the work. In this interpretation it’s stories, not sandboxes (real or illusory), that really matter.
+
+In one of Photopia’s most famous scenes, adventurer Wendy becomes lost in an open-air labyrinth surrounding a crystal city. Its terse description echoes the mazes from Adventure and many games that followed.
+
+	You step into the crystal labyrinth and immediately get lost.
+
+	In the crystal labyrinth
+	You are in a dazzling crystal maze, with passages leading out to the north, south, and west.
+
+	>south
+	You wander around the maze of glass until you find yourself at another intersection… 
+	 
+	In the crystal labyrinth
+	You are in a dazzling crystal maze, with passages leading out to the west, east, and south.
+
+The rooms resist any attempt to map them, and there seems at first no escape. Yet the parser—the narrator, Alley—keeps drawing your gaze upward, mentioning the blue color of the sky above the roofless labyrinth, or the soaring architecture of the city looming over its walls. As you continue to wander, the cooling unit fails on your spacesuit, and the narrator describes an increasingly unbearable heat, prompting the player to finally type: 
+
+	>remove suit
+	You take off your spacesuit and drop it on the ground.
+
+And then, a few turns later:
+
+	The cool breeze ruffles the feathers of your wings.
+
+Players often remember this moment from Photopia as the solution to a puzzle, but that’s not quite what’s happening. The story has never mentioned wings before, nor have the instructions ever introduced a verb to use them. But the way the scene has been presented, it’s almost inevitable that the next thing most players will type is: 
+
+	>fly
+	You stretch your wings and soar into the sky.
+	 
+	Flying above the crystal labyrinth
+	You are hovering above the crystal labyrinth; from this perspective, it looks like a mind-bogglingly complex mandala. (A “mandala” is a pattern that some people use in prayer.) There is no way you could have possibly navigated it on the ground—in fact, it almost gives you a headache. Much more relaxing is the cloudless, sparkling blue sky all around you.
+
+“I have never seen a more astounding example of adroit use of the ‘magician’s choice,’” wrote one reviewer,14 referring to the technique of prompting an audience member to act exactly as the performer intended. It may not be a puzzle, but flying in Photopia is memorable for capturing so perfectly the feeling of solving one: the joy of realizing something you can type will open new doors and unlock new stories, making your part in the telling feel meaningful. Magician’s choice or not, if the magic works, who cares? Once escaped from its limitations, the confusing snarl of the labyrinth becomes a mandala, a symbol of meaning and reassurance. And the use of the word “labyrinth” may itself be significant: though the words are often used interchangeably, a labyrinth is distinct from a maze in that it has only a single path with no branches or dead ends. Walking it always leads to the center.
+
+As the fourth IF Comp ended and the review embargo lifted, some commenters found fault with Photopia’s deconstructionist approach, whether or not they were conscious of how intentional it had been. One called out its “unpleasantly linear” nature: “The plot is compelling, but there’s just not enough interactivity to make it worthwhile.”19 Another wrote, “In IF I don’t want all puzzles, but, on the other hand, I don’t want all story either, I want a balance. I want a nice tension between the two that allows me to feel that I am the protagonist affecting the plot.”4 Many took offense at calling Photopia interactive fiction at all, suggesting it ought to have been disqualified from competition. Some weren’t even sure it counted as a game, and that included Cadre himself: “It’s not a game, of course,” he wrote, “but I find myself calling it one anyway.”10
+
+Not for the first time, the IF community was a decade ahead of the conversation in the wider gaming world. The 2008 release of the linear, deconstructionist Dear Esther [Dan Pinchbeck] would kick off years of discussion—and, sadly, harassment—about what kinds of experiences “count” as real games. Esther, a mod for the engine that drove popular shooter Half-Life 2 [Valve 2004], like Photopia removed a foundational pacing mechanic from its genre (in this case, shooting enemies). The game and its copycats elicited scathing reviews and passionate defenses of so-called walking simulators in the early 2010s, echoing the same conversations about Photopia’s lack of puzzles that had played out on the IF newsgroups in the late 1990s.
+
+Resistance to Photopia was real, but not as strong as anyone, including its author, expected. Cadre had not intended to win the Comp, hoping only that folks would find his game—story—whatever—“a mildly interesting experiment.”10 But even before the judging period had ended and open discussion could begin, excitement was mounting:
+
+	If there was a prize for “competition game most mentioned on the newsgroups before the deadline had passed,” Photopia would win hands down. Everyone was quite courteous about it, spoiler warnings and rot13 and all that, but there was a marked impatience to talk about this game, recommend it to other people, make it the test case in any number of arguments.9
+
+Photopia took first place in the competition, and also won the Miss Congeniality award where entrants vote for their favorite games by other authors. While even some of its fans suggested it might have worked just as well had it been a traditional short story, others argued passionately for exactly the opposite. “IF is the ideal medium for this story,” wrote one;17 another called it “perfectly suited to the I-F medium,”2 and a third deemed it “a breakthrough” for the form.1 A retrospective years later, reflecting on this split of opinion, would theorize that the piece works so well precisely because it violates preconceptions of how it is supposed to work:
+
+	Photopia uses its medium not just as a gimmick, but to create an effect that would be lost in a non-interactive narrative form.… It is a work of fiction that utilizes the ideas of a game, the technical framework as well as the audience’s expectations … to tell its story.15
+
+Cadre’s success signaled that the parser IF community was beginning to broaden its horizons—not looking exclusively inward or backward but out, toward new and different possible futures. Slowly at first, but with increasing momentum, story would begin to take prominence over puzzles in the games the community celebrated, which in turn would influence larger conversations about what successful interactive narratives could look like. A decade after Photopia, browser text games like Fallen London were telling complex interactive stories without anything like traditional puzzles, while Twine-based hypertext stories, most puzzleless, would soon become increasingly popular. Even games that kept using the technical scaffold of Infocom’s Z-machine let many of its affordances for locked doors, expiring light sources, scored points, and unexpected deaths grow dusty and disused. Photopia was not the sole cause of all these changes, of course, any more than Citizen Kane single-handedly changed cinema, and the evolution took place over decades, not in a single moment. But in the years since, Photopia has come to stand in for that fictional point of transition, a fulcrum which many felt shifting even then. Andrew Plotkin, author of So Far 1996, began his review of Cadre’s game by writing simply: “This, I think, will do.”11
+
+Photopia is about a moment that changes everything, so it feels somehow fitting that its legacy would be to stand in for such a moment in interactive fiction’s history. Whether its impact will continue to be felt by newer generations of game makers remains an open question. Citizen Kane rarely tops best-of lists any more, routinely ousted in the 2000s by The Godfather and, more recently, Star Wars. The conversation moves on—but those who lived through the moment find it hard to forget.
+
+
+References
+
+1) Barnwell, Brendan. 1999. “Photopia” (review). XYZZYnews #18. ifarchive.org/if-archive/magazines/XYZZYnews/XYZZY18.TXT | a Jul 6, 2020
+2) Bruce. 1998. “A Lurker’s Competition Games Reviews.” Usenet post, rec.games.int-fiction, Nov 16, 1998. groups.google.com/forum/#!msg/rec.games.int-fiction/ospgvm159w0/FUZvjVoeZCQJ | a Jul 6, 2020
+3) Cadre, Adam. 2000. “The Photopia Phaq, v2.1.” adamcadre.ac. adamcadre.ac/content/phaq.txt | a Jul 5, 2020
+4) Doe. 1998. “[Comp 98] Doe’s (Female Deer’s) Reviews, Photopia.” Usenet post, rec.games.int-fiction, Nov 18, 1998. groups.google.com/forum/#!msg/rec.games.int-fiction/iw3UVDYcJu0/wOjv0ycFEgsJ | a Jul 6, 2020
+5) Firedrake. 1998. “[COMP98] [SPOILERS] Firedrake’s Reviews 1/2.” Usenet post, rec.games.int-fiction, Nov 17, 1998. groups.google.com/forum/#!msg/rec.games.int-fiction/3vC7VeJ-5bg/DpSxMQYSbhQJ | a Jul 6, 2020
+6) Gijsbers, Victor. 2008. “SPAG Specifics: Photopia.” SPAG #53, Nov 16, 2008. www.spagmag.org/archives/backissues/spag53.html#Photopia | a Jul 6, 2020
+7) HaleyDreams. 2019. “I Guess This Was Groundbreaking?” IFDB. Dec 3, 2019. ifdb.org/viewgame?id=ju778uv5xaswnlpl&review=50811 | a Jun 30, 2022
+8) Nelson, Graham. 1995. “The Craft of the Adventure: Five Articles on the Design of Adventure Games.” Self-published. mirror.ifarchive.org/if-archive/info/Craft.Of.Adventure.pdf | a Jul 26, 2020
+9) O’Brian, Paul. 1999. “Photopia” (review). SPAG #17, May 10, 1999. www.spagmag.org/archives/backissues/spag17.html | a Jul 5, 2020
+10) Olsson, Magnus. 1999. “Interview With Adam Cadre.” SPAG #17, May 10, 1999. www.spagmag.org/archives/backissues/spag17.html | a Jul 5, 2020
+11) Plotkin, Andrew. 1998. “Reviews: IF Competition 1998.” E BLONG. www.eblong.com/zarf/gamerev/comp98.html#1 | a Jul 5, 2020
+12) Short, Emily. 2007. “Canonical.” IFDB. Oct 21, 2007. ifdb.org/viewgame?id=ju778uv5xaswnlpl&review=1002 | a Jun 30, 2022
+13) Skinner, Suzanne. 1998. “[Comp 98] Surprises.” Usenet post, rec.games.int-fiction, Nov 17, 1998. groups.google.com/g/rec.games.int-fiction/c/-N_0vDoykKk/m/zKe3tk6-2A4J | a Jul 5, 2020
+14) Smith, Lucian. 1998. “Lucian’s Ratings: Comp’98.” Lucian Smith’s Website. www.bioc.rice.edu/~lpsmith/IF/rate98.html | s May 12, 2008
+15) Sorooshian, Roxana. 2017. “In Focus: Photopia.” Storytelling Study (blog). Dec 8, 2017. genreandstorytellinginvideogames.wordpress.com/2017/12/08/in-focus-photopia | a Jul 6, 2020
+16) Stevens, Duncan. 2011. “10 Years of IF: 1994-2004.” In IF Theory Reader, ed. Kevin Jackson-Mead and J. Robinson Wheeler. Boston: >TRANSCRIPT ON PRESS.
+17) Straight, Michael. 1998. “[Comp98] More Praise for the Good Stuff (1 of 2).” Usenet post, rec.games.int-fiction, Nov 17, 1998. groups.google.com/forum/#!msg/rec.games.int-fiction/cmQFXn5IOyU/KUsATQSNgdcJ | a Jul 5, 2020
+18) Walker, John. 2008. “Photopia” (review). Rock, Paper, Shotgun (blog). Mar 31, 2008. www.rockpapershotgun.com/2008/03/31/photopia | a Jul 5, 2020
+19) Wildstrom, Jake. 1998. “[COMP ’98] Reviews (Feel Free to Hate Me for Them…).” Usenet post, rec.games.int-fiction, Nov 17, 1998. groups.google.com/forum/#!msg/rec.games.int-fiction/B8_HhoCf8T4/XvfSoNC67KcJ | a Jul 6, 2020

@@ -1,0 +1,138 @@
+Howling Dogs
+
+2012
+
+Porpentine Charity Heartscape
+Style: Hypertext
+Debuted: Oct 1, 2012 (IF Comp)
+Launch Platform: Web
+Language: Twine
+
+Opening Text:
+
+	A room of dark metal. Fluorescent lights embedded in the ceiling.
+
+
+When the 2012 Interactive Fiction Competition opened for its eighteenth season with the usual crop of TADS and Inform 7 entries, few in the parser games world were expecting the seeds of a revolution. Certainly none had imagined such revolution might be heralded by a one-room game from a first-time entrant using a development tool that few had even heard of—three red flags right there. And while other entries that year lured players with traditional blurbs mentioning crowd-pleasers like spaceships, manor house mysteries, and magic, one description stood out as not quite like the others:
+
+	mysterious game…hyperlink powered, yes, but what ethos does it promote? a death ethos? my god…or uh, visions, gender, the hyphen between dream-notdream, fascination, feeling anything at all?
+
+	two significant endings
+
+The game in question begins with (and takes its title from) a story by Kenzaburō Ōe, the 1994 Nobel Prize winner who once described his life’s work as “writing about the dignity of human beings.”12 Then, after long seconds of nothing but a dark screen, the game describes a prison: a complex of small metal rooms lit by fluorescent lights, with no explanation of who you are, why you’re there, or why there’s no way out.
+
+	The activity room is in the north wall. The lavatory entrance, west, next to the trash disposal and the nutrient dispensers. The sanity room is in the east wall.
+
+	Her photograph is pinned to the side of your bunk. A red LCD reads 367 a few inches over.
+
+Clicking the highlighted words lets you explore your surroundings, a limited world that seems at first to have the same simulationist assumptions as traditional parser IF. Space is divided into discrete rooms; interacting with the nutrient dispensers produces food and bottled water; consuming these makes trash, which litters up the room description; trash can be disposed of in the trash disposal. In the bathroom is a functional shower. The sanity room has wall-to-wall scenes projecting peaceful vistas, and the photograph is of someone you once loved whose memory grows fainter each day. Each day, the LCD counter ticks up by one.
+
+	Her photograph is pinned to the side of your bunk. A red LCD reads 368 a few inches over.
+
+The activity room provides the only fleeting escape:
+
+	A reclining chair in a dark room with a visor hanging from the ceiling.
+
+	You sit down and pull the visor over your head. The visor interior is soft and enveloping. You squeeze the drip tube between your teeth and sickly sweet fluid floods your mouth. Pulses fire into your retinas.
+
+The simulation rig takes you to new virtual worlds, but each is only another prison. As Joan of Arc (or maybe just someone like her) you await immolation for the crime of believing yourself to be something no woman was allowed to become. As a kept companion in a looming stone house on a moor, your oppression becomes so unbearable that murdering your hateful captor is the only possible choice for your character—no matter what words the player chooses to click. As a child empress in a fantasy kingdom, you ritually study the most artful and proper ways to die, learning how to keep your family from shame at the moment of your inevitable assassination.
+
+These are not just any prisons. They are prisons for women, stages for mythic yet painfully familiar traumas of oppression, of control, of societal roles and the impossible weight of rebelling against them. Like many of the new flood of games built with a tool called Twine, Howling Dogs was concerned with themes and issues not often explored in games by men—or, for the most part, in games at all. It was a kind of story that gamers had rarely seen, part of a burgeoning conversation in the form of experimental text games happening between outsider designers in the process of expanding that medium’s horizons forever.
+
+Created in 2009 by parser IF author Chris Klimas, Twine was an elegant visual tool for creating hypertext stories, works where the user clicks words in on-screen prose to advance through a network of linked textual nodes. Hypertext fiction had been around for decades, though without the same culture of freely sharing work that had grown up around other styles of interactive fiction. Twine attracted few users at first, despite its many advantages as a tool: it was free, it had friendly documentation, and it let you export your games as standalone web pages playable in any browser.
+
+Twine’s interface gave authors a workbench where they could create and link named boxes together; these boxes contained text that could be linked to other nodes by wrapping their names in double brackets:
+
+	The [[activity room]] is in the north wall. The [[lavatory]]  entrance, west, next to the [[trash disposal]] and the [[nutrient dispensers]].
+
+The author would then create nodes named activity room, lavatory, and so on, until all mentioned links led to defined passages. That was it, more or less: while other syntax allowed for advanced features like tracking variables, tweaking styles, or varying text conditionally, the foundation of Twine was remarkably simple. At first, many thought it was perhaps too simple: only a handful of small Twine stories had been released by the early months of 2012, more than two years after Twine’s debut. Existing hypertext authors assumed a far more powerful tool was necessary to do real work, while many parser IF fans were simply not interested in something that seemed so basic. Leading IF languages like TADS or Inform 7 could simulate a model world and understand complex input, qualities seen as prerequisites to an interesting interactive experience—though this consensus had begun to change, as evidenced by a 2010 post on Emily Short’s blog entitled “So, Do We Need This Parser Thing Anyway?”10 And while the web browser was becoming a relatively stable platform for complex applications, few interactive story engines were yet natively using it. The exceptions came from communities with little overlap, failing to reach the critical mass necessary to shape larger discourse. 
+
+Parser IF could take months to write. Howling Dogs was written in a single week of intense creative output, in what would become a common pattern for its author, Porpentine Charity Heartscape (then writing as just Porpentine). A young trans woman kicked out of her home at age fourteen—she would later say in an interview that before she started making games, she was “just surviving”5—Porpentine was familiar with parser IF and had written games in Inform. But she’d become frustrated by the implicit gatekeeping of the parser, and the more explicit elitism of parts of its community. Near the end of 2012 she published an extraordinary manifesto and tutorial, “Creation Under Capitalism and the Twine Revolution,”8 laying out the parser’s frustrations both for players—“an invisible god figure that punishes you for failing to understand, as a representation of the smirking nerd, the obnoxious dungeon master”—and for would-be authors, not all of whom were privileged enough to have the time, education, and financial security to master it. While the community that had formed around rec.arts.int-fiction in the early 1990s had standardized a consistent notion of what interactive stories could be, Porpentine suggested that this conception had blind spots, some of which seemed to outsiders to be enshrined into monopoly:
+
+	What do we see when we search interactive fiction? I mean, the first couple pages of actual search results.
+	
+	Dead pages full of links to past glories of the 90s, maybe early 2000s. A lot of the active stuff isn’t very welcoming to minorities. I see stories set in colleges, mansions, middle-class homes, generic fantasy worlds. I’m not college, I’m not mansions. What is that to me?
+	
+	But above all else, they all have one thing in common. They presume parser as the default.
+	
+	… Some say non-parser isn’t interactive fiction.
+	
+	If the words can be interacted with, it’s interactive fiction.
+
+“We have a problem,” Porpentine’s manifesto continued,
+
+	which is not admitting the degree to which we rely on games for anesthesia. They’re disposable alternate lives that slowly devour our real ones. “Gamers” are junkies, games are their junk, and there’s a kind of game criticism that’s primary function is enabling them to deny that. When we don’t ask more from games, it’s because we don’t want them to get better. We’re afraid of the world and we’d rather explore the boundaries of these fake, facile ones.
+
+The false escapes of Howling Dogs’ virtual prisons echo this notion of hollow game worlds, and one reading suggested by the author parallels the stories of “those who have lived in that tiny room … in increasingly deteriorating circumstances, as you become less and less capable of caring about yourself. And what is the only thing you can afford? Terrible food and some kind of glowing screen, and when you look away from the screen, you’re still in the same place.”11 But the piece also supports other readings: of games as necessary spaces for exploring alternate possibilities, and for understanding unthinkable truths in the form of more visible virtual shadows. In one world you’re asked to choose how to describe a garden seen only through a narrow slit: your choice changes the story you see next about a chance encounter with the garden later in life. The selection of frame becomes a way to tame a place containing some objective truth only partly revealed, turning it into comforting parable or thematic touchstone. Presented with incomplete truths, we do our best to make them part of our selves.
+
+While Howling Dogs’ frame story replicates the feel of a traditional parser game, with its compass directions and verb-driven interactions, the virtual worlds you visit explore a range of different styles and typographic effects. Twine authors were in the midst of evolving a new hypertext language that, akin to parallel evolution in biology, shared some surface features but almost no ancestry or vocabulary with hypertext theory in academia. Twines abounded with experiments in what linked texts could mean and what they could do. In Dogs, links are used at various times for pacing, revealing more text each time the final word is clicked; to zoom in on details, returning to the previous node after they’ve been read; as explicit choice points, like in a gamebook; or as toggles, letting the reader adjust a specific detail in a scene. While the game’s structure is largely linear—each playthrough progresses through the same series of vignettes—the shifting meaning of a link and the inability to rewind to a previous node makes the player uncertain about their role in the story and its potential scope. (“The nature of my involvement with it felt like I was constantly endeavoring to exert control that I didn’t have,” one reviewer wrote.6) Another Porpentine game, Myriad [2012], features multiple long sequences hidden behind unassuming links that can completely change the scope and meaning of a playthrough, making an individual traversal feel slippery, chaotic, personal. 
+
+Dogs also looks striking for a text game. Porpentine modified the default Twine template, Sugarcane, to remove its navigational controls, placing the text large and centered against a black background instead of inside a familiar frame. Some text blurs when you hover your mouse over it, or stays blurred no matter what you do. Transitioning between the virtual worlds and the “real” one of the frame story is always marked by clicking the character sequence {*}, a typographic breakpoint that suggests both the interruption of an asterisk’s footnote, and an orifice that offers a biological, not a technological, transition. Carefully timed pauses on black screens bring a heavy sense of pacing and momentum that parser games have trouble matching. And rather than prioritizing multiplatform support by running in an abstracted virtual machine that limited an author’s control over text presentation, Twine games were exclusively for the modern web, which meant they could access that platform’s full power with far more control over styles and aesthetics. In the years to come, Twines by Porpentine and others would become even more visually striking, presented with all the care and attention to detail of professional typographers and layout designers. 
+
+But it’s the writing and storytelling that make Howling Dogs most memorable. As you return again and again to your prison and sleep off the day’s simulations, your environment slowly degrades. The trash receptacle sticks shut; discarded food wrappers and broken water bottles begin to pile up on the floor. The shower stops working and your skin becomes itchy and gross. The virtual escapes become increasingly desirable, even if the worlds you escape to are implicitly the same. In the house on the moor, “more than three hundred days have elapsed” since your captor brought you, aligning with the LCD counter in your prison. Joan of Arc’s cell mirrors the layout of the protagonist’s, down to its compass-point positional details:
+
+	Sometimes they slide in food and drink […] My filth lies in the corner. The door on the north wall opens only to offer me great pain, agitation, and ultimately, confusion.
+
+But amidst the oppressive stories of degradation and powerlessness are moments of rich emotional clarity and arresting writing. As your character is dragged away to be burned at the stake, “the stones wonder if it is interesting to suffer.” In a blood-soaked riff on videogame ultraviolence, “reliquary tanks piloted by giant saint skulls crash” through villagers, “shredding hearts into flimsy strips that hang from chest-holes like tinsel wigs.” A villain’s cruel smile “is tearing her apart, teeth brimming off the edge of her face.”
+
+The last and longest sequence paints a vivid portrait of a fantastical world of dead gods, living cities, and jeweled birds the size of mountains. In one of the game’s most striking moments, your child empress, trained her whole life to watch for assassins, is overwhelmed by the details of a palace festival filled with dangerous visitors:
+
+	Soporific fumes of smoky blue drift through the hall, heralding the beginning of the most august, most sacred, most portentous Festival of Sleep! Strum and pluck of stringed instruments as servants wearing masks of pure black pour dreamliquid for everyone, gracefully moving from pool to pool of cushions not spilling a drop as throat dancers leap from pillar to pillar making the ceiling leap with shadows and somehow the shadows are leaking petals, a marvelous trick, and stampeding through the garden are black horses with jeweled riders symbolizing night bringing phantasmagoria and everyone gathers at the windows to watch them go […]
+
+The text spills past the end of the page, the screen filling up with blue links: dangerous, intriguing possibilities. But one link (not part of the excerpt here) stands out to a reader who remains engaged with the text and actually reads it closely. One link reveals that something is wrong. The reader who clicks it can find a different and perhaps more satisfying ending than the one who clicks at random, assuming so many links must surely all go to the same place. If you and the empress are observant enough to pass this test, you spot a threat early enough to flee from it: a threat you’ve been trained your whole life to run from. You’re given multiple opportunities to click away through the {*} escape link, to wake up and return to your dreary reality. But sometimes true escape only comes by pushing through fear:
+
+	Running through the darkness past glowing, disembodied hearts. They span into the distance until they look like stars.
+
+	You feel an aching hollow as your gaze twists across the beautiful hearts, the bold hearts, the true hearts.
+
+	“don’t stop, please
+
+	they’re just showing you what you already have”
+
+“Many people describe a sort of catharsis that they feel when they play Porpentine’s games,” wrote Laura Hudson in a 2014 profile of the author, whose Twines had by then had become increasingly visible viral successes. “There’s a sudden sense of relief that something important but taboo has finally been acknowledged in a game, and perhaps has left them feeling less alone in the process.”5 One reviewer expressed much the same sentiment when they wrote that “having spent the last two-ish weeks trying to articulate exactly what Porpentine’s game howling dogs means to me in sort of a critical way, I’m going to have to declare intellectual bankruptcy.… I find it very personal. SO FUCK IT. I like howling dogs.”1
+
+The parser interactive fiction community, at least at first, didn’t know what to make of this new kind of game. In the competition it didn’t even place in the top ten, and it was awarded the dubious “Golden Banana of Discord” given to the game with the greatest spread between low and high scores. One reviewer gave it a middling score but seemed to like it more than he thought he ought to: “I play for enjoyment, and I didn’t enjoy this a great deal, hence the 3 stars [out of 5]. It was confusing, it was confronting, and as Art it succeeded in unbalancing me. It was quite well done.”3
+
+But perhaps some of this reaction was just the shock of immersion into unfamiliar waters. When the community’s annual XYZZY Awards were announced in early 2013, Howling Dogs was nominated in all major categories, winning in two. Parser game advocate Emily Short began to cover Twine and Twine authors on her blog in the last months of 2012, and she became a champion for making text game communities more welcoming to more kinds of authors. Three other Twine games were released alongside Dogs in the 2012 IF Comp; in the next competition there were thirteen. Twines and games written in other parserless systems would soon equal or exceed the number of parser entries each year, a new status quo that would continue for the next decade and counting. Jettisoning all the assumptions of a parser—and its libraries of preapproved verbs, messages, simulation rules, and parsing strategies—gave up a lot of complexity, but left behind a clay far easier to shape into something new. “Twine,” Porpentine wrote, “is the closest we’ve come to a blank page.”8
+
+Twine’s rise, in a way, continued a move begun fifteen years earlier with Photopia 1998 to minimize puzzles in IF and focus on writing and storytelling instead. But more honestly, Twine’s growing popularity had little to do with the parser world’s norms and traditions at all. Creators who never felt at home there—whether for technical, societal, social, or other reasons—were suddenly part of an explosion of new, innovative, fascinating works of interactive fiction. Twine games like Mastaba Snoopy [gods17 2012], rat chaos [Winter Lake 2012], and my father’s long, long legs [Michael Lutz 2013] were nothing like what other game-making communities were writing, and were often being made by people underrepresented in those spaces: brown people; queer people; folks without coding backgrounds or the means to host their own websites. (Many early Twines were shared via free Dropbox links, not permanent URLs.) The standard Twine style sheet, white text with blue links on a black background, became for a few years a kind of calling card: a sign that this was a different sort of game, one that might not make the same assumptions that the old interactive fiction took for granted.
+
+Many fans of text games, including most of the parser IF scene, welcomed the new games and new voices. There were ugly and significant exceptions—a 2013 Twine called Depression Quest [Zoë Quinn et al. 2013] would become the first target of the Gamergate harassment campaign against women and queer creators. But many authors saw that a bigger tent could only be a good thing for the future of a narrow niche. More people making, sharing, and loving text games spoke not to dilution, but to continued relevance, demonstrating beyond doubt there were many frontiers of interactive text still left to explore.
+
+Porpentine would become a leading voice in the so-called Twine revolution: the term coined in her manifesto is now widely used by game scholars. She would create new work at an unflinching pace of furious experimentation—releasing twenty-five games between 2012 and 2014, many of which were soon regarded as classics—and with an equally unflinching willingness to challenge and expand perceptions of what storytelling in games can do. One example: her game With Those We Love Alive [2014; with Brenda Neotenomie] asks the player to design and draw symbols on their body that the protagonist uses to channel her power, forming a physical connection between player and character that remains long after the browser window has closed and the game’s code is no longer running. “By the end, we’re marked with the decisions we’ve made,” one reviewer wrote. “I found it awfully moving.”7
+
+The radical Twine scene had quieted down by the 2020s, the tool now just another in game makers’ arsenals, the games created with it now mainstream. But like a pen drawing sigils on skin, the early Twines left an impression on interactive fiction that will take a long time to fade. And when considering what’s next for IF in the years and decades to come, a lesson from Howling Dogs seems particularly apt: you can’t break out of a prison until someone’s shown you the walls.
+
+	A square of leaves dipped in silver, hissing with wind, bristling with night. 
+
+	The bedroom window. You are awake. You consider going back to sleep, then remember:
+
+	I am awake now because it would be most interesting to be awake now.
+
+	So you get up.
+	--> up
+
+	The patter of interesting things on the sill, on the threshold, at the door. Uncohered interesting things still forming at the corners of your eyes, latent fascinators prickling, swirling just out of sight.
+
+	The calendar has no days and the clock, no hours.
+
+	…Which life was this again?
+	-->again
+
+	{*}
+
+
+References
+
+1) Chu, Edmund. 2014. “On Howling Dogs.” Solitonic (blog). May 4, 2014. solitonic.co/blog/2014/5/5/on-howling-dogs | a May 4, 2020
+2) Clark, Wade. 2012. “Bold, Weird Dreaming through Hypertext Innovations.” IFDB. Oct 1, 2012. ifdb.org/viewgame?id=mxj7xp4nffia9rbj&review=18344 | a May 5, 2020
+3) Frater. 2016. “Dense and Somewhat Haunting.” IFDB. Aug 19, 2016. ifdb.org/viewgame?id=mxj7xp4nffia9rbj&review=37904 | a Aug 10, 2022
+4) Heartscape, Porpentine Charity. 2017. “Porpentine Charity Heartscape.” Artforum (blog). Mar 13, 2017. www.artforum.com/interviews/porpentine-charity-heartscape-talks-about-her-works-in-the-2017-whitney-biennial-67067 | a Aug 10, 2022
+5) Hudson, Laura. 2014. “Twine, the Video-Game Technology for All.” New York Times, Nov 19, 2014, sec. Magazine. www.nytimes.com/2014/11/23/magazine/twine-the-video-game-technology-for-all.html | a May 4, 2020
+6) Murray, Gabriel. 2012. “IF Comp 2012: Howling Dogs (Porpentine).” Orestes Drunk and Pylades Fasting (blog). Nov 25, 2012. orestesdrunk.wordpress.com/2012/11/24/if-comp-2012-howling-dogs-porpentine/ | a Aug 10, 2022
+7) O’Connor, Alice. 2014. “Physically Interactive Fiction: With Those We Love Alive.” Rock, Paper, Shotgun (blog). Nov 14, 2014. www.rockpapershotgun.com/drawing-violences-mundanity-with-those-we-love-alive / a Aug 10, 2022
+8) Porpentine. 2012. “Creation Under Capitalism and the Twine Revolution.” Nightmare Mode (blog). Nov 25, 2012. nightmaremode.net/2012/11/creation-under-capitalism-23422 | s Aug 5, 2013
+9) Robertson, Adi. 2021. “Text Adventures: How Twine Remade Gaming.” The Verge (blog). Mar 10, 2021. www.theverge.com/22321816/csk-twine | a Oct 19, 2021
+10) Short, Emily. 2010. “So, Do We Need This Parser Thing Anyway?” Emily Short’s Interactive Storytelling (blog). Jun 7, 2010. emshort.blog/2010/06/07/so-do-we-need-this-parser-thing-anyway | a May 4, 2020
+11) Short, Emily. 2012. “Interview with Porpentine, Author of Howling Dogs.” Emily Short’s Interactive Storytelling (blog). Nov 23, 2012. emshort.blog/2012/11/23/interview-with-porpentine-author-of-howling-dogs | s Mar 12, 2017
+12) Sterngold, James. 1994. “Nobel in Literature Goes to Kenzaburo Oe of Japan.” New York Times, Oct 14, 1994, sec. Books. www.nytimes.com/1994/10/14/books/nobel-in-literature-goes-to-kenzaburo-oe-of-japan.html | a Aug 10, 2022

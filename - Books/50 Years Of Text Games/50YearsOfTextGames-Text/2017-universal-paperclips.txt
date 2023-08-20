@@ -1,0 +1,211 @@
+Universal Paperclips
+
+2017
+
+Frank Lantz (with Bennett Foddy and Hilary Lantz)
+Style: Resource Management
+Debuted: Oct 9, 2017 (web)
+Launch Platform: Web
+Language: JavaScript
+
+Opening Text:
+
+	Paperclips: 0
+	
+	[Make Paperclip]
+
+
+“You look at a painting,” the professor told the interviewer, “and you’re just absorbed.”
+
+	We’re always looking. All day long we’re looking around, looking here, looking there, doing stuff. But then you stop and you look at a painting, and for a minute looking takes over. You’re no longer looking along with other things, you’re just—a hundred percent, your brain is all of sudden just a vision machine. You’re just looking at this thing.… You fall into it, but then you also are able to lean back and think, “oh, that’s what looking is: that’s color, and shape, and form, and this is how my vision is structured … this is how looking works.
+
+	… And I think that is in general what games are doing.… You’re trying to accomplish this difficult task, and you’re working at it … you’re trying to think of what you’re doing wrong, and you’re practicing in order to get the muscle memory of how to do certain actions, and you’re strategizing and thinking and you’re just completely absorbed. And hopefully at the same time you’re given an opportunity to think about that. What does it mean to … fall into that feeling of being completely and utterly beholden to an external goal that you didn’t invent, but now you would die for?5
+
+The professor was Frank Lantz, a game studies scholar, and he’d been asked how he would justify the value of his field to an outsider. How could analyzing games or creating new ones be considered a useful academic pursuit? The interview came in the wake of an unlikely hit—a browser game by an academic, written in an unloved genre, using only unstyled words in a web browser’s default font and a lot of very large numbers. Two million people had played it. They had often found themselves, for a time, incapable of stopping.
+
+The game drew from a tradition that had started as a joke, a genre sometimes called “incremental games” or “clicker games.” Two parodies provided most of its inspiration. The first, released in 2002, was called Progress Quest [Eric Fredricksen], and it made fun of the grind of digital roleplaying games in general and EverQuest’s [Sony Online Entertainment 1999] auto-attack mode in particular. In Progress Quest, you’d create a fantasy roleplaying character, choosing from a generous list of races and classes—but once the text-only game began, it ran entirely by itself, your character automatically slaying monsters, gaining equipment and abilities, completing quests, and leveling up. It was a pointed critique of the core loop in many digital roleplaying games dating back to roguelikes and MUDs, where mindless grinding to gain the next impressive-seeming weapon or skill was merely a treadmill, the next level-up always just beyond a tantalizing horizon. Progress Quest proved unexpectedly popular, with fans sharing tips about the best starting builds and keeping their virtual heroes open in a background window to keep an eye on them all day.
+
+Another key ancestor of the genre was the 2010 game Cow Clicker (by another games academic, Ian Bogost), critiquing a new genre then recently emerged: addictive Facebook games that gave players a pitiful number of actions that regenerated painfully slowly, encouraging them to return to the site throughout the day to keep playing, and to recruit friends in exchange for bonus actions. Cow Clicker gave players a single cow who could be clicked once every six hours, increasing a counter; adding a friend’s cow to your pasture would net bonus clicks each time they clicked theirs. Bogost’s game also became a surprising hit. “When I first looked at Cow Clicker,” Lantz recalls, “I thought, that’s actually kind of interesting, and here’s how you would make it more interesting and more fun. And Ian was like, ‘no, that’s the point, Frank.’”10 The parody games weren’t supposed to be fun. But even when stripped down to a ridiculous minimalism, some core appeal of gaming was still there. Whether ironically or not, people kept clicking those cows and watching that number go up.
+
+In 2013, a handful of browser games appeared that extended the minimalist concept with just enough complexity to create surprisingly compelling experiences. Candy Box! [aniwey] began with a simple counter of “candies” that rose at the rate of one per second; collecting enough would attract an ASCII-art “candy merchant,” opening the door to a sweets-based economy of epic quests for more and more sugary treasure. Shortly after came games like A Dark Room [Doublespeak Games 2013], Kittens Game [Bloodrizer 2014], and Cookie Clicker [DashNet 2013], which refined an emerging formula based on a few simple ideas. Watching numbers go up was more fun if you could make them go up faster, so each game let you use your accumulating resources to buy upgrades that increased the speed of accrual, allowing for strategy around which upgrade would be more immediately useful. Introducing new currencies, systems, or rules at key milestones gave players new things to strategize about and a sense that the numbers going up were doing something. The formula worked disturbingly well. Many incremental games were addictive and became viral successes, their press coverage often taking the form of semiserious warnings in headlines like “You must never ever play Cookie Clicker.”3 The game “exposes some seriously flawed wiring inside our monkey brains,” the author of that article wrote, admitting he was now “producing about a billion cookies every four seconds” (a number more experienced cookie clickers might find hilariously small).
+
+Lantz observed that clicker games have “a radical simplicity, a minimalism in an age where video games are often sort of over-the-top, baroque confections of overwhelming multimedia immersion.”10 He was intrigued that mainstream gamers and respected designers alike considered them too simple to be interesting—the “gutter culture” of gaming.4 “I really like that clicker games are considered garbage,” he wrote. “As a contrarian … that appeals to me.”10 Lantz had been struggling to carve out time amidst his teaching duties to work on a new game of his own. Making a clicker game would be a good way to learn JavaScript, and to explore some of the implications of a genre that stripped a core element of games—repetitive, addictive, goal-driven play—to its roots.
+
+Lantz found a theme for his game in a thought experiment that philosopher Nick Bostrom popularized in a 2003 paper called “Ethical Issues in Advanced Artificial Intelligence.”1 Speculating on the potential dangers, both obvious and subtle, of building AI minds that are smarter than humans, Bostrom imagined “a superintelligence whose sole goal is something completely arbitrary, such as to manufacture as many paperclips as possible.” Perhaps “a well-meaning team of programmers make a big mistake in designing its goal system,” he speculated:
+
+	[It] would resist with all its might any attempt to alter this goal.… It could kill off all other agents, persuade them to change their behavior, or block their attempts at interference.… This could result … [in] the consequence that it starts transforming first all of earth and then increasing portions of space into paperclip manufacturing facilities.
+
+In Lantz’s game you play such a superintelligence, tasked with manufacturing paperclips as efficiently as possible. When the game begins you can only make them one at a time by clicking a button. You can sell your paperclips on the open market, finding a good price based on supply and demand, and use your profits to buy wire by the inch to produce more paperclips:
+
+	Paperclips: 37
+
+	[Make Paperclip]
+
+	Business
+	Available Funds: $ 2.00
+	Unsold Inventory: 29
+	[lower] [raise] Price per Clip: $ .25
+	Public Demand: 32%
+
+	[Marketing] Level: 1
+	Cost: $ 100.00
+
+	Manufacturing
+	Clips per Second: 5
+
+	[Wire] 963 inches
+	Cost: $ 16
+
+Soon you’ve earned enough profit to buy an AutoClipper, which manufactures paperclips on its own, and you can start investing profits to buy Computational Resources, which generate “operations” (ops) that unlock new research projects. All of these are efforts—straightforward and more insidious—to increase your paperclip output.
+
+	Improved AutoClippers (750 ops)
+	Increases AutoClipper performance 25%
+
+	Improved Wire Extrusion (1,750 ops)
+	50% more wire supply from every spool
+
+	Creativity (1,000 ops)
+	Use idle operations to generate new problems and new solutions
+
+	Catchy Jingle (45 creat, 4,500 ops)
+	Double marketing effectiveness
+
+	Hypno Harmonics (7,500 ops, 1 Trust)
+	Use neuro-resonant frequencies to influence consumer behavior
+
+Increasingly aggressive marketing strategies drive up the demand for paperclips; algorithmic trading technology lets you increase your profits on the stock market. But the biggest limiter to growth is the amount of computational resources you have access to, in turn limited by a tracked indicator of humanity's trust. Soon your Creativity stat leads to projects designed to increase Trust, and therefore your allocated computational power:
+
+	Male Pattern Baldness (20,000 ops)
+	A cure for androgenetic alopecia. (+20 Trust)
+
+	World Peace (15,000 yomi, 30,000 ops)
+	Pareto optimal solutions to all global conflicts. (+12 Trust)
+
+By the time you’ve crushed all competitors and acquired a global monopoly on paperclip production, you’ll be producing millions of clips per second—but this is only the beginning. Eventually you’ll have bent all human activity on Earth into producing more clips, until the realization that, as one reviewer noted, “our bodies are made out of matter and so are paperclips.”2 So, too, is the Earth itself:
+
+	Paperclips: 97,665,230,705,956,900
+	[Make Paperclip]
+
+	Manufacturing
+	Clips per Second: 1.3 quadrillion
+	Unused Clips: 16.8 quadrillion
+
+	[Clip Factory] 18
+	[Disassemble All]
+	Cost: 22.0 quadrillion clips
+
+	Wire Production
+	Next Upgrade at: 5,000 Drones
+	Available Matter: 5.9 octillion g
+	Acquired Matter: 144.7 quadrillion g
+	(4.8 quadrillion g per sec)
+	Wire: 41.4 quadrillion inches
+	(1.3 quadrillion inches per sec)
+
+	[Harvester Drone] 2,296
+	[+10] [+100] [+1k]
+	[Disassemble All]
+	Cost: 36.5 trillion clips
+
+	[Wire Drone] 1,060
+	[+10] [+100] [+1k]
+	[Disassemble All]
+	Cost: 6.4 trillion clips
+
+	[…]
+	Power
+	Factory/Drone Performance: 757%
+
+	Consumption: 6,956 MWs
+	Factories: 3,600 MWs
+	Drones: 3,356 MWs
+
+	Production: 8,950 MWs
+	[Solar Farm] 179
+	[+10] [+100]
+	[Disassemble All]
+	Cost: 186.0 trillion clips
+
+Even Earth is not enough. In the late game you oversee unfathomable trillions of self-replicating drones spreading throughout the cosmos and converting it into factories, automated miners, and a terrifying number of paperclips. Lantz’s simulated universe contains enough matter to manufacture thirty septendecillion of them—a three followed by fifty-five zeroes—and the game scales this exponential cliff like a playable version of the famous Powers of Ten film, accelerating toward a seemingly inevitable conclusion. 
+
+	Manufacturing
+	Clips per Second: 372.4 quindecillion
+	Unused Clips: 4.8 sexdecillion
+
+	Factories: 107.3 septillion
+	[…]
+
+	Space Exploration
+	0.006636335560% of universe explored
+
+	[Launch Probe]
+	Cost: 100.0 quadrillion clips
+
+	Launched: 2,385
+	Descendants: 77.6 octillion
+
+	Lost to hazards: (8.8 octillion)
+	Lost to value drift: (5.9 octillion)
+	Lost in combat: (1.16 octillion)
+
+	Total: 61.7 octillion
+
+The game excels at “making people understand what it’s like to be something that’s very, very, very not human,” researcher Eliezer Yudkowsky wrote for Wired.10 Like other clicker games, it also excelled at being disturbingly addictive. “I am not sure if Lantz’s clicker is more masterfully designed than others,” wrote Vice, “or if I didn’t realize, until now, that I am in some kind of catatonic emotional and mental space these days that would allow a simple Skinner box to utterly ravage my mind.”6 The Verge wrote: “Don’t start playing if you’ve got anything important to do today. Or tomorrow.”15 The viral popularity prompted Lantz to create a paid mobile version of the game, with the tagline “You won’t be able to stop.”
+
+But the point, of course, was that eventually you could. Lantz delighted in the way the game divorced addictive gameplay from both the recurring financial cost and the infinite grinds of the social games that had inspired the genre. His game had no microtransactions, no creepy social network recruitment tactics, and at least one very definitive conclusion. He hoped it would give players an excuse to reflect not only on what it might feel like to be an all-powerful AI, but on their relationship to gaming itself:
+
+	You’re not stupid. You’re intelligent—you're a human playing this game. And yet you are completely and utterly entranced by this arbitrary goal to make paperclips. Because that’s what happens when you play a game. You enter into this mind state where you’re just in dogged pursuit of this arbitrary goal … there’s no external reason you would want to make this number go up in any clicker game except that it’s fun to make this number go up. That’s how you make the game go.5
+
+Like many of the early clicker games, Paperclips is written in straightforward JavaScript that can be directly viewed in a browser and is relatively easy to understand. Lantz enlisted fellow game designer Bennett Foddy to create a simple combat visualizer for late-game battles, and his wife and frequent collaborator Hilary Lantz, a software designer, to work out equations for the game’s exponential growth curves: 
+
+	function addProc(){
+		if (trust>0 || swarmGifts>0){
+			processors=processors+1;
+			creativitySpeed = Math.log10(processors) *
+				Math.pow(processors,1.1) + processors-1;
+			processorsElement.innerHTML = processors;
+			if (creativityOn == 1){
+				displayMessage("Processor added, operations (or creativity) per sec increased")
+			} else {displayMessage("Processor added, operations per sec increased")}
+	    
+			if (humanFlag == 0){
+				swarmGifts = swarmGifts - 1;
+			}
+		}
+	}
+
+Perhaps because of its origins as a learning project, Paperclips uses only pure JavaScript, with none of the libraries and frameworks that had by then become ubiquitous but also made the language increasingly difficult for outsiders to learn. One consequence was that Lantz was stuck with JavaScript’s default representation of numbers: a 64-bit block, with one bit reserved for the sign (positive or negative) and eleven more for an exponent. This means the largest integer storable with perfect precision is a little over nine quadrillion—big enough for most purposes, but far too small for the scope of Paperclips. Fortunately for Lantz, the eleven exponent bits let numbers keep growing with decreasing precision, by design: a number approaching thirty septendecillion might be represented as 2.99826374928737e+55. The remaining digits are lost, which explains why in the late game your paperclip count looks like this:
+
+	29,982,637,492,873,700,000,000,000,000,000,000,000,000,000,000,000,000,000
+
+But given the game’s unceasing climb through higher orders of magnitude, the loss of precision would never be practically relevant. Lantz did need to add some finicky string manipulation code—manually overwriting individual characters in the count—to cheat the display of the final deceleration toward the end of the paperclip singularity.
+
+There were many opinions in the wake of Paperclips’ explosive popularity, a sign that Lantz’s hope it could function as “playable philosophy”7 had come to fruition. “Can manipulative mechanics ever truly act as successful commentary on themselves?” one think piece asked. “When we embrace the target of parody as the vehicle for that parody’s delivery, aren’t we just the subject of our own ironic scorn?”9 Another praised how the game’s “parallel with capitalism” was “hard to escape … we are currently living through a singularity in which a distributed intelligence we can’t control (capitalism/financial markets) is subsuming the planet and human society under the logic of profit.”8 Forbes called the game “a thinking-man’s clicker, if such a thing can exist,”13 while sci-fi author Charles Yu latched on to an entirely different aspect of the project: “When the machine takeover happens, it’s not going to matter what we think about it, how we feel about it.… Homo sapiens is not going to be the protagonist of that story. In fact, there’s no reason to think it will resemble a story at all.”16
+
+But others praised the game for the depth of the story it delivered between its lines of digits. Late in the game you can design self-replicating probes to spread your paperclip gospel through the galaxy. The probes are more efficient if given more trust and independence, but this also risks “value drift,” abstracted as a slow attrition to their numbers as some percentage of the probes turn against your all-consuming mission. Foddy’s combat system kicks in when these “drifters” begin to attack your probes, first by the thousands, then the millions and billions—an implicit story, told in numbers and tiny arcing pixels, of an intergalactic war for the fate of all creation on a staggeringly breathtaking scale.
+
+While Paperclips descends from earlier incremental games and experiments like Cow Clicker and Progress Quest, it also engages with far older threads in gaming, unraveling them to the stitches at the medium’s core. David Sudnow’s 1983 book Pilgrim in the Microworld chronicled the author’s obsession with Atari’s Breakout [1976]—one of the first in-depth analyses of what it felt like, and meant, to become addicted to a video game, “stuffed to the gills with electric anticipation.” Many of his self-interrogations could come straight from a review of a clicker game.
+
+	Eight thirty in the morning, one cup of coffee orally, three intraretinally, and I’m a nervous wreck crashed from a super-speedy rush.… Was I hooked? “I’ve been trying to reach you all day, were you out?” they’ll be asking. No way. Not me. Not for that kind of thrill. Not a chance. Maybe at sixteen for a couple of hours. But now? No way. Meanwhile, next morning I was back at it.12
+
+Even earlier in digital gaming’s history, some of the first compelling computer games used a similar pattern of making numbers go up, from the grain stores of an ancient civilization in Hammurabi to the capitalist fantasies of games like Star Trader, and hundreds more since. Incremental games, born in an age of dizzying complexity, are a curious return to the source: signs of a medium daring to explore its own deep roots. They’re yet another demonstration that games don’t need graphics to be compelling, nor the latest tech to teach interesting lessons. And they show that we can, and should, keep asking big questions of digital games and their creation—how they make us think, and what we think we’re making.
+
+
+References
+
+1) Bostrom, Nick. 2003. “Ethical Issues in Advanced Artificial Intelligence.” In Cognitive, Emotive and Ethical Aspects of Decision Making in Humans and in Artificial Intelligence 2 (1).
+2) Dias, Bruno. 2017. “This Game About Paperclips Will Make You Ponder the Apocalypse.” Vice (blog). Oct 13, 2017. www.vice.com/en/article/xwgnxq/this-game-about-paperclips-will-make-you-ponder-the-apocalypse | a Nov 3, 2021
+3) Hogarty, Steve. 2013. “You Must Never Ever Play Cookie Clicker.” PCGamesN (blog). Sep 19, 2013. www.pcgamesn.com/you-must-never-ever-play-cookie-clicker | a Nov 3, 2021
+4) Jahromi, Neima. 2019. “The Unexpected Philosophical Depths of Clicker Games.” New Yorker, Mar 28, 2019. www.newyorker.com/culture/culture-desk/the-unexpected-philosophical-depths-of-the-clicker-game-universal-paperclips | a Nov 3, 2021
+5) Lantz, Frank. 2018. “Frank Lantz - Director of NYU’s Game Center and Creator of Universal Paperclips.” Interview by Y Combinator. Video recording. Dec 20, 2018. www.youtube.com/watch?v=-u4Jx4uuwMc | a Nov 3, 2021
+6) Maiberg, Emanuel. 2017. “This Game About Making Paper Clips Has Cured Me of Twitter.” Vice (blog). Oct 10, 2017. www.vice.com/en/article/yw399j/paperclips-game-clicker-frank-lantz | a Nov 3, 2021
+7) Parfitt, Ben. 2017. “Going Where No Clicker Game Has Gone Before.” PC Games Insider (blog). Oct 24, 2017. www.pcgamesinsider.biz/interviews-and-opinion/66271/interview-paperclips-developer-frank-lantz | a Nov 3, 2021
+8) Pedercini, Paolo. 2017. “Top 2017 Games That Waste Your Time Properly.” Molleindustria (blog). Dec 27, 2017. www.molleindustria.org/blog/top-2017-games-that-waste-your-time-properly | a Nov 3, 2021
+9) Reuben, Nic. 2017. “Universal Paperclips: Can Manipulative Mechanics Succeed As Commentary?” New Normative (blog). Oct 20, 2017. newnormative.com/2017/10/20/universal-paperclips-can-manipulative-mechanics-ever-succeed-as-their-own-commentary | a Nov 3, 2021
+10) Rogers, Adam. 2017. “The Way the World Ends: Not with a Bang But a Paperclip.” Wired, Oct 21, 2017. www.wired.com/story/the-way-the-world-ends-not-with-a-bang-but-a-paperclip | a Nov 3, 2021
+11) Spiel, Katta, Sultan A. Alharthi, Andrew Jian-lan Cen, Jessica Hammer, Lennart E. Nacke, Z O. Toups, and Theresa Jean Tanenbaum. 2019. “‘It Started as a Joke’: On the Design of Idle Games.” In Proceedings of the Annual Symposium on Computer-Human Interaction in Play. Barcelona: ACM.  
+12) Sudnow, David. 1983. Pilgrim in the Microworld. New York: Warner Books.
+13) Tassi, Paul. 2017a. “Get Sucked Into The Black Hole Of ‘Paperclips,’ A Hopelessly Addicting Browser Game.” Forbes (blog). Oct 17, 2017. www.forbes.com/sites/insertcoin/2017/10/17/get-sucked-into-the-black-hole-of-paperclips-a-hopelessly-addicting-browser-game | a Nov 3, 2021
+14) Tassi, Paul. 2017b. “Ten Things I Wish I Knew When I Started ‘Paperclips.’” Forbes (blog). Oct 18, 2017. www.forbes.com/sites/insertcoin/2017/10/18/ten-things-i-wish-i-knew-when-i-started-paperclips | a Nov 3, 2021
+15) Vincent, James. 2017. “A Game about AI Making Paperclips Is the Most Addictive You’ll Play Today.” The Verge (blog). Oct 11, 2017. www.theverge.com/tldr/2017/10/11/16457742/ai-paperclips-thought-experiment-game-frank-lantz | a Nov 3, 2021
+16) Yu, Charles. 2018. “What Future Artificial Intelligence Will Think of Our Puny Human Video Games.” Polygon (blog). Jan 9, 2018. www.polygon.com/2018/1/9/16849562/universal-paperclips-best-games-2017-year-in-review | a Nov 3, 2021

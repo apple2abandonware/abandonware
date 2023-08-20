@@ -1,0 +1,309 @@
+
+
+Before the 70s
+
+
+Graphics came first, despite the popular tale of primitive text games that pretty pictures displaced. While the story holds true for some of the first generation of home computers, digital games had been around for a long time by then. The earliest, from Bertie the Brain’s Tac-Tac-Toe [1950] to Tennis for Two [1958] to Spacewar! [1962], were all visual. It was language and text—storing it, assembling it, understanding it—that, at first, was hard. 
+
+The earliest digital games used mothballed World War II radar displays, oscilloscopes, or grids of blinking lights for their graphics. In 1947, two New Jersey physicists submitted a patent for a Cathode-Ray Tube Amusement Device, which let the player shape arcs of curved light on a screen. The beams signified the paths of virtual artillery shells, and plastic airplane decals attached to the screen showed the position of targets. If the player could align their beam with a target, they scored. Though it never moved beyond the prototype phase, even this early game had flashy graphics. On a hit, a clever engineering trick forced a resistor overload, causing the display to briefly lose focus and the bright dot of the missile to blur into a fuzzy circle—a tiny expanding explosion.
+
+People were playing with cathode ray tubes on the other side of the Atlantic too. A technology developed in England—the Williams-Kilburn tube, after its two inventors—could both store and display persistent binary data using a grid of visible dots. By reading the location of the brightened phosphors (which represented ones) and looping back a signal to keep them lit, the tube could “store” the very data it was displaying. The technology opened up a relatively inexpensive way to give a computer random-access memory, using the electrical signal to determine whether the phosphor dot at a given position was bright or dim. The visible grid of bits could give human operators an invaluable window into a running program, but it also gave them a canvas. In 1947, Williams and Kilburn configured their prototype to display the blocky words “C.R.T. STORE,” perhaps the first bitmapped text ever drawn to a screen.
+
+The two engineers developed a computer that could use their memory tube: the Manchester Baby, the first stored program computer. In a later incarnation, the Ferranti Mark 1, it also became one of the world’s first computers to be commercially sold. One of the earliest software games without dedicated hardware was devised for the Ferranti, first running successfully in 1952. It played a game of draughts (checkers), using the grid of phosphor dots on one of its small round Williams-Kilburn screens to draw the board and pieces. But the program could also output text to an attached teletypewriter, making it likely the earliest digital game to print full sentences. On startup, the machine would print:
+
+    PLEASE READ THE INSTRUCTION CARD.
+
+This was necessary because playing moves meant inputting a series of 5-bit numbers via a long row of switches—the computer could print English text more easily than it could receive it. After the user learned from the card that they needed to press a particular button on the console to proceed, the printer continued:
+
+    SHALL WE TOSS FOR THE FIRST MOVE? WILL YOU SPIN A COIN?
+    TAILS
+    HAVE I WON?
+
+Once the player answered, the game could begin. While moves were primarily shown visually on the CRT grid, the program would use the teletype to offer occasional feedback, which could get testy if the human took too long to move or entered incorrect data:
+
+    YOU MUST PLAY AT ONCE OR RESIGN.
+
+    KINDLY READ THE INSTRUCTIONS AND START THE MOVE AGAIN.
+
+    I REFUSE TO WASTE ANY MORE TIME. GO AND PLAY WITH A HUMAN BEING/.
+
+The text, and the rather clever draughts-playing program itself, were written by an unlikely programmer named Christopher Strachey. A brilliant mathematician, he had suffered a nervous breakdown halfway through his undergraduate coursework, later attributed to a struggle to reconcile his sexuality with the rigidly heteronormative world of the 1940s. Though he returned to finish his degree, he did not test well enough to continue on to graduate work and settled instead into a quiet life as a schoolteacher. But one of his college chums had been computing pioneer Alan Turing, and years later, idly curious, Strachey was able to get access to the Manchester computer through his old acquaintance.
+
+Strachey threw himself into the extraordinary challenge of programming early computers with an almost obsessive passion. A famous anecdote tells that he asked Turing for ideas: what should he write for his first program? Without cracking a smile, Turing suggested he write some code to make the computer simulate itself. Not knowing the task would be extraordinarily difficult, Strachey nevertheless came back some weeks later with a program not only far longer than any yet written for the machine, but one that ran correctly and played “God Save the King” through the system’s alert speaker when it finished—incidentally, one of the earliest pieces of computer music. Turing, refusing to be drawn out, responded only by muttering, “Good show.”
+
+After teaching the Manchester University Computer to play draughts, Strachey next programmed it to print out procedurally generated love letters. His code filled in template sentences with random words from a list of flowery adjectives, entered one tedious character at a time into the machine. Strachey pinned the printed love notes anonymously to the department’s notice board, to the consternation of colleagues:
+
+    HONEY DEAR
+        MY SYMPATHETIC AFFECTION BEAUTIFULLY ATTRACTS YOUR
+    AFFECTIONATE ENTHUSIASM. YOU ARE MY LOVING ADORATION: MY BREATHLESS ADORATION. MY FELLOW FEELING BREATHLESSLY HOPES FOR YOUR DEAR EAGERNESS. MY LOVESICK ADORATION CHERISHES YOUR AVID ARDOUR.
+    			             YOURS WISTFULLY
+    		        			   M. U. C.
+
+Strachey would go on to a long career as a computer scientist, pioneering many ideas in programming language design and time-sharing architecture. He was one of the very first software developers, and one of the earliest authors of prose meant for computers to perform—the godfather to all text games in the decades to come.
+
+//
+
+In the 1950s, programming computers to play games or write love letters was somewhat akin to blasphemy. Computers cost millions of dollars and were used almost exclusively for important matters like codebreaking or calculating ballistic trajectories. And indeed, some of the earliest complex computer games were wargames created by the US military as training exercises. One of these was a game called HUTSPIEL (1955) in which two players used a bank of dials and switches to interact with a real-time simulation—a complex model of a hypothetical battle in Europe between NATO and Soviet forces. The models that drove the game came from an unlikely source: a historian, Dr. Dorothy Kneeland Clark, whose career had centered around statistical analyses of real-world military conflicts, generalizing the messy data into reusable heuristics and equations. When a computer wargame project needed a numerical model on which to base its combat simulation, Dr. Clark was brought aboard to computerize her equations. Largely forgotten by gaming history, her work formed the foundation of one of the first complex computer games, and one of the earliest not based on an existing tabletop game like draughts. 
+
+Another thread of complex early computer games was evolving in the world of business management. (This might seem incongruous until you remember that management executives were some of the first customers of early computers.) In 1957, the American Management Association (AMA) ran an exclusive retreat for “participants in executive decision-making programs”31 where attendees were placed in teams to play, essentially, business wargames. Each team controlled a virtual firm manufacturing a product in a competitive market, setting a retail price and dividing expenditures between five possible categories including a marketing budget and production capacity. An IBM 650 would run each team’s decisions against a simple economic model and churn out quarterly reports. This was AMA’s Top Management Decision Simulation, and while it was a relatively simple demonstration for a very niche audience, it caught the attention of many businesses and business colleges eager to ride the wave of the future.
+
+A much more complex business game, The Carnegie Tech Management Game (first played in 1959), was created by a group of faculty members in the institution’s Graduate School of Industrial Administration. The game was designed to be played by a full class of second-year graduate students, divided into teams of five to ten that each managed a simulated company making detergent (selected, ironically, as a stable product mostly untouched by technological progress). Over the course of two semesters, teams would compete to make their company’s detergent products the leader in a virtual market, with the computer crunching hundreds of variables representing everything from tax rates to warehouse storage costs, production expenses, losses from union strikes, how consumers in various regions felt about three simulated detergent characteristics (washing power, sudsing power, and gentleness), and more. Players could make over three hundred unique decisions, and the program could generate reports with thousands of individual points of data.
+
+But the early business management sims were very different from later generations of computer games, because most of the time spent playing them happened offline, away from the machine. Computer time in the 50s was still incredibly precious, with programs processed in stages that involved human labor and mechanical action at each step. After a program had been written and encoded on a stack of punch cards, it would be loaded into a computer’s memory via a dedicated appliance the size of a refrigerator. A second stack of cards with data for the program to operate on would be loaded next. The program would execute, and the computer would output the results via another specialized appliance—a card printer, teletype, or magnetic tape storage system—that might then in turn be connected to a bulky printer to render output in a human-readable format. This system of “batch processing” programs meant dozens could be queued up for technicians to run in sequence, but it rarely allowed users to intervene in the middle of a run. Usually the earliest you could see the output of a program you wanted to run was the following day. 
+
+In Carnegie Tech’s management game, turns were batch processed at the end of each week and represented one month’s worth of business decisions. In the interim, most of the game was played in person. Each week’s turn began with the delivery of a series of “information reports,” printouts detailing the status of your team’s company. During the week, teams were encouraged to schedule meetings, strategize over product directions and marketing strategies, sort out issues with production lines or backlogs, and even report to a board of directors made up of faculty. Consensus would be reached through whatever org structures each team devised. By noon on Friday, teams were expected to submit a stack of “decision records” detailing changes to their corporate strategy over the next month; there were twelve different kinds of these forms, from “Production and Raw Material Ordering Decisions” to “Product Comparison Test Orders.” A clerk would convert the form submissions into a stack of data punch cards for each team and hand them to an operator to run through the program over the weekend, with the next set of information reports delivered the following Monday. 
+
+The early wargames (and business wargames) were an important step toward the text games of later decades, but they lacked two defining qualities those descendants would have. First, they weren’t technically interactive (an adjective that today applies to nearly all computer programs) because they couldn’t be played in real time. Strachey’s draughts program had allowed a user to sit in front of it and play out a full game, but this had only been possible in a research lab. In the real world, a computer’s time had to be allocated far more carefully to justify its expense. Computer access would need to become more readily available before interactive programs, and games in particular, could flourish. Second, computers and their users needed a language that each could speak with equal fluency, lest specialists remain the only ones who could use them. The most obvious choice for such a language was one the users already spoke. The quest to enable real-time, back-and-forth natural language dialogue between humans and machines would occupy the bulk of the 1960s, and many of the decades since.
+
+//
+
+A better language was of limited use while the chances to speak it were rare. Stuck in dedicated air-conditioned rooms guarded by trained technicians, each computer installation could only support a handful of users. The first time-sharing systems would go a good way toward solving this problem by the early 60s.
+
+Time-sharing turned a weakness of early human-computer interaction into a strength. The reason most mainframes couldn’t afford to be interactive was the long delay imposed by a human reading the results of an input, thinking about their next command, and typing it in—all wasted computer cycles. But if a single computer could split its time between multiple people, each connected to a remote terminal with their own sandboxed sessions, one computer might serve dozens or even hundreds of simultaneous users. Christopher Strachey filed the first patent for a time-sharing system in 1959, and by 1961 a system called CTTS (the Compatible Time-Sharing System) was running at MIT.
+
+Time-sharing was a force multiplier on the democratizing trends in computing. Not only was hardware getting smaller, cheaper, and faster, but each machine could now be used by more people—none of whom needed physical access to the actual computer, eliminating a security risk. All that users needed was a cheap “dumb terminal,” often just a teletype that could send and receive text when connected to a phone line. And that terminal might just as easily be across campus as around the world. Time-sharing began a chain of technical innovations that would lead to the modern internet.
+
+One of the first games to take advantage of time-sharing was the brainchild not of a hacker, but of a school teacher named Mabel Addis. At fifty-two years old, with hair beginning to go gray, she would design probably the earliest text game by the definition we use here. It was called The Sumerian Game.
+    
+         Imagine that you have just been made Ruler of Lagash, a City-State of Sumer, in the year 3500 B.C. Twice yearly your Royal Steward, Urbaba, will report to you the economic condition of the kingdom. Guided by these reports, you will decide the use of your grain and other resources, trying to keep your population stable and well fed. Between reports, your court advisor will come to you with news of your kingdom.
+
+         The Steward will use the typewriter to report and ask for your decisions. When the "Proceed" light comes on, type your answer in figure and press "Return". (If you make a mistake, press "Cancel" instead and try again). Good luck!
+
+The first inklings of The Sumerian Game came in the summer of 1962, when a cooperative of rural New York schools arranged a workshop with IBM. The goal was to brainstorm how computers could help students not just at the college level, but in primary schools too. At the workshop, IBM’s Bruse Moncreiff spitballed an idea for a simulation of supply and demand that could teach students basic economic theory. The meetings would lead to a grant from the US Office of Education, eager to catch up with Soviet classrooms in science and technology, for a series of pilot projects. Mabel Addis, an elementary school teacher with a degree in ancient history, pitched a project inspired by Moncreiff’s idea: an economics simulation set in ancient Sumer. Working with IBM programmer William McKay, she created a scenario designed for a teletype hooked up to an off-site IBM 7090 time-sharing mainframe. The ambitious program would take sixth-grade students through a succession of increasingly difficult scenarios playing as three generations of Mesopotamian rulers trying to keep their people fed. 
+
+    Economic Report of the Ruler's Steward for the SPRING season in the year 1 of Luduga I.
+
+    Population at previous report		       500
+    Change in population			      -155
+    Total population now			       345
+
+    The quantity of food the people received last season was far too little.
+    Harvest last season			     13000
+    Harvest this season			     14393
+
+    Previous inventory				      1301
+    Change in inventory			      -640
+    Present inventory				       661
+
+    Total resources, harvest + inventory 	     15054
+    You must now decide how to use your resources.
+    How many bushels of grain do you wish to FEED your people?
+    3500
+    How many bushels of grain do you want PLANTED for the next crop?
+    10000
+    This means that 893 bushels must be placed in storage. Is this all right? Do you wish to 1-let your decisions stand or 2-revise them?
+    1
+    Resulting inventory			      3993
+    The steward will execute the royal commands and return in 6 months.
+
+Addis faced a difficult challenge: how to turn a dry simulation into a story. Numbers were interesting to business grad students (presumably), but capturing the attention of twelve-year-olds would take more care. Addis devised a slideshow with recorded audio that would play before the student sat down at the computer, introducing the world of Sumer and the player’s role in the game. But the program itself would also need to be compelling. Addis would have to devise a narrative to frame the numbers as well as a character to tell it, the mildly obsequious steward to the king:
+
+    I lean heavily upon your wisdom, Luduga, but I am also here to help you. Tell me, if your population is increasing, would you expect the quantity of grain fed to your people to 1-increase 2-decrease?
+    1
+    Of course it should increase. Forgive me if my questions seem simple. It is my duty to urge you to see the relationship among the items in your Steward's reports.
+
+Like other early computer games, the heart of the program was a simple simulation—in this case, of crops and population. But this simulation was married to a story. Addis supplemented the dry progression of rising and falling numbers with anecdotes and events—disasters like floods or fires—that gave the losses a human cost, and gave students an emotional reason to learn how to manage them:
+
+    Ne-sag's family became ill with a fever while cutting reeds in the marsh lands. I am sorry to report that he and four grown sons have died. Fortunately the disease did not spread, but any loss of farmers is not to be taken lightly.
+
+The Sumerian Game would pass through many hands and sundry reinventions, eventually morphing into a game known as Hammurabi that became part of an early canon of personal computer games ported to each new system and rewritten for each new language. While the original’s source code is believed lost, the surviving transcripts show nearly all the qualities we identify in modern text games: a narrative and a simulation, natural language prose, and real-time interaction.
+
+But there was still one piece missing. While The Sumerian Game spoke eloquently with the words Addis wrote for it, players could only respond with numbers. Teaching computers to understand English input would be the hardest challenge yet.
+
+//
+
+When could you first type words into a computer and get words back in return? Like many firsts, it’s difficult to pinpoint with certainty. In their earliest decades, computers evolved so quickly that many innovations were made and lost and made again before spreading far enough to be standardized. Programming pioneer Grace Hopper recalled that “back in the early days [of the 1950s] there was a gadget called a Unityper” that would let you type programs directly onto magnetic tape: “Of course, it disappeared and we had to reinvent that wheel some years later.”15
+
+Computers had been hooked up to typewriters from the very beginning. Even the punch card output of the ENIAC, progenitor of the twentieth-century computer revolution, could be fed into a tabulator to render its results into more human-readable forms. But sending data back into the computer via keyboard was trickier. “In the early years of programming languages, the most frequent phrase we heard was that the only way to program a computer was in octal,” Hopper remembered,15 referring to the base-8 numeric system some machines used for data and program statements. Christopher Strachey’s code had been entered with a system that assigned a different typewriter key to each possible 5-bit word the machine could store. This meant input looked, to anyone but the well initiated, like gibberish:
+
+    /I//OZ//:/AZO&ED
+    B&IA:/EROL:SOWSD
+    /TSIATU/OPACOQAT
+    /TU/NPKCH/E:J/SB
+
+As computer capabilities expanded, these codes became somewhat less arcane. By the 1950s most programmers were using some form of assembly language, which could at least be read by humans and had visible divisions between operators and operands. But assembly was still largely inscrutable to outsiders. Hopper would spearhead one of the earliest projects advancing the notion that computers might be configured to understand something far closer to human language. In December 1953, she and her team delivered a report that
+
+    proposed to management that … data processing programs should be written in English statements, and we would be delighted to supply [the compiler]. I was promptly told that I could not do that. And this time the reason was that computers couldn’t understand English words. [Laughter.] Well, I allowed as to how I never expected any computer anywhere to understand anything; that all I intended to do was to compare bit patterns. But it was not until January of 1955 that we were able to write a formal proposal for writing a data processing compiler.15
+
+Hopper’s proposal would result in the language FLOW-MATIC, which could turn a restricted subset of English statements into compiled machine code. It was one of the first times a computer could be programmed with English sentences.
+
+    (1) COMPARE PRODUCT-NO (A) WITH PRODUCT-NO (B); IF GREATER GO TO OPERATION 10; IF EQUAL GO TO OPERATION 5; OTHERWISE GO TO OPERATION 2 .
+    (2) TRANSFER A TO D .
+    (3) WRITE-ITEM D .
+    (4) JUMP TO OPERATION 8 .
+    (5) TRANSFER A TO C .
+    (6) MOVE UNIT-PRICE (B) TO UNIT-PRICE (C) .
+    (7) WRITE-ITEM C .
+
+FLOW-MATIC inspired Cobol, which would remain in use through the rest of the century and beyond. Along with Fortran (developed in a parallel line of work at IBM), it signaled a decisive end to the days of coding in octal and demonstrated the potential for humans and computers to speak the same language. 
+
+//
+
+By the early 1960s, the front lines of research had moved to enabling untrained users, not just skilled programmers, to have natural language interactions with a computer. At Massachusetts research firm Bolt Beranek and Newman (BBN), which would soon develop much of the foundational technology behind the internet, an interactive program was running that could generate the following strange transcript:
+
+    Start when ready.
+    curves?
+    One.
+    LOOSE ENDS?
+    Two.
+    OBLIQUES?
+    Zero.
+    C.
+    You don't have enough information yet to get the right answer. How do you know it isn't J, for example?
+    J.
+    You don't have enough information yet. How do you know it isn't C, for example?
+    HORIZONTALS?
+    Zero.
+    That was a wasted question. It did not eliminate any possibilities. 
+
+Baffling without context, the transcript was from The Alphabet Game, created by Judith Harris at BBN. The player is trying to guess which letter the computer is thinking of by asking questions about its shape. The curious game was a test case for a general-purpose program called The Socratic System, developed by colleague Wallace Feurzeig. After reading a 1959 conference paper describing a hypothetical computer program that could be interrogated with English questions—a tool for didactic learning—Feurzeig felt sure he could actually design such a program. He imagined medical students able to practice diagnosing patients in a risk-free virtual environment. Following Harris’s proof of concept, Feurzeig enlisted medical doctor Preston K. Munter and BBN coder Myra Breen to build a med student scenario for The Socratic System. In what would become a common theme for programs with natural language interfaces, its transcripts suggested far more intelligence than was actually present:
+
+    PHYSICAL EXAM?
+    Fine. What in particular would you like to know?
+    CHEST EXAM?
+    It is common practice in the medical profession to begin an examination by checking the patient’s general appearance.
+    GENERAL APPEARANCE?
+    Acutely prostrated, lying in bed on his right side. Looks acutely ill, sweaty, apprehensive, but alert. Paroxysmal cough, bringing up a little rusty streaked sputum. Breathing with difficulty.
+    EENT EXAM?
+    Check all of the vital signs first!
+    TEMPERATURE?
+    103.
+    BLOOD PRESSURE?
+    150/84.
+    PULSE?
+    100 a minute. Occasional extra systole.
+    RESPIRATORY RATE?
+    20 a minute and shallow. 
+    RESPIRATORY EXCURSION?
+    Apparently equal. Questionable pain on right side on inspiration.
+
+The Socratic System was a database of human-authored questions and their answers, without much real intelligence. Its key benefit was that the questions might be asked in any order, as lines of thought occurred to a user. The program gained an illusion of liveliness through its ability to know which questions had already been asked and adjust responses accordingly—chastising a student who performs tests in the wrong order, for instance, or leaps to diagnostic conclusions without sufficient evidence. The program could also be coded to take the lead at times, prodding the student into a particular line of thought via scripted questions:
+
+    Before proceeding with the reexamination it might be instructive to pause and consider the diagnostic implications of the information at hand. Perhaps you think it too early to arrive at any definitive conclusion. On the other hand, you may be prepared to make the diagnosis now. Are you?
+    NO.
+    Fine. Nevertheless, we’ve got a fair amount of information - at least enough to raise some, perhaps several, diagnostic possibilities. Have you any in mind?
+    YES.
+    Name one.
+    PNEUMOCOCCAL PNEUMONIA.
+    Good. The general signs of a pneumonic process are present. Of course, you haven’t isolated the bug. Do you think the belly pain and flank pain reinforce the case for pneumococcal pneumonia?
+    NO.
+    Right. Though the white count is consistent, isn’t it?
+    YES.
+
+Despite its intelligent veneer, The Socratic System’s responses are all canned, and it has no complex simulation going on under the surface: it can’t reason about a patient’s condition, make inferences, or indeed recognize any inputs other than the those printed on the vocabulary list given to players in advance. But its transcripts proved incredibly alluring. Dozens like them were appearing in the computer literature and spreading like wildfire. To novices, and even to many experts, they made the state of the art seem to be advancing in scarcely credible leaps and bounds.
+
+Perhaps the most famously alluring computer conversationalist was a program originally designed as a takedown of those misleading transcripts. Joseph Weizenbaum’s ELIZA, created in 1966, was in part meant to puncture the myth that contemporary computer programs could actually approach a real human’s capacity for language and reasoning. “Machines are made to behave in wondrous ways,” he wrote of the transcripts breathlessly shared,
+
+    often sufficient to dazzle even the most experienced observer. But once a particular program is unmasked, once its inner workings are explained in language sufficiently plain to induce understanding, its magic crumbles away; it stands revealed as a mere collection of procedures.30
+
+The sentiment was not new. Christopher Strachey had said almost exactly the same thing more than a decade earlier, writing about his draughts-playing and romance-writing programs:
+
+    The whole behaviour of the machine, though perfectly determinate and simple if you know the rules, appears to the uninitiated as complex and unpredictable.… [These kinds of programs] are, of course, the most spectacular examples and ones which are easily understood by laymen. As a consequence they get much more publicity—and generally very inaccurate publicity at that—than perhaps they deserve.27
+
+Both Strachey’s and Weizenbaum’s words would prove prophetic. ELIZA, explained in detail in a paper Weizenbaum wrote to introduce it, was a general-purpose program for conversing with a user at a keyboard, driven by recognizing keywords in their input. Certain words could trigger stock responses, or use some basic linguistic transformation of the input to make it appear the program had understood what had been said. For example, an input like “You are not very aggressive” might be transformed into the response “What makes you think I am not very aggressive?” The most famous ELIZA script was called Doctor, and it emulated—or, perhaps, parodied—a conversation between a therapist and their patient:
+
+    How do you do. Please state your problem.
+    I spend too much time with computers.
+    Why do you mention computers?
+    You are one.
+    Does it please you to believe I am one?
+    Yes.
+    You seem to be quite positive.
+    I suppose I am.
+    How long have you been?
+    31 years.
+    I’m not sure I understand you fully.
+    Join the club.
+    Please go on.
+
+“A large part of whatever elegance may be credited to ELIZA lies in the fact that ELIZA maintains the illusion of understanding with so little machinery,” Weizenbaum wrote, careful to never use a pronoun like “she.” He even included the entire Doctor script in his paper, noting that it demonstrated “if nothing else, how easy it is to create and maintain the illusion of understanding, hence perhaps of judgment deserving of credibility. A certain danger lurks there.”30
+
+Indeed. Weizenbaum’s project backfired: it became exactly the kind of “wondrous” and “dazzling” example he had hoped to deflate. Sample transcripts from his program were shared far and wide, often wildly out of context. After a 1967 Playboy article on the growing reach of computers into everyday life quoted an ELIZA conversation, Weizenbaum’s lab was flooded with reactions from readers assuming the digital therapist already had human patients. It became one of the most famous programs of the decade and, eventually, the century. In the 1970s Weizenbaum would write an entire book trying to undo the perceived damage he had caused, an attempt to discredit what he saw as the dangerous lure of anthropomorphizing computers, and of trusting in artificial intelligence when you don’t understand what complexities—or simplifications—are behind it.
+
+//
+
+Eliza showed how the dream of conversing with a computer could be an incredibly compelling illusion, and that the trick could be pulled off by a relatively simple program. Not long after Weizenbaum debuted his experiment, a PhD candidate in mathematics named Terry Winograd would attempt to put some substance behind the smoke.
+
+His improvements came on two main fronts. First, neither ELIZA nor The Socratic System had included a simulation behind their conversational models, instead using simple lookups and transformations to maintain a dialogue. Winograd wanted to build a program that could converse about something it actually understood. Second, for the user to freely converse about a running simulation, the program needed to recognize more than just keywords. It needed to understand something about linguistics and grammar—sentence structure, clauses, modifiers, articles. Winograd would need to teach the computer to understand English, not merely memorize a vocab list.
+
+    pick up a big red block.
+    OK.
+    grasp the pyramid.
+    I DON'T UNDERSTAND WHICH PYRAMID YOU MEAN.
+    find a block which is taller than the one you are holding and put it into the box.
+    BY "IT", I ASSUME YOU MEAN THE BLOCK WHICH IS TALLER THAN THE ONE I AM HOLDING.
+    OK.
+    What does the box contain?
+    THE BLUE PYRAMID AND THE BLUE BLOCK.
+    What is the pyramid supported by?
+    THE BOX.
+    How many blocks are not in the box?
+    FOUR OF THEM.
+    Is at least one of them narrower than the one which i told you to pick up?
+    YES, THE RED CUBE.
+
+To limit the scope of his problem, Winograd simulated only a limited subset of the world: a toy universe of colored blocks on a table. The program he wrote to interact with it was called SHRDLU. Even in the tiny block world, the scope of the challenge was immense, encompassing not only a huge swath of linguistics but also commonsense concepts of space, geometry, gravity, and even memory and causality:
+
+    Had you touched any pyramid before you put the green one on the little cube?
+    YES, THE GREEN ONE.
+    When did you pick it up?
+    WHILE I WAS STACKING UP THE RED CUBE, A LARGE RED BLOCK AND A LARGE GREEN CUBE.
+    Why?
+    TO GET RID OF IT.
+    Why did you do that?
+    TO CLEAN OFF THE RED CUBE.
+    Why did you clear off that cube?
+    TO PUT IT ON A LARGE GREEN CUBE.
+    Why did you do that?
+    TO STACK UP THE RED CUBE, A LARGE RED BLOCK AND A LARGE GREEN CUBE.
+    Why did you do that?
+    BECAUSE YOU ASKED ME TO.
+
+Winograd worked in a dialect of Lisp, one of the earliest high-level programming languages designed to operate more on abstractions than basic symbols. The intoxicating power of the language and the increasing sophistication of computers put a fire in Winograd—the ideas he was swimming in seemed on the cusp of changing the world. “Let us envision a new way of using computers,” his 1971 dissertation begins,
+
+    so they can take instructions in a way suited to their jobs. We will talk to them just as we talk to a research assistant, librarian, or secretary, and they will carry out our commands and provide us with the information we ask for. If our instructions aren’t clear enough, they will ask for more information before they do what we want, and this dialog will all be in English.34
+
+In the end Winograd wrote nearly thirty thousand lines of Lisp, but his program was never finished. He got it to parse many kinds of questions and commands, but the transcripts often shared of SHRDLU are façades. The program could in no way carry out an unscripted conversation with a naïve user, even about its simple block world. It couldn’t even come close. 
+
+I mean, you know, the famous dialogue with SHRDLU where you could pick up a block, and so on, I very carefully worked through, line by line. If you sat down in front of it, and asked it a question that wasn’t in the dialogue, there was some probability it would answer it.… But there was no attempt to get it to the point where you could actually hand it to somebody and they could use it to move blocks around.35
+
+In a way, Shrdlu was as much an illusion as Eliza, though with far more code required to pull off the trick. The two programs make an interesting contrast, showing how little it takes to create a beguiling semblance of conversation, yet how much to lend the illusion some substance. A medium is often defined by its limitations, and as time went on, a defining feature of text games would become this tension between illusion and understanding, show and simulation. Should creators of interactive stories spend their time on the technical innovations of a program’s code, or on the artful mirage of its surface text? As the 1970s dawned, the question was still unresolved. Fifty years later, text game authors are still exploring new ways to answer it.
+
+
+References
+
+1) Clark, Dorothy K., Archie N. Colby, Paul Iribe, Nicholas M. Smith, and Lloyd D. Yates. 1958. “HUTSPIEL: A Theater War Game.” ORO-SP-53. Johns Hopkins University: Operations Research Office. archive.org/details/hutspiel-a-theater-war-game | a Feb 22, 2022
+2) Cohen, D.S. 2019. “Cathode-Ray Tube Amusement Device: The World’s First Video Game?” Lifewire (blog). Mar 14, 2019. www.lifewire.com/cathode-ray-tube-amusement-device-729579 | a Feb 22, 2022
+3) Cohen, Kalman J., Richard M. Cyert et al. 1960. “The Carnegie Tech Management Game.” Journal of Business 33 (4): 303–21.
+4) Cohen, Kalman J., and Eric Rhenman. 1961. “The Role of Management Games in Education and Research.” Management Science 7 (2).
+5) Copeland, B. Jack. 2012. Turing: Pioneer of the Information Age. Oxford University Press.
+6) Copeland, B. Jack, Jonathan Bowen, Mark Sprevak, and Robin Wilson. 2017. The Turing Guide. Oxford University Press.
+7) Copeland, Jack, and Jason Long. 2016. “Restoring the First Recording of Computer Music.” Sound and Vision Blog (British Library). Sep 13, 2016. blogs.bl.uk/sound-and-vision/2016/09/restoring-the-first-recording-of-computer-music.html | a Feb 22, 2022 
+8) Feurzeig, Wallace. 1964a. “The PDP-1 Computer as a Teaching Aid in Problem-Solving.” In DECUS Proceedings 1963. Maynard, Masschusetts: Digital Equipment Computer Users Society. 
+9) Feurzeig, Wallace. 1964b. “Conversational Teaching Machine.” Datamation, June 1964.
+10) Feurzeig, Wallace, Preston Munter, John Swets, and Myra Breen. 1964. “Computer-Aided Teaching in Medical Diagnosis.” Journal of Medical Education 39 (8).
+11) Gaboury, Jacob. 2013. “A Queer History of Computing: Part Three.” Rhizome (blog). Apr 9, 2013. rhizome.org/editorial/2013/apr/09/queer-history-computing-part-three/ | a Feb 22, 2022 
+12) Green, L.E.S., E.C. Berkeley, and C.C. Gotlieb. 1959. “Conversation With a Computer.” Computers and Automation, Oct 1959.
+13) Harrison Jr, Joseph 0., and Mary Frances Barrett. 1964. “Computer-Aided Information Systems for Gaming.” RAC-TP-133. McLean, Virginia: Research Analysis Corporation. apps.dtic.mil/dtic/tr/fulltext/u2/623091.pdf | s Nov 12, 2020 
+14) Havemann, Ernest. 1967. “Computers: Their Scope Today.” Playboy, Oct 1967.
+15) Hopper, Grace. 1978. “Keynote Address.” Presented at the ACM SIGPLAN History of Programming Languages Conference, Jun 1978. 
+16) Lee, J.A.N. 1995. “Christopher Strachey.” In International Biographical Dictionary of Computer Pioneers. Chicago: Fitzroy Dearborn.
+17) Link, David. 2006. “There Must Be an Angel: On the Beginnings of the Arithmetics of Rays.” Variantology 2.
+18) Link, David. 2012. “Programming ENTER: Christopher Strachey’s Draughts Program.” Computer Resurrection, Winter 2012.
+19) Mackenzie, Charles E. 1980. Coded-Character Sets: History and Development. Reading, MA: Addison-Wesley.
+20) Napper, Brian. 1998. “Programming on the Ferranti Mark 1.” Computer 50. 1998. www.computer50.org/mark1/program.html | s Mar 14, 2011 
+21) Reed, Aaron A. 2022. “HUTSPIEL and Dr. Dorothy K. Clark.” 50 Years of Text Games (blog). Jan 26, 2022. if50.substack.com/p/hutspiel-and-dr-dorothy-k-clark | a Feb 22, 2022 
+22) Ricciardi, Franc M., Clifford J. Craft, Donald G. Malcolm, Richard Bellman, Charles Clark, Joel M. Kibbee, and Richard H. Rawdon. 1957. Top Management Decision Simulation: The AMA Approach. Ed. Elizabeth Marting. New York: American Management Association, Inc.
+23) Roberts, Siobhan. 2017. “Christopher Strachey’s Nineteen-Fifties Love Machine.” New Yorker, Feb 14, 2017. www.newyorker.com/tech/elements/christopher-stracheys-nineteen-fifties-love-machine | a Feb 22, 2022 
+24) Shrager, Jeff. 2021. “Joseph Weizenbaum’s Original ELIZA.” ELIZAGEN (website). May 23, 2021. sites.google.com/view/elizagen-org/the-original-eliza | a Feb 22, 2022 
+25) Smith, Alexander. 2014. “The Priesthood at Play: Computer Games in the 1950s.” They Create Worlds (blog). Jan 23, 2014. videogamehistorian.wordpress.com/2014/01/22/the-priesthood-at-play-computer-games-in-the-1950s/ | a Feb 22, 2022 
+26) Sperry Rand Corporation. 1958. UNIVAC FLOW-MATIC Programming System (Manual).
+27) Strachey, Christopher. 1954. “The ‘Thinking’ Machine.” Encounter 3 (4).
+28) Wardrip-Fruin, Noah. 2005. “Christopher Strachey: The First Digital Artist?” Grand Text Auto (blog). Aug 1, 2005. grandtextauto.org/2005/08/01/christopher-strachey-first-digital-artist/ | s Jan 27, 2010 
+29) Wardrip-Fruin, Noah. 2021. “Who Invented Video Games?” The Conversation. Nov 29, 2021. theconversation.com/who-invented-video-games-169792 | a Feb 22, 2022 
+30) Weizenbaum, Joseph. 1966. “ELIZA—a Computer Program for the Study of Natural Language Communication between Man and Machine.” Communications of the ACM 9 (1).
+31) Wiemer, Serjoscha. 2011. “Computer History and the Movement of Business Simulations.” In Proceedings of DiGRA 2011 Conference: Think Design Play. Utrecht.  
+32) Willært, Kate. 2019. “The Sumerian Game: The Most Important Video Game You’ve Never Heard Of.” A Critical Hit! (blog). Sep 9, 2019. www.acriticalhit.com/sumerian-game-most-important-video-game-youve-never-heard/ | a Feb 22, 2022 
+33) Wing, Richard L., Mabel Addis, Walter Goodman, Jimmer Leonard, and William McKay. 1967. “The Production and Evaluation of Three Computer-Based Economics Games For the Sixth Grade.” Project No. 2841, Grant No. OE-5-10-203. Westchester County, New York: The Board of Cooperative Educational Services. archive.org/details/ERIC_ED014227 | a Feb 22, 2022
+34) Winograd, Terry. 1971. “Procedures as a Representation for Data in a Computer Program for Understanding Natural Language.” Dissertation, Cambridge: MIT. archive.org/details/bitsavers_mitaiaimAI_20368805 | a Feb 22, 2022 
+35) Winograd, Terry. 1991. An Interview With Terry Allen Winograd. Interview by Arthur L. Norberg. conservancy.umn.edu/bitstream/handle/11299/107717/oh237taw.pdf | a Feb 22, 2022 

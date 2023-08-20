@@ -1,0 +1,216 @@
+A Mind Forever Voyaging
+
+1985
+
+Steve Meretzky
+Style: Parser
+Debuted: Sep 1985 (retail)
+Launch Platform: Z-machine v4 (for Amiga, Apple II series, Atari ST, Commodore 128, DOS, Macintosh)
+Publisher: Infocom
+Language: ZIL
+Launch Price: $44.95 (floppy disk)
+
+Opening Text:
+
+	“You “hear” a message coming in on the official message line: “PRISM? Perelman here. The psych tests have all checked out at 100%, which means that you’ve recovered from the, ah, awakening without any trauma or other serious effects. We’ll be ready to begin the simulation soon…”
+
+
+Steve Meretzky stood at a podium in the New York Public Library before an audience of a hundred journalists, ready to introduce them to his new game. The Trustees Room in the famous grande dame of Manhattan featured “sculpted ceilings, Flemish tapestries, [a] marble fireplace, [and] rich draperies”; tea and scones were served on fine china to a guest list of gaming press; “port sherry and scotch on the rocks” were also available.12 It was September of 1985, the same week the original Super Mario Bros. [Nintendo] released in Japan, and the same year games like Gauntlet [Atari Games], King’s Quest II [Sierra On-Line], and Ultima IV [Origin Systems] accelerated a push toward dynamic, colorful graphics. Meretzky’s Hitchhiker’s Guide to the Galaxy 1984 text adventure had been a bestseller, but its numbers disguised the worrying fact that sales for text games were in rapid decline. Yet the lavish press conference that day was for a game with no images, no sounds, no side-scrolling action; Infocom, famous for their interactive stories, was doubling down. They’d invited the press for a first look at a title hyped as “a major departure,” their “greatest step yet away from games, and toward true fiction.”8 Making a good impression on the media—convincing them text games were a maturing market, not a dying breed—was absolutely crucial.
+
+Meretzky—“tall, shamblin’ Steve,” the “honest yet modest”9 creator of three Infocom hits who had been working in construction management only four years earlier—now found himself here, trying to save a new medium he’d come to love. Clutching a small stack of note cards, he told the assembled journalists a story about the Mercury astronauts featured in the popular book and film The Right Stuff. They’d had a phrase: “Pushing the envelope.” It meant flying higher and faster than anyone had done before, and doing it with style. “Infocom is also pushing the envelope,”12 Meretzky said, explaining the improvements in the latest iteration of the company’s Z-machine engine.
+
+“But the envelope doesn’t only refer to technological advances,” he added, shuffling to his next card. “It’s also an envelope of ideas.” 
+
+Meretzky’s game A Mind Forever Voyaging was indeed a major departure from Infocom’s puzzle-filled legacy. Players would spend their time not grappling with monsters or brainteasers, but exploring a simulation of a fictional but plausible American city—Rockvil, South Dakota—and observing the daily lives of its citizens. The simulation, as the game explains, is part of a program in the year 2031 (forty-five years in the future, when Meretzky was writing), to extrapolate how a radical new policy plan might affect a typical city a decade after being put into practice. Your job is to record evidence suggesting whether the Plan is succeeding or failing. It’s a game, in short, about witnessing. “You’ll find no treasures of gold or jade to loot,” fan magazine Questbusters wrote, “and the key to the only locked door is already in your pocket. The reward is knowledge.”1
+
+While set in the future, Voyaging was more deeply concerned with the present than nearly any other game of its time. The fictional Plan for Renewed National Purpose was a thinly veiled elaboration of the conservative Republican policies then reshaping the United States. In November 1984, Ronald Reagan had been reelected by one of the largest margins in American history, winning an astonishing 525 out of 538 electoral votes—forty-nine out of fifty states. Reagan had risen to power on a bold conservative platform of deregulating industries, waging a war on drugs, cutting government services, and slashing corporate and personal taxes. In 1984, the plan had seemed by many to be working: unemployment and inflation had plummeted, and Reagan campaigned on the theme Morning in America, pitching a recovery from the austerity and energy crises of the 1970s. 
+
+But the long-term effects of Reaganomics were unknown, and progressives feared they would prove devastating. Meretzky, who was just finishing up Hitchhiker’s during the election, later recalled being “pretty horrified” by the results:
+
+	Not just by Reagan’s re-election, but by the fact that he was re-elected in a landslide. I felt like a huge number of Americans were fooled by an avuncular smile and a twinkling eye, and didn’t realize how these Reagan-era policies were leading the country in such a wrong direction.19
+
+Meretzky had been a teenager during the Watergate crisis that ended Republican Richard Nixon’s presidency in disgrace, an event that helped shape his politics. Now, as Reagan openly mused about repealing the Twenty-Second Amendment so he could run for a third term and prepared for another four years of conservative policy—slashing government assistance to the poor, increasing military spending, sending hundreds of thousands to prison for minor drug offenses, propping up pro-American dictators abroad—Meretzky felt helpless. But he started to think about the medium in which he was working, and the unique way it engaged its audience:
+
+Text adventures tend to soak up all of your attention, even when you aren’t playing them. Like, you’re driving around town or mowing the lawn, but you’re thinking about a puzzle you can’t beat, or some solution you haven’t tried yet. If the games could do that with puzzles, maybe I could harness interactive fiction to get inside people’s heads and change their minds about political ideas.3
+
+In the last month of 1984—a year that had naturally and repeatedly brought Orwell’s dystopian novel to mind—Meretzky began sketching out ideas for something few people had ever tried to make: an explicitly political game. He compiled the prototype code for the first time in the last week of that year, on December 26, a day he should probably have had off. But the idea had taken hold. Steve Meretzky had found something to say.
+
+The player’s experience with the game would begin, as with most Infocom titles, with the rich bonus materials in the package. Among these was a short story about a boy named Perry Simm, who lives through a typical American childhood and adolescence in Rockvil: lost in a department store as a toddler; bullied on his first day of school; a first love and a first broken heart. But at his first job interview after graduating college, Perry Simm is told he’s not a real person. He’s a computer called PRISM, built by a team of researchers who learned that the only way to make a sentient computer was to let it grow up, simulating the experience of living through an entire life to adulthood. In the game you play as PRISM, who has matured just in time to test the simulated effects of the Plan for Renewed National Purpose, “combining the economic freedom and strong moral values of the 1950’s with the technological advancements of the 21st century”:
+
+	 * cut tax rates by fifty percent
+	 * vigorous prosecution of tax evasion
+	 * decentralization of federal responsibilities
+	 * deregulation of all major industries
+	 * reinstatement of the military draft
+	 * emphasis on fundamentals and traditional values in education
+	 * mandatory conscription for troublemakers and criminals
+	 * a strict “USNA First” trade policy
+	 * termination of aid to nations not pro-USNA
+	 * cutbacks on all types of bureaucracy, e.g. registering cars, guns
+	 * termination of government subsidies to outmoded industries
+
+PRISM can access a range of data about the Plan, including opinion polls; speeches by its McCarthey-esque proponent, Senator Richard Ryder; and excerpts “from a position paper issued by Citizens for Sanity in Government, a political action committee.” (Few previous games had asked their players to review reports from political action committees, fictional or otherwise.) PRISM can also view a wide array of information on current events in 2031 and can even watch a live news feed to get a sense of the world the Plan is meant to fix, with the feed cycling through more than a hundred paragraphs of unique events before repeating. When you’ve done as much research as you like, you can enter Simulation Mode to return to Rockvil, now projected ten years forward into a future where the Plan has been put into action. Your creator, Dr. Perelman, asks you to document a variety of activities around town using the game’s RECORD command, such as reading a newspaper, riding public transit, talking to a church official, or going to a movie. You’re given a simulated credit card with a spending limit of $600. And at first you simply observe:
+
+	Main & River
+	This is a typical four-way intersection between Main and River Streets. An entranceway through the massive walls of Heiman Village fills the southeast corner of the street, and a health care facility occupies the northeast corner.
+
+	To the southwest is 80 River Street, a brand new plastalloy and glass office building, with many floors still unoccupied according to the billboard over the entrance. The fourth corner, the northwest, is the site of Perez Towers, a luxury apartment building. The sidewalks and street are crowded with people.
+
+	A skycopter drones by far overhead and disappears into the distance.
+
+	>read billboard
+	The billboard advertises office space within the building.
+
+	>southwest
+	As you enter, a security guard, seeing that you have no badge, politely leads you back out to the street and then returns to the building.
+
+	>southeast
+	Heiman Village
+	This massive complex is a revolutionary and controversial concept in urban development, the “city within a city.” Apartments of every size, schools, offices, stores, and city services, all can be found under this one gigantic roof. Exits from the Village lead northwest, west, and east.
+
+	Proponents of this type of city-microcosm say that it makes the desirable urban lifestyle available to the middle class, saves energy and commuting time, and shields people from the crime and pollution of the city streets.
+
+	Critics call it an urban cocoon, creating a sterile, isolated environment and eliminating the need to deal with the urban problems which make isolation so desirable.
+
+	Heiman Village, in the few years it has been open, has proved to be a tremendous commercial success, and more communities of the type are being planned.
+
+	>inventory
+	You are carrying:
+	   a key
+	   a wallet
+
+	>open wallet
+	Opening the wallet reveals a driver’s license, and a credit card.
+
+	>read license
+	“Perry Simm   ID# 909-147-3838
+	 Parkview Apartments, Southway
+	 Rockvil, SD, Zone 55-18901”
+
+Your address helps you find your apartment, where a simulated wife and child are waiting. The three-room apartment is created with an astonishing level of detail for a game of the time, with more than two thousand lines of code for just this one small area: you can open the fridge and snack on leftovers, kiss your wife, enjoy the view out the window, play with the baby. 
+
+PRISM can save anything he observes to a recording buffer, but he only has a limited amount of storage space, so you need to be judicious with what you choose to capture. After checking all the items off Perelman’s list, you can leave Simulation Mode to show him the recordings. The data you capture seems to suggest the Plan will work as expected, and the team passes on a recommendation to the government for implementation.
+
+But then the game does something odd. It doesn’t end, but leaves you with nothing to do. Perelman apologizes: “I’ve been so snowed under I haven’t had time to line up any projects for you.” You can continue watching news feeds, check on the various camera views around the PRISM complex, or browse the data files about the Plan. But the only real option of interest is returning to Simulation Mode. And when you do this, you discover that the data you collected has allowed the system to project its simulated Rockvil even further into the future. If you like, you can now enter the Rockvil of twenty years hence, not just ten. And the world in this future begins to seem not quite so sunny.
+
+	Several BSF [Border Security Force] officers trot out of a nearby building and climb into an unmarked BSF van which drives away.
+
+	>talk to official
+	You have a brief chat with the government official, who grumpily complains that most of his department has been laid off as city services are cut back. Suddenly he notices the time, looks frightened, and rushes away.
+
+	>look at health center
+	The Anderson Health Care center is a respected, member-owned HMO which has consistently refused to follow the trend of providing inferior health care to those unable to afford the best procedures. 
+
+The post office now only opens for limited hours; a faction of intolerant fundamentalists is gaining more cultural and political power; everything in the shops is noticeably more expensive. Though the game no longer gives you explicit instructions to do so, you can continue recording events, looking for evidence that the long-term consequences of the Plan might do more harm than good. If you show your new recordings to Perelman, he remains unconvinced—there are warning signs everywhere, but few smoking guns—but enough time spent observing events in the 2051 simulation lets the system extrapolate further forward to 2061. And the remainder of the game becomes a voyage deeper and deeper into the future, you and PRISM able to do nothing but observe as the extrapolated long-term consequences of the Plan become more and more stark.
+
+	All along the east side of the street is the featureless, cliff-like facade of Heiman World. Little, if anything, has been done to restore the top several floors, gutted by fire about five years ago. 
+
+	That fire, which cost several thousand lives, revealed a severe deficiency of built-in fire control systems, but the courts threw out all suits since the building was built after the deregulation of the construction industry in ’38…
+
+
+	CRACK! Something hits you from behind. As you crumple to the ground, you catch a glimpse of someone wielding a metal bar. Unknown minutes later, your head clears, and you stagger slowly to your feet. Everything you were carrying is gone.
+
+
+	Neither the Bobcats nor the Rockets are playing today; instead, the stadium is being used for the public execution of criminals.
+
+
+	A grocery store, its grimy windows barely transparent enough to reveal a large sign reading “Rations for 1’s, 2’s and 3’s today”, spans the southern side of the street.
+
+As pillars of society crumble, so does Perry’s simulated family. His now-grown son joins the cultish Church of God’s Word, who consider only its members to be fully human, and denounces his parents as “animals.” The University is repeatedly raided by government officials looking for subversive students, then closed down entirely. Public transit and other services deteriorate and are shuttered. Casual racism rises, eventually becoming normalized. An increasingly violent police force harasses and then murders its minority citizens. The final Rockvil you can reach, fifty years into the future, is an apocalyptic hellscape brought on, perhaps, by a nuclear war precipitated by an increasingly hawkish and nationalistic government.
+
+Voyaging’s prose is often minimal, an artifact of a medium still constrained by limited storage space. But the game’s power comes from the way you experience the words. It “allows players to experience a linear narrative in a non-linear way,” a modern reviewer wrote:
+
+	It is inevitable that certain events will happen, and that societal change like increasing poverty will occur, but you are given the freedom to explore the effects of these changes and discover many of the scripted events that take place in your own way, gathering evidence and piecing together the narrative. While playing, I almost thought of myself as a journalist, or a historian perhaps—not just a player or reader.16
+
+The player can rarely intervene in the events they record, but the weight of collecting them can become surprisingly wearying.
+
+	A pregnant woman walks past you, sobbing quietly. You turn, but she is gone, swallowed up by the crowds.
+
+This unassuming ambient message crystallized for one of Infocom’s beta testers the profound effect the game was having on her:
+
+	I had to get up from the computer for a minute and catch my breath.… This was one of the most terrifying things I have ever read, done or experienced. The horror was not even in the major events of the game (although they were pretty frightening) but in the “casual” remarks.12
+
+Few mainstream games had engaged with real-world issues so directly. Themes of racism and religious bigotry, debates about economic policy, allegorical critiques of political figures—this was no Super Mario Bros. People of color had rarely appeared at all in games before 1985, let alone in situations that touched on real issues affecting them. Voyaging was indeed pushing the envelope of what games could be, radically and on multiple levels, perhaps more abruptly than any other game before or since.
+
+The depth of Voyaging’s simulation also goes far beyond what nearly any previous text game had attempted. Each location’s code juggles descriptions for five different time periods and a day/night cycle with buildings that open and close at realistic hours. A tracking system silently notes the aggregate severity of what PRISM has recorded, with nearly two hundred descriptions or events that can be captured as evidence of the Plan’s consequences. Each is given a hidden point value distinguishing minor details from major catastrophes:
+
+	1 ;"film titles sound insipid, 2051"
+	2 ;"Symphony Hall is closed, 2071"
+	3 ;"guards are abusive, 2071"
+	2 ;"international travellers strip searched, 2061 or 2071"
+	2 ;"long lines at soup kitchen, 2051"
+	3 ;"wastes dumped into river w/o processing, 2051 thru 2071"
+	5 ;"Policemen casually beating up black youth, 2061"
+
+Though it often serves no in-game purpose, you can perform many everyday activities to immerse yourself in virtual Rockvil: buy groceries, apply for a library card, drink at a bar, ride the subway, get arrested, max out your credit card shopping for clothes.
+
+	<ROUTINE RACKS-F ()
+		<COND (<VERB? EXAMINE>
+			<COND (<EQUAL? ,SYEAR 2041>
+				<TELL "The clothes are diverse and fashionable, and quite steeply priced." CR>)
+				(<EQUAL? ,SYEAR 2051>
+				<TELL "The clothes are quite stylish, and virtually all out of your price range." CR>)
+				(T <TELL "The clothes in the few racks near you are mostly in the drab browns and olives worn by the lower classes. Over in the restricted areas of the store, you can spot racks laden with stylish clothes in the violets and golds favored by Churchmen and other landowners." CR>)>)>>
+
+While the game struggled to fit within limitations that seem painfully small today, every word of its twenty-nine thousand lines of code and prose was put to use creating an explorable open world, rendered in text but driven by complex systems. It was Infocom’s first game to require 128K of memory rather than 64K, and Meretzky used all but ten bytes of the space the newly expanded engine allowed. He finished the game in eight months, in time to be on shelves for the 1985 holiday season.
+
+The reaction was complicated. Most of Infocom’s testers, used to lighter-weight puzzlefests, either intensely disliked it or simply didn’t know what to make of it:
+
+	What a waste of talent! Steve Meretzky has written your two best games—Planetfall and Hitchhiker’s Guide—why didn’t he spend all the time devoted to this turkey on sequels to them?
+
+	The rather blatant parody of the political philosophy of the current administration is out of place in a game that is purchased for recreation.
+
+	Lacks the spontaneity and humor of recent Infocom releases … what I saw was interesting, but not particularly entertaining.
+
+	I sincerely hope you will reconsider your decision to rush into production on this game.… There is something to offend everyone in this vicious political parody.12
+
+Meretzky expected the game to be controversial. He’d even thought it might garner enough attention to make a dent in the national conversation. “I was hoping I’d get dragged in front of a congressional committee,” he recalled years later with a grin.3 But sales were tepid, and reviews were routine. Game journalists simply had no register for critiquing a game with the kinds of themes Voyaging engaged with, and culture critics in the wider arts scene had seen no reasons yet to cover games at all. Most reviewers ignored the game’s message entirely, sticking to familiar scripts of plot summaries and technical details. But some seemed to grasp the title’s significance, even if they couldn’t quite articulate it: “There is something special about A Mind Forever Voyaging that is hard to define,” AmigaWorld wrote.2 Another magazine praised the novelty of “a game with a social conscience” and declared it “a major event in software entertainment.”12 In a binder of development notes, Meretzky collected review clippings, good and bad, including a letter from the Home Entertainment Editor of Billboard magazine:
+
+	“Mind Forever Voyaging” is the best game Infocom has produced yet. All I know is that I started it when it was dark and broke off when I noticed it was daylight.12
+
+Countless younger fans would find themselves deeply moved by the game. It awoke in some a political conscience, in others a fascination for open-ended exploration without artificial obstacles, and in many a giddy sense that games could be far more than they’d previously imagined. Hundreds among the next generation of game designers would come to cite it as a foundational inspiration, including Adam Cadre (Photopia), Chris Klimas (creator of Twine), and Sam Barlow (Her Story), among many others. Novelist Richard Powers, whose book The Overstory won a Pulitzer in 2019, has spoken of the game’s influence on him as a young writer, as has screenwriter Gary Whitta (The Book of Eli; Star Wars: Rogue One), who tried for years, unsuccessfully, to pitch Hollywood on a movie adaptation. 
+
+A common critique of the game has been that its political leanings are too obvious and overexaggerated: it has a “distinct lack of nuance,”16 a modern reviewer noted. Its projections of the Plan have been called naïve caricatures of conservative policy, taken to extremes too ridiculous to take seriously. And yet, four decades after Reagan, many of the details of future Rockvil that were once meant to be warnings have already come to pass and go unnoticed by modern players. The death of local newspapers; cities with contaminated drinking water from underregulated utilities; a deliberately hamstrung postal service; politicians who reject facts as fake and declare the press the enemy; overly aggressive airport security measures; extremists occupying government buildings; routine mass shootings; a constant backdrop of police brutality—the list of parallels to today’s world, many of which were once science fiction, is profoundly disturbing to compile. 
+
+The long-term impact of Reaganomics did, in fact, prove devastating. Trickle-down economics assumed that if the rich paid less taxes, they would pump more money into the economy and everyone would benefit. Instead it led to forty years of declining real wages for the middle class, while the richest Americans multiplied their net worth again and again to amounts that would once have been called obscene. By 2015 America would have the highest prison population per capita in the world as millions served out sentences for minor drug infractions, shattering families and disproportionately affecting the poor and people of color. Chronic homelessness has risen dramatically since Reagan’s time, and federal assistance to local governments—for services like libraries, public schools, and sanitation—fell from 22 percent of the average city’s budget at the start of the Reagan years to only 6 percent by the end. “If the notion that Reaganite policies would lead to an apocalyptic collapse seemed a touch hysterical in the 80s,” wrote one commenter in 2020, “it feels distinctly less so now.”15
+
+“So many of the things I was worried about in the 1980s have come to pass,” Meretzky noted in 2017. “All of the warmongering and trickle-down economics produced exactly the sort of results I was afraid of.”3 And as this book was being written in the aftermath of the Trump presidency, A Mind Forever Voyaging felt almost disturbingly prescient. When PRISM’s simulation data threatens the Plan’s adoption, Senator Ryder shows up to bully Perelman into providing different results. The scene has new resonance in a world where an American president pressured a state election official to “find” enough votes to overturn his opponent’s win. 
+
+	“PRISM, I’m just back from Washington. […] They rejected the contents [of your recordings] outright. They called the recordings fakes. They refused to act on them. Several members even questioned my patriotism, made vague threats.”
+
+The rise of the cultish Church of God’s Word, who believe in revelations transmitted via technology and the utter inhumanity of nonbelievers, is more chilling at a time when millions of QAnon followers are calling their opponents Satan-worshipping pedophiles and threatening violent takeovers of government buildings. This paragraph from the game’s news reports could just as easily be about the Malheur National Wildlife Refuge’s 2016 occupation by extremists:
+
+	The Arizona Supreme Court has ruled that state authorities cannot evict members of a religious sect from the radio telescope facility atop Greens Peak. The sect, a group of extremists calling itself the Church of God’s Word, seized the facility in December of 2027 […] [The group] received a great deal of media attention from the occupation.
+
+One modern strategy guide for Voyaging, which spends nearly thirty thousand words meticulously cataloging every corner of Rockvil, ends with a statement rather startling for a GameFAQs guide: “[I’d] like to dedicate this walkthrough I have made to an America that’s being torn apart along with the rest of the world by the Trump administration. We may be divided, and we may be battered and polluted, but we will never surrender or give up to the evil forces at work here.”10
+
+Infocom’s marketing compared their game to Orwell’s 1984, perhaps overzealously. Orwell was forty-six years old when he drafted his warning about the future, a lifelong writer working in a centuries-old medium; Meretzky was twenty-seven writing his, four years into a career as a creative and working in a mode few yet took seriously, still hampered by technical limits. Even so, Voyaging is well worth remembering. “It offered a concrete example of how a game could offer pointed social commentary at a time when no one really thought that was something that a game was capable of,” one retrospective noted. “And it did so in a way that only a game could, through its mechanics and its systems.”3 Today most Infocom fans remember it as one of the studio’s greatest achievements.
+
+When the New Zork Times, Infocom’s company newsletter, covered the audacious press conference that had launched the game, they described it (unsurprisingly) as a success, waxing a bit rhapsodic: “How did interactive fiction evolve from Zork into A Mind Forever Voyaging? If interactive fiction can do this, then what else can it do?” More than anything else, it noted, “the audience was left with the impression that interactive fiction can be more, much more, than puzzles.”9 The coming years and decades would prove this right—though not in the profitable way Infocom had hoped. But their gamble would inspire countless future visionaries, each pushing the envelope in their own unique way. Meretzky had found the title for his game in a poem from Wordsworth, describing a statue of that legendary visionary Isaac Newton,
+
+	          with his prism and silent face,
+	The marble index of a mind for ever
+	Voyaging through strange seas of Thought, alone.
+
+
+References
+
+1) Addams, Shay. 1985. “A Mind Forever Voyaging” (Review). QuestBusters II (10), Nov 1985.
+2) AmigaWorld. 1986. “A Mind Forever Voyaging” (Review). 2 (5), Sept/Oct 1986.
+3) Baker, Chris. 2017. “Flashback: How ‘A Mind Forever Voyaging’ Took Aim at Right-Wing Politics.” Glixel (blog). 2017. www.glixel.com/news/how-a-mind-forever-voyaging-took-aim-at-right-wing-politics-w469663 | s Mar 1, 2017
+4) Bateman, Selby. 1985. “The Prose and the Parser: How Writers See Games.” COMPUTE!’s Gazette 3 (24), Jun 1985.
+5) Cadre, Adam. 2001. “A Mind Forever Voyaging by Steve Meretzky, played by Adam Cadre.” L’avventura è l’avventura (blog). June 2001. www.avventuretestuali.com/recensioni/a-mind-forever-voyaging-eng | a Feb 27, 2021
+6) Dreier, Peter. 2011. “Reagan’s Real Legacy.” The Nation. Feb 4, 2011. www.thenation.com/article/archive/reagans-real-legacy | a Feb 27, 2021
+7) inequality.org. n.d. “Income Inequality.” inequality.org/facts/income-inequality | a Feb 27, 2021
+8) Infocom. 1985a. “New Release: A Mind Forever Voyaging.” New Zork Times 4 (2), Summer 1985.
+9) Infocom. 1985b. “A Mind Forever Voyaging Goes to the Library.” New Zork Times IV (4), Fall 1985.
+10) Kearns, Deborah L. 2017. “General Walkthrough For A Mind Forever Voyaging.” GameFAQs. 2017. gamefaqs.gamespot.com/pc/564462-a-mind-forever-voyaging/faqs/74934 | a Feb 27, 2021
+11) Meretzky, Steve. 2001. “Interview: Steve Meretzky.” Interview by Adventure Collective (Philip Jong). May 3, 2001. www.getlamp.com/cast/20060718meretzky/FILES/acint.txt | a Feb 25, 2021
+12) Meretzky, Steve. 2015. “Infocom Cabinet: A Mind Forever Voyaging.” archive.org/details/InfocomCabinetAMindForeverVoyaging/page/n359 | a Feb 25, 2021
+13) Mulligan, Megan. 2019. “Q&A: 2019 Fiction Winner Richard Powers.” The Pulitzer Prizes (blog). 2019. www.pulitzer.org/article/qa-2019-fiction-winner-richard-powers | a Feb 27, 2021
+14) One More Continue (blog). 2017. “A Mind Forever Voyaging: The Original Political Game.” Jul 23, 2017. onemorecontinue.com/mind-forever-voyaging-original-political-game | a Feb 27, 2021
+15) Rosenfield, Eric. 2020. “A Mind Forever Voyaging into Neoliberalism: Steve Meretzky and the Video Game That Saw It All Coming.” Literate Machine (blog). Mar 1, 2020. literatemachine.com/2020/03/01/a-mind-forever-voyaging-into-neoliberalism-steve-meretzky-and-the-video-game-that-saw-it-all-coming | a Feb 27, 2021
+16) Watson, Steven. 2014. “A Mind Forever Voyaging: Flashback Review.” Adventure Gamers (blog). Aug 15, 2014. adventuregamers.com/articles/view/26877 | a Feb 27, 2021
+17) Whitta, Gary. 2011. “A Mind Forever Voyaging.” Gary Whitta (website). Feb 20, 2011. gwhitta.blogspot.com/2011/02/mind-forever-voyaging.html | s Jul 26, 2011
+18) Wilcox, Timothy. 2020. “From Wordsworth’s Poetic Problem to Puzzleless Interactive Fiction.” In Proceedings, Electronic Literature Organization Conference and Media Festival, 2020. stars.library.ucf.edu/elo2020/asynchronous/proceedingspapers/15 | a Feb 24, 2021
+19) Woger, Martin. 2012. “A Mind Forever Voyaging - Interview Steve Meretzky.” EuroGamer.de. Dec 20, 2012. www.eurogamer.de/articles/2012-12-18-a-mind-forever-voyaging-interview-steve-meretzky | a Feb 27, 2021

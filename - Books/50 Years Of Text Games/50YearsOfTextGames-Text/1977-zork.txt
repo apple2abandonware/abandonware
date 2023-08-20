@@ -1,0 +1,194 @@
+Zork
+
+1977
+
+Tim Anderson, Marc Blank, Bruce Daniels, and Dave Lebling
+Also Known As: Dungeon, Zork I
+Style: Parser
+Debuted : Late Jun 1977 (ARPANET)
+Launch Platform: PDP-10
+Publisher: Infocom (1981 release)
+Language: MDL
+
+Opening Text:
+
+	You are in an open field west of a big white house, with a boarded front door.
+
+	There is a small mailbox here.
+
+
+If Adventure introduced hackers to an intriguing new genre of immersive text game, Zork brought it to the public at large. In the early 80s, as the personal computer revolution reached into more and more homes, a Zork disk became a must-buy for first-time computer owners. By 1982 it had become the industry’s bestselling game. Playboy covered it; so did Time. Astronaut Sally Ride was reportedly obsessed with it. In 1984 it was still consistently beating out newer games on the sales charts, including its own sequels. By the end of 1985 it was still outselling any other game for the Apple II—half a decade after its first release on the platform—and had become the bestselling title of all time on many other systems besides. 
+
+Its creation can be traced to a heady Friday in May 1977 on the MIT campus in Cambridge, Massachusetts. It was the last day of finals week, and summer was kicking off with a bang for the school’s cohort of tech-obsessed engineers. A new movie called Star Wars opened that week in theaters, the groundbreaking Apple II was beginning to ship to eager hobbyists, and Adventure was exploding across the terminals of computer labs nationwide, with thousands of students having no further distractions, at last, to keep them from solving it.
+
+Among those obsessive players were four friends at a campus research lab, the Dynamic Modeling Group. Within two weeks they’d solved Adventure, squeezing out every last point through meticulous play and, eventually, the surgical deployment of a machine-language debugger. Once the game was definitively solved, they immediately hatched plans to make something better—not only to prove the superiority of their school’s coding prowess over Don Woods at Stanford (though that was undoubtedly part of it), nor simply because many were dragging their feet on graduating or finding jobs, and a challenging new distraction seemed immensely appealing (though that was part of it, too). The most important factor was that Adventure had been so incredibly fun, and regrettably, there wasn’t any more of it. “It was like reading a Sherlock Holmes story,” one player recalled, “and you wanted to read another one of them immediately. Only there wasn’t one, because nobody had written it.”4
+
+The four friends were an eclectic group of grad students ranging in age from twenty-two to twenty-eight, united by shared sensibilities and a love of hacking. Dave Lebling had a political science degree and had started programming only because of an accidental hole in his freshman schedule. A “voracious reader”21 and “frustrated writer,”25 he’d helped design Maze in 1973, one of the earliest graphical exploration games and first-person shooters. Marc Blank was young, tall, thin, and technically enrolled in med school, but found messing around with computers an addictive distraction. Bruce Daniels was nearing thirty and increasingly bored with his PhD topic; while procrastinating, he’d helped develop the MDL programming language (the lab’s pet project) and was always eager to find new ways of showing it off. And Tim Anderson was close to finishing his master’s degree but none too excited about leaving the stimulating intellectual community at MIT. With Adventure solved, the four sat down to hack together a prototype for an improved version, which would also run on a PDP-10 mainframe. Needing a placeholder name for the source file, they typed in zork, one of many nonsense words floating around campus. (Among other uses, it could be substituted for an offensive interjection.)
+
+The game they began to create was at first quite similar to Adventure, so much so that historian Jimmy Maher has noted parts of it are more remake than homage.14 Both games begin in a forest outside a house containing supplies for an underground expedition, including food, water, and a light source with limited power; in both, you search for treasures in a vast underground cave system and score points by returning them to the building on the surface; both feature underground volcanoes, locked grates, trolls, and a “maze of twisty little passages, all alike.” Hacker tropes and nods to other early text games abound, like a huge bat that whisks you off to another location like in Hunt the Wumpus. But as Zork expanded it began to develop its own character: less realistic than the caverns sketched from Will Crowther’s life experience, but also more whimsical, more threatening, and driven by an improved parser and world model.
+
+	>open trap door
+	The door reluctantly opens to reveal a rickety staircase descending into darkness.
+	>down
+	It is pitch black. You are likely to be eaten by a grue.
+	>what is a grue?
+	The grue is a sinister, lurking presence in the dark places of the earth. Its favorite diet is adventurers, but its insatiable appetite is tempered by its fear of light. No grue has ever been seen by the light of day, and few have survived its fearsome jaws to tell the tale.
+
+The grue would become the game’s best-remembered villain, though it was originally invented as a solution to a sort of bug—not in the game’s code, but in the player’s suspension of disbelief. In early versions of Zork, as in Adventure, you’d fall into a bottomless pit if you tried to move through a dark room without a portable light source. But someone noticed this could happen in Zork even in the dark attic of the above-ground house. Lebling, stealing the word “grue” from a Jack Vance novel, invented a new and more broadly applicable threat for dark places. The next update reported wryly that the team had spent weeks filling in the dungeon’s old bottomless pits.
+
+	>light lantern
+	The lamp is now on.
+	You are in a dark and damp cellar with a narrow passageway leading east, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+	The trap door crashes shut, and you hear someone barring it.
+	>up
+	The door is closed.
+	>east
+	You are in a small room with passages off in all directions. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+	A nasty-looking troll, brandishing a bloody axe, blocks all passages out of the room.
+	The troll’s axe barely misses your ear.
+	Your sword has begun to glow very brightly.
+
+The troll is easy enough to dispatch with the “elvish sword of great antiquity” found early on, which glows blue when enemies are near, à la Tolkien. A basic combat system inspired again (1975 1976) by D&D manages hits and misses of weapons, with the player’s power scaling based on the number of treasures they’ve recovered. But Zork’s Great Underground Empire also features a more complex antagonist, a parallel to Adventure’s pirate who would pop up now and again to steal your treasure.
+
+	>inventory
+	You are carrying:
+	A lamp
+	A sword
+	A painting
+	A platinum bar
+	>north
+	You are standing in a small circular room with a pedestal. A set of stairs leads up, and passages leave to the east and west.
+	There is an extremely valuable (perhaps original) grail here.
+	Someone carrying a large bag is casually leaning against one of the walls here. He does not speak, but it is clear from his aspect that the bag will be taken only over his dead body.
+	Your sword has begun to glow very brightly.
+	>get grail
+	Taken.
+	>kill thief
+	Your stroke lands, but it was only the flat of the blade.
+	The thief slowly approaches, strikes like a snake, and leaves you wounded.
+	The other occupant just left, still carrying his large bag. You may not have noticed that he robbed you blind first.
+	>inventory
+	You are carrying:
+	A lamp
+	A sword
+
+The thief is more sophisticated than Adventure’s pirate: not only does he nab treasure, but he wanders the map at will, sometimes picking up other items he finds and discarding them later when he loses interest. Sometimes he’ll ignore the player, but often he’ll lash out with his stiletto.
+
+The thief also plays a more subtle role in one of the game’s most confounding puzzles:
+
+	You are about 10 feet above the ground nestled among some large branches. The nearest branch above you is above your reach.
+	On the branch is a small birds nest.
+	In the bird’s nest is a large egg encrusted with precious jewels, apparently scavenged somewhere by a childless songbird. The egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. Unlike most eggs, this one is hinged and has a delicate looking clasp holding it closed. The egg appears extremely fragile.
+	>get egg
+	Taken.
+	>open it
+	There is no obvious way to open the egg.
+
+The player can smash the egg to reveal a golden clockwork canary, but this damages both items and renders them worthless. No command or tool exists that lets the player open the egg without ruining it. The correct solution, counter to all adventuring instincts, is to let the thief steal the egg. Later, once the player gains enough experience to defeat him, the thief can be tracked to his lair at the heart of the maze and dispatched. Found amidst his treasures are the opened egg and canary, undamaged. The implication helps characterize the thief and gives him a hint of an inner life: insatiable curiosity and an unparalleled expertise.
+
+The thief, as with the rest of Zork, evolved through continuous interaction with an active player base in an era when this was not yet common. The PDP-10 that hosted the game ran a homegrown operating system called ITS—the “Incompatible Timesharing System,” in reference to an earlier and much-derided “Compatible” platform. Part of the hacker ethos in the 70s was that information should be maximally free, and to that end the developers of ITS had made it an entirely open system, with no modern notions of security or privacy: no passwords, no superusers. Anyone could view and run anyone else’s files or watch what was happening on any connected user’s terminal. This permissiveness spread even to remote users connecting to an ITS system over ARPANET. And this meant that network spelunkers could discover Zork, even without its creators publicly announcing it or promoting it, simply by logging in to the Dynamic Modeling Group’s PDP-10 and watching what its users were up to. Much like game makers in the 2010s livestreaming development on Twitch, distant spectators could watch Zork’s creators test and play their game in real time as they were making it. It wasn’t long before the spectators figured out how to launch the unfinished game themselves and begin their own expeditions into the Great Underground Empire.
+
+The thirst for a new Adventure was intense. Even unfinished, Zork became so popular its creators set up an official email list for players. They used an in-game newspaper called the US News & Dungeon Report (found in the living room of the aboveground house) to advertise the latest fixes and improvements:
+
+	When an error is encountered in this version, you will be asked for a description of the problem immediately, just as if you had used the ‘bug’ command. We hope that this will improve the handling of such problems.
+	
+	A reminder that save files created before 1/17 will not work in this version; fortunately, the program is clever enough to figure out whether a particular save file can be used or not.
+	
+	In addition to ‘take foo and bar’, the parser now claims to understand things like ‘take foo and read bar’, ‘take foo and read it’, and so on.
+
+Zork’s parser represented another improvement over Adventure. While the earlier game could only understand inputs of two words at a time—a verb and a noun—Zork added support for multiword verbs like look under or nouns like trap door, as well as the concept of both direct and indirect objects, enabling commands that hadn’t been possible in the earlier game like attack troll with sword or put jewels in sack. As time went on, the team added pronouns, articles, chaining multiple commands, and ways to refer to groups of objects more selectively, eventually touting that their parser could understand a command as complex as put all of the valuables except the torch and the coin into the trophy case. While inputs this long were rare in practice, the new parser’s smarts lent it a certain mystique it would never entirely shed, making Zork’s possibility space seem even more unbounded. “I’m not sure it can be solved,” wrote one overwhelmed reviewer: “there is so much in it and the possibilities seem staggering.”17 The creators would write about how their program could “simulate enough of the universe to appear to be more intelligent than it really is.”10 Making the parser’s capabilities less easy to understand was a key part of that illusion of intelligence.
+
+With a mainframe’s generous capacities, Zork’s authors were free to keep expanding their game and riddling it with more and more responses to unexpected inputs, often indulging an idiosyncratic sense of humor. 
+
+	>win
+	Naturally!
+
+	>eat money
+	Talk about eating rich foods!
+
+	>count leaves
+	There are 69,105 leaves here.
+
+But despite their philosophical commitment to the open model of ITS, the team recognized that a fundamental appeal of Adventure-likes was their ability to surprise with unexpected messages and challenging puzzles—“problems,” as the team called them—which would be spoiled if players could view the game’s source code. They hacked ITS to prevent access to the folder containing Zork’s secrets. When one clever user found a way to download the forbidden files anyway, the MIT team was so impressed with his technique they weren’t even angry. The purloined game, at that point called Dungeon—the creators had briefly retitled it before reverting to the original name—found its way to Bob Supnik at DEC, who ported it to Fortran and paved the way for further ports and tweaks. Dungeon would proliferate through various systems on a parallel but distinct trajectory from the official Zork. Some of the many players who first encountered this form of the game were the authors of MUD: the first multi-user Dungeon.
+
+While pilfering the source code had been something of a metapuzzle, adding new official problems for the growing fan community kept the Zork team busy through 1978 and into early 1979. Implementing new problems often required extending the game’s core engine, expanding the code base to support simulating and understanding more and more complex scenarios. Vehicles were added, which could be entered and steered through rooms; an entire sliding-block-puzzle maze of moving rooms showed up. In one area, the player finds a trapped treasure that seems impossible to retrieve:
+
+	You are in a dingy closet adjacent to the machine room. On one wall is a small sticker which says
+	                             Protected by
+	                                 FROBOZZ
+	                      Magic Alarm Company
+	                           (Hello, footpad!)
+	There is a beautiful crystal sphere here.
+	>take sphere
+	As you reach for the sphere, a steel cage falls from the ceiling to entrap you. To make matters worse, poisonous gas starts coming into the room.	
+
+Though there is no escape from the cage, a player who dies and tries again can find nearby a rather incongruous feature for a dungeon: a robot.
+
+	                      !!!!  FROBOZZ MAGIC ROBOT COMPANY !!!!
+
+	Hello, Master!
+
+	   I am a late-model robot, trained at MIT Tech to perform various simple household functions. 
+
+	Instructions for use:
+	   To activate me, use the following formula:
+	   >TELL ROBOT '<something to do>' <cr>
+	   The quotation marks are required!
+
+The solution is to instruct the robot to follow you into the room with the sphere and then lift the cage.
+
+	>tell robot 'go south'
+	Done.
+	>south
+	Dingy Closet
+	There is a robot here.
+	There is a beautiful white crystal sphere here.
+	>get sphere
+	As you reach for the sphere, a steel cage falls from the ceiling to entrap you. To make matters worse, poisonous gas starts coming into the room.	
+	>tell robot 'lift cage'
+	The cage shakes and is hurled across the room.
+	>take sphere
+	Taken.
+	>north
+
+Though each new innovation (compliant robots, rideable rafts) was only used in one or two places, they were programmed as reusable systems, not special-case exceptions. Zork’s creators, in short, built something closer to an engine than a hack. In later years, when they founded a company called Infocom and started selling text games commercially, this would prove incredibly useful. A robot that could understand orders and carry out actions, for instance, would become the basis for an entire future game, Suspended 1983, which would exercise the concept in a much more thorough and thought-provoking way. The parser and its model of affordances and concepts could be reused for each new game, continuously improving and slowly strengthening into a stable platform on which simulations of interesting places could be built. Instead of constantly rebuilding the engine, the team could start to focus on the stories they could tell with it.
+
+Today, Zork is better remembered for pride of place than actual gameplay. Scholar Nick Montfort praises its innovations, but calls it “a very early and rough effort” that’s “not a masterwork by today’s standards.”18 A modern reviewer notes that it “wants nothing more than to see you fail, and it’s not overly concerned with how much fun you might be having.”19 The game’s worldbuilding is a bit of a mess, throwing robots together with elvish swords, mixing Alice in Wonderland–type puzzles with a mechanized flood control dam, and putting underground chasms next to underground broom closets. It populates an otherwise eerie Land of the Dead with gratuitous hacker in-jokes. Zork’s “problems” could be arbitrary or unfair—one egregious example requires deploying unprompted knowledge of mythology in a way few players would think to try. Many puzzles (including that one) did have alternate solutions. But a player base consisting almost entirely of university hackers expected challenging problems—had the game been too simple, they would have stopped playing. Today’s games are made for broader audiences used to far less friction.
+
+And yet Zork was massively successful in its own right and as a follow-up to Adventure, a second draft of sorts that more fully explored the possibilities inherent in the new kind of game Crowther and Woods had prototyped. In February 1979, Zork’s creators declared it finished, in part because they had run out of room to keep building: the MDL language only supported an address space of 256,000 36-bit words, roughly a megabyte of text and code, and the game had brushed up against it. It had expanded to include nearly two hundred rooms, a vocabulary of nine hundred words, thirty-one treasures to collect, and a challenging endgame for master explorers. Its creators had also been stretching the limits of their welcome at MIT, with several long-since graduated and unsure what they wanted to do next. With a handful of other alums and faculty, some founded Infocom with vague hopes of making some kind of business software, but for their first commercial product they turned to a program already on hand: Zork. Though they faced significant challenges squeezing the massive mainframe game into the minuscule footprint of early personal computers, the team overcame them, and the rest was history. Infocom would become one of the most legendary text game studios of the century.
+
+Zork is noteworthy for more than its commercial success. When the Library of Congress decided in 2007 to start archiving games with cultural significance, Zork was one of the first ten selected. Influencing the aesthetics of games for a generation, it would also provide an enduring technical foundation for future text game makers. After Infocom’s demise, the company’s engine (the Z-machine, for Zork) would be reverse engineered by fans, with the popular Inform design language compiling new games to run on it. Today, thousands and thousands of games have been written for the Z-machine. “A sufficiently imaginative person or persons could probably do this indefinitely,”10 the team wrote in 1979 about the idea of using Zork’s framework to write new games, with no idea how prophetic those words would become.
+
+Zork’s creators were thrilled about the new genre they helped popularize, which years later would become known as interactive fiction. Dave Lebling recalled the joy of merging two great passions: “The idea of combining writing and programming, it was like—Wow! How can I do this for my whole life?”21 As the years went on Infocom’s founders became starry-eyed about their new medium’s potential, increasingly aware they were circling the edges of something more than a new kind of amusing diversion. It had the potential to become a whole new kind of art. But as they declared their game finished in the winter of 1979, they had no inkling of the explosive spring and heady summer to come: of how much was left to do.
+
+“We were learning how to write adventure games,” Lebling wistfully recalls, “and it took a long time to learn to do them better.”8
+
+
+References
+
+1) Ahab. 2019. “Versions of Zork I and Their Text Differences.” Data Driven Gamer (blog). Apr 15, 2019. datadrivengamer.blogspot.com/2019/04/versions-of-zork-i-and-their-text.html | a Dec 25, 2020
+2) Anderson, Tim, and Stu Galley. 1985. “The History of Zork.” New Zork Times 4 (1–3).
+3) Chaplin, Heather. 2007. “Is That Just Some Game? No, It’s a Cultural Artifact.” New York Times, Mar 12, 2007, sec. Arts. www.nytimes.com/2007/03/12/arts/design/12vide.html | a Dec 25, 2020
+4) Dyer, Richard. 1984. “Masters of the Game.” Boston Globe Magazine, May 6, 1984.
+5) Lebling, Dave. 1996. “Interview with Dave Lebling.” XYZZYnews #8. www.xyzzynews.com/xyzzy.8d.html | s Feb 28, 2002
+6) Lebling, Dave. 2001. “Dave Lebling (Interview).” Interview by Stephen Granade and Philip Jong. AdventureClassicGaming.com. www.adventureclassicgaming.com/index.php/site/interviews/171 | a Dec 25, 2020
+7) Lebling, David. 2011. “David Lebling Interview.” Interview by Grady Hendrix. GradyHendrix.com. www.gradyhendrix.com/david-lebling-interview | a Dec 25, 2020
+8) Lebling, David. 2014. “Classic Game Postmortem: Infocom’s Zork.” Presented at the 2014 Game Developer’s Conference, San Francisco. gdcvault.com/play/1020612/Classic-Game-Postmortem | a Dec 25, 2020
+9) Lebling, P. David. 1980. “Zork and the Future of Computerized Fantasy Simulations.” Byte 5 (12).
+10) Lebling, P. David, Marc S. Blank, and Timothy A. Anderson. 1979. “Zork: A Computerized Fantasy Simulation Game.” IEEE Computer 12 (4).
+11) Liddil, Bob. 1981. “Zork, The Great Underground Empire (Review).” Byte, Feb 1981.
+12) Mace, Scott. 1984. “Games with Windows.” InfoWorld, Apr 2, 1984.
+13) Maher, Jimmy. 2012a. “The Roots of Infocom.” The Digital Antiquarian (blog). Jan 1, 2012. www.filfre.net/2012/01/the-roots-of-infocom | a Dec 25, 2020
+14) Maher, Jimmy. 2012b. “Zork on the PDP-10.” The Digital Antiquarian (blog). Jan 3, 2012. www.filfre.net/2012/01/zork-on-the-pdp-10 | a Dec 25, 2020
+15) Maher, Jimmy. 2012c. “Exploring Zork, Part 1.” The Digital Antiquarian (blog). Jan 18, 2012. www.filfre.net/2012/01/exploring-zork-part-1 | a Dec 25, 2020
+16) Maher, Jimmy. 2013. “The Top of Its Game.” The Digital Antiquarian (blog). Mar 20, 2013. www.filfre.net/2013/03/the-top-of-its-game | a Dec 25, 2020
+17) Marshall, Debra. 1981. “Zork (Review).” 80 Microcomputing, Aug 1981.
+18) Montfort, Nick. 2005. Twisty Little Passages: An Approach to Interactive Fiction. MIT Press.
+19) O’Brian, Paul. 2001. “Archaeology (Dungeon Review).” IF-Review. Jun 29, 2001. www.ministryofpeace.com/if-review/reviews/20010629.html | s Jun 29, 2001
+20) Plotkin, Andrew. 2017. “Your Load Is Too Heavy: Zork Deep Reading.” Zarf Updates (blog). Aug 30, 2017. blog.zarfhome.com/2017/08/your-load-is-too-heavy-zork-deep-reading.html | a Dec 25, 2020
+21) Scott, Jason. 2017. “Infocom: The Documentary.” www.youtube.com/watch?v=OXNLWy7rwH4 | a Dec 25, 2020
+22) Sherman, Howard. 2011. “Zork Turns 30.” Malinche Entertainment. Jul 19, 2011. www.malinche.net/zork.html | s Jul 19, 2011
+23) Sipe, Russell. 1992. “3900 Games Later.” Computer Gaming World, Nov 1992.
+24) Stone, David P. 1983. “ZORK!: An Overview.” Computer Gaming World, Apr 1983.
+25) Suplee, Curt. 1983. “Through the Zorking Glass.” Washington Post, Dec 22, 1983.
+26) ZipBuckle. n.d. “How to Play (And Beat) Zork: A Step-by-Step Walkthrough.” Retrogeekery (blog). retrogeekery.com/how-to-play-and-beat-zork-a-step-by-step-walkthrough | a Dec 25, 2020

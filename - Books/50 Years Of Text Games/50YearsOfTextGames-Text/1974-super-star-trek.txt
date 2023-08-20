@@ -1,0 +1,151 @@
+Super Star Trek
+
+1974
+
+Mike Mayfield and Bob Leedom
+Also Known As: STTR1, Star Trek
+Style: Roguelike
+Debuted: Summer 1971 (Mayfield original)
+Late 1974 (Leedom version)
+Launch Platform: SDS Sigma 7
+Language: BASIC
+
+Opening Text:
+
+	YOUR ORDERS ARE AS FOLLOWS:
+    DESTROY THE 10 KLINGON WARSHIPS WHICH HAVE INVADED THE GALAXY BEFORE THEY CAN ATTACK FEDERATION HEADQUARTERS ON STARDATE 2025; THIS GIVES YOU 25 DAYS.  THERE ARE 4 STARBASES IN THE GALAXY FOR RESUPPLYING YOUR SHIP.
+
+	HIT 'RETURN' WHEN READY TO ASSUME COMMAND
+
+The final episode of Star Trek aired on June 3, 1969, just as superfan Mike Mayfield was finishing his sophomore year of high school. It was called “Turnabout Intruder” and it was not a very good episode. Trek had been saved from cancellation once before through a devoted letter-writing campaign, but it proved harder to rally the troops a second time. The show’s third season had on the whole been less inspired, and it seemed now to be going out with a whimper. A rerun of The Mod Squad that night scored twice as many viewers. A long decade would pass before any new live-action Trek would appear. In the meantime, fans would have to keep the flame burning themselves.
+
+Mayfield, along with other tech-minded Trekkies, saw in the increasing power of minicomputers a way to keep the show’s spirit alive. Trek games with varying degrees of complexity had appeared on mainframe systems in the late 60s and early 70s, copied, shared, and improved ad hoc like most other early programs. Today it’s hard to piece together the genealogy of these dozens of early games, in part because attribution and even self-attribution were rare, but also because so many of them were entitled simply Star Trek. While it proved difficult to capture in a game the big ideas of episodes like “The City on the Edge of Forever,” easier to simulate were the tactics and strategy of ship-to-ship combat, as in the season one fan favorite “Balance of Terror” where Kirk plays cat and mouse with a Romulan commander. Trek also provided a ready-made frame story for a game in a time when there was little storage space or inclination to create one from scratch. But all this was academic for Mayfield, quite literally: computers were still precious resources locked away in university labs, and the sixteen-year-old had no way to access one. 
+
+Not long after the TV series ended, Mayfield saw a demonstration of SpaceWar! (an early and influential space combat game) on the University of California Irvine campus near his school. It used a cutting-edge CRT monitor to draw tiny vector-graphic spaceships that players could maneuver around a mostly empty screen, firing torpedoes at each other and trying to avoid the gravitational pull of a central star. It was fun, it was addictive, and it seemed like the future: most computing was still done via teletype printer, so a dynamically updating screen was a revelation. Mayfield’s mind was duly blown, and he began to yearn desperately for computer access of his own. He knew connecting to a distant mainframe via teletype was within the realm of possibility—though his school was not yet doing this, others across the country were—but at first he could only daydream:
+
+	A bunch of my other geek friends from high school and I spent a lot of hours brainstorming what we could do if we didn’t have a video terminal. Since I was the only one in the group that had any knowledge of computers (little as it was), we ended up coming up with a lot of unimplementable ideas. One idea that did stick was the idea of printing a galactic map and a star map to give you some idea what to shoot at.2
+
+Eventually, Mayfield arranged for remote access to the Sigma 7 mainframe at UC Irvine by borrowing an enrolled student’s account (something which was not, strictly speaking, allowed). He slowly taught himself BASIC from a textbook, typing in lines one at a time on the teletype. His account had no access to permanent storage space, so at the end of each session he’d have to output his program to paper tape, carefully loading it back in the next time he wanted to work. Progress was slow. But in 1971, by the end of the summer after his senior year, he’d managed to make himself a Trek game that struck a surprisingly mature balance between playability and complexity.
+
+Originally bearing no title but STAR TREK, Mayfield’s game puts you in command of the Enterprise and tasks you with hunting down Klingons spread throughout the galaxy, represented by an 8 x 8 grid of 64 quadrants. Each quadrant in turn encloses 64 sectors, resulting in a map with 4,096 possible positions. Each quadrant has a handful of stars, which serve as cover for Klingons and obstacles for navigation. Some quadrants have a starbase where the Enterprise can restock photon torpedoes and recover the energy expended to power her warp drive and shields. The goal is to find the Klingons and defeat them all within thirty stardates. On the map, * marks a star and <*> is your ship.
+
+	---------------------------------
+	                   <*>                   STARDATE           2004 
+	                                         CONDITION          GREEN
+	                 *                       QUADRANT           1 , 4 
+	                                         SECTOR             1 , 4 
+	        *                 *              PHOTON TORPEDOES   9 
+	                    *                    TOTAL ENERGY       2602 
+	                             *           SHIELDS            300 
+	   *                                     KLINGONS REMAINING 8 
+	---------------------------------
+	COMMAND? LRS
+	LONG RANGE SCAN FOR QUADRANT 1 , 4 
+	-------------------
+	: *** : *** : *** :
+	-------------------
+	: 004 : 006 : 007 :
+	-------------------
+	: 005 : 001 : 004 :
+	-------------------
+	COMMAND? NAV
+	COURSE (0-9)? 8.5
+	WARP FACTOR (0-8)? 2
+	DAMAGE CONTROL REPORT:  SHORT RANGE SENSORS DAMAGED
+	NOW ENTERING DENEB II QUADRANT . . .
+	COMBAT AREA      CONDITION RED
+	*** SHORT RANGE SENSORS ARE OUT ***
+	COMMAND? PHA
+	PHASERS LOCKED ON TARGET;  ENERGY AVAILABLE = 2276 UNITS
+	NUMBER OF UNITS TO FIRE? 500
+	 264 UNIT HIT ON KLINGON AT SECTOR 1 , 8 
+	   (SENSORS SHOW 23.480438 UNITS REMAINING)
+	 17 UNIT HIT ON ENTERPRISE FROM SECTOR 1 , 8 
+	      <SHIELDS DOWN TO 283 UNITS>
+	COMMAND? PHA
+	PHASERS LOCKED ON TARGET;  ENERGY AVAILABLE = 1776 UNITS
+	NUMBER OF UNITS TO FIRE? 200
+	 145 UNIT HIT ON KLINGON AT SECTOR 1 , 8 
+	*** KLINGON DESTROYED ***
+	COMMAND?
+
+The map—printed out with all other text on the user’s teletype—was an early example of what would later be called ASCII graphics, where characters of text are placed in a grid to create primitive visuals. The coming genre of roguelikes would turn this into a well-recognized aesthetic. But more fundamentally, the design of Mayfield’s game presaged roguelikes through its use of random generation and increased potential for emergent strategy. Eight different commands let you control the engines, shields, phasers, photon torpedoes, short- and long-range scanners, damage control, and a library computer. Most commands take additional parameters: how much energy to transfer to shields, which computer commands to access, or what speed and direction to feed into the warp drive (using a numbered cardinal rose printed in the instructions). Fractional values let players fine-tune movement in or between quadrants—with enough precision, you can warp halfway across the galaxy and arrive in the perfect position for an attack. The combinatorial space of commands feels refreshingly larger than in earlier games like Hunt the Wumpus or ROCKET, and the galactic grid that must be explored and scanned to hunt down the enemy creates a sense of danger and discovery. Ship systems can be damaged by taking enemy fire or overusing the warp engines, and each kind of damage offers different trade-offs for deciding whether to keep hunting baddies or sacrifice time finding a starbase for repairs.
+
+Executing most plans in the game requires a series of steps, which enhances the illusion of commanding a complex starship and not just an asterisk. Finding the scattered Klingons, for instance, means deploying your library computer and both types of scanners. Long-range scans show the quadrants surrounding your present location with a three-digit code you must learn to decipher: 114 would signify a quadrant with one Klingon, one starbase, and four stars. When you warp to a quadrant with an enemy, after diverting some energy to your shields you might need to decide between using phasers or torpedoes, each with different strategic considerations. You can spend a variable amount of energy on a phaser shot, which can hit multiple enemies regardless of positioning, but the damage varies based on distance, randomness, and the strength of their shields. Torpedoes, however, always destroy a single enemy outright, but they need line of sight, so you might need to maneuver around a star and open yourself up to counterattacks before firing. You must also calculate the proper trajectory to fire a torpedo or learn how to use the library computer to calculate it for you, manually inputting its suggested parameters. Playing Mayfield’s Trek required reading the manual and paying attention. It suggested a level of seriousness and focus rarely seen in earlier computer games.
+
+The game’s code deployed a number of clever hacks to work around the severe limitations of early BASIC. Storing a map with thousands of locations was impossible given the memory available to students at the time, so rather than keeping the randomly generated contents of each quadrant in a two-dimensional array, this data is lossily compressed into the same three-digit numeric code revealed by the long-range scanners. When a sector is entered, the appropriate number of stars and Klingons are distributed on the sector map at random. This sleight of hand works in large part because you rarely have cause to enter the same quadrant twice. If you do, it’s usually because you had to flee from an enemy, and it makes sense for them to be in a different position once you return. Most players would be unlikely to notice that the stars had moved too.
+
+At the same time, the code is filled with hints betraying its “learn as you go” origins, with various features of HP2000C BASIC used once or twice as if to try them out, then abandoned. The program defines exactly one function (a relatively new concept in BASIC at the time) and only uses it twice, instead relying on traditional GOSUB and RETURN blocks for the bulk of its reusable code. An 8 x 8 array stores the three-digit quadrant signature, but the current quadrant’s contents are tracked with a much hackier method, possibly written earlier. It works by rendering the current quadrant’s map image into three strings Q$, R$, and S$. (Because of a 72-character limit for string variables, three of them are needed to store the contents of a grid containing 64 areas, each three characters wide.) Checking positions or updating the map happens by laboriously calculating which set of three characters in which string correspond to the X, Y coordinates in question. Here’s the code (circa 1973) to update the sector at Z1, Z2 with the map symbol stored in A$, picking through each of those partial map arrays Q$, R$, and S$ to find the one with the 3-character block it’s looking for:
+
+	5520  S8=Z1*24+Z2*3-26
+	5530  IF S8>72 THEN 5560
+	5540  Q$[S8,S8+2]=A$
+	5550  GOTO 5600
+	5560  IF S8>144 THEN 5590
+	5570  R$[S8-72,S8-70]=A$
+	5580  GOTO 5600
+	5590  S$[S8-144,S8-142]=A$
+	5600  RETURN
+
+Mayfield’s code is representative of the challenges of writing complex programs in early BASIC, with variable names limited to a single letter and optional number, no distinction between global and local variables, and no way to give code blocks meaningful names. While BASIC was a big step up from earlier languages, working out what an unfamiliar program did was often a difficult chore. And yet this was part of the fun for early hackers, who loved to sit down with a listing for an interesting program and figure out, line by line, how it worked.
+
+As Mayfield’s Trek passed through various hands during the 70s, it was updated to new versions of BASIC or enhanced with extra features. The most well-known revision was by Bob Leedom, a professional coder at Westinghouse working on their Data General Nova line of minicomputers. Leedom worked on and off throughout 1974 on an updated Trek that left most of Mayfield’s core systems and gameplay intact, but added a few nice touches that gave the game more polish and dynamism. His version replaced the original’s numeric commands with three-letter codes (like LRS for long-range scan, or NAV to engage the engines) reminiscent of the cryptic buttons from the onboard computer system the Apollo astronauts had used. He added better instructions and punched up the in-game messages. (Mayfield’s text for a torpedo intersecting a star—YOU CAN'T DESTROY STARS SILLY—was replaced with the somewhat more mature and immersive STAR AT 7,3 ABSORBED TORPEDO ENERGY.) Blowing up a starbase in the original simply removes it from the map; in Leedom’s version it results in Starfleet considering a court-martial. Many status reports and error messages were rewritten as if the show’s famous bridge crew were relaying them. Trying to warp off the edge of the map in Leedom’s version results in:
+
+	LT. UHURA REPORTS MESSAGE FROM STARFLEET COMMAND:
+	  'PERMISSION TO ATTEMPT CROSSING OF GALACTIC PERIMETER
+	  IS HEREBY *DENIED*.  SHUT DOWN YOUR ENGINES.'
+	CHIEF ENGINEER SCOTT REPORTS  'WARP ENGINES SHUT DOWN
+	  AT SECTOR 8,2 OF QUADRANT 7,8.'
+
+Leedom also gave the game’s numbered quadrants evocative names like RIGEL IV, added helpful functions to the library computer, and made Klingons move to a random position after being fired on (rather than waiting around for you to line up a torpedo shot, like sitting ducks). The tweaks went a long way toward increasing the fun factor of Mayfield’s original, while preserving its successful core gameplay.
+
+	DAMAGE CONTROL REPORT:  PHOTON TUBES REPAIR COMPLETED.
+	NOW ENTERING POLLUX II QUADRANT . . .
+	COMBAT AREA      CONDITION RED
+	   SHIELDS DANGEROUSLY LOW
+	---------------------------------
+	          *  +K+      *                 STARDATE           3115 
+	                                        CONDITION          *RED*
+	                          *             QUADRANT           8 , 2 
+	      *  <*>                            SECTOR             4 , 3 
+	                                        PHOTON TORPEDOES   4 
+	                                        TOTAL ENERGY       1866 
+	                  *                     SHIELDS            0 
+	          *                             KLINGONS REMAINING 4 
+	---------------------------------
+	COMMAND? SHE
+	ENERGY AVAILABLE = 1866 NUMBER OF UNITS TO SHIELDS? 500
+	DEFLECTOR CONTROL ROOM REPORT:
+	  ‘SHIELDS NOW AT 500 UNITS PER YOUR COMMAND.’
+	COMMAND? COM
+	COMPUTER ACTIVE AND AWAITING COMMAND? 2
+	FROM ENTERPRISE TO KLINGON BATTLE CRUISER
+	DIRECTION = 2.6666665 
+	DISTANCE = 3.1622777 
+	COMMAND? TOR
+	PHOTON TORPEDO COURSE (1-9)? 2.6
+	TORPEDO TRACK:
+	                3 , 3 
+	                2 , 4 
+	                1 , 4 
+	*** KLINGON DESTROYED ***
+	COMMAND? 
+
+Leedom’s improved program was published by David H. Ahl in Creative Computing magazine under the name Super Star Trek, to differentiate it from earlier versions, and later appeared in the bestselling book BASIC Computer Games, cementing its place as the best-known Trek game of the decade. Countless other spin-offs and improvements continued to proliferate, rarely crediting the original authors. A two-player version called WAR evolved into the multiplayer DECWAR [Jeff Potter and Bob Hysick 1978], and later into the popular MegaWars [1983] strategy series on CompuServe. A version called Apple Trek [Apple Computer 1979] came out for the Apple II; Radio Shack released a series called Space Trek [Instant Software 1978] for the TRS-80 and Tandy. A more involved enhancement that added 3D combat against a moving starfield appeared from Atari in 1979’s Star Raiders; widely recognized as one of the platform’s breakout titles; it would directly inspire later games like Elite [Acornsoft 1984] and Wing Commander [Origin Systems 1990] that defined space combat sims for a generation. Paramount’s own officially licensed Trek games—once it got around to releasing some—would never have a remotely equivalent impact.
+
+Super Star Trek was not the most literary nor the most complex Trek game of the decade. A 1973 version by William K. Char, for instance, featured extensive dialogue from the bridge crew and dozens of commands to do things like jettison the warp core or try obscure strategies from the original show, like Kirk’s Corbomite Maneuver. There were plenty of other Treks floating around at all levels of complexity, many of which have since been lost to bit rot or neglect. But Mayfield and Leedom’s program settled into its role as the standard in part by occupying a useful middle ground: it was complex enough to be interesting, but short enough to be printed in a magazine or book, in an era when that was still the best way to distribute software. As the longest program in BASIC Computer Games, at about five hundred lines of code without the instructions, it required a smaller font than other listings, bordering on illegibility. But it fit. Had it been much longer, it might have been deemed too difficult to include and would never have reached a wider audience.
+
+This would be neither the first nor last time that technical limitations restricted the upper bounds of a text game’s complexity, but Super Star Trek provided one of the final examples of a case where those limits—page counts and print size—would have been understandable to a creator from an earlier century. Games were soon to boldly go where no book printer had gone before.
+
+
+References
+
+1) Ahl, David H., Robert Leedom, and Mike Mayfield. 1975. “Super Star Trek.” Creative Computing, Jun 1975.
+2) Markowitz, Maury. 2013. “Star Trek.” Games of Fame. Apr 28, 2013. gamesoffame.wordpress.com/star-trek | a Jun 22, 2020 
+3) Mayfield, Mike. 1973. “SPACWR.” In 101 BASIC Computer Games, ed. David H. Ahl, 201–4. Digital Equipment Corporation.
+4) Mayfield, Mike, and Robert Leedom. 1978. “Super Star Trek.” In BASIC Computer Games, ed. David H. Ahl, 157–63. New York: Workman Publishing.
+5) Pappas, Lee. 1981. “Five Star Treks, Count ’Em, Five!” A.N.A.L.O.G. 400/800, Feb 1981.
+6) Reed, Aaron A. 2020. “Code Archaeology with ‘Super Star Trek.’” Aaron A. Reed’s Medium Blog. Jun 25, 2020. medium.com/@aareed/code-archaeology-with-super-star-trek-928101eb010c | a Jun 25, 2020
+7) Rubin, Brian. 2011. “Star Trek (1971) - Boldly Going Where No Game Had Gone Before.” Space Game Junkie (blog). Oct 17, 2011. www.spacegamejunkie.com/reviews/star-trek-1971-boldly-going-where-no-game-had-gone-before | a Jun 22, 2020 
+8) Turnbull, Pete. 2005. “Star Trek.” dunnington.u-net.com. Mar 26, 2005. www.dunnington.u-net.com/public/startrek | s Jul 19, 2012
+9) Veeneman, Dan. 2010. “Hewlett-Packard HP 2000 Time Shared Basic.” Decode Systems. Jul 16, 2010. www.decodesystems.com/hp2000 | a Jun 22, 2020

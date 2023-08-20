@@ -1,0 +1,206 @@
+80 Days
+
+2014
+
+Inkle 
+Meghna Jayanth (script), Jon Ingold and Joseph Humfrey (directors)
+Style: Choice-Based,
+Storylet-Driven
+Debuted: Jul 31, 2014 (App Store)
+Launch Platform: iOS
+Publisher: inkle
+Language: ink
+Launch Price: £2.99 / $4.99 (download)
+
+
+Opening Text:
+
+	London, 1872
+
+	I have entered into the service of a new gentleman.
+
+	_It would seem..._ [click] he is a gambling man.
+
+
+“A question we got repeatedly asked,” the speaker noted about his studio’s first game, “was ‘Yeah, but like, do my choices really matter?’”
+
+	People say, “Well, I’m pressing this button, but it doesn’t really matter, does it? You don’t really make any difference.” And that is the canonical problem of branching narrative. That’s the one that every single purveyor of branching narrative is constantly, desperately trying to solve: convincing you that the choices they make you agonize over have any impact on the game at all.11
+
+The talk was on choices in interactive stories: what they’re good for and how to design them. The speaker was Cambridge-based Jon Ingold, and the studio was called inkle. Ingold co-founded it in 2011 with Joseph Humfrey, after the two worked together on briefly hot motion-control games for Kinect and PlayStation Move. The tiny company’s goal was to “explore what new narrative experiences were possible on tablets and phones.”8 Motion tracking had started to feel like a gimmick, but ubiquitous touch screen devices like Apple’s iPhone, and especially the larger iPad that launched in 2010, seemed intriguing platforms rife for experimentation.
+
+Ingold grew up reading gamebooks and playing Infocom text adventures, seeds of a lifelong love for the pleasures of mingling reading and play. In his late teens and twenties he wrote parser IF in Inform, including acclaimed titles like The Mulldoon Legacy [1999], All Roads [2001], and Make It Good [2009]. But he’d grown frustrated with the limitations of the parser. Telling stories centered on characters and dialogue was hard with a verb-noun interface—though some had struggled to try anyway—and parser games could be inscrutable to outsiders, limiting their audience. “Whenever I showed one of my games to someone who hadn’t played a text adventure,” Ingold recalled, “they would be completely stumped. ‘You’re meant to type in what to do? But what should you type? What should I do?’”25
+
+Ingold and Humfrey believed the shift to a new platform offered an excuse to challenge longstanding norms of interactive narrative design. One of their first precepts was that “text is a visual medium.”24 Rather than dumping words to standard output to let a terminal window or operating system handle their rendering, inkle’s apps would put effort into typesetting, presenting text beautifully to encourage players to actually read it. The studio’s first release was an interactive adaptation of Frankenstein [2012] with gorgeous typography, presented in long passages of text interrupted only occasionally by choice points, and no stats or other gamelike elements to distract from the reading experience.
+
+The reaction was mixed. Ingold would dryly recall: “Gamers generally didn’t like it because it was a book. Book people generally didn’t like it because it wasn’t a book.”11
+
+The studio found more success with their next release, Steve Jackson’s Sorcery! [2013], which adapted a fondly remembered 80s gamebook into an extended digital edition. The design iterated on Frankenstein in several major ways. It added visible stats that went up or down in response to events or choices, useful “to help reassure readers that what they’re choosing is definitely being noticed.”24 Another insight was to break long passages of prose into short, snappy sentences with frequent choices, even if those choices had no lasting consequences. A faster interaction cycle kept players engaged and used choice more for pacing than exclusively for big, weighty decisions. As writer Meghna Jayanth noted, “Instead of just ‘should I kiss them or turn away,’ alright, do I move up my chair? Do I meet their eye? Do I sit a little bit closer? Do I lean forward?”13 
+
+Jayanth had been contracted by inkle for an unrelated project in the wake of Sorcery!’s success. While Ingold and Humfrey cranked away at a sequel, they hoped Jayanth could start researching and writing material for a new game originally planned as a smaller-scale experiment. The plan would change. At first Jayanth was hired to write perhaps ten or twenty thousand words; ultimately she and Ingold together would write closer to three-quarters of a million.
+
+The new game was to be based on Jules Verne’s 1872 novel Around the World in 80 Days, in which English gentleman Phileas Fogg makes a wager that he and his valet, Passepartout, can circumnavigate the globe at a hitherto impossible speed. Having partnered with a book publisher for Frankenstein, the inkle team had considered what other well-known stories in the public domain might make good foundations for game adaptations. In particular, they were looking for stories based around maps. Another key innovation from Sorcery! had been realizing how critical it was to help players understand the relationship between their choices and the story. Ingold recalls that in Frankenstein,
+
+	the common reaction was, “My choices don’t make any difference; they don’t matter; they don’t affect anything.” And we’d say, well, actually they do. There’s a system under the hood and it’s got these options—but there’s no UI to show you that. It just looks like a book that writes itself.
+
+	But then we found that when we showed people a story graph of Frankenstein, and then they read it, they said, “Wow! I just feel so on edge and every choice matters.” It was all about creating that expectation of branching first. So we spent a long time thinking, how do we put a flow chart in an interactive book without it looking like a flow chart?27
+
+The solution was to frame the Sorcery! interface around its map, with major choices tied to decisions about which paths to take or places to visit. Suddenly players had an implicit understanding of their position within the narrative possibility space. They could see how far along they were on the journey and understand that because they’d decided to go left, they were missing out on any stories that might have been to the right. Maps “proved” branching, Ingold realized,11 and they had any number of other benefits besides: they demonstrated cause and effect; they showed off the existence of unexplored content; they lent visual interest to an otherwise textual story; and they let players strategize about future moves (“How do I get over there?”). So Verne’s story seemed a natural fit, based around the familiar yet intriguing map of the world. On a mobile touch screen, you could even satisfyingly twirl the globe beneath your fingers while planning a route.
+
+Verne’s novel provided other useful structure. First, its episodic nature worked well for a player-directed narrative. Each stopping point on the journey could hold a self-contained story that didn’t need to appear in strict sequence, giving players more agency over their route. And the novel offered another useful constraint. A key plot point is that heading east means gaining a day by crossing the international date line; the extra time proves crucial to securing the wager. Eastward-only travel would allow “narrative structure that occurs without forcing users into choke points,”28 meaning introductory material and story arc setups could be placed in Europe and Africa, mid-game content in Asia, and advanced content and conclusions to plot arcs in the Americas. 
+
+While Ingold and Humfrey began designing UI and mechanics with an aim to keep iterating on the successes of Sorcery!, Jayanth began wrestling with the problems of how to update a nineteenth-century novel to work in the twenty-first. Her 2012 game Samsara, which was written for the StoryNexus platform, had caught the inkle team’s eye not only for its beautiful prose but because it had taken a historical setting and added a dose of the fantastic. It seemed clear a similar approach was needed here. To give players the same sense of wonder felt by readers of the original novel, the game needed to offer something modern readers would find as fantastic as a steam train or a submarine. 
+
+Sticking to a historical 1872 also presented a game design problem. Verne’s novel had been inspired by the recent openings of the Suez Canal and transcontinental railways across both India and the United States; the only sensible fast route at the time would connect those three conveyances. To give players the chance to chart their own unique journeys, there would need to be equally speedy and compelling routes available all across the globe. So Jayanth and the inkle team decided to set the game in an alternate history where innovations modern readers would find intriguing were happening on every continent. The game establishes this change from its very first sentences: 
+
+	Monsieur Phileas Fogg returned home early from the Reform Club, and in a new-fangled steam-carriage, besides!
+	-->I helped him down… 
+	I helped him down, and the iron-lunged, steam-driven horses clattered away.
+
+	“Passepartout,” said he. “We are going around the world!”
+
+80 Days would go steampunk. But Jayanth hoped the project could avoid the kinds of uncritical pastiche that genre had been increasingly criticized for. It’s a style where “we keep the Victoriana,” she stated,
+
+	the bustles, the elaborate upper-class courting rituals, the arranged marriages and the stiff upper-lips—and elide away all the dirt and muck. The class politics are blunted in favour of a nostalgic enjoyment of silk dresses and soirees.
+
+	It’s a nostalgic, escapist vision—I am quite happy to go so far as to call it a fetishistic one. It’s a vision that has very little room for people of colour (who very much existed in Victorian Britain!), for queer people, for poor people. If they exist, they exist as victims. That seems dangerous and broken, that this is escapism, that this is fantastical. That glittering world of adventure and courtesy is built on oppression and suffering.20
+
+Instead, she began to imagine an alternate world where the astonishing innovations of Verne’s imagined futures had been distributed more evenly around the globe. An 1872 took shape where “the automaton armies of the Zulu Federation turn away the depredations of European colonists scrambling for Africa—where the technology that built the British Raj is being used to dismantle its foundations—where the Panama Canal is dug using Haitian ingenuity, tipping the balance of power away from the United States—and where the stories usually told in the margins spill over into the text.” Steampunk, she wrote, “is often written as a modern fantasy of an imagined past. We wanted to create something a bit different: a historical fantasy of an imagined future.”17 
+
+	The shaba-meli was a rigid, helium-filled metal balloon; an African invented-and-produced form of air-travel.
+	
+	* --> The balloon itself was made of thin, interleaving layers of copper… 
+	* It seemed impossible that it could hang in the air…
+	
+	The balloon itself was made of thin, interleaving layers of copper and tin mined in Katanga and constructed by the Nyamwezi chieftains.
+
+	We were accompanied on our journey to Ulundi by the strange, macabre sight of wheeling squadrons of wood-and-copper birds with diamond shards spinning in their hollow chests.
+	
+	* …Their eyes were bright…
+	* --> …I was captivated by their beauty…
+	* …Their purpose in the sky seemed clear enough…
+
+	I was captivated by their beauty… their bright-beaded wings beat against the air, and their diamond shards glittered like stars in the endless blue of the sky.
+	The Zulu Federation crew waved and called out to them respectfully.
+
+	* “I have never seen such automata.”…
+	* -->“Why do you speak to them?”…
+
+	“Because they are emissaries of our Emperor,” one of the navigators explained, amused by my question. “We must treat the Emperor’s automata with great deference.”
+
+The new setting lent a clue to another problem Jayanth was grappling with: how to address the white savior tropes in the original story, where two Europeans charge uncritically through a world still filled with the radical injustices of colonial empire. A chief insight was to realize that the story need not always be about Fogg and Passepartout. “Is it possible to write a game in which your protagonist isn’t the hero?” Jayanth wondered. “Or maybe, less provocatively: can you write a game in which your protagonist isn’t the only hero?”18 She began to rethink the role of non-player characters, typically passive folk who follow the player’s orders or wait for them to come save the day—“quintessential victims,”23 she realized. Instead, she decided to write characters actively solving their own problems and telling their own stories, which yours would but briefly intersect. “You are a tourist,” she explained. “You do not get to be as important as the people that live there [in the places you visit]. You may be able to touch and nudge at a revolution, or participate in one—but it is not yours.”20 In short, “the world of the game turns—but it doesn’t turn around you.”21
+
+	The Nefertiti was a tall-masted Egyptian clipper that sailed around the coast-line from Antalya all the way to Alexandria.
+
+	* --> I asked the skipper if he had considered longer voyages…
+	* I was content to enjoy the ride…
+	
+	I asked the skipper if he had considered longer voyages via the Suez Canal, but he only laughed. “The fees, young man, are quite extortionate.”
+	
+	* I could not argue with that…
+	* --> “How extortionate?”
+	
+	“How extortionate?” I asked.
+
+	He gave me a pointed look. “You will not buy me or my boat,” he replied, “if that is your intention. My liberty is worth more coin than you have.”
+
+	I nodded, and we did not pursue the conversation further.
+
+In one sequence at an Australian hotel, Passepartout meets a Murri maid who has written a letter protesting the white settlers’ treatment of Aboriginal peoples. She wants to bring it to the local newspaper, but doubts they would ever print it. The game presents you with a choice offering to deliver it for her, Jayanth explains:
+
+	To use your whiteness and maleness and your protagonism, basically, to help her. But she refuses. She doesn’t trust you—because of all those things, because you’re an outsider, because you’re white and male. You’re closer to the oppressor than you are to her, and all the good intentions in the world can’t change that.
+
+It might feel unfair to present the player with a problem they can’t solve, Jayanth notes, “but maybe unfair isn’t the worst thing a game can be.”23
+
+Rethinking the foundational assumptions of both story and systems continued, in a highly collaborative process that “grew and grew until it encompassed first every working hour, and then every waking one.”15 The game that emerged nine months later would be quite different from Sorcery! or anything else on the market, with a unique structure that Ingold later described as “self-narrating board game.”11 The mechanical spine of 80 Days is essentially a trip-planning simulator, where the player must chart a round-the-world course departure by departure, making trade-offs between money, time, and Fogg’s well-being—as a valet, the health of your employer is a prime concern. Markets in most cities let you buy and sell goods to help fund your journey, ease the stress of travel, or lubricate friendships along the way. “Having a box of snuff to hand might get a train guard on the Siberian Express to tell you what she knows about links between Yokohama and San Francisco,” one reviewer noted.7 Another observed that
+
+	choosing the next leg of your journey isn’t as simple a booking passage on the fastest mode of transport.… This gyrocopter might not be leaving for three days, a nearly unbearable delay, but it’ll take you to a city where you could sell one of the items in your suitcase for a hefty sum.… Traveling by car might be quick, but it’s also tiring, and Fogg can only put up with so much discomfort.2
+
+The mechanics interact in ways that encourage constant decision-making. Depleted funds on hand can be restored from Fogg’s accounts by visiting a bank, but this wastes precious time while waiting for the transfer. A clock visibly advances while in a city, adding pressure: if you visit the bank or take too long dithering in the market, you might miss your next connection. Exploring a city takes hours of time, but can unlock new stories and routes—though not always to places you want to visit (or can afford to). These gameplay decisions mirror and complement the narrative choices in the stories found in each city: impressing a mayor might unlock a seat on a faster conveyance, while a lapse in judgment could result in Passepartout parting with too much of Fogg’s cash. More stories unfold on each possible route between stopping points. In the final game, there are over four hundred of these unique connections.
+
+	5:00 PM
+	Hover-ship to Antananarivo
+	£110
+	(2/2) The hold has space for two suitcases, which will suffice.
+	(-18+9) Baking Sunshine and Mild Seas: This looks like a wearisome route, but the Panama Hat from our Warm Climate Gear set should see us to rights
+
+“The fiddly bits of making the trip work wouldn’t be nearly as much fun if the writing in 80 Days wasn’t so good,” a reviewer noted.2 The vast library of content—with potential stories including teeth-rattling road trips, Arctic catastrophes, submarine kidnappings, high-stakes poker games, and even a trip to the moon—was written using a custom language called ink, designed to minimize markup and let writers “quickly and robustly create heavily branching flow that runs naturally from beginning to end—as most interactive stories do.”16 While hypertext editors like Twine 2012 and Storyspace 1995 often used graphs to visualize story nodes, Ingold felt this approach was overkill for works that emphasized forward momentum with no wrong choices or dead ends. Rather than forcing authors to manually reposition boxes or deal with the headache of adding or removing them from the middle of a chain, ink used a plain text markup with nested indentation indicating choices:
+
+	weave:neworleans
+	- I met Death in a smoke-wreathed red-lit bar in New Orleans, as the jazz band struck up another tune. He offered to buy me a bourbon.
+		*"Holy mother of Heaven[."]," I blasphemed succinctly, -->
+		*"Perhaps in twenty or thirty years?"[] I replied archly, -->
+		*(wet)I threw my drink in his face[] in an automatic
+	  gesture of defence, -->
+	- as some of the other patrons snickered.
+	Death pulled off his mask to reveal handsome café-au-lait features and dark green eyes, and then extended a {-->wet:dripping} skeletal hand to me.
+		*"A fine costume[."]," I remarked.
+		"/Merci, mon cher/, -->
+		*"You gave me a fright[."]," I admitted.
+		"My deepest apologies, /mon cher/, -->
+	- I am Death at our neighborhood Mardi Gras, and I am practising my role." He took my proffered hand and brought the back of it to his lips for a gallant kiss; he flicked me a rather unmistakable look under his dark lashes.
+		*I returned his look[] with one of my own, and he let my
+	  fingers slip slowly through his {raise(style)} -->
+		*I pretended not to see [it] his look, or the sensuous
+	  tilt to his mouth, and he laughed. -->
+		[...]
+
+In this sequence the story flows forward, with player choices indicated by asterisks and the --> arrow showing a jump to the next “gather point” (dash) where the story continues. Text up to and including bracketed content is shown to the player in a menu of choices, and reprinted without the bracketed portion when the story continues, flowing it into a seamless transcript. After you click the last option in the first choice point above, the onscreen text appears like this:
+
+	I met Death in a smoke-wreathed red-lit bar in New Orleans, as the jazz band struck up another tune. He offered to buy me a bourbon. I threw my drink in his face in an automatic gesture of defence, as some of the other patrons snickered.
+
+The ink compiler tracks possible flows through the story and notifies authors where it might stall out, which becomes more possible with commands that can jump to other named nodes, creating more complex flows. As players progress, they might accumulate changes to stats (indicated by commands like the {raise(style)} near the end of the excerpt above); if Passepartout becomes more stylish in this scene, new options or text variations might appear later. A list of nodes visited in the current playthrough is automatically assembled, which lets authors easily vary text (seen above when “Death” gets soaked by a drink). Subchoices can be nested under parents to arbitrary depth, letting authors easily build complex branches within individual choices without needing labels or jumping. Designed specifically to allow easy creation of the kinds of interactive stories inkle wanted to tell, the company hoped it might be useful to spread the gospel to others, and took pains to keep the language simple:
+
+	Every feature you add to a tool changes the way the tool presents itself to new users, and changes a user’s perception of what the tool is for. So add five cool niche features and your tool might start to look like it’s for making fiddly, avant-garde things only.… As tool creators we have to keep returning to our users and saying, what are these people like? What do these people care about, and what don’t they care about? What message do we want to send them about what they should be doing?1
+
+Working with ink, Jayanth and Ingold were able to write an incredible amount of content for 80 Days: more than 700,000 words, 150 cities, and 16,000 individual choices. While the episodes at each destination and along each journey are largely independent, certain characters and events recur, and each playthrough reveals only portions of the stories that the game’s countries and people are playing out on a global stage. Jayanth has called this “worldbuilding instead of plot,”21 and it lets players piece together for themselves the story of the Artificer’s Guild, or the Sisters of Didacus, or Austria-Hungary’s Imperial Kriegorchester (an army of automatons controlled by music and “Mozart-Haydn devices”). The big-picture stories contrast with the game’s hundreds of smaller vignettes—stunning vistas or memorable characters who cross your path only for moments, before your own story moves on.
+
+	I drank shots of homebrew liquor with a Dutch sailor… who was mourning the loss of his third finger to frostbite. “Got seven left, I s’pose,” he said, with admirable aplomb.
+
+High player agency, compelling stories, and real replayability, with most round-the-world journeys revealing less than 10 percent of the possible text, led to a play experience that felt thrilling to many jaded players and reviewers used to games where choices rarely seemed to matter. One wrote that the game had “taken the long-ignored strengths of Interactive Fiction … and applied them in the right way on the right platform to give the player an experience that feels wholly unique, and more importantly, wholly their own.”4 Another felt that “each decision feels less like straying from the intended path … and more like letting the fiction take you new, exciting places.… The difference between 80 Days and many other narrative games for me is that each path feels like the intended one.”3
+
+When Jayanth first joined the project, one of her concerns had been Verne’s character Aouda, who eventually becomes Fogg’s bride. “Aouda is not just Indian,” she notes:
+
+	She is an imperialist’s vision of India: rescued from savagery and ignorance by the cool-headed rationality of an Englishman; a grateful bounty that delivers itself willingly into the hands of the benign master.
+
+	My problem with Aouda’s—India’s—mistreatment in the original text is personal—as I happen to be Indian, and a woman. But thinking about Aouda was a spur to me to start thinking in more general terms: what kind of shape and structure would be required to create a game that included people like her?18
+
+Thinking about how to address Aouda’s story became one of several spurs for the radical rethinking of the game’s world that gave its characters back their agency. And as the stories changed, the writers found a surprising undercurrent in Verne that felt more resonant with the twenty-first century: the allure of a barely hoped-for possibility that change might sometimes be for the better. Jayanth noted the anticolonialist themes of 20,000 Leagues Under the Sea, in which brown antihero Captain Nemo fights the imperialist oppressors who murdered his family. In an interview with gaming blog Rock, Paper, Shotgun, Ingold observed that Aouda was “a trophy wife by definition, [but] on the other hand, that’s a mixed race marriage in 1872.” Jayanth added:
+
+	Aouda is deracinated and it’s problematic but that’s the thing, if Verne could go so far, if we are trying to write Verne today, we have a responsibility to go even further and write something that’s progressive for our time. As progressive for our time as Verne was for his.27
+
+“Peeling back the layers of nostalgia and assumption is the right thing to do,” Jayanth has said, “but it is also a gift to the writer and reader/player: there is such an opportunity here, to tell unknown and surprising and challenging stories.”20 Reviewers and players overwhelmingly agreed, praising the game both for its reimagined history and its rethinking of interactive narrative conventions. Among other accolades, Time magazine named it Game of the Year for 2014—a rare feat for a game developed for mobile.
+
+As inkle has continued to find new audiences for interactive stories, they have also kept investigating and minimizing the reasons some folks don’t like them, taking rare risks and being unafraid to experiment. Sometimes questioning the foundations of a story, and its medium, is the only way to find out whether and why they still matter. 
+
+
+References
+
+1) Alexander, Leigh. 2013. “Roundtable: The Interactive Fiction Renaissance.” Game Developer (blog). Mar 14, 2013. www.gamedeveloper.com/design/roundtable-the-interactive-fiction-renaissance | a Oct 12, 2021
+2) Arendt, Susan. 2014. “On My iPad: 80 Days.” Joystiq. Aug 7, 2014. www.joystiq.com/2014/08/07/on-my-ipad-80-days | s Aug 8, 2014
+3) Brinks, Melissa. 2019. “Review: ‘80 Days’ Perfects The Adventure Game Form On Switch.” Forbes (web). Oct 1, 2019. www.forbes.com/sites/melissabrinks/2019/10/01/review-80-days-perfects-the-adventure-game-form-on-switch | a Oct 12, 2021
+4) Cameron, Phill. 2014. “80 Days Review.” Telegraph (web). Aug 18, 2014. www.telegraph.co.uk/technology/video-games/video-game-reviews/11040336/80-Days-review.html | s Aug 24, 2021
+5) Curry, David. 2014. “Inkle: Making Stories Come Alive On Mobile.” Gosu Tech (blog). Dec 11, 2014. www.gosu-tech.com/2014/12/11/inklemaking-stories-alive-mobile | s Dec 23, 2014
+6) Faraday, Owen. 2014. “To Jaipur by Hover-Car: A Hands-on Preview of 80 Days.” Pocket Tactics (blog). Jun 9, 2014. www.pockettactics.com/features/jaipur-hover-car-hands-preview-80-days | s Jun 12, 2014
+7) Hartup, Phil. 2015. “Inkle’s 80 Days Is a Brilliant Game That Isn’t Really a Game at All.” New Statesman (blog). Jan 29, 2015. www.newstatesman.com/culture/2015/01/80-days-brilliant-game-isnt-really-game-all | a Oct 12, 2021
+8) Hayward, Andrew. 2015. “80 Days’ Twisting, Globetrotting Adventure Will Be Even Wilder on Mac.” Macworld (blog). Sep 10, 2015. www.macworld.com/article/226300/80-days-twisting-globetrotting-adventure-will-be-even-wilder-on-mac.html | a Oct 12, 2021
+9) Humfrey, Joseph. 2016. “Ink: The Narrative Scripting Language Behind ‘80 Days’ and ‘Sorcery!’” Talk presented at the Game Developers Conference, San Francisco, 2016. www.gdcvault.com/play/1022944/Ink-The-Narrative-Scripting-Language | a Oct 12, 2021
+10) Ingold, Jon. 2014. “80 DAYS Post-Mortem: Letting the Game Tell the Story.” Talk presented at the Game Developers Conference China, Shanghai, Oct 19, 2014. www.gdcvault.com/play/1021666/80-DAYS-Post-mortem-Letting | a Oct 12, 2021
+11) Ingold, Jon. 2015. “Adventures in Text: Innovating in Interactive Fiction.” Talk presented at the Game Developer’s Conference, San Francisco, Mar 2, 2015. www.gdcvault.com/play/1021774/Adventures-in-Text-Innovating-in | a Oct 12, 2021
+12) Ingold, Jon, and Joseph Humfrey. 2015. “Postmortem: Inkle’s 80 Days.” Game Developer (blog). Oct 13, 2015. www.gamedeveloper.com/business/postmortem-inkle-s-i-80-days-i- | a Oct 12, 2021
+13) Ingold, Jon and Mag Jayanth. 2019. “Jon Ingold Interviews Meg Jayanth.” Discussion presented at AdventureX, London, Nov 2, 2019. www.youtube.com/watch?v=hmfPuKYjyFA | a Oct 12, 2021
+14) Inkle Blog. 2014a. “Welcome to Our World!” Apr 29, 2014. www.inklestudios.com/2014/04/29/welcome-to-our-world.html | a Oct 12, 2021
+15) Inkle Blog. 2014b. “Journey’s End…” Jul 14, 2014. www.inklestudios.com/2014/07/14/approaching-journeys-end.html | a Oct 12, 2021
+16) Inkle Blog. 2021. “ink version 1.0 release!” Feb 22, 2021. www.inklestudios.com/2021/02/22/ink-version-1.html | a Oct 12, 2021
+17) Jayanth, Meg. 2014a. “Verne and Victorian Futurism.” Inkle Blog. May 8, 2014. www.inklestudios.com/2014/05/08/victorian-futurism.html | a Oct 12, 2021
+18) Jayanth, Meg. 2014b. “Don’t Be A Hero - 80 Days the Game.” The Literary Platform (blog). Jul 30, 2014. theliteraryplatform.com/news/2014/07/dont-be-a-hero-80-days-the-game | a Oct 12, 2021
+19) Jayanth, Meg. 2014c. “Fantasy, History and Respect.” You Can Panic Now (blog). Oct 18, 2014. megjayanth.com/post/100280300365/fantasy-history-and-respect | a Oct 12, 2021
+20) Jayanth, Meg. 2014d. “Using Games to Re-framing Our Past: an interview with 80 Days writer Meg Jayanth.” Interview by Barry Joseph. Moosha Moosha Mooshme (blog). www.mooshme.org/2014/10/using-games-to-re-framing-our-past-an-interview-with-80-days-writer-meg-jayanth | a Oct 12, 2021
+21) Jayanth, Meg. 2015a. “Leading Players Astray: 80 Days & Unexpected Stories.” Talk presented at the Game Developers Conference, San Francisco, Mar 2, 2015. www.gdcvault.com/play/1022101/Leading-Players-Astray-80-Days | a Oct 12, 2021
+22) Jayanth, Meg. 2015b. “An Interview with Meg Jayanth.” Interview by D. S. Wadeson. D S Wadeson (Medium blog). madquills.medium.com/an-interview-with-meg-jayanth-3bba787e6e8f | a Oct 12, 2021
+23) Jayanth, Meg. 2016. “Forget Protagonists: Writing NPCs with Agency for ‘80 Days’ and Beyond.” Talk presented at the Game Developers Conference, San Francisco, Mar 14, 2016. www.gdcvault.com/play/1023393/Forget-Protagonists-Writing-NPCs-with | a Oct 12, 2021
+24) Köller, Joe. 2013. “Wordplay: Jon Ingold.” Haywire Magazine (blog). Oct 27, 2013. haywiremag.com/features/wordplay-jon-ingold | a Oct 12, 2021
+25) Lloyd, Stuart. 2013. “April A to Z - I Is for Inkle.” Lloyd of Gamebooks (blog). Apr 10, 2013. www.lloydofgamebooks.com/2013/04/april-to-z-i-is-for-inkle.html | a Oct 12, 2021
+26) Parkin, Simon. 2016. “Meg Jayanth: The 80 Days Writer on the Interactive Power of Game-Play.” The Guardian, Jan 10, 2016, sec. Games. www.theguardian.com/technology/2016/jan/10/video-game-makers-meg-jayanth-80-days | a Oct 12, 2021
+27) Smith, Graham. 2015. “How 80 Days Adapted The Modernist Spirit Of Verne.” Rock, Paper, Shotgun (blog). Oct 14, 2015. www.rockpapershotgun.com/80-days-design-interview | a Oct 12, 2021
+28) Torkington, Janel. 2014. “80 Days (iOS): Next Generation Interactive Fiction.” iOS App Development (blog). Jun 10, 2014. medium.com/ios-os-x-development/next-generation-interactive-fiction-80-days-379b9a2ad1c5 | a Oct 12, 2021
+

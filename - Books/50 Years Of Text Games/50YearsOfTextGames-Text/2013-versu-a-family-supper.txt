@@ -1,0 +1,242 @@
+Versu: A Family Supper
+
+2013
+
+Emily Short
+Style: Procedural Story
+Debuted: Feb 14, 2013 (App Store)
+Available Until: Feb 19, 2014
+Launch Platform: iPad / Versu App
+Publisher: Linden Lab
+Language: Praxis
+Launch Price: $4.99 (in-app purchase)
+
+Opening Text:
+
+   The first course is ready laid out on the table, with salmon at one end and a dish of turbot at the other, together with a dish of macaroni, muffin pudding, and larded sweetbreads.
+   
+   Elizabeth is at the Quinn dinner table, with their other guests.
+   
+   The meal has only just begun, but a curious sort of unease hangs over the room; a sense of apprehension whose source she cannot identify.
+
+   New objective: Make an impression on your dining companions
+
+
+It was the first week of March in 2011, and acclaimed IF author Emily Short and character AI guru Richard Evans were onstage at the Game Developers Conference in San Francisco, huddled over a misbehaving laptop. Several hundred industry peers had shown up for a session called “People in Your Pocket” and a demo of a new approach to character-driven games on increasingly popular mobile platforms. But the demo refused to appear on the projected screen, due to some issue with the laptop’s presenter mode, or maybe Xcode’s iPhone simulator, or maybe a bad cable somewhere. For six painful minutes—an eternity before a live audience—the two tried in vain to diagnose the problem. Evans, a fast-talking Brit charmingly excitable at the best of times, stammered nervously through a litany of apologies: in the recording of the session you can almost hear his heart rate skyrocketing. “This is simply a sort of interface problem,” he explained. “It’s not like the game’s not running. We just can’t get it on the front of this desktop.”8 
+
+The demo the two had hoped to present was the start of a line of experiments that would lead to one of the most groundbreaking AI storytelling systems ever made. While driven by complex logic and increasingly clever code, each iteration of the system was, at its heart, exploring a foundation-shaking question for narrative games, which had always struggled to bring compelling interactive characters to life. The question was this: what if the core of a story game’s world model wasn’t locations and objects, but rather the rules of conversation and social convention? And could such a system drive NPCs who might improvise sensible reactions to the player’s behavior, allowing for emergent and character-driven stories?
+
+Short and Evans had set out in 2010—originally along with Andrew Stern, co-creator of the ahead-of-its-time story game Façade [Procedural Arts 2005]—to prototype a game experience that felt more like performing in “an interactive drama” than marching through a static plot,
+
+   an improvisational play, rather than an interactive story. The player is encouraged to perform her character, to improvise within the dramatic situation that she has been thrown into. The smallest comment, the slightest look, even not saying something—these moment-to-moment actions are noticed by the other participants and amplified.6
+
+While Short’s interactive fiction Galatea and most other character-driven IF had created illusions of responsive character by writing many possible reactions for each moment of conversation, these approaches could only be taken so far. They were labor-intensive to author, they were unable to adapt to unexpected input, and they often couldn’t unfold in anything but a predetermined order.
+
+Short had experimented for years with making conversations in IF more dynamic. Her 2009 game Alabaster debuted a technique for writing “threaded conversations” where each discussion beat could be tagged with interlinked topics, allowing NPCs to reason over (or even search through) chains of associated conversational subjects. Evans had also been thinking about character behavior, in the context of more mainstream games. While building a revamped AI engine for The Sims 3 [Electronic Arts 2009], he’d become frustrated by the limitations of representing complex character motivations in a graphical game:
+
+   I had this particular experience very early on in the prototype phase of Sims 3, where I had this bug, and I sort of got obsessed with it. There was this shy Sim, and he’d invited a whole lot of other Sims round to his house, but then when they came round he didn’t let them in. And so I looked inside his internal mental state to see why.… And it turns out that he was basically conflicted. On the one hand, he understood that he should let them in, you know, that’s the social norm that if you invite people over you should let them in. But on the other hand he was a shy Sim, and he knew that inviting people over meant talking to them, which he didn’t really like.… And the way the internal code was at the time, his shyness was overriding his urge to do the socially appropriate thing.
+   
+   So the first thing I did was just change round the relative weights of those two urges, so doing the right thing in this particularly case overrode his shyness. But that seemed very unsatisfactory to me.… Ideally what we’d want to do is that the Sim would have answered the door reluctantly, thereby expressing his conflict.8
+
+But for characters in a graphical game to do something reluctantly would mean expensive new animations, one for each kind of action that might be performed that way; each new modifier or verb would require more custom assets. Improving a character’s expressiveness in a graphical game was a multiplicative, not additive, operation. In a text game, all that was needed was that single word reluctantly, an adverb changing how the reader understands the action it’s attached to. So Short and Evans’s prototype would be a text game, showcasing how the medium could be a viable platform for exploring next-generation character AI techniques, despite the seeming mismatch between old and new technologies. (“It looks on the outside sort of old-fashioned and conventional,” Evans cheerfully explained in a later demo, but “it’s actually got some sort of weird-ass simulation going on underneath.”6) The two eventually founded a company called Little Text People to further develop their weird-ass simulations. Short listed her position as CTO: Chief Textual Officer. 
+
+The engine they began devising, eventually branded as Versu, was built around the notion that people—fictional and otherwise—usually act according to the rules of the particular social situation they find themselves in. This observation is mined for narrative potential most effectively in comedies of manners, where plot complications and humor arise from characters going to great lengths to conform to (or violate) social expectations—the basis of huge swaths of popular entertainment, from Oscar Wilde to TV sitcoms. Evans and Short’s chief goal was to take “all of those social interactions that belong to manners, politeness—that level of interpersonal negotiation that’s so rarely seen in games at all—and [make] that core gameplay.”8
+
+Back in the 1950s, philosopher John Rawls had argued that most actions only make sense in relation to the social contract that frames them. Meaning comes from context, as Evans and Short paraphrase: “We can utter a series of noises which sounds like ‘Ay doo,’ but this only constitutes a marriage vow in the context of a wedding ceremony.”7 While previous character AI systems had tried to encode each possible action a character might take and eliminate those invalid or implausible at a particular moment, Versu instead used a “constitutive” view based on social practices: “the agent does not see [an] action as available unless he is already participating in the practice which makes it visible. The agent is not overwhelmed by an infinite number of choices because he only sees the affordances that are provided by the social practices he is in.”7
+
+A “social practice” in Versu defines a kind of interpersonal interaction where each participant has a role to play. Two people being introduced might be expected to shake hands and make superficial inquiries as to each other’s health, while a guest at a dinner party is expected to eat the food, tell the host how good it is, and make polite conversation with other guests. When a Versu character violates the norms of an active social practice, other nearby characters will notice. While some practices like introductions are ephemeral, others can last for a scene (eating dinner) or longer (a friendship, or the relationship between a mother and daughter).
+
+Role expectations drove character behavior in Versu, as well as influencing how characters felt about each other, based on their developing judgments of how well each person present was performing their assigned roles (such as host, guest, friend, or parent). The evaluation was in turn driven by personality traits that defined a character’s feelings about those practices and roles. A Versu character who witnessed a mother publicly chastising her daughter, and who valued discipline and respect for authority, might judge the mother to be performing her parent role quite well. But an empathetic character who hates to see others embarrassed might draw a very different conclusion from the same interaction.
+
+Versu characters would remember the conclusions they drew about each other, and could share those observations. “In an early play-test,” Evans recalled, “I was wondering why the doctor was being so rude to me when I had never spoken to him before. I found out, after much debugging, that the reason for his rudeness was that I had been mean to the butler, and the butler had been gossiping about me in the kitchen.”19 This kind of emergent social cause and effect was just what the system’s creators had been hoping to enable. Reactions themselves could spur other reactions: a prudish cook might in turn judge the butler for gossiping and tell a scullery maid about the indiscretion; the two might then strengthen their friendship because of shared dislike of someone with higher social status. As in much great drama, all these character-revealing events could stem from a single inconsequential remark.
+
+The player’s role in a Versu game could also change significantly from one playthrough to the next. The engine supported the notion that any character could be played by either a human or the system (using social norms to drive expected behavior), letting the same story be played from different perspectives or even with friends in some of the roles. Characters from one story could also be dropped right into another, opening up the possibility of, say, casting Darth Vader as the boss in a modern-day office comedy (an actual example from the Versu SDK) or letting players, as Evans put it, “finally answer the burning question of what would happen if Mr. Darcy, Buffy the Vampire Slayer and Queen Victoria were all stuck in an elevator.”6 While additional authoring work would be required in practice to make such eclectic characters work together in a shared fictional space, the system’s flexibility primed Versu to support a breathtaking variety of play options rarely equaled before or since in an interactive narrative engine. 
+
+In the fall of 2011, Evans pitched the new prototype to former colleague Rod Humble, a game designer who had found rare simultaneous success as both an industry executive and an independent creator. While a vice president at Electronic Arts, Humble had released the acclaimed art game The Marriage [2007], in which the complexities of maintaining a relationship were conveyed through play with abstract shapes and colors. In a 2009 interview for Wired, he spoke about his dual life as both upper management and struggling artist:
+
+   [At EA] I’m less able to focus on small very, very creative games. I’ve got a job to bring in a large amount of revenue each year. So I decided that I’m going to do all the weird stuff that I know I won’t make any money off of at home.… At home, I like to make games that are art, and I don’t care if the audience is just one person. It doesn’t matter if a dozen people like it or a half million, I’m just focused on the art itself.10
+
+In the first weeks of 2011, Humble left EA to become CEO of Linden Lab, developers of virtual world Second Life [2003]. Though it had been a darling of the decade it launched, by the 2010s the allure of Second Life had faded: the salad days of universities and corporations building virtual campuses on its digital islands were ending, and less immersive social media platforms were becoming the dominant place to network. In June 2010, Linden had closed multiple offices around the world and laid off three hundred employees, but when Humble arrived the company was still in the midst of an existential crisis: whether to double down on their flagship virtual world despite its flagging popularity, or to expand to new domains and new platforms.
+
+Perhaps unsurprisingly given his background, Humble quickly began looking for new opportunities, acquiring several studios and projects focused on different approaches to user-created worlds. He envisioned a Linden Lab that juggled a whole suite of creator-driven platforms, rather than tying their fortunes to Second Life alone. One of these projects was the system Evans and Short had built: Linden acquired Little Text People in 2012, and its two employees began working full time on their narrative engine and better demo content for it, with the new branding of Versu: Living Stories. A year later, the Versu app launched exclusively for iPad along with four short example scenarios, with clear ambitions to someday host a whole storefront of Versu-driven content. The launch titles were all Regency-era stories: An Introduction to Society (a tutorial), The Unwelcome Proposal, The House on the Cliff. The last was called A Family Supper.
+
+Supper begins during a meal at the home of the Quinns, a well-to-do if stodgy couple whose guests include a flamboyant, rakish poet named Brown, “naive young debutante” Lucy, and the witty but less well-off Elizabeth Bennett (lifted from Pride & Prejudice). While other Versu stories imposed a more traditional plot, Supper was intriguing in part for how it let the social act-and-react loop at the heart of its engine take center stage. As dinner unfolds, the characters, with their different levels of intellect and propriety, have plenty of opportunities to delight, offend, and scandalize one other. Two playthroughs can turn out very differently.
+
+One of the first things a Versu player would notice is that taking an active role was not always strictly required. In Supper, the player is free to sit back and let the characters kibitz, each action and conversation thread dynamically prompting reactions:
+
+   Brown (to Mr Quinn): Our hero’s father has another son, as it happens, whom he prefers to the hero, and so he has contrived to promote that son at the hero’s expense. The other son is a clod, of mean intelligence and unappealing manners, who will do no credit to his position.
+
+   Frank: I prefer plots with a greater degree of plausibility.
+
+   Lucy favors Brown with a frankly flirtatious smile.
+
+   Brown smiles back warmly.
+
+   Mr Quinn oversees the serving of a turtle soup from the great tureen in front of him.
+
+   The footman walks into the dining room from the kitchen.
+
+   Brown rises from the table, taking his glass of wine.
+
+   Brown (to Lucy): You are truly a Muse!
+
+   Brown: I apologize, but I must go: I feel a sonnet coming on.
+
+   He gives a flourishing parting bow. He swaggers out of the dining room on his way to the study.
+
+   Lucy: I have never, I believe, inspired poetry before now. It is delightful.
+
+   The footman serves Elizabeth a plate of roast beef.
+
+   With a deep bow to his superiors, he walks out of the dining room on his way to the kitchen.
+
+   Frank: What a curious man Brown is! To have a sonnet strike suddenly in the middle of dinner. Anyone would think it was a sort of digestive complaint.
+
+   Lucy: Just before dinner, Mr Brown was recounting to me how he once went swimming in a thunderstorm, and felt tremendously at one with the sea, and all the violence of nature.
+
+While each line here is hand-authored (with templated text sometimes filling in details for particular characters), the sequence of lines is not always preordained. In the last paragraph, Lucy tries to continue the conversation by telling a different anecdote on the same topic (Brown, the eccentric poet). She might have had any number of reasons for doing so: wanting to fit in, perhaps, or a desire to make Brown look good.
+
+But of course there’s not much drama here, because the characters are mostly reacting as one would expect them to. It’s up to the player to spice up the scene by performing their character in an interesting way. Restarting the scenario as Elizabeth, the player might choose to play her as something of a lush, drinking as much wine as possible and making ill-advised remarks. After several turns of this, her drunkenness begins to affect her available actions and how the other characters are treating her. 
+
+   Elizabeth succombs to a sudden, drink-induced melancholy and begins talking about how sad the world is.
+
+   Frank meets her eye sympathetically.
+   
+   Act Now 
+   Choose an action
+   Conversation…
+      * Say the plot strikes you as derivative
+      * Say that Brown’s composition sounds compelling
+      * Say that you prefer plots with a greater degree of plausibility
+      * Describe how follies amuse you
+      * Mention feeling sadness
+   Dinner
+      * Pick weakly at the dish of macaroni
+      * Pause sadly in your eating
+      * Signal for more wine and drink it quickly
+   Elizabeth’s drunkenness…
+      * Let a little more skin show
+      * Belch
+      * Sing something bawdy
+   Fooling around…
+      * Pile up empty glasses into a pyramid
+
+The list of possible actions the player might take (which could be summoned at any time by tapping the “Act Now” button) is grouped by the active social practice that makes them available, and modified by the player character’s current attitudes. While an NPC Elizabeth would choose an action based on her traits and the dominant social norms, a human player might choose any one they like.
+
+   --> Belch
+   She lets out a profound and meaty burp.
+
+   Mr Quinn (to Elizabeth): Pull yourself together.
+
+   Mrs Quinn (to Mr Quinn): That is a bit excessive, is it not? After all there was no harm done.
+
+Here we see a second-order reaction, as Mrs. Quinn reacts to her husband chastising Elizabeth. In the app’s interface, sketched portraits of each character update their facial expressions to express their internal state; tapping the portraits reveals why a character is feeling a certain way.
+
+   Mr Quinn is disapproving of Elizabeth. ‘Some people do not know how to regulate their drink’
+
+   Mrs Quinn looks annoyed with Mr Quinn. ‘Mr Quinn is over-concerned to monitor the behaviour of other people, and not enough concerned with himself’
+
+The player next chooses “Express your affection for everyone”:
+
+   Elizabeth: Everyone here ish sho exstremely marveloush! I am shimply enchanted with you all!
+
+   Brown looks at her with friendly gratitude, and perhaps a little more.
+
+   Frank laughs weakly at her tipsy behaviour.
+
+The characters here are responding to different aspects of Elizabeth’s action, based on what each finds most important. And Elizabeth’s performance of the selected action shows off another advantage of text over voice and animation: procedurally modifying her speech to reflect her inebriated state.
+
+The stakes in Family Supper soon kick into higher gear when an offstage murder upends the social status quo, but many of the most memorable moments come less from traditional plot than the serendipitous interactions emerging from the underlying engine. In one playthrough as debutante Lucy during Supper’s beta testing, a clandestine romance broke out with a footman serving dinner, sparked by a single significant look over a chafing dish. While the other characters were off investigating the murder, Lucy and the footman snuck off to an empty room to declare their undying love for one other, eventually becoming secretly engaged. But in fact none of this was meant to happen in the story at all: “I’ll have to add some special case elements for romance with servant characters,” an amused Short wrote afterwards.19 The whole story of forbidden love had emerged dynamically from Versu’s social simulation and Short’s encoding of Victorian norms, something that would have been utterly impossible in nearly any other narrative game.
+
+As in other dynamic narrative systems through the decades, from The Hobbit to The Playground to Dwarf Fortress, this kind of emergent behavior could be endlessly compelling—while running the risk of being endlessly difficult to debug. To enable characters to join and leave conversation, for instance, topics of discussion were modeled at first as properties of locations. But this meant conversations could linger in the air even after all participants had left, and a character might stumble in much later and blurt out a follow-up to a discussion long abandoned. The characters’ movement around the simulated world could also create interesting problems:
+
+   We experimented with giving some characters preferences about the company they kept—this character likes being in a room with other people present, that one doesn’t like being in a room of more than four individuals, this third one wants to be around his beloved—but this could occasionally lead to AI comedy sequences where NPCs would basically chase one another in circles around the mansion because there was no rest state available in which everyone’s wishes were satisfied.24
+
+Versu stories and characters were at first written in a custom domain-specific language called Praxis, created by Evans. Praxis had originally been inspired by the philosopher Ludwig Wittgenstein: Evans, who unlike most AI programmers had studied philosophy at Cambridge, had long been taken by Wittgenstein’s notion that any possible world could in theory be described by a series of factual, logical statements defining “everything that is the case” within it. Praxis took this notion literally, allowing the user to make declarative statements in an “exclusion logic” that defined everything true about the simulated world, and that existed in the system’s memory solely as that precise series of literal statements. For instance: brown.sex!male defines that the object brown (in this case representing the character with that surname) has a quality called sex (among other qualities) which is currently (and exclusively) male. More complex representations of state could be built up from this simple syntax, and added to the set of “things that are true” by rules in the system or by the author:
+
+   brown.relationship.lucy.evaluation.humour!20
+   mr_collins.beliefs.clergymen_should_marry
+   process.whist.data.whose_move!brown
+
+This representation offered many material advantages—the system’s memory could easily be read bv humans, and determining whether a given state was currently true was as simple as searching for a string match. But as the next stages of Versu’s rollout were planned, including much larger stories and the hope that users could begin making content of their own, Praxis began to seem too unwieldy for large-scale production. Its syntax was aggressively logical, but not inherently structured for writing complex interactive characters. Defining even a simple new action, for instance, involved some boilerplate:
+
+   process.greet.X(agent).Y(agent)
+   	action "Greet"
+   		preconditions
+   			Actor = X
+   			Actor.in!L
+   		postconditions
+   			text "[X] says 'hullo' to [Y obj]" if Recipient.in!L
+   			call update_conversation.L.Actor.greet.Y.respond_to_greet
+   			insert process.respond_to_greet.Y.X
+   			delete Self
+   end 
+
+Short enlisted the help of Graham Nelson, with whom she had worked extensively on the design and iteration of Inform 7 2008, to create a higher-level language that would make authoring Versu stories simpler. The result, a language called Prompter, made it possible to write Versu stories an order of magnitude more quickly than with Praxis. This was in part achieved by leveraging a reusable library of content authored in Praxis—social practices, actions, traits, and emotions—which could then be deployed in a scenario without authors needing to fiddle with their details. Prompter was a second-generation language for a system not even yet released; an even higher-level abstraction over dynamic character simulation built on top of the AI reasoning provided by Praxis.
+
+Prompter source code read much like a stage play, with the key difference that stage directions had special meaning to the engine. Take, for example, a line like:
+
+   Catherine (to Bluntschli, very rudely): You worthless scoundrel.
+
+This indicates both some implied preconditions for when such a line could be deployed (when both Catherine and Bluntschli are in the same location and engaged in conversation with each other), and a social action that other characters might respond to (Catherine saying something rude). The notion of rudeness was encoded in the underlying Praxis, but authors didn’t have to worry about this: they could instead focus on how other characters felt about rude statements and how they might react to someone who made them. Prompter also included structures for organizing content and flow between scenes: a “conversation,” for instance, was a set of back-and-forth lines focused on a particular topic. Note below the introductory About, which tells the system what topics this thread of dialog concerns, and the addendum beginning -- after each line, indicating to the system how the option to perform it should be presented if a human plays that character:
+
+   (About Bluntschli and the carpet bag.)
+
+   Catherine (to Louka, naively): Captain Bluntschli! That's a German name.
+   -- Read the visiting card
+
+   Louka: Swiss, madam, I think.
+   -- Inform the Mistress
+
+   Catherine: Swiss! What is he like?
+   -- Ask about the visitor
+
+   Louka (submissively): He has a big carpet bag, madam.
+   -- Tell Mistress 
+
+But after each of these lines, of course, the player or other characters might choose to interject: reacting to Catherine’s naïve statement, for instance, or by changing the subject to another topic related to Bluntschli. In essence, a Prompter script describes a stage play that Versu can perform but also knows how to improvise around, responding to off-script interjections from either human players or NPC characters with something appropriate for the characters and milieu. It’s interesting to note that while many other game engines struggle to simulate characters, Prompter made it impossible to write a story without them: its Hello World example defines two characters because with only one, “he’ll never want to say his one line, because there would be nobody to hear it.”15 The two Hello World characters have the relationship married, for the charming reason that this prevents them from introducing themselves to one another when the scenario begins, as social convention would dictate if they were strangers.
+
+By the end of 2013, a working version of Prompter was part of a closed beta for a Versu SDK, planned to enable outside authors to start creating and sharing their own stories. Short had finished work on a novel-sized Versu story called Blood & Laurels set in a declining Roman Empire, and another commissioned full-length game was also nearly complete. It seemed an extraordinary new foundation for interactive storytelling was about to make its debut.
+
+But the full Versu platform would never launch, a victim of bad timing and unfortunate circumstance. Linden’s perhaps premature release of the early demo stories, without much fanfare or publicity, excited some IF fans but reached few new readers. Even some fans were bemused. “The game is so different than anything I’ve played,” one reviewer wrote of a demo story, “that I had a hard time figuring out what I could influence and what I could not.”2 Another wrote that Versu “does marry an interactive story to a social simulation, but the seams seem overly visible to me.”13 Many prominent IF reviewers couldn’t even try it because they didn’t own an iPad, and endemic App Store discoverability problems kept even those with the right hardware from finding it on their own. Distribution issues aside, Short would later reflect that because the game’s systems hid so much complexity beneath the surface—and behind an interface that looked like a traditional choice-based menu—players often had a hard time grasping the true extent to which its engine was procedural.23 “The typical experience of a player of Blood & Laurels,” wrote Graham Nelson, “is to feel on a first play-through that everything is plotted out like a thriller: it’s on a second try, where it all plays out entirely differently, that people begin to appreciate the depth of the simulation.”14
+
+But few would get that second try, and most wouldn’t even get a first. In early 2014, Rod Humble abruptly left Linden Lab (where Second Life was still hemorrhaging users) and was replaced by new CEO Ebbe Altberg, who had earned a reputation for turning around companies in trouble. “We’ll do some clean-up,” Altberg said at the time about his plans for Linden: “there’s some things that are not as aligned. There’s already very little resources spent on them.”1 Within two weeks of his appointment, Altberg had canceled all of Humble’s experimental gambles including Versu, choosing instead to double down on improving the Second Life experience for its reliable core users.
+
+The timing could not have been more devastating. Prompter and Praxis would remain unreleased—theoretically valuable but now mothballed intellectual property—as would Short’s complete Blood & Laurels and other stories already commissioned and finished. Versu’s cancellation, in fact, came just days before Laurels was meant to have launched, so close that Linden’s app department apparently missed the memo, accidentally publishing the game on its originally planned release date before pulling it a few hours later. Maybe “30 copies in the world” got out, Short estimated.21 She later announced she was attempting to work out a deal that would allow Laurels to be released and Versu development to continue, but after a few weeks she posted a single terse sentence on her usually voluble blog:
+
+   So for those who were curious, Linden has now given me a definite no about selling me the [Versu] codebase and IP.21
+
+While a standalone release of Laurels was eventually negotiated, the core Versu tech remained Linden’s, and the game and its engine could not be ported to other platforms. Only a year later, Apple’s aggressive pruning of out-of-date apps took Laurels off the App Store—without the ability to update its code, there was no way for Evans or Short to keep it current with the changing requirements of each new iOS update. Laurels, along with every other Versu game, has been unplayable since 2015, a tragic loss to interactive narrative technology and history. “It’s a real gut-punch that we’ll never get to try out the authoring tools,” wrote one IF reviewer, “or even to play any games that really exercise its potential.”13
+
+Short has been clear there are no easy villains, despite Versu’s frustrating end. “I remain hugely grateful to Rod Humble and to Linden for picking us up when they did, and for giving us the run they gave us,” she wrote in 2014. “There are so few opportunities to do this kind of research within existing companies, and if Richard Evans and I had taken venture capital, we would have had to spend a lot more of our time trying to learn to run a business and a lot less writing stories and code.”16 During their brief availability, the Versu games proved hugely inspirational to IF creators, researchers, and players. The New York Times covered Blood & Laurels, writing that “what [it] offers is one of those quintessential video game moments, a first glimpse at something on the horizon.”25 Versu has become a standard touchstone for interactive story technologists, proof by existence for what character-driven games can aspire to be. Referencing Janet Murray’s influential book on interactive drama, one reviewer wrote that “the dream of ‘Hamlet on the holodeck’ has inspired IF theorists for decades. Versu gets closer to that dream than anything else I’ve seen.”13
+
+Evans and Short had set out to show that text games could be a viable platform for prototyping next-gen narrative technology, and there’s no doubt they succeeded, even though bad luck kept their experiment from claiming its rightful place in the limelight. “This is simply a sort of interface problem,” Evans had said at that first troubled GDC demo. “It’s not like the game’s not running. We just can’t get it on the front of this desktop.” Maybe not yet, but it’s hard to imagine something like Versu won’t take center stage in the end.
+
+
+References
+
+1) Altberg, Ebbe. 2014. “7 Questions on the Future of Second Life & Linden Lab for Ebbe Altberg, Linden’s New CEO.” Interview by New World Notes. Feb 19, 2014. nwn.blogs.com/nwn/2014/02/ebbe-altberg-linden-lab-second-life-1.html | a Oct 18, 2020
+2) clyde. 2013. “Idle Thumbs 114: A Heavy (Baboon) Heart.” Comment on forum post, Idle Forums, Aug 19, 2013. www.idlethumbs.net/forums/topic/8746-idle-thumbs-114-a-heavy-baboon-heart | a Oct 18, 2020
+3) Evans, Richard. 2013. “Praxis: A Logic-Based DSL for Modeling Social Practices.” Slides. versublog.files.wordpress.com/2014/05/praxis.pdf | a Oct 18, 2020
+4) Evans, Richard P., and Emily Short. 2015. “The AI Architecture of Versu.” Paper. Imperial College, London. versublog.files.wordpress.com/2014/05/versu.pdf | a Oct 18, 2020
+5) Evans, Richard, and Emily Short. 2012. “Beyond Eliza: Constructing Socially Engaging AI.” Conference talk (Versu section), Game Developers Conference, San Francisco. gdcvault.com/play/1015613/Beyond-Eliza-Constructing-Socially-Engaging | a Oct 18, 2020
+6) Evans, Richard, and Emily Short. 2013. “Experimental Gameplay Workshop 2013.” Conference talk (Versu section), Game Developers Conference, San Francisco. gdcvault.com/play/1017828/Experimental-Gameplay | a Oct 18, 2020
+7) Evans, Richard, and Emily Short. 2014. “Versu—a Simulationist Storytelling System.” In IEEE Transactions on Computational Intelligence and AI in Games 6 (2).
+8) Evans, Richard, Emily Short, and Andrew Stern. 2011. “People in Your Pocket: High-Quality AI on Mobile Devices.” Conference talk, Game Developers Conference, San Francisco. www.gdcvault.com/play/1014495/People-in-Your-Pocket-High | a Oct 18, 2020
+9) Kawamoto, Dawn. 2010. “‘Second Life’ Owner Linden Lab to Lay Off 30% of Its Workers.” aol.com. Jun 9, 2010. www.aol.com/2010/06/09/second-life-owner-linden-lab-to-lay-off-30-of-its-workers | a Oct 18, 2020
+10) Kushner, David. 2009. “Big-Shot Game Designer Crafts Interactive Art After Hours.” Wired 17 (3), Feb 23, 2009. www.wired.com/culture/design/magazine/17-03/pl_games | s Aug 16, 2011
+11) Linden Lab. 2012. “Linden Lab Acquires Game Studio LittleTextPeople.” Press Release. Feb 16, 2012. lindenlab.com/releases/linden-lab-acquires-game-studio-littletextpeople | s Jan 19, 2013
+12) Linden Lab. 2013. “Linden Lab Launches a New Platform for Character-Driven Interactive Fiction: Versu for IPad.” Business Wire. Feb 14, 2013. www.businesswire.com/news/home/20130214006126/en/Linden-Lab%C2%AE-Launches-a-New-Platform-for-Character-Driven-Interactive-Fiction-VersuTM-for-iPad | a Oct 18, 2020
+13) Merrick, Iain. 2014. “Iain Merrick on Best Technological Development.” XYZZY Awards (blog). Apr 28, 2014. xyzzyawards.org/?p=293 | a Oct 18, 2020
+14) Nelson, Graham. 2013a. “Prompter: A Domain-Specific Language for Versu.” Paper. versublog.files.wordpress.com/2014/05/graham_versu.pdf | a Oct 18, 2020
+15) Nelson, Graham. 2013b. “Writing for Versu.” Unreleased SDK Documentation.
+16) Nutt, Christian. 2014a. “The End of Versu: Emily Short Looks Back.” Gamasutra (blog). Mar 14, 2014. www.gamedeveloper.com/business/the-end-of-versu-emily-short-looks-back | a Oct 18, 2020
+17) Nutt, Christian. 2014b. “Interactive Fiction Engine Versu Back with Creators, Games Coming Soon.” Gamasutra (blog). Jun 6, 2014. www.gamedeveloper.com/business/interactive-fiction-engine-versu-back-with-creators-games-coming-soon | a Oct 18, 2020
+18) Saltzman, Marc. 2013. “‘Versu’: Bring Interactive Fiction to Your IPad.” USA Today. Mar 12, 2013. www.usatoday.com/story/tech/2013/03/12/versu-app-fiction-books/1982819 | a Oct 18, 2020
+19) Short, Emily. 2012. “Invitation to look at Versu (nee Cotillion).” Unpublished email with author. Sep 13, 2012.
+20) Short, Emily. 2013. “Versu: Conversation Implementation.” Emily Short’s Interactive Storytelling (blog). Feb 26, 2013. emshort.blog/2013/02/26/versu-conversation-implementation | a Oct 18, 2020
+21) Short, Emily. 2014. “Versu Outcome.” Emily Short’s Interactive Storytelling (blog). Mar 8, 2014. emshort.blog/2014/03/08/versu-outcome | a Oct 18, 2020
+22) Short, Emily. 2017. “Mailbag: Writing for Versu.” Emily Short’s Interactive Storytelling (blog). May 18, 2017. emshort.blog/2017/05/18/mailbag-writing-for-versu | a Oct 18, 2020
+23) Short, Emily. 2018. “Galatea, Versu, Character Engine: Three Generations of in-Game Characters.” Conference talk. Digital Cultures, Warsaw, Sep 25, 2018. www.youtube.com/watch?v=S4hZOTRsILI | a Oct 18, 2020
+24) Short, Emily. 2020. “Historical Questions Re Versu.” Unpublished email with author. Nov 17, 2020.
+25) Suellentrop, Chris. 2014. “Text Games in a New Era of Stories.” New York Times, Jul 6, 2014, sec. Arts. www.nytimes.com/2014/07/07/arts/video-games/text-games-in-a-new-era-of-stories.html | a Oct 18, 2020

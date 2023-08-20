@@ -1,0 +1,218 @@
+Scents & Semiosis
+
+2020
+
+Sam Kabo Ashwell (as Heavy Petal; with Yoon Ha Lee, Cat Manning, and Caleb Wilson)
+Style: Procedural Story
+Debuted: Mar 9, 2020 (Itch.io)
+Launch Platform: Glulx / Vorple / Web
+Language: Inform 7
+
+Opening Text:
+
+	“There are other perfume-boxes, other lists, sharply curated according to audience. You allow yourself a degree of sentiment in their selection, but that too serves a public purpose. This collection—messy, unfashionable, incoherently themed—is an entirely private matter. A giant’s secret heart.
+
+	Each scent brings back memories that once meant something important. They might still. But scents change their character as they slowly break down, and history moulders unless given air. Once in a while you clear an evening, unlock the chest, and unstopper your old selves to see what they are to you now.
+
+
+Text games have always promised one key difference from traditional prose: the chance that each reader’s journey might in some way be unique. Games can realize this dream with well-tended paths through carefully trimmed gardens of possibility, or with invitations to explore less curated meadows and glens, even at the risk of getting lost. The rise of GPT and titles like AI Dungeon are something of a nuclear option for making such a garden: like Star Trek’s Genesis Device, which burned up worlds with the fires of new life, they bring unbridled creation but scant control. In the face of such power, older methods for nurturing possibilities might seem almost quaint, like a master gardener taking months to plant, tend, and cultivate each sprout—growing, through painstaking labor, what an automated system might farm with far less effort. Yet the old ways have their charms. The gardener’s harvest is uniquely theirs, marked with indelible fingerprints that leave a record of intention in the crop: green shoots grown by someone and for someone, human through and through.
+
+Scents & Semiosis is undoubtedly a game that was grown. In it, you take the role of a perfumer thumbing through a collection that samples your life’s work, reveling in the memories each scent brings to mind and the associations it suggests. The game’s scope is deliberately small, encompassing only a handful of lingering moments. It’s “meant to be brief, densely-flavoured, and more than a little indulgent,” the author writes, “like a very tiny box of very nice chocolates or a liqueur that you only need a few sips of.”1 And yet it can be returned to again and again, because each bottle, perfume, and memory comes from an enormous reservoir of handcrafted procedural text snippets, and an equally elaborate set of rules for assembling them.
+
+“You run a hand through the vials,” the game describes, “as though dangling your arm from a boat to touch the water, and pick out one, two, a third, for any reason or none.”
+
+	* an obsidian bottle, emblazoned with the insignia of Bernicia
+	* --> a blue glass jar
+	* a bottle set in a pewter barrette
+
+	Five kinds of musk, clove, heart notes of juicy caraway and languid oleander; silver rose. This one was purely commercial: the concept piece for a line of top-shelf car fresheners. You specifically required a clause in the contract to prevent them from crediting you for it. 
+
+Each perfume gives opportunities to reflect on what the scents comprising it might suggest, and why you chose them for this mélange:
+
+	* rose feels like ephemera complicated by opportunity
+	* caraway is suggestive of idle art
+	* clove feels like movement leading to impasse
+	* rose might imply ventures
+	* --> None of these feel right. Reconsider.
+
+Yet, like the bottles and perfumes, the suggestions aren’t fixed. The last option lets you regenerate them, the options assembled anew by a complex routine linking scents, themes, language, and associations:
+
+	* clove could suggest art
+	* --> caraway is suggestive of crisis despite craft
+	* oleander could mean perfect aesthetics
+	* caraway is suggestive of absence turning to recognition
+	* None of these feel right. Reconsider. 
+	* This perfume isn’t worth keeping. 
+
+	Caraway for crisis despite craft. All right.
+
+	It’s early, yet. Let’s see what else: 
+	
+	* a green glass flask with a swing-top closure 
+	* an art deco vial decorated with ormulu and fluorspar
+	* a pink glass jar marred by many small abrasions
+
+Bottle by bottle, memory by memory, meaning by meaning, Scents & Semiosis lets your character build up a palette of identity: the unique savor of a personal history. When you’ve had enough, the meanings you chose are brought together:
+
+	caraway for crisis despite craft
+	cherry orange zest for doomed anger
+	quince for fine detail
+	amber for friendship despite exhaustion
+	tea for reluctant passion
+	soursop for irrational attraction
+	lavender for regret
+
+	Not a scent that you could construct in a bottle. And not the only version of your past. But you feel the shape of it, and it’s what you choose for now.
+
+Procedural content generation—using an algorithmic process to create more outputs to a system than a human maker could practically write—has been present in games from the start. Originally this was by necessity: early computers had such limited storage and memory footprints that a game’s worth of content was too big to fit in them. Random variation allowed replayability too: Hunt the Wumpus used pseudorandomness to distribute hazards and enemies across a fixed map, making each game different, while Super Star Trek generated a galaxy of sectors for each playthrough with randomly scattered Klingons and stars. The 1980 game Rogue [Michael Toy et al.] and its successors began a tradition of more deeply generative worlds, reaching glorious apotheosis with games like Dwarf Fortress and Caves of Qud [Freehold Games 2015]. At the core of many of these generative systems was a simple technique of nested lists, each of which might link to another list as one of its possible expansions. Games like Nested are pure distillations of this approach, delighting in exploring bottomless chains of permutation sprung from simple seeds.
+
+This last technique had been formalized in the 1950s by linguist Noam Chomsky as “context-free grammars,” sets of rules for recursively expanding one symbol into others. Such a structure could define everything from the valid syntax of a programming language to a procedure to generate plans for new houses in the style of Frank Lloyd Wright.6 In the domain of generative text, context-free grammars could transform high-level plans for a sentence into more and more specific subplans, bottoming out in specific pieces of text to instantiate them. A grammar for a random greeting, for instance, might look like this, with links to other asterisked symbols wrapped in brackets:
+
+	*Greeting: "[*Hello], [*friend]."
+	*Hello: "Greetings", "Hello", "Hi", "[*Extended Hello]"
+	*friend: "buddy", "friend", "pal"
+	*Extended Hello: "Such a pleasure to make your acquaintance", "I'm delighted to meet you"
+
+When expanded, *Greeting might then produce outputs like “Hi, buddy” or “I’m delighted to make your acquaintance, friend.” As a grammar becomes more complex, with reusable symbols and deeply nested chains, it can produce enormous variety in its output, while remaining under the control of the author who creates it. Expansion grammars become even more powerful when individual random choices can influence others: one implementation might let the randomly chosen symbol Extended Hello set a long-winded flag that could influence what later content to select.
+
+In the mid-2010s, expansion grammar–based content generators saw a surge of popularity due in large part to the debut of a new tool for easily defining them, Tracery.4 A friendly browser-based editor and a flexible, open-source JavaScript implementation made it easy to incorporate the tool (by self-described “maker of many interesting things” Kate Compton) into ongoing projects. Soon Tracery was powering everything from Twitter bots to generative art exhibits. When Sam Ashwell set out to create Scents & Semiosis, he used a reimplementation of Compton’s program (in a code section called “I Can’t Believe It’s Not Tracery”) as the foundation for his text-generation system—though it would end up being only one part of a more elaborate meaning-making machine.
+
+Ashwell had been active in the interactive fiction community since the 1990s, earning a reputation as someone who thought deeply and wrote eloquently about the medium and its potential. His games, typically unique experiments rather than orthodox epics, “always seem to be from a parallel universe where IF developed in wildly different directions,” one reviewer wrote. “They don’t ‘fit in’ with usual IF tropes.”8 Olivia’s Orphanorium [2012], a Victorian satire by way of resource management parody game, is a typical example. In 2017 he created Apocalypse Fuel, a standalone generator to make locations and characters for the tabletop roleplaying game Apocalypse World [Meguey Baker and D. Vincent Baker, 2010]. He wrote it in Inform 7, a familiar language for making parser-based text games, though it was an odd fit for a project that had no parser and was not a game. But the language had built-in support for defining complex text variation, including the crucial ability to nest expansions:
+
+	To say hello: say "[one of]Greetings[or]Hello[or]Hi[or][Extended Hello][at random]." To say Extended Hello: say "[one of]Such a pleasure to make your acquaintance[or]I'm delighted to meet you[at random]".
+
+Ashwell created a web interface for Apocalypse Fuel using Vorple, an Inform 7 extension by Juhana Leinonen that let authors craft browser-based interfaces for their games to supplant or replace the traditional text-only parser, again with readable natural language syntax.
+
+	place a link to the command "begin" reading "Play", without showing the command;
+	scroll to the end of the page;
+	wait for any key;
+
+With Vorple and his Inform 7 Tracery port, Ashwell had both an elegant front-end and back-end for experimenting with procedural text. For a follow-up project he thought he might try making something for NaNoGenMo (National Novel Generation Month), an annual challenge since 2013 that gives procedural text enthusiasts thirty days to write code that can author a novel (via various, occasionally-strained definitions). But Ashwell’s concept soon grew into something more personal: a gift for longtime friend and fellow interactive fiction author Emily Short, “according to an approach she has spoken of fondly: crafting a game for a target audience of one.” As befitting a thoughtful gift, Ashwell didn’t want anything too bulky or complicated, but “something that could be consumed in small sessions and with only gentle effort; I didn’t want playing it to become a chore.”1 He also set it in the kind of parallel world he knew they both loved to explore: one less drab and more piquant than our own, filled with hints of evocative histories and intriguing cultures.
+
+Short had created her own such worlds, often dabbling in procedural text herself. More recently, she had been exploring what it could do in isolation, not just as a piece of a larger game. The Annals of the Parrigues was a noninteractive book, a travel guide to a fictional country, that she’d written in collaboration with a handcrafted generator.11 As Short fleshed out the book’s setting, she’d come up with a thematic framework akin to something like the four elements or the suites of Tarot in our world: a system for meaning-making around which both she and her generator could structure concepts and descriptions. She eventually developed an iconography based on five symbols—Mushroom, Egg, Beeswax, Venom, and Salt—each with a set of associations and ideas that together helped sketch in an underlying consistency for a fictional culture.
+
+But while meant to be pure worldbuilding, Short realized the framework could also describe different techniques for procedural content generation. She called them the Five Principles: “They cannot be observed simultaneously,” she wrote, “or with equal attention at all times.”11 Mushroom implied unrestrained growth and fecundity—systems less concerned with the quality of individual passages than their effect on the whole, useful for generation techniques “unapologetic about repetitions” and more concerned with quantity than quality. Venom meant brightly colored, striking, deceitful, surprising—systems that varied text in places more likely to dangerously startle than go safely unnoticed. Beeswax was busy, warm, chaotic, diverse—chaneling the many voices in massive text corpora with conflicting styles, or idiosyncratic passages handwritten for particular situations. Finally, Salt signified dry, crystalline regularity—clean techniques in which the mechanism shone through—and Egg meant the elegance of living vitality and nuance, suggesting systems designed for collaboration with a flesh-and-blood author adding their unique organic spin.
+
+Ashwell loved Short’s framework. He decided his project would be very Beeswaxy: “lots of small, steady, incremental, unglamorous additions, list-sifting, running your antennae over all the parts.” It would be organic and heterogeneous, filigreed and filled with unique phrases that might only appear once, or even less: “Part of what I love about parser that’s often lost in hypertext IF,” he wrote, “is the sense of weird discovery, of finding something amazing that you didn’t have to find and might not have.”1 The authoring would also keep in mind the principles of Venom, allowing for surprising, interesting juxtapositions: “It’s important, in procgen [procedural generation], to avoid things getting over-determined, to leave space for the fortuitous.”3 While the text would aim to seem as elegant as something handwritten, it would allow for interesting imperfections to creep in, fashioning “hopeful monsters rather than exactingly-bred show animals,” as a comment in the game’s source code notes.
+
+	Time for something else:
+	
+	* a smoky glass flask with a label that has been erased with black marker
+	* a black lacquer bottle
+	* --> an obsidian flask
+	
+	Lavender, coconut, gunpowder, three kinds of amber, sacramental soursop, raw honey and balm of Mecca. The scent brings back memories of Fillouch, who you made a promise to at Akala Annex. 
+
+	* amber is suggestive of things unexpected
+	* balm of Mecca might mean mercy in tension with effort
+	* coconut feels like deliberate honesty
+	* raw honey is suggestive of passion which causes organisation
+	* --> None of these feel right. Reconsider.
+
+Ashwell went to great lengths to ensure his system’s outputs would be aesthetically pleasing more often than not, but he also recognized that in a collaboration with a generative system, embracing the unexpected was not only a necessity but a boon:
+
+	A huge problem in procgen output, generally, is the need for filtering, curation. Much of what procgen produces is rubbish and it takes human work and human taste to pick out the gems; in a lot of games, that makes run-time procgen elements a liability. The big trick of Scents is that it enlists the player to do that curation work, and calls it play.3
+
+As Ashwell began the project, a core system emerged for generating perfumes based on the fundamentals of real scent design, which involves a combination of top, heart, and base notes. He was more concerned with evocative suggestions than strict accuracy, expecting that “people who intimately understand perfume are likely to laugh a lot at the outputs.”1 But at first the project failed to gel into a satisfying experience. It was “just a pretty text-generating toy … I wanted this to be a bit more than that, something that was played rather than passively absorbed.”3 The key spark came when he added a system that associated different scent notes with meanings that the player could take part in selecting. To fully explain this, we need to delve deeper into how the game’s generator works.
+
+Perfume descriptions in Scents & Semiosis originate with a list of “structures,” templates for kinds of sentences that might describe them: 
+
+	"[pop scenttops][pop scenthearts][pop scentbases][if a random chance of 1 in 7 succeeds], [pop hintphrases][end if]"
+	Each top-level structure can then expand into its own set of structures for each possible component of the description:
+	scenthearts is a list of texts that varies.
+	scenthearts is {
+	"heart [one of]notes [or][purely at random]of [scentpop heartnotes] and [scentpop heartnotes]; ",
+	"[scentpop heartnotes], ",
+	"[scentpop heartnotes], ",
+	"[scentpop heartnotes], ",
+	"[pop multiphrases], ", 
+	"[pop multiphrases], [scentpop heartnotes], ",
+	"[scentpop heartnotes], [scentpop heartnotes], "
+	}.
+
+But as the expansions drill down toward individual words, selection becomes guided less by randomness than by mechanisms to suggest internal consistency. First, a perfume might be given one or two themes, which make it more likely that matching descriptors, connectors, or adjectives will be used when describing it:
+
+	Woodland is a theme in startroom. The twist of woodland is {“dank”, “dirty”, “feral”, “fire”, “forest”, “earthy”, “green”, “mouldering”, “murky”, “organic”, “overgrown”, “prickly”, “tangled”, “tranquil”, “vegetal”, “verdant”, “wild”, “woody”}.
+
+	The composite of woodland is {“blooms amongst”, “growing amongst”, “intertwines with”, “interwoven with”, “tangled with”, “rich with”, “in a bed of”}.
+
+	The phantpre of woodland is {“arbor”, “bear”, “boar”, “bird”, “bog”, “bough”, “brush”, “buck”, “deer”, “duck”, “elf”, “fae”, “fox”, “glade”, “goose”, “hog”, “leaf”, “marsh”, “mire”, “mist”, “moss”, “oak”, “rain”, “shade”, “soil”, “stink”, “tangle”, “tree”, “willow”, “wolf”}.
+
+Themes can also have “resonances,” abstract concepts to which they connect. Woodlands resonates with solitude, nature, and growth; the season of spring with beginnings and fun. Resonances in turn can affect descriptive text but also the memories and themes associated with each scent, leading to a system that tries to organically tie the elements of each perfume’s description together.
+
+	* --> an amber glass bottle with a pinecone stopper
+	
+	Melancholy lavender, rich cassia, earthy whiskey, four kinds of moss. You made this for your father on his deathbed. 
+	
+	* lavender is suggestive of persistent disappointment
+	* cassia might suggest completed things
+	* whiskey feels like dissolution
+	* whiskey might stand for fading tragedy
+	* None of these feel right. Reconsider. 
+
+Here a theme for the season of fall suggested the pinecone stopper, the amber glass, and the adjective “earthy.” Fall triggered associations with melancholy, loss, and endings, which in turn supplied the dying father and the associations with tragedy and dissolution. The generation is still random, but the themes and associations constrain the output into a more consistent, plausible whole.
+
+The memories each perfume might suggest came to comprise an increasingly large portion of the system. Memories could involve gifts given or received, jobs done or favors rendered, festivals and parties attended, friends and lovers of all kinds, and more, each with their own elaborate, bespoke generator. Many of these spun off their own generators to assemble fractal nests of carefully crafted details—worldbuilding rendered in the name of an opera or the type of cloth used for a corset. Each of the nested chain of lists below, parts of the code for generating memories about good times with friends, has been truncated from its full length, often considerably:
+
+	groupmainact is a list of texts that varies. groupmainact is {
+	“when [one of]the two of [or][purely at random]you [one of]broke[or]snuck[or]talked your way[purely at random] into [one of][pop landmark][or][pop garden-names][purely at random][m mischief][m trouble][m fun][pop groupsting]”,
+	“when you took a [pop boatkinds] [one of]upriver[or]downriver[or]out on the water[purely at random][pop boat-bullshit][m fun]”
+	[…]
+	}
+	boat-bullshit is a list of texts that varies. boat-bullshit is {
+	“ [pop boatdetail][one of],[or][purely at random] and [pop boatconclusion]”,
+	“ [pop boatdetail]”,
+	“ and [pop boatconclusion]”,
+	“ [pop boatdetail], [pop boatconclusion], and [pop groupdetails]”,
+	“ [pop boatdetail] and [pop groupdetails]”,
+	“[one of] and [pop boatconclusion] and [pop groupdetails][or], [pop boatconclusion] and [pop groupdetails][purely at random]”,
+	[…]
+	}.
+	groupdetails is a list of texts that varies. groupdetails is {
+	“talked [one of]earnestly[or]endlessly[or]excitedly[or]intensely[or]shit[purely at random] about [pop convtopics][m debate]”,
+	“made [one of]filthy[m lust][or]obscure[m academia][or]tasteless[or]extremely domain-specific[m academia][or]extended[or]inside[or]allusive[purely at random] jokes about [pop convtopics]”,
+	“drank [one of]wine[or][pop oddbooze][or][pop redwines][purely at random][one of] that neither of you properly appreciated[or] that neither of you could really afford[or][purely at random]”,
+	[…]
+	}.
+	oddbooze is a list of texts that varies. oddbooze is {“Abhainn Dearg”, “aguardiente”, “akvavit”, “amaretto”, “amari”, “Aperol”, “applejack”, “anisette”, “Ardbeg”, “Armagnac”, “arrack”, “baijiu”, “Bärenfang”, “boukha”, […], 
+	“tsikoudia”, “zivania”, “[pop redwines]”, “[one of][pop fruits][or][pop allbasicscents][purely at random] [one of]vodka[or]liqueur[or]brandy[or]schnapps[purely at random]”, “[pop fruits] cider”}.
+
+Ashwell enlisted the help of three friends from the interactive fiction community, “a few authors whose style I thought would be a good fit,”1 to help expand the scope of his generative space: Yoon Ha Lee, who’d begun his career writing interactive fiction and was now a successful novelist; Caleb Wilson, another longtime community member; and Cat Manning, a new friend and rising game industry star who also offered to take on the role of a producer, helping keep Ashwell’s hobby project on track. Each contributed new ideas—memory seeds, scent templates, evocative adjectives—which inevitably suggested new word lists and new generators. The changelog preserved in a source code comment hints at the many hand-tweaked factors that would come to define the project’s unique flavor:
+
+	- NPCs can now recur across memories
+	- added a two-stage check that avoids (or at least greatly reduces) sexual resonances for memories about students and mentors
+	- tweaked probability of less-complex memories down a bit
+	- more tinkering with historical names, inc. monarchs
+	- will not fix: rosewood is the same as bois de rose, but they *feel* different
+	- deleted “golf” and “crusader” from the corpus, because we want to imply a better world
+	- hopefully fixed another a/an bug
+
+Taken together, the massive arsenal of phrases and generators—nearly fifty thousand words of them—is capable of producing an extraordinary variety of bottles, perfumes, and memories of a world richly painted if just barely glimpsed. The code defines twenty-five varieties of lily, thirty-one kinds of citron, fifty-five plots for plays, eighty-two hints of unusual scents like kimchee or popcorn (rarely used); ninety-six kinds of animals that can decorate crests, and one hundred seventy-eight adjectives for kings, who might appear in the names of empires, as portraits embossed on bottles, or as indirect patrons. Mathematically, it is laughable understatement to say the same descriptions will never be rendered twice. 
+
+The gift was finally delivered, and Short gave Ashwell permission to share it online. There has never been anything else quite like it. Longtime interactive fiction author Victor Gijsbers said it gave him a new perspective on procgen, which he’d never before been a fan of.
+
+	I’ve never really seen the point of procedural text generation. What’s the advantage? What does it give you?… Text generated by an algorithm can surprise me, certainly, but text written by a human author can also surprise me. When I’m looking for material to read, I’m interested quality and not in quantity.
+	
+	… [But] the beauty and fascination of a piece like Scents & Semiosis is not so much in the texts it generates … rather, it is in the machinery of the generation itself. It is in the thoughtfulness and creativity exhibited by the author when he constructed the algorithm.… A windmill is a tool for turning grain into flour. But admiring the flour is not the best way of appreciating the windmill.5
+
+A text-based and symbolically charged procedural perfume generator had no preexisting audience, but the game nonetheless found its way to many who appreciated it. It was nominated for a Nebula Award for Game Writing in 2021, alongside much more famous and traditional titles. It stands in sharp contrast with the Salty, Mushroomy future suggested by AI Dungeon and GPT—rather than infinite stories from an artificial storyteller, a handcrafted and joyfully singular experience by one human, for another. And its irregular edges and expansive additions also remind how text games, through their history, have been places sole authors can be auteurs: take risks, try mad experiments, tell gloriously personal stories with an agility that games tied to graphics can only envy. 
+
+Scents & Semiosis, then, is a good note on which to end this book—but for more reasons than these. Its roots are also deeply entwined with the history of text games and interactive fiction. Written at the end of the 2010s, in an IF design language from the 2000s 2008 that evolved from a 90s project 1993 to reverse engineer Infocom’s story format from the 80s 1983, which originated in turn in the 70s with Zork 1977, the technical foundations of Ashwell’s game trace a rhizomatic line back through the medium’s history. Though written in a language built for parser games, it has a hypertext interface like Twine 2012 or Storyspace 1995, asking its readers to make decisions like a Choose Your Own Adventure 1979. It reflects the growing maturity of its medium, which from a trunk made from stories of hobbits 1982 and spaceships 1991 has sprouted new shoots toward tales of loss 1998, of love 2010, of self-discovery 1986, and of pain 2012. It continues threads of algorithmic experimentation 1994 2006 2013, but also takes care to be told with beautiful prose 1992 2009 2014. It was completed only with help from a community, a recurring theme across this series: from the People’s Computer Center where some of the earliest text game design conversations took place 1973, through the interactive fiction newsgroups 2000, the lifelong friendships born on MUDs 1997 and MOOs 1990, and puzzle-solving collectives like the Cloudmakers 2001. It is an odd little game, like so many in this series. Like them, it has been loved. 
+
+“This is not a process that you will ever complete,” the ending text for Scents & Semiosis reminds us. The disparate elements you bring together are “not the only version of your past. But you feel the shape of it.” So, I hope, can we. This journey through the first half century of a medium has been only one route through a garden of forking paths, with many side trips, tragic omissions, and lovely surprises. No one can say where the paths ahead will lead, through the next fifty years, and the next after that. But we will find new gardeners there, I’m sure, grafting and growing their own futures for interactive prose.
+
+
+References
+
+1) Ashwell, Sam Kabo. 2020a. “Scents & Semiosis.” These Heterogenous Tasks (blog). Mar 9, 2020. heterogenoustasks.wordpress.com/2020/03/09/scents-semiosis | a Dec 7, 2021
+2) Ashwell, Sam Kabo. 2020b. “@tsawac: Scents & Semiosis: A Story/Game/Toy about Perfume, Memory, and New Meanings…” Twitter thread. Mar 9, 2020. twitter.com/tsawac/status/1237097566287704064 | a Dec 7, 2021
+3) Ashwell, Sam Kabo. 2020c. “The ‘Semiosis’ Part.” These Heterogenous Tasks (blog). Mar 10, 2020. heterogenoustasks.wordpress.com/2020/03/10/the-semiosis-part | a Dec 7, 2021
+4) Compton, Kate, Ben Kybartas, and Michael Mateas. 2015. “Tracery: An Author-Focused Generative Text Tool.” In International Conference on Interactive Digital Storytelling, 2015. Springer.
+5) Gijsbers, Victor. 2020. “Sam Kabo Ashwell, ‘Scents and Semiosis’ [Review].” The Gaming Philosopher (blog). Mar 15, 2020. gamingphilosopher.blogspot.com/2020/03/sam-kabo-ashwell-scents-and-semiosis.html | a Dec 7, 2021
+6) Koning, Hank, and Julie Eizenberg. 1981. “The Language of the Prairie: Frank Lloyd Wright’s Prairie Houses.” Environment and Planning B: Planning and Design 8 (3).
+7) Manning, Cat. 2021. “Scents & Semiosis Nominated for a Nebula.” The Garden of Forking Narratives (blog). Mar 15, 2021. catacalypto.substack.com/p/scents-and-semiosis-nominated-for | a Dec 7, 2021
+8) MathBrush. 2019. “A Terse, Symbolic Dark Speed IF Game.” IFDB. Aug 26, 2019. ifdb.org/viewgame?id=063nxblhu07vizfx | a Dec 7, 2021
+9) Science Fiction and Fantasy Writers of America. 2021. “SFWA Announces the 56th Annual Nebula Award® Finalists.” Nebula Awards (blog). Mar 15, 2021. nebulas.sfwa.org/sfwa-announces-the-56th-annual-nebula-award-finalists | a Dec 7, 2021
+10) Short, Emily. 2014. “Procedural Text Generation in IF.” Emily Short’s Interactive Storytelling (blog). Nov 18, 2014. emshort.blog/2014/11/18/procedural-text-generation-in-if | a Dec 7, 2021
+11) Short, Emily. 2015. The Annals of the Parrigues. Unpublished manuscript. drive.google.com/file/d/0B97d5C256qbrOHFwSUhsZE4tU0k/view?resourcekey=0-Axor8kMWbczzjkf5jbYtxA | a Dec 7, 2021
+12) Short, Emily. 2016. “Five Strategies For Collaborating With A Machine.” Conference talk, PROCJAM 2016, Oct 20, London. www.youtube.com/watch?v=narjui3em1k | a Dec 7, 2021

@@ -1,0 +1,147 @@
+The Hobbit
+
+1982
+
+Veronika Megler and Philip Mitchell
+Style: Parser, Procedural Story
+Debuted: Late 1982 (retail)
+Launch Platform: ZX Spectrum
+Developer: Beam Software
+Publisher: Melbourne House
+Language: Z80 Assembler
+Launch Price: £14.95 (cassette tape)
+
+Opening Text:
+
+	You are in a comfortable tunnel like hall
+	To the east there is the round green door
+	You see :
+	    the wooden chest.
+	    Gandalf. Gandalf is carrying
+	      a curious map.
+	    Thorin.
+	Gandalf gives the curious map to you.
+	Thorin sits down and starts singing about gold.
+
+
+In Australia the academic year starts in January, so it was just a few weeks into 1981 when a computer science student named Veronika Megler returned to the University of Melbourne for her senior year. On the hunt for a job to pay the bills, she noticed a terse note pinned to the bulletin board outside the computer center: someone needed students for part-time programming work. The pay was ten dollars an hour. When Megler dialed the phone number on the ad, it turned out the man who posted it had started an Australian software company to make computer games, of all things, for the burgeoning UK market. The position he hoped to fill, he explained eagerly, was straightforward. He wanted to find someone to “write the best adventure game ever. Period.”9
+
+Megler had been hacking hardware and software for years, ever since giving up freshman plans to become an actuary: “I discovered I was bad at statistics and good at computers.”10 Her old job had been managing the campus mainframe, and her few spare hours outside work and school were often spent on hobby projects like writing control programs for a model railroad (typing them in on a hexadecimal keypad, in assembler) or building her own computer from kits in magazines. “I would go to the electronics parts store with my list of chips, resistors, capacitors and diodes,” she later recalled. “In the store they’d say, ‘tell your boyfriend we don’t have these’—it was not even considered possible that I might be the person purchasing them.”9 Sexist attitudes were “alive and kicking” on campus; in “self-defense,” Megler teamed up with one of the few other women in the program, a friend named Kerryn, to do group projects. The pair were sometimes joined by a friend named Philip Mitchell and a buddy of his “who were amongst the few men willing to partner with us.” Megler didn’t often need the help. In her interview with the Australian game company, Melbourne House, she so impressed the owner that he hired her on the spot. She quickly recruited her three group project friends, too.
+
+But the four had little experience with computer games. The company’s founder was familiar with microcomputer titles like Pirate Adventure 1978, and he hoped to improve on them for new generations of more capable machines. But the only earlier text game Megler knew was the original Adventure 1976, which she’d played “obsessively for some time, mapping out the ‘maze of twisty little passages,’” until she beat it—“at that point it instantly lost interest for me, and I don’t believe I ever played it again.”9 Thinking back on Adventure with the prospect of designing her own game now at hand, she realized the root of her boredom was its static, unchanging structure: “It played the same way every time. Each Non-Player Character (NPC) was tied to a single location, and always did the same thing.” She decided her game would be different.
+
+	You go southeast.
+	You are in Rivendell
+	Visible exits are: east west
+	You see :
+	    Elrond.
+	Thorin enters.
+	Elrond says " Hello ".
+				> SAY TO ELROND "HELLO"
+	You talk to Elrond.
+	Thorin says " Hurry up ".
+	Gandalf enters.
+	Elrond gives some lunch to you.
+				> GIVE LUNCH TO THORIN
+	You give some lunch to Thorin.
+	Thorin says " Thank you ".
+	Gandalf takes the curious map.
+				> GET MAP
+				GANDALF IS CARRYING THE MAP.
+				> SAY TO GANDALF "DROP MAP" 
+	Gandalf says " No ".
+	Gandalf says " What’s this ? ".
+	Thorin waits.
+				> SAY TO GANDALF "GIVE MAP TO ELROND"
+	You talk to Gandalf.
+	Gandalf gives the map to Elrond.
+	Elrond says " What do you expect me to do with this ? ".
+	Thorin waits.
+				> SAY TO ELROND "READ MAP"
+	You talk to Elrond.
+	Elrond examines the curious map.
+	Elrond says " Go east from the misty mountain to get to a narrow place".
+	Thorin sits down and starts singing about gold.
+
+Based on Tolkien’s classic novel, The Hobbit took a unique approach unlike nearly any previous text adventure. Megler designed her NPCs not as static objects, little different from props or treasures, but as “animals” that could move across the map and take their own actions. They would even act in real time if the player didn’t type anything for a while. Megler’s characters “just ‘played’ the game themselves according to their character profile,” she later wrote:
+
+	I conceived of an NPC’s character as being a set of actions that the NPC might perform, a sequence in which they generally performed them and a frequency of repetition. The individual actions were simple and were generally the same actions that a player could do (run in a given direction, attack another character, and so on); [but] these routines could be overridden for a specific character.… The apparent complexity of the character comes from the length and flexibility of its action sequence; the character “emerges” as a result. For example, Gandalf’s short attention span and kleptomania were represented by a sequence like: “[go] <random direction>. [Pick up] <random object> [Say, ‘what’s this?’]. [Go] <random direction>. [Put down] <random object>.”9
+
+Megler went through the book and “tried to identify common sequences of behavior that I could represent through a sequence of actions that would capture the ‘texture’ of that character.” A troll might simply move about at random and try to kill anything it saw, while Thorin had a penchant for complaining, following Bilbo around, and singing about gold. The game’s action sequences and map were randomized, resulting in a simulated world at turns frustrating and fascinating: no two games would be exactly alike. In one, Gandalf might wander off and get killed by a warg; in another, Elrond’s secret directions might change, or he might refuse to give them at all. A map of goblin dungeons carefully made on one playthrough would be wrong by the next, while the sword you were counting on for defense might have shattered because you used it to break down a locked door.
+
+This last kind of outcome was enabled by Megler’s choice to make even the static objects in the game dynamic. Each had properties like weight, size, and fragility, and rather than define puzzle solutions as particular commands (such as KILL DRAGON) the game instead often looked for a state (the dragon is dead). The state might have come about in any number of ways. It wouldn’t matter whether you convinced Bard to shoot the dragon with an arrow, if you bulked up on elf food and clobbered the beast to death yourself, or even if he blundered into another enemy of his own volition, fought, and was defeated—if the dragon was dead, the puzzle was solved.
+
+Working with other characters—who could take actions that Bilbo the hobbit could not—was also a key part of gameplay. A good example comes when Bilbo is imprisoned in the goblin tunnels beneath the Misty Mountains, and discovers that (or waits around until) another companion has been captured too:
+
+	The nasty goblin captures you.
+	You are in the goblins dungeon
+	To the north there is the goblins door
+	To the west there is the window
+	You see :
+	    some sand.
+	    Gandalf. Gandalf is carrying
+	      the large key.
+	Bilbo is too short to reach the window, but the wizard is not.
+				> SAY TO GANDALF "OPEN WINDOW"
+	You talk to Gandalf.
+	Gandalf opens the window.
+				> SAY TO GANDALF "PICK ME UP"
+	You talk to Gandalf.
+	Gandalf carries you.
+				> SAY TO GANDALF "GO THROUGH WINDOW"
+	You talk to Gandalf.
+	Gandalf goes through the window.
+	You are in the dark winding passage
+
+But another solution, if you’ve mapped the tunnels, is to give your companion a sequence of orders to escape and then come back to set you free: SAY TO GANDALF "OPEN WINDOW, GO WEST, GO SOUTHWEST, OPEN DOOR". There are three possible outcomes to this strategy, as one walkthrough notes:1 the door will open with your companion waiting outside; they’ll end up back in the dungeon with you because they were recaptured along the way; or you never see them again because they got killed trying to carry out your plan.
+
+Unlike many text games of the time written in higher-level languages like BASIC, Megler wrote The Hobbit directly in assembler. This enabled the game’s complex code to run at a reasonable speed, but debugging it was extraordinarily difficult. Assembler code moves individual numbers in and out of memory registers, making high-level behavior like Megler’s proto-AI harder to visualize and follow:
+
+	L6E11  CP    #08
+	       JR    NZ,L6E22
+	       BIT   7,B
+	       JR    NZ,L6DF5
+	       LD    A,#08
+	       CALL  L7589
+	       INC   B
+	       DEC   HL
+	       JR    L6DF5
+
+Modern debugging conveniences did not yet exist for Z80 Assembler. “The BASIC programmer’s technique of inserting ‘print’ statements to find out what is happening is not available,” Megler remembered grimly. “We had characters interacting with each other in distant parts of the game, and only actions in the current location were printed on the game player’s console.”9 A crash might have been caused by some NPC action halfway across the map, which could only be diagnosed, if at all, by poring through core memory dumps. Even simple needs were hard to meet. The game’s target platform had no random number generator—not even a system clock, the milliseconds value of which was a common fallback—so Philip Mitchell spent endless hours experimenting with algorithms for pseudo-randomness that could lend the game the unpredictability Megler wanted. Even when everything was working as designed, the game’s emergent behavior often led to outcomes that seemed like bugs, such as a rampant baddie killing all the other characters before Bilbo could even meet them.
+
+But Megler loved the game’s unpredictability. “I didn’t make any attempt to stop that,” she wrote of unexpected NPC deaths, “because I thought it was cool.”4 Unlike Adventure, you never knew quite what would happen when you booted up her game. It was exactly the kind of free-form serendipity she had hoped to create:
+
+	I was really aiming for something like life, where the outcome is the result of many independent occurrences and decisions by many people, and sometimes things just don’t work out.… I actively wanted the unpredictability.5
+
+While Megler worked on the game engine and scenario, her old lab partner Philip Mitchell was tasked with building a next-generation parser that Melbourne House would eventually brand as “Inglish.” The goal was to improve on the two-word parsers still being used in most microcomputer games. (Zork had only just arrived on the US market and hadn’t made much of an impression outside the country.) Mitchell coded an impressive parser capable of handling commands like TAKE THE LAMP AND THE ROPE OUT OF THE BARREL. It even understood certain adverbs, so it was possible to VICIOUSLY ATTACK THE TROLL WITH THE SWORD. In the end, perhaps because Mitchell’s Inglish and Megler’s simulation were designed independently, The Hobbit doesn’t make much use of its parser’s extended capabilities—it’s a bit hazy even today, for instance, whether it actually paid any attention at all to those adverbs. But marketing hype around the new parser made the case that the game was breaking new ground and raising the bar for what microcomputer text adventures were capable of.
+
+The bar was also lifted by the game’s graphics, made possible by the release of the ZX Spectrum in Britain just in time for The Hobbit’s launch. The Spectrum was the first color computer in Sinclair’s line of entry-level machines. A model that could play the new Melbourne House game sold for just £175, far cheaper than many competitors’ systems. It rapidly became the bestselling computer in the UK despite its rubbery keyboard, flimsy plastic case, and limited capabilities. One such limitation was its reliance on cassette tapes for data storage, rather than pricier disk drives. Programs had to be loaded into memory linearly and in their entirety at launch time; there was no support for the random-access data a disk-based system would have used to, say, load new images at the moments they were needed. As a result, The Hobbit’s entire engine, data, and text—as well as color illustrations for half of its fifty locations—had to squeeze into the Spectrum’s 48K of memory (which was actually closer to 41K with the system’s core capabilities loaded in). Artist Kent Rees was brought on to draw simple line art that would be sketched out and flood-filled, one instruction at a time, on the user’s screen—far more efficient than storing images as pixel data. Rendering pictures this way could be painfully slow, but was brought much closer to bearable by Megler’s optimized code.
+
+Working part time through the 1981 school year out of the large and mostly empty Melbourne House offices (optimistically sized for expansion), Megler and Mitchell inched The Hobbit toward completion between classes and other responsibilities. When Megler graduated at the end of the year, it fell to Mitchell to see the project through to its launch in late 1982. The release would be a landmark event in early British computing, leaving an indelible impression on players and reviewers who found it sometimes compelling, sometimes maddeningly frustrating. Megler’s “animals” were indeed unpredictable, but often in buggy, uninteresting, or ridiculous ways. “Gandalf the wizard sadly lacks much of the wisdom of the character in the book,”2 wrote one commenter (rather more kindly than others phrased a similar sentiment); another suggests that if you find the wizard’s odd behavior of stealing objects and wandering off with them bothersome, “you can have him enter the cave, close it on him, and lock him in.”1 The game’s assembly code and emergent behaviors proved a nightmare to debug: the manual even claimed that “due to the immense size and complexity of this game it is impossible to guarantee that it will ever be completely error-free.” Some bugs became famous exploits: Bilbo could pick up Elrond and carry him around, which many walkthroughs advised doing to procure a continuous supply of restorative elven lunches. Many players despairingly noted the tendency of Bard the Bowman, when led to the dragon Smaug and ordered to slay him, to reply “No.”—just before getting roasted to a crisp.
+
+But the game’s quirky, unexpected, unpredictable behavior is often memorable, capturing the same emergent charm of much later games like Dwarf Fortress or the Versu stories. You’re playing through the book of The Hobbit, one retrospective noted, “but you’re not. It’s freedom to break the strait-jacket of the book and play a new adventure, a new story that is filled with the same familiar locations and characters, [that is] remembered by the players.”5 Today one can still find collections of anecdotes recalling the many strange adventures players had in Megler’s Middle-earth:
+
+	In one game I played, Gandalf had an odd habit of picking up dead bodies and walking around with them.… [In another, the goblins] captured the wood elf and when I was thrown into the goblins’ dungeon, [the elf immediately] threw me into the Elvenking’s dungeon.… I once managed to kill Smaug with Gollum’s corpse.1
+
+“To say that the game’s reach exceeds its grasp hardly begins to state the case,” writes game historian Jimmy Maher. “The thing the game is reaching for is somewhere in orbit.… But still, The Hobbit plays like no adventure before it.… It’s a staggeringly ambitious, visionary thing to be attempting.”7 Despite its quirks—or because of them—the game would become a massive bestseller, even priced at three times the typical £5 for a Spectrum adventure. It was ported to nearly every other platform that could run it, and is often credited for helping to jump-start the British home computing market. A US launch in 1985 found equally widespread success, part of a wave of other book-to-game adaptations inspired by its UK success story, including Infocom’s Hitchhiker’s Guide to the Galaxy and properties by authors from Stephen King to James Clavell. The Hobbit itself would eventually become, by some estimations, the bestselling text adventure of all time.
+
+For years, Megler was little aware of the game’s success. After she graduated, Melbourne House offered her a full-time position, but she was sick of assembler debugging and turned it down: “I have a very low tolerance for doing the same thing over and over again.”10 She accepted an entry-level job at IBM, who “made it very clear that having written a game was not regarded as any kind of relevant work experience,”5 and went on to a long and successful career as a computer professional—but never again worked in games. It wasn’t until the 2000s that she learned the extent of The Hobbit’s popularity and its impact on a generation of adventurers around the world: of players who had first learned English to solve it, or had their imaginations fired for their own computer careers by the magic inherent in the game’s simulated possibilities.
+
+“I’m a divergent thinker,” Megler has reflected. Looking back at her game in 2016, she wrote that she was “struck again by the power a few simple ideas can have, especially when combined with each other. It’s my favorite form of innovation.”9
+
+
+References
+
+1) Davis, Jared. 2013. “The Hobbit Adventure Game (Walkthrough, Version 2.0).” Jan 21, 2013. gamefaqs.gamespot.com/sinclair/948634-the-hobbit/faqs/65834 | a Oct 23, 2020
+2) Elkan, David. 1984. A Guide to Playing The Hobbit. South Melbourne: Melbourne House Publishers.
+3) Garratt, Phil. 1983. “The Hobbit (Review).” ZX Computing 1 (6), May 1983.
+4) Grannell, Craig. 2014. “The Making of The Hobbit.” Retro Gamer 101, 2014.
+5) Hardisty, Mark James. 2018. “Veronika Megler.” The Classic Adventurer 01, 2018.
+6) Kelly, David. 1983. “Elementary, Dr Watson.” Popular Computing Weekly 2 (43), 1983.
+7) Maher, Jimmy. 2012. “The Hobbit.” The Digital Antiquarian (blog). Nov 16, 2012. www.filfre.net/2012/11/the-hobbit | a Oct 23, 2020
+8) Megler, Veronika. 2002. “The Hobbit and his Lady.” Interview by L’avventura è L’avventura, April 2002. www.avventuretestuali.com/old/interviste/megler_eng.html | s Nov 21, 2008
+9) Megler, Veronika M. 2016. “There and Back Again: A Case History of Writing The Hobbit.” Refractory: A Journal of Entertainment Media. Aug 30, 2016. refractory.unimelb.edu.au/2016/08/30/vmegler | a Oct 23, 2020
+10) Sharwood, Simon. 2012. “Author of ’80s Classic The Hobbit Didn’t Know Game Was a Hit.” The Register, Nov 18, 2012. www.theregister.com/2012/11/18/hobbit_author_veronika_megler_reminisces | a Oct 23, 2020
+11) Stuckey, Helen. 2014. “Exhibiting The Hobbit: A tale of memories and microcomputers.” History of Games International Conference, Jan 2014. www.kinephanos.ca/2014/the-hobbit | a Oct 23, 2020
+12) Wild, Chris. n.d. “The Hobbit Data Format.” icemark.com. www.icemark.com/dataformats/hobbit | a Oct 23, 2020.
+13) ZX Computing Monthly. 1986. “Mindplay: The Hobbit (Review),” October 1986.

@@ -1,0 +1,175 @@
+His Majesty’s Ship “Impetuous”
+
+1981
+
+Robert Lafore
+Style: Experimental
+Debuted: Late 1980 or Early 1981 (retail)
+Launch Platform: TRS-80
+Developer: Interactive Fiction
+Publisher: Adventure International
+Language: BASIC
+Launch Price: $19.95 (floppy disk)
+
+Opening Text:
+
+	A WINDBLOWN STORY OF THE DAYS WHEN ONLY THE BRITISH FLEET OF FIGHTING SAIL KEPT THE FRENCH AND SPANISH NAVIES FROM SPREADING NAPOLEON'S TYRANNY ACROSS THE GLOBE.
+
+
+The fifth West Coast Computer Faire in 1980 captured the personal computer revolution midexplosion. Three hundred vendors and a crowd of twenty thousand filled two adjacent San Francisco venues packed with new hardware and software—evidence of an industry that hadn’t even existed five years before, but was now rapidly expanding into the lives of everyday people. If you’d been wandering the aisles, you might have bumped into a man handing out unassuming trifold brochures printed on single sheets of colored paper, plugging something that could run on those new home machines called “Interactive Fiction: A new Literary Artform based on Micro-computers.”
+
+	How does it work?
+	The computer sets the scene with a fictional situation, which you read from the CRT. Then, you become a character in the story: when it’s your turn to speak you type in your response. The dialogue of the other characters and even the plot will depend on what you say.3
+
+Interactive Fiction was the name of a company founded the previous year by a longtime programmer in his early forties, Robert Lafore. While cutting his teeth on the PDP-5 mainframe fifteen years earlier, Lafore had written one of its early debuggers, and he’d later worked on programs handling data from high-energy physics experiments at the Lawrence Berkeley Laboratory.
+
+But Lafore was also a closet adventurer. He’d sailed a tiny boat from San Francisco to Tahiti with his wife and daughter, and in his spare time he’d written a series of novels with nautical themes. When he joined the microcomputer revolution himself, purchasing a Radio Shack TRS-80 in 1979, he’d seen some of the primitive games then on offer and was unimpressed. Squeezing the best mainframe adventures onto microcomputers with a fraction of the storage space and memory was an enormous challenge that companies like Adventure International were only just beginning to tackle. Lafore decided he could do better by doing something simpler. Rather than simulating a complex world model and hooking it up to a parser that could understand dozens of commands, he would take inspiration instead from one of the earliest ancestors of text games, already more than a decade old: the ancestor of all chatbots, ELIZA. He would create a program that only pretended to listen to what you were saying.
+
+	HIS MAJESTY'S SHIP "IMPETUOUS" SLIPPED SOUNDLESSLY INTO THE
+	BAY ON THE LAST OF THE DYING WESTERLY.  IN THE TWILIGHT
+	CAPTAIN REED COULD JUST MAKE OUT THE SPIRE
+	OF ROCK MARKED ON THE CHART AS A LANDMARK.  SLOWLY THE ROCK
+	CAME IN LINE WITH THE DISTANT PEAK OF MONT CHAMPIGNON.[...]
+	   "SHALL I RIG THE BOARDING NETS, SIR?"
+	   THIS WAS THE SAILING MASTER, MR STAYSON, A MAN AS CAUTIOUS
+	AS MR DASHER WAS DARING.  ALTHOUGH THE LITTLE BAY WAS ON THE
+	FRENCH MAINLAND IT WAS CENTERED IN A DESERTED STRETCH OF COAST
+	AND THE LIKELIHOOD OF A BOARDING PARTY BEING SENT AGAINST THEM
+	WAS REMOTE.
+	   REED TURNED TO MR STAYSON.  "
+
+The blinking cursor at the end of the line of abruptly truncated text invited the player to fill in their own contribution:
+
+	   REED TURNED TO MR STAYSON.  "What would you advise,
+	Stayson?" he asked.
+	   "WELL, IT'S LIKE THIS, SIR."  THERE FOLLOWED A FEW MINUTES
+	OF TECHNICAL DISCUSSION BEFORE STAYSON WENT TO RIG THE
+	BOARDING NETS.
+
+	(PRESS -ENTER- TO CONTINUE) [enter]
+
+	[...] "SIR, SHALL I BRING YOU A CUP OF HOT WINE?"  MILLBY,
+	REED'S STEWARD, STOOD AT HIS ELBOW.  "IT'S A COLD
+	NIGHT, SIR."  MILLBY, A GOOD SERVANT, WAS
+	ALWAYS SOLICITOUS OF HIS CAPTAIN'S COMFORT.
+	   REED THOUGHT HOW GOOD THE WINE
+	WOULD TASTE. "Yes, a little wine would warm me up quite
+	nicely. Thank you, Millby."
+	   "VERY GOOD, SIR."  MILLBY HURRIED AWAY.
+	   I'M GLAD I SAID THAT,
+	REED THOUGHT.  IT MAKES HIM HAPPY TO DO THINGS FOR ME.
+
+Players would have read the pale block letters of the game’s faintly flickering text on a twelve-inch, black-and-white television screen. The PRESS -ENTER- breaks would clear the screen and refresh it with a new “page” of text, rather than allowing it to scroll. Pages were somewhat cramped: the TRS-80’s 1K of video RAM was exactly enough to store sixteen lines of text with sixty-four characters each. The home computer also at first only supported a subset of ASCII with no lowercase letters, one of several regressions to earlier limits seen in the transition from mainframes to micros.
+
+His Majesty’s Ship “Impetuous” was Lafore’s fourth Interactive Fiction title, and it followed a format the earlier games had established. Unlike Zork and most contemporary adventures, Interactive Fictions told a linear story interrupted only rarely by a chance to type. After entering their own name and gender, the player types not second-person commands, but first-person statements in the voice of the protagonist. Like ELIZA, the program looks for keywords in the player’s input, but unlike the digital therapist it maps keywords to hidden narrative choices, such as whether to attack an enemy ship and risk exposure or to play it safe. The overall story rarely branches, sticking to a seven-chapter spine, but past choices are remembered, altering incidental text or setting up later decisions. The choice of which officer to promote, for instance, impacts whether later choices can succeed, requiring the player to remember the strengths and weaknesses of the man they picked and whether he’s right for a given job.
+
+While ELIZA had looked for loaded words in the context of a therapy session—words like MOTHER, DREAM, or SORRY—Impetuous understood various ways of saying yes, no, or asking a question, as well as keywords specific to each particular interaction point. While the keyword matching was technically simple, Lafore’s careful authoring and framing of choices often worked to create a surprisingly compelling illusion of collaboration. One of his key insights, in contrast to parser-driven games, was to often continue the story even if the input hadn’t been understood. Compare the below to the end of the previous excerpt. Here, the game doesn’t recognize any words in the input as either a yes or no, but it carries on regardless, missing only a bit of commentary on the choice:
+
+	   REED THOUGHT HOW GOOD THE WINE
+	WOULD TASTE. "regretfully, millby, I must decline," Reed
+	said. "I should stay sharp just at present."
+	   "VERY GOOD, SIR."  MILLBY HURRIED AWAY.
+
+While in parser games the player controls their character’s every move, Lafore’s stories focused on key moments where contributing would be interesting or challenging. They prioritized momentum over correctness, and long runs of prose over a constant rhythm of interactions. The result feels different than a parser game, in some ways similar to the model that would be popularized by Choose Your Own Adventure. But a key distinction was that the range of possible choices could be hidden. While this could be frustrating, it could also beguile. Anything might be possible at any given prompt.
+
+Lafore had been writing Interactive Fictions for a year by the time Impetuous was released, and had honed his craft considerably. The simplicity of the code left far more room on the disk for prose, making his games stand out from their detail-starved competitors. While other games used most of that space for program instructions, Lafore’s approach let him use almost all of it for writing. His paragraphs of story are especially impressive compared to most games of the era, including others from his publisher, Adventure International:
+
+	I'm in a Beach by ocean.
+
+	Obvious exits: South, East, West, Down.
+
+	I can also see: Sand - Large stone head - Edge of impenetrable jungle
+
+By comparison, Impetuous:
+
+	IT WAS A PERFECTLY CLEAR APRIL MORNING, WITH A WARM SUN AND A SKY OF A DEEP CERULEAN BLUE. THE GRAVE WAS ABOVE THE HIGH-TIDE MARK ON A BEACH TUFTED WITH SPARSE GRASS.  A FEW YARDS FARTHER INLAND THE CLIFFS OF THE SHORELINE HAD COLLAPSED OVER THE EONS, LEAVING A JUMBLED PILE OF BOULDERS AND INTRICATE MAZE-LIKE RAVINES, WHICH RAN INLAND AS FAR AS THE EYE COULD SEE.
+
+And while characters rarely spoke at all in other games of the time, Lafore’s were awash in dialogue from both player and NPCs. It was technically unnecessary for the player to write out long responses to a prompt—the game only cared about matching keywords—but the instructions encouraged you to embody your role, and some players and reviewers warmed to the idea. “If you have any love of story-telling,” wrote one, “you’re more likely to reply in full sentences, befitting your station as a character.”9 If you played along, after pressing enter there would be nothing on-screen to distinguish your words from Lafore’s. Indeed, many of the prompts in Impetuous exist purely for roleplaying: under the hood, the game doesn’t check them for any keywords at all, though the player doesn’t necessarily realize this.
+
+	   REED, ASTONISHED BY THE SPIRIT WITH WHICH THE
+	ENEMY SHIPS ATTACKED, UTTERED THE SALTIEST OATH
+	HE KNEW: "dash it all!!"
+	   THE REMARK CAUSED MILLBY, APPROACHING WITH A BOWL OF
+	CHICKEN SOUP FOR HIS CAPTAIN, TO TURN PALE.
+
+While sometimes present only to provide a bit of fun, many of these branchless interactions come at moments where the content of your words matters less than the thought that went into writing them. At times you might be prompted to find the right words to comfort a grieving sailor, or to consider your closing statement at a court-martial. The fact that the game checks some of your input establishes a pattern that the player should take care when writing all of it.
+
+The whirring of the floppy drive after entering each response furthered the illusion that the program was analyzing your words and recalibrating the rest of the story to align with them. Sometimes, in a limited way, it did. Free to experiment beyond the fixed format of verb-noun commands, Lafore created choices that used methods other than keyword matches for judging a player’s input. The length of a response could be tested, with characters deeming an utterance too short or too long: 
+
+	"HE CERTAINLY DOES RAMBLE ON AND ON," MUTTERED AN AIDE-DE-CAMP
+	SNEERINGLY, UNDER HIS BREATH.
+
+At other times, an input that omits a particular word might provoke an extra response before any other keywords get resolved, as in this admonition from an admiral:
+
+	"YOU WILL ADDRESS ME AS 'SIR,' CAPTAIN.  A SERIOUS BREACH OF
+	ETIQUETTE, BUT I WILL OVERLOOK IT THIS ONCE."
+
+Lafore enabled this flexibility through a tight set of BASIC subroutines that handled input parsing and string printing, leaving the main code flow to consist almost entirely of story text. The printing subroutine included a preprocessor that could swap in character names or punctuation, for instance, avoiding awkward inline string processing:
+
+	5230 C$= "#I'LL TAKE MY PISTOLS,# #1 HAD TOLD HIM HARSHLY"
+
+	"I'LL TAKE MY PISTOLS," REED HAD TOLD HIM HARSHLY
+
+A “page” of text would be assembled by writing into one of four ordered slots, sometimes conditionally: the variables A$, B$, C$, and D$. One page might assign the bulk of its text to B$, but put a response to the previous choice in A$ as a lead-in. C$ or D$ might then be used for extra text that referenced a choice made earlier in the story. This somewhat cumbersome assembly process was an artifact of the lack of easy word-wrapping on the TRS-80: line length, especially for dynamic text, had to be carefully managed. Each possible fragment that could go in one of the four variables was designed to fill one or more whole lines exactly or end a paragraph, to minimize awkward gaps at the ends of lines no matter which combination of texts had been selected.
+
+Parsing the player’s input also happened in a tidy subroutine that stripped punctuation and looked for synonyms of the three basic choice types (yes, no, or asking a question). Further matches could be handled inline with the BASIC command INSTR (“in string”), which returned the 1-indexed position where a given text could be found inside another, or 0 for no match. A value greater than 0 resolved to true, allowing a single line of code to add conditional text if a given word or words were detected. The following line, considering the player’s input in string variable I$, adds some humorous color before the main body of the response if you tell steward Millby you’ll take supper in your cramped quarters:
+
+	5873 IFINSTR(I$,"CABIN")ORINSTR(I$,"ROOM ")OR
+	INSTR(I$,"QUARTER") A$=
+	"   #IN THAT TINY CABIN?#  MILLBY LOOKED HORRIFIED.  #IF YOU
+	SAY SO, SIR.#":
+
+Writing for the system was certainly constrained, but its predictability let Lafore turn his attention from debugging a simulation—which authors of parser games spent so much of their time doing—to writing interesting situations for the player to respond to. Early in Impetuous, the player faces a choice of whether to put a young sailor to death for a treasonous offense, or show leniency and risk further eroding shipboard discipline. But the game hints a third choice might be possible. In fact there are four potential outcomes, and coming up with one of the less obvious solutions feels as satisfying as solving a traditional adventure game puzzle—perhaps more so, since you’re invited to perform it in your own words. 
+
+Lafore became a passionate advocate for his new medium, seeing a bright future that stretched far beyond text:
+
+	Technology will soon permit Interactive Fiction to become a verbal medium, as synthesized speech and speech recognition techniques eliminate the need for typing and reading. The user will be able to actually speak with the other characters in the story. Later, holography and animation will permit the user to “see” the characters he is talking with, and we will have Interactive Movies!3
+
+He made a case that his games were superior to parser-based adventures. While early game ads often ran to the hyperbolic, Interactive Fiction may have been especially guilty: 
+
+	In adventure games (at least the traditional ones) you’re restricted to two-word sentences: “Go north,” and so on. In interactive fiction you can say whatever you like.12
+
+But in truth, Lafore’s stories often didn’t look at even one word in the player’s input, let alone two. They were even more “rigidly defined” than traditional text adventures, even if their interface made that limitation more obscure: while you could certainly say whatever you liked, you weren’t always understood. Impetuous can sometimes be magical, but it’s often frustrating, especially when requiring a specific response before the story will continue:
+
+	OF COURSE THERE WAS THE POSSIBILITY THEY
+	COULD LAY ALONGSIDE ONE OF THE BIG ENEMY SHIPS, BOARD HER, AND
+	PERHAPS EVEN CAPTURE HER.  WHAT AN INSPIRATION THAT WOULD BE TO
+	THE BRITISH FLEET!  BUT WOULD THIS INSPIRATION BE WORTH THE
+	CASUALTIES? THE INEVITABLE MASSACRE?
+	   "We will take on one of the smaller ships first,
+	creating a diversion that will draw the others towards our fleet," Reed said.
+	   "THAT'S TOO COMPLICATED FOR ME, SIR," WILEY SAID.
+	   "WE MUST ATTACK, SIR," DASHER SAID.  "WE MUST!"
+	   "ON THE CONTRARY, WE MUST BACK OUR SAILS," STAYSON SAID.
+	   "GENTLEMEN, WE WILL draw them into a trap."
+	   "WE MUST ATTACK, SIR," DASHER SAID.  "WE MUST!"
+	   "ON THE CONTRARY, WE MUST BACK OUR SAILS," STAYSON SAID.
+	   "GENTLEMEN, WE WILL fire at will, then."
+	   "WE MUST ATTACK, SIR," DASHER SAID.  "WE MUST!"
+	   "ON THE CONTRARY, WE MUST BACK OUR SAILS," STAYSON SAID.
+
+Reviewers of Lafore’s games often noticed the limitations of the keyword approach. “A shadow frequently falls betwixt the delivery and the vow,”7 wrote one (unusually poetically for an 80s game review) about the gap between the system’s reach and grasp. Another wrote that the Interactive Fiction games “suggest, more than fulfill, the possibilities of the form,”13 and dinged them for having the same price as parser games despite a much shorter playtime (with fewer hours spent fiddling with puzzles or lost in mazes). Their touted replayability was also called into question: longer passages of prose were less amenable to rereading over and over than the punchier, functional text of a typical game.
+
+Lafore would release one further Interactive Fiction title after Impetuous, but by the end of 1981 the experiment was fizzling. Adventure International soon bundled all his games together in a single package for $29.95, then $19.95, then stopped selling them altogether. “They sold all right for a while,” Lafore later recalled, “but eventually the novelty wore off and I needed a new career.”4 He found one that combined his love of writing and computers in a different way, as a bestselling author of accessible programming textbooks. While he never returned to computer games, the term he invented—“interactive fiction”—would be co-opted by other creators of literary text games as a more serious alternative to “text adventures.” It’s still in common use today, having named the genre Lafore had hoped to replace.
+
+Though largely forgotten, Lafore’s programs are worth remembering for their glimpse at a path not taken in the design of literary games. A world model with a parser would become the standard engine for text games in the 80s and for decades afterward, but it’s by no means the only engine possible. Game historian Jason Dyer writes that Lafore’s Interactive Fiction today “feels like a map to some hidden shell—covering new possible worlds of gameplay—yet to be cracked open.”2 When computer visionary Ted Nelson reviewed Lafore’s games in 1981, he found them more intriguing than the many Zork clones filling up the booths at computer expos. He wrote: “Bob Lafore is obviously a talented writer with a nice command of atmosphere, fictional action and structure; not content to be merely a swell teller of conventional tales, we can be glad he favors us with an entire new system of interactive writing.
+
+“Never mind the swords and sacks of souvenirs,” he concluded in the review’s final paragraph: “I’d rather curl up with a good interactive story.”9
+
+
+References
+
+1) Adventure International. 1981. “Catalogue.” Summer 1981. www.mocagh.org/ai/ai-v2i2catalog.pdf | a Jan 9, 2021
+2) Dyer, Jason. 2019. “His Majesty’s Ship ‘Impetuous’: We May Both Live to Regret This.” Renga in Blue (blog). Dec 6, 2019. bluerenga.blog/2019/12/05/his-majestys-ship-impetuous-we-may-both-live-to-regret-this | a Jan 12, 2021
+3) Interactive Fiction. n.d. “Interactive Fiction: A New Literary Artform Based on Micro-Computers.” archive.org/details/TNM_A_new_literary_artform_based_on_micro-compute_20170922_0465 | a Jan 9, 2021
+4) Lafore, Robert. 1998. “Object Orientation Is Inevitable: An Interview with Robert Lafore, Author of C++ Interactive Course.” Canadian Computer Wholesaler 4 (3), Mar 1998.
+5) Lafore, Robert. 2002. “Interview: Lafore, Robert.” Interview by Studio B. www.studiob.com/content.asp?cID=183 | s Jun 18, 2002
+6) Maher, Jimmy. 2011. “Robert Lafore’s Interactive Fiction.” The Digital Antiquarian (blog). Sep 1, 2011. www.filfre.net/2011/09/robert-lafores-interactive-fiction | a Jan 12, 2021
+7) Mello Jr., John P. 1982. “Interactive Fiction (Reviews).” 80 Micro, Aug 1982.
+8) Morgan, Chris. 1980. “The 1980 West Coast Computer Faire: A Watershed Year for Personal Computing.” BYTE 5 (7), Jul 1980.
+9) Nelson, Ted. 1981. “Interactive Literature.” Creative Computing 7 (2), Feb 1981.
+10) Niesz, Anthony J., and Norman N. Holland. 1984. “Interactive Fiction.” Critical Inquiry 11 (1): 110–29.
+11) Peterson, Dale. 1983. Genesis II: Creation and Recreation with Computers. Reston Pub. Co.
+12) Saberhagen, Fred, Robert Lafore, Scott Prussing, Redmond Simonsen, Marc Blank, and Michael Berlyn. 1983. “Call Yourself Ishmael: Micros Get the Literary Itch.” Softline, Sep-Oct 1983.
+13) Softalk. 1981. “Six Micro-Stories and His Majesty’s Ship ‘Impetuous’ (Review).” 1 (11), Jul 1981.
+14) West Coast Computer Faire. 1980. “Fifth West Coast Computer Faire Program.” archive.computerhistory.org/resources/access/text/2019/04/102725949-05-05-acc.pdf | a Jan 9, 2021

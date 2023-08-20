@@ -1,0 +1,254 @@
+Dwarf Fortress
+
+2006
+
+Tarn Adams and Zach Adams
+Also Known As: Slaves to Armok: God of Blood Chapter II: Dwarf Fortress
+Style: Roguelike,
+Procedural Story
+Debuted: Aug 8, 2006 (web)
+Launch Platform: Windows
+Publisher: Bay 12 Games
+Language: C, C++
+
+Opening Text:
+
+	You have arrived. After a journey from the Mountainhomes into the forbidding wilderness beyond, your harsh trek has finally ended. Nestled beneath a sheer cliff face overlooking the wilds, your party of seven is to make an outpost for the glory of the King and all of ìrlomemenidithudib. There are almost no supplies left, but with stout labor comes sustenance. Whether by bolt, plow, or hook, provide for your dwarves. You are expecting a supply caravan just before winter entombs you, but it is spring now. Enough time to delve secure lodgings, ere the wolves get hungry. A new chapter of dwarven history begins here at this place, Zedotkol, “Lobsterwheels”. Strike the earth!
+
+
+“She feels euphoric due to inebriation,” the bio began:
+
+	Within the last season, she felt fondness talking with an acquaintance. She felt pleasure near a fine Statue. She feels satisfied at work. She felt love remembering talking with a lover. She was content after eating a fine dish. She was exasperated when caught in the rain. She felt satisfied remembering getting into an argument. She felt pleasure having an intellectual discussion with a lover. She was annoyed at the lack of chairs. She sometimes feels sad at being separated from loved ones. 
+
+It was just the first of nine paragraphs describing Zasit Bomreksezuk, a Stonecrafter in my dwarven fortress of Zedotkol. She existed for only a handful of days on my laptop’s hard drive before perishing near the end of a frigid winter. In some ways, I barely knew her. Yet I knew that she had very long hair arranged in double braids, and an angular chin; that she was strong, but slow to heal and quick to tire; that she liked fine pewter, colors in a dark olive shade, and drinking apricot wine; that she had an amazing memory and an iron will but little patience. I knew that, like many of us, she detested purring maggots. I knew, more anecdotally, that she tended to finish tasks quickly and reliably; that I could count on her to get a job done. And I knew that her pages of biography, extensive as they were, showed only a portion of her simulated character: selections of interesting or unusual facts, not the whole dossier. Though rendered on my area map with just a single character of text, Zasit Bomreksezuk had depths I would never see.
+
+Zasit was a procedurally generated character in Dwarf Fortress, which the New Yorker once described as “SimCity’s evil twin.”24 In the game, you shepherd a colony of dwarves through the building and expansion of a remote outpost in a dangerous, fantastical land. What makes the game so memorable is the incredible depth of its simulation and the deliciously vivid stories it inspires, using nothing but words and a simple palette of symbols. It’s “visually terrible,” Slate wrote, “insanely difficult, and beautifully weird.”22
+
+The story of the game’s creators, Tarn and Zach Adams, has been told before.23 In brief: two talented brothers, making games together since they were kids, had grown up with the thought of perhaps becoming academics, one in math and the other in history. But on the side they kept making games for fun. In their midtwenties they started a sequel to an earlier and overly ambitious project, Slaves to Armok: God of Blood [Bay 12 Games 2000]—the deity’s name inspired by a variable arm_ok counting unspoiled limbs. Since the original game had collapsed under the strain of trying to realize a detailed simulated fantasy world with 3D graphics, the brothers decided their new game would use only text. Designing together—but with coding handled by the mathier brother, Tarn—the two worked on Dwarf Fortress for four years before releasing an alpha build in 2006. Within months it became wildly popular among a certain kind of gamer obsessed with detail and emergent play, and the brothers have kept working on it ever since. It’s still unfinished—but even so, it’s become one of the most infamous and beloved text games ever made. 
+
+Little upon the game’s first release suggested the 5.1 MB download from an unknown developer would be anything special. The first clue might have come from the readme, which noted “You may NOT modify any files, except”—and here was maybe a bit of a wink—“the files in these folders”:
+
+	"raw/objects"
+	"data/art"
+	"data/init"
+	"data/interface"
+	"data/movies"
+	"data/sound"
+	"data/speech"
+
+Those who poked into these folders found an astonishing catalog of human-readable data that implied a simulation operating at extraordinary depth. Within the raw/objects folder, for instance, a file creature_amphibians.txt defined an entity:
+
+	[CREATURE:TOAD]
+		[NAME:toad:toads:toad]
+		[TILE:249][COLOR:2:0:0]
+		[VERMIN_SWAMPER][FREQUENCY:100][VERMIN_HATEABLE]
+		[AMPHIBIOUS][SMALL_REMAINS][NO_WINTER][UNDERSWIM]
+		[SPEED:2900][NATURAL][PET]
+		[PETVALUE:10]
+		[NOT_BUTCHERABLE]
+		[PREFSTRING:beauty]
+		[NOCTURNAL]
+		[BIOME_NOT_FREEZING]
+
+Dozens of other creature files defined worms, cats and dogs, birds and squirrels; and others tied to specific biomes like hippos (tropical), hoary marmots (tundra), and whales (ocean). A file called item_armor.txt laid out the material, weight, and size of protective gear; language_DWARF.txt, language_ELF.txt, and so on indexed massive vocabulary lists for fantasy tongues. Another config file detailed how to build bodies out of component parts, from organs on up:
+
+	[BODY:THROAT]
+	[BP:THROAT:throat][CONTYPE:HEAD][THROAT][EMBEDDED][SMALL]
+
+	[BODY:NECK]
+	[BP:NECK:neck][CONTYPE:HEAD][NERVOUS][INTERNAL][SMALL]
+
+	[BODY:SPINE]
+	[BP:UPPERSPINE:upper spine][CONTYPE:UPPERBODY][NERVOUS]
+	   [INTERNAL][SMALL]
+	[BP:LOWERSPINE:lower spine][CONTYPE:LOWERBODY][NERVOUS]
+	   [INTERNAL][SMALL]
+
+Before playing this game, you had to first give it time to create the world. Blocky rivers wore down mountains; rain shadows and elevation shaped the formation of lakes. Hundreds of years of history were logged, sketching tens of thousands of historical figures and events: wars, the foundation of cities, the creation of notable artifacts. By the time each game of fortress management began, an entire bespoke planet had been made to play it in—worlds with names like “Adelanamaanenu Rayali, The Wondrous Everseeing Planet of Tempests,” or “Ecamo Oroni, The Universe of Omen.”
+
+Dwarf Fortress took inspiration from favorite games of the Adams brothers’ childhood. The most recognizable ancestor is the game genre now called roguelikes, after Rogue [Michael Toy and Glenn Wichman 1980], its progenitor. (Earlier games like dnd might now be called roguelikes, but Rogue would spread the furthest and become the most influential.) That game in turn had been inspired by Super Star Trek and its clones: games where you’d guide an avatar through a map of linked areas, drawn as a top-down grid with letters and filled with enemies rendered, like your own avatar, with a single ASCII character. Rogue had twenty-six monsters, one for each letter of the alphabet; a capital M meant you were facing a Medusa.
+
+Rogue would inspire dozens of successors, including Hack [Jay Fenlason 1982; Andries Brouwer 1984], an extended clone with innovations including a “bones file” that kept a record of each prior hero who had died in its world—these could be brought back as uniquely personal undead villains on future runs. The Adamses played Hack religiously, thrilling in the way each game was different and how unexpected surprises could catch even a seasoned player off guard. Other inspirations were the detailed damage system in the tabletop roleplaying game Cyberpunk [R. Talsorian Games 1988], which replaced generic hit points with specific damage to individual body parts, and the procedurally generated life-forms in the space adventure Starflight [Electronic Arts 1986]. Teaching themselves to code by looking at the BASIC source of BBS games, the brothers were making their own games by age twelve, first copying and then improving on a play style that reveled in unexpected outcomes and unpredictable consequences. Their goal was always games that were as procedural as possible—games you could play forever.
+
+The game that would become their magnum opus is a glorious celebration of the possibilities and complexities of emergent behavior, taken to a level few—if any—other games have achieved. Earlier games had tried: Veronika Megler’s The Hobbit, among others, had similar ambitions to create a narrative game where no two playthroughs were the same. But while earlier games had often been constrained by the storage and memory limitations of early computers, by 2006 few practical limits remained for a game built mostly of text. Tarn and Zach’s project could grow as complex as they wished. The heights to which that complexity has now reached are evidenced by two famous bugs: one involved too low a melting point for the fat layer of dwarven skin, and the other saw cats getting disproportionately drunk from licking their paws after walking over tavern floors sticky with spilled beer. By 2021, the Adams brothers’ game would contain nearly three-quarters of a million lines of code, perhaps fifteen thousand pages of printed text. 
+
+While Dwarf Fortress is in part a roguelike—drawing a top-down picture of a threatening world using letters and symbols as tiles—it’s also fair to discuss it as a text game, since it leans heavily on words and sentences to tell its stories. At the most foundational level, everything in the world is named: dwarves, elves, fortresses, fell beasts, books, artifacts, lands, and even the world itself are all given custom names, often in fictional languages complete with English translations. The game’s name generation starts with a series of linguistic config files. A set of vocab lists define more than a thousand words in each of four fantasy languages: 
+
+	[TRANSLATION:DWARF]
+		[T_WORD:ANGER:ustos]
+	[TRANSLATION:ELF]
+		[T_WORD:ANGER:fomire]
+	[TRANSLATION:HUMAN]
+		[T_WORD:ANGER:othag]
+	[TRANSLATION:GOBLIN]
+		[T_WORD:ANGER:ok]
+
+Each word root is also extensively annotated with tags that help the system know how to deploy it sensibly:
+
+	[WORD:ANGER]
+		[NOUN:anger:angers]
+			[FRONT_COMPOUND_NOUN_SING]
+			[REAR_COMPOUND_NOUN_SING]
+			[THE_COMPOUND_NOUN_SING]
+			[THE_NOUN_SING]
+			[OF_NOUN_SING]
+			[REAR_COMPOUND_NOUN_PLUR]
+		[ADJ:angry]
+			[ADJ_DIST:2]
+			[FRONT_COMPOUND_ADJ]
+			[THE_COMPOUND_ADJ]
+
+Base words can be placed in conceptual categories:
+
+	[SYMBOL:VIOLENT]
+		[S_WORD:ANGER]
+		[S_WORD:ARROW]
+		[S_WORD:AXE]
+		[S_WORD:BARB]
+		[S_WORD:BATTLE]
+		[S_WORD:BEAST]
+		[S_WORD:BLADE]
+		[S_WORD:BLAZE]
+		[...]
+
+And this in turn lets name generators define appropriate compounds. A goblin villain might receive a name like Gotozud (“Necroruthless”), from a language-agnostic rule to join a DEATH word with a VIOLENT one. The results are names with a discernible logic behind them, even if it’s not quite the logic that namers in our own world might use: dwarves whose names mean Fencelabor or Jadefires; a kingdom called the Wilted Confederation; a monster den called Grievedpit the Umbra of Blisters. Zasit Bomreksezuk’s last name meant “whip slap,” and though assigned at random, it proved appropriate for a settler who’d come to the fortress from a background in military service.
+
+Generated names are found throughout the intricate histories created for each world before play begins and which players can later peruse at will. One week at a time, the game simulates centuries of history, with civilizations that rise and fall, build roads, found settlements, and make decisions about warfare and trade based on the personalities of their leaders. Exports of a single world’s backstory can exceed a gigabyte of text. Calling each generated history “a book of sand” that “no human could ever exhaust,”8 game scholars Stephanie Boluk and Patrick LeMieux compare these dry recountings of epochal events to ancient human forms of history like the annal or the chronicle:
+
+	In a time before time, the armadillo brute Ulash Putridcurse the Fated thrust a spire of slade up from the underworld, naming it The Citadel of Bones, and established a gateway between worlds in Passagedevils.
+	 
+	In the early summer of 72, The Grand Empire attacked The Scarlet Black Monsters in The Steppe of Smiling. The human Istra Faintedbunches led the attack, and the defenders were led by the goblin Amxu Dreadyell. The Disemboweler of Torches were hired by the attackers.
+
+	In 223, the dwarf Åblel Mansionflag of The Ivory Society persecuted The Fierce Faith in Fleshytrick. Dozens of people were expelled and some sacred sites were desecrated.
+
+These histories feed into the simulated present in subtle but meaningful ways, much as Tolkien’s unpublished legendarium added context and consistency to The Lord of the Rings. Dwarves might be descended from legendary heroes, or make art depicting historical figures and events. Nearby enemies might have moved to their present lairs after long-ago battles or famines drove them from old homes. My ill-fated stonecrafter Zasit had been a widow: her husband had been slain before my game began by a creature called Dungda, who could be cross-referenced in the game’s interface to its generated history, Legends Mode:
+
+	Dungda was a fist of Ducim. […] A large eyeless humanoid. It has three short horns. Its black skin is leathery. This night creature was first created by the dwarven necromancer Ducim Gemwander of Lulleddaggers after horrible experiments on the human Ushcen Fisherhale in Riverlulled in the year 137. Dungda was associated with the night and deformity.
+	In 154, Dungda settled in The Rhythmic Hill.
+	In the early autumn of 155, Dungda settled in Netbanded.
+	In 156, Dungda became a poet in Netbanded.
+
+After trying and failing to get apprenticed to a more famous poet, the blind abomination spent the next hundred years doing nothing but writing books of verse, with titles like The Birth of Introspection and Princesses: Suddenly the Sands Laugh There. Finally conscripted into a war—reluctantly, one can’t help but imagine—Dungda slew many dwarves including Zasit’s husband. The creature’s maker could also be cross-referenced in the history, and had a story of her own:
+
+	Ducim Gemwander was a dwarf necromancer. She was one of the first of her kind.
+	In 68, Ducim became the champion of The Eternal Ship.
+	In 69, Shorast Heatedspears and Ducim became lovers.
+	In 70, Shorast Heatedspears and Ducim broke up.
+	In the midsummer of 70, Ducim became obsessed with her own mortality and sought to extend her life by any means being too vain to give in to death.
+
+The jilted lover then spent the next seventy years performing terrible experiments on mortals, creating an army of undead slaves, the “fists of Ducim.” One of them, decades later, would kill her ex-lover—since become a renowned soldier—on the field of battle.
+
+Thousands of these stories lie buried in each history generated by Dwarf Fortress, stock templates and random events interacting in often surprising ways. The human compulsion to read between the lines helps bring these chronicles to life, supplying motivation and character that may or may not have actually been present in the simulation. Ducim Gemwander’s career in necromancy might have been unrelated to her doomed romance; perhaps it was mere accident, not deliberate irony, that one of her hideous creations took up a career in the arts. The historical events provide bones of narrative, which each player’s inner storyteller can’t help but bring to life.
+
+Dwarven biographies, like Zasit’s quoted at the start of this chapter, are another form of generated text unique to each game, and the principal way to learn about your fortress builders during play. In more recent updates, these bios can stretch to multiple screens of dense text containing copious details about a dwarf’s history, personality, current moods, memories, skills, and weaknesses. While the level of depth can feel overwhelming, the Adams brothers have carefully refined the bios over time to help players tell their own emergent stories about fortress residents. They eventually realized that “the descriptions most likely to be incorporated into player stories are reflected mechanically.”5 Mentioning a dwarf’s likes and dislikes provides a concrete way for a player to understand why a dwarf is unhappy or take action to cheer them up; by contrast, an attempt to add mannerism descriptions like “She taps her foot when she is nervous” was deemed a failure, because players couldn’t connect these tics to anything actionable in the simulation. Ideally, each sentence in a dwarf bio is both a window and a lever, a means both of understanding and change.
+
+The complexity of dwarves and their life stories grows as the game continues to deepen. In 2018, dwarves gained an elaborate system of memory formation:
+
+	The strongest events in several categories, such as “work” or “family,” are selected and stored into a first layer of memories each season. Any existing weaker memories here are overwritten (that is, forgotten). Dwarves, at random, can remember any memory in the top layer, and re-experience the emotion they felt when it happened, often with less severity. This adds or subtracts stress from the dwarf in the standard way.… After more time passes, any top layer memory that has survived the overwriting process passes to a deeper layer of permanent memory. This process always causes personality changes in the dwarf, related loosely to the circumstance and which emotion it produced.5
+
+Memories and the ability to relive them can lead to dwarves with post-traumatic shock constantly reliving a violent attack or brooding over the death of a loved one, or to dwarves whose strong connections to family—or even just the memory of a good party—help them struggle through hard times. They open another door of understanding into the characters the player spends time with, another foundation on which stories can be built.
+
+The game also generates another kind of text: descriptions of objects built by dwarves. Fortress inhabitants can create furniture, artworks, or engravings inspired by events they remember, people in their lives, or histories they know. An unskilled artist might craft a simple item with a one-line descriptor, like this bust of Zedotkol’s expedition leader:
+
+	a finely-crafted claystone statue of ‘Boss’ Cityfaces
+
+But as skills rise, constructions can become far more elaborate, incorporating both ancient legends and significant recent events into their designs. A dwarf named Edëm Towerpaint, inspired by the mysterious loss of a favorite item, snuck a beautiful if somewhat self-indulgent memorial into one of his crafting projects:
+
+	This is a gold sarcophagus. All craftsdwarfship is of the highest quality. It is encrusted with rose cut citrines, decorated with willow and encircled with bands of octagon cut citrines and cushion diorite cabochons. This object menaces with spikes of diorite.
+
+	On the item is an image of Stukos Mazewound the dwarf and dwarves in alpaca wool. Stukos Mazewound is surrounded by the dwarves. The artwork relates to the ascension of the dwarf Stukos Mazewound to the position of baroness of The Glad Lash in 194.
+
+	On the item is an image of Edëm Towerpaint the dwarf in hazel wood. Edëm Towerpaint is weeping. The artwork relates to the destruction of the superior pig tail cloak created by the dwarf Edëm Towerpaint for The Tomb of Squeezing at Zedotkol in the early spring of 290 by an unknown creature.
+
+The simplest texts the game generates are its one-line announcements of noteworthy events, some of its least procedural prose. But the announcement texts are important for more than their utilitarian value. They are a real-time, microscale counterpart to the historical chronicles, imparting a sense that your dwarves are etching their own additions into the world’s vast history:
+
+	You have struck blue jade!
+	You have struck cassiterite!
+	It has started raining.
+	You have struck tetrahedrite!
+	Iden Ducimavuz has become a Miner.
+	Mistêm Fikodlun has become a Carpenter.
+	The weather has cleared.
+	It is now summer.
+	Aban Unnosbim has become a Herbalist.
+	Some migrants have arrived.
+	Edëm Towerpaint has created a masterpiece ¤claystone ring¤!
+	There is nothing to catch in the central swamps.
+	Zasit Bomreksezuk, Peasant cancels Forge iron war hammer: Needs 1 iron bars.
+	Construct Bed (6) has been completed.
+	The outpost liaison Sibrek Akrultilesh from Enamstukos has arrived.
+	A caravan from Enamstukos has arrived.
+	You have struck yellow zircon!
+	A gray langur has stolen a +almond wood cup+!
+	A gray langur has stolen a *pig tail cloak*!
+
+Each of these kinds of text—names, histories, descriptions, announcements—contribute to the experience of playing the Adams brothers’ game. But they aren’t the only texts that do so. “Dwarf Fortress begins and ends with stories,” Boluk and LeMieux have noted,8 referring to the way written stories both inspire the game’s mechanics and act as its primary output. First, the game’s design is deeply informed by a practice its creators have carried out since before its first release: writing short stories set in its world, then analyzing them to see what kinds of narrative situations the game’s simulation cannot yet handle. More than forty such stories have been posted to the creators’ website along with the follow-up analyses. One of the earliest, “Cold Fire,” begins in winter:
+
+	An icy wind blew through the row of snow-covered log cabins, rattling the door of the huge wooden mead hall in the center of town. Inside a fire burned, sending black smoke through a hole in the ceiling. Two large tables lined either side of the fire pit. Seated at the tables were dozens of drunken warriors. In one of the beds that lined the wall slept Urgoth. Mead affected him more that most south men, and after dancing across the table he fell into unconsciousness. His fellow warriors carried him to his bed, but not before shaving the left side of his head as a malicious prank. Suddenly the doors were blazed from their hinges. A gust of wind blew snow into the hall …7
+
+In the analysis, dozens of bullet points list out features that could be added to the game to help it generate new stories with the elements in “Cold Fire,” such as:
+
+	altruism: can help drunks to bed and so on
+	antics: messing with drunk people, culture/environment depending
+	mead hall: another place to get drunk, but has some beds as well as tables
+	temperature: need to heat places indoors, can use fire pits, if fire produces smoke, need a reliable way for it to leave the building
+	wind: wood doors can be rattled by wind, windchill
+	narcotics: different tolerances for different people, but the median can be set by race, civ and town7
+
+Over the nearly twenty years since the game’s genesis, thousands of ideas like these have been collected: carefully sorted on index cards, grouped, prioritized, merged, rethought, or discarded. The process helps ensure the game’s simulation keeps deepening not for its own sake, but to help it tell stories more like its human creators do.
+
+On the other end of the pipeline, the stories generated by players of Dwarf Fortress have become some of its most famous outputs: retellings of in-game episodes of terrible dooms, unlikely victories, and bizarre coincidences. One of the first such tales widely shared was the epic saga of Boatmurdered,15 a fortress played via a save file swapped between fans on the Something Awful forums: each new owner had one in-game year to manage the titular fortress and report back on their progress. In the end, forty managers had each added a chapter to an increasingly improbable tale involving murderous elephants, a volcano-powered doomsday machine, and the time a single monarch butterfly flew into the open outer door of the fortress and jammed its lock just before an enemy attack.
+
+As more players discovered the game, first dozens then hundreds of fan chronicles sprung up. The retellings became a way to let those without the patience or inclination to play themselves still experience some of the game’s surreal complexity. One story involved a vampire who was terrorizing a fortress until he tripped over a cat, fell into a river, and drowned.25 Another featured dwarves who, for some reason, were obsessed with buckets: “Roughly 90% of the engravings were of buckets, buckets surrounded by dwarves, and buckets surrounded by screaming dwarves. I stopped making engravings after a while.”20 The game’s bug reports and changelogs would become their own brand of miniature stories, fascinating both for revealing the tremendous depth of the game’s simulation, and because readers couldn’t help but imagine stories that might justify them:
+
+	* Stopped mercenaries from being hired to attack their own forts
+	* Fixed crash involving stressed out wilderness creatures wanting to complain to priests
+	* Stopped carried newborns from setting their mothers’ paths like riders
+	* High-flying severed body parts can leave spatters in midair
+	* Imprisoned vampire elected Mayor
+	* Stopped looping dwarves from constantly trying out gloves and boots when they should just pick one and go
+	* Ghost of vampires still drink blood
+	* Seems impossible to satisfy a need for “introspection”
+
+Sharing Dwarf Fortress stories—with screenshots, fan art, and streams, but often with nothing but words—would become a huge part of the game’s legacy and culture. It’s “played alone,” one critic wrote, but its “brutality, complexity, and unpredictability give its players a need for community—an urge to bear witness, to commiserate.”24
+
+As of this writing, Dwarf Fortress has fifteen years of reputation preceding it. By 2010 it had been downloaded a million times; within months of its release, though available for free, it was attracting enough voluntary donations to support the Adams brothers full time, if not always with complete stability. Its blocky-tiled retro aesthetic, emergent complexity, and encouragement of creative builds directly inspired Minecraft [Mojang 2011], the bestselling video game of all time, and its core mechanic of defensive fortifications built from nearby materials would be adopted by many other massively successful games like Fortnite [Epic Games 2017]. More direct descendants include a genre sometimes called “dwarflikes” that includes games like RimWorld [Ludeon Studios 2013] and Prison Architect [Introversion Software 2015]. When it was announced in 2019 that a commercial version with an upgraded interface would be coming to Steam, Dwarf Fortress immediately skyrocketed onto the service’s top ten most wishlisted games, leapfrogging titles made by teams of hundreds. Wired called it “obtuse [and] wildly ambitious,”19 the New York Times a “defiant throwback.”23 It was exhibited alongside other influential games at New York’s Museum of Modern Art, though the curators decided not to confuse visitors by letting them actually try to play it. As a lifelong masterwork programmed mostly by a single creator, it’s been compared to the Sistine Chapel; it’s also been called a folk game, a labor of love unconcerned with commercial expectations or constraints. Many casual fans don’t know the evocative guitar noodling that makes up the original version’s soundtrack was written and performed by Tarn Adams.
+
+“Dwarf Fortress is an alpha because it isn’t yet many of the things it will be,” Tarn said back in 2007.6 In 2021, he still saw it as far from complete. Coming up after the Steam release is the largest DF restructuring and addition ever, I’m pretty sure, 
+
+	allowing us to generate creation myths and have entire procedural magic systems.… That’ll be great. Then there’s the property/law/customs/etc. release. After that, the order isn’t set, but it’ll involve the economy, boats, and other major missing components. There’s a lot left to do!4
+
+“We aren’t even halfway to 1.0 yet,” Tarn concludes. “And 1.0 isn’t really completing the game … we just might not have a lot of time left by the time we get there.” In the meantime, Dwarf Fortress keeps evolving, with each new update expanding the space of possible tales its rules can tell, tiny simulations of people endlessly reliving the stories imbued in them by their creators.
+
+	Overall, she is unfocused by unmet needs. She is not distracted after being away from people. She is untroubled after staying occupied. She is unfocused after being unable to take it easy. […]
+
+	A short, sturdy creature fond of drink and industry.
+
+
+References
+
+1) Adams, Tarn. 2008. “Interview: The Making Of Dwarf Fortress.” Interview by John Harris. Gamasutra (blog), Feb 27, 2008. www.gamasutra.com/view/feature/131954/interview_the_making_of_dwarf_.php | a Aug 15, 2021
+2) Adams, Tarn. 2015. “Simulation Principles from Dwarf Fortress.” In Game AI Pro 2, ed. Steve Rabin. O’Reilly.
+3) Adams, Tarn. 2016. “Dwarf Fortress’ Creator On How He’s 42% Towards Simulating Existence.” Interview by Wes Fenlon. PC Games (blog), Mar 31, 2016. www.pcgamer.com/dwarf-fortress-creator-on-how-hes-42-towards-simulating-existence | a Aug 15, 2021
+4) Adams, Tarn. 2019. “Q&A: Dissecting the development of Dwarf Fortress with creator Tarn Adams.” Interview by John Harris. Gamasutra (blog), Jun 3, 2019. www.gamasutra.com/view/news/343859/QA_Dissecting_the_development_of_Dwarf_Fortress_with_creator_Tarn_Adams.php | a Aug 15, 2021
+5) Adams, Tarn. 2021. “Characterization and Emergent Narrative in Dwarf Fortress.” In Narrative Mechanics: Strategies and Meanings in Games and Real Life, ed. Beat Suter, René Bauer, and Mela Kocher. transcript-Verlag.
+6) Adams, Tarn, and Bill Harris. 2007. “The Dwarf Fortress Interview.” Dubious Quality (blog), Jan 3, 2007. dubiousquality.blogspot.com/2007/01/dwarf-fortress-interview.html | a Aug 15, 2021
+7) Adams, Zach. 2006. “Cold Fire.” Dwarf Fortress (Bay 12 Games). May 25, 2006. www.bay12games.com/dwarves/story/tt_cold_fire.html | a Aug 15, 2021
+8) Boluk, Stephanie, and Patrick LeMieux. 2013. “Dwarven Epitaphs: Procedural Histories in Dwarf Fortress.” In Comparative Textual Media: Transforming the Humanities in the Postprint Era, ed N. Katherine Hayles and Jessica Pressman. University of Minnesota Press.
+9) Costikyan, Greg. 2007. “Dwarf Fortress” (review). Play This Thing (blog). Dec 2, 2007. www.playthisthing.com/dwarf-fortress | a Aug 15, 2021
+10) Diaz, Joshua Lindsay. 2009. “Dwarf Fortress Gathers at the Statue and Attends a Party.” PhD Thesis, MIT, Department of Comparative Media Studies.
+11) Donovan, Ryan. 2021. “700,000 Lines of Code, 20 Years, and One Developer: How Dwarf Fortress Is Built.” Stack Overflow Blog. Jul 28, 2021. stackoverflow.blog/2021/07/28/700000-lines-of-code-20-years-and-one-developer-how-dwarf-fortress-is-built | a Aug 15, 2021
+12) Hall, Charlie. 2014. “Dwarf Fortress Will Crush Your CPU Because Creating History Is Hard.” Polygon (blog). Jul 23, 2014. www.polygon.com/2014/7/23/5926447/dwarf-fortress-will-crush-your-cpu-because-creating-history-is-hard | a Aug 15, 2021
+13) Harris, Bill. 2006. “Dwarf Fortress.” Dubious Quality (blog). Sep 7, 2006. dubiousquality.blogspot.com/2006/09/dwarf-fortress.html | a Aug 15, 2021
+14) “Jay Fenlason’s Hack.” n.d. NetHack Wiki. nethackwiki.com/wiki/Jay_Fenlason%27s_Hack | a Aug 15, 2021
+15) Let’s Play Archive. 2006. “Dwarf Fortress - Boatmurdered.” Nov 10, 2006. lparchive.org/Dwarf-Fortress-Boatmurdered | a Aug 15, 2021
+16) Kruggsmash. 2019a. “Dwarf Fortress Short Forts: Skullhorror #4, Stress Test.” Youtube video. Nov 14, 2019. www.youtube.com/watch?v=xyEvrYhmJXc | a Aug 15, 2021
+17) Kruggsmash. 2019b. “Dwarf Fortress Short Forts: Skullhorror #6, Into Legend.” Youtube video. Nov 28, 2019. www.youtube.com/watch?v=PPjXSD12Gbo | a Aug 15, 2021
+18) Livingston, Christopher. 2016. “The Most Ridiculous Patch Notes from 10 Years of Dwarf Fortress.” PC Gamer (blog). Aug 8, 2016. www.pcgamer.com/the-most-ridiculous-patch-notes-from-10-years-of-dwarf-fortress | a Aug 15, 2021
+19) Mastrapa, Gus. 2010. “Elaborate, Sprawling Freeware Dwarf Fortress Updated.” Wired, Apr 1, 2010. www.wired.com/2010/04/dwarf-fortress | a Aug 15, 2021
+20) taran. 2010. “Buckets.” Dwarf Fortress Stories (blog). Jul 19, 2010. dfstories.com/buckets | a Aug 15, 2021
+21) Tyson, Peter. 2012. Getting Started with Dwarf Fortress: Learn to Play the Most Complex Video Game Ever Made. O’Reilly.
+22) Urquhart, Evan. 2019. “The Dwarves Who Built the Road to Fortnite.” Slate (blog). Jun 6, 2019. slate.com/technology/2019/06/dwarf-fortress-fortnite-minecraft-strange-play-it.html | a Aug 15, 2021
+23) Weiner, Jonah. 2011. “Where Do Dwarf-Eating Carp Come From?” New York Times, Jul 21, 2011, sec. Magazine. www.nytimes.com/2011/07/24/magazine/the-brilliance-of-dwarf-fortress.html | a Aug 15, 2021
+24) Winslow-Yost, Gabriel. 2013. “SimCity’s Evil Twin.” New Yorker (blog). Apr 11, 2013. www.newyorker.com/culture/culture-desk/simcitys-evil-twin | a Aug 15, 2021
+25) zellthemedic. 2013. “Hilarious Dorf Stories.” Reddit Post, r/dwarffortress, Oct 20, 2013. www.reddit.com/r/dwarffortress/comments/1otfiv/hilarious_dorf_stories | a Aug 15, 2021

@@ -1,0 +1,199 @@
+MUD
+
+1980
+
+Roy Trubshaw and Richard Bartle
+Also Known As: MUD1, Essex MUD, British Legends
+Style: MUD
+Debuted: Apr 1980 (ARPANET)
+Launch Platform: PDP-10
+Language: MACRO-10 (version 1 & 2), BCPL/MUDDL (version 3)
+
+Opening Text:
+
+	Narrow road between lands.
+	
+	You are stood on a narrow road between The Land and whence you came. To the north and south are the small foothills of a pair of majestic mountains, with a large wall running round. To the west the road continues… 
+
+“Imagine you are playing an adventure,” asks an article in a popular computing magazine, credited to someone called Endora the Witch:
+
+	Let’s say you’re in a room of a house, you have found some treasure, and are now a bit stumped as to how to get it past the bookcase, which you can’t shift but which you’re certain conceals a secret passage. You have tried all sorts of commands to no avail, and are about to give up when up on your screen comes the message: “Tom has just arrived.”19
+
+Tom is “not part of the program, but a real, live person,” Endora explains, “sitting possibly hundreds of miles away and exploring the same land as you are.” This is a mind-blowing concept not easy, at the time, to explain. “CB radio in fantasyland,” tries Endora’s editor in the article’s subheading; another journalist wrote that the game was built atop “quite a sophisticated teleconferencing system.”10 This adventure with real live people in it had been getting more and more coverage in the gaming press and at enthusiast meetups. It sounded incredible. Everyone wanted to try it. For a long time, almost nobody could.
+
+The game was called MUD, which stood for Multi-User Dungeon—the last word used not in a generic sense, but as the alternate title for Zork. During the few months the MIT game had gone by the name Dungeon, a popular port had spread far and wide, and one of the places it reached was Essex University in the United Kingdom. Essex was among the first schools to connect to the EPSS (Experimental Packet Switched Service), Britain’s answer to ARPANET, and in 1978 was one of the few places in Europe that allowed undergraduates to freely access the burgeoning worldwide network of mainframe computers. Some of the bytes that wended their way beneath the Atlantic to Essex described the underground empires of Dungeon and Adventure to a fascinated undergraduate named Roy Trubshaw who, like many others on sundry continents, had become enthralled.
+
+Trubshaw and some other Essex hackers had recently discovered a neat trick on the school’s PDP-10 mainframe. A time-sharing system like the PDP divides its memory and resources between connected users, isolating them from each other to give each the illusion of their own private machine. Although admins could use “interprocess communications” to share data between users, lowly students didn’t have the privileges to do so—but one of Trubshaw’s friends had discovered a back door. Each running program had both a shared “code segment” in memory, where all its instructions lived, and a separate “data segment” for each user. It turned out that an obscure and mislabeled monitor call, .SETUWP, actually let an unprivileged user unset the write-protection bit for a program’s code segment. The friends immediately saw the rich possibilities of this exploit: if some of that memory space could hold not code but shared data, and the running program was simulating a world like in those immersive text games from America, everyone connected could see the results of any other user’s changes. The trick enabled the possibility of an unsanctioned but gloriously multi-user Dungeon. 
+
+Trubshaw started building a proof of concept, sketching in the core features it would need: rooms, objects, and a parser, like its predecessors, but also notifications for events (such as another player arriving in or leaving your location), mechanisms to ensure your game couldn’t get out of sync with someone else’s, and commands that players could use to communicate with each other. Trubshaw, like many future worldbuilders, began with a digital recreation of his childhood home.
+
+By December 1978 he’d finished a basic version of his multiplayer engine, and to build more content he enlisted the help of Richard Bartle, a bright-eyed underclassman enchanted by the game’s potential. As Bartle later remembered, “Roy was mainly interested in the programming side of things, rather than the design of rooms, puzzles and so on.”3 Already planning to build his own virtual world, Bartle was happy to build on Trubshaw’s head start and expand his game into a fully realized environment. The two continued improving and extending the game through 1979. Eventually the engine began to strain against the limitations of MACRO-10, the PDP-specific assembly language it had been written in, and at the end of the year Trubshaw decided to start over in the new and more powerful BCPL, the language that would evolve into C.
+
+But Trubshaw, at some point, was also meant to be graduating. By the end of the 1980 spring term he’d handed over the MUD code to Bartle, who would continue improving it in one form or another for nearly a decade. As he first took the reins of the project, Bartle’s immediate concern was how to turn the prototype engine and unfinished map into something more stable, a solid game but also a place—a persistent universe you could visit and return to, made from words and sentences.
+
+At its core, MUD was not unlike its single-player predecessors. Players explored a map of rooms filled with mazes, monsters, and puzzles, collecting treasures that could be returned to a central location to score points. Bartle broke from most earlier games by setting the majority of his world aboveground, in a realm called the Land filled with magical glades, soft pine forests, misty graveyards, and ancient ruins. But while geography was relatively easy, recreating the puzzles of single-player games proved far more challenging. At first Bartle tried making puzzles that required multiple people to solve, like the bookcase too heavy for one person to move. Another was an area that could only be accessed by enlisting multiple players to meditate, which boosted your spiritual power enough to reach it:
+
+	*southeast
+	Shrine.
+	You are inside a small yet sacrosanct shrine. A sense of deep respectful-ness fills this modest room. The way out, into a pine forest, is to the northwest. It is obvious that the shrine was meant to be used for quiet meditation, like similar chambers.
+
+	*shout Does anyone want to meditate with me?
+
+	*quickwho
+	Pathos the champion
+	Blatch the enchantress
+	Maria the sorceress
+	Blink
+	Mugs the necromancer
+	Aphrodite the heroine
+	Jethro
+	Gobble the legend
+
+	*
+	A male voice in the distance shouts “Gobble does”
+
+	*
+	Aphrodite the heroine tells you “I will”
+	*
+	A female voice in the distance shouts “yep i do blink.”
+
+	*sh Ok, Im in the shrine. The rest of you get ready!
+	*
+	A male voice in the distance shouts “Gobble in cave”
+
+	*
+	Aphrodite the heroine tells you “ready?”
+
+	*sh Ok, lets try now!!!
+
+	*meditate
+	You feal a great tranquility filling your being, and when you cease your meditation, you are in a strange place…
+	Outer sanctum.
+	A golem of solid iron stands here as guardian of the inner sanctum.
+
+	*sh It worked!
+	*sh Ummm.. is this golem pretty tough?
+
+	A male voice in the distance shouts “Idiot. Yes, pretty tough. you got a weapon I hope???”
+
+But MUD’s creators soon realized that multiple players pose a fundamental problem for a Dungeon-like experience. Object-based puzzles don’t work at all: if you need the lamp to go underground, the first person to grab it prevents anyone else from following. And once all puzzles have been solved and treasures claimed, what would be left for new arrivals to do?
+
+Trubshaw and Bartle’s first thought was a world that frequently reset itself, moving items back to their original locations and randomizing some positions and room connections. Treasures, when collected, would be dropped in a swamp, removing them from the world until its next reset so only one player could score those points each time around. But this approach also proved unsatisfactory. Experienced players would simply rush out to sweep up all the treasures immediately after a reset, leaving novices confused and clueless about what to do. 
+
+Bartle came to realize that a dungeon and a multi-user dungeon were fundamentally different. “The puzzle-based, narratively constrained format of adventure games couldn’t work in the setting of a multi-player game,” he later wrote. “The world had to assume dominance, not the problem-solving.”9 Zork was about puzzles, but “MUD was about freedom,”5 the joy of coexisting with other people in a simulated, dynamic, living world. He began adding more elements that made the game world feel alive (like random rainfall that prevented some actions but enabled others), or creatures that roamed around exhibiting behaviors he called “instincts” (like a cat that attacked mice on sight). Some creatures had an instinct to attack players, and killing these creatures became another way to score points. Bartle named the creatures “mobiles,” needing a single-word variable name for something that was neither a player nor a static part of the environment. The term is the origin of “mob,” the term still used for enemies in online games today.
+
+Combat, either with mobiles or with other players, became the key way of acquiring points and power in MUD. Because typing and connection speeds could vary, fights played out mostly on automatic, the odds for each hit or miss dependent on the relative stats of each character. Of course, reaction time still mattered: a losing player might choose to retreat with the command FLEE OUT (which could be abbreviated F O when even more urgency was needed).
+
+	*kill skeleton
+
+	The viciousness of a whack by the skeleton sends you sideways.
+	Dazedly you pull through, and press forward into the contest.
+	Your mis-timed return blow at the skeleton is effortlessly shrugged off.
+	You easily evade a poor swing from the skeleton.
+	You bash the skeleton with a punishing forehand!
+	You comfortably shrug off a feeble thump by the skeleton.
+	You wallop the skeleton with a crushing whack!
+	Your last swing took the life of the skeleton!
+	You are victorious - this time…
+
+Combat messages made heavy use of templated text. “You wallop the skeleton with a crushing whack!” came from the base: 
+
+	"You :r :p with a :r :r!"
+
+The first word might become “wallop,” but could also be “thrash,” “take aim at,” “smite,” “bash,” or any of a dozen other possibilities. In this way each of these messages could be rendered thousands of different ways to prevent dull repetition, an early example of procedural text in games. 
+
+But MUD’s true dynamism came from other people, endlessly fascinating even in text-only form. Bartle soon began focusing his energies on game mechanics that maximized the pleasure of peer-to-peer play. He added powerful mobiles, like the dragon, that could only be defeated by a large team of high-ranked players, giving rise to some of online gaming’s first raids. Commands were added that had no effect besides nonverbal communication, like LAUGH—the earliest emotes. A WRITE command let players leave messages in certain parts of the world, such as a Captain’s logbook:
+
+	Captain’s cabin.
+	An inky quill-pen has been left here.
+	The log of Captain Oliver is here. In it is transcribed the following:
+	“Hack and Slay, Hack and Slay, Hack and Slay!”
+	“Shadow’s still lengthening, in a 2060 stylee!”
+	“Gail was here all alone and without Richard (sob)…”
+	“Anana was here with the 5 zombies and 1 skeleton!”
+	“Was he? So that makes 6 zombies and a skeleton all together?”
+	“Duncan the wizard played from California… All by himself!!!”
+
+Just as MUD’s multiplayer foundations were growing stronger, Essex began allowing outside users to dial in to its mainframe via modem. While MUD’s original players had all been local, folks from around the country (and, indeed, the world) could now log in. The game grew so popular that the university’s meager allotment of phone lines became swamped, and Bartle was forced to restrict MUD access to the bleary-eyed hours between two and seven in the morning, when all but the most dedicated legitimate users would be asleep. This proved no deterrent whatsoever. “It was usual for players to grab a line at about midnight,” one admin later recalled, “and sit there typing HELP every 5 minutes until 2 a.m. so they didn’t get disconnected.”13 At first there were only sixteen outside lines available, four of them restricted to a painfully slow 300 baud (at which rate a single line of text could take several seconds to download). MUD’s descriptions were supposedly only a few lines long because “any more and you’d get killed while reading them.”11 More phone lines would be added, but the game’s architecture could only support a maximum of thirty-six simultaneous players, a hard limit related to the PDP-10’s 36-bit word size.
+
+The game’s small but hardcore player base, staying up all night to play and yawning through classes or day jobs, began to define a culture for their new online world. Like many first stabs at culture, it was largely based around bloodshed and power. Killing another player netted you a fraction of their points, which in turn influenced your stats and rank, so the fastest way to advance became a well-timed slaughter. While Adventure and Zork had offered named ranks to players based on points, these were purely decorative. In MUD, ranks became a visible pecking order, with a Champion likely to kick the ass of a Warrior but prone to slaughter, in turn, by a Warlock. 
+
+Playing the game could be brutal. “It allows you to behave in a way which would be totally unacceptable in real life,” one guide wrote. “MUD is a very violent game, and pacifists never live long.”11 In a passage that could just as easily describe a postapocalyptic dystopia, it added that “a gang of players is quite difficult to overcome, and players often find it beneficial to form one of their own.” One player recalled their typical newbie experience:
+
+	I worked out how to login (not easy), I worked out how to load the game and … I got killed. I tried again, I got killed again and eventually, when people were bored of killing me, I tried to talk to a wizard about how the game worked and was told to bugger off and then killed again.… This was most people’s initial experience.13
+
+Wizard, or wiz, was the highest rank, and it came with a special form of ultimate power. Trubshaw had built debugging verbs into the game that allowed actions like manipulating objects no matter what room they were in, printing the location of any item or player, or viewing the output of any user’s terminal. Bartle had the ingenious idea that these verbs could be made available to high-ranking players if they were rebranded as magic spells. Suddenly there was a tremendously appealing reward for working your way up through the brutal ranks and achieving the maximum level possible: power over the virtual world that mere mortals lacked. While wiz spells were touted as a responsibility—given to experienced players to help enforce order and assist novitiates—surviving anecdotes make clear that they were often used for anything but.
+
+Wizzes, not to put too fine a point on it, were often right bastards. They could move monsters to any room they liked to sic them on unfortunate players, perhaps dropping a deep-sea shark on an unsuspecting hero wandering the forest. They could make objects come alive and attack, like one wiz who enjoyed turning the Land’s river into a mobile and granting it tremendous combat skills, setting it loose on hapless mortals. (“Oh no,” he’d reportedly shout, “it’s that Killer River again!”) One reviewer noted it was “not unknown for a wizard to remove the cliff from the beach … so that anyone entering the game falls to their death.”18 And if it amused some wizzes to kill players for no good reason, it amused them even more to torment them first. A secret storeroom accessible only to wizzes was stocked with items designed to frustrate players, including a replica of the game’s most valuable treasure—it looked exactly like the real thing, but would score no points when dropped in the swamp. Some wiz traditions were more kindly: the storehouse also held seasonal decorations including reindeer, snow, and a mobile Santa. But since the holidays (when students were on break from classes) were also a time to stage mass battle royales, the efficacy of these items for encouraging goodwill toward men was questionable. “Christmas in the Land of Mud is a time for thanksgiving,” Bartle once noted, “and mass slaughter.”2
+
+Despite the brutal milieu, a culture did take root on MUD. A dialect called mudspeke appeared, where t meant treasure, snif meant sadness, and countless in-jokes were enshrined in shorthand and slang. The game could be brutal, but real friendships grew between adventurers up way past their bedtimes. Soon some wizzes effectively became co-maintainers, working along with Bartle to police, debug, and revise the game.
+
+MUD had been built to be easy to extend. Trubshaw based its data format on the one in Adventure, which stored text and map details in external files. He and Bartle extended Will Crowther’s format so nearly anything about a world could be defined without touching the engine’s source code. They named the format MUDDL (MUD Definition Language), and Bartle boasted that it let you add a new room to the game in two minutes. (Confusingly, this MUDDL is entirely separate from the Muddle/MDL used to author Zork 1977.) In some versions of the engine you didn’t even need to recompile or restart the server after adding a room, because certain data was read directly from disk as needed, not stored in memory.
+
+A room was defined by adding two text blocks to the active MUDDL file, one to the *ROOMS section:
+
+	river1	light
+		River.
+		You are on the bank of a fast flowing river with
+		pasture to the north and forest to the south.
+
+And another to the *TRAVEL section, defining the exits:
+
+	river1	n	wfall	w
+		n	river2	e
+		n	clifff	nw
+		n	wpstre	n	ne	out
+		boat	spstre	s	se	sw
+		rain	spstre	s	se	sw
+		120		s	se	sw
+
+The code above, once deciphered, goes some way toward demonstrating the power of MUDDL syntax. The block defines exits for the room river1, with the next column holding a condition that might gate access to exits in the fourth column on. n in the second column means none and hence free movement: so going west from river1 leads to wfall. If an object or a class appears as a condition, it must have the right property or be carried by the player for the exit to be used (the stream to the south can only be crossed with a boat or when it’s not raining). A number means to print the indexed message rather than allow movement (message #120 is “The weather has swollen the river and you cannot cross!”). 
+
+Other parts of a MUDDL file could define nearly any particulars of a MUD-based game: *VOCABULARY, *COMBAT, *LEVELS, *OBJECTS, and even minutia like the *HOURS the game should be available to play. An admin could even define action behavior through a format that linked objects, functions, values, and messages. For instance, the following four lines succinctly define four special-case behaviors for disposing of objects:
+
+	action	drop	.insert	anything	flame	null	null	781	0
+			drop	torch	container	destroy	destroy	second	771	0
+			drop	something	stream	move	null	bwfall	835
+			drop	something	stream	ifweighs	null	2001	836
+
+Putting anything into something flame-like will destroy it; putting any torch into a container destroys both items; and dropping something into the stream carries it away to the room behind the waterfall, unless it weighs more than 2 kilograms (the entry 2001 refers to grams). MUDDL allowed extraordinary flexibility in extending and incrementally revising a simulated world, paving the way for thousands of future online games directly or indirectly built on its model. In time, these games would come to be called MUDs.
+
+But it would be a while before multiplayer text games caught fire. Infrastructure still lagged far behind demand—the difficulty of jockeying for a spot on one of Essex’s late-night phone lines meant that, for years, few of those who had heard about MUD could actually play it. As late as 1985, a grumpy games journalist was calling it “the game you’ve always wanted to play but have never been able to log on to.”17 The high cost of long-distance connections was also a big factor: “If British Telecom could only be persuaded to reduce its rates for data transmission,” another UK journalist wrote, “I believe that this type of game is going to prove far more popular than anyone now suspects.”16
+
+The devotion of MUD’s players had long since convinced Bartle of the commercial potential of multiplayer fantasy gaming. In the mid-80s he struck a deal with Compunet, an early British dial-up network provider, to add the game to their service. By 1987 it was also running on CompuServe in the United States under the name British Legends. A trickle of other MUDs had started to appear with titles like Shades [Neil Newell 1985], Gods [Ben Laurie 1985; commercial version 1988], and MirrorWorld [Pip Cordrey 1986]—in part because, despite his commercial ambitions, Bartle had been generous in sharing the game’s source code and encouraging others to expand on it:
+
+	We could have clamped some intellectual property on it, but the reason that Roy and I wrote MUD wasn’t to make money. It was because we wanted to make the real world a better place, and the way to do that isn’t by clamping down on intellectual property and stopping anybody else from making it. The way to do that is to give it away for free and to let other people do what they want with it. So that’s what we did.4
+
+In early 1989, an engine called AberMUD debuted. Written a year earlier by a group based at the University of Wales, Aberystwyth, and then ported to C for Unix-based systems, it caused an explosion of new MUDs and MUD engines. By the early 1990s there may have been something like a thousand active MUDs worldwide, with hundreds of thousands of players exploring virtual universes and building friendships (and rivalries). A branch of MUDs would turn away from their dungeon-crawl origins and become serious spaces for online socializing and creation; the main line would evolve into graphical MMORPGs (massively multiplayer online roleplaying games) by the late 90s. The designers of the first generation of these games, which included titles like Ultima Online [Origin Systems 1997] and EverQuest [Sony Online Entertainment 1999], often had years of experience running and playing their textual predecessors. 
+
+Bartle acknowledges that the contribution he and Trubshaw made was as much an accident of timing as innovation. He likes to tell a story about how many times the game of golf had been independently invented through history before a particular version from Scotland became the one familiar to all. But he also likes to suggest that perhaps MUD succeeded because it was built on something more than just technical innovation:
+
+	Okay. So it’s 1978, and you are a student at the University of Essex, and you’re studying computer science. You’re not supposed to be there. You’re not supposed to be at university: no one in your family’s ever been to university before.… [Roy and I,] we weren’t rich. My parents—my father was a gas fitter, you know. He spent all day installing cookers in people’s houses. My mother was a school meals cook.… I’ve got a Northern accent, [and] Roy comes from Wolverhampton, and he’s got a West Midlands accent.… It doesn’t matter, being really smart, if people—as soon as you show up, as soon as you open your mouth, they’ve pigeonholed you because you’re working class.
+
+	And we wanted a place where we could go where none of this mattered, where who you were was based on your strength of character, on who you were as a person, and it didn’t matter what sex, gender, class, whatever you were, you could just go there and be and become yourself. And we never really discussed it at the time, Roy and I. We just sort of—we implicitly understood that this is what we wanted to do. And so we did it. We made a world.4
+
+No utopia survives contact with the real world, of course. MUD’s player-versus-player design spawned a new kind of digital class system, although the tyranny of the wizzes was at least in theory a meritocracy—a dictatorship that any connected citizen could aspire to hold. But there’s no question that multiplayer fantasy games helped open up a generation to the possibilities of a life free from constraints that had once seemed unbreakable: of social class, of physical ability, of gender, of distance. Online games would change the world, even if only the geeks, at first, could see it. “MUD is not a one-off occurrence,” its creators predicted in 1985, far more accurately than they had any right to. “Instead, it’s just the first of a new generation of computer game.… What we see in the Multi-User Dungeons running at various universities … can only be called the beginning.”11
+
+
+References
+
+1) Bartle, Richard. 1983. “A Voice from the Dungeon.” Practical Computing 6 (12): 126-30, Dec 1983.
+2) Bartle, Richard. 1984. “Dec the Halls for Christmas.” Micro Adventurer 14: 9-10, Dec 1984.
+3) Bartle, Richard. 1990. “Early MUD History.” Usenet post, rec.games.mud, Nov 15, 1990. www.apocalypse.org/pub/u/lpb/muddex/bartle.txt | s Aug 11, 2002
+4) Bartle, Richard. 2015. “Matt Chat 296: Richard Bartle on MUDs and British Snobbery.” Interview by Matt Barton. YouTube. www.youtube.com/watch?v=F_7_EMjjysA | a Jan 2, 2021
+5) Bartle, Richard. 2016. MMOs from the Inside Out. New York: Apress/Springer.
+6) Bartle, Richard. 2019. “Richard Bartle (MUD1/MUD2).” Interview by Adrian. www.arcadeattack.co.uk/richard-bartle | a Jan 5, 2021
+7) Bartle, Richard A. 1985. “MUD Advanced Project Report.” CSM-73. Department of Computer Science. University of Essex. mud.co.uk/richard/mapr.htm | a Jan 5, 2021
+8) Bartle, Richard A. 2004. Designing Virtual Worlds. Indianapolis: New Riders.
+9) Bartle, Richard A. 2009. “From MUDs to MMORPGs: The History of Virtual Worlds.” In International Handbook of Internet Research, ed. Jeremy Hunsinger, Lisbeth Klastrup, and Matthew Allen, p23–39. New York: Springer.
+10) The Gnome. 1985. “MUD Glorious Mud.” Prestel (blog). Aug 30, 1985. mud.co.uk/richard/gnome.htm | a Jan 5, 2021
+11) Howard, Duncan. 1985. An Introduction to MUD. London: Century Communications.
+12) Lawrie, Michael. 1988. “MUDDL” (Documentation). Eastnet. github.com/PDP-10/MUD1 | a Jan 5, 2021
+13) Lawrie, Michael. 2003. “Escape from the Dungeon.” The Arch-Wizard Archives. Dec 3, 2003. arch-wizard.com/history.html | a Jan 5, 2021
+14) Maher, Jimmy. 2017. “Games on the Net Before the Web, Part 2: MUD.” The Digital Antiquarian (blog). Dec 15, 2017. www.filfre.net/2017/12/games-on-the-net-before-the-web-part-2-mud | a Jan 5, 2021
+15) Mahney, Nathan P. 2018. “Game 25: MUD1 (1978).” CRPG Adventures (blog). May 27, 2018. crpgadventures.blogspot.com/2018/05/game-25-mud1-1978.html | a Jan 5, 2021
+16) Micro Adventurer. 1984. “Editorial.” #11: 3, Sep 1984.
+17) Personal Computer World. 1985. “Chip Chat.” 8 (7): 304, Jul 1985.
+18) Rockman, Simon. 1984. “Rockman Files.” Games Computing, Apr 1984.
+19) Thomas, Susan. 1984. “Real, Live MUD!” Personal Computer World 7 (8): 134–35.
+20) Trubshaw, Roy. 2001. “The History of MUDS: Part II.” Interview by David Cuciz. GameSpy. www.gamespy.com/articles/january01/muds1/index4.shtm | s Jan 29, 2001

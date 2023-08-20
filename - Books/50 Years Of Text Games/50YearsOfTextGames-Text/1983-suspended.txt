@@ -1,0 +1,207 @@
+Suspended
+A Cryogenic Nightmare
+
+1983
+
+Michael Berlyn, with Muffy Berlyn
+Style: Parser
+Debuted: Mar 1983 (retail)
+Launch Platform: Z-machine v3 (for Apple II, Atari 8-bit, Commodore 64, DOS, TRS-80)
+Publisher: Infocom
+Language: ZIL
+Launch Price: $49.95 (floppy disk)
+
+Opening Text:
+
+	FC ALERT! Planetside systems are deteriorating. FC imbalance detected. Emergency reviving systems completed. You are now in control of the complex.
+
+
+The box stood out on computer store shelves like few others yet had. An injection-molded face mask—stark white plastic inset into the surface of the oversized package—stared out at shoppers browsing aisles full of less memorable software packaging. Above the mask, the title appeared in bold block caps, broken by a blood-red EEG brainwave. Behind the mask’s eyeholes, shadowed, were wide-open eyes. Those who bought the box, took it home, and opened it up would see the eyes were part of a sketch: a face behind glass, hooked to electrodes, its mouth wide open in a silent scream.
+
+The game on the floppy disk underneath the sketch had a similarly startling premise. In nearly every previous text adventure, the player had controlled a player character who could be directed to move around the world and take actions, with the parser reporting back what that character was seeing and experiencing. But in Suspended, the character you’re playing never moves. Despite the box art, they never even open their eyes.
+
+	They said you would sleep for half a millennium—not an unreasonable length of time, considering you’d be in limited cryogenic suspension. Your body would rest frozen at the planet’s nerve center, an underground complex 20 miles beneath the surface. Your brain, they told you, would be wired to a network of computers; your mind would continue to operate at a minimal level, overseeing maintenance of surface-side equilibrium. And you would not awake, so they promised, until your 500 years had elapsed—barring, of course, the most dire emergency.
+
+	Then, and only then, you would be awakened to save your planet by strategically manipulating six robots, each of whom perceives the world differently. But such a catastrophe, you have been assured, could not possibly occur.
+
+	Good morning.
+
+As Suspended begins, your character—the frozen human guardian for a planetary network of automated systems—has been brought to the surface of consciousness to respond to unexpected disaster. “Your body will be warmed to the point where marginal biological activity is resumed,” the manual explains, “supplying your mind with the necessary nutrients and oxygen to function at peak capacity.” But your body remains frozen. A set of Filtering Computers (FCs) will connect you via a simple text interface to a crew of repair robots in the underground complex. The Filtering Computers are a diegetic explanation for the game’s parser. The interface, and the disconnect between player and character, are part of the story. 
+
+Each of the six robots is specialized to understand a specific kind of data about the world. Only Iris can see. Sensa detects vibrations, Waldo can grasp objects and perform delicate actions, Auda can hear, Whiz knows things, and Poet has his own unique way of perceiving the world—“a psychedelic James Joyce,”2 as one reviewer called him. Through the robots, you must diagnose and repair the damage to the planetary control systems from an ongoing series of earthquakes—before the dying people on the surface decide to replace you.
+
+	>sensa, report
+	FC: Cryolink established to Sensa.
+	FC: Full report from SENSA
+	Internal map reference -- Beta FC
+	I am within an immense device which contains immeasurable circuitry and switching devices. I can detect connections to the north and south of this device.
+	I cannot sense a thing in my grasping extensions.
+
+	>go north
+	Internal map reference -- Primary Channel
+	Sensory mechanisms detect the disquieting flow of electricity within this tube. The flow is concentrated within the small cables which line the floor. There is a small hole in the wall of the tube awaiting a plug. Above this hole is a sign.
+	In the room with me is Waldo.
+
+	>read the sign
+	I’m not equipped with the necessary visual sensors.
+
+	>iris, go to sensa
+	FC: Cryolink established to Iris.
+	FC: Sensa’s location: Primary Channel. Establishing path… 
+	IRIS: Got it, good looking. I’ll let you know when I get there.
+
+	>poet, report location
+	FC: Cryolink established to Poet.
+	POET: In the Sub Supply Room.
+
+	>look
+	Internal map reference -- Sub Supply Room
+	It burns and wields tremendous light and makes our joints delight its might.
+	To rise and fall, and climb new heights, to descend the pit of robot despair.
+	Everything cracks under pressure, sooner or later.
+
+	SENSA INTERRUPT: Secondary tremor detected in lower level. Intensity: 7.3. Projected damage: Cooling systems for FCs in Maintenance Area.
+
+	>whiz, plug in then query about FCs
+	FC: Cryolink established to Whiz.
+	It’s great to be home. Plugged in to the Technical Pedestal. Ready to process queries.
+	 
+	TP: The three Filtering Computers are kept in balance by two series of four cables. Four cables run through the Primary Channel, while another four run through the Secondary Channel.
+
+	IRIS INTERRUPT: Internal mapping doesn’t extend from Central Chamber to Angling Corridor. I’m waiting for alternate instructions.
+
+	>sensa and waldo, go to maintenance area
+
+Suspended was released by Infocom, the company founded by the creators of Zork, including Dave Lebling and Marc Blank. “This business began as a lark,” Lebling once remarked, “and it is looking less larky every day.”8 By 1983 Infocom was becoming one of the most successful and respected game companies in the US market. A sales chart for a week at the end of that year showed an astonishing ten Infocom titles in the top thirty bestselling games—no other publisher came close to that level of dominance. Today there’s a popular narrative that Infocom’s text games only sold well because graphics weren’t yet around, but the truth is more complex: “Back in 1981 … we were told by distributors that we were crazy,” Blank recalled. “Nobody wanted text games any more.”10 Yet Infocom persistently made it to the top of the charts with only their words.
+
+The company had been founded in June 1979, but its first commercial product, a microcomputer version of Zork, wouldn’t ship until December 1980. Even trimmed down for home computers, Zork became a massive hit and remained the bestselling game through the first half of the 80s; a pair of sequels were quickly produced. In 1982 the company released Marc Blank’s Deadline, a murder mystery with more traditional plot and characters. The company’s move toward more sophisticated storytelling began to turn heads. A 1983 article in Time was one of dozens that year scrambling to herald the arrival of a new kind of literature, or at least of mass-market entertainment:
+
+	Deadline is part of the latest craze in home computing: programmed fiction. Machines that were used mainly for blasting aliens and calculating monthly budgets are now also churning through adventure tales and murder-mystery plots. “It’s like reading a novel, only you are the protagonist,” says science-fiction writer Linda Bushyager. While arcade-style games like Pac-Man are losing popularity, these complex programs are winning more and more fans.… Judging from recent sales, the text programs are more popular.9
+
+But the Infocom team was growing conscious of the fact that they were mostly programmers, not writers, and perhaps not the best folks to usher in the next evolution of the novel. At the Boston Applefest computer meetup in 1982, Blank met another creator of text games with an intriguing pedigree: he was a published science fiction novelist, and he knew how to program. The man was Mike Berlyn, quick-witted and curly-haired (also “high-strung” and “chain-smoking,”8 according to one reporter); a three-time novelist and two-time text adventure author. He and his wife, Muffy, who was also a writer as well as a journalist and artist, had started a company called Sentient Software and become some of the first professional writers making games with their 1981 adventure Oo-Topos. They quickly followed it up with a second game, Cyborg [1981], which like Mike’s novels was fascinated by questions of human-machine interfaces and perspectives:
+
+	I CAN'T LOCATE THE EXACT CAUSE OF OUR MALFUNCTION. OUR POWER UNITS HAVE BEEN SO BADLY DRAINED BOTH OUR LONG-TERM AND SHORT-TERM MEMORIES HAVE BEEN DAMAGED. [...] THE ONLY DATA AVAILABLE TO EITHER OUR ORGANIC OR SILICON MEMORIES RESIDE ON A SINGLE CHIP: YOU AND I ARE PERMANENTLY LINKED. WE ARE SEPARATE ENTITIES SHARING AN ORGANIC AND METAL SHELL -- TWO MINDS IN ONE BODY.
+
+The Berlyns brought a refreshing notion to their early titles: the idea that games built from words might aspire to be more like traditional stories. “Cyborg is a unique approach to gaming with no treasures and no score,” the back of its box declared, flaunting the novel feature of “character development” and creatures “you can talk to.” It was exactly the direction Infocom’s founders hoped to move in. Blank soon hired Mike to begin work on a new game that would keep Infocom innovating. While Muffy wasn’t officially allowed to collaborate on the new project—Infocom had a policy against hiring spouses of employees—Mike has said she “contributed extensively”17 to Suspended and “helped design” all his text adventure games. The two would go back to collaborating officially as soon as Mike left Infocom in 1985, and would make many more games together in the following decades.
+
+But back in 1982, as Mike moved into his new office at Infocom, he was faced with a daunting possibility space. “In one sense we are working within traditional genres,” he reflected, “and in another we are still teaching ourselves, laying out the groundwork for what these things could be. For the most part, we are working without pioneers.”8 Mike was a combination writer/programmer when there was no model yet for what such a role should be. Infocom’s founders had hoped the programming language they’d devised to author their games—ZIL, the Zork Implementation Language—might be comprehensible to a tech-savvy writer. Descended from MDL (the MIT research language itself descended from Lisp), ZIL came with a lot of flexibility and power. But the conceptual model of a Lisp-like language was vastly different from the BASIC Mike had worked with before. “I was kind of sat down in front of a terminal,” he recalled, “and [they] said, ‘Okay, here you go. Have at it.’ I was brought in I think as their big experiment. Here’s a writer, [who] kind of knows what he’s doing. You know, let’s give him a shot.”19
+
+	<ROUTINE JIGS-UP (DESC ROBOT)
+		<TELL .DESC CR>
+		<CRLF>
+		<TELL "FC: So much for that robot. Too bad." CR>
+		<PUT ,DEADBOTS <GETP .ROBOT ,P?ROBOT> 30>
+		<KILL-GOAL .ROBOT T>
+		<FSET .ROBOT ,CUTBIT>
+		<DEAD-FCN>
+		<RFATAL>>
+
+	<ROUTINE PRE-TAKE ()
+		<COND (<IN? ,PRSO ,WINNER> <ROBOT-TELL "I already have it.">)
+		    (<AND <IN? ,PRSO ,TOPSHELF>
+		     <NOT <EQUAL? ,ON-WEDGE <GETP ,WINNER ,P?ROBOT>>>>
+		<ROBOT-TELL "It's too high up there and I can't reach it.">
+	<RTRUE>)
+	   (<FSET? ,PRSO ,WEARBIT>
+	<ROBOT-TELL "Not while it's attached.">
+	<RTRUE>)
+		   (<AND <IRIS?>
+		    <NOT ,IRIS-FIXED>>
+	<ROBOT-TELL "I can't take what I can't see.">
+	<RFATAL>)
+	[...]
+
+ZIL’s ability to nest complex behaviors and functions in lists—which could contain anything from strings to more code—gave it a useful flexibility that enabled the many complex routines of an unusual game like Suspended. By contrast, the tools designed for the Adventure International games 1978 or MUD 1980 were simpler to use, but could only create the specific kinds of adventures those tools were designed to enable. ZIL had fewer assumptions about what a text adventure was supposed to be, making a radical departure like Suspended possible—if not exactly easy to code.
+
+Both coding and playing the game required a different kind of mindset. The player’s location, senses, and agency are fractured between six limited entities, causing what one fan dubbed “a thousand little mysteries”18 in piecing together a coherent picture of the environment from limited clues. Take identifying an object: one robot might grasp it in its manipulators and describe it as “a rough device,” while another sees only its electromagnetic emissions and calls it “a scanning device.” Whiz can determine it’s “a CX1 chip,” Iris can see that it’s blue, and the whimsical Poet calls it “brain uno.” Only by synthesizing all this information in the context of its environment can you come to understand it’s a scanning processor chip, useful to repair a malfunctioning robot.
+
+Understanding your role in the game, and learning how to direct your robot avatars, requires careful study of the game’s manual and the bonus materials inside its imposing box. Modern players with emulators who may not have access to this content face a much more difficult challenge. The instructions, for instance, detail commands that don’t appear in any other Infocom game, such as ways to give multiple robots simultaneous orders:
+
+	>sensa, follow waldo
+	FC: Cryolink established to Sensa.
+	SENSA: Okay. I’ll follow Waldo.
+
+	>waldo, go south
+	FC: Cryolink established to Waldo.
+	WALDO: Internal map reference -- Gamma Repair
+	I have reached the south end of this area. The walkway ends here.
+	The walkway is not in motion.
+	In the room with me is Sensa.
+	There is a hollow object here.
+	  The hollow object contains… 
+	    A broken mechanism
+	>waldo and sensa, examine broken mechanism
+	FC: Cryolink established to Waldo.
+	WALDO: I perceive nothing special about the broken mechanism.
+
+	FC: Cryolink established to Sensa.
+	SENSA: I perceive nothing special about the broken device.
+
+	>waldo, get broken mechanism
+	FC: Cryolink already established to Waldo.
+	WALDO: I can’t manage it. The broken mechanism is too heavy.
+
+	>both waldo and sensa, get broken mechanism
+	FC: Dual-Cryolink established to Waldo and Sensa.
+	FC: The robots have moved it.
+	FC: Cryolink established to Waldo.
+
+But in addition to gaining mastery over your environment, you must also learn how to do it quickly. “The first time you play Suspended will not be your last,” say the game’s instructions—less because of particularly gripping storytelling than that many playthroughs are needed to gather enough details to solve it before time runs out. A succession of disasters, culminating in your disconnection by angry surface dwellers, leads to Game Over after 160 turns, a fraction of the time one would spend to solve a game like Zork. Each playthrough is an opportunity to learn a little more about the crisis you’re caught in and how to handle it, and in each game you can spend a bit less time experimenting and a bit more carrying out your plans. Suspended, one reviewer noted, is “a marathon that requires conditioning.”20
+
+But even after you’ve figured out how to solve the game—and then how to do it in less than 160 turns—you still haven’t won:
+
+	All systems returning to normal.
+	  Weather systems slowly approaching balance.
+	  Hydroponic systems working at full capacity.
+	Surface life in recovery mode.
+
+	Extrapolation based on current weather systems and food supplies:
+	  Total recovery in 82 cycles.
+	  Current surface casualties: 4,277,000
+	  Projected casualties during recovery: 3,417,000
+	  Original population: 30,172,000
+	  Total possible survivors: 22,478,000
+
+	This score gives you the possibility of being considered for being burned in effigy. On a scale of 1 (the best) to 7 (the worst), your ranking was 7.
+
+Every few turns, your score goes up by a few points—but this is not a good thing. Each point represents a thousand casualties on the surface of the planet, as damaged weather, traffic, and hydroponics control systems go haywire. To truly beat the game, you must optimize your repair plan even further, trying to complete your tasks in the fewest turns possible and keep as many citizens alive as you can. The manual offers some tips:
+
+	Moving your robots one room per cycle can be extremely costly. You may find it easier and more efficient to direct a robot (or more than one) to GO TO a room so you can do something else while the movement is taking place. Robots will progress one room per cycle and will tell you when their destination is reached.
+
+But this is just the beginning of the complex ballet an optimized run of Suspended becomes, with no command wasted and each motion choreographed—a precision akin to that seen in modern speedrunning. Skilled players use the six robots like a single machine to relay objects to precisely where they need to be on the turn they need to be there. Since you can enter only one command on each timestep, sequencing and shuffling orders to avoid making robots wait for an item or event becomes crucial. Like an assembly programmer optimizing each cycle of code, your goal is to streamline each task down to the minimum number of steps, then find the most efficient way to order and thread them together. Many reviewers have noted that while Suspended starts off as interactive fiction, its endgame is some other genre entirely, closer to the complex cooperative board games (like Pandemic [Z-Man Games 2008]) or creative optimization games (like Opus Magnum [Zachtronics 2017]) that would appear decades later.
+
+Contemporary reactions were mostly positive, but were also buoyed by an electric sense that Infocom was expanding notions of what a computer game could be. “Suspended represents another milestone in the continuing evolution of the interactive computer novel,” Softline magazine wrote. “This form of literature may be one of the most important waves of the electronic age, and Michael Berlyn and Infocom will certainly be riding on the crest of that literary wave.”2 The game sold over one hundred thousand copies in a time when very few computer games could; only a handful of Infocom titles would ever sell more. No less impressive a tastemaker than Rolling Stone reviewed it and called it the best computer game ever made. And at the 1984 CES trade show in Las Vegas, counterculture guru Timothy Leary stopped by Infocom’s booth and was blown away. “He certainly understood the fractured reality concept,” Berlyn would later recall. “I couldn’t rip him away from the machine, and all he had to say was, ‘And this is legal?’”8 Leary would later write that the game forever changed his opinion of computers; he’d go on to help create the surreal game Mind Mirror [Electronic Arts 1986]. “It was, oddly enough, Timothy Leary who said that I had changed his life,” Berlyn recalled years later with a smile, “which was kind of funny.”19
+
+The game’s longer-term legacy would be more complex. Its alienating premise and interface turned off players expecting the more traditional storytelling that was becoming the core of Infocom’s brand. It was also challenging, uncompromising, and required obsessive attention to detail—“a game for frustrated would-be air traffic controllers,”6 one reviewer said. The first Infocom game created by a writer, it had less plot and characterization than nearly any of their other titles. Today many consider it one of the company’s lesser works, more notable for its unusual packaging and bizarre premise than its often tedious gameplay.
+
+Yet Suspended helped change the perception of what a game could be, expanding horizons that until then had seemed more limited. As Leary realized, it didn’t use text simply as a poor substitute for graphics like most other adventures—a caption for a photo instead of the real thing. It used its words instead to create a new reality in the mind of the player, in a way that only text could achieve. A graphical version would miss the point of imagining what it might be like to experience the world solely through touch, or electricity, or poetry. While the particulars of its approach were rarely repeated—and graphics would, of course, soon come to dominate games after all—Suspended planted a very visible flag that said the status quo didn’t always have to satisfy. There had been weirder games, but they hadn’t topped the charts; there had been experiments in form, but not from Infocom. Story games could aspire to be more than awkward adventure novels, and bestsellers could be cerebral.
+
+In a somewhat glib and giddy 1984 interview, the growing group of Infocom creatives were asked what they thought about the future of computer games:
+
+	Meretzky: There’ll be a lot more variety, there’ll be kinds of games that you can’t even imagine.
+	Berlyn: I can’t imagine that. But we are working on the future.
+	Blank: Yes, we’re building one in our backyard.1
+
+
+References
+
+1) Addams, Shay. 1984. “‘Frooing the Mumble’ with the All-Text All-Stars of Adventure Games.” Computer Games, Feb 1984.
+2) Bang, Derrick. 1983. “Gameline.” Softline 2 (4), May-Jun 1983.
+3) Berlyn, Michael. 2016. “Interview with Michael Berlyn the creator of Bubsy Bobcat.” Interview by doctorclu. Video. May 24, 2016. www.youtube.com/watch?v=jlYW3pof8JI | a Jan 30, 2021
+4) Briceno, Hector, Wesley Chao, Andrew Glenn, Stanley Hu, Ashwin Krishnamurthy, and Bruce Tsuchida. 2000. “Down From the Top of Its Game.” Structure of Engineering Revolutions. Cambridge: MIT.
+5) Cifaldi, Frank. 2005. “Playing Catch-Up: Bubsy’s Michael Berlyn.” Gamasutra (blog). Oct 3, 2005. www.gamasutra.com | a Jan 30, 2021
+6) Cree, Graeme. 1996. “Suspended (Review).” SPAG #8, Feb 5, 1996. www.spagmag.org/archives/backissues/spag8.html | a Jan 30, 2021
+7) Dunigan, Stanley E. 2009. “The Optimized Straightforward Walkthru for Suspended.” gamefaqs.gamespot.com/pc/564451-suspended/faqs/56382 | a Jan 30, 2021
+8) Dyer, Richard. 1984. “Masters of the Game.” Boston Globe Magazine, May 6, 1984.
+9) Elmer-Dewitt, Philip. 1983. “Computers: Putting Fiction on a Floppy.” Time, Dec 5, 1983. 
+10) Ferrell, Keith. 1988. “Interactive Text In An Animated Age: Infocom Faces the Challenge.” COMPUTE! 10 (1), Jan 1988.
+11) Grevstad, Eric. 1984. “The ‘Hard Boiled’ School of Software.” Family Computing 2 (6), Jun 1984.
+12) Maher, Jimmy. 2012. “Sentient Software.” The Digital Antiquarian (blog). Apr 26, 2012. www.filfre.net/2012/04/sentient-software | a Jan 30, 2021
+13) Maher, Jimmy. 2013a. “Suspended.” The Digital Antiquarian (blog). Mar 5, 2013. www.filfre.net/2013/03/suspended | a Jan 30, 2021
+14) Maher, Jimmy. 2013b. “Masters of the Game.” The Digital Antiquarian (blog). Oct 23, 2013. www.filfre.net/2013/10/masters-of-the-game | a Jan 30, 2021
+15) The New Zork Times. 1983. “Infocom Announces New Science-Fiction Masterpiece Suspended.” 3 (1), Spring 1983.
+16) Pranevich, Joe. 2017. “Missed Classic 39: Suspended (1983).” The Adventure Gamer (blog). Apr 14, 2017. advgamer.blogspot.com/2017/04/missed-classic-39-suspended-1983.html | a Jan 30, 2021
+17) QuestBusters. 1985. “Adventure Hotline.” 2 (8), Sep 1985.
+18) Savetz, Kevin, and Carrington Vanston. 2017. “Suspended.” Eaten By A Grue, the Infocom Podcast. Nov 25, 2017.
+19) Scott, Jason. 2017. Infocom: The Documentary. Video. www.youtube.com/watch?v=OXNLWy7rwH4 | a Dec 25, 2020.
+20) Sodaro, Robert J. 1984. “Suspended (Review).” Ahoy!, Jan 1984.

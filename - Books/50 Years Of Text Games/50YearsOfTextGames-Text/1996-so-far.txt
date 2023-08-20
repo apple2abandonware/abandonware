@@ -1,0 +1,153 @@
+So Far
+
+1996
+
+Andrew Plotkin
+Style: Parser
+Debuted: Jun 19, 1996 (Usenet)
+Launch Platform: Z-machine v8
+Language: Inform 5
+
+Opening Text:
+
+	Hot, foul, and dark. How did indoor theater become so fashionable? Well enough in spring rain or winter, but not in the thick, dead afternoon of high summer. And though Rito and Imita looks very fine, shining with electric moonslight in the enclosed gloom, you’re much more aware of being crammed in neck-by-neck with your sweaty fellow citizens.
+
+
+The release of Graham Nelson’s Curses 1993 and Inform, the programming language he’d made to write it, set off an explosion of amateur text game development that would echo for decades. Alongside other maturing tools like TADS and old standards like AGT, passionate fans saw increasingly viable pathways to creating their own games in a mode abandoned by commercial publishers but which still had a devoted readership online. Within a few years, fans went from picking over a scant handful of new text games each season to dozens and dozens. A whole new era for interactive fiction had arrived.
+
+So Far, released in 1996, was one of several amateur games that year that might have passed for an Infocom game in scope and depth of worldbuilding. It opens with a play that has the rhythms of Shakespeare but unfolds under a strange sky where two moons shine. Onstage, estranged lovers Rito and Imita are meeting for the first time since Rito has learned of his love’s affair. 
+
+	Rito:
+	How come you, harlot? Dare you come this way,
+	your skin yet dark with Tato’s shadow’s stain?
+
+Imita begs Rito not to despise her, but admits she is pregnant with Tato’s child. Rito rushes from the stage, overcome with emotion. In a soliloquy to the audience, Imita pleads “What scourge, what scourge I bear, from what red star / So near to happiness, and yet so far?” The play draws to its inevitable conclusion with a duel, a bloody death, and a reconciliation before a wedding and a happy ending:
+
+	Imita (simply):
+	Ah, my love. Can you forgive me?
+	   
+	Rito:
+	How can I deny you? There is nothing to forgive.
+
+But the game that follows takes the player on a difficult journey that echoes the lovers’ final questions in many ways and through unexpected registers. Resolutions seem harder to come by than a fifth act finale, wounds harder to heal. As Elizabethan theater often opened with a dumbshow to explain the essentials of the upcoming plot to the audience, So Far begins with a drama that primes the reader for the challenges of a story they must play.
+
+As the curtain falls, the player—pursuing their own lover Aessa, half-glimpsed in the audience—pushes through the milling crowd and into stifling summer air outside. Many have gathered to watch a rare astronomical event: the two moons in near conjunction, approaching but destined to never quite touch. The gap between you and Aessa, too, seems unbridgeable: she has vanished and you cannot find her. But a faint breath of cool air tempts you elsewhere, leading to a disused backstage corner where a “shadow’s stain” offers passage to another world entirely, one where summer has moved on.
+
+	Theater Storage
+	Or perhaps ex-storage, since the room is almost bare. A small dirty window to the west admits bright beams, but they fall across only the floor and a battered cabinet against the north wall. The doorway lies to the east.
+
+	The air here is rich with autumn, brisk and cool. It’s impossible, absurd.
+	>examine cabinet
+	A closed cabinet, chipped and stained, stands against the wall. Sunlight brings a tattered, hopeful glow out of the old wood, but shadow falls behind.
+
+	>look behind cabinet
+	Blackness lies behind the cabinet. Opaque… in this brightly lit room, no shadow should be so thick.
+
+	As you step back from the cabinet, the shadow flares. A sunbeam might shine off crystal to paint the whole world white for one angle of an instant; so this shadow widens into a gulf beneath black and wider than everything. Then you move a fraction farther, and it is only a line of too-black behind chipped wood.
+
+	>touch shadow
+	You reach into the shadow, and in, in, and the farther you stretch the farther there is to go -- you pull back, shivering.
+
+	>enter shadow
+	The shadow flares again as you set foot to it. The cabinet is to your left and the wall to your right, never mind the space that isn’t there between them, and then never mind anything because blackness has taken the world, never mind, never world, not even you, never you—
+
+	[Hit any key.]
+	[Enter]
+
+	—And then daylight smacks you in the behind, ordinary as a dirt road.
+
+	Abandoned Road
+	The sky is almost violet, infinitely distant—you’ve never seen such a sky, and without the haze of metallic heat that summer should have. But the wind is sharp and chilly, and the trees nearby are a quilt of orange, red, and gold.
+
+	Beneath you the road is old, filled with weeds and ragged moss […]
+
+The rest of So Far is a surreal journey through richly drawn worlds linked by pools of impossible shadow. As your journey continues, the landscapes become imbued with symbolism, echoes in architecture and geography of Imita and Rito’s star-crossed story. The puzzles in those landscapes likewise recycle and reinvent endless permutations on themes of pairs, shadows, betrayal, wounds, closeness, and separation. The game is written in a mode of text adventure design that today seems harsh, requiring judicious use of save, restore, and undo to successfully navigate; the puzzles often require thinking with a brutal dream logic that many in the years since its release have found hard to connect with. But So Far enchanted players in 1996 because it pointed toward a richer future for interactive fiction. Its puzzles and story intertwined in a way that elevated both over the sometimes simpler games of the 80s and the fan works of the early 90s that tried to emulate them. So Far felt like something new. Interactive fiction, it seemed, could evolve.
+
+Andrew Plotkin had appeared on the scene the previous year as a winner of the first ever Interactive Fiction Competition (IF Comp) with his game A Change in the Weather. A lifelong fan of text games, he had fiddled with making his own in his teens and had long dreamed of crafting his own IF authoring language. When Inform was released he’d been intrigued by its potential, but it was the announcement of IF Comp that pushed him to try game writing again: “It lit the fire under me—and several other authors, not limited to Inform users—to get a game written; not as a vague long-term project, but right now.”3 Weather was praised both for its challenging puzzles and its shifting descriptions of an outdoor landscape that transitions from pleasant evening to deadly midnight storm. So Far, his follow-up, would be bigger in scope and, with more elaborate puzzles and more richly realized environments, longer than the two-hour games IF Comp was beginning to normalize. 
+
+So Far took inspiration from two games that had become some of Plotkin’s touchstones. Cyan’s Myst [1993] had reinvigorated adventure games with its combination of breathtaking landscapes and challenging puzzles embedded in a narrative framework; So Far’s surreal worlds and strange machines can be read in part as homage. Another clear influence is Infocom’s Trinity [1986], one of the company’s few explicit attempts to elevate text games to a more artistic and intellectual level. Trinity tells a richly symbolic story of the dawn of nuclear weapons and the existential threat they brought to human history, mostly through mute tableaux and the player’s actions. In the shadow of an enormous sundial, for instance, the player explores a vista of huge toadstools that grow denser and larger as they near the terrain marked out for sunset. The toadstools, the player comes to realize, each represent a nuclear mushroom cloud. The landscape is a temporal map of coming apocalypse—a shadow sweeping inexorably across history.
+
+So Far also offers a landscape suffused with metaphorical imagery and representational puzzles, recurring variations on its foreshadowed themes. The formal poetry of the opening play is echoed in a ritual dance, frenetic and wordless, by people living under a different sky. A crack in the theater wall mirrors a crack in a distant ice floe. Pairs, in fact, are everywhere: two cracks; two lovers; two dancers; two moons; two reptilian mounts; two guardians blocking access to forbidden streets; two cubes that must be pushed close together to solve a puzzle, but not so close as to ever quite touch. Two pillars guard a gate that can only be passed through once one of them is destroyed. There is a world of silence and a world of nothing but sound; a world of all form and no meaning and another all meaning and no form. The landscape makes physical the opening drama’s tale of damaged lovers and its questions of forgiveness and redemption, while the game’s puzzles make the same ideas playable. The world, mechanics, and meaning rhyme. Understanding them is easier together than apart. 
+
+The worlds you visit are divided into two groups of five, interconnected through portals of shadow. Vivid language, filled with color and bright description, brings the first set to life:
+
+	The vine is actually a muddy color, but the leaves are broad and streaked with bright yellow. Uncounted fine tendrils root deeply into the mound. A single fat red pod, about the size of your fist, clings to the vine at one point.
+
+	
+	The dome’s surface is a polished brown-grey, a bit mottled, and the whole structure is very slightly irregular; a homey, reassuring effect. The ground beneath you is a shocking contrast. Bright lichen covers everything with magenta tufts; there’s not a blade of grass or stick of shrubbery within fifty yards of the dome. The olive-mossed roads are the only relief […]
+
+The worlds in the second grouping, by contrast, are spare and minimal, experimental and surreal. In one there is no light, and you must navigate an environment described only in abstract sounds to find the one place of silence—an aural landscape’s equal to a portal of shadow. In another world you drift in a formless void chasing shadows of memory—scenes from what seem to be your character’s past. Only by moving toward the more difficult memories can you reach the most difficult of all and find a path forward.
+
+The two moons are present in the sky of each world, suggesting perhaps a journey through different times or realities, not places. With each world you visit, they draw closer together, but never quite touch.
+
+Eventually you reach a grim world trapped between infinite planes of metal above and below, so tight you cannot stand upright (but not quite touching). Movement in any direction seems pointless, and the only items are bone-handled silver pipes of different thicknesses, some narrow, some wide. Through experimentation, you learn that striking a pipe makes a resonant tone that transports you to different aspects of this strange environment, perhaps parallel dimensions. The narrow and wide pipes move you toward different ends of a conceptual stack of subtly different metal hells. 
+
+	>tap wide pipe
+	Tunnnggg… The pipe blurs, and for a moment it seems to extend, vertically, forever. You cannot breathe for the sound. The bounded world blurs vertically as well, and the metal ceiling recedes into the distance… 
+	 
+	Caught In Metal
+	The space between these plates is, if anything, fractionally lower than the first one you fell into. A dim phosphorescent grid is traced out across the ceiling, marking silent distance in all directions.
+	 
+	There are three more lengths of silver pipe here, just like the ones you found earlier. Two are narrow; one is wide.
+
+	The sound, and the pipe you struck, are gone.
+
+In the wide direction things seem older, more damaged, more cramped, and deeper; in the narrow direction they are newer, more pristine, less claustrophobic, and higher up. As you travel you find more pipes, but exploration is brutal: using a pipe destroys it, and at first it seems impossible to gather enough to escape in either direction. Solving a puzzle that involves bringing light to a dark dimension will uncover one additional pipe, giving you exactly the number you need to escape—assuming you make no mistakes. There is not a single pipe to spare. 
+
+Near the end of the wide direction, you come across another prisoner in this strange metal purgatory:
+
+	A figure sprawls indifferently on its back a few feet away. His back; it’s a boy, raggedly dressed; young, you think, although it’s oddly uncertain a guess. He breathes steadily in sleep.
+
+	The sound, and the pipe you struck, are gone.
+
+	Your knee slips abruptly on moss; you jerk a hand out to catch yourself. The length of thin pipe flies from you and hits the ground with a muffled clank. The boy slips a syllable of protest, turns on his side, and huddles, still asleep.
+	 
+	>wake boy
+	Perhaps it was only the stirring of the air; the child is awake. A thin hand darts out and snatches the length of thin pipe. The boy clutches the metal to his chest, staring at you wildly.
+
+The child is afraid of you at first, but warms up if you let him. Though you share no language, he shows you that the phosphorescent moss on the infinite floor and ceiling can be eaten, and demonstrates how crawling away is futile, always leading back to the same spot. It becomes clear he understands, just as you do, the rules of this place; and that the wide and narrow pipes are the only possible means of escape. But there is only one pipe. Only one of you can use it.
+
+	>ask boy for pipe
+	He twitches violently. Wrapping his hands around the pipe, the boy turns away, shaking, hiding the silver metal with his body.
+	 
+	Then he straightens, slowly. His eyes search yours, pressing at the wall of understanding between you; they drop to the length of pipe, and rise again. Moss-light shivers on the polished surface. And—very softly—he lays the pipe down before you.
+
+	>get the pipe
+	The boy’s hand clenches as you pick up the length of pipe. But his face does not change.
+
+	>tap it
+	Tunnnggg… The pipe blurs, and for a moment it seems to extend, vertically, forever. You cannot breathe for the sound. The bounded world blurs vertically as well, and the metal ceiling recedes into the distance… 
+
+	The boy’s eyes seem to fade last of all. They watch you, full of something you may never see again.
+
+Carefully mapping the distribution of spaces and pipes makes clear there is no possible way to arrive at the boy’s space carrying an extra pipe. There’s no escape without sacrifice, or perhaps betrayal. “So near,” Imita’s line on stage foreshadowed, “and yet so far.”
+
+Many of the puzzles in Plotkin’s game, and most of the ones he would write in the years to come, require observing complex systems closely enough to learn how to operate them—though rarely with such grim logic. In a world filled with bustling, mute people, watching carefully reveals routines you can take advantage of to slip into off-limits places. To get through a gate, you must build up a mental picture of a complex set of rusted pulleys whose components appear across half a dozen separate rooms, coming to understand how they interact with each other and the environment around them. Plotkin has described this systemic approach as foundational to his thinking on game design:
+
+	A good IF game floods the player with his environment—all the senses, all the time. It has a story, or variations of story, which turn on the player’s actions. (Not necessarily his choices.) It invites the player to think inside the game world, by requiring deductions and combinations of game elements which are interesting in the game world’s terms.1
+
+When this approach to design and storytelling works, it can feel revelatory. And yet it’s fair to say it doesn’t always work. So Far’s surreal, symbolically charged environment can sometimes obscure the player’s ability to understand it well enough to gain mastery, frustrating the intended revelations. Like many puzzle games, it often errs on the side of being too hard rather than too easy. Jon Ingold, who would later co-found commercial IF studio inkle, wrote in a 2008 review of So Far that while he deeply loved the game, he had a hard time recommending it to others—the review’s title was “Horribly unfair, hauntingly beautiful.”2 Reviewer Alistair G. Thomas, however, found the sense of confusion that permeates the game an integral part of it:
+
+	In most games, this would mean you’d missed out the bit where you found out the answers. In So Far, the author has pushed the idea that in a strange world, the player might well face strange incomprehensible things, and to pass through that world, he might well have to figure out what they can do for him. He is not the focus of this world; it has its own history, its own concerns. The player will not get his hand held here.7
+
+Plotkin would later move away from more unforgiving styles of puzzle design that he saw as “still adhering to the Infocom tradition: a game should take many run-throughs to finish; you will almost certainly have to back up and retry earlier parts of the game in a different way.”8 A few weeks after the first release of So Far, he came up with a system later known as the Zarfian Cruelty Scale (after his online handle, Zarf) that could categorize the way a game’s puzzle design impacted the experience of play. A “cruel” game, for instance, lets you get into an unwinnable state without revealing there’s no longer any way to win. While many classic games had been cruel, conventional wisdom began to hold that this kind of design move was not really something most players enjoyed. IF was trending instead toward the “merciful” end of the scale, a key survival move in an era when players increasingly had far more games to choose from and less time to struggle with them. Plotkin’s next game, The Space Under the Window [1997], discarded puzzles and a consistent simulated world for a hypertextual story space navigated with single keywords; the narrative could change based on what parts of it the player chose to focus on. Shade [2000] tells a hauntingly spare story of a narrator whose reality is melting away around him, one item at a time. By the release of Hadean Lands [2014], a magnum opus of puzzle and system design, Plotkin had become one of interactive fiction’s grandmasters, an expert practitioner who has also contributed enormously to both code bases and community over the years, doing vital work to keep IF networks and tools alive. Among many other contributions, he defined the 32-bit Glulx format, which extended the lifetime of Inform games beyond the Z-machine’s legacy limitations, and he’s one of the founders of the Interactive Fiction Technology Foundation, a nonprofit helping to maintain and preserve IF history and technology.
+
+So Far remains significant for the way it pointed toward a different kind of future for interactive stories. Curses had demonstrated it was possible to make new games in the style of Infocom; now newer authors were beginning to explore what other kinds of styles there could be. In 2001, IF newcomer Emily Short 2000 2013 would write that while playing So Far is at times a struggle, its greatest achievement
+
+	is not teaching the player how to regard a single action as representative of moral choice, but presenting the whole world in such a way that it seems redolent of such choices, tying the physical environment intimately to the emotional one in ways that are sometimes visible only in retrospect.… Plotkin’s symbolism is merged wholly with the landscape; it is the landscape. The pieces are polyvalent and connotative, any given thing suggesting an array of connections and meanings, not denoting a single concept in its purity.
+
+   I am not sure whether any subsequent work has approached it in this regard. I am not sure that anyone has tried.4
+
+A new generation of interactive storytellers was arriving, one that was thinking more deeply than ever about their medium’s potential and its possibility. “If this carry-on doesn’t stop,” wrote Alistair Thomas in his So Far review, “we’ll be a proper grown-up medium before you know it.”7
+
+
+References
+
+1) Crigger, Lara. 2006. “Andrew Plotkin and Emily Short: The CGM Interviews.” Brass Lantern (blog). brasslantern.org/community/interviews/cgm.html | a Mar 28, 2020
+2) Ingold, Jon. 2008. “Horribly Unfair, Hauntingly Beautiful.” IFDB. Mar 29, 2008. ifdb.org/viewgame?id=rcrihauxixy48svr&review=3429 | a Oct 24, 2022 
+3) Jong, Philip. 2011. “Andrew Plotkin [Interview].” Adventure Classic Gaming (blog). Jan 7, 2011. www.adventureclassicgaming.com/index.php/site/interviews/622 | a Mar 28, 2020
+4) Short, Emily. 2001. “A Step.” IF-Review (blog). www.ministryofpeace.com/if-review/reviews/20010622.html | s Jun 22, 2001
+5) Sineath, Luke. 2012. “Jung on Myst.” IFDB. Apr 24, 2012. ifdb.tads.org/viewgame?id=rcrihauxixy48svr | a Mar 28, 2020 
+6) Stevens, Duncan. 2001. “So Far” (review). SPAG #25, Jun 20, 2001. www.spagmag.org/archives/backissues/spag25.html#far | a Mar 28, 2020
+7) Thomas, Alistair G. 1997. “So Far” (review). SPAG #12, Dec 13, 1997. www.spagmag.org/archives/backissues/spag12.html | a Mar 28, 2020
+8) Vestal, Andrew, and Nich Maragos. 2004. “Magic Words: Interactive Fiction in the 21st Century (Interview: Andrew Plotkin).” Brass Lantern (blog). www.brasslantern.org/community/interviews/magicwords-f.html | a Mar 28, 2020

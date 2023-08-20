@@ -1,0 +1,114 @@
+The Kingdom of Loathing
+
+2003
+
+Zack Johnson, Josh Nite, Riff Conner, Kevin Simmons, Chris Moyer, and others
+Style: Storylet-Driven
+Debuted: Jan 31, 2003 (beta)
+Feb 11, 2003 (public)
+Launch Platform: Web
+Publisher: Asymmetric Publications
+Language: JavaScript, PHP, Perl
+
+Opening Text:
+
+	Mt. Noob
+	The bird speaks to you as you approach. “Welcome, Adventurer! I’m the Toot Oriole, and I’d like to show you the ropes. Here they are.”
+
+	He points to a pile of ropes piled atop a nearby rock.
+
+
+One of the hottest video games in 1987 was Pro Wrestling for the Nintendo Entertainment System, and one of its most memorable moments, at least for English-speaking players, was a bad translation. After each costumed wrestler finished beating the stuffing out of his opponent, the victory screen would flash the memorably mangled text A WINNER IS YOU. A decade and change later, many of the kids who grew up with that phrase were stuck behind CRTs at desk jobs, whiling away long afternoons with nothing but high-speed internet and a web browser for company. Unable to play the games consuming them at home, like EverQuest [Sony Online Entertainment 1999] or Final Fantasy XI [Square Enix 2002], they’d cycle through favorite webcomics or the latest posts to geek culture sites like Something Awful, eBaum’s World, and Slashdot. So when those sites began plugging a free browser game whose homepage showed a stick-figure hero (sword in one hand, martini glass in the other) and the slogan “An Adventurer Is You!”—they smiled. They hadn’t even started playing yet, but the game was already speaking their language.
+
+Kingdom of Loathing has you create a character from one of six irreverent classes (Disco Bandit, Pastamancer) and take them on adventures through a tongue-in-cheek fantasyland built mostly from prose, supplemented by line drawings suggesting an imaginative, if not especially talented, classroom doodler. By visiting different parts of the kingdom, you can discover an endless array of quests, monsters, and loot, each based around an obscure reference, a groan-worthy pun, or, often, both. While trying to acquire crafting components from the Meatsmith, for instance, your Saucerer might get sent to call in a debt from the owner of the Skeleton Store (“for some reason, after he took a big crate of weapons and armor into his store filled with skeletons, he never came back to pay me”). Before finding the missing funds you must fight your way through a variety of skeletal opponents:
+
+	Combat!
+
+	You’re fighting a remaindered skeleton
+
+	You know how when you buy a skeleton, it usually has a label on it that says “If you purchased this skeleton without a skull you should be aware that this skeleton is stolen property. It was reported as ‘unsold and destroyed’ to the manufacturer and neither the skeleton’s original container nor the necromancer responsible for its reanimation has received any payment for this stripped skeleton?”
+	This is the kind of skeleton that label was talking about. And also the kind of skeleton that is attacking you.
+
+	You get the jump on it.
+	* Attack with your sewer snake 
+	* Use item: razor-sharp can lid (2)
+	* --> Use skill: Stream of Sauce (2 Mana points)
+	* Run Away
+	You blast it with a stream of hot Worcestershire sauce, dealing 13 damage.
+
+	You win the fight!
+
+	You acquire an item: skeleton bone
+
+		This is a bone from a skeleton. As opposed to all of those other
+		kinds of bones.
+
+		(Meat Pasting component)
+		Type: weapon (1-handed club)
+		Damage: 3 - 6
+		Selling Price: 35 Meat.
+		+1 Spooky Damage
+
+	You gain 2 Mysteriousness.
+	* Adventure Again (The Skeleton Store)
+	* Go back to Market Square
+
+Loathing takes nothing seriously. One of its best running jokes is the way it pokes constant fun at enormous MMORPGs filled with fetch quests and endless grinding, while being exactly that itself. Working through mobs of villains to increase your primary stats of Muscle, Mysticality, and Moxie, your character can unlock thousands of unique items, gain new powers, and discover intriguing areas to explore and rare weapons to craft—all with the goal of gaining enough levels to reach ascension, where your rewards include restarting with tougher constraints. “You probably wouldn’t be playing this kind of game if you didn’t like watching numbers get bigger,” the tutorial’s Toot Oriole chirps. Killing monsters gets you meat, the dominant currency of the land, with which you can buy (among other things) a wide variety of alcoholic beverages. Drinking increases the number of turns you can take each day and also your Drunkenness score, which can send you on very different kinds of adventures.
+
+Within a year of the game’s release more than 300,000 player accounts had been created, garnering attention from broader circles. “Kingdom of Loathing is a role-playing game that has gained quite a few fans, although it’s initially hard to see why,” begins a review by Common Sense Media, which advises parents about inappropriate content in books, movies, and games; the site took issue with the game’s irreverent humor, booze-soaked advancement mechanics, and racy double entendres. These factors, of course, were why it had appealed to its irreverent, booze-soaked audience in the first place. Stacked with in-jokes and geeky references, oozing the same disaffected sarcasm of contemporary Gen Xer movies like 1999’s Mystery Men or 2001’s Ghost World, it’s no surprise the game’s popularity grew in part through exposure on sites like Something Awful that treated the web mostly as an endless source of things to make fun of.
+
+While there had been earlier persistent browser games like Monarchy [Evernight 1997] or the strategy game Planetarion [Fifth Season A.S. 2000], web browsers in 2003 were not yet considered valid platforms for real gaming. Microsoft’s Internet Explorer still had 95 percent of the market share, and its abysmal support for CSS and JavaScript had locked developers into primitive designs, with advanced behavior only possible through much-reviled server-side languages like Perl and PHP or heavyweight plug-ins like Flash. But while working a series of dull IT jobs, the game’s creator, Zack Johnson, realized he’d picked up enough database and web design skills to put together a simple online game. It would be clunky, and it wouldn’t be pretty, but it would work. In January 2003 he set himself a challenge to make a game in a single week—earlier overambitious projects had always run out of steam. Inspired by a desire to poke fun at self-serious MMOs and a nostalgia for the BBS door games of the early 90s, Johnson whipped up a back-end to handle user accounts and game states, and a front-end to show result messages and simple pictures. By the end of the month he had a beta link ready for friends. The game had only a fraction of the mountains of content that would debut in years to come, but it was there, it was funny, and it worked.
+
+Like those BBS games, played on someone else’s computer and thus needing ways to artificially limit play time, Loathing’s reliance on server-side code meant some way had be devised to keep obsessive fans from driving up hosting costs or bringing the server to its knees. The game’s solution was to restrict the number of “adventures”—visits to areas with monsters or quests—your character could have in a single day, while also cleverly giving players ample ways to boost this number and feel like they were gaming the system. The limitation had a useful side effect: the game could be addictive, like EverQuest, but it was also rationed. Unable to binge its content, players would have to keep coming back day after day for more. And perhaps a regular audience would be willing to make regular payments. A system was added where users could make a monthly donation in exchange for unique cosmetic items. Though Loathing never gave paying players an in-game advantage, it was another early pioneer of the freemium model that would later come to dominate games in the so-called casual space.
+
+The game’s ability to run in a web browser, and its lack of telltales like sound or colorful graphics, also contributed to its popularity. It could be surreptitiously played at a desk job as a way of speeding up the clock during long weekdays, and it often was. “It’s quite easy to spend your daily quota of Adventures in a lunch hour,”11 wrote one reviewer, but a Slashdot commenter was more honest: “It’s a great way to kill time at work when nobody is looking.”12 As the game’s popularity continued to explode, some measurable percentage of world office productivity was spent leveling up leprechaun familiars and slaughtering millions of ninja snowmen.
+
+But Loathing’s success arguably came less from its structure than its wordplay and an unrelenting dedication to its particular sense of humor. “Before somebody figured out how to slice it,” the description of a magical baguette reads, “this was the best thing.” A nearby bagel is “primarily a vehicle for toppings, but it can also be used as a wheel for some sort of bread van.” Near the Dark Heart of the Woods one can also find the Dark Neck of the Woods and finally the Dark Elbow of the Woods. The Misspelled Cemetary, a reference to Stephen King’s Pet Sematary (neither spelling is correct), features dyslexia-triggering monsters like skleletons and zobmies. The game dunks on typical nerd villains like frat boys and hippies, and it never gives up a chance to roll its eyes at a gaming or fantasy trope. At a tavern, the bartender tells the player earnestly about his rat problem:
+
+	“Whole cellar’s just thick with ’em. I mean, sure, there are always rats down there—rats are a crucial part of the fantasy tavern ecosystem. Our problem is that there are too many rats. I need you to figure out why there are so many of ‘em, and put a stop to it somehow.” he replies.
+
+	“So there are … rats … in the cellar … of the tavern,” you sigh, “and I have to kill, what, like, ten of them?”
+
+While the mechanics may have kept people playing, the humor was what drew them in and gave them permission to stay. Year after year, an endless parade of joke items, new quests, special events, and rare encounters were added. Text meant new areas or enemies could go live in days, not months, and it meant the small development team could stay relevant to the fast-moving front lines of geek culture. In late 2005, the hot new MMO World of Warcraft [Blizzard Entertainment 2004] unleashed the Corrupted Blood plague, which weakened characters and could be transmitted through proximity; though intended only for a single high-level area, an exploit let it spread across the world and cause a massive ruckus. Not long after, some Kingdom of Loathing players started noticing their in-game chat messages fading to fainter and fainter shades of gray. When the community realized the text of anyone who’d chatted with those players was fading too, they dubbed it the Gray Plague. Curing it would involve a special quest to a zombie-infested alternate future that was set, in a nod to the 2002 Danny Boyle film, twenty-eight days later.
+
+It’s telling that the game’s version of a plague that weakened your combat stats was one that faded out the words you used to communicate. Beyond the obvious devotion to wordplay in the game itself, the creators took pains to encourage quality textual interaction between its players. Accessing the in-game chat system required passing a test distinguishing the difference between they’re, there, and their (administered by the long-suffering Ghost of the English Language). Once unlocked, users could find chat channels such as /haiku (where all messages posted had to match the proper syllable count), an active and well-mannered forum, and an array of features for interacting with other players:
+
+	The multiplayer features of [Kingdom of Loathing] aren’t available unless you can prove you’re a real person by associating an e-mail address with your account. If there’s one thing we’ve learned from our decades online, it’s that only real people have e-mail addresses.
+
+Multiplayer features included player clans, in-game shops, public display cases to show off your best loot, and a very on-brand system for player-versus-player combat. Rather than settling PvP through contests of player skill or comparisons of combat stats, opt-in matches were resolved through arbitrary and random comparisons, such as whose character had more items with the letter d in their names. 
+
+As with all kingdoms, this one had its dark corners. Like the in-group geek cultures of Something Awful, Penny Arcade, or 4chan (which debuted the same year as Loathing), the game’s humor at times smacks of the edgy jokes and casual cruelty often seen in male-dominated cliques who see themselves as underdogs. A 2008 expansion for multiplayer raids took place in a zone called Hobopolis, where you must murder hundreds of enemies styled as homeless people who deal Stench damage and drop items like a “filth-encrusted futon.” Elsewhere you could find a Gnollish Crossdresser who “claws you with bright-red, two-inch-long fingernails. You don’t know if the physical or the aesthetic pain is worse.” You could visit an orc frat party and meet underage lady monsters like the “totally trashed orquette” and “jailbait orquette” who would give you their phone numbers if you gave them beer. While these moments were uncommon (and some of these examples were later removed from the game), it’s not hard to connect some of the players who laughed at them to the dark clouds then gathering over gamer culture. In 2010, the creators of webcomic Penny Arcade would refuse to apologize for a rape joke, despite the obvious distress it had caused many fans;2 in 2014, the Gamergate harassment campaign began to target women and queer creators, especially those making games about issues like homelessness, rape, or gender identity. Online culture had reinforced the notion that these topics were only fit to be punchlines, and that real gamers—real men—should be able to take a joke about anything, no matter how poor in taste or personal the attack. 
+
+Johnson has said he picked the word “loathing” at random, needing a folder name to stick game data in.8 But he has also spoken about his deep depression during the time of the game’s creation,5 perhaps reflected in its obsession with binge drinking, its nothing-matters aesthetic, and its reinforcement of bitter or cruel tropes. As his game exploded in popularity during its first few years of success, he found himself catapulted into an unexpected position of power over thousands of adulatory players. By all reports, including his own,5 he did not handle that power responsibly. In the mid-2000s, approaching thirty, he would date several adoring fans a decade younger than him. Some of these women would later describe the relationships as manipulative and abusive, including A.M. Darke,9 who married Johnson in 2006 at age nineteen. A friend in the game’s inner circle had raped her before the marriage; when she later told him of the incident, Johnson downplayed it and kept the rapist in their friend group. “Zack never defended me,” Darke wrote in 2019. “Zack never called him out or cut him out of the community. For the entirety of our marriage, the man who raped me and bragged about it was welcome in my life.” Darke also described years of emotional and sometimes physical abuse, stories echoed by others formerly in Johnson’s inner circle. 
+
+When these allegations came to light in 2019—part of a years-long #MeToo reckoning with the treatment of women and other underrepresented voices in games and other media—the Kingdom of Loathing community was shaken. Some refused to believe the accusations. Some, in public or private, decided to quit playing, no longer comfortable supporting a company that had once seemed so aligned with their identities. Others tried to find a middle ground, taking to the forums to argue passionately that the game had grown beyond the culture and the cult of personality that once characterized it—that it had become more than the sum of its makers. There were more of them, for one thing, than had often been acknowledged; a huge cast of collaborators over the years (including Darke) had contributed to the game officially or otherwise, in ideas, writing, design, community management, code, bug fixes, or jokes.
+
+And fans had given the game a life far beyond anything imaginable when it launched as a one-off experiment created in a single week. The wiki had surpassed twenty thousand pages. Millions had adventured through the game’s pencil-sketched districts at least for a while, finding places on the map—or in the forums and chat rooms—that felt like home. The players did not own the game, but they owned the community. If they wanted to, they could do the work to make it one worth saving. One fan posted:
+
+	This community has some ugly sides, it’s snarky, it’s at times very elitist, but I’ve also seen a lot of good come from it. I’ve seen it help in the grieving process of an aging man following the loss of his life partner. I’ve seen people lend others their ear and a shoulder to cry on when they were battling depression, or facing a difficult breakup, or feeling lonely on their birthday, or being home alone drunk because life had them down.… This community, and this game for that matter, have done some good.3
+
+Johnson has denied some of the allegations against him, and responded to others by saying he has grown a lot in the years since. Not all fans are sure they can believe him. Attempts to reference Darke’s story in-game were swiftly silenced; forum discussions were contained to targeted threads. Johnson remains the owner of Asymmetric, Loathing’s publisher, and some no longer feel welcome in his kingdom. Like many fandoms, embracing this one now requires each player to answer hard questions. Can we enjoy a dose of comfort food that some now find spoiled? How do we evaluate a collaborative work woven by many makers over decades when some of those strands now look like flaws in the design, or when we can no longer trust all the weavers who contributed them? When do you leave a place that’s failed you, and when do you stay to make it better? 
+
+Loathing left an indelible mark on the history of text games, browser games, and casual games. The models it popularized—both as a web-based, stats-driven game surviving on the strength of its writing, and in demonstrating the way a small indie team could turn a niche game into a sustainable business—would prove influential on the rebirth of commercial text games in years to come. Its writing and mechanics influenced hundreds of thousands of players. Many of its references have grown dated, confusing younger generations who never watched Beetlejuice on VHS, cursed at Zork, or played Pro Wrestling; some of its humor has paled, best left forgotten. From a game so tied to the cultural context surrounding its creation, it’s ironic (if inevitable) that, as time goes on, the most enduring jokes are the most universal—the puns and knee-slappers that might elicit groans from an adventurer of any generation:
+
+	“Ah, Merla! It is good that you are here, for a dire situation is at hand—evil is afoot!”
+
+	“Well, which is it?” you ask. “A hand, or a foot?”
+
+	“Yes yes, you’re very witty. Don’t interrupt me, child, this is important…”
+
+
+References
+
+1) Bishop, James. 2010. “On One’s Own: Kingdom of Loathing.” DIYgamer (blog). Apr 6, 2010. www.diygamer.com/2010/04/kingdom-loathing | s Jun 18, 2010
+2) Edidin, Rachel. 2013. “Why I’m Never Going Back to Penny Arcade Expo.” Wired. Sep 5, 2013. www.wired.com/2013/09/penny-arcade-expo-dickwolves/ | a Jul 21, 2022
+3) Hippie Boy. 2015. “The Dark Side of KOL: Misconduct and Abuse IRL by TPTB.” Comment by user Corgster. Forums of Loathing. Dec 3, 2015. forums.kingdomofloathing.com/vb/showthread.php?t=240165 | a May 22, 2020
+4) Janelle, Robert. 2008. “Stumbling Into the Kingdom of Loathing.” The Escapist (blog). Aug 5, 2008. www.escapistmagazine.com/articles/view/issues/issue_161/5112-Stumbling-Into-the-Kingdom-of-Loathing | s Jun 13, 2011
+5) Jick. 2019. “A message to the KoL community.” Forums of Loathing. Oct 4, 2019. forums.kingdomofloathing.com/vb/showthread.php?t=240428 | a Jul 21, 2022
+6) Olivetti, Justin. 2010. “The Game Archaeologist’s Fear and Loathing in the Kingdom: The Highlights.” Massively (blog). Nov 2, 2010. massively.joystiq.com/2010/11/02/the-game-archaeologists-fear-and-loathing-in-the-kingdom-the-h | s May 8, 2011
+7) Polly, Jean Armour. 2004. “Kingdom of Loathing - Website Review.” Common Sense Media. Nov 8, 2004. www.commonsensemedia.org/website-reviews/kingdom-of-loathing | a May 22, 2020
+8) “The KoL Wiki.” 2020. kol.coldfront.net/thekolwiki/index.php/Main_Page | a May 22, 2020
+9) Valentine, Rebekah. 2019. “Games Professor Accuses Kingdom of Loathing Designer of Abuse.” GamesIndustry.Biz (blog). Sep 23, 2019. www.gamesindustry.biz/articles/2019-09-23-games-professor-accuses-kingdom-of-loathing-designer-of-abuse | a May 22, 2020
+10) Warren, Ben. 2015. “Zack Johnson Interview.” My Boxed Universe (blog). Feb 7, 2015. myboxeduniverse.wordpress.com/interviews/the-kingdom-of-loathing-zack-johnson-interview | a May 22, 2020
+11) White, Barry. 2009. “Kingdom of Loathing Review.” Gamezebo (blog). Dec 31, 2009. www.gamezebo.com/games/kingdom-loathing/review | s Mar 4, 2014
+12) Zonk. 2007. “What Are The Best Free Games Online?” Comment by user funaho. Ask Slashdot. Nov 6, 2007. ask.slashdot.org/story/07/11/06/1558234/what-are-the-best-free-games-online | a May 22, 2020

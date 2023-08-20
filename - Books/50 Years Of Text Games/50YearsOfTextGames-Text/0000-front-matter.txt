@@ -1,0 +1,313 @@
+
+
+
+
+
+50 Years of Text Games: From Oregon Trail to A.I. Dungeon
+
+
+by Aaron A. Reed
+
+
+
+
+
+
+
+This text file version of "50 Years of Text Games" was created by the author for backers of the project's Kickstarter campaign. For information on where to purchase digital or physical versions of the book, visit aaronareed.net.
+
+
+
+
+
+
+
+
+Copyright © 2023 Aaron A. Reed
+
+All rights reserved. Permission to excerpt portions of this book for classroom, education, reviewing, archival, or other noncommercial purposes is granted. The book as a whole may not be reproduced or used in any other manner without the prior written permission of the author.
+
+The images in this book are copyright to their respective owners where credited, or appear under fair use. Cover art, layout, and maps by the author except where noted.
+
+Hardcover ISBN: 979-8-9859661-3-8
+Paperback ISBN: 979-8-9859661-4-5
+E-book ISBN: 979-8-9859661-2-1
+
+Name: Reed, Aaron A.
+Title: 50 Years of Text Games: From Oregon Trail to AI Dungeon / Aaron A. Reed
+Description: First Edition. Oakland: Changeful Tales Press, 2023
+Identifiers: ISBN 9798985966138 (hardcover) / ISBN 9798985966145 (paperback) / ISBN 9798985966121 (e-book)
+Subjects: LCSH: Computer Games—History.
+Library of Congress Control Number: 2022949771
+
+First Edition March 2023
+10  9  8  7  6  5  4  3  2  1
+
+Copyedited by Emily Morganti.
+Typeset in Baskerville URW, Aktiv Grotesk, Bebas Neue, Calibri, & Nexus Typewriter. Covers use Color Basic by Typodermic and Ac437 IBM BIOS by VileR (CC BY-SA 4.0).
+
+Changeful Tales Press
+Oakland, California
+
+aaronareed.net
+
+Printed in China
+
+
+
+
+
+
+
+For Willie, Don, Roberta, Steve, Brian, Ron, Graham, Andrew, Adam, Emily,
+Nick, Victor, Carl, Peter, Dan, Jacq, Yoon, Tarn, several Sams, 
+and everyone else who built me a world of words
+
+
+And for Dad
+
+
+
+
+
+
+Crowdfunding Patrons:
+
+Alan Hinchcliffe (in memoriam—miss you, pal)
+Adam Summerville
+Adrian Hon
+BLAST RETRO GAMING BOOKS
+Botta Family
+Chad Barb
+Chelsea Stearns
+Chris Charla
+David Rheingold
+Garnulf the Grey
+Gwenda Obels
+Hans Petter Jansson
+Herní historie, z.s.
+Jake Rodkin
+James ‘Matty’ Farrow
+John Urquhart Ferguson
+Matt Hargett
+Nathan “instigator“ Green
+Patrick Coleman
+Peter Engrav
+Petrov Neutrino
+Sean B Swick
+Serhii Mozhaiskyi / Ukrainian Interactive Fiction Community
+Stacey Mason
+starmaru
+Stephen Lafleur
+Steven Velozo
+Thomas Biskup
+Tommy Honton
+
+
+
+
+
+
+
+This book would not have been possible without the generosity of many folks who answered questions, assisted my research efforts, offered feedback or corrections, helped with translations, or otherwise lent support. Thanks to Tarn Adams, Jacqueline Ashwell, Richard Bartle, Stephanie Boluk, Justin Bortnick, Jason Castonguay of ACB Radio, Lynn Cherny, Nyeogmi Choi, Raph D’Amico, Depresiv, Tamara Duplantis, Ruber Eaglenest, the Electronic Literature Organization, Clara Fernández-Vara, Hannah Flynn, Jeremy Freese, Jacob Garbe, Tim Gilberts, Stanislav Hrda, Isaac Karth, Hugo Labrande, Jennifer Loredo at the US Army Heritage and Education Center, Pablo Martinez, Steve Meretzky, Matt Mihály, Nicola Newton, Andrew Plotkin, Jenni Polodna, John Pritchett, Jason Scott, Isabella Shaw, Emily Short, Rebecca Slitt, Gillian Smith, Vojtěch “sCZther” Straka, Nic Velissaris, and Noah Wardrip-Fruin.
+
+Also worthy of special thanks is the Internet Archive, without which hundreds of online and early print sources cited in this volume might have been lost forever; the physical archives of the Computer History Museum in Mountain View, California; MobyGames for their work cataloging vintage game credits and reviews; and every academic institution that open-sources its research rather than locking it behind a paywall. (In this spirit, the chapters in this book first appeared as free posts on Substack, and will remain accessible that way indefinitely.)
+
+I am inspired by and indebted to Jason Dyer, Jimmy Maher, and David Welbourn for their ongoing work documenting text games and their history with a passion and attention to detail I can only aspire to. Their work has proved invaluable time and time again, and each have their own projects well-deserving of your support.
+
+Maps and flowcharts were created by the author except where noted, using the tools GitMind and Dungeon Scrawl (by Keir a.k.a ProbableTrain).
+
+My copyeditor, Emily Morganti, and decade game listings research assistant, Duncan Bowsman, both provided invaluable assistance; their attention to detail helped make this book the best it could be, though any remaining mistakes are certainly my own.
+
+As this project evolved, it gathered an invaluable online community of fans and fellow researchers. Initial work was supported by paid subscribers to the “50 Years of Text Games” Substack, who believed in the free blog series enough to financially support it even without exclusive content; their continued votes of confidence helped keep me going. Thanks also to my crowdfunders who helped bring the print and e-book version of this project to life, and to the participants in the “50 Years” Discord who caught typos, offered feedback, and provided much-needed cheerleading and advice.
+
+
+
+
+
+Glossary
+
+AI: Artificial Intelligence; in the context of text games, common AI domains include natural language understanding, characters who make plans or try to achieve goals, and generating grammatically correct or narratively interesting sentences.
+
+ANSI graphics: A way of rendering simple images on computers using colored text characters, popular in the early to mid-90s especially on BBSes; the name refers to the American National Standards Institute, though not a particular standard.
+
+ARPANET: A precursor to the modern internet developed in the 1960s and 70s by the US military’s Advanced Research Projects Agency.
+
+ASCII: One of various standards for encoding text on computers defined by the American Standard Code for Information Interchange; often used to distinguish text-based from graphical game interfaces.
+
+BASIC: A programming language targeted at beginning computer users, developed in the 1960s and popular through the late 80s.
+
+BBS: Bulletin Board System, a computer connected to one or more telephone lines that allowed users with accounts to dial in via modem to access files, chat with other users, and play games (see 1991).
+
+C, C++: Mainstream programming languages used for many professional applications and forming the basis of many graphical game engines.
+
+CD-ROM: A media format based on compact discs, capable of holding about 650 MB of data; replaced floppy disks with far less storage capacity in the 1990s and helped bring video and multimedia to computer gaming.
+
+changelog: A file that holds a record of changes made to a program in each of its previous releases.
+
+chatbot: A program designed to converse via text with a human interactor.
+
+choice-based: In reference to interactive fiction games, those that provide a list of actions the player can take at each turn (contrast with the open-ended prompt in a parser-based game, or clickable links in hypertext fiction).
+
+command line: A computer interface based on typing textual commands at a prompt.
+
+compass navigation: In text adventures, the convention of using cardinal directions like north and east to move between areas.
+
+compile: The process of converting human-readable source code into executable machine code that runs on a particular kind of computer system.
+
+core loop: Game design term for the central cycle of player activity in a particular game; the core loop of Monopoly is rolling dice to move around a board and pay rent or buy properties.
+
+corpus, corpora: In the context of text games with AI, a data set used by a program for analysis or training, such as a corpus of public-domain novels used to train a program to recognize well-constructed sentences.
+
+cutsceneL A noninteractive segment of a game, often used for exposition or major plot events in which the player isn’t allowed to intervene.
+
+CYOA: Short for Choose Your Own Adventure, the popular 1980s gamebook series (see 1979); often used generically to refer to any choice-based interactive story.
+
+D&D: Dungeons & Dragons, a tabletop roleplaying game first published in the 1970s and influential on many early computer games (see 1975–7); one player (the “dungeon master”) creates a fictional story or setting for the other players, each controlling a specific character, to explore. 
+
+dial-up: An online service requiring a modem and telephone landline to connect. 
+
+domain-specific language (DSL): A programming language designed to author one specific kind of program, like Inform for text adventures; contrast with a general-purpose language like C++.
+
+DOS: Disk Operating System, one of several pregraphical command-line operating systems for early computers, of which Microsoft’s MS-DOS was the most popular.
+
+dumb terminal: A keyboard and display with little or no local computing power, allowing a user to run a program on a distant computer. See also mainframe.
+
+dungeon master: See D&D.
+
+emulator: A program that allows software for one computer platform to be run on another; often used in games preservation to run old programs on modern machines.
+
+flag: A variable tracking a single piece of state in a program, often boolean (either set or unset); a game character might have an alive/dead flag, for example.
+
+Flash: A software platform from Macromedia (later Adobe) for creating graphical animations and user interfaces, commonly used in the 2000s to create more visually sophisticated games and apps for the web, before support for advanced styling and JavaScript features became commonplace.
+
+floppy disk: Early computer storage medium, used from the late 1970s through early 90s; common sizes included 5.25″ disks (often holding 360 KB of data) and 3.5″ disks (1.44 MB).
+
+freemium, free-to-play: A monetization strategy that became popular in the 2010s, especially for mobile games, where rather than purchasing a game outright, players are encouraged to pay for upgrades to free (but often annoyingly constrained) gameplay.
+
+gamebook: An interactive story that is (or could be) realized as a printed book.
+
+gamemaster: A system-neutral term for “dungeon master.” See also D&D.
+
+GDC: The Game Developers Conference, held annually in the San Francisco Bay Area since 1988; one of the digital game industry’s major trade shows.
+
+Glulx: A 32-bit virtual machine format designed by Andrew Plotkin in 1999 that extends Infocom’s 16-bit Z-machine, allowing for text adventure games significantly larger in size and scope than those made during the 80s.
+
+handle: An alias used online, often consistently across multiple systems.
+
+Hello World: A simple example program often used as the first code encountered in a tutorial, generally printing Hello World to the screen or some equally simple task.
+
+high-level: In the context of programming, code that centers big-picture structures and concerns rather than underlying execution, letting authors focus on the specifics of a problem at the expense of slower execution or less control over minutia. See also low-level.
+
+hypertext: A textual work consisting of passages connected via clickable words, allowing multiple possible pathways through a reading.
+
+IDE: Integrated Development Environment, a tool for editing code,  often with advanced features to assist and streamline common programming tasks and workflows.
+
+IF: See interactive fiction.
+
+IF Comp: The Interactive Fiction Competition, an annual online event since 1995, invites authors to submit an interactive story that can be enjoyed in two hours or less; players rank entries on a ten-point scale.
+
+Infocom: A 1980s game company known for releasing high-quality, imaginative parser interactive fiction games (see 1983–5).
+
+Inform: A popular language for creating parser interactive fiction, first released in 1993; Inform 6 became a standard from the mid-90s on, and Inform 7, with a new natural language syntax, was released a decade later (see 2008).
+
+interactive fiction: In this book, any text-based interactive story (though the term has been used in various ways by various people, often to mean parser-based text adventures specifically).
+
+iOS: Apple’s mobile operating system, which drove devices like the iPhone and iPad from the 2000s on.
+
+IT: Information Technology, often used as a shorthand for staff in charge of maintaining computer systems at a company.
+
+Java: An object-oriented programming language popular from the late 90s on, often used in the 2000s to embed complex programs on websites.
+
+JavaScript: A programming language (largely unrelated to Java) designed originally to support lightweight scripting on websites; became the dominant platform for nearly all web-based apps and games.
+
+low-level: In the context of programming, code that is conceptually closer to the functioning of specific hardware, offering the author more control at the expense of less portability, readability, and fewer helpful abstractions. See also high-level.
+
+mainframe: A powerful, expensive central computer designed for many users to connect to and share, often via a teletype or dumb terminal; common before the 1980s when computers were too expensive for individual users to own. See also timeshare.
+
+mechanic: In a game, a rule or set of rules that enable a particular kind of action from the player; combat games might have a dodging mechanic.
+
+microcomputer, micro: A personal computer; useful term in the late 70s and early 80s contrasting with mainframes or smaller (but still massive) minicomputers. 
+
+MMO, MMORPG: A massively multiplayer online game (or specifically role-playing game) that lets hundreds or thousands of players coexist within the same virtual world.
+
+modem: Hardware allowing one computer to remotely connect to another over a standard telephone landline.
+
+MUD: Multi-User Dungeon, a game genre named after progenitor MUD (see 1980); multiplayer text-based virtual world, often with a fantasy setting.
+
+newsgroups: See Usenet.
+
+NPC: Non-Player Character: any character in an interactive story who is part of the game world but not controlled by a human player. See also PC.
+
+parser: A text input system designed to read a command and parse it into a form the program can understand; often used as shorthand for parser-based interactive fiction.
+
+pathfinding: Code that helps a computer-controlled game character to move from one point to another in a simulated world, or more generally, to find a route between two nodes on a graph.
+
+PC: Personal Computer; usually used to differentiate DOS- or Windows-compatible machines from Apple or other architectures, as in “PC gaming.”
+
+PC: Player Character; any character in an interactive story controlled by a human. See also NPC.
+
+port: To rewrite or modify a program so it can run on a different kind of computer.
+
+procgen, procedural generation: A class of techniques used to build large amounts of random content (often environments, items, or characters for a game world) based on rules created by a coder or designer.
+
+punch card, punch tape: Early methods of storing binary data by punching and reading holes in paper media; mostly replaced by magnetic media by the late 1970s.
+
+puzzle: In text games, a challenge or obstacle blocking narrative progress, often used for pacing; waned in popularity during the 1990s.
+
+PvP: Player versus Player; multiplayer games that allow human players to pit their characters against each other to win points, treasure, clout etc.
+
+QA: Quality Assurance, the process of testing gameplay and reporting bugs, or the team in charge of this process.
+
+readme: A file included with a download that often explains its contents, gives instructions, and provides the author’s contact details.
+
+repo, repository: A digital storehouse for a program’s code, often part of a version control system that archives each prior revision.
+
+roguelike: A style of game named after Rogue [1980] characterized by exploring dangerous randomly generated environments, a top-down view that uses text characters as surrogate graphics, and frequent deaths and restarts as a core part of its gameplay.
+
+roleplaying game: A kind of tabletop or digital game centered on the narrative or numeric improvement over time of a strong central character or cast.
+
+room: A discrete location in a text game, which could be anything from an actual indoor room to a huge outdoor space.
+
+RPG: See roleplaying game.
+
+SPAG: The Society for the Promotion (originally Preservation) of Adventure Games, online newsletter promoting interactive fiction founded in 1994.
+
+storylet: A piece of content in an interactive story with rules for when it can appear; often contains attached choices and consequences.
+
+string: In programming, a piece of textual data (likely named based on its implementation as a sequence of single characters).
+
+sysop: System Operator, administrator of a networked computer system or BBS.
+
+tabletop roleplaying game: a nondigital roleplaying game played with dice, a rulebook, a gamemaster, and a group of players.
+
+TADS: The Text Adventure Development System, a C-like language for interactive fiction authoring popular in the 1990s and 2000s.
+
+teletype, teleprinter: A typewriter that can send and receive text from a connected computer, local or remote; the primary interface for most computer users in the 1970s.
+
+text adventure: A game style characterized by a command-line parser and second-person explorations of a simulated world (see 1976).
+
+text game: A digital game that uses primarily written or spoken language, rather than multimedia, to tell its story.
+
+time-share: A method of allocating mainframe computer time allowing many users share a single system, taking advantage of the fact that much of an interactive section is idle time as the system waits for the user to respond.
+
+transcript: A record of one playthrough of a text game.
+
+UI: User Interface, the part of a program the user directly sees and interacts with.
+
+Usenet: A distributed online discussion network organized by topic popular in the 90s and early 2000s; groups like rec.arts.int-fiction hosted important early text game design conversations.
+
+virtual machine: A computer platform designed to be easily emulated in software; useful for running the same code on many different kinds of computers.
+
+visual novel: A style of interactive story popularized in Japan in the 1990s and 2000s, characterized by conversation-heavy stories illustrated by full-screen character portraits.
+
+walkthrough: A step-by-step guide to playing through a game; for text games, often in the form of a list of commands.
+
+Win: Short for Windows, dominant operating system on PCs from the early 90s on.
+
+Z-machine: A virtual machine developed by Infocom in the early 80s to run games compiled into Z-code, a custom format; this let them easily port their games to many computer systems (see 1977). The format was later repurposed by fans and used well into the 2000s. See also Inform.
+
+ZIL: The Zork Implementation Language, a Lisp-like programming language used by Infocom to create their games.
+
+
+

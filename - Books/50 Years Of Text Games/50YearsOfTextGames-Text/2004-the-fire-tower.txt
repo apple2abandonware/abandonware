@@ -1,0 +1,139 @@
+The Fire Tower
+
+2004
+
+Jacqueline A. Lott Ashwell
+Style: Parser
+Debuted: Jun 13, 2004 (IF Art Show)
+Launch Platform: Z-machine v8
+Language: Inform 6
+
+Opening Text:
+
+     “You’re certain that you’ll be okay on your own?” he asks.
+     
+     You smile at him, tightening the pack around your waist. A slight laugh creeps into your voice—it’s not as if you haven’t done this before. “Yes, dear. I’ll be fine. It’s nothing personal, I just…” You take in the concerned expression on his face and your voice softens slightly. “I just need a break. Not from you, necessarily, but from everything: work, responsibilities, friends. I just need a day to myself, you know?”
+
+
+“I’d be lying if I said I don’t have fond nostalgia for the text adventures of old,” the review began. “Interactive fiction used to be about finding lost treasure or battling monsters in dark dungeons or saving the world from terrible evil. How times have changed. The Fire Tower is about a hiker.”12
+
+“I guess this is where my issues with the game begin,” another reviewer wrote. “The problem with making a game that has no ‘fiction’ element is that there is not much motivation to engage with the player character.… Bottom line: this is a pleasant interlude, quick, and in some sense a recommendation piece for … mountain hiking in general. But most IFers will regret the lack of more ‘I’ and the complete absence of the ‘F.’”11
+
+The interactive fiction in question had debuted in the sixth IF Art Show, the same event that had also once inspired Galatea in its Portrait category. The Fire Tower was a Landscape. Answering the show’s call, it was designed to be playable in forty-five minutes or less and to have “no overriding, compelling, ‘world saving’ goal that hurries players on, encouraging them to bypass experiences.”6 The experiences along the way were, in fact, the point. Stopping to smell the flowers was the game’s whole reason to exist. 
+
+The Fire Tower recreates, in loving detail, a real section of the US Appalachian Trail in Great Smoky Mountains National Park: a sixteen-mile loop that climbs to the Mt. Cammerer fire tower and winds up and down ridges with ample views of rolling hills and forested valleys. Your character is a young woman who’s both an experienced hiker and a knowledegable naturalist, and under your direction she walks the trail with confidence, facing no hunger timers, puzzles, weather hazards, or other real obstacles. It’s a game “about experiencing a real place that may or may not be outside your normal element,” wrote its author in the introduction. “There is no way to go wrong.” 
+
+     >look
+
+     Hiker Parking
+     The hiker parking area is where people generally leave their cars while exploring the nearby trail system in the national park, but this morning it’s devoid of vehicles. A grassy hill, recently mown, lines the western edge of the parking lot, while a forest abuts it to the east. From the parking lot there are two roads: one departing north, toward the park exit, and one leading south toward the campground just under half a mile away. A trail enters the woods to the east, quickly disappearing amongst the hemlocks.
+
+     For your hike, you can proceed either east or south. Either route will take you to the Lower Mt. Cammerer trail.
+
+     >east
+     You decide it’s best to leave the pavement as quickly as possible, and opt for the trail into the woods. The path, lined with wildflowers, curves south, then southeast, before joining with the Lower Mt. Cammerer trail.
+
+     Trail Junction (Lower Mt. Cammerer & Access trails)
+     You’re standing at the junction of two trails, and two signs are nailed to a single post here to orient you. The Lower Mt. Cammerer trail heads northeast, toward the Sutton Ridge Overlook and, eventually, to the Appalachian Trail. Alternately, the trail continues southwest toward the campground, about two tenths of a mile away. A second trail, unnamed, runs northwest, toward the parking area where you began, or southeast, toward the Low Gap Trail. 
+
+     A patch of yellow flowers is growing at the base of the signpost.
+
+     >look at flowers
+     You know the flowers to be jewelweed, and it’s common in moist soils like those found here. The tiny, trumpet-shaped yellow flowers hang from their nearly translucent stalks like jewels from a necklace. They’re perhaps best known as a natural remedy for poison ivy; fortunately, you’ve no need of such a treatment today.
+
+     >look at sky
+     The sky is a rich, warm blue, and the sun is climbing in the east.
+
+     >listen
+     A mosquito buzzes briefly past your ear.
+
+     >smell air
+     The air smells of life, of greenery and nearby streams. Lovely.
+
+     >northeast
+
+The game’s author—National Park Service ranger Jacqueline (Lott) Ashwell—wrote the piece while stationed in Alaska. But her career, and a lifelong love for nature, began in the Great Smoky Mountains. She’d started volunteering for the NPS at age nineteen, and although she’d considered careers in law, medicine, and anthropology while in college, she finally realized her happiest jobs had been helping others enjoy nature. As a teen she’d worked for a whitewater rafting company, and with the NPS she’d led tour groups on hikes or helped with search and rescue in the woods. After completing a masters in historical archaeology—her thesis was on historic cemeteries in the Smokies—she pivoted to the hard training needed to become commissioned as a park ranger. Her first assignment would be to remote Wrangell–St. Elias National Park, three thousand miles away, but part of her heart remained in the mountains of Tennessee. Her Art Show entry would be dedicated to “the Great Smoky Mountains National Park and all the wonderful staff there, past and present, for preserving this place that means so much to me, my home, the mountains that will always be a part of my soul.”
+
+Ashwell was a lifelong fan of interactive fiction. She’d started on Choose Your Own Adventure books almost as soon as she could read, and when she was eight, her parents bought a Commodore 64 and Zork. “I don’t think I solved it for a number of years,” she recalls,
+
+     but the beauty of many of the locations became fixed in my mind, and I would daydream about wandering through the Great Underground Empire when I should have perhaps been studying French … the prose made my imagination wander.… [I] would read a description and then stop to visualize.4
+
+As she got older, she moved on to other Infocom games like Suspended (“For some reason I never had the sense to completely give up”3), The Hitchhiker’s Guide to the Galaxy, and Wishbringer [1985]. “It was always the writing that drew me in,” she remembers. “Immersive games always won me over far more than games that focused so much on puzzles that they neglected the prose.” The games were “how I got out into the wilderness when I lived in a city and was too small to venture out alone.”8 She found the online newsgroup community of amateur IF authors as an adult, and discovered the accessible design language Inform. While she had never considered herself a programmer, she decided Inform was a tool she could learn to use.
+
+The piece she entered in the 2004 Art Show is deliberately spare in its design, following the show’s prompt. It features a small handful of inventory objects for realism—including trail mix, water, and hiking boots—and though you can snack, stay hydrated, or take stretch breaks if you like, none of this is required. The game takes you down a single trail and you can only move forward along it: except for a few short alternate routes or side paths, there are no decision points or backtracking. But the game hides a surprising amount of depth in the landscape you traverse. Dozens and dozens of scenery objects representing vistas, trees, rocks, signposts, flowers, insects, and animals abound, most of which can be appreciated with a wide range of sensory verbs, and you’re free to explore as much or as little as you like. The game “adapts itself to the player” in this respect, as one reviewer noted: “One can charge through the scenery for a bracing hike, dawdle in just a few places, examining everything, one can treat it as a wildlife-spotting expedition, or as a botany lecture.”7
+
+     >examine arbutus
+     The trailing arbutus creeps close to the ground, with clusters of small pink flowers along the stem.
+
+     >smell flowers
+     You kneel down at the edge of the trail and place your face near the trailing arbutus blossoms. The flowers are sweetly fragrant, and you take a few long draws of their scent before standing up again.
+
+     >touch arbutus
+     You brush your fingertips against the leaves of the arbutus, which are slightly fuzzy in texture.
+
+     >taste it
+     Arbutus is used to make tinctures and teas, but you’re not sure how to go about preparing something like that.
+
+The environment is filled with subtle touches that enhance the illusion of exploring it. Random events—from buzzing mosquitos to rustling squirrels to an explosion of grouse from a nearby bush—add color and variety to each hike. While most of these events are tranquil, there are occasional moments of excitement; some reviewers complaining that nothing interesting happened on their walk were incredulous when others reported a close encounter with a bear. As with actual excursions in nature, no two hikers would have quite the same experience.
+
+     Tom’s Creek
+     Sunlight pours forth into a large opening in the trees here, illuminating bits of pollen floating in the air and sparkling on the surface of Tom’s Creek. The stream flows northwest, gurgling beneath a rustic but sturdy log footbridge.
+
+     You hear the distinctive sound of a woodpecker in the distance.
+
+     >x pollen
+     Pollen dances in the air, floating aimlessly, lit by the sun, brought aloft by an occasional breeze. Some of it lands in the creek and is swept away.
+
+     >smell pollen
+     ACHOO!
+
+     >touch creek
+     You dip your hand in the water and hold it beneath the surface for a few seconds. Ultimately, the chill gets to you and you withdraw.
+
+     A tiny yellow butterfly lights momentarily upon your shirt, then quickly flies away.
+
+Other details include shifting descriptions of sky, sun, and clouds as the day progresses from early morning through, potentially, a late night. Moving between locations advances the clock at the rate it would actually take a fit hiker to travel, and each action takes time. If you linger in the woods too long, night can fall and the moon and fireflies will come out. Stay out even later and you might get a search party sent after you.
+
+Unlike most IF, where movement between rooms happens instantly, here more attention is paid to transitions between major milestones like landmarks or trail junctions, lending a sense of effort to the journey. And rather than striving for neutral descriptions, here the voice of the narrator is thick with personality, painting a portrait not just of scenery but of a hiker with a deep connection to the countryside around her. The result is a journey that feels more earned, and more personal, than many more fantastical quests in games.
+
+     >southwest
+     You recommence climbing the Appalachian Trail. Just as with the previous stretch, it’s littered with roots and rocks and excessive steepness, and makes you not such a happy hiker. “Oh well,” you think to yourself, “it’s making me stronger. Stronger. Yes. Stronger.” You continue this rather ineffective little pep talk for about a half a mile, at which point the trail graciously levels out along the crest of a ridge.
+
+     You find an easy, confident pace, and begin to notice how effortlessly your legs move on this type of terrain. The lack of obstructions in the trail allows you to take in the view as you hike, and incredible mountain vistas are present on both sides of the trail for a short while—successive waves of blue, smoky ridges trailing off into the distance.
+
+     After a bit, the trail begins to descend off the ridge and into the trees… gradually at first, then steeper, and your pace finds a decrescendo as you carefully navigate the slope. Many people prefer a strenuous uphill to this, because descending can be fairly hard on your knees and ankles, but after the beating your lungs and legs took on the AT earlier, you are inclined to respectfully disagree.
+
+     After a total walk of just over two miles, you encounter another trail junction. […]
+
+     Your socks have shifted uncomfortably in your boots, so you take a seat in the clearing to readjust them. Once you’re finished, you decide the ground feels good enough to simply rest there for a bit.
+
+Ashwell’s descriptions came from deep knowledge of a landscape she loved, echoing the way Will Crowther had recreated the caves he knew so well in Adventure thirty years before. “I’ve walked this path in the budding of a new spring,” Ashwell wrote in the game’s About text:
+
+     I’ve broken through the cobwebs that span the trail on early summer mornings. I’ve climbed to the top of these ridges to take in the glorious colors of autumn rippling across seemingly endless waves of forested peaks. I’ve walked with stooped shoulders through low-hanging rhododendron tunnels, weighted with snow and ice. I’ve felt the joy of my body finding its perfect stride along my favorite flat stretch of the Appalachian Trail, and I’ve felt the pain of my knee giving way on the steepest sections when I was carrying too heavy a load. I’ve led many people safely to the tower and back, but I’ve also visited countless times alone. This path and I are old friends.
+
+Other interactive fiction had centered exploration of an interesting environment before, but rarely with such focus. Kathleen M. Fischer’s The Cove had won the Landscape category in the 2000 IF Art Show, giving players a remote stretch of coastline to enjoy but also infusing it with plot and puzzles. Peter Nepstad’s 1893: A World’s Fair Mystery [Illuminated Lantern 2002] was an enormous commercial text game with an immaculately researched recreation of the famous Chicago exhibition; while it could be appreciated solely as living history, it also shoehorned in a plot about a diamond thief to help justify its status as a so-called real game. Even Brent VanFossen’s She’s Got A Thing for a Spring [1997], widely praised for its unusual focus on exploration of a lovingly rendered remote hot spring, had included a plot and puzzles. 
+
+In fact, most previous Art Show Landscapes had used some kind of gimmick: environments that changed their description if you switched between viewpoint characters, for instance, or were metaphorical instead of physical, or were described with poetry, not prose. Many simply ignored the stipulation in the rules to avoid unnecessary characters and plot. Ashwell was one of the first to enter the category and honestly engage with the prompt as given: to simulate an environment and let the player explore it, full stop. The Fire Tower was among the most pure explorations yet created in an interactive fiction engine—or indeed, in the days before walking simulators and art games, in a game engine of any kind.
+
+     >cross bridge
+     You climb onto the footbridge over Tom’s Creek, walk halfway across, and pause. One hand on the railing for balance, you close your eyes, feel the coolness of the water running beneath you, and concentrate on the sound of the water as it ripples along over unseen rocks. You stand there for perhaps two minutes, enjoying the water’s song, but eventually the cool air coming off the creek is too much for your uncovered legs and you decide to continue up the trail.
+
+The Fire Tower is not often listed in the IF canon. Its innovations are aesthetic, not technical—too unassuming to attract acclaim—and its design, though well-planned and finely crafted, is subtle rather than showy. Yet it’s a beautiful example of one end that interactive text can be turned to, and of “what happens when love and skill come together,”5 as one reviewer put it, a game infused with “authenticity … on all levels.” In its own way, it’s audacious: a kind of game few other authors would have dared release, comfortable in its skin and not trying to be anything but itself. Like Photopia and Galatea, more famous examples of IF minimalism, it pares its medium down to find an essence of truth at its core. Photopia found story; Galatea, character. The Fire Tower finds at the heart of interactive fiction a truth about journeys and why we take them, a seed of adventure that few other games dared leave alone to grow.
+
+“Perhaps the best praise I can offer the piece is this,” a reviewer at the time concluded: “I wish I’d written it.”10
+
+
+References
+
+1) Ashwell, Jacqueline. 2004. “How I Came to Be a Park Ranger.” All Things Jacq. July 2004. www.allthingsjacq.com/writing_20040701.html | a Aug 2, 2021
+2) Ashwell, Jacqueline. 2005. “Re: [GOTW] The Fire Tower.” Usenet post, rec.games.int-fiction, May 30, 2005. groups.google.com/g/rec.games.int-fiction/c/GEeboCEEfFY/m/KzW9zs9rf0kJ | a Aug 2, 2021
+3) Ashwell, Jacqueline. 2012. Interview by Duncan Bowsman. InsideADRIFT newsletter. www.adrift.co/cgi/download.cgi?1330 | a Aug 2, 2021
+4) Ashwell, Jacqueline. n.d. “My Involvment with Interactive Fiction.” All Things Jacq. www.allthingsjacq.com/interactive_fiction.html | a Aug 1, 2021
+5) Berry, J.D. 2004. “Judges’ 2004 Reviews: J.D. Berry’s Reviews: The Fire Tower.” IF Art Show (website). members.aol.com/iffyart/reviews6.htm#berrytower | s Nov 29, 2004
+6) Doe. 2004. “[IF Art Show 2004] Rules & Deadline.” Usenet post, rec.games.int-fiction, Mar 29, 2004. groups.google.com/g/rec.arts.int-fiction/c/x_8bMD48hnE/m/-EnEVH-aYykJ | a Aug 1, 2021
+7) Giles, Harry. 2007. “Re: Authorship and Meaning Creation in IF: Notes Towards an Essay.” Usenet post. rec.arts.int-fiction. Jul 31, 2007. groups.google.com/g/rec.arts.int-fiction/c/Ye5J0fS4uHY/m/olEcPHF6ebsJ | a Aug 2, 2021
+8) Matt. 2010a. “Tips from Interactive Fiction Authors – Jacqueline A. Lott.” Get Me Writing (blog). Oct 15, 2010. www.getmewriting.com/interactive-fiction/if-tips-jacqueline-a-lott | s Oct 30, 2010
+9) Matt. 2010b. “Tips from Interactive Fiction Authors – Bonus Round!” Get Me Writing (blog). Oct 28, 2010. www.getmewriting.com/interactive-fiction/if-tips-bonus | s Oct 30, 2010
+10) Penman, Mike. 2005. “The Fire Tower (Review).” SPAG, Jul 15, 2005. www.spagmag.org/archives/backissues/spag41.html | a Aug 2, 2021
+11) PJ. 2005. “Re: [GOTW] The Fire Tower.” Usenet post, rec.games.int-fiction, May 16, 2005. groups.google.com/g/rec.games.int-fiction/c/GEeboCEEfFY/m/bL2c0NMClfEJ | a Aug 1, 2021
+12) Whyld, David. 2005. “[REVIEW] The Fire Tower.” Usenet post, rec.games.int-fiction, Jul 10, 2005. groups.google.com/g/rec.games.int-fiction/c/W2CO1fYOQhM | a Aug 1, 2021

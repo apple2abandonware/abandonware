@@ -1,0 +1,195 @@
+dnd
+
+1975
+
+Gary Whisenhunt, Ray Wood, Dirk Pellett, and Flint Pellett
+Also Known As: The Game of Dungeons,
+Whisenwood Dungeon
+Style: Roguelike
+Debuted: Likely Fall 197514  (PLATO)
+Launch Platform: PLATO IV
+Language: Tutor
+
+Opening Text:
+
+	What is thy name?
+
+
+A curious high schooler pushes open the door to a university computer lab late one wintry night, tipped off at a party about something interesting happening on campus:
+The room lights were off. Cigarette smoke thick in the air, the ceiling disappeared in the gloom. Odd metal boxlike structures lined the room.… Dozens of people in the room, sitting in groups of twos and threes, hunched over each of the boxes, their faces weirdly lit with a strange orange glow coming from some sort of non-TV screen on the front of each box. Surreal as hell, never seen the like. Doing things with some sort of typewriter keyboard, pointing at the screens, laughing and yelling instructions at each other. Suddenly somebody nearby yelled, “Got ’im!” and simultaneously across the room somebody else yelled, “Damn it!” Games! They’re playing games!6
+
+The room was filled with PLATO IV terminals, and few people in the 1970s had seen anything like them. Far ahead of their time, the machines featured plasma touch screens with 512 x 512 resolution, capable of displaying text in custom fonts and images in sharp-edged orange vector graphics—years before CRTs were common, when most computer interfaces were still based on typewriters. Thousands of PLATO terminals in classrooms across the country had been networked into a single shared environment with message boards and chat, twenty years before the web. And PLATO programs were written in a unique language called Tutor that made it far easier to write software—especially software with graphics—than any other common language of the time.
+
+Funded by a huge government grant dating back to post-Sputnik fears that America was losing its science and education supremacy, PLATO had been developed at the University of Illinois at Urbana-Champaign across a decade of radical experimentation and widening deployment first to Midwestern universities, then to schools around the country. By the 1972 launch of PLATO IV, the platform had grown into a sophisticated multi-user network designed for students and teachers, rather than for specialists and hackers. Naturally, it wasn’t long before the students started figuring out how to make the thing play games.
+
+The earliest PLATO games were single-player, education-focused “lessons,” as the platform was designed to enable. But within months, illicit lessons like Moonwar [Louis A. Bloomfield 1972] and Empire [John Daleske 1973] were linking players in massive and increasingly complex multiplayer battles. Running on 1260 baud modems, the PLATO terminals took long seconds to update their screens but were built to be immediately responsive to keystrokes, allowing expert players to furiously key in commands a dozen moves ahead of what their slowly updating display could show. The creators of the games were usually young—some still in high school—and they found many clever hacks to speed up gameplay or improve it. Someone figured out that the terminals’ built-in microfiche slide reader could be activated even if no slides were loaded,
+
+	causing the mechanism to shake and make sounds, even illuminate the slide projector’s lamp.… Run the code in a loop, and you could get the machine to shake and rumble like a deranged washing machine on spin cycle, along with bright flashes of light as a spaceship exploded.6
+
+Since PLATO was designed for lay learners, access at most computer labs was open to all, with few locked doors or password-protected accounts. Often anyone could walk in off the street and sit down at a terminal. But as games proliferated and labs began turning into ad hoc LAN parties, adults started locking down access. This deterred the newborn gamers not at all. Kids started sneaking into computer labs after hours for all-night Empire tournaments, having pizzas delivered through windows, going to extreme lengths to secure a weekend of play:
+
+	My friends and I roamed all about the university campus in search of unrestricted PLATO terminals.… [One] lab closed around 8 p.m. Friday, but what they didn’t know was the back wall of the cubicles along the back wall of the lab had been unscrewed and set in place. You could pull back this wall and crawl behind it, wait for the lab to clear out, and be locked up for the weekend.
+	
+	… Every now and then, twenty or so minutes prior to the lab closing you’d pull the cubicle wall back and find someone else already hiding inside. Both of you there for the same purpose, neither wanting to lose the option or be called out, you just made room and hung out silently together.6
+
+Empire and many other early games were inspired by Star Trek—the show had been off the air for five years by 1974 but was still a dominant force in geek culture. But a new challenger appeared that year in the form of Dungeons & Dragons. Like PLATO, D&D was originally a Midwestern phenomenon, debuting on the wargaming tables of Gary Gygax in Wisconsin and Dave Arneson in Minnesota. The game made its first big appearances at Gygax’s Gen Con in Lake Geneva, an afternoon’s drive from PLATO’s home in Urbana. Within months of the 1974 Gen Con, D&D’s first print run of a thousand copies had sold out, with demand continuing to grow. The age of the fantasy roleplaying game had arrived. Soon PLATO was flooded with a glut of games filled with magic, dragons, and dungeons, most of them close adaptations of the tabletop hit.
+
+While tabletop roleplaying would eventually become better known for its focus on, well, roleplaying, the hobby’s earliest rulebooks can surprise modern readers with how mechanical their gameplay seems. First edition D&D’s only example of play, for instance, begins like this:
+
+	REF: Steps down to the east.
+	CAL: We’re going down.
+	REF: 10′, 20′, 30′—a 10′ square landing—steps down to the north and curving down southeast.
+	CAL: Take those to the southeast.
+	REF: 10′, and the steps curve more to the south; 20′. Steps end, and you are on a 10′ wide passage which runs east, southeast, and west. There is a door to your left across the passage on a northwest wall.
+	CAL: Listen at the door—three of us.
+	REF: (After rolling three dice) You hear nothing. (At this time a check for wandering monsters is also made.)
+	CAL: Ignore the door and proceed along the corridor southeastwards.
+	REF: 10′, 20′, 30′, 40′, 50′. “Four way”: Northwest, northeast, south and southwest—the south passage is 20′ wide.
+	CAL: Go south.8
+
+The rulebook even suggests using “random determination” to distribute monsters and treasures through an underworld map. It’s not surprising that so many people familiar with both the first D&D and the first computers started thinking about how easily one could digitize dungeon adventures. 
+
+Within months of D&D’s arrival at Midwestern colleges, plans for elaborate digital versions were underway. Many collapsed under their own ambitions. The earliest surviving example of a dungeon game was created by someone sick of waiting for more complex programs to be finished. During the summer of 1975, an Urbana-Champaign employee named Rusty Rutherford wrote a basic PLATO D&D game called The Dungeon. It didn’t try to do multiplayer, generate dozens of unique maps, or implement all the spells in the rulebook. It focused instead on one tight slice of the D&D experience: a hero trapped in a maze of rooms and corridors, fighting an endless barrage of monsters.
+
+Games on other contemporary systems were slowly spitting out uppercase characters on noisy printers, but PLATO’s revolutionary display could show all kinds of lettering as well as graphical sprites. Rutherford’s dungeon game had twelve of these icons, including a treasure chest and a selection of monsters from giant rats to skeletons—and, of course, a dragon. Given a character with stats generated completely at random, the player explored a map using the WAXD keys (an already-established convention for cursor movement on PLATO). Only the immediate surroundings were drawn around the hero sprite, who stayed stationary in the middle of the screen while the walls and hallways were redrawn around them after each move. The single-level dungeon had a fixed map, but monsters and treasure were randomly placed each game. The randomness could be unforgiving: your first step could collide you with a powerful monster and instantly kill you. But The Dungeon was D&D on a computer, simplified but playable. Within weeks it became wildly popular. 
+
+By 1975, PLATO’s gamer subculture had become an increasing irritant to those who thought the expensive computers should be used for education. An archive of the network’s electronic message board (one of the world’s first) contains dozens of annoyed rants about gamers, including this gem from that August:
+
+	What has happened during the preceding weeks is that chilren [sic] of unspecified ages spend their days at cerl playing games. This is not to say that I necessarily disapprove of playing games, but in the case of these children, concomitant with playing is the issuing of loud, disgusting noises of the following nature: "brrrrr...bang bang...kapow" or "aieee I have a level six dragon...help...help...HELP..." What do I care? I am busy trying to do some work which requires particular attention to detail and these constant expectorations make any attempt to do so almost impossible. [...] SOMETHING HAS TO BE DONE.15
+
+Some complainants took matters into their own hands:
+
+	sabotaged as many games as i could find after the morons using them refused to stop after repeated requests via message .... the games have not been destroyed but a "stop*" command has been inserted in the first block of each ....15
+
+Administrators tried various techniques to appease the antigamers, from enforced noise ordinances to banning games during school hours or outright deleting any they found on the system. Rutherford’s The Dungeon was more commonly known by its covert file name pedit5—the last allocated lesson name (and thus least likely to be needed) in a block given to the Population and Energy group. An antigame sysadmin was less likely to axe a program with such an innocent-sounding title. But the camouflage was short-lived: pedit5 soon became a known time waster and candidate for deletion. Rutherford had to recreate the program from scratch at least once, and to retype it from a saved printout on other occasions.
+
+It was these deletions that motivated two students at nearby Southern Illinois University, Gary Whisenhunt and Ray Wood, to finish up their own long-in-development dungeon crawler. The two had a serious advantage over Rutherford. Unlike at his school, SIU had only a single PLATO terminal, which Whisenhunt had become the admin for after showing far more interest than the faculty member assigned to it. The two called their program The Game of Dungeons, and with no risk of deletion they brazenly stored it under the lesson name dnd—though in 1975, to those not in the know, this was as esoteric a set of letters as pedit5.
+
+Like Rutherford’s game, dnd was directly inspired by D&D, stealing attributes, mechanics, spells, and monsters from its tabletop parent. It took The Dungeon’s basic framework and added significant depth to its gameplay, now taking place in the named setting of Whisenwood Dungeon (a portmanteau of the authors’ names). One key improvement came in character creation: given a randomly generated character with four of D&D’s six stats plus Hits for hit points, you could reroll until you got a hero more likely to make it past the first fight. 
+
+	     Shift-BACK for records
+	     LAB to reroll
+	     BACK for previous values
+	     NEXT to take these values
+
+	Strength     17
+	Intelligence  8
+	Wisdom       12
+	Dexterity     9
+	Hits          6
+
+	[NEXT]
+
+	What is thy name? > Lordar
+
+	Warrior’s secret name? > 
+
+The secret name was essentially a password, letting you return to the same character later; your public name appeared in-game and on the title screen’s hall of fame. After making a character, you’re dumped at the entrance of a dungeon that would eventually consist of twenty levels. As in pedit5, the WAXD keys move you through a maze of corridors and rooms filled with treasure and monsters. While Rutherford’s game labeled areas CORRIDOR or ROOM, dnd renders its maze only with lines, saving text for status reports or noteworthy events:
+
+	You found $220 in gold!
+
+	No door there
+
+Unlike later dungeon games with increasingly cluttered interfaces, character stats and other info appear only with special keystrokes, leaving the view immersively unadulterated during play. Things get slightly more complicated during combat:
+
+	      Level 2
+	        Spectre
+
+	fight, evade, magic
+	or cleric (f,e,m,c) > m
+
+	1. Fireball
+	2. Lightning Bolt
+	3. Flaming Arrow
+	4. Eye of Newt
+	5. Kitchen Sink
+	6. Sleep
+	7. Charm
+
+	Which spell > 7
+
+	The Spectre is not amused. Press NEXT to fight  [NEXT]
+
+	You were number 1326 for  Spectres
+
+This last message indicates the player has been killed (and is the 1,326th victim of spectres since the game’s memory was last reset). While combat calculations happened with much of the same complexity as tabletop D&D—taking into account monster and player stats, spells in effect, and equipment worn—in dnd, this math all happens behind the scenes. (Showing too many numbers might have made the game feel too much like the lessons its creators were trying to avoid.) As in The Dungeon, death meant permadeath, with no choice but to roll up a new character and enter the dungeon again.
+
+While some PLATO dungeon games followed D&D’s rules obsessively, dnd keeps its tongue more in cheek, with joke spells like Kitchen Sink. (You can also cast Dispell and Datspell.) There are inside jokes, like a monster apparently named after a particular obnoxious freshman. Whimsical little epilogues appear when you defeat a monster: “Swiss Cheese!” “Fried it!” “Eat ’em Alive!” The lighthearted humor and rapid demise of characters formed an addictive loop that would become a key draw for dungeon games of future decades. “I’ve fed 145 characters into the dungeon so far,” one modern dnd player wrote. “I’m writing this at 3am, but I think I’ve got time for just one game before bed.”10
+
+By early 1976, Rutherford had moved on and pedit5 had been deleted for good, but Whisenhunt and Wood continued to maintain dnd, which soon eclipsed its predecessor’s popularity. That year an Iowa State student named Dirk Pellett became obsessed with the game, sending in so many suggestions and bug reports (“a few hundred,” in his recollection12) that the authors gave him edit access and told him to knock himself out. Soon Dirk’s brother Flint joined the team, and the two expanded the game significantly over the next few years, adding magic items and potions, books, pits and transporters, more dungeon levels, and even unique items:
+
+	Among the new items was the Genie Lamp … in a desperate situation the player could wish themselves out of the dungeon.… Another use for the Genie was making a wish to the game operators, by term-comment to write a note [to the game’s admins]. The Genie Lamp could be exchanged for nearly anything that could be granted: more hits, a different item, a few levels, and so on. 
+	
+	… Gerhard Lueschen, a friend of the game authors, once made a wish: “I wish I was an author.” He meant, of course, being added as a game author. Instead, the Genie granted his wish: for a week, one book in five found in the dungeon by anyone was “The Life and Times of Gerhard Lueschen, by himself.”12
+
+dnd was more fair than pedit5, with monster strength scaled by dungeon level and more predictable strategy. But it was still brutally hard and seemingly endless. The game eventually gained an explicit goal: reaching the lowermost dungeon level to retrieve “the almighty ORB, which makes the holder (you) so invincible that when you get it out, you must be retired to the Elyssian Fields.” But the orb is guarded by “the deadliest monster in the dungeon: The Dragon!” who “has been known to cause as many as 100,000 hits of damage.”
+
+This was orders of magnitude more Hits than players began with, but they could gain more. In tabletop D&D’s original edition, when plundered gold coins were taken out of a dungeon they earned experience points that players could use to level up. dnd simplified this by converting gold brought back to the dungeon entrance directly into more hit points and spell slots. But the more gold you’re carrying, the more likely monsters are to attack you, so deciding when to turn back becomes a delicate balance between tedium and risk. Winning requires a long and careful grind, playing boldly enough that the gold-to-hits conversion isn’t interminably slow, but carefully enough to avoid a fatal random encounter. The game offers many other temptations balancing risk and reward, from teleporters zipping you to more dangerous levels, to immensely powerful but potentially trapped magic items.
+
+	Magic ring! Now:
+	pick it up,
+	leave it,
+	clerically examine,
+	visually examine > v
+	Too dark to tell!> p
+
+	You were number 2318 for  The Dungeon
+
+The game could take hundreds of hours to beat. By the end of 1976, according to Dirk Pellett, Whisenwood Dungeon had claimed the virtual lives of over 100,000 characters. If this number is accurate, it’s a telling testament to dnd’s addictiveness, since only a few thousand PLATO IV terminals existed in the world—some of which were presumably still used for teaching, on occasion.
+
+The Pelletts continued improving dnd, but spin-offs and competitors multiplied. A saved copy of the deleted pedit5 was resurrected under the name Orthanc by Urbana-Champaign student Paul Resch, who adapted and improved it with a handful of collaborators. Orthanc featured a dungeon that would reconfigure itself every 180 days, an updated interface that kept more stats visible on-screen, and limited multiplayer support (you could meet other people exploring the dungeon and chat with them—or kill them). Foreshadowing a common pattern in later games, “higher-level players took to hanging around the entrance and killing lower-level players for the experience,”3 leading Resch to remove player combat on the dungeon’s first level. He also found it odd that lots of folks who met in the dungeon “just talked to each other, even though you could do that anywhere on PLATO.” The magic of inhabiting a shared virtual space with other humans would soon become a massively popular obsession.
+
+A game called Moria by Iowa State student Kevet Duncombe also appeared in late 1975 or early 1976. Duncombe’s game changed the top-down perspective to a first-person view, one of the earliest games to do so. It also featured more sophisticated multiplayer that let you form a party with up to ten other players, and was “one of the first multiplayer games with a persistent game world, where events and actions continued to take place even when the player was not playing.”17 Moria’s maps were massive; writing of just the game’s starting city, one player recalled that he “lost two characters to starvation just mapping the damn thing.”11 In the city you could chat with shopkeepers to buy or sell items, ask limited questions about their wares, or even haggle.6
+
+	Which item, Sire?
+	>sword
+	Buying, eh, Sire? Well, how’s about $134?
+	>how’s about $40
+	$40? Can’t accept that! How’s about $128?
+	>$90
+	Deal at $90, then?
+	>no $70
+	Offer is too low, Sire!
+	Deal at $90, then?
+	>yeah, whatever
+	What a bargain, Sire!
+
+The surprisingly tolerant parser came from a feature of the Tutor language designed to accept answers in quizzes. With a single line of code, the helpful answer command let authors recognize multiple possible responses and even fuzzy-match keywords catching typos or misspellings, a feature most text games would still lack decades later.
+
+	at	 805
+	write	 Who was the third president of the United States?
+	arrow	 1003
+	answer	 <T,Thomas> Jefferson
+	write	 That’s right!
+	wrong	 <J,John> Adams
+	write	 He was the second president.
+	endarrow
+
+“To borrow a term from linguistics, I’d probably have to call [Tutor] a ‘language isolate,’” PLATO systems programmer Paul Koning has said. “It’s the programming analog of Basque. In other words, there really isn’t anything like it that I can think of.”6 Designed to allow nontechnical teachers to make interactive lessons, Tutor made a lot of classically fiddly interface and structure problems simple. Text and graphics could be easily positioned anywhere on the screen, for instance, even at different sizes or rotations. Affordances to parse text input, record progress, and integrate interaction with other students were also all easy to invoke—and these features were put to good use by PLATO’s budding game designers.
+
+The games kept evolving. Moria inspired 1977’s Oubliette [Jim Schwaiger et al.], another first-person multiplayer game with taverns where you could meet other players to adventure with. It would in turn inspire Wizardry [Sir-Tech 1981], kicking off a successful and long-running franchise of influential computer roleplaying games. A different thread of inspiration starts with a port of dnd to the PDP-10 by Daniel Lawrence, which evolved into 1982’s Telengard, another influential early CRPG. Oubliette and other PLATO games inspired the extraordinarily ambitious Avatar [Bruce Maggs et al. 1979]—years in the making, it would come to feature elaborate multiplayer interaction, guilds, randomly generated quests, a huge array of items and spells, and a dynamic economy.
+
+The PLATO dungeon games were the earliest examples of genres that later games would name, like Rogue [Michael Toy et al. 1980] and MUD. They were online multiplayer roleplaying games before most people had heard the word “online,” or even realized games could be played on a computer. But PLATO was an island unto itself: with a few exceptions, the games created for it died with their proprietary platform. The PLATO network and the expanding ARPANET were incompatible, unable to connect to each other, and the system’s isolate design of 6-bit bytes and proprietary keyboards kept its software from easily making the leap to newer platforms. Most of the innovations from its generation of early game makers would have to be rediscovered and reinvented by others, years later.
+
+But those who experienced the Friendly Orange Glow, as Brian Dear titled his book on the influence of PLATO,6 never forgot it. They lived the coming future of real-time interactive games a decade or more before it arrived for anyone else. In the 2020s, a graying band of enthusiasts still keeps a handful of PLATO servers running, along with emulators that let modern computers reach them. Some can even simulate the speed of a modem connecting at 1260 baud. The hosts of one server, cyber1, promise that connecting “will feel like coming home again” to those who grew up with PLATO—even if no modern computer can quite recapture the experience of a hundred-pound plasma screen flashing bulbs in your eyes and rumbling like a damaged appliance, as some jerk three rows over cackles like a maniac.
+
+
+References
+
+1) Barton, Matt. 2008. “Breaking News: Author of PEDIT5 Speaks Out!” Armchair Arcade (blog). Aug 31, 2008. armchairarcade.com/neo/node/1948 | s Jul 7, 2011
+2) Bolingbrok, Chester. 2019. “Revisiting: The Game of Dungeons (1975).” The CRPG Addict (blog). Jan 27, 2019. crpgaddict.blogspot.com/2019/01/revisiting-game-of-dungeons-1975.html | a Aug 14, 2020
+3) Bolingbrok, Chester. 2013. “Game 123: Orthanc (1975).” The CRPG Addict (blog). Nov 11, 2013. crpgaddict.blogspot.com/2013/11/game-123-orthanc-1977.html | a Aug 14, 2020
+4) Bolingbrok, Chester. 2019. “The Final Word on Daniel Lawrence’s DND.” The CRPG Addict (blog). Feb 16, 2019. crpgaddict.blogspot.com/2019/02/the-final-word-on-daniel-lawrences-dnd.html | a Aug 14, 2020
+5) Daleske, John. n.d. “Daleske Space - History of Computing - PLATO System - Games - Social Media.” daleske.com. daleske.com/index.php | a Aug 14, 2020
+6) Dear, Brian. 2017. The Friendly Orange Glow: The Untold Story of the Rise of Cyberculture. New York: Vintage.
+7) “Games of Chance.” 2013. EDGE #255, July 2013, p. 80-5.
+8) Gygax, Gary, and Dave Arneson. 1974. Dungeons & Dragons. 1st ed. 3 vols. Lake Geneva: Tactical Studies Rules.
+9) Olivetti, Justin. 2013. “The Game Archaeologist: The PLATO MMOs, Part 2.” Engadget (blog). Aug 17, 2013. www.engadget.com/2013-08-17-the-game-archaeologist-the-plato-mmos-part-2.html | a Aug 14, 2020
+10) Mahney, Nathan P. 2014. “Game 2: The Game of Dungeons (aka dnd) v5.4 (1975).” CRPG Adventures (blog). May 7, 2014. crpgadventures.blogspot.com/2014/05/the-game-of-dungeons-aka-dnd-1975.html | a Aug 14, 2020
+11) Mahney, Nathan P. 2015. “Game 4: Moria (1975).” CRPG Adventures (blog). Apr 14, 2015. crpgadventures.blogspot.com/2015/04/moria-1975_14.html | a Aug 14, 2020
+12) Pellett, Dirk. n.d. “The History of dnd.” In-game essay, dnd v8.0 (as presented on cyber1.org server). Accessed Aug 1, 2020.
+13) Pellett, Dirk. n.d. “Gary Whisenhunt, Ray Wood, Dirk Pellett, and Flint Pellett’s DND.” Dirk Pellett’s WWW Home Page. www.armory.com/~dlp/dnd1.html | a Aug 14, 2020
+14) Reed, Aaron A. 2021. “On the Dating of Two Early CRPGs: pedit5 and dnd.” Aaron A. Reed’s Medium Blog. Feb 3, 2021. medium.com/@aareed/on-the-dating-of-two-early-crpgs-pedit5-and-dnd-47538d68f712 | a Mar 16 2022.
+15) University of Illinois Archives. 1972. “PLATO System Notes Files.” archon.library.illinois.edu/?p=digitallibrary/digitalcontent&id=7132 | a Aug 14, 2020
+16) Whisenhunt, Gary, Ray Wood, Dirk Pellett, and Flint Pellett. 2012. “Interview with the creators of dnd (PLATO).” Interview by Carey. RPG Fanatic. www.rpgfanatic.net/advanced_game_wiki_database.html?p=news&nrid=5049&game=dnd | s Oct 27, 2013
+17) Williams, Andrew. 2017. History of Digital Games: Developments in Art, Design and Interaction. Boca Raton: CRC Press.

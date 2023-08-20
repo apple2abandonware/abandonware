@@ -1,0 +1,148 @@
+Shades of Doom
+
+2005
+
+David Greenwood
+Style: Roguelike
+Debuted: May 31, 2001 (v1.0); Nov 25, 2005 (v1.2)
+Launch Platform: Windows
+Publisher: GMA Games
+Language: Visual Basic 6
+Launch Price: $35 (download), $45 (CD-ROM)
+
+Opening Text:
+
+	Station is locked down. Threat is as yet unidentified. Good hunting, soldier.
+
+
+As text games faded from the bestseller lists in the 90s, it fell to amateur enthusiasts to keep new games coming and old titles playable. Fans had varying reasons for wanting to keep text games alive. Some loved the written word and preferred an experience more like an interactive book than an interactive film. Some didn’t care for the frenetic action of more mainstream games, or couldn’t master it. And some had no choice. For blind gamers, the survival of text games was an existential issue.
+
+Parser interactive fiction like Suspended 1983, social MUDs like LambdaMOO 1990, and other text-driven games could be played by those with limited or no sight with relative ease, simply by routing the game’s output to a screen reader that converted text to synthesized speech. But save for interactive fiction and specialty edutainment, few computer games at the end of the 90s were accessible to the blind. As mainstream gamers chased more and more elaborate graphics, blind players felt increasingly isolated from a once-welcoming hobby. Most games made for the blind “were things like Football, Monopoly, Blackjack, Battleship, etc. The games were okay, but nothing like what sighted gamers had for PC or console,” gamer Thomas Ward remembered.16 The text adventure fan community was thriving 2000 and counted many blind players among its ranks, but not all blind gamers were interested in interactive fiction, or at least not exclusively. Many yearned for a day when “tried and true Interactive Fiction [could be] an option instead of ‘the’ option.”10
+
+In 1996, twenty-two-year-old Michael Feir founded Audyssey, a bimonthly online magazine and mailing list for blind gamers. Feir, though blind, had been an avid gamer his whole life, attributing his typing proficiency and computer expertise to gaming on the Apple IIe as a child. His dad had taken him to video arcades and helped him play some of the games, and Feir found the universe of fascinating, otherworldly sounds incredibly compelling, even if most of the games weren’t designed for someone like him to enjoy. As an adult, he remembered thinking that he could have been playing more of those games if only the designers had been more deliberate about the information their sounds conveyed. In the inaugural Audyssey, he wrote that his magazine would be “dedicated to the discussion of games which, through accident or design, are accessible to the blind”:
+
+	To find such entertainment, sighted people need only look as far as their local computer store. There, they can expect to find high-quality commercially developed games. Should they need some guidance as to which games are worth their time and money, they may look to a variety of magazines, friends, and salespeople for advice. For the blind person, solving the problem of finding a game is a harder proposition.… The majority of games which are accessible to the blind are of the interactive fiction type. While the quality of these games is usually quite high, their one serious drawback is their general lack of replay value.3
+
+An interactive fiction, once solved, is only worth revisiting for nostalgia, Feir wrote. Instead, he wanted something more like those arcade games with their randomness and unpredictability, games that “will keep me challenged indefinitely. Each game I play will be a different experience. I’ll have to use different strategies to overcome different circumstances.” He was not alone. Audyssey blossomed into a community nexus for blind gamers, compiling lists of new games, reviewing and redistributing old ones, and bringing together hundreds of players and developers eager to explore new definitions of what a game without graphics could be.
+
+One of those developers was programmer David Greenwood, who shared Feir’s desire for more replayable and strategic games:
+
+	After losing my sight I searched for accessible games that were both interesting and challenging, but I found nothing that fitted my criteria.… The games I did find made little or no use of sounds as a means of providing information to the gamer.9
+
+Greenwood, a friendly Toronto father, had played strategy board games as a teenager and now deeply missed them. By the late 90s he had begun writing accessible strategy games for PCS Games, a small company targeting blind audiences. His 1998 game Lone Wolf, a tactical submarine simulator, was hailed as a breath of fresh air by a community still resigned to board game clones and tic-tac-toe levels of strategy. To play Lone Wolf, by contrast, “you will need to have good skills using a compass, working with large numbers, and knowing where you are at all times,” Greenwood wrote in Audyssey, plugging the game’s release; “this game is for a person with quick reactions, sharp decision making, and [who] can keep track of many events happening at once.”5 Greenwood continued developing strategy titles for PCS, including 1999’s Star Trek: The Battle Begins, but he’d started thinking about building something in a different genre entirely. He wanted to make a first-person shooter. 
+
+In the summer of 1999, Greenwood posted a unique proposition to the Audyssey mailing list. He wrote to the list’s members that he “thought it may be fun and interesting to design and develop a game” together:
+
+	I will present the initial scenario and some ideas on how the user interface might work. I will then sit back and wait for feedback. Mail list participants can comment on each other’s ideas and when things settle down I will prepare a summary of our design to date.… I will then go away and develop a proto-type. Each participant will then download the proto-type and the mail list discussion will continue for another round. This may be an interactive process which may go on for several months.6
+
+Greenwood already had an “initial scenario” in mind: a game “loosely based on the highly graphical and popular Doom,” where the player would try to escape a maze of tunnels filled with dangerous monsters, weapons, keys, and power-ups. “From the volume and direction of the sounds, you can decide to run or attack,” he proposed. The idea proved explosively popular. Doom [id Software 1993] had been a game that sighted players would not shut up about in the 90s, so the notion of an accessible clone capturing the same kind of experience was highly appealing. Before long Greenwood had compiled over seven hundred suggestions and responses from Audyssey readers and was marshaling discussions on every aspect of the proposed game’s experience: “How should rooms be identified? Should there be signature sounds used to identify passageways and rooms? How do we keep score? Should the layout of rooms and passageways be simpler, or more complex? How should the detecting, taking, and automatic inventorying of objects work?”7 Greenwood would gather opinions, then go off and code prototypes before posting them to the list for further feedback. His estimate of “several months” proved a bit optimistic. All told, it would be two full years before Shades of Doom’s first release, and four more before the more complete version 1.2 made its debut to players.
+
+The project began at a moment of dangerous transition for blind PC gamers: the migration from DOS to Windows. While a mature ecosystem of screen readers and accessible tools had developed for text-centric DOS, the inherently graphical user experience of Windows was still unfamiliar, with fewer trusted tools and established workflows, and worse, an existentially threatening core conceit. What if the switch to graphical user interfaces left blind computer users forever behind? In part for these reasons, as late as 1999 most games for the blind were still made in DOS (including Greenwood’s Lone Wolf), even though Windows had become entrenched as the dominant mainstream platform. But Greenwood’s desire to use complex audio processing techniques pushed him into newer Windows-only technology, most notably the DirectX library. As blind gamer Thomas Ward recalled:
+
+	When Microsoft DirectX came out, it not only revolutionized mainstream games, it also opened up new avenues for what we now call audio games.… Microsoft added a lot of high-level features: you could pan sound left and right, you could put sound in 3D, and many game developers said, “Hey, if we can play it back in 3D, we could hear where the sounds were.” So they began experimenting.11
+
+When it was at last released under a new spin-off company of Greenwood’s called GMA Games, Shades of Doom would make full use of DirectX to create a 3D-positioned soundscape with multiple overlapping sounds. The game begins, like many professionally produced games, with a cutscene. A six-minute audio drama complete with music and sound effects sets up a backstory familiar to fans of Doom and its many clones: a secret government base researching “genetic enhancements” or maybe even “biological transformations,” an urgent final transmission followed by ominous silence, and a lone hero who must infiltrate the deadly corridors and fight through waves of mutant enemies. The narrator (voiced by Kelly Sapergia, another longtime Audyssey contributor) sets the stage, backed by music that starts triumphant but soon turns ominous:
+
+	The top of the mountain is clearly visible as your shuttle slowly descends towards the island. You peer up from the controls and see wisps of clouds flicker by your canopy. Breaking through the ceiling, the beauty of the scene is marred by the sight of lines of plasma cannons bristling from shore and mountainside batteries. 
+
+	The high-security military research base, funded and run by the FDN, was totally constructed within the mountain, making it impregnable to all, including a direct nuclear attack. The research performed is of the highest security and secrecy, but even with your considerable clearance level you only have a vague idea of what goes on in the rapidly approaching base.
+
+Through the time-tested method of discovering log entries on suspiciously unsecured computers, the player learns of a dangerous experiment gone heinously wrong. The only way to shut it down is to gather four data wafers once held by the project’s lead scientists, each containing a fragment of a crucial security code. Unfortunately, the wafers—and the details of what order to insert them into the master computer to trigger the shutdown—are now scattered through a huge complex overrun by mutants and monsters. The player’s goal is to navigate the base’s nine mazelike levels, staying alive and collecting data wafers and clues. On the final level you can input the command sequence that will—naturally—save the world.
+
+Once the game proper begins, the player quickly learns that surviving requires great skill and keen attention to detail. Shades has a complex interface with over forty commands (see sidebars next page spread), utilizing nearly every key on the keyboard. The arrow keys navigate your character through explorable levels rendered in positional audio. Movement is not through distinct grid squares, as in many audio games, but through continuous space as in any other first-person shooter, allowing for strategies like sidestepping around walls or weaving back and forth to avoid fire. The game likewise unfolds in real time rather than discrete turns.
+
+Sound effects are carefully employed to help players intuit the layout of rooms and corridors. When approaching a hallway junction, the player hears wind blowing from the directions of new passages opening up. Different compass directions have different-sounding winds, so with practice one can distinguish an upcoming north-facing passage from a west-facing one. Footsteps echo more loudly in one ear if there’s open space in that direction, and the echo also changes just before you would step into a wall. Doors, machinery, and moving monsters make sounds whose volume and stereo positioning help pinpoint their location. Unlike the busy noises of the arcade, here every sound is deliberate and filled with information.
+
+The player also has a device called EVA (Envirometric Vector Analyzer), a sort of in-world screen reader for the game’s simulated reality. By pressing various keystrokes, the player can hear EVA speak information about their surroundings, including the identity and position of nearby objects, enemies, and geography, as well as their current health and other useful statistics.
+
+	[Sirens coming from somewhere ahead, along with a voice repeating “Emergency, emergency. Please evacuate the base.”]
+	> <Up Arrow>  [walk forward]
+	[Sound of player’s footsteps. The alert and message sounds pass by to the left and then fall behind.]
+	> N  [navigational information]
+	The passage continues.
+	> <Up arrow>[walk forward]
+	[Footsteps as player continues advancing.]
+	Door in two feet.
+	[Sound of door opening. Sound of monster growling.]
+	> <Ctrl-Left>  [turn 90 degrees left]
+	South.
+	The passage turns sharply to the left and right.
+	> M  [distance to nearest monster]
+	Sixteen feet.
+	> <Ctrl-M>  [identify nearest monster]
+	Mutant human.
+
+The player is also equipped with a night scope, which emits pings pinpointing the nearest monster’s location. As the distance closes, the scope’s beeps get faster, and as the angle between the monster and the direction you’re facing shrinks, the sounds increase in pitch. If the monster falls behind you, an ominous drumbeat plays, suggesting a chase; when an enemy is dead ahead, a distinctive “lock-on” sound is heard, signaling that if you fire your weapon at this angle, you’ll hit. But using the night scope drains its battery, so deploying it strategically is crucial, saving its power for moments you really need it.
+
+	> S    [toggle night scope]
+	[The sonar sound is fast but medium-pitched. The player uses the left and right arrows to try to lock on to the monster, whose growls are growing louder.]
+	> M  [distance to nearest monster]
+	Twenty-one feet.
+	[The player backs up, still trying to center the monster.]
+	> M  [distance to nearest monster]
+	Thirteen feet.
+	[Monster growls increase in volume; player continues to back up until an “oof!” sound indicates they’ve backed into a wall.]
+	> M  [distance to nearest monster]
+	Nine feet.
+	[Lock-on sound]
+	> <Space bar>    [fire weapon]
+	[Sounds of weapon fire, then monster groaning and collapsing to the floor.]
+	Projectile ammunition in eight feet.
+	> S  [toggle night scope]
+	[Night scope noises turn off.]
+	> <Ctrl-N>    [look ahead]
+	The passage continues. In ten feet the room continues. In twenty feet the room terminates abruptly. 
+	> X    [dimensions of current room]
+	Twenty by ten feet. There is an exit from the room behind.
+	[Player uses arrow keys to move forward.]
+	“Whoa!” [Sound made when stepping over a dead body.]
+	Projectile ammunition taken.
+
+EVA also helps the player track which rooms they’ve already visited, set numbered markers useful for mapping, and find nearby objects. You can even output a drawing of the parts of a level you’ve explored so far to a Braille printer, creating a tactile minimap.
+
+	> V  [have I visited this room before?]
+	No.
+	> <Ctrl-V>  [mark location]
+	Mark.
+	> <F2>   [character status]
+	Health 99 percent.
+	You are using a manual bolt gun.
+	Ammunition 68.
+	You are wearing: nothing.
+	You are carrying: nothing.
+
+While the first level is relatively straightforward, the game’s challenges expand as you keep playing. Soon you’ll be fighting off waves of giant rats, cyborgs, mutant birds, gelatinous blobs, and “insane scientists” who rush by you giggling as they steal your stuff. A range of weapons—including grenades, proximity mines, a flame thrower, and, yes, a chainsaw—have different trade-offs of range, ammo type, and effectiveness against different kinds of targets. Traps such as pits and jets of gas shooting from the walls create further challenges. At higher difficulty levels, monsters will dodge and weave as they approach you, so maintaining a lock becomes a constant challenge. Strategies can get quite complex. Here’s a tip from one guide on how to defeat a “temporal disturbance,” one of the game’s toughest enemies—and sighted readers should remember this plan must be executed without visual aids of any kind:
+
+	What I like to do is find a nice big room and lure it in. Keep the door you plan to use open. Run around the outer edge of the room until you come to the door you left open and run out of the room, closing the door behind you. If you do it right you’ll trap the TD in the room and be able to continue on. Depending on the level you may have to do this several times.13
+
+The final level offers an exceptionally difficult challenge with four powerful teleporting bosses and dozens of minions. If you defeat the hordes of enemies and successfully key in the data wafers in the correct sequence to disable the experiment, you can make your way to the roof for a heroic exit via helicopter. 
+
+Shades of Doom was an instant hit in the blind games community, actively played for over a decade and still regularly discussed on audio game forums. “The same day I got the registration code,” one fan recalls, “I played it non-stop for the next sixteen hours.”4 Reminiscing in 2012, another remembered it as forever changing their relationship to gaming: “I never dreamed I’d get to play games like those my sighted friends spent their lives in front of and this gave me new hope.”17 Blind gamers also took a certain amount of delight in mastering a game whose sheer complexity meant that many mainstream gamers might never have the patience or wherewithal to complete it. “Even if you can’t see what you’re doing, some of those [conventional] games can be extremely addicting,” wrote the author of one Shades of Doom guide. “But this doesn’t lessen the satisfaction I find in the knowledge that finally there are games that a sighted individual might actually have to have [my] help playing.”12
+
+The success of Shades brought a surge of interest in audio gaming. It made the community “much more ambitious,” according to Justin Daubenmire,1 whose BSC Games was a friendly competitor to GMA. The game’s successful focus on action and tactics proved a wider variety of game styles could find success in audio- or text-only formats. Greenwood reworked the game’s engine to make it more reusable for other kinds of audio games, quietly licensing it to other blind creators. GMA games would go on to release highly regarded follow-ups, like the even more complex strategy game Time of Conflict [2010]. Another team started working on a mod for Quake that would allow blind players to play alongside sighted friends by making heavy use of “earcons,” sounds that provided rapid and overlapping environmental information to those who learned to decipher them. Audio games in other surprising genres started appearing, from sports games to 4X strategy. “Accessible games are no longer just a bunch of twisty little passages,” wrote a reviewer in a 2002 issue of Audyssey. “We’re not quite there yet, but Shades of Doom and others are light years ahead of what we had even two years ago.”18
+
+By the 2010s, the mainstream game industry was paying more notice to blind gamers. Advocacy groups like AbleGamers now work with developers to make their titles accessible to blind or disabled players. While Greenwood still sells specialty audio titles through GMA Games, today he’s more interested in keeping mainstream games accessible so blind gamers can stay connected to wider gaming culture, rather than remaining isolated in their own niche: “I strongly believe that accessibility should be built-in during the development of new mainstream games from this point onwards.”9 Accessible modes for racing games, rhythm games, puzzle games, and many other genres have become far more common. Many of the consultants now working on these modes can trace back their interest in gaming to discovering Shades of Doom in the early 2000s.
+
+And audio games as a distinct genre continue to evolve as well. The 2010s also saw the rise of smart speakers and virtual assistants, new platforms for games that, “through accident or design” (as Michael Feir had once put it), blind players can enjoy. Companies like Earplay have explored “interactive audio stories you play with your voice,” experimenting with a new design space of games using spoken words as both input and output. “Story telling began as an aural form,” wrote one analyst; “something in our wiring as a species responds to the sound of a story.”2 And while the original Doom’s graphics now look dated, the soundscape of Shades—a mutant human stumbling closer, say, while sonar pings echo faster and faster—still tells a story as visceral and terrifying as ever.
+
+
+References
+
+1) Cohn, David. 2005. “The Blind Fragging the Blind.” Wired (blog). Mar 14, 2005. www.wired.com/2005/03/the-blind-fragging-the-blind | a Nov 22, 2020
+2) Edgerly, Len. 2016. “Earplay: Alexa Hosts a Transformative New Way to Tell Stories.” Len Edgerly (blog). Oct 28, 2016. lenedgerly.medium.com/earplay-alexa-hosts-a-transformative-new-way-to-tell-stories-fc6dbd2ac8e6 | a Nov 22, 2020
+3) Feir, Michael. 1996. “‘Welcome’ and ‘From the Editor.’” Audyssey #1, Jul/Aug 1996. www.espsoftworks.com/downloads/audyssey/aud1.txt | s Feb 22, 2001
+4) Gallegos, Raul. 2010. “Game Archives.” gallegos47.com. gallegos47.com/games | a Nov 22, 2020
+5) Greenwood, David. 1998. “Lone Wolf: The Real-Time Revolution For Blind Gamers.” Audyssey #15, Nov/Dec 1998. audiogames.net/page/_Audyssey_Magazine_issue_15_-_November_-_December_1998_ | a Nov 22, 2020
+6) Greenwood, David. 1999. “Letters: From David Greenwood.” Audyssey #18, May/Jun/Jul 1999. audiogames.net/page/_Audyssey_Magazine_issue_18_-_May_-_June_-_July_1999_ | a Nov 22, 2020
+7) Greenwood, David. 2000a. “Shades of Doom Status.” Audyssey #23, May/Jun 2000. audiogames.net/page/_Audyssey_Magazine_issue_23_-_May_-_June_2000_ | a Nov 22, 2020
+8) Greenwood, David. 2000b. Interview (audio). On Main Menu (radio program), ACB Radio, Sep 25, 2000. Interviewed by Jonathan Mosen.
+9) Lupetti, Matteo. 2020. “Seen and Heard: Making Games for the Visually Impaired.” Wireframe Magazine, Sep 2, 2020. wireframe.raspberrypi.org/articles/seen-and-heard-making-games-for-the-visually-impaired | a Nov 22, 2020
+10) Peach, James. 2000. “Sparkle and Shine: Reflections on Trends in Gaming.” Audyssey #24, Jul/Aug 2000. audiogames.net/page/_Audyssey_Magazine_issue_24_-_July_-_August_2000_ | a Nov 22, 2020
+11) Peters, Matthew. 2009. “Spot On: The Blind Gaming the Blind.” GameSpot (blog). Aug 25, 2009. www.gamespot.com/articles/spot-on-the-blind-gaming-the-blind/1100-6215457 | a Nov 22, 2020
+12) Peterson, Bryan. 2013. “Walker Boh Ohmsford’s Guide to: Shades of Doom by GMA Games.” audiogames.net forum. Nov 8, 2013. forum.audiogames.net/topic/11877/bryan-ps-guide-to-shades-of-doom | a Nov 22, 2020
+13) Peterson, Bryan. 2014. “Re: [Audyssey] Help in Shades of Doom Level 6.” Gamers Discussion List (Audyssey). Apr 7, 2014. www.mail-archive.com/gamers@audyssey.org/msg109793.html | a Nov 22, 2020
+14) Sapergia, Kelly. 2001. “Shades of Doom” (review). On Main Menu (radio program), ACB Radio, Jun 6, 2001. 
+15) Taylor, Ashley P. 2013. “How to Make a Video Game for the Blind.” Popular Mechanics (blog), Mar 28, 2013. www.popularmechanics.com/technology/gadgets/video-games/how-to-mak-a-video-game-for-the-blind-15277536 | a Nov 22, 2020
+16) Ward, Thomas. 2014. “Re: [Audyssey] First Audio Game.” Gamers Discussion List (Audyssey). Oct 19, 2014. www.mail-archive.com/gamers@audyssey.org/msg114011.html | a Nov 22, 2020
+17) welshweyr. 2012. “Reply to ‘Top 10 Audio Games.’” audiogames.net Forum. Aug 16, 2012. forum.audiogames.net/topic/6890/top-10-audio-games/page/4 | a Nov 22, 2020
+18) Zingaro, Daniel. 2002. “Accessible Games--Lagging Behind?” Audyssey #34, Third Quarter 2002. audiogames.net/page/_Audyssey_Magazine_Issue_34_-_third_quarter_2002_ | a Nov 22, 2020

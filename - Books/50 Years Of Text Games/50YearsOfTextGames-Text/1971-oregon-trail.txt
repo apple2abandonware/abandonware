@@ -1,0 +1,137 @@
+The Oregon Trail
+
+1971
+
+Don Rawitsch, Bill Heinemann, and Paul Dillenberger
+Style: Resource Management
+Debuted: Dec 3, 1971 (Jordan Junior High School)
+Launch Platform: HP 2100
+Language: BASIC
+
+Opening Text:
+THIS PROGRAM SIMULATES A TRIP OVER THE OREGON TRAIL FROM INDEPENDENCE, MISSOURI TO OREGON CITY, OREGON IN 1847. YOUR FAMILY OF FIVE WILL COVER THE 2000 MILE OREGON TRAIL IN 5-6 MONTHS --- IF YOU MAKE IT ALIVE.
+
+In the midst of the cold but snowless Minnesota December of 1971, a twenty-one-year-old student teacher named Don Rawitsch wheeled a bulky teletypewriter into his eighth-grade history class. Students gathered around curiously as he plugged in power and phone cables, switched on the humming machine, and dialed the number on a rotary phone that would connect him to a $100,000 minicomputer fifty miles away. The students, Mr. Rawitsch said, were going to play a game.
+
+Rawitsch had been asked three weeks earlier by his supervising instructor to cover the class’s unit on the western expansion period of US history. Eager to engage with his students, Rawitsch had already tried showing up to classes dressed as historical figures like Meriwether Lewis, and he quickly hit on the further idea of a board game about traveling west in a covered wagon. He shared an apartment with two other student teachers, Bill Heinemann and Paul Dillenberger, who had each taken Carleton College’s single five-week computer course the previous year. As they gathered around the board game to workshop it with Rawitsch, they started wondering if it might work better as a computer program instead. Heinemann recalled:
+
+   I was fascinated by the power of the computer to not only calculate, but also to interact with written language. I had been thinking about writing a program to interact with a human through language, but the content of such a program remained a mystery to me.10
+
+Maybe a simulated journey was just the ticket. The computer could handle all the math of tracking miles and supplies for students, and it could generate faster and more complex randomness than the roll of a die. Computers in the classroom had to date mostly been used for math, not history, but the three roommates warmed to the challenge of turning the board game concept into a program. In the two weeks remaining before Rawitsch’s unit was meant to start, the three somehow managed to piece together the core of what would become the best-known educational game ever written.
+
+   MONDAY MARCH 29 1847
+
+   TOTAL MILEAGE IS 0
+   FOOD  BULLETS  CLOTHING  SUPPLIES  CASH
+    100    2500      50        50      200
+
+   DO YOU WANT TO (1) HUNT or (2) CONTINUE?2
+
+   DO YOU WANT TO EAT
+   (1) POORLY (2) MODERATELY OR (3) WELL?2
+
+   RIDERS AHEAD. THEY LOOK HOSTILE.
+   TACTICS:
+   (1) RUN       (2) ATTACK
+   (3) CONTINUE  (4) CIRCLE WAGONS
+   IF YOU RUN YOU'LL GAIN TIME BUT WEAR DOWN YOUR OXEN.
+   IF YOU CIRCLE YOU'LL LOSE TIME.
+   ?
+
+Written in BASIC, the six hundred–line program let players purchase supplies in five categories (oxen, food, ammunition, clothing, and medicine) before starting a simulated journey across the country, tracked in miles traversed and two-week turns. Each move, the player chooses whether to continue or hunt, with the option to purchase additional supplies from a fort on every second turn. Due to obstacles encountered along the way, the supply numbers go down as the mileage goes up, complicating the player’s goal of traversing 2,040 miles—the significant distance of the historic route from Independence, Missouri, to Oregon City, Oregon—before supplies run out.
+
+The students who clustered around the teletype in Rawitsch’s classroom would have had a vastly different experience from gamers today, or even players of text games in later decades. In 1971 there were fewer than a thousand computers in the world with monitors, and most were locked away at research labs and universities. Users would instead connect to a distant, expensive system via time-share, typing command-line instructions on a machine that looked much like a typewriter, except that it would type back to you—at a crawling ten characters per second, accompanied by a sound only slightly removed from machine gun fire. With only a single terminal available, Rawitsch had to cycle his students through in groups, one sitting at the keyboard while the others clustered around making suggestions or tracking resources on scratch paper.
+
+Previous attempts had been made through grants and special programs to get computers into schools, and even to make educational games, but the machines’ intimidating sounds and obtuse interfaces meant they were often underused. Rawitsch and his collaborators hoped to entice students to play through friendly and jargon-free output, but also via clever uses of the limited affordances of their platform. The HP-2100 mainframe on the other end of their teletype ran a version of BASIC that would record not only characters typed into a line of input, but the time it had taken to type them. This became the core of a timed hunting minigame within their program:
+
+   DO YOU WANT TO (1) STOP AT THE NEXT FORT, (2) HUNT,
+   OR (3) CONTINUE?2
+   TYPE BANG:BANG
+   RIGHT BETWEEN THE EYES---YOU GOT A BIG ONE!!!!
+
+The time it took a student to type BANG and press return was used to judge the accuracy of their shot, and thus how much food was gathered and ammo lost. If the response took too long or the word was mistyped, the shot might miss, leaving the virtual settlers hungry.
+
+The authors also took advantage of the fact that their teletype had an internal bell, used as in a traditional typewriter to mark the end of a line while typing, but also activated by the computer at the other end of the connection to signal errors or alerts. In the game, certain noteworthy events like scoring a perfect shot while hunting would ring this bell. The line of BASIC that outputs the message above reads:
+
+   1755  PRINT "RI"'7"GHT BETWEE"'7"N THE EYE"'7"S---YOU GOT A"'7" BIG ONE!!"'7"!!"
+
+The 7 is the ASCII code to ring the bell, and as the 7s are spaced about ten characters apart, this meant the bell would ring once per second as this line was printed—an aural reward perhaps reminiscent of midway games and doubtless accompanied by a thrilling whoop of victory from the students gathered around the machine.
+
+As players continued their journey in two-week increments, they encountered random events, usually mishaps that reduced their stock of resources. The original version of the game included some twenty of these incidents, summarized in single lines like WAGON GETS SWAMPED FORDING RIVER--LOSE FOOD AND CLOTHES or YOUR SON GETS LOST---SPEND HALF THE DAY LOOKING FOR HIM. If vital supplies like food ever ran out, or situational supplies like clothing or medicine were depleted when a random event tested them, the game ended in failure with one of a small handful of cheerful messages like YOU RAN OUT OF FOOD AND STARVED TO DEATH. It would be more than a decade before a version of the game included the message “You have died of dysentery,” destined to become one of Oregon Trail’s lasting touchstones.
+
+A key to the game’s success—even in its original version, which was shorter and simpler than later iterations—was its use of sensible randomness. Almost every event in the game involves some random variation in its outcome, but rarely so much as to seem unfair or unpredictable. For example, a random event testing your preparedness against cold weather in a mountain pass is instantiated by this source code:
+
+   2935  PRINT "COLD WEATHER---BRRRRRRR!---YOU ";
+   2940  IF C>22+4*RND(0) THEN 2955
+   2945  PRINT "DON'T ";
+   2950  C1=1
+   2955  PRINT "HAVE ENOUGH CLOTHING TO KEEP YOU WARM"
+   2960  IF C1=0 THEN 3100
+   2965  GOTO 4700
+
+The variable C in line 2940 stores the dollar amount the player has spent on cold-weather gear, so this code means “If the player has at least (22 + a random number between 0 and 4) clothing, that’s sufficient to stay warm.” A player might figure out through trial and error that while twenty dollars spent on clothes is never enough and thirty dollars seems always sufficient, there’s some uncertainty from game to game about where exactly in the middle is safe—a difference it’s easy to imagine correlating to the unpredictable strength of a winter storm. Years later, Zork co-creator Dave Lebling would say of adventure games: “Obviously, no small computer program can encompass the entire universe. What it can do, however, is simulate enough of the universe to appear more intelligent than it really is.”5 Oregon Trail often leans on the illusion of deeper complexity to be surprising and entertaining, and the measured use of randomness helps maintain this effect.
+
+Another example can be seen in the sketch at a narrative arc enabled by this code, which determines the likelihood each turn of being attacked:
+
+   2100  IF RND(0)*10>((M/100-4)^2+72)/((M/100-4)^2+12)-1 THEN 2500
+
+The details are gnarly, but the equation pivots on the M variable, representing the number of miles traversed. Offsetting it and dividing it by differently scaled amounts creates a probability distribution curve across the player’s journey, making attacks more likely as the player moves away from settled Missouri, and then less likely again as they approach their final destination. This mathematical trick establishes a deepening and then easing sense of danger, without printing any text to this effect explicitly. A similar trick increases the chance of cold-weather hazards during the middle of the journey when the homesteaders would logically be crossing the Rocky Mountains, even though the game never mentions this geography in its prose. Oregon Trail lacks explicit markers of progress other than the increasing mileage number—the concept of “rooms” from later adventure games didn’t yet exist—but still gives players a sense of forward progress and geographical consistency.
+
+Oregon Trail is not just a technological artifact—it’s also a cultural one. Like most media about the western expansion from its time, the game tells only half a story. Native Americans exist explicitly in the original game only as a single random event—HELPFUL INDIANS SHOW YOU WHERE TO FIND MORE FOOD—but might also be the presumed attackers whose numbers increase, according to the logic of that single line of code, as the player moves farther away from lands settled by whites. Rawitsch has said the vague word RIDERS in those events was deliberately chosen to not solely implicate Native Americans, noting that settlers were historically more likely to be attacked by white bandits than natives. But later, more visual adaptations of the game generally interpreted this word, in their illustrations and animations, to mean hostile native peoples—arguably, just as millions of young players had done given the lack of explicit language to the contrary.
+
+In a lengthy critique of the game’s graphical remake, teacher Bill Bigelow noted the danger in teaching history through a game that was silent about the historical Oregon Trail’s role in enabling and strengthening white America’s project of expansion and extermination:
+
+   The consequences of the Oregon Trail for the Plains Indians, the Indians of the Northwest and for the earth were devastating.… [Pioneers] cut down all the cottonwood trees found along the rich bottomlands of plains rivers … [and] killed tremendous numbers of buffalo that Plains Indians depended upon for survival.… The game fails to alert students that white hostility was one feature of the westward migration. The omission is significant because the sanitized, nonviolent Oregon Trail fails to equip students to reflect on the origins of conflicts between whites and Indians.
+   
+   …Once we arrive, the game awards us points and tells us how our life in Oregon turned out. And yet it fails to raise vital questions about our right to be there in the first place, and what happened to the people who were there first.1
+
+   YOU FINALLY ARRIVED AT OREGON CITY 
+   AFTER 2040 LONG MILES---HOORAY!!!!!
+   PRESIDENT JAMES K. POLK SENDS YOU HIS
+          HEARTIEST CONGRATULATIONS
+                AND WISHES YOU A PROSPEROUS LIFE AHEAD
+                           AT YOUR NEW HOME
+
+Bobbie Conner, a former director of the only Native American museum along the historical Oregon Trail, has further noted: “Most of what is written about the Oregon Trail is about the triumph of the United States.” In the game, students are “learning about the settling of the West”—what Conner calls its unsettling—“but not the way the US government steamrolled lots of people to accomplish its goals.… So many people were dying for so many reasons. That gets lost when you learn a shallow version of history.”4
+
+The scope of stories the game could include were naturally limited by the capabilities of early computers. But those limitations had more than mere technical implications. In later decades, game scholars would advance theories of procedural rhetoric: the notion that an algorithm can encode an opinion, and make playable a theory about how the world works.2 Games would come to be seen as having the power to bring ideas to life in a more experiential and immediate way than any prior medium. In the twenty-first century, we’re still coming to terms with the way they can also concretize dangerous misconceptions—or omissions—when they claim their small simulations encode truths about the complexities of the world outside their code.
+
+But the reason we’re still talking and thinking about this game today is its remarkable longevity and popularity. Something about it clicked, right from that first version in Rawitsch’s class, so engaging that some of his students would come in before school or stay late to keep playing. When spring term ended and Rawitsch graduated from college, he dutifully deleted the game off the mainframe before closing his student account, and it might have been lost forever had he not kept a printout of its source code. Years later, while working for the Minnesota Educational Computing Consortium (MECC), a new nonprofit dedicated to supporting the use of computers in Minnesota schools, he retyped and began improving it, sharing it in 1975 on a new mainframe system available to teachers across the state. Thousands of students began to play.
+
+Over the next decade, the program would become one of the most popular educational games, first in Minnesota, and then across the United States. After several interstitial upgrades were made, a 1985 Apple II version (completely rewritten by R. Philip Bouchard with more events and simple graphics) would be played by millions, firmly cementing the game into a generation’s cultural memory. Dozens of versions and editions have appeared since, collectively selling over sixty-five million copies.
+
+While some of Oregon Trail’s popularity can doubtless be attributed to the many entertaining ways to die along the way, the game’s creators also keenly grasped the storytelling potential of inviting the player into a simulated world. If your journey fails, you’re asked a series of questions, a sort of consolation prize for failing:
+
+   DO TO YOUR UNFORTUNATE SITUATION, THERE ARE A FEW FORMALITIES WE MUST GO THROUGH
+   WOULD YOU LIKE A MINISTER?Y
+
+   WOULD YOU LIKE A FANCY FUNERAL?N
+
+   WOULD YOU LIKE US TO INFORM YOUR NEXT OF KIN?N
+
+   YOUR AUNT NELLIE IN ST. LOUIS IS ANXIOUS TO HEAR
+
+   WE THANK YOU FOR THIS INFORMATION AND WE ARE SORRY YOU
+   DIDN’T MAKE IT TO THE GREAT TERRITORY OF OREGON
+   BETTER LUCK NEXT TIME
+
+
+                                 SINCERELY
+
+                    THE OREGON CITY CHAMBER OF COMMERCE
+
+Though the game does nothing with the answers, the mere fact of being asked makes you feel like a part of the story being told. It was a trick that would continue to work across half a century of computer games and counting; a good reminder that no game is too old to learn from.
+
+
+References
+
+1) Bigelow, Bill. 1997. “On the Road to Cultural Bias: A Critique of ‘The Oregon Trail’ CD-ROM.” Language Arts 74 (2).
+2) Bogost, Ian. 2007. Persuasive Games: The Expressive Power of Videogames. MIT Press.
+3) Bouchard, R. Philip. 2017. “I Designed The Oregon Trail, You Have Died of Dysentery.” Format. Jul 24, 2017. www.format.com/magazine/features/design/you-have-died-of-dysentery-oregon-trail-design | a Mar 5, 2022 
+4) Landry, Alysa. 2017. “‘It’s a White Thing’: ‘The Oregon Trail’ Game Doesn’t Tell Complete History.” Indian Country Today. Jun 8, 2017. indiancountrytoday.com/archive/it-s-a-white-thing-the-oregon-trail-game-doesn-t-tell-complete-history-xQAG3I7o0EKeeEGw7sCkbQ | s Oct 21, 2020
+5) Lebling, P. David, Marc S. Blank, and Timothy A. Anderson. 1979. “Zork: A Computerized Fantasy Simulation Game.” IEEE Computer 12 (4): 51–59.
+6) Lussenhop, Jessica. 2011. “Oregon Trail: How Three Minnesotans Forged Its Path.” City Pages, Jan 19, 2011. www.citypages.com/news/oregon-trail-how-three-minnesotans-forged-its-path-6745749 | s Mar 29, 2016
+7) Maher, Jimmy. 2011. “On the Trail of the Oregon Trail, Parts 1-5.” The Digital Antiquarian (blog). Mar 27, 2011. www.filfre.net/2011/03/on-the-trail-of-the-oregon-trail-part-1 | a Mar 5, 2022
+8) Rawitsch, Dan. 1978. “Oregon Trail.” Creative Computing June 1978, 4(3): 132-139.
+9) Whitaker, Robert. 2021. “He Created The Oregon Trail.” Slate. Nov 17, 2021. slate.com/news-and-politics/2021/11/oregon-trail-game-history-inventor-don-rawitsch.html | a Mar 5, 2022
+10) Wong, Kevin. 2017. “The Forgotten History of ‘The Oregon Trail,’ As Told By Its Creators.” Vice. Feb 15, 2017. www.vice.com/en/article/qkx8vw/the-forgotten-history-of-the-oregon-trail-as-told-by-its-creators | a Mar 5, 2022 

@@ -1,0 +1,176 @@
+Achaea: Dream of Divine Lands
+
+1997
+
+Matt Mihály and others
+Style: MUD
+Debuted: Sep 8, 1997
+Launch Platform: Linux (server)
+Telnet (client)
+Developer: Iron Realms Entertainment
+Language: Hourglass (launch); Vortex (first rewrite); Rapture Engine in C/C++ and Lua scripting (second rewrite)
+
+Opening Text:
+
+	Your fate and fame shall be an echo and a light unto eternity.
+
+
+It was a götterdämmerung: a twilight of gods. 
+
+Dark portents had been gathering for months. First, a plague. Then the opening of portals to an evil realm of reptiloid terrors and huge flying monstrosities, the airborne sandworms known as the Dala’myrr. The world’s oldest dragon had been killed in a senseless attack; the Fire Behind the Flame, granting both gods and mortals the spark of life, was guttering, no longer able to resurrect the dead or keep the worldtree warm. When an evil cult helped summon into being the monstrous demon Bal’met—the Worldreaver—the squabbling gods of Sapience were forced to join in a grand alliance to defeat him. In the Garden of the Gods atop the world’s tallest mountain, they fought:
+
+	The earth rumbles ominously as the voice of Artemis, Goddess of the Cataclysm, booms across the firmament, “The Cataclysm does not forget your transgressions upon Nature and its protectors, vile creature. Relinquish the power that is not yours to control!”
+
+	Bal’met swells with scorn and rapacious hunger, becoming a great spear of destructive energy that streaks toward the unprotected Garden, resolving as a billowing cloud before the six Gods.
+
+	Hefting His hammer high, Phaestus slams it upon the ground, striking a massive blow that shakes the very earth.
+
+	The Garden of the Gods shudders and quakes, and a complex pattern of runes flares to life beneath the fluctuating form of Bal’met.
+
+But the fight went poorly. Many gods were slain, and cities that had stood for centuries were wiped from the map. Constant skirmishes played out between good and evil mortals as factions fought to purify or corrupt key shrines of power. At last, in the world’s most desperate hour, Maya, the goddess of creation herself, sacrificed her life to give hundreds of mortal heroes a piece of her divine power, drawing them into the heavenly realm to take part in the final battle against Bal’met:
+
+	As you are pulled within the swirling vortex, your body and soul expand and contract, twisted and thrown about as if by a turbulent gale. One moment it seems your soul is torn apart from your body; a second later your body seems a heavy weight lying deep within your soul.
+
+	Always moving forward, you are spun and woven through the fabric of reality, and the tempestuous journey seems to last for eons before all is suddenly calm.
+
+	[…] Your race is now that of Demigod.
+
+The god-touched heroes, and even the gods themselves, were players in one of the last remaining commercial MUDs online. The battle was the culmination of a massive event unfolding over ten weeks of real-world time—while the Achaean year was 613 AF, on Earth the finale came in December 2012. And many who took part in the War of the Worldreaver would remember it for the rest of their lives. It took place in a world made of words—a world without graphics that would soon look dated, and with nearly limitless production values. The battle was a defining moment in a history players had created together for fifteen years, built on a platform where “very little stands between those ‘wouldn’t it be cool?’ moments and their subsequent implementation.”9 “I’ve always loved how the game feels like a favorite book you wish you could be the character in,” one player wrote, “and in this case you are.”7
+
+Achaea launched in September 1997, maybe one of the worst possible moments to start a new commercial MUD. That same month Ultima Online [Origin Systems] debuted, heralding a new era for online fantasy gaming brought to life with graphics, not prose. The early 90s experiments with more social virtual worlds like LambdaMOO were petering out as expectations of 3D graphics became entrenched, and while single-player text games were in the midst of a quiet renaissance, their player base had little overlap with mudders. Worse, for years most commercial MUDs had charged hourly connection fees, a standard model that other dial-up services like America Online had normalized. But AOL had recently switched to a monthly flat-fee rate: “Hourly charges instantly became a non-starter for everyone in the industry,” creator Matt Mihály recalls.3 It was an open question whether anyone would still want to play, let alone pay for, an online text game.
+
+Mihály had gotten into mudding while an undergrad at Cornell, entranced by the fascinating possibilities of persistent virtual worlds. He spent countless hours on BatMUD [Antti Luostarinen and Niklas Lindroos 1990], forcing himself to stop playing his senior year so he could graduate. Afterward he landed a job as a stockbroker, but found it a miserable experience. He quit and fell back into MUDs, spending upwards of eight hours a day in a long-running British game that had recently opened up to worldwide connections: “I mainly spent 1995 playing Avalon [Yehuda Simmons 1989],” he later remembered.3 Sometime that year, Mihály started wondering if perhaps he could turn his obsessive hobby into a profession, using funds banked from his short-lived career in finance. He decided to start a commercial MUD.
+
+	Lakeside highway. (road)
+	Silver sparks dance across the heavens as the dazzling orb of the sun rushes past Achaea’s three rings, the second brilliantly coruscating at its passing. Roughly following the line of Lake Vundamere, the road bends northwest and east, while the southern edge of the highway shows the passage of the many feet that have detoured from their travels to enjoy the beauty of the lake for a time. Bits and pieces of debris remain along the roadway and you can see where the ground has been cleared in various spots for campfires, some still giving off smoke which drifts eastward in the breeze. […] A rune that looks like something out of your nightmares has been sketched into the ground here. An indigo nightfire butterfly flutters here peacefully. Valayra is here.
+	You see exits leading east, south, and northwest.
+	477h, 512m, 1325e, 1475w ex-say hello
+	You say, “Hello.”
+	477h, 512m, 1325e, 1475w ex-quickscore
+	Loristo (male Tsol’aa)
+	You are level 6 (Novice) and 23% of the way to the next level.
+	Health:        618 /  582     Mana:          654 /  618
+	Endurance:    1510 / 1510     Willpower:    1690 / 1690
+	Strength: 12  Dexterity: 12  Constitution: 11  Intelligence: 13
+	You are a fledgling in the Sylvan class.
+	477h, 512m, 1325e, 1475w ex-
+	Valayra waves her hand in greeting.
+	477h, 512m, 1325e, 1475w ex-sip health
+	You take a drink from an oaken vial.
+	The elixir heals and soothes you.
+	535h, 512m, 1325e, 1475w ex-
+	Reonna arrives, following Caladbolg from the east.
+	535h, 512m, 1325e, 1475w ex-
+	Reonna leaves, following Caladbolg to the northwest.
+	535h, 512m, 1325e, 1475w ex-walk to Beku
+	Do you really want to walk to Beku, the pygmy chieftain in the land of Minia? 
+	Type AGREE to proceed.
+	535h, 512m, 1325e, 1475w ex-
+	Valayra positions a shining silver scabbard on her hip with a look of determination.
+	535h, 565m, 1325e, 1475w ex-agree
+	Carefully getting your bearings, you set off east toward your goal.
+
+Most such games, then and now, were hobbyist affairs run on spare hardware and in spare time. But a few MUDs had managed to attract paid subscribers with the promise of polished content, regular updates, and reliable support. Mihály, who by then felt he knew the mudding world inside and out, founded a company named Achaea LLC after its planned first game. Licensing Avalon’s engine from the game’s creator, who had become a friend, Mihály soon realized it would need a serious rewrite: written originally by a fifteen-year-old, among other limiting features it had no support for local variables and no way to pass variables to subroutines.
+
+But more existentially pressing was the problem of revenue. Without the name-brand clout of Ultima’s Richard Garriott or the backing of a major game studio, Mihály doubted he could convince enough would-be players to sign up for a monthly subscription sight unseen. He decided to make Achaea free but sell credits, which could speed the process of leveling up your character. Soon, at the request of players, he began holding auctions for custom in-game items he’d coded; one such event raised five thousand dollars at a time Mihály was struggling to pay the rent. Soon the irregular auctions became a persistent storefront on the game’s website, a place to spend real money on virtual goods. 
+
+This was not a common feature in games of the time: “One of the really strange things about Achaea is how it makes money,” one reviewer noted.18 While it was not the first game to let players buy virtual perks—the 1990 arcade game Double Dragon 3 [Technōs Japan], for instance, had an item shop where extra quarters could be exchanged for better equipment—Mihály’s game company would become one of the first to use strategies later known as “microtransactions” or “free-to-play” to fully fund their business. In the days before services like PayPal made online payments more convenient, many players bought their virtual goods by mailing a paper check to Mihály’s San Francisco address.
+
+To compete with graphical games and distinguish his MUD from competitors, Mihály focused on building a roleplay-focused world with rich lore and driven by player-to-player interactions. It was a world where gods and dragons walked the lands, both run by players who had reached the highest levels of gameplay. In contrast with other MUDs where the cliquish upper echelons rarely interacted with mere mortals, Achaea was designed so that the two groups had good reasons, both in and out of character, to deal with each other. Gods, for instance, gained their power based on how many active worshipers they had: the more sacrifices and sacred rituals were performed in their name, the stronger their influence became. This mechanical correspondence encouraged players to proselytize for their chosen deity or smite nonbelievers, and it incentivized gods to act in character as mentors and protectors. 
+
+Mihály, a political science major in college, also coded support for complex systems of government into the game’s engine. Players could join one of half a dozen city-states spread throughout the world to help them claim territory, defend their borders, or manage their affairs:
+
+	Each city-state has a ruling council, whom the citizens vote for, and then a sovereign, whom the ruling council votes for. The sovereign then appoints players to seven different Ministries: Ambassador, War, Security, Treasury, Steward, Trade, and Chancellor. Each Ministry is responsible for different areas of city administration, and may appoint other citizens as his or her aides.… The internal news system is often filled with the powerful political players engaged in debates over the direction of their guild or city.6
+
+Mihály saw politicking and player-run organizations as a key way to realize his vision of a game where roleplay and character interaction could actually impact the world. While the actions of individual characters were hard to make meaningful, cities and guilds could function like metaplayers on a global stage, whose actions the developers and scenario designers could respond to with permanent changes or reactive events. “Instead of 10,000 people purely doing their own things,” Mihály wrote,
+
+	you might have 50 political structures that players focus some of their effort through. Providing the organizations have an ability to impact the world in real ways, this allows story to emerge from the web of relationships and inevitable conflicts between these entities. It’s the difference between interesting complexity and indistinguishable chaos.14
+
+A third form of player interaction was player-versus-player combat (PvP). Most of the game’s skill tree focused on battling, and besides purchasing credits, the chief way to improve skills was by leveling up through endless grinding. To ensure customers were motivated to improve those skills, Mihály extended Achaea’s PvP systems until they became some of the most complex ever seen. A 1999 review attempted to summarize:
+
+	Fighting in Achaea is like nothing you’ve ever seen before.… There are hundreds of different ways to attack an opponent. There is telepathy, the ability to use shrines for offensive and defensive purposes, flying in the skies (and dropping victims), the use of trees and beehives to attack your opponents (for druids), martial arts, weapons, tarot cards, entities, and so much more. There is also body-part damage. You can get concussions from getting hit in the head too much, you can get internal bleeding from getting hit in the torso a lot, and you can get broken or mangled limbs. Not only does fighting consist of damage to your body, but it also involves afflictions. There are approximately 50–75 different afflictions you can have. You could have stupidity, epilepsy, dizziness, confusion, etc. To cure these afflictions, you need to use herbs, which I will talk about a bit later…6
+
+The combat system became so complex that scripting—writing small programs to autotype commands in response to key phrases in incoming messages, a practice discouraged by most MUDs—soon became necessary to stay competitive in high-level PvP play. The person with the better script had a serious edge. Soon some players were selling finely tuned combat scripts to others, commanding premium prices. The powerful unique items available via microtransactions provided another critical edge, leading to complaints that only players who dropped huge amounts of money could come out on top in combat—a pattern that would later be called “pay-to-win.” But others pointed out that neither elite equipment nor elaborate scripts would help a player who hadn’t mastered the complex strategies behind Achaean combat, or who wasn’t skilled in parsing a battle taking place in messages that sometimes scrolled past at the speed of dozens of sentences per second. “Within a four second period,” a reviewer playing a Serpentlord wrote, “I might secrete two venoms, bite someone twice, heal a broken limb by applying a mending salve, raise my mana by drinking a mana elixir, and attempt to writhe off a sword that’s impaled me. I might also have 30 different defences active, as well as a full complement of magical tattoos.”18 Battles in Achaea were not for the faint of heart.
+
+But the game offered plenty of opportunities for those not interested in fighting. By 2015 the game world had grown to include hundreds of thousands of described locations—not counting remote wilderness areas represented by grids of nondescript rooms. Countless hours of labor by both paid staff and player volunteers had produced millions of words that brought the continent of Sapience to vivid life, from the deserts and jungles of the south to the frigid islands of the remote north. Just exploring the world could take an age. One forum poster noted that he would never have the time to experience everything the game had to offer, but “I hope that one of my daughters will take over [my character] some day. I might put it in a will.”21
+
+As in other MUDs, dynamism like a day/night cycle, hundreds of named NPCs, and wandering monsters and animals helped bring this textual world to life. And without the burden of multimedia assets to support them, new mechanics and systems could be added easily and continuously. Browsing through the dozens of detailed subsystems in Achaea’s help files is enough to make designers of games that need graphical assets weep:
+
+	Your shop will cost the city it is in money to pay for guards to keep thieves and brigands out of your shop. As such, the city may decide to tax your shop. […] You may control the colour of your SHOP SIGN as a configuration option. Type CONFIG COLOUR and you will see the setting […]
+
+	The ship that wishes to permit diving must also have a diving bell. […] The bell can be raised or lowered (SHIP RAISE BELL, SHIP LOWER BELL) under most circumstances while not moving and not in port. […] A leadline is a handy thing used to SHIP TAKE SOUNDING. This will tell you how deep the water is and whether diving will be of any potential benefit. […] A shipfitter can make you a skeleton key to unlock the mysterious bone chests found below.
+
+	CHESS MOVE <position> to <position> : Moves a chess piece. You may use either algebraic notation (a1, b3, etc) or descriptive notation (q3, kkt4, etc) […]
+
+	A practitioner of Hypnosis will be able to sink someone into a hypnotic trance, possibly even without them realising it, and implant various subliminal suggestions. They can then seal their victim’s mind and implant a timer that determines how long after the hypnosis has been triggered until the suggestions start becoming active […]
+
+John Romero, co-creator of Doom, blurbed Achaea in the early 2000s saying he “doesn’t believe there is a deeper game in existence.” While graphical MMOs were increasingly stealing the player base, their mature textual ancestors were “an object of fascination among [mainstream] game designers … the feature-rich MUD seemed like a promised land of sorts,”9 an escape from what Mihály once called “the plodding literalism of 3D graphics.”3 They were places where anything you imagined could be built. Text games, perhaps, were abandoned far too early, just when they were starting to realize their potential. “Imagine the challenge for literature,” a journalist interviewing Mihály once mused, “if movies had come along within a decade of the invention [of the] printing press.”3
+
+Roleplayers on the richly appointed stage of Achaea proved more than capable of generating their own stories. In 2001, one reviewer noted that recently,
+
+	the three guilds of the Serpentlord class (Serpentlords, Shadowsnakes, and Dawnstriders) got together and decided to assassinate the NPC who sold certain venoms. They did this because they didn’t like the effective price ceiling that the NPC’s existence caused. They then, as a cartel, imposed price controls on the sale of all venoms which caused considerable tension not only between the members of the cartel, but between the cartel and certain influential city officials who depended on venoms.18
+
+But unlike hobbyist MUDs, Achaea could also pay designers to craft planned stories and events. In 2004, the MUD attracted media attention over a subplot involving the introduction of an addictive drug called “gleam.” The drug would raise your character’s stats, but came with procedurally enforced side effects. The game engine would remove spaces from the chat messages of a character who had taken gleam, for instance, in proportion to how big a dose they were on. Addicts would start to hallucinate people entering the room who weren’t actually there. Withdrawal could trigger autonomous actions: shivering, vomiting, even begging other characters for more gleam or the money to buy it—totally outside the player’s control.  
+
+Attention from the press would be rare. Achaea expanded for its first few years of operation, and Mihály eventually launched a series of spin-off commercial MUDs, including an officially licensed one based on the fantasy novels of Raymond E. Feist; he renamed his company Iron Realms Entertainment to match its new multiversal scope. But traffic peaked sometime around 2005, correlating with the rise of second-generation MMOs like World of Warcraft [Blizzard Entertainment 2004], which siphoned away even more longtime mudders. The few who remained were increasingly diehards, committed inexorably to games in which they’d spent thousands of hours—and, in some cases, thousands of dollars. As the rest of the gaming world caught up to the monetization strategies Mihály’s game had helped pioneer, some gamers began to question the ethics of free-to-play models that put no upper limit on how much a dedicated fan could spend, and were often driven by addiction psychology techniques like impulse buys and loss aversion. A 2020 exposé interviewed Achaea players who had spent over $10,000 for in-game perks,16 inspiring new criticisms of the game’s “pay-to-win” mechanics.
+
+And yet the critical coverage could only exist because the payment model had worked: Achaea was still around in 2020 to critique, decades after the supposed death of commercial text games. It has remained consistently popular for over twenty years, generally ranking somewhere in the top five or ten spots on MUD aggregator sites that ping servers for active player counts. It is “one of the most complex and detailed MUDs I have ever played,” one review advised.12 Another gushed, “It’s the most innovative MUD or MMORPG around. Its range of features is incredible, and the depth … is unparalleled.”18 Perhaps a thousand regular players still visited Achaea on an ongoing basis circa 2020, with over a hundred online on any given evening. Another forum thread—“What Happened To You Today?”—documents over eight hundred pages of posts where Achaeans share interesting or mundane events, tens of thousands of missives from the daily life of a virtual world:
+
+	I shot a few Targossians with arrows.
+	
+	I finally bought a hookah.
+	
+	Dajio tried to backstab gank me in Moghedu twice… He failed.
+	
+	I got text married, and it was probably the best surprise wedding involving drug-frogs that has ever existed.
+	
+	Joined the massive kraken hunt.
+	
+	Got teleported to an island in the middle of nowhere.
+	
+	Found a telescope of sorts. Put it together. Saw a bunch of neato ASCII constellations.
+	
+	I found 3600 gold in my bait bucket. I think I stashed it there something like three years ago.
+	
+	Learned how to climb trees for the first time ever… Discovered that fire destroys trees, and fall to ground, breaking both legs and can’t move.
+	
+	Found a pair of tiny white lace panties, with little red hearts, laying on the ground in the forest. Realized they belonged to a gold dragon. Decided I never want to know how they got dropped.
+	
+	I found a new hat, so I’m happy.19
+
+“We are never going to abandon the text market unless it abandons us,” Mihály once promised.3 In the mid-2000s he’d stepped down from running his MUDs to focus on a short-lived graphical MMO, Earth Eternal [Turnout Ventures 2009], but he returned to the text-only side of his business a few years later (though increasingly handing the reins to the next generation of creators and admins). During his tenure he’s seen the best client for connecting to his worlds change from Telnet to apps written in Java, Flash, and HTML5; he’s pushed through three major engine upgrades; he’s overseen teams of writers and designers who have created hundreds of live events and thousands of unique locations, characters, and items; and he’s seen generations of graphical competitors rise and fall while his games keep running. Keeping players happy—and paying—in the face of flashier competitors has been, at times, a difficult slog for him and his team. “There are definitely challenges with the public perception” of his payment model, he concedes.9 But he loves what he does:
+
+	We don’t have to put up with crunch time, we don’t have to deal with anyone censoring our content, and we have complete creative control over what we do. We’ll never be as polished as [World of Warcraft] and we’ll never be awarded Game of the Year by major publications, but on the other hand, they’ll never approach the depth certain aspects of our games achieve, and they can’t even dream about the amount of design freedom we have.15
+
+Mihály recalls that, back in 1997, “everybody told me it was crazy to dive into MUDs commercially when it was clear that they were not the future of the market. I’m incredibly glad we were too stubborn to listen.”10
+
+In the aftermath of the epic War of the Worldreaver, after many gods had died and hundreds of players helped the survivors defeat the abomination of Bal’met, there was one final sacrifice. Mihály’s own character, Sarapis—the god whose will had inspired all creation—realized the life-giving Fire Behind the Flame was in danger of guttering out forever. After bidding a gentle farewell to his creations,4 he left to spend eternity tending the Fire, departing the mortal world for good. Mihály had played the character for fifteen years—most of his adult life. “I had tears running down my cheeks when I delivered Sarapis’ goodbye forever speech,”11 he later wrote. But sometimes there’s a price to pay for keeping the flame alive.
+
+
+References
+
+1) “Achaea Wiki.” n.d. wiki.achaea.com/Main_Page | a Jun 25, 2021
+2) “Achaean News [Archive].” 1997-2021. achaea.com. www.achaea.com/news/?game=Achaea&section=announce&number=1 | a Jun 25, 2021
+3) Davis, Steven. 2006. “The World of Text MMOs / MUDs - An Interview with Matt Mihaly, CEO of Iron Realms Entertainment.” PlayNoEvil (blog). Sep 8, 2006. www.playnoevil.com/serendipity/index.php?/archives/765-The-World-of-text-MMOs-MUDs-An-Interview-with-Matt-Mihaly,-CEO-of-Iron-Realms-Entertainment.html | s Oct 31, 2006
+4) “The Departure of the Logos.” Dec 21, 2012. Achaean News. www.achaea.com/news/events/419/ | a Jun 25, 2021
+5) Gibson, Jon M. 2004. “Just Say No to Gleam.” Computer Gaming World, Sep 2004. 
+6) Hardeman, Kurt. 1999. “Achaea” (review). MPOG Dot Com (blog). Aug 30, 1999. www.mpog.com/reviews/software/rpg/achaea | s Aug 18, 2000
+7) Hindman, Beau. 2013. “Beau Interviews Matt from Achaea.” May 23, 2013. Video. www.youtube.com/watch?v=MtuNM5PiVCk | a Jun 25, 2021
+8) Hindman, Beau. 2015. “Achaea the MUD with Tecton the Producer!” May 1, 2015. Video. www.youtube.com/watch?v=1LA4-pmpsgE | a Jun 25, 2021
+9) Hrodey, Matt. 2019. “Meet the Man Who Invented Microtransactions Years before Oblivion’s Horse Armour.” PCGamesN (blog). www.pcgamesn.com/first-game-with-microtransactions | a Jun 25, 2021
+10) Iron Realms Entertainment. 2007. “Iron Realms Celebrates 10th Anniversary of Achaea!” Press Release. Sep 10, 2007. www.gamesindustry.biz/articles/iron-realms-celebrates-10th-anniversary-of-achaea | a Jun 25, 2021
+11) Iron Realms Entertainment. 2012. “The Worldreaver Saga.” achaea.com. www.achaea.com/history/the-worldreaver-saga | a Jun 25, 2021
+12) Jennings, Scott. 2005. Massively Multiplayer Games for Dummies. John Wiley & Sons.
+13) Michaly, Matthew. 2000. “Constructive Politics in a Massively Multiplayer Online Roleplaying Game.” Gamasutra (blog). Mar 9, 2000. www.gamasutra.com/features/20000309/mihaly_01.htm | s Apr 7, 2000
+14) Mihály, Matt. 2004. “Matt Mihaly, Designer/Entrepreneur.” In Downloaded Character Development and Storytelling for Games, by Lee Sheldon. Boston: Thomson Course Technology PTR.
+15) Mihály, Matt. 2005. “Burn Baby Burn.” Terra Nova (blog). Mar 17, 2005. terranova.blogs.com/terra_nova/2005/03/burn_baby_burn.html | a Jun 25, 2021
+16) Mills, Mark. 2020. “Achaea: The Game Where Microtransactions Cost Hundreds of Dollars.” Rock, Paper, Shotgun (blog). Apr 15, 2020. www.rockpapershotgun.com/achaea-the-game-where-microtransactions-cost-hundreds-of-dollars | a Jun 25, 2021
+17) niDistinct. 2021. “Multi-User Dungeons (MUDs): What Are They? And How to Play.” Hacker News (blog). Comments. news.ycombinator.com/item?id=26297000 | a Jun 25, 2021
+18) Reyes, Scott. 2001. “Achaea MUD Review.” RPG Planet (blog). Mar 22, 2001. www.rpgplanet.com/community/voice/achaea | s May 7, 2001
+19) Sarapis. 2014. “What Happened To You Today?” Achaea Forums. Aug 6, 2014. forums.achaea.com/discussion/2477/what-happened-to-you-today | a Jun 25, 2021
+20) Sarapis. 2015. “Re: Lack of Players?” Achaea Forums. Nov 18, 2015. forums.achaea.com/discussion/4233/lack-of-players/p3 | a Jun 25, 2021
+21) Shibumi. 2013. “Re: Why Did You Start Playing? Why Did You Stay?” Achaea Forums. May 30, 2013. forums.achaea.com/discussion/1259/why-did-you-start-playing-why-did-you-stay | a Jun 25, 2021
+22) Sylvance. 2012. “The Bal’met Event.” Achaea Forums. Nov 11, 2012. forums.achaea.com/discussion/440/the-balmet-event | a Jun 25, 2021
+23) Terdiman, Daniel. 2004. “Virtual Dopers Crave High Scores.” Wired (blog). May 25, 2004. www.wired.com/2004/05/virtual-dopers-crave-high-scores | a Jun 25, 2021
+24) Xith. 2012. “Justifying MUD Purchases to Non-Players.” Achaea Forums. Dec 8, 2012. forums.achaea.com/discussion/comment/26803 | a Jun 25, 2021
+25) Zenn. 2008. “Exclusive with Matt Mihaly and Jeremy Saunders.” MUDNews (blog). Dec 18, 2008. mudnews.blogspot.com/2008/12/exclusive-with-matt-mihaly-and-jeremy.html | a Jun 25, 2021

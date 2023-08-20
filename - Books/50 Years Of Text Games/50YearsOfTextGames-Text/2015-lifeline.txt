@@ -1,0 +1,136 @@
+Lifeline
+
+2015
+
+Dave Justus, Ben “Books” Schwartz, Colin Liotta, Mars Jokela, Jason Nowak, and Dan Sellec
+Style: Choice-Based
+Debuted: Apr 16, 2015 (App Store)
+Launch Platform: Apple Watch, iPad, iPhone 
+Developer: 3 Minute Games
+Publisher: Big Fish Games
+Language: Objective C (app)
+Twine (authoring)
+Launch Price: $2.99 (download)
+
+Opening Text:
+
+	[incoming communication]
+	
+	[establishing connection]
+	
+	[receiving message]
+	
+	Hello?
+	
+	Is this thing working?
+	
+	Can anyone read me?
+
+
+In the first week of May 2015, the number one paid game on Apple’s mobile app store for countless months before and after—Minecraft—briefly lost its place on top. For a few days that week, the bestselling mobile game on the best-known software storefront in the world was a choice-based text adventure called Lifeline, which had also become the top title on the just-released Apple Watch. If it had still been easy to declare text games commercially dead five or ten years earlier, it was a little harder to do so that week in May, when hundreds of thousands of players paid for an app that let them swap texts with a fictional astronaut.
+
+Lifeline’s developer, 3 Minute Games, had come together in late 2014 as a kind of skunkworks within casual gaming giant Big Fish Games. Led by Colin Liotta and Mars Jokela, it was tasked with making rapid mobile game prototypes—“testing different styles of games, different pay structures, seeing which combinations worked best.”8 A new feature announced that year at Apple’s Worldwide Developers Conference had caught Liotta’s attention: in iOS 8, developers would be able to add actions directly to device notifications, allowing users to interact without needing to unlock and open an app. Liotta, who had been musing about an asynchronous narrative game, realized the new feature could let people play a choice-based game entirely in stolen moments throughout their day, without ever leaving the lock screen. When the Apple Watch was announced a few months later, it seemed like “an absolutely perfect platform to launch the game on,”2 so the team rushed the concept into production, hoping to have something ready for the smartwatch’s launch day.
+
+The 3 Minute team reached out to a contract writer they knew, Books Schwartz, with a difficult authoring challenge: to create an interactive story for such a tiny screen, they’d need a hard limit of two options per choice with just a handful of words in each option. Schwartz was a lifelong fan of adventure games, having grown up with text adventures and their graphical cousins, but most of their game design experience was in live-action roleplaying. In a recent campaign, they’d played a research assistant character who was connected to the main action only through phone calls with a hero in the thick of it. Even distanced from the plot, picking it up in bits and pieces each time the phone rang, Schwartz had still found the experience surprisingly compelling. During a long phone call, Liotta and Schwartz worked out a plot structure for the new game where the player would text advice to a fictional astronaut who needs help getting out of a jam, “sort of like if The Martian were a game instead of a movie, and you got to talk to Mark Watney the entire time he’s stranded on Mars.”8
+
+	All right, so my escape pod came down in some kind of desert.
+
+	The ground is all cracked white rock. There’s a huge white peak a few miles away.
+
+	Or, uh, kilometers, I guess. (They tried to get me to think metric for the trip, but some things are just hardwired.)
+
+	It’s weirdly symmetrical, like it might not be a natural formation.
+
+	My IEVA suit’s compass places the peak northeast, and then, in the opposite direction—south and southwest, to be precise—
+
+	…are two funnels of black smoke from what I have to assume are two pieces of the Varia.
+
+	Best case scenario, it’s ONLY in two pieces.
+
+	The crash sites look closer than the peak. What do you think I should do?
+	
+	* --> Check the crash. 
+	* Head for the peak.
+
+	Yeah, cool, that makes sense. There might be other survivors … fingers crossed.
+
+	(It’s not actually possible to cross your fingers in an IEVA suit, but just take my word on it.)
+
+	Or at the very least, there should be some supplies I can use.
+
+	Okay, I’m headed south now. Looks like the smoke is at least an hour away. Or whatever the metric equivalent of an hour is.
+
+	I’ll let you know once I’m there.
+
+	[Taylor is busy]
+
+Schwartz wrote some early scenes for the game and sketched out an outline for the rest, but was struggling with the stress of an intense graduate program and had to bow out of the project early. Scrambling to find a replacement, the 3 Minute team reached out to another friend: Dave Justus, a Texas-based writer trying to break into storytelling for comics. Justus was a bit of a long shot, with only one professional credit and “no background in games whatsoever.”8 (He later joked that the most recent game he’d played before writing Lifeline was 1997’s Tomb Raider II.6) “3 Minute really took a chance on an unknown quantity when they brought me on board … which was a big gamble on their part.”2 But the clock was ticking and Justus was available, so on very short notice he joined the project.
+
+Justus had just five weeks to write the bulk of a novel-length branching adventure, taking Schwartz’s start and fleshing out a fully realized world, story, and game. “[I was] free to do whatever I wanted,” he recalled, “which was both amazing and daunting.”8 Schwartz, who identifies as nonbinary, had decided to keep the main character ungendered as “a bit of quiet representation”9 and to allow players to imagine the hero however they liked. Justus kept the idea and further developed Taylor’s character: a young lab assistant, not an experienced hero, which explained their need for constant help from the player and understandable anxiety about crash-landing on an alien moon. Messages would arrive in short bursts, just like texts, so the writing had to convey character and situation while remaining as short and economical with words as possible.
+
+Another key concept was that Lifeline’s messages would arrive in real time. If Taylor went to sleep, you’d have to wait until the next morning to hear back; if the reluctant astronaut needed to climb down a steep slope into the bottom of a crater, the player might need to wait an hour or two for an update.
+
+	Holy crap. It’s a lot further than it looked. My legs feel like Jell-O, and I’m maybe halfway there.
+
+	Great. And now all I can think about is how much I want Jell-O.
+
+	[Taylor is busy]
+
+“We wanted Players to be tense, anxious to see whether their advice had been Taylor’s doom or salvation,” Justus recalls.8 “When people are playing it, it’s not just about the time that they’re interacting with Taylor. It’s all the rest of the time when they’re thinking about Taylor. The whole goal was to make something that would become a part of people’s lives.”6
+
+	Okay. At long last, I’m in sight of the Varia. Or what’s left of it, at any rate.
+
+	It seems to have cracked hard once it hit atmosphere. 
+
+	Like I figured, it came down in two major chunks…
+
+	…with a ton of scattered debris thrown around just to make the whole scene look terrifying and post-apocalyptic.
+
+	(In case anyone asks, it’s working; I’m appropriately terrified.)
+
+	Looks like the flight deck came down pretty far from the crew quarters. Where do you figure I should go first?
+
+	* Look for the crew.
+	* Check the flight deck.
+
+While also not a gamer as an adult, Justus had enjoyed text adventures on his parents’ Apple IIe as a kid—The Hitchhiker’s Guide to the Galaxy 1984 had been a particular favorite. He’d also been a “voracious reader as a child—the sort who would read the back of cereal boxes, just because they had words on them,”8 and had owned a collection of several dozen Choose Your Own Adventure 1979 books. But he was unfamiliar with post-1980s interactive fiction, had never been to a game design conference or meetup, and was facing such a crushing deadline that there was little time to study up on conventional design or craft wisdom. “I honestly think, in this case, that worked to my advantage,” he recalls, “because I wrote the game purely as a conversation. I wasn’t thinking in terms of … typical video game structures; rather, I wanted it to feel as much as possible like the Player was receiving texts from a real human being.”8
+
+	OH MY GOD! You’ll never believe it!
+
+	I’m still walking around a moon crater and it’s still boring as hell!
+
+	…Sorry. I was just going a little bonkers, with nothing but the sound of my own thoughts.
+
+	* --> No worries. Wanna chat?
+	* Sorry. No time to chat.
+	
+	Yes! Please. I mean, I don’t want to be a bother, but you’re kind of all I’ve got.
+
+The real-time delay mechanic smacked of the forced waiting common in free-to-play apps, where in-app purchases could skip over long delays, but perhaps because of the project’s status as an experiment rather than a premeditated moneymaker, the creators included no such gotchas. “You can’t speed up time with a few hundred gems,” one reviewer noted. “You must be patient.”4 The game was designed to take place over three real-time days, or longer if the player didn’t always immediately respond (time doesn’t advance while Taylor waits for a reply). The team thought there was a serious chance the concept could fall flat. “This sort of approach ought, by rights, to backfire,” a reviewer wrote, “leaving gamers furious at shelling out for an app they can’t play. But amazingly, it works.”11 Another wrote that “by isolating interactions to sparing moments throughout the day,
+
+Lifeline infuses your normal grind with a palpable sense of adventure and consequence. During my playthrough, it’s not an exaggeration to say that I woke up nervous about what might have happened to Taylor, or paused in mid-conversation with colleagues to check on the outcome of a decision I had made.… The game’s drip-feed of content—would-be fertile ground for predatory in-app payments—is used instead as an innovative way [to] transform your relationship with the technology that sits at the centre of your life.3
+
+“As counterintuitive as it sounds, there’s something about interacting with Taylor through text messages that can feel very intimate,” game critic Laura Hudson wrote, “perhaps because we’ve grown so accustomed to communicating our most personal thoughts with our friends through texts—and waiting for their responses with bated breath.”6 The unlikely notion that people would enjoy reading text on the tiny screen of an Apple Watch turned out to be a nonissue: reading bite-sized chunks of text off miniature screens had long since become entirely normalized. 
+
+Justus used Twine 2012 to lay out and write his story, finding it a workable tool for someone like him with no technical background; the 3 Minute team would later process the story file format to adapt it to their own proprietary engine. While the game’s overall plot follows the same general spine regardless of your choices, several small subplots and asides can be discovered, and—as in the classic gamebooks—there are lots of ways for Taylor to die. (After finding one, the game lets you rewind to an earlier choice and try again, and unlocks the option to disable real-time delays.) While many choices are frustratingly blind and it’s not always clear how to lead Taylor to success, on occasion the game shakes up its formula in intriguing ways. In one early scene, Taylor asks whether exposure to a certain level of radiation is likely to prove fatal. You can guess, or you can actually do the research to find out—something that became easier in the wake of the game’s huge success, with Google helpfully pointing any remotely related searches toward Lifeline-inspired answers.
+
+Lifeline’s success was a combination of great timing and great execution: snappy writing, a clever core concept, and a launch on a new platform with few other apps yet available. “It’s the first game I’ve loaded on my Watch that is not only fun to play,” said Time magazine, “but fun to play specifically on a wearable.”12 The game’s explosive popularity would lead to a wave of copycats as well as official sequels, the first of which came just five months after the original. Though distant from the innovations in technology or design happening in other commercial text games, Lifeline demonstrated the genre’s appeal even with the most straightforward of foundations. The team was blown away by the unexpected success: by 2019 the series had amassed seven million installs. “The download numbers were staggering enough,” Justus recalls, “but then we started seeing fan art, cosplay, fan fiction. It was, frankly, completely overwhelming.”2 After some corporate reshuffling and a hiatus where the future of the series was in doubt, the original team reunited in 2021 to work on more games in the Lifeline universe and style.
+
+“Texting adventures,” Jokela calls them.7
+
+
+References
+
+1) Big Fish. 2016. “Lifeline: Whiteout, the Sequel to #1 Hit Mobile Game Is Announced.” Press Release. May 18, 2016. www.prnewswire.com/news-releases/lifeline-whiteout-the-sequel-to-1-hit-mobile-game-is-announced-300270403.html | a Oct 24, 2021
+2) Cohen, Oren. 2021. “A New Lifeline Mobile Game Is On The Horizon.” Oren Cohen: The Geek Writer (blog). Jul 16, 2021. theorencohen.com/blog/that-lost-astronaut-you-chatted-with-five-years-ago-is-making-a-comeback | a Oct 24, 2021
+3) Cymet, Eli. 2015. “Lifeline… Review: Emergency Contact.” Gamezebo (blog). May 1, 2015. www.gamezebo.com/2015/05/01/lifeline-review-emergency-contact | a Oct 24, 2021
+4) Gil, Lori. 2015. “Lifeline… Is a Fun Interactive Game You Can Play on Your IPhone or Apple Watch.” iDB (blog). May 5, 2015. www.idownloadblog.com/2015/05/06/lifeline | a Oct 24, 2021
+5) Hennon, Blake. 2014. “‘Fables: The Wolf Among Us’: Matthew Sturges, Dave Justus on the Case.” Hero Complex (blog). Oct 10, 2014. herocomplex.latimes.com/comics/fables-the-wolf-among-us-matthew-sturges-dave-justus-on-the-case/#/0 | s Oct 13, 2024
+6) Hudson, Laura. 2015. “I’ve Been Texting with an Astronaut.” Boing Boing (blog). May 7, 2015. boingboing.net/2015/05/07/lifeline-astronaut-game.html | a Oct 24, 2021
+7) Justus, Dave. 2016. Lifeline: An Interview.” Interview by Fabrizio Venerandi. Verba Mutant (blog). www.quintadicopertina.com/fabriziovenerandi/?p=493 | a Oct 24, 2021
+8) Justus, Dave. 2019. “An Interview with “Lifeline” Series Writer Dave Justus.” Brunette Games (blog). www.brunettegames.com/2019/07/an-interview-with-lifeline-series-writer-dave-justus.html | s Dec 18, 2019
+9) Schwartz, Ben. 2022. Unpublished email with author. Feb 2, 2022.
+10) Thomas, Lucas M. 2015. “App Store Update: September 22.” IGN (blog). Sep 22, 2015. www.ign.com/articles/2015/09/22/app-store-update-september-22-3 | a Oct 24, 2021
+11) Thrower, Matt. 2015. “Lifeline…” (review). Pocket Gamer (blog). Apr 29, 2015. www.pocketgamer.com/articles/065105/lifeline | a Oct 24, 2021
+12) Vella, Matt. 2015. “This Is the Best Game on the Apple Watch.” Time (blog). May 7, 2015. time.com/3850243/lifeline-apple-watch | a Oct 24, 2021
+

@@ -1,0 +1,220 @@
+Nested
+
+2011
+
+Orteil (Julien Thiennot)
+Style: Experimental
+Debuted: Jan 2011 (prototype)
+Jan 2012 (first release)
+Launch Platform: Web
+Language: JavaScript
+
+Opening Text:
+
+	+ universe
+
+
+The site shows only a blank white page, a single word in the upper left corner. The plus sign suggests the familiar design language of nested folders: click here to see what’s inside. Doing so reveals a handful of new lines indented one level deep—identical, but each with their own invitation to expand.
+
+	- universe
+		+ galactic supercluster
+		+ galactic supercluster
+		+ galactic supercluster
+		+ galactic supercluster
+		+ galactic supercluster
+		+ galactic supercluster
+		+ galactic supercluster
+		+ galactic supercluster
+		+ galactic supercluster
+
+Inside each supercluster are a smattering of galaxies. Each galaxy contains galactic centers and galactic arms, arms contain star systems and nebulae, and so on, down through planets and silica and oxygen and atoms. The atoms contain protons, neutrons, and electrons; the protons contain down quarks and up quarks; each quark contains something called a qwubble. Inside each qwubble are whole new universes.
+
+“Okay,” you think, “I get it, cute.” You might briefly explore a nested landscape of nebulae and lifeless moons and the occasional black hole before getting bored and closing the browser tab.
+
+Or you might discover that some parts of this multiverse are filled with life.
+
+	- telluric planet
+		+ continent
+		- continent
+			+ desertic land
+			- white sea
+				+ sea water
+				- life
+					+ brill
+					+ whiting
+					+ skate
+					+ swordfish
+					+ tuna
+					+ haddock
+					+ dab
+					+ eel
+					+ mackerel
+					+ swordfish
+					+ great white shark
+					+ copepod
+					+ coral polyp
+					+ rotifer
+					+ sponge
+					+ porpoise
+					+ stingray
+					+ bottlenose dolphin
+					+ whale
+
+Inside each creature are body parts, which in turn contain fats, muscles, blood, keratin, and so on. But creatures also contain thoughts, some of the only things in this textual universe that don’t expand—leaf nodes on an infinite tree.
+
+	- great white shark
+		+ body
+		- thoughts
+			EXCUSE ME ARE YOU FOOD
+			CHOMP
+	- rock lobster
+		+ body
+		- thoughts
+			dig dig
+			gotta breed
+	- oyster
+		+ body
+		- thoughts
+			slurp
+			what is this
+			oh no
+
+Soon you discover that some of these planets host civilizations of intelligent people. And then the game—or whatever Nested is—really takes off.
+
+Nested was written by a French college student with the online handle Orteil, who had a lifelong passion for making games. At an early age he received a game-making program called Klik & Play [Clickteam 1994] from his dad, which sparked a fascination for creating his own interactive experiences. Orteil loved games like Spore [Maxis 2008] and The Sims [Maxis 2000] that contained their own little worlds, and soon he was simulating worlds of his own. The projects were often far more ambitious than he yet had the means to realize, but the tinkering was endlessly fascinating. As he got older, he experimented with more elaborate game-making tools like Inform 7 and GameMaker, and at nineteen he found himself leading a team of online collaborators hoping to bring to life a fictional game made famous in an internet meme: Crab Nicholson Extreme Text Adventure. Orteil wanted it to be
+
+	a game that branches into shitloads of different scenarios, depending on the player’s input—or on some occasions, pure chance; that’s why everything that could lead to interesting situations is possible … this game does not care whether something is logical or not, or even possible at all; this game doesn’t give a fuck about the basic rules of space-time continuum; the only guideline is this—if it’s awesome, extreme, or otherwise fucking amazing, it HAS to be in the game.4
+
+The effort fell through—probably for the best, judging by surviving forum posts—but Orteil kept experimenting through his college years at Créapole in Paris, where he was studying web and graphic design. He released experimental Flash games, first on DeviantArt and Newgrounds, and later on a dedicated website set up by a friend he’d met on Second Life [Linden Lab 2003]. In his tiny text game PretendEverything [2011], you can embody things from water droplets to mountains, exploring how they might transform into bigger or smaller entities (mountains are made from pebbles; droplets evaporate into mist). Turtle Toy [2011] let users program digital genomes for a Logo-like turtle that follows instructions to draw geometric shapes. In Genesis [2010], you’re a god who starts with four elements—fire, water, earth, and air—and can combine them into more and more interesting creations, from rainbows to jungles to seaweed to butterflies.
+
+In early 2011, Orteil wrote the bulk of what would become Nested, but he didn’t finish or release it until a year later. It picked up some momentum on social media, but wouldn’t really take off until another big update in early 2013. In the weeks after, it became a viral hit, shared and reshared by friends passing along the delightful experience of finding endless complexity in something that began so simply.
+
+Nested was written in JavaScript, a language still in the midst of an awkward transition from a lightweight scripting tool to the mature engine modern web apps are built on. While today most JavaScript is hidden behind layers of obfuscation, transcompilation, and a complex ecosystem of libraries and modules, back then it was still often possible to View > Source on a web page to get a good sense of how it worked. Like many web toys of the time, Nested was coded in a single file full of global variables, inline data, and hacked-together functions. The complexities of getting code to run in other programming languages—package installations, class hierarchies, type-checking, encapsulation—could be ignored in JavaScript in the interest of just throwing together something that worked. While traditional coders saw this as a laughable weakness, it enabled millions of dabblers to create and share interesting programs that anyone with a web browser could run. Not since BASIC had there been a more democratizing platform for coding.
+
+Orteil’s code creates a simple authoring framework that allows for easily defining objects called Things, which have only a name (or a way to generate one) and a list of other Things they might conceivably contain:
+
+	new Thing("galaxy arm",["galactic life,5%","dyson sphere,4%",
+	"dyson sphere,2%","star system,20-50","nebula,0-12","black 
+	hole,20%","black hole,20%"],"arm");
+	new Thing("star system",["star","star,3%","visitor planet,
+	5%","future planet,10%","future planet,10%","terraformed
+	planet,50%","terraformed planet,20%","terraformed planet,
+	10%","medieval planet,30%","medieval planet,20%","ancient
+	planet,50%","ancient planet,30%","ancient planet,10%",
+	"barren planet,60%","barren planet,40%","barren planet,
+	20%","gas giant,60%","gas giant,40%","gas giant,20%","gas
+	giant,10%","asteroid belt,0-2"]);
+
+Addenda like 0-12 define how many such Things a parent might contain, and 5% the chance it contains one at all. Each quoted item name refers to another Thing, which would need to be created in turn, so Orteil wrote a basic debugging tool to prod him to create Things that were referenced but not yet defined. Other shorthand made it easy to define similar types (a clam contains the same Things as an oyster or mussel) or to scale probabilities based on how early they appear in a list, with more and more obscure options coming toward the end.
+
+The schema really gets interesting when it starts including people. On a habitable planet, some continents might contain countries, which within their regions hold towns or cities. Cities have districts, districts have houses, and houses contain relatable sentient beings, who unlike animals have both thoughts and memories:
+	
+	- Beverly Cole
+		+ body
+		- psyche
+			- thoughts
+				What I need right now is a new TV.
+				I really, really like this soda.
+				I regret so much.
+			- memories
+				The day I got a job as a cook.
+				Kissing that one person in middle school.
+				Stargazing with my aunt when I was a child.
+
+The thoughts and memories came from a list, crafted by Orteil, that was large but not enormous—it would fit on a few printed pages. To add variety, many were formed from remixable components (such as “I really, really like” + “this soda”). But as he fleshed out the cities that contained the people, he began to add more and more interesting generators to fill them. In houses and museums you can find paintings with procedurally generated descriptions:
+
+	A painting of a satisfied snowflake and a shrivelled animal dressed as a person in a historic scene. The animal dressed as a person is melting, and the snowflake is playing music.
+
+On streets, shop names:
+
+	- commercial area
+		+ Moneyworth
+		+ GreenFood
+		+ Wooffriends
+		+ Priceshark
+		+ Getthings
+
+Or books on bookshelves:
+
+	- bookshelf
+		+ Living with George, the Nasty Goat
+		+ What You Didn’t Know About Elongated Ninjas, Part VIII
+		+ Teaching Yourself How to Be Smarter
+		+ The Simply Stupid Adventures of Richard the Pirate From Space
+
+Each book contains pages, which contain paragraphs, which contain letters (though not in any order sensible to Earthlings); the letters contain ink, which contain alcohol and oil, which contain lipids, which contain atoms. Some of the generators got rather elaborate, like the one for book titles, which could come from one of six possible templates, the shortest of which is:
+
+	Choose(["A shocking","An amazing","A vibrant","A heart-
+	warming","A true","An astounding","A riveting","A
+	twisted","A short","An elaborate","An overly elaborate","A
+	ridiculous","A hilarious","A boring","An illustrated","A
+	mind-numbing","A"]) + " " +
+	Choose(["story","tale","essay","book"]) + " " +
+	Choose(["involving", "about","on the subject of"]) + " " +
+	Choose(["pirates","ninjas","dinosaurs","unicorns","robots",
+	   "cyborgs","scientists","superheroes","maths"])+", "+
+	Choose(["surgeons","penguins","dolphins","cheese","dragons",
+	"ghosts","kittens","sarcasm","astronomers","banana peels"])
+	+" and "+
+	Choose(["spaceships","vegetarians","babies","art","time
+	   travel","abortions","philosophy","computers","punctuation",
+	   "magnets","geometry","language"])
+
+New generators were easy to add, often designed to produce names that were unique but plausibly familiar. For example:
+
+	["P","B","M","N","T","St","Pl","Bl","Gr","Fr","Sht","Fl"],
+	["apple","indows","inux","oogle"]
+
+This could produce a familiar-sounding computer company such as Stoogle, Plinux, or Flapple. Adding computers opened up a whole new chain of generators when some of them contained screens, which contained internet browsers, which in turn contained websites:
+
+	- www.tvddit.net
+		+ A comment on dating advice.
+		+ A heated argument about whatever’s trendy right now.
+		+ A discussion about friendship
+		- www.thattube.net
+			+ An irate little person ranting about famous people
+			+ www.9book.org
+			+ A crude representation of a group of ¤¤¤¤¤¤ involved in ¤¤¤¤¤¤
+	              with two other ¤¤¤¤¤¤.
+
+Once in a while, one of the random links led back to the Nested website.
+
+The scope of the game kept growing: TVs with shows; graveyards with ghosts; medieval planets with dungeons filled with traps and monsters; future planets where everything is made from nanoparticles, each with its own tiny thoughts. Orteil went to great lengths to keep the thoughts of different animals surprising yet consistent, writing hundreds of variants while giving each class of thinking life-form its own unique voice. Ants are obsessed with intruders, plankton thoughts all end with smileys, dinosaurs speak in ponderous sentences of one or two words, and bears are polite and use all caps:
+
+	- bear
+		+ body
+		- thoughts
+			EXCUSE ME GOOD SIR, WOULD YOU HAPPEN TO BE EDIBLE
+			YES I AM QUITE DAPPER
+
+Orteil also filled the game with unlikely events, increasing the odds each player might discover something that felt unique. A box in a garage might contain a hornet in addition to odds and ends; one in four thousand humans will be named Elvis Presley. Sometimes jungles are on fire, and sometimes people don’t wear underwear. A black hole has a tiny chance of containing a crustacean. A thought has an even tinier chance of containing a black hole. “Humans are great at reading between the lines,” one reviewer wrote, “even when nothing exists between the lines.”9 The juxtaposition of objects and words—sometimes planned, sometimes random—creates countless nascent stories in the reader’s mind with each new unfolding. “It has the same attraction [of] Dwarf Fortress,” 2006 another reviewer noted, “but without any of that pesky UI and interactivity to get in the way of the narrative threads.”10 Even without the elaborate, unfinished simulations of his Spore clones, Orteil had managed to create his own compellingly procedural universe.
+
+Like any good worldbuilder, Orteil was always hoping to expand the game further, as a comment in the JavaScript showed:
+
+	//to add :
+	//cows,fungi,more shops,temples,more buildings,paintings,
+	internal organs,phones,lamps,abandoned plants/castles,
+	spaceships oh god
+	//actual battlefield thoughts,military bases,ships,airports,
+	more street names,space ships/stations,giant colony ships,
+	wasteland worlds,cults,space probes,prisons,government buildings,schools,amphibian skin
+
+But Nested’s dimensions, of course, are limited. It’s comprised of less than two thousand lines of code and data. Encoded into its nested Things are myriad simplifications and assumptions, some obvious—“every person in the universe is an American,” Orteil notes in the source, since the names are pulled from a US list sorted by popularity—and some less so. People all wear the same kinds of clothing regardless of gender; cities exist, but pollution doesn’t; people have memories but animals don’t; churches are only found on medieval planets. No recreation of the universe smaller than the universe, naturally, can contain its complexity. But procedural generation inevitably involves human curation, and despite claims from some in recent years that games should not be political, every individual decision of what to include or not include in a virtual universe is of course a statement about what matters, or doesn’t, in the real one. 
+
+By most definitions, Nested isn’t a game. All you can do is expand, opening more and more Things to see what’s inside them. Yet you can spend hours exploring its endlessly nested multiverse. It’s a fascinating example of the strengths of procedural text, even divorced from simulations or game mechanics. Orteil had plans for an even more ambitious sequel (“I’m writing the planet generator for Nested 2 one biome at a time,” he tweeted in 2014; “baby steppes.”5) But whatever he had pending got sidetracked when another of his random experiments, a little game called Cookie Clicker [DashNet 2013], became a runaway hit. Since 2015 Orteil has been making a living off that game, which is among the first sustainable titles in a genre now called incremental games, while continuing to experiment on the side with more strange creations and unusual toys.
+
+Nested, a reviewer wrote, “is at once bogglingly expansive, but intimately familiar in its parts, extrapolating the infinite from the known.”2 It’s remained a low-burn viral success for a decade, shared again each time a new person stumbles across it, and for good reason. There’s something delightful in linking your friends to a page with a single word, and waiting for their minds to be blown once they see what’s inside.
+
+
+References
+
+1) Crecente, Brian. 2013. “The Cult of the Cookie Clicker: When Is a Game Not a Game?” Polygon (blog). Sep 30, 2013. www.polygon.com/2013/9/30/4786780/the-cult-of-the-cookie-clicker-when-is-a-game-not-a-game | a Mar 5, 2021
+2) Lee. 2012. “A Flat Packed Universe.” Electronic Literature (ENGL 376VV) (blog). Apr 19, 2012. elit.umwblogs.org/2012/04/19/a-flat-packed-universe | a Mar 5, 2021
+3) Orteil. 2010a. “Orteil’s News.” Newgrounds. orteil.newgrounds.com/news | a Mar 5, 2021
+4) Orteil. 2010b. “Re: Need to Expand the Overall Idea.” Forum post, Crab Nicholson Extreme Sleepover, Feb 12, 2010. crabnicholson.forumotion.com/t20-need-to-expand-the-overall-idea#167 | a Mar 5, 2021
+5) Orteil. 2014. “@Orteil42: I’m writing the planet generator…” Twitter post. Jun 25, 2014. twitter.com/Orteil42/status/481841244541165568
+6) Orteil. 2017. “Hey, I’m Orteil. I made a game or something a while ago. AMA!” r/cookieclicker. Reddit AMA. www.reddit.com/r/CookieClicker/comments/dro3wd/me_and_my_pal_made_a_game_some_time_ago_ama | a Mar 5, 2021
+7) Orteil. 2019. “Me and my pal made a game some time ago, AMA!” r/cookieclicker. Reddit AMA. www.reddit.com/r/CookieClicker/comments/dro3wd/me_and_my_pal_made_a_game_some_time_ago_ama | a Mar 5, 2021
+8) Orteil. n.d. “Frequently Asked Questions.” Orteil (Tumblr). orteil42.tumblr.com/faq | a Mar 5, 2021
+9) Sir TapTap. 2016. “Free Points: Nested.” Sir TapTap (blog). Mar 14, 2016. sirtaptap.com/articles/free-points/free-points-nested | a Mar 5, 2021
+10) Smith, Adam. 2014. “Random Universe Generator: Nested Is The Best Thing.” Rock, Paper, Shotgun (blog). Jul 30, 2014. www.rockpapershotgun.com/nested-free-procedural-generation-game | a Mar 5, 2021

@@ -1,0 +1,189 @@
+The Playground
+
+1994
+
+Scott Neal Reilly
+
+Style: Procedural Story
+Debuted: Unreleased (developed 1994–1996 at Carnegie Mellon)
+Launch Platform: Mach Unix
+Developer: The Oz Project
+Language: Hap, Common Lisp
+
+Opening Text:
+
+	The recess bell has just rung and it’s time to really start working. Math, English, and Social Studies are nothing compared to the harsh competition out on the playground.
+
+	Try to collect baseball cards of players you like by trading with the other kids on the playground. Who knows, this may even be your big chance to get that Willie Mays card you’ve been trying to get for so long!
+
+
+On a spring day in 1990, in a tiny studio theater at Carnegie Mellon—the first university in the world to offer a degree in drama—a most unusual performance took place. The seats were empty except for a handful of computer science researchers, and the only audience member was on the stage. She stood amidst a minimalist set representing a bus station, along with a small troupe of improv actors wearing headsets. She’d been told she was taking part in an experiment in “interactive drama,” but her only guidance was to try to buy a bus ticket: she had no script, and neither did the actors with their headsets. Not even the director, whispering to the actors through an offstage microphone, had the lines. All he had were a graph of possible outcomes and a straightforward goal: whatever the onstage woman did, keep the story around her compelling.
+
+The play was an experiment by an ambitious campus research group that called themselves the Oz Project. They were hoping to solve what they saw as a glaring problem in the still-teething world of computer games. While the software behind bestsellers then on shelves was capable of all kinds of interesting simulations—of 3D spaces, of realistic lighting, of airplane aerodynamics, of the growth of virtual cities—one aspect still depressingly static was their stories. Scholar Espen Aarseth would later write of the difference between a “simulated door” in a video game (one the player can open, move through, perhaps lock and unlock or use for cover) and a merely “fictional door” (a painted-on texture, leading nowhere, not understood as a door by the system or able to be operated as one by the player).1 While simulated and fictional doors might look the same to a player at first glance, a merely fictional door can’t take part in the make-believe world of a video game except as set dressing. You can’t play with it. By the 90s many games featured increasingly elaborate stories—some laden with video clips, recorded audio, and starring famous actors—but those stories were not, in any meaningful way, simulated. They were painted on: prerendered and unable to change in response to the player’s actions, except perhaps through brute-force authoring of alternatives.
+
+But as computing power continued to increase, some researchers had begun to wonder if you could teach a computer enough about stories and characters and dramatic arcs, the same way flight sims encoded wisdom about lift and drag and throttles, for the system to tell a story that could be playful—reacting to the player and reshaping itself to whatever they tried to do, while still telling the same core tale the author had devised. “One approach is to see them [the player and the system] in a kind of two-player game, such as chess,” wrote Joseph Bates, the Oz Project’s founder:
+
+	The director and user are taking turns, the user acting as a free agent in the world, the director looking down from above and very gently pushing the elements of the world in various ways. The director is constantly trying to maximize the chances of a pleasing overall experience, no matter what the user does along the way.… The director wins if the complete history of the world is consistent with the creator’s aesthetic goals, thereby (presumably) pleasing the user.3
+
+“Our idea is to gently guide the user’s experience so it conforms in some way to an artistic destiny,” another Oz researcher posted on the rec.arts.int-fiction newsgroup in 1991, “while at the same time allowing the user complete freedom of action.”19 And while new technologies like virtual reality seemed imminently on the horizon, the easiest medium in which to prototype such a system was text. Projects like LambdaMOO had already demonstrated how compelling and complex a text-based virtual world could become. The Oz Project, at least at first, would focus on “developing technology for high quality interactive fiction.”4
+
+In the experimental play, the actors and director were standing in for components of a yet-unbuilt computer program. The director represented a future algorithmic Playwright who could replot a scenario in real time based on the player’s actions, by feeding new instructions to the actors in their headsets. The actors in turn stood in for NPCs who would have some autonomy of their own, but could also pivot on a whim to adapt to the Playwright’s new instructions. The details of the scenario, involving a troubled bus station customer who begins to turn violent, weren’t really important; the point was to gather data on the strategies the Playwright and actors invented to keep the plot moving, and to observe how the lone audience member experienced a performance tailored just for her. The goal was a first step toward learning how “to create a medium beyond ‘static stories’ … [of] constructed yet unpredictable worlds.”15
+
+The project had evolved out of a line of academic thinking traced back to two 1980s dissertations, both by women, which would become the foundations of interactive narrative scholarship. Mary Ann Buckles’s “Interactive Fiction: The Computer Storygame ‘Adventure’” had been one of the first book-length scholarly works to seriously study interactive fiction as a new and unique medium, breaking down how Crowther and Woods’s genre-defining game both connected to earlier literary traditions and also functioned as a legitimately new art form. Brenda Laurel’s “Toward the Design of a Computer-Based Interactive Fantasy System” went a step further, positing a theory of how truly interactive and responsive stories might function. Inspired by Aristotle’s Poetics and live theater traditions, Laurel defined an interactive drama as “a first-person experience within a fantasy world, in which the user may create, enact, and observe a character whose choices and actions affect the course of events just as they might in a play.”11 Contemporary adventure games were a start, but they were entirely different from the truly interactive experiences Laurel envisioned, driven by a digital Playwright working to marry a human player’s improvisations with a human author’s story.
+
+Laurel had first developed these ideas at an extraordinary meeting of minds arranged by computing pioneer Alan Kay, who in the 60s helped popularize many foundational concepts of modern computing from windowed interfaces to word processing. In the early 80s, Atari hired Kay as their chief scientist, and he promptly set up a think tank and research lab to explore the future of games and entertainment technology. “Alan’s strategy was simple,” remembers Laurel, part of Kay’s cohort:
+
+	Create the richest possible environment and plop creative people into it, and something wonderful is bound to be the result. Atari in 1981–82 was the perfect place for such a grand experiment—with revenues in excess of a billion dollars, the company was in a position to build a “dream lab” for creating the future of high-tech consumer products.11
+
+Members of the group had wide leeway to devise their own experimental projects, requisitioning equipment and hiring contractors as needed. Surviving memos are filled with truly heady concepts: one from Laurel wondered, “Is there a video game we could imagine that a human and a dolphin could play together?”12 In those days it felt like the sky could be the limit for the future of computer-enabled play, and the dreams were big.
+
+Kay believed that “in order to do good research, one needs a ‘grand idea’—a vision of something that might exist, far in the future and beyond our abilities to imagine it fully.”11 Laurel’s grand idea (after the dolphins, perhaps, got little traction) was a pitch for an ambitious game prototype that would immerse a player in an environment created by wraparound screens and simulated sound and lighting effects, maybe even smells. Inspired by the immersive nursery playroom in the Ray Bradbury story “The Veldt,” she imagined a rich multimedia experience where a concealed human Playwright would manipulate the projected images and deploy live actors puppeteering digital characters to adapt an ongoing story to the player’s actions. Laurel got as far as convincing Bradbury himself to be the system’s first Playwright of a scenario based on his classic Something Wicked This Way Comes. But it was not to be. Atari, hit hard by the video game crash and suddenly more interested in immediate than distant futures, had disbanded Kay’s research group by early 1984.
+
+Laurel carried her work over into a PhD dissertation, which would in turn inspire another brilliant mind: Joseph Bates, a child prodigy who had enrolled in college at age thirteen and graduated before he could vote. Fifteen years later, he’d started a research group at Carnegie Mellon devoted to inventing the future of interactive stories. Like Kay and Laurel, Bates was a big dreamer: “You have to be able to invent new, strange stuff, and you have to be able to throw out most of it,” he once wrote.16 His initial missives for the Oz Project were beyond ambitious. In an early critique of a part of Laurel’s thesis which proposed an interactive Hamlet, he wrote that her ideas of dynamic storytelling were too limiting because
+
+	in these situations the user never ceases to be himself, in Hamlet’s position. What if the user is Hamlet … what if the user’s mind is manipulated by the system to try to make the user think/feel like Hamlet, not just experience Hamlet’s objective experiences?17
+
+In lieu of any means for realizing this rather revisionist take on the nature of storytelling itself, Bates and his group hoped, as a first step, to at least build something like Laurel’s hypothetical interactive drama system. They deconstructed Infocom games like Deadline [1982] to understand how the games created the illusion of dynamic plot, and they staged a variant of Laurel’s unrealized theater experiment with a human Playwright directing live actors, enlisting the help of Margaret Kelso, a professor in the CMU drama department. While small in scale, the experiment was nothing like what other researchers into games or AI were doing. It was “new, strange stuff” indeed.
+
+Bates and a handful of graduate students soon began work on an interactive narrative engine called Oz, written in Common Lisp—then the language of choice for anything connected to artificial intelligence. Initially the work was divided into six problem areas:
+
+	how to simulate the physical world, how to simulate the minds of characters, how to design the user interface, how to build a working theory of drama, how to design the world-building environment, and how to facilitate artistic use of the system.15
+
+As more grad students came aboard the exciting project, each was set to work on one problem or facet of a problem, with many designing and prototyping new components of the overall Oz architecture. Most modules were named after a character from L. Frank Baum’s famous books. An engine to generate natural language descriptions of a simulated world was called Glinda, a parser to understand a wider range of natural language input was dubbed the Gump, and a core framework for agents (characters) to operate within a virtual world was named Tok, after Dorothy’s mechanical companion Tik-Tok who “Thinks, Speaks, Acts, and Does Everything but Live.”
+
+One CMU grad student, Scott Neal Reilly, focused on the problem of giving Tok characters more realistic behaviors and social understanding through a program called Em, for emotion (and Dorothy’s aunt). “The goal of building believable agents is inherently an artistic one,” Reilly wrote: 
+
+	Traditional AI goals of creating competence and building models of human cognition are only tangentially related because creating believability is not the same as creating intelligence or realism. Therefore, the tools that have been designed for those tasks are not appropriate.14
+
+So-called believable agents, Reilly thought, would not make perfect plans and execute them in the most efficient way possible. Their plans might be ill-advised, and they ought to endearingly fail many times before succeeding (if they ever did) in ways designed to reveal their character and make players relate to them, cheer them, or despise them. Like many Oz students, Reilly had looked for inspiration outside computer science research, studying the techniques fiction writers and Disney animators used to bring memorable characters to life. “Artists know how to create believable characters,” he wrote, but “AI researchers know how to create autonomous agents.” The problem was finding a way to bring those disparate worlds together, to find a path “somewhere between the arts and artificial intelligence”—somewhere, you might say, over the rainbow.
+
+In the course of his dissertation work, Reilly would build several small simulations to test Em. One of these, The Playground, casts you as a school kid with the goal of trading baseball cards with two peers: Melvin, a friendly Star Trek nut, and Sluggo, a not-too-bright bully. The action played out in a small virtual world that seemed on the surface to operate much like traditional interactive fiction:
+
+	You are in the playground.
+
+	The sand box, the jungle gym and the tree house are in the playground.
+	Sluggo is in the tree house.
+	Sluggo is holding a Willie Mays trading card, a Jose Canseco trading card and a Catfish Hunter trading card.
+	Melvin is in the sand box.
+	Melvin is holding a Tom Seaver trading card, a Mickey Mantle trading card and a Reggie Jackson trading card.
+	Melvin is wearing his eye glasses.
+
+	You are holding a Babe Ruth trading card, a Ted Williams trading card and a Henry Aaron trading card.
+	PLAYER> get in the sandbox
+
+	You go into the sand box.
+	Sluggo spits.
+	Melvin is now smiling.
+	Melvin is speaking to you.
+	Melvin’s voice says ``Salutations, Vulcan ambassador! The Klingon high command has sent me in search of baseball cards.’’.
+	PLAYER> melvin: What cards do the Klingon high command want?
+
+	You are speaking to Melvin.
+	Player’s voice says ``What cards do the Klingon high command want?’’.
+	Sluggo smokes.
+	Melvin is speaking to you.
+	Melvin’s voice says ``The Klingon Emperor wants to know if you would be willing to part with Babe Ruth for Reggie Jackson?’’.
+	PLAYER> Melvin: No way!
+
+	You are speaking to Melvin.
+	Player’s voice says ``No way!’’.
+	Sluggo spits.
+	Melvin is speaking to you.
+	Melvin’s voice says ``I wouldn’t be hasty if I were you. Reggie Jackson for Babe Ruth is a trade any Ferengi would be proud of.’’.
+	PLAYER> Melvin: How about Ruth for Jackson and Mantle?
+
+While Playground featured only a simple parser and text narration system—the player’s lines in the example above are mostly recognized through keyword matches, and the stilted output comes from a system that simply reports the status of the underlying simulation with no attempts at artifice—the code driving character behavior was far more complex than any commercial text game had shipped with. Most games even today create NPC behavior with some equivalent of a list of if-then statements accounting for specific foreseen eventualities, something like: “If player offers Melvin a trade evaluated as good, then say Melvin smiles and accepts the trade.” But the Oz framework with Reilly’s extensions broke this process down into many more steps, each of which had its own possibility to influence the outcome.
+
+For example, an earlier Oz prototype designed as a test bed for Tok and Em had simulated a cat named Lyotard, who would actually perceive things about the world through specific senses and use those impressions to update an internal representation of his model of reality. Lyotard might remember where he had last eaten food, for instance, and return there when hungry even if the player had since moved his tins of sardines. The tactile sensation of a comfy chair might cause an emotion of contentedness that could change Lyotard’s reactions to events like a human walking into the room, or could cause him to develop an attachment to fuzzy objects. Mistreating the virtual cat could make him develop long-term emotions of hatred toward you that would in turn affect his actions in your presence. Lyotard made decisions about what to do—such as whether to allow an unfamiliar hand to pet him, or bite it—based on a constantly shifting bank of sensory inputs, emotional states, and memories. While the results might not have seemed much different from a well-implemented cat in a traditional text adventure, the behind-the-scenes systems were laying the groundwork for worlds with truly emergent characters who could believably respond to unexpected events. They were characters transitioning from merely fictional to meaningfully simulated.
+
+Characters in Tok used a three-stage cycle of sense, think, act to plan their behaviors, doing so in the context of goals they wished to achieve. Lyotard’s goals might be taking a nap or eating food when hungry. But Reilly hoped to introduce more complex emotional and social reasoning into the think step that could handle human NPCs with more complex goals and drives than a house cat’s. He began to extend Em to support more advanced emotional reasoning, using a language called Hap (also an Oz invention) to write reactive planner rules that defined how a character’s simulated emotions might influence the formation and performance of goals. For instance, Hap code to define a trigger for a frustration emotion, occurring when an attempt to take steps toward completing a plan fails, might look like this:
+
+	(sequential-production update-frustration ()
+		(demon em-update-frustration-demon
+			;; LHS
+			;; Fire when a failed behavior has been put in
+			;; the $plan-failures slot and the importance of the
+			;; behavior is greater than 0
+			(and	(match $plan-failures (list-containing ?plan))
+					(match (call importance ?plan) ?intensity)
+					(> ?intensity 0)
+
+					;; Create an emotion structure. Set the variable
+					;; ?emotion-structure to the structure
+					(match (make	frustration-emotion
+									actor self
+									cause ?plan
+									frustration-production ?intensity)
+							?emotion-structure))
+
+			;; RHS
+			;; Store the structure
+			(mental-act
+				(call add-emotion
+					(slot emotion-type-hierarchy $em)
+					$$emotion-structure
+					`frustration))
+
+			;; Remove the behavior from the $plan-failures slot
+			(mental-act
+				(setf $plan-failures
+					(remove $$plan $plan-failures)))))
+
+Reilly created a library of a few dozen emotions that could each be defined as a consequence of interactions between an agent’s goals and the model world. Fear, for instance, was the emotion where “a goal is considered to be likely to fail and it is important to the agent that the goal not fail.” Various events might cause happiness, such as “A goal succeeds that the agent hoped would succeed.” Resentment was felt “when an agent dislikes another agent who is happy.” Each emotion had an intensity and a rate of decay (hatred would linger much longer than disappointment), and emotions could also be attached to the person or event that had caused them. 
+
+Interacting with the world, then, each agent would accrue a set of active emotions that might alter their future behavior. While some behaviors were general, Reilly noted that most would be character-specific—in a traditional game the writer’s prose would do most of the work of defining character, but an Oz game would lean much more on the way its characters behaved and reacted. In The Playground, for instance, Trekkie Melvin feels joy when the player uses Star Trek lingo in their interactions with him, enjoys the social interaction of trading cards more than the specifics of making a good trade, and feels fear when bully Sluggo gets too close. Emotions, in turn, could cause character-specific behaviors: Melvin will use geeky ways of phrasing things if he’s happy, but might abandon a trade with a new goal of running away if he gets too scared. Melvin gets sad and shy if insulted, but Sluggo gets angry:
+
+	You are speaking to Melvin.
+	Player’s voice says ``What do you want for Mantle?’’.
+	Sluggo smokes a cigarette.
+	Melvin is speaking to you.
+	Melvin’s voice says ``The aliens told me to offer you Mickey Mantle in return for Babe Ruth.’’.
+	PLAYER> Sluggo: Hey dork, get a life!
+
+	You are speaking to Sluggo.
+	Player’s voice says ``Hey dork, get a life!’’.
+	Sluggo is now red.
+	Sluggo is now scowling.
+	Sluggo is now tense.
+	Sluggo goes into the sand box.
+	Melvin is now pale.
+	Melvin is now bug-eyed.
+	Melvin is now trembling.
+	Melvin is speaking to you.
+	Melvin’s voice says ``Why don’t we finish this later…’’.
+	Melvin gets on the jungle gym.
+
+Melvin’s goals, emotions, and behaviors in The Playground differ from Sluggo’s in noticeable ways, which helps paint the two as unique characters. One of Melvin’s goals is making friends, which he knows social interaction helps him achieve; he also values the novelty of new baseball cards in his collection. Together, these two motivations might cause him to make a trade he knows isn’t optimal, especially if he likes you, because he hopes it will help him make a new friend. Sluggo, by contrast, only cares about having good cards in his hand. He gains no satisfaction from the patter leading up to a trade or the act of trading itself, resulting in different kinds of performances (like getting annoyed if the player is slow to complete a trade). Characters could even be programmed with their own unique ways of translating sensory inputs into internal models of the world, or of understanding the player. Melvin, for instance, can mentally juggle more complex trades than Sluggo. If you try offering Sluggo a trade involving more than two cards, he gets “angry, distressed, and reproachful towards the player for making him feel stupid.”14
+
+The Playground was explicitly a prototype, never meant to be a polished experience for either players or outsider creators, and neither the game nor its full source code were ever formally released. It was one of a series of Oz experiments designed to rapidly iterate on the team’s design and technology questions, moving toward Bates’s ambitious vision of a future, five or ten years down the road, when the logic behind those purely textual worlds could begin driving immersive virtual realities. It was a foundational assumption that interactive drama and reactive character technology would have to be the true underpinnings of any such systems, not the more prosaic concerns of head tracking and high-res rendering: “We see this focus on [VR] interface as something like studying celluloid instead of cinema, paper instead of novels, cathode ray tubes instead of television.”3 Bates hoped that after his band of technologists had built a successful interactive drama engine, tools would follow for writers and artists to tell stories with it. He envisioned libraries of reusable character behaviors or reasoning logic which could be built up over time, “similar perhaps to the backlots of Hollywood studios.”2 He imagined tools for both rapid prototyping and fine-grained polish, tools for crafting VR conversations with believable characters who could understand speech and improvise their own. It seemed quite plausible that the reactive characters of Star Trek’s holodeck, debuting in the pilot episode of The Next Generation in 1987, might be only a decade or so away.
+
+But in the 2020s that future has yet to arrive, and interactive drama in the form imagined by Laurel, Bates, and the Oz Project team seems in many ways barely closer than it did thirty years ago. There are likely many reasons why. The simplest explanation is that games with static stories—presented in cutscenes, in between bouts of combat—remained profitable despite their “merely fictional” structure. Upsetting the status quo presented a risk: if dynamic stories had the potential to be emergently better, they might also be emergently worse. While many Oz prototypes worked and produced intriguing results, they required authors comfortable with Lisp and logic programming, both notoriously hard concepts to teach. Even experts had a hard time working with interlinked systems with the complexity of Oz modules. And while the idea of text-only worlds as high-tech prototypes was still conceivable in the early 90s, with commercial text games only a few years gone from shelves, they would increasingly seem old-fashioned enough to discourage influencers or investors from taking them seriously in the years to come. Time spent on resources not visible in screenshots or game trailers, no matter how visionary the ideas behind them, became hard to justify.
+
+When virtual reality for the masses finally did arrive in the 2010s, there were no ready-made interactive storytelling engines to drive it. The rainbow bridge “between the arts and artificial intelligence” can seem, at times, as illusory as ever—stories in bestselling games remain firmly fictional, not simulated.
+
+And yet it isn’t true that there’s been no progress; it’s just come in dozens of isolated steps instead of one grand unifying vision. From the elaborately simulated world inhabited by the bearded “agents” of Dwarf Fortress, to dynamic systems personalizing Middle-earth’s enemies or a first-person shooter’s difficulty, to newer experiments involving reactive characters with memories and emotions, to increasingly accurate speech recognition and believable speech synthesis, to the rise of new tools for procedural text and story—many of the problem areas once named after characters from the Land of Oz keep cropping up in unexpected and disparate places. Flung by some hidden Playwright to faraway lands, their ultimate destinies, artistic and otherwise, remain undecided.
+
+Whether they will ever return to Oz, or somewhere like it, to tell a story together once again will have to be a tale for another time.
+
+
+References
+
+1) Aarseth, Espen. 2007. “Doors and Perception: Fiction vs. Simulation in Games.” Intermédialités: Histoire et Théorie Des Arts, Des Lettres et Des Techniques/Intermediality: History and Theory of the Arts, Literature and Technologies, no. 9, Centre de recherche sur l’intermédialité.
+2) Bates, Joseph. 1990. “Computational Drama in Oz.” ART COM Magazine 10 (10), Dec 1990.
+3) Bates, Joseph. 1992. “Virtual Reality, Art, and Entertainment.” Presence: Teleoperators & Virtual Environments 1 (1), MIT Press.
+4) Bates, Joseph, A. Bryan Loyall, and W. Scott Reilly. 1992. “An Architecture for Action, Emotion, and Social Behavior.” In European Workshop on Modelling Autonomous Agents in a Multi-Agent World. Springer.
+5) Buckles, Mary Ann. 1985. “Interactive Fiction: The Computer Storygame ‘Adventure’.” PhD Thesis, University of California, San Diego.
+6) Carnegie Mellon University School of Computer Science. 2002. OZ Project Home Page. www.cs.cmu.edu/afs/cs.cmu.edu/project/oz/web/oz.html | a Jun 13, 2021
+7) Crecente, Brian. 2016. “VR’s Quintessential Innovators.” Polygon (blog). Oct 26, 2016. www.polygon.com/features/2016/10/26/13411364/heilig-fisher-marks-de-la-pena-laurel-vr-bio | a Jun 13, 2021
+8) Gudmundsen, Jinny. 2001. “Kids Find Adventure at Interactive Sites.” Gannett Online, 2001. www.gannettonline.com/e/columnists/10000354.html | s Dec 17, 2005
+9) Kelso, Margaret Thomas, Peter Weyhrauch, and Joseph Bates. 1993. “Dramatic Presence.” PRESENCE: Teleoperators & Virtual Environments 2 (1), MIT Press.
+10) Lancaster, Kurt. 1999. Warlocks and Warpdrive: Contemporary Fantasy Entertainments with Interactive and Virtual Environments. McFarland & Company, Inc.
+11) Laurel, Brenda. 1986. “Toward the Design of a Computer-Based Interactive Fantasy System.” PhD Thesis, The Ohio State University.
+12) Laurel, Brenda. 1989. “Atari Research Memos on the Subject of Interactive Fantasy and Related Topics.” Atari Sunnyvale Research Laboratory. leech.cybernoid.gr/files/oldskool/laurel_atari.pdf | a Jun 13, 2021
+13) Laurel, Brenda. 2013. Computers as Theatre. 2nd ed. Addison-Wesley.
+14) Reilly, W Scott Neal. 1996. “Believable Social and Emotional Agents.” PhD Thesis, Pittsburgh: Carnegie Mellon University. apps.dtic.mil/dtic/tr/fulltext/u2/a310766.pdf | 
+15) Sloane, Sarah Jane. 1994. “Riding the Bus in Silicon Valley: Building Virtual Worlds.” In Colors of a Different Horse: Rethinking Creative Writing Theory and Pedagogy, ed. Wendy Bishop and Hans Ostrom. ERIC.
+16) Smith, Peter Andrey. 2017. “The 62-Year-Old Child Genius.” Topic 6, Dec 2017. www.topic.com/the-62-year-old-child-genius | a Jun 13, 2021
+17) Smith, Sean, and Joseph Bates. 1989. “Towards a Theory of Narrative for Interactive Fiction.” Report. CMU-CS-89-121. Feb 20, 1989. Carnegie Mellon University. 
+18) Wardrip-Fruin, Noah. 2009. Expressive Processing: Digital Fictions, Computer Games, and Software Studies. MIT Press.
+19) Weyhrauch, Peter. 1992. “OO Adventure Games.” rec.arts.int-fiction (Usenet), Oct 28, 1992. groups.google.com/g/rec.arts.int-fiction/c/-l4PSRWrr9M/m/9yE9QGA7XcAJ | a Jun 13, 2021

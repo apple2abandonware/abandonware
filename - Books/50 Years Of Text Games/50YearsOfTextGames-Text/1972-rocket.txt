@@ -1,0 +1,113 @@
+ROCKET
+
+1972
+
+Jim Storer
+Also Known As: APOLLO, LUNAR
+Style: Resource Management
+Debuted: Jan 1970 (DECUS)
+Early 1972 (EDU)
+Launch Platform: PDP-8
+Language: FOCAL
+
+Opening Text (1969 version):
+CONTROL CALLING LUNAR MODULE. MANUAL CONTROL IS NECESSARY
+YOU MAY RESET FUEL RATE K EACH 10 SECS TO 0 OR ANY VALUE
+BETWEEN 8 & 200 LBS/SEC. YOU'VE 16000 LBS FUEL. ESTIMATED
+FREE FALL IMPACT TIME-120 SECS. CAPSULE WEIGHT-32500 LBS
+FIRST RADAR CHECK COMING UP
+
+
+
+On July 20, 1969, the Apollo 11 Lunar Module Eagle touched down on the moon, though it had been a close call. With little fuel to spare, pilot Neil Armstrong dodged boulders and craters to find a level spot to put down the LM after it drifted ahead of its planned landing site. When the delicate craft at last touched down, only seconds of descent fuel remained. Seventeen-year-old Jim Storer had been glued to the television broadcast from his family home in Massachusetts, and that fall he pitched a project to the teacher in charge of his high school’s PDP-8 computer: a game that would recreate the experience of landing the LM on the moon. 
+
+Storer’s game printed no title, but the file name, fitting neatly into the operating system’s 6-character limit, was ROCKET. In an age where storage and memory were still precious, the program took up only thirty-nine tight lines of code. In the game, the player receives rows of data one by one, each representing the elapsed time, altitude, velocity, and fuel remaining in their simulated moon lander’s tanks. At the end of the line, the teletype stops printing, and the player contributes a single number: the amount of fuel to burn for the next ten-second interval.
+
+	COMMENCE LANDING PROCEDURE
+	TIME,SECS   ALTITUDE,MILES+FEET   VELOCITY,MPH   FUEL,LBS   FUEL RATE
+	  0            120      0        3600.00        16000.0      K=:10
+	 10            109   5160        3616.33        15900.0      K=:25
+	 20             99   5018        3602.9053      15650        ? 15
+	 30             89   4930        3609.0664      15500        ? 12
+	 40             79   4709        3621.096       15380        ? 30
+	 50             69   4577        3596.779       15080        ? 45
+	 60             59   5030        3541.238       14630        ? 100
+
+On time-shared systems with slow-printing teletypes, allowing for a few seconds each turn to decide the new burn rate, the game would have given the illusion of playing out roughly in real time. With the ongoing Apollo program still a vibrant part of the national conversation, it would have been easy to imagine a background of echoing mission control commentary and astronaut jargon, lending the stark numbers some vivid context from the real-life space adventures on TV.
+
+The challenge of the game—and it’s pretty hard—is a decent analog to Armstrong’s, if simplified: you must slow your rate of descent enough to land gracefully before running out of fuel. If you’re too cautious, the moon’s gravity relentlessly adds to your terrifying downward velocity until there’s not enough time before impact to correct it. Too aggressive, and you’ll burn through your fuel too early, ceding control of your lander to the fatal math of celestial mechanics. In either case, the result is the same:
+
+	 220         9  2181       218.43907     330          ? 0
+	 230         8  3994       254.43907     330          ? 10
+	 240         8  273        252.93896     230          ? 10
+	 250         7  1855       251.22058     130          ? 10
+	 260         6  3464       249.28134     30           ? 3 
+	FUEL OUT AT    270.00 SECS
+	ON MOON AT     326.77 SECS
+	IMPACT VELOCITY OF     478.22 M.P.H.
+	FUEL LEFT:    0.00 LBS
+	SORRY,BUT THERE WERE NO SURVIVORS-YOU BLEW IT!
+	IN FACT YOU BLASTED A NEW LUNAR CRATER    108.56 FT. DEEP
+
+	TRY AGAIN?
+
+Like Oregon Trail and most other early programs, Storer’s is based around a series of equations. But it benefits from simulating a very human moment, one where the drama came almost entirely from the cold, stark numbers of accelerations, momentums, and forces. While the core loop consists entirely of numbers, Storer gives the simulation just enough framing to engage the imagination, maintaining the illusion that your teletype is connected to a distant mission control. The game begins with the words CONTROL CALLING LUNAR MODULE, and if you quit, it politely prints CONTROL OUT before halting. Other human touches like the depth of your fail crater, calculated simply as a percentage of impact speed, serve as gentle consolation prizes to avoid humiliation in the shared space of contemporary computer labs—a failed run turned into jocular bragging rights. For the most part, the program’s math is sound. With help from his teacher and his engineer father, Storer programmed equations for acceleration and force, priming them with constants for the real lander’s mass and for lunar gravity.
+
+FOCAL is compact by design, but that trade-off makes programs written in it difficult to read. It uses single-letter variable names, for instance, but also single-letter abbreviations for functions. Combined with the core simulation’s already hairy calculus, ROCKET’s original source code is, to put it mildly, rather obtuse. Here’s the core of the game’s code for each turn:
+
+	07.10 I (S-.005)5.1;S S=2*A/(V+FSQT(V*V+2*A*(G-Z*K/M)))
+	07.30 D 9;D 6;G 7.1
+	08.10 S W=(1-M*G/(Z*K))/2;S S=M*V/(Z*K*(W+FSQT(W*W+V/Z)))+0.5;D 9
+	08.30 I (I)7.1,7.1;D 6;I (-J)3.1,3.1;I (V)3.1,3.1,8.1 
+
+The initial numbers are line numbers: a group with the same digits before the decimal (like 03) acts as a single code block that can be executed and returned from. The I on line 3.10 means If, and it branches to line 4.1 if the parenthetical expression (here calculating remaining fuel) is less than zero.
+The code roughly translates to these steps:
+
+	If out of fuel, goto freefall handling
+	If elapsed time not yet calculated, print status & get input
+	Set elapsed time this turn to 10 seconds
+		Adjust if not enough fuel to burn that long 
+	Calculate forces & distance traveled
+	If altitude <= 0, calculate time to impact then goto endgame
+	If fuel burned, adjust velocity then pass time
+	Update global variables
+	Goto top
+
+Storer submitted his program in early 1970 to DEC, the makers of his school’s PDP, who published it in their library of user-submitted programs, the DECUS Program Guide. This happened at the perfect moment to catch an explosive crosswind of zeitgeists: Apollo fever and computer mania. Storer’s program was cloned, tweaked, improved, and reinvented countless times over the next few years, so much so that by the beginning of 1972 DECUS was advertising “a greatly improved version of the Apollo simulation game which has been running on almost every timesharing system in the country.”1 While some of these programs were independent creations, as time went on the bulk of them would be thinly veiled clones of Storer’s version, with his algorithms running largely unchanged under the hood—and a great deal of the reason for this was because of ROCKET’s publication in a series of widely read places.
+
+In 1969, educational psychology grad student David H. Ahl had taken a job with DEC, managing their educational marketing department. Schools were seen as key customers of their PDP minis, but while the dry DECUS Program Guide contained many programs potentially of interest to teachers and students, they were buried amidst dozens of mundane utility and demonstration programs with exciting titles like “PDUMP - DOS Based Register/Core Dump” and “Core Load to MAINDEC Tape.” One of Ahl’s initiatives was to start a free dedicated newsletter for educational users, which he called EDU. He filled it with lesson plans, instructional tips, and success stories from teachers using computers in the classroom. Each issue also included several program listings in BASIC, the language DEC increasingly focused on for its educational platforms. But this meant Ahl had to round up or write a lot of interesting BASIC programs in short order. In addition to welcoming submissions by mail, he scoured the DECUS catalog and other existing collections of source code for old programs to port. Storer’s hit lunar landing game was an obvious fit.
+
+Ahl’s BASIC port duplicates the exact algorithms and structure of Storer’s program but tweaks its text to better explain the rules. It also streamlines a few complexities, though losing some of the original’s charm in the process—the conceit that you’re communicating directly with mission control, sadly, is absent. Ahl also made some simplifications, possibly in an effort to increase the game’s clarity as a teaching tool or maybe just to save space. Storer’s original has six different gradations of landing success, for instance, while Ahl’s port has only three.
+
+The BASIC ROCKET was printed in EDU in early 1972, just as the newsletter’s readership was exploding. When the first issue had been released the previous fall, it had only three hundred subscribers; by the end of 1972 there were over twenty thousand. With minicomputers becoming more and more affordable, and a generous selection of grants getting them into schools, the demand for educational software was going up like, well, a rocket. Ahl’s port exposed Storer’s game to thousands more users and inspired new waves of imitators, clones, and remakes.
+
+Later in 1972, as the final Apollo missions were playing out, Ahl pitched DEC the idea of taking the best programs from EDU and publishing them as a book. The resulting title, 1973’s 101 BASIC Computer Games, became one of the most influential titles in early computing history. Eventually reissued as just BASIC Computer Games, it stayed steadily popular through the first decade of home computers, going on to become the first computer book to sell a million copies. In his notes for the program, Ahl called ROCKET “far and away the single most popular computer game.”4 By the end of the 70s, as the personal computer revolution was beginning, hundreds of thousands of kids and adults were typing Storer’s program or one of its many variants into their home computers to try recreating Armstrong’s famous landing for themselves. In 1979, Atari released a graphical version called Lunar Lander, a name that came to stand in for the entire genre of games inspired by Storer’s high school project, further cementing its place in computing history.
+
+While it might seem strange to discuss ROCKET in the context of games made with words, since its output is mostly numbers, it arguably succeeds at capturing the immediacy of its dramatic situation even more clearly than The Oregon Trail did with prose. Rather than adopting the remote God’s-eye viewpoint of most earlier games, you become the astronaut in the hot seat, watching the numbers printed on your chattering teletype drop at a disturbingly rapid rate. The game encourages players to imagine themselves as desperate astronauts, sweating from second to second over whether their virtual hero lives or dies. It was an addicting kind of immersion that many future games would strive to recreate and improve, and it inspired countless text game authors to put their readers directly in the shoes—or space boots—of a heroic protagonist.
+
+		190			0		581		8.10		300.0		K=:8
+		200			0		425		13.17		220.0		K=:10
+		210			0		253		10.30		120.0		K=:9
+		220			0		 96		11.11		 30.0		K=:100
+	FUEL OUT AT   220.30 SECS
+	ON THE MOON AT   226.12 SECS
+	IMPACT VELOCITY OF    9.86 M.P.H.
+	FUEL LEFT:        0.00 LBS
+	GOOD LANDING-(COULD BE BETTER)
+
+	TRY AGAIN?NO
+	CONTROL OUT
+
+	*
+
+
+References
+
+1) DECUS. 1972. “DECUS No. FOCAL8-173: APOLLO 11.” In DECUS Program Library Catalog, p. F-26. Maynard, Masschusetts: Digital Equipment Computer Users Society.
+2) Edwards, Benj. 2009. “Forty Years of Lunar Lander.” Technologizer (blog). Jul 19, 2009. www.technologizer.com/2009/07/19/lunar-lander | a Mar 8, 2022
+3) Storer, James A. 1970. “FOCAL Lunar Landing Simulation (APOLLO).” DECUS Program Library. www.bitsavers.org/pdf/dec/decus/focal/FOCAL8-81_LunarLanding.pdf | a Mar 8, 2022
+4) Storer, Jim. 1973. “ROCKET: Land An Apollo Capsule on the Moon.” In 101 BASIC Computer Games, ed. David H. Ahl, 182–87. Maynard, Masschusetts: Digital Equipment Corporation.
+5) Storer, Jim. 2009. “Lunar Landing Game Related Documents.” Jim Storer (Brandeis Computer Science Department website). 2009. www.cs.brandeis.edu/~storer/LunarLander/LunarLander.html | a Mar 8, 2022
+6) Storer, Jim, Eric Peters, and William Labaree II. 1978. “Lunar LEM Rocket.” In BASIC Computer Games, ed. David H. Ahl, 106–9. New York: Workman Publishing.
+7) The System Symptoms. 1970. “Moon Landing” (article in Lexington High School newspaper), Jan 13, 1970. www.cs.brandeis.edu/~storer/LunarLander/LunarLander/Articles/LunarLander-LexingtonHigh1970.pdf | a Mar 8, 2022
+8) Willært, Kate. 2021. “Moonlander: One Giant Leap For Game Design.” A Critical Hit! (blog). Apr 11, 2021. www.acriticalhit.com/moonlander-one-giant-leap-for-game-design | a Mar 8, 2022
