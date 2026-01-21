@@ -29,7 +29,14 @@ Little Computer People			ln -s ../-\ Simulator/Little\ Computer\ People
 ____
 
 Play a game on Apple Type Script emulator
-https://apple2ts.com/?theme=minimal&#https://github.com/pmwasson/froggo/raw/refs/tags/v1.2.2/disk/froggo.dsk
+https://apple2ts.com/?theme=minimal#https://github.com/apple2abandonware/abandonware/raw/master/-%20Games/-%20Arcade%20%28classic%29/-%20Breakout/Little%20Brick%20Out/little_brick_out.dsk
+
+Note: When linking a disk image from GitHub, you must use a RAW file URL (bytes), not the HTML viewer.
+ Use
+   ...github.com/<owner>/<repo>/raw/<branch>/...
+ do not use
+   ...github.com/<owner>/<repo>/blob/<branch>/...  (blob returns HTML)
+
 
 Akalabeth
 https://github.com/apple2abandonware/abandonware/tree/master/-%20Games/-%20Adventure/-%20World%20fantasy/-%20Origin/Ultima/Ultima%200%20-%20Akalabeth
