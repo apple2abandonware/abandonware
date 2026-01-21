@@ -4,6 +4,9 @@ https://www.lasermego.com/a2sw/froggo
 https://github.com/pmwasson/froggo/
 https://github.com/pmwasson/froggo/raw/refs/heads/main/disk/froggo.dsk
 
+Also available to play online via Apple2TS emulator
+https://apple2ts.com/?theme=minimal&#https://github.com/pmwasson/froggo/raw/refs/tags/v1.2.2/disk/froggo.dsk
+
 ____
 
 How to play
