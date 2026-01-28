@@ -17,7 +17,7 @@ Note: When linking a disk image from GitHub, you must use a RAW file URL (bytes)
    ...github.com/<owner>/<repo>/blob/<branch>/...  (blob returns HTML)  
 
 
-### 3)  Software download
+### 3) Software download
 
 Sites for disk image download are:  
 https://archive.org/details/apple_ii_library_4am  
@@ -35,7 +35,7 @@ To upload disk images to Asimov, open anonymous FTP connection to
 Special thanks to 4AM, San Inc, 3D0G Knight, and all those who make clean cracks.
 
 
-### 4)  Documentation
+### 4) Documentation
 
 Sites for software art and documentation are:  
 https://www.mocagh.org/  
@@ -43,7 +43,7 @@ https://www.mobygames.com/
 http://www.applearchives.com
 
 
-### 5)  For owners of actual Apple ][
+### 5) For owners of actual Apple ][
 
 If you own a real live Apple ][, try a Floppy Emu:  
 https://www.bigmessowires.com/floppy-emu/
