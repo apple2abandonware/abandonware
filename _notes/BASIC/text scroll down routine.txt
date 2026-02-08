@@ -1,0 +1,13 @@
+I can't believe I overlooked this feature for all these years ...
+I always thought there were NO text scroll down routine available from Applesoft ... scrolling up, of course ... and of course it's not difficult to program in assembly but ....
+Well, this is true for Apple ][ and ][+ but not true for //e and //c or if you have a 80 columns card ...
+So we can finally make snow fall on the text screen!
+
+10 PR#3: PRINT CHR$(17): HOME: HTAB 6: PRINT "*** LOOK MUMMY IT'S SNOWING ***": POKE 34,1
+20 VTAB 2: HTAB RND(1)*41: PRINT CHR$(42+4*INT(RND(1)+.5)) + CHR$(22)
+30 GOTO 20
+PR#3: activate the video firmware
+PRINT CHR$(17): back to 40 columns
+POKE 34,1: set scrolling window top border to VTAB 2
+PRINT CHR$(22): magic ctrl-char to scroll DOWN !
+CHR$(42+4*INT(RND(1)+.5): display an asterisk character (ascii 42) or a dot (ascii 46)
