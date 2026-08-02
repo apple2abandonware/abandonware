@@ -1,0 +1,170 @@
+
+GENIUS ep.1 Into the toy warehouses
+
+  GENERAL STARTING INFOS:
+
+  Keys:
+   BARSPACE : Start/resume game playing with keyboard / exit from pause game
+   J: Start/Resume playing with Joystick
+   ESCAPE: Pause game
+   Any motion keys or BARSPACE: exit from pause
+   Ctrl-S: Sound ON
+   Ctrl-D: Sound OFF
+   Ctrl-P: suspendes game for possible resuming
+   Ctrl-Q: Quits the game
+   Ctrl-W: Set openable doors white (unavailable on ATARI)
+   Ctrl-G: Set openable doors green (unavailable on ATARI)
+   Motions:
+   UP:ArrowUP/iI/aA/qQ(for A2 azerty)
+   LEFT:ArrowLEFT/jJ 
+   RIGHT:ArrowRIGHT/kK
+   DOWN:ArrowDOWN/mM/zZ/,?(for A2 azerty)/wW(for A2 azerty),/yY(for A2 and CPLUS4 qzertz) 
+         
+  Time expired rules:
+    When time is expired, 1 life is taken and score is set back to current level entry points.
+    The extra lifes catched during the level in case of time expire won't be counted at the level retry restart, 
+    but still can be used during the currente level.
+    This is for preventing speculations that could take place if staying always in one level making time expire to 
+    gain extra point in an infinite way due to the extra life taken in target room.
+    The lifes that are consumed are not restored at the level restart when time is expired.
+   
+  Keys points:
+   Key: 50 pts
+
+  Bonus time left points:
+   1sec:100 pts
+
+  Jolly objects features & points:
+    Detonator:Destroys all small killers     - 2500  pts
+    PassPTout:Unlock all remaining doors     - 2500 pts
+    KLock    :Reactivate and locks all doors - 0    pts
+    Klepsydra:Gives extra time               - 0    pts
+ 
+  SECRETS
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % DO NOT READ FROM HERE IF YOU WANT TO DISCOVER THEM WHILE PLAYING %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+  Keysequence levels list:
+   KS1 Lvls   1 - 10 + secret bonus level 10 ANTARCTIC TOY WAREHOSE    (Glacial theme)
+   KS2 Lvls  11 - 20 + secret bonus level 20 RUSSIAN TOY WAREHOUSE     (Musical theme)
+   KS3 Lvls  21 - 30 + secret bonus level 30 JAPANESE TOY WAREHOUSE    (Skyline big city theme)
+   KS4 Lvls  31 - 40 + secret bonus level 40 CHINESE TOY WAREHOUSE     (Chinese threes theme)
+   KS5 Lvls  41 - 50 + secret bonus level 50 AMERICAN TOY WAREHOUSE    (Plane airport theme)
+   KS6 Lvls  51 - 60 + secret bonus level 60 AFRICAN TOY WAREHOUSE     (Tribal sea theme)
+   KS7 Lvls  61 - 70 + secret bonus level 70 AUSTRALIAN TOY WAREHOUSE  (Formula 1 theme)
+   KS8 Lvls  71 - 80 + secret bonus level 80 EUROPEAN TOY WAREHOUSE    (Bedroom theme)
+                     + secret bonus ending level 81                 
+
+  Appearance condition for Detonator:
+    Templ Lv1 : min  1 Key  within 5  secs + rnd time
+    Templ Lv2 : min  3 Keys within 20 secs + rnd time
+    Templ Lv3 : min  4 Keys within 25 secs + rnd time
+    Templ Lv4 : min  5 Keys within 30 secs + rnd time
+    Templ Lv5 : min  6 Keys within 35 secs + rnd time
+    Templ Lv6 : min  7 Keys within 40 secs + rnd time
+    Templ Lv7 : min  8 Keys within 45 secs + rnd time
+    Templ Lv8 : min  9 Keys within 50 secs + rnd time
+    Templ Lv9 : min 10 Keys within 55 secs + rnd time
+    Templ Lv10: min 11 Keys within 75 secs + rnd time
+  
+  Appearance condition for PassPTout:
+    Templ Lv7 : min 5 Key and min 60 secs + rnd time
+    Templ Lv8 : min 5 Key and min 65 secs + rnd time
+    Templ Lv9 : min 5 Key and min 70 secs + rnd time
+    Templ Lv10: min 5 Key and min 80 secs + rnd time
+
+  Appearance condition for Klepsydra:
+    Templ Lv6 : Min 1 Key and missing 25 secs + rnd time
+    Templ Lv7 : Min 1 Key and missing 25 secs + rnd time
+    Templ Lv8 : Min 1 Key and missing 25 secs + rnd time
+    Templ Lv9 : Min 1 Key and missing 25 secs + rnd time
+    Templ Lv10: Min 1 Key and missing 25 secs + rnd time
+
+  Appearance condition for KLocket:
+    Detonator or PassPTOut or Klepsydra apparence condition have been reached.
+    Templ Lv6 :  6 Key still to catch + rnd time
+    Templ Lv7 :  7 Key still to catch + rnd time
+    Templ Lv8 :  8 Key still to catch + rnd time
+    Templ Lv9 :  9 Key still to catch + rnd time
+    Templ Lv10: 10 Key still to catch + rnd time
+
+  Simple static toys points:
+   KS1-2:100 pts
+   KS3-4:150 pts
+   KS5-6:250 pts
+   KS7-8:500 pts
+
+  Target dynamic and static (bonus lvls) toys points:
+   KS1-2:150 pts
+   KS3-4:250 pts
+   KS5-6:500 pts
+   KS7-8:1000 pts
+
+  Invisible toy points:
+    KS1-8:5000 pts
+    Placement (chambers are from top to bottom):
+    KS1: Lvl 5 Left  ROOM 2
+    kS2: Lvl 2 Left  ROOM 1
+    kS3: Lvl 7 Right ROOM 5 
+    KS4: Lvl 3 Right ROOM 1 
+    KS5: Lvl 1 Bottom right
+    KS6: Lvl 6 Left  ROOM 2
+    kS7: Lvl 4 Left  ROOM 1
+    KS8: lvl 8 Left  ROOM 2
+
+ Bonus lifes left points (if all 8 Keys sequences are completed): 
+   1life:100pts
+
+ Secret bonus lifes:
+    Key sequence 2 lvls (L16:16sec:10lf)
+    Key sequence 4 lvls (L36:36sec:15lf)
+    Key sequence 6 lvls (L56:56sec:20lf)
+    On these particular levels:16 36 56	
+	if one of the 2 target room big doors is opened exactly when time left is equal to curr level 
+	some extra lifes will appeae available to be caught in target room.
+    This bonus is catchable only one time for each of the mentioned levels. If bounus lifes 
+    are activated and same level is repeated due to time expire or game suspension, the bonus lifes
+	for that specific level will not be available anymore.
+    If level time expires, lifes eventually cathed are not counted at the next level retry
+
+ Secret bonus points levels at the end of each key sequence are activated when:
+    All detonator are enabled and catched in current keyseq
+    All PassPTout are enabled and catched  in current keyseq
+
+ Secret final points winning bonus lvl 81 is activated when:
+    All key sequences bonus levels have been activated due to already mentioned conditions.
+ 
+ Secret Ghost unkillable mode is acquired whem:
+    Keysequence is >=6 and levels last digit is 8,9 or 0, in those cases if any door 
+    is opened exactly when the last digit of time left is equal to last digit
+    of curr level (ex time left 98 and level 128) for 10 seconds Genius enters ghost unkilled mode 
+    and is not killed by small and big killer objects, after those secs Genius becomes killable again.
+
+Secret passages:
+    Keysequence 2 : Right basement 2 at full right position, Genius can pass to the lower basement.
+	Keysequence 3 : Top right basement 2, Genius can pass to upper top right basement.
+	Keysequence 8 : bottom left basement, Genius can pass to the upper basement.
+
+Secret Dying places:
+    Keysequence 8: Mid top chamber, below target room, at times Genius might die.
+
+Max Points diagram:
+Simple toys:   		151.600
+PPtout:         	 80.000
+Keys:           	 60.400
+Detona:        	 	200.000  
+target toys:    	 38.000
+Invisible toys  	 40.000
+bonus lvl pts : 	 49.400
+Bonus lfs left:  	  9.900
+Final lvl pts : 	 50.000
+					679.500
+
+Timeleft Bonus:  100.000 ( estimate lvls 1-5:  15,20,20,30,40 sec left) 
+Timeleft Bonus:  200.000 ( estimate lvls 6-10: 40,45,50,55,55 sec left)
+				 300.000 pts
+
+max reachable score -> 979.500 pts

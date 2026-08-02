@@ -1,0 +1,194 @@
+
+GENIUS ep.2 Into the toy caves	
+
+  GENERAL STARTING INFOS:
+
+  Keys:
+   BARSPACE : Start/resume game playing with keyboard / exit from pause game
+   J: Start/Resume playing with Joystick
+   ESCAPE: Pause game
+   Any motion keys or BARSPACE: exit from pause
+   Ctrl-S: Sound ON
+   Ctrl-D: Sound OFF
+   Ctrl-P: suspendes game for possible resuming
+   Ctrl-Q: Quits the game
+   Ctrl-W: Set openable doors white (unavailable on ATARI)
+   Ctrl-G: Set openable doors green (unavailable on ATARI)
+   Motions:
+   UP:ArrowUP/iI/aA/qQ(for A2 azerty)
+   LEFT:ArrowLEFT/jJ 
+   RIGHT:ArrowRIGHT/kK
+   DOWN:ArrowDOWN/mM/zZ/,?(for A2 azerty)/wW(for A2 azerty),/yY(for A2 and CPLUS4 qzertz) 
+            
+  Time expired rules:
+    When time is expired, 1 life is taken and score is set back to current level entry points.
+    The extra lifes catched during the level in case of time expire won't be counted at the level retry restart, 
+    but still can be used during the currente level.
+    This is for preventing speculations that could take place if staying always in one level making time expire to 
+    gain extra point in an infinite way due to the extra life taken in target room.
+    The lifes that are consumed are not restored at the level restart when time is expired.
+   
+  Keys points:
+   Key: 50 pts
+
+  Bonus time left points:
+   1sec:100 pts
+
+  Jolly objects features & points:
+    Detonator:Destroys all small killers     - 2500  pts
+    PassPTout:Unlock all remaining doors     - 2500 pts
+    KLock    :Reactivate and locks all doors - 0    pts
+    Klepsydra:Gives extra time               - 0    pts
+ 
+  SECRETS
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  % DO NOT READ FROM HERE IF YOU WANT TO DISCOVER THEM WHILE PLAYING %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+  Keysequence levels list:
+   KS1 Lvls   1 - 10 + secret bonus level 10 GUBEVAC TOY CAVE  	  
+   KS2 Lvls  11 - 20 + secret bonus level 20 PIRANHA BAY TOY CAVE     
+   KS3 Lvls  21 - 30 + secret bonus level 30 CRAZY STALACTITES TOY CAVE     
+   KS4 Lvls  31 - 40 + secret bonus level 40 TUTANKHAMUN TOY CAVE         
+   KS5 Lvls  41 - 50 + secret bonus level 50 FROZEN WATERFALLS TOY CAVE     
+   KS6 Lvls  51 - 60 + secret bonus level 60 DEAD VOLCANO TOY CAVE     
+   KS7 Lvls  61 - 70 + secret bonus level 70 ENDLESS SPIRAL TOY CAVE     
+   KS8 Lvls  71 - 80 + secret bonus level 80 DANGEROUS VORTEX TOY CAVE     
+                     + secret bonus ending level 81                 
+
+  Appearance condition for Detonator:
+    Templ Lv1 : min  1 Key  within 5  secs + rnd time
+    Templ Lv2 : min  3 Keys within 20 secs + rnd time
+    Templ Lv3 : min  4 Keys within 25 secs + rnd time
+    Templ Lv4 : min  5 Keys within 30 secs + rnd time
+    Templ Lv5 : min  6 Keys within 35 secs + rnd time
+    Templ Lv6 : min  7 Keys within 40 secs + rnd time
+    Templ Lv7 : min  8 Keys within 45 secs + rnd time
+    Templ Lv8 : min  9 Keys within 50 secs + rnd time
+    Templ Lv9 : min 10 Keys within 55 secs + rnd time
+    Templ Lv10: min 11 Keys within 75 secs + rnd time
+  
+  Appearance condition for PassPTout:
+    Templ Lv7 : min 5 Key and min 60 secs + rnd time
+    Templ Lv8 : min 5 Key and min 65 secs + rnd time
+    Templ Lv9 : min 5 Key and min 70 secs + rnd time
+    Templ Lv10: min 5 Key and min 80 secs + rnd time
+
+  Appearance condition for Klepsydra:
+    Templ Lv6 : Min 1 Key and missing 25 secs + rnd time
+    Templ Lv7 : Min 1 Key and missing 25 secs + rnd time
+    Templ Lv8 : Min 1 Key and missing 25 secs + rnd time
+    Templ Lv9 : Min 1 Key and missing 25 secs + rnd time
+    Templ Lv10: Min 1 Key and missing 25 secs + rnd time
+
+  Appearance condition for KLocket:
+    Detonator or PassPTOut or Klepsydra apparence condition have been reached.
+    Templ Lv6 :  6 Key still to catch + rnd time
+    Templ Lv7 :  7 Key still to catch + rnd time
+    Templ Lv8 :  8 Key still to catch + rnd time
+    Templ Lv9 :  9 Key still to catch + rnd time
+    Templ Lv10: 10 Key still to catch + rnd time
+
+  Simple static toys points:
+   KS1-2:100 pts
+   KS3-4:150 pts
+   KS5-6:250 pts
+   KS7-8:500 pts
+
+  Water static toys points: 
+   KS1-2:150 pts
+   KS3-4:250 pts
+   KS5-6:500 pts
+   KS7-8:1000 pts
+   
+  Water special dynamic toys points:
+   KS1-2:250 pts
+   KS3-4:500 pts
+   KS5-6:1000 pts
+   KS7-8:5000 pts
+   
+  Target dynamic and static (bonus lvls) toys points:
+   KS1-2:150 pts
+   KS3-4:250 pts
+   KS5-6:500 pts
+   KS7-8:1000 pts
+     
+  Invisible toy points:
+    KS1-8:5000 pts
+    Placement:
+    KS1: Lvl 2 ROOM 10
+    kS2: Lvl 4 ROOM 12
+    kS3: Lvl 1 MIDDLE ROOM (on top)
+    KS4: Lvl 3 ROOM 13
+    KS5: Lvl 6 ROOM 14
+    KS6: Lvl 8 ROOM 13 (on top)
+    kS7: Lvl 5 ROOM 13
+    KS8: lvl 7 ROOM VORTEX TOP RIGHT (beyond top right rock)
+
+ Bonus lifes left points (if all 8 Keys sequences are completed): 
+   1life:100pts
+   
+ Secret bonus lifes:
+    Key sequence 1 lvls (L04:04sec:05lf L05:05sec:05lf 	L06:06sec:05lf)
+    Key sequence 2 lvls (L14:14sec:05lf L15:15sec:05lf 	L16:16sec:05lf)
+    Key sequence 3 lvls (				L25:25sec:10lf 	L26:26sec:10lf)
+    Key sequence 5 lvls (								L46:46sec:15lf)
+    Key sequence 6 lvls (								L56:56sec:20lf)
+	On these particular levels:04 05 06 14 15 16 25 26 46 56
+	if one of the 2 target room big doors is opened exactly when time left is equal to curr level 
+	some extra lifes will appeae available to be caught in target room.
+    This bonus is catchable only one time for each of the mentioned levels. If bounus lifes 
+    are activated and same level is repeated due to time expire or game suspension, the bonus lifes
+	for that specific level will not be available anymore.
+    If level time expires, lifes eventually cathed are not counted at the next level retry
+
+ Secret bonus points levels at the end of each key sequence are activated when:
+    All detonator are enabled and catched in current keyseq
+    All PassPTout are enabled and catched  in current keyseq
+
+ Secret final points winning bonus lvl 81 is activated when:
+    All key sequences bonus levels have been activated due to already mentioned conditions.
+ 
+ Secret Ghost unkillable mode is acquired whem:
+    Keysequence is >=6 and levels last digit is 8,9 or 0, in those cases if any door 
+    is opened exactly when the last digit of time left is equal to last digit
+    of curr level (ex time left 98 and level 68) for 10 seconds Genius enters ghost unkilled mode 
+    and is not killed by small and big killer objects, after those secs Genius becomes killable again.
+
+Secret passages:
+    Keysequence 1: Right 3rd cave, genius can jump on the upper cave (caution, he can get trapped in rocks)
+	Keysequence 1: Genius can pass directly to the target room from the inner left side of the middle water cave, 
+	               of course when deadly water waves are turned off!
+	Keysequence 3: Third cave from bottom left, genius can pass to upper cave.
+	Keysequence 4: Top right rock, on the right of target room, Genius can pass through the the lower tunnel on 
+				   the right when doors in that area are openable.
+	Keysequence 4: Left midle cave, genius can pass to the upper cave when doors are openable/opened.
+	Keysequence 4: Bottom cave, genius can pass in 3 spots to the upper middle cave when doors are openable/opened.
+	Keysequence 7: Lower left part of the spiral, some times a secret passage leads to internal left part of spiral, 
+				   warning genius might be trapped in rocks!	               
+	Keysequence 7: Lower right part of the spiral, some times a secret passage leads to internal right part of spiral, 
+				   warning genius might be trapped in rocks!	               
+    Keysequence 8: Upper left and right sides of the circle inner area. At times Genius can pass from the inside to the outside.
+	Keysequence 8: Upper right of the circle inner area. Genius can pass through to the upper top tunnel.
+
+Max Points diagram:
+Static toys:  					151.600
+Water static toys points: 		19.000
+Water special dynamic toys:		6.750
+PPtout:         	 			80.000
+Keys:           	 			60.400
+Detona:        					200.000  
+target toys:    	 			38.000
+Invisible toys   	 			40.000
+bonus lvl pts : 	 			49.400
+Bonus lfs left:  	  			9.900
+Final lvl pts :      			50.000
+								705.250
+
+Timeleft Bonus:  100.000 ( estimate lvls 1-5:  15,20,20,30,40 sec left) 
+Timeleft Bonus:  194.000 ( estimate lvls 6-10: 40,45,50,55,55 sec left)
+          		 294.000 pts
+
+Approx. max reachable score -> 999.250 pts
